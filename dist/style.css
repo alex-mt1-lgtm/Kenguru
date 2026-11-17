@@ -62,3 +62,18 @@ body{font-size:18px;line-height:1.5}.player .condition{margin:18px 0 24px;font-s
 .share-task .new-attempt{display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:8px 12px;margin-top:6px;border:1px solid #c4d4bf;border-radius:9px;background:#fffefa;color:var(--ink);text-decoration:none}
 
 .learner-profiles{margin:14px 0;border:1px solid #d1ddcc;border-radius:10px;background:#f2f6ed;padding:10px 14px;color:var(--ink);font-size:16px;line-height:1.5}.learner-profiles summary{font-weight:700}.learner-profiles p{margin:8px 0}.learner-profiles #profileStatus:empty{display:none}.learner-profiles form{display:flex;flex-wrap:wrap;align-items:end;gap:8px;margin-top:10px}.profile-field{display:grid;gap:4px;width:min(100%,17rem)}.learner-profiles input,.learner-profiles select,.learner-profiles button{font:inherit;color:var(--ink);border:1px solid #bdcdb9;background:#fffefa;border-radius:8px;min-height:44px;padding:7px 10px;width:100%}.learner-profiles form button{width:auto}
+
+.previous-editions a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 8px 14px;
+  border: 1px solid #cad8c7;
+  border-radius: 8px;
+  background: #fffefa;
+  color: var(--ink);
+  font-size: 1rem;
+  font-weight: bold;
+  text-underline-offset: 4px;
+}
