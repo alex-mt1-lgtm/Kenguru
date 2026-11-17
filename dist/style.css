@@ -51,6 +51,10 @@ body{font-size:18px;line-height:1.5}.player .condition{margin:18px 0 24px;font-s
 .draft-controls .draft-hint{margin:8px 0 0;font-size:14px;color:var(--muted)}
 .variant-picker{justify-self:start;display:flex;align-items:center;gap:8px;font-size:16px}
 .variant-picker select{padding:5px;font-size:16px}
-#stage>#drawingLayer{inset:auto;left:var(--drawing-left,0);top:var(--drawing-top,0);width:var(--drawing-width,100%);height:var(--drawing-height,100%);overflow:hidden}
-#stage>.draft-paper{width:100%;height:auto;aspect-ratio:640 / 300;max-width:none;min-height:0;max-height:none;background:#fffefa;border-radius:10px}
-#stage>.draft-paper[data-paper=grid]{background:#fffefa}
+#drawingLayer{inset:auto;left:var(--drawing-left,0);top:var(--drawing-top,0);width:var(--drawing-width,100%);height:var(--drawing-height,100%);max-width:none;min-height:0;max-height:none;overflow:hidden}
+#stage>#drawingLayer{inset:auto;left:var(--drawing-left,0);top:var(--drawing-top,0);width:var(--drawing-width,100%);height:var(--drawing-height,100%)}
+#drawingLayer #drawingMarks,#drawingLayer #drawingHitArea{pointer-events:none}
+#drawingLayer[data-visible=true]:not([data-tool=pointer]) #drawingHitArea{pointer-events:all}
+#drawingLayer[data-visible=false]{display:none}
+.draft-board{position:relative;width:100%;margin-top:12px;background:#fffefa;outline:1px solid #bacdb8;border-radius:9px;overflow:hidden}
+.draft-board>svg:first-child{display:block;width:100%;height:auto;aspect-ratio:640 / 300}

@@ -15,7 +15,7 @@ test('answer persistence, navigation, repeat, true pause and automatic progressi
 test('automatic playback waits for an independent answer',()=>{const a=app();a.run('selectTask(1);start()');a.advance(2000);assert.equal(a.run('current().step'),0);assert.equal(a.run('playing'),false);assert.match(a.element('feedback').textContent,/выбери/);a.run('current().selected=2;start()');a.advance(1600);assert.equal(a.run('current().step'),1)});
 test('firefighter moves every display frame and continues at the exact split',()=>{const a=app();const start=JSON.parse(a.run('JSON.stringify(fireMotion(2,0))'));assert.deepEqual(start.points,[[40,0]]);let previous=0;for(let ms=16;ms<=2000;ms+=16){const distance=a.run(`fireMotion(2,${ms}/FRAME_MS).distance`);assert.ok(distance>previous);assert.ok(distance-previous<=2.01);previous=distance}assert.equal(a.run('Math.abs(fireMotion(2,100).distance-fireMotion(3,0).distance)<1e-8'),true);assert.equal(a.run('fireMotion(2,100).climbs'),3);assert.ok(a.run('fireMotion(3,0.02).distance>fireMotion(3,0).distance'));assert.equal(a.run('fireMotion(3,100).climbs'),6);assert.equal(a.run('Math.round(sceneDuration(1,2)-FIRE_DISTANCES[FIRE_SPLIT]/FIRE_SPEED*1000)'),400)});
 test('fractional frames produce valid scenes, including the flying ball',()=>{const a=app();for(let t=0;t<24;t++)for(let s=0;s<a.run(`LESSONS[${t}].steps.length`);s++)for(const f of [0,.01,.12,.5,1.01,2.25,4.99,8.1]){const markup=a.run(`SCENES[${t}](${s},${f})`);assert.ok(!/NaN|undefined/.test(markup),`task ${t} step ${s} frame ${f}`)}assert.notEqual(a.run('footballScene(2,0.01)'),a.run('footballScene(2,0.04)'));assert.notEqual(a.run('areaScene(3,.01)'),a.run('areaScene(3,.04)'))});
-test('annotations are isolated by task, step and variant; clear can be undone',()=>{const a=app();a.run('selectTask(0);workVariant=0;addMark({type:"pen",color:"#e9693e",points:[[220,30],[240,50]]});renderWorkspace()');assert.equal(a.run('getSheet().marks.length'),1);assert.match(a.element('drawingLayer').innerHTML,/polyline/);a.run('workVariant=1');assert.equal(a.run('getSheet().marks.length'),0);a.run('workVariant=0;clearDrawing()');assert.equal(a.run('getSheet().marks.length'),0);a.run('undoDrawing()');assert.equal(a.run('getSheet().marks.length'),1);a.run('navigate(1)');assert.equal(a.run('getSheet().marks.length'),0);a.run('navigate(0)');assert.equal(a.run('getSheet().marks.length'),1);a.run('selectTask(2)');assert.equal(a.run('getSheet().marks.length'),0);a.run('selectTask(0)');assert.equal(a.run('getSheet().marks.length'),1)});
+test('annotations are isolated by task, step and variant; clear can be undone',()=>{const a=app();a.run('selectTask(0);workVariant=0;addMark({type:"pen",color:"#e9693e",points:[[220,30],[240,50]]});renderWorkspace()');assert.equal(a.run('getSheet().marks.length'),1);assert.match(a.element('drawingMarks').innerHTML,/polyline/);a.run('workVariant=1');assert.equal(a.run('getSheet().marks.length'),0);a.run('workVariant=0;clearDrawing()');assert.equal(a.run('getSheet().marks.length'),0);a.run('undoDrawing()');assert.equal(a.run('getSheet().marks.length'),1);a.run('navigate(1)');assert.equal(a.run('getSheet().marks.length'),0);a.run('navigate(0)');assert.equal(a.run('getSheet().marks.length'),1);a.run('selectTask(2)');assert.equal(a.run('getSheet().marks.length'),0);a.run('selectTask(0)');assert.equal(a.run('getSheet().marks.length'),1)});
 test('cell hit tests and ladder rails follow the learner drag',()=>{const a=app();assert.equal(a.run('JSON.stringify(cellAt([102,15],{x:102,y:15,dx:62,dy:58,cols:7,rows:4}))'),'[102,15,62,58]');assert.equal(a.run('cellAt([20,20],{x:102,y:15,dx:62,dy:58,cols:7,rows:4})'),null);assert.equal(a.run('ladderGeometry([0,0],[0,80]).rails.length'),2);assert.equal(a.run('ladderGeometry([0,0],[0,80]).rungs.length'),6);assert.ok(a.run('markHit({type:"line",points:[[20,20],[100,100]]},[60,60])'));assert.equal(a.run('markHit({type:"line",points:[[20,20],[100,100]]},[100,10])'),false)});
 test('learner-facing wording refers to solving rather than guessing',()=>{for(const f of ['index.html','lessons.js','app.js','workspace.js'])assert.doesNotMatch(fs.readFileSync(path.join(root,'dist',f),'utf8'),/догад/iu)});
 test('fast cell painting has no gaps and the eraser removes a single cell',()=>{const a=app();a.run('selectTask(2);activeSheet=sheetKey();draft={type:"fill",color:"#e9693e",points:[],cells:[]};extendMark([110,25]);extendMark([490,25]);finishMark()');assert.equal(a.run('getSheet().marks[0].cells.length'),7);a.run('activeSheet=sheetKey();workingMarks=getSheet().marks.slice();extendMark([110,25]);finishMark()');assert.equal(a.run('getSheet().marks[0].cells.length'),6);a.run('undoDrawing()');assert.equal(a.run('getSheet().marks[0].cells.length'),7)});
@@ -23,7 +23,7 @@ test('square choices have no cell grid; the dropdown really changes the drawing'
 test('cube lesson rejects each candidate before testing D and reaches its real final step',()=>{const a=app();a.run('selectTask(6)');assert.equal(a.run('LESSONS[6].steps.length'),9);for(let s=2;s<=5;s++){a.run(`navigate(${s})`);assert.match(a.element('sceneTitle').textContent,new RegExp('^'+['А','Б','В','Г'][s-2]+':'));assert.match(a.element('scene').innerHTML,/После падения · условие/);assert.match(a.element('scene').innerHTML,/не подходит/);assert.equal(a.run(`CUBE_HEIGHTS[${s-2}][${[3,3,2,0][s-2]}]<TARGET_HEIGHTS[${[3,3,2,0][s-2]}]`),true)}a.run('navigate(6)');assert.equal(a.element('next').hidden,false);assert.doesNotMatch(a.element('feedback').textContent,/Ответ Д/);a.run('navigate(7)');assert.match(a.element('play').textContent,/Убрать кубик/);a.run('navigate(8)');assert.equal(a.element('next').hidden,true);assert.equal(a.element('nextTask').hidden,false);assert.equal(a.element('counter').textContent,'09 / 09');assert.match(a.element('scene').innerHTML,/Все четыре столбика совпали/);a.run('navigate(0);current().selected=4;start()');a.advance(55000);assert.equal(a.run('current().step'),8);assert.equal(a.run('playing'),false)});
 test('all three groups keep their place and the final task wraps to the first',()=>{const a=app();assert.equal(a.run('LESSONS.length'),24);assert.equal(a.run('SCENES.length'),24);for(const points of [4,5,3]){a.element('levelPicker').click({target:{closest:()=>({dataset:{points:String(points)}})}});assert.equal(a.run('selectedPoints'),points);assert.equal(a.run('LESSONS[task].points'),points);assert.equal((a.element('taskPicker').innerHTML.match(/data-task=/g)||[]).length,8)}a.run('selectTask(13);current().selected=1;navigate(3);selectTask(19)');a.element('levelPicker').click({target:{closest:()=>({dataset:{points:'4'}})}});assert.equal(a.run('task'),13);assert.equal(a.run('current().step'),3);assert.equal(a.run('current().selected'),1);a.run('selectTask(10);navigate(0)');assert.match(a.element('answers').innerHTML,/disks-option-4/);a.run('selectTask(22);navigate(0)');assert.match(a.element('answers').innerHTML,/cookie-choice/);a.run('selectTask(23);navigate(lastStep())');assert.match(a.element('nextTask').textContent,/К первой/);a.element('nextTask').onclick();assert.equal(a.run('task'),0);assert.equal(a.run('selectedPoints'),3)});
 test('coin lesson finishes Tonya and Dima before offering an optional check',()=>{const a=app();a.run('selectTask(8)');assert.equal(a.run('LESSONS[8].steps.map(s=>s[0]).join(",")'),'Твой выбор,Правила,Тоня,Дима,Ответ');for(let s=0;s<4;s++){a.run(`navigate(${s})`);assert.equal(a.element('alternative').hidden,true);assert.doesNotMatch(a.element('scene').innerHTML,/все возможные итоги/)}a.run('navigate(4)');assert.equal(a.element('alternative').hidden,false);assert.equal(a.element('alternative').open,false);assert.match(a.element('alternativeTitle').textContent,/Другой способ/);assert.match(a.element('scene').innerHTML,/2 \+ 1 = 3/);assert.equal((a.element('alternativeTable').innerHTML.match(/scope="row"/g)||[]).length,5);a.element('alternative').open=true;a.run('selectTask(9)');assert.equal(a.element('alternative').hidden,true);assert.equal(a.element('alternative').open,false)});
-test('fruit scheme begins blank and is filled by the learner, not by deduction order',()=>{const a=app();a.run('selectTask(9);navigate(0)');assert.equal(a.run('FRUIT_WORK.preferences.flat().filter(v=>v===null).length'),25);assert.equal(a.run('FRUIT_WORK.assignment.filter(v=>v===null).length'),5);assert.equal(a.run('FRUIT_WORK_ROWS.map(i=>FOUR_FRUIT_PEOPLE[i]).join(",")'),'Аня,Боря,Коля,Денис,Эльза');assert.equal((a.element('scene').innerHTML.match(/class="fruit-cell unknown"/g)||[]).length,25);assert.doesNotMatch(a.element('scene').innerHTML,/class="fruit-cell likes"/);assert.equal(a.element('drawingLayer').hidden,true);assert.equal(a.element('drawingTools').hidden,true);a.element('scene').click({target:{closest:selector=>selector==='[data-fruit-row]'?{dataset:{fruitRow:'0',fruitColumn:'2'}}:null}});assert.equal(a.run('FRUIT_WORK.preferences[0][2]'),true);a.run('cycleFruitPreference(0,2)');assert.equal(a.run('FRUIT_WORK.preferences[0][2]'),false);a.run('cycleFruitPreference(0,2)');assert.equal(a.run('FRUIT_WORK.preferences[0][2]'),null);a.element('drawingWorkspace').open=true;a.run('navigate(1)');assert.equal(a.element('drawingLayer').hidden,false)});
+test('fruit scheme begins blank and is filled by the learner, not by deduction order',()=>{const a=app();a.run('selectTask(9);navigate(0)');assert.equal(a.run('FRUIT_WORK.preferences.flat().filter(v=>v===null).length'),25);assert.equal(a.run('FRUIT_WORK.assignment.filter(v=>v===null).length'),5);assert.equal(a.run('FRUIT_WORK_ROWS.map(i=>FOUR_FRUIT_PEOPLE[i]).join(",")'),'Аня,Боря,Коля,Денис,Эльза');assert.equal((a.element('scene').innerHTML.match(/class="fruit-cell unknown"/g)||[]).length,25);assert.doesNotMatch(a.element('scene').innerHTML,/class="fruit-cell likes"/);assert.equal(a.element('drawingLayer').attributes['data-visible'],'false');assert.equal(a.element('drawingTools').hidden,true);a.element('scene').click({target:{closest:selector=>selector==='[data-fruit-row]'?{dataset:{fruitRow:'0',fruitColumn:'2'}}:null}});assert.equal(a.run('FRUIT_WORK.preferences[0][2]'),true);a.run('cycleFruitPreference(0,2)');assert.equal(a.run('FRUIT_WORK.preferences[0][2]'),false);a.run('cycleFruitPreference(0,2)');assert.equal(a.run('FRUIT_WORK.preferences[0][2]'),null);a.element('drawingWorkspace').open=true;a.run('navigate(1)');assert.equal(a.element('drawingLayer').attributes['data-visible'],'true')});
 test('fruit checks reject incomplete, incorrect and repeated choices without completing the answer',()=>{const a=app();a.run('selectTask(9)');assert.match(a.run('checkFruitPreferences()'),/Заполни все/);a.run('FRUIT_WORK.preferences=Array.from({length:5},()=>Array(5).fill(true))');assert.match(a.run('checkFruitPreferences()'),/неточности/);assert.equal(a.run('FRUIT_WORK.preferences.flat().every(v=>v===true)'),true);a.run('FRUIT_WORK.preferences=FRUIT_WORK_ROWS.map(source=>FOUR_FRUITS.map((_,column)=>FOUR_FRUIT_PREFS[source].includes(column)))');assert.match(a.run('checkFruitPreferences()'),/соответствует/);assert.equal(a.run('current().selected'),null);assert.match(a.run('checkFruitAssignment()'),/всем пяти/);a.run('FRUIT_WORK.assignment=[2,0,3,4,4]');assert.match(a.run('checkFruitAssignment()'),/все взяли разное/);a.run('FRUIT_WORK.assignment=[0,2,3,4,1]');assert.match(a.run('checkFruitAssignment()'),/не любит/);a.run('FRUIT_WORK.assignment=[2,0,3,4,1]');assert.match(a.run('checkFruitAssignment()'),/Все условия выполнены/);assert.equal(a.run('current().selected'),null);a.run('selectTask(0);selectTask(9)');assert.equal(a.run('FRUIT_WORK.assignment.join(",")'),'2,0,3,4,1');a.element('repeat').onclick();assert.equal(a.run('FRUIT_WORK.assignment.every(v=>v===null)'),true);assert.equal(a.run('FRUIT_WORK.preferences.flat().every(v=>v===null)'),true)});
 test('fruit dropdown keeps the selected value through rendering',()=>{const a=app();a.run('selectTask(9)');a.element('scene').change({target:{closest:()=>({dataset:{fruitPerson:'1'},value:'3'})}});assert.equal(a.run('FRUIT_WORK.assignment[1]'),3);assert.match(a.element('scene').innerHTML,/value="3" selected/);assert.equal(a.run('FRUIT_WORK.assignment.filter(v=>v!==null).length'),1)});
 
@@ -81,15 +81,16 @@ test('an unavailable browser store permits opening and navigating lessons', () =
 
 test('draft notes and scratch paper follow the task, while special tools follow the surface',()=>{
   const a=app(true), workspace=a.element('drawingWorkspace');
-  assert.equal(a.element('drawingLayer').hidden,true);
+  assert.equal(a.element('drawingLayer').attributes['data-visible'],'false');
   workspace.open=true;
   workspace.toggle();
-  assert.equal(a.element('drawingLayer').hidden,false);
+  assert.equal(a.element('drawingLayer').attributes['data-visible'],'true');
   assert.equal(a.run('canDrawWith("fill") || canDrawWith("ladder")'),false);
   a.element('draftNotes').input({target:{value:'Проверю площадь'}});
   a.element('drawingSurface').change({target:{value:'grid'}});
-  assert.equal(a.element('scene').hidden,true);
-  assert.equal(a.element('draftPaper').hidden,false);
+  assert.equal(a.element('scene').hidden,false);
+  assert.equal(a.element('draftBoard').hidden,false);
+  assert.match(a.element('draftPaper').innerHTML,/M20 0V300/);
   assert.equal(a.run('canDrawWith("fill")'),true);
   a.run('addMark({type:"pen",color:"#e9693e",points:[[10,10],[20,20]]});navigate(1)');
   assert.equal(a.element('scene').hidden,false);
@@ -104,10 +105,42 @@ test('draft notes and scratch paper follow the task, while special tools follow 
   assert.equal(a.element('draftNotes').value,'Проверю площадь');
   a.run('selectTask(9);navigate(0)');
   assert.equal(a.element('scene').hidden,false);
-  assert.equal(a.element('drawingLayer').hidden,true);
+  assert.equal(a.element('drawingLayer').attributes['data-visible'],'false');
   a.element('drawingSurface').change({target:{value:'plain'}});
-  assert.equal(a.element('drawingLayer').hidden,false);
+  assert.equal(a.element('drawingLayer').attributes['data-visible'],'true');
   workspace.open=false;
   workspace.toggle();
   assert.equal(a.element('scene').hidden,false);
+});
+
+test('pencil captures strokes on blank space without hiding the 2026 lesson',()=>{
+  const a=app(true);
+  a.run('selectYear(2026)');
+  const lessonImage=a.element('scene').innerHTML;
+  const workspace=a.element('drawingWorkspace'),layer=a.element('drawingLayer');
+  const stage=a.element('stage'),board=a.element('draftBoard');
+  stage.appendChild=child=>{child.parentElement=stage};
+  board.appendChild=child=>{child.parentElement=board};
+  layer.parentElement=stage;
+  layer.viewBox={baseVal:{x:0,y:0,width:640,height:300}};
+  layer.getScreenCTM=()=>({inverse(){return this}});
+  layer.createSVGPoint=()=>({matrixTransform(){return this}});
+  layer.setPointerCapture=()=>{};
+  workspace.open=true;
+  workspace.toggle();
+  a.element('drawingSurface').change({target:{value:'grid'}});
+  assert.equal(layer.parentElement,board);
+  assert.equal(a.element('scene').innerHTML,lessonImage);
+  assert.equal(a.element('scene').hidden,false);
+  a.element('drawingTools').click({target:{closest:()=>({dataset:{tool:'pen'}})}});
+  const pointer=(x,y)=>({clientX:x,clientY:y,pointerId:1,pointerType:'touch',button:0,preventDefault(){}});
+  layer.pointerdown(pointer(40,40));
+  layer.pointermove(pointer(70,60));
+  layer.pointerup(pointer(100,80));
+  assert.match(a.element('drawingMarks').innerHTML,/40,40 70,60 100,80/);
+  assert.equal(a.run('getSheet().marks.length'),1);
+  a.element('drawingSurface').change({target:{value:'scene'}});
+  assert.equal(layer.parentElement,stage);
+  assert.equal(board.hidden,true);
+  assert.equal(a.run('getSheet().marks.length'),0);
 });

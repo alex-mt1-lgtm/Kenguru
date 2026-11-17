@@ -67,14 +67,24 @@ function syncDrawingViewport() {
   layer.setAttribute('viewBox', svgDiagram?.getAttribute('viewBox') || PAPER_VIEWBOX);
   layer.setAttribute('preserveAspectRatio', svgDiagram
     ? svgDiagram.getAttribute('preserveAspectRatio') || 'xMidYMid meet' : 'none');
+  const box = (svgDiagram?.getAttribute('viewBox') || PAPER_VIEWBOX).trim().split(/[\s,]+/);
+  ['x', 'y', 'width', 'height'].forEach((name, index) => $('drawingHitArea').setAttribute(name, box[index]));
   const target = svgDiagram || surface;
   if (!target.getBoundingClientRect) return;
   const rect = target.getBoundingClientRect();
-  const stage = $('stage').getBoundingClientRect();
+  const stage = layer.parentElement.getBoundingClientRect();
   layer.style.setProperty('--drawing-left', `${rect.left - stage.left}px`);
   layer.style.setProperty('--drawing-top', `${rect.top - stage.top}px`);
   layer.style.setProperty('--drawing-width', `${rect.width}px`);
   layer.style.setProperty('--drawing-height', `${rect.height}px`);
+}
+
+function renderDrawingMarks() {
+  const sheet = getSheet();
+  const editingSheet = activeSheet === sheetKey();
+  const marks = editingSheet && workingMarks ? workingMarks : sheet.marks;
+  const preview = editingSheet && draft ? [...marks, draft] : marks;
+  $('drawingMarks').innerHTML = preview.map(markMarkup).join('');
 }
 
 function renderWorkspace() {
@@ -88,23 +98,20 @@ function renderWorkspace() {
   }
   if (!canDrawWith(drawingTool)) drawingTool = 'pointer';
   const paperVisible = workspace.open && !playing && drawingSurface !== 'scene';
-  $('scene').hidden = paperVisible;
-  const paper = $('draftPaper');
-  paper.hidden = !paperVisible;
-  paper.setAttribute('data-paper', drawingSurface);
-  paper.innerHTML = drawingSurface === 'grid' ? paperGridMarkup : '';
-  paper.setAttribute('preserveAspectRatio', 'none');
+  const board = $('draftBoard');
+  board.hidden = !paperVisible;
+  $('draftPaper').innerHTML = drawingSurface === 'grid' ? paperGridMarkup : '';
   $('drawingSurface').value = drawingSurface;
   const drawingUnavailable = interactive && !paperVisible;
   $('drawingTools').hidden = Boolean(playing) || drawingUnavailable;
 
   const layer = $('drawingLayer');
-  layer.hidden = !workspace.open || playing || drawingUnavailable;
+  const target = paperVisible ? board : $('stage');
+  if (layer.parentElement && layer.parentElement !== target) target.appendChild(layer);
+  const layerVisible = workspace.open && !playing && !drawingUnavailable;
+  layer.setAttribute('data-visible', String(Boolean(layerVisible)));
+  renderDrawingMarks();
   const sheet = getSheet();
-  const editingSheet = activeSheet === sheetKey();
-  const marks = editingSheet && workingMarks ? workingMarks : sheet.marks;
-  const preview = editingSheet && draft ? [...marks, draft] : marks;
-  layer.innerHTML = preview.map(markMarkup).join('');
   layer.setAttribute('data-tool', drawingTool);
   $('undoDrawing').disabled = !sheet.past.length;
   $('clearDrawing').disabled = !sheet.marks.length;
@@ -128,7 +135,7 @@ function renderWorkspace() {
   };
   $('drawingHint').textContent = playing ? 'Поставь показ на паузу, чтобы рисовать.'
     : drawingUnavailable ? 'Заполняй схему в задаче. Для рисования выбери отдельный лист.' : hints[drawingTool];
-  if (workspace.open && !layer.hidden) syncDrawingViewport();
+  if (layerVisible) syncDrawingViewport();
 }
 
 function finishMark() {
@@ -168,7 +175,7 @@ function pointerPoint(event, clamp = false) {
   return [Math.max(box.x, Math.min(right, p.x)), Math.max(box.y, Math.min(bottom, p.y))];
 }
 
-function extendMark(point){if(workingMarks!==null){workingMarks=workingMarks.flatMap(mark=>{if(mark.type!=='fill')return markHit(mark,point)?[]:[mark];const cells=mark.cells.filter(([x,y,w,h])=>!(point[0]>=x&&point[0]<x+w&&point[1]>=y&&point[1]<y+h));return cells.length?[{...mark,cells}]:[]})}else if(draft?.type==='fill'){const from=draft.lastPoint||point,grid=drawingGrid(),steps=Math.max(1,Math.ceil(Math.hypot(point[0]-from[0],point[1]-from[1])/((grid?Math.min(grid.dx,grid.dy):30)/3)));for(let i=0;i<=steps;i++){const t=i/steps,cell=cellAt([from[0]+(point[0]-from[0])*t,from[1]+(point[1]-from[1])*t]);if(cell&&!draft.cells.some(c=>c[0]===cell[0]&&c[1]===cell[1]))draft.cells.push(cell)}draft.lastPoint=point}else if(draft?.type==='pen'){const last=draft.points.at(-1);if(Math.hypot(point[0]-last[0],point[1]-last[1])>=2)draft.points.push(point)}else if(draft)draft.points=[draft.points[0],point];renderWorkspace()}
+function extendMark(point){if(workingMarks!==null){workingMarks=workingMarks.flatMap(mark=>{if(mark.type!=='fill')return markHit(mark,point)?[]:[mark];const cells=mark.cells.filter(([x,y,w,h])=>!(point[0]>=x&&point[0]<x+w&&point[1]>=y&&point[1]<y+h));return cells.length?[{...mark,cells}]:[]})}else if(draft?.type==='fill'){const from=draft.lastPoint||point,grid=drawingGrid(),steps=Math.max(1,Math.ceil(Math.hypot(point[0]-from[0],point[1]-from[1])/((grid?Math.min(grid.dx,grid.dy):30)/3)));for(let i=0;i<=steps;i++){const t=i/steps,cell=cellAt([from[0]+(point[0]-from[0])*t,from[1]+(point[1]-from[1])*t]);if(cell&&!draft.cells.some(c=>c[0]===cell[0]&&c[1]===cell[1]))draft.cells.push(cell)}draft.lastPoint=point}else if(draft?.type==='pen'){const last=draft.points.at(-1);if(Math.hypot(point[0]-last[0],point[1]-last[1])>=2)draft.points.push(point)}else if(draft)draft.points=[draft.points[0],point];renderDrawingMarks()}
 function showTaskDrawing() {
   drawingSurface = 'scene';
   drawingTool = 'pointer';
@@ -207,7 +214,7 @@ function setupWorkspace() {
   $('clearDrawing').onclick = () => { pause(); clearDrawing(); };
 
   layer.addEventListener('pointerdown', event => {
-    if (drawingTool === 'pointer' || event.button !== 0 || activePointer !== null) return;
+    if (drawingTool === 'pointer' || (event.pointerType === 'mouse' && event.button !== 0) || activePointer !== null) return;
     const point = pointerPoint(event);
     if (!point) return;
     event.preventDefault();
@@ -233,8 +240,9 @@ function setupWorkspace() {
     layer.addEventListener(type, event => { if (activePointer === event.pointerId) finishMark(); });
   }
   if (typeof ResizeObserver !== 'undefined') {
-    const observer = new ResizeObserver(() => { if (!layer.hidden) syncDrawingViewport(); });
+    const observer = new ResizeObserver(() => { if (layer.getAttribute('data-visible') === 'true') syncDrawingViewport(); });
     observer.observe($('stage'));
     observer.observe($('scene'));
+    observer.observe($('draftBoard'));
   }
 }
