@@ -8,6 +8,13 @@ for(const set of EXTRA_ARCHIVES){const entry={...set,indices:[]};set.lessons.for
 
 const $=id=>document.getElementById(id),LETTERS=['А','Б','В','Г','Д'];
 const CUTS=['M1 0V2H3V4','M0 4L4 0','M1 4V1H2V3H3V0','M0 1L4 3','M1 4V1H2V3H3V1H4'];
+const CUT_DESCRIPTIONS = [
+  'От верхнего края в одной клетке от левого угла: две клетки вниз, две вправо и две вниз.',
+  'Прямая от нижнего левого угла до верхнего правого.',
+  'От нижнего края в одной клетке от левого угла: три клетки вверх, одна вправо, две вниз, одна вправо и три вверх.',
+  'Прямая от левого края в одной клетке от верха до правого края в трёх клетках от верха.',
+  'От нижнего края в одной клетке от левого угла: три клетки вверх, одна вправо, две вниз, одна вправо, две вверх и одна вправо.',
+];
 const REGIONS=[[[0,0],[1,0],[1,2],[3,2],[3,4],[0,4]],[[0,0],[4,0],[0,4]],[[0,0],[3,0],[3,3],[2,3],[2,1],[1,1],[1,4],[0,4]],[[0,0],[4,0],[4,3],[0,1]],[[1,4],[1,1],[2,1],[2,3],[3,3],[3,1],[4,1],[4,4]]];
 const ORANGE=[],GREEN=[];for(let y=0;y<4;y++)for(let x=0;x<4;x++)((x===1&&y>=1)||(x===2&&y===3)||(x===3&&y>=1)?ORANGE:GREEN).push([x,y]);
 const FOOTBALL=[1,4,7,10,2,5,8,11,3,6,9,1];
@@ -20,6 +27,44 @@ const CUBE_HEIGHTS=[[2,2,4,1],[3,1,4,1],[3,1,2,3],[1,2,3,3],[2,1,4,2]],TARGET_HE
 const states=LESSONS.map(()=>({step:0,frame:0,elapsed:0,selected:null,seen:false}));
 let task=0,playing=false,clock=null,lastTimestamp=null;
 let selectedPoints=3,selectedDataset='2024-3-4';const groupLast={'2024-3-4:3':0,'2024-3-4:4':8,'2024-3-4:5':16},datasetLast={'2024-3-4':0};
+const lessonKey = lesson => lesson.datasetId + '/' + lesson.number;
+const taskHash = index => '#zadacha=' + lessonKey(LESSONS[index]);
+const taskInUrl = () => LESSONS.findIndex((_, index) => taskHash(index) === globalThis.location?.hash);
+const progressPrefix = 'kenguru:v1:';
+
+function readProgress(key) {
+  try {
+    return JSON.parse(globalThis.localStorage?.getItem(progressPrefix + key) ?? 'null');
+  } catch {
+    return null;
+  }
+}
+
+function writeProgress(key, value) {
+  try {
+    globalThis.localStorage?.setItem(progressPrefix + key, JSON.stringify(value));
+  } catch {
+    // Progress from the current visit is still available in memory.
+  }
+}
+
+function restoreProgress() {
+  LESSONS.forEach((lesson, index) => {
+    const saved = readProgress(lessonKey(lesson));
+    if (!saved) return;
+    const step = Number.isInteger(saved.step) && saved.step >= 0 && saved.step < lesson.steps.length ? saved.step : 0;
+    const selected = Number.isInteger(saved.selected) && saved.selected >= 0 && saved.selected < lesson.choices.length ? saved.selected : null;
+    Object.assign(states[index], {step, selected, seen: saved.seen === true});
+  });
+  workVariant = states[0].selected ?? 0;
+}
+
+function saveLessonProgress() {
+  const key = lessonKey(LESSONS[task]);
+  const {step, selected, seen} = current();
+  // A reset or another tab must not erase the fact that the answer was already opened.
+  writeProgress(key, {step, selected, seen: seen || readProgress(key)?.seen === true});
+}
 const activeSet=()=>CATALOG.find(set=>set.id===selectedDataset);
 function nextTaskIndex(){const indices=activeSet().indices;return indices[(indices.indexOf(task)+1)%indices.length]}
 const reducedMotion=typeof matchMedia==='function'&&matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -28,7 +73,8 @@ const current=()=>states[task];
 const lastStep=(t=task)=>LESSONS[t].steps.length-1;
 const svg=(inside,label,box='0 0 640 300')=>`<svg viewBox="${box}" role="img" aria-label="${label}">${inside}</svg>`;
 const text=(x,y,s,cls='diagram-text')=>`<text x="${x}" y="${y}" class="${cls}">${s}</text>`;
-function square(i,fill=false,showGrid=true){return svg(`<rect width="4" height="4" fill="${fill?'#237e79':'#fffefa'}"/>${fill?`<polygon points="${REGIONS[i].map(p=>p.join(',')).join(' ')}" fill="#e9693e"/>`:''}${(showGrid?[1,2,3]:[]).map(n=>`<path class="grid-line" d="M${n} 0V4M0 ${n}H4"/>`).join('')}<path class="cut" d="${CUTS[i]}"/><rect class="outline" width="4" height="4"/>`,`Рисунок ${LETTERS[i]}, квадрат 4 на 4`,'-.2 -.2 4.4 4.4')}
+const squareDescription = i => 'Квадрат 4 на 4 клетки. Линия разреза. ' + CUT_DESCRIPTIONS[i];
+function square(i,fill=false,showGrid=true){return svg(`<rect width="4" height="4" fill="${fill?'#237e79':'#fffefa'}"/>${fill?`<polygon points="${REGIONS[i].map(p=>p.join(',')).join(' ')}" fill="#e9693e"/>`:''}${(showGrid?[1,2,3]:[]).map(n=>`<path class="grid-line" d="M${n} 0V4M0 ${n}H4"/>`).join('')}<path class="cut" d="${CUTS[i]}"/><rect class="outline" width="4" height="4"/>`,`Рисунок ${LETTERS[i]}. ${squareDescription(i)}`,'-.2 -.2 4.4 4.4')}
 function areaScene(s,f){if(s===1)return svg(Array.from({length:16},(_,i)=>`<rect x="${200+i%4*53}" y="${20+Math.floor(i/4)*53}" width="51" height="51" rx="4" fill="#e5eee1"/>${text(225+i%4*53,52+Math.floor(i/4)*53,i+1)}`).join('')+text(305,270,'4 × 4 = 16 клеток'),'16 равных клеток в квадрате');if(s===4)return '<div class="result-figures">'+LETTERS.map((l,i)=>`<div>${square(i,true)}<b>${l}</b><span>${i===4?'7 и 9':'8 и 8'}</span></div>`).join('')+'</div>';
 const comparison=s===3,phase=comparison?Math.min(f/5,1):0;let r='';[ORANGE,GREEN].forEach((a,g)=>a.forEach(([x,y],i)=>{const startX=210+x*48,startY=20+y*48,endX=70+i*54,endY=g?160:70;const xx=startX+(endX-startX)*phase,yy=startY+(endY-startY)*phase;r+=`<rect x="${xx}" y="${yy}" width="46" height="46" rx="4" fill="${g?'#237e79':'#e9693e'}"/>${text(xx+23,yy+29,i+1,'cell-number')}`}));return svg(r+text(315,270,comparison?'7 оранжевых · 9 зелёных · разница 2':'3 + 1 + 3 = 7 · 16 − 7 = 9'),'Оранжевая часть 7 клеток, зелёная 9 клеток')}
 function fireScene(s,f){const X=x=>35+x*1.85,Y=y=>265-y*53;let out='';PLATFORMS.forEach((row,l)=>row.forEach(([a,b])=>out+=`<path d="M${X(a)} ${Y(l)}H${X(b)}" stroke="#172e34" stroke-width="9"/><path d="M${X(a)} ${Y(l)}H${X(b)}" stroke="#eab94e" stroke-width="5"/>`));function ladder(l,a,b,dead=false){const x1=X(a),y1=Y(l)-5,x2=X(b),y2=Y(l+1)+4;out+=`<path d="M${x1-5} ${y1}L${x2-5} ${y2}M${x1+5} ${y1}L${x2+5} ${y2}" stroke="${dead?'#9da49a':'#756248'}" fill="none" stroke-width="2"/>`;for(let t=.15;t<1;t+=.19){let x=x1+(x2-x1)*t,y=y1+(y2-y1)*t;out+=`<path d="M${x-5} ${y}H${x+5}" stroke="#756248" stroke-width="1.6"/>`}}LADDERS.forEach(v=>ladder(...v));
@@ -77,26 +123,230 @@ const children=Array.from(source.childNodes);for(let i=0;i<children.length;i++){
 let lastScene='';
 function renderScene(){const st=current(),frame=reducedMotion?sceneDuration(task,st.step)/FRAME_MS:st.frame;const markup=task===0&&st.step===0?squareWorkScene():task===9&&st.step===0?fruitWorkspaceScene():SCENES[task](st.step,frame);if(markup===lastScene)return;lastScene=markup;const container=$('scene');if(container.firstElementChild&&typeof document.createElement==='function'){const template=document.createElement('template');template.innerHTML=markup;if(template.content.childElementCount===1&&container.childElementCount===1)patchNode(container.firstElementChild,template.content.firstElementChild);else container.innerHTML=markup}else container.innerHTML=markup}
 
-function renderAnswers(){const st=current(),l=LESSONS[task],illustrated=task===0||task===6||l.choiceImages;$('answers').hidden=st.step!==0;$('answers').className='answer-list'+(illustrated?' illustrated-answers':'');$('answers').innerHTML=l.choices.map((value,i)=>`<button class="answer ${st.selected===i?'selected':''}" data-answer="${i}" aria-label="Выбрать ответ ${LETTERS[i]}${illustrated?'':': '+value}" aria-pressed="${st.selected===i}">${task===0?square(i,false,false):task===6?`<img src="assets/cubes-${i}.png" alt="Конструкция ${LETTERS[i]} из официального варианта">`:l.choiceImages?`<img src="${l.choiceImages[i]}" alt="Вариант ${LETTERS[i]}: ${value}">`:''}<strong>${LETTERS[i]}</strong>${illustrated?'':`<span>${value}</span>`}</button>`).join('')}
+function renderButtons(id, attribute, markup) {
+  const container = $(id);
+  const focused = document.activeElement;
+  const value = focused?.parentElement === container ? focused.getAttribute(attribute) : null;
+  container.innerHTML = markup;
+  if (value !== null && !container.hidden) {
+    container.querySelector(`[${attribute}="${value}"]`)?.focus({preventScroll: true});
+  }
+}
+
+function renderAnswers() {
+  const st = current();
+  const lesson = LESSONS[task];
+  const illustrated = task === 0 || task === 6 || Boolean(lesson.choiceImages);
+  $('answers').hidden = st.step !== 0;
+  $('answers').className = 'answer-list' + (illustrated ? ' illustrated-answers' : '');
+  const markup = lesson.choices.map((value, i) => {
+    let description = value;
+    let picture = '';
+    if (task === 0) {
+      description = squareDescription(i);
+      picture = square(i, false, false);
+    } else if (task === 6) {
+      description = CUBE_COLUMN_NAMES.map((name, col) => name + ': ' + CUBE_HEIGHTS[i][col]).join(', ');
+      picture = `<img src="assets/cubes-${i}.png" alt="">`;
+    } else if (lesson.choiceImages) {
+      picture = `<img src="${lesson.choiceImages[i]}" alt="">`;
+    }
+    const label = ('Выбрать ответ ' + LETTERS[i] + ': ' + description).replaceAll('&', '&amp;').replaceAll('"', '&quot;');
+    return `<button class="answer ${st.selected === i ? 'selected' : ''}" data-answer="${i}" aria-label="${label}" aria-pressed="${st.selected === i}">
+      ${picture}<strong>${LETTERS[i]}</strong>${illustrated ? '' : `<span>${value}</span>`}
+    </button>`;
+  }).join('');
+  renderButtons('answers', 'data-answer', markup);
+}
+
 function pointsLabel(points){return points===5?'5 баллов':points+' балла'}
-function renderPicker(){const set=activeSet(),indices=set.indices,group=indices.filter(index=>LESSONS[index].points===selectedPoints),years=[...new Set(CATALOG.map(item=>item.year))].sort((a,b)=>a-b);$('yearPicker').innerHTML=years.map(year=>`<button data-year="${year}" class="${year===set.year?'active-year':''}" aria-pressed="${year===set.year}">${year}</button>`).join('');const variants=CATALOG.filter(item=>item.year===set.year);$('gradePicker').innerHTML=variants.map(item=>`<option value="${item.id}" ${item.id===selectedDataset?'selected':''}>${item.label}${item.grades.length>1?' · общий вариант':''}</option>`).join('');$('gradePicker').disabled=variants.length===1;$('edition').textContent=`${set.year} · ${set.label}`;$('archiveLabel').textContent=`КЕНГУРУ–${set.year} · ${set.label.toUpperCase()} · ${indices.length} ЗАДАЧ`;$('levelPicker').innerHTML=[3,4,5].filter(points=>indices.some(i=>LESSONS[i].points===points)).map(points=>`<button data-points="${points}" aria-pressed="${selectedPoints===points}" class="${selectedPoints===points?'active-level':''}">${pointsLabel(points)} <span>${indices.filter(i=>LESSONS[i].points===points).length} задач</span></button>`).join('');$('taskPicker').innerHTML=group.map(i=>{const l=LESSONS[i];return `<button class="task-tab ${i===task?'current-task':''}" data-task="${i}" ${i===task?'aria-current="page"':''}><span>${String(l.number).padStart(2,'0')}</span>${l.short}${states[i].seen?'<i aria-label="Разбор просмотрен">✓</i>':''}</button>`}).join('');$('collectionProgress').textContent=`${set.year}: разборов просмотрено ${indices.filter(i=>states[i].seen).length} из ${indices.length} · Сейчас задачи на ${pointsLabel(selectedPoints)}`;$('archiveCount').textContent=LESSONS.length;$('tasksSource').href=set.sources.tasksUrl;$('answersSource').href=set.sources.answersUrl||set.sources.tasksUrl;$('solutionsSource').hidden=!set.sources.solutionUrl;$('solutionsSource').href=set.sources.solutionUrl||'';$('sourceNote').textContent=set.sources.solutionUrl?'Условия и ответы сверены с официальными материалами. Схемы и объяснения созданы для уроков.':'Условия и ответы сверены с официальным вариантом и ключом. Разборы подготовлены для уроков; в архиве этого года отдельный файл официальных решений не опубликован.'}
+function renderPicker() {
+  const set = activeSet();
+  const {indices} = set;
+  const group = indices.filter(index => LESSONS[index].points === selectedPoints);
+  const years = [...new Set(CATALOG.map(item => item.year))].sort((a, b) => a - b);
+  renderButtons('yearPicker', 'data-year', years.map(year =>
+    `<button data-year="${year}" class="${year === set.year ? 'active-year' : ''}" aria-pressed="${year === set.year}">${year}</button>`
+  ).join(''));
+
+  const variants = CATALOG.filter(item => item.year === set.year);
+  $('gradePicker').innerHTML = variants.map(item =>
+    `<option value="${item.id}" ${item.id === selectedDataset ? 'selected' : ''}>${item.label}${item.grades.length > 1 ? ' · общий вариант' : ''}</option>`
+  ).join('');
+  $('gradePicker').disabled = variants.length === 1;
+  $('edition').textContent = `${set.year} · ${set.label}`;
+  $('archiveLabel').textContent = `КЕНГУРУ–${set.year} · ${set.label.toUpperCase()} · ${indices.length} ЗАДАЧ`;
+
+  const levels = [3, 4, 5].map(points => ({points, count: indices.filter(i => LESSONS[i].points === points).length}));
+  renderButtons('levelPicker', 'data-points', levels.filter(level => level.count).map(({points, count}) =>
+    `<button data-points="${points}" aria-pressed="${selectedPoints === points}" class="${selectedPoints === points ? 'active-level' : ''}">${pointsLabel(points)} <span>${count} задач</span></button>`
+  ).join(''));
+  renderButtons('taskPicker', 'data-task', group.map(i => {
+    const {number, short} = LESSONS[i];
+    const active = i === task;
+    return `<button class="task-tab ${active ? 'current-task' : ''}" data-task="${i}" ${active ? 'aria-current="page"' : ''}>
+      <span>${String(number).padStart(2, '0')}</span>${short}${states[i].seen ? '<i aria-label="Ответ открыт">✓</i>' : ''}
+    </button>`;
+  }).join(''));
+  $('collectionProgress').textContent = `${set.year}: открыто ответов ${indices.filter(i => states[i].seen).length} из ${indices.length} · Сейчас задачи на ${pointsLabel(selectedPoints)}`;
+  $('archiveCount').textContent = LESSONS.length;
+  $('tasksSource').href = set.sources.tasksUrl;
+  $('answersSource').href = set.sources.answersUrl || set.sources.tasksUrl;
+  $('solutionsSource').hidden = !set.sources.solutionUrl;
+  $('solutionsSource').href = set.sources.solutionUrl || '';
+  $('sourceNote').textContent = set.sources.solutionUrl
+    ? 'Условия и ответы сверены с официальными материалами. Схемы и объяснения созданы для уроков.'
+    : 'Условия и ответы сверены с официальным вариантом и ключом. Разборы подготовлены для уроков; в архиве этого года отдельный файл официальных решений не опубликован.';
+}
 
 
 function playLabel(){$('play').textContent=playing?'Ⅱ Пауза':task===6&&current().step===7?'▶ Убрать кубик':'▶ Смотреть';$('play').setAttribute('aria-label',playing?'Приостановить анимацию и показ':task===6&&current().step===7?'Убрать верхний кубик и проверить вариант Д':'Включить анимацию и автоматический показ');$('play').setAttribute('aria-pressed',String(playing));$('stage').classList.toggle('is-playing',playing);renderWorkspace()}
 let alternativeTask=null;
 function renderAlternative(){const section=$('alternative'),method=LESSONS[task].alternative,visible=!!method&&current().step===lastStep();section.hidden=!visible;if(!visible||alternativeTask!==task)section.open=false;alternativeTask=task;if(!visible)return;$('alternativeTitle').textContent=method.title;$('alternativeText').textContent=method.text;$('alternativeConclusion').textContent=method.conclusion;$('alternativeTable').innerHTML='<thead><tr>'+method.headings.map(heading=>`<th scope="col">${heading}</th>`).join('')+'</tr></thead><tbody>'+method.rows.map(([count,cells])=>`<tr><th scope="row">${count}</th><td>${cells}</td></tr>`).join('')+'</tbody>'}
-function render(){const st=current(),l=LESSONS[task],s=l.steps[st.step];if(st.step===lastStep())st.seen=true;$('taskNumber').textContent=String(l.number).padStart(2,'0');$('taskPoints').textContent='/ НА '+pointsLabel(l.points).toUpperCase();$('taskTitle').textContent=l.title;$('taskSkill').textContent=l.skill;$('question').textContent=l.question;$('chapterTag').textContent=`ЗАДАЧА ${l.number} · ${s[0].toUpperCase()}`;$('counter').textContent=`0${st.step+1} / ${String(l.steps.length).padStart(2,'0')}`;$('sceneTitle').textContent=s[1];$('sceneText').textContent=s[2];$('chapters').innerHTML=l.steps.map((c,i)=>`<button data-step="${i}" class="${i===st.step?'active':''}" ${i===st.step?'aria-current="step"':''}><span>0${i+1}</span>${c[0]}</button>`).join('');renderScene();renderAnswers();renderPicker();renderWorkspace();renderAlternative();$('feedback').textContent=st.step===0?(st.selected===null?'Выбери ответ. Затем нажми «Далее» и проверь своё решение.':`Твой выбор — ${LETTERS[st.selected]}. Проверим его в разборе.`):st.step===lastStep()?(st.selected===l.answer?'Верно! Твоё решение подтвердилось. ':st.selected===null?'':`Твой выбор — ${LETTERS[st.selected]}. Проверка помогла найти верный ответ. `)+`Ответ ${LETTERS[l.answer]}${task===0||task===6?'':': '+l.choices[l.answer]}.`:'Нажми «Смотреть», чтобы оживить схему. Пауза остановит и анимацию, и переходы.';$('back').disabled=st.step===0;$('next').hidden=st.step===lastStep();$('nextTask').hidden=st.step!==lastStep();$('nextTask').textContent=task===activeSet().indices.at(-1)?'К первой задаче года ↻':'Следующая задача →';$('progress').style.width=((st.step+1)/l.steps.length*100)+'%';$('original').src=l.originalImage;$('original').alt=`Оригинал задачи №${l.number}, Кенгуру–${l.year}, ${activeSet().label}`;playLabel()}
+function render() {
+  const st = current();
+  const lesson = LESSONS[task];
+  const [chapter, title, explanation] = lesson.steps[st.step];
+  const final = st.step === lastStep();
+  const focused = document.activeElement;
+  if (final) st.seen = true;
+  $('taskNumber').textContent = String(lesson.number).padStart(2, '0');
+  $('taskPoints').textContent = '/ НА ' + pointsLabel(lesson.points).toUpperCase();
+  $('taskTitle').textContent = lesson.title;
+  $('taskSkill').textContent = lesson.skill;
+  $('question').textContent = lesson.question;
+  $('questionNote').hidden = !lesson.questionNote;
+  $('questionNote').textContent = lesson.questionNote ?? '';
+  $('chapterTag').textContent = `ЗАДАЧА ${lesson.number} · ${chapter.toUpperCase()}`;
+  $('counter').textContent = `0${st.step + 1} / ${String(lesson.steps.length).padStart(2, '0')}`;
+  $('sceneTitle').textContent = title;
+  $('sceneText').textContent = explanation;
+  renderButtons('chapters', 'data-step', lesson.steps.map(([name], i) =>
+    `<button data-step="${i}" class="${i === st.step ? 'active' : ''}" ${i === st.step ? 'aria-current="step"' : ''}><span>0${i + 1}</span>${name}</button>`
+  ).join(''));
+  renderScene();
+  renderAnswers();
+  renderPicker();
+  renderWorkspace();
+  renderAlternative();
+  const feedback = $('feedback');
+  const choice = st.selected === null ? '' : `Твой выбор — ${LETTERS[st.selected]}.`;
+  if (st.step === 0) {
+    feedback.textContent = choice ? choice + ' Проверим его в разборе.' : 'Выбери ответ. Затем нажми «Далее» и проверь своё решение.';
+  } else if (final) {
+    const result = st.selected === lesson.answer ? 'Верно! Твоё решение подтвердилось.' : choice;
+    const answer = LETTERS[lesson.answer] + (task === 0 || task === 6 ? '' : ': ' + lesson.choices[lesson.answer]);
+    feedback.textContent = [result, `Ответ ${answer}.`].filter(Boolean).join(' ');
+  } else {
+    feedback.textContent = 'Нажми «Смотреть», чтобы оживить схему. Пауза остановит и анимацию, и переходы.';
+  }
+  $('back').disabled = st.step === 0;
+  $('next').hidden = final;
+  $('nextTask').hidden = !final;
+  $('nextTask').textContent = task === activeSet().indices.at(-1) ? 'К первой задаче года ↻' : 'Следующая задача →';
+  if ((focused === $('next') && final) || (focused === $('nextTask') && !final) || (focused === $('back') && st.step === 0)) {
+    $(final ? 'nextTask' : 'next').focus({preventScroll: true});
+  }
+  $('progress').style.width = ((st.step + 1) / lesson.steps.length * 100) + '%';
+  $('original').src = lesson.originalImage;
+  $('original').alt = `Оригинал задачи №${lesson.number}, Кенгуру–${lesson.year}, ${activeSet().label}`;
+  playLabel();
+}
 function sceneDuration(t,s){if(s===0)return 1500;if(t>=8)return s===lastStep(t)?4500:6500;if(t===6)return s===7?4000:s===8?4200:6500;if(t===1&&(s===2||s===3)){const length=s===2?FIRE_DISTANCES[FIRE_SPLIT]:FIRE_DISTANCES.at(-1)-FIRE_DISTANCES[FIRE_SPLIT];return length/FIRE_SPEED*1000+400}if(t===3)return[0,1600,3000,3600,2600][s];if((t===0||t===6)&&s===3)return 3600;if(t===7)return[0,1800,2100,4200,2800][s];return s===4?3000:s===1?3000:4200}
 function pause(){playing=false;if(clock!==null)cancelAnimationFrame(clock);clock=null;lastTimestamp=null;playLabel()}
 function resetPosition(st){st.frame=0;st.elapsed=0}
-function navigate(n){finishMark();pause();current().step=Math.max(0,Math.min(lastStep(),n));resetPosition(current());render()}
-function selectTask(n){if(!LESSONS[n])return;finishMark();pause();task=n;selectedPoints=LESSONS[n].points;selectedDataset=LESSONS[n].datasetId;groupLast[selectedDataset+':'+selectedPoints]=n;datasetLast[selectedDataset]=n;render()}
+function navigate(n){finishMark();pause();current().step=Math.max(0,Math.min(lastStep(),n));resetPosition(current());render();saveLessonProgress()}
+function selectTask(n, historyMethod = 'pushState') {
+  if (!LESSONS[n]) return;
+  finishMark();
+  pause();
+  task = n;
+  const lesson = LESSONS[n];
+  selectedPoints = lesson.points;
+  selectedDataset = lesson.datasetId;
+  groupLast[selectedDataset + ':' + selectedPoints] = n;
+  datasetLast[selectedDataset] = n;
+  const hash = taskHash(n);
+  if (globalThis.location && location.hash !== hash) globalThis.history?.[historyMethod](null, '', hash);
+  writeProgress('current', lessonKey(lesson));
+  $('copyTaskStatus').textContent = '';
+  render();
+}
 function selectDataset(id){const set=CATALOG.find(item=>item.id===id);if(set)selectTask(datasetLast[id]??set.indices[0])}
 function selectYear(year){const variants=CATALOG.filter(set=>set.year===year),last=variants.find(set=>datasetLast[set.id]!==undefined);if(variants.length)selectDataset((last||variants[0]).id)}
 function animate(timestamp){if(!playing)return;const delta=lastTimestamp===null?0:Math.min(Math.max(0,timestamp-lastTimestamp),80);lastTimestamp=timestamp;const st=current();st.elapsed+=delta;st.frame=st.elapsed/FRAME_MS;renderScene();
-if(st.elapsed>=sceneDuration(task,st.step)){if(st.step<lastStep()){st.step++;resetPosition(st);render()}else{pause();render();return}}if(playing)clock=requestAnimationFrame(animate)}
+if(st.elapsed>=sceneDuration(task,st.step)){if(st.step<lastStep()){st.step++;resetPosition(st);render();saveLessonProgress()}else{pause();render();return}}if(playing)clock=requestAnimationFrame(animate)}
 function start(){finishMark();if(playing){pause();return}if(current().step===0&&current().selected===null){$('feedback').textContent='Сначала выбери свой ответ. Затем нажми «Далее» или «Смотреть».';return}if(current().elapsed>=sceneDuration(task,current().step))resetPosition(current());playing=true;lastTimestamp=null;playLabel();clock=requestAnimationFrame(animate)}
 $('yearPicker').addEventListener('click',e=>{const button=e.target.closest('[data-year]');if(button)selectYear(Number(button.dataset.year))});
 $('gradePicker').addEventListener('change',()=>{const id=$('gradePicker').value;selectDataset(id)});
 $('levelPicker').addEventListener('click',e=>{const button=e.target.closest('[data-points]');if(button){const points=Number(button.dataset.points);selectTask(groupLast[selectedDataset+':'+points]??activeSet().indices.find(i=>LESSONS[i].points===points))}});
-$('taskPicker').addEventListener('click',e=>{const b=e.target.closest('[data-task]');if(b)selectTask(Number(b.dataset.task))});$('chapters').addEventListener('click',e=>{const b=e.target.closest('[data-step]');if(b)navigate(Number(b.dataset.step))});$('answers').addEventListener('click',e=>{const b=e.target.closest('[data-answer]');if(b){current().selected=Number(b.dataset.answer);if(task===0){workVariant=current().selected;renderScene();renderWorkspace()}renderAnswers();$('feedback').textContent=`Твой выбор — ${LETTERS[current().selected]}. Проверим его в разборе.`}});$('next').onclick=()=>navigate(current().step+1);$('back').onclick=()=>navigate(current().step-1);$('nextTask').onclick=()=>selectTask(nextTaskIndex());$('play').onclick=start;$('repeat').onclick=()=>{finishMark();pause();if(task===9)resetFruitWorkspace();Object.assign(current(),{step:0,frame:0,elapsed:0,selected:null});render()};document.addEventListener('keydown',e=>{if(/INPUT|TEXTAREA|SELECT/.test(e.target.tagName)||e.altKey||e.ctrlKey||e.metaKey)return;if(e.key==='ArrowRight'){e.preventDefault();navigate(current().step+1)}if(e.key==='ArrowLeft'){e.preventDefault();navigate(current().step-1)}if(e.code==='Space'&&e.target===document.body){e.preventDefault();start()}});document.addEventListener('visibilitychange',()=>{if(document.hidden)pause()});setupWorkspace();setupFruitWorkspace();render();
+$('taskPicker').addEventListener('click', e => {
+  const button = e.target.closest('[data-task]');
+  if (button) selectTask(Number(button.dataset.task));
+});
+$('chapters').addEventListener('click', e => {
+  const button = e.target.closest('[data-step]');
+  if (button) navigate(Number(button.dataset.step));
+});
+$('answers').addEventListener('click', e => {
+  const button = e.target.closest('[data-answer]');
+  if (!button) return;
+  current().selected = Number(button.dataset.answer);
+  if (task === 0) {
+    workVariant = current().selected;
+    renderScene();
+    renderWorkspace();
+  }
+  renderAnswers();
+  $('feedback').textContent = `Твой выбор — ${LETTERS[current().selected]}. Проверим его в разборе.`;
+  saveLessonProgress();
+});
+$('copyTaskLink').onclick = async () => {
+  const hash = taskHash(task);
+  const url = new URL(hash, location.href);
+  let message;
+  try {
+    await navigator.clipboard.writeText(url.href);
+    message = 'Ссылка скопирована.';
+  } catch {
+    if (taskHash(task) !== hash) return;
+    history.replaceState(null, '', hash);
+    message = 'Скопируй ссылку из адресной строки.';
+  }
+  if (taskHash(task) === hash) $('copyTaskStatus').textContent = message;
+};
+$('next').onclick = () => navigate(current().step + 1);
+$('back').onclick = () => navigate(current().step - 1);
+$('nextTask').onclick = () => {
+  selectTask(nextTaskIndex());
+  $('taskTitle').focus?.();
+  $('lesson').scrollIntoView?.({block: 'start'});
+};
+$('play').onclick = start;
+$('repeat').onclick = () => {
+  finishMark();
+  pause();
+  if (task === 9) resetFruitWorkspace();
+  Object.assign(current(), {step: 0, frame: 0, elapsed: 0, selected: null});
+  render();
+  saveLessonProgress();
+};
+document.addEventListener('keydown', e => {
+  if (/INPUT|TEXTAREA|SELECT/.test(e.target.tagName) || e.altKey || e.ctrlKey || e.metaKey) return;
+  if (e.key === 'ArrowRight') {e.preventDefault(); navigate(current().step + 1)}
+  if (e.key === 'ArrowLeft') {e.preventDefault(); navigate(current().step - 1)}
+  if (e.code === 'Space' && e.target === document.body) {e.preventDefault(); start()}
+});
+document.addEventListener('visibilitychange', () => {if (document.hidden) pause()});
+globalThis.addEventListener?.('hashchange', () => {
+  const linkedTask = taskInUrl();
+  if (linkedTask !== -1) selectTask(linkedTask, 'replaceState');
+});
+setupWorkspace();
+setupFruitWorkspace();
+restoreProgress();
+const linkedTask = taskInUrl();
+const recentTask = readProgress('current');
+const recentIndex = LESSONS.findIndex(lesson => lessonKey(lesson) === recentTask);
+selectTask(linkedTask === -1 ? Math.max(recentIndex, 0) : linkedTask, 'replaceState');
+if (linkedTask !== -1) $('lesson').scrollIntoView?.({block: 'start'});

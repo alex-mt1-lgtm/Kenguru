@@ -7,7 +7,7 @@ function commitMarks(marks,key=sheetKey()){const sheet=getSheet(key);sheet.past.
 function addMark(mark,key=sheetKey()){commitMarks([...getSheet(key).marks,mark],key)}
 function undoDrawing(){finishMark();const sheet=getSheet();if(sheet.past.length)sheet.marks=sheet.past.pop();renderWorkspace()}
 function clearDrawing(){finishMark();if(getSheet().marks.length)commitMarks([]);renderWorkspace()}
-function squareWorkScene(){return svg(`<rect x="210" y="20" width="192" height="192" fill="#fffefa" stroke="#172e34" stroke-width="2"/><path d="${CUTS[workVariant]}" transform="translate(210 20) scale(48)" class="cut"/>`+text(306,265,`Рисунок ${LETTERS[workVariant]}`),`Рисунок ${LETTERS[workVariant]} без клеток: сравни две части`)}
+function squareWorkScene(){return svg(`<rect x="210" y="20" width="192" height="192" fill="#fffefa" stroke="#172e34" stroke-width="2"/><path d="${CUTS[workVariant]}" transform="translate(210 20) scale(48)" class="cut"/>`+text(306,265,`Рисунок ${LETTERS[workVariant]}`),`Рисунок ${LETTERS[workVariant]}. ${squareDescription(workVariant)}`)}
 
 function drawingGrid(){const step=current().step;if(task===0){if(step===2||(step===3&&current().frame===0))return{x:210,y:20,dx:48,dy:48,cols:4,rows:4};if(step===1)return{x:200,y:20,dx:53,dy:53,cols:4,rows:4}}if(task===2)return{x:102,y:15,dx:62,dy:58,cols:7,rows:4};if(task===7)return{x:110,y:4,dx:36,dy:34,cols:11,rows:8};return null}
 function cellAt(point,grid=drawingGrid()){if(!grid)return null;const col=Math.floor((point[0]-grid.x)/grid.dx),row=Math.floor((point[1]-grid.y)/grid.dy);if(col<0||row<0||col>=grid.cols||row>=grid.rows)return null;return[grid.x+col*grid.dx,grid.y+row*grid.dy,grid.dx,grid.dy]}

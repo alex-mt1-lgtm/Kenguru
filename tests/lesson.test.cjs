@@ -1,6 +1,6 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),path=require('node:path');
 const root=path.join(__dirname,'..');
-function app(includeArchive=false,archiveOverride=null){const elements=new Map(),handlers={},callbacks=new Map();let time=0,id=0;const element=name=>{if(!elements.has(name))elements.set(name,{innerHTML:'',textContent:'',hidden:false,disabled:false,value:name==='drawingColor'?'#e9693e':'',selectedIndex:0,style:{},attributes:{},classList:{toggle(){}},setAttribute(k,v){this.attributes[k]=v},addEventListener(k,v){this[k]=v}});return elements.get(name)};const ctx={document:{body:{},getElementById:element,addEventListener(k,v){handlers[k]=v}},requestAnimationFrame(fn){callbacks.set(++id,fn);return id},cancelAnimationFrame(key){callbacks.delete(key)},console};vm.createContext(ctx);const scripts=['lessons.js','four-point-lessons.js','five-point-lessons.js','four-point-scenes.js','five-point-scenes.js',...(includeArchive?[2020,2021,2022,2023,2025,2026].map(year=>'years/'+year+'.js'):[]),'workspace.js','fruit-workspace.js','app.js'];for(const f of scripts){if(f==='app.js'&&archiveOverride)ctx.KENGURU_ARCHIVE={...(ctx.KENGURU_ARCHIVE||{}),...archiveOverride};vm.runInContext(fs.readFileSync(path.join(root,'dist',f),'utf8'),ctx)}const tick=(ms=16)=>{time+=ms;const pending=[...callbacks.values()];callbacks.clear();for(const fn of pending)fn(time)};return{run:s=>vm.runInContext(s,ctx),element,tick,advance(ms){for(let left=ms;left>0;left-=16)tick(Math.min(16,left))},handlers}}
+function app(includeArchive=false,archiveOverride=null,browser={}){const elements=new Map(),handlers={},callbacks=new Map();let time=0,id=0;const element=name=>{if(!elements.has(name))elements.set(name,{innerHTML:'',textContent:'',hidden:false,disabled:false,value:name==='drawingColor'?'#e9693e':'',selectedIndex:0,style:{},attributes:{},classList:{toggle(){}},setAttribute(k,v){this.attributes[k]=v},addEventListener(k,v){this[k]=v}});return elements.get(name)};const ctx={...browser,document:{body:{},getElementById:element,addEventListener(k,v){handlers[k]=v}},requestAnimationFrame(fn){callbacks.set(++id,fn);return id},cancelAnimationFrame(key){callbacks.delete(key)},console};vm.createContext(ctx);const scripts=['lessons.js','four-point-lessons.js','five-point-lessons.js','four-point-scenes.js','five-point-scenes.js',...(includeArchive?[2020,2021,2022,2023,2025,2026].map(year=>'years/'+year+'.js'):[]),'workspace.js','fruit-workspace.js','app.js'];for(const f of scripts){if(f==='app.js'&&archiveOverride)ctx.KENGURU_ARCHIVE={...(ctx.KENGURU_ARCHIVE||{}),...archiveOverride};vm.runInContext(fs.readFileSync(path.join(root,'dist',f),'utf8'),ctx)}const tick=(ms=16)=>{time+=ms;const pending=[...callbacks.values()];callbacks.clear();for(const fn of pending)fn(time)};return{run:s=>vm.runInContext(s,ctx),element,tick,advance(ms){for(let left=ms;left>0;left-=16)tick(Math.min(16,left))},handlers}}
 
 test('official answer key and every explanation step',()=>{const a=app();assert.equal(a.run('LESSONS.slice(0,8).map(l=>LETTERS[l.answer]).join("")'),'ДВВВГВДБ');for(let t=0;t<24;t++)for(let s=0;s<a.run(`LESSONS[${t}].steps.length`);s++){a.run(`selectTask(${t});navigate(${s})`);assert.ok(a.element('sceneTitle').textContent);if(t||s)assert.ok(a.element('scene').innerHTML);assert.equal(a.element('answers').hidden,s!==0);for(let f=0;f<=12;f++){a.run(`current().frame=${f};renderScene()`);assert.ok(!a.element('scene').innerHTML.includes('NaN'))}}});
 test('square areas and unique cell count',()=>{const a=app();assert.equal(a.run('REGIONS.map(p=>Math.abs(p.reduce((s,v,j)=>{const n=p[(j+1)%p.length];return s+v[0]*n[1]-n[0]*v[1]},0))/2).join(",")'),'8,8,8,8,7');assert.equal(a.run('ORANGE.length+","+GREEN.length'),'7,9');assert.equal(a.run('new Set([...ORANGE,...GREEN].map(p=>p.join(","))).size'),16)});
@@ -31,3 +31,50 @@ test('archive keeps original year sizes, local task numbers and official sources
 test('year navigation preserves answers, steps, point groups and drawings independently',()=>{const a=app(true);a.run('selectYear(2024);selectTask(0);current().selected=2;addMark({type:"pen",color:"#e9693e",points:[[220,30],[240,50]]});navigate(2);selectYear(2020)');assert.equal(a.run('current().selected'),null);assert.equal(a.run('getSheet().marks.length'),0);assert.equal((a.element('taskPicker').innerHTML.match(/data-task=/g)||[]).length,10);a.element('levelPicker').click({target:{closest:()=>({dataset:{points:'4'}})}});assert.equal(a.run('LESSONS[task].number'),11);a.run('current().selected=4;navigate(2);selectYear(2021)');assert.equal((a.element('taskPicker').innerHTML.match(/data-task=/g)||[]).length,6);a.run('selectYear(2020)');assert.equal(a.run('LESSONS[task].number'),11);assert.equal(a.run('current().selected'),4);assert.equal(a.run('current().step'),2);a.run('selectYear(2024)');assert.equal(a.run('task'),0);assert.equal(a.run('current().selected'),2);assert.equal(a.run('current().step'),2);a.run('navigate(0)');assert.equal(a.run('getSheet().marks.length'),1)});
 test('separate third and fourth grade datasets stay separate when provided',()=>{const makeSet=grade=>({id:'2030-'+grade,year:2030,grades:[grade],label:grade+' класс',sources:{tasksUrl:'https://example.invalid/tasks.pdf',answersUrl:'https://example.invalid/answers.pdf',solutionUrl:null},lessons:[{number:1,points:3,answer:0,title:'Тест',short:'Тест',skill:'Проверяем',question:'Тестовое условие',choices:['1','2','3','4','5'],originalImage:'assets/original-1.png',steps:[['Выбор','Выбор','Выбери'],['Ответ','Ответ','Проверка']]}],scenes:[()=>'<svg aria-label="Тест" viewBox="0 0 640 300"></svg>']});const a=app(false,{2030:[makeSet(3),makeSet(4)]});a.run('selectYear(2030);current().selected=2');assert.equal(a.element('gradePicker').disabled,false);assert.equal((a.element('gradePicker').innerHTML.match(/<option /g)||[]).length,2);a.element('gradePicker').value='2030-4';a.element('gradePicker').change();assert.equal(a.run('selectedDataset'),'2030-4');assert.equal(a.run('current().selected'),null);a.element('gradePicker').value='2030-3';a.element('gradePicker').change();assert.equal(a.run('current().selected'),2)});
 test('all archive lessons render together and reference existing files',()=>{const a=app(true),total=a.run('LESSONS.length');for(let index=0;index<total;index++){const count=a.run(`LESSONS[${index}].steps.length`);assert.ok(count>=2);assert.equal(a.run(`LESSONS[${index}].choices.length`),5);assert.ok(a.run(`Number.isInteger(LESSONS[${index}].answer)&&LESSONS[${index}].answer>=0&&LESSONS[${index}].answer<5`));const original=a.run(`LESSONS[${index}].originalImage`);assert.ok(fs.existsSync(path.join(root,'dist',original)),original);for(let step=0;step<count;step++)for(const frame of [0,.01,.5,2.25,5.9,12]){const markup=a.run(`SCENES[${index}](${step},${frame})`);assert.equal(typeof markup,'string');assert.doesNotMatch(markup,/NaN|undefined|Infinity/,`${index}/${step}/${frame}`);for(const match of markup.matchAll(/(?:src|href)="(assets\/[^"#]+)"/g))assert.ok(fs.existsSync(path.join(root,'dist',match[1])),match[1])}}});
+
+test('a copied task URL opens the right year and lesson, with or without saved progress', () => {
+  const storage = new Map();
+  const location = {hash: '#zadacha=2025-3-4/24'};
+  const browser = {
+    location,
+    localStorage: {
+      getItem: key => storage.get(key),
+      setItem: (key, value) => storage.set(key, value),
+    },
+    history: {
+      pushState: (_, __, hash) => { location.hash = hash; },
+      replaceState: (_, __, hash) => { location.hash = hash; },
+    },
+  };
+  let visit = app(true, null, browser);
+  assert.match(visit.element('taskTitle').textContent, /Квадрат на чаше весов/);
+  assert.match(visit.element('question').textContent, /1, 2, 3, 4 или 5 кг/);
+  assert.equal(visit.run('current().step'), 0);
+
+  visit.element('answers').click({target: {closest: () => ({dataset: {answer: '2'}})}});
+  visit.run('navigate(lastStep()); selectYear(2021)');
+  assert.equal(location.hash, '#zadacha=2021-3-4/1');
+
+  visit = app(true, null, browser);
+  assert.match(visit.element('taskTitle').textContent, /Куб из четырёх кирпичиков/);
+  visit.run('selectYear(2025); selectTask(LESSONS.findIndex(l => l.year === 2025 && l.number === 24))');
+  assert.equal(visit.run('current().selected'), 2);
+  assert.equal(visit.run('current().step === lastStep()'), true);
+  assert.match(visit.element('collectionProgress').textContent, /открыто ответов 1 из 24/);
+
+  visit.element('repeat').onclick();
+  visit = app(true, null, browser);
+  assert.equal(visit.run('current().selected'), null);
+  assert.equal(visit.run('current().step'), 0);
+  assert.match(visit.element('collectionProgress').textContent, /открыто ответов 1 из 24/);
+  assert.equal(location.hash, '#zadacha=2025-3-4/24');
+});
+
+test('an unavailable browser store permits opening and navigating lessons', () => {
+  function blocked() {throw new Error('Storage unavailable');}
+  const unavailable = {getItem: blocked, setItem: blocked};
+  const visit = app(true, null, {localStorage: unavailable});
+  visit.run('selectTask(8); navigate(2)');
+  assert.match(visit.element('question').textContent, /перед клеткой № 1/);
+  assert.equal(visit.run('current().step'), 2);
+});
