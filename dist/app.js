@@ -31,6 +31,80 @@ const lessonKey = lesson => lesson.datasetId + '/' + lesson.number;
 const taskHash = index => '#zadacha=' + lessonKey(LESSONS[index]);
 const taskInUrl = () => LESSONS.findIndex((_, index) => taskHash(index) === globalThis.location?.hash);
 const progressPrefix = 'kenguru:attempt:';
+const profileListKey = 'kenguru:profiles:v1';
+let activeProfileId = '';
+const fruitByProfile = new Map();
+
+function readProfiles() {
+  try {
+    const list = JSON.parse(globalThis.localStorage?.getItem(profileListKey) ?? '[]');
+    return Array.isArray(list) ? list.filter(profile =>
+      typeof profile?.id === 'string' && /^[a-z0-9-]+$/i.test(profile.id) &&
+      typeof profile.name === 'string' && profile.name.length <= 24
+    ) : [];
+  } catch {
+    return [];
+  }
+}
+
+function renderProfiles() {
+  const profiles = readProfiles();
+  const active = profiles.find(profile => profile.id === activeProfileId);
+  $('profileSummary').textContent = active ? `Профиль ${active.name}` : 'Профили · без профиля';
+  $('profilePicker').innerHTML = '<option value="">Без профиля</option>' + profiles.map(profile =>
+    `<option value="${profile.id}">${profile.name.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;')}</option>`
+  ).join('');
+  $('profilePicker').value = activeProfileId;
+}
+
+function switchProfile(id) {
+  if (id === activeProfileId || (id && !readProfiles().some(profile => profile.id === id))) return;
+  finishMark();
+  pause();
+  fruitByProfile.set(activeProfileId, {...FRUIT_WORK});
+  activeProfileId = id;
+  try {
+    globalThis.sessionStorage?.setItem(progressPrefix + 'profile', id);
+  } catch {
+    // The profile selection is still available for this page.
+  }
+  resetFruitWorkspace();
+  if (fruitByProfile.has(id)) Object.assign(FRUIT_WORK, fruitByProfile.get(id));
+  showTaskDrawing();
+  workspaceTask = null;
+  alternativeTask = null;
+  for (const key of Object.keys(groupLast)) delete groupLast[key];
+  for (const key of Object.keys(datasetLast)) delete datasetLast[key];
+  restoreProgress();
+  renderProfiles();
+  selectTask(task, 'replaceState');
+}
+
+function createProfile(name) {
+  const label = name.trim();
+  if (!label || label.length > 24) return 'Введи имя или псевдоним до 24 символов.';
+  const profiles = readProfiles();
+  if (profiles.some(profile => profile.name.toLocaleLowerCase('ru') === label.toLocaleLowerCase('ru'))) {
+    return 'Такой профиль уже есть. Его можно выбрать в списке.';
+  }
+  const id = globalThis.crypto?.randomUUID?.() ?? `${Date.now()}-${Math.random().toString(36).slice(2)}`;
+  try {
+    globalThis.localStorage.setItem(profileListKey, JSON.stringify([...profiles, {id, name: label}]));
+  } catch {
+    return 'Браузер не позволяет сохранять профили. Можно решать задачи без профиля.';
+  }
+  switchProfile(id);
+  return '';
+}
+
+function progressStore() {
+  return activeProfileId ? globalThis.localStorage : globalThis.sessionStorage;
+}
+
+function progressKey(key) {
+  return activeProfileId ? `kenguru:profile:${activeProfileId}:${key}` : progressPrefix + key;
+}
+
 
 function startFreshAttemptOnArrival() {
   // A new tab can inherit a copy of its opener's sessionStorage. Keep work
@@ -51,7 +125,7 @@ function startFreshAttemptOnArrival() {
 
 function readProgress(key) {
   try {
-    return JSON.parse(globalThis.sessionStorage?.getItem(progressPrefix + key) ?? 'null');
+    return JSON.parse(progressStore()?.getItem(progressKey(key)) ?? 'null');
   } catch {
     return null;
   }
@@ -59,7 +133,7 @@ function readProgress(key) {
 
 function writeProgress(key, value) {
   try {
-    globalThis.sessionStorage?.setItem(progressPrefix + key, JSON.stringify(value));
+    progressStore()?.setItem(progressKey(key), JSON.stringify(value));
   } catch {
     // Progress from the current visit is still available in memory.
   }
@@ -67,6 +141,7 @@ function writeProgress(key, value) {
 
 function restoreProgress() {
   LESSONS.forEach((lesson, index) => {
+    Object.assign(states[index], {step: 0, frame: 0, elapsed: 0, selected: null, seen: false});
     const saved = readProgress(lessonKey(lesson));
     if (!saved) return;
     const step = Number.isInteger(saved.step) && saved.step >= 0 && saved.step < lesson.steps.length ? saved.step : 0;
@@ -361,9 +436,27 @@ globalThis.addEventListener?.('hashchange', () => {
   const linkedTask = taskInUrl();
   if (linkedTask !== -1) selectTask(linkedTask, 'replaceState');
 });
+$('profilePicker').addEventListener('change', event => {
+  switchProfile(event.target.value);
+  $('profileStatus').textContent = '';
+});
+$('newProfileForm').addEventListener('submit', event => {
+  event.preventDefault();
+  const input = $('profileName');
+  const message = createProfile(input.value);
+  $('profileStatus').textContent = message || 'Профиль создан.';
+  if (!message) input.value = '';
+});
 setupWorkspace();
 setupFruitWorkspace();
 startFreshAttemptOnArrival();
+try {
+  const id = globalThis.sessionStorage?.getItem(progressPrefix + 'profile');
+  if (readProfiles().some(profile => profile.id === id)) activeProfileId = id;
+} catch {
+  // Open in guest mode when storage is unavailable.
+}
+renderProfiles();
 restoreProgress();
 const linkedTask = taskInUrl();
 const recentTask = readProgress('current');

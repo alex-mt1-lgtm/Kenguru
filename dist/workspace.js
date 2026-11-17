@@ -23,9 +23,9 @@ function hasInteractiveScene() {
 }
 
 function sheetKey() {
-  if (drawingSurface !== 'scene') return `${task}:paper:${drawingSurface}`;
+  if (drawingSurface !== 'scene') return `${activeProfileId}:${task}:paper:${drawingSurface}`;
   const variant = task === 0 && current().step === 0 ? workVariant : '';
-  return `${task}:${current().step}:${variant}`;
+  return `${activeProfileId}:${task}:${current().step}:${variant}`;
 }
 
 function getSheet(key=sheetKey()){if(!sheets.has(key))sheets.set(key,{marks:[],past:[]});return sheets.get(key)}
@@ -94,7 +94,7 @@ function renderWorkspace() {
     workspaceTask = task;
     drawingSurface = 'scene';
     drawingTool = 'pointer';
-    $('draftNotes').value = taskNotes.get(task) || '';
+    $('draftNotes').value = taskNotes.get(`${activeProfileId}:${task}`) || '';
   }
   if (!canDrawWith(drawingTool)) drawingTool = 'pointer';
   const paperVisible = workspace.open && !playing && drawingSurface !== 'scene';
@@ -185,7 +185,7 @@ function setupWorkspace() {
   const layer = $('drawingLayer');
   const workspace = $('drawingWorkspace');
   workspace.addEventListener('toggle', () => { finishMark(); renderWorkspace(); });
-  $('draftNotes').addEventListener('input', event => taskNotes.set(task, event.target.value));
+  $('draftNotes').addEventListener('input', event => taskNotes.set(`${activeProfileId}:${task}`, event.target.value));
   $('drawingSurface').addEventListener('change', event => {
     const surface = event.target.value;
     finishMark();

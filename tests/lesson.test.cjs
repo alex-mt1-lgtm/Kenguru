@@ -175,3 +175,38 @@ test('a new learner gets a clean attempt even in a tab that inherits storage',()
   assert.equal(reloaded.run('current().selected'),3);
   assert.equal(sharedLegacy.size,1);
 });
+
+test('profiles separate answers, opened solutions and drafts on a shared browser',()=>{
+  function store(records=new Map()) {
+    return {get length(){return records.size},key:i=>[...records.keys()][i],
+      getItem:key=>records.get(key),setItem:(key,value)=>records.set(key,value),removeItem:key=>records.delete(key)};
+  }
+  const localStorage=store(),sessionStorage=store();
+  const appBrowser=(session,type)=>({localStorage,sessionStorage:session,location:{hash:'#zadacha=2024-3-4/10'},
+    performance:{getEntriesByType:()=>[{type}]}});
+  const a=app(true,null,appBrowser(sessionStorage,'navigate'));
+  assert.equal(a.run('createProfile("Лиса")'),'');
+  const first=a.run('activeProfileId');
+  a.element('draftNotes').input({target:{value:'Мои вычисления'}});
+  a.run('FRUIT_WORK.assignment[0]=3');
+  a.element('answers').click({target:{closest:()=>({dataset:{answer:'2'}})}});
+  a.run('navigate(lastStep())');
+  assert.equal(a.run('createProfile("Робот")'),'');
+  assert.equal(a.run('current().selected'),null);
+  assert.equal(a.run('current().step'),0);
+  assert.equal(a.run('FRUIT_WORK.assignment[0]'),null);
+  assert.equal(a.element('draftNotes').value,'');
+  assert.match(a.element('collectionProgress').textContent,/открыто ответов 0 из 24/);
+  a.element('answers').click({target:{closest:()=>({dataset:{answer:'1'}})}});
+  a.element('profilePicker').change({target:{value:first}});
+  assert.equal(a.run('current().selected'),2);
+  assert.equal(a.run('current().step===lastStep()'),true);
+  assert.equal(a.run('FRUIT_WORK.assignment[0]'),3);
+  assert.equal(a.element('draftNotes').value,'Мои вычисления');
+  assert.equal(app(true,null,appBrowser(sessionStorage,'reload')).run('current().selected'),2);
+  const guest=app(true,null,appBrowser(store(),'navigate'));
+  assert.equal(guest.run('current().selected'),null);
+  assert.equal(guest.run('current().step'),0);
+  guest.element('profilePicker').change({target:{value:first}});
+  assert.equal(guest.run('current().selected'),2);
+});
