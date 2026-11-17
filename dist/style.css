@@ -15,3 +15,18 @@ body{font-size:18px;line-height:1.5}.player .condition{margin:18px 0 24px;font-s
 .circle-walkthrough{width:100%;padding:14px 0}.circle-walkthrough>svg{display:block;width:100%;height:auto;max-height:350px}.circle-relations{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:14px}.circle-relations>div{display:flex;flex-direction:column;gap:7px;border:1px solid #d4decf;border-left:5px solid;background:#fffefa;border-radius:8px;padding:12px 14px;font-size:18px;line-height:1.5}.circle-relations strong{font-size:18px}.circle-legend{font-size:18px;line-height:1.6;color:var(--ink);margin:16px 0 0}@media(max-width:540px){.circle-relations{grid-template-columns:1fr;gap:9px}.circle-relations>div,.circle-relations strong{font-size:18px}.circle-legend{font-size:18px}}
 .archive-picker{display:flex;align-items:flex-end;gap:24px;margin:26px 0 18px;padding:20px;background:#eaf0e6;border:1px solid #d1ddcc;border-radius:15px}.archive-picker>div{flex:1;min-width:0}.archive-picker-label{display:block;font-size:16px;font-weight:bold;margin-bottom:10px}.year-picker{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:7px}.year-picker button{border:1px solid #c4d4bf;border-radius:8px;background:#fffefa;padding:11px 8px;font-size:17px;text-align:center;color:var(--ink);min-height:46px}.year-picker button.active-year{background:var(--ink);border-color:var(--ink);color:white}.grade-picker{display:flex;flex-direction:column;gap:10px;font-size:16px;font-weight:bold;min-width:230px}.grade-picker select{font:16px Arial;color:var(--ink);border:1px solid #c4d4bf;border-radius:8px;background:#fffefa;padding:12px;min-height:46px}.grade-picker select:disabled{opacity:1;-webkit-text-fill-color:var(--ink);cursor:default}@media(max-width:850px){.archive-picker{flex-direction:column;align-items:stretch;gap:16px}.grade-picker{min-width:0}}@media(max-width:540px){.archive-picker{padding:14px}.year-picker{grid-template-columns:repeat(4,minmax(0,1fr))}.year-picker button{font-size:17px}.grade-picker select{font-size:17px}}
 .task-picker{grid-template-columns:repeat(auto-fit,minmax(100px,1fr))}@media(max-width:540px){.task-picker{grid-template-columns:repeat(auto-fit,minmax(90px,1fr))}}
+
+/* The draft is optional, and its controls stay next to the drawing surface. */
+.draft-controls{margin:16px 0 12px;display:grid;gap:8px}
+.draft-controls .workspace{margin:0;padding:12px 14px;color:var(--ink)}
+.draft-controls summary{font-size:18px;font-weight:700}
+.draft-notes{display:grid;gap:6px;margin:12px 0;font-size:16px}
+.draft-notes textarea{font:inherit;line-height:1.5;width:100%;resize:vertical;padding:10px;color:var(--ink);border:1px solid #bacdb8;border-radius:8px;background:#fffefa}
+.draft-controls .drawing-toolbar{margin:8px 0}
+.draft-controls select{font:inherit;color:var(--ink);max-width:100%}
+.draft-controls .draft-hint{margin:8px 0 0;font-size:14px;color:var(--muted)}
+.variant-picker{justify-self:start;display:flex;align-items:center;gap:8px;font-size:16px}
+.variant-picker select{padding:5px;font-size:16px}
+#stage>#drawingLayer{inset:auto;left:var(--drawing-left,0);top:var(--drawing-top,0);width:var(--drawing-width,100%);height:var(--drawing-height,100%);overflow:hidden}
+#stage>.draft-paper{width:100%;height:auto;aspect-ratio:640 / 300;max-width:none;min-height:0;max-height:none;background:#fffefa;border-radius:10px}
+#stage>.draft-paper[data-paper=grid]{background:#fffefa}
