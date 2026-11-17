@@ -58,3 +58,5 @@ body{font-size:18px;line-height:1.5}.player .condition{margin:18px 0 24px;font-s
 #drawingLayer[data-visible=false]{display:none}
 .draft-board{position:relative;width:100%;margin-top:12px;background:#fffefa;outline:1px solid #bacdb8;border-radius:9px;overflow:hidden}
 .draft-board>svg:first-child{display:block;width:100%;height:auto;aspect-ratio:640 / 300}
+
+.share-task .new-attempt{display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:8px 12px;margin-top:6px;border:1px solid #c4d4bf;border-radius:9px;background:#fffefa;color:var(--ink);text-decoration:none}

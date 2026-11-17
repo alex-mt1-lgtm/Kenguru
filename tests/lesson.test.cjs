@@ -37,7 +37,7 @@ test('a copied task URL opens the right year and lesson, with or without saved p
   const location = {hash: '#zadacha=2025-3-4/24'};
   const browser = {
     location,
-    localStorage: {
+    sessionStorage: {
       getItem: key => storage.get(key),
       setItem: (key, value) => storage.set(key, value),
     },
@@ -73,7 +73,7 @@ test('a copied task URL opens the right year and lesson, with or without saved p
 test('an unavailable browser store permits opening and navigating lessons', () => {
   function blocked() {throw new Error('Storage unavailable');}
   const unavailable = {getItem: blocked, setItem: blocked};
-  const visit = app(true, null, {localStorage: unavailable});
+  const visit = app(true, null, {sessionStorage: unavailable, performance: {getEntriesByType: () => [{type: "navigate"}]}});
   visit.run('selectTask(8); navigate(2)');
   assert.match(visit.element('question').textContent, /перед клеткой № 1/);
   assert.equal(visit.run('current().step'), 2);
@@ -143,4 +143,35 @@ test('pencil captures strokes on blank space without hiding the 2026 lesson',()=
   assert.equal(layer.parentElement,stage);
   assert.equal(board.hidden,true);
   assert.equal(a.run('getSheet().marks.length'),0);
+});
+
+test('a new learner gets a clean attempt even in a tab that inherits storage',()=>{
+  const records=new Map();
+  const sharedLegacy=new Map([['kenguru:v1:2026-3-4/1','{"step":3,"selected":3,"seen":true}']]);
+  const makeBrowser=(entries,type)=>({
+    location:{hash:'#zadacha=2026-3-4/1'},
+    performance:{getEntriesByType:()=>[{type}]},
+    localStorage:{getItem:key=>sharedLegacy.get(key)},
+    sessionStorage:{
+      get length(){return entries.size},
+      key:i=>[...entries.keys()][i],
+      getItem:key=>entries.get(key),
+      setItem:(key,value)=>entries.set(key,value),
+      removeItem:key=>entries.delete(key),
+    },
+  });
+  const first=app(true,null,makeBrowser(records,'navigate'));
+  assert.equal(first.run('current().step'),0);
+  first.element('answers').click({target:{closest:()=>({dataset:{answer:'3'}})}});
+  first.run('navigate(lastStep())');
+  assert.equal(first.element('newAttempt').href,'#zadacha=2026-3-4/1');
+  const reloaded=app(true,null,makeBrowser(records,'reload'));
+  assert.equal(reloaded.run('current().selected'),3);
+  assert.equal(reloaded.run('current().step === lastStep()'),true);
+  const independent=app(true,null,makeBrowser(new Map(records),'navigate'));
+  assert.equal(independent.run('current().selected'),null);
+  assert.equal(independent.run('current().step'),0);
+  assert.match(independent.element('collectionProgress').textContent,/открыто ответов 0 из 24/);
+  assert.equal(reloaded.run('current().selected'),3);
+  assert.equal(sharedLegacy.size,1);
 });

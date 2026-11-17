@@ -30,11 +30,28 @@ let selectedPoints=3,selectedDataset='2024-3-4';const groupLast={'2024-3-4:3':0,
 const lessonKey = lesson => lesson.datasetId + '/' + lesson.number;
 const taskHash = index => '#zadacha=' + lessonKey(LESSONS[index]);
 const taskInUrl = () => LESSONS.findIndex((_, index) => taskHash(index) === globalThis.location?.hash);
-const progressPrefix = 'kenguru:v1:';
+const progressPrefix = 'kenguru:attempt:';
+
+function startFreshAttemptOnArrival() {
+  // A new tab can inherit a copy of its opener's sessionStorage. Keep work
+  // only on refresh or history restoration, and start clean on a fresh visit.
+  const navigation = globalThis.performance?.getEntriesByType?.('navigation')[0];
+  if (navigation?.type !== 'navigate') return;
+  try {
+    const storage = globalThis.sessionStorage;
+    if (!storage) return;
+    for (let i = storage.length - 1; i >= 0; i--) {
+      const key = storage.key(i);
+      if (key?.startsWith(progressPrefix)) storage.removeItem(key);
+    }
+  } catch {
+    // A browser without storage still supports an in-memory attempt.
+  }
+}
 
 function readProgress(key) {
   try {
-    return JSON.parse(globalThis.localStorage?.getItem(progressPrefix + key) ?? 'null');
+    return JSON.parse(globalThis.sessionStorage?.getItem(progressPrefix + key) ?? 'null');
   } catch {
     return null;
   }
@@ -42,7 +59,7 @@ function readProgress(key) {
 
 function writeProgress(key, value) {
   try {
-    globalThis.localStorage?.setItem(progressPrefix + key, JSON.stringify(value));
+    globalThis.sessionStorage?.setItem(progressPrefix + key, JSON.stringify(value));
   } catch {
     // Progress from the current visit is still available in memory.
   }
@@ -62,7 +79,7 @@ function restoreProgress() {
 function saveLessonProgress() {
   const key = lessonKey(LESSONS[task]);
   const {step, selected, seen} = current();
-  // A reset or another tab must not erase the fact that the answer was already opened.
+  // Repeating this task keeps its completed marker within this attempt.
   writeProgress(key, {step, selected, seen: seen || readProgress(key)?.seen === true});
 }
 const activeSet=()=>CATALOG.find(set=>set.id===selectedDataset);
@@ -270,6 +287,7 @@ function selectTask(n, historyMethod = 'pushState') {
   if (globalThis.location && location.hash !== hash) globalThis.history?.[historyMethod](null, '', hash);
   writeProgress('current', lessonKey(lesson));
   $('copyTaskStatus').textContent = '';
+  $('newAttempt').href = hash;
   render();
 }
 function selectDataset(id){const set=CATALOG.find(item=>item.id===id);if(set)selectTask(datasetLast[id]??set.indices[0])}
@@ -345,6 +363,7 @@ globalThis.addEventListener?.('hashchange', () => {
 });
 setupWorkspace();
 setupFruitWorkspace();
+startFreshAttemptOnArrival();
 restoreProgress();
 const linkedTask = taskInUrl();
 const recentTask = readProgress('current');
