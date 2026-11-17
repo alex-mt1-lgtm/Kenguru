@@ -85,7 +85,6 @@
 .archive-key {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
   min-height: 44px;
   text-underline-offset: 4px;
 }
