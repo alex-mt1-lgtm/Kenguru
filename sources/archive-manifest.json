@@ -3,6 +3,24 @@
   "verifiedOn": "2026-11-17",
   "datasets": [
     {
+      "year": 2000,
+      "id": "2000-3-4",
+      "grades": [
+        3,
+        4
+      ],
+      "label": "3–4 классы",
+      "tasksUrl": "https://files.mathkang.ru/old/kenguru_2000_class_3-4.pdf",
+      "answersUrl": "https://files.mathkang.ru/old/kenguru_2000_answers.pdf",
+      "solutionUrl": null,
+      "taskCount": 26,
+      "pointGroups": {
+        "3": 10,
+        "4": 10,
+        "5": 6
+      }
+    },
+    {
       "year": 2020,
       "id": "2020-3-4",
       "grades": [

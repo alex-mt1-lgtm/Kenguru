@@ -62,6 +62,7 @@
 
 .archive-card {
   display: grid;
+  align-content: start;
   justify-items: start;
   gap: 8px;
   padding: 16px;

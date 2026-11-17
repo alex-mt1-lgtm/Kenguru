@@ -158,6 +158,7 @@ function saveLessonProgress() {
   writeProgress(key, {step, selected, seen: seen || readProgress(key)?.seen === true});
 }
 const activeSet=()=>CATALOG.find(set=>set.id===selectedDataset);
+const answerLetter=index=>(activeSet().answerLetters||LETTERS)[index];
 function nextTaskIndex(){const indices=activeSet().indices;return indices[(indices.indexOf(task)+1)%indices.length]}
 const reducedMotion=typeof matchMedia==='function'&&matchMedia('(prefers-reduced-motion: reduce)').matches;
 const FRAME_MS=600;
@@ -243,9 +244,9 @@ function renderAnswers() {
     } else if (lesson.choiceImages) {
       picture = `<img src="${lesson.choiceImages[i]}" alt="">`;
     }
-    const label = ('Выбрать ответ ' + LETTERS[i] + ': ' + description).replaceAll('&', '&amp;').replaceAll('"', '&quot;');
+    const label = ('Выбрать ответ ' + answerLetter(i) + ': ' + description).replaceAll('&', '&amp;').replaceAll('"', '&quot;');
     return `<button class="answer ${st.selected === i ? 'selected' : ''}" data-answer="${i}" aria-label="${label}" aria-pressed="${st.selected === i}">
-      ${picture}<strong>${LETTERS[i]}</strong>${illustrated ? '' : `<span>${value}</span>`}
+      ${picture}<strong>${answerLetter(i)}</strong>${illustrated ? '' : `<span>${value}</span>`}
     </button>`;
   }).join('');
   renderButtons('answers', 'data-answer', markup);
@@ -322,12 +323,12 @@ function render() {
   renderWorkspace();
   renderAlternative();
   const feedback = $('feedback');
-  const choice = st.selected === null ? '' : `Твой выбор — ${LETTERS[st.selected]}.`;
+  const choice = st.selected === null ? '' : `Твой выбор — ${answerLetter(st.selected)}.`;
   if (st.step === 0) {
     feedback.textContent = choice ? choice + ' Проверим его в разборе.' : 'Выбери ответ. Затем нажми «Далее» и проверь своё решение.';
   } else if (final) {
     const result = st.selected === lesson.answer ? 'Верно! Твоё решение подтвердилось.' : choice;
-    const answer = LETTERS[lesson.answer] + (task === 0 || task === 6 ? '' : ': ' + lesson.choices[lesson.answer]);
+    const answer = answerLetter(lesson.answer) + (task === 0 || task === 6 ? '' : ': ' + lesson.choices[lesson.answer]);
     feedback.textContent = [result, `Ответ ${answer}.`].filter(Boolean).join(' ');
   } else {
     feedback.textContent = 'Нажми «Смотреть», чтобы оживить схему. Пауза остановит и анимацию, и переходы.';
@@ -391,7 +392,7 @@ $('answers').addEventListener('click', e => {
     renderWorkspace();
   }
   renderAnswers();
-  $('feedback').textContent = `Твой выбор — ${LETTERS[current().selected]}. Проверим его в разборе.`;
+  $('feedback').textContent = `Твой выбор — ${answerLetter(current().selected)}. Проверим его в разборе.`;
   saveLessonProgress();
 });
 $('copyTaskLink').onclick = async () => {
