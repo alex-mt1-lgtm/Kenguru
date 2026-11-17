@@ -49,8 +49,8 @@ test('all 72 scenes render at zero and fractional frames using valid local visua
       assert.ok(content.every(value => typeof value === 'string' && value.trim().length > 0));
       for (const frame of [0, .01, .125, .65, 1.3, 2.8, 5.1, 10.5]) {
         const markup = run('KENGURU_ARCHIVE[2021].scenes[' + i + '](' + step + ',' + frame + ')');
-        assert.match(markup, /^<svg [^>]*aria-label="[^"]+"[^>]*>/, lesson.title);
-        assert.match(markup, /<\/svg>$/);
+        const drawings = markup.match(/<svg [^>]*aria-label="[^"]+"[^>]*>[\s\S]*?<\/svg>/g) || [];
+        assert.equal(drawings.length, lesson.number === 5 ? 5 : 1, lesson.title);
         assert.doesNotMatch(markup, /NaN|undefined|Infinity/);
         for (const [, src] of markup.matchAll(/\bhref="([^"]+)"/g)) imageExists(src);
       }
@@ -69,6 +69,8 @@ test('step zero is stable and shows givens before the learner answers', () => {
   assert.doesNotMatch(run('y2021Puzzle(0,0)'), /13 \+ 2|15<\/text>/);
   assert.doesNotMatch(run('y2021NeighborSums(0,0)'), /9 − 2/);
   assert.doesNotMatch(run('y2021DigitArrows(0,0)'), />6<\/text>|7 → 8 → 9/);
+  assert.doesNotMatch(run('y2021Targets(0,0)'), /target-score/);
+  assert.match(run('y2021Targets(3,0)'), /target-best[\s\S]*9 \+ 8 \+ 9[\s\S]*<strong>26<\/strong>/);
 });
 
 test('1: exactly one drawing uses one white brick', () => {

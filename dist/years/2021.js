@@ -18,6 +18,7 @@ const y2021Lessons = [
   {
     title: 'Рыбы на леске', short: 'Рыбы', skill: 'Направление на пути',
     question: 'У скольких рыб головы будут направлены к кольцу, когда леску распрямят?',
+    questionNote: 'В официальном условии у вариантов А и Б одно и то же число — 3.',
     choices: ['3', '3', '6', '7', '8'], answer: 2,
     steps: [
       ['Условие', 'Куда смотрят рыбы?', 'Рассмотри рисунок и выбери число рыб, которые будут смотреть к кольцу.'],
@@ -320,22 +321,24 @@ const Y2021_TARGET_HITS = [
 
 function y2021Targets(step, frame) {
   const marking = Math.min(5, 1 + Math.floor(frame / .75));
+  const colors = step > 0 ? ['#e9eee8', '#d6e8e2', '#c2dfd5', '#a0cdbd'] : Array(4).fill(Y2021_PAPER);
   const targets = Y2021_TARGET_HITS.map((hits, i) => {
-    const x = 66 + i * 127;
-    const y = 104;
-    const colors = step > 0 ? ['#e9eee8', '#d6e8e2', '#c2dfd5', '#a0cdbd'] : Array(4).fill(Y2021_PAPER);
-    let shapes = [45, 35, 25, 15].map((r, j) => '<circle cx="' + x + '" cy="' + y + '" r="' + r + '" fill="' + colors[j] + '" stroke="#657873"/>').join('');
-    shapes += [0, 20, 30, 40].map((n, j) => y2021Text(x + n, y + 4, 10 - j, 11)).join('');
-    shapes += hits.map(([dx, dy]) => '<circle cx="' + (x + dx) + '" cy="' + (y + dy) + '" r="3.7" fill="' + Y2021_INK + '"/>').join('');
-    shapes += y2021Text(x, 187, Y2021_LETTERS[i], 24);
-    if (step >= 2 && (step === 3 || i < marking)) {
-      shapes += y2021Text(x, 215, hits.map(hit => hit[2]).join(' + '), 17);
-      shapes += y2021Text(x, 246, hits.reduce((total, hit) => total + hit[2], 0), 27, step === 3 && i === 4 ? Y2021_TEAL : Y2021_INK);
-    }
-    return shapes;
+    const rings = [45, 35, 25, 15].map((r, j) =>
+      `<circle r="${r}" fill="${colors[j]}" stroke="#657873"/>`
+    ).join('');
+    const labels = [0, 20, 30, 40].map((x, j) => y2021Text(x, 4, 10 - j, 11)).join('');
+    const marks = hits.map(([x, y]) => `<circle cx="${x}" cy="${y}" r="3.7" fill="${Y2021_INK}"/>`).join('');
+    const scores = hits.map(hit => hit[2]);
+    const showScore = step === 3 || i < marking;
+    const equation = step < 2 ? '' : `<div class="target-score${showScore ? '' : ' pending'}">
+      <span>${scores.join(' + ')}</span><strong>${scores.reduce((total, score) => total + score, 0)}</strong>
+    </div>`;
+    return `<figure${step === 3 && i === 4 ? ' class="target-best"' : ''}>
+      ${svg(rings + labels + marks, 'Очки за три попадания: ' + scores.join(', '), '-49 -49 98 98')}
+      <figcaption>Мишень ${Y2021_LETTERS[i]}</figcaption>${equation}
+    </figure>`;
   }).join('');
-  const message = ['', 'От центра к краю: 10, 9, 8, 7', 'Три попадания на каждой мишени', 'Больше всего у Д: 26 очков'][step];
-  return svg(targets + y2021Text(320, 287, message), message || 'Пять мишеней с тремя попаданиями на каждой');
+  return '<div class="target-grid">' + targets + '</div>';
 }
 
 const Y2021_BALL_COLORS = {gray: '#869392', black: '#20383b', white: '#fffefa'};
