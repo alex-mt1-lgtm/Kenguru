@@ -219,7 +219,7 @@ test('the 2000 deep link keeps Latin labels and scores against its own key', () 
   a.element('answers').click({target: {closest: () => ({dataset: {answer: '1'}})}});
   assert.match(a.element('feedback').textContent, /Твой выбор — B/);
   a.run('navigate(lastStep())');
-  assert.match(a.element('feedback').textContent, /Верно!.*Ответ B/);
+  assert.match(a.element('feedback').textContent, /Верно!.*Ответ B: 20 мин\.$/u);
 
   a.run('selectYear(2024)');
   assert.match(a.element('answers').innerHTML, /<strong>Б<\/strong>/);

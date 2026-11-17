@@ -329,7 +329,8 @@ function render() {
   } else if (final) {
     const result = st.selected === lesson.answer ? 'Верно! Твоё решение подтвердилось.' : choice;
     const answer = answerLetter(lesson.answer) + (task === 0 || task === 6 ? '' : ': ' + lesson.choices[lesson.answer]);
-    feedback.textContent = [result, `Ответ ${answer}.`].filter(Boolean).join(' ');
+    const punctuation = /[.!?]$/u.test(answer) ? '' : '.';
+    feedback.textContent = [result, `Ответ ${answer}${punctuation}`].filter(Boolean).join(' ');
   } else {
     feedback.textContent = 'Нажми «Смотреть», чтобы оживить схему. Пауза остановит и анимацию, и переходы.';
   }
