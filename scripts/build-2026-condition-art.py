@@ -6,6 +6,8 @@ import json
 import fitz
 from PIL import Image, ImageDraw
 
+from archive_condition_art import vector_display_size, vector_figure
+
 ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT / 'dist'
 ASSETS = Path('assets/years/2026')
@@ -56,9 +58,18 @@ STICK_CHOICES = [
     (208, 302.5, 297, 317),
 ]
 
+HEART_CHOICES = [
+    (60.8, 398.7, 78.2, 416.4),
+    (110.3, 398.8, 127.7, 424.5),
+    (159.6, 402.7, 169.2, 412.3),
+    (203.8, 401.8, 229.2, 411.2),
+    (263.5, 396.8, 273.1, 414.1),
+]
+
 
 # Two lines of neighboring prose enter the bounding box of the circular figure.
 PROSE_OVERLAPS = {19: [(308.5, 22, 334.5, 33), (308.5, 108.3, 352.4, 113)]}
+VECTOR_FIGURES = {2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 17, 18, 22, 23, 24}
 
 
 def render(page, region, masks=()):
@@ -100,6 +111,14 @@ def save(image, filename):
     return relative.as_posix()
 
 
+def save_vector(document, page, region, width, height, filename):
+    rounded = (fitz.Rect(region) * SCALE).irect
+    bounds = fitz.Rect(*(coordinate / SCALE for coordinate in rounded))
+    relative = ASSETS / (filename + '.svg')
+    (DIST / relative).write_text(vector_figure(document, page, bounds, width, height), encoding='utf-8')
+    return relative.as_posix()
+
+
 def build():
     entries = {}
     with fitz.open(ROOT / 'sources' / '2026' / 'tasks.pdf') as document:
@@ -112,12 +131,26 @@ def build():
             raise ValueError(f'Unexpected task numbers: {sorted(entries)}')
         data = {}
         for number, image in sorted(entries.items()):
+            name = f'condition-{number}'
+            width, height = image.size
+            if number in VECTOR_FIGURES:
+                page, region = FIGURES[number]
+                width, height = vector_display_size(width, height)
+                path = save_vector(document, page, region, width, height, name)
+            else:
+                path = save(image, name)
             data[number] = {
-                'image': save(image, f'condition-{number}'),
-                'width': image.width,
-                'height': image.height,
+                'image': path,
+                'width': width,
+                'height': height,
             }
         save(render(document[3], FRAGMENTS[20][3][0]), 'condition-20-cards')
+        data[10]['choiceImages'] = []
+        for index, region in enumerate(HEART_CHOICES):
+            bounds = (fitz.Rect(region) * SCALE).irect
+            data[10]['choiceImages'].append(
+                save_vector(document, 1, region, bounds.width, bounds.height, f'choice-10-{index}')
+            )
         data[21]['choiceImages'] = [
             save(render(document[3], region), f'condition-21-choice-{index}')
             for index, region in enumerate(STICK_CHOICES)

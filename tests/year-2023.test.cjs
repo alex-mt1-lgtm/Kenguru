@@ -40,7 +40,7 @@ test('2023: official keys, point groups and source PDFs', () => {
 });
 
 test('2023: native conditions, separate original figures and animated scenes', () => {
-  const textAndChoicesOnly = new Set([11, 12, 16, 18, 19, 24]);
+  const textAndChoicesOnly = new Set([2, 11, 12, 16, 18, 19, 24]);
   function checkVector(file) {
     const asset = fs.readFileSync(path.join(root, 'dist', file), 'utf8');
     assert.match(asset, /<svg[^>]+viewBox=/u, file);
@@ -88,6 +88,7 @@ test('2023: native conditions, separate original figures and animated scenes', (
     });
   });
   assert.doesNotMatch(script, /догад/iu);
+  assert.match(archive.lessons[1].question, /20 \+ 10 \+ 10 \+ \? \+ \? \+ 1 = 51/u);
 });
 
 test('1–3: candle heights, repeated number, and rotated clock openings', () => {

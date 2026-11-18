@@ -28,7 +28,7 @@ function assertPng(file) {
 function assertVector(file) {
   const markup = fs.readFileSync(path.join(root, file), 'utf8');
   assert.match(markup, /^<svg [^>]+viewBox=/u, file);
-  assert.match(markup, /<path d=/u, file);
+  assert.match(markup, /<path\b[^>]*\bd=/u, file);
   assert.doesNotMatch(markup, /<image|<text|<script/u, file);
 }
 
@@ -64,7 +64,7 @@ test('each opening scene contains only the question and all fractional solution 
       assert.match(original, /condition-\d+(?=[.\-])/u);
       assert.doesNotMatch(original, /Оригинал задачи|вариантами/u);
       assert.ok(lesson.conditionImage && original.includes(lesson.conditionImage));
-      assertPng(lesson.conditionImage);
+      (lesson.conditionImage.endsWith('.svg') ? assertVector : assertPng)(lesson.conditionImage);
     }
     assert.equal(renderer(0, 3.2), original);
     for (let step = 1; step < lesson.steps.length; step++) {

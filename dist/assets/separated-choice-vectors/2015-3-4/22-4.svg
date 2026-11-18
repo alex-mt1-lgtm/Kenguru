@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="60" height="14.6666569" viewBox="0 0 60 14.6666569">
+<defs>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,-75,367.21998)" d="M75 352.5533H135V367.21998H75Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_2">
+<path transform="matrix(0,1,1,0,-75,-228)" d="M0 .345H.24V.11H0Z"/>
+</clipPath>
+<clipPath id="clip_3">
+<path transform="matrix(0,1,1,0,-75,-228)" d="M0 .288H.24V.109999988H0Z"/>
+</clipPath>
+</defs>
+<g clip-path="url(#clip_1)">
+<g clip-path="url(#clip_2)">
+</g>
+<g clip-path="url(#clip_3)">
+</g>
+<path transform="matrix(.994781,0,0,1.0052,13.118103,1.6450043)" stroke-width="1.004" stroke-linecap="square" stroke-miterlimit="4" stroke-linejoin="miter" fill="none" stroke="#231f20" d="M0 0C0 0 0 11.387-5.694 11.387-5.694 11.387-11.387 11.387-11.387 0"/>
+<path transform="matrix(.994781,0,0,1.0052,47.101999,1.6450043)" stroke-width="1.004" stroke-linecap="square" stroke-miterlimit="4" stroke-linejoin="miter" fill="none" stroke="#231f20" d="M0 0C0 0 0 11.387-11.387 11.387-11.387 11.387-22.775 11.387-22.775 0"/>
+<path transform="matrix(1,0,0,-1,39.380998,12.003006)" d="M0 0 1.657 1.79 4.113 .715 2.536-1.138C2.536-1.138 .053-.002 0 0" fill="#ffffff"/>
+<path transform="matrix(.994781,0,0,1.0052,58.429,1.6450043)" stroke-width="1.004" stroke-linecap="square" stroke-miterlimit="4" stroke-linejoin="miter" fill="none" stroke="#231f20" d="M0 0C0 0 0 11.387-11.387 11.387-11.387 11.387-12.625 11.337-14.307 10.974-15.159 10.789-17.536 9.935-18.984 8.76-21.053 7.079-22.775 4.403-22.775 0"/>
+</g>
+</svg>

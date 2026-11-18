@@ -17,8 +17,15 @@ const lessons = get('KENGURU_ARCHIVE[2021].lessons');
 const add = (a, b) => a + b;
 
 function imageExists(src) {
-  assert.match(src, /^assets\/years\/2021\/[a-z0-9-]+\.png$/);
+  assert.match(src, /^assets\/years\/2021\/[a-z0-9-]+\.(?:png|svg)$/);
   const bytes = fs.readFileSync(path.join(dist, src));
+  if (src.endsWith('.svg')) {
+    const markup = bytes.toString('utf8');
+    assert.match(markup, /^<svg [^>]+viewBox=/u, src);
+    assert.match(markup, /<path\b[^>]*\bd=/u, src);
+    assert.doesNotMatch(markup, /<image|<text|<script/u, src);
+    return;
+  }
   assert.equal(bytes.subarray(0, 8).toString('hex'), '89504e470d0a1a0a');
   assert.ok(bytes.readUInt32BE(16) >= 75 && bytes.readUInt32BE(20) >= 60, src);
 }
@@ -114,7 +121,9 @@ test('3–4: the puzzle gives 15 and the sun contains the four rays from option 
   const windows = Array.from(rays, (_, i) => (rays + rays).slice(i, i + 4));
   assert.ok(windows.includes('DLwD'));
   assert.ok(!windows.includes('DwwD'));
-  assert.equal(lessons[3].choices[lessons[3].answer], 'Фрагмент Б');
+  assert.equal(lessons[3].answer, 1);
+  assert.equal(lessons[3].choices[lessons[3].answer], 'Слева направо тёмно-серый, светло-серый, белый, тёмно-серый лучи');
+  assert.deepEqual(lessons[3].choiceImages, [0, 1, 2, 3, 4].map(index => `assets/years/2021/choice-4-${index}.svg`));
 });
 
 test('5: ring radii produce the unique maximum of 26', () => {

@@ -183,7 +183,7 @@
     },
     '2018/3': {
       question: 'В Петербурге 15 марта в 16 часов пошел снег, а 16 марта в 15 часов снегопад закончился. Сколько часов он продолжался?',
-      choices: ['11', '21', '23', '24', '25'],
+      choices: ['11', '12', '23', '24', '25'],
       draw: (step, frame) => drawTimeline(
         step === 1 ? ['15 марта, 16:00', 'Полночь'] : ['15 марта, 16:00', 'Полночь', '16 марта, 15:00'],
         step === 1 ? [8] : [8, 15], step === 1 ? ['8 ч'] : ['8 ч', '15 ч'], step === 2 ? '23 часа' : '', frame, 23),
@@ -233,7 +233,10 @@
       return [175, drawing + text(360, 145, '3 из 4', 30, teal)];
     }
     const [url, w, h] = card;
-    const drawing = crop(url, w, h, [493, 66, 76, 80], 251, 11, 228, 240);
+    const choiceImage = globalThis.KENGURU_CHOICE_LAYOUTS?.['2003-3-4/3']?.options[3]?.image;
+    const drawing = choiceImage
+      ? `<image href="${escape(choiceImage)}" x="251" y="11" width="228" height="240"/>`
+      : crop(url, w, h, [493, 66, 76, 80], 251, 11, 228, 240);
     const alpha = .45 + progress(frame, 9) * .55;
     return [260, drawing +
       `<g opacity="${alpha}">` +
