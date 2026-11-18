@@ -7,19 +7,42 @@
   display: inline-flex;
   align-items: center;
   min-height: 44px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   color: var(--ink);
   font-weight: bold;
   text-underline-offset: 4px;
 }
 
-.archive-page h1 {
-  font-size: clamp(2.5rem, 7vw, 5rem);
+.archive-heading {
+  margin-bottom: 18px;
+  padding: 30px 34px 31px;
+  border-radius: 17px;
+}
+.archive-heading h1 {
+  margin: 0;
+  font-size: clamp(36px, 4.6vw, 66px);
+  letter-spacing: -.055em;
+}
+.archive-heading h1 em { color: inherit; }
+.archive-heading .intro {
+  max-width: min(36rem, 73%);
+  margin: 12px 0 0;
+  color: inherit;
+  font-size: 16px;
+  line-height: 1.45;
 }
 
-.archive-page .intro {
-  max-width: 42rem;
-  margin-bottom: 22px;
+@media (max-width: 720px) {
+  .archive-heading {
+    --sun-size: 128px;
+    --sun-right: -70px;
+    --sun-top: -34px;
+    --ring-size: 115px;
+    --ring-right: -48px;
+    --ring-bottom: -76px;
+    padding: 20px 16px;
+  }
+  .archive-heading .intro { max-width: 83%; font-size: 14px; }
 }
 
 .archive-grade {
@@ -89,7 +112,7 @@
 .archive-open {
   padding: 8px 12px;
   border-radius: 8px;
-  background: #1a6c68;
+  background: #195e59;
   color: #fff;
   font-weight: bold;
   text-decoration: none;
