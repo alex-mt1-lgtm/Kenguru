@@ -41,9 +41,11 @@ body{font-size:18px;line-height:1.5}.player .condition{margin:18px 0 24px;font-s
 @media(max-width:360px){.target-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 
 /* The draft is optional, and its controls stay next to the drawing surface. */
-.draft-controls{margin:8px 0;display:flex;flex-wrap:wrap;align-items:flex-start;gap:8px}
+.draft-controls{margin:8px 0;display:grid;grid-template-columns:minmax(0,1fr);justify-items:start;gap:8px}
+.diagram-controls{display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+.diagram-controls:not(:has(> :not([hidden]))){display:none}
 .draft-controls .workspace{min-width:0;margin:0;padding:0 10px;border-radius:8px;color:var(--ink)}
-.draft-controls .workspace[open]{flex:1 0 100%;padding-bottom:6px}
+.draft-controls .workspace[open]{width:100%;padding-bottom:6px}
 .draft-controls .workspace > summary{min-height:42px;padding:9px 0;font-size:16px;font-weight:700}
 .draft-notes{display:grid;gap:6px;margin:0;font-size:16px}
 .draft-notes textarea{font:inherit;line-height:1.5;width:100%;resize:vertical;padding:10px;color:var(--ink);border:1px solid #bacdb8;border-radius:8px;background:#fffefa}
@@ -113,17 +115,36 @@ body{font-size:18px;line-height:1.5}.player .condition{margin:18px 0 24px;font-s
 }
 .site-brand-mark {
   display: grid;
-  flex: 0 0 20px;
+  flex: 0 0 24px;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  width: 20px;
-  height: 20px;
-  gap: 2px;
+  width: 24px;
+  height: 24px;
+  gap: 1.5px;
 }
-.site-brand-mark > span { border-radius: 2px; background: var(--teal); }
+
+.site-brand-mark > span {
+  position: relative;
+  border-radius: 2px;
+  background: var(--teal);
+}
+.site-brand-mark > span::after {
+  position: absolute;
+  z-index: 1;
+  width: 4px;
+  height: 4px;
+  border: 1.5px solid var(--paper);
+  border-radius: 50%;
+  background: inherit;
+  content: '';
+}
+.site-brand-mark > span:nth-child(1)::after { bottom: -4px; left: 2px; }
+.site-brand-mark > span:nth-child(2)::after { left: -4px; top: 3px; }
+.site-brand-mark > span:nth-child(3)::after { right: -4px; top: 3px; }
+.site-brand-mark > span:nth-child(4)::after { top: -4px; right: 2px; }
 .site-brand-mark > span:nth-child(2) {
   background: var(--orange);
-  transform: translate(1px, -1px);
+  transform: translate(1px, -1px) rotate(-5deg);
 }
 .lesson-header {
   position: relative;
