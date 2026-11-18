@@ -48,7 +48,7 @@ test('each opening scene contains only the question and all fractional solution 
     const renderer = pack.scenes[index];
     const original = renderer(0, 0);
     assert.match(original, /^<img [^>]+>$/);
-    assert.ok(original.includes(lesson.originalImage));
+    assert.ok(original.includes(index === 0 ? 'puzzle-start.png' : lesson.originalImage));
     assert.equal(renderer(0, 3.2), original);
     for (let step = 1; step < lesson.steps.length; step++) {
       for (const frame of [0, .01, .27, .91, 1.35, 2.82, 4.68, 9.21, 12]) {
@@ -63,6 +63,16 @@ test('each opening scene contains only the question and all fractional solution 
     const animated = pack.scenes[task-1];
     assert.ok(pack.lessons[task-1].steps.some((_,step) => animated(step,.11) !== animated(step,.88)), '№ ' + task);
   }
+});
+
+test('the puzzle piece rotates into the opening and the final board uses the same outline', () => {
+  const puzzle = pack.scenes[0];
+  assert.doesNotMatch(puzzle(0, 0), /puzzle-complete/);
+  assert.doesNotMatch(puzzle(1, 0), /puzzle-complete/);
+  assert.match(puzzle(2, 0), /rotate\(-90 /);
+  assert.match(puzzle(2, 8), /translate\(0 0\) rotate\(0 /);
+  const outline = markup => markup.match(/<clipPath[^>]*><path d="([^"]+)"/)[1];
+  assert.equal(outline(puzzle(2, 8)), outline(puzzle(3, 0)));
 });
 
 test('the marked point is seven unit steps from the start on a twelve-step line', () => {

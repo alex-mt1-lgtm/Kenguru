@@ -1,11 +1,12 @@
 """Build original grade 5–6 cards and answer key excerpts with PyMuPDF and Pillow."""
+from hashlib import sha256
 from pathlib import Path
 import io
 import json
 import re
 
 import fitz
-from PIL import Image, ImageChops
+from PIL import Image, ImageChops, ImageDraw
 
 BASE = Path(__file__).resolve().parents[1]
 SOURCES = BASE / 'sources'
@@ -15,13 +16,14 @@ TASKS = SOURCES / 'grades-5-6'
 LATIN = 'ABCDE'
 CYRILLIC = 'АБВГД'
 SCALE = 2.2
+LAYOUT = json.loads((SOURCES / 'grade-5-6-layout.json').read_text())
 SCANS={
 2011:[(0,1,465,826,[130,180,230,281,317,367,418,471],545),(0,24,46,410,[42,114,154,227,282,384,455],507),(1,9,46,410,[42,123,210,260,343,396,457],550),(1,16,465,826,[42,102,174,222,283,349,421,472],550)],
 2021:[(0,19,29,407,[20,77,145,224,345,430],536),(0,1,436,808,[115,190,253,310,374,419,492],568),(1,8,29,407,[20,184,242,364,474],575),(1,13,436,808,[20,130,266,334,420,504],575)],
 2022:[(0,1,16,404,[101.7,205.7,263.7,369.7,437.7,481.7,525.7],576),(1,8,16,405,[24.3,106.3,177.3,253.3,375.3,453.3,507.3],577),(2,15,16,405,[24.3,101.3,156.3,213.3,280.3,349.3,440.3,495.3],577),(3,23,16,405,[24.3,133.3,196.3,250.3,305.3,354.3,444.3,498.3],564)],
 2023:[(0,1,15,406,[109.7,180.7,254.3,326.7,393,457.7,524],578),(1,8,15,406,[22.7,89,153,216.7,270,332,393,455,517.3],578),(2,17,15,406,[22.7,106.7,206,249,343,424.7,520],578),(3,24,15,406,[22.7,117.7,190.7,254.3,327.3,385.3,493],550)],
 2025:[(0,1,16,405,[98.3,158.3,217.3,300.3,348.7,440.3,492],580),(1,8,20,410,[19,83,132.3,226.7,286.3,345.3,427.7,491],581),(2,16,16,405,[19,94,171.7,244.3,312,438.3,502.7],557),(3,23,20,410,[19,68,142,224.3,306.3,392.7,468.3,521.3],579)],
-2026:[(0,1,16,404,[93,199.3,274.3,351,427.7,490],576),(1,7,20,408,[24,77,176.3,213,298.3,356.7,428.7,476.3],580),(2,15,16,404,[19,77.3,196.3,254.7,334.7,415.7,500.7],575),(3,22,16,404,[19,89,168.7,216,275,332.3,378.7,459.3,550.7],582)],
+2026:[(0,1,16,404,[93,199.3,274.3,351,427.7,490],576),(1,7,20,408,[24,77,176.3,213,298.3,356.7,428.7,476.3],580),(2,15,16,404,[19,77.3,196.3,254.7,334.7,415.7,500.7],575),(3,22,16,399,[19,89,168.7,216,275,332.3,378.7,459.3,550.7],582)],
 }
 NUMBER=re.compile(r'(\d{1,2})(?:\.+(?=\D|$)|\s{2,})')
 def page_lines(page):
@@ -38,7 +40,7 @@ def find_pages(year, pdf):
     for pn,page in enumerate(pdf):
         if year<=1999: cols=[(57,65,53,420,534)]
         elif year<=2002 and len(pdf)==4: cols=[(133,140,130,484,680)]
-        elif year==2024: cols=[(16,33,14,409,564 if pn == 0 else 549 if pn == 3 else 566 if pn == 2 else 578)]
+        elif year==2024: cols=[(16,33,14,409,564 if pn == 0 else 549 if pn == 3 else 583)]
         elif year==2000: cols=[(54,59,49,408,534),(461,467,457,823,534)]
         elif 2017<=year<=2019: cols=[(39,43,34,399,551),(448,455,445,821,550)]
         elif year==2020: cols=[(30,35,25,394,548),(445,453,441,814,550)]
@@ -126,16 +128,55 @@ def answer_regions(page, year):
                 matches[number] = min(matches.get(number, rect.y0), rect.y0)
     if sorted(matches) != list(range(1, 31)):
         raise ValueError(f'{year}: incomplete right column of the answer sheet: {sorted(matches)}')
-    return [fitz.Rect(column - 10, matches[n] - 2, page.rect.width - 20,
-                      matches[n + 1] - 2 if n < 30 else page.rect.height - 20)
-            for n in range(1, 31)]
+    overrides = LAYOUT['answerStarts'].get(str(year), {})
+    starts = [overrides.get(str(number), matches[number] - 2) for number in range(1, 31)]
+    starts.append(page.rect.height - 20)
+    if any(top >= bottom for top, bottom in zip(starts, starts[1:])):
+        raise ValueError(f'{year}: overlapping answer regions')
+    return [fitz.Rect(column - 10, top, page.rect.width - 20, bottom)
+            for top, bottom in zip(starts, starts[1:])]
 
 
-def crop_image(page, rect, destination):
-    raster = page.get_pixmap(matrix=fitz.Matrix(SCALE, SCALE), clip=rect, alpha=False)
+def task_boundaries(year, number, regions):
+    seams = LAYOUT['taskSeams'].get(str(year), {})
+    top = LAYOUT.get('pageOpenings', {}).get(str(year), {}).get(str(number), seams.get(str(number), []))
+    page, rect = regions[number]
+    next_page, next_rect = regions.get(number + 1, (None, None))
+    shared_column = next_page == page and abs(next_rect.x0 - rect.x0) < 1
+    bottom = LAYOUT.get('pageClosings', {}).get(str(year), {}).get(str(number),
+        seams.get(str(number + 1), []) if shared_column else [])
+    return top, bottom
+
+
+def mask_card_edge(draw, raster, cuts, bounds, *, opening):
+    # The neighboring task can start higher on the illustration side of the column.
+    # Use the same segmented seam for both cards to keep the diagram whole.
+    default = bounds.y0 if opening else bounds.y1
+    points = sorted({bounds.x0, bounds.x1, *(x for left, right, _ in cuts for x in (left, right))})
+    for left, right in zip(points, points[1:]):
+        cut = next((y for lo, hi, y in cuts if lo <= left and right <= hi), default)
+        x0 = round(left * SCALE) - raster.x
+        x1 = round(right * SCALE) - raster.x - 1
+        edge = round(cut * SCALE) - raster.y
+        y0, y1 = (0, edge - 1) if opening else (edge, raster.height - 1)
+        if x0 <= x1 and y0 <= y1:
+            draw.rectangle((x0, y0, x1, y1), fill='white')
+
+
+def crop_image(page, rect, destination, *, boundaries=None, ink_threshold=28):
+    region = fitz.Rect(rect)
+    if boundaries:
+        top, bottom = boundaries
+        region.y0 = min([rect.y0] + [y for _, _, y in top])
+        region.y1 = max([rect.y1] + [y for _, _, y in bottom])
+    raster = page.get_pixmap(matrix=fitz.Matrix(SCALE, SCALE), clip=region, alpha=False)
     image = Image.open(io.BytesIO(raster.tobytes('png'))).convert('RGB')
+    if boundaries:
+        draw = ImageDraw.Draw(image)
+        mask_card_edge(draw, raster, top, rect, opening=True)
+        mask_card_edge(draw, raster, bottom, rect, opening=False)
     diff = ImageChops.difference(image, Image.new('RGB', image.size, 'white')).convert('L')
-    xs = diff.point(lambda value: 255 if value > 28 else 0).getbbox()
+    xs = diff.point(lambda value: 255 if value > ink_threshold else 0).getbbox()
     if xs is None:
         raise ValueError(f'Blank crop {destination}')
     left, top, right, bottom = xs
@@ -147,6 +188,7 @@ def crop_image(page, rect, destination):
 
 def task_regions(pdf, year, size):
     regions = {}
+    end_overrides = LAYOUT['taskEnds'].get(str(year), {})
     for page_index, left, right, starts, end in find_pages(year, pdf):
         page = pdf[page_index]
         for i, (number, top) in enumerate(starts):
@@ -159,6 +201,7 @@ def task_regions(pdf, year, size):
                     if (left <= rect.x0 < right and top + 14 < rect.y0 < bottom and
                         re.search(r'задачи\s*,?\s*оцениваемые|отводится на решение|по правилам международной|внимание.*в нашей группе', text, re.I)):
                         bottom = rect.y0 - 1
+            bottom = end_overrides.get(str(number), bottom)
             if bottom - top < 18:
                 raise ValueError(f'{year}: suspicious crop for task {number}')
             regions[number] = (page_index, fitz.Rect(left, top, right, bottom))
@@ -184,12 +227,19 @@ def build():
             cards = []
             for number in range(1, size + 1):
                 page, rect = regions[number]
-                width, height = crop_image(tasks[page], rect, assets / f'task-{number:02d}.webp')
+                boundaries = task_boundaries(year, number, regions)
+                original = assets / f'task-{number:02d}.webp'
+                ink_threshold = LAYOUT.get('taskInkThresholds', {}).get(str(year), {}).get(str(number), 28)
+                width, height = crop_image(tasks[page], rect, original,
+                                           boundaries=boundaries if any(boundaries) else None,
+                                           ink_threshold=ink_threshold)
+                version = sha256(original.read_bytes()).hexdigest()[:12]
                 solution = None
                 if by_value:
-                    solution = crop_image(official_page, key_regions[number - 1],
-                                          assets / f'answer-{number:02d}.webp')
-                cards.append([width, height, keys[number - 1], solution])
+                    excerpt = assets / f'answer-{number:02d}.webp'
+                    excerpt_width, excerpt_height = crop_image(official_page, key_regions[number - 1], excerpt)
+                    solution = [excerpt_width, excerpt_height, sha256(excerpt.read_bytes()).hexdigest()[:12]]
+                cards.append([width, height, keys[number - 1], solution, version])
             editions.append({**edition, 'cards': cards})
         print(f'{year}: {size} original cards, {"answer excerpts" if by_value else "letter key"}', flush=True)
     output = PUBLIC / 'years' / 'grades-5-6-data.js'
