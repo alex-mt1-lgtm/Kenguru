@@ -123,12 +123,13 @@ def main():
         replacements = vectors.get(task, {})
         condition_vector = replacements.get('condition', record.get('vectorCondition'))
         option_vectors = replacements.get('options', {})
-        regions = [
-            None if condition_vector else record.get('condition'),
-            *(None if str(index) in option_vectors else region
-              for index, region in enumerate(record.get('figures', [None] * 5), 1)),
-        ]
-        if any(regions):
+        regions = [record.get('condition'), *record.get('figures', [None] * 5)]
+        needs_condition_crop = regions[0] is not None and condition_vector is None
+        needs_choice_crop = any(
+            region is not None and str(index) not in option_vectors
+            for index, region in enumerate(regions[1:], 1)
+        )
+        if needs_condition_crop or needs_choice_crop:
             source = DIST / record['source']
             with Image.open(source) as image:
                 pixels = clean_pixels(image, record)

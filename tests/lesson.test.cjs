@@ -503,6 +503,16 @@ test('rebuilt visual lessons keep the condition separate and each worked scene i
   ];
   for (const file of files) vm.runInContext(fs.readFileSync(path.join(root, 'dist', file), 'utf8'), context);
   const grade = context.KENGURU_ARCHIVE;
+  const mirrorLesson = grade['2000-5-6'].lessons[0];
+  const mirrorScene = grade['2000-5-6'].scenes[0];
+  const clockPath = mirrorLesson.conditionImage;
+  assert.ok(clockPath.endsWith('.svg'));
+  assert.ok(mirrorScene(0, 0).includes(clockPath));
+  for (let step = 0; step < mirrorLesson.steps.length; step++) {
+    assert.ok(!mirrorScene(step, 0).includes(mirrorLesson.originalImage));
+  }
+  const clockArt = fs.readFileSync(path.join(root, 'dist', clockPath), 'utf8');
+  assert.doesNotMatch(clockArt, /<image\b/iu, 'The mirrored clock must stay sharp when enlarged');
   const appView = app(true, grade);
   appView.run('selectDataset("2026-5-6")');
   assert.match(appView.element('question').textContent, /[а-яё]{3}/iu);

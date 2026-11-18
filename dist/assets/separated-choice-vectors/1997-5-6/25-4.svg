@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="42.33333" height="42" viewBox="0 0 42.33333 42">
+<defs>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,-253.66667,200.66667)" d="M253.66667 158.66667H296V200.66667H253.66667Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_2">
+<path transform="matrix(.8660278,-.5,-.5,-.8660278,-212.65277,-94.66829)" d="M0-70H389.102V0H0Z"/>
+</clipPath>
+</defs>
+<g clip-path="url(#clip_1)">
+<g clip-path="url(#clip_2)">
+</g>
+<path transform="matrix(1.0021057,0,0,-.9978638,40.732255,27.344635)" stroke-width=".998" stroke-linecap="butt" stroke-miterlimit="4" stroke-linejoin="miter" fill="none" stroke="#231f20" d="M-38.846 0H0V-12.977H-38.846Z"/>
+<path transform="matrix(1.0021057,0,0,-.9978638,27.771103,40.185228)" stroke-width=".998" stroke-linecap="butt" stroke-miterlimit="4" stroke-linejoin="miter" fill="none" stroke="#231f20" d="M0 0H-12.977V38.782H0Z"/>
+<path transform="matrix(1.0021057,0,0,-.9978638,40.732255,14.39328)" stroke-width=".998" stroke-linecap="butt" stroke-miterlimit="4" stroke-linejoin="miter" fill="none" stroke="#231f20" d="M-38.846 0H0V-12.977H-38.846Z"/>
+</g>
+</svg>
