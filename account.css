@@ -1,7 +1,6 @@
 .account-menu {
-  margin-bottom: 12px;
-  padding-bottom: 12px;
-  border-bottom: 1px solid var(--line);
+  display: grid;
+  gap: 8px;
 }
 
 .account-menu p {

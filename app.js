@@ -31,58 +31,26 @@ const lessonKey = lesson => lesson.datasetId + '/' + lesson.number;
 const taskHash = index => '#zadacha=' + lessonKey(LESSONS[index]);
 const taskInUrl = () => LESSONS.findIndex((_, index) => taskHash(index) === globalThis.location?.hash);
 const progressPrefix = 'kenguru:attempt:';
-const profileListKey = 'kenguru:profiles:v1';
 let activeProfileId = '';
-let localProfileId = '';
 let accountProfile = null;
 let accountProgress = null;
 let accountResume = false;
 const fruitByProfile = new Map();
 
-function readProfiles() {
-  try {
-    const list = JSON.parse(globalThis.localStorage?.getItem(profileListKey) ?? '[]');
-    return Array.isArray(list) ? list.filter(profile =>
-      typeof profile?.id === 'string' && /^[a-z0-9-]+$/i.test(profile.id) &&
-      typeof profile.name === 'string' && profile.name.length <= 24
-    ) : [];
-  } catch {
-    return [];
-  }
-}
-
-function availableProfiles() {
-  const profiles = readProfiles();
-  return accountProfile ? [accountProfile, ...profiles] : profiles;
-}
-
-function renderProfiles() {
-  const profiles = availableProfiles();
-  const active = profiles.find(profile => profile.id === activeProfileId);
-  $('profileSummary').textContent = active ? active.name : 'Профиль';
-  $('profileToggle').setAttribute('aria-label', active ? `Профиль: ${active.name}` : 'Профиль');
-  $('profilePicker').innerHTML = '<option value="">Без профиля</option>' + profiles.map(profile =>
-    `<option value="${profile.id}">${profile.name.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;')}</option>`
-  ).join('');
-  $('profilePicker').value = activeProfileId;
+function renderProfile() {
+  const name = accountProfile?.name;
+  $('profileSummary').textContent = name ?? 'Профиль';
+  $('profileToggle').setAttribute('aria-label', name ? `Профиль: ${name}` : 'Профиль');
   renderRatingSummary();
 }
 
 function switchProfile(id, {resume = false, preferredTask = -1} = {}) {
-  if (id === activeProfileId || (id && !availableProfiles().some(profile => profile.id === id))) return;
+  if (id === activeProfileId) return;
   finishMark();
   pause();
   fruitByProfile.set(activeProfileId, {...FRUIT_WORK});
   activeProfileId = id;
   const signedInProfile = id === accountProfile?.id;
-  if (!signedInProfile) {
-    localProfileId = id;
-    try {
-      globalThis.sessionStorage?.setItem(progressPrefix + 'profile', id);
-    } catch {
-      // The profile selection is still available for this page.
-    }
-  }
   resetFruitWorkspace();
   if (fruitByProfile.has(id)) Object.assign(FRUIT_WORK, fruitByProfile.get(id));
   showTaskDrawing();
@@ -91,48 +59,20 @@ function switchProfile(id, {resume = false, preferredTask = -1} = {}) {
   for (const key of Object.keys(groupLast)) delete groupLast[key];
   for (const key of Object.keys(datasetLast)) delete datasetLast[key];
   restoreProgress();
-  renderProfiles();
+  renderProfile();
   const position = signedInProfile || resume ? savedTaskIndex() : -1;
   const next = preferredTask >= 0 ? preferredTask : position >= 0 ? position : resume ? 0 : task;
   selectTask(next, 'replaceState', !signedInProfile);
   if ($('profileRatingDialog').open) renderRatingDialog();
 }
 
-function createProfile(name) {
-  const label = name.trim();
-  if (!label || label.length > 24) return 'Введи имя или псевдоним до 24 символов.';
-  const profiles = readProfiles();
-  if (profiles.some(profile => profile.name.toLocaleLowerCase('ru') === label.toLocaleLowerCase('ru'))) {
-    return 'Такой профиль уже есть. Его можно выбрать в списке.';
-  }
-  const id = globalThis.crypto?.randomUUID?.() ?? `${Date.now()}-${Math.random().toString(36).slice(2)}`;
-  try {
-    globalThis.localStorage.setItem(profileListKey, JSON.stringify([...profiles, {id, name: label}]));
-  } catch {
-    return 'Браузер не позволяет сохранять профили. Можно решать задачи без профиля.';
-  }
-  switchProfile(id);
-  return '';
-}
-
-function profileProgressKey(profileId, key) {
-  return `kenguru:profile:${profileId}:${key}`;
-}
-
 function readProfileValue(profileId, key) {
-  if (profileId === accountProfile?.id) return accountProgress.read(key);
-  if (profileId) return globalThis.localStorage?.getItem(profileProgressKey(profileId, key));
-  return globalThis.sessionStorage?.getItem(progressPrefix + key);
+  return profileId ? accountProgress?.read(key) : globalThis.sessionStorage?.getItem(progressPrefix + key);
 }
 
 function writeProfileValue(profileId, key, value) {
-  if (profileId === accountProfile?.id) {
-    accountProgress.write(key, value);
-  } else if (profileId) {
-    globalThis.localStorage.setItem(profileProgressKey(profileId, key), value);
-  } else {
-    globalThis.sessionStorage?.setItem(progressPrefix + key, value);
-  }
+  if (profileId) accountProgress?.write(key, value);
+  else globalThis.sessionStorage?.setItem(progressPrefix + key, value);
 }
 
 function startFreshAttemptOnArrival() {
@@ -220,10 +160,9 @@ function changeAccount({user, restored}) {
     switchProfile(id, {preferredTask, resume: wasAccount});
     accountProgress.refresh();
   } else if (wasAccount) {
-    const fallback = readProfiles().some(profile => profile.id === localProfileId) ? localProfileId : '';
-    switchProfile(fallback, {resume: true});
+    switchProfile('', {resume: true});
   } else {
-    renderProfiles();
+    renderProfile();
     if ($('profileRatingDialog').open) renderRatingDialog();
   }
 }
@@ -571,28 +510,11 @@ globalThis.addEventListener?.('hashchange', () => {
   const linkedTask = taskInUrl();
   if (linkedTask !== -1) selectTask(linkedTask, 'replaceState');
 });
-$('profilePicker').addEventListener('change', event => {
-  switchProfile(event.target.value);
-  $('profileStatus').textContent = '';
-});
-$('newProfileForm').addEventListener('submit', event => {
-  event.preventDefault();
-  const input = $('profileName');
-  const message = createProfile(input.value);
-  $('profileStatus').textContent = message || 'Профиль создан.';
-  if (!message) input.value = '';
-});
 setupWorkspace();
 setupFruitWorkspace();
 setupProfileRating();
 startFreshAttemptOnArrival();
-try {
-  const id = globalThis.sessionStorage?.getItem(progressPrefix + 'profile');
-  if (readProfiles().some(profile => profile.id === id)) localProfileId = activeProfileId = id;
-} catch {
-  // Open in guest mode when storage is unavailable.
-}
-renderProfiles();
+renderProfile();
 restoreProgress();
 const linkedTask = taskInUrl();
 selectTask(linkedTask === -1 ? Math.max(savedTaskIndex(), 0) : linkedTask, 'replaceState');
