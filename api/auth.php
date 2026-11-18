@@ -53,7 +53,7 @@ function openAccountDatabase(string $path): PDO
     ]);
     $db->exec('PRAGMA busy_timeout = 5000');
     $version = (int) $db->query('PRAGMA user_version')->fetchColumn();
-    if ($version > 1) {
+    if ($version > 2) {
         throw new RuntimeException('unsupported account database version');
     }
     if ($version === 0) {
@@ -86,6 +86,24 @@ function openAccountDatabase(string $path): PDO
         $db->prepare("INSERT OR IGNORE INTO auth_settings VALUES ('limit_secret', ?)")
             ->execute([bin2hex(random_bytes(32))]);
         $db->exec('PRAGMA user_version = 1');
+        $db->commit();
+    }
+    if ($version < 2) {
+        $db->beginTransaction();
+        $db->exec(<<<'SQL'
+            CREATE TABLE IF NOT EXISTS account_scores (
+                account_id INTEGER PRIMARY KEY REFERENCES accounts (id) ON DELETE CASCADE,
+                points INTEGER NOT NULL,
+                solved INTEGER NOT NULL
+            );
+            CREATE INDEX IF NOT EXISTS account_scores_rank ON account_scores (points DESC);
+            SQL);
+        $records = $db->query("SELECT id, progress_json FROM accounts WHERE progress_json <> '{}'");
+        while ($record = $records->fetch()) {
+            $progress = json_decode($record['progress_json'], false, 12, JSON_THROW_ON_ERROR);
+            saveAccountScore($db, (int) $record['id'], $progress);
+        }
+        $db->exec('PRAGMA user_version = 2');
         $db->commit();
     }
     return $db;
@@ -446,6 +464,103 @@ function validProgressEntry(string $key, mixed $value): bool
     return false;
 }
 
+function ratingCatalog(): array
+{
+    static $catalog = null;
+    if ($catalog === null) {
+        $encoded = file_get_contents(__DIR__ . '/rating-catalog.json');
+        if ($encoded === false) {
+            throw new RuntimeException('rating catalogue unavailable');
+        }
+        $catalog = json_decode($encoded, true, 8, JSON_THROW_ON_ERROR);
+    }
+    return $catalog;
+}
+
+function saveAccountScore(PDO $db, int $accountId, stdClass $progress): void
+{
+    $catalog = ratingCatalog();
+    $points = 0;
+    $solved = 0;
+    foreach ($progress as $key => $value) {
+        if ($value !== 'solved' || !str_starts_with($key, 'rating:')) {
+            continue;
+        }
+        $lesson = $catalog[substr($key, strlen('rating:'))] ?? null;
+        if ($lesson !== null) {
+            $points += $lesson[1];
+            $solved++;
+        }
+    }
+    $db->prepare(<<<'SQL'
+        INSERT INTO account_scores (account_id, points, solved) VALUES (?, ?, ?)
+        ON CONFLICT (account_id) DO UPDATE SET points = excluded.points, solved = excluded.solved
+        SQL)->execute([$accountId, $points, $solved]);
+}
+
+function verifiedRating(string $key, string $value, stdClass $next, stdClass $saved, stdClass $claims): string
+{
+    if ($value !== 'solved') {
+        return 'reviewed';
+    }
+    $lesson = substr($key, strlen('rating:'));
+    $answer = ratingCatalog()[$lesson][0] ?? null;
+    $before = json_decode($saved->$lesson ?? 'null', false, 12, JSON_THROW_ON_ERROR);
+    $submitted = json_decode($next->$lesson ?? 'null', false, 12, JSON_THROW_ON_ERROR);
+    if ($answer === null || !validLessonProgress($submitted) || ($claims->$lesson ?? $submitted->selected) !== $answer
+        || ($submitted->step === 0 && !($submitted->reviewOpened ?? false))
+        || ($before->seen ?? false) || ($before->reviewOpened ?? false) || ($before->step ?? 0) > 0) {
+        return 'reviewed';
+    }
+    return 'solved';
+}
+
+function leaderboard(PDO $db, array $account): array
+{
+    $pageSize = 25;
+    $page = filter_var($_GET['page'] ?? '1', FILTER_VALIDATE_INT, ['options' => ['min_range' => 1]]);
+    if ($page === false) {
+        throw new AccountError(422, 'Укажи номер страницы рейтинга.');
+    }
+    $db->beginTransaction();
+    $total = (int) $db->query('SELECT COUNT(*) FROM accounts')->fetchColumn();
+    $totalPages = max(1, (int) ceil($total / $pageSize));
+    $page = min($page, $totalPages);
+    $query = $db->prepare(<<<'SQL'
+        WITH standings AS (
+            SELECT a.id, a.username, a.username_key, COALESCE(s.points, 0) AS points,
+                   COALESCE(s.solved, 0) AS solved
+            FROM accounts a LEFT JOIN account_scores s ON s.account_id = a.id
+        ), ranked AS (
+            SELECT *, RANK() OVER (ORDER BY points DESC) AS place FROM standings
+        )
+        SELECT id, username, points, solved, place FROM ranked
+        ORDER BY points DESC, solved DESC, username_key, id LIMIT ? OFFSET ?
+        SQL);
+    $query->bindValue(1, $pageSize, PDO::PARAM_INT);
+    $query->bindValue(2, ($page - 1) * $pageSize, PDO::PARAM_INT);
+    $query->execute();
+    $serialize = static fn(array $row): array => [
+        'rank' => (int) $row['place'],
+        'username' => $row['username'],
+        'points' => (int) $row['points'],
+        'solved' => (int) $row['solved'],
+        'isCurrent' => (int) $row['id'] === (int) $account['id'],
+    ];
+    $entries = array_map($serialize, $query->fetchAll());
+    $own = $db->prepare(<<<'SQL'
+        SELECT a.id, a.username, COALESCE(s.points, 0) AS points, COALESCE(s.solved, 0) AS solved,
+               1 + (SELECT COUNT(*) FROM account_scores higher
+                    WHERE higher.points > COALESCE(s.points, 0)) AS place
+        FROM accounts a LEFT JOIN account_scores s ON s.account_id = a.id
+        WHERE a.id = ?
+        SQL);
+    $own->execute([$account['id']]);
+    $current = $serialize($own->fetch());
+    $db->commit();
+    return compact('entries', 'current', 'page', 'totalPages', 'total');
+}
+
 function progressForAccount(PDO $db, array $account, ?stdClass $data = null): array
 {
     $expected = $data === null ? ($_GET['accountId'] ?? null) : ($data->accountId ?? null);
@@ -472,13 +587,30 @@ function progressForAccount(PDO $db, array $account, ?stdClass $data = null): ar
     if ($data->revision !== $revision) {
         throw new AccountError(409, 'Прогресс изменился на другом устройстве.', $result);
     }
+    $claims = $data->ratingAnswers ?? new stdClass();
+    if (!$claims instanceof stdClass || count(get_object_vars($claims)) > PROGRESS_KEY_LIMIT) {
+        throw new AccountError(422, 'Не удалось прочитать первые ответы.');
+    }
+    foreach ($claims as $key => $answer) {
+        if (!is_int($answer) || $answer < 0 || $answer > 4 || ($data->progress->{'rating:' . $key} ?? null) !== 'solved') {
+            throw new AccountError(422, 'Не удалось прочитать первые ответы.');
+        }
+    }
     foreach ($data->progress as $key => $value) {
         if (!validProgressEntry($key, $value)) {
             throw new AccountError(422, 'Некоторые данные прогресса имеют неверный формат.');
         }
-        // Keep the result from the first attempt recorded for each account and task.
-        if (str_starts_with($key, 'rating:') && property_exists($progress, $key)) {
-            continue;
+    }
+    $saved = clone $progress;
+    $scoreChanged = false;
+    foreach ($data->progress as $key => $value) {
+        // Keep the first verified rating for each account and task.
+        if (str_starts_with($key, 'rating:')) {
+            if (property_exists($saved, $key)) {
+                continue;
+            }
+            $value = verifiedRating($key, $value, $data->progress, $saved, $claims);
+            $scoreChanged = $scoreChanged || $value === 'solved';
         }
         if (isset($progress->$key) && preg_match('~\A' . LESSON_KEY_PATTERN . '\z~', $key)) {
             $value = preserveLessonReview($progress->$key, $value);
@@ -492,14 +624,20 @@ function progressForAccount(PDO $db, array $account, ?stdClass $data = null): ar
     if ($encoded === $record['progress_json']) {
         return $result;
     }
+    $db->beginTransaction();
     $save = $db->prepare(<<<'SQL'
         UPDATE accounts SET progress_json = ?, progress_revision = progress_revision + 1
         WHERE id = ? AND progress_revision = ? AND session_version = ?
         SQL);
     $save->execute([$encoded, $account['id'], $revision, $account['session_version']]);
     if ($save->rowCount() === 0) {
+        $db->rollBack();
         throw new AccountError(409, 'Прогресс изменился на другом устройстве.', progressForAccount($db, $account));
     }
+    if ($scoreChanged) {
+        saveAccountScore($db, (int) $account['id'], $progress);
+    }
+    $db->commit();
     return ['revision' => $revision + 1, 'progress' => $progress];
 }
 
@@ -512,7 +650,7 @@ function routeAccountRequest(): void
     $method = $_SERVER['REQUEST_METHOD'] ?? '';
     $action = $_GET['action'] ?? 'session';
     $allowed = match ($action) {
-        'session' => 'GET',
+        'session', 'leaderboard' => 'GET',
         'progress' => 'GET, POST',
         'register', 'login', 'logout', 'request-reset', 'reset' => 'POST',
         default => '',
@@ -568,6 +706,8 @@ function routeAccountRequest(): void
             reply(200, sessionPayload($account));
         } elseif ($account === null) {
             throw new AccountError(401, 'Войди в аккаунт, чтобы сохранить прогресс.', sessionPayload(null));
+        } elseif ($action === 'leaderboard') {
+            reply(200, leaderboard($db, $account));
         } else {
             reply(200, progressForAccount($db, $account));
         }

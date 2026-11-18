@@ -2,53 +2,94 @@
 
 (() => {
   const archive = globalThis.KENGURU_ARCHIVE ??= {};
-  for (const edition of globalThis.KENGURU_GRADES_5_6 ?? []) {
+  const visual = globalThis.KenguruVisual;
+  const officialSolutions = globalThis.KENGURU_GRADE_SOLUTION_STEPS ?? {};
+  const nativeConditions = globalThis.KENGURU_GRADE_CONDITIONS ?? {};
+  const visualLessons = globalThis.KenguruVisualLessons ?? {};
+
+  function conditionScene(path, width, height, label) {
+    return visual.svg(`<image href="${visual.escape(path)}" width="${width}" height="${height}"/>`,
+      label, `0 0 ${width} ${height}`, 'legacy-scene');
+  }
+
+  function officialSteps(stages) {
+    return stages.map(({text}, index) => [
+      index === stages.length - 1 ? 'Ответ' : `Шаг ${index + 1}`,
+      index === 0 ? 'Начинаем решение' : index === stages.length - 1 ? 'Проверяем ответ' : 'Продолжаем решение',
+      text,
+    ]);
+  }
+
+  function createEdition(edition) {
     const {year, id, grades, label, tasksUrl, answersUrl, solutionUrl, cards} = edition;
     const answerLetters = [...(year < 2008 ? 'ABCDE' : 'АБВГД')];
     const groupSize = cards.length / 3;
     const lessons = [];
     const scenes = [];
+
     for (const [index, [width, height, answer, excerpt]] of cards.entries()) {
       const number = index + 1;
       const padded = String(number).padStart(2, '0');
       const folder = `assets/grades-5-6/${year}`;
       const originalImage = `${folder}/task-${padded}.webp`;
-      const statement = `Оригинальное условие и варианты ответа задачи №${number}. Кенгуру ${year}, 5–6 классы.`;
-      const steps = [
-        ['Условие', 'Реши задачу', 'Выбери ответ и нажми «Далее», чтобы свериться с ключом.'],
-        ['Ответ', 'Проверка по официальному ключу', excerpt
-          ? 'Ответ напечатан ниже, в выдержке из официального ключа.'
-          : 'Сравни выбранный вариант с официальным ответом.'],
-      ];
+      const description = `Условие задачи №${number}. Кенгуру ${year}, 5–6 классы.`;
+      const custom = visualLessons[year]?.[number];
+      const native = nativeConditions[year]?.[number];
+      const official = officialSolutions[year]?.[number]?.steps;
+      const question = custom?.question ?? native?.question ?? '';
+      const choices = custom?.choices ?? native?.choices ?? ['', '', '', '', ''];
+      const paperEdition = !custom && !official?.length;
+      const intro = ['Условие', 'Условие задачи', 'Выбери ответ и нажми «Далее».'];
+      const answerStep = excerpt
+        ? ['Ответ', 'Проверяем ответ', 'Сверь свой ответ с официальным ключом.']
+        : ['Ответ', 'Проверяем ответ', 'Сравни свой выбор с официальным ответом.'];
+      const steps = custom?.steps ?? [intro, ...(official?.length ? officialSteps(official) : [answerStep])];
+      const figure = native?.image;
+      const title = custom?.title ?? `Задача ${number}`;
+
       lessons.push({
         number,
-        title: `Задача ${number}`,
-        short: 'Условие и официальный ответ',
-        skill: '',
+        title,
+        short: custom?.short ?? (paperEdition ? 'Проверка ответа' : 'Пошаговое решение'),
+        skill: custom?.skill ?? '',
         answer,
-        choices: ['', '', '', '', ''],
-        question: '',
-        legacyOriginal: true,
-        paperEdition: true,
+        choices,
+        choiceImages: custom?.choiceImages,
+        question,
+        conditionImage: custom?.conditionImage ?? (!custom ? figure : undefined),
+        legacyOriginal: !custom || Boolean(custom.originalAtStart),
+        hideIntroText: !custom,
+        paperEdition,
+        showCompletedStep: !paperEdition,
         answerExcerpt: Boolean(excerpt),
         points: 3 + Math.floor(index / groupSize),
         originalImage,
         steps,
       });
-      scenes.push(step => {
-        const figures = `<image href="${originalImage}" width="${width}" height="${height}"/>`;
-        if (step && excerpt) {
-          const [answerWidth, answerHeight] = excerpt;
-          const maxWidth = Math.max(width, 275);
-          const scale = Math.min(1, (maxWidth - 20) / answerWidth);
-          const drawnWidth = answerWidth * scale;
-          const drawnHeight = answerHeight * scale;
-          const total = Math.ceil(height + drawnHeight + 26);
-          return `<svg class="legacy-scene" viewBox="0 0 ${maxWidth} ${total}" role="img" aria-label="${statement} Ниже фрагмент официального ключа.">${figures}<rect x="0" y="${height + 8}" width="${maxWidth}" height="${drawnHeight + 16}" fill="#eaf0e6" rx="6"/><image href="${folder}/answer-${padded}.webp" x="10" y="${height + 16}" width="${drawnWidth}" height="${drawnHeight}"/></svg>`;
-        }
-        return `<svg class="legacy-scene" viewBox="0 0 ${width} ${height}" role="img" aria-label="${statement}">${figures}</svg>`;
+
+      const initialScene = !question || custom?.originalAtStart
+        ? conditionScene(originalImage, width, height, description)
+        : figure && !custom ? conditionScene(figure, native.imageWidth, native.imageHeight, description) : '';
+      const key = visual.answerScene({
+        letter: answerLetters[answer],
+        value: choices[answer],
+        image: excerpt && `${folder}/answer-${padded}.webp`,
+        width: excerpt?.[0],
+        height: excerpt?.[1],
+      });
+      scenes.push((step, frame) => {
+        if (custom && !(step === 0 && custom.originalAtStart)) return custom.scene(step, frame);
+        if (step === 0) return initialScene;
+        if (paperEdition) return key;
+        // An empty stage is appropriate when this part of the proof has only a verbal argument.
+        return visual.workedScene(official[step - 1], frame) || (step === steps.length - 1 ? key : '');
       });
     }
-    archive[id] = {year, id, grades, label, answerLetters, sources: {tasksUrl, answersUrl, solutionUrl}, lessons, scenes, paperEdition: true};
+
+    return {year, id, grades, label, answerLetters, sources: {tasksUrl, answersUrl, solutionUrl}, lessons, scenes, paperEdition: true};
+  }
+
+  for (const edition of globalThis.KENGURU_GRADES_5_6 ?? []) {
+    archive[edition.id] = createEdition(edition);
   }
 })();

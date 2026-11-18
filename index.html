@@ -1,4 +1,4 @@
-<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Задачи Кенгуру для 3–6 классов: самостоятельное решение, проверка ответов и пошаговые разборы."><title>Olympiads.pro</title><script src="account.js?v=header-entry"></script><link rel="stylesheet" href="style.css?v=20261118-draft"><link rel="stylesheet" href="account.css?v=3"></head><body>
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Задачи Кенгуру для 3–6 классов: самостоятельное решение, проверка ответов и пошаговые разборы."><title>Olympiads.pro</title><link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="favicon.svg"><script src="account.js?v=standings"></script><link rel="stylesheet" href="style.css?v=20261118-lessons"><link rel="stylesheet" href="account.css?v=3"><link rel="stylesheet" href="leaderboard.css"></head><body>
 <header class="lesson-header"><a class="site-brand" href="./" aria-label="olympiads.pro — к урокам"><span class="site-brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span>olympiads.pro</a>
 <div class="header-menus">
   <details id="editionMenu" class="compact-menu edition-menu">
@@ -16,6 +16,7 @@
         <p id="accountMenuStatus" role="status"></p>
         <button id="accountLogout" type="button" hidden>Выйти из аккаунта</button>
       </section>
+      <button id="openLeaderboard" class="profile-rating-link leaderboard-link" type="button" aria-haspopup="dialog">Общий рейтинг</button>
       <button id="openProfileRating" class="profile-rating-link" type="button" hidden>
         <span>Рейтинг и достижения</span><strong id="profileRatingPoints"></strong>
       </button>
@@ -29,7 +30,15 @@
   <div class="collection-progress" id="collectionProgress" aria-live="polite"></div>
 </div>
 <nav id="taskPicker" class="task-picker" aria-label="Выбор задачи"></nav><div class="lesson" id="lesson"><aside><div class="lesson-number"><span id="taskNumber">01</span> <span id="taskPoints">/ НА 3 БАЛЛА</span></div><h1 id="taskTitle" tabindex="-1">Квадрат с секретом</h1><p id="taskSkill">Сравниваем площади</p><nav id="chapters" aria-label="Шаги урока"></nav></aside>
-<section class="player" aria-label="Интерактивный урок"><div class="scene-top"><span id="chapterTag"></span><span id="counter"></span></div><details class="condition" open><summary>Условие задачи</summary><p id="question"></p><p id="questionNote" class="question-note" hidden></p></details><h2 id="sceneTitle"></h2><p id="sceneText"></p><div class="draft-controls">
+<section class="player" aria-label="Интерактивный урок"><div class="scene-top"><span id="chapterTag"></span><span id="counter"></span></div><details id="taskCondition" class="condition" open>
+  <summary>Условие задачи</summary>
+  <p id="question"></p>
+  <p id="questionNote" class="question-note" hidden></p>
+  <img id="conditionImage" class="condition-image" loading="lazy" alt="" hidden>
+  <div id="conditionScene"></div>
+</details>
+<h2 id="sceneTitle"></h2><p id="sceneText"></p>
+<div id="lessonScene"><div id="sceneWorkbench"><div class="draft-controls">
   <details id="drawingWorkspace" class="workspace">
     <summary>Черновик</summary>
     <div class="draft-actions" role="group" aria-label="Инструменты черновика">
@@ -72,7 +81,7 @@
 </svg></div>
 <div id="draftBoard" class="draft-board" hidden>
   <svg id="draftPaper" viewBox="0 0 640 300" aria-hidden="true"></svg>
-</div><div id="answers" class="answer-list" aria-label="Варианты ответа"></div><div id="feedback" role="status" aria-live="polite"></div><p id="ratingNotice" role="status"></p><details id="alternative" class="alternative-method" hidden><summary id="alternativeTitle"></summary><p id="alternativeText"></p><div class="alternative-table-wrap"><table id="alternativeTable"></table></div><p id="alternativeConclusion"></p></details><div class="timeline" aria-hidden="true"><span id="progress"></span></div><div class="controls"><button id="back" aria-label="Предыдущий шаг">← Назад</button><button id="play" aria-label="Включить автоматический показ">▶ Смотреть</button><button id="repeat" aria-label="Повторить текущую задачу сначала">↺ Повтор</button><button id="next" class="primary">Далее →</button><button id="nextTask" class="primary" hidden>Следующая задача →</button></div><p id="keyboardHint" class="keyboard">← → шаги <span>·</span> пробел — показ / пауза</p></section></div>
+</div></div></div><div id="answers" class="answer-list" aria-label="Варианты ответа"></div><div id="feedback" role="status" aria-live="polite"></div><p id="ratingNotice" role="status"></p><details id="alternative" class="alternative-method" hidden><summary id="alternativeTitle"></summary><p id="alternativeText"></p><div class="alternative-table-wrap"><table id="alternativeTable"></table></div><p id="alternativeConclusion"></p></details><div class="timeline" aria-hidden="true"><span id="progress"></span></div><div class="controls"><button id="back" aria-label="Предыдущий шаг">← Назад</button><button id="play" aria-label="Включить автоматический показ">▶ Смотреть</button><button id="repeat" aria-label="Повторить текущую задачу сначала">↺ Повтор</button><button id="next" class="primary">Далее →</button><button id="nextTask" class="primary" hidden>Следующая задача →</button></div><p id="keyboardHint" class="keyboard">← → шаги <span>·</span> пробел — показ / пауза</p></section></div>
 <details id="sources"><summary>Оригинал текущей задачи и источники</summary><img id="original" loading="lazy" class="original" src="assets/original-1.png" alt="Оригинал задачи №1 из официального PDF"><p id="sourceNote">Условия и ответы сверены с официальными материалами.</p><a id="tasksSource" href="https://ipokengu.ru/public/task/kenguru_2024_class_3-4.pdf" target="_blank" rel="noopener">Полный официальный вариант (PDF)</a> · <a id="answersSource" href="https://ipokengu.ru/public/task/kenguru_2024_answers.pdf" target="_blank" rel="noopener">Официальные ответы (PDF)</a> · <a id="solutionsSource" href="https://ipokengu.ru/public/task/kenguru_2024_solution.pdf" target="_blank" rel="noopener">Официальные решения (PDF)</a></details>
 <nav class="previous-editions" aria-label="Варианты прошлых лет"><a href="archive.html">Архив вариантов 1997–2026</a></nav>
 </main>
@@ -99,7 +108,7 @@
       <input type="text" name="username" autocomplete="username" minlength="3" maxlength="24" autocapitalize="none"
         spellcheck="false" aria-describedby="accountUsernameHint" required>
     </label>
-    <p class="account-hint" id="accountUsernameHint">От 3 до 24 символов. Подойдут русские и латинские буквы, цифры, дефис и подчёркивание.</p>
+    <p class="account-hint" id="accountUsernameHint">От 3 до 24 символов. Подойдут русские и латинские буквы, цифры, дефис и подчёркивание. Имя видно участникам общего рейтинга.</p>
     <label>Электронная почта <input type="email" name="email" autocomplete="email" maxlength="254" required></label>
     <label>Пароль
       <input type="password" name="password" autocomplete="new-password" maxlength="72" aria-describedby="accountPasswordHint" required>
@@ -141,4 +150,4 @@
 <dialog id="legacyZoom" class="legacy-zoom" aria-label="Увеличенный рисунок задачи">
   <form method="dialog"><button type="submit" autofocus>Закрыть рисунок</button></form>
   <div class="legacy-zoom-scroll" tabindex="0" aria-label="Прокрутка рисунка"><img id="legacyZoomImage" alt=""></div>
-</dialog><footer>Кенгуру <span>Учимся замечать, рассуждать и проверять.</span><a href="https://github.com/alex-mt1-lgtm/Kenguru">Исходный код ↗</a></footer><script src="lessons.js"></script><script src="four-point-lessons.js"></script><script src="five-point-lessons.js"></script><script src="four-point-scenes.js"></script><script src="five-point-scenes.js"></script><script src="years/legacy-catalog.js"></script><script src="years/legacy-editions.js"></script><script src="years/2000-visual.js"></script><script src="years/2000-three.js"></script><script src="years/2000-four.js"></script><script src="years/2000-five.js"></script><script src="years/2000.js"></script><script src="years/2020.js"></script><script src="years/2021.js"></script><script src="years/2022.js"></script><script src="years/2023.js"></script><script src="years/2025.js"></script><script src="years/2026.js"></script><script src="years/grades-5-6-data.js"></script><script src="years/grades-5-6.js"></script><script src="workspace.js"></script><script src="fruit-workspace.js"></script><script src="profile-rating.js?v=2"></script><script src="account-progress.js"></script><script src="app.js?v=editions"></script></body></html>
+</dialog><footer>Кенгуру <span>Учимся замечать, рассуждать и проверять.</span><a href="https://github.com/alex-mt1-lgtm/Kenguru">Исходный код ↗</a></footer><script src="lessons.js"></script><script src="four-point-lessons.js"></script><script src="five-point-lessons.js"></script><script src="four-point-scenes.js"></script><script src="five-point-scenes.js"></script><script src="years/legacy-catalog.js"></script><script src="years/legacy-conditions.js"></script><script src="years/legacy-editions.js?v=visual"></script><script src="years/2000-visual.js"></script><script src="years/2000-three.js"></script><script src="years/2000-four.js"></script><script src="years/2000-five.js"></script><script src="years/2000.js"></script><script src="years/2020.js"></script><script src="years/2021.js"></script><script src="years/2022.js"></script><script src="years/2023.js?v=condition-art"></script><script src="years/2025.js"></script><script src="years/2026-condition-art.js"></script><script src="years/2026.js?v=condition-art"></script><script src="lesson-visuals.js"></script><script src="years/grades-5-6-data.js"></script><script src="years/grade-conditions.js"></script><script src="years/grade-solution-steps.js"></script><script src="years/visual-2024-three.js"></script><script src="years/visual-2024-four.js"></script><script src="years/visual-2024-five.js"></script><script src="years/visual-2000-five-six.js"></script><script src="years/visual-2026-three.js"></script><script src="years/visual-2026-four.js"></script><script src="years/visual-2026-five.js"></script><script src="years/grades-5-6.js?v=visual"></script><script src="workspace.js"></script><script src="fruit-workspace.js"></script><script src="profile-rating.js?v=first-attempt"></script><script src="account-progress.js?v=standings"></script><script src="app.js?v=visual-lessons"></script><script src="leaderboard.js"></script></body></html>

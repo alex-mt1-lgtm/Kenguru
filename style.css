@@ -400,3 +400,47 @@ body{font-size:18px;line-height:1.5}.player .condition{margin:18px 0 24px;font-s
 .rating-badge-status { color: var(--muted); white-space: nowrap; }
 .rating-badge.is-earned { border-color: #aacdbd; background: #eaf3e9; }
 .rating-badge.is-earned .rating-badge-status { color: #17625e; font-weight: 700; }
+
+.player .condition:has(#conditionScene #stage) {
+  margin-bottom: 12px;
+}
+.player .condition #conditionScene:not(:empty) {
+  margin-top: 12px;
+}
+.player .condition .condition-image {
+  display: block;
+  max-width: 100%;
+  max-height: 22rem;
+  margin: 12px auto 0;
+  object-fit: contain;
+}
+.condition #stage:has(.legacy-scene) {
+  margin: 8px 0 0;
+  border: 1px solid #d6e0d4;
+  border-radius: 10px;
+  background: #fff;
+}
+#scene > .worked-scene {
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  max-height: none;
+}
+#stage:has(.worked-scene), #stage:has(#scene:empty) {
+  min-height: 0;
+}
+#stage:has(#scene:empty):has(#drawingLayer[data-visible="true"]) {
+  min-height: 170px;
+}
+#stage:has(#scene:empty):has(#drawingLayer[data-visible="false"]) {
+  display: none;
+}
+
+#scene .condition-art {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 330px;
+  object-fit: contain;
+}

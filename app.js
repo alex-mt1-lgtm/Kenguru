@@ -70,8 +70,8 @@ function readProfileValue(profileId, key) {
   return profileId ? accountProgress?.read(key) : globalThis.sessionStorage?.getItem(progressPrefix + key);
 }
 
-function writeProfileValue(profileId, key, value) {
-  if (profileId) accountProgress?.write(key, value);
+function writeProfileValue(profileId, key, value, firstAnswer) {
+  if (profileId) accountProgress?.write(key, value, firstAnswer);
   else globalThis.sessionStorage?.setItem(progressPrefix + key, value);
 }
 
@@ -220,10 +220,10 @@ const CUBE_COLUMN_NAMES=['Слева','В середине','Сзади','Спр
 const CUBE_COLUMN_COLORS=['#236baf','#9b4fb1','#b65d19','#237e79'];
 const CUBE_PHOTOS=[{w:161,h:171,points:[[31,101],[65,92],[100,14],[130,123]]},{w:160,h:171,points:[[30,64],[66,117],[100,14],[128,126]]},{w:163,h:130,points:[[31,19],[65,73],[97,38],[129,14]]},{w:164,h:138,points:[[32,91],[64,56],[98,14],[130,28]]},{w:149,h:155,points:[[30,90],[65,125],[97,14],[127,81]]}];
 function cubeMarkers(points,focus=-1){return points.map(([x,y],i)=>`<g>${i===focus?`<circle cx="${x}" cy="${y}" r="14" fill="none" stroke="#c44f2d" stroke-width="3"/>`:''}<circle cx="${x}" cy="${y}" r="9" fill="${CUBE_COLUMN_COLORS[i]}"/><text x="${x}" y="${y+3.5}" text-anchor="middle" style="font:bold 10px Arial;fill:white">${i+1}</text></g>`).join('')}
-function cubePhoto(option=-1,focus=-1){const meta=option<0?{w:165,h:143,points:[[30,65],[69,100],[101,14],[128,48]]}:CUBE_PHOTOS[option];return svg(`<image href="assets/${option<0?'cubes-remaining.png':'cubes-'+option+'.png'}" width="${meta.w}" height="${meta.h}"/>${cubeMarkers(meta.points,focus)}`,`${option<0?'Рисунок из условия':'Вариант '+LETTERS[option]}. ${CUBE_COLUMN_NAMES.map((name,i)=>`${name}: ${(option<0?TARGET_HEIGHTS:CUBE_HEIGHTS[option])[i]}`).join('; ')}`,`-5 -5 ${meta.w+10} ${meta.h+10}`)}
-function cubeRemoval(progress){const t=Math.max(0,Math.min(1,progress)),ease=t*t*(3-2*t),dx=ease*95,dy=ease*95;return svg(`<image href="assets/cubes-4.png" width="149" height="155"/><path d="M65 0H126V44L96 55L65 44Z" fill="#fffefa"/><polygon points="66,44 96,35 124,44 96,53" fill="#aaa" stroke="#333" stroke-width="1.2"/><g transform="translate(${dx} ${dy})"><polygon points="66,12 96,3 124,12 96,21" fill="#f1c495" stroke="#b65d19" stroke-width="1.3"/><polygon points="66,12 96,21 96,53 66,44" fill="#e7ac79" stroke="#b65d19" stroke-width="1.3"/><polygon points="96,21 124,12 124,44 96,53" fill="#d58b52" stroke="#b65d19" stroke-width="1.3"/></g>`,t===1?'Из Д убран один верхний кубик. Осталось 2, 1, 3, 2 кубика в столбиках.':'Убираем только верхний кубик заднего столбика варианта Д','-5 -5 245 165')}
+function cubePhoto(option=-1,focus=-1){const meta=option<0?{w:165,h:143,points:[[30,65],[69,100],[101,14],[128,48]]}:CUBE_PHOTOS[option];return svg(`<image href="assets/${option<0?'cubes-remaining.svg':'cubes-'+option+'.svg'}" width="${meta.w}" height="${meta.h}"/>${cubeMarkers(meta.points,focus)}`,`${option<0?'Рисунок из условия':'Вариант '+LETTERS[option]}. ${CUBE_COLUMN_NAMES.map((name,i)=>`${name}: ${(option<0?TARGET_HEIGHTS:CUBE_HEIGHTS[option])[i]}`).join('; ')}`,`-5 -5 ${meta.w+10} ${meta.h+10}`)}
+function cubeRemoval(progress){const t=Math.max(0,Math.min(1,progress)),ease=t*t*(3-2*t),dx=ease*95,dy=ease*95;return svg(`<image href="assets/cubes-4.svg" width="149" height="155"/><path d="M65 0H126V44L96 55L65 44Z" fill="#fffefa"/><polygon points="66,44 96,35 124,44 96,53" fill="#aaa" stroke="#333" stroke-width="1.2"/><g transform="translate(${dx} ${dy})"><polygon points="66,12 96,3 124,12 96,21" fill="#f1c495" stroke="#b65d19" stroke-width="1.3"/><polygon points="66,12 96,21 96,53 66,44" fill="#e7ac79" stroke="#b65d19" stroke-width="1.3"/><polygon points="96,21 124,12 124,44 96,53" fill="#d58b52" stroke="#b65d19" stroke-width="1.3"/></g>`,t===1?'Из Д убран один верхний кубик. Осталось 2, 1, 3, 2 кубика в столбиках.':'Убираем только верхний кубик заднего столбика варианта Д','-5 -5 245 165')}
 function cubeCountTable(option=-1,focus=-1,removed=false){return `<table class="cube-counts"><caption>Сколько кубиков в столбике?</caption><thead><tr><th scope="col">Сравниваем</th>${CUBE_COLUMN_NAMES.map((name,i)=>`<th scope="col"><span style="background:${CUBE_COLUMN_COLORS[i]}">${i+1}</span>${name}</th>`).join('')}</tr></thead><tbody><tr><th scope="row">В условии</th>${TARGET_HEIGHTS.map((n,i)=>`<td class="${i===focus?'cube-needed':''}">${n}</td>`).join('')}</tr>${option<0?'':`<tr><th scope="row">${removed?'После удаления':'Вариант '+LETTERS[option]}</th>${(removed?TARGET_HEIGHTS:CUBE_HEIGHTS[option]).map((n,i)=>`<td class="${n<TARGET_HEIGHTS[i]?'cube-short':n>TARGET_HEIGHTS[i]?'cube-extra':'cube-match'} ${i===focus?'cube-focus':''}">${n}${n===TARGET_HEIGHTS[i]?'<small>совпало</small>':n<TARGET_HEIGHTS[i]?'<small>не хватает</small>':'<small>лишний</small>'}</td>`).join('')}</tr>`}</tbody></table>`}
-function cubesScene(step,frame){if(step===0)return '<figure class="target-cubes"><img src="assets/cubes-target.png" alt="Рисунок из условия: оставшаяся конструкция и упавший кубик справа"><figcaption>Что осталось после падения кубика</figcaption></figure>';const option=step===1?-1:step<=5?step-2:4,focus=step===2||step===3?3:step===4?2:step===5?0:step===6?2:-1,progress=step===8?1:step===7?Math.min(frame/5,1):0,removed=progress===1;
+function cubesScene(step,frame){if(step===0)return '<figure class="target-cubes"><img src="assets/cubes-target.svg" alt="Рисунок из условия: оставшаяся конструкция и упавший кубик справа"><figcaption>Что осталось после падения кубика</figcaption></figure>';const option=step===1?-1:step<=5?step-2:4,focus=step===2||step===3?3:step===4?2:step===5?0:step===6?2:-1,progress=step===8?1:step===7?Math.min(frame/5,1):0,removed=progress===1;
 const reference=`<section class="cube-photo-card"><h3>После падения · условие</h3>${cubePhoto(-1,focus)}</section>`,candidate=option<0?'':`<section class="cube-photo-card ${step<=5?'cube-rejected':'cube-candidate'}"><h3>${step<=5?'Проверяем ':''}Вариант ${LETTERS[option]}${step<=5?' · не подходит':removed?' · совпало':''}</h3>${step>=7?cubeRemoval(progress):cubePhoto(option,focus)}</section>`;
 const rule=step===1?'Можно вернуть ровно 1 кубик. Другие кубики не переставляем.':step===2||step===3?'Справа нужно 2, а есть 1. Удаление кубика не может добавить недостающий.':step===4?'Сзади нужно 3, а есть 2. Удалением нельзя сделать столбик выше.':step===5?'Слева нужно 2, а есть 1. Удалением нельзя получить недостающий кубик.':step===6?'Три столбика совпадают. Сзади ровно один лишний кубик: 4 − 1 = 3.':removed?'Все четыре столбика совпали: 2 · 1 · 3 · 2.':'Убираем только оранжевый верхний кубик. Другие не двигаем.';
 return `<div class="cube-walkthrough"><div class="cube-photo-pair ${option<0?'cube-reference-only':''}">${reference}${candidate}</div>${cubeCountTable(option,focus,removed)}<p class="cube-rule">${rule}</p>${step===8?'<p class="cube-verdict">А ✕ · Б ✕ · В ✕ · Г ✕ · <strong>Д ✓</strong></p>':''}</div>`}
@@ -239,7 +239,7 @@ function patchNode(target,source){if(target.nodeType!==source.nodeType||target.n
 for(const attr of Array.from(target.attributes))if(!source.hasAttribute(attr.name))target.removeAttribute(attr.name);for(const attr of Array.from(source.attributes))if(target.getAttribute(attr.name)!==attr.value)target.setAttribute(attr.name,attr.value);
 const children=Array.from(source.childNodes);for(let i=0;i<children.length;i++){if(target.childNodes[i])patchNode(target.childNodes[i],children[i]);else target.appendChild(children[i].cloneNode(true))}while(target.childNodes.length>children.length)target.lastChild.remove()}
 let lastScene='';
-function renderScene(){const st=current(),frame=reducedMotion?sceneDuration(task,st.step)/FRAME_MS:st.frame;const markup=task===0&&st.step===0?squareWorkScene():task===9&&st.step===0?fruitWorkspaceScene():SCENES[task](st.step,frame);if(markup===lastScene)return;lastScene=markup;const container=$('scene');if(container.firstElementChild&&typeof document.createElement==='function'){const template=document.createElement('template');template.innerHTML=markup;if(template.content.childElementCount===1&&container.childElementCount===1)patchNode(container.firstElementChild,template.content.firstElementChild);else container.innerHTML=markup}else container.innerHTML=markup}
+function renderScene(){const st=current(), fullFrame=reducedMotion||(!playing&&st.elapsed===0&&LESSONS[task].showCompletedStep),frame=fullFrame?sceneDuration(task,st.step)/FRAME_MS:st.frame;const markup=task===0&&st.step===0?squareWorkScene():task===9&&st.step===0?fruitWorkspaceScene():SCENES[task](st.step,frame);if(markup===lastScene)return;lastScene=markup;const container=$('scene');if(container.firstElementChild&&typeof document.createElement==='function'){const template=document.createElement('template');template.innerHTML=markup;if(template.content.childElementCount===1&&container.childElementCount===1)patchNode(container.firstElementChild,template.content.firstElementChild);else container.innerHTML=markup}else container.innerHTML=markup}
 
 function renderButtons(id, attribute, markup) {
   const container = $(id);
@@ -265,13 +265,14 @@ function renderAnswers() {
       picture = square(i, false, false);
     } else if (task === 6) {
       description = CUBE_COLUMN_NAMES.map((name, col) => name + ': ' + CUBE_HEIGHTS[i][col]).join(', ');
-      picture = `<img src="assets/cubes-${i}.png" alt="">`;
+      picture = `<img src="assets/cubes-${i}.svg" alt="">`;
     } else if (lesson.choiceImages) {
       picture = `<img src="${lesson.choiceImages[i]}" alt="">`;
     }
     const label = ('Выбрать ответ ' + answerLetter(i) + (description ? ': ' + description : '')).replaceAll('&', '&amp;').replaceAll('"', '&quot;');
+    const printedValue = String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
     return `<button class="answer ${st.selected === i ? 'selected' : ''}" data-answer="${i}" aria-label="${label}" aria-pressed="${st.selected === i}">
-      ${picture}<strong>${answerLetter(i)}</strong>${illustrated || !value ? '' : `<span>${value}</span>`}
+      ${picture}<strong>${answerLetter(i)}</strong>${illustrated || !value ? '' : `<span>${printedValue}</span>`}
     </button>`;
   }).join('');
   renderButtons('answers', 'data-answer', markup);
@@ -327,6 +328,39 @@ function renderPicker() {
 function playLabel(){$('play').textContent=playing?'Ⅱ Пауза':task===6&&current().step===7?'▶ Убрать кубик':'▶ Смотреть';$('play').setAttribute('aria-label',playing?'Приостановить анимацию и показ':task===6&&current().step===7?'Убрать верхний кубик и проверить вариант Д':'Включить анимацию и автоматический показ');$('play').setAttribute('aria-pressed',String(playing));$('stage').classList.toggle('is-playing',playing);renderWorkspace()}
 let alternativeTask=null;
 function renderAlternative(){const section=$('alternative'),method=LESSONS[task].alternative,visible=!!method&&current().step===lastStep();section.hidden=!visible;if(!visible||alternativeTask!==task)section.open=false;alternativeTask=task;if(!visible)return;$('alternativeTitle').textContent=method.title;$('alternativeText').textContent=method.text;$('alternativeConclusion').textContent=method.conclusion;$('alternativeTable').innerHTML='<thead><tr>'+method.headings.map(heading=>`<th scope="col">${heading}</th>`).join('')+'</tr></thead><tbody>'+method.rows.map(([count,cells])=>`<tr><th scope="row">${count}</th><td>${cells}</td></tr>`).join('')+'</tbody>'}
+let shownConditionTask = -1;
+let conditionContainsStage = false;
+function renderCondition(lesson, step) {
+  const details = $('taskCondition');
+  const question = $('question');
+  const note = $('questionNote');
+  const picture = $('conditionImage');
+  const useOriginalCard = !lesson.question && Boolean(lesson.legacyOriginal);
+  const inlineCard = useOriginalCard && step === 0;
+  const workbench = $('sceneWorkbench');
+  const target = $(inlineCard ? 'conditionScene' : 'lessonScene');
+
+  if (workbench.parentElement !== target) target.append(workbench);
+  if (shownConditionTask !== task) details.open = !useOriginalCard || inlineCard;
+  else if (conditionContainsStage !== inlineCard) details.open = inlineCard;
+  shownConditionTask = task;
+  conditionContainsStage = inlineCard;
+
+  question.textContent = lesson.question ?? '';
+  question.hidden = !lesson.question;
+  note.textContent = lesson.questionNote ?? '';
+  note.hidden = !lesson.questionNote;
+
+  const source = step > 0 && (useOriginalCard ? lesson.originalImage : lesson.conditionImage);
+  picture.hidden = !source;
+  if (source && picture.getAttribute?.('src') !== source) {
+    picture.src = source;
+    picture.alt = useOriginalCard ? 'Условие и варианты ответа из оригинала' : 'Рисунок из условия задачи';
+  }
+  $('openLegacyZoom').hidden = !lesson.conditionImage && !useOriginalCard;
+  return inlineCard;
+}
+
 function render() {
   const st = current();
   const lesson = LESSONS[task];
@@ -339,17 +373,13 @@ function render() {
   $('taskTitle').textContent = lesson.title;
   $('taskSkill').textContent = lesson.skill;
   $('taskSkill').hidden = !lesson.skill;
-  $('question').textContent = lesson.question;
-  $('question').parentElement?.toggleAttribute('hidden', Boolean(lesson.legacyOriginal) && !lesson.questionNote);
-  $('question').hidden = !lesson.question;
-  $('openLegacyZoom').hidden = !lesson.legacyOriginal;
-  $('questionNote').hidden = !lesson.questionNote;
-  $('questionNote').textContent = lesson.questionNote ?? '';
+  const inlineCard = renderCondition(lesson, st.step);
   $('chapterTag').textContent = `ЗАДАЧА ${lesson.number} · ${chapter.toUpperCase()}`;
   $('counter').textContent = `0${st.step + 1} / ${String(lesson.steps.length).padStart(2, '0')}`;
   $('sceneTitle').textContent = title;
+  $('sceneTitle').hidden = inlineCard || (st.step === 0 && title === 'Условие задачи');
   $('sceneText').textContent = explanation;
-  $('sceneText').hidden = Boolean(lesson.legacyOriginal) && st.step === 0;
+  $('sceneText').hidden = st.step === 0 && (inlineCard || lesson.hideIntroText === true);
   renderButtons('chapters', 'data-step', lesson.steps.map(([name], i) =>
     `<button data-step="${i}" class="${i === st.step ? 'active' : ''}" ${i === st.step ? 'aria-current="step"' : ''}><span>0${i + 1}</span>${name}</button>`
   ).join(''));
@@ -443,10 +473,11 @@ $('yearPicker').addEventListener('change', () => {
 });
 $('openLegacyZoom').onclick = () => {
   const lesson = LESSONS[task];
-  if (!lesson.legacyOriginal) return;
+  const path = lesson.conditionImage ?? (!lesson.question && lesson.legacyOriginal ? lesson.originalImage : '');
+  if (!path) return;
   const image = $('legacyZoomImage');
-  image.src = lesson.originalImage;
-  image.alt = `Оригинальные условие, рисунки и варианты ответа задачи ${lesson.number}`;
+  image.src = path;
+  image.alt = lesson.conditionImage ? 'Рисунок из условия задачи' : 'Условие и варианты ответа из оригинала';
   $('legacyZoom').showModal();
 };
 $('gradePicker').addEventListener('change', () => {
@@ -472,7 +503,8 @@ $('answers').addEventListener('click', e => {
     renderWorkspace();
   }
   renderAnswers();
-  $('feedback').textContent = `Твой выбор — ${answerLetter(current().selected)}. Проверим его в разборе.`;
+  const followUp = LESSONS[task].paperEdition ? 'Сверь его с официальным ключом.' : 'Проверим его в разборе.';
+  $('feedback').textContent = `Твой выбор — ${answerLetter(current().selected)}. ${followUp}`;
   saveLessonProgress();
 });
 $('next').onclick = () => navigate(current().step + 1);
