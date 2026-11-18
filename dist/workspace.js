@@ -101,7 +101,15 @@ function renderWorkspace() {
   const board = $('draftBoard');
   board.hidden = !paperVisible;
   $('draftPaper').innerHTML = drawingSurface === 'grid' ? paperGridMarkup : '';
-  $('drawingSurface').value = drawingSurface;
+  const surfacePicker = $('drawingSurface');
+  surfacePicker.value = drawingSurface;
+  const surface = surfacePicker.selectedOptions?.[0]?.textContent;
+  if (surface) {
+    const toggle = $('draftSurfaceToggle');
+    toggle.setAttribute('aria-label', 'Где рисовать: ' + surface);
+    toggle.setAttribute('data-tip', surface);
+    toggle.setAttribute('data-paper', String(drawingSurface !== 'scene'));
+  }
   const drawingUnavailable = interactive && !paperVisible;
   $('drawingTools').hidden = Boolean(playing) || drawingUnavailable;
 
@@ -125,7 +133,7 @@ function renderWorkspace() {
     }
   }
   const hints = {
-    pointer: 'Выбери инструмент, чтобы рисовать.',
+    pointer: '',
     fill: 'Нажми на клетку или проведи по нескольким.',
     ladder: 'Проведи от начала лестницы к её концу.',
     eraser: 'Проведи по пометке, чтобы стереть её.',
@@ -133,8 +141,9 @@ function renderWorkspace() {
     line: 'Проведи от начала линии к её концу.',
     arrow: 'Проведи в сторону, куда должна смотреть стрелка.'
   };
-  $('drawingHint').textContent = playing ? 'Поставь показ на паузу, чтобы рисовать.'
+  const hint = playing ? 'Поставь показ на паузу, чтобы рисовать.'
     : drawingUnavailable ? 'Заполняй схему в задаче. Для рисования выбери отдельный лист.' : hints[drawingTool];
+  if ($('drawingHint').textContent !== hint) $('drawingHint').textContent = hint;
   if (layerVisible) syncDrawingViewport();
 }
 
@@ -184,13 +193,24 @@ function showTaskDrawing() {
 function setupWorkspace() {
   const layer = $('drawingLayer');
   const workspace = $('drawingWorkspace');
-  workspace.addEventListener('toggle', () => { finishMark(); renderWorkspace(); });
+  workspace.addEventListener('toggle', () => {
+    if (!workspace.open) {
+      $('draftNotesMenu').open = false;
+      $('draftSurfaceMenu').open = false;
+    }
+    finishMark();
+    renderWorkspace();
+  });
   $('draftNotes').addEventListener('input', event => taskNotes.set(`${activeProfileId}:${task}`, event.target.value));
   $('drawingSurface').addEventListener('change', event => {
     const surface = event.target.value;
     finishMark();
     pause();
     drawingSurface = surface;
+    if ($('draftSurfaceMenu').open) {
+      $('draftSurfaceMenu').open = false;
+      $('draftSurfaceToggle').focus?.();
+    }
     renderWorkspace();
   });
   $('drawingTools').addEventListener('click', event => {

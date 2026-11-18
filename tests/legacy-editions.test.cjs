@@ -52,6 +52,7 @@ test('each archive card opens its interactive year, after the lesson on the home
   assert.ok(index.indexOf('id="sources"') > index.indexOf('id="lesson"'));
   assert.ok(index.indexOf('href="archive.html"') > index.indexOf('id="sources"'));
   assert.ok(index.indexOf('id="profileMenu"') < index.indexOf('</header>'));
+  assert.ok(index.indexOf('id="editionMenu"') < index.indexOf('</header>'));
   assert.match(index, /<details id="editionMenu"[^>]*>[\s\S]*?<select id="yearPicker"/u);
   assert.doesNotMatch(index, /Новая попытка|Скопировать ссылку/u);
   for (let year = 2000; year <= 2019; year++) {

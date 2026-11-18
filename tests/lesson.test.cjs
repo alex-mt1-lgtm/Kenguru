@@ -238,3 +238,21 @@ test('selecting a year with one edition closes the compact menu', () => {
   assert.equal(a.element('gradeField').hidden, true);
   assert.ok(focused);
 });
+
+test('the draft surface popover closes after selection and with the draft', () => {
+  const a = app();
+  const draft = a.element('drawingWorkspace');
+  const surface = a.element('draftSurfaceMenu');
+  const notes = a.element('draftNotesMenu');
+  draft.open = true;
+  surface.open = true;
+  a.element('drawingSurface').change({target: {value: 'grid'}});
+  assert.equal(surface.open, false);
+  assert.equal(a.element('draftBoard').hidden, false);
+
+  notes.open = true;
+  draft.open = false;
+  draft.toggle();
+  assert.equal(notes.open, false);
+  assert.equal(a.element('draftBoard').hidden, true);
+});

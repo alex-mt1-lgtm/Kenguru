@@ -443,7 +443,7 @@ $('repeat').onclick = () => {
   render();
   saveLessonProgress();
 };
-const lessonMenus = [$('profileMenu'), $('editionMenu')];
+const lessonMenus = [$('profileMenu'), $('editionMenu'), $('draftNotesMenu'), $('draftSurfaceMenu')];
 
 document.addEventListener('click', e => {
   for (const menu of lessonMenus) {
