@@ -39,7 +39,13 @@ test('2023: official keys, point groups and source PDFs', () => {
   }
 });
 
-test('2023: all original images, answer images and scene frames', () => {
+test('2023: native conditions, separate original figures and animated scenes', () => {
+  const textAndChoicesOnly = new Set([11, 12, 16, 18, 19, 24]);
+  function checkVector(file) {
+    const asset = fs.readFileSync(path.join(root, 'dist', file), 'utf8');
+    assert.match(asset, /<svg[^>]+viewBox=/u, file);
+    assert.doesNotMatch(asset, /<image|<text/u, file);
+  }
   context.svg = (body, label, box) => `<svg role="img" aria-label="${label}" viewBox="${box}">${body}</svg>`;
   archive.lessons.forEach((lesson, i) => {
     assert.equal(lesson.number, i + 1);
@@ -47,19 +53,25 @@ test('2023: all original images, answer images and scene frames', () => {
     assert.ok(lesson.steps.length >= 3);
     assert.equal(lesson.steps[0][0], 'Условие');
     assert.equal(lesson.steps.at(-1)[0], 'Решение');
-    const paths = [lesson.originalImage, ...(lesson.choiceImages ?? [])];
-    if (lesson.choiceImages) assert.equal(lesson.choiceImages.length, 5);
-    for (const file of paths) {
-      const raster = fs.readFileSync(path.join(root, 'dist', file));
-      assert.equal(raster.subarray(1, 4).toString(), 'PNG', file);
-      assert.ok(raster.readUInt32BE(16) > 50 && raster.readUInt32BE(20) > 50, file);
+    assert.ok(lesson.question.trim());
+    const original = fs.readFileSync(path.join(root, 'dist', lesson.originalImage));
+    assert.equal(original.subarray(1, 4).toString(), 'PNG', lesson.originalImage);
+    assert.ok(original.readUInt32BE(16) > 50 && original.readUInt32BE(20) > 50, lesson.originalImage);
+    if (lesson.choiceImages) {
+      assert.equal(lesson.choiceImages.length, 5);
+      lesson.choiceImages.forEach(checkVector);
     }
     const introduction = archive.scenes[i](0, 8.75);
     assert.equal(introduction, archive.scenes[i](0, 0));
-    if (introduction) {
-      assert.match(introduction, /^<img /);
-      assert.ok(introduction.includes(lesson.originalImage));
-      assert.doesNotMatch(introduction, /Ответ|Решение|<svg/);
+    if (textAndChoicesOnly.has(lesson.number)) {
+      assert.equal(introduction, '');
+      assert.equal(lesson.conditionImage, undefined);
+    } else {
+      assert.match(introduction, /^<img .* alt="[^"]+"/u);
+      assert.ok(introduction.includes(lesson.conditionImage));
+      assert.ok(!introduction.includes(lesson.originalImage));
+      assert.doesNotMatch(introduction, /Ответ|Решение|<svg/u);
+      checkVector(lesson.conditionImage);
     }
     lesson.steps.forEach((step, index) => {
       assert.equal(step.length, 3);

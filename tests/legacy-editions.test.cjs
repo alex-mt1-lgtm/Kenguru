@@ -9,7 +9,7 @@ const vm = require('node:vm');
 const root = path.resolve(__dirname, '..');
 const dist = path.join(root, 'dist');
 const context = vm.createContext();
-for (const file of ['legacy-catalog.js', 'legacy-editions.js']) {
+for (const file of ['legacy-catalog.js', 'legacy-conditions.js', 'legacy-editions.js']) {
   vm.runInContext(fs.readFileSync(path.join(dist, 'years', file), 'utf8'), context);
 }
 
@@ -39,8 +39,12 @@ test('every 2001–2019 edition has 26 checked lessons, the official key, and it
       const scene = edition.scenes[i];
       assert.equal(scene(0, 0), scene(0, 15), id);
       assert.doesNotMatch(scene(0, 0), /<rect |<text |stroke-dasharray=/u, id);
-      const view = scene(0, 0).match(/viewBox="0 0 (\d+) (\d+)"/u);
-      assert.ok(view && +view[1] >= 700 && +view[2] >= 50, id + ' image size');
+      if (lesson.question) {
+        assert.ok(lesson.choices.every(Boolean) || scene(0, 0).includes('<image '), id + ' native options');
+      } else {
+        const view = scene(0, 0).match(/viewBox="0 0 (\d+) (\d+)"/u);
+        assert.ok(view && +view[1] >= 700 && +view[2] >= 50, id + ' image size');
+      }
       assert.equal(fs.readFileSync(path.join(dist, lesson.originalImage)).subarray(8, 12).toString(), 'WEBP', id);
     }
   }

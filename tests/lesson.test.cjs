@@ -1,6 +1,6 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),path=require('node:path');
 const root=path.join(__dirname,'..');
-function app(includeArchive=false,archiveOverride=null,browser={}){const elements=new Map(),handlers={},callbacks=new Map();let time=0,id=0;const element=name=>{if(!elements.has(name))elements.set(name,{innerHTML:'',textContent:'',hidden:false,disabled:false,value:name==='drawingColor'?'#e9693e':'',selectedIndex:0,style:{},attributes:{},classList:{toggle(){}},setAttribute(k,v){this.attributes[k]=v},addEventListener(k,v){this[k]=v}});return elements.get(name)};const ctx={...browser,document:{body:{},getElementById:element,addEventListener(k,v){handlers[k]=v}},requestAnimationFrame(fn){callbacks.set(++id,fn);return id},cancelAnimationFrame(key){callbacks.delete(key)},console};vm.createContext(ctx);const scripts=['lessons.js','four-point-lessons.js','five-point-lessons.js','four-point-scenes.js','five-point-scenes.js',...(includeArchive?['legacy-catalog', 'legacy-editions', '2000-visual', '2000-three', '2000-four', '2000-five', 2000, 2020, 2021, 2022, 2023, 2025, 2026].map(year=>'years/'+year+'.js'):[]),'workspace.js','fruit-workspace.js','profile-rating.js','account-progress.js','app.js'];for(const f of scripts){if(f==='app.js'&&archiveOverride)ctx.KENGURU_ARCHIVE={...(ctx.KENGURU_ARCHIVE||{}),...archiveOverride};vm.runInContext(fs.readFileSync(path.join(root,'dist',f),'utf8'),ctx)}const tick=(ms=16)=>{time+=ms;const pending=[...callbacks.values()];callbacks.clear();for(const fn of pending)fn(time)};return{run:s=>vm.runInContext(s,ctx),element,tick,advance(ms){for(let left=ms;left>0;left-=16)tick(Math.min(16,left))},handlers}}
+function app(includeArchive=false,archiveOverride=null,browser={}){const elements=new Map(),handlers={},callbacks=new Map();let time=0,id=0;const element=name=>{if(!elements.has(name))elements.set(name,{innerHTML:'',textContent:'',hidden:false,disabled:false,value:name==='drawingColor'?'#e9693e':'',selectedIndex:0,style:{},attributes:{},classList:{toggle(){}},setAttribute(k,v){this.attributes[k]=v},getAttribute(k){return this.attributes[k]??null},append(child){child.parentElement=this},addEventListener(k,v){this[k]=v}});return elements.get(name)};const ctx={...browser,document:{body:{},getElementById:element,addEventListener(k,v){handlers[k]=v}},requestAnimationFrame(fn){callbacks.set(++id,fn);return id},cancelAnimationFrame(key){callbacks.delete(key)},console};vm.createContext(ctx);const scripts=['lessons.js','four-point-lessons.js','five-point-lessons.js','four-point-scenes.js','five-point-scenes.js',...(includeArchive?['legacy-catalog', 'legacy-conditions', 'legacy-editions', '2000-visual', '2000-three', '2000-four', '2000-five', 2000, 2020, 2021, 2022, 2023, 2025, '2026-condition-art', 2026].map(year=>'years/'+year+'.js'):[]),'workspace.js','fruit-workspace.js','profile-rating.js','account-progress.js','app.js'];for(const f of scripts){if(f==='app.js'&&archiveOverride)ctx.KENGURU_ARCHIVE={...(ctx.KENGURU_ARCHIVE||{}),...archiveOverride};vm.runInContext(fs.readFileSync(path.join(root,'dist',f),'utf8'),ctx)}const tick=(ms=16)=>{time+=ms;const pending=[...callbacks.values()];callbacks.clear();for(const fn of pending)fn(time)};return{run:s=>vm.runInContext(s,ctx),element,tick,advance(ms){for(let left=ms;left>0;left-=16)tick(Math.min(16,left))},handlers}}
 
 test('official answer key and every explanation step',()=>{const a=app();assert.equal(a.run('LESSONS.slice(0,8).map(l=>LETTERS[l.answer]).join("")'),'ДВВВГВДБ');for(let t=0;t<24;t++)for(let s=0;s<a.run(`LESSONS[${t}].steps.length`);s++){a.run(`selectTask(${t});navigate(${s})`);assert.ok(a.element('sceneTitle').textContent);if(t||s)assert.ok(a.element('scene').innerHTML);assert.equal(a.element('answers').hidden,s!==0);for(let f=0;f<=12;f++){a.run(`current().frame=${f};renderScene()`);assert.ok(!a.element('scene').innerHTML.includes('NaN'))}}});
 test('square areas and unique cell count',()=>{const a=app();assert.equal(a.run('REGIONS.map(p=>Math.abs(p.reduce((s,v,j)=>{const n=p[(j+1)%p.length];return s+v[0]*n[1]-n[0]*v[1]},0))/2).join(",")'),'8,8,8,8,7');assert.equal(a.run('ORANGE.length+","+GREEN.length'),'7,9');assert.equal(a.run('new Set([...ORANGE,...GREEN].map(p=>p.join(","))).size'),16)});
@@ -415,8 +415,8 @@ test('previous account responses are ignored and pending offline work retries fo
 
 test('all grade 5–6 editions have original cards, verified keys and independent year navigation', () => {
   const grade = vm.createContext({});
-  for (const file of ['grades-5-6-data.js', 'grades-5-6.js']) {
-    vm.runInContext(fs.readFileSync(path.join(root, 'dist', 'years', file), 'utf8'), grade);
+  for (const file of ['lesson-visuals.js', 'years/grades-5-6-data.js', 'years/grades-5-6.js']) {
+    vm.runInContext(fs.readFileSync(path.join(root, 'dist', file), 'utf8'), grade);
   }
   const editions = grade.KENGURU_ARCHIVE;
   assert.deepEqual(Object.keys(editions).sort(), Array.from({length: 30}, (_, index) => `${1997 + index}-5-6`));
@@ -462,4 +462,62 @@ test('all grade 5–6 editions have original cards, verified keys and independen
     }
   }
   assert.equal(count, 894);
+});
+
+test('rebuilt visual lessons keep the condition separate and each worked scene is usable', () => {
+  const context = vm.createContext({});
+  const files = [
+    'lesson-visuals.js', 'years/grades-5-6-data.js', 'years/grade-conditions.js', 'years/grade-solution-steps.js',
+    'years/visual-2000-five-six.js', 'years/visual-2024-three.js', 'years/visual-2024-four.js',
+    'years/visual-2024-five.js', 'years/visual-2026-three.js', 'years/visual-2026-four.js',
+    'years/visual-2026-five.js', 'years/grades-5-6.js',
+  ];
+  for (const file of files) vm.runInContext(fs.readFileSync(path.join(root, 'dist', file), 'utf8'), context);
+  const grade = context.KENGURU_ARCHIVE;
+  const appView = app(true, grade);
+  appView.run('selectDataset("2026-5-6")');
+  assert.match(appView.element('question').textContent, /[а-яё]{3}/iu);
+  assert.equal(appView.element('taskCondition').open, true);
+  assert.equal(appView.element('sceneWorkbench').parentElement, appView.element('lessonScene'));
+  assert.equal(appView.element('answers').hidden, false);
+  assert.equal(appView.element('play').hidden, false);
+
+  for (const [year, limit] of [[2000, 10], [2024, 30], [2026, 30]]) {
+    const edition = grade[year + '-5-6'];
+    for (let index = 0; index < limit; index++) {
+      const lesson = edition.lessons[index];
+      const render = edition.scenes[index];
+      const id = year + '/' + (index + 1);
+      assert.ok(lesson.question && lesson.steps.length >= (year === 2000 ? 3 : 4), id);
+      assert.equal(lesson.choices.length, 5, id);
+      assert.equal(lesson.paperEdition, false, id);
+      assert.doesNotMatch(render(0, 0), /grade-solution-steps|answer-\d+.webp/u, id);
+      for (let step = 1; step < lesson.steps.length; step++) {
+        assert.match(render(step, 8), /^<svg/u, id);
+        assert.doesNotMatch(render(step, 8), /NaN|Infinity|undefined/u, id);
+        assert.notEqual(render(step, 8), render(step - 1, 8), id);
+      }
+    }
+  }
+
+  for (const year of [2021, 2022, 2023, 2025]) {
+    const edition = grade[year + '-5-6'];
+    for (const [index, lesson] of edition.lessons.entries()) {
+      assert.ok(lesson.question && lesson.steps.length >= 3);
+      assert.doesNotMatch(edition.scenes[index](0, 0), /assets\/grades-5-6\//u);
+    }
+  }
+
+  appView.run('selectTask(LESSONS.findIndex(item => item.legacyOriginal && !item.question))');
+  assert.equal(appView.element('taskCondition').open, true);
+  assert.equal(appView.element('sceneWorkbench').parentElement, appView.element('conditionScene'));
+  appView.run('navigate(1)');
+  assert.equal(appView.element('taskCondition').open, false);
+  assert.equal(appView.element('conditionImage').hidden, false);
+  assert.equal(appView.element('sceneWorkbench').parentElement, appView.element('lessonScene'));
+});
+
+test('the server catalogue matches the task answers and rating points', () => {
+  const {buildRatingCatalog} = require('../scripts/build-rating-catalog.cjs');
+  assert.equal(buildRatingCatalog(), fs.readFileSync(path.join(root, 'dist', 'api', 'rating-catalog.json'), 'utf8'));
 });

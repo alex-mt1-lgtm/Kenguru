@@ -19,9 +19,10 @@
 
   let incomingReset = takeResetFragment();
 
-  async function send(action, data, method, signal, accountId) {
+  async function send(action, data, method, signal, accountId, page) {
     const url = new URL(endpoint);
     url.searchParams.set('action', action);
+    if (action === 'leaderboard' && page !== undefined) url.searchParams.set('page', page);
     if (method === 'GET' && accountId !== undefined) url.searchParams.set('accountId', accountId);
     const sentCsrf = csrf;
     const headers = {Accept: 'application/json'};
@@ -83,12 +84,12 @@
 
   async function request(action, data, methodOrOptions) {
     const options = typeof methodOrOptions === 'string' ? {method: methodOrOptions} : methodOrOptions ?? {};
-    const {method = data === undefined ? 'GET' : 'POST', signal, accountId} = options;
+    const {method = data === undefined ? 'GET' : 'POST', signal, accountId, page} = options;
     const body = method === 'POST' && accountId !== undefined ? {...data, accountId} : data;
     const isCurrentAccount = () => !signal?.aborted && (accountId === undefined || user?.id === accountId);
     const sendScoped = () => {
       if (!isCurrentAccount()) throw new DOMException('Request aborted', 'AbortError');
-      return send(action, body, method, signal, accountId);
+      return send(action, body, method, signal, accountId, page);
     };
     try {
       if (method === 'POST' && !csrf) await loadSession();

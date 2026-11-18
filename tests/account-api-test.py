@@ -60,6 +60,7 @@ class TestAccountApi(unittest.TestCase):
         root = self.home / "www" / "olympiads.pro"
         (root / "api").mkdir(parents=True)
         shutil.copyfile(API, root / "api" / "auth.php")
+        shutil.copyfile(API.with_name("rating-catalog.json"), root / "api" / "rating-catalog.json")
         (self.home / "olympiads-config.php").write_text(
             "<?php return ['mail_from' => 'noreply@olympiads.pro'];\n"
         )
@@ -216,6 +217,57 @@ class TestAccountApi(unittest.TestCase):
         guest.action("session")
         guest.action("register", {"username": "other", "email": "other@example.test", "password": "separate-password"})
         self.assertEqual(guest.action("progress")[1], {"revision": 0, "progress": {}})
+
+    def test_leaderboard_counts_verified_first_answers_and_keeps_names_only(self):
+        self.assertEqual(self.client.action("leaderboard")[0], 401)
+
+        def register(name, client):
+            client.action("session")
+            self.assertEqual(client.action("register", {
+                "username": name, "email": name + "@example.test", "password": "a-long-test-password"
+            })[0], 201)
+
+        def answer(selected, step=1):
+            return json.dumps({"selected": selected, "step": step, "seen": False, "reviewOpened": True})
+
+        second, third = ApiClient(self.port), ApiClient(self.port)
+        register("reader_one", self.client)
+        register("reader_two", second)
+        register("reader_three", third)
+        first = "2024-3-4/1"
+        other = "2024-3-4/2"
+        unknown = "2099-3-4/1"
+
+        status, saved, _ = self.client.action("progress", {"revision": 0, "progress": {
+            first: answer(None, 0), "rating:" + first: "solved",
+            other: answer(0), "rating:" + other: "solved",
+            unknown: answer(4), "rating:" + unknown: "solved"
+        }, "ratingAnswers": {first: 4}})
+        self.assertEqual(status, 200)
+        self.assertEqual(saved["progress"]["rating:" + first], "solved")
+        self.assertEqual(saved["progress"]["rating:" + other], "reviewed")
+        self.assertEqual(saved["progress"]["rating:" + unknown], "reviewed")
+        self.assertEqual(second.action("progress", {"revision": 0, "progress": {
+            other: answer(2), "rating:" + other: "solved"
+        }})[0], 200)
+
+        status, board, _ = self.client.action("leaderboard")
+        self.assertEqual(status, 200)
+        self.assertEqual((board["page"], board["totalPages"], board["total"]), (1, 1, 3))
+        rows = board["entries"]
+        self.assertEqual([(row["rank"], row["points"], row["solved"]) for row in rows],
+                         [(1, 3, 1), (1, 3, 1), (3, 0, 0)])
+        self.assertEqual(board["current"]["username"], "reader_one")
+        self.assertEqual(set(rows[0]), {"rank", "username", "points", "solved", "isCurrent"})
+        self.assertEqual(third.action("leaderboard")[1]["current"]["rank"], 3)
+        self.assertEqual(third.action("leaderboard", query="&page=-2")[0], 422)
+        self.assertEqual(third.action("leaderboard", query="&page=3")[1]["page"], 1)
+
+        database = self.home / ".olympiads-auth" / "accounts.sqlite"
+        with sqlite3.connect(database) as db:
+            db.execute("DROP TABLE account_scores")
+            db.execute("PRAGMA user_version = 1")
+        self.assertEqual(self.client.action("leaderboard")[1], board)
 
 
 if __name__ == "__main__":

@@ -13,7 +13,9 @@ const context = vm.createContext({
 });
 const run = expression => vm.runInContext(expression, context);
 const read = expression => JSON.parse(run(`JSON.stringify(${expression})`));
-run(fs.readFileSync(path.join(root, 'years', '2026.js'), 'utf8'));
+for (const name of ['2026-condition-art.js', '2026.js']) {
+  run(fs.readFileSync(path.join(root, 'years', name), 'utf8'));
+}
 const pack = context.KENGURU_ARCHIVE[2026];
 
 function assertPng(file) {
@@ -21,6 +23,13 @@ function assertPng(file) {
   assert.equal(bytes.subarray(0, 8).toString('hex'), '89504e470d0a1a0a', file);
   assert.ok(bytes.readUInt32BE(16) > 30, file);
   assert.ok(bytes.readUInt32BE(20) > 30, file);
+}
+
+function assertVector(file) {
+  const markup = fs.readFileSync(path.join(root, file), 'utf8');
+  assert.match(markup, /^<svg [^>]+viewBox=/u, file);
+  assert.match(markup, /<path d=/u, file);
+  assert.doesNotMatch(markup, /<image|<text|<script/u, file);
 }
 
 test('2026 has 24 lessons, official key, task crops and all referenced choice pictures', () => {
@@ -38,7 +47,7 @@ test('2026 has 24 lessons, official key, task crops and all referenced choice pi
     assertPng(lesson.originalImage);
     if (lesson.choiceImages) {
       assert.equal(lesson.choiceImages.length, 5);
-      lesson.choiceImages.forEach(assertPng);
+      lesson.choiceImages.forEach(index === 0 ? assertVector : assertPng);
     }
   });
 });
@@ -47,15 +56,25 @@ test('each opening scene contains only the question and all fractional solution 
   pack.lessons.forEach((lesson,index) => {
     const renderer = pack.scenes[index];
     const original = renderer(0, 0);
-    assert.match(original, /^<img [^>]+>$/);
-    assert.ok(original.includes(lesson.originalImage));
+    if (index === 0) {
+      assert.match(original, /puzzle-start\.svg/u);
+      assert.doesNotMatch(original, /puzzle-complete|puzzle-choice-4/u);
+    } else {
+      assert.match(original, /^<img [^>]+>$/);
+      assert.match(original, /condition-\d+(?=[.\-])/u);
+      assert.doesNotMatch(original, /Оригинал задачи|вариантами/u);
+      assert.ok(lesson.conditionImage && original.includes(lesson.conditionImage));
+      assertPng(lesson.conditionImage);
+    }
     assert.equal(renderer(0, 3.2), original);
     for (let step = 1; step < lesson.steps.length; step++) {
       for (const frame of [0, .01, .27, .91, 1.35, 2.82, 4.68, 9.21, 12]) {
         const markup = renderer(step, frame);
         assert.match(markup, /^<svg [\s\S]*<\/svg>$/);
         assert.doesNotMatch(markup, /NaN|undefined|Infinity/);
-        for (const match of markup.matchAll(/ href="([^"]+\.png)"/g)) assertPng(match[1]);
+        for (const [, image, kind] of markup.matchAll(/ href="([^"]+\.(png|svg))"/gu)) {
+          (kind === 'png' ? assertPng : assertVector)(image);
+        }
       }
     }
   });
@@ -63,6 +82,14 @@ test('each opening scene contains only the question and all fractional solution 
     const animated = pack.scenes[task-1];
     assert.ok(pack.lessons[task-1].steps.some((_,step) => animated(step,.11) !== animated(step,.88)), '№ ' + task);
   }
+});
+
+test('the final puzzle reveals the sharp vector solution as the piece slots in', () => {
+  const puzzle = pack.scenes[0];
+  assert.match(puzzle(2, 0), /rotate\(0 444 133\)/u);
+  assert.match(puzzle(2, 3), /rotate\(90 444 133\)/u);
+  assert.match(puzzle(3, 0), /width="210" height="0"\/><\/clipPath>/u);
+  assert.match(puzzle(3, 3), /width="210" height="208"\/><\/clipPath>/u);
 });
 
 test('the marked point is seven unit steps from the start on a twelve-step line', () => {

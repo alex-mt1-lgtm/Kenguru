@@ -1,12 +1,14 @@
 'use strict';
 
 const y2026Asset = name => 'assets/years/2026/' + name + '.png';
+const y2026PuzzleAsset = name => 'assets/years/2026/puzzle-' + name + '.svg';
 const y2026Letters = ['А', 'Б', 'В', 'Г', 'Д'];
 const y2026Lessons = [
   {
+    showCompletedStep: true,
     title: 'Фигура для пазла', short: 'Пазл', skill: 'Сравниваем контуры', answer: 4,
     choices: ['Черепаха', 'Заяц', 'Хамелеон', 'Собака', 'Кот'],
-    question: 'Посмотри на квадратный пазл и пять фигур. Какую фигуру нужно взять, чтобы заполнить пустое место?',
+    question: 'Какую из фигур нужно использовать, чтобы завершить пазл?',
     steps: [
       ['Контур', 'Рассмотри выемку', 'Слева от бирюзовой фигуры открыт высокий участок, а снизу выемка поворачивает вправо.'],
       ['Сравнение', 'Проверь два конца', 'Поверни кота на четверть оборота по часовой стрелке. Голова окажется вверху выемки, а хвост загнётся вправо вдоль нижнего края.'],
@@ -251,9 +253,16 @@ y2026Lessons.forEach((lesson, index) => {
   lesson.number = index + 1;
   lesson.points = 3 + Math.floor(index / 8);
   lesson.originalImage = y2026Asset('task-' + lesson.number);
+  const art = globalThis.KENGURU_2026_CONDITION_ART?.[lesson.number];
+  if (art?.image) lesson.conditionImage = art.image;
+  if (lesson.number === 1) lesson.conditionImage = y2026PuzzleAsset('start');
+  lesson.showCompletedStep = true;
   if (y2026Illustrated.has(lesson.number)) {
-    lesson.choiceImages = lesson.choices.map((_, choice) => y2026Asset('choice-' + lesson.number + '-' + choice));
+    lesson.choiceImages = lesson.choices.map((_, choice) => lesson.number === 1
+      ? y2026PuzzleAsset('choice-' + choice)
+      : y2026Asset('choice-' + lesson.number + '-' + choice));
   }
+  if (art?.choiceImages) lesson.choiceImages = art.choiceImages;
   lesson.steps.unshift(['Задача', 'Найди ответ самостоятельно', 'Рассмотри условие и выбери свой вариант. Затем открой решение.']);
 });
 
@@ -288,17 +297,28 @@ function y2026Grid(values, {x, y, unit, fill = () => '#fff', ink = () => y2026In
   }).join('')).join('');
 }
 
+function y2026PuzzleImage(name, x, y, width, height) {
+  return `<image href="${y2026PuzzleAsset(name)}" x="${x}" y="${y}" width="${width}" height="${height}"/>`;
+}
+
 function y2026PuzzleScene(step, frame) {
-  const progress = y2026Progress(frame);
-  let out = y2026Image('puzzle-start', 70, 32, 210, 208);
+  const t = y2026Progress(frame, 2.5);
+  const progress = t * t * (3 - 2 * t);
+  if (step === 0) {
+    return svg(y2026PuzzleImage('start', 196, 8, 248, 244), 'Квадратный пазл с пустым местом', '0 0 640 260');
+  }
+  let out = y2026PuzzleImage('start', 70, 32, 210, 208);
   if (step === 1) {
-    out += `<path d="M91 70 V212 H150" fill="none" stroke="#bd512f" stroke-width="4" stroke-dasharray="7 5" opacity="${progress}"/>`
+    out += `<path d="M91 70 V212 H150" fill="none" stroke="#bd512f" stroke-width="4" stroke-dasharray="7 5" opacity="${.25 + .75 * progress}"/>`
       + y2026Text(430, 117, 'Высокая выемка') + y2026Text(430, 150, 'с поворотом внизу');
   } else if (step === 2) {
-    out += `<g transform="rotate(${90 * progress} 444 133)">${y2026Image('choice-1-4', 349, 80, 190, 106)}</g>`
+    out += `<g transform="rotate(${90 * progress} 444 133)">${y2026PuzzleImage('choice-4', 349, 80, 190, 106)}</g>`
       + y2026Text(444, 260, 'Поворот на 90°');
   } else {
-    out += y2026Image('puzzle-complete', 359, 32, 210, 208) + y2026Caption('Свободное место → деталь Д');
+    const completed = y2026PuzzleImage('complete', 359, 32, 210, 208);
+    out += y2026PuzzleImage('start', 359, 32, 210, 208)
+      + `<defs><clipPath id="y2026-puzzle-join"><rect x="359" y="32" width="210" height="${208 * progress}"/></clipPath></defs>`
+      + `<g clip-path="url(#y2026-puzzle-join)">${completed}</g>` + y2026Caption('Свободное место → деталь Д');
   }
   return svg(out, 'Контур свободного места и поворот детали Д');
 }
@@ -794,9 +814,12 @@ const y2026SceneRenderers = [
   y2026CircleScene, y2026CardScene, y2026StickScene, y2026LargeCubeScene, y2026ButtonScene, y2026CandyScene,
 ];
 const y2026Scenes = y2026SceneRenderers.map((render, index) => (step, frame) => {
-  if (step !== 0) return render(step, frame);
-  const {number, originalImage} = y2026Lessons[index];
-  return `<img src="${originalImage}" alt="Официальное условие задачи №${number} с рисунком и вариантами" style="display:block;max-width:100%;width:auto;height:auto;max-height:100%;object-fit:contain;margin:auto">`;
+  if (step !== 0 || index === 0) return render(step, frame);
+  const {number} = y2026Lessons[index];
+  const art = globalThis.KENGURU_2026_CONDITION_ART?.[number];
+  return art?.image
+    ? `<img class="condition-art" src="${art.image}" width="${art.width}" height="${art.height}" alt="Рисунок к задаче №${number}">`
+    : '';
 });
 
 const y2026Source = 'https://ipokengu.ru/public/task/kenguru_2026_';

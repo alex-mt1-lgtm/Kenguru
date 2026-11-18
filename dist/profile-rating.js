@@ -15,7 +15,7 @@ function recordRatedTransition(step) {
     const previous = readProgress(lessonKey(lesson));
     const independent = !state.seen && !previous?.seen && !previous?.reviewOpened && !(previous?.step > 0);
     const correct = independent && state.selected === lesson.answer;
-    writeProfileValue(activeProfileId, key, correct ? 'solved' : 'reviewed');
+    writeProfileValue(activeProfileId, key, correct ? 'solved' : 'reviewed', correct ? state.selected : undefined);
     return correct ? lesson.points : 0;
   } catch {
     return 0;

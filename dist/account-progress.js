@@ -6,6 +6,7 @@ function createAccountProgress(user, onChange) {
   const requestOptions = {signal: controller.signal, accountId: user.id};
   let remote = {};
   let pending = {};
+  let firstAnswers = {};
   let revision = null;
   let loading = true;
   let running = false;
@@ -16,13 +17,14 @@ function createAccountProgress(user, onChange) {
     const saved = JSON.parse(globalThis.sessionStorage?.getItem(cacheKey) ?? 'null');
     remote = saved?.progress ?? {};
     pending = saved?.pending ?? {};
+    firstAnswers = saved?.firstAnswers ?? {};
   } catch {
     // Synchronization also works when browser storage is unavailable.
   }
 
   function cache() {
     try {
-      globalThis.sessionStorage?.setItem(cacheKey, JSON.stringify({progress: remote, pending}));
+      globalThis.sessionStorage?.setItem(cacheKey, JSON.stringify({progress: remote, pending, firstAnswers}));
     } catch {
       // Keep changes in memory until the server accepts them.
     }
@@ -61,6 +63,9 @@ function createAccountProgress(user, onChange) {
         });
       }
     }
+    for (const key of Object.keys(firstAnswers)) {
+      if (pending['rating:' + key] !== 'solved') delete firstAnswers[key];
+    }
     const changed = new Set([...Object.keys(before), ...Object.keys(remote)].filter(key => before[key] !== read(key)));
     cache();
     onChange(changed);
@@ -83,7 +88,9 @@ function createAccountProgress(user, onChange) {
       const progress = {...pending};
       if (Object.keys(progress).length) {
         try {
-          const result = await request('progress', {revision, progress}, requestOptions);
+          const ratingAnswers = Object.fromEntries(Object.entries(firstAnswers).filter(([key]) => progress['rating:' + key] === 'solved'));
+          const data = {revision, progress, ...(Object.keys(ratingAnswers).length ? {ratingAnswers} : {})};
+          const result = await request('progress', data, requestOptions);
           if (!controller.signal.aborted) accept(result, progress);
         } catch (error) {
           if (controller.signal.aborted) return;
@@ -109,9 +116,12 @@ function createAccountProgress(user, onChange) {
 
   return {
     read,
-    write(key, value) {
+    write(key, value, firstAnswer) {
       if (controller.signal.aborted || read(key) === value) return;
       pending[key] = value;
+      if (key.startsWith('rating:') && value === 'solved' && Number.isInteger(firstAnswer)) {
+        firstAnswers[key.slice('rating:'.length)] = firstAnswer;
+      }
       cache();
       if (retryTimer === undefined) sync();
     },
