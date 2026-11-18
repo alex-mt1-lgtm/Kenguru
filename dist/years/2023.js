@@ -5,6 +5,20 @@
   const folder = 'assets/years/2023';
   const choiceImageTasks = new Set([6, 8, 9, 11, 16, 20, 24]);
   const source = 'https://ipokengu.ru/public/task/kenguru_2023_';
+  const rulers = [[0,10,30,60],[0,20,40,60],[0,30,50,60],[0,10,20,60],[0,10,40,60]];
+  const cellSets = [[2,4,7,10,14],[2,4,7,12,14],[2,7,8,13,14],[1,2,4,7,14],[2,4,7,8,14]];
+  const descriptions = {
+    11: rulers.map(marks => `Отметки ${marks.join(', ')} см`),
+    16: [
+      'Синяя однотонная коробка с красной лентой',
+      'Белая коробка в красный горошек с красной лентой',
+      'Синяя однотонная коробка с тёмно-синей лентой',
+      'Красно-розовая коробка в диагональную полоску с жёлтой лентой',
+      'Круглая коробка в жёлто-бирюзовую полоску с красной лентой'
+    ],
+    24: cellSets.map(cells => 'Закрашенные клетки: ' + cells
+      .map(cell => `ряд ${Math.floor(cell / 4) + 1}, столбец ${cell % 4 + 1}`).join('. '))
+  };
   const first = ['Условие', 'Реши самостоятельно', 'Рассмотри условие и выбери один из пяти ответов.'];
   const task = (number, title, short, skill, question, choices, answer, steps) => ({
     number,
@@ -12,6 +26,7 @@
     title, short, skill, question, choices, answer,
     originalImage: `${folder}/task-${number}.png`,
     ...(choiceImageTasks.has(number) && {
+      choiceDescriptions: descriptions[number],
       choiceImages: letters.map((_, i) => `${folder}/task-${number}-choice-${i}.png`)
     }),
     steps: [first, ...steps],
@@ -422,7 +437,6 @@
     return board(out, note);
   }
 
-  const rulers = [[0,10,30,60],[0,20,40,60],[0,30,50,60],[0,10,20,60],[0,10,40,60]];
   const finalRulerPairs = [[0,10],[40,60],[10,40],[0,40],[10,60],[0,60]];
   function rulerScene(step, frame) {
     const ruler = (marks, y) => {
@@ -701,7 +715,6 @@
     return board(out + caption(320, 265, note, 23), note);
   }
 
-  const cellSets = [[2,4,7,10,14],[2,4,7,12,14],[2,7,8,13,14],[1,2,4,7,14],[2,4,7,8,14]];
   const commonCells = cellSets[0].filter((cell) => cellSets.every((set) => set.includes(cell)));
   function gridsScene(step, frame) {
     let out = '';

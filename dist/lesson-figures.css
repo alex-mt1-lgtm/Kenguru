@@ -1,0 +1,38 @@
+/* The five selectable squares are the opening diagram. The larger copy belongs
+   to the drawing workspace and uses the same variant as the selected answer. */
+.player:has(.square-choices) :is(#sceneTitle, #sceneText, .default-workspace-label),
+.player:has(.puzzle-board) :is(#sceneTitle, #sceneText),
+.player:has(.square-choices):not(:has(#drawingWorkspace[open])) #stage {
+  display: none;
+}
+.player:has(.square-choices) .square-workspace-label {
+  display: inline;
+}
+.player:has(.square-choices) .illustrated-answers {
+  margin-block: 14px;
+}
+.player #scene > .puzzle-board {
+  display: block;
+  width: min(100%, 267px);
+  height: auto;
+}
+.cube-counts th[scope="row"] {
+  text-align: left;
+  vertical-align: middle;
+}
+.cube-column-marker {
+  display: inline-grid;
+  place-items: center;
+  width: 1.45em;
+  height: 1.45em;
+  margin-inline-end: .35em;
+  border-radius: 50%;
+  font-weight: 700;
+  color: white;
+}
+@media (max-width: 540px) {
+  .cube-counts { table-layout: auto; }
+  .cube-counts th, .cube-counts td { overflow-wrap: normal; }
+  .cube-counts th { font-size: 13px; }
+  .cube-counts td small { font-size: 12px; }
+}

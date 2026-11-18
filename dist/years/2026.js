@@ -288,19 +288,34 @@ function y2026Grid(values, {x, y, unit, fill = () => '#fff', ink = () => y2026In
   }).join('')).join('');
 }
 
+// Outline of the opening in the 267 × 260 official board image.
+// The completed board is registered to the same coordinates for the overlay.
+const y2026Opening = 'M6 43 L14 52 26 56 40 54 56 46 62 52 56 72 56 171 58 187 62 197 70 202 102 204 108 206 114 213 114 229 108 240 107 254 6 253 Z';
+
 function y2026PuzzleScene(step, frame) {
-  const progress = y2026Progress(frame);
-  let out = y2026Image('puzzle-start', 70, 32, 210, 208);
+  const board = y2026Image('puzzle-start', 0, 0, 267, 260);
   if (step === 1) {
-    out += `<path d="M91 70 V212 H150" fill="none" stroke="#bd512f" stroke-width="4" stroke-dasharray="7 5" opacity="${progress}"/>`
-      + y2026Text(430, 117, 'Высокая выемка') + y2026Text(430, 150, 'с поворотом внизу');
-  } else if (step === 2) {
-    out += `<g transform="rotate(${90 * progress} 444 133)">${y2026Image('choice-1-4', 349, 80, 190, 106)}</g>`
-      + y2026Text(444, 260, 'Поворот на 90°');
-  } else {
-    out += y2026Image('puzzle-complete', 359, 32, 210, 208) + y2026Caption('Свободное место → деталь Д');
+    const opacity = .25 + .65 * y2026Progress(frame);
+    return svg(board + `<path d="${y2026Opening}" fill="#ecc54d" fill-opacity=".16" stroke="#9a481f" stroke-width="2.5" stroke-dasharray="5 3" opacity="${opacity}"/>`,
+      'Свободная область занимает левый край и поворачивает вправо внизу.', '-4 -4 275 268');
   }
-  return svg(out, 'Контур свободного места и поворот детали Д');
+  const finishedBoard = y2026Image('puzzle-complete', -1.9, -2.8, 271.6, 267.5);
+  if (step === 3) {
+    return svg(board + `<defs><clipPath id="puzzle-solution"><path d="${y2026Opening}"/></clipPath></defs><g clip-path="url(#puzzle-solution)">${finishedBoard}</g>`,
+      'Деталь Д заполняет выемку. Голова кота вверху, хвост направлен вправо.', '-4 -4 275 268');
+  }
+
+  const turn = y2026Progress(frame, 1.5);
+  const slide = y2026Progress(frame - 1.5, 2);
+  const dx = 322 * (1 - slide);
+  const angle = -90 * (1 - turn);
+  const piece = `<defs><clipPath id="puzzle-piece"><path d="${y2026Opening}"/></clipPath></defs>
+    <g transform="translate(${dx} 0) rotate(${angle} 60 148)">
+      <g clip-path="url(#puzzle-piece)" opacity="${1 - .25 * slide}">${finishedBoard}</g>
+      <path d="${y2026Opening}" fill="none" stroke="#923d22" stroke-width="1.5"/>
+    </g>`;
+  return svg(board + piece, slide === 1 ? 'Контур повёрнутой детали Д наложен на выемку.' :
+    'Рядом с выемкой деталь Д. При показе она поворачивается по часовой стрелке и совмещается с пазлом.', '-5 -6 502 272');
 }
 
 function y2026ArtScene(step, frame) {
@@ -796,6 +811,9 @@ const y2026SceneRenderers = [
 const y2026Scenes = y2026SceneRenderers.map((render, index) => (step, frame) => {
   if (step !== 0) return render(step, frame);
   const {number, originalImage} = y2026Lessons[index];
+  if (number === 1) {
+    return `<img class="puzzle-board" src="${y2026Asset('puzzle-start')}" width="267" height="260" alt="Квадратный пазл. Слева пустая область тянется вниз от головы голубого барана и поворачивает вправо под его ногами.">`;
+  }
   return `<img src="${originalImage}" alt="Официальное условие задачи №${number} с рисунком и вариантами" style="display:block;max-width:100%;width:auto;height:auto;max-height:100%;object-fit:contain;margin:auto">`;
 });
 

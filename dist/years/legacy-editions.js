@@ -35,6 +35,7 @@
     const scenes = [];
     for (const [i, [width, height, wording, marks, key, name, explanation, note]] of tasks.entries()) {
       const number = i + 1;
+      const transcript = globalThis.KENGURU_ARCHIVE_TEXT?.[year + '-3-4']?.[number];
       const answer = key === '?' ? null : latin.indexOf(key);
       const title = name;
       const originalImage = `assets/years/${year}/task-${String(number).padStart(2, '0')}.webp`;
@@ -45,7 +46,7 @@
         ]),
       ];
       const choice = answer === null ? '' : letters[answer];
-      const printed = wording ? ` ${wording}` : '';
+      const printed = wording && !transcript?.question ? ` ${wording}` : '';
       const description = `Условие и варианты задачи ${number} из оригинала.${printed}`;
       lessons.push({
         number,
@@ -53,9 +54,9 @@
         short: name,
         skill: '',
         answer,
-        choices: ['', '', '', '', ''],
-        question: '',
-        questionNote: note,
+        choices: transcript?.choices ?? ['', '', '', '', ''],
+        question: transcript?.question ?? '',
+        questionNote: [note, transcript?.figure].filter(Boolean).join(' '),
         legacyOriginal: true,
         points: i < 10 ? 3 : i < 20 ? 4 : 5,
         originalImage,

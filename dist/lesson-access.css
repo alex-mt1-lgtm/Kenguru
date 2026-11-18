@@ -1,0 +1,82 @@
+#stage:has(#scene:empty):not(:has(> #drawingLayer[data-visible="true"])) {
+  display: none;
+}
+
+.lesson-zoom-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding-block-end: 10px;
+}
+
+.lesson-zoom-bar select {
+  min-height: 44px;
+  margin-inline-start: .35em;
+  border: 1px solid #bacdb8;
+  border-radius: 8px;
+  padding-inline: .5em;
+  background: #fffefa;
+  color: var(--ink);
+  font: inherit;
+}
+
+.lesson-zoom-bar form {
+  margin: 0;
+}
+
+.lesson-zoom-content {
+  display: grid;
+  justify-items: center;
+  gap: 10px;
+  width: var(--lesson-zoom-width, 150%);
+}
+
+.lesson-zoom-content > :is(svg, figure, div, section) {
+  width: 100%;
+  max-width: none;
+}
+
+.lesson-zoom-content svg {
+  height: auto;
+  max-height: none;
+}
+
+.legacy-zoom .lesson-zoom-content img {
+  display: block;
+  width: auto;
+  height: auto;
+  min-width: 0;
+  max-width: 100%;
+  max-height: none;
+  margin-inline: auto;
+}
+
+.legacy-zoom .lesson-zoom-content > img,
+.legacy-zoom .lesson-zoom-content figure > img {
+  width: 100%;
+}
+
+.lesson-zoom-content .cube-photo-card svg {
+  width: 100%;
+  height: auto;
+}
+
+.lesson-zoom-choices {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.lesson-zoom-choices figure {
+  margin: 0;
+  padding: 8px;
+  border: 1px solid #d4ded2;
+  border-radius: 8px;
+}
+
+.lesson-zoom-choices figcaption {
+  margin-block-start: 6px;
+  overflow-wrap: anywhere;
+}

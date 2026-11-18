@@ -69,7 +69,8 @@ function syncDrawingViewport() {
     ? svgDiagram.getAttribute('preserveAspectRatio') || 'xMidYMid meet' : 'none');
   const box = (svgDiagram?.getAttribute('viewBox') || PAPER_VIEWBOX).trim().split(/[\s,]+/);
   ['x', 'y', 'width', 'height'].forEach((name, index) => $('drawingHitArea').setAttribute(name, box[index]));
-  const target = svgDiagram || surface;
+  // A task without an illustration uses the whole open scratch area for drawing.
+  const target = diagram ? (svgDiagram || surface) : $('stage');
   if (!target.getBoundingClientRect) return;
   const rect = target.getBoundingClientRect();
   const stage = layer.parentElement.getBoundingClientRect();
@@ -106,7 +107,7 @@ function renderWorkspace() {
   const surface = surfacePicker.selectedOptions?.[0]?.textContent;
   if (surface) {
     const toggle = $('draftSurfaceToggle');
-    toggle.setAttribute('aria-label', 'Где рисовать: ' + surface);
+    toggle.setAttribute('aria-label', 'Лист — ' + surface);
     toggle.setAttribute('data-tip', surface);
     toggle.setAttribute('data-paper', String(drawingSurface !== 'scene'));
   }
@@ -123,7 +124,7 @@ function renderWorkspace() {
   layer.setAttribute('data-tool', drawingTool);
   $('undoDrawing').disabled = !sheet.past.length;
   $('clearDrawing').disabled = !sheet.marks.length;
-  $('variantLabel').hidden = !(task === 0 && current().step === 0);
+  $('variantLabel').hidden = !(task === 0 && current().step === 0 && workspace.open && !paperVisible);
   $('workVariant').selectedIndex = workVariant;
 
   if (document.querySelectorAll) {

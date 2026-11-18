@@ -46,7 +46,7 @@ test('every 2001–2019 edition has 26 checked lessons, the official key, and it
   }
 });
 
-test('each archive card opens its interactive year, after the lesson on the home page', () => {
+test('archive cards open the right variant and the archive is reachable from the edition menu', () => {
   const index = fs.readFileSync(path.join(dist, 'index.html'), 'utf8');
   const archive = fs.readFileSync(path.join(dist, 'archive.html'), 'utf8');
   assert.ok(index.indexOf('id="sources"') > index.indexOf('id="lesson"'));
@@ -55,6 +55,9 @@ test('each archive card opens its interactive year, after the lesson on the home
   assert.match(index, /<button id="accountOpen"[^>]*>Войти<\/button>\s*<details id="profileMenu"[^>]* hidden>/u);
   assert.ok(index.indexOf('id="editionMenu"') < index.indexOf('</header>'));
   assert.match(index, /<details id="editionMenu"[^>]*>[\s\S]*?<select id="yearPicker"/u);
+  const editionMenu = index.split('id="editionMenu"')[1].split('</details>')[0];
+  assert.match(editionMenu, /href="archive\.html#grades-3-4">Все варианты<\/a>/u);
+  assert.match(archive, /<nav class="archive-grades"[^>]*>\s*<a href="#grades-3-4">3–4 классы<\/a>\s*<a href="#grades-5-6">5–6 классы<\/a>\s*<\/nav>/u);
   assert.doesNotMatch(index, /Новая попытка|Скопировать ссылку/u);
   const manifest = JSON.parse(fs.readFileSync(path.join(root, 'sources/archive-manifest.json')));
   for (const {year, id, tasksUrl, answersUrl} of manifest.datasets) {

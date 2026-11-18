@@ -1,5 +1,7 @@
+.archive-header { padding-block: 12px; }
+.archive-header .site-brand { min-height: 44px; }
 .archive-page {
-  max-width: 1160px;
+  padding-top: 16px;
   padding-bottom: 56px;
 }
 
@@ -7,45 +9,89 @@
   display: inline-flex;
   align-items: center;
   min-height: 44px;
-  margin-bottom: 20px;
   color: var(--ink);
+  font-size: 16px;
   font-weight: bold;
   text-underline-offset: 4px;
 }
 
 .archive-page h1 {
+  margin: 6px 0 12px;
   font-size: clamp(2.5rem, 7vw, 5rem);
+  line-height: 1.1;
 }
 
 .archive-page .intro {
   max-width: 42rem;
-  margin-bottom: 22px;
+  margin-bottom: 16px;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
+.archive-grades {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 12px;
+  overflow: visible;
+}
+.archive-grades a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 8px 12px;
+  border: 1px solid #cad8c7;
+  border-radius: 8px;
+  background: #fffefa;
+  color: var(--ink);
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.archive-grades a:hover,
+.archive-grades a[aria-current] {
+  border-color: #155b57;
+}
+.archive-grades a[aria-current] {
+  background: #e4efdf;
+  box-shadow: inset 0 -3px #155b57;
+}
 .archive-grade {
-  margin: 14px 0;
-  padding: 0 14px 12px;
+  margin: 0 0 12px;
+  padding: 0 clamp(8px, 1.25vw, 14px) 12px;
   border: 1px solid #cad8c7;
   border-radius: 10px;
   background: #fffefa;
+  scroll-margin-top: 30rem;
+}
+.archive-grade-title {
+  margin: 10px 0;
+  font-size: clamp(1.25rem, 3vw, 1.65rem);
+}
+.has-grade-picker .archive-grade-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
 }
 
-.archive-grade:not([open]) { padding-bottom: 0; }
-.archive-grade > summary,
-.archive-decade > summary {
-  padding: 13px 0;
-  cursor: pointer;
-  color: var(--ink);
-  font-weight: 700;
-}
-
-.archive-grade > summary { font-size: clamp(1.25rem, 3vw, 1.65rem); }
 .archive-decade {
-  margin: 0 0 5px;
+  margin: 0;
+  padding: 0;
   border-top: 1px solid var(--line);
 }
-.archive-decade > summary { min-height: 44px; font-size: 1.1rem; }
+.archive-decade:first-of-type { border-top: 0; }
 .archive-decade[open] { padding-bottom: 12px; }
+.archive-decade > summary {
+  min-height: 44px;
+  padding: 9px 0;
+  color: var(--ink);
+  font-size: 16px;
+  font-weight: 700;
+}
 
 .archive-editions {
   display: grid;
@@ -66,49 +112,38 @@
   border-radius: 12px;
   background: #fffefa;
 }
-
+.archive-card,
+.archive-decade { scroll-margin-top: 8px; }
 .archive-card:target,
 .archive-decade:target > summary {
   outline: 3px solid var(--teal);
   outline-offset: 4px;
 }
-
 .archive-card h3 {
   margin: 0 0 2px;
   font-size: 1.5rem;
 }
 
-.archive-open,
-.archive-key {
+.archive-open {
   display: inline-flex;
   align-items: center;
   min-height: 44px;
-  text-underline-offset: 4px;
-}
-
-.archive-open {
   padding: 8px 12px;
   border-radius: 8px;
-  background: #1a6c68;
+  background: var(--ink);
   color: #fff;
+  font-size: 15px;
   font-weight: bold;
   text-decoration: none;
 }
-
-.archive-open:hover {
-  background: #145652;
+.archive-open:hover { background: #145652; }
+.archive-open[target="_blank"] {
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
-
-.archive-key {
-  color: #155b57;
-}
-
 .archive-key-missing {
-  align-self: center;
-  min-height: 44px;
-  padding-block: 10px;
   color: var(--muted);
-  font-size: .875rem;
+  font-size: 14px;
   line-height: 1.45;
 }
 
@@ -123,5 +158,6 @@
   align-items: center;
   min-height: 44px;
   color: #155b58;
+  font-size: 15px;
   text-underline-offset: 4px;
 }
