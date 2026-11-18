@@ -281,8 +281,8 @@ function renderPicker() {
     const {number, short} = LESSONS[i];
     const name = short.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('"', '&quot;');
     const active = i === task;
-    return `<button class="task-tab ${active ? 'current-task' : ''}" data-task="${i}" aria-label="Задача ${number}. ${name}" ${active ? 'aria-current="page"' : ''}>
-      <span>${String(number).padStart(2, '0')}</span><span class="task-name">${name}</span>${states[i].seen ? '<i aria-label="Ответ открыт">✓</i>' : ''}
+    return `<button class="task-tab ${active ? 'current-task' : ''}" data-task="${i}" aria-label="Задача ${number}. ${name}" title="${name}" ${active ? 'aria-current="page"' : ''}>
+      <span>${String(number).padStart(2, '0')}</span>${states[i].seen ? '<i aria-label="Ответ открыт">✓</i>' : ''}
     </button>`;
   }).join(''));
   $('collectionProgress').textContent = `открыто ответов ${indices.filter(i => states[i].seen).length} из ${indices.length}`;
@@ -310,6 +310,7 @@ function render() {
   $('taskPoints').textContent = '/ НА ' + pointsLabel(lesson.points).toUpperCase();
   $('taskTitle').textContent = lesson.title;
   $('taskSkill').textContent = lesson.skill;
+  $('taskSkill').hidden = !lesson.skill;
   $('question').textContent = lesson.question;
   $('question').parentElement?.toggleAttribute('hidden', Boolean(lesson.legacyOriginal) && !lesson.questionNote);
   $('question').hidden = !lesson.question;
@@ -320,6 +321,7 @@ function render() {
   $('counter').textContent = `0${st.step + 1} / ${String(lesson.steps.length).padStart(2, '0')}`;
   $('sceneTitle').textContent = title;
   $('sceneText').textContent = explanation;
+  $('sceneText').hidden = Boolean(lesson.legacyOriginal) && st.step === 0;
   renderButtons('chapters', 'data-step', lesson.steps.map(([name], i) =>
     `<button data-step="${i}" class="${i === st.step ? 'active' : ''}" ${i === st.step ? 'aria-current="step"' : ''}><span>0${i + 1}</span>${name}</button>`
   ).join(''));

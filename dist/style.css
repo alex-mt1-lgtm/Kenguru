@@ -95,8 +95,10 @@ body{font-size:18px;line-height:1.5}.player .condition{margin:18px 0 24px;font-s
 .lesson-page .grade-picker select { min-height: 42px; padding: 5px 8px; }
 .lesson-page .level-picker { margin-top: 8px; }
 .lesson-page .level-picker button { min-height: 42px; padding: 6px 10px; }
-.lesson-page .task-picker { margin: 8px 0; gap: 6px; }
-.lesson-page .task-picker .task-tab { min-height: 44px; padding: 6px 8px; gap: 3px; }
+.lesson-page .task-picker { display: flex; flex-wrap: wrap; margin: 8px 0; gap: 6px; }
+.lesson-page .task-picker .task-tab { flex: 0 0 47px; min-height: 44px; align-items: center; justify-content: center; padding: 5px; }
+.lesson-page .task-picker .task-tab span { font-size: 18px; line-height: 1.2; }
+.lesson-page .task-picker .task-tab i { top: 2px; right: 3px; font-size: 10px; }
 .collection-tools { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 4px 12px; margin: 8px 0; }
 .collection-tools .learner-profiles { margin: 0; padding: 4px 9px; }
 .collection-tools .collection-progress { margin: 0; }
@@ -104,9 +106,6 @@ body{font-size:18px;line-height:1.5}.player .condition{margin:18px 0 24px;font-s
 @media (max-width: 540px) {
   .lesson-page .archive-picker { grid-template-columns: minmax(85px, 1fr) minmax(0, 2fr); }
   .lesson-page .grade-picker select { width: 100%; font-size: 14px; }
-  .lesson-page .task-picker { grid-template-columns: repeat(5, minmax(0, 1fr)); }
-  .lesson-page .task-picker .task-tab { align-items: center; justify-content: center; padding-inline: 4px; }
-  .lesson-page .task-picker .task-tab .task-name { display: none; }
 }
 .legacy-zoom-trigger {
   justify-self: start;
@@ -141,4 +140,9 @@ body{font-size:18px;line-height:1.5}.player .condition{margin:18px 0 24px;font-s
 .legacy-zoom-scroll { max-height: calc(100dvh - 106px); overflow: auto; }
 .legacy-zoom-scroll img { display: block; width: 100%; min-width: 660px; height: auto; }
 
-.lesson-page .task-picker .task-tab .task-name { font: inherit; letter-spacing: normal; color: inherit; }
+@media (min-width: 460px) {
+  .draft-controls:has(.legacy-zoom-trigger:not([hidden])):has(.workspace:not([open])) {
+    grid-template-columns: auto minmax(0, 1fr);
+    align-items: start;
+  }
+}

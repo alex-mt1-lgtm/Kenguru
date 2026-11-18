@@ -51,7 +51,7 @@
         number,
         title,
         short: name,
-        skill: 'Разбираем задачу из конкурсного варианта',
+        skill: '',
         answer,
         choices: ['', '', '', '', ''],
         question: '',
