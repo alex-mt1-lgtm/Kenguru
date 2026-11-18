@@ -1,6 +1,6 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),path=require('node:path');
 const root=path.join(__dirname,'..');
-function app(includeArchive=false,archiveOverride=null,browser={}){const elements=new Map(),handlers={},callbacks=new Map();let time=0,id=0;const element=name=>{if(!elements.has(name))elements.set(name,{innerHTML:'',textContent:'',hidden:false,disabled:false,value:name==='drawingColor'?'#e9693e':'',selectedIndex:0,style:{},attributes:{},classList:{toggle(){}},setAttribute(k,v){this.attributes[k]=v},addEventListener(k,v){this[k]=v}});return elements.get(name)};const ctx={...browser,document:{body:{},getElementById:element,addEventListener(k,v){handlers[k]=v}},requestAnimationFrame(fn){callbacks.set(++id,fn);return id},cancelAnimationFrame(key){callbacks.delete(key)},console};vm.createContext(ctx);const scripts=['lessons.js','four-point-lessons.js','five-point-lessons.js','four-point-scenes.js','five-point-scenes.js',...(includeArchive?['legacy-catalog', 'legacy-editions', '2000-visual', '2000-three', '2000-four', '2000-five', 2000, 2020, 2021, 2022, 2023, 2025, 2026].map(year=>'years/'+year+'.js'):[]),'workspace.js','fruit-workspace.js','app.js'];for(const f of scripts){if(f==='app.js'&&archiveOverride)ctx.KENGURU_ARCHIVE={...(ctx.KENGURU_ARCHIVE||{}),...archiveOverride};vm.runInContext(fs.readFileSync(path.join(root,'dist',f),'utf8'),ctx)}const tick=(ms=16)=>{time+=ms;const pending=[...callbacks.values()];callbacks.clear();for(const fn of pending)fn(time)};return{run:s=>vm.runInContext(s,ctx),element,tick,advance(ms){for(let left=ms;left>0;left-=16)tick(Math.min(16,left))},handlers}}
+function app(includeArchive=false,archiveOverride=null,browser={}){const elements=new Map(),handlers={},callbacks=new Map();let time=0,id=0;const element=name=>{if(!elements.has(name))elements.set(name,{innerHTML:'',textContent:'',hidden:false,disabled:false,value:name==='drawingColor'?'#e9693e':'',selectedIndex:0,style:{},attributes:{},classList:{toggle(){}},setAttribute(k,v){this.attributes[k]=v},addEventListener(k,v){this[k]=v}});return elements.get(name)};const ctx={...browser,document:{body:{},getElementById:element,addEventListener(k,v){handlers[k]=v}},requestAnimationFrame(fn){callbacks.set(++id,fn);return id},cancelAnimationFrame(key){callbacks.delete(key)},console};vm.createContext(ctx);const scripts=['lessons.js','four-point-lessons.js','five-point-lessons.js','four-point-scenes.js','five-point-scenes.js',...(includeArchive?['legacy-catalog', 'legacy-editions', '2000-visual', '2000-three', '2000-four', '2000-five', 2000, 2020, 2021, 2022, 2023, 2025, 2026].map(year=>'years/'+year+'.js'):[]),'workspace.js','fruit-workspace.js','profile-rating.js','app.js'];for(const f of scripts){if(f==='app.js'&&archiveOverride)ctx.KENGURU_ARCHIVE={...(ctx.KENGURU_ARCHIVE||{}),...archiveOverride};vm.runInContext(fs.readFileSync(path.join(root,'dist',f),'utf8'),ctx)}const tick=(ms=16)=>{time+=ms;const pending=[...callbacks.values()];callbacks.clear();for(const fn of pending)fn(time)};return{run:s=>vm.runInContext(s,ctx),element,tick,advance(ms){for(let left=ms;left>0;left-=16)tick(Math.min(16,left))},handlers}}
 
 test('official answer key and every explanation step',()=>{const a=app();assert.equal(a.run('LESSONS.slice(0,8).map(l=>LETTERS[l.answer]).join("")'),'ДВВВГВДБ');for(let t=0;t<24;t++)for(let s=0;s<a.run(`LESSONS[${t}].steps.length`);s++){a.run(`selectTask(${t});navigate(${s})`);assert.ok(a.element('sceneTitle').textContent);if(t||s)assert.ok(a.element('scene').innerHTML);assert.equal(a.element('answers').hidden,s!==0);for(let f=0;f<=12;f++){a.run(`current().frame=${f};renderScene()`);assert.ok(!a.element('scene').innerHTML.includes('NaN'))}}});
 test('square areas and unique cell count',()=>{const a=app();assert.equal(a.run('REGIONS.map(p=>Math.abs(p.reduce((s,v,j)=>{const n=p[(j+1)%p.length];return s+v[0]*n[1]-n[0]*v[1]},0))/2).join(",")'),'8,8,8,8,7');assert.equal(a.run('ORANGE.length+","+GREEN.length'),'7,9');assert.equal(a.run('new Set([...ORANGE,...GREEN].map(p=>p.join(","))).size'),16)});
@@ -255,4 +255,81 @@ test('the draft surface popover closes after selection and with the draft', () =
   draft.toggle();
   assert.equal(notes.open, false);
   assert.equal(a.element('draftBoard').hidden, true);
+});
+
+test('profile scores award the first independent correct answer once and survive a reload', () => {
+  const local = new Map();
+  const session = new Map();
+  const store = values => ({getItem: key => values.get(key), setItem: (key, value) => values.set(key, value)});
+  const browser = {localStorage: store(local), sessionStorage: store(session)};
+  const a = app(true, null, browser);
+  const selectAnswer = index => a.element('answers').click({
+    target: {closest: () => ({dataset: {answer: String(index)}})},
+  });
+  const correct = () => selectAnswer(a.run('LESSONS[task].answer'));
+
+  assert.equal(a.element('openProfileRating').hidden, true);
+  a.run('createProfile("Лиса")');
+  const fox = a.run('activeProfileId');
+  correct();
+  assert.equal(a.element('profileRatingPoints').textContent, '0 баллов');
+  a.element('next').onclick();
+  assert.equal(a.element('profileRatingPoints').textContent, '3 балла');
+  assert.equal(a.element('ratingNotice').textContent, '+3 балла в рейтинг');
+  a.element('repeat').onclick();
+  correct();
+  a.run('navigate(1)');
+  assert.equal(a.element('profileRatingPoints').textContent, '3 балла');
+
+  a.run('selectTask(1)');
+  selectAnswer((a.run('LESSONS[task].answer') + 1) % 5);
+  a.run('navigate(1)');
+  a.element('repeat').onclick();
+  correct();
+  a.run('navigate(1)');
+  a.run('selectTask(2); navigate(1)');
+  a.element('repeat').onclick();
+  correct();
+  a.run('navigate(1)');
+  assert.equal(a.element('profileRatingPoints').textContent, '3 балла');
+
+  a.run('selectTask(8)');
+  correct();
+  a.run('navigate(1); selectTask(16)');
+  correct();
+  a.run('start()');
+  a.advance(1700);
+  assert.equal(a.element('profileRatingPoints').textContent, '12 баллов');
+  a.run('renderRatingDialog()');
+  assert.equal(a.element('ratingBadgeCount').textContent, '3 из 6');
+  assert.match(a.element('ratingBadges').innerHTML, /is-earned[^]*Все уровни/u);
+
+  a.run('createProfile("Ворон")');
+  assert.equal(a.element('profileRatingPoints').textContent, '0 баллов');
+  correct();
+  a.run('navigate(1); renderRatingDialog()');
+  assert.equal(a.element('profileRatingPoints').textContent, '5 баллов');
+  const leaderboard = a.element('ratingLeaderboard').innerHTML;
+  assert.ok(leaderboard.indexOf('Лиса') < leaderboard.indexOf('Ворон'));
+  assert.match(leaderboard, /Ворон <small>\(ты\)<\/small>/u);
+  assert.equal(app(true, null, browser).element('profileRatingPoints').textContent, '5 баллов');
+
+  a.element('profilePicker').change({target: {value: fox}});
+  assert.equal(a.element('profileRatingPoints').textContent, '12 баллов');
+});
+
+test('a walkthrough opened before scoring stays ineligible after repeat', () => {
+  const local = new Map([
+    ['kenguru:profiles:v1', '[{"id":"legacy","name":"Лиса"}]'],
+    ['kenguru:profile:legacy:2024-3-4/1', '{"step":1,"selected":4,"seen":false}'],
+  ]);
+  const a = app(true, null, {
+    location: {hash: '#zadacha=2024-3-4/1'},
+    localStorage: {getItem: key => local.get(key), setItem: (key, value) => local.set(key, value)},
+    sessionStorage: {getItem: () => 'legacy'},
+  });
+  assert.equal(a.run('current().step'), 1);
+  a.element('repeat').onclick();
+  a.run('current().selected=LESSONS[task].answer; navigate(1)');
+  assert.equal(a.element('profileRatingPoints').textContent, '0 баллов');
 });

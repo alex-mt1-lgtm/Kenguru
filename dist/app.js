@@ -56,6 +56,7 @@ function renderProfiles() {
     `<option value="${profile.id}">${profile.name.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;')}</option>`
   ).join('');
   $('profilePicker').value = activeProfileId;
+  renderRatingSummary();
 }
 
 function switchProfile(id) {
@@ -102,8 +103,12 @@ function progressStore() {
   return activeProfileId ? globalThis.localStorage : globalThis.sessionStorage;
 }
 
+function profileProgressKey(profileId, key) {
+  return `kenguru:profile:${profileId}:${key}`;
+}
+
 function progressKey(key) {
-  return activeProfileId ? `kenguru:profile:${activeProfileId}:${key}` : progressPrefix + key;
+  return activeProfileId ? profileProgressKey(activeProfileId, key) : progressPrefix + key;
 }
 
 
@@ -155,8 +160,13 @@ function restoreProgress() {
 function saveLessonProgress() {
   const key = lessonKey(LESSONS[task]);
   const {step, selected, seen} = current();
-  // Repeating this task keeps its completed marker within this attempt.
-  writeProgress(key, {step, selected, seen: seen || readProgress(key)?.seen === true});
+  const previous = readProgress(key);
+  // Keep the fact that the learner has seen the walkthrough even after a repeat.
+  writeProgress(key, {
+    step, selected,
+    seen: seen || previous?.seen === true,
+    reviewOpened: step > 0 || previous?.step > 0 || previous?.reviewOpened === true,
+  });
 }
 const activeSet=()=>CATALOG.find(set=>set.id===selectedDataset);
 const answerLetter=index=>(activeSet().answerLetters||LETTERS)[index];
@@ -362,12 +372,22 @@ function render() {
 function sceneDuration(t,s){if(s===0)return 1500;if(t>=8)return s===lastStep(t)?4500:6500;if(t===6)return s===7?4000:s===8?4200:6500;if(t===1&&(s===2||s===3)){const length=s===2?FIRE_DISTANCES[FIRE_SPLIT]:FIRE_DISTANCES.at(-1)-FIRE_DISTANCES[FIRE_SPLIT];return length/FIRE_SPEED*1000+400}if(t===3)return[0,1600,3000,3600,2600][s];if((t===0||t===6)&&s===3)return 3600;if(t===7)return[0,1800,2100,4200,2800][s];return s===4?3000:s===1?3000:4200}
 function pause(){playing=false;if(clock!==null)cancelAnimationFrame(clock);clock=null;lastTimestamp=null;playLabel()}
 function resetPosition(st){st.frame=0;st.elapsed=0}
-function navigate(n){finishMark();pause();showTaskDrawing();current().step=Math.max(0,Math.min(lastStep(),n));resetPosition(current());render();saveLessonProgress()}
+function showLessonStep(step) {
+  const earned = recordRatedTransition(step);
+  $('ratingNotice').textContent = earned ? `+${formatRatingPoints(earned)} в рейтинг` : '';
+  if (earned) renderRatingSummary();
+  current().step = step;
+  resetPosition(current());
+  render();
+  saveLessonProgress();
+}
+function navigate(n){finishMark();pause();showTaskDrawing();showLessonStep(Math.max(0,Math.min(lastStep(),n)))}
 function selectTask(n, historyMethod = 'pushState') {
   if (!LESSONS[n]) return;
   finishMark();
   pause();
   task = n;
+  $('ratingNotice').textContent = '';
   const lesson = LESSONS[n];
   selectedPoints = lesson.points;
   selectedDataset = lesson.datasetId;
@@ -381,7 +401,7 @@ function selectTask(n, historyMethod = 'pushState') {
 function selectDataset(id){const set=CATALOG.find(item=>item.id===id);if(set)selectTask(datasetLast[id]??set.indices[0])}
 function selectYear(year){const variants=CATALOG.filter(set=>set.year===year),last=variants.find(set=>datasetLast[set.id]!==undefined);if(variants.length)selectDataset((last||variants[0]).id)}
 function animate(timestamp){if(!playing)return;const delta=lastTimestamp===null?0:Math.min(Math.max(0,timestamp-lastTimestamp),80);lastTimestamp=timestamp;const st=current();st.elapsed+=delta;st.frame=st.elapsed/FRAME_MS;renderScene();
-if(st.elapsed>=sceneDuration(task,st.step)){if(st.step<lastStep()){st.step++;resetPosition(st);render();saveLessonProgress()}else{pause();render();return}}if(playing)clock=requestAnimationFrame(animate)}
+if(st.elapsed>=sceneDuration(task,st.step)){if(st.step<lastStep()){showLessonStep(st.step+1)}else{pause();render();return}}if(playing)clock=requestAnimationFrame(animate)}
 function start(){finishMark();if(playing){pause();return}if(current().step===0&&current().selected===null){$('feedback').textContent='Сначала выбери свой ответ. Затем нажми «Далее» или «Смотреть».';return}if(current().elapsed>=sceneDuration(task,current().step))resetPosition(current());showTaskDrawing();playing=true;lastTimestamp=null;playLabel();clock=requestAnimationFrame(animate)}
 function closeEditionMenu() {
   $('editionMenu').open = false;
@@ -439,6 +459,7 @@ $('repeat').onclick = () => {
   pause();
   showTaskDrawing();
   if (task === 9) resetFruitWorkspace();
+  $('ratingNotice').textContent = '';
   Object.assign(current(), {step: 0, frame: 0, elapsed: 0, selected: null});
   render();
   saveLessonProgress();
@@ -452,6 +473,7 @@ document.addEventListener('click', e => {
 });
 
 document.addEventListener('keydown', e => {
+  if ($('profileRatingDialog').open) return;
   if (e.key === 'Escape') {
     const menu = lessonMenus.find(item => item.open);
     if (menu) {
@@ -484,6 +506,7 @@ $('newProfileForm').addEventListener('submit', event => {
 });
 setupWorkspace();
 setupFruitWorkspace();
+setupProfileRating();
 startFreshAttemptOnArrival();
 try {
   const id = globalThis.sessionStorage?.getItem(progressPrefix + 'profile');

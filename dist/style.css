@@ -278,3 +278,63 @@ body{font-size:18px;line-height:1.5}.player .condition{margin:18px 0 24px;font-s
   box-shadow: 0 6px 16px #172e3422;
 }
 .draft-surface-panel { width: min(100%, 16rem); }
+
+.learner-profiles .profile-rating-link {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px 8px;
+  margin-top: 10px;
+  background: #eaf3e9;
+  text-align: left;
+}
+.profile-rating-link strong { color: #17625e; white-space: nowrap; }
+
+#ratingNotice { color: #17625e; font-size: 16px; font-weight: 700; margin: 8px 0; }
+#ratingNotice:empty { display: none; }
+.rating-dialog {
+  width: min(540px, calc(100% - 24px));
+  max-height: calc(100dvh - 24px);
+  padding: clamp(12px, 4vw, 24px);
+  border: 1px solid #c9d8c6;
+  border-radius: 14px;
+  background: #fffefa;
+  color: var(--ink);
+}
+.rating-dialog::backdrop { background: #172e3485; }
+.rating-header { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; }
+.rating-header p { margin: 2px 0 0; color: var(--muted); font-size: 14px; overflow-wrap: anywhere; }
+.rating-header h2 { margin: 0; font-size: 22px; line-height: 1.25; }
+.rating-header button {
+  min-height: 44px;
+  padding: 8px 12px;
+  border: 1px solid #c9d8c6;
+  border-radius: 8px;
+  background: #fffefa;
+  color: var(--ink);
+  font-size: 14px;
+}
+.rating-stats {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin: 14px 0 8px;
+}
+.rating-stats > div { padding: 10px; border-radius: 9px; background: #eaf3e9; }
+.rating-stats dt { color: var(--muted); font-size: 13px; }
+.rating-stats dd { margin: 0; font-size: clamp(18px, 5vw, 26px); font-weight: 700; }
+.rating-rule { color: var(--muted); font-size: 14px; margin: 8px 0 14px; }
+.rating-dialog h3 { margin: 0 0 8px; font-size: 17px; }
+#ratingBadgeCount { color: var(--muted); font-size: 14px; font-weight: 400; margin-inline-start: 4px; }
+.rating-badges, .rating-standings ol { padding: 0; margin: 0; list-style: none; }
+.rating-badges { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 202px), 1fr)); gap: 7px; }
+.rating-badge { padding: 8px 10px; border: 1px solid #dadfd5; border-radius: 8px; font-size: 14px; }
+.rating-badge > div { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 8px; }
+.rating-badge small { color: var(--muted); font-size: 13px; }
+.rating-badge-status { color: var(--muted); white-space: nowrap; }
+.rating-badge.is-earned { border-color: #aacdbd; background: #eaf3e9; }
+.rating-badge.is-earned .rating-badge-status { color: #17625e; font-weight: 700; }
+.rating-standings { margin-top: 12px; padding-top: 8px; border-top: 1px solid var(--line); font-size: 15px; }
+.rating-standings li { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 4px 8px; padding: 5px 8px; overflow-wrap: anywhere; }
+.rating-standings li[aria-current] { border-radius: 6px; background: #eaf3e9; }
