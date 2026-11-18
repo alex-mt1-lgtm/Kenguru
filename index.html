@@ -1,4 +1,4 @@
-<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Интерактивные задачи Кенгуру за 2000–2026 годы для 3-го и 4-го классов: самостоятельное решение и пошаговые разборы."><title>Кенгуру · Математика в движении</title><link rel="stylesheet" href="style.css"></head><body>
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Интерактивные задачи Кенгуру за 2000–2026 годы для 3-го и 4-го классов: самостоятельное решение и пошаговые разборы."><title>Кенгуру · Математика в движении</title><link rel="stylesheet" href="style.css?v=20261118-draft"></head><body>
 <header class="lesson-header"><a class="site-brand" href="./" aria-label="olympiads.pro — к урокам"><span class="site-brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span>olympiads.pro</a>
 <div class="header-menus">
   <details id="editionMenu" class="compact-menu edition-menu">
@@ -31,8 +31,7 @@
   <div class="collection-progress" id="collectionProgress" aria-live="polite"></div>
 </div>
 <nav id="taskPicker" class="task-picker" aria-label="Выбор задачи"></nav><div class="lesson" id="lesson"><aside><div class="lesson-number"><span id="taskNumber">01</span> <span id="taskPoints">/ НА 3 БАЛЛА</span></div><h1 id="taskTitle" tabindex="-1">Квадрат с секретом</h1><p id="taskSkill">Сравниваем площади</p><nav id="chapters" aria-label="Шаги урока"></nav></aside>
-<section class="player" aria-label="Интерактивный урок"><div class="scene-top"><span id="chapterTag"></span><span id="counter"></span></div><details class="condition" open><summary>Условие задачи</summary><p id="question"></p><p id="questionNote" class="question-note" hidden></p></details><h2 id="sceneTitle"></h2><p id="sceneText"></p><div class="draft-controls"><button id="openLegacyZoom" class="legacy-zoom-trigger" type="button" hidden>Открыть рисунок крупнее</button>
-  <label id="variantLabel" class="variant-picker" hidden>Рисунок <select id="workVariant" aria-label="Рисунок для своей схемы"><option>А</option><option>Б</option><option>В</option><option>Г</option><option>Д</option></select></label>
+<section class="player" aria-label="Интерактивный урок"><div class="scene-top"><span id="chapterTag"></span><span id="counter"></span></div><details class="condition" open><summary>Условие задачи</summary><p id="question"></p><p id="questionNote" class="question-note" hidden></p></details><h2 id="sceneTitle"></h2><p id="sceneText"></p><div class="draft-controls">
   <details id="drawingWorkspace" class="workspace">
     <summary>Черновик</summary>
     <div class="draft-actions" role="group" aria-label="Инструменты черновика">
@@ -65,6 +64,10 @@
     </div>
     <p id="drawingHint" class="draft-hint" role="status"></p>
   </details>
+  <div class="diagram-controls">
+    <button id="openLegacyZoom" class="legacy-zoom-trigger" type="button" hidden>Открыть рисунок крупнее</button>
+    <label id="variantLabel" class="variant-picker" hidden>Рисунок <select id="workVariant" aria-label="Рисунок для своей схемы"><option>А</option><option>Б</option><option>В</option><option>Г</option><option>Д</option></select></label>
+  </div>
 </div><div id="stage"><div id="scene"></div><svg id="drawingLayer" viewBox="0 0 640 300" data-visible="false" aria-label="Твои пометки" role="img">
   <rect id="drawingHitArea" x="0" y="0" width="640" height="300" fill="transparent"/>
   <g id="drawingMarks"></g>
