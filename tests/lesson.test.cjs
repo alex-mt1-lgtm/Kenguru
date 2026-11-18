@@ -412,3 +412,54 @@ test('previous account responses are ignored and pending offline work retries fo
   assert.equal(uploaded['rating:2024-3-4/3'], 'solved');
   assert.equal(uploaded['2024-3-4/7'], undefined);
 });
+
+test('all grade 5–6 editions have original cards, verified keys and independent year navigation', () => {
+  const grade = vm.createContext({});
+  for (const file of ['grades-5-6-data.js', 'grades-5-6.js']) {
+    vm.runInContext(fs.readFileSync(path.join(root, 'dist', 'years', file), 'utf8'), grade);
+  }
+  const editions = grade.KENGURU_ARCHIVE;
+  assert.deepEqual(Object.keys(editions).sort(), Array.from({length: 30}, (_, index) => `${1997 + index}-5-6`));
+  const menu = app(true, editions);
+  menu.run('selectDataset("2024-5-6")');
+  assert.equal(menu.element('archiveLabel').textContent, '2024 · 5–6 классы');
+  assert.equal(menu.element('gradePicker').disabled, false);
+  menu.run('selectYear(2025)');
+  assert.equal(menu.element('archiveLabel').textContent, '2025 · 5–6 классы');
+  menu.run('selectYear(1997)');
+  assert.equal(menu.element('archiveLabel').textContent, '1997 · 5–6 классы');
+  assert.match(menu.element('answers').innerHTML, /<strong>B<\/strong>/);
+  menu.run('navigate(1)');
+  assert.match(menu.element('feedback').textContent, /Ответ B/u);
+  menu.run('selectYear(2019); navigate(1)');
+  assert.match(menu.element('feedback').textContent, /фрагментом ключа/u);
+  assert.match(menu.element('scene').innerHTML, /2019\/answer-01.webp/);
+  assert.equal(menu.element('play').hidden, true);
+  menu.run('selectYear(2024); selectDataset("2024-3-4"); selectYear(2026)');
+  assert.equal(menu.element('archiveLabel').textContent, '2026 · 3–4 классы');
+  assert.equal(menu.element('play').hidden, false);
+
+  let count = 0;
+  for (const {year, lessons, scenes, answerLetters} of Object.values(editions)) {
+    const groupSize = year === 2021 ? 8 : 10;
+    assert.equal(lessons.length, groupSize * 3);
+    assert.equal(answerLetters.join(''), year < 2008 ? 'ABCDE' : 'АБВГД');
+    count += lessons.length;
+    for (const [index, lesson] of lessons.entries()) {
+      assert.equal(lesson.number, index + 1);
+      assert.equal(lesson.points, 3 + Math.floor(index / groupSize));
+      const verifyWithExcerpt = year >= 2010 && year <= 2020;
+      assert.equal(lesson.answerExcerpt, verifyWithExcerpt);
+      assert.equal(lesson.answer === null, verifyWithExcerpt);
+      if (!verifyWithExcerpt) assert.ok(Number.isInteger(lesson.answer) && lesson.answer >= 0 && lesson.answer < 5);
+      assert.ok(fs.existsSync(path.join(root, 'dist', lesson.originalImage)), lesson.originalImage);
+      assert.doesNotMatch(scenes[index](0), /answer-\d+/u);
+      const checked = scenes[index](1);
+      assert.doesNotMatch(checked, /undefined|NaN|Infinity/u);
+      for (const match of checked.matchAll(/href="(assets\/[^"]+)"/gu)) {
+        assert.ok(fs.existsSync(path.join(root, 'dist', match[1])), match[1]);
+      }
+    }
+  }
+  assert.equal(count, 894);
+});
