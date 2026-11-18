@@ -1,0 +1,101 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Интерактивные задачи Кенгуру за 2000–2026 годы для 3-го и 4-го классов: самостоятельное решение и пошаговые разборы."><title>Кенгуру · Математика в движении</title><link rel="stylesheet" href="style.css"></head><body>
+<header class="lesson-header"><a class="brand" href="#">К<span>Е</span>НГУРУ<span class="dot">●</span></a><span>Математика в движении</span>
+<div class="header-menus">
+  <details id="editionMenu" class="compact-menu edition-menu">
+    <summary id="editionToggle"><span id="archiveLabel">2024 · 3–4 классы</span></summary>
+    <div class="compact-menu-panel">
+      <label class="edition-field">Год конкурса<select id="yearPicker" aria-label="Год конкурса"></select></label>
+      <label id="gradeField" class="edition-field">Класс<select id="gradePicker" aria-label="Вариант по классу"></select></label>
+    </div>
+  </details>
+  <details id="profileMenu" class="compact-menu learner-profiles">
+    <summary id="profileToggle"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="7" r="3.5"/><path d="M4 21c.4-4.1 3.4-6.5 8-6.5s7.6 2.4 8 6.5"/></svg><span id="profileSummary">Профиль</span></summary>
+    <div class="compact-menu-panel">
+      <p>Профили сохраняют ответы, рейтинг и достижения в этом браузере. На общем компьютере каждый выбирает своё имя или псевдоним.</p>
+      <label class="profile-field">Кто решает <select id="profilePicker"><option value="">Без профиля</option></select></label>
+      <button id="openProfileRating" class="profile-rating-link" type="button" hidden>
+        <span>Рейтинг и достижения</span><strong id="profileRatingPoints"></strong>
+      </button>
+      <form id="newProfileForm">
+        <label class="profile-field">Имя или псевдоним <input id="profileName" type="text" maxlength="24" required autocomplete="off"></label>
+        <button type="submit">Создать профиль</button>
+      </form>
+      <p id="profileStatus" role="status"></p>
+    </div>
+  </details>
+</div>
+</header>
+<main class="lesson-page">
+<div class="lesson-context">
+  <nav id="levelPicker" class="level-picker" aria-label="Группы задач по баллам"></nav>
+  <div class="collection-progress" id="collectionProgress" aria-live="polite"></div>
+</div>
+<nav id="taskPicker" class="task-picker" aria-label="Выбор задачи"></nav><div class="lesson" id="lesson"><aside><div class="lesson-number"><span id="taskNumber">01</span> <span id="taskPoints">/ НА 3 БАЛЛА</span></div><h1 id="taskTitle" tabindex="-1">Квадрат с секретом</h1><p id="taskSkill">Сравниваем площади</p><nav id="chapters" aria-label="Шаги урока"></nav></aside>
+<section class="player" aria-label="Интерактивный урок"><div class="scene-top"><span id="chapterTag"></span><span id="counter"></span></div><details class="condition" open><summary>Условие задачи</summary><p id="question"></p><p id="questionNote" class="question-note" hidden></p></details><h2 id="sceneTitle"></h2><p id="sceneText"></p><div class="draft-controls"><button id="openLegacyZoom" class="legacy-zoom-trigger" type="button" hidden>Открыть рисунок крупнее</button>
+  <label id="variantLabel" class="variant-picker" hidden>Рисунок <select id="workVariant" aria-label="Рисунок для своей схемы"><option>А</option><option>Б</option><option>В</option><option>Г</option><option>Д</option></select></label>
+  <details id="drawingWorkspace" class="workspace">
+    <summary>Черновик</summary>
+    <div class="draft-actions" role="group" aria-label="Инструменты черновика">
+      <details id="draftNotesMenu" class="draft-menu">
+        <summary class="draft-icon" aria-label="Твои записи" data-tip="Твои записи"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h9l4 4v14H6zM14 3v5h5M9 12h7m-7 4h7"/></svg></summary>
+        <div class="draft-menu-panel">
+          <label class="draft-notes">Твои записи<textarea id="draftNotes" rows="4" placeholder="Запиши вычисления или ход решения"></textarea></label>
+        </div>
+      </details>
+      <details id="draftSurfaceMenu" class="draft-menu">
+        <summary id="draftSurfaceToggle" class="draft-icon" aria-label="Где рисовать" data-tip="Где рисовать"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M4 10h16M10 10v10m5-10v10M4 15h16"/></svg></summary>
+        <div class="draft-menu-panel draft-surface-panel">
+          <label class="edition-field" for="drawingSurface">Где рисовать
+            <select id="drawingSurface"><option value="scene">На рисунке задачи</option><option value="plain">На чистом листе</option><option value="grid">На листе в клетку</option></select>
+          </label>
+        </div>
+      </details>
+      <div id="drawingTools" class="draft-tools">
+        <button class="draft-icon" type="button" data-tool="pointer" aria-pressed="true" aria-label="Просмотр" data-tip="Просмотр"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3l13 10-6 1-3 6z"/></svg></button>
+        <button class="draft-icon" type="button" data-tool="pen" aria-pressed="false" aria-label="Карандаш" data-tip="Карандаш"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l4.5-1L20 7.5 16.5 4 5 15.5zM14 6.5l3.5 3.5M5 15.5l3.5 3.5"/></svg></button>
+        <button class="draft-icon" type="button" data-tool="line" aria-pressed="false" aria-label="Линия" data-tip="Линия"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20 20 4"/></svg></button>
+        <button class="draft-icon" type="button" data-tool="arrow" aria-pressed="false" aria-label="Стрелка" data-tip="Стрелка"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20 20 4m-8 0h8v8"/></svg></button>
+        <button class="draft-icon" type="button" data-tool="fill" aria-pressed="false" aria-label="Закрасить клетку" data-tip="Закрасить клетку" hidden><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="1.5"/><path d="M4 12h16M12 4v16"/><path d="M5 5h6v6H5z" fill="currentColor" stroke="none"/></svg></button>
+        <button class="draft-icon" type="button" data-tool="ladder" aria-pressed="false" aria-label="Лестница" data-tip="Лестница" hidden><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3v18M17 3v18M7 6h10M7 10h10M7 14h10M7 18h10"/></svg></button>
+        <button class="draft-icon" type="button" data-tool="eraser" aria-pressed="false" aria-label="Ластик" data-tip="Ластик"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14l9-10a2 2 0 0 1 3 0l4 4a2 2 0 0 1 0 3l-8 9H9zm5-6l7 7M12 20h9"/></svg></button>
+        <label class="draft-icon draft-color" data-tip="Цвет"><input id="drawingColor" type="color" value="#e9693e" aria-label="Цвет рисования"></label>
+        <button class="draft-icon" id="undoDrawing" type="button" aria-label="Отменить штрих" data-tip="Отменить штрих" disabled><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m9 5-5 5 5 5m-5-5h10a5 5 0 0 1 0 10h-3"/></svg></button>
+        <button class="draft-icon" id="clearDrawing" type="button" aria-label="Очистить рисунок" data-tip="Очистить рисунок" disabled><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16m-13 0 1 14h8l1-14M9 7V4h6v3m-4 4v6m2-6v6"/></svg></button>
+      </div>
+    </div>
+    <p id="drawingHint" class="draft-hint" role="status"></p>
+  </details>
+</div><div id="stage"><div id="scene"></div><svg id="drawingLayer" viewBox="0 0 640 300" data-visible="false" aria-label="Твои пометки" role="img">
+  <rect id="drawingHitArea" x="0" y="0" width="640" height="300" fill="transparent"/>
+  <g id="drawingMarks"></g>
+</svg></div>
+<div id="draftBoard" class="draft-board" hidden>
+  <svg id="draftPaper" viewBox="0 0 640 300" aria-hidden="true"></svg>
+</div><div id="answers" class="answer-list" aria-label="Варианты ответа"></div><div id="feedback" role="status" aria-live="polite"></div><p id="ratingNotice" role="status"></p><details id="alternative" class="alternative-method" hidden><summary id="alternativeTitle"></summary><p id="alternativeText"></p><div class="alternative-table-wrap"><table id="alternativeTable"></table></div><p id="alternativeConclusion"></p></details><div class="timeline" aria-hidden="true"><span id="progress"></span></div><div class="controls"><button id="back" aria-label="Предыдущий шаг">← Назад</button><button id="play" aria-label="Включить автоматический показ">▶ Смотреть</button><button id="repeat" aria-label="Повторить текущую задачу сначала">↺ Повтор</button><button id="next" class="primary">Далее →</button><button id="nextTask" class="primary" hidden>Следующая задача →</button></div><p class="keyboard">← → шаги <span>·</span> пробел — показ / пауза</p></section></div>
+<details id="sources"><summary>Оригинал текущей задачи и источники</summary><img id="original" loading="lazy" class="original" src="assets/original-1.png" alt="Оригинал задачи №1 из официального PDF"><p id="sourceNote">Условия и ответы сверены с официальными материалами.</p><a id="tasksSource" href="https://ipokengu.ru/public/task/kenguru_2024_class_3-4.pdf" target="_blank" rel="noopener">Полный официальный вариант (PDF)</a> · <a id="answersSource" href="https://ipokengu.ru/public/task/kenguru_2024_answers.pdf" target="_blank" rel="noopener">Официальные ответы (PDF)</a> · <a id="solutionsSource" href="https://ipokengu.ru/public/task/kenguru_2024_solution.pdf" target="_blank" rel="noopener">Официальные решения (PDF)</a></details>
+<nav class="previous-editions" aria-label="Варианты прошлых лет"><a href="archive.html">Архив вариантов 1997–2026</a></nav>
+</main>
+<dialog id="profileRatingDialog" class="rating-dialog" aria-labelledby="ratingTitle">
+  <div class="rating-header">
+    <div>
+      <h2 id="ratingTitle">Рейтинг и достижения</h2>
+      <p id="ratingProfileName"></p>
+    </div>
+    <form method="dialog"><button type="submit" autofocus>Закрыть</button></form>
+  </div>
+  <dl class="rating-stats">
+    <div><dt>Набрано</dt><dd id="ratingPoints"></dd></div>
+    <div><dt>Решено самостоятельно</dt><dd id="ratingSolved"></dd></div>
+  </dl>
+  <p class="rating-rule">Баллы начисляются один раз за верный ответ до открытия разбора.</p>
+  <h3>Достижения <span id="ratingBadgeCount"></span></h3>
+  <ul class="rating-badges" id="ratingBadges"></ul>
+  <details class="rating-standings">
+    <summary>Рейтинг профилей в этом браузере</summary>
+    <ol id="ratingLeaderboard"></ol>
+  </details>
+</dialog>
+<dialog id="legacyZoom" class="legacy-zoom" aria-label="Увеличенный рисунок задачи">
+  <form method="dialog"><button type="submit" autofocus>Закрыть рисунок</button></form>
+  <div class="legacy-zoom-scroll" tabindex="0" aria-label="Прокрутка рисунка"><img id="legacyZoomImage" alt=""></div>
+</dialog><footer>Кенгуру <span>Учимся замечать, рассуждать и проверять.</span><a href="https://github.com/alex-mt1-lgtm/Kenguru">Исходный код ↗</a></footer><script src="lessons.js"></script><script src="four-point-lessons.js"></script><script src="five-point-lessons.js"></script><script src="four-point-scenes.js"></script><script src="five-point-scenes.js"></script><script src="years/legacy-catalog.js"></script><script src="years/legacy-editions.js"></script><script src="years/2000-visual.js"></script><script src="years/2000-three.js"></script><script src="years/2000-four.js"></script><script src="years/2000-five.js"></script><script src="years/2000.js"></script><script src="years/2020.js"></script><script src="years/2021.js"></script><script src="years/2022.js"></script><script src="years/2023.js"></script><script src="years/2025.js"></script><script src="years/2026.js"></script><script src="workspace.js"></script><script src="fruit-workspace.js"></script><script src="profile-rating.js"></script><script src="app.js"></script></body></html>
