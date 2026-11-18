@@ -1,3 +1,6 @@
 # Local PDF renders used for visual verification; original PDFs and served crops are tracked.
 sources/**/*.png
 sources/**/*.txt
+
+# Locally regenerated task-layout metadata.
+/sources/legacy-renders/

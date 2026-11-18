@@ -244,45 +244,48 @@ function renderAnswers() {
     } else if (lesson.choiceImages) {
       picture = `<img src="${lesson.choiceImages[i]}" alt="">`;
     }
-    const label = ('Выбрать ответ ' + answerLetter(i) + ': ' + description).replaceAll('&', '&amp;').replaceAll('"', '&quot;');
+    const label = ('Выбрать ответ ' + answerLetter(i) + (description ? ': ' + description : '')).replaceAll('&', '&amp;').replaceAll('"', '&quot;');
     return `<button class="answer ${st.selected === i ? 'selected' : ''}" data-answer="${i}" aria-label="${label}" aria-pressed="${st.selected === i}">
-      ${picture}<strong>${answerLetter(i)}</strong>${illustrated ? '' : `<span>${value}</span>`}
+      ${picture}<strong>${answerLetter(i)}</strong>${illustrated || !value ? '' : `<span>${value}</span>`}
     </button>`;
   }).join('');
   renderButtons('answers', 'data-answer', markup);
 }
 
+const taskPlural = new Intl.PluralRules('ru');
+function taskCount(n) { return n + ' ' + ({one: 'задача', few: 'задачи', many: 'задач'}[taskPlural.select(n)] ?? 'задач'); }
 function pointsLabel(points){return points===5?'5 баллов':points+' балла'}
 function renderPicker() {
   const set = activeSet();
   const {indices} = set;
   const group = indices.filter(index => LESSONS[index].points === selectedPoints);
-  const years = [...new Set(CATALOG.map(item => item.year))].sort((a, b) => a - b);
-  renderButtons('yearPicker', 'data-year', years.map(year =>
-    `<button data-year="${year}" class="${year === set.year ? 'active-year' : ''}" aria-pressed="${year === set.year}">${year}</button>`
-  ).join(''));
+  const yearPicker = $('yearPicker');
+  if (!yearPicker.innerHTML) {
+    const years = [...new Set(CATALOG.map(item => item.year))].sort((a, b) => b - a);
+    yearPicker.innerHTML = years.map(year => `<option value="${year}">${year}</option>`).join('');
+  }
+  yearPicker.value = String(set.year);
 
   const variants = CATALOG.filter(item => item.year === set.year);
   $('gradePicker').innerHTML = variants.map(item =>
-    `<option value="${item.id}" ${item.id === selectedDataset ? 'selected' : ''}>${item.label}${item.grades.length > 1 ? ' · общий вариант' : ''}</option>`
+    `<option value="${item.id}" ${item.id === selectedDataset ? 'selected' : ''}>${item.label}</option>`
   ).join('');
   $('gradePicker').disabled = variants.length === 1;
-  $('edition').textContent = `${set.year} · ${set.label}`;
-  $('archiveLabel').textContent = `КЕНГУРУ–${set.year} · ${set.label.toUpperCase()} · ${indices.length} ЗАДАЧ`;
+  $('archiveLabel').textContent = `${set.year} · ${set.label} · ${taskCount(indices.length)}`;
 
   const levels = [3, 4, 5].map(points => ({points, count: indices.filter(i => LESSONS[i].points === points).length}));
   renderButtons('levelPicker', 'data-points', levels.filter(level => level.count).map(({points, count}) =>
-    `<button data-points="${points}" aria-pressed="${selectedPoints === points}" class="${selectedPoints === points ? 'active-level' : ''}">${pointsLabel(points)} <span>${count} задач</span></button>`
+    `<button data-points="${points}" aria-pressed="${selectedPoints === points}" class="${selectedPoints === points ? 'active-level' : ''}">${pointsLabel(points)} <span>${taskCount(count)}</span></button>`
   ).join(''));
   renderButtons('taskPicker', 'data-task', group.map(i => {
     const {number, short} = LESSONS[i];
+    const name = short.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('"', '&quot;');
     const active = i === task;
-    return `<button class="task-tab ${active ? 'current-task' : ''}" data-task="${i}" ${active ? 'aria-current="page"' : ''}>
-      <span>${String(number).padStart(2, '0')}</span>${short}${states[i].seen ? '<i aria-label="Ответ открыт">✓</i>' : ''}
+    return `<button class="task-tab ${active ? 'current-task' : ''}" data-task="${i}" aria-label="Задача ${number}. ${name}" ${active ? 'aria-current="page"' : ''}>
+      <span>${String(number).padStart(2, '0')}</span><span class="task-name">${name}</span>${states[i].seen ? '<i aria-label="Ответ открыт">✓</i>' : ''}
     </button>`;
   }).join(''));
-  $('collectionProgress').textContent = `${set.year}: открыто ответов ${indices.filter(i => states[i].seen).length} из ${indices.length} · Сейчас задачи на ${pointsLabel(selectedPoints)}`;
-  $('archiveCount').textContent = LESSONS.length;
+  $('collectionProgress').textContent = `открыто ответов ${indices.filter(i => states[i].seen).length} из ${indices.length}`;
   $('tasksSource').href = set.sources.tasksUrl;
   $('answersSource').href = set.sources.answersUrl || set.sources.tasksUrl;
   $('solutionsSource').hidden = !set.sources.solutionUrl;
@@ -308,6 +311,9 @@ function render() {
   $('taskTitle').textContent = lesson.title;
   $('taskSkill').textContent = lesson.skill;
   $('question').textContent = lesson.question;
+  $('question').parentElement?.toggleAttribute('hidden', Boolean(lesson.legacyOriginal) && !lesson.questionNote);
+  $('question').hidden = !lesson.question;
+  $('openLegacyZoom').hidden = !lesson.legacyOriginal;
   $('questionNote').hidden = !lesson.questionNote;
   $('questionNote').textContent = lesson.questionNote ?? '';
   $('chapterTag').textContent = `ЗАДАЧА ${lesson.number} · ${chapter.toUpperCase()}`;
@@ -326,9 +332,12 @@ function render() {
   const choice = st.selected === null ? '' : `Твой выбор — ${answerLetter(st.selected)}.`;
   if (st.step === 0) {
     feedback.textContent = choice ? choice + ' Проверим его в разборе.' : 'Выбери ответ. Затем нажми «Далее» и проверь своё решение.';
+  } else if (final && lesson.answer === null) {
+    feedback.textContent = [choice, 'Для этой задачи в официальном ключе нет ответа.'].filter(Boolean).join(' ');
   } else if (final) {
     const result = st.selected === lesson.answer ? 'Верно! Твоё решение подтвердилось.' : choice;
-    const answer = answerLetter(lesson.answer) + (task === 0 || task === 6 ? '' : ': ' + lesson.choices[lesson.answer]);
+    const value = task === 0 || task === 6 ? '' : lesson.choices[lesson.answer];
+    const answer = answerLetter(lesson.answer) + (value ? ': ' + value : '');
     const punctuation = /[.!?]$/u.test(answer) ? '' : '.';
     feedback.textContent = [result, `Ответ ${answer}${punctuation}`].filter(Boolean).join(' ');
   } else {
@@ -363,8 +372,6 @@ function selectTask(n, historyMethod = 'pushState') {
   const hash = taskHash(n);
   if (globalThis.location && location.hash !== hash) globalThis.history?.[historyMethod](null, '', hash);
   writeProgress('current', lessonKey(lesson));
-  $('copyTaskStatus').textContent = '';
-  $('newAttempt').href = hash;
   render();
 }
 function selectDataset(id){const set=CATALOG.find(item=>item.id===id);if(set)selectTask(datasetLast[id]??set.indices[0])}
@@ -372,7 +379,15 @@ function selectYear(year){const variants=CATALOG.filter(set=>set.year===year),la
 function animate(timestamp){if(!playing)return;const delta=lastTimestamp===null?0:Math.min(Math.max(0,timestamp-lastTimestamp),80);lastTimestamp=timestamp;const st=current();st.elapsed+=delta;st.frame=st.elapsed/FRAME_MS;renderScene();
 if(st.elapsed>=sceneDuration(task,st.step)){if(st.step<lastStep()){st.step++;resetPosition(st);render();saveLessonProgress()}else{pause();render();return}}if(playing)clock=requestAnimationFrame(animate)}
 function start(){finishMark();if(playing){pause();return}if(current().step===0&&current().selected===null){$('feedback').textContent='Сначала выбери свой ответ. Затем нажми «Далее» или «Смотреть».';return}if(current().elapsed>=sceneDuration(task,current().step))resetPosition(current());showTaskDrawing();playing=true;lastTimestamp=null;playLabel();clock=requestAnimationFrame(animate)}
-$('yearPicker').addEventListener('click',e=>{const button=e.target.closest('[data-year]');if(button)selectYear(Number(button.dataset.year))});
+$('yearPicker').addEventListener('change', () => selectYear(Number($('yearPicker').value)));
+$('openLegacyZoom').onclick = () => {
+  const lesson = LESSONS[task];
+  if (!lesson.legacyOriginal) return;
+  const image = $('legacyZoomImage');
+  image.src = lesson.originalImage;
+  image.alt = `Оригинальные условие, рисунки и варианты ответа задачи ${lesson.number}`;
+  $('legacyZoom').showModal();
+};
 $('gradePicker').addEventListener('change',()=>{const id=$('gradePicker').value;selectDataset(id)});
 $('levelPicker').addEventListener('click',e=>{const button=e.target.closest('[data-points]');if(button){const points=Number(button.dataset.points);selectTask(groupLast[selectedDataset+':'+points]??activeSet().indices.find(i=>LESSONS[i].points===points))}});
 $('taskPicker').addEventListener('click', e => {
@@ -396,20 +411,6 @@ $('answers').addEventListener('click', e => {
   $('feedback').textContent = `Твой выбор — ${answerLetter(current().selected)}. Проверим его в разборе.`;
   saveLessonProgress();
 });
-$('copyTaskLink').onclick = async () => {
-  const hash = taskHash(task);
-  const url = new URL(hash, location.href);
-  let message;
-  try {
-    await navigator.clipboard.writeText(url.href);
-    message = 'Ссылка скопирована.';
-  } catch {
-    if (taskHash(task) !== hash) return;
-    history.replaceState(null, '', hash);
-    message = 'Скопируй ссылку из адресной строки.';
-  }
-  if (taskHash(task) === hash) $('copyTaskStatus').textContent = message;
-};
 $('next').onclick = () => navigate(current().step + 1);
 $('back').onclick = () => navigate(current().step - 1);
 $('nextTask').onclick = () => {
