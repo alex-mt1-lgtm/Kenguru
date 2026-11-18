@@ -10,16 +10,7 @@
     dialog.className = 'leaderboard';
     dialog.setAttribute('aria-labelledby', 'leaderboardTitle');
     dialog.innerHTML = `
-      <div class="leaderboard-hero">
-        <svg class="leaderboard-trophy" aria-hidden="true" viewBox="0 0 64 64" fill="none">
-          <path d="M20 16H11v7a11 11 0 0 0 11 11h4m18-18h9v7a11 11 0 0 1-11 11h-4"
-            stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M18 13h28v14a14 14 0 0 1-28 0z" fill="#ffd550" stroke="currentColor" stroke-width="3.5"
-            stroke-linejoin="round"/>
-          <path d="M32 41v11m-10 2h20" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
-          <path d="m32 18 1.9 4.7 5.1.4-3.9 3.3 1.2 5-4.3-2.8-4.3 2.8 1.2-5-3.9-3.3 5.1-.4z"
-            fill="currentColor"/>
-        </svg>
+      <div class="leaderboard-hero poster-heading">
         <div>
           <h2 id="leaderboardTitle">Рейтинг участников</h2>
           <p>Баллы за самостоятельно решённые задачи.</p>
@@ -45,7 +36,6 @@
           <button type="button" class="leaderboard-retry" hidden>Повторить</button>
         </div>
         <div class="leaderboard-results" aria-busy="false" hidden>
-          <ol class="leaderboard-podium" aria-label="Первые три места" hidden></ol>
           <table class="leaderboard-table" aria-label="Места участников">
             <thead><tr>
               <th scope="col">Место</th><th scope="col">Участник</th>
@@ -76,7 +66,6 @@
     const close = find('.leaderboard-close');
     const current = find('.leaderboard-current');
     const results = find('.leaderboard-results');
-    const podium = find('.leaderboard-podium');
     const rows = find('tbody');
     const pagination = find('.leaderboard-pagination');
     const pageLabel = find('.leaderboard-page');
@@ -123,22 +112,6 @@
       return content;
     }
 
-    function renderPodium(entries) {
-      podium.hidden = entries.length === 0;
-      const positions = ['gold', 'lime', 'purple'];
-      podium.replaceChildren(...entries.map((entry, index) => {
-        const card = document.createElement('li');
-        card.className = 'leaderboard-podium-card leaderboard-' + positions[index];
-        if (entry.isCurrent) card.classList.add('is-current');
-        card.append(
-          element('span', format(entry.rank) + ' место', 'leaderboard-medal'),
-          nameAndBadge(entry),
-          element('span', format(entry.points) + ' б.', 'leaderboard-podium-score')
-        );
-        return card;
-      }));
-    }
-
     function renderRows(entries) {
       rows.replaceChildren(...entries.map(entry => {
         const row = document.createElement('tr');
@@ -146,8 +119,11 @@
         const name = document.createElement('th');
         name.scope = 'row';
         name.append(nameAndBadge(entry));
+        const place = document.createElement('td');
+        place.append(element('span', format(entry.rank),
+          entry.rank === 1 ? 'leaderboard-rank is-first' : 'leaderboard-rank'));
         row.append(
-          element('td', format(entry.rank), 'leaderboard-place'), name,
+          place, name,
           element('td', format(entry.points), 'leaderboard-points'),
           element('td', format(entry.solved), 'leaderboard-solved')
         );
@@ -180,6 +156,7 @@
       request = controller;
       page = nextPage;
       results.hidden = true;
+      renderCurrent(null);
       results.setAttribute('aria-busy', 'true');
       announcement.textContent = '';
       showState('Загружаем рейтинг…', 'loading');
@@ -194,9 +171,8 @@
         }
         page = data.page;
         totalPages = data.totalPages;
-        renderCurrent(data.current);
+        renderCurrent(data.entries.some(entry => entry.isCurrent) ? null : data.current);
         renderPagination();
-        renderPodium(page === 1 ? data.entries.slice(0, 3) : []);
         renderRows(data.entries);
         results.hidden = data.entries.length === 0;
         if (data.entries.length) {
@@ -247,7 +223,6 @@
     dialog.addEventListener('close', () => {
       abortRequest();
       renderCurrent(null);
-      renderPodium([]);
       renderRows([]);
       const profileToggle = document.getElementById('profileToggle');
       if (profileToggle?.getClientRects().length) profileToggle.focus();

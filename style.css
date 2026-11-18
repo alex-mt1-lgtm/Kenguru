@@ -444,3 +444,90 @@ body{font-size:18px;line-height:1.5}.player .condition{margin:18px 0 24px;font-s
   max-height: 330px;
   object-fit: contain;
 }
+
+:root {
+  --page-field: #f8f5ed;
+  --lesson-sheet: #fffefa;
+  --poster-teal: #075d58;
+  --poster-sun: #ffcb48;
+  --poster-coral: #ff9173;
+}
+
+body { background-color: var(--page-field); isolation: isolate; }
+.page-art {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+}
+.page-art::before, .page-art::after, .page-art > span,
+.poster-heading::before, .poster-heading::after {
+  position: absolute;
+  display: block;
+  aspect-ratio: 1;
+  pointer-events: none;
+}
+.page-art::before, .page-art::after, .poster-heading::before, .poster-heading::after { content: ""; }
+.page-art::before {
+  top: -12vw;
+  right: -5vw;
+  width: clamp(110px, 26vw, 470px);
+  border-radius: 0 0 0 100%;
+  background: #ffe0a0;
+}
+.page-art > span {
+  top: 32vh;
+  left: -11vw;
+  width: clamp(170px, 20vw, 370px);
+  transform: rotate(34deg);
+  border-radius: 0 38% 0 0;
+  background: #c7e4d9;
+}
+.page-art::after {
+  right: -12vw;
+  bottom: -13vw;
+  width: 32vw;
+  box-sizing: border-box;
+  border: clamp(14px, 3vw, 48px) solid #f6ccbb;
+  border-radius: 50%;
+}
+.poster-heading {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background: var(--poster-teal);
+  color: #fffdf4;
+}
+.poster-heading::before, .poster-heading::after { z-index: -1; }
+.poster-heading::before {
+  width: var(--sun-size, 215px);
+  right: var(--sun-right, -38px);
+  top: var(--sun-top, -68px);
+  border-radius: 0 0 0 100%;
+  background: var(--poster-sun);
+}
+.poster-heading::after {
+  width: var(--ring-size, 180px);
+  right: var(--ring-right, 8px);
+  bottom: var(--ring-bottom, -102px);
+  box-sizing: border-box;
+  border: 16px solid var(--poster-coral);
+  border-radius: 50%;
+}
+
+.lesson { border-color: #d3ded7; background: var(--lesson-sheet); }
+.lesson aside { background: #e9f0e9; }
+#taskCondition[open] { background: #f2f5ee; }
+#stage { background-color: var(--lesson-sheet); background-image: none; }
+.lesson-page .level-picker button.active { background: #195e59; color: white; }
+
+@media (max-width: 720px) {
+  .page-art::before { top: -102px; right: -48px; width: 185px; }
+  .page-art > span { top: 250px; left: -103px; width: 132px; }
+  .page-art::after { right: -90px; bottom: -35px; width: 150px; }
+}
+@media print {
+  .page-art, .poster-heading::before, .poster-heading::after { display: none; }
+  .poster-heading { background: white; color: black; }
+}

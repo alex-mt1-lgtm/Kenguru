@@ -1,78 +1,63 @@
 .leaderboard {
   --board-ink: #152723;
-  --board-muted: #4b6158;
+  --board-muted: #4f6065;
   --board-line: #d5e1d7;
-  --board-gold: #ffe078;
-  --board-lime: #c9f18a;
-  --board-purple: #e5d5ff;
-  --board-teal: #155b46;
+  --board-teal: #315e50;
   box-sizing: border-box;
-  width: min(45rem, calc(100% - 2rem));
+  width: min(46rem, calc(100% - 2rem));
   max-width: none;
   max-height: calc(100% - 2rem);
   max-height: calc(100dvh - 2rem);
   padding: 0;
-  border: 1px solid #abc5b3;
-  border-radius: 24px;
+  border: none;
+  border-radius: 19px;
   background: #fffefa;
   box-shadow: 0 28px 100px #102e2366;
   color: var(--board-ink);
   overscroll-behavior: contain;
 }
-.leaderboard::backdrop { background: #132e26a8; }
+.leaderboard::backdrop { background: #192b344f; backdrop-filter: blur(2.4px); }
 .leaderboard [hidden] { display: none !important; }
 
 .leaderboard-hero {
+  --sun-size: 175px;
+  --sun-right: -43px;
+  --sun-top: -73px;
+  --ring-size: 133px;
+  --ring-right: 40px;
+  --ring-bottom: -108px;
   position: sticky;
   top: 0;
   z-index: 1;
   display: grid;
-  grid-template-columns: 62px minmax(0, 1fr) 44px;
-  align-items: center;
-  gap: 16px;
-  padding: 24px 24px 23px;
-  border-bottom: 1px solid #b7d684;
-  background: linear-gradient(115deg, #f1ffd9, #d3f4a7 70%, #f0f6ba);
+  grid-template-columns: minmax(0, 1fr) 44px;
+  align-items: start;
+  gap: 8px;
+  padding: 25px 23px 28px;
 }
 .leaderboard-hero h2 {
   margin: 0;
-  font-size: clamp(1.6rem, 5vw, 2.35rem);
-  line-height: 1.04;
-  letter-spacing: -.035em;
+  font-size: clamp(25px, 4vw, 39px);
+  line-height: 1.08;
+  letter-spacing: -.04em;
 }
-.leaderboard-hero p {
-  margin: 8px 0 0;
-  color: #365741;
-  font-size: .89rem;
-  line-height: 1.4;
-}
-.leaderboard-trophy {
-  display: block;
-  width: 62px;
-  height: 62px;
-  padding: 5px;
-  border: 1px solid #e2b942;
-  border-radius: 19px;
-  background: #fff0b7;
-  color: #4c3708;
-}
+.leaderboard-hero p { margin: 6px 0 0; font-size: 15px; line-height: 1.4; }
 .leaderboard-close {
   display: grid;
-  align-self: start;
   place-items: center;
   width: 44px;
   height: 44px;
   padding: 0;
-  border: 1px solid #aad18b;
-  border-radius: 13px;
-  background: #f9ffed;
-  color: var(--board-ink);
+  border: 0;
+  border-radius: 50%;
+  background: #fffefa;
+  color: #162c31;
 }
 .leaderboard-close svg { display: block; width: 20px; height: 20px; }
 .leaderboard-close:hover { background: #fff; }
 .leaderboard button:focus-visible { outline: 3px solid var(--board-teal); outline-offset: 2px; }
 
-.leaderboard-content { padding: 21px 24px 24px; }
+.leaderboard-content { padding: 12px 23px 22px; }
 .leaderboard-current {
   display: grid;
   grid-template-columns: auto minmax(0, 1fr) auto;
@@ -80,9 +65,9 @@
   gap: 16px;
   padding: 12px 15px;
   margin-bottom: 18px;
-  border: 1px solid #bddcaa;
+  border: 1px solid #d9e6dd;
   border-radius: 15px;
-  background: #edf8df;
+  background: #e9f3ee;
 }
 .leaderboard-current-rank {
   display: grid;
@@ -90,8 +75,8 @@
   gap: 3px;
   padding: 6px 8px;
   border-radius: 11px;
-  background: #d3efb7;
-  color: #245537;
+  background: #d6e8dc;
+  color: #244b40;
   line-height: 1.1;
   text-align: center;
 }
@@ -129,60 +114,6 @@
 }
 .leaderboard-retry:hover { background: #114e3c; }
 
-.leaderboard-podium {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  align-items: end;
-  gap: 9px;
-  margin: 0 0 18px;
-  padding: 0;
-  list-style: none;
-}
-.leaderboard-podium-card {
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  justify-items: center;
-  align-items: center;
-  gap: 7px;
-  min-height: 109px;
-  padding: 10px 8px;
-  border: 1px solid var(--podium-border);
-  border-radius: 14px;
-  background: var(--podium-color);
-  text-align: center;
-}
-.leaderboard-gold {
-  --podium-color: var(--board-gold);
-  --podium-border: #d5aa30;
-  grid-column: 2;
-  grid-row: 1;
-  min-height: 132px;
-}
-.leaderboard-lime {
-  --podium-color: var(--board-lime);
-  --podium-border: #97c25b;
-  grid-column: 1;
-  grid-row: 1;
-  min-height: 120px;
-}
-.leaderboard-purple {
-  --podium-color: var(--board-purple);
-  --podium-border: #bf9bef;
-  grid-column: 3;
-  grid-row: 1;
-}
-.leaderboard-podium-card.is-current { border: 2px solid var(--board-teal); }
-.leaderboard-medal {
-  padding: 3px 8px;
-  border-radius: 20px;
-  background: #fffdf0d1;
-  font-size: .71rem;
-  font-weight: 700;
-  line-height: 1.25;
-}
-.leaderboard-podium-score { font-size: .9rem; font-weight: 700; font-variant-numeric: tabular-nums; }
-.leaderboard-podium-card .leaderboard-username { font-size: .96rem; font-weight: 700; }
-.leaderboard-podium-card .leaderboard-name { justify-content: center; }
 .leaderboard-username { min-width: 0; overflow-wrap: anywhere; }
 .leaderboard-name { display: flex; align-items: center; gap: 5px; flex-wrap: wrap; }
 .leaderboard-you {
@@ -200,28 +131,35 @@
   table-layout: fixed;
   border-collapse: separate;
   border-spacing: 0;
-  font-size: .88rem;
+  font-size: 1rem;
 }
 .leaderboard-table thead th {
-  padding: 7px 9px;
+  padding: 10px 9px;
   border-bottom: 1px solid #cbdaca;
   color: var(--board-muted);
-  font-size: .73rem;
+  font-size: .75rem;
   text-align: left;
 }
 .leaderboard-table thead th:first-child { width: 64px; }
 .leaderboard-table thead th:nth-child(n+3) { width: 78px; text-align: right; }
 .leaderboard-table tbody :is(th, td) {
   padding: 8px 9px;
-  border-bottom: 1px solid #edf0e9;
+  height: 43px;
+  border-bottom: 1px solid #dde3df;
 }
 .leaderboard-table tbody th { font-weight: 500; text-align: left; overflow-wrap: anywhere; }
 .leaderboard-table tbody td { font-variant-numeric: tabular-nums; }
 .leaderboard-table :is(.leaderboard-points, .leaderboard-solved) { text-align: right; }
-.leaderboard-place { color: var(--board-muted); }
+.leaderboard-rank {
+  display: inline-grid;
+  place-items: center;
+  min-width: 27px;
+  height: 27px;
+  font-weight: 600;
+}
+.leaderboard-rank.is-first { background: #ffd358; color: #3b2b0b; border-radius: 50%; }
 .leaderboard-points, .leaderboard-table .is-current th { font-weight: 700; }
-.leaderboard-table .is-current :is(th, td) { background: #e7f6da; border-bottom-color: #c4dfb2; }
-.leaderboard-table .is-current td:first-child { box-shadow: inset 3px 0 var(--board-teal); }
+.leaderboard-table .is-current :is(th, td) { background: #e9f3ee; border-bottom-color: #d9e6dd; }
 
 .leaderboard-pagination {
   display: flex;
@@ -262,24 +200,31 @@
   white-space: nowrap;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 720px) {
   .leaderboard {
-    width: calc(100% - 1rem);
+    width: calc(100% - 20px);
     max-height: calc(100% - 1rem);
     max-height: calc(100dvh - 1rem);
-    border-radius: 17px;
   }
-  .leaderboard-hero { grid-template-columns: 44px minmax(0, 1fr) 44px; gap: 8px; padding: 16px 11px; }
-  .leaderboard-content { padding: 13px 10px 17px; }
-  .leaderboard-trophy { width: 44px; height: 44px; border-radius: 13px; padding: 2px; }
-  .leaderboard-hero h2 { font-size: 1.48rem; }
-  .leaderboard-hero p { margin-top: 5px; font-size: .8rem; }
+  .leaderboard-hero {
+    --sun-size: 100px;
+    --sun-top: -43px;
+    --sun-right: -46px;
+    --ring-size: 90px;
+    --ring-right: -10px;
+    --ring-bottom: -80px;
+    padding: 16px 12px 19px;
+  }
+  .leaderboard-hero h2 { font-size: clamp(23px, 6.3vw, 30px); }
+  .leaderboard-hero p { max-width: 225px; font-size: 13px; }
+  .leaderboard-content { padding: 4px 8px 12px; }
   .leaderboard-current { gap: 8px; padding: 8px; }
   .leaderboard-current-rank { padding: 5px; }
   .leaderboard-current-score { gap: 8px; }
-  .leaderboard-current-name, .leaderboard-podium-card .leaderboard-username { font-size: .85rem; }
-  .leaderboard-podium { gap: 5px; }
-  .leaderboard-podium-card { padding-inline: 4px; }
+  .leaderboard-current-name { font-size: .85rem; }
+  .leaderboard-table { font-size: .875rem; }
+}
+@media (max-width: 480px) {
   .leaderboard-table thead th:first-child { width: 48px; }
   .leaderboard-table thead th:nth-child(n+3) { width: 56px; }
   .leaderboard-table thead th, .leaderboard-table tbody :is(th, td) { padding-inline: 5px; }
