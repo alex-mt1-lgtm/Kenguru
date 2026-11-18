@@ -3,7 +3,7 @@ if(typeof FOUR_POINT_LESSONS!=='undefined')LESSONS.push(...FOUR_POINT_LESSONS);
 if(typeof FIVE_POINT_LESSONS!=='undefined')LESSONS.push(...FIVE_POINT_LESSONS);
 const CATALOG=[{id:'2024-3-4',year:2024,grades:[3,4],label:'3–4 классы',sources:{tasksUrl:'https://ipokengu.ru/public/task/kenguru_2024_class_3-4.pdf',answersUrl:'https://ipokengu.ru/public/task/kenguru_2024_answers.pdf',solutionUrl:'https://ipokengu.ru/public/task/kenguru_2024_solution.pdf'},indices:[]}];
 LESSONS.forEach((lesson,i)=>{lesson.points=lesson.points||3;lesson.number=i+1;lesson.year=2024;lesson.datasetId='2024-3-4';lesson.originalImage=lesson.originalImage||`assets/original-${i+1}.png`;CATALOG[0].indices.push(i)});
-const EXTRA_ARCHIVES=Object.values(globalThis.KENGURU_ARCHIVE||{}).flatMap(value=>Array.isArray(value)?value:[value]).filter(set=>set.year!==2024).sort((a,b)=>a.year-b.year||a.id.localeCompare(b.id));
+const EXTRA_ARCHIVES=Object.values(globalThis.KENGURU_ARCHIVE||{}).flatMap(value=>Array.isArray(value)?value:[value]).filter(set=>set.id!=='2024-3-4').sort((a,b)=>a.year-b.year||a.id.localeCompare(b.id));
 for(const set of EXTRA_ARCHIVES){const entry={...set,indices:[]};set.lessons.forEach((lesson,i)=>{entry.indices.push(LESSONS.length);LESSONS.push({...lesson,number:lesson.number??i+1,year:set.year,datasetId:set.id})});CATALOG.push(entry)}
 
 const $=id=>document.getElementById(id),LETTERS=['А','Б','В','Г','Д'];
@@ -316,9 +316,11 @@ function renderPicker() {
   $('answersSource').href = set.sources.answersUrl || set.sources.tasksUrl;
   $('solutionsSource').hidden = !set.sources.solutionUrl;
   $('solutionsSource').href = set.sources.solutionUrl || '';
-  $('sourceNote').textContent = set.sources.solutionUrl
-    ? 'Условия и ответы сверены с официальными материалами. Схемы и объяснения созданы для уроков.'
-    : 'Условия и ответы сверены с официальным вариантом и ключом. Разборы подготовлены для уроков; в архиве этого года отдельный файл официальных решений не опубликован.';
+  $('sourceNote').textContent = set.paperEdition
+    ? 'Карточки и ответы взяты из официального выпуска конкурса.'
+    : set.sources.solutionUrl
+      ? 'Условия и ответы сверены с официальными материалами. Схемы и объяснения созданы для уроков.'
+      : 'Условия и ответы сверены с официальным вариантом и ключом. Разборы подготовлены для уроков; в архиве этого года отдельный файл официальных решений не опубликован.';
 }
 
 
@@ -359,9 +361,10 @@ function render() {
   const feedback = $('feedback');
   const choice = st.selected === null ? '' : `Твой выбор — ${answerLetter(st.selected)}.`;
   if (st.step === 0) {
-    feedback.textContent = choice ? choice + ' Проверим его в разборе.' : 'Выбери ответ. Затем нажми «Далее» и проверь своё решение.';
+    const check = lesson.paperEdition ? ' Сверь его с официальным ключом.' : ' Проверим его в разборе.';
+    feedback.textContent = choice ? choice + check : 'Выбери ответ. Затем нажми «Далее» и проверь своё решение.';
   } else if (final && lesson.answer === null) {
-    feedback.textContent = [choice, 'Для этой задачи в официальном ключе нет ответа.'].filter(Boolean).join(' ');
+    feedback.textContent = [choice, lesson.answerExcerpt ? 'Сверь свой вариант с фрагментом ключа на карточке.' : 'Для этой задачи в официальном ключе нет ответа.'].filter(Boolean).join(' ');
   } else if (final) {
     const result = st.selected === lesson.answer ? 'Верно! Твоё решение подтвердилось.' : choice;
     const value = task === 0 || task === 6 ? '' : lesson.choices[lesson.answer];
@@ -371,6 +374,8 @@ function render() {
   } else {
     feedback.textContent = 'Нажми «Смотреть», чтобы оживить схему. Пауза остановит и анимацию, и переходы.';
   }
+  $('play').hidden = Boolean(lesson.paperEdition);
+  $('keyboardHint').hidden = Boolean(lesson.paperEdition);
   $('back').disabled = st.step === 0;
   $('next').hidden = final;
   $('nextTask').hidden = !final;
@@ -416,10 +421,17 @@ function selectTask(n, historyMethod = 'pushState', savePosition = true) {
   render();
 }
 function selectDataset(id){const set=CATALOG.find(item=>item.id===id);if(set)selectTask(datasetLast[id]??set.indices[0])}
-function selectYear(year){const variants=CATALOG.filter(set=>set.year===year),last=variants.find(set=>datasetLast[set.id]!==undefined);if(variants.length)selectDataset((last||variants[0]).id)}
+function selectYear(year) {
+  const variants = CATALOG.filter(set => set.year === year);
+  const grades = activeSet().grades.join('-');
+  const sameGrades = variants.find(set => set.grades.join('-') === grades);
+  const recent = variants.find(set => datasetLast[set.id] !== undefined);
+  const edition = sameGrades ?? recent ?? variants[0];
+  if (edition) selectDataset(edition.id);
+}
 function animate(timestamp){if(!playing)return;const delta=lastTimestamp===null?0:Math.min(Math.max(0,timestamp-lastTimestamp),80);lastTimestamp=timestamp;const st=current();st.elapsed+=delta;st.frame=st.elapsed/FRAME_MS;renderScene();
 if(st.elapsed>=sceneDuration(task,st.step)){if(st.step<lastStep()){showLessonStep(st.step+1)}else{pause();render();return}}if(playing)clock=requestAnimationFrame(animate)}
-function start(){finishMark();if(playing){pause();return}if(current().step===0&&current().selected===null){$('feedback').textContent='Сначала выбери свой ответ. Затем нажми «Далее» или «Смотреть».';return}if(current().elapsed>=sceneDuration(task,current().step))resetPosition(current());showTaskDrawing();playing=true;lastTimestamp=null;playLabel();clock=requestAnimationFrame(animate)}
+function start(){if(LESSONS[task].paperEdition)return;finishMark();if(playing){pause();return}if(current().step===0&&current().selected===null){$('feedback').textContent='Сначала выбери свой ответ. Затем нажми «Далее» или «Смотреть».';return}if(current().elapsed>=sceneDuration(task,current().step))resetPosition(current());showTaskDrawing();playing=true;lastTimestamp=null;playLabel();clock=requestAnimationFrame(animate)}
 function closeEditionMenu() {
   $('editionMenu').open = false;
   $('editionToggle').focus?.();

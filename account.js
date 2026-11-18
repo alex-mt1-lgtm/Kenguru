@@ -113,6 +113,7 @@
     const byId = id => document.getElementById(id);
     const menu = byId('profileMenu');
     const menuStatus = byId('accountMenuStatus');
+    const standaloneSignIn = !menu.contains(byId('accountOpen'));
     const openButton = byId('accountOpen');
     const logoutButton = byId('accountLogout');
     const dialog = byId('accountDialog');
@@ -132,6 +133,7 @@
 
     function renderMenu(message) {
       menuStatus.textContent = message ?? (user ? `Вы вошли как ${user.username}` : '');
+      if (standaloneSignIn) menu.hidden = !user;
       openButton.hidden = Boolean(user);
       logoutButton.hidden = !user;
     }
@@ -235,7 +237,7 @@
       if (dialog.open) return;
       resetToken = '';
       for (const form of forms) form.reset();
-      (menu.open && !openButton.hidden ? openButton : byId('profileToggle')).focus();
+      (!openButton.hidden && (standaloneSignIn || menu.open) ? openButton : byId('profileToggle')).focus();
     });
     openButton.addEventListener('click', () => { if (!busy) showMode('login'); });
     logoutButton.addEventListener('click', async () => {
@@ -247,7 +249,8 @@
         if (payload.user !== null) throw new Error(unavailable);
         setUser(null);
         renderMenu(payload.message || 'Вы вышли из аккаунта.');
-        if (menu.open) openButton.focus();
+        menu.open = false;
+        openButton.focus();
       } catch (error) {
         renderMenu(user ? `Вы вошли как ${user.username}. ${error.message}` : error.message);
       } finally {

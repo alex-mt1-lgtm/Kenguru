@@ -1,3 +1,17 @@
+.header-sign-in {
+  min-height: 44px;
+  padding: 0 14px;
+  border: 1px solid;
+  border-radius: 8px;
+  font: inherit;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+@media (max-width: 540px) {
+  .header-sign-in { padding-inline: 8px; font-size: 13px; }
+}
+
 .account-menu {
   display: grid;
   gap: 8px;
@@ -13,7 +27,7 @@
   margin: 0;
 }
 
-.learner-profiles #accountOpen,
+.header-sign-in,
 .account-dialog .account-primary {
   border-color: var(--ink);
   background: var(--ink);
