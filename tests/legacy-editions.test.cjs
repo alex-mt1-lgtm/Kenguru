@@ -55,7 +55,12 @@ test('each archive card opens its interactive year, after the lesson on the home
   assert.ok(index.indexOf('id="editionMenu"') < index.indexOf('</header>'));
   assert.match(index, /<details id="editionMenu"[^>]*>[\s\S]*?<select id="yearPicker"/u);
   assert.doesNotMatch(index, /Новая попытка|Скопировать ссылку/u);
-  for (let year = 2000; year <= 2019; year++) {
-    assert.ok(archive.includes('href="./#zadacha=' + year + '-3-4/1"'), String(year));
+  const manifest = JSON.parse(fs.readFileSync(path.join(root, 'sources/archive-manifest.json')));
+  for (const {year, id, tasksUrl, answersUrl} of manifest.datasets) {
+    const card = archive.split('<li id="' + year + '"')[1]?.split('</li>')[0];
+    assert.ok(card, String(year));
+    assert.ok(card.includes('href="./#zadacha=' + id + '/1"'), String(year));
+    assert.ok(card.includes('href="' + tasksUrl + '"'), String(year));
+    assert.ok(card.includes('href="' + answersUrl + '"'), String(year));
   }
 });
