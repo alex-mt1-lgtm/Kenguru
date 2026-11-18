@@ -415,7 +415,7 @@ test('previous account responses are ignored and pending offline work retries fo
 
 test('all grade 5–6 editions have original cards, verified keys and independent year navigation', () => {
   const grade = vm.createContext({});
-  for (const file of ['lesson-visuals.js', 'years/grades-5-6-data.js', 'years/grades-5-6.js']) {
+  for (const file of ['lesson-visuals.js', 'years/grades-5-6-data.js', 'years/grade-5-6-keys.js', 'years/grades-5-6.js']) {
     vm.runInContext(fs.readFileSync(path.join(root, 'dist', file), 'utf8'), grade);
   }
   const editions = grade.KENGURU_ARCHIVE;
@@ -431,15 +431,18 @@ test('all grade 5–6 editions have original cards, verified keys and independen
   assert.match(menu.element('answers').innerHTML, /<strong>B<\/strong>/);
   menu.run('navigate(1)');
   assert.match(menu.element('feedback').textContent, /Ответ B/u);
-  menu.run('selectYear(2019); navigate(1)');
-  assert.match(menu.element('feedback').textContent, /фрагментом ключа/u);
-  assert.match(menu.element('scene').innerHTML, /2019\/answer-01.webp/);
+  menu.run('selectYear(2019); current().selected=0; navigate(1)');
+  assert.match(menu.element('feedback').textContent, /совпал с официальным ответом/u);
+  assert.match(menu.element('sceneText').textContent, /Две точки над тремя горизонтальными полосками/u);
+  assert.match(menu.element('scene').innerHTML, /grade-key-figures\/2019-01.svg/);
   assert.equal(menu.element('play').hidden, true);
   menu.run('selectYear(2024); selectDataset("2024-3-4"); selectYear(2026)');
   assert.equal(menu.element('archiveLabel').textContent, '2026 · 3–4 классы');
   assert.equal(menu.element('play').hidden, false);
 
   let count = 0;
+  let nativeCount = 0;
+  let illustratedKeys = 0;
   for (const {year, lessons, scenes, answerLetters} of Object.values(editions)) {
     const groupSize = year === 2021 ? 8 : 10;
     assert.equal(lessons.length, groupSize * 3);
@@ -448,26 +451,52 @@ test('all grade 5–6 editions have original cards, verified keys and independen
     for (const [index, lesson] of lessons.entries()) {
       assert.equal(lesson.number, index + 1);
       assert.equal(lesson.points, 3 + Math.floor(index / groupSize));
-      const verifyWithExcerpt = year >= 2010 && year <= 2020;
-      assert.equal(lesson.answerExcerpt, verifyWithExcerpt);
-      assert.equal(lesson.answer === null, verifyWithExcerpt);
-      if (!verifyWithExcerpt) assert.ok(Number.isInteger(lesson.answer) && lesson.answer >= 0 && lesson.answer < 5);
+      const verifyNativeKey = year >= 2010 && year <= 2020;
+      assert.equal(lesson.officialValueKey, verifyNativeKey);
+      assert.ok(Number.isInteger(lesson.answer) && lesson.answer >= 0 && lesson.answer < 5);
       assert.ok(fs.existsSync(path.join(root, 'dist', lesson.originalImage)), lesson.originalImage);
       assert.doesNotMatch(scenes[index](0), /answer-\d+/u);
       const checked = scenes[index](1);
-      assert.doesNotMatch(checked, /undefined|NaN|Infinity/u);
+      assert.doesNotMatch(checked, /undefined|NaN|Infinity|answer-\d+\.webp/u);
+      if (verifyNativeKey) {
+        const [text, letter, image] = grade.KENGURU_GRADE_KEYS[year][index];
+        nativeCount += 1;
+        assert.equal(answerLetters[lesson.answer], letter);
+        assert.equal(lesson.steps.at(-1)[2], `Вариант ${letter}. ${text}`);
+        if (image) {
+          illustratedKeys += 1;
+          assert.ok(checked.includes(image));
+          assert.ok(!scenes[index](0).includes(image) || image.includes('/choice-'));
+        } else assert.equal(checked, '');
+      }
       for (const match of checked.matchAll(/href="(assets\/[^"]+)"/gu)) {
         assert.ok(fs.existsSync(path.join(root, 'dist', match[1])), match[1]);
       }
     }
   }
   assert.equal(count, 894);
+  assert.equal(nativeCount, 330);
+  assert.equal(illustratedKeys, 37);
+
+  // Enabling the official grade must not award points after a prior review.
+  menu.run(`selectDataset('2010-5-6');
+    const oldPaperAttempt = new Map([['2010-5-6/1', '{"step":0,"selected":null,"seen":false,"reviewOpened":true}']]);
+    activeProfileId = 'historical-account';
+    accountProgress = {
+      read: key => oldPaperAttempt.get(key),
+      write: (key, value) => oldPaperAttempt.set(key, value),
+    };
+    current().selected = LESSONS[task].answer;`);
+  assert.equal(menu.run('recordRatedTransition(1)'), 0);
+  assert.equal(menu.run('oldPaperAttempt.get("rating:2010-5-6/1")'), 'reviewed');
+  menu.run('selectTask(activeSet().indices[1]); current().selected = LESSONS[task].answer');
+  assert.equal(menu.run('recordRatedTransition(1)'), 3);
 });
 
 test('rebuilt visual lessons keep the condition separate and each worked scene is usable', () => {
   const context = vm.createContext({});
   const files = [
-    'lesson-visuals.js', 'years/grades-5-6-data.js', 'years/grade-conditions.js', 'years/grade-solution-steps.js',
+    'lesson-visuals.js', 'years/grades-5-6-data.js', 'years/grade-conditions.js', 'years/grade-solution-steps.js', 'years/grade-5-6-keys.js',
     'years/visual-2000-five-six.js', 'years/visual-2024-three.js', 'years/visual-2024-four.js',
     'years/visual-2024-five.js', 'years/visual-2026-three.js', 'years/visual-2026-four.js',
     'years/visual-2026-five.js', 'years/grades-5-6.js',
@@ -478,7 +507,8 @@ test('rebuilt visual lessons keep the condition separate and each worked scene i
   appView.run('selectDataset("2026-5-6")');
   assert.match(appView.element('question').textContent, /[а-яё]{3}/iu);
   assert.equal(appView.element('taskCondition').open, true);
-  assert.equal(appView.element('sceneWorkbench').parentElement, appView.element('lessonScene'));
+  const html = fs.readFileSync(path.join(root, 'dist', 'index.html'), 'utf8');
+  assert.match(html, /<div id="lessonScene"><div id="sceneWorkbench">/u);
   assert.equal(appView.element('answers').hidden, false);
   assert.equal(appView.element('play').hidden, false);
 

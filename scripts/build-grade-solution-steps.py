@@ -1,12 +1,11 @@
 """Build the illustrated solution excerpts for the 5–6 class archive."""
 
-import io
 import json
 import re
 from pathlib import Path
 
 import fitz
-from PIL import Image
+from pdf_figure import cropped_svg
 
 ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT / 'dist'
@@ -34,7 +33,6 @@ FIGURES = {
         20: [(9, (300, 395, 402, 522), 0)],
         21: [(10, (247, 56, 396, 140), 0)],
         28: [(11, (187, 131, 282, 178), 0), (11, (307, 131, 402, 178), 1)],
-        29: [(11, (97, 216, 248, 295), 2), (11, (251, 216, 403, 295), 5)],
     },
     2025: {
         1: [(7, (279, 54, 401, 121), 0)],
@@ -189,9 +187,19 @@ OVERRIDES = {
             'После этого луч идёт вверх, вправо, вверх, вправо и вниз.',
             'Последние повороты ведут влево, вниз, влево и вниз. Луч выходит в точке В.',
         ],
+        7: [
+            'Чтобы выбрать порядок двух карточек, сравним два числа, которые они образуют. Например, 51 перед 5 даёт 515, а 5 перед 51 даёт 551. Значит, 51 должна идти раньше 5.',
+            'Если соседние карточки стоят в порядке, который даёт большее число, их перестановка уменьшит всё число. Применяем сравнение ко всем карточкам и получаем порядок 113, 4, 51, 5, 67, 69, 9.',
+            'Наименьшее число оканчивается цифрами 699.',
+        ],
         10: [
             'На колесе обозрения 12 кабин, расположенных на равном расстоянии друг от друга.',
             'Поворот на 1/12 оборота переместит каждую кабину на одну позицию. Белая кабина окажется наверху.',
+        ],
+        12: [
+            'На маршруте 3 стрелки вверх, 3 вниз, 2 вправо и 3 влево. Каждая стрелка вверх делит число на 4, а стрелка вниз умножает его на 4.',
+            'Умножения и деления на 4 сокращаются. Стрелки вправо умножают на 2 и сокращают два из трёх делений на 2, которые обозначены стрелками влево.',
+            'Остаётся одно деление на 2. Из начального числа 12 получаем 12 : 2 = 6.',
         ],
         15: [
             'Сложим плёнку по вертикальной линии. Детали левой и правой половин наложатся друг на друга.',
@@ -201,6 +209,14 @@ OVERRIDES = {
         27: [
             'Рассмотрим грани, которые окажутся вокруг квадрата со знаком плюс после складывания развёртки.',
             'Сверим направление каждого минуса рядом с плюсом. Направление нарушается только в развёртке Б.',
+        ],
+    },
+    2023: {
+        15: [
+            'Среднее число входит и в произведение 15, и в произведение 42. Оно делит оба числа, поэтому может равняться только 1 или 3.',
+            'Если в центре стоит 1, справа от него будет 42. Тогда произведение двух правых чисел не может равняться 28. Значит, в центре стоит 3.',
+            'Рядом с 3 слева стоит 15 : 3 = 5, справа — 42 : 3 = 14. Крайние числа равны 30 : 5 = 6 и 28 : 14 = 2.',
+            'Числа слева направо: 6, 5, 3, 14, 2. Их сумма равна 30.',
         ],
     },
     2025: {
@@ -328,18 +344,81 @@ def parse_steps(year, number, lines):
 
 def save_figure(document, year, number, index, figure):
     page, coordinates, _ = figure
-    pixmap = document[page].get_pixmap(matrix=fitz.Matrix(3, 3), clip=fitz.Rect(coordinates))
-    image = Image.open(io.BytesIO(pixmap.tobytes('png')))
-    relative_path = ASSET_PATH / str(year) / f'task-{number:02d}-{index}.webp'
+    bounds = fitz.Rect(coordinates)
+    relative_path = ASSET_PATH / str(year) / f'task-{number:02d}-{index}.svg'
     destination = DIST / relative_path
     destination.parent.mkdir(parents=True, exist_ok=True)
-    image.save(destination, 'WEBP', lossless=True)
-    return {'image': relative_path.as_posix(), 'imageWidth': image.width, 'imageHeight': image.height}
+    destination.write_text(cropped_svg(document, page, bounds), encoding='utf-8')
+    # The lesson uses these dimensions to lay out the figure and calculations together.
+    return {'image': relative_path.as_posix(), 'imageWidth': round(bounds.width * 3),
+            'imageHeight': round(bounds.height * 3)}
+
+
+def labyrinth_2023():
+    # Rows and columns are counted from zero, as printed in the 2023 booklet.
+    blocked = {(0, 3), (0, 4), (1, 0), (1, 7), (2, 2), (4, 5)}
+    green = {(0, 0), (0, 2), (0, 5), (0, 7), (2, 0), (2, 7), (3, 7),
+             (4, 0), (4, 4), (4, 6), (4, 7)}
+    yellow = {(1, 1), (1, 6)}
+    path = [(0, 0), (0, 1), (0, 2), (1, 2), (1, 1), (2, 1), (2, 0), (3, 0),
+            (4, 0), (4, 1), (3, 1), (3, 2), (4, 2), (4, 3), (4, 4), (3, 4),
+            (3, 3), (2, 3), (1, 3), (1, 4), (2, 4), (2, 5), (3, 5), (3, 6),
+            (4, 6), (4, 7), (3, 7), (2, 7), (2, 6), (1, 6), (1, 5), (0, 5),
+            (0, 6), (0, 7)]
+    forced = [path[:4], path[5:10], path[13:16], path[23:29], path[30:]]
+    extended = [path[:10], path[13:16], path[23:]]
+    texts = [
+        'Пройдём от старта к финишу, побывав в каждом белом круге ровно один раз. Сначала найдём участки, по которым путь обязан пройти.',
+        'Зелёным отмечены старт, финиш и белые круги, у которых ровно два доступных соседа.',
+        'В каждом зелёном круге, кроме старта и финиша, нужно пройти через обе доступные линии. Проведём эти обязательные участки красным.',
+        'У каждого жёлтого круга теперь остаётся по два доступных соседа. Третьего соседа уже нельзя использовать: через него проходят две красные линии.',
+        'Соединим каждый жёлтый круг с обоими оставшимися соседями. Так несколько коротких участков объединяются в более длинные.',
+        'Достроим маршрут до финиша, не оставляя белых кругов в тупике. После круга с крестиком путь идёт вниз. Ответ Б.',
+    ]
+    layers = [(set(), []), (green, []), (green, forced), (green | yellow, forced),
+              (green | yellow, extended), (set(), [path])]
+    width, height = 482, 231
+
+    def position(row, col):
+        return 73 + col * 48, 28 + row * 44
+
+    steps = []
+    for index, (marks, lines) in enumerate(layers, 1):
+        svg = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}">']
+        for row in range(5):
+            x1, y = position(row, 0)
+            x2, _ = position(row, 7)
+            svg.append(f'<path d="M{x1} {y}H{x2}" stroke="#607474" stroke-width="2"/>')
+        for col in range(8):
+            x, y1 = position(0, col)
+            _, y2 = position(4, col)
+            svg.append(f'<path d="M{x} {y1}V{y2}" stroke="#607474" stroke-width="2"/>')
+        for row in range(5):
+            for col in range(8):
+                point = (row, col)
+                x, y = position(row, col)
+                fill = '#172e34' if point in blocked else '#55b685' if point in marks & green else '#ffda66' if point in marks & yellow else '#fffefa'
+                svg.append(f'<circle cx="{x}" cy="{y}" r="13" fill="{fill}" stroke="#172e34" stroke-width="2.2"/>')
+        for line in lines:
+            points = ' '.join(f'{x},{y}' for x, y in (position(*point) for point in line))
+            svg.append(f'<polyline points="{points}" fill="none" stroke="#b8382d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>')
+        x, y = position(2, 5)
+        svg.append(f'<path d="M{x - 4} {y - 4}l8 8m0 -8l-8 8" stroke="#172e34" stroke-width="2.6"/>')
+        svg.append('<g font-family="sans-serif" font-size="15" fill="#172e34">'
+                   '<text x="4" y="33">старт →</text><text x="425" y="33">финиш</text></g></svg>')
+        relative = ASSET_PATH / '2023' / f'task-29-stage-{index}.svg'
+        (DIST / relative).write_text('\n'.join(svg) + '\n', encoding='utf-8')
+        steps.append({'text': texts[index - 1], 'image': relative.as_posix(),
+                      'imageWidth': width, 'imageHeight': height})
+    return steps
 
 
 def build_edition(year, document, tasks):
     entries = {}
     for number, lines in tasks.items():
+        if (year, number) == (2023, 29):
+            entries[number] = {'steps': labyrinth_2023()}
+            continue
         steps = [{'text': text} for text in parse_steps(year, number, lines)]
         for index, figure in reversed(list(enumerate(FIGURES.get(year, {}).get(number, []), 1))):
             image = save_figure(document, year, number, index, figure)

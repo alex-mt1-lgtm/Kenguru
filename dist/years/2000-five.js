@@ -16,7 +16,7 @@
   const centered = (x, y, label, size, fill) =>
     sharedText(x, y - size / 3, label, size, fill);
   const figure = (number, x, y, w, h) =>
-    `<image href="assets/years/2000/q${number}-figure.png" x="${x}" y="${y}" width="${w}" height="${h}"/>`;
+    `<image href="assets/years/2000/q${number}-figure.svg" x="${x}" y="${y}" width="${w}" height="${h}"/>`;
   const card = (x, y, w, h, label, fill = paleGreen, size = 23) =>
     panel(x, y, w, h, fill) + centered(x + w / 2, y + h / 2 + size / 3, label, size, ink);
   const phase = (frame, length, pace = .8) =>

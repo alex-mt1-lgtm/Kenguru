@@ -14,6 +14,8 @@ import runpy
 
 import fitz
 
+from archive_condition_art import replace_condition_figure
+
 BASE = Path(__file__).resolve().parents[1]
 LEGACY = runpy.run_path(str(BASE / 'scripts' / 'build-legacy-editions.py'))
 CONDITIONS = runpy.run_path(str(BASE / 'scripts' / 'build-grade-conditions.py'))
@@ -323,18 +325,20 @@ def build(years, cache, preview):
                     continue
                 if visual:
                     name = f'task-{task.number:02d}.webp'
-                    if not preview:
-                        folder.mkdir(parents=True, exist_ok=True)
-                        visual.save(folder / name, 'WEBP', quality=91, method=4)
                     entry.update(image=f'assets/legacy-conditions/{year}/{name}',
                                  imageWidth=visual.width, imageHeight=visual.height)
+                    if not preview and not replace_condition_figure(pdf, 'legacy-conditions', year, task.number, entry):
+                        folder.mkdir(parents=True, exist_ok=True)
+                        visual.save(folder / name, 'WEBP', quality=91, method=4)
                 entries[task.number] = entry
                 if preview:
                     print(f'{year}/{task.number}: {entry}')
-        for number, entry in manual.items():
-            if not entry.get('question') or ('choices' in entry and len(entry['choices']) != 5):
-                raise ValueError(f'{year}/{number}: invalid checked condition')
-            entries[int(number)] = entry
+            for number, entry in manual.items():
+                if not entry.get('question') or ('choices' in entry and len(entry['choices']) != 5):
+                    raise ValueError(f'{year}/{number}: invalid checked condition')
+                if not preview:
+                    replace_condition_figure(pdf, 'legacy-conditions', year, int(number), entry)
+                entries[int(number)] = entry
         images = sum('image' in item for item in entries.values())
         choices = sum('choices' in item for item in entries.values())
         print(f'{year}: {len(entries)}/26 statements, {choices} text choices, {images} illustrations {failures}', flush=True)

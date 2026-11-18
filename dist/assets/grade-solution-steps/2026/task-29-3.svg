@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="58" height="59" viewBox="0 0 58 59">
+<defs>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,-337,367.276)" d="M337 308.276H395V367.276H337Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_2">
+<path transform="matrix(1,0,0,-1,-337,367.276)" d="M0 0H419.528V595.276H0Z"/>
+</clipPath>
+<clipPath id="clip_3">
+<path transform="matrix(1,0,0,-1,-337,367.276)" d="M337.916 445.474H394.016V501.024H337.916Z"/>
+</clipPath>
+<clipPath id="clip_4">
+<path transform="matrix(1,0,0,-1,-337,367.276)" d="M337.916 382.048H394.016V437.599H337.916Z"/>
+</clipPath>
+<clipPath id="clip_5">
+<path transform="matrix(1,0,0,-1,-337,367.276)" d="M337.916 310.119H394.016V365.66899H337.916Z"/>
+</clipPath>
+</defs>
+<g clip-path="url(#clip_1)">
+<g clip-path="url(#clip_2)">
+</g>
+<g clip-path="url(#clip_3)">
+</g>
+<g clip-path="url(#clip_4)">
+</g>
+<g clip-path="url(#clip_5)">
+<path transform="matrix(1,0,0,-1,-337,367.276)" stroke-width=".822" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#231f20" d="M338.792 343.415H360.619V310.67503H338.792ZM360.619 310.674H371.533V354.328H349.706V343.415H360.619M371.533 354.328H393.36V310.674H371.533ZM338.792 365.242H349.706V343.415H338.792ZM349.706 365.242H393.36V354.328H349.706Z"/>
+</g>
+<path transform="matrix(1,0,0,-1,12.705902,56.601594)" stroke-width=".274" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#231f20" d="M0 0V54.567M10.913 0V54.567M21.827 0V54.567M32.74 0V54.567M-10.914 10.914H43.654M-10.914 21.827H43.654M-10.914 32.74H43.654M-10.914 43.654H43.654"/>
+<path transform="matrix(1,0,0,-1,36.715517,7.4909975)" stroke-width="1.096" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#00a650" d="M0 0 2.182-2.182 6.548 2.183M-32.74-10.913-30.558-13.096-26.192-8.731M-10.914-21.827-8.731-24.009-4.365-19.644M10.913-32.74 13.096-34.923 17.462-30.558M-21.827-43.654-19.645-45.836-15.279-41.471"/>
+</g>
+</svg>

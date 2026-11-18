@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="222" height="93" viewBox="0 0 74 31">
+<defs>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,-299.33335,380.66667)" d="M299.33335 349.66667H373.33335V380.66667H299.33335Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_2">
+<path transform="matrix(0,1,1,0,-299.33335,-214.33335)" d="M0 .028H.028V0H0ZM215.571 372.268H244.626V299.73103H215.571Z"/>
+</clipPath>
+<path id="font_3_1" d="M0 0Z"/>
+<clipPath id="clip_4">
+<path transform="matrix(0,1,1,0,-299.33335,-214.33335)" d="M0 .028H.028V0H0ZM253.243 351.49H296.953V66.72598H253.243Z"/>
+</clipPath>
+<clipPath id="clip_5">
+<path transform="matrix(0,1,1,0,-299.33335,-214.33335)" d="M0 .028H.028V0H0ZM488.203 375.358H530.382V62.475008H488.203Z"/>
+</clipPath>
+<clipPath id="clip_6">
+<path transform="matrix(0,1,1,0,-299.33335,-214.33335)" d="M0 .028H.028V0H0ZM453.763 371.701H475.561V348.741H453.763Z"/>
+</clipPath>
+<clipPath id="clip_7">
+<path transform="matrix(0,1,1,0,-299.33335,-214.33335)" d="M0 421.023H.028V420.995H0ZM319.771 797.741H360.504V687.67306H319.771Z"/>
+</clipPath>
+</defs>
+<g clip-path="url(#clip_1)">
+<path transform="matrix(0,1,1,0,-299.33335,-214.33335)" d="M211.971 292.531H248.82099V379.667H211.971Z" fill="#ffffff"/>
+<g clip-path="url(#clip_2)">
+<path transform="matrix(1.0124,0,0,-.9877,-299.33335,-214.33335)" d="M325.112-246.814H311.113V-232.815L297.205-232.821 311.116-218.911 325.112-232.815V-246.814Z" fill="#ffffff"/>
+<path transform="matrix(1.0124,0,0,-.9877,-299.33335,-214.33335)" stroke-width=".981" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#231f20" d="M325.112-246.814H311.113V-232.815L297.205-232.821 311.116-218.911 325.112-232.815V-246.814Z"/>
+<path transform="matrix(1.0124,0,0,-.9877,-299.33335,-214.33335)" d="M366.843-246.814H352.845V-232.815L338.938-232.821 352.848-218.911 366.843-232.815V-246.814Z" fill="#ffffff"/>
+<path transform="matrix(1.0124,0,0,-.9877,-299.33335,-214.33335)" stroke-width=".981" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#231f20" d="M366.843-246.814H352.845V-232.815L338.938-232.821 352.848-218.911 366.843-232.815V-246.814Z"/>
+</g>
+<use data-text=" " xlink:href="#font_3_1" transform="matrix(11.9904,0,0,-11.9904,72.93466,30.292664)"/>
+<g clip-path="url(#clip_4)">
+</g>
+<g clip-path="url(#clip_5)">
+</g>
+<g clip-path="url(#clip_6)">
+</g>
+<g clip-path="url(#clip_7)">
+</g>
+</g>
+</svg>

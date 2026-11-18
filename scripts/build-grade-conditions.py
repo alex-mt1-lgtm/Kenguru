@@ -21,6 +21,8 @@ import numpy as np
 from scipy import ndimage
 from PIL import Image, ImageDraw
 
+from archive_condition_art import replace_condition_figure, vector_figure
+
 BASE = Path(__file__).resolve().parents[1]
 CARDS = runpy.run_path(str(BASE / 'scripts' / 'build-grades-5-6.py'))
 PUBLIC = BASE / 'dist'
@@ -407,8 +409,11 @@ def verified_condition(page, entry):
     rows = entry.pop('illustrationRows', [])
     choices = entry.pop('choiceRects', [])
     masks = entry.pop('choiceMasks', [])
+    vector_choices = entry.pop('vectorChoices', False)
     if choices and (len(choices) != 5 or len(entry.get('choices', [])) != 5):
         raise ValueError('Five figure rectangles require five option descriptions')
+    if vector_choices and any(masks):
+        raise ValueError('Vector choice regions must exclude unrelated material')
     if not rows and not choices:
         return entry, None, []
     pixmap = page.get_pixmap(matrix=fitz.Matrix(SCALE, SCALE), alpha=False)
@@ -421,6 +426,10 @@ def verified_condition(page, entry):
         left, top, right, bottom = rectangle
         if not (0 <= left < right <= source.width and 0 <= top < bottom <= source.height):
             raise ValueError('Option figure exceeds the source page')
+        if vector_choices:
+            region = fitz.Rect(*(coordinate / SCALE for coordinate in rectangle))
+            figures.append(vector_figure(page.parent, page.number, region, right - left, bottom - top))
+            continue
         figure = source.crop((left, top, right, bottom))
         if masks and masks[index]:
             x0, y0, x1, y1 = masks[index]
@@ -582,21 +591,28 @@ def build(years, cache, preview):
                     continue
                 if visual:
                     name = f'task-{number:02d}.webp'
-                    if not preview:
-                        assets.mkdir(parents=True, exist_ok=True)
-                        visual.save(assets / name, 'WEBP', quality=92, method=4)
                     entry.update(image=f'assets/grade-conditions/{year}/{name}',
                                  imageWidth=visual.width, imageHeight=visual.height)
+                    if not preview and not replace_condition_figure(
+                        pdf, 'grade-conditions', year, number, entry, verified.get(str(number))
+                    ):
+                        assets.mkdir(parents=True, exist_ok=True)
+                        visual.save(assets / name, 'WEBP', quality=92, method=4)
                 if figures:
                     paths = []
                     for index, figure in enumerate(figures):
                         if figure is None:
                             paths.append(None)
                             continue
-                        name = f'choice-{number:02d}-{index + 1}.webp'
+                        vector = isinstance(figure, str)
+                        extension = 'svg' if vector else 'webp'
+                        name = f'choice-{number:02d}-{index + 1}.{extension}'
                         if not preview:
                             assets.mkdir(parents=True, exist_ok=True)
-                            figure.save(assets / name, 'WEBP', quality=93, method=4)
+                            if vector:
+                                (assets / name).write_text(figure, encoding='utf-8')
+                            else:
+                                figure.save(assets / name, 'WEBP', quality=93, method=4)
                         paths.append(f'assets/grade-conditions/{year}/{name}')
                     entry['choiceImages'] = paths
                 if preview:

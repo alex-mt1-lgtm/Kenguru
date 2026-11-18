@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="314" height="164" viewBox="0 0 314 164" color="#211e1b">
+<g stroke="currentColor" stroke-width="2" stroke-linejoin="round">
+  <path d="M12 9.5h290v145H12z" fill="none"/>
+  <path d="M12 82 84.5 9.5h145L302 82l-72.5 72.5h-145z
+           M84.5 82 157 9.5l72.5 72.5-72.5 72.5z"
+        fill="#aaa" fill-rule="evenodd"/>
+</g>
+<g fill="currentColor">
+  <circle cx="12" cy="9.5" r="3.8"/>
+  <circle cx="12" cy="154.5" r="3.8"/>
+  <circle cx="84.5" cy="9.5" r="3.8"/>
+  <circle cx="84.5" cy="154.5" r="3.8"/>
+  <circle cx="157" cy="9.5" r="3.8"/>
+  <circle cx="157" cy="154.5" r="3.8"/>
+  <circle cx="229.5" cy="9.5" r="3.8"/>
+  <circle cx="229.5" cy="154.5" r="3.8"/>
+  <circle cx="302" cy="9.5" r="3.8"/>
+  <circle cx="302" cy="154.5" r="3.8"/>
+  <circle cx="12" cy="82" r="3.8"/>
+  <circle cx="302" cy="82" r="3.8"/>
+  <g font-family="Arial,sans-serif" font-size="28" font-style="italic" font-weight="700"
+     text-anchor="middle">
+    <text x="115" y="92">A</text><text x="157" y="51">B</text>
+    <text x="202" y="92">C</text><text x="157" y="133">D</text>
+  </g>
+</g>
+</svg>
