@@ -1,6 +1,6 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),path=require('node:path');
 const root=path.join(__dirname,'..');
-function app(includeArchive=false,archiveOverride=null,browser={}){const elements=new Map(),handlers={},callbacks=new Map();let time=0,id=0;const element=name=>{if(!elements.has(name))elements.set(name,{innerHTML:'',textContent:'',hidden:false,disabled:false,value:name==='drawingColor'?'#e9693e':'',selectedIndex:0,style:{},attributes:{},classList:{toggle(){}},setAttribute(k,v){this.attributes[k]=v},addEventListener(k,v){this[k]=v}});return elements.get(name)};const ctx={...browser,document:{body:{},getElementById:element,addEventListener(k,v){handlers[k]=v}},requestAnimationFrame(fn){callbacks.set(++id,fn);return id},cancelAnimationFrame(key){callbacks.delete(key)},console};vm.createContext(ctx);const scripts=['lessons.js','four-point-lessons.js','five-point-lessons.js','four-point-scenes.js','five-point-scenes.js',...(includeArchive?['legacy-catalog', 'legacy-editions', '2000-visual', '2000-three', '2000-four', '2000-five', 2000, 2020, 2021, 2022, 2023, 2025, 2026].map(year=>'years/'+year+'.js'):[]),'workspace.js','fruit-workspace.js','profile-rating.js','app.js'];for(const f of scripts){if(f==='app.js'&&archiveOverride)ctx.KENGURU_ARCHIVE={...(ctx.KENGURU_ARCHIVE||{}),...archiveOverride};vm.runInContext(fs.readFileSync(path.join(root,'dist',f),'utf8'),ctx)}const tick=(ms=16)=>{time+=ms;const pending=[...callbacks.values()];callbacks.clear();for(const fn of pending)fn(time)};return{run:s=>vm.runInContext(s,ctx),element,tick,advance(ms){for(let left=ms;left>0;left-=16)tick(Math.min(16,left))},handlers}}
+function app(includeArchive=false,archiveOverride=null,browser={}){const elements=new Map(),handlers={},callbacks=new Map();let time=0,id=0;const element=name=>{if(!elements.has(name))elements.set(name,{innerHTML:'',textContent:'',hidden:false,disabled:false,value:name==='drawingColor'?'#e9693e':'',selectedIndex:0,style:{},attributes:{},classList:{toggle(){}},setAttribute(k,v){this.attributes[k]=v},addEventListener(k,v){this[k]=v}});return elements.get(name)};const ctx={...browser,document:{body:{},getElementById:element,addEventListener(k,v){handlers[k]=v}},requestAnimationFrame(fn){callbacks.set(++id,fn);return id},cancelAnimationFrame(key){callbacks.delete(key)},console};vm.createContext(ctx);const scripts=['lessons.js','four-point-lessons.js','five-point-lessons.js','four-point-scenes.js','five-point-scenes.js',...(includeArchive?['legacy-catalog', 'legacy-editions', '2000-visual', '2000-three', '2000-four', '2000-five', 2000, 2020, 2021, 2022, 2023, 2025, 2026].map(year=>'years/'+year+'.js'):[]),'workspace.js','fruit-workspace.js','profile-rating.js','account-progress.js','app.js'];for(const f of scripts){if(f==='app.js'&&archiveOverride)ctx.KENGURU_ARCHIVE={...(ctx.KENGURU_ARCHIVE||{}),...archiveOverride};vm.runInContext(fs.readFileSync(path.join(root,'dist',f),'utf8'),ctx)}const tick=(ms=16)=>{time+=ms;const pending=[...callbacks.values()];callbacks.clear();for(const fn of pending)fn(time)};return{run:s=>vm.runInContext(s,ctx),element,tick,advance(ms){for(let left=ms;left>0;left-=16)tick(Math.min(16,left))},handlers}}
 
 test('official answer key and every explanation step',()=>{const a=app();assert.equal(a.run('LESSONS.slice(0,8).map(l=>LETTERS[l.answer]).join("")'),'ДВВВГВДБ');for(let t=0;t<24;t++)for(let s=0;s<a.run(`LESSONS[${t}].steps.length`);s++){a.run(`selectTask(${t});navigate(${s})`);assert.ok(a.element('sceneTitle').textContent);if(t||s)assert.ok(a.element('scene').innerHTML);assert.equal(a.element('answers').hidden,s!==0);for(let f=0;f<=12;f++){a.run(`current().frame=${f};renderScene()`);assert.ok(!a.element('scene').innerHTML.includes('NaN'))}}});
 test('square areas and unique cell count',()=>{const a=app();assert.equal(a.run('REGIONS.map(p=>Math.abs(p.reduce((s,v,j)=>{const n=p[(j+1)%p.length];return s+v[0]*n[1]-n[0]*v[1]},0))/2).join(",")'),'8,8,8,8,7');assert.equal(a.run('ORANGE.length+","+GREEN.length'),'7,9');assert.equal(a.run('new Set([...ORANGE,...GREEN].map(p=>p.join(","))).size'),16)});
@@ -332,4 +332,125 @@ test('a walkthrough opened before scoring stays ineligible after repeat', () => 
   a.element('repeat').onclick();
   a.run('current().selected=LESSONS[task].answer; navigate(1)');
   assert.equal(a.element('profileRatingPoints').textContent, '0 баллов');
+});
+
+function accountBrowser(request, records = new Map(), local = new Map()) {
+  const listeners = new Map();
+  const storage = values => ({getItem: key => values.get(key), setItem: (key, value) => values.set(key, value)});
+  const visit = app(false, null, {
+    KenguruAccount: {request}, AbortController, setTimeout, clearTimeout,
+    sessionStorage: storage(records), localStorage: storage(local),
+    addEventListener: (type, callback) => listeners.set(type, callback),
+  });
+  visit.account = user => listeners.get('kenguru:accountchange')({detail: {user}});
+  visit.online = () => listeners.get('online')();
+  return visit;
+}
+
+const syncTurn = () => new Promise(resolve => setImmediate(resolve));
+
+test('account progress and rating sync across devices while browser profiles stay private', async () => {
+  const account = {id: 17, username: 'Ученик'};
+  let server = {revision: 0, progress: {current: '"2024-3-4/2"'}};
+  let uploads = 0;
+  const request = async (action, data, options) => {
+    assert.equal(action, 'progress');
+    assert.equal(options.accountId, account.id);
+    if (data) {
+      assert.equal(data.revision, server.revision);
+      server = {revision: server.revision + 1, progress: {...server.progress, ...data.progress}};
+      uploads++;
+    }
+    return server;
+  };
+  const session = new Map();
+  const local = new Map();
+  const first = accountBrowser(request, session, local);
+  first.run('createProfile("Браузер"); selectTask(3); current().selected=1; navigate(1)');
+  first.account(account);
+  await syncTurn();
+  assert.equal(first.run('task'), 1);
+  assert.equal(uploads, 0);
+  first.run('current().selected=LESSONS[task].answer; navigate(lastStep())');
+  await syncTurn();
+  assert.equal(server.progress['rating:2024-3-4/2'], 'solved');
+  assert.equal(JSON.parse(server.progress['2024-3-4/2']).seen, true);
+  assert.equal(server.progress['2024-3-4/4'], undefined);
+
+  const second = accountBrowser(request);
+  second.account(account);
+  await syncTurn();
+  assert.equal(second.run('task'), 1);
+  assert.equal(second.run('current().step === lastStep()'), true);
+  assert.equal(second.element('profileRatingPoints').textContent, '3 балла');
+
+  first.account(null);
+  assert.equal(first.run('task'), 3);
+  assert.equal(first.run('current().selected'), 1);
+  assert.doesNotMatch(first.element('profilePicker').innerHTML, /Ученик/u);
+  const guestReload = accountBrowser(request, session, local);
+  assert.doesNotMatch(guestReload.element('profilePicker').innerHTML, /Ученик/u);
+  guestReload.run('selectTask(1)');
+  assert.equal(guestReload.run('current().selected'), null);
+});
+
+test('concurrent account edits preserve walkthrough completion and the first rating result', async () => {
+  const account = {id: 18, username: 'Лиса'};
+  let server = {revision: 0, progress: {}};
+  let firstWrite = true;
+  const visit = accountBrowser(async (_, data) => {
+    if (!data) return server;
+    if (firstWrite) {
+      firstWrite = false;
+      server = {revision: 1, progress: {
+        '2024-3-4/1': '{"step":4,"selected":null,"seen":true,"reviewOpened":true}',
+        'rating:2024-3-4/1': 'reviewed',
+      }};
+      throw Object.assign(new Error('Conflict'), {status: 409, payload: server});
+    }
+    assert.equal(data.revision, 1);
+    server = {revision: 2, progress: {...server.progress, ...data.progress}};
+    return server;
+  });
+  visit.account(account);
+  await syncTurn();
+  visit.run('current().selected=LESSONS[task].answer; navigate(1)');
+  await syncTurn();
+  assert.deepEqual(JSON.parse(server.progress['2024-3-4/1']), {step: 1, selected: 4, seen: true, reviewOpened: true});
+  assert.equal(server.progress['rating:2024-3-4/1'], 'reviewed');
+  assert.equal(visit.element('profileRatingPoints').textContent, '0 баллов');
+  assert.match(visit.element('collectionProgress').textContent, /открыто ответов 1 из 24/);
+});
+
+test('previous account responses are ignored and pending offline work retries for its owner', async () => {
+  const accountA = {id: 19, username: 'Первый'};
+  const accountB = {id: 20, username: 'Другой'};
+  let finishA;
+  let signalA;
+  let offline = true;
+  let uploaded;
+  const request = async (_, data, options) => {
+    if (options.accountId === accountA.id) {
+      signalA = options.signal;
+      return new Promise(resolve => { finishA = resolve; });
+    }
+    if (offline) throw new Error('Offline');
+    if (data) uploaded = data.progress;
+    return {revision: data ? 1 : 0, progress: data?.progress ?? {}};
+  };
+  const visit = accountBrowser(request);
+  visit.account(accountA);
+  await syncTurn();
+  visit.account(accountB);
+  assert.equal(signalA.aborted, true);
+  finishA({revision: 3, progress: {current: '"2024-3-4/7"'}});
+  await syncTurn();
+  assert.equal(visit.run('task'), 0);
+  visit.run('selectTask(2); current().selected=LESSONS[task].answer; navigate(1)');
+  offline = false;
+  visit.online();
+  await syncTurn();
+  assert.equal(uploaded.current, '"2024-3-4/3"');
+  assert.equal(uploaded['rating:2024-3-4/3'], 'solved');
+  assert.equal(uploaded['2024-3-4/7'], undefined);
 });

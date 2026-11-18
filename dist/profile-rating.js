@@ -5,22 +5,17 @@ function formatRatingPoints(points) {
   return `${points} ${word}`;
 }
 
-function ratingResultKey(profileId, lesson) {
-  return profileProgressKey(profileId, 'rating:' + lessonKey(lesson));
-}
-
 function recordRatedTransition(step) {
   const lesson = LESSONS[task];
   const state = current();
   if (!activeProfileId || state.step !== 0 || step === 0 || !Number.isInteger(lesson.answer)) return 0;
-  const key = ratingResultKey(activeProfileId, lesson);
+  const key = 'rating:' + lessonKey(lesson);
   try {
-    const storage = globalThis.localStorage;
-    if (!storage || storage.getItem(key)) return 0;
+    if (readProfileValue(activeProfileId, key)) return 0;
     const previous = readProgress(lessonKey(lesson));
     const independent = !state.seen && !previous?.seen && !previous?.reviewOpened && !(previous?.step > 0);
     const correct = independent && state.selected === lesson.answer;
-    storage.setItem(key, correct ? 'solved' : 'reviewed');
+    writeProfileValue(activeProfileId, key, correct ? 'solved' : 'reviewed');
     return correct ? lesson.points : 0;
   } catch {
     return 0;
@@ -31,9 +26,8 @@ function getProfileRating(profileId) {
   const rating = {points: 0, solved: 0, hard: 0, levels: 0};
   const levels = new Set();
   try {
-    const storage = globalThis.localStorage;
     for (const lesson of LESSONS) {
-      if (storage?.getItem(ratingResultKey(profileId, lesson)) !== 'solved') continue;
+      if (readProfileValue(profileId, 'rating:' + lessonKey(lesson)) !== 'solved') continue;
       rating.points += lesson.points;
       rating.solved += 1;
       levels.add(lesson.points);
@@ -64,7 +58,7 @@ function renderRatingSummary() {
 }
 
 function renderRatingDialog() {
-  const profiles = readProfiles();
+  const profiles = availableProfiles();
   const rating = getProfileRating(activeProfileId);
   $('ratingProfileName').textContent = profiles.find(profile => profile.id === activeProfileId)?.name ?? '';
   $('ratingPoints').textContent = formatRatingPoints(rating.points);
