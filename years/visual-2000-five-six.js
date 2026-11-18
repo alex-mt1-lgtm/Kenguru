@@ -18,26 +18,17 @@
     path(`M${x1} ${y1} L${x2} ${y2}`, color, width);
   const scene = (markup, description) => V.svg(markup, description, '0 0 640 300');
   const fade = (markup, frame, delay = 0) => `<g opacity="${.24 + .76 * V.reveal(frame, delay)}">${markup}</g>`;
-  const figure = (number, label, viewBox) => V.svg(
-    `<image href="assets/grades-5-6/2000/task-${String(number).padStart(2, '0')}.webp"/>`, label, viewBox);
+  const art = 'assets/grades-5-6/2000/';
+  const clockFigure = `${art}condition-01.svg`;
+  const clockMinute = `${art}clock-minute-01.svg`;
+  const kangarooFigure = `${art}condition-03.svg`;
+  const netFigure = `${art}condition-09.svg`;
+  const image = (url, width, height, x = 0, y = 0) =>
+    `<image href="${url}" x="${x}" y="${y}" width="${width}" height="${height}"/>`;
+  const figure = (url, width, height, label) => V.svg(
+    image(url, width, height), label, `0 0 ${width} ${height}`, 'legacy-scene')
+    .replace('<svg ', `<svg style="max-width:${width}px" `);
   const answer = (value, frame) => fade(box(105, 246, 430, 43, pale, teal) + text(320, 268, value, Math.min(23, 725 / value.length), teal), frame);
-
-  function clock(cx, cy, hour, minute, mirrored = false, showHour = true) {
-    let drawing = dot(cx, cy, 75, paper, line);
-    for (let i = 0; i < 12; i++) {
-      const angle = i * Math.PI / 6;
-      const dx = Math.sin(angle), dy = -Math.cos(angle);
-      drawing += link(cx + 60 * dx, cy + 60 * dy, cx + 69 * dx, cy + 69 * dy, teal, i % 3 ? 2 : 4);
-    }
-    const twelve = text(cx, cy - 49, '12', 17);
-    drawing += mirrored ? `<g transform="translate(${2 * cx},0) scale(-1,1)">${twelve}</g>` : twelve;
-    const minuteAngle = minute * Math.PI / 30;
-    const hourAngle = (hour + minute / 60) * Math.PI / 6;
-    return drawing +
-      link(cx, cy, cx + 54 * Math.sin(minuteAngle), cy - 54 * Math.cos(minuteAngle), teal, 4) +
-      (showHour ? link(cx, cy, cx + 39 * Math.sin(hourAngle), cy - 39 * Math.cos(hourAngle), amber, 6) : '') +
-      dot(cx, cy, 5, ink);
-  }
 
   function pocketGroups(frame, final) {
     let body = box(108, 19, 424, 209, paper, teal) + text(320, 44, '1 карман', 23, teal);
@@ -51,13 +42,15 @@
   }
 
   function kangaroo(frame, highlighted) {
-    const raster = '<image href="assets/grades-5-6/2000/task-03.webp"/>';
-    const clip = `<svg x="73" y="8" width="249" height="230" viewBox="584 0 137 126" style="overflow:hidden">${raster}</svg>`;
-    const junctions = [['B', 630, 46, 3], ['C', 630, 109, 1], ['D', 615, 112, 3]];
-    let body = clip;
+    const x0 = 74, y0 = 8, width = 225, height = 225 * 380 / 370;
+    // Coordinates of the three junctions in condition-03.svg's viewBox.
+    const junctions = [['B', 174, 172, 3], ['C', 172, 342, 1], ['D', 128, 353, 3]];
+    let body = image(kangarooFigure, width, height, x0, y0);
     for (let i = 0; i < junctions.length; i++) {
       const [name, x, y, count] = junctions[i];
-      const ring = dot(73 + (x - 584) * 249 / 137, 8 + y * 230 / 126, 10, 'none', amber);
+      const cx = x0 + (x - 30) * width / 370;
+      const cy = y0 + (y - 10) * height / 380;
+      const ring = `<circle cx="${cx}" cy="${cy}" r="10" fill="none" stroke="${amber}" stroke-width="3"/>`;
       const at = 57 + i * 58;
       body += fade(ring + box(368, at - 22, 215, 44, pale) + text(475, at, `${name}: ${count}`, 24), frame, i * .4);
     }
@@ -147,19 +140,17 @@
   }
 
   function net(step, frame) {
-    const faces = [['A', 0, 0], ['B', 0, 1], ['X', 1, 1], ['C', 2, 1], ['D', 2, 2], ['E', 3, 2]];
-    const size = step ? 49 : 66;
-    const ox = step ? 35 : 187;
-    const oy = step ? 54 : 47;
-    let body = '';
+    const faces = [['X', 1, 1], ['C', 2, 1], ['D', 2, 2], ['E', 3, 2]];
+    const width = 242, height = width * 226 / 286;
+    const size = 60 * width / 286;
+    const ox = 30, oy = 42;
+    let body = image(netFigure, width, height, ox, oy);
     for (const [letter, col, row] of faces) {
-      const active = step > 0 && 'XCDE'.includes(letter);
-      const x = ox + col * size, y = oy + row * size;
-      const fill = active ? letter === 'E' && step === 2 ? gold : pale : paper;
-      body += box(x, y, size, size, fill, active ? teal : ink, 0);
-      body += text(x + size / 2, y + size / 2, letter, 26, active ? teal : ink);
+      if (letter === 'E' && step === 1) continue;
+      const x = ox + (16 / 60 + col) * size, y = oy + (16 / 60 + row) * size;
+      const fill = letter === 'E' ? amber : teal;
+      body += `<rect x="${x + 1}" y="${y + 1}" width="${size - 2}" height="${size - 2}" fill="${fill}" fill-opacity=".22"/>`;
     }
-    if (step === 0) return body;
 
     const face = (points, fill) => `<polygon points="${points}" fill="${fill}" stroke="${teal}" stroke-width="2"/>`;
     body += face('323,167 458,124 589,166 454,210', pale);
@@ -203,15 +194,19 @@
     1: {
       title: 'Часы в зеркале', short: 'Часы в зеркале', skill: 'Отражение и циферблат',
       question: 'Правильно идущие часы отражаются в зеркале. Который сейчас час?',
+      conditionImage: clockFigure,
       choices: ['15.15', '10.15', '10.45', '8.45', '9.45'],
       steps: [intro,
         ['Шаг 1', 'Отрази циферблат обратно', 'Верх и низ сохраняют положение, а левая и правая стороны меняются местами. Минутная стрелка смотрит на 3 в зеркале и на 9 на настоящих часах.'],
         ['Ответ', 'Прочитай час по короткой стрелке', 'На настоящих часах короткая стрелка между 9 и 10, а длинная показывает 45 минут. Сейчас 9:45.']],
       scene(step, frame) {
-        if (step === 0) return figure(1, 'Отражение циферблата, обе стрелки направлены вправо', '615 0 99 100');
-        let body = clock(167, 127, 2, 15, true) + text(167, 225, 'Отражение', 22);
+        if (step === 0) return figure(clockFigure, 220, 236, 'Отражение циферблата, обе стрелки направлены вправо');
+        let body = image(clockFigure, 169, 181, 83, 23) + text(167, 225, 'Отражение', 25);
         body += path('M320 39 V217', line, 3, 'stroke-dasharray="9 7"');
-        body += fade(clock(473, 127, 9, 45, false, step === 2) + text(473, 225, 'Настоящие часы', 22), frame);
+        const right = step === 2
+          ? `<g transform="translate(946 0) scale(-1 1)">${image(clockFigure, 169, 181, 388.5, 23)}</g>`
+          : image(clockMinute, 169, 181, 388.5, 23);
+        body += fade(right + text(473, 225, 'Настоящие часы', 25), frame);
         return scene(body + (step === 2 ? answer('9:45', frame) : ''), 'Отражение переводит стрелки с правой стороны циферблата на левую.');
       },
     },
@@ -227,12 +222,13 @@
     3: {
       title: 'Кенгуру одним росчерком', short: 'Один росчерк', skill: 'Чётность и маршруты',
       question: 'Петя хочет нарисовать кенгуру, не отрывая карандаш от бумаги и не проводя по одной линии дважды. С какой точки он должен начать?',
+      conditionImage: kangarooFigure,
       choices: ['A', 'B', 'C', 'D', 'такой точки нет'],
       steps: [intro,
         ['Шаг 1', 'Найди точки с нечётным числом ветвей', 'У точки B и у точки D по три ветви. Точка C — конец одной линии. Уже есть три точки с нечётным числом ветвей.'],
         ['Ответ', 'Проверь, хватает ли концов штриха', 'Если карандаш приходит в точку и уходит из неё, две ветви расходуются парой. Нечётными могут быть только начало и конец. Здесь нечётных точек больше двух, поэтому нарисовать кенгуру одним росчерком нельзя.']],
       scene(step, frame) {
-        return step === 0 ? figure(3, 'Контур кенгуру с отмеченными точками A, B, C и D', '584 0 137 126')
+        return step === 0 ? figure(kangarooFigure, 230, 236, 'Контур кенгуру с отмеченными точками A, B, C и D')
           : scene(kangaroo(frame, step === 2), 'В отмеченных точках B, C и D соответственно три, одна и три ветви.');
       },
     },
@@ -285,11 +281,14 @@
     9: {
       title: 'Верхняя грань кубика', short: 'Развёртка кубика', skill: 'Складывание развёртки',
       question: 'Из развертки, изображенной на рисунке, склеили кубик и поставили его так, что грань с буквой X оказалась снизу. Какая буква оказалась сверху?',
+      conditionImage: netFigure,
       choices: ['A', 'B', 'C', 'D', 'E'],
       steps: [intro,
         ['Шаг 1', 'Подними боковые грани', 'Оставь X на столе. Подними C вокруг общего ребра с X. Затем поверни прилегающую к C грань D: она станет другой боковой стенкой кубика.'],
         ['Ответ', 'Закрой верхнюю грань', 'Свободное ребро D соединено с E на развёртке. Поверни E вокруг этого ребра. Она закрывает куб сверху, напротив X.']],
-      scene: (step, frame) => scene(net(step, frame), step ? 'Путь по граням X, C, D, E. X внизу, грани C и D сбоку.' : 'Развёртка куба с гранями A, B, C, D, E и X.'),
+      scene: (step, frame) => step
+        ? scene(net(step, frame), 'Путь по граням X, C, D, E. X внизу, грани C и D сбоку.')
+        : figure(netFigure, 286, 226, 'Развёртка куба с гранями A, B, C, D, E, X и клапанами для склейки'),
     },
     10: {
       title: 'Три слова на одну букву', short: 'Название числа', skill: 'Перебор и порядок цифр',

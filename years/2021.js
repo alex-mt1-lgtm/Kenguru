@@ -3,6 +3,10 @@
 const Y2021_ASSETS = 'assets/years/2021/';
 const Y2021_LETTERS = ['А', 'Б', 'В', 'Г', 'Д'];
 
+function y2021ChoicePath(number, index) {
+  return Y2021_ASSETS + 'choice-' + number + '-' + index + (number === 4 ? '.svg' : '.png');
+}
+
 const y2021Lessons = [
   {
     title: 'Куб из четырёх кирпичиков', short: 'Куб', skill: 'Грани и объём',
@@ -41,7 +45,13 @@ const y2021Lessons = [
   {
     title: 'Лучи солнца', short: 'Солнце', skill: 'Сравнение узоров',
     question: 'Алла рисует солнце. Какой из пяти фрагментов является частью её рисунка?',
-    choices: ['Фрагмент А', 'Фрагмент Б', 'Фрагмент В', 'Фрагмент Г', 'Фрагмент Д'], answer: 1,
+    choices: [
+      'Слева направо два тёмно-серых и два белых луча',
+      'Слева направо тёмно-серый, светло-серый, белый, тёмно-серый лучи',
+      'Слева направо светло-серый, тёмно-серый, светло-серый, белый лучи',
+      'Слева направо тёмно-серый, два белых, тёмно-серый лучи',
+      'Слева направо два белых, тёмно-серый, белый лучи',
+    ], answer: 1,
     steps: [
       ['Условие', 'Какой фрагмент подходит?', 'Сравни положение, длину и оттенки лучей и выбери фрагмент.'],
       ['Ориентир', 'Замечаем длинные тёмные лучи', 'Б и Г имеют по длинному тёмному лучу с каждого края. У остальных вариантов длинные тёмные лучи расположены иначе.'],
@@ -73,7 +83,7 @@ const y2021Lessons = [
   },
   {
     title: 'Одна перестановка фруктов', short: 'Карточки', skill: 'Перебор возможностей',
-    question: 'Нина может поменять местами две карты, чтобы одинаковые фрукты лежали рядом. С каким набором это невозможно?',
+    question: 'У Нины три вида карт: яблоко, вишня и виноград. Она выбирает две карты из набора и меняет их местами, чтобы карты с одинаковыми фруктами лежали рядом. В каком наборе это невозможно?',
     choices: ['Набор А', 'Набор Б', 'Набор В', 'Набор Г', 'Набор Д'], answer: 0,
     steps: [
       ['Условие', 'Где одной перестановки мало?', 'Рассмотри пять наборов. Одной перестановкой можно обменять местами любые две карты.'],
@@ -117,7 +127,7 @@ const y2021Lessons = [
   },
   {
     title: 'Четыре пожарные лестницы', short: 'Лестницы', skill: 'Сравнение высот',
-    question: 'На рисунке четыре лестницы. Длины трёх известны: 32, 36 и 48. Какова длина самой короткой лестницы?',
+    question: 'На рисунке четыре пожарные лестницы. Высоты трёх из них равны 32, 36 и 48. Какова высота самой короткой лестницы?',
     choices: ['12', '14', '16', '20', '22'], answer: 3,
     steps: [
       ['Условие', 'Какова длина короткой лестницы?', 'Рассмотри, где начинаются и заканчиваются четыре лестницы.'],
@@ -209,7 +219,7 @@ const y2021Lessons = [
   points: 3 + Math.floor(index / 6),
   originalImage: Y2021_ASSETS + 'task-' + (index + 1) + '.png',
   ...([1, 4, 7, 9, 12].includes(index + 1) ? {
-    choiceImages: Y2021_LETTERS.map((_, choice) => Y2021_ASSETS + 'choice-' + (index + 1) + '-' + choice + '.png')
+    choiceImages: Y2021_LETTERS.map((_, choice) => y2021ChoicePath(index + 1, choice))
   } : {})
 }));
 
@@ -228,8 +238,12 @@ function y2021Rect(x, y, w, h, fill = Y2021_PAPER, stroke = '#acbeb6', radius = 
   return '<rect x="' + x + '" y="' + y + '" width="' + w + '" height="' + h + '" rx="' + radius + '" fill="' + fill + '" stroke="' + stroke + '" stroke-width="2"/>';
 }
 
+function y2021PlacedImage(path, x, y, width, height) {
+  return '<image href="' + path + '" x="' + x + '" y="' + y + '" width="' + width + '" height="' + height + '"/>';
+}
+
 function y2021Image(name, x, y, width, height) {
-  return '<image href="' + Y2021_ASSETS + name + '.png" x="' + x + '" y="' + y + '" width="' + width + '" height="' + height + '"/>';
+  return y2021PlacedImage(Y2021_ASSETS + name + '.png', x, y, width, height);
 }
 
 function y2021Line(x1, y1, x2, y2, color = Y2021_TEAL, width = 3) {
@@ -251,7 +265,7 @@ function y2021ImageChoices(number, y, caption = [], active = []) {
   return Y2021_LETTERS.map((letter, i) => {
     const x = 18 + i * 122;
     return y2021Rect(x, y, 115, 112, active.includes(i) ? Y2021_GREEN : Y2021_PAPER)
-      + y2021Image('choice-' + number + '-' + i, x + 7, y + 6, 101, 72)
+      + y2021PlacedImage(y2021ChoicePath(number, i), x + 7, y + 6, 101, 72)
       + y2021Text(x + 57, y + 99, letter + (caption[i] ? ' · ' + caption[i] : ''), 21);
   }).join('');
 }

@@ -6,6 +6,15 @@ LESSONS.forEach((lesson,i)=>{lesson.points=lesson.points||3;lesson.number=i+1;le
 const EXTRA_ARCHIVES=Object.values(globalThis.KENGURU_ARCHIVE||{}).flatMap(value=>Array.isArray(value)?value:[value]).filter(set=>set.id!=='2024-3-4').sort((a,b)=>a.year-b.year||a.id.localeCompare(b.id));
 for(const set of EXTRA_ARCHIVES){const entry={...set,indices:[]};set.lessons.forEach((lesson,i)=>{entry.indices.push(LESSONS.length);LESSONS.push({...lesson,number:lesson.number??i+1,year:set.year,datasetId:set.id})});CATALOG.push(entry)}
 
+for (const lesson of LESSONS) {
+  const layout = globalThis.KENGURU_CHOICE_LAYOUTS?.[lesson.datasetId + '/' + lesson.number];
+  if (!layout) continue;
+  lesson.choiceLayout = layout;
+  lesson.conditionImage = layout.condition?.src;
+  lesson.choices = layout.options.map(option => option.text ?? '');
+  lesson.choiceImages = layout.options.map(option => option.image);
+}
+
 const $=id=>document.getElementById(id),LETTERS=['А','Б','В','Г','Д'];
 const CUTS=['M1 0V2H3V4','M0 4L4 0','M1 4V1H2V3H3V0','M0 1L4 3','M1 4V1H2V3H3V1H4'];
 const CUT_DESCRIPTIONS = [
@@ -239,7 +248,38 @@ function patchNode(target,source){if(target.nodeType!==source.nodeType||target.n
 for(const attr of Array.from(target.attributes))if(!source.hasAttribute(attr.name))target.removeAttribute(attr.name);for(const attr of Array.from(source.attributes))if(target.getAttribute(attr.name)!==attr.value)target.setAttribute(attr.name,attr.value);
 const children=Array.from(source.childNodes);for(let i=0;i<children.length;i++){if(target.childNodes[i])patchNode(target.childNodes[i],children[i]);else target.appendChild(children[i].cloneNode(true))}while(target.childNodes.length>children.length)target.lastChild.remove()}
 let lastScene='';
-function renderScene(){const st=current(), fullFrame=reducedMotion||(!playing&&st.elapsed===0&&LESSONS[task].showCompletedStep),frame=fullFrame?sceneDuration(task,st.step)/FRAME_MS:st.frame;const markup=task===0&&st.step===0?squareWorkScene():task===9&&st.step===0?fruitWorkspaceScene():SCENES[task](st.step,frame);if(markup===lastScene)return;lastScene=markup;const container=$('scene');if(container.firstElementChild&&typeof document.createElement==='function'){const template=document.createElement('template');template.innerHTML=markup;if(template.content.childElementCount===1&&container.childElementCount===1)patchNode(container.firstElementChild,template.content.firstElementChild);else container.innerHTML=markup}else container.innerHTML=markup}
+function sceneMarkup(lesson, step, frame) {
+  if (step !== 0) return SCENES[task](step, frame);
+  if (task === 0) return squareWorkScene();
+  if (task === 9) return fruitWorkspaceScene();
+  if (lesson.choiceLayout) {
+    const figure = lesson.choiceLayout.condition;
+    return figure
+      ? `<svg class="legacy-scene" role="img" aria-label="Рисунок из условия задачи" viewBox="0 0 ${figure.width} ${figure.height}" style="max-width:${figure.width}px"><image href="${figure.src}" width="${figure.width}" height="${figure.height}"/></svg>`
+      : '';
+  }
+  if (!lesson.question && lesson.legacyOriginal) return '';
+  return SCENES[task](step, frame);
+}
+function renderScene() {
+  const lesson = LESSONS[task];
+  const st = current();
+  const fullFrame = reducedMotion || (!playing && st.elapsed === 0 && lesson.showCompletedStep);
+  const frame = fullFrame ? sceneDuration(task, st.step) / FRAME_MS : st.frame;
+  const markup = sceneMarkup(lesson, st.step, frame);
+  if (markup === lastScene) return;
+  lastScene = markup;
+  const container = $('scene');
+  if (container.firstElementChild && typeof document.createElement === 'function') {
+    const template = document.createElement('template');
+    template.innerHTML = markup;
+    if (template.content.childElementCount === 1 && container.childElementCount === 1) {
+      patchNode(container.firstElementChild, template.content.firstElementChild);
+      return;
+    }
+  }
+  container.innerHTML = markup;
+}
 
 function renderButtons(id, attribute, markup) {
   const container = $(id);
@@ -251,14 +291,39 @@ function renderButtons(id, attribute, markup) {
   }
 }
 
+function escapeAnswerText(value) {
+  return String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;').replaceAll('"', '&quot;');
+}
+
+function choiceTextMarkup(value, presentation) {
+  const text = escapeAnswerText(value);
+  if (presentation === 'mirror-letters') {
+    return `<span class="choice-word">${[...value].map(letter =>
+      `<span class="choice-mirror-horizontal">${escapeAnswerText(letter)}</span>`).join('')}</span>`;
+  }
+  return `<span${presentation ? ` class="choice-word choice-${presentation}"` : ''}>${text}</span>`;
+}
+
+function choiceImageMarkup(path, option, alt = '') {
+  const rasterSize = option?.pixelWidth && option?.pixelHeight
+    ? ` data-raster style="--choice-width:${option.pixelWidth}px;--choice-height:${option.pixelHeight}px"`
+    : '';
+  return `<img src="${escapeAnswerText(path)}" alt="${escapeAnswerText(alt)}"${rasterSize}>`;
+}
+
 function renderAnswers() {
   const st = current();
   const lesson = LESSONS[task];
-  const illustrated = task === 0 || task === 6 || Boolean(lesson.choiceImages);
+  const options = lesson.choiceLayout?.options;
+  const illustrated = task === 0 || task === 6 || Boolean(lesson.choiceImages?.some(Boolean));
   $('answers').hidden = st.step !== 0;
-  $('answers').className = 'answer-list' + (illustrated ? ' illustrated-answers' : '');
+  $('openChoiceZoom').hidden = st.step !== 0 || !options?.some(option => option.image);
+  $('answers').className = 'answer-list' + (illustrated ? ' illustrated-answers' : '')
+    + (options && illustrated ? ' separated-answers' : '');
   const markup = lesson.choices.map((value, i) => {
-    let description = value;
+    const option = options?.[i];
+    let description = option?.description ?? value;
     let picture = '';
     if (task === 0) {
       description = squareDescription(i);
@@ -267,12 +332,12 @@ function renderAnswers() {
       description = CUBE_COLUMN_NAMES.map((name, col) => name + ': ' + CUBE_HEIGHTS[i][col]).join(', ');
       picture = `<img src="assets/cubes-${i}.svg" alt="">`;
     } else if (lesson.choiceImages?.[i]) {
-      picture = `<img src="${lesson.choiceImages[i]}" alt="">`;
+      picture = choiceImageMarkup(lesson.choiceImages[i], option);
     }
-    const label = ('Выбрать ответ ' + answerLetter(i) + (description ? ': ' + description : '')).replaceAll('&', '&amp;').replaceAll('"', '&quot;');
-    const printedValue = String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
+    const label = escapeAnswerText('Выбрать ответ ' + answerLetter(i) + (description ? ': ' + description : ''));
+    const showText = value && (option || !picture);
     return `<button class="answer ${st.selected === i ? 'selected' : ''}" data-answer="${i}" aria-label="${label}" aria-pressed="${st.selected === i}">
-      ${picture}<strong>${answerLetter(i)}</strong>${picture || !value ? '' : `<span>${printedValue}</span>`}
+      ${picture}<strong>${answerLetter(i)}</strong>${showText ? choiceTextMarkup(value, option?.presentation) : ''}
     </button>`;
   }).join('');
   renderButtons('answers', 'data-answer', markup);
@@ -317,11 +382,7 @@ function renderPicker() {
   $('answersSource').href = set.sources.answersUrl || set.sources.tasksUrl;
   $('solutionsSource').hidden = !set.sources.solutionUrl;
   $('solutionsSource').href = set.sources.solutionUrl || '';
-  $('sourceNote').textContent = set.paperEdition
-    ? 'Карточки и ответы взяты из официального выпуска конкурса.'
-    : set.sources.solutionUrl
-      ? 'Условия и ответы сверены с официальными материалами. Схемы и объяснения созданы для уроков.'
-      : 'Условия и ответы сверены с официальным вариантом и ключом. Разборы подготовлены для уроков; в архиве этого года отдельный файл официальных решений не опубликован.';
+
 }
 
 
@@ -329,36 +390,26 @@ function playLabel(){$('play').textContent=playing?'Ⅱ Пауза':task===6&&cu
 let alternativeTask=null;
 function renderAlternative(){const section=$('alternative'),method=LESSONS[task].alternative,visible=!!method&&current().step===lastStep();section.hidden=!visible;if(!visible||alternativeTask!==task)section.open=false;alternativeTask=task;if(!visible)return;$('alternativeTitle').textContent=method.title;$('alternativeText').textContent=method.text;$('alternativeConclusion').textContent=method.conclusion;$('alternativeTable').innerHTML='<thead><tr>'+method.headings.map(heading=>`<th scope="col">${heading}</th>`).join('')+'</tr></thead><tbody>'+method.rows.map(([count,cells])=>`<tr><th scope="row">${count}</th><td>${cells}</td></tr>`).join('')+'</tbody>'}
 let shownConditionTask = -1;
-let conditionContainsStage = false;
 function renderCondition(lesson, step) {
   const details = $('taskCondition');
   const question = $('question');
   const note = $('questionNote');
   const picture = $('conditionImage');
-  const useOriginalCard = !lesson.question && Boolean(lesson.legacyOriginal);
-  const inlineCard = useOriginalCard && step === 0;
-  const workbench = $('sceneWorkbench');
-  const target = $(inlineCard ? 'conditionScene' : 'lessonScene');
-
-  if (workbench.parentElement !== target) target.append(workbench);
-  if (shownConditionTask !== task) details.open = !useOriginalCard || inlineCard;
-  else if (conditionContainsStage !== inlineCard) details.open = inlineCard;
+  if (shownConditionTask !== task) details.open = true;
   shownConditionTask = task;
-  conditionContainsStage = inlineCard;
 
   question.textContent = lesson.question ?? '';
   question.hidden = !lesson.question;
   note.textContent = lesson.questionNote ?? '';
   note.hidden = !lesson.questionNote;
 
-  const source = step > 0 && (useOriginalCard ? lesson.originalImage : lesson.conditionImage);
+  const source = step > 0 && lesson.conditionImage;
   picture.hidden = !source;
   if (source && picture.getAttribute?.('src') !== source) {
     picture.src = source;
-    picture.alt = useOriginalCard ? 'Условие и варианты ответа из оригинала' : 'Рисунок из условия задачи';
+    picture.alt = 'Рисунок из условия задачи';
   }
-  $('openLegacyZoom').hidden = !lesson.conditionImage && !useOriginalCard;
-  return inlineCard;
+  $('openLegacyZoom').hidden = !lesson.conditionImage;
 }
 
 function render() {
@@ -373,13 +424,13 @@ function render() {
   $('taskTitle').textContent = lesson.title;
   $('taskSkill').textContent = lesson.skill;
   $('taskSkill').hidden = !lesson.skill;
-  const inlineCard = renderCondition(lesson, st.step);
+  renderCondition(lesson, st.step);
   $('chapterTag').textContent = `ЗАДАЧА ${lesson.number} · ${chapter.toUpperCase()}`;
   $('counter').textContent = `0${st.step + 1} / ${String(lesson.steps.length).padStart(2, '0')}`;
   $('sceneTitle').textContent = title;
-  $('sceneTitle').hidden = inlineCard || (st.step === 0 && title === 'Условие задачи');
+  $('sceneTitle').hidden = st.step === 0 && title === 'Условие задачи';
   $('sceneText').textContent = explanation;
-  $('sceneText').hidden = st.step === 0 && (inlineCard || lesson.hideIntroText === true);
+  $('sceneText').hidden = st.step === 0 && lesson.hideIntroText === true;
   renderButtons('chapters', 'data-step', lesson.steps.map(([name], i) =>
     `<button data-step="${i}" class="${i === st.step ? 'active' : ''}" ${i === st.step ? 'aria-current="step"' : ''}><span>0${i + 1}</span>${name}</button>`
   ).join(''));
@@ -393,11 +444,15 @@ function render() {
   if (st.step === 0) {
     const check = lesson.paperEdition ? ' Сверь его с официальным ключом.' : ' Проверим его в разборе.';
     feedback.textContent = choice ? choice + check : 'Выбери ответ. Затем нажми «Далее» и проверь своё решение.';
+  } else if (final && lesson.officialValueKey) {
+    feedback.textContent = Number.isInteger(lesson.answer) && st.selected === lesson.answer
+      ? 'Твой выбор совпал с официальным ответом.' : choice;
   } else if (final && lesson.answer === null) {
-    feedback.textContent = [choice, lesson.answerExcerpt ? 'Сверь свой вариант с фрагментом ключа на карточке.' : 'Для этой задачи в официальном ключе нет ответа.'].filter(Boolean).join(' ');
+    feedback.textContent = [choice, 'Для этой задачи в официальном ключе нет ответа.'].filter(Boolean).join(' ');
   } else if (final) {
     const result = st.selected === lesson.answer ? 'Верно! Твоё решение подтвердилось.' : choice;
-    const value = task === 0 || task === 6 ? '' : lesson.choices[lesson.answer];
+    const option = lesson.choiceLayout?.options[lesson.answer];
+    const value = task === 0 || task === 6 ? '' : option?.description ?? lesson.choices[lesson.answer];
     const answer = answerLetter(lesson.answer) + (value ? ': ' + value : '');
     const punctuation = /[.!?]$/u.test(answer) ? '' : '.';
     feedback.textContent = [result, `Ответ ${answer}${punctuation}`].filter(Boolean).join(' ');
@@ -414,8 +469,7 @@ function render() {
     $(final ? 'nextTask' : 'next').focus({preventScroll: true});
   }
   $('progress').style.width = ((st.step + 1) / lesson.steps.length * 100) + '%';
-  $('original').src = lesson.originalImage;
-  $('original').alt = `Оригинал задачи №${lesson.number}, Кенгуру–${lesson.year}, ${activeSet().label}`;
+  $('sourceNote').textContent = `Кенгуру ${lesson.year} · ${activeSet().label} · задача №${lesson.number}`;
   playLabel();
 }
 function sceneDuration(t,s){if(s===0)return 1500;if(t>=8)return s===lastStep(t)?4500:6500;if(t===6)return s===7?4000:s===8?4200:6500;if(t===1&&(s===2||s===3)){const length=s===2?FIRE_DISTANCES[FIRE_SPLIT]:FIRE_DISTANCES.at(-1)-FIRE_DISTANCES[FIRE_SPLIT];return length/FIRE_SPEED*1000+400}if(t===3)return[0,1600,3000,3600,2600][s];if((t===0||t===6)&&s===3)return 3600;if(t===7)return[0,1800,2100,4200,2800][s];return s===4?3000:s===1?3000:4200}
@@ -473,12 +527,22 @@ $('yearPicker').addEventListener('change', () => {
 });
 $('openLegacyZoom').onclick = () => {
   const lesson = LESSONS[task];
-  const path = lesson.conditionImage ?? (!lesson.question && lesson.legacyOriginal ? lesson.originalImage : '');
+  const path = lesson.conditionImage;
   if (!path) return;
   const image = $('legacyZoomImage');
   image.src = path;
-  image.alt = lesson.conditionImage ? 'Рисунок из условия задачи' : 'Условие и варианты ответа из оригинала';
+  image.alt = 'Рисунок из условия задачи';
   $('legacyZoom').showModal();
+};
+$('openChoiceZoom').onclick = () => {
+  const options = LESSONS[task].choiceLayout?.options;
+  if (!options?.some(option => option.image)) return;
+  $('choiceZoomItems').innerHTML = options.map((option, index) => {
+    const {image, text, presentation, description} = option;
+    return `<figure>${image ? choiceImageMarkup(image, option, description) : ''}
+      <figcaption><strong>${answerLetter(index)}</strong>${text ? choiceTextMarkup(text, presentation) : ''}</figcaption></figure>`
+  }).join('');
+  $('choiceZoom').showModal();
 };
 $('gradePicker').addEventListener('change', () => {
   selectDataset($('gradePicker').value);
@@ -534,7 +598,7 @@ document.addEventListener('click', e => {
 });
 
 document.addEventListener('keydown', e => {
-  if ($('profileRatingDialog').open || $('accountDialog')?.open) return;
+  if ($('profileRatingDialog').open || $('accountDialog')?.open || $('legacyZoom').open || $('choiceZoom').open) return;
   if (e.key === 'Escape') {
     const menu = lessonMenus.find(item => item.open);
     if (menu) {

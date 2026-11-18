@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="286" height="226" viewBox="0 0 286 226" color="#211e1b">
+<g fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round">
+  <path d="M16 16h60v60h120v60h60v60H136v-60H16zM16 76h60v60m0 0h120m-60 -60v60m60 0v60"/>
+  <path d="M76 76l13 -16h34l13 16 13 -16h34l13 16 15 15v30l-15 15
+           m-60 0-15 15v30l15 15 15 15h30l15 -15 15 15h30l15 -15
+           m0 -60 15 15v30l-15 15"/>
+</g>
+<g fill="currentColor" font-family="Arial,sans-serif" font-size="33" font-weight="700"
+   text-anchor="middle">
+  <text x="46" y="58">A</text>
+  <text x="46" y="118">B</text><text x="106" y="118">X</text><text x="166" y="118">C</text>
+  <text x="166" y="178">D</text><text x="226" y="178">E</text>
+</g>
+</svg>

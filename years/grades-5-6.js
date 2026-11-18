@@ -5,11 +5,21 @@
   const visual = globalThis.KenguruVisual;
   const officialSolutions = globalThis.KENGURU_GRADE_SOLUTION_STEPS ?? {};
   const nativeConditions = globalThis.KENGURU_GRADE_CONDITIONS ?? {};
+  const nativeKeys = globalThis.KENGURU_GRADE_KEYS ?? {};
   const visualLessons = globalThis.KenguruVisualLessons ?? {};
 
   function conditionScene(path, width, height, label) {
     return visual.svg(`<image href="${visual.escape(path)}" width="${width}" height="${height}"/>`,
       label, `0 0 ${width} ${height}`, 'legacy-scene').replace('<svg ', `<svg style="max-width:${width}px" `);
+  }
+
+  function answerDiagram(path, sourceWidth, sourceHeight) {
+    const scale = Math.min(420 / sourceWidth, 300 / sourceHeight);
+    const width = sourceWidth * scale;
+    const height = sourceHeight * scale;
+    const x = (420 - width) / 2;
+    return visual.svg(`<image href="${visual.escape(path)}" x="${x}" y="8" width="${width}" height="${height}"/>`,
+      'Рисунок к официальному ответу', `0 0 420 ${height + 16}`, 'worked-scene');
   }
 
   function officialSteps(stages) {
@@ -27,7 +37,7 @@
     const lessons = [];
     const scenes = [];
 
-    for (const [index, [width, height, answer, excerpt]] of cards.entries()) {
+    for (const [index, [width, height, letterKey]] of cards.entries()) {
       const number = index + 1;
       const padded = String(number).padStart(2, '0');
       const folder = `assets/grades-5-6/${year}`;
@@ -40,8 +50,11 @@
       const choices = custom?.choices ?? native?.choices ?? ['', '', '', '', ''];
       const paperEdition = !custom && !official?.length;
       const intro = ['Условие', 'Условие задачи', 'Выбери ответ и нажми «Далее».'];
-      const answerStep = excerpt
-        ? ['Ответ', 'Проверяем ответ', 'Сверь свой ответ с официальным ключом.']
+      const officialKey = nativeKeys[year]?.[index];
+      const [answerText, answerLetter, answerImage, answerWidth, answerHeight] = officialKey ?? [];
+      const answer = officialKey && answerLetter ? answerLetters.indexOf(answerLetter) : letterKey;
+      const answerStep = officialKey
+        ? ['Ответ', 'Официальный ответ', answerLetter ? `Вариант ${answerLetter}. ${answerText}` : answerText]
         : ['Ответ', 'Проверяем ответ', 'Сравни свой выбор с официальным ответом.'];
       const steps = custom?.steps ?? [intro, ...(official?.length ? officialSteps(official) : [answerStep])];
       const figure = native?.image;
@@ -61,7 +74,7 @@
         hideIntroText: !custom,
         paperEdition,
         showCompletedStep: !paperEdition,
-        answerExcerpt: Boolean(excerpt),
+        officialValueKey: Boolean(officialKey),
         points: 3 + Math.floor(index / groupSize),
         originalImage,
         steps,
@@ -70,13 +83,9 @@
       const initialScene = !question || custom?.originalAtStart
         ? conditionScene(originalImage, width, height, description)
         : figure && !custom ? conditionScene(figure, native.imageWidth, native.imageHeight, description) : '';
-      const key = visual.answerScene({
-        letter: answerLetters[answer],
-        value: choices[answer],
-        image: excerpt && `${folder}/answer-${padded}.webp`,
-        width: excerpt?.[0],
-        height: excerpt?.[1],
-      });
+      const key = officialKey
+        ? (answerImage ? answerDiagram(answerImage, answerWidth, answerHeight) : '')
+        : visual.answerScene({letter: answerLetters[answer], value: choices[answer]});
       scenes.push((step, frame) => {
         if (custom && !(step === 0 && custom.originalAtStart)) return custom.scene(step, frame);
         if (step === 0) return initialScene;

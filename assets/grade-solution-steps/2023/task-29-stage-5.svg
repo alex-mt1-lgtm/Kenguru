@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 482 231">
+<path d="M73 28H409" stroke="#607474" stroke-width="2"/>
+<path d="M73 72H409" stroke="#607474" stroke-width="2"/>
+<path d="M73 116H409" stroke="#607474" stroke-width="2"/>
+<path d="M73 160H409" stroke="#607474" stroke-width="2"/>
+<path d="M73 204H409" stroke="#607474" stroke-width="2"/>
+<path d="M73 28V204" stroke="#607474" stroke-width="2"/>
+<path d="M121 28V204" stroke="#607474" stroke-width="2"/>
+<path d="M169 28V204" stroke="#607474" stroke-width="2"/>
+<path d="M217 28V204" stroke="#607474" stroke-width="2"/>
+<path d="M265 28V204" stroke="#607474" stroke-width="2"/>
+<path d="M313 28V204" stroke="#607474" stroke-width="2"/>
+<path d="M361 28V204" stroke="#607474" stroke-width="2"/>
+<path d="M409 28V204" stroke="#607474" stroke-width="2"/>
+<circle cx="73" cy="28" r="13" fill="#55b685" stroke="#172e34" stroke-width="2.2"/>
+<circle cx="121" cy="28" r="13" fill="#fffefa" stroke="#172e34" stroke-width="2.2"/>
+<circle cx="169" cy="28" r="13" fill="#55b685" stroke="#172e34" stroke-width="2.2"/>
+<circle cx="217" cy="28" r="13" fill="#172e34" stroke="#172e34" stroke-width="2.2"/>
+<circle cx="265" cy="28" r="13" fill="#172e34" stroke="#172e34" stroke-width="2.2"/>
+<circle cx="313" cy="28" r="13" fill="#55b685" stroke="#172e34" stroke-width="2.2"/>
+<circle cx="361" cy="28" r="13" fill="#fffefa" stroke="#172e34" stroke-width="2.2"/>
+<circle cx="409" cy="28" r="13" fill="#55b685" stroke="#172e34" stroke-width="2.2"/>
+<circle cx="73" cy="72" r="13" fill="#172e34" stroke="#172e34" stroke-width="2.2"/>
+<circle cx="121" cy="72" r="13" fill="#ffda66" stroke="#172e34" stroke-width="2.2"/>
+<circle cx="169" cy="72" r="13" fill="#fffefa" stroke="#172e34" stroke-width="2.2"/>
+<circle cx="217" cy="72" r="13" fill="#fffefa" stroke="#172e34" stroke-width="2.2"/>
+<circle cx="265" cy="72" r="13" fill="#fffefa" stroke="#172e34" stroke-width="2.2"/>
+<circle cx="313" cy="72" r="13" fill="#fffefa" stroke="#172e34" stroke-width="2.2"/>
+<circle cx="361" cy="72" r="13" fill="#ffda66" stroke="#172e34" stroke-width="2.2"/>
+<circle cx="409" cy="72" r="13" fill="#172e34" stroke="#172e34" stroke-width="2.2"/>
+<circle cx="73" cy="116" r="13" fill="#55b685" stroke="#172e34" stroke-width="2.2"/>
+<circle cx="121" cy="116" r="13" fill="#fffefa" stroke="#172e34" stroke-width="2.2"/>
+<circle cx="169" cy="116" r="13" fill="#172e34" stroke="#172e34" stroke-width="2.2"/>
+<circle cx="217" cy="116" r="13" fill="#fffefa" stroke="#172e34" stroke-width="2.2"/>
+<circle cx="265" cy="116" r="13" fill="#fffefa" stroke="#172e34" stroke-width="2.2"/>
+<circle cx="313" cy="116" r="13" fill="#fffefa" stroke="#172e34" stroke-width="2.2"/>
+<circle cx="361" cy="116" r="13" fill="#fffefa" stroke="#172e34" stroke-width="2.2"/>
+<circle cx="409" cy="116" r="13" fill="#55b685" stroke="#172e34" stroke-width="2.2"/>
+<circle cx="73" cy="160" r="13" fill="#fffefa" stroke="#172e34" stroke-width="2.2"/>
+<circle cx="121" cy="160" r="13" fill="#fffefa" stroke="#172e34" stroke-width="2.2"/>
+<circle cx="169" cy="160" r="13" fill="#fffefa" stroke="#172e34" stroke-width="2.2"/>
+<circle cx="217" cy="160" r="13" fill="#fffefa" stroke="#172e34" stroke-width="2.2"/>
+<circle cx="265" cy="160" r="13" fill="#fffefa" stroke="#172e34" stroke-width="2.2"/>
+<circle cx="313" cy="160" r="13" fill="#fffefa" stroke="#172e34" stroke-width="2.2"/>
+<circle cx="361" cy="160" r="13" fill="#fffefa" stroke="#172e34" stroke-width="2.2"/>
+<circle cx="409" cy="160" r="13" fill="#55b685" stroke="#172e34" stroke-width="2.2"/>
+<circle cx="73" cy="204" r="13" fill="#55b685" stroke="#172e34" stroke-width="2.2"/>
+<circle cx="121" cy="204" r="13" fill="#fffefa" stroke="#172e34" stroke-width="2.2"/>
+<circle cx="169" cy="204" r="13" fill="#fffefa" stroke="#172e34" stroke-width="2.2"/>
+<circle cx="217" cy="204" r="13" fill="#fffefa" stroke="#172e34" stroke-width="2.2"/>
+<circle cx="265" cy="204" r="13" fill="#55b685" stroke="#172e34" stroke-width="2.2"/>
+<circle cx="313" cy="204" r="13" fill="#172e34" stroke="#172e34" stroke-width="2.2"/>
+<circle cx="361" cy="204" r="13" fill="#55b685" stroke="#172e34" stroke-width="2.2"/>
+<circle cx="409" cy="204" r="13" fill="#55b685" stroke="#172e34" stroke-width="2.2"/>
+<polyline points="73,28 121,28 169,28 169,72 121,72 121,116 73,116 73,160 73,204 121,204" fill="none" stroke="#b8382d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="217,204 265,204 265,160" fill="none" stroke="#b8382d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="361,160 361,204 409,204 409,160 409,116 361,116 361,72 313,72 313,28 361,28 409,28" fill="none" stroke="#b8382d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M309 112l8 8m0 -8l-8 8" stroke="#172e34" stroke-width="2.6"/>
+<g font-family="sans-serif" font-size="15" fill="#172e34"><text x="4" y="33">старт →</text><text x="425" y="33">финиш</text></g></svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="37.666669" height="38" viewBox="0 0 37.666669 38">
+<defs>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,-57.666669,194.66667)" d="M57.666669 156.66667H95.333339V194.66667H57.666669Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_2">
+<path transform="matrix(0,1,1,0,-57.666669,-400.3333)" d="M536.627 212.142H546.60507V212.199H536.627Z"/>
+</clipPath>
+<clipPath id="clip_3">
+<path transform="matrix(0,1,1,0,-57.666669,-400.3333)" d="M536.627 633.087H546.60507V633.144H536.627Z"/>
+</clipPath>
+</defs>
+<g clip-path="url(#clip_1)">
+<g clip-path="url(#clip_2)">
+</g>
+<path transform="matrix(0,1,1,0,-57.666669,-400.3333)" d="M402.249 76.405H410.791V67.908H402.249Z" fill="#bcbec0"/>
+<path transform="matrix(0,1,1,0,-57.666669,-400.3333)" d="M402.249 93.398H410.791V84.901H402.249Z" fill="#bcbec0"/>
+<path transform="matrix(0,1,1,0,-57.666669,-400.3333)" d="M410.608 67.908H419.15V59.410997H410.608Z" fill="#bcbec0"/>
+<path transform="matrix(0,1,1,0,-57.666669,-400.3333)" d="M410.608 84.901H419.15V76.404H410.608Z" fill="#bcbec0"/>
+<path transform="matrix(0,1,1,0,-57.666669,-400.3333)" d="M419.15 67.908H427.69099V59.410997H419.15Z" fill="#bcbec0"/>
+<path transform="matrix(0,1,1,0,-57.666669,-400.3333)" d="M419.15 93.398H427.69099V84.901H419.15Z" fill="#bcbec0"/>
+<path transform="matrix(0,1,1,0,-57.666669,-400.3333)" d="M427.691 67.908H436.232V59.410997H427.691Z" fill="#bcbec0"/>
+<path transform="matrix(0,1,1,0,-57.666669,-400.3333)" d="M427.691 93.398H436.232V76.40401H427.691Z" fill="#bcbec0"/>
+<path transform="matrix(.9974,0,0,-1.0026,-57.666669,-400.3333)" stroke-width="1.503" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#231f20" d="M59.567-401.196H93.642V-435.27104H59.567Z"/>
+<path transform="matrix(.9974,0,0,-1.0026,-57.666669,-400.3333)" stroke-width=".701" stroke-linecap="butt" stroke-linejoin="round" fill="none" stroke="#231f20" d="M59.567-409.716H93.643M59.567-418.233H93.643M59.567-426.753H93.643M68.087-435.272 68.086-401.197M76.605-435.272V-401.197M85.124-435.272 85.123-401.197"/>
+<g clip-path="url(#clip_3)">
+</g>
+</g>
+</svg>
