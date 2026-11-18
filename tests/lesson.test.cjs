@@ -224,3 +224,17 @@ test('the 2000 deep link keeps Latin labels and scores against its own key', () 
   a.run('selectYear(2024)');
   assert.match(a.element('answers').innerHTML, /<strong>Б<\/strong>/);
 });
+
+test('selecting a year with one edition closes the compact menu', () => {
+  const a = app(true);
+  const toggle = a.element('editionToggle');
+  let focused = false;
+  toggle.focus = () => { focused = true; };
+  a.element('editionMenu').open = true;
+  a.element('yearPicker').value = '2019';
+  a.element('yearPicker').change();
+  assert.equal(a.element('archiveLabel').textContent, '2019 · 3–4 классы');
+  assert.equal(a.element('editionMenu').open, false);
+  assert.equal(a.element('gradeField').hidden, true);
+  assert.ok(focused);
+});

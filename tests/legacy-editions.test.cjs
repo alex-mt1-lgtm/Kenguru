@@ -49,9 +49,11 @@ test('every 2001–2019 edition has 26 checked lessons, the official key, and it
 test('each archive card opens its interactive year, after the lesson on the home page', () => {
   const index = fs.readFileSync(path.join(dist, 'index.html'), 'utf8');
   const archive = fs.readFileSync(path.join(dist, 'archive.html'), 'utf8');
-  assert.ok(index.indexOf('href="archive.html"') > index.indexOf('id="lesson"'));
+  assert.ok(index.indexOf('id="sources"') > index.indexOf('id="lesson"'));
+  assert.ok(index.indexOf('href="archive.html"') > index.indexOf('id="sources"'));
+  assert.ok(index.indexOf('id="profileMenu"') < index.indexOf('</header>'));
+  assert.match(index, /<details id="editionMenu"[^>]*>[\s\S]*?<select id="yearPicker"/u);
   assert.doesNotMatch(index, /Новая попытка|Скопировать ссылку/u);
-  assert.match(index, /<select id="yearPicker"/u);
   for (let year = 2000; year <= 2019; year++) {
     assert.ok(archive.includes('href="./#zadacha=' + year + '-3-4/1"'), String(year));
   }

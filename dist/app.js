@@ -50,7 +50,8 @@ function readProfiles() {
 function renderProfiles() {
   const profiles = readProfiles();
   const active = profiles.find(profile => profile.id === activeProfileId);
-  $('profileSummary').textContent = active ? `Профиль ${active.name}` : 'Профили · без профиля';
+  $('profileSummary').textContent = active ? active.name : 'Профиль';
+  $('profileToggle').setAttribute('aria-label', active ? `Профиль: ${active.name}` : 'Профиль');
   $('profilePicker').innerHTML = '<option value="">Без профиля</option>' + profiles.map(profile =>
     `<option value="${profile.id}">${profile.name.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;')}</option>`
   ).join('');
@@ -271,7 +272,8 @@ function renderPicker() {
     `<option value="${item.id}" ${item.id === selectedDataset ? 'selected' : ''}>${item.label}</option>`
   ).join('');
   $('gradePicker').disabled = variants.length === 1;
-  $('archiveLabel').textContent = `${set.year} · ${set.label} · ${taskCount(indices.length)}`;
+  $('gradeField').hidden = variants.length === 1;
+  $('archiveLabel').textContent = `${set.year} · ${set.label}`;
 
   const levels = [3, 4, 5].map(points => ({points, count: indices.filter(i => LESSONS[i].points === points).length}));
   renderButtons('levelPicker', 'data-points', levels.filter(level => level.count).map(({points, count}) =>
@@ -381,7 +383,15 @@ function selectYear(year){const variants=CATALOG.filter(set=>set.year===year),la
 function animate(timestamp){if(!playing)return;const delta=lastTimestamp===null?0:Math.min(Math.max(0,timestamp-lastTimestamp),80);lastTimestamp=timestamp;const st=current();st.elapsed+=delta;st.frame=st.elapsed/FRAME_MS;renderScene();
 if(st.elapsed>=sceneDuration(task,st.step)){if(st.step<lastStep()){st.step++;resetPosition(st);render();saveLessonProgress()}else{pause();render();return}}if(playing)clock=requestAnimationFrame(animate)}
 function start(){finishMark();if(playing){pause();return}if(current().step===0&&current().selected===null){$('feedback').textContent='Сначала выбери свой ответ. Затем нажми «Далее» или «Смотреть».';return}if(current().elapsed>=sceneDuration(task,current().step))resetPosition(current());showTaskDrawing();playing=true;lastTimestamp=null;playLabel();clock=requestAnimationFrame(animate)}
-$('yearPicker').addEventListener('change', () => selectYear(Number($('yearPicker').value)));
+function closeEditionMenu() {
+  $('editionMenu').open = false;
+  $('editionToggle').focus?.();
+}
+
+$('yearPicker').addEventListener('change', () => {
+  selectYear(Number($('yearPicker').value));
+  if ($('gradePicker').disabled) closeEditionMenu();
+});
 $('openLegacyZoom').onclick = () => {
   const lesson = LESSONS[task];
   if (!lesson.legacyOriginal) return;
@@ -390,7 +400,10 @@ $('openLegacyZoom').onclick = () => {
   image.alt = `Оригинальные условие, рисунки и варианты ответа задачи ${lesson.number}`;
   $('legacyZoom').showModal();
 };
-$('gradePicker').addEventListener('change',()=>{const id=$('gradePicker').value;selectDataset(id)});
+$('gradePicker').addEventListener('change', () => {
+  selectDataset($('gradePicker').value);
+  closeEditionMenu();
+});
 $('levelPicker').addEventListener('click',e=>{const button=e.target.closest('[data-points]');if(button){const points=Number(button.dataset.points);selectTask(groupLast[selectedDataset+':'+points]??activeSet().indices.find(i=>LESSONS[i].points===points))}});
 $('taskPicker').addEventListener('click', e => {
   const button = e.target.closest('[data-task]');
@@ -430,7 +443,24 @@ $('repeat').onclick = () => {
   render();
   saveLessonProgress();
 };
+const lessonMenus = [$('profileMenu'), $('editionMenu')];
+
+document.addEventListener('click', e => {
+  for (const menu of lessonMenus) {
+    if (menu.open && !menu.contains(e.target)) menu.open = false;
+  }
+});
+
 document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') {
+    const menu = lessonMenus.find(item => item.open);
+    if (menu) {
+      menu.open = false;
+      menu.querySelector('summary').focus();
+    }
+    return;
+  }
+  if (lessonMenus.some(menu => menu.open && menu.contains(e.target))) return;
   if (/INPUT|TEXTAREA|SELECT/.test(e.target.tagName) || e.altKey || e.ctrlKey || e.metaKey) return;
   if (e.key === 'ArrowRight') {e.preventDefault(); navigate(current().step + 1)}
   if (e.key === 'ArrowLeft') {e.preventDefault(); navigate(current().step - 1)}
