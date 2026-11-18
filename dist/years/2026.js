@@ -2,6 +2,7 @@
 
 const y2026Asset = name => 'assets/years/2026/' + name + '.png';
 const y2026PuzzleAsset = name => 'assets/years/2026/puzzle-' + name + '.svg';
+const y2026IceCreamAsset = option => 'assets/years/2026/ice-cream-choice-' + option + '.svg';
 const y2026Letters = ['А', 'Б', 'В', 'Г', 'Д'];
 const y2026Lessons = [
   {
@@ -263,6 +264,7 @@ y2026Lessons.forEach((lesson, index) => {
       : y2026Asset('choice-' + lesson.number + '-' + choice));
   }
   if (art?.choiceImages) lesson.choiceImages = art.choiceImages;
+  if (lesson.number === 16) lesson.choiceImages = lesson.choices.map((_, choice) => y2026IceCreamAsset(choice));
   lesson.steps.unshift(['Задача', 'Найди ответ самостоятельно', 'Рассмотри условие и выбери свой вариант. Затем открой решение.']);
 });
 
@@ -610,13 +612,17 @@ function y2026TowerScene(step, frame) {
   return svg(out + arrows + note + scan, 'Таблица высот. Видны башни, которые выше всех стоящих перед ними');
 }
 
+function y2026IceCreamImage(choice, x, y, width, height) {
+  return `<image href="${y2026IceCreamAsset(choice)}" x="${x}" y="${y}" width="${width}" height="${height}"/>`;
+}
+
 function y2026IceCreamScene(step, frame) {
   const names = ['Саша','Маша','Даша'];
   const tastes = ['Ванильное','Клубничное','Шоколадное'];
   const choices = [1,0,4];
   if (step === 1) {
     return svg(y2026Title('Один, два или три шарика')
-      + y2026Image('choice-16-4', 379, 55, 122, 181)
+      + y2026IceCreamImage(4, 379, 55, 122, 181)
       + y2026Text(214,112,'У Саши — 1 шарик') + y2026Text(214,155,'Шоколадных — 3')
       + y2026Caption('Шоколадное у другой девочки'),
     'У Саши один шарик, шоколадное состоит из трёх');
@@ -629,7 +635,7 @@ function y2026IceCreamScene(step, frame) {
       out += y2026Text(x,148,'?',46);
     } else {
       const opacity = i === 2 ? y2026Progress(frame) : 1;
-      out += `<g opacity="${opacity}">` + y2026Image('choice-16-' + choices[i],x-67,60,134,176)
+      out += `<g opacity="${opacity}">` + y2026IceCreamImage(choices[i], x-67, 60, 134, 176)
         + y2026Text(x,264,tastes[i],20) + '</g>';
     }
   });
@@ -692,7 +698,7 @@ function y2026CircleScene(step, frame) {
 }
 
 function y2026CardScene(step) {
-  let out = y2026Image('cards',153,27,334,106);
+  let out = y2026Image('condition-20-cards', 134, 41, 372, 62);
   const choices = step === 1 ? ['?','?','−','?','=','?'] :
     step === 2 ? ['1','6 / 8','−','3 / 5 / 9','=','1 / 7'] : ['1','6','−','9','=','7'];
   choices.forEach((value,i) => {

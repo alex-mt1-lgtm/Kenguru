@@ -47,7 +47,7 @@ test('2026 has 24 lessons, official key, task crops and all referenced choice pi
     assertPng(lesson.originalImage);
     if (lesson.choiceImages) {
       assert.equal(lesson.choiceImages.length, 5);
-      lesson.choiceImages.forEach(index === 0 ? assertVector : assertPng);
+      lesson.choiceImages.forEach(file => (file.endsWith('.svg') ? assertVector : assertPng)(file));
     }
   });
 });

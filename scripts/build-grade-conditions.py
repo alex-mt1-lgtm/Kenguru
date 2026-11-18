@@ -405,10 +405,29 @@ def verified_condition(page, entry):
     entry = entry.copy()
     # Source rectangles use the page's unmodified three-times raster coordinates.
     rows = entry.pop('illustrationRows', [])
-    if not rows:
-        return entry, None
+    choices = entry.pop('choiceRects', [])
+    masks = entry.pop('choiceMasks', [])
+    if choices and (len(choices) != 5 or len(entry.get('choices', [])) != 5):
+        raise ValueError('Five figure rectangles require five option descriptions')
+    if not rows and not choices:
+        return entry, None, []
     pixmap = page.get_pixmap(matrix=fitz.Matrix(SCALE, SCALE), alpha=False)
     source = Image.frombytes('RGB', (pixmap.width, pixmap.height), pixmap.samples)
+    figures = []
+    for index, rectangle in enumerate(choices):
+        if rectangle is None:
+            figures.append(None)
+            continue
+        left, top, right, bottom = rectangle
+        if not (0 <= left < right <= source.width and 0 <= top < bottom <= source.height):
+            raise ValueError('Option figure exceeds the source page')
+        figure = source.crop((left, top, right, bottom))
+        if masks and masks[index]:
+            x0, y0, x1, y1 = masks[index]
+            ImageDraw.Draw(figure).rectangle((x0 - left, y0 - top, x1 - left, y1 - top), fill='white')
+        figures.append(figure)
+    if not rows:
+        return entry, None, figures
     strips = []
     for rectangles in rows:
         left = min(rect[0] for rect in rectangles)
@@ -432,7 +451,7 @@ def verified_condition(page, entry):
     for strip in strips:
         visual.paste(strip, (0, y))
         y += strip.height + 14
-    return entry, visual
+    return entry, visual, figures
 
 
 def cyrillic_mapping(pdf, font_xref):
@@ -551,10 +570,11 @@ def build(years, cache, preview):
             }
             for number, (page_index, rect) in sorted(regions.items()):
                 if str(number) in verified:
-                    entry, visual = verified_condition(pdf[page_index], verified[str(number)])
+                    entry, visual, figures = verified_condition(pdf[page_index], verified[str(number)])
                     failure = None
                 else:
                     entry, visual, failure = native_condition(pdf[page_index], year, number, rect, tokens[page_index])
+                    figures = []
                 if failure:
                     failures[failure] += 1
                     if preview:
@@ -567,6 +587,18 @@ def build(years, cache, preview):
                         visual.save(assets / name, 'WEBP', quality=92, method=4)
                     entry.update(image=f'assets/grade-conditions/{year}/{name}',
                                  imageWidth=visual.width, imageHeight=visual.height)
+                if figures:
+                    paths = []
+                    for index, figure in enumerate(figures):
+                        if figure is None:
+                            paths.append(None)
+                            continue
+                        name = f'choice-{number:02d}-{index + 1}.webp'
+                        if not preview:
+                            assets.mkdir(parents=True, exist_ok=True)
+                            figure.save(assets / name, 'WEBP', quality=93, method=4)
+                        paths.append(f'assets/grade-conditions/{year}/{name}')
+                    entry['choiceImages'] = paths
                 if preview:
                     print(f'{year}/{number}', entry)
                 entries[number] = entry

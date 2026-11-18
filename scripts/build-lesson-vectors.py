@@ -95,6 +95,11 @@ def main():
         for name, region in TASK_REGIONS.items():
             export(tasks[0], region, OUTPUT / f'{name}.svg')
         export(solutions[3], (172, 51, 251, 129), OUTPUT / 'puzzle-complete.svg')
+        desserts = [(54.5, 326.1, 77, 365.4), (124.5, 327, 142, 365.5),
+                    (196.4, 325.4, 221.4, 367), (266.5, 326.6, 290, 365.5),
+                    (339, 324.8, 364.5, 367)]
+        for index, region in enumerate(desserts):
+            export(tasks[2], region, OUTPUT / f'ice-cream-choice-{index}.svg')
 
     cube_regions = {
         'remaining': (321, 13, 371, 57),

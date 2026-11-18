@@ -266,13 +266,13 @@ function renderAnswers() {
     } else if (task === 6) {
       description = CUBE_COLUMN_NAMES.map((name, col) => name + ': ' + CUBE_HEIGHTS[i][col]).join(', ');
       picture = `<img src="assets/cubes-${i}.svg" alt="">`;
-    } else if (lesson.choiceImages) {
+    } else if (lesson.choiceImages?.[i]) {
       picture = `<img src="${lesson.choiceImages[i]}" alt="">`;
     }
     const label = ('Выбрать ответ ' + answerLetter(i) + (description ? ': ' + description : '')).replaceAll('&', '&amp;').replaceAll('"', '&quot;');
     const printedValue = String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
     return `<button class="answer ${st.selected === i ? 'selected' : ''}" data-answer="${i}" aria-label="${label}" aria-pressed="${st.selected === i}">
-      ${picture}<strong>${answerLetter(i)}</strong>${illustrated || !value ? '' : `<span>${printedValue}</span>`}
+      ${picture}<strong>${answerLetter(i)}</strong>${picture || !value ? '' : `<span>${printedValue}</span>`}
     </button>`;
   }).join('');
   renderButtons('answers', 'data-answer', markup);

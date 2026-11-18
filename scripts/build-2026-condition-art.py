@@ -117,6 +117,7 @@ def build():
                 'width': image.width,
                 'height': image.height,
             }
+        save(render(document[3], FRAGMENTS[20][3][0]), 'condition-20-cards')
         data[21]['choiceImages'] = [
             save(render(document[3], region), f'condition-21-choice-{index}')
             for index, region in enumerate(STICK_CHOICES)

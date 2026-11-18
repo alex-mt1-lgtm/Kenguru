@@ -423,6 +423,7 @@
       const illustration = !authoredTask && imported?.image
         ? svg(imported.imageWidth, imported.imageHeight, 'Рисунки и варианты из условия',
             `<image href="${escape(imported.image)}" width="${imported.imageWidth}" height="${imported.imageHeight}"/>`)
+          .replace('<svg ', `<svg style="max-width:${imported.imageWidth}px" `)
         : '';
       const steps = [
         ['Твоё решение', 'Условие задачи', 'Выбери свой вариант ответа.'],
@@ -440,6 +441,7 @@
         skill: '',
         answer,
         choices: native?.choices ?? ['', '', '', '', ''],
+        choiceImages: native?.choiceImages,
         question: native?.question ?? '',
         conditionImage: !authoredTask ? imported?.image : undefined,
         questionNote: note,

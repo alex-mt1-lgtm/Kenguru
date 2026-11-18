@@ -302,13 +302,19 @@ def build(years, cache, preview):
         failures = Counter()
         folder = BASE / 'dist' / 'assets' / 'legacy-conditions' / str(year)
         scan = year in SCANS
+        manual_path = BASE / 'sources' / str(year) / 'native-conditions.json'
+        manual = json.loads(manual_path.read_text()) if manual_path.is_file() else {}
         with fitz.open(BASE / 'sources' / str(year) / 'tasks.pdf') as pdf:
             try:
                 tokens = [list(source_tokens(page, year, i, cache)) for i, page in enumerate(pdf)]
             except (FileNotFoundError, CONDITIONS['subprocess'].CalledProcessError):
-                print(f'{year}: OCR unavailable, using source cards', flush=True)
-                continue
+                print(f'{year}: OCR unavailable, retaining checked conditions', flush=True)
+                tokens = None
+            if tokens is None:
+                entries.update({int(number): entry for number, entry in catalog.get(str(year), {}).items()})
             for task in task_regions(pdf, year):
+                if str(task.number) in manual or tokens is None:
+                    continue
                 entry, visual, failure = native_condition(pdf[task.page], task, tokens[task.page], year, scan)
                 if failure:
                     failures[failure] += 1
@@ -325,6 +331,10 @@ def build(years, cache, preview):
                 entries[task.number] = entry
                 if preview:
                     print(f'{year}/{task.number}: {entry}')
+        for number, entry in manual.items():
+            if not entry.get('question') or ('choices' in entry and len(entry['choices']) != 5):
+                raise ValueError(f'{year}/{number}: invalid checked condition')
+            entries[int(number)] = entry
         images = sum('image' in item for item in entries.values())
         choices = sum('choices' in item for item in entries.values())
         print(f'{year}: {len(entries)}/26 statements, {choices} text choices, {images} illustrations {failures}', flush=True)

@@ -508,13 +508,21 @@ test('rebuilt visual lessons keep the condition separate and each worked scene i
     }
   }
 
-  appView.run('selectTask(LESSONS.findIndex(item => item.legacyOriginal && !item.question))');
-  assert.equal(appView.element('taskCondition').open, true);
-  assert.equal(appView.element('sceneWorkbench').parentElement, appView.element('conditionScene'));
-  appView.run('navigate(1)');
-  assert.equal(appView.element('taskCondition').open, false);
-  assert.equal(appView.element('conditionImage').hidden, false);
-  assert.equal(appView.element('sceneWorkbench').parentElement, appView.element('lessonScene'));
+  assert.equal(appView.run('LESSONS.length'), 1578);
+  assert.equal(appView.run('LESSONS.filter(item => !item.question?.trim()).map(lessonKey).join(",")'), '');
+  for (const source of context.KENGURU_GRADES_5_6) {
+    const edition = grade[source.id];
+    for (const [index, lesson] of edition.lessons.entries()) {
+      const [width, height] = source.cards[index];
+      const fullCard = `<image href="${lesson.originalImage}" width="${width}" height="${height}"/>`;
+      assert.ok(!edition.scenes[index](0, 0).includes(fullCard), edition.id + '/' + lesson.number);
+    }
+  }
+  appView.run('selectTask(CATALOG.find(set => set.id === "1999-5-6").indices[26])');
+  const options = appView.element('answers').innerHTML;
+  assert.equal((options.match(/<img /gu) ?? []).length, 4);
+  assert.match(options, /все площади равны/iu);
+  assert.doesNotMatch(options, /src="null"/u);
 });
 
 test('the server catalogue matches the task answers and rating points', () => {
