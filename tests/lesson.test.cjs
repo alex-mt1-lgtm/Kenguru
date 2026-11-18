@@ -176,41 +176,6 @@ test('a new learner gets a clean attempt even in a tab that inherits storage',()
   assert.equal(sharedLegacy.size,1);
 });
 
-test('profiles separate answers, opened solutions and drafts on a shared browser',()=>{
-  function store(records=new Map()) {
-    return {get length(){return records.size},key:i=>[...records.keys()][i],
-      getItem:key=>records.get(key),setItem:(key,value)=>records.set(key,value),removeItem:key=>records.delete(key)};
-  }
-  const localStorage=store(),sessionStorage=store();
-  const appBrowser=(session,type)=>({localStorage,sessionStorage:session,location:{hash:'#zadacha=2024-3-4/10'},
-    performance:{getEntriesByType:()=>[{type}]}});
-  const a=app(true,null,appBrowser(sessionStorage,'navigate'));
-  assert.equal(a.run('createProfile("Лиса")'),'');
-  const first=a.run('activeProfileId');
-  a.element('draftNotes').input({target:{value:'Мои вычисления'}});
-  a.run('FRUIT_WORK.assignment[0]=3');
-  a.element('answers').click({target:{closest:()=>({dataset:{answer:'2'}})}});
-  a.run('navigate(lastStep())');
-  assert.equal(a.run('createProfile("Робот")'),'');
-  assert.equal(a.run('current().selected'),null);
-  assert.equal(a.run('current().step'),0);
-  assert.equal(a.run('FRUIT_WORK.assignment[0]'),null);
-  assert.equal(a.element('draftNotes').value,'');
-  assert.match(a.element('collectionProgress').textContent,/открыто ответов 0 из 24/);
-  a.element('answers').click({target:{closest:()=>({dataset:{answer:'1'}})}});
-  a.element('profilePicker').change({target:{value:first}});
-  assert.equal(a.run('current().selected'),2);
-  assert.equal(a.run('current().step===lastStep()'),true);
-  assert.equal(a.run('FRUIT_WORK.assignment[0]'),3);
-  assert.equal(a.element('draftNotes').value,'Мои вычисления');
-  assert.equal(app(true,null,appBrowser(sessionStorage,'reload')).run('current().selected'),2);
-  const guest=app(true,null,appBrowser(store(),'navigate'));
-  assert.equal(guest.run('current().selected'),null);
-  assert.equal(guest.run('current().step'),0);
-  guest.element('profilePicker').change({target:{value:first}});
-  assert.equal(guest.run('current().selected'),2);
-});
-
 test('the 2000 deep link keeps Latin labels and scores against its own key', () => {
   const a = app(true, null, {location: {hash: '#zadacha=2000-3-4/1'}});
   assert.equal(a.run('activeSet().year'), 2000);
@@ -257,20 +222,22 @@ test('the draft surface popover closes after selection and with the draft', () =
   assert.equal(a.element('draftBoard').hidden, true);
 });
 
-test('profile scores award the first independent correct answer once and survive a reload', () => {
-  const local = new Map();
-  const session = new Map();
-  const store = values => ({getItem: key => values.get(key), setItem: (key, value) => values.set(key, value)});
-  const browser = {localStorage: store(local), sessionStorage: store(session)};
-  const a = app(true, null, browser);
+test('account scores award the first correct answer once and are restored on another device', async () => {
+  const user = {id: 29, username: 'Лиса'};
+  let server = {revision: 0, progress: {}};
+  const request = async (_, data) => {
+    if (data) server = {revision: server.revision + 1, progress: {...server.progress, ...data.progress}};
+    return server;
+  };
+  const a = accountBrowser(request);
   const selectAnswer = index => a.element('answers').click({
     target: {closest: () => ({dataset: {answer: String(index)}})},
   });
   const correct = () => selectAnswer(a.run('LESSONS[task].answer'));
 
   assert.equal(a.element('openProfileRating').hidden, true);
-  a.run('createProfile("Лиса")');
-  const fox = a.run('activeProfileId');
+  a.account(user);
+  await syncTurn();
   correct();
   assert.equal(a.element('profileRatingPoints').textContent, '0 баллов');
   a.element('next').onclick();
@@ -304,34 +271,25 @@ test('profile scores award the first independent correct answer once and survive
   assert.equal(a.element('ratingBadgeCount').textContent, '3 из 6');
   assert.match(a.element('ratingBadges').innerHTML, /is-earned[^]*Все уровни/u);
 
-  a.run('createProfile("Ворон")');
-  assert.equal(a.element('profileRatingPoints').textContent, '0 баллов');
-  correct();
-  a.run('navigate(1); renderRatingDialog()');
-  assert.equal(a.element('profileRatingPoints').textContent, '5 баллов');
-  const leaderboard = a.element('ratingLeaderboard').innerHTML;
-  assert.ok(leaderboard.indexOf('Лиса') < leaderboard.indexOf('Ворон'));
-  assert.match(leaderboard, /Ворон <small>\(ты\)<\/small>/u);
-  assert.equal(app(true, null, browser).element('profileRatingPoints').textContent, '5 баллов');
-
-  a.element('profilePicker').change({target: {value: fox}});
-  assert.equal(a.element('profileRatingPoints').textContent, '12 баллов');
+  await syncTurn();
+  const reloaded = accountBrowser(request);
+  reloaded.account(user);
+  await syncTurn();
+  assert.equal(reloaded.element('profileRatingPoints').textContent, '12 баллов');
 });
 
-test('a walkthrough opened before scoring stays ineligible after repeat', () => {
-  const local = new Map([
-    ['kenguru:profiles:v1', '[{"id":"legacy","name":"Лиса"}]'],
-    ['kenguru:profile:legacy:2024-3-4/1', '{"step":1,"selected":4,"seen":false}'],
-  ]);
-  const a = app(true, null, {
-    location: {hash: '#zadacha=2024-3-4/1'},
-    localStorage: {getItem: key => local.get(key), setItem: (key, value) => local.set(key, value)},
-    sessionStorage: {getItem: () => 'legacy'},
-  });
-  assert.equal(a.run('current().step'), 1);
-  a.element('repeat').onclick();
-  a.run('current().selected=LESSONS[task].answer; navigate(1)');
-  assert.equal(a.element('profileRatingPoints').textContent, '0 баллов');
+test('a walkthrough opened before scoring stays ineligible after repeat', async () => {
+  const prior = {revision: 1, progress: {
+    current: '"2024-3-4/1"',
+    '2024-3-4/1': '{"step":1,"selected":4,"seen":false}',
+  }};
+  const visit = accountBrowser(async (_, data) => data ? {revision: 2, progress: {...prior.progress, ...data.progress}} : prior);
+  visit.account({id: 30, username: 'Ученик'});
+  await syncTurn();
+  assert.equal(visit.run('current().step'), 1);
+  visit.element('repeat').onclick();
+  visit.run('current().selected=LESSONS[task].answer; navigate(1)');
+  assert.equal(visit.element('profileRatingPoints').textContent, '0 баллов');
 });
 
 function accountBrowser(request, records = new Map(), local = new Map()) {
@@ -349,7 +307,7 @@ function accountBrowser(request, records = new Map(), local = new Map()) {
 
 const syncTurn = () => new Promise(resolve => setImmediate(resolve));
 
-test('account progress and rating sync across devices while browser profiles stay private', async () => {
+test('account progress and rating sync across devices while guest progress stays separate', async () => {
   const account = {id: 17, username: 'Ученик'};
   let server = {revision: 0, progress: {current: '"2024-3-4/2"'}};
   let uploads = 0;
@@ -366,7 +324,7 @@ test('account progress and rating sync across devices while browser profiles sta
   const session = new Map();
   const local = new Map();
   const first = accountBrowser(request, session, local);
-  first.run('createProfile("Браузер"); selectTask(3); current().selected=1; navigate(1)');
+  first.run('selectTask(3); current().selected=1; navigate(1)');
   first.account(account);
   await syncTurn();
   assert.equal(first.run('task'), 1);
@@ -387,9 +345,9 @@ test('account progress and rating sync across devices while browser profiles sta
   first.account(null);
   assert.equal(first.run('task'), 3);
   assert.equal(first.run('current().selected'), 1);
-  assert.doesNotMatch(first.element('profilePicker').innerHTML, /Ученик/u);
+  assert.equal(first.element('profileSummary').textContent, 'Профиль');
   const guestReload = accountBrowser(request, session, local);
-  assert.doesNotMatch(guestReload.element('profilePicker').innerHTML, /Ученик/u);
+  assert.equal(guestReload.element('profileSummary').textContent, 'Профиль');
   guestReload.run('selectTask(1)');
   assert.equal(guestReload.run('current().selected'), null);
 });

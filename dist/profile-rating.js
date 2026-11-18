@@ -58,9 +58,8 @@ function renderRatingSummary() {
 }
 
 function renderRatingDialog() {
-  const profiles = availableProfiles();
   const rating = getProfileRating(activeProfileId);
-  $('ratingProfileName').textContent = profiles.find(profile => profile.id === activeProfileId)?.name ?? '';
+  $('ratingProfileName').textContent = accountProfile?.name ?? '';
   $('ratingPoints').textContent = formatRatingPoints(rating.points);
   $('ratingSolved').textContent = taskCount(rating.solved);
   const achievements = ratingAchievements(rating);
@@ -73,20 +72,6 @@ function renderRatingDialog() {
     </li>`;
   }).join('');
 
-  const entries = profiles.map(profile => ({
-    ...profile,
-    points: profile.id === activeProfileId ? rating.points : getProfileRating(profile.id).points,
-  })).sort((a, b) => b.points - a.points || a.name.localeCompare(b.name, 'ru'));
-  let place = 0;
-  $('ratingLeaderboard').innerHTML = entries.map((entry, index) => {
-    if (entries[index - 1]?.points !== entry.points) place = index + 1;
-    const isActive = entry.id === activeProfileId;
-    const name = entry.name.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
-    return `<li${isActive ? ' aria-current="true"' : ''}>
-      <span><b>${place}.</b> ${name}${isActive ? ' <small>(ты)</small>' : ''}</span>
-      <strong>${formatRatingPoints(entry.points)}</strong>
-    </li>`;
-  }).join('');
 }
 
 function setupProfileRating() {
@@ -98,9 +83,4 @@ function setupProfileRating() {
     dialog.showModal();
   };
   dialog.addEventListener('close', () => $('profileToggle').focus());
-  globalThis.addEventListener?.('storage', event => {
-    if (event.key && event.key !== profileListKey && !event.key.includes(':rating:')) return;
-    renderRatingSummary();
-    if (dialog.open) renderRatingDialog();
-  });
 }

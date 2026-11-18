@@ -392,7 +392,7 @@ body{font-size:18px;line-height:1.5}.player .condition{margin:18px 0 24px;font-s
 .rating-rule { color: var(--muted); font-size: 14px; margin: 8px 0 14px; }
 .rating-dialog h3 { margin: 0 0 8px; font-size: 17px; }
 #ratingBadgeCount { color: var(--muted); font-size: 14px; font-weight: 400; margin-inline-start: 4px; }
-.rating-badges, .rating-standings ol { padding: 0; margin: 0; list-style: none; }
+.rating-badges { padding: 0; margin: 0; list-style: none; }
 .rating-badges { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 202px), 1fr)); gap: 7px; }
 .rating-badge { padding: 8px 10px; border: 1px solid #dadfd5; border-radius: 8px; font-size: 14px; }
 .rating-badge > div { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 8px; }
@@ -400,6 +400,3 @@ body{font-size:18px;line-height:1.5}.player .condition{margin:18px 0 24px;font-s
 .rating-badge-status { color: var(--muted); white-space: nowrap; }
 .rating-badge.is-earned { border-color: #aacdbd; background: #eaf3e9; }
 .rating-badge.is-earned .rating-badge-status { color: #17625e; font-weight: 700; }
-.rating-standings { margin-top: 12px; padding-top: 8px; border-top: 1px solid var(--line); font-size: 15px; }
-.rating-standings li { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 4px 8px; padding: 5px 8px; overflow-wrap: anywhere; }
-.rating-standings li[aria-current] { border-radius: 6px; background: #eaf3e9; }
