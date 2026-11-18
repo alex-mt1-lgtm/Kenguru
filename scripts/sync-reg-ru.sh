@@ -4,7 +4,7 @@ set -euo pipefail
 umask 022
 
 site_root=${1:-"$HOME/www/olympiads.pro"}
-state_dir="$HOME/.olympiads-deploy"
+state_dir=${2:-"$(dirname -- "$(dirname -- "$site_root")")/.olympiads-deploy"}
 repo_url=https://github.com/alex-mt1-lgtm/Kenguru.git
 release_ref=refs/heads/olympiads
 
