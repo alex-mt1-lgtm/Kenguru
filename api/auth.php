@@ -1,0 +1,629 @@
+<?php
+declare(strict_types=1);
+
+const ACCOUNT_ORIGIN = 'https://olympiads.pro';
+const SESSION_LIFETIME = 1209600;
+const RESET_LIFETIME = 1800;
+const BCRYPT_COST = 12;
+const PROGRESS_BODY_LIMIT = 524288;
+const PROGRESS_TOTAL_LIMIT = 4194304;
+const PROGRESS_KEY_LIMIT = 4096;
+const LESSON_KEY_PATTERN = '[0-9]{4}(?:-[a-z0-9]{1,12}){1,4}/[1-9][0-9]{0,2}';
+
+final class AccountError extends RuntimeException
+{
+    public function __construct(
+        public readonly int $status,
+        string $message,
+        public readonly array $data = [],
+    ) {
+        parent::__construct($message);
+    }
+}
+
+function reply(int $status, array $payload): void
+{
+    http_response_code($status);
+    echo json_encode($payload, JSON_THROW_ON_ERROR | JSON_UNESCAPED_UNICODE);
+}
+
+function inDirectory(string $path, string $directory): bool
+{
+    return $path === $directory || str_starts_with($path, $directory . DIRECTORY_SEPARATOR);
+}
+
+function privateDirectory(string $directory): string
+{
+    if (!is_dir($directory) && !@mkdir($directory, 0700, true) && !is_dir($directory)) {
+        throw new RuntimeException('private directory unavailable');
+    }
+    $resolved = realpath($directory);
+    $mode = $resolved === false ? false : fileperms($resolved);
+    if ($resolved === false || $mode === false || ($mode & 0077) !== 0) {
+        throw new RuntimeException('private directory permissions');
+    }
+    return $resolved;
+}
+
+function openAccountDatabase(string $path): PDO
+{
+    $db = new PDO('sqlite:' . $path, null, null, [
+        PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+        PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+    ]);
+    $db->exec('PRAGMA busy_timeout = 5000');
+    $version = (int) $db->query('PRAGMA user_version')->fetchColumn();
+    if ($version > 1) {
+        throw new RuntimeException('unsupported account database version');
+    }
+    if ($version === 0) {
+        $db->beginTransaction();
+        $db->exec(<<<'SQL'
+            CREATE TABLE IF NOT EXISTS accounts (
+                id INTEGER PRIMARY KEY,
+                username TEXT NOT NULL,
+                username_key TEXT UNIQUE NOT NULL,
+                email TEXT UNIQUE NOT NULL,
+                password_hash TEXT NOT NULL,
+                session_version INTEGER NOT NULL DEFAULT 1,
+                reset_digest TEXT UNIQUE,
+                reset_expires INTEGER,
+                progress_revision INTEGER NOT NULL DEFAULT 0,
+                progress_json TEXT NOT NULL DEFAULT '{}'
+            );
+            CREATE TABLE IF NOT EXISTS auth_limits (
+                digest TEXT NOT NULL,
+                expires INTEGER NOT NULL,
+                hits INTEGER NOT NULL,
+                PRIMARY KEY (digest, expires)
+            );
+            CREATE INDEX IF NOT EXISTS auth_limits_expiry ON auth_limits (expires);
+            CREATE TABLE IF NOT EXISTS auth_settings (
+                name TEXT PRIMARY KEY,
+                value TEXT NOT NULL
+            );
+            SQL);
+        $db->prepare("INSERT OR IGNORE INTO auth_settings VALUES ('limit_secret', ?)")
+            ->execute([bin2hex(random_bytes(32))]);
+        $db->exec('PRAGMA user_version = 1');
+        $db->commit();
+    }
+    return $db;
+}
+
+function startAccountSession(string $directory): void
+{
+    session_name('__Host-kenguru_account');
+    if (!session_start([
+        'save_handler' => 'files',
+        'save_path' => $directory,
+        'use_strict_mode' => 1,
+        'use_only_cookies' => 1,
+        'use_trans_sid' => 0,
+        'cookie_lifetime' => SESSION_LIFETIME,
+        'cookie_path' => '/',
+        'cookie_domain' => '',
+        'cookie_secure' => true,
+        'cookie_httponly' => true,
+        'cookie_samesite' => 'Lax',
+        'gc_maxlifetime' => SESSION_LIFETIME,
+        'gc_probability' => 1,
+        'gc_divisor' => 100,
+        'cache_limiter' => '',
+    ])) {
+        throw new RuntimeException('session unavailable');
+    }
+    $_SESSION['csrf'] ??= bin2hex(random_bytes(32));
+}
+
+function rotateAccountSession(?array $account = null): void
+{
+    $_SESSION = [];
+    if (!session_regenerate_id(true)) {
+        throw new RuntimeException('session rotation failed');
+    }
+    $_SESSION['csrf'] = bin2hex(random_bytes(32));
+    if ($account !== null) {
+        $_SESSION['user_id'] = (int) $account['id'];
+        $_SESSION['version'] = (int) $account['session_version'];
+        $_SESSION['expires'] = time() + SESSION_LIFETIME;
+    }
+}
+
+function accountForSession(PDO $db): ?array
+{
+    if (!isset($_SESSION['user_id'])) {
+        return null;
+    }
+    $lookup = $db->prepare('SELECT id, username, session_version FROM accounts WHERE id = ?');
+    $lookup->execute([$_SESSION['user_id']]);
+    $account = $lookup->fetch();
+    if (!$account || (int) $account['session_version'] !== $_SESSION['version'] || time() >= ($_SESSION['expires'] ?? 0)) {
+        rotateAccountSession();
+        return null;
+    }
+    return $account;
+}
+
+function sessionPayload(?array $account): array
+{
+    return [
+        'user' => $account === null ? null : ['id' => (int) $account['id'], 'username' => $account['username']],
+        'csrf' => $_SESSION['csrf'],
+    ];
+}
+
+function getPayload(int $limit): stdClass
+{
+    $type = strtolower(trim(explode(';', $_SERVER['CONTENT_TYPE'] ?? '', 2)[0]));
+    if ($type !== 'application/json') {
+        throw new AccountError(415, 'Запрос должен быть в формате JSON.');
+    }
+    $raw = file_get_contents('php://input', false, null, 0, $limit + 1);
+    if ($raw === false || strlen($raw) > $limit) {
+        throw new AccountError(413, 'Запрос слишком большой.');
+    }
+    try {
+        $payload = json_decode($raw, false, 32, JSON_THROW_ON_ERROR);
+    } catch (JsonException) {
+        $payload = null;
+    }
+    if (!$payload instanceof stdClass) {
+        throw new AccountError(400, 'Не удалось прочитать данные запроса.');
+    }
+    return $payload;
+}
+
+function field(stdClass $payload, string $key): string
+{
+    return is_string($payload->$key ?? null) ? $payload->$key : '';
+}
+
+function emailKey(string $email): string
+{
+    $email = strtolower(trim($email));
+    return strlen($email) <= 254 && !preg_match('/[\x00-\x20\x7f,]/', $email)
+        && filter_var($email, FILTER_VALIDATE_EMAIL) ? $email : '';
+}
+
+function passwordAllowed(string $password): bool
+{
+    return strlen($password) <= 72 && !str_contains($password, "\0") && mb_strlen($password, 'UTF-8') >= 10;
+}
+
+function passwordDigest(string $password): string
+{
+    return password_hash($password, PASSWORD_BCRYPT, ['cost' => BCRYPT_COST]);
+}
+
+function ratePermit(PDO $db, string $secret, string $bucket, int $limit, int $window): bool
+{
+    $expires = (intdiv(time(), $window) + 1) * $window;
+    $update = $db->prepare(<<<'SQL'
+        INSERT INTO auth_limits (digest, expires, hits) VALUES (:digest, :expires, 1)
+        ON CONFLICT (digest, expires) DO UPDATE SET hits = hits + 1 WHERE hits < :limit
+        SQL);
+    $update->bindValue(':digest', hash_hmac('sha256', $bucket, $secret));
+    $update->bindValue(':expires', $expires, PDO::PARAM_INT);
+    $update->bindValue(':limit', $limit, PDO::PARAM_INT);
+    $update->execute();
+    return $update->rowCount() === 1;
+}
+
+function enforceRate(PDO $db, string $secret, string $bucket, int $limit, int $window): void
+{
+    if (!ratePermit($db, $secret, $bucket, $limit, $window)) {
+        throw new AccountError(429, 'Слишком много попыток. Попробуй чуть позже.');
+    }
+}
+
+function registerAccount(PDO $db, stdClass $data): array
+{
+    $username = trim(field($data, 'username'));
+    $email = emailKey(field($data, 'email'));
+    $password = field($data, 'password');
+    if (!preg_match('/\A[\p{Latin}\p{Cyrillic}0-9_-]{3,24}\z/u', $username)) {
+        throw new AccountError(422, 'Логин должен содержать от 3 до 24 букв, цифр, дефисов или знаков подчёркивания.');
+    }
+    if ($email === '') {
+        throw new AccountError(422, 'Введи действующий адрес электронной почты.');
+    }
+    if (!passwordAllowed($password)) {
+        throw new AccountError(422, 'Пароль должен содержать не менее 10 символов и занимать не более 72 байт.');
+    }
+    $insert = $db->prepare(<<<'SQL'
+        INSERT INTO accounts (username, username_key, email, password_hash) VALUES (?, ?, ?, ?)
+        ON CONFLICT DO NOTHING
+        SQL);
+    $insert->execute([$username, mb_strtolower($username, 'UTF-8'), $email, passwordDigest($password)]);
+    if ($insert->rowCount() === 0) {
+        throw new AccountError(409, 'Не удалось создать аккаунт с этими данными. Проверь логин или восстанови пароль.');
+    }
+    $account = ['id' => (int) $db->lastInsertId(), 'username' => $username, 'session_version' => 1];
+    rotateAccountSession($account);
+    return sessionPayload($account);
+}
+
+function loginAccount(PDO $db, stdClass $data, string $secret): array
+{
+    $login = mb_strtolower(trim(field($data, 'login')), 'UTF-8');
+    $password = field($data, 'password');
+    if ($login === '' || strlen($login) > 254 || !passwordAllowed($password)) {
+        throw new AccountError(401, 'Проверь логин и пароль.');
+    }
+    enforceRate($db, $secret, 'login-id:' . $login, 12, 900);
+    $column = str_contains($login, '@') ? 'email' : 'username_key';
+    $lookup = $db->prepare("SELECT id, username, session_version, password_hash FROM accounts WHERE $column = ?");
+    $lookup->execute([$login]);
+    $account = $lookup->fetch();
+    // Give unknown logins the same verification work.
+    $dummy = '$2y$12$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2uheWG/igi.';
+    if (!password_verify($password, $account['password_hash'] ?? $dummy) || !$account) {
+        throw new AccountError(401, 'Проверь логин и пароль.');
+    }
+    rotateAccountSession($account);
+    return sessionPayload($account);
+}
+
+function sendResetMail(string $email, string $token, string $sender): bool
+{
+    $link = ACCOUNT_ORIGIN . '/#reset=' . $token;
+    $subject = '=?UTF-8?B?' . base64_encode('Восстановление пароля') . '?=';
+    $body = "Чтобы задать новый пароль для olympiads.pro, открой ссылку:\r\n\r\n"
+        . $link . "\r\n\r\nСсылка действует 30 минут. Если ты не запрашивал восстановление, проигнорируй письмо.\r\n";
+    try {
+        return function_exists('mail') && @mail($email, $subject, $body, [
+            'From' => $sender,
+            'MIME-Version' => '1.0',
+            'Content-Type' => 'text/plain; charset=UTF-8',
+            'Content-Transfer-Encoding' => '8bit',
+        ], '-f' . $sender);
+    } catch (Throwable) {
+        return false;
+    }
+}
+
+function requestPasswordReset(PDO $db, stdClass $data, string $secret, string $sender): void
+{
+    $started = hrtime(true);
+    $email = emailKey(field($data, 'email'));
+    $token = bin2hex(random_bytes(32));
+    $digest = hash('sha256', $token);
+    $message = ['message' => 'Если этот адрес связан с аккаунтом, мы отправим ссылку для восстановления пароля.'];
+    $willSend = false;
+    if ($email !== '' && ratePermit($db, $secret, 'reset-email:' . $email, 3, 3600)) {
+        $update = $db->prepare('UPDATE accounts SET reset_digest = ?, reset_expires = ? WHERE email = ?');
+        $update->execute([$digest, time() + RESET_LIFETIME, $email]);
+        $willSend = $update->rowCount() === 1;
+    }
+    session_write_close();
+    $finishEarly = function_exists('fastcgi_finish_request');
+    if ($finishEarly) {
+        // Finish the FastCGI response before invoking sendmail so delivery time stays private.
+        waitForResetResponse($started, 150000);
+        reply(200, $message);
+        fastcgi_finish_request();
+    }
+    if ($willSend && !sendResetMail($email, $token, $sender)) {
+        error_log('olympiads auth: password reset mail rejected by local mailer');
+    }
+    if (!$finishEarly) {
+        waitForResetResponse($started, 350000);
+        reply(200, $message);
+    }
+}
+
+function waitForResetResponse(int $started, int $minimumMicroseconds): void
+{
+    $remaining = $minimumMicroseconds - intdiv(hrtime(true) - $started, 1000);
+    if ($remaining > 0) {
+        usleep($remaining);
+    }
+}
+
+function resetPassword(PDO $db, stdClass $data): array
+{
+    $token = field($data, 'token');
+    $password = field($data, 'password');
+    if (!preg_match('/\A[a-f0-9]{64}\z/', $token)) {
+        throw new AccountError(422, 'Ссылка недействительна или уже использована. Запроси новую.');
+    }
+    if (!passwordAllowed($password)) {
+        throw new AccountError(422, 'Пароль должен содержать не менее 10 символов и занимать не более 72 байт.');
+    }
+    $update = $db->prepare(<<<'SQL'
+        UPDATE accounts
+        SET password_hash = ?, session_version = session_version + 1,
+            reset_digest = NULL, reset_expires = NULL
+        WHERE reset_digest = ? AND reset_expires > ?
+        SQL);
+    $update->execute([passwordDigest($password), hash('sha256', $token), time()]);
+    if ($update->rowCount() === 0) {
+        throw new AccountError(422, 'Ссылка недействительна или уже использована. Запроси новую.');
+    }
+    rotateAccountSession();
+    return sessionPayload(null) + ['message' => 'Пароль изменён. Войди с новым паролем.'];
+}
+
+function validDrawingCoordinates(mixed $coordinates, int $dimensions): bool
+{
+    if (!is_array($coordinates) || count($coordinates) !== $dimensions) {
+        return false;
+    }
+    foreach ($coordinates as $coordinate) {
+        if ((!is_int($coordinate) && !is_float($coordinate)) || abs($coordinate) > 4096) {
+            return false;
+        }
+    }
+    return true;
+}
+
+function validDrawing(mixed $marks): bool
+{
+    if (!is_array($marks) || count($marks) > 500) {
+        return false;
+    }
+    foreach ($marks as $mark) {
+        if (!$mark instanceof stdClass
+            || !in_array($mark->type ?? null, ['pen', 'line', 'arrow', 'ladder', 'fill'], true)
+            || !is_string($mark->color ?? null)
+            || !preg_match('/\A#[a-f0-9]{6}\z/i', $mark->color)
+            || array_diff(array_keys(get_object_vars($mark)), ['type', 'color', 'points', 'cells'])
+            || ($mark->type === 'fill' && !is_array($mark->cells ?? null))) {
+            return false;
+        }
+        $points = $mark->points ?? [];
+        $cells = $mark->cells ?? [];
+        if (!is_array($points) || count($points) > 5000 || !is_array($cells) || count($cells) > 500) {
+            return false;
+        }
+        foreach ($points as $coordinates) {
+            if (!validDrawingCoordinates($coordinates, 2)) {
+                return false;
+            }
+        }
+        foreach ($cells as $coordinates) {
+            if (!validDrawingCoordinates($coordinates, 4)) {
+                return false;
+            }
+        }
+    }
+    return true;
+}
+
+function validLessonProgress(mixed $progress): bool
+{
+    return $progress instanceof stdClass
+        && !array_diff(array_keys(get_object_vars($progress)), ['step', 'selected', 'seen', 'reviewOpened'])
+        && is_int($progress->step ?? null) && $progress->step >= 0 && $progress->step <= 500
+        && property_exists($progress, 'selected')
+        && ($progress->selected === null || (is_int($progress->selected) && $progress->selected >= 0 && $progress->selected <= 50))
+        && is_bool($progress->seen ?? null)
+        && (!property_exists($progress, 'reviewOpened') || is_bool($progress->reviewOpened));
+}
+
+function preserveLessonReview(string $previous, string $incoming): string
+{
+    $saved = json_decode($previous, false, 12, JSON_THROW_ON_ERROR);
+    $next = json_decode($incoming, false, 12, JSON_THROW_ON_ERROR);
+    $seen = $saved->seen || $next->seen;
+    $reviewOpened = ($saved->reviewOpened ?? false) || ($next->reviewOpened ?? false)
+        || $saved->step > 0 || $next->step > 0;
+    if ($next->seen === $seen && ($next->reviewOpened ?? false) === $reviewOpened) {
+        return $incoming;
+    }
+    $next->seen = $seen;
+    $next->reviewOpened = $reviewOpened;
+    return json_encode($next, JSON_THROW_ON_ERROR | JSON_UNESCAPED_UNICODE);
+}
+
+function validProgressEntry(string $key, mixed $value): bool
+{
+    $lesson = LESSON_KEY_PATTERN;
+    if (!is_string($value) || strlen($value) > 262144) {
+        return false;
+    }
+    if (preg_match('~\Arating:' . $lesson . '\z~', $key)) {
+        return in_array($value, ['solved', 'reviewed'], true);
+    }
+    try {
+        $parsed = json_decode($value, false, 12, JSON_THROW_ON_ERROR);
+    } catch (JsonException) {
+        return false;
+    }
+    if ($key === 'current') {
+        return is_string($parsed) && preg_match('~\A' . $lesson . '\z~', $parsed);
+    }
+    if (preg_match('~\A' . $lesson . '\z~', $key)) {
+        return strlen($value) <= 512 && validLessonProgress($parsed);
+    }
+    if (preg_match('~\Anotes:' . $lesson . '\z~', $key)) {
+        return is_string($parsed) && strlen($parsed) <= 16000;
+    }
+    if (preg_match('~\A(?:paper:' . $lesson . ':(?:plain|grid)|scene:' . $lesson . ':[0-9]{1,3}:[0-9]?)\z~', $key)) {
+        return validDrawing($parsed);
+    }
+    return false;
+}
+
+function progressForAccount(PDO $db, array $account, ?stdClass $data = null): array
+{
+    $expected = $data === null ? ($_GET['accountId'] ?? null) : ($data->accountId ?? null);
+    if ($expected !== null && $expected !== (int) $account['id'] && $expected !== (string) $account['id']) {
+        throw new AccountError(409, 'Аккаунт изменился. Обнови страницу.', sessionPayload($account));
+    }
+    $lookup = $db->prepare('SELECT progress_revision, progress_json FROM accounts WHERE id = ? AND session_version = ?');
+    $lookup->execute([$account['id'], $account['session_version']]);
+    $record = $lookup->fetch();
+    if (!$record) {
+        rotateAccountSession();
+        throw new AccountError(401, 'Войди в аккаунт, чтобы сохранить прогресс.', sessionPayload(null));
+    }
+    $revision = (int) $record['progress_revision'];
+    $progress = json_decode($record['progress_json'], false, 12, JSON_THROW_ON_ERROR);
+    $result = ['revision' => $revision, 'progress' => $progress];
+    if ($data === null) {
+        return $result;
+    }
+    if (!is_int($data->revision ?? null) || $data->revision < 0
+        || !(($data->progress ?? null) instanceof stdClass) || count(get_object_vars($data->progress)) > PROGRESS_KEY_LIMIT) {
+        throw new AccountError(422, 'Не удалось прочитать данные прогресса.');
+    }
+    if ($data->revision !== $revision) {
+        throw new AccountError(409, 'Прогресс изменился на другом устройстве.', $result);
+    }
+    foreach ($data->progress as $key => $value) {
+        if (!validProgressEntry($key, $value)) {
+            throw new AccountError(422, 'Некоторые данные прогресса имеют неверный формат.');
+        }
+        // Keep the result from the first attempt recorded for each account and task.
+        if (str_starts_with($key, 'rating:') && property_exists($progress, $key)) {
+            continue;
+        }
+        if (isset($progress->$key) && preg_match('~\A' . LESSON_KEY_PATTERN . '\z~', $key)) {
+            $value = preserveLessonReview($progress->$key, $value);
+        }
+        $progress->$key = $value;
+    }
+    $encoded = json_encode($progress, JSON_THROW_ON_ERROR | JSON_UNESCAPED_UNICODE);
+    if (strlen($encoded) > PROGRESS_TOTAL_LIMIT || count(get_object_vars($progress)) > PROGRESS_KEY_LIMIT) {
+        throw new AccountError(413, 'Достигнут предел хранения прогресса.');
+    }
+    if ($encoded === $record['progress_json']) {
+        return $result;
+    }
+    $save = $db->prepare(<<<'SQL'
+        UPDATE accounts SET progress_json = ?, progress_revision = progress_revision + 1
+        WHERE id = ? AND progress_revision = ? AND session_version = ?
+        SQL);
+    $save->execute([$encoded, $account['id'], $revision, $account['session_version']]);
+    if ($save->rowCount() === 0) {
+        throw new AccountError(409, 'Прогресс изменился на другом устройстве.', progressForAccount($db, $account));
+    }
+    return ['revision' => $revision + 1, 'progress' => $progress];
+}
+
+function routeAccountRequest(): void
+{
+    $https = $_SERVER['HTTPS'] ?? getenv('HTTPS', true);
+    if ($https !== 'on' && $https !== '1') {
+        throw new AccountError(403, 'Для входа в аккаунт требуется защищённое соединение.');
+    }
+    $method = $_SERVER['REQUEST_METHOD'] ?? '';
+    $action = $_GET['action'] ?? 'session';
+    $allowed = match ($action) {
+        'session' => 'GET',
+        'progress' => 'GET, POST',
+        'register', 'login', 'logout', 'request-reset', 'reset' => 'POST',
+        default => '',
+    };
+    if ($allowed === '') {
+        throw new AccountError(404, 'Такой операции нет.');
+    }
+    if (!in_array($method, explode(', ', $allowed), true)) {
+        header('Allow: ' . $allowed);
+        throw new AccountError(405, 'Этот метод запроса не поддерживается.');
+    }
+    $origin = $_SERVER['HTTP_ORIGIN'] ?? ACCOUNT_ORIGIN;
+    if ($origin !== ACCOUNT_ORIGIN || ($_SERVER['HTTP_SEC_FETCH_SITE'] ?? '') === 'cross-site') {
+        throw new AccountError(403, 'Запрос с другого сайта отклонён.');
+    }
+    umask(0077);
+    $home = dirname(__DIR__, 3);
+    $www = realpath($_SERVER['DOCUMENT_ROOT'] ?? '') ?: dirname(__DIR__);
+    // Prefer the actual DOCUMENT_ROOT to find the home if the API is accessed through a release symlink.
+    $serverRoot = rtrim($_SERVER['DOCUMENT_ROOT'] ?? '', DIRECTORY_SEPARATOR);
+    if (basename(dirname($serverRoot)) === 'www') {
+        $home = dirname($serverRoot, 2);
+    }
+    $configPath = realpath($home . '/olympiads-config.php');
+    if ($configPath === false || inDirectory($configPath, $www) || !is_readable($configPath)
+        || !extension_loaded('pdo_sqlite') || !extension_loaded('mbstring')) {
+        throw new RuntimeException('account configuration unavailable');
+    }
+    $config = require $configPath;
+    $sender = $config['mail_from'] ?? '';
+    if (!is_string($sender) || emailKey($sender) === '' || !preg_match('/\A[a-z0-9_.+%@-]+\z/i', $sender)) {
+        throw new RuntimeException('account mail sender misconfigured');
+    }
+    $path = $config['database'] ?? $home . '/.olympiads-auth/accounts.sqlite';
+    if (!is_string($path) || !str_starts_with($path, '/') || str_contains($path, "\0")
+        || !preg_match('/\A[A-Za-z0-9_.-]+\.sqlite\z/', basename($path))) {
+        throw new RuntimeException('account database path misconfigured');
+    }
+    $directory = privateDirectory(dirname($path));
+    $database = $directory . '/' . basename($path);
+    if (inDirectory($directory, $www) || is_link($database) || (file_exists($database) && !is_file($database))) {
+        throw new RuntimeException('account database requires a private path');
+    }
+    $sessionDirectory = privateDirectory($directory . '/sessions');
+    if (inDirectory($sessionDirectory, $www) || dirname($sessionDirectory) !== $directory) {
+        throw new RuntimeException('account sessions require a private path');
+    }
+    $db = openAccountDatabase($database);
+    startAccountSession($sessionDirectory);
+    $account = accountForSession($db);
+    if ($method === 'GET') {
+        if ($action === 'session') {
+            reply(200, sessionPayload($account));
+        } elseif ($account === null) {
+            throw new AccountError(401, 'Войди в аккаунт, чтобы сохранить прогресс.', sessionPayload(null));
+        } else {
+            reply(200, progressForAccount($db, $account));
+        }
+        return;
+    }
+    if (!hash_equals($_SESSION['csrf'], $_SERVER['HTTP_X_CSRF_TOKEN'] ?? '')) {
+        throw new AccountError(403, 'Сессия обновилась. Повтори действие.', ['csrf' => $_SESSION['csrf']]);
+    }
+    $data = getPayload($action === 'progress' ? PROGRESS_BODY_LIMIT : 8192);
+    if ($action === 'logout') {
+        rotateAccountSession();
+        reply(200, sessionPayload(null) + ['message' => 'Ты вышел из аккаунта.']);
+        return;
+    }
+    if ($action === 'progress') {
+        if ($account === null) {
+            throw new AccountError(401, 'Войди в аккаунт, чтобы сохранить прогресс.', sessionPayload(null));
+        }
+        reply(200, progressForAccount($db, $account, $data));
+        return;
+    }
+    $secret = $db->query("SELECT value FROM auth_settings WHERE name = 'limit_secret'")->fetchColumn();
+    $ip = $_SERVER['REMOTE_ADDR'] ?? '';
+    if (random_int(1, 100) === 1) {
+        $db->prepare('DELETE FROM auth_limits WHERE expires <= ?')->execute([time()]);
+    }
+    match ($action) {
+        'register' => enforceRate($db, $secret, 'register-ip:' . $ip, 12, 3600),
+        'login' => enforceRate($db, $secret, 'login-ip:' . $ip, 80, 900),
+        'request-reset' => enforceRate($db, $secret, 'reset-mail-ip:' . $ip, 15, 3600),
+        'reset' => enforceRate($db, $secret, 'reset-ip:' . $ip, 20, 900),
+    };
+    if ($action === 'request-reset') {
+        requestPasswordReset($db, $data, $secret, $sender);
+        return;
+    }
+    $result = match ($action) {
+        'register' => registerAccount($db, $data),
+        'login' => loginAccount($db, $data, $secret),
+        'reset' => resetPassword($db, $data),
+    };
+    reply($action === 'register' ? 201 : 200, $result);
+}
+
+ini_set('display_errors', '0');
+header('Content-Type: application/json; charset=UTF-8');
+header('Cache-Control: no-store, private');
+header('X-Content-Type-Options: nosniff');
+header('Referrer-Policy: no-referrer');
+
+try {
+    routeAccountRequest();
+} catch (AccountError $error) {
+    reply($error->status, ['error' => $error->getMessage()] + $error->data);
+} catch (Throwable $error) {
+    // Exception details may contain filesystem paths or request data.
+    error_log('olympiads auth: account backend unavailable (' . $error::class . ')');
+    reply(503, ['error' => 'Аккаунты временно недоступны. Попробуй позже.']);
+}

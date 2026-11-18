@@ -33,6 +33,10 @@ const taskInUrl = () => LESSONS.findIndex((_, index) => taskHash(index) === glob
 const progressPrefix = 'kenguru:attempt:';
 const profileListKey = 'kenguru:profiles:v1';
 let activeProfileId = '';
+let localProfileId = '';
+let accountProfile = null;
+let accountProgress = null;
+let accountResume = false;
 const fruitByProfile = new Map();
 
 function readProfiles() {
@@ -47,8 +51,13 @@ function readProfiles() {
   }
 }
 
-function renderProfiles() {
+function availableProfiles() {
   const profiles = readProfiles();
+  return accountProfile ? [accountProfile, ...profiles] : profiles;
+}
+
+function renderProfiles() {
+  const profiles = availableProfiles();
   const active = profiles.find(profile => profile.id === activeProfileId);
   $('profileSummary').textContent = active ? active.name : 'Профиль';
   $('profileToggle').setAttribute('aria-label', active ? `Профиль: ${active.name}` : 'Профиль');
@@ -59,16 +68,20 @@ function renderProfiles() {
   renderRatingSummary();
 }
 
-function switchProfile(id) {
-  if (id === activeProfileId || (id && !readProfiles().some(profile => profile.id === id))) return;
+function switchProfile(id, {resume = false, preferredTask = -1} = {}) {
+  if (id === activeProfileId || (id && !availableProfiles().some(profile => profile.id === id))) return;
   finishMark();
   pause();
   fruitByProfile.set(activeProfileId, {...FRUIT_WORK});
   activeProfileId = id;
-  try {
-    globalThis.sessionStorage?.setItem(progressPrefix + 'profile', id);
-  } catch {
-    // The profile selection is still available for this page.
+  const signedInProfile = id === accountProfile?.id;
+  if (!signedInProfile) {
+    localProfileId = id;
+    try {
+      globalThis.sessionStorage?.setItem(progressPrefix + 'profile', id);
+    } catch {
+      // The profile selection is still available for this page.
+    }
   }
   resetFruitWorkspace();
   if (fruitByProfile.has(id)) Object.assign(FRUIT_WORK, fruitByProfile.get(id));
@@ -79,7 +92,10 @@ function switchProfile(id) {
   for (const key of Object.keys(datasetLast)) delete datasetLast[key];
   restoreProgress();
   renderProfiles();
-  selectTask(task, 'replaceState');
+  const position = signedInProfile || resume ? savedTaskIndex() : -1;
+  const next = preferredTask >= 0 ? preferredTask : position >= 0 ? position : resume ? 0 : task;
+  selectTask(next, 'replaceState', !signedInProfile);
+  if ($('profileRatingDialog').open) renderRatingDialog();
 }
 
 function createProfile(name) {
@@ -99,18 +115,25 @@ function createProfile(name) {
   return '';
 }
 
-function progressStore() {
-  return activeProfileId ? globalThis.localStorage : globalThis.sessionStorage;
-}
-
 function profileProgressKey(profileId, key) {
   return `kenguru:profile:${profileId}:${key}`;
 }
 
-function progressKey(key) {
-  return activeProfileId ? profileProgressKey(activeProfileId, key) : progressPrefix + key;
+function readProfileValue(profileId, key) {
+  if (profileId === accountProfile?.id) return accountProgress.read(key);
+  if (profileId) return globalThis.localStorage?.getItem(profileProgressKey(profileId, key));
+  return globalThis.sessionStorage?.getItem(progressPrefix + key);
 }
 
+function writeProfileValue(profileId, key, value) {
+  if (profileId === accountProfile?.id) {
+    accountProgress.write(key, value);
+  } else if (profileId) {
+    globalThis.localStorage.setItem(profileProgressKey(profileId, key), value);
+  } else {
+    globalThis.sessionStorage?.setItem(progressPrefix + key, value);
+  }
+}
 
 function startFreshAttemptOnArrival() {
   // A new tab can inherit a copy of its opener's sessionStorage. Keep work
@@ -131,7 +154,7 @@ function startFreshAttemptOnArrival() {
 
 function readProgress(key) {
   try {
-    return JSON.parse(progressStore()?.getItem(progressKey(key)) ?? 'null');
+    return JSON.parse(readProfileValue(activeProfileId, key) ?? 'null');
   } catch {
     return null;
   }
@@ -139,14 +162,20 @@ function readProgress(key) {
 
 function writeProgress(key, value) {
   try {
-    progressStore()?.setItem(progressKey(key), JSON.stringify(value));
+    writeProfileValue(activeProfileId, key, JSON.stringify(value));
   } catch {
     // Progress from the current visit is still available in memory.
   }
 }
 
-function restoreProgress() {
+function savedTaskIndex() {
+  const recent = readProgress('current');
+  return LESSONS.findIndex(lesson => lessonKey(lesson) === recent);
+}
+
+function restoreProgress(changed) {
   LESSONS.forEach((lesson, index) => {
+    if (changed && !changed.has(lessonKey(lesson))) return;
     Object.assign(states[index], {step: 0, frame: 0, elapsed: 0, selected: null, seen: false});
     const saved = readProgress(lessonKey(lesson));
     if (!saved) return;
@@ -157,10 +186,56 @@ function restoreProgress() {
   workVariant = states[0].selected ?? 0;
 }
 
+function refreshAccountProgress(changed) {
+  const resume = accountResume;
+  accountResume = false;
+  if (activeProfileId !== accountProfile?.id || !changed.size) return;
+  const currentChanged = changed.has(lessonKey(LESSONS[task]));
+  if (currentChanged) {
+    finishMark();
+    pause();
+    $('ratingNotice').textContent = '';
+  }
+  restoreProgress(changed);
+  const recent = resume && changed.has('current') ? savedTaskIndex() : -1;
+  if (recent >= 0 && recent !== task) selectTask(recent, 'replaceState', false);
+  else if (currentChanged) render();
+  else renderPicker();
+  renderRatingSummary();
+  if ($('profileRatingDialog').open) renderRatingDialog();
+}
+
+function changeAccount({user, restored}) {
+  const id = user ? `account:${encodeURIComponent(user.id)}` : '';
+  if ((accountProfile?.id ?? '') === id) return;
+  const wasAccount = activeProfileId === accountProfile?.id;
+  accountProgress?.close();
+  accountProgress = null;
+  accountProfile = null;
+  if (user) {
+    accountProfile = {id, name: user.username};
+    accountProgress = createAccountProgress(user, refreshAccountProgress);
+    const preferredTask = restored ? linkedTask : -1;
+    accountResume = preferredTask < 0;
+    switchProfile(id, {preferredTask, resume: wasAccount});
+    accountProgress.refresh();
+  } else if (wasAccount) {
+    const fallback = readProfiles().some(profile => profile.id === localProfileId) ? localProfileId : '';
+    switchProfile(fallback, {resume: true});
+  } else {
+    renderProfiles();
+    if ($('profileRatingDialog').open) renderRatingDialog();
+  }
+}
+
 function saveLessonProgress() {
   const key = lessonKey(LESSONS[task]);
   const {step, selected, seen} = current();
   const previous = readProgress(key);
+  if (activeProfileId === accountProfile?.id) {
+    accountResume = false;
+    writeProgress('current', key);
+  }
   // Keep the fact that the learner has seen the walkthrough even after a repeat.
   writeProgress(key, {
     step, selected,
@@ -382,7 +457,7 @@ function showLessonStep(step) {
   saveLessonProgress();
 }
 function navigate(n){finishMark();pause();showTaskDrawing();showLessonStep(Math.max(0,Math.min(lastStep(),n)))}
-function selectTask(n, historyMethod = 'pushState') {
+function selectTask(n, historyMethod = 'pushState', savePosition = true) {
   if (!LESSONS[n]) return;
   finishMark();
   pause();
@@ -395,7 +470,10 @@ function selectTask(n, historyMethod = 'pushState') {
   datasetLast[selectedDataset] = n;
   const hash = taskHash(n);
   if (globalThis.location && location.hash !== hash) globalThis.history?.[historyMethod](null, '', hash);
-  writeProgress('current', lessonKey(lesson));
+  if (savePosition) {
+    accountResume = false;
+    writeProgress('current', lessonKey(lesson));
+  }
   render();
 }
 function selectDataset(id){const set=CATALOG.find(item=>item.id===id);if(set)selectTask(datasetLast[id]??set.indices[0])}
@@ -473,7 +551,7 @@ document.addEventListener('click', e => {
 });
 
 document.addEventListener('keydown', e => {
-  if ($('profileRatingDialog').open) return;
+  if ($('profileRatingDialog').open || $('accountDialog')?.open) return;
   if (e.key === 'Escape') {
     const menu = lessonMenus.find(item => item.open);
     if (menu) {
@@ -510,14 +588,15 @@ setupProfileRating();
 startFreshAttemptOnArrival();
 try {
   const id = globalThis.sessionStorage?.getItem(progressPrefix + 'profile');
-  if (readProfiles().some(profile => profile.id === id)) activeProfileId = id;
+  if (readProfiles().some(profile => profile.id === id)) localProfileId = activeProfileId = id;
 } catch {
   // Open in guest mode when storage is unavailable.
 }
 renderProfiles();
 restoreProgress();
 const linkedTask = taskInUrl();
-const recentTask = readProgress('current');
-const recentIndex = LESSONS.findIndex(lesson => lessonKey(lesson) === recentTask);
-selectTask(linkedTask === -1 ? Math.max(recentIndex, 0) : linkedTask, 'replaceState');
+selectTask(linkedTask === -1 ? Math.max(savedTaskIndex(), 0) : linkedTask, 'replaceState');
 if (linkedTask !== -1) $('lesson').scrollIntoView?.({block: 'start'});
+globalThis.addEventListener?.('kenguru:accountchange', event => changeAccount(event.detail));
+globalThis.addEventListener?.('online', () => accountProgress?.refresh());
+globalThis.addEventListener?.('focus', () => accountProgress?.refresh());
