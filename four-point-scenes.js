@@ -25,11 +25,17 @@ const FOUR_CARD_SOLUTION=[6,4,5,1,2,7,3];
 const FOUR_CIRCLE_COLORS=['#246bb0','#be5c20','#247758','#8150a7'];
 const FOUR_CIRCLE_CARDS=[[0,1],[1,2,3],[3,4,5],[5,6]];
 function fpCircleScene(s,f){const highlighted=[[],[0],[3],[1,2],[1,2],[0,1,2,3]][s]||[],values=[6,'','','?','','',3],centres=[86,186,287,387],cardCentres=[86,136,186,236,287,337,387];if(s>=1)values[1]=4;if(s>=2)values[5]=7;if(s>=4){values[2]=5;values[3]=1;values[4]=2}
-// Keep the actual competition drawing fixed on every slide. Highlights and
-// discovered numbers are registered to the original image coordinates.
-let out='<image href="assets/circle-cards.png" x="0" y="25" width="475" height="166"/>';
-centres.forEach((x,i)=>{const active=highlighted.includes(i);out+=`<circle data-circle="${i+1}" data-highlighted="${active}" cx="${x}" cy="110" r="76" fill="none" stroke="${active?FOUR_CIRCLE_COLORS[i]:'transparent'}" stroke-width="3"/>`+fpText(x,17,'Круг '+(i+1),16,active?FOUR_CIRCLE_COLORS[i]:'#536c69')});
-values.forEach((value,i)=>{if(i===0||i===6||value===''||value==='?')return;const x=cardCentres[i];if(i===3)out+=`<rect x="${x-13}" y="89" width="26" height="43" fill="#c8e5d2"/>`;out+=fpText(x,123,value,28)});
+// Match circle centers and card positions to the official drawing.
+let out=centres.map((x,i)=>{
+  const active=highlighted.includes(i),stroke=active?FOUR_CIRCLE_COLORS[i]:'#222624';
+  return `<circle data-circle="${i+1}" data-highlighted="${active}" cx="${x}" cy="110" r="76" fill="none" stroke="${stroke}" stroke-width="2.6"/>`
+    +fpText(x,17,'Круг '+(i+1),16,active?stroke:'#536c69');
+}).join('');
+values.forEach((value,i)=>{
+  const x=cardCentres[i],fill=i===3&&s>=4?'#c8e5d2':'#f5b28c';
+  out+=`<rect x="${x-15}" y="84" width="30" height="50" rx="5" fill="${fill}" stroke="#33413c"/>`;
+  if(value!=='')out+=fpText(x,122,value,30,'#232c29');
+});
 const notes=s===0?[]:s===1?[['Круг 1','6 + 4 = 10',0]]:s===2?[['Круг 4','7 + 3 = 10',3]]:s===3?[['Круг 2','4 + ? + ? = 10 → осталось 6',1],['Круг 3','? + ? + 7 = 10 → осталось 3',2]]:s===4?[['Круг 2','4 + 5 + 1 = 10',1],['Круг 3','1 + 2 + 7 = 10',2]]:[['Круг 1','6 + 4 = 10',0],['Круг 2','4 + 5 + 1 = 10',1],['Круг 3','1 + 2 + 7 = 10',2],['Круг 4','7 + 3 = 10',3]];
 return `<div class="circle-walkthrough">${svg(out,'Оригинальная схема четырёх кругов. Выделены круги: '+(highlighted.map(i=>i+1).join(', ')||'ни один')+'. Карты: '+values.map(v=>v===''?'пустая':v).join(', '),'0 0 475 200')}${s===0?'<p class="circle-legend">Круги пронумерованы слева направо. Карта в пересечении относится к обоим соседним кругам.</p>':''}<div class="circle-relations">${notes.map(([name,equation,i])=>`<div style="border-left-color:${FOUR_CIRCLE_COLORS[i]}"><strong style="color:${FOUR_CIRCLE_COLORS[i]}">${name}</strong><span>${equation}</span></div>`).join('')}</div>${s===2?'<p class="circle-legend">Теперь свободны только числа 1, 2 и 5.</p>':s===3?'<p class="circle-legend">Для двух пустых карт круга 2 подходят 1 и 5, а для двух пустых карт круга 3 — 1 и 2.</p>':s===4?'<p class="circle-legend">Карта 1 лежит в пересечении кругов 2 и 3. Она учитывается в обеих суммах.</p>':''}</div>`}
 

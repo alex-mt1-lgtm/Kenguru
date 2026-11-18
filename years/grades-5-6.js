@@ -9,7 +9,7 @@
 
   function conditionScene(path, width, height, label) {
     return visual.svg(`<image href="${visual.escape(path)}" width="${width}" height="${height}"/>`,
-      label, `0 0 ${width} ${height}`, 'legacy-scene');
+      label, `0 0 ${width} ${height}`, 'legacy-scene').replace('<svg ', `<svg style="max-width:${width}px" `);
   }
 
   function officialSteps(stages) {
@@ -54,7 +54,7 @@
         skill: custom?.skill ?? '',
         answer,
         choices,
-        choiceImages: custom?.choiceImages,
+        choiceImages: custom ? custom.choiceImages : native?.choiceImages,
         question,
         conditionImage: custom?.conditionImage ?? (!custom ? figure : undefined),
         legacyOriginal: !custom || Boolean(custom.originalAtStart),
