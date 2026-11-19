@@ -12,16 +12,70 @@
   .header-sign-in { padding-inline: 8px; font-size: 13px; }
 }
 
-.account-menu {
+.profile-panel {
+  width: min(22rem, calc(100vw - 20px));
+  max-height: calc(100dvh - 72px);
+  margin-top: 4px;
+  padding: 0;
+  overflow: auto;
+  overscroll-behavior: contain;
+  border-color: #c7d5cb;
+  border-radius: 16px;
+  box-shadow: 0 12px 36px #102e232b;
+}
+.profile-identity {
+  --sun-size: 82px;
+  --sun-top: -36px;
+  --sun-right: -25px;
+  --ring-size: 60px;
+  --ring-right: 28px;
+  --ring-bottom: -48px;
+  padding: 12px 70px 15px 17px;
+}
+.profile-identity span { display: block; font-size: .75rem; }
+.profile-identity strong { display: block; font-size: 1.35rem; line-height: 1.18; overflow-wrap: anywhere; }
+.profile-actions, .profile-settings { margin: 0; padding: 5px 7px; }
+.profile-settings { border-top: 1px solid #d5e1d7; }
+.learner-profiles .profile-action {
   display: grid;
-  gap: 8px;
+  grid-template-columns: 24px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 10px;
+  min-height: 46px;
+  padding: 8px 9px;
+  border: 0;
+  background: transparent;
+  font-size: .9375rem;
+  line-height: 1.25;
+  text-align: start;
 }
-
-.account-menu p {
-  overflow-wrap: anywhere;
+.profile-actions .profile-action { font-weight: 700; }
+.profile-action:hover, .profile-action:focus-visible { background: #e9f3ee; }
+.profile-action:focus-visible { outline: 2px solid #315e50; outline-offset: -2px; }
+.profile-icon {
+  width: 21px; height: 21px;
+  fill: none; stroke: #315e50; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round;
 }
+#profileRatingPoints {
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: #e3efe8;
+  color: #244b40;
+  font-size: .8rem;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+.profile-settings .profile-action { grid-template-columns: 24px minmax(0, 1fr); }
+#accountEmailHint {
+  display: block;
+  margin-top: 3px;
+  color: #4f6065;
+  font-size: .8rem;
+  line-height: 1.35;
+}
+.learner-profiles #accountMenuStatus { margin: 4px 9px 8px; font-size: .875rem; overflow-wrap: anywhere; }
+.learner-profiles #accountMenuStatus:empty { display: none; }
 
-.account-menu p:empty,
 .account-dialog [role="status"]:empty,
 .account-dialog [role="alert"]:empty {
   margin: 0;
@@ -130,7 +184,7 @@
 }
 
 .account-dialog [aria-disabled="true"],
-.account-menu [aria-disabled="true"] {
+.profile-settings [aria-disabled="true"] {
   opacity: 0.55;
   cursor: wait;
 }
