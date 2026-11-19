@@ -232,3 +232,91 @@
 .leaderboard-rules { margin: 0 0 12px; }
 .leaderboard-rules > summary { cursor: pointer; font-weight: 700; }
 .leaderboard-rules > p { max-width: 64ch; margin: .5rem 0 0; }
+
+.personal-rating .leaderboard-hero p { overflow-wrap: anywhere; }
+.personal-rating-content { padding: 18px 23px 10px; }
+.rating-stats {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 0 0 22px;
+  padding: 14px 0;
+  border: 1px solid #d9e6dd;
+  border-radius: 15px;
+  background: #e9f3ee;
+}
+.rating-stats > div { display: grid; align-content: space-between; gap: 3px; padding: 0 18px; }
+.rating-stats > div + div { border-inline-start: 1px solid #c6d8cb; }
+.rating-stats dt { color: #415b52; font-size: .85rem; }
+.rating-stats dd { margin: 0; color: #244b40; font-size: 2rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+#ratingAchievementsTitle { display: flex; align-items: baseline; gap: 9px; margin: 0; font-size: 1.25rem; }
+#ratingBadgeCount { color: var(--board-muted); font-size: .875rem; font-weight: 400; white-space: nowrap; }
+.rating-badges {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 24px;
+  margin: 6px 0 0;
+  padding: 0;
+  list-style: none;
+}
+.rating-badge {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--board-line);
+}
+.rating-badge-label strong { font-size: .96875rem; }
+.rating-badge-label small { display: block; margin-top: 3px; color: var(--board-muted); font-size: .8125rem; line-height: 1.35; }
+.rating-badge-status {
+  display: grid;
+  justify-items: end;
+  gap: 5px;
+  color: var(--board-muted);
+  font-size: .8125rem;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.rating-badge progress {
+  width: 3.5rem;
+  height: 5px;
+  border: 0;
+  border-radius: 4px;
+  overflow: hidden;
+  appearance: none;
+  background: #e1e9e1;
+}
+.rating-badge progress::-webkit-progress-bar { background: #e1e9e1; }
+.rating-badge progress::-webkit-progress-value { background: var(--board-teal); }
+.rating-badge progress::-moz-progress-bar { background: var(--board-teal); }
+.is-earned .rating-badge-status {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 7px;
+  border-radius: 999px;
+  background: #ffedb6;
+  color: #59431c;
+  font-weight: 700;
+}
+.is-earned .rating-badge-status::before {
+  content: '';
+  width: 4px;
+  height: 8px;
+  border: solid currentColor;
+  border-width: 0 1.5px 1.5px 0;
+  transform: translateY(-1px) rotate(45deg);
+}
+.personal-rating-rules { margin-top: 6px; padding: 0; border: 0; font-size: .875rem; line-height: 1.45; }
+.personal-rating-rules summary { width: fit-content; padding: 13px 0; min-height: 44px; color: var(--board-teal); font-weight: 700; }
+.personal-rating-rules p { margin: 0 0 10px; max-width: 66ch; }
+@media (max-width: 720px) {
+  .personal-rating-content { padding: 12px 14px 6px; }
+}
+@media (max-width: 640px) {
+  .rating-badges { grid-template-columns: minmax(0, 1fr); }
+  .rating-stats { margin-bottom: 16px; padding: 12px 0; }
+  .rating-stats > div { padding: 0 12px; }
+  .rating-stats dd { font-size: 1.65rem; }
+  .rating-badge { padding: 9px 0; }
+}
