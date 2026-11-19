@@ -28,13 +28,33 @@ function loadLessonCatalog() {
   const files = [...defaultScripts, 'lesson-visuals.js', ...yearScripts.map(yearFile), 'contests/medvezhonok-2025.js'];
   if (fs.existsSync(path.join(dist, descriptions))) files.push(descriptions);
   for (const file of files) vm.runInContext(readScript(file), context, {filename: file});
+  const russianRows = new Map();
+  vm.runInContext(readScript('contests/medvezhonok-archive.js'), context);
+  for (let year = 2024; year >= 2004; year--) {
+    const directory = path.join(dist, '../sources/medvezhonok', String(year));
+    const read = file => JSON.parse(fs.readFileSync(path.join(directory, file + '.json'), 'utf8'));
+    const tasks = read('tasks');
+    const reviews = read('reviews');
+    const figures = fs.existsSync(path.join(directory, 'figures.json')) ? read('figures') : {};
+    const corrections = fs.existsSync(path.join(directory, 'corrections.json')) ? read('corrections') : {};
+    for (const [grade, list] of Object.entries(tasks)) {
+      if (reviews[grade]?.length !== list.length) throw new Error(year + '/' + grade + ': incomplete walkthroughs');
+      const rows = list.map((task, i) => {
+        const id = grade + '/' + (i + 1);
+        return {...task, ...corrections[id], review: reviews[grade][i], figure: figures[id]};
+      });
+      const edition = context.makeMedvezhonokEdition(year, grade, rows);
+      russianRows.set(edition.id, rows);
+      context.MEDVEZHONOK_EDITIONS.push(edition);
+    }
+  }
   const app = readScript('app.js');
   const end = app.indexOf('\nconst $=id=>');
   if (end === -1) throw new Error('Cannot find the lesson catalogue');
   vm.runInContext(app.slice(0, end), context, {filename: 'app.js'});
   const {lessons, catalog} = vm.runInContext('({lessons: LESSONS, catalog: CATALOG})', context);
   return {
-    lessons, catalog, context,
+    lessons, catalog, context, russianRows,
     choiceLayouts: context.KENGURU_CHOICE_LAYOUTS ?? {},
     graphicAnswerDescriptions: context.KENGURU_GRAPHIC_ANSWER_DESCRIPTIONS ?? {},
   };

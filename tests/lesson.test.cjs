@@ -377,7 +377,7 @@ test('the Russian editions keep their own tasks, years, archive and return posit
   assert.match(visit.element('scene').innerHTML, /medvezhonok-rebus/);
   assert.equal(visit.element('editionArchive').href, '/archive.html#russian');
   assert.equal(visit.run('activeSet().indices.length'), 28);
-  assert.equal((visit.element('yearPicker').innerHTML.match(/<option/g) ?? []).length, 1);
+  assert.equal((visit.element('yearPicker').innerHTML.match(/<option/g) ?? []).length, 22);
   await visit.run('selectDataset("2025-medvezhonok-4-5")');
   assert.equal(visit.run('activeSet().indices.length'), 30);
   const picker = visit.element('subjectPicker');

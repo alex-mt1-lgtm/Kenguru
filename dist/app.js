@@ -373,6 +373,11 @@ function sceneMarkup(lesson, step, frame) {
   if (task === 9) return fruitWorkspaceScene();
   if (lesson.choiceLayout) {
     const figure = lesson.choiceLayout.condition;
+    if (figure?.items) {
+      return '<div class="named-figures">' + figure.items.map(({src, caption, alt}) =>
+        '<figure><img src="' + escapeAnswerText(src) + '" alt="' + escapeAnswerText(alt)
+        + '"><figcaption>' + escapeAnswerText(caption) + '</figcaption></figure>').join('') + '</div>';
+    }
     return figure
       ? `<svg class="legacy-scene" role="img" aria-label="${escapeAnswerText(figure.alt ?? 'Рисунок из условия задачи')}" viewBox="0 0 ${figure.width} ${figure.height}" style="max-width:${figure.width}px"><image href="${figure.src}" width="${figure.width}" height="${figure.height}"/></svg>`
       : '';
@@ -415,8 +420,13 @@ function escapeAnswerText(value) {
     .replaceAll('>', '&gt;').replaceAll('"', '&quot;');
 }
 
-function choiceTextMarkup(value, presentation) {
-  const text = escapeAnswerText(value);
+function linguisticMarkup(value) {
+  return value.split(/(<\/?(?:em|strong|u)>)/g)
+    .map((part, index) => index % 2 ? part : escapeAnswerText(part)).join('');
+}
+
+function choiceTextMarkup(value, presentation, formatted) {
+  const text = formatted ? linguisticMarkup(formatted) : escapeAnswerText(value);
   if (presentation === 'mirror-letters') {
     return `<span class="choice-word">${[...value].map(letter =>
       `<span class="choice-mirror-horizontal">${escapeAnswerText(letter)}</span>`).join('')}</span>`;
@@ -461,7 +471,7 @@ function renderAnswers() {
     const label = escapeAnswerText('Выбрать ответ ' + answerLetter(i) + (description ? ': ' + description : ''));
     const visibleText = option ? option.text : picture ? '' : value;
     return `<button class="answer ${st.selected === i ? 'selected' : ''}" data-answer="${i}" aria-label="${label}" aria-pressed="${st.selected === i}">
-      ${picture}<strong>${answerLetter(i)}</strong>${visibleText ? choiceTextMarkup(visibleText, option?.presentation) : ''}
+      ${picture}<strong>${answerLetter(i)}</strong>${visibleText ? choiceTextMarkup(visibleText, option?.presentation, lesson.formattedChoices?.[i]) : ''}
     </button>`;
   }).join('');
   renderButtons('answers', 'data-answer', markup);
@@ -502,7 +512,8 @@ function renderPicker() {
   $('archiveShortLabel').textContent = `${set.year} · ${shortGrade}`;
   $('editionToggle').setAttribute('aria-label', `${subjectNames[subject]}, ${set.year} · ${set.label}. Выбрать предмет и выпуск`);
   const gradeGroup = ['1-2', '3-4', '5-6', '7-8', '9-11'][Math.min(4, Math.floor((firstGrade - 1) / 2))];
-  const archiveHash = subject === 'ru' ? 'russian' : 'grades-' + gradeGroup;
+  const russianHash = set.year === 2025 ? 'russian' : 'russian-' + set.year;
+  const archiveHash = subject === 'ru' ? russianHash : 'grades-' + gradeGroup;
   $('editionArchive').href = '/archive.html#' + archiveHash;
   $('allEditions').href = $('editionArchive').href;
   const position = indices.indexOf(task);
@@ -545,7 +556,8 @@ function renderCondition(lesson, step) {
   if (shownConditionTask !== task) details.open = true;
   shownConditionTask = task;
 
-  question.textContent = lesson.question ?? '';
+  if (lesson.formattedQuestion) question.innerHTML = linguisticMarkup(lesson.formattedQuestion);
+  else question.textContent = lesson.question ?? '';
   question.hidden = !lesson.question;
   note.textContent = lesson.questionNote ?? '';
   note.hidden = !lesson.questionNote;
@@ -595,6 +607,8 @@ function render() {
   } else if (final && lesson.officialValueKey) {
     feedback.textContent = Number.isInteger(lesson.answer) && st.selected === lesson.answer
       ? 'Твой выбор совпал с официальным ответом.' : choice;
+  } else if (final && lesson.archiveAnswer) {
+    feedback.textContent = [choice, 'В официальном ключе указан ответ ' + lesson.archiveAnswer + '. Этот результат не влияет на рейтинг.'].filter(Boolean).join(' ');
   } else if (final && lesson.answer === null) {
     feedback.textContent = [choice, 'Для этой задачи в официальном ключе нет ответа.'].filter(Boolean).join(' ');
   } else if (final) {
@@ -604,6 +618,8 @@ function render() {
     const answer = answerLetter(lesson.answer) + (value ? ': ' + value : '');
     const punctuation = /[.!?]$/u.test(answer) ? '' : '.';
     feedback.textContent = [result, `Ответ ${answer}${punctuation}`].filter(Boolean).join(' ');
+  } else if (lesson.author) {
+    feedback.textContent = '';
   } else {
     feedback.textContent = 'Нажми «Смотреть», чтобы оживить схему. Пауза остановит и анимацию, и переходы.';
   }
@@ -617,7 +633,8 @@ function render() {
     $(final ? 'nextTask' : 'next').focus({preventScroll: true});
   }
   $('progress').style.width = ((st.step + 1) / lesson.steps.length * 100) + '%';
-  $('sourceNote').textContent = `${activeSet().sources.contest ?? 'Кенгуру'} ${lesson.year} · ${activeSet().label} · задача №${lesson.number}`;
+  $('sourceNote').textContent = `${activeSet().sources.contest ?? 'Кенгуру'} ${lesson.year} · ${activeSet().label} · задача №${lesson.number}`
+    + (lesson.author ? ' · ' + lesson.author : '');
   playLabel();
 }
 function sceneDuration(t,s){if(s===0)return 1500;if(t>=8)return s===lastStep(t)?4500:6500;if(t===6)return s===7?4000:s===8?4200:6500;if(t===1&&(s===2||s===3)){const length=s===2?FIRE_DISTANCES[FIRE_SPLIT]:FIRE_DISTANCES.at(-1)-FIRE_DISTANCES[FIRE_SPLIT];return length/FIRE_SPEED*1000+400}if(t===3)return[0,1600,3000,3600,2600][s];if((t===0||t===6)&&s===3)return 3600;if(t===7)return[0,1800,2100,4200,2800][s];return s===4?3000:s===1?3000:4200}
