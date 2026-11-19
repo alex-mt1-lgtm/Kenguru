@@ -1,0 +1,591 @@
+{
+  "officialArchive": "https://ipokengu.ru/konkurs-kenguru/zadachi.html",
+  "historicalArchive": "https://mathkang.ru/rar/",
+  "datasets": [
+    {
+      "year": 1997,
+      "id": "1997-9-10",
+      "grades": [
+        9,
+        10
+      ],
+      "label": "9–10 классы",
+      "tasksUrl": "https://files.mathkang.ru/old/kenguru_1997_class_9-10.pdf",
+      "answersUrl": "https://files.mathkang.ru/old/kenguru_1997_answers.pdf",
+      "solutionUrl": null,
+      "sourceDir": "grades-9-10/1997"
+    },
+    {
+      "year": 1998,
+      "id": "1998-9-10",
+      "grades": [
+        9,
+        10
+      ],
+      "label": "9–10 классы",
+      "tasksUrl": "https://files.mathkang.ru/old/kenguru_1998_class_9-10.pdf",
+      "answersUrl": "https://files.mathkang.ru/old/kenguru_1998_answers.pdf",
+      "solutionUrl": null,
+      "sourceDir": "grades-9-10/1998"
+    },
+    {
+      "year": 1999,
+      "id": "1999-9-10",
+      "grades": [
+        9,
+        10
+      ],
+      "label": "9–10 классы",
+      "tasksUrl": "https://files.mathkang.ru/old/kenguru_1999_class_9-10.pdf",
+      "answersUrl": "https://files.mathkang.ru/old/kenguru_1999_answers.pdf",
+      "solutionUrl": null,
+      "sourceDir": "grades-9-10/1999"
+    },
+    {
+      "year": 2000,
+      "id": "2000-9-10",
+      "grades": [
+        9,
+        10
+      ],
+      "label": "9–10 классы",
+      "tasksUrl": "https://files.mathkang.ru/old/kenguru_2000_class_9-10.pdf",
+      "answersUrl": "https://files.mathkang.ru/old/kenguru_2000_answers.pdf",
+      "solutionUrl": null,
+      "sourceDir": "grades-9-10/2000"
+    },
+    {
+      "year": 2001,
+      "id": "2001-9-10",
+      "grades": [
+        9,
+        10
+      ],
+      "label": "9–10 классы",
+      "tasksUrl": "https://ipokengu.ru/public/task/kenguru_2001_class_9-10.pdf",
+      "answersUrl": "https://ipokengu.ru/public/task/kenguru_2001_answers.pdf",
+      "solutionUrl": null,
+      "sourceDir": "grades-9-10/2001"
+    },
+    {
+      "year": 2002,
+      "id": "2002-9-10",
+      "grades": [
+        9,
+        10
+      ],
+      "label": "9–10 классы",
+      "tasksUrl": "https://ipokengu.ru/public/task/kenguru_2002_class_9-10.pdf",
+      "answersUrl": "https://ipokengu.ru/public/task/kenguru_2002_answers.pdf",
+      "solutionUrl": null,
+      "sourceDir": "grades-9-10/2002"
+    },
+    {
+      "year": 2003,
+      "id": "2003-9-10",
+      "grades": [
+        9,
+        10
+      ],
+      "label": "9–10 классы",
+      "tasksUrl": "https://ipokengu.ru/public/task/kenguru_2003_class_9-10.pdf",
+      "answersUrl": "https://ipokengu.ru/public/task/kenguru_2003_answers.pdf",
+      "solutionUrl": null,
+      "sourceDir": "grades-9-10/2003"
+    },
+    {
+      "year": 2004,
+      "id": "2004-9-10",
+      "grades": [
+        9,
+        10
+      ],
+      "label": "9–10 классы",
+      "tasksUrl": "https://ipokengu.ru/public/task/kenguru_2004_class_9-10.pdf",
+      "answersUrl": "https://ipokengu.ru/public/task/kenguru_2004_answers.pdf",
+      "solutionUrl": null,
+      "sourceDir": "grades-9-10/2004"
+    },
+    {
+      "year": 2005,
+      "id": "2005-9-10",
+      "grades": [
+        9,
+        10
+      ],
+      "label": "9–10 классы",
+      "tasksUrl": "https://ipokengu.ru/public/task/kenguru_2005_class_9-10.pdf",
+      "answersUrl": "https://ipokengu.ru/public/task/kenguru_2005_answers.pdf",
+      "solutionUrl": null,
+      "sourceDir": "grades-9-10/2005"
+    },
+    {
+      "year": 2006,
+      "id": "2006-9-10",
+      "grades": [
+        9,
+        10
+      ],
+      "label": "9–10 классы",
+      "tasksUrl": "https://ipokengu.ru/public/task/kenguru_2006_class_9-10.pdf",
+      "answersUrl": "https://ipokengu.ru/public/task/kenguru_2006_answers.pdf",
+      "solutionUrl": null,
+      "sourceDir": "grades-9-10/2006"
+    },
+    {
+      "year": 2007,
+      "id": "2007-9-10",
+      "grades": [
+        9,
+        10
+      ],
+      "label": "9–10 классы",
+      "tasksUrl": "https://ipokengu.ru/public/task/kenguru_2007_class_9-10.pdf",
+      "answersUrl": "https://ipokengu.ru/public/task/kenguru_2007_answers.pdf",
+      "solutionUrl": null,
+      "sourceDir": "grades-9-10/2007"
+    },
+    {
+      "year": 2008,
+      "id": "2008-9-10",
+      "grades": [
+        9,
+        10
+      ],
+      "label": "9–10 классы",
+      "tasksUrl": "https://ipokengu.ru/public/task/kenguru_2008_class_9-10.pdf",
+      "answersUrl": "https://ipokengu.ru/public/task/kenguru_2008_answers.pdf",
+      "solutionUrl": null,
+      "sourceDir": "grades-9-10/2008"
+    },
+    {
+      "year": 2009,
+      "id": "2009-9-10",
+      "grades": [
+        9,
+        10
+      ],
+      "label": "9–10 классы",
+      "tasksUrl": "https://ipokengu.ru/public/task/kenguru_2009_class_9-10.pdf",
+      "answersUrl": "https://ipokengu.ru/public/task/kenguru_2009_answers.pdf",
+      "solutionUrl": null,
+      "sourceDir": "grades-9-10/2009"
+    },
+    {
+      "year": 2010,
+      "id": "2010-9-10",
+      "grades": [
+        9,
+        10
+      ],
+      "label": "9–10 классы",
+      "tasksUrl": "https://ipokengu.ru/public/task/kenguru_2010_class_9-10.pdf",
+      "answersUrl": "https://ipokengu.ru/public/task/kenguru_2010_answers.pdf",
+      "solutionUrl": null,
+      "sourceDir": "grades-9-10/2010"
+    },
+    {
+      "year": 2011,
+      "id": "2011-9-10",
+      "grades": [
+        9,
+        10
+      ],
+      "label": "9–10 классы",
+      "tasksUrl": "https://ipokengu.ru/public/task/kenguru_2011_class_9-10.pdf",
+      "answersUrl": "https://ipokengu.ru/public/task/kenguru_2011_answers.pdf",
+      "solutionUrl": null,
+      "sourceDir": "grades-9-10/2011"
+    },
+    {
+      "year": 2012,
+      "id": "2012-2",
+      "grades": [
+        2
+      ],
+      "label": "2 класс",
+      "tasksUrl": "https://ipokengu.ru/public/task/kenguru_2012_class_2.pdf",
+      "answersUrl": "https://ipokengu.ru/public/task/kenguru_2012_answers.pdf",
+      "solutionUrl": null,
+      "sourceDir": "grades-2/2012"
+    },
+    {
+      "year": 2012,
+      "id": "2012-9-10",
+      "grades": [
+        9,
+        10
+      ],
+      "label": "9–10 классы",
+      "tasksUrl": "https://ipokengu.ru/public/task/kenguru_2012_class_9-10.pdf",
+      "answersUrl": "https://ipokengu.ru/public/task/kenguru_2012_answers.pdf",
+      "solutionUrl": null,
+      "sourceDir": "grades-9-10/2012"
+    },
+    {
+      "year": 2013,
+      "id": "2013-2",
+      "grades": [
+        2
+      ],
+      "label": "2 класс",
+      "tasksUrl": "https://ipokengu.ru/public/task/kenguru_2013_class_2.pdf",
+      "answersUrl": "https://ipokengu.ru/public/task/kenguru_2013_answers.pdf",
+      "solutionUrl": null,
+      "sourceDir": "grades-2/2013"
+    },
+    {
+      "year": 2013,
+      "id": "2013-9-10",
+      "grades": [
+        9,
+        10
+      ],
+      "label": "9–10 классы",
+      "tasksUrl": "https://ipokengu.ru/public/task/kenguru_2013_class_9-10.pdf",
+      "answersUrl": "https://ipokengu.ru/public/task/kenguru_2013_answers.pdf",
+      "solutionUrl": null,
+      "sourceDir": "grades-9-10/2013"
+    },
+    {
+      "year": 2014,
+      "id": "2014-2",
+      "grades": [
+        2
+      ],
+      "label": "2 класс",
+      "tasksUrl": "https://ipokengu.ru/public/task/kenguru_2014_class_2.pdf",
+      "answersUrl": "https://ipokengu.ru/public/task/kenguru_2014_answers.pdf",
+      "solutionUrl": null,
+      "sourceDir": "grades-2/2014"
+    },
+    {
+      "year": 2014,
+      "id": "2014-9-10",
+      "grades": [
+        9,
+        10
+      ],
+      "label": "9–10 классы",
+      "tasksUrl": "https://ipokengu.ru/public/task/kenguru_2014_class_9-10.pdf",
+      "answersUrl": "https://ipokengu.ru/public/task/kenguru_2014_answers.pdf",
+      "solutionUrl": null,
+      "sourceDir": "grades-9-10/2014"
+    },
+    {
+      "year": 2015,
+      "id": "2015-2",
+      "grades": [
+        2
+      ],
+      "label": "2 класс",
+      "tasksUrl": "https://ipokengu.ru/public/task/kenguru_2015_class_2.pdf",
+      "answersUrl": "https://ipokengu.ru/public/task/kenguru_2015_answers.pdf",
+      "solutionUrl": null,
+      "sourceDir": "grades-2/2015"
+    },
+    {
+      "year": 2015,
+      "id": "2015-9-10",
+      "grades": [
+        9,
+        10
+      ],
+      "label": "9–10 классы",
+      "tasksUrl": "https://ipokengu.ru/public/task/kenguru_2015_class_9-10.pdf",
+      "answersUrl": "https://ipokengu.ru/public/task/kenguru_2015_answers.pdf",
+      "solutionUrl": null,
+      "sourceDir": "grades-9-10/2015"
+    },
+    {
+      "year": 2016,
+      "id": "2016-2",
+      "grades": [
+        2
+      ],
+      "label": "2 класс",
+      "tasksUrl": "https://ipokengu.ru/public/task/kenguru_2016_class_2.pdf",
+      "answersUrl": "https://ipokengu.ru/public/task/kenguru_2016_answers.pdf",
+      "solutionUrl": null,
+      "sourceDir": "grades-2/2016"
+    },
+    {
+      "year": 2016,
+      "id": "2016-9-10",
+      "grades": [
+        9,
+        10
+      ],
+      "label": "9–10 классы",
+      "tasksUrl": "https://ipokengu.ru/public/task/kenguru_2016_class_9-10.pdf",
+      "answersUrl": "https://ipokengu.ru/public/task/kenguru_2016_answers.pdf",
+      "solutionUrl": null,
+      "sourceDir": "grades-9-10/2016"
+    },
+    {
+      "year": 2017,
+      "id": "2017-2",
+      "grades": [
+        2
+      ],
+      "label": "2 класс",
+      "tasksUrl": "https://ipokengu.ru/public/task/kenguru_2017_class_2.pdf",
+      "answersUrl": "https://ipokengu.ru/public/task/kenguru_2017_answers.pdf",
+      "solutionUrl": null,
+      "sourceDir": "grades-2/2017"
+    },
+    {
+      "year": 2017,
+      "id": "2017-9-10",
+      "grades": [
+        9,
+        10
+      ],
+      "label": "9–10 классы",
+      "tasksUrl": "https://ipokengu.ru/public/task/kenguru_2017_class_9-10.pdf",
+      "answersUrl": "https://ipokengu.ru/public/task/kenguru_2017_answers.pdf",
+      "solutionUrl": null,
+      "sourceDir": "grades-9-10/2017"
+    },
+    {
+      "year": 2018,
+      "id": "2018-2",
+      "grades": [
+        2
+      ],
+      "label": "2 класс",
+      "tasksUrl": "https://ipokengu.ru/public/task/kenguru_2018_class_2.pdf",
+      "answersUrl": "https://ipokengu.ru/public/task/kenguru_2018_answers.pdf",
+      "solutionUrl": null,
+      "sourceDir": "grades-2/2018"
+    },
+    {
+      "year": 2018,
+      "id": "2018-9-10",
+      "grades": [
+        9,
+        10
+      ],
+      "label": "9–10 классы",
+      "tasksUrl": "https://ipokengu.ru/public/task/kenguru_2018_class_9-10.pdf",
+      "answersUrl": "https://ipokengu.ru/public/task/kenguru_2018_answers.pdf",
+      "solutionUrl": null,
+      "sourceDir": "grades-9-10/2018"
+    },
+    {
+      "year": 2019,
+      "id": "2019-2",
+      "grades": [
+        2
+      ],
+      "label": "2 класс",
+      "tasksUrl": "https://ipokengu.ru/public/task/kenguru_2019_class_2.pdf",
+      "answersUrl": "https://ipokengu.ru/public/task/kenguru_2019_answers.pdf",
+      "solutionUrl": null,
+      "sourceDir": "grades-2/2019"
+    },
+    {
+      "year": 2019,
+      "id": "2019-9-10",
+      "grades": [
+        9,
+        10
+      ],
+      "label": "9–10 классы",
+      "tasksUrl": "https://ipokengu.ru/public/task/kenguru_2019_class_9-10.pdf",
+      "answersUrl": "https://ipokengu.ru/public/task/kenguru_2019_answers.pdf",
+      "solutionUrl": null,
+      "sourceDir": "grades-9-10/2019"
+    },
+    {
+      "year": 2020,
+      "id": "2020-2",
+      "grades": [
+        2
+      ],
+      "label": "2 класс",
+      "tasksUrl": "https://ipokengu.ru/public/task/kenguru_2020_class_2.pdf",
+      "answersUrl": "https://ipokengu.ru/public/task/kenguru_2020_answers.pdf",
+      "solutionUrl": null,
+      "sourceDir": "grades-2/2020"
+    },
+    {
+      "year": 2020,
+      "id": "2020-9-10",
+      "grades": [
+        9,
+        10
+      ],
+      "label": "9–10 классы",
+      "tasksUrl": "https://ipokengu.ru/public/task/kenguru_2020_class_9-10.pdf",
+      "answersUrl": "https://ipokengu.ru/public/task/kenguru_2020_answers.pdf",
+      "solutionUrl": null,
+      "sourceDir": "grades-9-10/2020"
+    },
+    {
+      "year": 2021,
+      "id": "2021-2",
+      "grades": [
+        2
+      ],
+      "label": "2 класс",
+      "tasksUrl": "https://ipokengu.ru/public/task/kenguru_2021_class_1-2.pdf",
+      "answersUrl": "https://ipokengu.ru/public/task/kenguru_2021_answers.pdf",
+      "solutionUrl": "https://ipokengu.ru/public/task/kenguru_2021_solution.pdf",
+      "sourceDir": "grades-2/2021"
+    },
+    {
+      "year": 2021,
+      "id": "2021-9-10",
+      "grades": [
+        9,
+        10
+      ],
+      "label": "9–10 классы",
+      "tasksUrl": "https://ipokengu.ru/public/task/kenguru_2021_class_9-10.pdf",
+      "answersUrl": "https://ipokengu.ru/public/task/kenguru_2021_answers.pdf",
+      "solutionUrl": "https://ipokengu.ru/public/task/kenguru_2021_solution.pdf",
+      "sourceDir": "grades-9-10/2021"
+    },
+    {
+      "year": 2022,
+      "id": "2022-2",
+      "grades": [
+        2
+      ],
+      "label": "2 класс",
+      "tasksUrl": "https://ipokengu.ru/public/task/kenguru_2022_class_1-2.pdf",
+      "answersUrl": "https://ipokengu.ru/public/task/kenguru_2022_answers.pdf",
+      "solutionUrl": "https://ipokengu.ru/public/task/kenguru_2022_solution.pdf",
+      "sourceDir": "grades-2/2022"
+    },
+    {
+      "year": 2022,
+      "id": "2022-9-10",
+      "grades": [
+        9,
+        10
+      ],
+      "label": "9–10 классы",
+      "tasksUrl": "https://ipokengu.ru/public/task/kenguru_2022_class_9-10.pdf",
+      "answersUrl": "https://ipokengu.ru/public/task/kenguru_2022_answers.pdf",
+      "solutionUrl": "https://ipokengu.ru/public/task/kenguru_2022_solution.pdf",
+      "sourceDir": "grades-9-10/2022"
+    },
+    {
+      "year": 2023,
+      "id": "2023-1-2",
+      "grades": [
+        1,
+        2
+      ],
+      "label": "1–2 классы",
+      "tasksUrl": "https://ipokengu.ru/public/task/kenguru_2023_class_1-2.pdf",
+      "answersUrl": "https://ipokengu.ru/public/task/kenguru_2023_answers.pdf",
+      "solutionUrl": "https://ipokengu.ru/public/task/kenguru_2023_solution.pdf",
+      "sourceDir": "grades-1-2/2023",
+      "keyGrades": [
+        2
+      ]
+    },
+    {
+      "year": 2023,
+      "id": "2023-9-11",
+      "grades": [
+        9,
+        10,
+        11
+      ],
+      "label": "9–11 классы",
+      "tasksUrl": "https://ipokengu.ru/public/task/kenguru_2023_class_9-11.pdf",
+      "answersUrl": "https://ipokengu.ru/public/task/kenguru_2023_answers.pdf",
+      "solutionUrl": "https://ipokengu.ru/public/task/kenguru_2023_solution.pdf",
+      "sourceDir": "grades-9-11/2023",
+      "keyGrades": [
+        9,
+        10
+      ]
+    },
+    {
+      "year": 2024,
+      "id": "2024-1-2",
+      "grades": [
+        1,
+        2
+      ],
+      "label": "1–2 классы",
+      "tasksUrl": "https://ipokengu.ru/public/task/kenguru_2024_class_1-2.pdf",
+      "answersUrl": "https://ipokengu.ru/public/task/kenguru_2024_answers.pdf",
+      "solutionUrl": "https://ipokengu.ru/public/task/kenguru_2024_solution.pdf",
+      "sourceDir": "grades-1-2/2024"
+    },
+    {
+      "year": 2024,
+      "id": "2024-9-11",
+      "grades": [
+        9,
+        10,
+        11
+      ],
+      "label": "9–11 классы",
+      "tasksUrl": "https://ipokengu.ru/public/task/kenguru_2024_class_9-11.pdf",
+      "answersUrl": "https://ipokengu.ru/public/task/kenguru_2024_answers.pdf",
+      "solutionUrl": "https://ipokengu.ru/public/task/kenguru_2024_solution.pdf",
+      "sourceDir": "grades-9-11/2024"
+    },
+    {
+      "year": 2025,
+      "id": "2025-1-2",
+      "grades": [
+        1,
+        2
+      ],
+      "label": "1–2 классы",
+      "tasksUrl": "https://ipokengu.ru/public/task/kenguru_2025_class_1-2.pdf",
+      "answersUrl": "https://ipokengu.ru/public/task/kenguru_2025_answers.pdf",
+      "solutionUrl": "https://ipokengu.ru/public/task/kenguru_2025_solution.pdf",
+      "sourceDir": "grades-1-2/2025"
+    },
+    {
+      "year": 2025,
+      "id": "2025-9-11",
+      "grades": [
+        9,
+        10,
+        11
+      ],
+      "label": "9–11 классы",
+      "tasksUrl": "https://ipokengu.ru/public/task/kenguru_2025_class_9-11.pdf",
+      "answersUrl": "https://ipokengu.ru/public/task/kenguru_2025_answers.pdf",
+      "solutionUrl": "https://ipokengu.ru/public/task/kenguru_2025_solution.pdf",
+      "sourceDir": "grades-9-11/2025"
+    },
+    {
+      "year": 2026,
+      "id": "2026-1-2",
+      "grades": [
+        1,
+        2
+      ],
+      "label": "1–2 классы",
+      "tasksUrl": "https://ipokengu.ru/public/task/kenguru_2026_class_1-2.pdf",
+      "answersUrl": "https://ipokengu.ru/public/task/kenguru_2026_answers.pdf",
+      "solutionUrl": "https://ipokengu.ru/public/task/kenguru_2026_solution.pdf",
+      "sourceDir": "grades-1-2/2026"
+    },
+    {
+      "year": 2026,
+      "id": "2026-9-11",
+      "grades": [
+        9,
+        10,
+        11
+      ],
+      "label": "9–11 классы",
+      "tasksUrl": "https://ipokengu.ru/public/task/kenguru_2026_class_9-11.pdf",
+      "answersUrl": "https://ipokengu.ru/public/task/kenguru_2026_answers.pdf",
+      "solutionUrl": "https://ipokengu.ru/public/task/kenguru_2026_solution.pdf",
+      "sourceDir": "grades-9-11/2026"
+    }
+  ]
+}

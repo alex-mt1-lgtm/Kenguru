@@ -9,7 +9,7 @@ const vm = require('node:vm');
 const root = path.join(__dirname, '..');
 const dist = path.join(root, 'dist');
 const context = vm.createContext({});
-for (const source of ['lesson-visuals.js', 'years/grades-7-8-data.js', 'years/grades-7-8.js']) {
+for (const source of ['lesson-visuals.js', 'years/grades-7-8-data.js', 'years/grade-editions.js']) {
   vm.runInContext(fs.readFileSync(path.join(dist, source), 'utf8'), context, {filename: source});
 }
 const editions = context.KENGURU_GRADES_7_8;
