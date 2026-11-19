@@ -833,7 +833,7 @@ const y2026Scenes = y2026SceneRenderers.map((render, index) => (step, frame) => 
     : '';
 });
 
-const y2026Source = 'https://ipokengu.ru/public/task/kenguru_2026_';
+const y2026Source = 'assets/kenguru/kenguru_2026_';
 globalThis.KENGURU_ARCHIVE ??= {};
 globalThis.KENGURU_ARCHIVE[2026] = {
   year: 2026,

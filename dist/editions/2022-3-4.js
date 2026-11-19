@@ -759,7 +759,7 @@ globalThis.KENGURU_CHOICE_LAYOUTS = {};
     y2022Folds, y2022Classroom, y2022Cube, y2022Addition, y2022Shapes, y2022Roads,
     y2022Football, y2022Parks, y2022Plums, y2022Squares, y2022Pizza, y2022Bags
   ];
-  const y2022Source = 'https://ipokengu.ru/public/task/kenguru_2022_';
+  const y2022Source = 'assets/kenguru/kenguru_2022_';
   globalThis.KENGURU_ARCHIVE ??= {};
   globalThis.KENGURU_ARCHIVE[2022] = {
     year: 2022,

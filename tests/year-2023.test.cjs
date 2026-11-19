@@ -32,7 +32,7 @@ test('2023: official keys, point groups and source PDFs', () => {
   [3, 4, 5].forEach((points) => assert.equal(archive.lessons.filter((lesson) => lesson.points === points).length, 8));
   const names = {tasksUrl: 'class_3-4', answersUrl: 'answers', solutionUrl: 'solution'};
   for (const [name, suffix] of Object.entries(names)) {
-    assert.equal(archive.sources[name], `https://ipokengu.ru/public/task/kenguru_2023_${suffix}.pdf`);
+    assert.equal(archive.sources[name], `assets/kenguru/kenguru_2023_${suffix}.pdf`);
   }
   for (const file of ['tasks.pdf', 'answers.pdf', 'solutions.pdf']) {
     assert.equal(fs.readFileSync(path.join(root, 'sources/2023', file)).subarray(0, 4).toString(), '%PDF');

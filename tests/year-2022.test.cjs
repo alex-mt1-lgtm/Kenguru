@@ -29,7 +29,7 @@ test('2022 registers one official 3–4 grade booklet with 24 tasks and the publ
   for (const [kind, name] of [
     ['tasksUrl', 'class_3-4'], ['answersUrl', 'answers'], ['solutionUrl', 'solution']
   ]) {
-    assert.equal(archive.sources[kind], `https://ipokengu.ru/public/task/kenguru_2022_${name}.pdf`);
+    assert.equal(archive.sources[kind], `assets/kenguru/kenguru_2022_${name}.pdf`);
   }
   for (const name of ['tasks', 'answers', 'solutions']) {
     const file = path.join(dist, '..', 'sources', '2022', name + '.pdf');
