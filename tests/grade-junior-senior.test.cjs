@@ -16,7 +16,7 @@ for (const source of ['lesson-visuals.js', 'years/grade-junior-senior-data.js', 
 const manifest = JSON.parse(fs.readFileSync(path.join(sources, 'grade-junior-senior-manifest.json'), 'utf8'));
 const editions = new Map(context.KENGURU_JUNIOR_SENIOR.map(edition => [edition.id, edition]));
 
-test('the new archive reflects the classes printed on the official booklets', () => {
+test('the archive reflects the official contest groups and keeps their source booklets', () => {
   const archive = fs.readFileSync(path.join(dist, 'archive.html'), 'utf8');
   assert.equal(manifest.datasets.length, 45);
   assert.equal(editions.size, 45);
@@ -34,6 +34,11 @@ test('the new archive reflects the classes printed on the official booklets', ()
   assert.deepEqual(junior2021.grades, [2]);
   assert.deepEqual(senior2023.grades, [9,10,11]);
   assert.deepEqual(senior2023.keyGrades, [9,10]);
+  const senior2022 = manifest.datasets.find(entry => entry.id === '2022-9-10');
+  assert.deepEqual(senior2022.keyGrades, [9,10]);
+  assert.deepEqual([...editions.get(senior2022.id).grades], [9,10,11]);
+  assert.equal(editions.get(senior2022.id).label, '9–11 классы');
+  assert.match(archive, /<h3>2022<\/h3><a class="archive-open" href="\.\/#zadacha=2022-9-10\/1"/u);
 });
 
 test('each interactive junior and senior task uses native text, available artwork and the correct rating scale', () => {

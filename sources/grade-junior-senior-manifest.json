@@ -464,13 +464,18 @@
       "id": "2022-9-10",
       "grades": [
         9,
-        10
+        10,
+        11
       ],
-      "label": "9–10 классы",
+      "label": "9–11 классы",
       "tasksUrl": "https://ipokengu.ru/public/task/kenguru_2022_class_9-10.pdf",
       "answersUrl": "https://ipokengu.ru/public/task/kenguru_2022_answers.pdf",
       "solutionUrl": "https://ipokengu.ru/public/task/kenguru_2022_solution.pdf",
-      "sourceDir": "grades-9-10/2022"
+      "sourceDir": "grades-9-10/2022",
+      "keyGrades": [
+        9,
+        10
+      ]
     },
     {
       "year": 2023,
