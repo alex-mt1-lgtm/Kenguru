@@ -508,10 +508,11 @@ function selectTask(n, historyMethod = 'pushState', savePosition = true) {
 function selectDataset(id){const set=CATALOG.find(item=>item.id===id);if(set)selectTask(datasetLast[id]??set.indices[0])}
 function selectYear(year) {
   const variants = CATALOG.filter(set => set.year === year);
-  const grades = activeSet().grades.join('-');
-  const sameGrades = variants.find(set => set.grades.join('-') === grades);
+  const {grades} = activeSet();
+  const sameGrades = variants.find(set => set.grades.join('-') === grades.join('-'));
+  const overlappingGrades = variants.find(set => set.grades.some(grade => grades.includes(grade)));
   const recent = variants.find(set => datasetLast[set.id] !== undefined);
-  const edition = sameGrades ?? recent ?? variants[0];
+  const edition = sameGrades ?? overlappingGrades ?? recent ?? variants[0];
   if (edition) selectDataset(edition.id);
 }
 function animate(timestamp){if(!playing)return;const delta=lastTimestamp===null?0:Math.min(Math.max(0,timestamp-lastTimestamp),80);lastTimestamp=timestamp;const st=current();st.elapsed+=delta;st.frame=st.elapsed/FRAME_MS;renderScene();
