@@ -415,7 +415,11 @@ test('previous account responses are ignored and pending offline work retries fo
 
 test('all grade 5–6 editions have original cards, verified keys and independent year navigation', () => {
   const grade = vm.createContext({});
-  for (const file of ['lesson-visuals.js', 'years/grades-5-6-data.js', 'years/grade-5-6-keys.js', 'years/grades-5-6.js']) {
+  const files = [
+    'lesson-visuals.js', 'years/grades-5-6-data.js', 'years/grade-5-6-keys.js',
+    'years/grade-titles.js', 'years/grades-5-6.js',
+  ];
+  for (const file of files) {
     vm.runInContext(fs.readFileSync(path.join(root, 'dist', file), 'utf8'), grade);
   }
   const editions = grade.KENGURU_ARCHIVE;
@@ -426,6 +430,9 @@ test('all grade 5–6 editions have original cards, verified keys and independen
   assert.equal(menu.element('gradePicker').disabled, false);
   menu.run('selectYear(2025)');
   assert.equal(menu.element('archiveLabel').textContent, '2025 · 5–6 классы');
+  const expectedTitle = 'Недостающая деталь мозаики';
+  assert.equal(menu.element('taskTitle').textContent, expectedTitle);
+  assert.ok(menu.element('taskPicker').innerHTML.includes(`class="task-tab-name">${expectedTitle}</span>`));
   menu.run('selectYear(1997)');
   assert.equal(menu.element('archiveLabel').textContent, '1997 · 5–6 классы');
   assert.match(menu.element('answers').innerHTML, /<strong>B<\/strong>/);
@@ -499,7 +506,7 @@ test('rebuilt visual lessons keep the condition separate and each worked scene i
     'lesson-visuals.js', 'years/grades-5-6-data.js', 'years/grade-conditions.js', 'years/grade-solution-steps.js', 'years/grade-5-6-keys.js',
     'years/visual-2000-five-six.js', 'years/visual-2024-three.js', 'years/visual-2024-four.js',
     'years/visual-2024-five.js', 'years/visual-2026-three.js', 'years/visual-2026-four.js',
-    'years/visual-2026-five.js', 'years/grades-5-6.js',
+    'years/visual-2026-five.js', 'years/grade-titles.js', 'years/grades-5-6.js',
   ];
   for (const file of files) vm.runInContext(fs.readFileSync(path.join(root, 'dist', file), 'utf8'), context);
   const grade = context.KENGURU_ARCHIVE;
@@ -549,6 +556,12 @@ test('rebuilt visual lessons keep the condition separate and each worked scene i
   }
 
   assert.equal(appView.run('LESSONS.length'), 1578);
+  const namingGaps = appView.run(String.raw`LESSONS.filter(({title, short}) =>
+    !title?.trim() || /^(?:Задача|Задание)\s*№?\s*\d+$/iu.test(title) ||
+    !short?.trim() || /^(?:Проверка ответа|Пошаговое решение)$/iu.test(short)
+  ).map(lessonKey).join(",")`);
+  assert.equal(namingGaps, '');
+  assert.equal(grade['2000-5-6'].lessons[0].title, 'Часы в зеркале');
   assert.equal(appView.run('LESSONS.filter(item => !item.question?.trim()).map(lessonKey).join(",")'), '');
   for (const source of context.KENGURU_GRADES_5_6) {
     const edition = grade[source.id];

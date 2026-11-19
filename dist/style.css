@@ -235,9 +235,28 @@ body{font-size:18px;line-height:1.5}.player .condition{margin:18px 0 24px;font-s
 }
 .lesson-page .level-picker { margin-top: 8px; }
 .lesson-page .level-picker button { min-height: 42px; padding: 6px 10px; }
-.lesson-page .task-picker { display: flex; flex-wrap: wrap; margin: 8px 0; gap: 6px; }
-.lesson-page .task-picker .task-tab { flex: 0 0 47px; min-height: 44px; align-items: center; justify-content: center; padding: 5px; }
-.lesson-page .task-picker .task-tab span { font-size: 18px; line-height: 1.2; }
+.lesson-page .task-picker {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 8.5rem), 1fr));
+  margin: 8px 0;
+  gap: 6px;
+}
+.lesson-page .task-picker .task-tab {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: center;
+  min-height: 44px;
+  padding: 6px 11px 6px 7px;
+  gap: 7px;
+  text-align: left;
+}
+.lesson-page .task-picker .task-tab-number { font-size: 18px; line-height: 1.2; }
+.lesson-page .task-picker .current-task .task-tab-number { color: #efb599; }
+.lesson-page .task-picker .task-tab-name {
+  color: inherit;
+  font: 600 13px/1.2 system-ui, sans-serif;
+  overflow-wrap: anywhere;
+}
 .lesson-page .task-picker .task-tab i { top: 2px; right: 3px; font-size: 10px; }
 .lesson-page .previous-editions { margin: 16px 0; }
 .legacy-zoom-trigger {

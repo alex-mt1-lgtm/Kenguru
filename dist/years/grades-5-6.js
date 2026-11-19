@@ -7,6 +7,7 @@
   const nativeConditions = globalThis.KENGURU_GRADE_CONDITIONS ?? {};
   const nativeKeys = globalThis.KENGURU_GRADE_KEYS ?? {};
   const visualLessons = globalThis.KenguruVisualLessons ?? {};
+  const editorialTitles = globalThis.KENGURU_GRADE_TITLES ?? {};
 
   function conditionScene(path, width, height, label) {
     return visual.svg(`<image href="${visual.escape(path)}" width="${width}" height="${height}"/>`,
@@ -58,12 +59,12 @@
         : ['Ответ', 'Проверяем ответ', 'Сравни свой выбор с официальным ответом.'];
       const steps = custom?.steps ?? [intro, ...(official?.length ? officialSteps(official) : [answerStep])];
       const figure = native?.image;
-      const title = custom?.title ?? `Задача ${number}`;
+      const title = custom?.title ?? editorialTitles[year]?.[index] ?? `Задача ${number}`;
 
       lessons.push({
         number,
         title,
-        short: custom?.short ?? (paperEdition ? 'Проверка ответа' : 'Пошаговое решение'),
+        short: custom?.short ?? title,
         skill: custom?.skill ?? '',
         answer,
         choices,
