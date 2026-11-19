@@ -528,6 +528,9 @@ test('rebuilt visual lessons keep the condition separate and each worked scene i
   assert.match(html, /<div id="lessonScene"><div id="sceneWorkbench">/u);
   assert.equal(appView.element('answers').hidden, false);
   assert.equal(appView.element('play').hidden, false);
+  assert.match(appView.element('taskPicker').innerHTML, /class="task-tab-name">Плитки на фотографии<\/span>/u);
+  assert.match(appView.element('taskPicker').innerHTML, /class="task-tab-name">Браслет Лены<\/span>/u);
+  assert.doesNotMatch(appView.element('taskPicker').innerHTML, /повторяющуюся последовательность|Проверь соседство/u);
 
   for (const [year, limit] of [[2000, 10], [2024, 30], [2026, 30]]) {
     const edition = grade[year + '-5-6'];
@@ -556,9 +559,8 @@ test('rebuilt visual lessons keep the condition separate and each worked scene i
   }
 
   assert.equal(appView.run('LESSONS.length'), 1578);
-  const namingGaps = appView.run(String.raw`LESSONS.filter(({title, short}) =>
-    !title?.trim() || /^(?:Задача|Задание)\s*№?\s*\d+$/iu.test(title) ||
-    !short?.trim() || /^(?:Проверка ответа|Пошаговое решение)$/iu.test(short)
+  const namingGaps = appView.run(String.raw`LESSONS.filter(({title}) =>
+    !title?.trim() || title.length > 30 || /^(?:Задача|Задание)\s*№?\s*\d+$/iu.test(title)
   ).map(lessonKey).join(",")`);
   assert.equal(namingGaps, '');
   assert.equal(grade['2000-5-6'].lessons[0].title, 'Часы в зеркале');

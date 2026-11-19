@@ -37,6 +37,7 @@ test('7–8 grade cards have native conditions and accessible artwork with match
       const key = id + '/' + card.number;
       const lesson = lessons[card.number - 1];
       assert.equal(lesson.title, card.title);
+      assert.ok(card.title.length <= 30, key);
       assert.equal(lesson.question, card.question);
       assert.ok(card.question.trim(), key);
       assert.equal(card.options.length, 5, key);
