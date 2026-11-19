@@ -369,6 +369,29 @@ function accountBrowser(request, records = new Map(), local = new Map()) {
 
 const syncTurn = () => new Promise(resolve => setImmediate(resolve));
 
+test('the Russian editions keep their own tasks, years, archive and return position', async () => {
+  const visit = app(false, null, {streamProduction: true, location: {hash: '#zadacha=2025-medvezhonok-2-3/20'}});
+  await syncTurn();
+  assert.equal(visit.element('currentSubject').textContent, 'Русский язык');
+  assert.deepEqual(visit.fetched, ['editions/2025-medvezhonok-2-3.js']);
+  assert.match(visit.element('scene').innerHTML, /medvezhonok-rebus/);
+  assert.equal(visit.element('editionArchive').href, '/archive.html#russian');
+  assert.equal(visit.run('activeSet().indices.length'), 28);
+  assert.equal((visit.element('yearPicker').innerHTML.match(/<option/g) ?? []).length, 1);
+  await visit.run('selectDataset("2025-medvezhonok-4-5")');
+  assert.equal(visit.run('activeSet().indices.length'), 30);
+  const picker = visit.element('subjectPicker');
+  picker.value = 'math';
+  picker.change();
+  await syncTurn();
+  assert.equal(visit.element('currentSubject').textContent, 'Математика');
+  assert.doesNotMatch(visit.element('gradePicker').innerHTML, /medvezhonok/);
+  picker.value = 'ru';
+  picker.change();
+  await syncTurn();
+  assert.equal(visit.run('selectedDataset'), '2025-medvezhonok-4-5');
+});
+
 test('a direct link loads one edition and its fruit workspace and animations', async () => {
   const visit = app(false, null, {streamProduction: true, location: {hash: '#zadacha=2024-3-4/10'}});
   await syncTurn();

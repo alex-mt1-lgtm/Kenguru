@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Полные варианты конкурса «Кенгуру» за 1997–2026 годы для 1–11 классов с официальными ответами.">
+  <meta name="description" content="Выпуски «Кенгуру» по математике и «Русского медвежонка» по русскому языку. Оригиналы заданий, официальные ключи и интерактивные разборы.">
   <title>Olympiads.pro · Архив олимпиад</title>
   <link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="stylesheet" href="style.css?v=service-audit">
@@ -15,11 +15,19 @@
   <div class="page-art" aria-hidden="true"><span></span></div>
   <header class="archive-header">
     <a class="site-brand" href="./" aria-label="olympiads.pro — к урокам"><span class="site-brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span>olympiads.pro</a>
+    <div class="header-menus">
+      <details id="editionMenu" class="compact-menu edition-menu">
+        <summary id="editionToggle"><span class="edition-caption"><strong id="currentSubject">Математика</strong><span class="archive-caption">Все выпуски</span></span></summary>
+        <div class="compact-menu-panel">
+          <label class="edition-field">Предмет<select id="archiveSubject"><option value="math">Математика</option><option value="ru">Русский язык</option></select></label>
+        </div>
+      </details>
+    </div>
   </header>
   <main class="archive-page">
     <a class="archive-back" href="./">К интерактивным урокам</a>
     <div class="archive-heading poster-heading">
-      <h1>Архив <em>1997–2026</em></h1>
+      <h1>Архив <em id="archivePeriod">1997–2026</em></h1>
       <p class="intro">Выбери класс и год. В архиве есть оригинальные задания, ответы и ссылки на интерактивные уроки.</p>
     </div>
     <nav class="archive-grades" aria-label="Классы">
@@ -29,6 +37,13 @@
       <a href="#grades-7-8">7–8 классы</a>
       <a href="#grades-9-11">9–11 классы</a>
     </nav>
+    <section id="russian" aria-label="Русский медвежонок">
+      <h2>Русский медвежонок</h2>
+      <ul class="archive-editions">
+        <li class="archive-card"><h3>2025 · 2–3 классы</h3><a class="archive-open" href="./#zadacha=2025-medvezhonok-2-3/1">Решать вариант</a><div class="archive-files"><a href="assets/medvezhonok/2025/2-3.pdf" target="_blank" rel="noopener">Задания PDF</a> <a href="assets/medvezhonok/2025/answers.pdf" target="_blank" rel="noopener">Ответы PDF</a></div></li>
+        <li class="archive-card"><h3>2025 · 4–5 классы</h3><a class="archive-open" href="./#zadacha=2025-medvezhonok-4-5/1">Решать вариант</a><div class="archive-files"><a href="assets/medvezhonok/2025/4-5.pdf" target="_blank" rel="noopener">Задания PDF</a> <a href="assets/medvezhonok/2025/answers.pdf" target="_blank" rel="noopener">Ответы PDF</a></div></li>
+      </ul>
+    </section>
     <!-- grades-1-2:start -->
     <details class="archive-grade" id="grades-1-2">
       <summary>1–2 классы</summary>
@@ -425,8 +440,9 @@
   </main>
   <footer>
     <span>Источники вариантов</span>
-    <a href="https://mathkang.ru/rar/">Архив «Кенгуру плюс»</a>
-    <a href="https://ipokengu.ru/konkurs-kenguru/zadachi.html">Архив оргкомитета</a>
+    <a data-subject="math" href="https://mathkang.ru/rar/">Архив «Кенгуру плюс»</a>
+    <a data-subject="math" href="https://ipokengu.ru/konkurs-kenguru/zadachi.html">Архив оргкомитета</a>
+    <a data-subject="ru" href="https://konkurs43.ru/rm/task2025-1.zip">Официальный архив «Русского медвежонка» (ZIP)</a>
   </footer>
 </body>
 </html>

@@ -54,7 +54,7 @@ test('each interactive archive card opens its year and lessons link to the archi
   const index = fs.readFileSync(path.join(dist, 'index.html'), 'utf8');
   const archive = fs.readFileSync(path.join(dist, 'archive.html'), 'utf8');
   assert.ok(index.indexOf('id="sources"') > index.indexOf('id="lesson"'));
-  assert.match(index, /<nav class="previous-editions"[^>]*><a href="archive.html">/u);
+  assert.match(index, /<nav class="previous-editions"[^>]*><a href="archive.html"[^>]*>/u);
   assert.ok(index.indexOf('id="profileMenu"') < index.indexOf('</header>'));
   assert.match(index, /<button id="accountOpen"[^>]*>Войти<\/button>\s*<details id="profileMenu"[^>]* hidden>/u);
   assert.ok(index.indexOf('id="editionMenu"') < index.indexOf('</header>'));

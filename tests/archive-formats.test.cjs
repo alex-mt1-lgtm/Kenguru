@@ -17,7 +17,7 @@ test('archive format labels are current and every interactive archive card has o
   vm.runInContext(script, context);
   const formats = context.KENGURU_ARCHIVE_FORMATS;
   const archive = fs.readFileSync(path.join(dist, 'archive.html'), 'utf8');
-  const interactiveEditions = [...archive.matchAll(/href="\.\/#zadacha=([0-9-]+)\/\d+"/gu)].map(link => link[1]);
+  const interactiveEditions = [...archive.matchAll(/href="\.\/#zadacha=([a-z0-9-]+)\/\d+"/gu)].map(link => link[1]);
   assert.deepEqual([...new Set(interactiveEditions)].sort(), Object.keys(formats).sort());
   assert.equal(formats['2024-3-4'], 'walkthrough');
   assert.equal(formats['2000-5-6'], 'mixed');

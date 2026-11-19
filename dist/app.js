@@ -12,11 +12,11 @@ function applyChoiceLayout(lesson, layout) {
 }
 
 if (streamedEditions) {
-  for (const [id, year, grades, label, numbers, ratingPoints] of globalThis.KENGURU_EDITION_INDEX) {
+  for (const [id, year, grades, label, numbers, ratingPoints, subject = 'math'] of globalThis.KENGURU_EDITION_INDEX) {
     const indices = numbers.map((number, offset) => LESSONS.push({
       number, datasetId: id, year, ratingPoints: Number(ratingPoints[offset]) || 0,
     }) - 1);
-    CATALOG.push({id, year, grades, label, indices});
+    CATALOG.push({id, year, grades, label, indices, subject});
   }
 } else {
   if (typeof FOUR_POINT_LESSONS !== 'undefined') LESSONS.push(...FOUR_POINT_LESSONS);
@@ -33,7 +33,8 @@ if (streamedEditions) {
   });
   CATALOG.push(defaultSet);
   EXTRA_ARCHIVES = Object.values(globalThis.KENGURU_ARCHIVE ?? {}).flat()
-    .filter(set => set.id !== defaultSet.id).sort((a, b) => a.year - b.year || a.id.localeCompare(b.id));
+    .filter(set => set.id !== defaultSet.id).sort((a, b) => a.year - b.year || a.id.localeCompare(b.id))
+    .concat(globalThis.MEDVEZHONOK_EDITIONS ?? []);
   for (const set of EXTRA_ARCHIVES) {
     const indices = set.lessons.map((lesson, index) => LESSONS.push({
       ...lesson, number: lesson.number ?? index + 1, year: set.year, datasetId: set.id,
@@ -100,6 +101,7 @@ function switchProfile(id, {resume = false, preferredTask = -1} = {}) {
   alternativeTask = null;
   for (const key of Object.keys(groupLast)) delete groupLast[key];
   for (const key of Object.keys(datasetLast)) delete datasetLast[key];
+  lastSubjectTask.clear();
   restoreProgress();
   renderProfile();
   const position = signedInProfile || resume ? savedTaskIndex() : -1;
@@ -150,8 +152,8 @@ function writeProgress(key, value) {
   }
 }
 
-function savedTaskIndex() {
-  const recent = readProgress('current');
+function savedTaskIndex(key = 'current') {
+  const recent = readProgress(key);
   return LESSONS.findIndex(lesson => lessonKey(lesson) === recent);
 }
 
@@ -268,6 +270,9 @@ function saveLessonProgress() {
   });
 }
 const activeSet=()=>CATALOG.find(set=>set.id===selectedDataset);
+const subjectOf = set => set.subject ?? 'math';
+const subjectNames = {math: 'Математика', ru: 'Русский язык'};
+const lastSubjectTask = new Map();
 const answerLetter=index=>(activeSet().answerLetters||LETTERS)[index];
 function nextTaskIndex(){const indices=activeSet().indices;return indices[(indices.indexOf(task)+1)%indices.length]}
 const reducedMotion=typeof matchMedia==='function'&&matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -471,13 +476,21 @@ function renderPicker() {
   const {indices} = set;
   const group = indices.filter(index => LESSONS[index].points === selectedPoints);
   const yearPicker = $('yearPicker');
-  if (!yearPicker.innerHTML) {
-    const years = [...new Set(CATALOG.map(item => item.year))].sort((a, b) => b - a);
+  const subject = subjectOf(set);
+  const editions = CATALOG.filter(item => subjectOf(item) === subject);
+  $('lessonPage').setAttribute('data-subject', subject);
+  $('currentSubject').textContent = subjectNames[subject];
+  $('sourceAdaptation').hidden = subject !== 'ru';
+  $('editionToggle').setAttribute('data-subject', subject);
+  $('subjectPicker').value = subject;
+  if (!yearPicker.innerHTML || yearPicker.getAttribute('data-subject') !== subject) {
+    const years = [...new Set(editions.map(item => item.year))].sort((a, b) => b - a);
     yearPicker.innerHTML = years.map(year => `<option value="${year}">${year}</option>`).join('');
+    yearPicker.setAttribute('data-subject', subject);
   }
   yearPicker.value = String(set.year);
 
-  const variants = CATALOG.filter(item => item.year === set.year);
+  const variants = editions.filter(item => item.year === set.year);
   $('gradePicker').innerHTML = variants.map(item =>
     `<option value="${item.id}" ${item.id === selectedDataset ? 'selected' : ''}>${item.label}</option>`
   ).join('');
@@ -488,8 +501,11 @@ function renderPicker() {
   const lastGrade = set.grades.at(-1);
   const shortGrade = firstGrade === lastGrade ? String(firstGrade) : `${firstGrade}–${lastGrade}`;
   $('archiveShortLabel').textContent = `${set.year} · ${shortGrade}`;
+  $('editionToggle').setAttribute('aria-label', `${subjectNames[subject]}, ${set.year} · ${set.label}. Выбрать предмет и выпуск`);
   const gradeGroup = ['1-2', '3-4', '5-6', '7-8', '9-11'][Math.min(4, Math.floor((firstGrade - 1) / 2))];
-  $('editionArchive').href = `/archive.html#grades-${gradeGroup}`;
+  const archiveHash = subject === 'ru' ? 'russian' : 'grades-' + gradeGroup;
+  $('editionArchive').href = '/archive.html#' + archiveHash;
+  $('allEditions').href = $('editionArchive').href;
   const position = indices.indexOf(task);
   $('previousTaskShortcut').setAttribute('aria-disabled', String(position <= 0));
   $('nextTaskShortcut').setAttribute('aria-disabled', String(position === indices.length - 1));
@@ -604,7 +620,7 @@ function render() {
     $(final ? 'nextTask' : 'next').focus({preventScroll: true});
   }
   $('progress').style.width = ((st.step + 1) / lesson.steps.length * 100) + '%';
-  $('sourceNote').textContent = `Кенгуру ${lesson.year} · ${activeSet().label} · задача №${lesson.number}`;
+  $('sourceNote').textContent = `${activeSet().sources.contest ?? 'Кенгуру'} ${lesson.year} · ${activeSet().label} · задача №${lesson.number}`;
   playLabel();
 }
 function sceneDuration(t,s){if(s===0)return 1500;if(t>=8)return s===lastStep(t)?4500:6500;if(t===6)return s===7?4000:s===8?4200:6500;if(t===1&&(s===2||s===3)){const length=s===2?FIRE_DISTANCES[FIRE_SPLIT]:FIRE_DISTANCES.at(-1)-FIRE_DISTANCES[FIRE_SPLIT];return length/FIRE_SPEED*1000+400}if(t===3)return[0,1600,3000,3600,2600][s];if((t===0||t===6)&&s===3)return 3600;if(t===7)return[0,1800,2100,4200,2800][s];return s===4?3000:s===1?3000:4200}
@@ -666,6 +682,7 @@ function activateTask(n, historyMethod, savePosition) {
   selectedDataset = lesson.datasetId;
   groupLast[selectedDataset + ':' + selectedPoints] = n;
   datasetLast[selectedDataset] = n;
+  lastSubjectTask.set(subjectOf(activeSet()), n);
   const hash = taskHash(n);
   if (globalThis.location && location.hash !== hash) {
     const path = location.pathname ? location.pathname + location.search : '';
@@ -674,6 +691,7 @@ function activateTask(n, historyMethod, savePosition) {
   if (savePosition) {
     accountResume = false;
     writeProgress('current', lessonKey(lesson));
+    writeProgress('current:' + subjectOf(activeSet()), lessonKey(lesson));
   }
   render();
 }
@@ -682,7 +700,7 @@ function selectDataset(id) {
   if (set) return selectTask(datasetLast[id] ?? set.indices[0]);
 }
 function selectYear(year) {
-  const variants = CATALOG.filter(set => set.year === year);
+  const variants = CATALOG.filter(set => subjectOf(set) === subjectOf(activeSet()) && set.year === year);
   const {grades} = activeSet();
   const sameGrades = variants.find(set => set.grades.join('-') === grades.join('-'));
   const overlappingGrades = variants.find(set => set.grades.some(grade => grades.includes(grade)));
@@ -698,6 +716,14 @@ function closeEditionMenu() {
   $('editionToggle').focus?.();
 }
 
+$('subjectPicker').addEventListener('change', () => {
+  const subject = $('subjectPicker').value;
+  const first = CATALOG.find(set => subjectOf(set) === subject);
+  if (!first) return;
+  const saved = savedTaskIndex('current:' + subject);
+  const savedSet = saved >= 0 && CATALOG.find(set => set.id === LESSONS[saved].datasetId);
+  selectTask(lastSubjectTask.get(subject) ?? (savedSet && subjectOf(savedSet) === subject ? saved : first.indices[0]));
+});
 $('yearPicker').addEventListener('change', () => {
   const selected = selectYear(Number($('yearPicker').value));
   const closeSingleEdition = () => { if ($('gradePicker').disabled) closeEditionMenu(); };
@@ -755,8 +781,7 @@ function arrangeOpeningScene(lesson, step) {
       openingDraft.after(paper);
     }
     // The first task has the same squares on its answer buttons and in its scratch workspace.
-    const squareWorkspace = task === 0;
-    if (squareWorkspace) {
+    if (task === 0 || lesson.openingFigure) {
       if (scene.parentElement !== $('lessonSupplement')) paper.before(scene);
       if (controls.nextElementSibling !== $('stage')) $('stage').before(controls);
     } else {

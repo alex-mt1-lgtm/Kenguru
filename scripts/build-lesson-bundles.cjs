@@ -35,6 +35,9 @@ function createBundle(entry, model) {
       scenes: [...Array(8).fill(null), ...FOUR_POINT_SCENES, ...FIVE_POINT_SCENES],
       fruitPuzzle: {fruits: FOUR_FRUITS, icons: FOUR_FRUIT_ICONS, people: FOUR_FRUIT_PEOPLE, preferences: FOUR_FRUIT_PREFS},
     })`;
+  } else if (entry.subject === 'ru') {
+    content.push(readScript('contests/medvezhonok-2025.js'));
+    selection = `globalThis.MEDVEZHONOK_EDITIONS.find(edition => edition.id === ${JSON.stringify(id)})`;
   } else if (general) {
     content.push(assign('KENGURU_GRADES_7_8', [general]), script('grade-editions'));
   } else if (middle) {
@@ -83,6 +86,7 @@ function build(check) {
   const index = model.catalog.map(entry => [entry.id, entry.year, entry.grades, entry.label,
     entry.indices.map(index => model.lessons[index].number),
     entry.indices.map(index => Number.isInteger(model.lessons[index].answer) ? model.lessons[index].points : '.').join(''),
+    ...(entry.subject ? [entry.subject] : []),
   ]);
   function write(file, contents) {
     const target = path.join(output, file);

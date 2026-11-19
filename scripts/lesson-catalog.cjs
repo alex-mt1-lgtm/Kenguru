@@ -25,7 +25,7 @@ const readScript = file => fs.readFileSync(path.join(dist, file), 'utf8');
 function loadLessonCatalog() {
   const context = vm.createContext({});
   const descriptions = yearFile('graphic-answer-descriptions');
-  const files = [...defaultScripts, 'lesson-visuals.js', ...yearScripts.map(yearFile)];
+  const files = [...defaultScripts, 'lesson-visuals.js', ...yearScripts.map(yearFile), 'contests/medvezhonok-2025.js'];
   if (fs.existsSync(path.join(dist, descriptions))) files.push(descriptions);
   for (const file of files) vm.runInContext(readScript(file), context, {filename: file});
   const app = readScript('app.js');

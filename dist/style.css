@@ -800,3 +800,50 @@ body { background-color: var(--page-field); isolation: isolate; }
 .lesson-initializing > :not(#lessonLoadStatus):not(noscript) { display: none; }
 #lessonLoadStatus:empty { display: none; }
 #lessonLoadStatus { margin: 0; padding: 1rem 0; }
+
+#editionToggle {
+  --subject-ink:#853b2c;
+  inline-size:160px;
+  display:flex; align-items:center; justify-content:space-between; gap:14px;
+  padding:3px 11px 3px 13px; min-height:44px;
+  box-shadow:inset 3px 0 var(--subject-ink);
+}
+#editionToggle[data-subject="math"] {--subject-ink:#155b57}
+#editionToggle .edition-caption {display:flex;flex-direction:column;align-items:flex-start;gap:2px}
+#currentSubject {font:700 16px/1.15 Arial,sans-serif;color:var(--subject-ink);white-space:nowrap}
+#editionToggle :is(#archiveLabel,#archiveShortLabel) {font:400 12px/1.1 Arial,sans-serif;color:#465c5d}
+@media (max-width:540px) {
+  #editionToggle {inline-size:128px;padding-inline:9px 6px;gap:6px}
+  #currentSubject {font-size:14px}
+}
+@media (max-width:375px) {
+  .lesson-header,.header-menus {gap:4px}
+  .lesson-header .site-brand {font-size:14px;gap:4px}
+  .lesson-header .site-brand-mark {width:21px;height:21px;flex-basis:21px}
+  .header-sign-in {padding-inline:6px}
+  #editionToggle {inline-size:122px;gap:4px;padding-inline:7px 5px}
+}
+@media (max-width:340px) {
+  .lesson-header {width:calc(100% - 12px)}
+}
+
+#stage:has(.word-scene), #stage:has(.medvezhonok-rebus) {
+  min-height: 0;
+  padding-block: 8px;
+}
+.lesson-page[data-subject="ru"] #question { white-space: pre-line; }
+#scene > .medvezhonok-rebus { width: min(100%, 22rem); height: auto; min-height: 0; }
+.word-scene { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; padding: 12px; }
+.word-token {
+  max-width: 100%;
+  padding: .55em .8em;
+  border: 1px solid #abd2c6;
+  border-radius: .8em;
+  background: #e1f3eb;
+  color: #214b45;
+  font-weight: 700;
+  overflow-wrap: anywhere;
+  opacity: calc(.25 + .75 * var(--reveal));
+  transform: translateY(calc(.25em * (1 - var(--reveal))));
+}
+.word-scene[data-result="true"] .word-token { background: #f9e8b8; border-color: #e3cf83; color: #554223; }
