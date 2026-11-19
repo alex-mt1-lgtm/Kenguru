@@ -369,12 +369,15 @@ function renderPicker() {
   renderButtons('levelPicker', 'data-points', levels.filter(level => level.count).map(({points, count}) =>
     `<button data-points="${points}" aria-pressed="${selectedPoints === points}" class="${selectedPoints === points ? 'active-level' : ''}">${pointsLabel(points)} <span>${taskCount(count)}</span></button>`
   ).join(''));
+  const escapeName = value => value.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('"', '&quot;');
   renderButtons('taskPicker', 'data-task', group.map(i => {
-    const {number, short} = LESSONS[i];
-    const name = short.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('"', '&quot;');
+    const {number, short, title} = LESSONS[i];
+    const name = escapeName(title);
+    const label = escapeName(short || title);
     const active = i === task;
     return `<button class="task-tab ${active ? 'current-task' : ''}" data-task="${i}" aria-label="Задача ${number}. ${name}" title="${name}" ${active ? 'aria-current="page"' : ''}>
-      <span>${String(number).padStart(2, '0')}</span>${states[i].seen ? '<i aria-label="Ответ открыт">✓</i>' : ''}
+      <span class="task-tab-number">${String(number).padStart(2, '0')}</span>
+      <span class="task-tab-name">${label}</span>${states[i].seen ? '<i aria-label="Ответ открыт">✓</i>' : ''}
     </button>`;
   }).join(''));
   $('collectionProgress').textContent = `открыто ответов ${indices.filter(i => states[i].seen).length} из ${indices.length}`;
