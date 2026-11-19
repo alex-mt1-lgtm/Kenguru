@@ -19,6 +19,8 @@ const editions = new Map(context.KENGURU_JUNIOR_SENIOR.map(edition => [edition.i
 test('the new archive reflects the classes printed on the official booklets', () => {
   const archive = fs.readFileSync(path.join(dist, 'archive.html'), 'utf8');
   assert.equal(manifest.datasets.length, 45);
+  assert.equal(editions.size, 45);
+  assert.equal([...editions.values()].reduce((total, {cards}) => total + cards.length, 0), 1257);
   assert.match(archive, /id="grades-1-2"/u);
   assert.match(archive, /id="grades-9-11"/u);
   for (const entry of manifest.datasets) {
@@ -35,6 +37,10 @@ test('the new archive reflects the classes printed on the official booklets', ()
 });
 
 test('each interactive junior and senior task uses native text, available artwork and the correct rating scale', () => {
+  assert.deepEqual([...editions.get('1997-9-10').answerLetters], [...'ABCDE']);
+  const grade2 = editions.get('2017-2').cards[5];
+  assert.equal(grade2.answer, null);
+  assert.match(grade2.keyNote, /2.*4/u);
   const rating = JSON.parse(fs.readFileSync(path.join(dist, 'api/rating-catalog.json'), 'utf8'));
   for (const entry of manifest.datasets) {
     if (!editions.has(entry.id)) continue;
