@@ -6,7 +6,8 @@ on:
     paths:
       - 'dist/**'
       - 'tests/**'
-      - 'scripts/publish-olympiads.sh'
+      - 'sources/**'
+      - 'scripts/**'
       - '.github/workflows/publish-olympiads.yml'
   workflow_dispatch:
 
@@ -18,19 +19,34 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  release:
+  check:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-node@v6
         with:
           node-version: '24'
+      - uses: shivammathur/setup-php@eb7c497e18156a6bbabfef1d3a82760b9eda3962 # v2
+        with:
+          php-version: '8.3'
+          extensions: pdo_sqlite, mbstring
+          coverage: none
+      - name: Check the generated lesson bundles
+        run: node scripts/build-lesson-bundles.cjs --check
       - name: Check the lessons
         run: node --test --test-isolation=none tests/*.test.cjs
+      - name: Check accounts with SQLite and local mail delivery
+        run: python3 tests/account-api-test.py
+  release:
+    needs: check
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
       - name: Publish public files to the olympiads branch
         run: |
           git config user.name 'github-actions[bot]'

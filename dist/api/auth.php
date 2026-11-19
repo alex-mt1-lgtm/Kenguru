@@ -4,10 +4,12 @@ declare(strict_types=1);
 const ACCOUNT_ORIGIN = 'https://olympiads.pro';
 const SESSION_LIFETIME = 1209600;
 const RESET_LIFETIME = 1800;
+const EMAIL_CONFIRM_LIFETIME = 86400;
 const BCRYPT_COST = 12;
 const PROGRESS_BODY_LIMIT = 524288;
 const PROGRESS_TOTAL_LIMIT = 4194304;
-const PROGRESS_KEY_LIMIT = 4096;
+const PROGRESS_TASK_LIMIT = 8192;
+const PROGRESS_ARTIFACT_LIMIT = 24576;
 const LESSON_KEY_PATTERN = '[0-9]{4}(?:-[a-z0-9]{1,12}){1,4}/[1-9][0-9]{0,2}';
 
 final class AccountError extends RuntimeException
@@ -52,59 +54,89 @@ function openAccountDatabase(string $path): PDO
         PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
     ]);
     $db->exec('PRAGMA busy_timeout = 5000');
+    $db->exec('PRAGMA foreign_keys = ON');
     $version = (int) $db->query('PRAGMA user_version')->fetchColumn();
     if ($version > 2) {
         throw new RuntimeException('unsupported account database version');
     }
-    if ($version === 0) {
-        $db->beginTransaction();
-        $db->exec(<<<'SQL'
-            CREATE TABLE IF NOT EXISTS accounts (
-                id INTEGER PRIMARY KEY,
-                username TEXT NOT NULL,
-                username_key TEXT UNIQUE NOT NULL,
-                email TEXT UNIQUE NOT NULL,
-                password_hash TEXT NOT NULL,
-                session_version INTEGER NOT NULL DEFAULT 1,
-                reset_digest TEXT UNIQUE,
-                reset_expires INTEGER,
-                progress_revision INTEGER NOT NULL DEFAULT 0,
-                progress_json TEXT NOT NULL DEFAULT '{}'
-            );
-            CREATE TABLE IF NOT EXISTS auth_limits (
-                digest TEXT NOT NULL,
-                expires INTEGER NOT NULL,
-                hits INTEGER NOT NULL,
-                PRIMARY KEY (digest, expires)
-            );
-            CREATE INDEX IF NOT EXISTS auth_limits_expiry ON auth_limits (expires);
-            CREATE TABLE IF NOT EXISTS auth_settings (
-                name TEXT PRIMARY KEY,
-                value TEXT NOT NULL
-            );
-            SQL);
-        $db->prepare("INSERT OR IGNORE INTO auth_settings VALUES ('limit_secret', ?)")
-            ->execute([bin2hex(random_bytes(32))]);
-        $db->exec('PRAGMA user_version = 1');
-        $db->commit();
+    $hasAccountExtensions = $db->query("SELECT 1 FROM sqlite_master WHERE type = 'table' AND name = 'account_mail'")->fetchColumn();
+    if ($version === 2 && $hasAccountExtensions) {
+        return $db;
     }
-    if ($version < 2) {
-        $db->beginTransaction();
-        $db->exec(<<<'SQL'
-            CREATE TABLE IF NOT EXISTS account_scores (
-                account_id INTEGER PRIMARY KEY REFERENCES accounts (id) ON DELETE CASCADE,
-                points INTEGER NOT NULL,
-                solved INTEGER NOT NULL
-            );
-            CREATE INDEX IF NOT EXISTS account_scores_rank ON account_scores (points DESC);
-            SQL);
-        $records = $db->query("SELECT id, progress_json FROM accounts WHERE progress_json <> '{}'");
-        while ($record = $records->fetch()) {
-            $progress = json_decode($record['progress_json'], false, 12, JSON_THROW_ON_ERROR);
-            saveAccountScore($db, (int) $record['id'], $progress);
+    // Take the migration lock before reading the version again. Other first
+    // requests wait for the whole schema and see the committed result.
+    $db->exec('BEGIN IMMEDIATE');
+    try {
+        $version = (int) $db->query('PRAGMA user_version')->fetchColumn();
+        if ($version === 0) {
+            $db->exec(<<<'SQL'
+                CREATE TABLE IF NOT EXISTS accounts (
+                    id INTEGER PRIMARY KEY,
+                    username TEXT NOT NULL,
+                    username_key TEXT UNIQUE NOT NULL,
+                    email TEXT UNIQUE NOT NULL,
+                    password_hash TEXT NOT NULL,
+                    session_version INTEGER NOT NULL DEFAULT 1,
+                    reset_digest TEXT UNIQUE,
+                    reset_expires INTEGER,
+                    progress_revision INTEGER NOT NULL DEFAULT 0,
+                    progress_json TEXT NOT NULL DEFAULT '{}'
+                );
+                CREATE TABLE IF NOT EXISTS auth_limits (
+                    digest TEXT NOT NULL,
+                    expires INTEGER NOT NULL,
+                    hits INTEGER NOT NULL,
+                    PRIMARY KEY (digest, expires)
+                );
+                CREATE INDEX IF NOT EXISTS auth_limits_expiry ON auth_limits (expires);
+                CREATE TABLE IF NOT EXISTS auth_settings (
+                    name TEXT PRIMARY KEY,
+                    value TEXT NOT NULL
+                );
+                SQL);
+            $db->prepare("INSERT OR IGNORE INTO auth_settings VALUES ('limit_secret', ?)")
+                ->execute([bin2hex(random_bytes(32))]);
+            $db->exec('PRAGMA user_version = 1');
         }
-        $db->exec('PRAGMA user_version = 2');
-        $db->commit();
+        if ($version < 2) {
+            $db->exec(<<<'SQL'
+                CREATE TABLE IF NOT EXISTS account_scores (
+                    account_id INTEGER PRIMARY KEY REFERENCES accounts (id) ON DELETE CASCADE,
+                    points INTEGER NOT NULL,
+                    solved INTEGER NOT NULL
+                );
+                CREATE INDEX IF NOT EXISTS account_scores_rank ON account_scores (points DESC);
+                SQL);
+            $records = $db->query("SELECT id, progress_json FROM accounts WHERE progress_json <> '{}'");
+            while ($record = $records->fetch()) {
+                $progress = json_decode($record['progress_json'], false, 12, JSON_THROW_ON_ERROR);
+                saveAccountScore($db, (int) $record['id'], $progress);
+            }
+            $db->exec('PRAGMA user_version = 2');
+        }
+        // Add compatible tables without changing the version understood by the
+        // previous release. The flat progress column remains its rollback view.
+        if (!$db->query("SELECT 1 FROM sqlite_master WHERE type = 'table' AND name = 'account_mail'")->fetchColumn()) {
+            $db->exec(<<<'SQL'
+                CREATE TABLE IF NOT EXISTS account_task_records (
+                    account_id INTEGER PRIMARY KEY REFERENCES accounts (id) ON DELETE CASCADE,
+                    revision INTEGER NOT NULL,
+                    records_json TEXT NOT NULL
+                );
+                CREATE TABLE IF NOT EXISTS account_mail (
+                    account_id INTEGER PRIMARY KEY REFERENCES accounts (id) ON DELETE CASCADE,
+                    confirmed INTEGER NOT NULL DEFAULT 0,
+                    allow_legacy_recovery INTEGER NOT NULL DEFAULT 0,
+                    pending_email TEXT,
+                    confirm_digest TEXT UNIQUE,
+                    confirm_expires INTEGER
+                );
+                SQL);
+        }
+        $db->exec('COMMIT');
+    } catch (Throwable $error) {
+        $db->exec('ROLLBACK');
+        throw $error;
     }
     return $db;
 }
@@ -153,7 +185,11 @@ function accountForSession(PDO $db): ?array
     if (!isset($_SESSION['user_id'])) {
         return null;
     }
-    $lookup = $db->prepare('SELECT id, username, session_version FROM accounts WHERE id = ?');
+    $lookup = $db->prepare(<<<'SQL'
+        SELECT a.id, a.username, a.session_version, a.email, COALESCE(m.confirmed, 0) AS email_confirmed,
+               m.pending_email
+        FROM accounts a LEFT JOIN account_mail m ON m.account_id = a.id WHERE a.id = ?
+        SQL);
     $lookup->execute([$_SESSION['user_id']]);
     $account = $lookup->fetch();
     if (!$account || (int) $account['session_version'] !== $_SESSION['version'] || time() >= ($_SESSION['expires'] ?? 0)) {
@@ -166,7 +202,10 @@ function accountForSession(PDO $db): ?array
 function sessionPayload(?array $account): array
 {
     return [
-        'user' => $account === null ? null : ['id' => (int) $account['id'], 'username' => $account['username']],
+        'user' => $account === null ? null : [
+            'id' => (int) $account['id'], 'username' => $account['username'], 'email' => $account['email'],
+            'emailConfirmed' => (bool) $account['email_confirmed'], 'pendingEmail' => $account['pending_email'],
+        ],
         'csrf' => $_SESSION['csrf'],
     ];
 }
@@ -235,7 +274,7 @@ function enforceRate(PDO $db, string $secret, string $bucket, int $limit, int $w
     }
 }
 
-function registerAccount(PDO $db, stdClass $data): array
+function registerAccount(PDO $db, stdClass $data, string $sender): array
 {
     $username = trim(field($data, 'username'));
     $email = emailKey(field($data, 'email'));
@@ -249,17 +288,24 @@ function registerAccount(PDO $db, stdClass $data): array
     if (!passwordAllowed($password)) {
         throw new AccountError(422, 'Пароль должен содержать не менее 10 символов и занимать не более 72 байт.');
     }
+    $db->beginTransaction();
     $insert = $db->prepare(<<<'SQL'
         INSERT INTO accounts (username, username_key, email, password_hash) VALUES (?, ?, ?, ?)
         ON CONFLICT DO NOTHING
         SQL);
     $insert->execute([$username, mb_strtolower($username, 'UTF-8'), $email, passwordDigest($password)]);
     if ($insert->rowCount() === 0) {
+        $db->rollBack();
         throw new AccountError(409, 'Не удалось создать аккаунт с этими данными. Проверь логин или восстанови пароль.');
     }
-    $account = ['id' => (int) $db->lastInsertId(), 'username' => $username, 'session_version' => 1];
+    $account = [
+        'id' => (int) $db->lastInsertId(), 'username' => $username, 'session_version' => 1,
+        'email' => $email, 'email_confirmed' => 0, 'pending_email' => null,
+    ];
+    $db->prepare('INSERT INTO account_mail (account_id) VALUES (?)')->execute([$account['id']]);
+    $db->commit();
     rotateAccountSession($account);
-    return sessionPayload($account);
+    return sessionPayload($account) + ['message' => startEmailConfirmation($db, $account, $sender)];
 }
 
 function loginAccount(PDO $db, stdClass $data, string $secret): array
@@ -280,15 +326,12 @@ function loginAccount(PDO $db, stdClass $data, string $secret): array
         throw new AccountError(401, 'Проверь логин и пароль.');
     }
     rotateAccountSession($account);
-    return sessionPayload($account);
+    return sessionPayload(accountForSession($db));
 }
 
-function sendResetMail(string $email, string $token, string $sender): bool
+function sendAccountMail(string $email, string $subject, string $body, string $sender): bool
 {
-    $link = ACCOUNT_ORIGIN . '/#reset=' . $token;
-    $subject = '=?UTF-8?B?' . base64_encode('Восстановление пароля') . '?=';
-    $body = "Чтобы задать новый пароль для olympiads.pro, открой ссылку:\r\n\r\n"
-        . $link . "\r\n\r\nСсылка действует 30 минут. Если ты не запрашивал восстановление, проигнорируй письмо.\r\n";
+    $subject = '=?UTF-8?B?' . base64_encode($subject) . '?=';
     try {
         return function_exists('mail') && @mail($email, $subject, $body, [
             'From' => $sender,
@@ -301,6 +344,141 @@ function sendResetMail(string $email, string $token, string $sender): bool
     }
 }
 
+function startEmailConfirmation(PDO $db, array $account, string $sender): string
+{
+    $email = $account['pending_email'] ?? $account['email'];
+    if ($account['email_confirmed'] && $account['pending_email'] === null) {
+        return 'Этот адрес уже подтверждён.';
+    }
+    $token = bin2hex(random_bytes(32));
+    $save = $db->prepare(<<<'SQL'
+        INSERT INTO account_mail (account_id, allow_legacy_recovery, confirm_digest, confirm_expires)
+        SELECT id, 1, ?, ? FROM accounts WHERE id = ? AND email = ? AND session_version = ?
+        ON CONFLICT (account_id) DO UPDATE
+        SET confirm_digest = excluded.confirm_digest, confirm_expires = excluded.confirm_expires
+        WHERE account_mail.pending_email IS ? AND (account_mail.pending_email IS NOT NULL OR account_mail.confirmed = 0)
+        SQL);
+    $save->execute([
+        hash('sha256', $token), time() + EMAIL_CONFIRM_LIFETIME, $account['id'], $account['email'],
+        $account['session_version'], $account['pending_email'],
+    ]);
+    if ($save->rowCount() === 0) {
+        return 'Данные почты изменились. Открой профиль ещё раз.';
+    }
+    $link = ACCOUNT_ORIGIN . '/#confirm-email=' . $token;
+    $body = "Чтобы подтвердить этот адрес для olympiads.pro, открой ссылку:\r\n\r\n"
+        . $link . "\r\n\r\nСсылка действует сутки. Если ты не запрашивал подтверждение, проигнорируй письмо.\r\n";
+    return sendAccountMail($email, 'Подтверждение адреса', $body, $sender)
+        ? 'Письмо для подтверждения отправлено.'
+        : 'Почта временно недоступна. Запроси письмо ещё раз в профиле.';
+}
+
+function confirmEmail(PDO $db, stdClass $data): void
+{
+    $token = field($data, 'token');
+    $invalid = 'Ссылка недействительна или уже использована. Запроси новую в профиле.';
+    if (!preg_match('/\A[a-f0-9]{64}\z/', $token)) {
+        throw new AccountError(422, $invalid);
+    }
+    $digest = hash('sha256', $token);
+    $db->exec('BEGIN IMMEDIATE');
+    try {
+        $lookup = $db->prepare('SELECT account_id, pending_email FROM account_mail WHERE confirm_digest = ? AND confirm_expires > ?');
+        $lookup->execute([$digest, time()]);
+        $mail = $lookup->fetch();
+        if (!$mail) {
+            throw new AccountError(422, $invalid);
+        }
+        if ($mail['pending_email'] !== null) {
+            $update = $db->prepare(<<<'SQL'
+                UPDATE OR IGNORE accounts SET email = ?, reset_digest = NULL, reset_expires = NULL WHERE id = ?
+                SQL);
+            $update->execute([$mail['pending_email'], $mail['account_id']]);
+            if ($update->rowCount() === 0) {
+                throw new AccountError(409, 'Этот адрес уже связан с другим аккаунтом. Укажи другой адрес.');
+            }
+        }
+        $db->prepare(<<<'SQL'
+            UPDATE account_mail SET confirmed = 1, allow_legacy_recovery = 0, pending_email = NULL,
+                confirm_digest = NULL, confirm_expires = NULL WHERE account_id = ?
+            SQL)->execute([$mail['account_id']]);
+        $db->exec('COMMIT');
+    } catch (Throwable $error) {
+        $db->exec('ROLLBACK');
+        throw $error;
+    }
+}
+
+function requirePassword(PDO $db, array $account, stdClass $data): void
+{
+    $lookup = $db->prepare('SELECT password_hash FROM accounts WHERE id = ? AND session_version = ?');
+    $lookup->execute([$account['id'], $account['session_version']]);
+    $password = field($data, 'password');
+    $hash = $lookup->fetchColumn();
+    if ($hash === false || !passwordAllowed($password) || !password_verify($password, $hash)) {
+        throw new AccountError(422, 'Проверь текущий пароль.');
+    }
+}
+
+function editAccount(PDO $db, array $account, stdClass $data, string $sender): array
+{
+    requirePassword($db, $account, $data);
+    $username = trim(field($data, 'username'));
+    $email = emailKey(field($data, 'email'));
+    if (!preg_match('/\A[\p{Latin}\p{Cyrillic}0-9_-]{3,24}\z/u', $username) || $email === '') {
+        throw new AccountError(422, 'Проверь имя пользователя и адрес электронной почты.');
+    }
+    $pending = $email === $account['email'] ? null : $email;
+    $mailChanged = $pending !== $account['pending_email'];
+    $db->exec('BEGIN IMMEDIATE');
+    try {
+        $update = $db->prepare('UPDATE OR IGNORE accounts SET username = ?, username_key = ? WHERE id = ? AND session_version = ?');
+        $update->execute([$username, mb_strtolower($username, 'UTF-8'), $account['id'], $account['session_version']]);
+        if ($update->rowCount() === 0) {
+            throw new AccountError(409, 'Не удалось сохранить имя. Попробуй другое имя.');
+        }
+        if ($mailChanged) {
+            $lookup = $db->prepare('SELECT 1 FROM accounts WHERE email = ? AND id <> ?');
+            $lookup->execute([$pending, $account['id']]);
+            $pendingUpdate = $db->prepare(<<<'SQL'
+                INSERT OR IGNORE INTO account_mail (account_id, allow_legacy_recovery, pending_email)
+                VALUES (?, 1, ?)
+                ON CONFLICT (account_id) DO UPDATE SET pending_email = excluded.pending_email,
+                    confirm_digest = NULL, confirm_expires = NULL
+                SQL);
+            if ($lookup->fetchColumn()) {
+                throw new AccountError(409, 'Не удалось сохранить адрес. Проверь его или укажи другой.');
+            }
+            $pendingUpdate->execute([$account['id'], $pending]);
+            if ($pendingUpdate->rowCount() === 0) {
+                throw new AccountError(409, 'Не удалось сохранить адрес. Проверь его или укажи другой.');
+            }
+        }
+        $db->exec('COMMIT');
+    } catch (Throwable $error) {
+        $db->exec('ROLLBACK');
+        throw $error;
+    }
+    $account = accountForSession($db);
+    $message = 'Данные профиля сохранены.';
+    if ($mailChanged && $pending !== null) {
+        $message .= ' ' . startEmailConfirmation($db, $account, $sender);
+    }
+    return sessionPayload($account) + ['message' => $message];
+}
+
+function deleteAccount(PDO $db, array $account, stdClass $data): array
+{
+    requirePassword($db, $account, $data);
+    if (($data->confirm ?? null) !== true) {
+        throw new AccountError(422, 'Подтверди удаление аккаунта.');
+    }
+    $delete = $db->prepare('DELETE FROM accounts WHERE id = ? AND session_version = ?');
+    $delete->execute([$account['id'], $account['session_version']]);
+    rotateAccountSession();
+    return sessionPayload(null) + ['message' => 'Аккаунт и данные удалены.'];
+}
+
 function requestPasswordReset(PDO $db, stdClass $data, string $secret, string $sender): void
 {
     $started = hrtime(true);
@@ -310,7 +488,11 @@ function requestPasswordReset(PDO $db, stdClass $data, string $secret, string $s
     $message = ['message' => 'Если этот адрес связан с аккаунтом, мы отправим ссылку для восстановления пароля.'];
     $willSend = false;
     if ($email !== '' && ratePermit($db, $secret, 'reset-email:' . $email, 3, 3600)) {
-        $update = $db->prepare('UPDATE accounts SET reset_digest = ?, reset_expires = ? WHERE email = ?');
+        $update = $db->prepare(<<<'SQL'
+            UPDATE accounts SET reset_digest = ?, reset_expires = ? WHERE email = ? AND NOT EXISTS (
+                SELECT 1 FROM account_mail WHERE account_id = accounts.id AND confirmed = 0 AND allow_legacy_recovery = 0
+            )
+            SQL);
         $update->execute([$digest, time() + RESET_LIFETIME, $email]);
         $willSend = $update->rowCount() === 1;
     }
@@ -322,7 +504,10 @@ function requestPasswordReset(PDO $db, stdClass $data, string $secret, string $s
         reply(200, $message);
         fastcgi_finish_request();
     }
-    if ($willSend && !sendResetMail($email, $token, $sender)) {
+    $link = ACCOUNT_ORIGIN . '/#reset=' . $token;
+    $body = "Чтобы задать новый пароль для olympiads.pro, открой ссылку:\r\n\r\n"
+        . $link . "\r\n\r\nСсылка действует 30 минут. Если ты не запрашивал восстановление, проигнорируй письмо.\r\n";
+    if ($willSend && !sendAccountMail($email, 'Восстановление пароля', $body, $sender)) {
         error_log('olympiads auth: password reset mail rejected by local mailer');
     }
     if (!$finishEarly) {
@@ -567,7 +752,11 @@ function progressForAccount(PDO $db, array $account, ?stdClass $data = null): ar
     if ($expected !== null && $expected !== (int) $account['id'] && $expected !== (string) $account['id']) {
         throw new AccountError(409, 'Аккаунт изменился. Обнови страницу.', sessionPayload($account));
     }
-    $lookup = $db->prepare('SELECT progress_revision, progress_json FROM accounts WHERE id = ? AND session_version = ?');
+    $lookup = $db->prepare(<<<'SQL'
+        SELECT a.progress_revision, a.progress_json, t.revision AS records_revision, t.records_json
+        FROM accounts a LEFT JOIN account_task_records t ON t.account_id = a.id
+        WHERE a.id = ? AND a.session_version = ?
+        SQL);
     $lookup->execute([$account['id'], $account['session_version']]);
     $record = $lookup->fetch();
     if (!$record) {
@@ -581,18 +770,19 @@ function progressForAccount(PDO $db, array $account, ?stdClass $data = null): ar
         return $result;
     }
     if (!is_int($data->revision ?? null) || $data->revision < 0
-        || !(($data->progress ?? null) instanceof stdClass) || count(get_object_vars($data->progress)) > PROGRESS_KEY_LIMIT) {
+        || !(($data->progress ?? null) instanceof stdClass)
+        || count(get_object_vars($data->progress)) > 2 * PROGRESS_TASK_LIMIT + PROGRESS_ARTIFACT_LIMIT) {
         throw new AccountError(422, 'Не удалось прочитать данные прогресса.');
     }
     if ($data->revision !== $revision) {
         throw new AccountError(409, 'Прогресс изменился на другом устройстве.', $result);
     }
     $claims = $data->ratingAnswers ?? new stdClass();
-    if (!$claims instanceof stdClass || count(get_object_vars($claims)) > PROGRESS_KEY_LIMIT) {
+    if (!$claims instanceof stdClass || count(get_object_vars($claims)) > PROGRESS_TASK_LIMIT) {
         throw new AccountError(422, 'Не удалось прочитать первые ответы.');
     }
     foreach ($claims as $key => $answer) {
-        if (!is_int($answer) || $answer < 0 || $answer > 4 || ($data->progress->{'rating:' . $key} ?? null) !== 'solved') {
+        if (!is_int($answer) || $answer < 0 || $answer > 4 || !isset($data->progress->{'rating:' . $key})) {
             throw new AccountError(422, 'Не удалось прочитать первые ответы.');
         }
     }
@@ -602,43 +792,84 @@ function progressForAccount(PDO $db, array $account, ?stdClass $data = null): ar
         }
     }
     $saved = clone $progress;
+    $existingTasks = json_decode($record['records_json'] ?? '{}', false, 12, JSON_THROW_ON_ERROR);
+    $tasks = $record['records_revision'] === $revision ? $existingTasks : new stdClass();
+    if ($tasks !== $existingTasks) {
+        foreach ($saved as $key => $value) {
+            if (preg_match('~\A(rating:)?(' . LESSON_KEY_PATTERN . ')\z~', $key, $parts)) {
+                $lesson = $parts[2];
+                $task = $tasks->$lesson ??= new stdClass();
+                if ($parts[1] === '') {
+                    $task->progress = $value;
+                } else {
+                    $task->rating = $value;
+                    if (isset($existingTasks->$lesson->firstAnswer)) $task->firstAnswer = $existingTasks->$lesson->firstAnswer;
+                }
+            }
+        }
+    }
     $scoreChanged = false;
     foreach ($data->progress as $key => $value) {
-        // Keep the first verified rating for each account and task.
-        if (str_starts_with($key, 'rating:')) {
-            if (property_exists($saved, $key)) {
-                continue;
+        if (preg_match('~\A(rating:)?(' . LESSON_KEY_PATTERN . ')\z~', $key, $parts)) {
+            $lesson = $parts[2];
+            $task = $tasks->$lesson ??= new stdClass();
+            if ($parts[1] === 'rating:') {
+                if (isset($task->rating)) {
+                    continue;
+                }
+                $value = verifiedRating($key, $value, $data->progress, $saved, $claims);
+                $task->rating = $value;
+                $scoreChanged = $scoreChanged || $value === 'solved';
+                $before = json_decode($saved->$lesson ?? 'null', false, 12, JSON_THROW_ON_ERROR);
+                $submitted = json_decode($data->progress->$lesson ?? 'null', false, 12, JSON_THROW_ON_ERROR);
+                $firstAnswer = $claims->$lesson ?? $submitted->selected ?? null;
+                if (is_int($firstAnswer) && $firstAnswer <= 4 && $submitted !== null
+                    && ($submitted->step > 0 || ($submitted->reviewOpened ?? false))
+                    && !($before->seen ?? false) && !($before->reviewOpened ?? false) && !($before->step ?? 0)) {
+                    $task->firstAnswer = $firstAnswer;
+                }
+            } else {
+                $value = isset($task->progress) ? preserveLessonReview($task->progress, $value) : $value;
+                $task->progress = $value;
             }
-            $value = verifiedRating($key, $value, $data->progress, $saved, $claims);
-            $scoreChanged = $scoreChanged || $value === 'solved';
-        }
-        if (isset($progress->$key) && preg_match('~\A' . LESSON_KEY_PATTERN . '\z~', $key)) {
-            $value = preserveLessonReview($progress->$key, $value);
         }
         $progress->$key = $value;
     }
+    $artifactCount = 0;
+    foreach ($progress as $key => $value) {
+        if (!preg_match('~\A(?:rating:)?' . LESSON_KEY_PATTERN . '\z~', $key)) {
+            $artifactCount++;
+        }
+    }
     $encoded = json_encode($progress, JSON_THROW_ON_ERROR | JSON_UNESCAPED_UNICODE);
-    if (strlen($encoded) > PROGRESS_TOTAL_LIMIT || count(get_object_vars($progress)) > PROGRESS_KEY_LIMIT) {
+    if (strlen($encoded) > PROGRESS_TOTAL_LIMIT || count(get_object_vars($tasks)) > PROGRESS_TASK_LIMIT
+        || $artifactCount > PROGRESS_ARTIFACT_LIMIT) {
         throw new AccountError(413, 'Достигнут предел хранения прогресса.');
     }
-    if ($encoded === $record['progress_json']) {
+    if ($encoded === $record['progress_json'] && $tasks === $existingTasks) {
         return $result;
     }
+    $changed = $encoded !== $record['progress_json'];
+    $nextRevision = $revision + (int) $changed;
     $db->beginTransaction();
     $save = $db->prepare(<<<'SQL'
-        UPDATE accounts SET progress_json = ?, progress_revision = progress_revision + 1
+        UPDATE accounts SET progress_json = ?, progress_revision = ?
         WHERE id = ? AND progress_revision = ? AND session_version = ?
         SQL);
-    $save->execute([$encoded, $account['id'], $revision, $account['session_version']]);
+    $save->execute([$encoded, $nextRevision, $account['id'], $revision, $account['session_version']]);
     if ($save->rowCount() === 0) {
         $db->rollBack();
         throw new AccountError(409, 'Прогресс изменился на другом устройстве.', progressForAccount($db, $account));
     }
+    $db->prepare(<<<'SQL'
+        INSERT INTO account_task_records (account_id, revision, records_json) VALUES (?, ?, ?)
+        ON CONFLICT (account_id) DO UPDATE SET revision = excluded.revision, records_json = excluded.records_json
+        SQL)->execute([$account['id'], $nextRevision, json_encode($tasks, JSON_THROW_ON_ERROR | JSON_UNESCAPED_UNICODE)]);
     if ($scoreChanged) {
         saveAccountScore($db, (int) $account['id'], $progress);
     }
     $db->commit();
-    return ['revision' => $revision + 1, 'progress' => $progress];
+    return ['revision' => $nextRevision, 'progress' => $progress];
 }
 
 function routeAccountRequest(): void
@@ -647,12 +878,17 @@ function routeAccountRequest(): void
     if ($https !== 'on' && $https !== '1') {
         throw new AccountError(403, 'Для входа в аккаунт требуется защищённое соединение.');
     }
+    header('Strict-Transport-Security: max-age=300');
+    if (parse_url($_SERVER['REQUEST_URI'] ?? '', PHP_URL_PATH) !== '/api/auth.php') {
+        throw new AccountError(404, 'Такой операции нет.');
+    }
     $method = $_SERVER['REQUEST_METHOD'] ?? '';
     $action = $_GET['action'] ?? 'session';
     $allowed = match ($action) {
         'session', 'leaderboard' => 'GET',
         'progress' => 'GET, POST',
-        'register', 'login', 'logout', 'request-reset', 'reset' => 'POST',
+        'register', 'login', 'logout', 'request-reset', 'reset',
+            'verify-email', 'send-verification', 'edit-account', 'delete-account' => 'POST',
         default => '',
     };
     if ($allowed === '') {
@@ -717,6 +953,9 @@ function routeAccountRequest(): void
         throw new AccountError(403, 'Сессия обновилась. Повтори действие.', ['csrf' => $_SESSION['csrf']]);
     }
     $data = getPayload($action === 'progress' ? PROGRESS_BODY_LIMIT : 8192);
+    if (isset($data->accountId) && $action !== 'progress' && $data->accountId !== (int) ($account['id'] ?? 0)) {
+        throw new AccountError(409, 'Аккаунт изменился. Открой профиль ещё раз.', sessionPayload($account));
+    }
     if ($action === 'logout') {
         rotateAccountSession();
         reply(200, sessionPayload(null) + ['message' => 'Ты вышел из аккаунта.']);
@@ -739,13 +978,33 @@ function routeAccountRequest(): void
         'login' => enforceRate($db, $secret, 'login-ip:' . $ip, 80, 900),
         'request-reset' => enforceRate($db, $secret, 'reset-mail-ip:' . $ip, 15, 3600),
         'reset' => enforceRate($db, $secret, 'reset-ip:' . $ip, 20, 900),
+        'verify-email' => enforceRate($db, $secret, 'verify-email-ip:' . $ip, 40, 900),
+        'send-verification', 'edit-account', 'delete-account' => enforceRate($db, $secret, 'edit-account-ip:' . $ip, 80, 900),
     };
     if ($action === 'request-reset') {
         requestPasswordReset($db, $data, $secret, $sender);
         return;
     }
+    if ($action === 'verify-email') {
+        confirmEmail($db, $data);
+        reply(200, sessionPayload(accountForSession($db)) + ['message' => 'Адрес электронной почты подтверждён.']);
+        return;
+    }
+    if (in_array($action, ['send-verification', 'edit-account', 'delete-account'], true)) {
+        if ($account === null) {
+            throw new AccountError(401, 'Войди в аккаунт.', sessionPayload(null));
+        }
+        enforceRate($db, $secret, "$action:" . $account['id'], $action === 'send-verification' ? 5 : 12, 900);
+        $result = match ($action) {
+            'send-verification' => sessionPayload($account) + ['message' => startEmailConfirmation($db, $account, $sender)],
+            'edit-account' => editAccount($db, $account, $data, $sender),
+            'delete-account' => deleteAccount($db, $account, $data),
+        };
+        reply(200, $result);
+        return;
+    }
     $result = match ($action) {
-        'register' => registerAccount($db, $data),
+        'register' => registerAccount($db, $data, $sender),
         'login' => loginAccount($db, $data, $secret),
         'reset' => resetPassword($db, $data),
     };

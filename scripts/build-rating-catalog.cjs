@@ -2,24 +2,12 @@
 
 const fs = require('node:fs');
 const path = require('node:path');
-const vm = require('node:vm');
+const {dist, loadLessonCatalog} = require('./lesson-catalog.cjs');
 
-const dist = path.resolve(__dirname, '../dist');
 function buildRatingCatalog() {
-  const page = fs.readFileSync(path.join(dist, 'index.html'), 'utf8');
-  const context = vm.createContext({});
-  for (const [, file] of page.matchAll(/<script src="([^"?]+)(?:\?[^"]*)?"/gu)) {
-    if (file === 'app.js') break;
-    if (file !== 'account.js') vm.runInContext(fs.readFileSync(path.join(dist, file), 'utf8'), context, {filename: file});
-  }
-
-  const app = fs.readFileSync(path.join(dist, 'app.js'), 'utf8');
-  const end = app.indexOf('\nconst $=id=>');
-  if (end === -1) throw new Error('Cannot find the lesson catalogue');
-  vm.runInContext(app.slice(0, end), context, {filename: 'app.js'});
-  const catalog = vm.runInContext(`Object.fromEntries(LESSONS
-    .filter(lesson => Number.isInteger(lesson.answer))
-    .map(lesson => [lesson.datasetId + '/' + lesson.number, [lesson.answer, lesson.points]]))`, context);
+  const {lessons} = loadLessonCatalog();
+  const catalog = Object.fromEntries(lessons.filter(lesson => Number.isInteger(lesson.answer))
+    .map(lesson => [lesson.datasetId + '/' + lesson.number, [lesson.answer, lesson.points]]));
   return JSON.stringify(catalog) + '\n';
 }
 

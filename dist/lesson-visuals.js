@@ -182,7 +182,7 @@
         + `<g opacity="${opacity}">${text(320, y + 35, value, fontSize)}</g>`;
     }).join('');
     const height = calculations.length ? top + 66 * calculations.length : imageHeight + 24;
-    return svg(figureMarkup + model + rows, [figure ? 'Рисунок из официального решения' : '', ...calculations].filter(Boolean).join('. '), `0 0 640 ${height}`, 'worked-scene');
+    return svg(figureMarkup + model + rows, [figure ? figure.imageAlt ?? 'Рисунок из официального решения' : '', ...calculations].filter(Boolean).join('. '), `0 0 640 ${height}`, 'worked-scene');
   }
 
   function answerScene({letter, value, image, width, height}) {

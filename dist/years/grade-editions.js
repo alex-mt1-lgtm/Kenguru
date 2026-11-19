@@ -53,7 +53,7 @@
     const lessons = [];
     const scenes = [];
 
-    for (const {number, title, question, options, condition, answer, points, review, keyNote} of cards) {
+    for (const {number, title, question, questionNote, options, condition, answer, points, review, keyNote} of cards) {
       const hasReview = review.length > 0;
       const choiceImages = options.map(option => option.image);
       const choices = options.map(option => option.text ?? '');
@@ -68,7 +68,7 @@
       }
 
       lessons.push({
-        number, title, short: title, question, points, answer, choices, choiceImages,
+        number, title, short: title, question, questionNote, points, answer, choices, choiceImages,
         choiceLayout: {condition, options}, conditionImage: condition?.src, conditionAlt: condition?.alt,
         hideIntroText: true, paperEdition: !hasReview, showCompletedStep: hasReview,
         officialValueKey: answer === null,

@@ -134,3 +134,13 @@
   opacity: 0.55;
   cursor: wait;
 }
+
+.account-form .account-confirm {
+  display: flex;
+  align-items: center;
+  gap: .65rem;
+}
+.account-form .account-confirm input { width: auto; }
+.progress-status:empty { display: none; }
+.progress-status { margin: .3rem 0 .65rem; font-size: .9rem; }
+.progress-retry { margin-bottom: .7rem; }

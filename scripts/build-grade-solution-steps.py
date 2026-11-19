@@ -42,8 +42,8 @@ FIGURES = {
         18: [(9, (318, 187, 401, 286), 0)],
         19: [(9, (217, 330, 401, 385), 1)],
         22: [(10, (191, 122, 396, 182), 1)],
-        23: [(10, (340, 194, 395, 249), 0)],
-        25: [(10, (317, 308, 395, 386), 0)],
+        23: [(10, (340, 194, 395, 249), 3)],
+        25: [(10, (317, 308, 395, 386), 2)],
         27: [(10, (313, 479, 396, 561), 2)],
     },
     2026: {
@@ -255,6 +255,17 @@ OVERRIDES = {
             'На рисунке виден большой треугольник площадью в половину квадрата, то есть 50 см². Маленький треугольник занимает четверть квадрата, то есть 25 см².',
             'Площадь выделенной фигуры равна разности этих площадей: 50 − 25 = 25 см².',
         ],
+        23: [
+            'В крайнем правом столбце нет трёх клеток подряд. Если детали прямые, то каждую клетку этого столбца приходится накрывать горизонтальной полоской из трёх клеток. В таком случае клетку С можно накрыть только горизонтальной полоской во втором ряду. После этого у верхней левой клетки не останется свободных соседей.',
+            'У крайней правой клетки первого ряда есть только один уголок: с клеткой слева и клеткой С. У верхней левой клетки есть три варианта. Уголок с В и звёздочкой изолирует А. Уголок с А и звёздочкой вынуждает соединить В с двумя левыми клетками третьего ряда, и тогда нижний левый угол останется без детали. Значит, сверху слева один уголок с А и В.',
+            'У звёздочки осталась свободная соседка только снизу. Клетку под звёздочкой можно соединить с D или с E. Если взять D, две левые клетки нижнего ряда останутся без свободных соседей сверху и не образуют уголок. Значит, со звёздочкой в одной детали находится E.',
+            'Оставшиеся клетки образуют два отдельных уголка. Вместе с тремя найденными уголками они заполняют всю фигуру. Разбиение единственное. Клетка Е находится в одной детали со звёздочкой.',
+        ],
+        25: [
+            'У креста восемь углов по 45°. Их могут заполнить только детали с острым углом. Ближайшие из этих углов креста разнесены на диагональ квадрата 2 × 2, а любая деталь помещается в прямоугольник 2 × 1. Диагональ такого прямоугольника короче. Поэтому каждый острый угол требует отдельной детали площадью не больше одной клетки.',
+            'В кресте 13 целых клеток и восемь половинок: 13 + 8 : 2 = 17 клеток. Восемь деталей у острых углов закрывают не больше 8 клеток. Остаётся не меньше 17 − 8 = 9 клеток. Площадь самой большой детали — 2 клетки, поэтому на оставшуюся часть нужно ещё не меньше пяти деталей.',
+            'Всего нужно не меньше 8 + 5 = 13 деталей. На рисунке показана сборка из тринадцати: восемь деталей по концам креста, четыре прямоугольника и один квадрат в центре. Значит, 13 — минимум.',
+        ],
         29: [
             'Пусть у Серёжи сначала было m шоколадок. Тогда у Гены было 3m шоколадок.',
             'Гена передал Серёже четверть своих шоколадок. У Гены осталось 3m − 3m/4, у Серёжи стало m + 3m/4.',
@@ -422,6 +433,75 @@ def labyrinth_2023():
     return steps
 
 
+def tile_figure(name, width, height, markup, description):
+    filename = ASSET_PATH / '2025' / f'{name}.svg'
+    drawing = f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}">{markup}</svg>\n'
+    (DIST / filename).write_text(drawing, encoding='utf-8')
+    return {'image': filename.as_posix(), 'imageWidth': 2 * width, 'imageHeight': 2 * height,
+            'imageAlt': description}
+
+
+def trimino_figure(name, groups, description, isolated=None):
+    cell = 32
+    width = height = 152
+    labels = {(0, 1): 'A', (1, 0): 'B', (1, 2): 'C', (2, 0): 'D', (2, 2): 'E'}
+    group_fills = ['#c6e8df', '#f4dfae', '#dfd9f2', '#d9e8fa']
+    fills = {point: color for group, color in zip(groups, group_fills) for point in group}
+    diagram = []
+    for row in range(4):
+        for col in range(4):
+            point = (row, col)
+            if point == (1, 3):
+                continue
+            x, y = 12 + col * cell, 12 + row * cell
+            fill = '#fee4d9' if point == isolated else fills.get(point, '#fffefa')
+            diagram.append(f'<rect x="{x}" y="{y}" width="{cell}" height="{cell}" fill="{fill}" stroke="#566861"/>')
+            if label := labels.get(point):
+                diagram.append(f'<text x="{x + 16}" y="{y + 22}" text-anchor="middle" font-family="sans-serif" '
+                               f'font-size="16" font-weight="700" fill="#172e34">{label}</text>')
+            if point == (1, 1):
+                diagram.append('<path d="M0 -8 2.4 -2.6 8 -2.4 3.8 1.4 5 7 0 4.1 -5 7 -3.8 1.4 -8 -2.4 -2.4 -2.6Z" '
+                               f'transform="translate({x + 16} {y + 16})" fill="#172e34"/>')
+            if point == isolated:
+                diagram.append(f'<path d="M{x+10} {y+10}l12 12m0 -12l-12 12" stroke="#972f21" stroke-width="2.5"/>')
+    return tile_figure(name, width, height, ''.join(diagram), description)
+
+
+def cross_corners_figure():
+    outline = [(2, 0), (5, 0), (4, 1), (4, 3), (6, 3), (7, 2), (7, 5), (6, 4), (4, 4), (4, 6),
+               (5, 7), (2, 7), (3, 6), (3, 4), (1, 4), (0, 5), (0, 2), (1, 3), (3, 3), (3, 1)]
+    corners = [(2, 0), (5, 0), (7, 2), (7, 5), (5, 7), (2, 7), (0, 5), (0, 2)]
+    points = ' '.join(f'{x},{y}' for x, y in outline)
+    lines = ''.join(f'M{i} 0V7M0 {i}H7' for i in range(1, 7))
+    marks = ''.join(f'<circle cx="{x}" cy="{y}" r=".14" fill="#a94226" stroke="#fffefa" stroke-width=".04"/>'
+                    for x, y in corners)
+    drawing = (f'<g transform="translate(12 12) scale(24)"><defs><clipPath id="cross-grid"><polygon points="{points}"/>'
+               f'</clipPath></defs><polygon points="{points}" fill="#c6e8df"/>'
+               f'<path d="{lines}" clip-path="url(#cross-grid)" fill="none" stroke="#809593" stroke-width=".035"/>'
+               f'<polygon points="{points}" fill="none" stroke="#172e34" stroke-width=".0625"/>{marks}</g>')
+    return tile_figure('task-25-corners', 192, 192, drawing, 'Крест на клетчатой сетке. Отмечены восемь острых углов.')
+
+
+def add_tiling_proof(number, steps):
+    if number == 23:
+        right = [(0, 2), (0, 3), (1, 2)]
+        left = [(0, 0), (0, 1), (1, 0)]
+        star = [(1, 1), (2, 1), (2, 2)]
+        bars = [[(row, col) for col in (range(3) if row == 1 else range(1, 4))] for row in range(4)]
+        for step, title, art in zip(steps, ['Проверим прямые детали', 'Найдём верхние уголки',
+                                            'Найдём деталь со звёздочкой', 'Проверим разбиение'], [
+            trimino_figure('task-23-bars', bars, 'Четыре горизонтальные полоски. Левая верхняя клетка изолирована.', isolated=(0, 0)),
+            trimino_figure('task-23-upper', [left, right], 'Два верхних уголка. Слева накрыты А и В, справа накрыта С.'),
+            trimino_figure('task-23-star', [left, right, star], 'Три уголка. Звёздочка и Е накрыты одним уголком.'),
+            {},
+        ], strict=True):
+            step.update(title=title, **art)
+    if number == 25:
+        for step, title in zip(steps, ['Отметим восемь острых углов', 'Найдём нижнюю границу', 'Покажем сборку'], strict=True):
+            step['title'] = title
+        steps[0].update(cross_corners_figure())
+
+
 def build_edition(year, document, tasks):
     entries = {}
     for number, lines in tasks.items():
@@ -429,6 +509,8 @@ def build_edition(year, document, tasks):
             entries[number] = {'steps': labyrinth_2023()}
             continue
         steps = [{'text': text} for text in parse_steps(year, number, lines)]
+        if year == 2025:
+            add_tiling_proof(number, steps)
         for index, figure in reversed(list(enumerate(FIGURES.get(year, {}).get(number, []), 1))):
             image = save_figure(document, year, number, index, figure)
             step = steps[min(figure[2], len(steps) - 1)]

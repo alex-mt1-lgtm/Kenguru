@@ -106,7 +106,7 @@ function renderWorkspace() {
   const surface = surfacePicker.selectedOptions?.[0]?.textContent;
   if (surface) {
     const toggle = $('draftSurfaceToggle');
-    toggle.setAttribute('aria-label', 'Где рисовать: ' + surface);
+    toggle.setAttribute('aria-label', 'Лист — ' + surface);
     toggle.setAttribute('data-tip', surface);
     toggle.setAttribute('data-paper', String(drawingSurface !== 'scene'));
   }

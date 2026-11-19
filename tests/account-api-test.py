@@ -92,6 +92,12 @@ class TestAccountApi(unittest.TestCase):
         self.server.terminate()
         self.server.communicate(timeout=10)
 
+    def verification_tokens(self):
+        return re.findall(r"#confirm-email=([a-f0-9]{64})", self.inbox.read_text())
+
+    def verify_current_email(self):
+        return self.client.action("verify-email", {"token": self.verification_tokens()[-1]})
+
     def test_https_is_required(self):
         environment = {**os.environ, "REQUEST_METHOD": "GET", "HTTP_X_FORWARDED_PROTO": "https"}
         environment.pop("HTTPS", None)
@@ -109,6 +115,7 @@ class TestAccountApi(unittest.TestCase):
         status, signed_in, cookie = self.client.action("register", account)
         self.assertEqual(status, 201)
         self.assertEqual(signed_in["user"]["username"], account["username"])
+        self.assertFalse(signed_in["user"]["emailConfirmed"])
         self.assertNotEqual(self.client.cookie, old_cookie)
         self.assertNotEqual(signed_in["csrf"], initial["csrf"])
         self.assertTrue(cookie.startswith("__Host-kenguru_account="))
@@ -121,8 +128,10 @@ class TestAccountApi(unittest.TestCase):
         second.action("session")
         self.assertEqual(second.action("login", {"login": "none", "password": account["password"]})[0], 401)
         self.assertEqual(second.action("login", {"login": "МАТЕМАТИК", "password": account["password"]})[0], 200)
+        self.assertTrue(self.verify_current_email()[1]["user"]["emailConfirmed"])
+        before = self.inbox.read_text()
         _, unknown_email, _ = second.action("request-reset", {"email": "none@example.test"})
-        self.assertFalse(self.inbox.exists())
+        self.assertEqual(self.inbox.read_text(), before)
         _, known_email, _ = second.action("request-reset", {"email": account["email"]})
         self.assertEqual(known_email, unknown_email)
         mail = self.inbox.read_text()
@@ -147,6 +156,7 @@ class TestAccountApi(unittest.TestCase):
         self.assertEqual(self.client.action("register", {
             "username": "test", "email": email, "password": "long-first-password"
         })[0], 201)
+        self.assertEqual(self.verify_current_email()[0], 200)
         for _ in range(3):
             self.assertEqual(self.client.action("request-reset", {"email": email})[0], 200)
         mail = self.inbox.read_text()
@@ -159,6 +169,58 @@ class TestAccountApi(unittest.TestCase):
         with sqlite3.connect(database) as db:
             db.execute("UPDATE accounts SET reset_expires = 1")
         self.assertEqual(self.client.action("reset", {"token": tokens[-1], "password": "long-new-password"})[0], 422)
+
+    def test_correct_unconfirmed_email_and_manage_account_data(self):
+        password = "long-first-password"
+        address = "correct@example.test"
+        _, registration, _ = self.client.action("register", {
+            "username": "reader", "email": "typo@example.test", "password": password
+        })
+        account_id = registration["user"]["id"]
+        old_token = self.verification_tokens()[0]
+        self.assertEqual(self.client.action("request-reset", {"email": "typo@example.test"})[0], 200)
+        self.assertNotIn("#reset=", self.inbox.read_text())
+
+        updated = {"username": "renamed", "email": address, "password": password, "accountId": account_id}
+        self.assertEqual(self.client.action("edit-account", {**updated, "password": "incorrect-password"})[0], 422)
+        status, profile, _ = self.client.action("edit-account", updated)
+        self.assertEqual(status, 200)
+        self.assertEqual(profile["user"]["username"], "renamed")
+        self.assertEqual(profile["user"]["pendingEmail"], address)
+        self.assertFalse(profile["user"]["emailConfirmed"])
+        self.assertEqual(self.client.action("verify-email", {"token": old_token})[0], 422)
+        self.assertEqual(self.client.action("send-verification", {"accountId": account_id})[0], 200)
+        guest = ApiClient(self.port)
+        guest.action("session")
+        token = self.verification_tokens()[-1]
+        status, response, _ = guest.action("verify-email", {"token": token})
+        self.assertEqual(status, 200)
+        self.assertIsNone(response["user"])
+        self.assertEqual(guest.action("verify-email", {"token": token})[0], 422)
+        status, session, _ = self.client.action("session")
+        self.assertEqual(status, 200)
+        self.assertEqual(session["user"]["email"], address)
+        self.assertTrue(session["user"]["emailConfirmed"])
+        self.assertIsNone(session["user"]["pendingEmail"])
+
+        self.assertEqual(self.client.action("delete-account", {"password": password, "confirm": False})[0], 422)
+        self.assertEqual(self.client.action("delete-account", {"password": password, "confirm": True})[0], 200)
+        self.assertIsNone(self.client.action("session")[1]["user"])
+        self.assertEqual(guest.action("login", {"login": address, "password": password})[0], 401)
+        with sqlite3.connect(self.home / ".olympiads-auth" / "accounts.sqlite") as db:
+            for table in ("accounts", "account_mail", "account_scores", "account_task_records"):
+                self.assertEqual(db.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0], 0)
+
+    def test_existing_unconfirmed_account_can_keep_using_recovery(self):
+        address = "before-upgrade@example.test"
+        self.client.action("register", {
+            "username": "migrated", "email": address, "password": "long-existing-password"
+        })
+        with sqlite3.connect(self.home / ".olympiads-auth" / "accounts.sqlite") as db:
+            db.execute("DELETE FROM account_mail")
+        self.assertFalse(self.client.action("session")[1]["user"]["emailConfirmed"])
+        self.assertEqual(self.client.action("request-reset", {"email": address})[0], 200)
+        self.assertIn("#reset=", self.inbox.read_text())
 
     def test_registration_and_login_rate_limits(self):
         for _ in range(12):

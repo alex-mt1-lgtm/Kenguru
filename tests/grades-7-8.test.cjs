@@ -81,3 +81,12 @@ test('equal-area illustration moves the quarter-circles and works at a complete 
   assert.doesNotMatch(complete, /NaN|undefined/u);
   assert.equal(area(0, 0), '');
 });
+
+test('cube surface restrictions are presented before choosing the official answer', () => {
+  const lesson = context.KENGURU_ARCHIVE['2026-7-8'].lessons[25];
+  assert.match(lesson.questionNote, /Кубики убирают по одному/u);
+  assert.match(lesson.questionNote, /В площадь входят только грани, открытые наружу/u);
+  assert.equal(lesson.choices[lesson.answer], '12');
+  assert.match(lesson.steps[2][2], /5 − 1 = 4 см²/u);
+  assert.match(lesson.steps[3][2], /48 : 4 = 12 кубиков/u);
+});

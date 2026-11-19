@@ -1,18 +1,47 @@
 'use strict';
-if(typeof FOUR_POINT_LESSONS!=='undefined')LESSONS.push(...FOUR_POINT_LESSONS);
-if(typeof FIVE_POINT_LESSONS!=='undefined')LESSONS.push(...FIVE_POINT_LESSONS);
-const CATALOG=[{id:'2024-3-4',year:2024,grades:[3,4],label:'3–4 классы',sources:{tasksUrl:'https://ipokengu.ru/public/task/kenguru_2024_class_3-4.pdf',answersUrl:'https://ipokengu.ru/public/task/kenguru_2024_answers.pdf',solutionUrl:'https://ipokengu.ru/public/task/kenguru_2024_solution.pdf'},indices:[]}];
-LESSONS.forEach((lesson,i)=>{lesson.points=lesson.points||3;lesson.number=i+1;lesson.year=2024;lesson.datasetId='2024-3-4';lesson.originalImage=lesson.originalImage||`assets/original-${i+1}.png`;CATALOG[0].indices.push(i)});
-const EXTRA_ARCHIVES=Object.values(globalThis.KENGURU_ARCHIVE||{}).flatMap(value=>Array.isArray(value)?value:[value]).filter(set=>set.id!=='2024-3-4').sort((a,b)=>a.year-b.year||a.id.localeCompare(b.id));
-for(const set of EXTRA_ARCHIVES){const entry={...set,indices:[]};set.lessons.forEach((lesson,i)=>{entry.indices.push(LESSONS.length);LESSONS.push({...lesson,number:lesson.number??i+1,year:set.year,datasetId:set.id})});CATALOG.push(entry)}
+const streamedEditions = globalThis.KenguruEditions;
+const CATALOG = [];
+let EXTRA_ARCHIVES = [];
 
-for (const lesson of LESSONS) {
-  const layout = globalThis.KENGURU_CHOICE_LAYOUTS?.[lesson.datasetId + '/' + lesson.number];
-  if (!layout) continue;
+function applyChoiceLayout(lesson, layout) {
+  if (!layout) return;
   lesson.choiceLayout = layout;
   lesson.conditionImage = layout.condition?.src;
   lesson.choices = layout.options.map(option => option.text ?? '');
   lesson.choiceImages = layout.options.map(option => option.image);
+}
+
+if (streamedEditions) {
+  for (const [id, year, grades, label, numbers, ratingPoints] of globalThis.KENGURU_EDITION_INDEX) {
+    const indices = numbers.map((number, offset) => LESSONS.push({
+      number, datasetId: id, year, ratingPoints: Number(ratingPoints[offset]) || 0,
+    }) - 1);
+    CATALOG.push({id, year, grades, label, indices});
+  }
+} else {
+  if (typeof FOUR_POINT_LESSONS !== 'undefined') LESSONS.push(...FOUR_POINT_LESSONS);
+  if (typeof FIVE_POINT_LESSONS !== 'undefined') LESSONS.push(...FIVE_POINT_LESSONS);
+  const defaultSet = {id: '2024-3-4', year: 2024, grades: [3, 4], label: '3–4 классы', sources: {
+    tasksUrl: 'https://ipokengu.ru/public/task/kenguru_2024_class_3-4.pdf',
+    answersUrl: 'https://ipokengu.ru/public/task/kenguru_2024_answers.pdf',
+    solutionUrl: 'https://ipokengu.ru/public/task/kenguru_2024_solution.pdf',
+  }, indices: []};
+  LESSONS.forEach((lesson, index) => {
+    Object.assign(lesson, {points: lesson.points || 3, number: index + 1, year: 2024,
+      datasetId: defaultSet.id, originalImage: lesson.originalImage || `assets/original-${index + 1}.png`});
+    defaultSet.indices.push(index);
+  });
+  CATALOG.push(defaultSet);
+  EXTRA_ARCHIVES = Object.values(globalThis.KENGURU_ARCHIVE ?? {}).flat()
+    .filter(set => set.id !== defaultSet.id).sort((a, b) => a.year - b.year || a.id.localeCompare(b.id));
+  for (const set of EXTRA_ARCHIVES) {
+    const indices = set.lessons.map((lesson, index) => LESSONS.push({
+      ...lesson, number: lesson.number ?? index + 1, year: set.year, datasetId: set.id,
+    }) - 1);
+    CATALOG.push({...set, indices});
+  }
+  for (const lesson of LESSONS) applyChoiceLayout(lesson,
+    globalThis.KENGURU_CHOICE_LAYOUTS?.[lesson.datasetId + '/' + lesson.number]);
 }
 
 const $=id=>document.getElementById(id),LETTERS=['А','Б','В','Г','Д'];
@@ -44,6 +73,10 @@ let activeProfileId = '';
 let accountProfile = null;
 let accountProgress = null;
 let accountResume = false;
+let ratingAttempt = null;
+let announcedSync = false;
+let ready = false;
+let queuedAccount;
 const fruitByProfile = new Map();
 
 function renderProfile() {
@@ -124,6 +157,7 @@ function savedTaskIndex() {
 
 function restoreProgress(changed) {
   LESSONS.forEach((lesson, index) => {
+    if (!lesson.steps) return;
     if (changed && !changed.has(lessonKey(lesson))) return;
     Object.assign(states[index], {step: 0, frame: 0, elapsed: 0, selected: null, seen: false});
     const saved = readProgress(lessonKey(lesson));
@@ -135,18 +169,39 @@ function restoreProgress(changed) {
   workVariant = states[0].selected ?? 0;
 }
 
+function renderSyncStatus() {
+  const {state: sync, code} = accountProgress?.status() ?? {};
+  const notice = $('progressStatus');
+  const retry = $('retryProgress');
+  if (['sending', 'local', 'blocked'].includes(sync)) announcedSync = true;
+  notice.textContent = !announcedSync ? '' :
+    sync === 'sending' ? 'Прогресс пока на этом устройстве. Сохраняем в аккаунте…' :
+    sync === 'local' ? 'Прогресс пока на этом устройстве. Повторим сохранение при подключении.' :
+    sync === 'blocked' ? (code === 413 ? 'Сервер отклонил сохранение из-за размера данных. Изменения остаются в этой вкладке.' :
+      'Не удалось сохранить прогресс в аккаунте. Изменения остаются в этой вкладке. Повтори сохранение.') :
+    sync === 'saved' ? 'Прогресс сохранён в аккаунте.' : '';
+  retry.hidden = sync !== 'blocked';
+  if (!ratingAttempt) return;
+  const confirmed = accountProgress?.confirmed(ratingAttempt.key);
+  const awarded = accountProgress?.confirmedAward(ratingAttempt.key);
+  $('ratingNotice').textContent = awarded ? `+${formatRatingPoints(ratingAttempt.points)} в рейтинг` :
+    confirmed === 'solved' ? 'Баллы за эту задачу уже сохранены.' :
+    confirmed ? 'Ответ проверен. Баллы за эту попытку не начислены.' :
+    accountProgress?.read(ratingAttempt.key) === 'solved' ? 'Ответ ожидает подтверждения рейтинга.' : '';
+}
+
 function refreshAccountProgress(changed) {
+  renderSyncStatus();
   const resume = accountResume;
-  accountResume = false;
   if (activeProfileId !== accountProfile?.id || !changed.size) return;
   const currentChanged = changed.has(lessonKey(LESSONS[task]));
   if (currentChanged) {
     finishMark();
     pause();
-    $('ratingNotice').textContent = '';
   }
   restoreProgress(changed);
   const recent = resume && changed.has('current') ? savedTaskIndex() : -1;
+  if (resume) accountResume = false;
   if (recent >= 0 && recent !== task) selectTask(recent, 'replaceState', false);
   else if (currentChanged) render();
   else renderPicker();
@@ -154,13 +209,28 @@ function refreshAccountProgress(changed) {
   if ($('profileRatingDialog').open) renderRatingDialog();
 }
 
-function changeAccount({user, restored}) {
+function changeAccount({user, restored, clearLocal}) {
+  if (!ready && streamedEditions) {
+    queuedAccount = {user, restored, clearLocal};
+    return;
+  }
   const id = user ? `account:${encodeURIComponent(user.id)}` : '';
-  if ((accountProfile?.id ?? '') === id) return;
+  if ((accountProfile?.id ?? '') === id) {
+    if (user) {
+      accountProfile.name = user.username;
+      renderProfile();
+    }
+    return;
+  }
+  const previous = activeProfileId;
   const wasAccount = activeProfileId === accountProfile?.id;
-  accountProgress?.close();
+  finishMark();
+  accountProgress?.close({clear: clearLocal});
   accountProgress = null;
   accountProfile = null;
+  ratingAttempt = null;
+  announcedSync = false;
+  renderSyncStatus();
   if (user) {
     accountProfile = {id, name: user.username};
     accountProgress = createAccountProgress(user, refreshAccountProgress);
@@ -173,6 +243,12 @@ function changeAccount({user, restored}) {
   } else {
     renderProfile();
     if ($('profileRatingDialog').open) renderRatingDialog();
+  }
+  if (clearLocal && previous) {
+    fruitByProfile.delete(previous);
+    for (const drafts of [sheets, taskNotes]) {
+      for (const key of drafts.keys()) if (key.startsWith(previous + ':')) drafts.delete(key);
+    }
   }
 }
 
@@ -237,11 +313,49 @@ const reference=`<section class="cube-photo-card"><h3>После падения 
 const rule=step===1?'Можно вернуть ровно 1 кубик. Другие кубики не переставляем.':step===2||step===3?'Справа нужно 2, а есть 1. Удаление кубика не может добавить недостающий.':step===4?'Сзади нужно 3, а есть 2. Удалением нельзя сделать столбик выше.':step===5?'Слева нужно 2, а есть 1. Удалением нельзя получить недостающий кубик.':step===6?'Три столбика совпадают. Сзади ровно один лишний кубик: 4 − 1 = 3.':removed?'Все четыре столбика совпали: 2 · 1 · 3 · 2.':'Убираем только оранжевый верхний кубик. Другие не двигаем.';
 return `<div class="cube-walkthrough"><div class="cube-photo-pair ${option<0?'cube-reference-only':''}">${reference}${candidate}</div>${cubeCountTable(option,focus,removed)}<p class="cube-rule">${rule}</p>${step===8?'<p class="cube-verdict">А ✕ · Б ✕ · В ✕ · Г ✕ · <strong>Д ✓</strong></p>':''}</div>`}
 
-function tilesScene(s,f){let out='';const show=s===0?0:s===1?Math.min(Math.floor(f),1):s===2?Math.min(Math.floor(f),2):s===3?Math.min(Math.floor(f),6):6;for(let y=0;y<8;y++)for(let x=0;x<11;x++){const hidden=x>=2&&x<9&&y>=1&&y<7,grey=(x+y)%2===0;out+=`<rect x="${110+x*36}" y="${4+y*34}" width="35" height="33" fill="${grey?'#9da9a5':'#fffefa'}" stroke="#c3cec5"/>`;if(hidden&&y>show)out+=`<rect x="${110+x*36}" y="${4+y*34}" width="36" height="34" fill="#f5dfb4"/>`}if(show===0)out+=text(308,145,'КЕНГУРУ 2024','poster-title');if(s>0)for(let y=1;y<=show;y++)out+=text(535,27+y*34,y%2?3:4,'row-count');out+=`<rect x="182" y="38" width="252" height="204" fill="none" stroke="#e9693e" stroke-width="2"/>`;out+=text(320,299,s===0?'Под плакатом: 6 рядов по 7 плиток':show===6?'3 + 4 + 3 + 4 + 3 + 4 = 21':'Открыто рядов: '+show);return svg(out,`Шахматный узор. Плакат закрывает 7 столбцов и 6 рядов. Открыто ${show} рядов`)}
+function tilesScene(step, frame) {
+  const revealLimit = [0, 1, 2, 6][step];
+  const shown = revealLimit === undefined ? 6 : Math.min(Math.floor(frame), revealLimit);
+  let drawing = '';
+  for (let row = 0; row < 8; row++) {
+    for (let col = 0; col < 11; col++) {
+      const x = 110 + col * 36, y = 4 + row * 34;
+      const grey = (col + row) % 2 === 0;
+      drawing += `<rect x="${x}" y="${y}" width="35" height="33" fill="${grey ? '#9da9a5' : '#fffefa'}" stroke="#c3cec5"/>`;
+      if (col >= 2 && col < 9 && row >= 1 && row < 7 && row > shown) {
+        drawing += `<rect x="${x}" y="${y}" width="36" height="34" fill="#f5dfb4"/>`;
+      }
+    }
+  }
+  if (shown === 0) drawing += text(308,145,'КЕНГУРУ 2024','poster-title');
+  drawing += '<rect x="182" y="38" width="252" height="204" fill="none" stroke="#e9693e" stroke-width="2"/>';
+  if (step === 0) return svg(drawing, 'Шахматная мозаика. Часть плиток закрыта плакатом.');
+  for (let row = 1; row <= shown; row++) drawing += text(535,27+row*34,row%2?3:4,'row-count');
+  const caption = step === 1 ? 'Под плакатом: 6 рядов по 7 плиток'
+    : shown === 6 ? '3 + 4 + 3 + 4 + 3 + 4 = 21' : 'Открыто рядов: ' + shown;
+  return svg(drawing + text(320,299,caption), `Шахматная мозаика. Плакат закрывает 7 столбцов и 6 рядов. Открыто рядов: ${shown}.`);
+}
 const SCENES=[areaScene,fireScene,tableScene,footballScene,numbersScene,stickersScene,cubesScene,tilesScene];
 if(typeof FOUR_POINT_SCENES!=='undefined')SCENES.push(...FOUR_POINT_SCENES);
 if(typeof FIVE_POINT_SCENES!=='undefined')SCENES.push(...FIVE_POINT_SCENES);
 for(const set of EXTRA_ARCHIVES)SCENES.push(...set.scenes);
+
+async function loadEdition(id) {
+  const set = CATALOG.find(entry => entry.id === id);
+  const {edition, layouts, descriptions} = await streamedEditions.load(id);
+  if (set.sources) return;
+  const {indices} = set;
+  Object.assign(set, {sources: edition.sources, answerLetters: edition.answerLetters});
+  if (edition.fruitPuzzle) fruitPuzzle = edition.fruitPuzzle;
+  for (const [offset, index] of indices.entries()) {
+    const lesson = LESSONS[index];
+    const key = lessonKey(lesson);
+    Object.assign(lesson, edition.lessons[offset], {graphicDescriptions: descriptions[key]});
+    applyChoiceLayout(lesson, layouts[key]);
+    SCENES[index] = edition.scenes[offset] ?? SCENES[index];
+  }
+  restoreProgress(new Set(indices.map(index => lessonKey(LESSONS[index]))));
+}
 // Keep live SVG nodes and only change their attributes/text. This avoids replacing
 // the whole scene on every display frame and leaves the drawing layer untouched.
 function patchNode(target,source){if(target.nodeType!==source.nodeType||target.nodeName!==source.nodeName){target.replaceWith(source.cloneNode(true));return}if(target.nodeType===3){if(target.nodeValue!==source.nodeValue)target.nodeValue=source.nodeValue;return}if(target.nodeType!==1)return;
@@ -312,6 +426,11 @@ function choiceImageMarkup(path, option, alt = '') {
   return `<img src="${escapeAnswerText(path)}" alt="${escapeAnswerText(alt)}"${rasterSize}>`;
 }
 
+function graphicAnswerDescription(lesson, index) {
+  return lesson.graphicDescriptions?.[index]
+    ?? globalThis.KENGURU_GRAPHIC_ANSWER_DESCRIPTIONS?.[lessonKey(lesson)]?.[index];
+}
+
 function renderAnswers() {
   const st = current();
   const lesson = LESSONS[task];
@@ -323,7 +442,7 @@ function renderAnswers() {
     + (options && illustrated ? ' separated-answers' : '');
   const markup = lesson.choices.map((value, i) => {
     const option = options?.[i];
-    let description = option?.description ?? value;
+    let description = graphicAnswerDescription(lesson, i) ?? option?.description ?? value;
     let picture = '';
     if (task === 0) {
       description = squareDescription(i);
@@ -346,6 +465,7 @@ function renderAnswers() {
 const taskPlural = new Intl.PluralRules('ru');
 function taskCount(n) { return n + ' ' + ({one: 'задача', few: 'задачи', many: 'задач'}[taskPlural.select(n)] ?? 'задач'); }
 function pointsLabel(points){return points===5?'5 баллов':points+' балла'}
+const twoStepKey = lesson => Boolean(lesson.paperEdition) && lesson.steps.length === 2;
 function renderPicker() {
   const set = activeSet();
   const {indices} = set;
@@ -364,18 +484,31 @@ function renderPicker() {
   $('gradePicker').disabled = variants.length === 1;
   $('gradeField').hidden = variants.length === 1;
   $('archiveLabel').textContent = `${set.year} · ${set.label}`;
+  const firstGrade = set.grades[0];
+  const lastGrade = set.grades.at(-1);
+  const shortGrade = firstGrade === lastGrade ? String(firstGrade) : `${firstGrade}–${lastGrade}`;
+  $('archiveShortLabel').textContent = `${set.year} · ${shortGrade}`;
+  const gradeGroup = ['1-2', '3-4', '5-6', '7-8', '9-11'][Math.min(4, Math.floor((firstGrade - 1) / 2))];
+  $('editionArchive').href = `/archive.html#grades-${gradeGroup}`;
+  const position = indices.indexOf(task);
+  $('previousTaskShortcut').setAttribute('aria-disabled', String(position <= 0));
+  $('nextTaskShortcut').setAttribute('aria-disabled', String(position === indices.length - 1));
 
   const levels = [3, 4, 5].map(points => ({points, count: indices.filter(i => LESSONS[i].points === points).length}));
   renderButtons('levelPicker', 'data-points', levels.filter(level => level.count).map(({points, count}) =>
     `<button data-points="${points}" aria-pressed="${selectedPoints === points}" class="${selectedPoints === points ? 'active-level' : ''}">${pointsLabel(points)} <span>${taskCount(count)}</span></button>`
   ).join(''));
   renderButtons('taskPicker', 'data-task', group.map(i => {
-    const {number, title} = LESSONS[i];
+    const lesson = LESSONS[i];
+    const {number, title} = lesson;
     const name = escapeAnswerText(title);
     const active = i === task;
-    return `<button class="task-tab ${active ? 'current-task' : ''}" data-task="${i}" aria-label="Задача ${number}. ${name}" title="${name}" ${active ? 'aria-current="page"' : ''}>
+    const format = twoStepKey(lesson) ? 'Проверка по ключу' : 'С разбором';
+    const seen = states[i].seen;
+    return `<button class="task-tab ${active ? 'current-task' : ''}" data-task="${i}" aria-label="Задача ${number}. ${name}. ${format}${seen ? '. Ответ открыт' : ''}" title="${name}" ${active ? 'aria-current="page"' : ''}>
       <span class="task-tab-number">${String(number).padStart(2, '0')}</span>
-      <span class="task-tab-name">${name}</span>${states[i].seen ? '<i aria-label="Ответ открыт">✓</i>' : ''}
+      <span class="task-tab-name">${name}</span>
+      <small class="task-tab-format">${format}</small>${seen ? '<i aria-hidden="true">✓</i>' : ''}
     </button>`;
   }).join(''));
   $('collectionProgress').textContent = `открыто ответов ${indices.filter(i => states[i].seen).length} из ${indices.length}`;
@@ -421,19 +554,20 @@ function render() {
   const focused = document.activeElement;
   if (final) st.seen = true;
   $('taskNumber').textContent = String(lesson.number).padStart(2, '0');
-  $('taskPoints').textContent = '/ НА ' + pointsLabel(lesson.points).toUpperCase();
+  $('taskPoints').textContent = ' · ' + pointsLabel(lesson.points);
   $('taskTitle').textContent = lesson.title;
   $('taskSkill').textContent = lesson.skill;
   $('taskSkill').hidden = !lesson.skill;
   renderCondition(lesson, st.step);
-  $('chapterTag').textContent = `ЗАДАЧА ${lesson.number} · ${chapter.toUpperCase()}`;
-  $('counter').textContent = `0${st.step + 1} / ${String(lesson.steps.length).padStart(2, '0')}`;
+  $('chapterTag').textContent = chapter;
+  $('counter').textContent = `${String(st.step + 1).padStart(2, '0')} / ${String(lesson.steps.length).padStart(2, '0')}`;
   $('sceneTitle').textContent = title;
   $('sceneTitle').hidden = st.step === 0 && title === 'Условие задачи';
   $('sceneText').textContent = explanation;
   $('sceneText').hidden = st.step === 0 && lesson.hideIntroText === true;
+  arrangeOpeningScene(lesson, st.step);
   renderButtons('chapters', 'data-step', lesson.steps.map(([name], i) =>
-    `<button data-step="${i}" class="${i === st.step ? 'active' : ''}" ${i === st.step ? 'aria-current="step"' : ''}><span>0${i + 1}</span>${name}</button>`
+    `<button data-step="${i}" class="${i === st.step ? 'active' : ''}" ${i === st.step ? 'aria-current="step"' : ''}><span>${String(i + 1).padStart(2, '0')}</span> ${name}</button>`
   ).join(''));
   renderScene();
   renderAnswers();
@@ -478,19 +612,54 @@ function pause(){playing=false;if(clock!==null)cancelAnimationFrame(clock);clock
 function resetPosition(st){st.frame=0;st.elapsed=0}
 function showLessonStep(step) {
   const earned = recordRatedTransition(step);
-  $('ratingNotice').textContent = earned ? `+${formatRatingPoints(earned)} в рейтинг` : '';
-  if (earned) renderRatingSummary();
+  if (earned) ratingAttempt = {key: 'rating:' + lessonKey(LESSONS[task]), points: earned};
+  renderSyncStatus();
   current().step = step;
   resetPosition(current());
   render();
   saveLessonProgress();
 }
 function navigate(n){finishMark();pause();showTaskDrawing();showLessonStep(Math.max(0,Math.min(lastStep(),n)))}
+let navigationRequest = 0;
+
 function selectTask(n, historyMethod = 'pushState', savePosition = true) {
   if (!LESSONS[n]) return;
+  const request = ++navigationRequest;
+  const lesson = LESSONS[n];
+  const activate = () => {
+    if (request !== navigationRequest) return;
+    $('lessonLoadStatus').textContent = '';
+    activateTask(n, historyMethod, savePosition);
+    if (streamedEditions && !ready) {
+      ready = true;
+      $('lessonPage').classList.remove('lesson-initializing');
+      if (queuedAccount) changeAccount(queuedAccount);
+      queuedAccount = undefined;
+    }
+  };
+  if (lesson.steps) {
+    activate();
+    return;
+  }
+  pause();
+  $('lessonLoadStatus').textContent = 'Загружаем задачу…';
+  return loadEdition(lesson.datasetId).then(activate, () => {
+    if (request !== navigationRequest) return;
+    const status = $('lessonLoadStatus');
+    status.textContent = 'Не удалось загрузить задачу. ';
+    const retry = document.createElement('button');
+    retry.type = 'button';
+    retry.textContent = 'Повторить';
+    retry.addEventListener('click', () => selectTask(n, historyMethod, savePosition), {once: true});
+    status.append(retry);
+  });
+}
+
+function activateTask(n, historyMethod, savePosition) {
   finishMark();
   pause();
   task = n;
+  ratingAttempt = null;
   $('ratingNotice').textContent = '';
   const lesson = LESSONS[n];
   selectedPoints = lesson.points;
@@ -498,14 +667,20 @@ function selectTask(n, historyMethod = 'pushState', savePosition = true) {
   groupLast[selectedDataset + ':' + selectedPoints] = n;
   datasetLast[selectedDataset] = n;
   const hash = taskHash(n);
-  if (globalThis.location && location.hash !== hash) globalThis.history?.[historyMethod](null, '', hash);
+  if (globalThis.location && location.hash !== hash) {
+    const path = location.pathname ? location.pathname + location.search : '';
+    globalThis.history?.[historyMethod](null, '', path + hash);
+  }
   if (savePosition) {
     accountResume = false;
     writeProgress('current', lessonKey(lesson));
   }
   render();
 }
-function selectDataset(id){const set=CATALOG.find(item=>item.id===id);if(set)selectTask(datasetLast[id]??set.indices[0])}
+function selectDataset(id) {
+  const set = CATALOG.find(item => item.id === id);
+  if (set) return selectTask(datasetLast[id] ?? set.indices[0]);
+}
 function selectYear(year) {
   const variants = CATALOG.filter(set => set.year === year);
   const {grades} = activeSet();
@@ -513,7 +688,7 @@ function selectYear(year) {
   const overlappingGrades = variants.find(set => set.grades.some(grade => grades.includes(grade)));
   const recent = variants.find(set => datasetLast[set.id] !== undefined);
   const edition = sameGrades ?? overlappingGrades ?? recent ?? variants[0];
-  if (edition) selectDataset(edition.id);
+  if (edition) return selectDataset(edition.id);
 }
 function animate(timestamp){if(!playing)return;const delta=lastTimestamp===null?0:Math.min(Math.max(0,timestamp-lastTimestamp),80);lastTimestamp=timestamp;const st=current();st.elapsed+=delta;st.frame=st.elapsed/FRAME_MS;renderScene();
 if(st.elapsed>=sceneDuration(task,st.step)){if(st.step<lastStep()){showLessonStep(st.step+1)}else{pause();render();return}}if(playing)clock=requestAnimationFrame(animate)}
@@ -524,40 +699,118 @@ function closeEditionMenu() {
 }
 
 $('yearPicker').addEventListener('change', () => {
-  selectYear(Number($('yearPicker').value));
-  if ($('gradePicker').disabled) closeEditionMenu();
+  const selected = selectYear(Number($('yearPicker').value));
+  const closeSingleEdition = () => { if ($('gradePicker').disabled) closeEditionMenu(); };
+  if (selected) selected.then(closeSingleEdition);
+  else closeSingleEdition();
 });
 $('openLegacyZoom').onclick = () => {
   const lesson = LESSONS[task];
   const path = lesson.conditionImage;
   if (!path) return;
   const image = $('legacyZoomImage');
+  const figure = lesson.choiceLayout?.condition;
+  image.style.maxWidth = figure?.pixelWidth ? `min(100%, ${figure.pixelWidth * 2}px)` : '';
+  image.style.maxHeight = figure?.pixelHeight ? `min(calc(100dvh - 106px), ${figure.pixelHeight * 2}px)` : '';
   image.src = path;
   image.alt = lesson.conditionAlt ?? 'Рисунок из условия задачи';
   $('legacyZoom').showModal();
+  $('legacyZoomScroll').scrollTop = 0;
 };
 $('openChoiceZoom').onclick = () => {
-  const options = LESSONS[task].choiceLayout?.options;
+  const lesson = LESSONS[task];
+  const options = lesson.choiceLayout?.options;
   if (!options?.some(option => option.image)) return;
   $('choiceZoomItems').innerHTML = options.map((option, index) => {
-    const {image, text, presentation, description} = option;
+    const {image, text, presentation} = option;
+    const description = graphicAnswerDescription(lesson, index) ?? option.description ?? '';
     return `<figure>${image ? choiceImageMarkup(image, option, description) : ''}
       <figcaption><strong>${answerLetter(index)}</strong>${text ? choiceTextMarkup(text, presentation) : ''}</figcaption></figure>`
   }).join('');
   $('choiceZoom').showModal();
+  $('choiceZoom').scrollTop = 0;
 };
 $('gradePicker').addEventListener('change', () => {
   selectDataset($('gradePicker').value);
   closeEditionMenu();
 });
+
+const compactNavigation = globalThis.matchMedia?.('(max-width: 850px)');
+function arrangeOpeningScene(lesson, step) {
+  if (!compactNavigation) return;
+  const belowChoices = compactNavigation.matches && step === 0 && Boolean(lesson?.question);
+  const scene = $('lessonScene');
+  const draft = $('drawingWorkspace');
+  const controls = $('draftControls');
+  const openingDraft = $('openingDraftControls');
+  const title = $('sceneTitle');
+  const explanation = $('sceneText');
+  const paper = $('draftBoard');
+  const focused = document.activeElement;
+
+  if (belowChoices) {
+    if (draft.parentElement !== openingDraft) {
+      openingDraft.before(title, explanation);
+      openingDraft.append(draft);
+      openingDraft.after(paper);
+    }
+    // The first task has the same squares on its answer buttons and in its scratch workspace.
+    const squareWorkspace = task === 0;
+    if (squareWorkspace) {
+      if (scene.parentElement !== $('lessonSupplement')) paper.before(scene);
+      if (controls.nextElementSibling !== $('stage')) $('stage').before(controls);
+    } else {
+      if (scene.parentElement === $('lessonSupplement')) $('openChoiceZoom').before(scene);
+      if (controls.previousElementSibling !== $('stage')) $('stage').after(controls);
+    }
+  } else if (draft.parentElement !== controls) {
+    if (scene.parentElement === $('lessonSupplement')) $('openChoiceZoom').before(scene);
+    scene.before(title, explanation);
+    controls.prepend(draft);
+    $('sceneWorkbench').prepend(controls);
+    $('sceneWorkbench').append(paper);
+  }
+  if (focused !== document.activeElement) focused?.focus({preventScroll: true});
+}
+
+function arrangeNavigation() {
+  const compact = compactNavigation.matches;
+  $('taskNavigation').open = !compact;
+  $('chapterNavigation').open = !compact;
+  $(compact ? 'chapterSlot' : 'lessonAside').append($('chapterNavigation'));
+  arrangeOpeningScene(LESSONS[task], current().step);
+}
+if (compactNavigation) {
+  arrangeNavigation();
+  compactNavigation.addEventListener('change', arrangeNavigation);
+}
+
+function selectAdjacentTask(offset) {
+  const indices = activeSet().indices;
+  const destination = indices[indices.indexOf(task) + offset];
+  if (destination !== undefined) return selectTask(destination);
+}
+$('previousTaskShortcut').onclick = () => selectAdjacentTask(-1);
+$('nextTaskShortcut').onclick = () => selectAdjacentTask(1);
+
 $('levelPicker').addEventListener('click',e=>{const button=e.target.closest('[data-points]');if(button){const points=Number(button.dataset.points);selectTask(groupLast[selectedDataset+':'+points]??activeSet().indices.find(i=>LESSONS[i].points===points))}});
-$('taskPicker').addEventListener('click', e => {
+$('taskPicker').addEventListener('click', async e => {
   const button = e.target.closest('[data-task]');
-  if (button) selectTask(Number(button.dataset.task));
+  if (!button) return;
+  await selectTask(Number(button.dataset.task));
+  if (compactNavigation?.matches) {
+    $('taskNavigation').open = false;
+    $('taskNavigationToggle').focus();
+  }
 });
 $('chapters').addEventListener('click', e => {
   const button = e.target.closest('[data-step]');
-  if (button) navigate(Number(button.dataset.step));
+  if (!button) return;
+  navigate(Number(button.dataset.step));
+  if (compactNavigation?.matches && e.detail > 0) {
+    $('chapterNavigation').open = false;
+    $('lessonPlayer').scrollIntoView({block: 'start'});
+  }
 });
 $('answers').addEventListener('click', e => {
   const button = e.target.closest('[data-answer]');
@@ -575,8 +828,8 @@ $('answers').addEventListener('click', e => {
 });
 $('next').onclick = () => navigate(current().step + 1);
 $('back').onclick = () => navigate(current().step - 1);
-$('nextTask').onclick = () => {
-  selectTask(nextTaskIndex());
+$('nextTask').onclick = async () => {
+  await selectTask(nextTaskIndex());
   $('taskTitle').focus?.();
   $('lesson').scrollIntoView?.({block: 'start'});
 };
@@ -586,6 +839,7 @@ $('repeat').onclick = () => {
   pause();
   showTaskDrawing();
   if (task === 9) resetFruitWorkspace();
+  ratingAttempt = null;
   $('ratingNotice').textContent = '';
   Object.assign(current(), {step: 0, frame: 0, elapsed: 0, selected: null});
   render();
@@ -600,19 +854,31 @@ document.addEventListener('click', e => {
 });
 
 document.addEventListener('keydown', e => {
-  if ($('profileRatingDialog').open || $('accountDialog')?.open || $('legacyZoom').open || $('choiceZoom').open) return;
+  if (document.querySelector?.('dialog[open]')) return;
   if (e.key === 'Escape') {
     const menu = lessonMenus.find(item => item.open);
     if (menu) {
       menu.open = false;
       menu.querySelector('summary').focus();
+    } else if (compactNavigation?.matches) {
+      const navigation = e.target.closest?.('.lesson-disclosure[open]');
+      if (navigation) {
+        navigation.open = false;
+        navigation.querySelector('summary').focus();
+      }
     }
     return;
   }
   if (lessonMenus.some(menu => menu.open && menu.contains(e.target))) return;
-  if (/INPUT|TEXTAREA|SELECT/.test(e.target.tagName) || e.altKey || e.ctrlKey || e.metaKey) return;
-  if (e.key === 'ArrowRight') {e.preventDefault(); navigate(current().step + 1)}
-  if (e.key === 'ArrowLeft') {e.preventDefault(); navigate(current().step - 1)}
+  if (streamedEditions && !ready) return;
+  if (/INPUT|TEXTAREA|SELECT/.test(e.target.tagName) || e.altKey || e.ctrlKey || e.metaKey ||
+    e.target.closest?.('.lesson-header, .task-navigation, .draft-controls')) return;
+  if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
+    e.preventDefault();
+    const fromChapter = e.target.closest?.('#chapters button');
+    navigate(current().step + (e.key === 'ArrowRight' ? 1 : -1));
+    if (fromChapter) $('chapters').querySelector('[aria-current="step"]')?.focus();
+  }
   if (e.code === 'Space' && e.target === document.body) {e.preventDefault(); start()}
 });
 document.addEventListener('visibilitychange', () => {if (document.hidden) pause()});
@@ -627,8 +893,13 @@ startFreshAttemptOnArrival();
 renderProfile();
 restoreProgress();
 const linkedTask = taskInUrl();
-selectTask(linkedTask === -1 ? Math.max(savedTaskIndex(), 0) : linkedTask, 'replaceState');
-if (linkedTask !== -1) $('lesson').scrollIntoView?.({block: 'start'});
 globalThis.addEventListener?.('kenguru:accountchange', event => changeAccount(event.detail));
 globalThis.addEventListener?.('online', () => accountProgress?.refresh());
+globalThis.addEventListener?.('offline', renderSyncStatus);
 globalThis.addEventListener?.('focus', () => accountProgress?.refresh());
+$('retryProgress').addEventListener('click', () => accountProgress?.retry());
+if (globalThis.KenguruAccount) globalThis.KenguruAccount.flushProgress = () => {
+  finishMark();
+  return accountProgress?.flush() ?? true;
+};
+selectTask(linkedTask === -1 ? Math.max(savedTaskIndex(), 0) : linkedTask, 'replaceState');
