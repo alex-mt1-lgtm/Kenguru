@@ -60,22 +60,24 @@ def is_scan(page, region):
     return False
 
 
-def embedded_raster_size(page, region):
-    images = []
+def embedded_raster_size(page, regions):
+    bounds = fitz.Rect(regions[0])
+    for region in regions[1:]:
+        bounds |= region
+    scales = []
     for entry in page.get_image_info():
         box = fitz.Rect(entry['bbox']) * page.rotation_matrix
-        if (box & region).get_area() >= .4 * region.get_area():
-            images.append(entry)
-    if len(images) != 1:
+        if any((box & region).get_area() >= .2 * region.get_area() for region in regions):
+            transform = fitz.Matrix(*entry['transform']) * page.rotation_matrix
+            scales.append(max(hypot(transform.a, transform.b) / entry['width'],
+                              hypot(transform.c, transform.d) / entry['height']))
+    if not scales or not max(scales):
         return {}
-    image = images[0]
-    transform = fitz.Matrix(*image['transform']) * page.rotation_matrix
-    # Express the embedded photograph's resolution over the whole SVG viewport,
-    # including the margin, so the CSS limit applies to the actual raster.
-    points_per_pixel = max(hypot(transform.a, transform.b) / image['width'],
-                           hypot(transform.c, transform.d) / image['height'])
-    return {'pixelWidth': max(1, floor(region.width / points_per_pixel)),
-            'pixelHeight': max(1, floor(region.height / points_per_pixel))}
+    # Account for the figure's margins and for the least dense visible raster,
+    # including figures assembled from several parts of the printed page.
+    points_per_pixel = max(scales)
+    return {'pixelWidth': max(1, floor(bounds.width / points_per_pixel)),
+            'pixelHeight': max(1, floor(bounds.height / points_per_pixel))}
 
 
 def crop_art(document, asset_folder, name, page_number, coordinates, force_raster=False, raster_scale=3):
@@ -173,8 +175,8 @@ def task_cards(edition, folder, metadata, solution_steps):
                     regions = parts or [rect]
                     art = crop_art(document, assets, f'{name}-answer-{choice_index + 1}', page,
                                    regions, raster, task.get('choiceRasterScale', 3))
-                    if 'pixelWidth' not in art and len(regions) == 1:
-                        art.update(embedded_raster_size(document[page], fitz.Rect(regions[0])))
+                    if 'pixelWidth' not in art:
+                        art.update(embedded_raster_size(document[page], [fitz.Rect(region) for region in regions]))
                     options.append({'image': art['src'], 'description': choice, **{
                         field: art[field] for field in ('pixelWidth', 'pixelHeight') if field in art
                     }})
@@ -189,6 +191,9 @@ def task_cards(edition, folder, metadata, solution_steps):
                 condition = dict(asset)
             elif figure:
                 condition = crop_art(document, assets, name, page, figure, task.get('figureRaster', False))
+                raster_size = embedded_raster_size(document[page], [fitz.Rect(region) for region in figure])
+                for field, size in raster_size.items():
+                    condition[field] = min(condition.get(field, size), size)
             if condition:
                 condition['alt'] = task.get('figureAlt') or 'Рисунок из условия задачи'
             explanation = solution_steps.get(str(number), {})
@@ -200,6 +205,7 @@ def task_cards(edition, folder, metadata, solution_steps):
                 'condition': condition, 'answer': None if answer < 0 or explanation.get('ambiguous') else answer,
                 'points': point_values[index], 'review': explanation.get('steps', []),
                 'keyNote': explanation.get('keyNote'),
+                **({'questionNote': task['questionNote']} if task.get('questionNote') else {}),
             }
 
 

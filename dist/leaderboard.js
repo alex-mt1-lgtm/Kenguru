@@ -13,7 +13,7 @@
       <div class="leaderboard-hero poster-heading">
         <div>
           <h2 id="leaderboardTitle">Рейтинг участников</h2>
-          <p>Баллы за самостоятельно решённые задачи.</p>
+          <p>Тренировочный рейтинг за самостоятельно решённые задачи.</p>
         </div>
         <button type="button" class="leaderboard-close" aria-label="Закрыть рейтинг" autofocus>
           <svg aria-hidden="true" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"
@@ -21,6 +21,10 @@
         </button>
       </div>
       <div class="leaderboard-content">
+        <details class="leaderboard-rules">
+          <summary>Как начисляются баллы</summary>
+          <p>Засчитывается ответ, выбранный к первому открытию разбора. За верный ответ сервер начисляет баллы один раз. Если ты решаешь без сети, результат появится после отправки. При конфликте действует история, уже сохранённая на сервере.</p>
+        </details>
         <section class="leaderboard-current" aria-label="Ваше место в рейтинге" hidden>
           <div class="leaderboard-current-rank">
             <span>Ваше место</span><strong></strong>

@@ -19,14 +19,16 @@
     const width = sourceWidth * scale;
     const height = sourceHeight * scale;
     const x = (420 - width) / 2;
-    return visual.svg(`<image href="${visual.escape(path)}" x="${x}" y="8" width="${width}" height="${height}"/>`,
+    const drawing = visual.svg(`<image href="${visual.escape(path)}" x="${x}" y="8" width="${width}" height="${height}"/>`,
       'Рисунок к официальному ответу', `0 0 420 ${height + 16}`, 'worked-scene');
+    return path.endsWith('.svg') ? drawing
+      : drawing.replace('<svg ', `<svg style="max-width:${840 / scale}px;margin-inline:auto" `);
   }
 
   function officialSteps(stages) {
-    return stages.map(({text}, index) => [
+    return stages.map(({text, title}, index) => [
       index === stages.length - 1 ? 'Ответ' : `Шаг ${index + 1}`,
-      index === 0 ? 'Начинаем решение' : index === stages.length - 1 ? 'Проверяем ответ' : 'Продолжаем решение',
+      title ?? (index === 0 ? 'Начинаем решение' : index === stages.length - 1 ? 'Проверяем ответ' : 'Продолжаем решение'),
       text,
     ]);
   }

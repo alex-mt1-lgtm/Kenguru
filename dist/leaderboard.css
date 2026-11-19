@@ -229,3 +229,6 @@
   .leaderboard-table thead th:nth-child(n+3) { width: 56px; }
   .leaderboard-table thead th, .leaderboard-table tbody :is(th, td) { padding-inline: 5px; }
 }
+.leaderboard-rules { margin: 0 0 12px; }
+.leaderboard-rules > summary { cursor: pointer; font-weight: 700; }
+.leaderboard-rules > p { max-width: 64ch; margin: .5rem 0 0; }

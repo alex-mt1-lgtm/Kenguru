@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 132 132">
+  <title>Дуга на координатной плоскости со стрелкой против часовой стрелки</title>
+  <g fill="none" stroke="#191919">
+    <path d="M6 77H116 M61 130V15" stroke-width=".95"/>
+    <path d="M108 77A47 47 0 1 0 61 124 M26 41L22 50 31 47"
+          stroke-width="2.15" stroke-linejoin="round"/>
+  </g>
+  <g fill="#191919">
+    <path d="M129 77L116 71V83Z M61 5L55 19H67Z"/>
+    <g font-family="serif" font-size="25" font-style="italic">
+      <text x="120" y="101">x</text>
+      <text x="37" y="18">y</text>
+      <text x="64" y="100">O</text>
+    </g>
+  </g>
+</svg>

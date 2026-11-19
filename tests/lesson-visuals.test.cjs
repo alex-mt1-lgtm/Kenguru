@@ -83,3 +83,20 @@ test('symbolic relations in assumptions and alternative cases stay with their qu
   assert.equal(label(solutionStep('9-11', 2025, 21, 2)), 'x² − 27x + 162 = 0. (x − 9)(x − 18) = 0. x = 9');
   assert.equal(label('Подходят k = 5, 7 и 9. Пусть k = 5. Итак, k = 7.'), 'k = 7');
 });
+
+test('tiling proofs include separate marked diagrams and the published construction', () => {
+  const stages = context.KENGURU_GRADE_SOLUTION_STEPS[2025];
+  const trimino = stages[23].steps;
+  assert.equal(trimino.length, 4);
+  assert.match(trimino[0].text, /верхней левой клетки не останется свободных соседей/u);
+  assert.match(trimino[2].text, /в одной детали находится E/u);
+  assert.match(trimino[3].image, /task-23-1\.svg$/u);
+  const cross = stages[25].steps;
+  assert.equal(cross.length, 3);
+  assert.match(context.KenguruVisual.workedScene(cross[0], 12), /Отмечены восемь острых углов/u);
+  assert.match(label(cross[1].text), /17 − 8 = 9/u);
+  assert.match(cross[2].image, /task-25-1\.svg$/u);
+  for (const stage of [...trimino, ...cross]) {
+    if (stage.image) assert.ok(fs.existsSync(path.join(dist, stage.image)), stage.image);
+  }
+});

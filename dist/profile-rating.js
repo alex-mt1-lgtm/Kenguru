@@ -15,23 +15,25 @@ function recordRatedTransition(step) {
     const previous = readProgress(lessonKey(lesson));
     const independent = !state.seen && !previous?.seen && !previous?.reviewOpened && !(previous?.step > 0);
     const correct = independent && state.selected === lesson.answer;
-    writeProfileValue(activeProfileId, key, correct ? 'solved' : 'reviewed', correct ? state.selected : undefined);
+    writeProfileValue(activeProfileId, key, correct ? 'solved' : 'reviewed', independent ? state.selected : undefined);
     return correct ? lesson.points : 0;
   } catch {
     return 0;
   }
 }
 
-function getProfileRating(profileId) {
+function getProfileRating() {
   const rating = {points: 0, solved: 0, hard: 0, levels: 0};
   const levels = new Set();
   try {
     for (const lesson of LESSONS) {
-      if (readProfileValue(profileId, 'rating:' + lessonKey(lesson)) !== 'solved') continue;
-      rating.points += lesson.points;
+      const points = lesson.ratingPoints ?? lesson.points;
+      if (!points) continue;
+      if (accountProgress?.confirmed('rating:' + lessonKey(lesson)) !== 'solved') continue;
+      rating.points += points;
       rating.solved += 1;
-      levels.add(lesson.points);
-      if (lesson.points === 5) rating.hard += 1;
+      levels.add(points);
+      if (points === 5) rating.hard += 1;
     }
   } catch {
     // Display the entries the browser permitted us to read.
@@ -54,11 +56,11 @@ function ratingAchievements(rating) {
 function renderRatingSummary() {
   $('openProfileRating').hidden = !activeProfileId;
   if (!activeProfileId) return;
-  $('profileRatingPoints').textContent = formatRatingPoints(getProfileRating(activeProfileId).points);
+  $('profileRatingPoints').textContent = formatRatingPoints(getProfileRating().points);
 }
 
 function renderRatingDialog() {
-  const rating = getProfileRating(activeProfileId);
+  const rating = getProfileRating();
   $('ratingProfileName').textContent = accountProfile?.name ?? '';
   $('ratingPoints').textContent = formatRatingPoints(rating.points);
   $('ratingSolved').textContent = taskCount(rating.solved);

@@ -1,6 +1,63 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),path=require('node:path');
 const root=path.join(__dirname,'..');
-function app(includeArchive=false,archiveOverride=null,browser={}){const elements=new Map(),handlers={},callbacks=new Map();let time=0,id=0;const element=name=>{if(!elements.has(name))elements.set(name,{innerHTML:'',textContent:'',hidden:false,disabled:false,value:name==='drawingColor'?'#e9693e':'',selectedIndex:0,style:{},attributes:{},classList:{toggle(){}},setAttribute(k,v){this.attributes[k]=v},getAttribute(k){return this.attributes[k]??null},append(child){child.parentElement=this},addEventListener(k,v){this[k]=v}});return elements.get(name)};const ctx={...browser,document:{body:{},getElementById:element,addEventListener(k,v){handlers[k]=v}},requestAnimationFrame(fn){callbacks.set(++id,fn);return id},cancelAnimationFrame(key){callbacks.delete(key)},console};vm.createContext(ctx);const scripts=['lessons.js','four-point-lessons.js','five-point-lessons.js','four-point-scenes.js','five-point-scenes.js',...(includeArchive?['legacy-catalog', 'legacy-conditions', 'legacy-editions', '2000-visual', '2000-three', '2000-four', '2000-five', 2000, 2020, 2021, 2022, 2023, 2025, '2026-condition-art', 2026].map(year=>'years/'+year+'.js'):[]),'workspace.js','fruit-workspace.js','profile-rating.js','account-progress.js','app.js'];for(const f of scripts){if(f==='app.js'&&archiveOverride)ctx.KENGURU_ARCHIVE={...(ctx.KENGURU_ARCHIVE||{}),...archiveOverride};vm.runInContext(fs.readFileSync(path.join(root,'dist',f),'utf8'),ctx)}const tick=(ms=16)=>{time+=ms;const pending=[...callbacks.values()];callbacks.clear();for(const fn of pending)fn(time)};return{run:s=>vm.runInContext(s,ctx),element,tick,advance(ms){for(let left=ms;left>0;left-=16)tick(Math.min(16,left))},handlers}}
+function app(includeArchive = false, archiveOverride = null, browser = {}) {
+  const elements = new Map(), handlers = {}, callbacks = new Map();
+  const fetched = [];
+  let time = 0, id = 0;
+  const element = name => {
+    if (!elements.has(name)) elements.set(name, {
+      innerHTML: '', textContent: '', hidden: false, disabled: false, value: name === 'drawingColor' ? '#e9693e' : '',
+      selectedIndex: 0, style: {}, attributes: {}, classList: {toggle() {}, remove() {}},
+      setAttribute(key, value) { this.attributes[key] = value; },
+      getAttribute(key) { return this.attributes[key] ?? null; },
+      append(child) { child.parentElement = this; },
+      addEventListener(key, listener) { this[key] = listener; },
+      remove() {},
+    });
+    return elements.get(name);
+  };
+  const ctx = vm.createContext({
+    TextEncoder, URL, ...browser,
+    document: {
+      body: {}, getElementById: element, addEventListener(key, listener) { handlers[key] = listener; },
+    },
+    requestAnimationFrame(fn) { callbacks.set(++id, fn); return id; },
+    cancelAnimationFrame(key) { callbacks.delete(key); }, console,
+  });
+  const execute = file => vm.runInContext(fs.readFileSync(path.join(root, 'dist', file), 'utf8'), ctx, {filename: file});
+  const scriptFiles = browser.streamProduction
+    ? ['edition-loader.js', 'editions/index.js', 'lesson-visuals.js']
+    : ['lessons.js', 'four-point-lessons.js', 'five-point-lessons.js', 'four-point-scenes.js', 'five-point-scenes.js'];
+  if (browser.streamProduction) {
+    ctx.document.currentScript = {src: 'https://example.test/edition-loader.js'};
+    ctx.document.createElement = tag => ({
+      tag, addEventListener(name, listener) { this[name] = listener; }, remove() {},
+    });
+    ctx.document.head = {append(node) {
+      if (node.tag !== 'script') return;
+      const file = new URL(node.src).pathname.slice(1);
+      fetched.push(file);
+      queueMicrotask(() => { execute(file); node.load(); });
+    }};
+  }
+  if (includeArchive) scriptFiles.push(...['legacy-catalog', 'legacy-conditions', 'legacy-editions', '2000-visual',
+    '2000-three', '2000-four', '2000-five', 2000, 2020, 2021, 2022, 2023, 2025, '2026-condition-art', 2026]
+    .map(year => 'years/' + year + '.js'));
+  scriptFiles.push('workspace.js', 'fruit-workspace.js', 'profile-rating.js', 'account-progress.js', 'app.js');
+  for (const file of scriptFiles) {
+    if (file === 'app.js' && archiveOverride) ctx.KENGURU_ARCHIVE = {...ctx.KENGURU_ARCHIVE, ...archiveOverride};
+    execute(file);
+  }
+  const tick = (ms = 16) => {
+    time += ms;
+    const pending = [...callbacks.values()];
+    callbacks.clear();
+    for (const fn of pending) fn(time);
+  };
+  return {run: source => vm.runInContext(source, ctx), element, tick, advance(ms) {
+    for (let left = ms; left > 0; left -= 16) tick(Math.min(16, left));
+  }, handlers, fetched};
+}
 
 test('official answer key and every explanation step',()=>{const a=app();assert.equal(a.run('LESSONS.slice(0,8).map(l=>LETTERS[l.answer]).join("")'),'ДВВВГВДБ');for(let t=0;t<24;t++)for(let s=0;s<a.run(`LESSONS[${t}].steps.length`);s++){a.run(`selectTask(${t});navigate(${s})`);assert.ok(a.element('sceneTitle').textContent);if(t||s)assert.ok(a.element('scene').innerHTML);assert.equal(a.element('answers').hidden,s!==0);for(let f=0;f<=12;f++){a.run(`current().frame=${f};renderScene()`);assert.ok(!a.element('scene').innerHTML.includes('NaN'))}}});
 test('square areas and unique cell count',()=>{const a=app();assert.equal(a.run('REGIONS.map(p=>Math.abs(p.reduce((s,v,j)=>{const n=p[(j+1)%p.length];return s+v[0]*n[1]-n[0]*v[1]},0))/2).join(",")'),'8,8,8,8,7');assert.equal(a.run('ORANGE.length+","+GREEN.length'),'7,9');assert.equal(a.run('new Set([...ORANGE,...GREEN].map(p=>p.join(","))).size'),16)});
@@ -241,6 +298,9 @@ test('account scores award the first correct answer once and are restored on ano
   correct();
   assert.equal(a.element('profileRatingPoints').textContent, '0 баллов');
   a.element('next').onclick();
+  assert.equal(a.element('profileRatingPoints').textContent, '0 баллов');
+  assert.match(a.element('ratingNotice').textContent, /ожидает подтверждения/);
+  await syncTurn();
   assert.equal(a.element('profileRatingPoints').textContent, '3 балла');
   assert.equal(a.element('ratingNotice').textContent, '+3 балла в рейтинг');
   a.element('repeat').onclick();
@@ -266,6 +326,7 @@ test('account scores award the first correct answer once and are restored on ano
   correct();
   a.run('start()');
   a.advance(1700);
+  await syncTurn();
   assert.equal(a.element('profileRatingPoints').textContent, '12 баллов');
   a.run('renderRatingDialog()');
   assert.equal(a.element('ratingBadgeCount').textContent, '3 из 6');
@@ -294,18 +355,36 @@ test('a walkthrough opened before scoring stays ineligible after repeat', async 
 
 function accountBrowser(request, records = new Map(), local = new Map()) {
   const listeners = new Map();
-  const storage = values => ({getItem: key => values.get(key), setItem: (key, value) => values.set(key, value)});
+  const storage = values => ({getItem: key => values.get(key), setItem: (key, value) => values.set(key, value),
+    removeItem: key => values.delete(key)});
   const visit = app(false, null, {
     KenguruAccount: {request}, AbortController, setTimeout, clearTimeout,
     sessionStorage: storage(records), localStorage: storage(local),
     addEventListener: (type, callback) => listeners.set(type, callback),
   });
-  visit.account = user => listeners.get('kenguru:accountchange')({detail: {user}});
+  visit.account = (user, options = {}) => listeners.get('kenguru:accountchange')({detail: {user, ...options}});
   visit.online = () => listeners.get('online')();
   return visit;
 }
 
 const syncTurn = () => new Promise(resolve => setImmediate(resolve));
+
+test('a direct link loads one edition and its fruit workspace and animations', async () => {
+  const visit = app(false, null, {streamProduction: true, location: {hash: '#zadacha=2024-3-4/10'}});
+  await syncTurn();
+  assert.deepEqual(visit.fetched, ['editions/2024-3-4.js']);
+  assert.match(visit.element('scene').innerHTML, /Аня/);
+  assert.match(visit.run('checkFruitPreferences()'), /Заполни все клетки/);
+  visit.run('(FRUIT_WORK.assignment = FRUIT_WORK_ROWS.map(index => [2, 4, 3, 1, 0][index]))');
+  assert.match(visit.run('checkFruitAssignment()'), /Все условия выполнены/);
+  visit.run('navigate(1)');
+  assert.match(visit.element('scene').innerHTML, /Распределено фруктов/);
+  await visit.run('selectDataset("2019-9-10")');
+  assert.deepEqual(visit.fetched, ['editions/2024-3-4.js', 'editions/2019-9-10.js']);
+  assert.match(visit.element('archiveLabel').textContent, /2019/);
+  await visit.run('selectDataset("2024-3-4")');
+  assert.equal(visit.fetched.length, 2);
+});
 
 test('account progress and rating sync across devices while guest progress stays separate', async () => {
   const account = {id: 17, username: 'Ученик'};
@@ -411,6 +490,39 @@ test('previous account responses are ignored and pending offline work retries fo
   assert.equal(uploaded.current, '"2024-3-4/3"');
   assert.equal(uploaded['rating:2024-3-4/3'], 'solved');
   assert.equal(uploaded['2024-3-4/7'], undefined);
+});
+
+test('terminal save errors require an explicit retry and logout clears the local profile', async () => {
+  const saved = new Map();
+  let attempts = 0;
+  let rejecting = true;
+  const visit = accountBrowser(async (_, data) => {
+    if (!data) return {revision: 0, progress: {}};
+    attempts++;
+    if (rejecting) throw Object.assign(new Error('Storage limit'), {status: 413});
+    return {revision: 1, progress: data.progress};
+  }, saved);
+  visit.account({id: 10, username: 'Профиль'});
+  await syncTurn();
+  visit.run('current().selected = LESSONS[task].answer; navigate(1)');
+  await syncTurn();
+  assert.equal(visit.element('retryProgress').hidden, false);
+  assert.equal(visit.element('profileRatingPoints').textContent, '0 баллов');
+  visit.online();
+  await syncTurn();
+  assert.equal(attempts, 1);
+  rejecting = false;
+  visit.element('retryProgress').click();
+  await syncTurn();
+  assert.equal(attempts, 2);
+  assert.equal(visit.element('profileRatingPoints').textContent, '3 балла');
+  assert.equal(visit.element('retryProgress').hidden, true);
+  assert.ok(saved.has('kenguru:account-progress:10'));
+  visit.element('draftNotes').input({target: {value: 'Мои расчёты'}});
+  assert.equal(visit.run('taskNotes.size'), 1);
+  visit.account(null, {clearLocal: true});
+  assert.equal(saved.has('kenguru:account-progress:10'), false);
+  assert.equal(visit.run('taskNotes.size'), 0);
 });
 
 test('all grade 5–6 editions have original cards, verified keys and independent year navigation', () => {

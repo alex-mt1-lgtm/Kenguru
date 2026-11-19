@@ -2,12 +2,16 @@
 from argparse import ArgumentParser
 from hashlib import sha256
 from html import escape
+from io import BytesIO
 import json
 import math
 from pathlib import Path
 import re
 
 import fitz
+from PIL import Image
+
+from archive_condition_art import vector_figure
 
 ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT / 'dist'
@@ -248,12 +252,35 @@ def official_drawing(region, drawings):
 
 
 def write(path, data, check):
+    read = path.read_bytes if isinstance(data, bytes) else path.read_text
+    save = path.write_bytes if isinstance(data, bytes) else path.write_text
     if check:
-        if path.read_text() != data:
+        if read() != data:
             raise ValueError(f'Rebuild {path.relative_to(ROOT)}')
     else:
         path.parent.mkdir(parents=True, exist_ok=True)
-        path.write_text(data)
+        save(data)
+
+
+def task_option(booklet, selection, prefix, check):
+    page = selection['page']
+    region = fitz.Rect(selection['rect'])
+    if region.is_empty or not booklet[page].rect.contains(region):
+        raise ValueError(f'Invalid official task option crop for {prefix}')
+    scale = selection.get('rasterScale')
+    if scale:
+        bitmap = booklet[page].get_pixmap(matrix=fitz.Matrix(scale, scale), clip=region, alpha=False)
+        width, height = bitmap.width, bitmap.height
+        image = Image.frombytes('RGB', (width, height), bitmap.samples)
+        buffer = BytesIO()
+        image.save(buffer, 'WEBP', lossless=True)
+        path, content = FIGURES / f'{prefix}.webp', buffer.getvalue()
+    else:
+        width, height = round(region.width * 3), round(region.height * 3)
+        path = FIGURES / f'{prefix}.svg'
+        content = vector_figure(booklet, page, region, width, height)
+    write(DIST / path, content, check)
+    return path.as_posix(), width, height
 
 
 def build(check=False):
@@ -272,7 +299,7 @@ def build(check=False):
         if len(material['answers']) != 30:
             raise ValueError(f'Expected 30 answers for {year}')
         result = []
-        with fitz.open(source) as pdf:
+        with fitz.open(source) as pdf, fitz.open(tasks) as booklet:
             paths = pdf[0].get_drawings()
             for number, key in enumerate(material['answers'],1):
                 text = key['text']
@@ -282,7 +309,9 @@ def build(check=False):
                 figure = key.get('figure')
                 entry = [text, letter]
                 if figure:
-                    if 'option' in figure:
+                    if 'taskOption' in figure:
+                        path, width, height = task_option(booklet, figure['taskOption'], f'{year}-{number:02}', check)
+                    elif 'option' in figure:
                         path = figure['option']
                         if not re.fullmatch(r'assets/grade-conditions/\d{4}/choice-\d{2}-[1-5]\.webp',path):
                             raise ValueError(f'An answer illustration must be a separate choice {year}/{number}')
