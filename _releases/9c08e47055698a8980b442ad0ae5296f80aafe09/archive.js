@@ -41,9 +41,8 @@ function showArchiveGrade() {
 }
 
 const formatNames = {
-  walkthrough: 'С разбором',
   key: 'Проверка по ключу',
-  mixed: 'Разборы и проверка по ключу',
+  mixed: 'Часть задач с проверкой по ключу',
   pdf: 'Только PDF',
 };
 const formats = globalThis.KENGURU_ARCHIVE_FORMATS ?? {};

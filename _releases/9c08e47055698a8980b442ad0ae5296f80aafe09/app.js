@@ -470,7 +470,6 @@ function renderAnswers() {
 const taskPlural = new Intl.PluralRules('ru');
 function taskCount(n) { return n + ' ' + ({one: 'задача', few: 'задачи', many: 'задач'}[taskPlural.select(n)] ?? 'задач'); }
 function pointsLabel(points){return points===5?'5 баллов':points+' балла'}
-const twoStepKey = lesson => Boolean(lesson.paperEdition) && lesson.steps.length === 2;
 function renderPicker() {
   const set = activeSet();
   const {indices} = set;
@@ -519,12 +518,10 @@ function renderPicker() {
     const {number, title} = lesson;
     const name = escapeAnswerText(title);
     const active = i === task;
-    const format = twoStepKey(lesson) ? 'Проверка по ключу' : 'С разбором';
     const seen = states[i].seen;
-    return `<button class="task-tab ${active ? 'current-task' : ''}" data-task="${i}" aria-label="Задача ${number}. ${name}. ${format}${seen ? '. Ответ открыт' : ''}" title="${name}" ${active ? 'aria-current="page"' : ''}>
+    return `<button class="task-tab ${active ? 'current-task' : ''}" data-task="${i}" aria-label="Задача ${number}. ${name}${seen ? '. Ответ открыт' : ''}" title="${name}" ${active ? 'aria-current="page"' : ''}>
       <span class="task-tab-number">${String(number).padStart(2, '0')}</span>
-      <span class="task-tab-name">${name}</span>
-      <small class="task-tab-format">${format}</small>${seen ? '<i aria-hidden="true">✓</i>' : ''}
+      <span class="task-tab-name">${name}</span>${seen ? '<i aria-hidden="true">✓</i>' : ''}
     </button>`;
   }).join(''));
   $('collectionProgress').textContent = `открыто ответов ${indices.filter(i => states[i].seen).length} из ${indices.length}`;
