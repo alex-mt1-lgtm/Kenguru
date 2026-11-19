@@ -31,6 +31,9 @@
   const operation = /^[+\-−–×*·⋅÷:/^]$/u;
   const suffix = /^[⁰¹²³⁴⁵⁶⁷⁸⁹⁻⁺₀₁₂₃₄₅₆₇₈₉°%′″]$/u;
   const brackets = {'(': ')', '[': ']', '{': '}'};
+  const caseWording = /(?:^|[^\p{L}])(?:если|пусть|бы|либо|допустим|предположим|иначе|случа\p{L}*|вариант\p{L}*|кандидат\p{L}*|подходят|подходит)(?=$|[^\p{L}])/iu;
+  const caseQualifier = /(?:^|[^\p{L}])(?:при|для)(?:\s*$|\s+[^,.!?]*[=<>≤≥≠≈])/iu;
+  const caseContinuation = /^(?:\s+(?:или|либо|невозмож\p{L}*|не\s+подходит)(?=$|[^\p{L}])|\s*,\s*(?:если\s|[0-9]))/iu;
 
   function completeEquation(tokens) {
     const pendingBrackets = [];
@@ -67,7 +70,9 @@
 
   function expressions(wording) {
     const equations = [];
+    const assignments = new Map();
     let span = [];
+    let sentenceStart = 0;
     function collect() {
       // A colon before a formula may introduce it in the surrounding sentence.
       if (span[0]?.[0] === ':') span.shift();
@@ -75,10 +80,24 @@
       const tail = span.at(-1);
       // A spaced dash at the end of a formula introduces explanatory prose.
       if (tail?.[0] === '–' && /\s/u.test(wording[tail.index - 1]) && /\s/u.test(wording[tail.index + 1])) span.pop();
-      if (span.length && completeEquation(span.map(match => match[0]))) {
+      const tokens = span.map(match => match[0]);
+      if (span.length && completeEquation(tokens)) {
         const last = span.at(-1);
-        const equation = wording.slice(span[0].index, last.index + last[0].length);
-        equations.push(equation.replace(/\s+/gu, ' '));
+        const end = last.index + last[0].length;
+        const symbolic = tokens.some(token => token !== 'π' && variable.test(token));
+        const lead = wording.slice(sentenceStart, span[0].index);
+        // A symbolic relation in a case belongs with its qualifier in the explanation.
+        if (!symbolic || !(caseWording.test(lead) || caseQualifier.test(lead) || caseContinuation.test(wording.slice(end)))) {
+          const equals = tokens.indexOf('=');
+          const scalar = tokens.at(-1);
+          const subject = symbolic && equals === tokens.length - 2 && number.test(scalar)
+            ? tokens.slice(0, equals).join('') : '';
+          if (subject) {
+            if (!assignments.has(subject)) assignments.set(subject, new Set());
+            assignments.get(subject).add(scalar);
+          }
+          equations.push({subject, value: wording.slice(span[0].index, end).replace(/\s+/gu, ' ')});
+        }
       }
       span = [];
     }
@@ -99,10 +118,12 @@
         span.push(match);
       } else {
         collect();
+        if (token === '.' || token === '?') sentenceStart = match.index + token.length;
       }
     }
     collect();
-    return equations;
+    // Different values for the same expression require their separate cases.
+    return equations.filter(({subject}) => !subject || assignments.get(subject).size === 1).map(({value}) => value);
   }
 
   function arithmeticModel(expression, frame) {

@@ -17,6 +17,11 @@ function label(text) {
   return scene(text).match(/aria-label="([^"]+)"/u)?.[1] ?? '';
 }
 
+function solutionStep(grades, year, number, step) {
+  const file = path.join(__dirname, '..', 'sources', `grades-${grades}`, String(year), 'solutions.json');
+  return JSON.parse(fs.readFileSync(file, 'utf8'))[number].steps[step - 1].text;
+}
+
 test('the calculation scene preserves complete mathematical expressions and signs', () => {
   const samples = [
     ['Сумма равна 13 700 + 137 = 13 837.', '13 700 + 137 = 13 837'],
@@ -59,4 +64,22 @@ test('an unsupported or incomplete expression never yields a smaller calculation
   ]) {
     assert.equal(scene(wording), '', wording);
   }
+});
+
+test('symbolic relations in assumptions and alternative cases stay with their qualifiers', () => {
+  assert.equal(label(solutionStep('9-10', 2021, 12, 1)), '');
+  assert.equal(label(solutionStep('9-10', 2021, 12, 2)), '9 + 15 = 24. 9 + 17 + 19 = 45');
+  assert.equal(label(solutionStep('9-11', 2023, 16, 1)), '');
+  assert.equal(label(solutionStep('9-11', 2023, 16, 2)), '2x + y = 6y. x = 2,5y');
+  assert.equal(label(solutionStep('9-11', 2023, 24, 2)), '');
+  assert.equal(label(solutionStep('9-11', 2023, 24, 3)), '');
+  assert.equal(label(solutionStep('9-11', 2023, 26, 2)), '');
+  assert.equal(label(solutionStep('9-11', 2026, 23, 1)), '2026 = 2 · 1013');
+  assert.equal(label(solutionStep('9-11', 2026, 23, 2)), '');
+  assert.equal(label(solutionStep('9-11', 2026, 23, 3)), '2048 − 22 = 2026. a + b = 13');
+  assert.equal(label(solutionStep('7-8', 2026, 20, 1)), 'A &gt; 0. C &gt; A');
+  assert.equal(label(solutionStep('7-8', 2026, 20, 3)), 'B + 7 = 13. B = 6. 367 + 376 = 743');
+  assert.doesNotMatch(label(solutionStep('7-8', 2026, 29, 1)), /∠BAD \+ ∠ADC = 180°/u);
+  assert.equal(label(solutionStep('9-11', 2025, 21, 2)), 'x² − 27x + 162 = 0. (x − 9)(x − 18) = 0. x = 9');
+  assert.equal(label('Подходят k = 5, 7 и 9. Пусть k = 5. Итак, k = 7.'), 'k = 7');
 });
