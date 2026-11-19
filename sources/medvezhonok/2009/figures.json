@@ -1,0 +1,47 @@
+{
+  "2-3/13": {
+    "options": [
+      {
+        "src": "assets/medvezhonok/2009/2-3-13-1.webp",
+        "width": 119,
+        "height": 54,
+        "pixelWidth": 119,
+        "pixelHeight": 54,
+        "description": "Маленькая с внутри е, затем луна с двумя запятыми перед ней"
+      },
+      {
+        "src": "assets/medvezhonok/2009/2-3-13-2.webp",
+        "width": 134,
+        "height": 67,
+        "pixelWidth": 134,
+        "pixelHeight": 67,
+        "description": "Рама с двумя запятыми перед ней, затем рот с зачёркнутой буквой о"
+      },
+      {
+        "src": "assets/medvezhonok/2009/2-3-13-3.webp",
+        "width": 140,
+        "height": 55,
+        "pixelWidth": 140,
+        "pixelHeight": 55,
+        "description": "Лес с запятой после него, число 100 с запятой перед ним"
+      },
+      {
+        "src": "assets/medvezhonok/2009/2-3-13-4.webp",
+        "width": 194,
+        "height": 75,
+        "pixelWidth": 194,
+        "pixelHeight": 75,
+        "description": "Нос и пень, перед каждым рисунком запятая"
+      },
+      {
+        "src": "assets/medvezhonok/2009/2-3-13-5.webp",
+        "width": 61,
+        "height": 71,
+        "pixelWidth": 61,
+        "pixelHeight": 71,
+        "description": "Открытый замок с двумя запятыми после него, под ним запись 1И32"
+      }
+    ],
+    "onlyPictures": true
+  }
+}

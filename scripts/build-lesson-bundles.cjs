@@ -35,6 +35,9 @@ function createBundle(entry, model) {
       scenes: [...Array(8).fill(null), ...FOUR_POINT_SCENES, ...FIVE_POINT_SCENES],
       fruitPuzzle: {fruits: FOUR_FRUITS, icons: FOUR_FRUIT_ICONS, people: FOUR_FRUIT_PEOPLE, preferences: FOUR_FRUIT_PREFS},
     })`;
+  } else if (model.russianRows.has(id)) {
+    content.push(readScript('contests/medvezhonok-archive.js'));
+    selection = `globalThis.makeMedvezhonokEdition(${year}, ${JSON.stringify(entry.grades.join('-'))}, ${JSON.stringify(model.russianRows.get(id))})`;
   } else if (entry.subject === 'ru') {
     content.push(readScript('contests/medvezhonok-2025.js'));
     selection = `globalThis.MEDVEZHONOK_EDITIONS.find(edition => edition.id === ${JSON.stringify(id)})`;

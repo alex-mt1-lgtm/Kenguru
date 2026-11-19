@@ -1,0 +1,92 @@
+{
+  "2-3/11": {
+    "options": [
+      {
+        "src": "assets/medvezhonok/2010/2-3-11-1.webp",
+        "width": 162,
+        "height": 76,
+        "pixelWidth": 162,
+        "pixelHeight": 76,
+        "description": "Шина с заменой Ш на Л и запятой после неё, лейка с запятой перед ней"
+      },
+      {
+        "src": "assets/medvezhonok/2010/2-3-11-2.webp",
+        "width": 191,
+        "height": 73,
+        "pixelWidth": 191,
+        "pixelHeight": 73,
+        "description": "Игральная карта с двумя запятыми после неё, бант с запятой с каждой стороны и душ с заменой У на А"
+      },
+      {
+        "src": "assets/medvezhonok/2010/2-3-11-3.webp",
+        "width": 148,
+        "height": 67,
+        "pixelWidth": 148,
+        "pixelHeight": 67,
+        "description": "Число 100 с запятой перед ним, затем вилка с заменой В на Ч"
+      },
+      {
+        "src": "assets/medvezhonok/2010/2-3-11-4.webp",
+        "width": 141,
+        "height": 66,
+        "pixelWidth": 141,
+        "pixelHeight": 66,
+        "description": "Руль с двумя запятыми после него, бочка с двумя запятыми перед ней"
+      },
+      {
+        "src": "assets/medvezhonok/2010/2-3-11-5.webp",
+        "width": 143,
+        "height": 69,
+        "pixelWidth": 143,
+        "pixelHeight": 69,
+        "description": "Маленькие Т на большой Р, затем ф и ель"
+      }
+    ],
+    "onlyPictures": true
+  },
+  "4-5/8": {
+    "options": [
+      {
+        "src": "assets/medvezhonok/2010/4-5-8-1.webp",
+        "width": 121,
+        "height": 67,
+        "pixelWidth": 121,
+        "pixelHeight": 67,
+        "description": "Единица между запятыми, затем Н внутри А"
+      },
+      {
+        "src": "assets/medvezhonok/2010/4-5-8-2.webp",
+        "width": 126,
+        "height": 53,
+        "pixelWidth": 126,
+        "pixelHeight": 53,
+        "description": "Число 100 и буква л"
+      },
+      {
+        "src": "assets/medvezhonok/2010/4-5-8-3.webp",
+        "width": 194,
+        "height": 63,
+        "pixelWidth": 194,
+        "pixelHeight": 63,
+        "description": "Буква К, нота ре и слон с запятой после него"
+      },
+      {
+        "src": "assets/medvezhonok/2010/4-5-8-4.webp",
+        "width": 74,
+        "height": 76,
+        "pixelWidth": 74,
+        "pixelHeight": 76,
+        "description": "Маленькие слоги Ка на большой букве Л"
+      },
+      {
+        "src": "assets/medvezhonok/2010/4-5-8-5.webp",
+        "width": 198,
+        "height": 87,
+        "pixelWidth": 198,
+        "pixelHeight": 87,
+        "description": "Маленькая а внутри Т, затем о и бусы с запятой после них"
+      }
+    ],
+    "onlyPictures": true
+  }
+}

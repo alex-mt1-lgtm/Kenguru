@@ -186,3 +186,8 @@
   color: #155b58;
   text-underline-offset: 4px;
 }
+
+.archive-russian-year { display: inline-flex; align-items: center; gap: 12px; margin-bottom: 12px; }
+.archive-russian-year select { border: 1px solid #adbda7; border-radius: 8px; background: #fffdf7; color: inherit; font: inherit; padding: 6px 10px; }
+#russian [hidden] { display: none; }
+#russian .archive-editions { scroll-margin-block-start: 15rem; }

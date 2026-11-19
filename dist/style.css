@@ -770,7 +770,9 @@ body { background-color: var(--page-field); isolation: isolate; }
   min-height: 0;
   padding-block: 8px;
 }
-.lesson-page[data-subject="ru"] #question { white-space: pre-line; }
+.lesson-page[data-subject="ru"] #question,
+.lesson-page[data-subject="ru"] .answer > span { white-space: pre-line; }
+.lesson-page[data-subject="ru"] .answer span strong { display: inline; background: transparent; color: inherit; font: inherit; font-weight: 750; }
 #scene > .medvezhonok-rebus { width: min(100%, 22rem); height: auto; min-height: 0; }
 .word-scene { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; padding: 12px; }
 .word-token {
@@ -786,3 +788,9 @@ body { background-color: var(--page-field); isolation: isolate; }
   transform: translateY(calc(.25em * (1 - var(--reveal))));
 }
 .word-scene[data-result="true"] .word-token { background: #f9e8b8; border-color: #e3cf83; color: #554223; }
+
+#stage:has(.named-figures) { min-height: 0; }
+.named-figures { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; align-items: end; padding: 8px 0; }
+.named-figures figure { margin: 0; text-align: center; }
+.named-figures img { display: block; margin: 0 auto 6px; max-width: 95%; width: auto; height: clamp(56px, 16vw, 120px); object-fit: contain; }
+.named-figures figcaption { font-size: clamp(13px, 3.5vw, 18px); font-weight: 600; }

@@ -1,0 +1,92 @@
+{
+  "2-3/11": {
+    "options": [
+      {
+        "src": "assets/medvezhonok/2008/2-3-11-1.webp",
+        "width": 120,
+        "height": 44,
+        "pixelWidth": 120,
+        "pixelHeight": 44,
+        "description": "Жаба с заменой Ж на К, затем очки с запятой перед ними"
+      },
+      {
+        "src": "assets/medvezhonok/2008/2-3-11-2.webp",
+        "width": 170,
+        "height": 54,
+        "pixelWidth": 170,
+        "pixelHeight": 54,
+        "description": "Мак, арка с двумя запятыми после неё, конь с запятой с каждой стороны и буква ы"
+      },
+      {
+        "src": "assets/medvezhonok/2008/2-3-11-3.webp",
+        "width": 124,
+        "height": 44,
+        "pixelWidth": 124,
+        "pixelHeight": 44,
+        "description": "Маленькая р внутри е, нота ми, буква ш и ель"
+      },
+      {
+        "src": "assets/medvezhonok/2008/2-3-11-4.webp",
+        "width": 127,
+        "height": 41,
+        "pixelWidth": 127,
+        "pixelHeight": 41,
+        "description": "Лапы с двумя запятыми перед ними, лес и оса с запятой после неё"
+      },
+      {
+        "src": "assets/medvezhonok/2008/2-3-11-5.webp",
+        "width": 170,
+        "height": 47,
+        "pixelWidth": 170,
+        "pixelHeight": 47,
+        "description": "Кот, лев с запятой после него и таз с запятой после него"
+      }
+    ],
+    "onlyPictures": true
+  },
+  "4-5/8": {
+    "options": [
+      {
+        "src": "assets/medvezhonok/2008/4-5-8-1.webp",
+        "width": 102,
+        "height": 51,
+        "pixelWidth": 102,
+        "pixelHeight": 51,
+        "description": "Н перед А, маленькая с внутри е"
+      },
+      {
+        "src": "assets/medvezhonok/2008/4-5-8-2.webp",
+        "width": 98,
+        "height": 60,
+        "pixelWidth": 98,
+        "pixelHeight": 60,
+        "description": "Буквы ЗА над В, затем запятая и лес"
+      },
+      {
+        "src": "assets/medvezhonok/2008/4-5-8-3.webp",
+        "width": 100,
+        "height": 60,
+        "pixelWidth": 100,
+        "pixelHeight": 60,
+        "description": "Ваза с двумя запятыми перед ней, затем буквы ес над В"
+      },
+      {
+        "src": "assets/medvezhonok/2008/4-5-8-4.webp",
+        "width": 84,
+        "height": 58,
+        "pixelWidth": 84,
+        "pixelHeight": 58,
+        "description": "Е за В, затем оса с запятой перед ней"
+      },
+      {
+        "src": "assets/medvezhonok/2008/4-5-8-5.webp",
+        "width": 204,
+        "height": 75,
+        "pixelWidth": 204,
+        "pixelHeight": 75,
+        "description": "Зонт с заменой О на А и запятой после него, А внутри е, затем нота си с запятой после неё"
+      }
+    ],
+    "onlyPictures": true
+  }
+}
