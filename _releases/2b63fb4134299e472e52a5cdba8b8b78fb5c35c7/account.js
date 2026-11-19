@@ -147,7 +147,9 @@
     function renderMenu(message) {
       const emailStatus = user?.pendingEmail ? 'Ждём подтверждения нового адреса.' :
         user?.emailConfirmed ? 'Почта подтверждена.' : 'Подтверди почту для восстановления пароля.';
-      menuStatus.textContent = message ?? (user ? `Вы вошли как ${user.username}. ${emailStatus}` : '');
+      byId('accountMenuName').textContent = user?.username ?? '';
+      byId('accountEmailHint').textContent = user ? emailStatus : '';
+      menuStatus.textContent = message ?? '';
       if (standaloneSignIn) menu.hidden = !user;
       openButton.hidden = Boolean(user);
       logoutButton.hidden = !user;
@@ -308,7 +310,11 @@
       (!openButton.hidden && (standaloneSignIn || menu.open) ? openButton : byId('profileToggle')).focus();
     });
     openButton.addEventListener('click', () => { if (!busy) showMode('login'); });
-    settingsButton.addEventListener('click', () => { if (!busy) showMode('edit-account'); });
+    settingsButton.addEventListener('click', () => {
+      if (busy) return;
+      menu.open = false;
+      showMode('edit-account');
+    });
     resendButton.addEventListener('click', async () => {
       if (busy || !user) return;
       const version = modeVersion;
@@ -350,7 +356,7 @@
         menu.open = false;
         openButton.focus();
       } catch (error) {
-        renderMenu(user ? `Вы вошли как ${user.username}. ${error.message}` : error.message);
+        renderMenu(error.message);
       } finally {
         byId('lessonPage').inert = false;
         setBusy(false);

@@ -1,4 +1,4 @@
-<!doctype html><html lang="ru"><head><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'"><base href="/_releases/3c6eee283986448d30ad20ba94201401bfc5f066/"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Математика и русский язык. Задачи «Кенгуру» и «Русского медвежонка» с проверкой ответов и пошаговыми разборами."><title>Olympiads.pro</title><link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="favicon.svg"><script src="account.js?v=confirmed-progress"></script><script src="edition-loader.js" defer></script><link rel="stylesheet" href="style.css?v=service-audit"><link rel="stylesheet" href="account.css?v=confirmed-progress"><link rel="stylesheet" href="leaderboard.css?v=service-audit"></head><body>
+<!doctype html><html lang="ru"><head><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'"><base href="/_releases/2b63fb4134299e472e52a5cdba8b8b78fb5c35c7/"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Математика и русский язык. Задачи «Кенгуру» и «Русского медвежонка» с проверкой ответов и пошаговыми разборами."><title>Olympiads.pro</title><link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="favicon.svg"><script src="account.js?v=profile-layout"></script><script src="edition-loader.js" defer></script><link rel="stylesheet" href="style.css?v=profile-layout"><link rel="stylesheet" href="account.css?v=profile-layout"><link rel="stylesheet" href="leaderboard.css?v=profile-layout"></head><body>
 <div class="page-art" aria-hidden="true"><span></span></div>
 <header class="lesson-header"><a class="site-brand" href="/" aria-label="olympiads.pro — к урокам"><span class="site-brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span>olympiads.pro</a>
 <div class="header-menus">
@@ -14,16 +14,29 @@
   <button id="accountOpen" class="header-sign-in" type="button" aria-haspopup="dialog">Войти</button>
   <details id="profileMenu" class="compact-menu learner-profiles" hidden>
     <summary id="profileToggle"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="7" r="3.5"/><path d="M4 21c.4-4.1 3.4-6.5 8-6.5s7.6 2.4 8 6.5"/></svg><span id="profileSummary">Профиль</span></summary>
-    <div class="compact-menu-panel">
-      <section id="accountMenu" class="account-menu" aria-label="Аккаунт" hidden>
+    <div class="compact-menu-panel profile-panel">
+      <div class="profile-identity poster-heading"><span>Профиль</span><strong id="accountMenuName"></strong></div>
+      <div class="profile-actions">
+        <button id="openProfileRating" class="profile-action" type="button" aria-haspopup="dialog" aria-controls="profileRatingDialog" hidden>
+          <svg class="profile-icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="8.5" r="5.5"/><path d="m8 13-1 8 5-3 5 3-1-8"/></svg>
+          <span>Рейтинг и достижения</span><strong id="profileRatingPoints"></strong>
+        </button>
+        <button id="openLeaderboard" class="profile-action" type="button" aria-haspopup="dialog">
+          <svg class="profile-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M3 20v-9h6v9m0 0V4h6v16m0 0v-6h6v6M2 20h20"/></svg>
+          <span>Общий рейтинг</span>
+        </button>
+      </div>
+      <section id="accountMenu" class="profile-settings" aria-label="Аккаунт" hidden>
+        <button id="accountSettings" class="profile-action" type="button" aria-haspopup="dialog" hidden>
+          <svg class="profile-icon" aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="1.8"/><path d="M6 15c.5-2.5 5.5-2.5 6 0m2-5h3m-3 4h3"/></svg>
+          <span>Данные аккаунта<small id="accountEmailHint"></small></span>
+        </button>
+        <button id="accountLogout" class="profile-action" type="button" hidden>
+          <svg class="profile-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M10 4H5v16h5m-1-8h12m-4-4 4 4-4 4"/></svg>
+          <span>Выйти из аккаунта</span>
+        </button>
         <p id="accountMenuStatus" role="status"></p>
-        <button id="accountSettings" type="button" aria-haspopup="dialog" hidden>Данные аккаунта</button>
-        <button id="accountLogout" type="button" hidden>Выйти из аккаунта</button>
       </section>
-      <button id="openLeaderboard" class="profile-rating-link leaderboard-link" type="button" aria-haspopup="dialog">Общий рейтинг</button>
-      <button id="openProfileRating" class="profile-rating-link" type="button" hidden>
-        <span>Рейтинг и достижения</span><strong id="profileRatingPoints"></strong>
-      </button>
     </div>
   </details>
 </div>
@@ -181,21 +194,28 @@
     <div class="account-links"><button type="button" id="afterConfirmEmail" data-account-mode="login">Ко входу</button></div>
   </form>
 </dialog>
-<dialog id="profileRatingDialog" class="rating-dialog" aria-labelledby="ratingTitle">
-  <div class="rating-header">
-    <div>
-      <h2 id="ratingTitle">Рейтинг и достижения</h2>
-      <p id="ratingProfileName"></p>
-    </div>
-    <form method="dialog"><button type="submit" autofocus>Закрыть</button></form>
+<dialog id="profileRatingDialog" class="leaderboard personal-rating" aria-labelledby="ratingTitle">
+  <div class="leaderboard-hero poster-heading">
+    <div><h2 id="ratingTitle">Рейтинг и достижения</h2><p id="ratingProfileName"></p></div>
+    <form method="dialog"><button class="leaderboard-close" type="submit" aria-label="Закрыть рейтинг и достижения" autofocus>
+      <svg aria-hidden="true" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m5 5 10 10M15 5 5 15"/></svg>
+    </button></form>
   </div>
-  <dl class="rating-stats">
-    <div><dt>Набрано</dt><dd id="ratingPoints"></dd></div>
-    <div><dt>Решено самостоятельно</dt><dd id="ratingSolved"></dd></div>
-  </dl>
-  <p class="rating-rule">Это тренировочный рейтинг. Засчитывается ответ, выбранный к первому открытию разбора. За верный ответ баллы начисляются один раз после сохранения на сервере. Без сети выбор остаётся на устройстве и будет отправлен при подключении. Если на другом устройстве уже открыт разбор или сохранён результат, действует сохранённая история.</p>
-  <h3>Достижения <span id="ratingBadgeCount"></span></h3>
-  <ul class="rating-badges" id="ratingBadges"></ul>
+  <div class="personal-rating-content">
+    <dl class="rating-stats">
+      <div><dt>Баллы</dt><dd id="ratingPoints"></dd></div>
+      <div><dt>Решено самостоятельно</dt><dd id="ratingSolved"></dd></div>
+    </dl>
+    <section aria-labelledby="ratingAchievementsTitle">
+      <h3 id="ratingAchievementsTitle">Достижения <span id="ratingBadgeCount"></span></h3>
+      <ul class="rating-badges" id="ratingBadges"></ul>
+    </section>
+    <details class="personal-rating-rules">
+      <summary>Как начисляются баллы</summary>
+      <p>При первом открытии разбора засчитывается выбранный ответ. За верное самостоятельное решение баллы начисляются один раз, после сохранения на сервере.</p>
+      <p>Без сети ответ остаётся на устройстве и отправится при подключении. Если на другом устройстве уже открыт разбор или сохранён результат, учитывается сохранённая на сервере история.</p>
+    </details>
+  </div>
 </dialog>
 <dialog id="legacyZoom" class="legacy-zoom" aria-label="Увеличенный рисунок задачи">
   <form method="dialog"><button type="submit" autofocus>Закрыть рисунок</button></form>
@@ -204,4 +224,4 @@
 <dialog id="choiceZoom" class="legacy-zoom choice-zoom" aria-labelledby="choiceZoomTitle">
   <div class="choice-zoom-header"><h2 id="choiceZoomTitle">Варианты ответа</h2><form method="dialog"><button type="submit" autofocus>Закрыть</button></form></div>
   <div id="choiceZoomItems" class="choice-zoom-items"></div>
-</dialog><footer>Olympiads.pro <span>Учимся замечать, рассуждать и проверять.</span><a href="https://github.com/alex-mt1-lgtm/Kenguru">Исходный код ↗</a></footer><script src="editions/index.js" defer></script><script src="lesson-visuals.js" defer></script><script src="workspace.js" defer></script><script src="fruit-workspace.js" defer></script><script src="profile-rating.js?v=confirmed-progress" defer></script><script src="account-progress.js?v=confirmed-progress" defer></script><script src="app.js?v=edition-loader" defer></script><script src="leaderboard.js?v=service-audit" defer></script></body></html>
+</dialog><footer>Olympiads.pro <span>Учимся замечать, рассуждать и проверять.</span><a href="https://github.com/alex-mt1-lgtm/Kenguru">Исходный код ↗</a></footer><script src="editions/index.js" defer></script><script src="lesson-visuals.js" defer></script><script src="workspace.js" defer></script><script src="fruit-workspace.js" defer></script><script src="profile-rating.js?v=profile-layout" defer></script><script src="account-progress.js?v=confirmed-progress" defer></script><script src="app.js?v=edition-loader" defer></script><script src="leaderboard.js?v=service-audit" defer></script></body></html>

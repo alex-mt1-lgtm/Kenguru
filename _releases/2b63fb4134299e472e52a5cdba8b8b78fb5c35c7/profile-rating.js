@@ -62,18 +62,18 @@ function renderRatingSummary() {
 function renderRatingDialog() {
   const rating = getProfileRating();
   $('ratingProfileName').textContent = accountProfile?.name ?? '';
-  $('ratingPoints').textContent = formatRatingPoints(rating.points);
-  $('ratingSolved').textContent = taskCount(rating.solved);
+  $('ratingPoints').textContent = rating.points.toLocaleString('ru-RU');
+  $('ratingSolved').textContent = rating.solved.toLocaleString('ru-RU');
   const achievements = ratingAchievements(rating);
   $('ratingBadgeCount').textContent = `${achievements.filter(([, , value, goal]) => value >= goal).length} из ${achievements.length}`;
   $('ratingBadges').innerHTML = achievements.map(([title, description, value, goal]) => {
     const earned = value >= goal;
     return `<li class="rating-badge${earned ? ' is-earned' : ''}">
-      <div><strong>${title}</strong><span class="rating-badge-status">${earned ? 'Получено' : `${value} / ${goal}`}</span></div>
-      <small>${description}</small>
+      <div class="rating-badge-label"><strong>${title}</strong><small>${description}</small></div>
+      <div class="rating-badge-status">${earned ? 'Получено' :
+        `<span>${value} / ${goal}</span><progress value="${value}" max="${goal}" aria-hidden="true"></progress>`}</div>
     </li>`;
   }).join('');
-
 }
 
 function setupProfileRating() {
@@ -84,5 +84,10 @@ function setupProfileRating() {
     renderRatingDialog();
     dialog.showModal();
   };
-  dialog.addEventListener('close', () => $('profileToggle').focus());
+  dialog.addEventListener('click', event => {
+    if (event.target === dialog) dialog.close();
+  });
+  dialog.addEventListener('close', () => {
+    ($('profileMenu').hidden ? $('accountOpen') : $('profileToggle')).focus();
+  });
 }
