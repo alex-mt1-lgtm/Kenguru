@@ -354,7 +354,15 @@
           378.5,
           134.5
         ]
-      ]
+      ],
+      "choiceRaster": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "choiceRasterScale": 5
     },
     {
       "title": "Дробь с числителем 1",

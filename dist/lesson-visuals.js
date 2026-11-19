@@ -21,13 +21,88 @@
   const card = (x, y, w, h, fill = paper) =>
     `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="12" fill="${fill}" stroke="${line}"/>`;
 
-  const number = '[0-9]+(?:[.,][0-9]+)?';
-  const operation = '[+−–×·⋅÷:/]';
-  const side = `${number}(?:\\s*${operation}\\s*${number}){0,5}`;
-  const equation = new RegExp(`(?<![a-zа-яё0-9(])${side}(?:\\s*[=<>≤≥]\\s*${side}){1,3}(?![a-zа-яё0-9)])`, 'giu');
+  const numeral = '[0-9]+(?:[ \\u00A0\\u202F][0-9]{3}(?![0-9]))*(?:[.,][0-9]+)?';
+  const mixedNumber = '[0-9]+[ \\u00A0\\u202F][0-9]+[ \\u00A0\\u202F]*/[ \\u00A0\\u202F]*[0-9]+';
+  const numbers = `(?:${mixedNumber}|${numeral})`;
+  const lexemes = new RegExp(`${numbers}|\\.{3}|[\\p{L}\\p{M}]+|\\s+|.`, 'gu');
+  const number = new RegExp(`^${numbers}$`, 'u');
+  const variable = /^(?:[a-zA-Zα-ωΑ-Ω]+[ᵃᵇⁿˣʸ]?|[АБВГДЕНРСТХ])$/u;
+  const relation = /^[=<>≤≥≠≈]$/u;
+  const operation = /^[+\-−–×*·⋅÷:/^]$/u;
+  const suffix = /^[⁰¹²³⁴⁵⁶⁷⁸⁹⁻⁺₀₁₂₃₄₅₆₇₈₉°%′″]$/u;
+  const brackets = {'(': ')', '[': ']', '{': '}'};
+
+  function completeEquation(tokens) {
+    const pendingBrackets = [];
+    let hasRelation = false;
+    let needsOperand = true;
+    let previous = '';
+    for (const token of tokens) {
+      if (relation.test(token)) {
+        if (needsOperand || pendingBrackets.length) return false;
+        hasRelation = true;
+        needsOperand = true;
+      } else if (Object.hasOwn(brackets, token)) {
+        pendingBrackets.push(brackets[token]);
+        needsOperand = true;
+      } else if (/[)\]}]/u.test(token)) {
+        if (needsOperand || pendingBrackets.pop() !== token) return false;
+      } else if (operation.test(token)) {
+        if (needsOperand && !/^[+\-−–]$/u.test(token)) return false;
+        needsOperand = true;
+      } else if (suffix.test(token)) {
+        if (needsOperand) return false;
+      } else if (/^[√∛∜∠]$/u.test(token)) {
+        needsOperand = true;
+      } else if (number.test(token) || variable.test(token) || token === '…' || token === '...') {
+        if (!needsOperand && number.test(token) && (number.test(previous) || variable.test(previous))) return false;
+        needsOperand = false;
+      } else {
+        return false;
+      }
+      previous = token;
+    }
+    return hasRelation && !needsOperand && !pendingBrackets.length;
+  }
 
   function expressions(wording) {
-    return [...wording.matchAll(equation)].map(match => match[0].replace(/\s+/gu, ' ').trim());
+    const equations = [];
+    let span = [];
+    function collect() {
+      // A colon before a formula may introduce it in the surrounding sentence.
+      if (span[0]?.[0] === ':') span.shift();
+      if (/^[АБВГДA-E]$/u.test(span[0]?.[0] ?? '') && span[1]?.[0] === ')') span.splice(0, 2);
+      const tail = span.at(-1);
+      // A spaced dash at the end of a formula introduces explanatory prose.
+      if (tail?.[0] === '–' && /\s/u.test(wording[tail.index - 1]) && /\s/u.test(wording[tail.index + 1])) span.pop();
+      if (span.length && completeEquation(span.map(match => match[0]))) {
+        const last = span.at(-1);
+        const equation = wording.slice(span[0].index, last.index + last[0].length);
+        equations.push(equation.replace(/\s+/gu, ' '));
+      }
+      span = [];
+    }
+    for (const match of wording.matchAll(lexemes)) {
+      const token = match[0];
+      if (/^\s+$/u.test(token)) {
+        if (/[\r\n]/u.test(token)) collect();
+        continue;
+      }
+      if (token === ':' && /\s/u.test(wording[match.index + 1]) && !/\s/u.test(wording[match.index - 1])) {
+        collect();
+        continue;
+      }
+      // Keep unsupported math inside its span so that it cannot leave a valid-looking fragment.
+      if (number.test(token) || variable.test(token) || /[\p{Sm}\p{No}°%′″!()[\]{}^_:/\-*–·⋅…]/u.test(token) || token === '...') {
+        span.push(match);
+      } else if (/^\p{L}/u.test(token) && span.at(-1)?.index + span.at(-1)?.[0].length === match.index) {
+        span.push(match);
+      } else {
+        collect();
+      }
+    }
+    collect();
+    return equations;
   }
 
   function arithmeticModel(expression, frame) {
@@ -80,12 +155,10 @@
       ? `<image href="${escape(figure.image)}" x="${(640 - imageWidth) / 2}" y="12" width="${imageWidth}" height="${imageHeight}" opacity="${.32 + .68 * reveal(frame)}"/>` : '';
     const rows = calculations.map((value, index) => {
       const y = top + 66 * index;
-      const fontSize = Math.min(27, 850 / value.length);
-      const pieces = value.split(/\s*(?=[=<>≤≥])/u);
-      const offset = (640 - (pieces.length - 1) * 150) / 2;
-      return card(38, y, 564, 52, pale) + (pieces.length <= 3 && value.length <= 25
-        ? pieces.map((part, index) => `<g opacity="${.2 + .8 * reveal(frame, index * .48)}">${text(offset + index * 150, y + 35, part, fontSize, index ? teal : ink)}</g>`).join('')
-        : `<g opacity="${.25 + .75 * reveal(frame)}">${text(320, y + 35, value, fontSize)}</g>`);
+      const fontSize = Math.min(27, 760 / value.length);
+      const opacity = .25 + .75 * reveal(frame, index * .48);
+      return card(38, y, 564, 52, pale)
+        + `<g opacity="${opacity}">${text(320, y + 35, value, fontSize)}</g>`;
     }).join('');
     const height = calculations.length ? top + 66 * calculations.length : imageHeight + 24;
     return svg(figureMarkup + model + rows, [figure ? 'Рисунок из официального решения' : '', ...calculations].filter(Boolean).join('. '), `0 0 640 ${height}`, 'worked-scene');
