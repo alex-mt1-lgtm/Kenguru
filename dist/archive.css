@@ -1,6 +1,7 @@
 .archive-header { padding-block: 12px; }
 .archive-header { position: relative; z-index: 2; }
 .archive-caption { font-size: 12px; line-height: 1.1; font-weight: 400; color: #465c5d; }
+#russian { scroll-margin-block-start: 40rem; }
 #russian h2 { font-size: 1.35rem; }
 .archive-header .site-brand { min-height: 44px; }
 .archive-page {
