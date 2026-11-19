@@ -255,7 +255,7 @@ function sceneMarkup(lesson, step, frame) {
   if (lesson.choiceLayout) {
     const figure = lesson.choiceLayout.condition;
     return figure
-      ? `<svg class="legacy-scene" role="img" aria-label="Рисунок из условия задачи" viewBox="0 0 ${figure.width} ${figure.height}" style="max-width:${figure.width}px"><image href="${figure.src}" width="${figure.width}" height="${figure.height}"/></svg>`
+      ? `<svg class="legacy-scene" role="img" aria-label="${escapeAnswerText(figure.alt ?? 'Рисунок из условия задачи')}" viewBox="0 0 ${figure.width} ${figure.height}" style="max-width:${figure.width}px"><image href="${figure.src}" width="${figure.width}" height="${figure.height}"/></svg>`
       : '';
   }
   if (!lesson.question && lesson.legacyOriginal) return '';
@@ -335,9 +335,9 @@ function renderAnswers() {
       picture = choiceImageMarkup(lesson.choiceImages[i], option);
     }
     const label = escapeAnswerText('Выбрать ответ ' + answerLetter(i) + (description ? ': ' + description : ''));
-    const showText = value && (option || !picture);
+    const visibleText = option ? option.text : picture ? '' : value;
     return `<button class="answer ${st.selected === i ? 'selected' : ''}" data-answer="${i}" aria-label="${label}" aria-pressed="${st.selected === i}">
-      ${picture}<strong>${answerLetter(i)}</strong>${showText ? choiceTextMarkup(value, option?.presentation) : ''}
+      ${picture}<strong>${answerLetter(i)}</strong>${visibleText ? choiceTextMarkup(visibleText, option?.presentation) : ''}
     </button>`;
   }).join('');
   renderButtons('answers', 'data-answer', markup);
@@ -410,7 +410,7 @@ function renderCondition(lesson, step) {
   picture.hidden = !source;
   if (source && picture.getAttribute?.('src') !== source) {
     picture.src = source;
-    picture.alt = 'Рисунок из условия задачи';
+    picture.alt = lesson.conditionAlt ?? 'Рисунок из условия задачи';
   }
   $('openLegacyZoom').hidden = !lesson.conditionImage;
 }
@@ -534,7 +534,7 @@ $('openLegacyZoom').onclick = () => {
   if (!path) return;
   const image = $('legacyZoomImage');
   image.src = path;
-  image.alt = 'Рисунок из условия задачи';
+  image.alt = lesson.conditionAlt ?? 'Рисунок из условия задачи';
   $('legacyZoom').showModal();
 };
 $('openChoiceZoom').onclick = () => {
