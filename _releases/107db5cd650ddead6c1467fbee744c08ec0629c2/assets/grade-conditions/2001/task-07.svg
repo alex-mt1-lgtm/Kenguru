@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="256" viewBox="0 0 340 256">
+  <title>Четыре переплетённых кольца A, B, C и D</title>
+  <defs>
+    <!-- Each mask removes the short arcs hidden by the rings in front. -->
+    <mask id="ring-a" maskUnits="userSpaceOnUse" x="0" y="0" width="340" height="256">
+      <rect width="340" height="256" fill="white"/>
+      <g fill="none" stroke="black" stroke-width="19">
+        <!-- C in front of A -->
+        <path d="M149.94 37.47A74 74 0 0 1 179.38 18.22"/>
+      </g>
+    </mask>
+    <mask id="ring-b" maskUnits="userSpaceOnUse" x="0" y="0" width="340" height="256">
+      <rect width="340" height="256" fill="white"/>
+      <g fill="none" stroke="black" stroke-width="19">
+        <!-- A in front of B -->
+        <path d="M77.43 145.03A74 74 0 0 1 58.20 115.57"/>
+        <!-- A in front of B -->
+        <path d="M200.04 107.90A74 74 0 0 1 184.10 139.26"/>
+        <!-- C in front of B -->
+        <path d="M223.47 159.39A74 74 0 0 1 188.30 160.32"/>
+      </g>
+    </mask>
+    <mask id="ring-c" maskUnits="userSpaceOnUse" x="0" y="0" width="340" height="256">
+      <rect width="340" height="256" fill="white"/>
+      <g fill="none" stroke="black" stroke-width="19">
+        <!-- A in front of C -->
+        <path d="M182.06 141.53A74 74 0 0 1 152.62 160.78"/>
+        <!-- B in front of C -->
+        <path d="M112.53 93.61A74 74 0 0 1 147.70 92.68"/>
+        <!-- D in front of C -->
+        <path d="M258.57 107.97A74 74 0 0 1 277.80 137.43"/>
+      </g>
+    </mask>
+    <mask id="ring-d" maskUnits="userSpaceOnUse" x="0" y="0" width="340" height="256">
+      <rect width="340" height="256" fill="white"/>
+      <g fill="none" stroke="black" stroke-width="19">
+        <!-- A in front of D -->
+        <path d="M151.41 161.20A74 74 0 0 1 116.35 164.08"/>
+        <!-- A in front of D -->
+        <path d="M199.18 70.75A74 74 0 0 1 200.48 105.90"/>
+        <!-- B in front of D -->
+        <path d="M186.06 215.53A74 74 0 0 1 156.62 234.78"/>
+        <!-- B in front of D -->
+        <path d="M151.04 93.49A74 74 0 0 1 181.91 110.37"/>
+        <!-- C in front of D -->
+        <path d="M153.43 142.03A74 74 0 0 1 134.20 112.57"/>
+      </g>
+    </mask>
+  </defs>
+  <g fill="none" stroke="#211e1b" stroke-width="10.8">
+    <circle cx="128" cy="91" r="74" mask="url(#ring-a)"/>
+    <circle cx="132" cy="165" r="74" stroke="#514b45" mask="url(#ring-b)"/>
+    <circle cx="204" cy="88" r="74" stroke="#514b45" mask="url(#ring-c)"/>
+    <circle cx="208" cy="162" r="74" mask="url(#ring-d)"/>
+  </g>
+  <g fill="#211e1b" font-family="Arial,sans-serif" font-style="italic" font-size="31">
+    <text x="24" y="44">A</text><text x="16" y="217">B</text>
+    <text x="300" y="48">C</text><text x="297" y="229">D</text>
+  </g>
+</svg>

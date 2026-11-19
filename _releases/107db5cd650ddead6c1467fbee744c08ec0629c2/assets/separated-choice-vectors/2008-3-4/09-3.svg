@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="50" height="37.666688" viewBox="0 0 50 37.666688">
+<defs>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,-196.33333,449.33335)" d="M196.33333 411.66667H246.33333V449.33335H196.33333Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_2">
+<path transform="matrix(0,1,1,0,-196.33333,-145.66666)" d="M536.627 212.142H546.6049V212.19869H536.627Z"/>
+</clipPath>
+<clipPath id="clip_3">
+<path transform="matrix(0,1,1,0,-196.33333,-145.66666)" d="M536.627 633.087H546.6049V633.1437H536.627Z"/>
+</clipPath>
+</defs>
+<g clip-path="url(#clip_1)">
+<g clip-path="url(#clip_2)">
+</g>
+<path transform="matrix(1.002078,0,0,-.997926,-196.33333,-145.66666)" stroke-width="1.496" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#231f20" d="M214.331-172.354 197.647-181.986V-147.663L214.269-157.26 214.383-157.205V-147.663L244.107-164.824 214.383-181.986V-172.356L214.331-172.354Z"/>
+<g clip-path="url(#clip_3)">
+</g>
+</g>
+</svg>

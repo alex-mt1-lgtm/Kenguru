@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="51.5" height="38" viewBox="0 0 51.5 38">
+<defs>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,-321,298)" d="M321 260H372.5V298H321Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_2">
+<path transform="matrix(0,1,1,0,-321,-297)" d="M0 .028H.028V0H0ZM298.738 371.644H333.575V322.634H298.738Z"/>
+</clipPath>
+<path id="font_3_1" d="M0 0Z"/>
+<clipPath id="clip_4">
+<path transform="matrix(0,1,1,0,-321,-297)" d="M536.051 628.431H546.369V632.966H536.051Z"/>
+</clipPath>
+<clipPath id="clip_5">
+<path transform="matrix(0,1,1,0,-321,-297)" d="M0 421.023H.028V420.995H0ZM48.925 792.101H88.58099V735.891H48.925Z"/>
+</clipPath>
+</defs>
+<g clip-path="url(#clip_1)">
+<path transform="matrix(0,1,1,0,-321,-297)" d="M295.139 315.434H337.913V379.49598H295.139Z" fill="#ffffff"/>
+<g clip-path="url(#clip_2)">
+<path transform="matrix(1.006,0,0,-.994,-321,-297)" d="M344.465-334.763H321.567C321.567-328.44 326.693-323.314 333.016-323.314 339.339-323.314 344.465-328.44 344.465-334.763Z" fill="#ffffff"/>
+<path transform="matrix(1.006,0,0,-.994,-321,-297)" stroke-width=".974" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#231f20" d="M344.465-334.763H321.567C321.567-328.44 326.693-323.314 333.016-323.314 339.339-323.314 344.465-328.44 344.465-334.763Z"/>
+<path transform="matrix(1.006,0,0,-.994,-321,-297)" d="M368.26-334.763H345.361C345.361-328.44 350.488-323.314 356.81-323.314 363.134-323.314 368.26-328.44 368.26-334.763Z" fill="#ffffff"/>
+<path transform="matrix(1.006,0,0,-.994,-321,-297)" stroke-width=".974" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#231f20" d="M368.26-334.763H345.361C345.361-328.44 350.488-323.314 356.81-323.314 363.134-323.314 368.26-328.44 368.26-334.763Z"/>
+<path transform="matrix(1.006,0,0,-.994,-321,-297)" d="M321.576-301.154H368.298C368.298-314.057 357.842-324.517 344.938-324.517 332.035-324.517 321.576-314.057 321.576-301.154Z" fill="#ffffff"/>
+<path transform="matrix(1.006,0,0,-.994,-321,-297)" stroke-width=".974" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#231f20" d="M321.576-301.154H368.298C368.298-314.057 357.842-324.517 344.938-324.517 332.035-324.517 321.576-314.057 321.576-301.154Z"/>
+</g>
+<use data-text=" " xlink:href="#font_3_1" transform="matrix(11.9904,0,0,-11.9904,50.64441,36.604097)"/>
+<g clip-path="url(#clip_4)">
+</g>
+<g clip-path="url(#clip_5)">
+</g>
+</g>
+</svg>

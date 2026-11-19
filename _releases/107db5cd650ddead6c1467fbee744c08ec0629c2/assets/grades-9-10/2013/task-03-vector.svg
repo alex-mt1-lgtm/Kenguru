@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 140">
+  <title>Шесть точек на клетчатой сетке</title>
+  <path d="M12 17H132 M12 38H132 M12 59H132 M12 80H132 M12 101H132 M12 122H132
+           M19 7V132 M40 7V132 M61 7V132 M82 7V132 M103 7V132 M124 7V132"
+        fill="none" stroke="#777" stroke-width="1.4"/>
+  <g fill="#191919">
+    <circle cx="40" cy="17" r="4.1"/>
+    <circle cx="103" cy="38" r="4.1"/>
+    <circle cx="19" cy="80" r="4.1"/>
+    <circle cx="19" cy="101" r="4.1"/>
+    <circle cx="124" cy="101" r="4.1"/>
+    <circle cx="82" cy="122" r="4.1"/>
+  </g>
+</svg>

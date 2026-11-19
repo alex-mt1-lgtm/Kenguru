@@ -1,12 +1,13 @@
-<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Задачи Кенгуру для 1–11 классов: самостоятельное решение, проверка ответов и пошаговые разборы."><title>Olympiads.pro</title><link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="favicon.svg"><script src="account.js?v=standings"></script><link rel="stylesheet" href="style.css?v=720377ed68"><link rel="stylesheet" href="account.css?v=3"><link rel="stylesheet" href="leaderboard.css?v=20261118-poster"></head><body>
+<!doctype html><html lang="ru"><head><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'"><base href="/_releases/107db5cd650ddead6c1467fbee744c08ec0629c2/"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Задачи Кенгуру для 1–11 классов: самостоятельное решение, проверка ответов и пошаговые разборы."><title>Olympiads.pro</title><link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="favicon.svg"><script src="account.js?v=confirmed-progress"></script><script src="edition-loader.js" defer></script><link rel="stylesheet" href="style.css?v=service-audit"><link rel="stylesheet" href="account.css?v=confirmed-progress"><link rel="stylesheet" href="leaderboard.css?v=service-audit"></head><body>
 <div class="page-art" aria-hidden="true"><span></span></div>
-<header class="lesson-header"><a class="site-brand" href="./" aria-label="olympiads.pro — к урокам"><span class="site-brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span>olympiads.pro</a>
+<header class="lesson-header"><a class="site-brand" href="/" aria-label="olympiads.pro — к урокам"><span class="site-brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span>olympiads.pro</a>
 <div class="header-menus">
   <details id="editionMenu" class="compact-menu edition-menu">
-    <summary id="editionToggle"><span id="archiveLabel">2024 · 3–4 классы</span></summary>
+    <summary id="editionToggle"><span id="archiveLabel">2024 · 3–4 классы</span><span id="archiveShortLabel" aria-hidden="true">2024 · 3–4</span></summary>
     <div class="compact-menu-panel">
       <label class="edition-field">Год конкурса<select id="yearPicker" aria-label="Год конкурса"></select></label>
       <label id="gradeField" class="edition-field">Класс<select id="gradePicker" aria-label="Вариант по классу"></select></label>
+      <a id="editionArchive" href="/archive.html#grades-3-4">Все выпуски</a>
     </div>
   </details>
   <button id="accountOpen" class="header-sign-in" type="button" aria-haspopup="dialog">Войти</button>
@@ -15,6 +16,7 @@
     <div class="compact-menu-panel">
       <section id="accountMenu" class="account-menu" aria-label="Аккаунт" hidden>
         <p id="accountMenuStatus" role="status"></p>
+        <button id="accountSettings" type="button" aria-haspopup="dialog" hidden>Данные аккаунта</button>
         <button id="accountLogout" type="button" hidden>Выйти из аккаунта</button>
       </section>
       <button id="openLeaderboard" class="profile-rating-link leaderboard-link" type="button" aria-haspopup="dialog">Общий рейтинг</button>
@@ -25,31 +27,40 @@
   </details>
 </div>
 </header>
-<main class="lesson-page">
-<div class="lesson-context">
-  <nav id="levelPicker" class="level-picker" aria-label="Группы задач по баллам"></nav>
-  <div class="collection-progress" id="collectionProgress" aria-live="polite"></div>
+<main id="lessonPage" class="lesson-page lesson-initializing"><p id="lessonLoadStatus" role="status">Загружаем задачу…</p><noscript><p>Для интерактивного урока нужен JavaScript. <a href="/archive.html">Открыть архив</a>.</p></noscript>
+<div class="task-navigation">
+  <button id="previousTaskShortcut" class="task-shortcut" type="button" aria-label="Предыдущая задача" aria-disabled="true">←</button>
+  <details id="taskNavigation" class="lesson-disclosure">
+    <summary id="taskNavigationToggle"><span class="task-position">Задача <span id="taskNumber">01</span><span id="taskPoints"> · 3 балла</span></span><span class="task-list-label">Все задачи</span></summary>
+    <div class="lesson-context">
+      <nav id="levelPicker" class="level-picker" aria-label="Группы задач по баллам"></nav>
+      <div class="collection-progress" id="collectionProgress" aria-live="polite"></div>
+    </div>
+    <nav id="taskPicker" class="task-picker" aria-label="Выбор задачи"></nav>
+  </details>
+  <button id="nextTaskShortcut" class="task-shortcut" type="button" aria-label="Следующая задача">→</button>
 </div>
-<nav id="taskPicker" class="task-picker" aria-label="Выбор задачи"></nav><div class="lesson" id="lesson"><aside><div class="lesson-number"><span id="taskNumber">01</span> <span id="taskPoints">/ НА 3 БАЛЛА</span></div><h1 id="taskTitle" tabindex="-1">Квадрат с секретом</h1><p id="taskSkill">Сравниваем площади</p><nav id="chapters" aria-label="Шаги урока"></nav></aside>
-<section class="player" aria-label="Интерактивный урок"><div class="scene-top"><span id="chapterTag"></span><span id="counter"></span></div><details id="taskCondition" class="condition" open>
+<div class="lesson" id="lesson"><aside id="lessonAside"><h1 id="taskTitle" tabindex="-1">Квадрат с секретом</h1><p id="taskSkill">Сравниваем площади</p></aside>
+<section id="lessonPlayer" class="player" aria-label="Интерактивный урок"><details id="taskCondition" class="condition" open>
   <summary>Условие задачи</summary>
   <p id="question"></p>
   <p id="questionNote" class="question-note" hidden></p>
   <img id="conditionImage" class="condition-image" loading="lazy" alt="" hidden>
 </details>
 <h2 id="sceneTitle"></h2><p id="sceneText"></p>
-<div id="lessonScene"><div id="sceneWorkbench"><div class="draft-controls">
+<div id="lessonScene"><div id="sceneWorkbench"><div id="draftControls" class="draft-controls">
   <details id="drawingWorkspace" class="workspace">
     <summary>Черновик</summary>
     <div class="draft-actions" role="group" aria-label="Инструменты черновика">
       <details id="draftNotesMenu" class="draft-menu">
-        <summary class="draft-icon" aria-label="Твои записи" data-tip="Твои записи"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h9l4 4v14H6zM14 3v5h5M9 12h7m-7 4h7"/></svg></summary>
+        <summary class="draft-icon"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h9l4 4v14H6zM14 3v5h5M9 12h7m-7 4h7"/></svg>Записи</summary>
         <div class="draft-menu-panel">
-          <label class="draft-notes">Твои записи<textarea id="draftNotes" rows="4" placeholder="Запиши вычисления или ход решения"></textarea></label>
+          <p id="draftStorageHint">Записи хранятся до обновления или закрытия страницы.</p>
+          <label class="draft-notes">Твои записи<textarea id="draftNotes" rows="4" aria-describedby="draftStorageHint" placeholder="Запиши вычисления или ход решения"></textarea></label>
         </div>
       </details>
       <details id="draftSurfaceMenu" class="draft-menu">
-        <summary id="draftSurfaceToggle" class="draft-icon" aria-label="Где рисовать" data-tip="Где рисовать"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M4 10h16M10 10v10m5-10v10M4 15h16"/></svg></summary>
+        <summary id="draftSurfaceToggle" class="draft-icon" data-tip="Где рисовать"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M4 10h16M10 10v10m5-10v10M4 15h16"/></svg>Лист</summary>
         <div class="draft-menu-panel draft-surface-panel">
           <label class="edition-field" for="drawingSurface">Где рисовать
             <select id="drawingSurface"><option value="scene">На рисунке задачи</option><option value="plain">На чистом листе</option><option value="grid">На листе в клетку</option></select>
@@ -81,7 +92,12 @@
 </svg></div>
 <div id="draftBoard" class="draft-board" hidden>
   <svg id="draftPaper" viewBox="0 0 640 300" aria-hidden="true"></svg>
-</div></div></div><button id="openChoiceZoom" class="legacy-zoom-trigger choice-zoom-trigger" type="button" aria-haspopup="dialog" hidden>Увеличить варианты</button><div id="answers" class="answer-list" aria-label="Варианты ответа"></div><div id="feedback" role="status" aria-live="polite"></div><p id="ratingNotice" role="status"></p><details id="alternative" class="alternative-method" hidden><summary id="alternativeTitle"></summary><p id="alternativeText"></p><div class="alternative-table-wrap"><table id="alternativeTable"></table></div><p id="alternativeConclusion"></p></details><div class="timeline" aria-hidden="true"><span id="progress"></span></div><div class="controls"><button id="back" aria-label="Предыдущий шаг">← Назад</button><button id="play" aria-label="Включить автоматический показ">▶ Смотреть</button><button id="repeat" aria-label="Повторить текущую задачу сначала">↺ Повтор</button><button id="next" class="primary">Далее →</button><button id="nextTask" class="primary" hidden>Следующая задача →</button></div><p id="keyboardHint" class="keyboard">← → шаги <span>·</span> пробел — показ / пауза</p></section></div>
+</div></div></div><button id="openChoiceZoom" class="legacy-zoom-trigger choice-zoom-trigger" type="button" aria-haspopup="dialog" hidden>Увеличить варианты</button><div id="answers" class="answer-list" aria-label="Варианты ответа"></div>
+<div id="lessonSupplement"><div id="openingDraftControls" class="draft-controls"></div></div>
+<div id="chapterSlot"><details id="chapterNavigation" class="lesson-disclosure" aria-label="Навигация по шагам">
+  <summary id="chapterNavigationToggle"><span class="step-count">Шаг <span id="counter"></span></span><span id="chapterTag"></span></summary>
+  <nav id="chapters" aria-label="Шаги урока"></nav>
+</details></div><div id="feedback" role="status" aria-live="polite"></div><p id="ratingNotice" role="status"></p><p id="progressStatus" class="progress-status" role="status"></p><button id="retryProgress" class="progress-retry" type="button" hidden>Повторить сохранение</button><details id="alternative" class="alternative-method" hidden><summary id="alternativeTitle"></summary><p id="alternativeText"></p><div class="alternative-table-wrap"><table id="alternativeTable"></table></div><p id="alternativeConclusion"></p></details><div class="timeline" aria-hidden="true"><span id="progress"></span></div><div class="controls"><button id="back" aria-label="Предыдущий шаг">← Назад</button><button id="play" aria-label="Включить автоматический показ">▶ Смотреть</button><button id="repeat" aria-label="Повторить текущую задачу сначала">↺ Повтор</button><button id="next" class="primary">Далее →</button><button id="nextTask" class="primary" hidden>Следующая задача →</button></div><p id="keyboardHint" class="keyboard">← → шаги <span>·</span> пробел — показ / пауза</p></section></div>
 <details id="sources">
   <summary>Официальные материалы конкурса</summary>
   <p id="sourceNote">Кенгуру 2024 · 3–4 классы · задача №1</p>
@@ -91,7 +107,7 @@
     <a id="solutionsSource" href="https://ipokengu.ru/public/task/kenguru_2024_solution.pdf" target="_blank" rel="noopener">Решения в PDF</a>
   </div>
 </details>
-<nav class="previous-editions" aria-label="Варианты прошлых лет"><a href="archive.html">Архив вариантов 1997–2026</a></nav>
+<nav class="previous-editions" aria-label="Варианты прошлых лет"><a href="/archive.html">Архив вариантов 1997–2026</a></nav>
 </main>
 <dialog id="accountDialog" class="account-dialog" aria-labelledby="accountTitle">
   <div class="account-heading">
@@ -116,14 +132,18 @@
       <input type="text" name="username" autocomplete="username" minlength="3" maxlength="24" autocapitalize="none"
         spellcheck="false" aria-describedby="accountUsernameHint" required>
     </label>
-    <p class="account-hint" id="accountUsernameHint">От 3 до 24 символов. Подойдут русские и латинские буквы, цифры, дефис и подчёркивание. Имя видно участникам общего рейтинга.</p>
+    <p class="account-hint" id="accountUsernameHint">От 3 до 24 символов. Подойдут русские и латинские буквы, цифры, дефис и подчёркивание.</p>
     <label>Электронная почта <input type="email" name="email" autocomplete="email" maxlength="254" required></label>
     <label>Пароль
       <input type="password" name="password" autocomplete="new-password" maxlength="72" aria-describedby="accountPasswordHint" required>
     </label>
     <p class="account-hint" id="accountPasswordHint">Не менее 10 символов.</p>
+    <p class="account-hint">Другие участники рейтинга увидят имя, баллы и число решённых задач. Электронная почта нужна для входа и восстановления пароля. Исправить данные или удалить аккаунт можно в профиле в разделе «Данные аккаунта».</p>
     <button class="account-primary" type="submit">Создать аккаунт</button>
-    <div class="account-links"><button type="button" data-account-mode="login">Ко входу</button></div>
+    <div class="account-links">
+      <button type="button" data-account-mode="login">Ко входу</button>
+      <button type="button" data-account-mode="login" data-settings-after-login>Войти для управления данными</button>
+    </div>
   </form>
   <form class="account-form" method="post" data-account-form="request-reset" hidden>
     <label>Электронная почта <input type="email" name="email" autocomplete="email" maxlength="254" required></label>
@@ -138,6 +158,26 @@
     <button class="account-primary" type="submit">Сохранить пароль</button>
     <div class="account-links"><button type="button" data-account-mode="request-reset">Запросить новую ссылку</button></div>
   </form>
+  <form class="account-form" method="post" data-account-form="edit-account" hidden>
+    <label>Имя в рейтинге<input name="username" autocomplete="username" minlength="3" maxlength="24" spellcheck="false" required></label>
+    <label>Электронная почта<input name="email" type="email" autocomplete="email" maxlength="254" required aria-describedby="accountEmailStatus"></label>
+    <p class="account-hint" id="accountEmailStatus"></p>
+    <button id="resendVerification" type="button">Отправить письмо для подтверждения</button>
+    <label>Текущий пароль<input name="password" type="password" autocomplete="current-password" maxlength="72" required></label>
+    <button class="account-primary" type="submit">Сохранить данные</button>
+    <p class="account-hint">Участники общего рейтинга видят твоё имя, баллы и число решённых задач. Электронная почта нужна для входа и восстановления пароля.</p>
+    <div class="account-links"><button type="button" data-account-mode="delete-account">Удалить аккаунт и данные</button></div>
+  </form>
+  <form class="account-form" method="post" data-account-form="delete-account" hidden>
+    <p>После удаления пропадут прогресс, черновики, баллы и место в рейтинге.</p>
+    <label>Текущий пароль<input name="password" type="password" autocomplete="current-password" maxlength="72" required></label>
+    <label class="account-confirm"><input name="confirm" type="checkbox" required> Я хочу удалить аккаунт и данные</label>
+    <button class="account-primary" type="submit">Удалить аккаунт</button>
+    <div class="account-links"><button type="button" data-account-mode="edit-account">К данным аккаунта</button></div>
+  </form>
+  <form class="account-form" data-account-form="confirm-email" hidden>
+    <div class="account-links"><button type="button" id="afterConfirmEmail" data-account-mode="login">Ко входу</button></div>
+  </form>
 </dialog>
 <dialog id="profileRatingDialog" class="rating-dialog" aria-labelledby="ratingTitle">
   <div class="rating-header">
@@ -151,15 +191,15 @@
     <div><dt>Набрано</dt><dd id="ratingPoints"></dd></div>
     <div><dt>Решено самостоятельно</dt><dd id="ratingSolved"></dd></div>
   </dl>
-  <p class="rating-rule">Баллы начисляются один раз за верный ответ до открытия разбора.</p>
+  <p class="rating-rule">Это тренировочный рейтинг. Засчитывается ответ, выбранный к первому открытию разбора. За верный ответ баллы начисляются один раз после сохранения на сервере. Без сети выбор остаётся на устройстве и будет отправлен при подключении. Если на другом устройстве уже открыт разбор или сохранён результат, действует сохранённая история.</p>
   <h3>Достижения <span id="ratingBadgeCount"></span></h3>
   <ul class="rating-badges" id="ratingBadges"></ul>
 </dialog>
 <dialog id="legacyZoom" class="legacy-zoom" aria-label="Увеличенный рисунок задачи">
   <form method="dialog"><button type="submit" autofocus>Закрыть рисунок</button></form>
-  <div class="legacy-zoom-scroll" tabindex="0" aria-label="Прокрутка рисунка"><img id="legacyZoomImage" alt=""></div>
+  <div id="legacyZoomScroll" class="legacy-zoom-scroll" tabindex="0" aria-label="Прокрутка рисунка"><img id="legacyZoomImage" alt=""></div>
 </dialog>
 <dialog id="choiceZoom" class="legacy-zoom choice-zoom" aria-labelledby="choiceZoomTitle">
   <div class="choice-zoom-header"><h2 id="choiceZoomTitle">Варианты ответа</h2><form method="dialog"><button type="submit" autofocus>Закрыть</button></form></div>
   <div id="choiceZoomItems" class="choice-zoom-items"></div>
-</dialog><footer>Кенгуру <span>Учимся замечать, рассуждать и проверять.</span><a href="https://github.com/alex-mt1-lgtm/Kenguru">Исходный код ↗</a></footer><script src="lessons.js"></script><script src="four-point-lessons.js?v=83c885da7d"></script><script src="five-point-lessons.js?v=964b5b8595"></script><script src="four-point-scenes.js?v=circles-vector"></script><script src="five-point-scenes.js"></script><script src="years/legacy-catalog.js?v=a16b85d256"></script><script src="years/legacy-conditions.js?v=d99d4b594e"></script><script src="years/legacy-editions.js?v=03711e8b3c"></script><script src="years/2000-visual.js"></script><script src="years/2000-three.js"></script><script src="years/2000-four.js"></script><script src="years/2000-five.js?v=53aee8e385"></script><script src="years/2000.js"></script><script src="years/2020.js?v=c18afe1238"></script><script src="years/2021.js?v=5ac8142756"></script><script src="years/2022.js?v=4f6e8fa22d"></script><script src="years/2023.js?v=162b8ae395"></script><script src="years/2025.js?v=c6d8177314"></script><script src="years/2026-condition-art.js?v=898bce9ea7"></script><script src="years/2026.js?v=a8f69d6bfc"></script><script src="lesson-visuals.js?v=8385b389d2"></script><script src="years/grades-5-6-data.js?v=3c91ff409e"></script><script src="years/grade-conditions.js?v=93e727a4c6"></script><script src="years/grade-solution-steps.js?v=e40227b37e"></script><script src="years/visual-2024-three.js"></script><script src="years/visual-2024-four.js?v=7e8f845754"></script><script src="years/visual-2024-five.js?v=58f08f0b95"></script><script src="years/visual-2000-five-six.js?v=1391a14f93"></script><script src="years/visual-2026-three.js"></script><script src="years/visual-2026-four.js"></script><script src="years/visual-2026-five.js"></script><script src="years/grade-5-6-keys.js?v=aaefc74132"></script><script src="years/grade-titles.js?v=dd20443a00"></script><script src="years/grades-5-6.js?v=b7cccbe647"></script><script src="years/grades-7-8-data.js?v=5917bcbed3"></script><script src="years/grade-junior-senior-data.js?v=b9e5c9d136"></script><script src="years/grade-editions.js?v=f57b343111"></script><script src="workspace.js"></script><script src="fruit-workspace.js"></script><script src="profile-rating.js?v=first-attempt"></script><script src="account-progress.js?v=standings"></script><script src="years/choice-layouts.js?v=d2f496be44"></script><script src="app.js?v=ae7463ae64"></script><script src="leaderboard.js?v=20261118-poster"></script></body></html>
+</dialog><footer>Кенгуру <span>Учимся замечать, рассуждать и проверять.</span><a href="https://github.com/alex-mt1-lgtm/Kenguru">Исходный код ↗</a></footer><script src="editions/index.js" defer></script><script src="lesson-visuals.js" defer></script><script src="workspace.js" defer></script><script src="fruit-workspace.js" defer></script><script src="profile-rating.js?v=confirmed-progress" defer></script><script src="account-progress.js?v=confirmed-progress" defer></script><script src="app.js?v=edition-loader" defer></script><script src="leaderboard.js?v=service-audit" defer></script></body></html>

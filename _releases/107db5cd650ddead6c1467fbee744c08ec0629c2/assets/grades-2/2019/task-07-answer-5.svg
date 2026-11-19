@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="42" height="22.5" viewBox="0 0 42 22.5">
+<defs>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,-573.5,69.21997)" d="M573.5 46.71997H615.5V69.21997H573.5Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_2">
+<path transform="matrix(0,1,1,0,-573.5,-526)" d="M28.12 462.711H75.16V514.311H28.12Z"/>
+</clipPath>
+</defs>
+<g clip-path="url(#clip_1)">
+<g clip-path="url(#clip_2)">
+</g>
+<path transform="matrix(0,1,1,0,-573.5,-526)" stroke-width=".75" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#231f20" d="M527.729 575.458H546.863V613.726H527.729ZM546.863 594.592H527.729"/>
+<path transform="matrix(0,1,1,0,17.161988,8.890991)" d="M0 0C-1.765 0-3.723-.581-3.723-2.712-3.723-5.143-1.979-4.864-1.979-5.595-1.979-6.305-3.723-6.069-3.723-8.479-3.723-10.631-1.764-11.212 0-11.212 2.217-11.212 3.981-8.845 5.552-7.51 6.456-6.757 7.424-6.09 8.499-5.617 7.424-5.122 6.456-4.455 5.552-3.68 3.981-2.368 2.217 0 0 0" fill="#231f20"/>
+<path transform="matrix(0,1,1,0,30.642029,15.869995)" d="M0 0C0 2.583-2.094 4.677-4.677 4.677-7.26 4.677-9.354 2.583-9.354 0-9.354-2.583-7.26-4.677-4.677-4.677-2.094-4.677 0-2.583 0 0" fill="#231f20"/>
+</g>
+</svg>
