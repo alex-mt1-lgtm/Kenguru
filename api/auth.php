@@ -634,7 +634,7 @@ function validProgressEntry(string $key, mixed $value): bool
     } catch (JsonException) {
         return false;
     }
-    if ($key === 'current') {
+    if (in_array($key, ['current', 'current:math', 'current:ru'], true)) {
         return is_string($parsed) && preg_match('~\A' . $lesson . '\z~', $parsed);
     }
     if (preg_match('~\A' . $lesson . '\z~', $key)) {
