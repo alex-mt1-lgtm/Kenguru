@@ -738,7 +738,7 @@ globalThis.KENGURU_CHOICE_LAYOUTS = {};
   ].map((scene, index) => (step, frame) =>
     step === 0 ? y2025Start(index + 1, y2025Lessons[index].title) : scene(step, frame));
 
-  const y2025BaseUrl = 'https://ipokengu.ru/public/task/kenguru_2025_';
+  const y2025BaseUrl = 'assets/kenguru/kenguru_2025_';
   globalThis.KENGURU_ARCHIVE ??= {};
   globalThis.KENGURU_ARCHIVE[2025] = {
     year: 2025,

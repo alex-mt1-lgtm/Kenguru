@@ -714,9 +714,9 @@ globalThis.KENGURU_ARCHIVE[2021] = {
   grades: [3, 4],
   label: '3–4 классы',
   sources: {
-    tasksUrl: 'https://ipokengu.ru/public/task/kenguru_2021_class_3-4.pdf',
-    answersUrl: 'https://ipokengu.ru/public/task/kenguru_2021_answers.pdf',
-    solutionUrl: 'https://ipokengu.ru/public/task/kenguru_2021_solution.pdf'
+    tasksUrl: 'assets/kenguru/kenguru_2021_class_3-4.pdf',
+    answersUrl: 'assets/kenguru/kenguru_2021_answers.pdf',
+    solutionUrl: 'assets/kenguru/kenguru_2021_solution.pdf'
   },
   lessons: y2021Lessons,
   scenes: [

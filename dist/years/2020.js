@@ -672,8 +672,8 @@
   globalThis.KENGURU_ARCHIVE[2020] = {
     year: 2020, id: '2020-3-4', grades: [3, 4], label: '3–4 классы',
     sources: {
-      tasksUrl: 'https://ipokengu.ru/public/task/kenguru_2020_class_3-4.pdf',
-      answersUrl: 'https://ipokengu.ru/public/task/kenguru_2020_answers.pdf',
+      tasksUrl: 'assets/kenguru/kenguru_2020_class_3-4.pdf',
+      answersUrl: 'assets/kenguru/kenguru_2020_answers.pdf',
       solutionUrl: null,
     },
     lessons, scenes,

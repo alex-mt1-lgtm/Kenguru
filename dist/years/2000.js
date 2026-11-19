@@ -25,8 +25,8 @@
     label: '3–4 классы',
     answerLetters: ['A', 'B', 'C', 'D', 'E'],
     sources: {
-      tasksUrl: 'https://files.mathkang.ru/old/kenguru_2000_class_3-4.pdf',
-      answersUrl: 'https://files.mathkang.ru/old/kenguru_2000_answers.pdf',
+      tasksUrl: 'assets/kenguru/kenguru_2000_class_3-4.pdf',
+      answersUrl: 'assets/kenguru/kenguru_2000_answers.pdf',
       solutionUrl: null,
     },
     lessons,

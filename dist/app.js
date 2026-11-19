@@ -22,9 +22,9 @@ if (streamedEditions) {
   if (typeof FOUR_POINT_LESSONS !== 'undefined') LESSONS.push(...FOUR_POINT_LESSONS);
   if (typeof FIVE_POINT_LESSONS !== 'undefined') LESSONS.push(...FIVE_POINT_LESSONS);
   const defaultSet = {id: '2024-3-4', year: 2024, grades: [3, 4], label: '3–4 классы', sources: {
-    tasksUrl: 'https://ipokengu.ru/public/task/kenguru_2024_class_3-4.pdf',
-    answersUrl: 'https://ipokengu.ru/public/task/kenguru_2024_answers.pdf',
-    solutionUrl: 'https://ipokengu.ru/public/task/kenguru_2024_solution.pdf',
+    tasksUrl: 'assets/kenguru/kenguru_2024_class_3-4.pdf',
+    answersUrl: 'assets/kenguru/kenguru_2024_answers.pdf',
+    solutionUrl: 'assets/kenguru/kenguru_2024_solution.pdf',
   }, indices: []};
   LESSONS.forEach((lesson, index) => {
     Object.assign(lesson, {points: lesson.points || 3, number: index + 1, year: 2024,

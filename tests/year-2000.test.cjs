@@ -61,7 +61,7 @@ test('the independent stage stays still and animated explanation frames are vali
 test('2000 archive card links to the interactive task and keeps PDF access', () => {
   const archive = fs.readFileSync(path.join(dist, 'archive.html'), 'utf8');
   assert.match(archive, /<li id="2000"[^>]*>[^]*?href="\.\/#zadacha=2000-3-4\/1"/u);
-  assert.match(archive, /href="https:\/\/files\.mathkang\.ru\/old\/kenguru_2000_class_3-4\.pdf"/u);
+  assert.match(archive, /href="assets\/kenguru\/kenguru_2000_class_3-4\.pdf"/u);
 });
 
 test('the farmer relay reaches the time lower bound with valid bike handoffs', () => {

@@ -29,7 +29,7 @@ globalThis.KENGURU_CHOICE_LAYOUTS = {};
   };
   const conditionPath = (number) => `${folder}/condition-${number}.svg`;
   const choicePath = (number, i) => `${folder}/condition-${number}-choice-${i}.svg`;
-  const source = 'https://ipokengu.ru/public/task/kenguru_2023_';
+  const source = 'assets/kenguru/kenguru_2023_';
   const first = ['Условие', 'Реши самостоятельно', 'Рассмотри условие и выбери один из пяти ответов.'];
   const task = (number, title, short, skill, question, choices, answer, steps) => ({
     number,

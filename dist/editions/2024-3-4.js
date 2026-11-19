@@ -286,7 +286,7 @@ const costs=[4,1,1,4,1,1,1,1];let out='';costs.forEach((cost,i)=>{const x=112+(i
 const FIVE_POINT_SCENES=[fiveDigitScene,fiveWeightScene,fiveBackpackScene,fiveEquationScene,fiveFrogScene,fiveHoneyScene,fiveCookieScene,fiveCubeScene];
 
 register(({
-      ...{"id":"2024-3-4","year":2024,"grades":[3,4],"label":"3–4 классы","sources":{"tasksUrl":"https://ipokengu.ru/public/task/kenguru_2024_class_3-4.pdf","answersUrl":"https://ipokengu.ru/public/task/kenguru_2024_answers.pdf","solutionUrl":"https://ipokengu.ru/public/task/kenguru_2024_solution.pdf"}},
+      ...{"id":"2024-3-4","year":2024,"grades":[3,4],"label":"3–4 классы","sources":{"tasksUrl":"assets/kenguru/kenguru_2024_class_3-4.pdf","answersUrl":"assets/kenguru/kenguru_2024_answers.pdf","solutionUrl":"assets/kenguru/kenguru_2024_solution.pdf"}},
       lessons: [...LESSONS, ...FOUR_POINT_LESSONS, ...FIVE_POINT_LESSONS].map((lesson, i) => ({
         ...lesson, points: lesson.points ?? 3,
         originalImage: lesson.originalImage ?? (`assets/original-${i + 1}.png`),

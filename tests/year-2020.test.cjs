@@ -27,8 +27,8 @@ test('2020 archive uses the joint 3–4 grade booklet and all 26 official answer
   assert.equal(archive.id, '2020-3-4');
   assert.deepEqual(snapshot(archive.grades), [3, 4]);
   assert.deepEqual(snapshot(archive.sources), {
-    tasksUrl: 'https://ipokengu.ru/public/task/kenguru_2020_class_3-4.pdf',
-    answersUrl: 'https://ipokengu.ru/public/task/kenguru_2020_answers.pdf',
+    tasksUrl: 'assets/kenguru/kenguru_2020_class_3-4.pdf',
+    answersUrl: 'assets/kenguru/kenguru_2020_answers.pdf',
     solutionUrl: null,
   });
   assert.equal(archive.lessons.length, 26);

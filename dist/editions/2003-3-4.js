@@ -12,7 +12,7 @@ globalThis.KENGURU_LEGACY_CONDITIONS = {"2003":{"1":{"question":"Софи рис
   const escape = value => String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;')
     .replaceAll('>', '&gt;').replaceAll('"', '&quot;');
   const archive = globalThis.KENGURU_ARCHIVE ??= {};
-  const source = 'https://ipokengu.ru/public/task';
+  const source = 'assets/kenguru';
   const ink = '#173439';
   const teal = '#237e79';
   const mint = '#e5f2ea';
