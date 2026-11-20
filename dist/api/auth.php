@@ -107,11 +107,7 @@ function openAccountDatabase(string $path): PDO
                 );
                 CREATE INDEX IF NOT EXISTS account_scores_rank ON account_scores (points DESC);
                 SQL);
-            $records = $db->query("SELECT id, progress_json FROM accounts WHERE progress_json <> '{}'");
-            while ($record = $records->fetch()) {
-                $progress = json_decode($record['progress_json'], false, 12, JSON_THROW_ON_ERROR);
-                saveAccountScore($db, (int) $record['id'], $progress);
-            }
+            rebuildAccountScores($db);
             $db->exec('PRAGMA user_version = 2');
         }
         // Add compatible tables without changing the version understood by the
@@ -684,6 +680,42 @@ function saveAccountScore(PDO $db, int $accountId, stdClass $progress): void
         SQL)->execute([$accountId, $points, $solved]);
 }
 
+function rebuildAccountScores(PDO $db): void
+{
+    $records = $db->query("SELECT id, progress_json FROM accounts WHERE progress_json <> '{}'");
+    while ($record = $records->fetch()) {
+        $progress = json_decode($record['progress_json'], false, 12, JSON_THROW_ON_ERROR);
+        saveAccountScore($db, (int) $record['id'], $progress);
+    }
+}
+
+// Scores are cached separately from confirmed solves. Rebuild them once per
+// catalogue so even accounts that have been inactive move to their new rank.
+function refreshLeaderboardScores(PDO $db): void
+{
+    $revision = hash('sha256', json_encode(ratingCatalog(), JSON_THROW_ON_ERROR));
+    $saved = $db->query("SELECT value FROM auth_settings WHERE name = 'score_catalog'")->fetchColumn();
+    if ($saved === $revision) {
+        return;
+    }
+    $db->beginTransaction();
+    try {
+        $claim = $db->prepare(<<<'SQL'
+            INSERT INTO auth_settings (name, value) VALUES ('score_catalog', ?)
+            ON CONFLICT(name) DO UPDATE SET value = excluded.value
+            WHERE value <> excluded.value
+            SQL);
+        $claim->execute([$revision]);
+        if ($claim->rowCount() > 0) {
+            rebuildAccountScores($db);
+        }
+        $db->commit();
+    } catch (Throwable $error) {
+        $db->rollBack();
+        throw $error;
+    }
+}
+
 function verifiedRating(string $key, string $value, stdClass $next, stdClass $saved, stdClass $claims): string
 {
     if ($value !== 'solved') {
@@ -708,6 +740,7 @@ function leaderboard(PDO $db, array $account): array
     if ($page === false) {
         throw new AccountError(422, 'Укажи номер страницы рейтинга.');
     }
+    refreshLeaderboardScores($db);
     $db->beginTransaction();
     $total = (int) $db->query('SELECT COUNT(*) FROM accounts')->fetchColumn();
     $totalPages = max(1, (int) ceil($total / $pageSize));
