@@ -188,7 +188,10 @@ fi
 if [[ -d "$repo/objects/pack" ]]; then
     find "$repo/objects/pack" -maxdepth 1 -type f -name 'tmp_pack_??????' -mmin +60 -delete
 fi
-release_git fetch --quiet --no-tags "$repo_url" "$release_ref:$release_ref"
+# Fetch runs Git's automatic maintenance while the deployment lock is held.
+# A third pack triggers compaction. Keep unreachable objects and reuse existing deltas.
+release_git -c gc.autoPackLimit=2 -c gc.autoDetach=false -c maintenance.autoDetach=false \
+    -c gc.pruneExpire=never -c pack.window=0 fetch --quiet --no-tags "$repo_url" "$release_ref:$release_ref"
 release=$(release_git rev-parse --verify "$release_ref^{commit}")
 if ! check_release "$release"; then
     if ! packaged=$(release_git ls-tree --name-only "$release:_releases" 2>/dev/null); then
