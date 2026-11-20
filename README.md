@@ -110,6 +110,16 @@ GitHub Actions сверяет собранные уроки, запускает 
 
 Новый скрипт устанавливает полный комплект в `/_releases/<коммит>/`, затем атомарно заменяет свой блок в корневом `.htaccess`. Для этого Apache должен разрешать `mod_rewrite` и `mod_headers` через `.htaccess`. Для посетителей остаются адреса `/#zadacha=…`, `/archive.html` и `/api/auth.php`. После первого запуска проверьте целевой выпуск на этих адресах, действующий переход с HTTP на HTTPS и заголовки `Strict-Transport-Security`, `Content-Security-Policy` и `X-Frame-Options` на HTTPS. Заголовок HSTS начинает действовать на 300 секунд.
 
+Если Git на хостинге пишет `packfile cannot be mapped` или `Out of memory` при получении выпуска, текущий установщик читает pack-файлы окнами по 1 МиБ и ограничивает кеш и число потоков. Для уже установленного старого скрипта те же настройки можно один раз сохранить в его локальном репозитории. Следующий запуск планировщика применит их при получении и распаковке выпуска.
+
+```bash
+repo="$HOME/.olympiads-deploy/repository"
+git -C "$repo" config core.packedGitWindowSize 1m
+git -C "$repo" config core.packedGitLimit 8m
+git -C "$repo" config core.deltaBaseCacheLimit 2m
+git -C "$repo" config pack.threads 1
+```
+
 Для просмотра установленных комплектов, возврата на выбранный коммит выпуска и возобновления обновлений используйте команды ниже. `rollback legacy` возвращает сохранённые корневые страницы без управляемого блока Apache. При откате очередной запуск cron оставляет закреплённую версию до `resume`.
 
 ```bash
