@@ -183,6 +183,11 @@ release_git() {
 if [[ ! -d "$repo/objects" ]]; then
     git init --bare --quiet "$repo"
 fi
+# Interrupted fetches on shared hosting can leave an entire incoming pack on disk.
+# All fetches in this private deployment repository run under the lock above.
+if [[ -d "$repo/objects/pack" ]]; then
+    find "$repo/objects/pack" -maxdepth 1 -type f -name 'tmp_pack_??????' -mmin +60 -delete
+fi
 release_git fetch --quiet --no-tags "$repo_url" "$release_ref:$release_ref"
 release=$(release_git rev-parse --verify "$release_ref^{commit}")
 if ! check_release "$release"; then

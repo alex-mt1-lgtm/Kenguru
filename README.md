@@ -120,6 +120,19 @@ git -C "$repo" config core.deltaBaseCacheLimit 2m
 git -C "$repo" config pack.threads 1
 ```
 
+Если распаковка прервалась с сообщением `Disk quota exceeded`, проверьте квоту хостинга и объём каталога `.olympiads-deploy/repository/objects/pack`. Прерванные загрузки Git могут оставлять файлы `tmp_pack_*` размером с целый пакет. Установщик из `scripts/sync-reg-ru.sh` убирает такие файлы старше часа под блокировкой публикации перед следующим получением выпуска. Для старого планировщика тот же шаг можно выполнить в каталоге данных хостинга перед обычной синхронизацией.
+
+```bash
+flock -w 120 .olympiads-deploy/lock find .olympiads-deploy/repository/objects/pack \
+    -maxdepth 1 -type f -name 'tmp_pack_??????' -mmin +60 -print -delete
+```
+
+Пары `pack-*.pack` и `pack-*.idx` принадлежат рабочему репозиторию Git. Отдельно оцените объём `www/olympiads.pro/_releases`. На хостинге с утилитой `hardlink` из util-linux можно объединить одинаковые неизменяемые материалы выпусков с сохранением их адресов. Запускайте команду в каталоге данных под блокировкой установщика.
+
+```bash
+flock -w 120 .olympiads-deploy/lock hardlink --ignore-time --respect-name www/olympiads.pro/_releases/*/assets
+```
+
 Для просмотра установленных комплектов, возврата на выбранный коммит выпуска и возобновления обновлений используйте команды ниже. `rollback legacy` возвращает сохранённые корневые страницы без управляемого блока Apache. При откате очередной запуск cron оставляет закреплённую версию до `resume`.
 
 ```bash
