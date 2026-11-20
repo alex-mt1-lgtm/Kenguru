@@ -175,25 +175,30 @@ elif [[ -f "$state_dir/pinned" ]]; then
 fi
 
 repo="$state_dir/repository"
+# Shared hosting can limit the virtual address space below the size of a single pack.
+release_git() {
+    git --git-dir="$repo" -c core.packedGitWindowSize=1m -c core.packedGitLimit=8m \
+        -c core.deltaBaseCacheLimit=2m -c pack.threads=1 "$@"
+}
 if [[ ! -d "$repo/objects" ]]; then
     git init --bare --quiet "$repo"
 fi
-git --git-dir="$repo" fetch --quiet --no-tags "$repo_url" "$release_ref:$release_ref"
-release=$(git --git-dir="$repo" rev-parse --verify "$release_ref^{commit}")
+release_git fetch --quiet --no-tags "$repo_url" "$release_ref:$release_ref"
+release=$(release_git rev-parse --verify "$release_ref^{commit}")
 if ! check_release "$release"; then
-    if ! packaged=$(git --git-dir="$repo" ls-tree --name-only "$release:_releases" 2>/dev/null); then
+    if ! packaged=$(release_git ls-tree --name-only "$release:_releases" 2>/dev/null); then
         echo 'Waiting for the first packaged olympiads.pro release. The existing site is serving.'
         exit 0
     fi
     is_sha "$packaged" || fail 'Expected exactly one versioned resource set.'
     tree="$release:_releases/$packaged"
-    modes=$({ git --git-dir="$repo" ls-tree -r "$tree"; git --git-dir="$repo" ls-tree -r "$release:api"; } | cut -d ' ' -f1 | LC_ALL=C sort -u)
+    modes=$({ release_git ls-tree -r "$tree"; release_git ls-tree -r "$release:api"; } | cut -d ' ' -f1 | LC_ALL=C sort -u)
     [[ "$modes" == 100644 || "$modes" == 100755 || "$modes" == $'100644\n100755' ]] || fail 'The release may contain only regular files.'
     [[ ! -e "$releases/$release" && ! -L "$releases/$release" ]] || fail "Existing release directory is incomplete: $release"
     stage=$(mktemp -d "$releases/.stage.XXXXXXXX")
-    git --git-dir="$repo" archive "$tree" | tar -xf - -C "$stage"
+    release_git archive "$tree" | tar -xf - -C "$stage"
     mkdir -- "$stage/api"
-    git --git-dir="$repo" archive "$release:api" | tar -xf - -C "$stage/api"
+    release_git archive "$release:api" | tar -xf - -C "$stage/api"
     for file in index.html archive.html app.js api/auth.php api/rating-catalog.json .htaccess; do
         [[ -s "$stage/$file" ]] || fail "Release $release is missing $file."
     done
