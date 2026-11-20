@@ -470,11 +470,13 @@ test('listening, reading and grade-specific numeric answers load through the pub
   assert.equal(visit.element('currentSubject').textContent, 'Английский');
   assert.equal(visit.element('listeningAudio').src, 'assets/british-bulldog/2025/listening.mp3');
   assert.deepEqual(taskPickerNumbers(visit), [1, 2, 3, 4, 5]);
-  assert.equal(visit.element('taskPoints').textContent, '1 балл');
+  assert.equal(visit.element('taskPoints').textContent, '3 балла');
   visit.run('selectTask(activeSet().indices[5])');
   assert.equal(visit.element('listeningBlock').hidden, true);
   assert.equal(visit.element('readingPassage').hidden, false);
   assert.match(visit.element('readingText').textContent, /London/);
+  await visit.run('selectDataset("2026-golden-fleece-3-4")');
+  assert.equal(visit.element('taskPoints').textContent, '3 балла');
   await visit.run('selectDataset("2024-kit-4-5")');
   visit.run('selectTask(activeSet().indices[20])');
   assert.equal(visit.element('numericEntry').hidden, false);

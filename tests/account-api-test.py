@@ -280,6 +280,49 @@ class TestAccountApi(unittest.TestCase):
         guest.action("register", {"username": "other", "email": "other@example.test", "password": "separate-password"})
         self.assertEqual(guest.action("progress")[1], {"revision": 0, "progress": {}})
 
+    def test_leaderboard_reprices_inactive_accounts_when_the_catalogue_changes(self):
+        catalog_file = self.home / "www" / "olympiads.pro" / "api" / "rating-catalog.json"
+        current_catalog = catalog_file.read_text()
+        old_catalog = json.loads(current_catalog)
+        english = "2025-british-bulldog-3-4/1"
+        history = "2026-golden-fleece-3-4/1"
+        wrong = "2026-golden-fleece-3-4/2"
+        math = "2024-3-4/1"
+        for lesson in (english, history, wrong):
+            self.assertEqual(old_catalog[lesson][1], 3)
+            old_catalog[lesson][1] = 1
+        catalog_file.write_text(json.dumps(old_catalog))
+
+        observer = ApiClient(self.port)
+        for name, client, answers in [
+            ("old_solver", self.client, [(english, True), (history, True), (wrong, False)]),
+            ("observer", observer, [(math, True)]),
+        ]:
+            client.action("session")
+            self.assertEqual(client.action("register", {
+                "username": name, "email": name + "@example.test", "password": "long-test-password"
+            })[0], 201)
+            progress = {}
+            for lesson, correct in answers:
+                selected = old_catalog[lesson][0]
+                if not correct:
+                    selected = (selected + 1) % 4
+                progress[lesson] = json.dumps({"step": 1, "selected": selected, "seen": False, "reviewOpened": True})
+                progress["rating:" + lesson] = "solved"
+            self.assertEqual(client.action("progress", {"revision": 0, "progress": progress})[0], 200)
+
+        def standings():
+            status, board, _ = observer.action("leaderboard")
+            self.assertEqual(status, 200)
+            return [(r["username"], r["points"], r["solved"]) for r in board["entries"]]
+
+        self.assertEqual(standings(), [("observer", 3, 1), ("old_solver", 2, 2)])
+        before = self.client.action("progress")[1]
+        catalog_file.write_text(current_catalog)
+        for _ in range(2):
+            self.assertEqual(standings(), [("old_solver", 6, 2), ("observer", 3, 1)])
+        self.assertEqual(self.client.action("progress")[1], before)
+
     def test_leaderboard_counts_verified_first_answers_and_keeps_names_only(self):
         self.assertEqual(self.client.action("leaderboard")[0], 401)
 
