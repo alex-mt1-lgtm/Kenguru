@@ -36,6 +36,8 @@ globalThis.makeSubjectEdition = function (meta, rows) {
   });
   return {
     id: year + '-' + subject + '-' + grade, year, grades, label: grades.join('–') + ' классы',
+    ...(meta.sections ? {sections: meta.sections} : {}),
+    ...(meta.titleLanguage ? {titleLanguage: meta.titleLanguage} : {}),
     subject, answerLetters: [...letters], sources: {
       contest, tasksUrl: folder + tasksFile, answersUrl: folder + answersFile,
       ...(meta.reviewedKey ? {reviewedKey: true} : {}),

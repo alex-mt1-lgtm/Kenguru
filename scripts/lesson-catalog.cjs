@@ -56,6 +56,18 @@ function loadLessonCatalog() {
     const file = path.join(dist, '../sources', meta.subject, String(meta.year), meta.grade + '.json');
     const rows = JSON.parse(fs.readFileSync(file, 'utf8'));
     if (rows.length !== meta.count) throw new Error(file + ': incomplete edition');
+    if (meta.sections) {
+      if (!Array.isArray(meta.sections) || meta.sections[0]?.start !== 1) {
+        throw new Error(file + ': named sections must start at question 1');
+      }
+      let previous = 0;
+      for (const {start, title} of meta.sections) {
+        if (!Number.isInteger(start) || start <= previous || start > rows.length || typeof title !== 'string' || !title.trim()) {
+          throw new Error(file + ': invalid section boundary or title at question ' + start);
+        }
+        previous = start;
+      }
+    }
     for (const [index, row] of rows.entries()) {
       const numeric = Number.isInteger(row.numericAnswer);
       const validAnswer = numeric ? row.choices.length === 0

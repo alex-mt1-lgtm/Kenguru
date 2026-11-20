@@ -9,7 +9,38 @@
     "language": "en",
     "points": 1,
     "tasksFile": "tasks.pdf",
-    "answersFile": "answers.pdf"
+    "answersFile": "answers.pdf",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Listening"
+      },
+      {
+        "start": 6,
+        "title": "Reading"
+      },
+      {
+        "start": 11,
+        "title": "Verb forms"
+      },
+      {
+        "start": 16,
+        "title": "Holiday pictures"
+      },
+      {
+        "start": 21,
+        "title": "Parts of a house"
+      },
+      {
+        "start": 26,
+        "title": "Grammar"
+      },
+      {
+        "start": 31,
+        "title": "Telling the time"
+      }
+    ],
+    "titleLanguage": "en"
   },
   {
     "subject": "british-bulldog",
@@ -21,7 +52,38 @@
     "language": "en",
     "points": 1,
     "tasksFile": "tasks.pdf",
-    "answersFile": "answers.pdf"
+    "answersFile": "answers.pdf",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Listening"
+      },
+      {
+        "start": 6,
+        "title": "Reading"
+      },
+      {
+        "start": 11,
+        "title": "Articles"
+      },
+      {
+        "start": 16,
+        "title": "Spelling"
+      },
+      {
+        "start": 21,
+        "title": "Grammar"
+      },
+      {
+        "start": 26,
+        "title": "Sounds"
+      },
+      {
+        "start": 31,
+        "title": "Picture clues"
+      }
+    ],
+    "titleLanguage": "en"
   },
   {
     "subject": "golden-fleece",
