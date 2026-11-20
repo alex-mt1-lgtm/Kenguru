@@ -594,13 +594,14 @@ function validDrawing(mixed $marks): bool
     return true;
 }
 
-function validLessonProgress(mixed $progress): bool
+function validLessonProgress(mixed $progress, string $lesson = ''): bool
 {
+    $maxChoice = preg_match('~\A[0-9]{4}-kit-4-5/(?:19|20|21)\z~', $lesson) ? 999999 : 50;
     return $progress instanceof stdClass
         && !array_diff(array_keys(get_object_vars($progress)), ['step', 'selected', 'seen', 'reviewOpened'])
         && is_int($progress->step ?? null) && $progress->step >= 0 && $progress->step <= 500
         && property_exists($progress, 'selected')
-        && ($progress->selected === null || (is_int($progress->selected) && $progress->selected >= 0 && $progress->selected <= 50))
+        && ($progress->selected === null || (is_int($progress->selected) && $progress->selected >= 0 && $progress->selected <= $maxChoice))
         && is_bool($progress->seen ?? null)
         && (!property_exists($progress, 'reviewOpened') || is_bool($progress->reviewOpened));
 }
@@ -634,11 +635,11 @@ function validProgressEntry(string $key, mixed $value): bool
     } catch (JsonException) {
         return false;
     }
-    if (in_array($key, ['current', 'current:math', 'current:ru'], true)) {
+    if (in_array($key, ['current', 'current:math', 'current:ru', 'current:british-bulldog', 'current:golden-fleece', 'current:kit', 'current:chip'], true)) {
         return is_string($parsed) && preg_match('~\A' . $lesson . '\z~', $parsed);
     }
     if (preg_match('~\A' . $lesson . '\z~', $key)) {
-        return strlen($value) <= 512 && validLessonProgress($parsed);
+        return strlen($value) <= 512 && validLessonProgress($parsed, $key);
     }
     if (preg_match('~\Anotes:' . $lesson . '\z~', $key)) {
         return is_string($parsed) && strlen($parsed) <= 16000;

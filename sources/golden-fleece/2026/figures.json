@@ -1,0 +1,128 @@
+{
+  "source": "tasks.pdf",
+  "coordinates": "PDF points, top-left origin",
+  "pageIndexBase": 0,
+  "scale": 4.2,
+  "figures": {
+    "6": {
+      "page": 0,
+      "rect": [
+        173.5,
+        351.65,
+        278.65,
+        423.25
+      ],
+      "src": "assets/golden-fleece/2026/06.webp"
+    },
+    "8": {
+      "page": 0,
+      "rect": [
+        201.7,
+        492.35,
+        278.4,
+        578.9
+      ],
+      "src": "assets/golden-fleece/2026/08.webp"
+    },
+    "10": {
+      "page": 0,
+      "rect": [
+        457.2,
+        139.85,
+        559.05,
+        209.95
+      ],
+      "src": "assets/golden-fleece/2026/10.webp"
+    },
+    "12": {
+      "page": 0,
+      "rect": [
+        490.6,
+        293.8,
+        559.3,
+        381.5
+      ],
+      "src": "assets/golden-fleece/2026/12.webp"
+    },
+    "14": {
+      "page": 0,
+      "rect": [
+        461.65,
+        508.75,
+        559.05,
+        578.9
+      ],
+      "src": "assets/golden-fleece/2026/14.webp"
+    },
+    "16": {
+      "page": 0,
+      "rect": [
+        734.2,
+        169.9,
+        834.25,
+        241.4
+      ],
+      "src": "assets/golden-fleece/2026/16.webp"
+    },
+    "18": {
+      "page": 0,
+      "rect": [
+        748.4,
+        372.1,
+        834.25,
+        442.75
+      ],
+      "src": "assets/golden-fleece/2026/18.webp"
+    },
+    "19": {
+      "page": 0,
+      "rect": [
+        724.05,
+        510.5,
+        834.25,
+        578.35
+      ],
+      "src": "assets/golden-fleece/2026/19.webp"
+    },
+    "20": {
+      "page": 1,
+      "rect": [
+        170.6,
+        74.95,
+        278.65,
+        134.1
+      ],
+      "src": "assets/golden-fleece/2026/20.webp"
+    },
+    "22": {
+      "page": 1,
+      "rect": [
+        170.6,
+        265.35,
+        278.65,
+        343.35
+      ],
+      "src": "assets/golden-fleece/2026/22.webp"
+    },
+    "24": {
+      "page": 1,
+      "rect": [
+        170.35,
+        508.65,
+        278.4,
+        578.9
+      ],
+      "src": "assets/golden-fleece/2026/24.webp"
+    },
+    "29": {
+      "page": 1,
+      "rect": [
+        471.8,
+        412.85,
+        559.3,
+        480.75
+      ],
+      "src": "assets/golden-fleece/2026/29.webp"
+    }
+  }
+}

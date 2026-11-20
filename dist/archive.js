@@ -19,22 +19,25 @@ function showArchiveGrade() {
     russianYear.value = lastRussianYear;
     for (const group of russianEditions.querySelectorAll('.archive-editions')) group.hidden = group.id !== 'russian-' + lastRussianYear;
   }
-  const subject = russian ? 'ru' : 'math';
+  const contest = target?.closest('.subject-archive');
+  const subject = contest?.id ?? (russian ? 'ru' : 'math');
+  const math = subject === 'math';
+  for (const section of document.querySelectorAll('.subject-archive')) section.hidden = section !== contest;
   subjectPicker.value = subject;
-  document.getElementById('currentSubject').textContent = subjectPicker.selectedOptions[0].textContent;
+  document.getElementById('currentSubject').textContent = subjectPicker.selectedOptions[0].dataset.short ?? subjectPicker.selectedOptions[0].textContent;
   document.getElementById('editionToggle').dataset.subject = subject;
-  document.getElementById('archivePeriod').textContent = russian ? '2004–2025' : '1997–2026';
-  document.querySelector('.archive-heading .intro').textContent = russian
+  document.getElementById('archivePeriod').textContent = contest?.dataset.period ?? (russian ? '2004–2025' : '1997–2026');
+  document.querySelector('.archive-heading .intro').textContent = contest || russian
     ? 'Выбери год конкурса и класс.' : mathIntro;
   for (const link of document.querySelectorAll('footer [data-subject]')) link.hidden = link.dataset.subject !== subject;
-  const lessonUrl = russian ? '/#zadacha=' + lastRussianYear + '-medvezhonok-2-3/1' : '/';
+  const lessonUrl = contest ? contest.querySelector('.archive-open').getAttribute('href').replace('./#', '/#') : russian ? '/#zadacha=' + lastRussianYear + '-medvezhonok-2-3/1' : '/';
   document.querySelector('.archive-back').href = lessonUrl;
   document.querySelector('.archive-header .site-brand').href = lessonUrl;
   russianEditions.hidden = !russian;
-  gradeNav.hidden = russian;
+  gradeNav.hidden = !math;
   const selected = target?.closest('.archive-grade') ?? document.getElementById('grades-3-4');
-  if (!russian) lastMathGrade = '#' + selected.id;
-  for (const group of grades) group.hidden = russian || group !== selected;
+  if (math) lastMathGrade = '#' + selected.id;
+  for (const group of grades) group.hidden = !math || group !== selected;
   selected.open = true;
   for (const link of gradeLinks) {
     document.getElementById(link.hash.slice(1))?.setAttribute('aria-label', link.textContent);
@@ -72,7 +75,7 @@ window.addEventListener('hashchange', showArchiveGrade);
 russianYear.addEventListener('change', () => { location.hash = 'russian-' + russianYear.value; });
 const menu = document.getElementById('editionMenu');
 subjectPicker.addEventListener('change', () => {
-  location.hash = subjectPicker.value === 'ru' ? (lastRussianYear === '2025' ? 'russian' : 'russian-' + lastRussianYear) : lastMathGrade;
+  location.hash = subjectPicker.value === 'ru' ? (lastRussianYear === '2025' ? 'russian' : 'russian-' + lastRussianYear) : subjectPicker.value === 'math' ? lastMathGrade : subjectPicker.value;
   menu.open = false;
   document.getElementById('editionToggle').focus();
 });

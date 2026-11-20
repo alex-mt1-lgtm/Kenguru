@@ -35,6 +35,10 @@ function createBundle(entry, model) {
       scenes: [...Array(8).fill(null), ...FOUR_POINT_SCENES, ...FIVE_POINT_SCENES],
       fruitPuzzle: {fruits: FOUR_FRUITS, icons: FOUR_FRUIT_ICONS, people: FOUR_FRUIT_PEOPLE, preferences: FOUR_FRUIT_PREFS},
     })`;
+  } else if (model.subjectRows.has(id)) {
+    const {meta, rows} = model.subjectRows.get(id);
+    content.push(readScript('contests/subject-edition.js'));
+    selection = `globalThis.makeSubjectEdition(${JSON.stringify(meta)}, ${JSON.stringify(rows)})`;
   } else if (model.russianRows.has(id)) {
     content.push(readScript('contests/medvezhonok-archive.js'));
     selection = `globalThis.makeMedvezhonokEdition(${year}, ${JSON.stringify(entry.grades.join('-'))}, ${JSON.stringify(model.russianRows.get(id))})`;
