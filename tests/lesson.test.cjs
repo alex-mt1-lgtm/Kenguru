@@ -114,7 +114,7 @@ test('task groups keep all point levels and show at most five cards until a task
   visit.element('taskNavigation').open = true;
   await clickTaskCard(visit, 14);
   assert.equal(visit.element('taskNavigation').open, false);
-  assert.equal(visit.run('document.activeElement.id ?? (document.activeElement === $("taskNavigationToggle"))'), true);
+  assert.equal(visit.run('document.activeElement === $("taskNavigationToggle")'), true);
   visit.run('current().selected=1; navigate(3); selectTask(19)');
   chooseTaskGroup(visit, 3);
   await clickTaskCard(visit, 14);
@@ -489,6 +489,33 @@ test('listening, reading and grade-specific numeric answers load through the pub
   await visit.run('selectDataset("2019-chip-3-4")');
   visit.run('selectTask(activeSet().indices[19])');
   assert.match(visit.element('answers').innerHTML, />Казуар</);
+});
+
+test('British Bulldog sections follow each edition and stay in sync with task navigation', async () => {
+  const visit = app(false, null, {streamProduction: true, location: {hash: '#zadacha=2025-british-bulldog-3-4/17'}});
+  await syncTurn();
+  const picker = visit.element('taskSectionPicker');
+  assert.equal(picker.value, '3');
+  assert.match(picker.innerHTML, /lang="en">Holiday pictures · № 16–20/);
+  assert.equal(visit.element('taskTitle').lang, 'en');
+  assert.equal(visit.element('taskSummaryTitle').lang, 'en');
+  assert.equal(visit.element('taskSummaryTitle').textContent, visit.element('taskTitle').textContent);
+  assert.match(visit.element('taskPicker').innerHTML, /class="task-tab-name" lang="en"/);
+  assert.deepEqual(taskPickerNumbers(visit), [16, 17, 18, 19, 20]);
+  chooseTaskGroup(visit, 6);
+  assert.equal(visit.run('LESSONS[task].number'), 17);
+  assert.deepEqual(taskPickerNumbers(visit), [31, 32, 33, 34, 35]);
+  await clickTaskCard(visit, 31);
+  visit.element('previousTaskShortcut').onclick();
+  assert.equal(visit.run('LESSONS[task].number'), 30);
+  assert.equal(picker.value, '5');
+  assert.deepEqual(taskPickerNumbers(visit), [26, 27, 28, 29, 30]);
+  await visit.run('selectDataset("2024-british-bulldog-3-4")');
+  assert.match(picker.innerHTML, /lang="en">Picture clues · № 31–35/);
+  assert.doesNotMatch(picker.innerHTML, /Holiday pictures/);
+  await visit.run('selectDataset("2024-kit-4-5")');
+  assert.match(picker.innerHTML, />Числовой ответ · № 19–21/);
+  assert.equal(visit.element('taskSummaryTitle').lang, 'ru');
 });
 
 test('a direct link loads one edition and its fruit workspace and animations', async () => {
