@@ -1,0 +1,24 @@
+{
+  "source": "tasks.pdf",
+  "coordinateUnit": "pdf-point",
+  "crops": [
+    {
+      "page": 1,
+      "box": [
+        317.480316,
+        85.434082,
+        552.75592,
+        242.284485
+      ],
+      "xref": 15,
+      "file": "ship.webp",
+      "tasks": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ]
+    }
+  ]
+}

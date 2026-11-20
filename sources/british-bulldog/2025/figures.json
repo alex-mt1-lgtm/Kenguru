@@ -1,0 +1,154 @@
+{
+  "source": "tasks.pdf",
+  "coordinateUnit": "rendered-pixel",
+  "renderScale": 2.75,
+  "crops": [
+    {
+      "page": 0,
+      "box": [
+        1619,
+        136,
+        1922,
+        340
+      ],
+      "file": "holiday-16.webp",
+      "tasks": [
+        16
+      ]
+    },
+    {
+      "page": 0,
+      "box": [
+        1930,
+        136,
+        2233,
+        340
+      ],
+      "file": "holiday-17.webp",
+      "tasks": [
+        17
+      ]
+    },
+    {
+      "page": 0,
+      "box": [
+        1601,
+        345,
+        1813,
+        658
+      ],
+      "file": "holiday-18.webp",
+      "tasks": [
+        18
+      ]
+    },
+    {
+      "page": 0,
+      "box": [
+        1820,
+        345,
+        2032,
+        658
+      ],
+      "file": "holiday-19.webp",
+      "tasks": [
+        19
+      ]
+    },
+    {
+      "page": 0,
+      "box": [
+        2039,
+        345,
+        2251,
+        658
+      ],
+      "file": "holiday-20.webp",
+      "tasks": [
+        20
+      ]
+    },
+    {
+      "page": 1,
+      "box": [
+        57,
+        229,
+        712,
+        759
+      ],
+      "file": "house.webp",
+      "tasks": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "page": 1,
+      "box": [
+        801,
+        701,
+        943,
+        843
+      ],
+      "file": "clock-31.webp",
+      "tasks": [
+        31
+      ]
+    },
+    {
+      "page": 1,
+      "box": [
+        943,
+        701,
+        1085,
+        843
+      ],
+      "file": "clock-32.webp",
+      "tasks": [
+        32
+      ]
+    },
+    {
+      "page": 1,
+      "box": [
+        1085,
+        701,
+        1227,
+        843
+      ],
+      "file": "clock-33.webp",
+      "tasks": [
+        33
+      ]
+    },
+    {
+      "page": 1,
+      "box": [
+        1227,
+        701,
+        1369,
+        843
+      ],
+      "file": "clock-34.webp",
+      "tasks": [
+        34
+      ]
+    },
+    {
+      "page": 1,
+      "box": [
+        1369,
+        701,
+        1511,
+        843
+      ],
+      "file": "clock-35.webp",
+      "tasks": [
+        35
+      ]
+    }
+  ]
+}

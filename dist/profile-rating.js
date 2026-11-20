@@ -32,7 +32,7 @@ function getProfileRating() {
       if (accountProgress?.confirmed('rating:' + lessonKey(lesson)) !== 'solved') continue;
       rating.points += points;
       rating.solved += 1;
-      levels.add(points);
+      if ([3, 4, 5].includes(points)) levels.add(points);
       if (points === 5) rating.hard += 1;
     }
   } catch {

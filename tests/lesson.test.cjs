@@ -392,6 +392,33 @@ test('the Russian editions keep their own tasks, years, archive and return posit
   assert.equal(visit.run('selectedDataset'), '2025-medvezhonok-4-5');
 });
 
+test('listening, reading and grade-specific numeric answers load through the public edition index', async () => {
+  const visit = app(false, null, {streamProduction: true, location: {hash: '#zadacha=2025-british-bulldog-3-4/1'}});
+  await syncTurn();
+  assert.equal(visit.element('currentSubject').textContent, 'Английский');
+  assert.equal(visit.element('listeningAudio').src, 'assets/british-bulldog/2025/listening.mp3');
+  assert.equal(visit.element('levelPicker').hidden, true);
+  assert.equal(visit.element('taskPoints').textContent, ' · 1 балл');
+  visit.run('selectTask(activeSet().indices[5])');
+  assert.equal(visit.element('listeningBlock').hidden, true);
+  assert.equal(visit.element('readingPassage').hidden, false);
+  assert.match(visit.element('readingText').textContent, /London/);
+  await visit.run('selectDataset("2024-kit-4-5")');
+  visit.run('selectTask(activeSet().indices[20])');
+  assert.equal(visit.element('numericEntry').hidden, false);
+  assert.equal(visit.element('answers').hidden, true);
+  visit.element('numericAnswer').input({target: {value: '132'}});
+  visit.run('navigate(lastStep())');
+  assert.match(visit.element('feedback').textContent, /Верно!/);
+  assert.equal(visit.element('editionArchive').href, '/archive.html#kit');
+  assert.equal(visit.element('listeningBlock').hidden, true);
+  visit.run('selectTask(activeSet().indices[17])');
+  assert.equal(visit.run('LESSONS[task].steps.length'), 5);
+  await visit.run('selectDataset("2019-chip-3-4")');
+  visit.run('selectTask(activeSet().indices[19])');
+  assert.match(visit.element('answers').innerHTML, />Казуар</);
+});
+
 test('a direct link loads one edition and its fruit workspace and animations', async () => {
   const visit = app(false, null, {streamProduction: true, location: {hash: '#zadacha=2024-3-4/10'}});
   await syncTurn();

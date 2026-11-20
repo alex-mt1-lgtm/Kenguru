@@ -48,13 +48,34 @@ function loadLessonCatalog() {
       context.MEDVEZHONOK_EDITIONS.push(edition);
     }
   }
+  const subjectRows = new Map();
+  context.SUBJECT_EDITIONS = [];
+  vm.runInContext(readScript('contests/subject-edition.js'), context);
+  const manifest = JSON.parse(fs.readFileSync(path.join(dist, '../sources/subject-editions.json'), 'utf8'));
+  for (const meta of manifest) {
+    const file = path.join(dist, '../sources', meta.subject, String(meta.year), meta.grade + '.json');
+    const rows = JSON.parse(fs.readFileSync(file, 'utf8'));
+    if (rows.length !== meta.count) throw new Error(file + ': incomplete edition');
+    for (const [index, row] of rows.entries()) {
+      const numeric = Number.isInteger(row.numericAnswer);
+      const validAnswer = numeric ? row.choices.length === 0
+        : row.choices.length === meta.letters.length && Number.isInteger(row.answer)
+          && row.answer >= 0 && row.answer < row.choices.length;
+      if (!row.question || !validAnswer || row.steps.length < 2 || row.steps.some(step => !step.trim())) {
+        throw new Error(file + ': incomplete question or walkthrough at ' + (index + 1));
+      }
+    }
+    const edition = context.makeSubjectEdition(meta, rows);
+    subjectRows.set(edition.id, {meta, rows});
+    context.SUBJECT_EDITIONS.push(edition);
+  }
   const app = readScript('app.js');
   const end = app.indexOf('\nconst $=id=>');
   if (end === -1) throw new Error('Cannot find the lesson catalogue');
   vm.runInContext(app.slice(0, end), context, {filename: 'app.js'});
   const {lessons, catalog} = vm.runInContext('({lessons: LESSONS, catalog: CATALOG})', context);
   return {
-    lessons, catalog, context, russianRows,
+    lessons, catalog, context, russianRows, subjectRows,
     choiceLayouts: context.KENGURU_CHOICE_LAYOUTS ?? {},
     graphicAnswerDescriptions: context.KENGURU_GRAPHIC_ANSWER_DESCRIPTIONS ?? {},
   };
