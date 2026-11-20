@@ -45,9 +45,9 @@
 <div class="task-navigation">
   <button id="previousTaskShortcut" class="task-shortcut" type="button" aria-label="Предыдущая задача" aria-disabled="true">←</button>
   <details id="taskNavigation" class="lesson-disclosure">
-    <summary id="taskNavigationToggle"><span class="task-position">Задача <span id="taskNumber">01</span><span id="taskPoints"> · 3 балла</span></span><span class="task-list-label">Все задачи</span></summary>
+    <summary id="taskNavigationToggle"><span class="task-position">Задача <span id="taskNumber">01</span></span><span id="taskSummaryTitle" class="task-summary-title">Квадрат с секретом</span><span id="taskPoints">3 балла</span></summary>
     <div class="lesson-context">
-      <nav id="levelPicker" class="level-picker" aria-label="Группы задач по баллам"></nav>
+      <label class="task-section-field">Раздел<select id="taskSectionPicker" aria-controls="taskPicker"></select></label>
       <div class="collection-progress" id="collectionProgress" aria-live="polite"></div>
     </div>
     <nav id="taskPicker" class="task-picker" aria-label="Выбор задачи"></nav>

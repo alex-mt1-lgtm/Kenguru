@@ -65,7 +65,9 @@ const FIRE_ROUTE=[[40,0],[72,0],[92,1],[80,1],[100,2],[153,2],[133,1],[259,1],[2
 const CUBE_HEIGHTS=[[2,2,4,1],[3,1,4,1],[3,1,2,3],[1,2,3,3],[2,1,4,2]],TARGET_HEIGHTS=[2,1,3,2];
 const states=LESSONS.map(()=>({step:0,frame:0,elapsed:0,selected:null,seen:false}));
 let task=0,playing=false,clock=null,lastTimestamp=null;
-let selectedPoints=3,selectedDataset='2024-3-4';const groupLast={'2024-3-4:3':0,'2024-3-4:4':8,'2024-3-4:5':16},datasetLast={'2024-3-4':0};
+let selectedDataset = '2024-3-4';
+const datasetLast = {'2024-3-4': 0};
+let browsedSection = null;
 const lessonKey = lesson => lesson.datasetId + '/' + lesson.number;
 const taskHash = index => '#zadacha=' + lessonKey(LESSONS[index]);
 const taskInUrl = () => LESSONS.findIndex((_, index) => taskHash(index) === globalThis.location?.hash);
@@ -99,7 +101,6 @@ function switchProfile(id, {resume = false, preferredTask = -1} = {}) {
   showTaskDrawing();
   workspaceTask = null;
   alternativeTask = null;
-  for (const key of Object.keys(groupLast)) delete groupLast[key];
   for (const key of Object.keys(datasetLast)) delete datasetLast[key];
   lastSubjectTask.clear();
   restoreProgress();
@@ -352,7 +353,8 @@ async function loadEdition(id) {
   const {edition, layouts, descriptions} = await streamedEditions.load(id);
   if (set.sources) return;
   const {indices} = set;
-  Object.assign(set, {sources: edition.sources, answerLetters: edition.answerLetters});
+  const {sources, answerLetters, sections, titleLanguage} = edition;
+  Object.assign(set, {sources, answerLetters, sections, titleLanguage});
   if (edition.fruitPuzzle) fruitPuzzle = edition.fruitPuzzle;
   for (const [offset, index] of indices.entries()) {
     const lesson = LESSONS[index];
@@ -483,12 +485,67 @@ function renderAnswers() {
 }
 
 const taskPlural = new Intl.PluralRules('ru');
-function taskCount(n) { return n + ' ' + ({one: 'задача', few: 'задачи', many: 'задач'}[taskPlural.select(n)] ?? 'задач'); }
 function pointsLabel(points) { return points ? formatRatingPoints(points) : 'Числовой ответ'; }
+
+function splitTaskGroup(title, indices, language) {
+  const groups = [];
+  for (let start = 0; start < indices.length; start += 5) {
+    groups.push({title, indices: indices.slice(start, start + 5), language});
+  }
+  return groups;
+}
+
+function taskGroups(set) {
+  const {indices, sections, titleLanguage} = set;
+  if (sections) {
+    return sections.flatMap(({title, start}, index) => {
+      const end = sections[index + 1]?.start ?? Infinity;
+      const group = indices.filter(i => LESSONS[i].number >= start && LESSONS[i].number < end);
+      return splitTaskGroup(title, group, titleLanguage);
+    });
+  }
+  const points = [...new Set(indices.map(i => LESSONS[i].points))].sort((a, b) => (a || Infinity) - (b || Infinity));
+  return points.flatMap(points => splitTaskGroup(pointsLabel(points), indices.filter(i => LESSONS[i].points === points)));
+}
+
+function taskNumberRange(indices) {
+  const numbers = indices.map(i => LESSONS[i].number);
+  if (numbers.length > 1 && numbers.every((number, index) => number === numbers[0] + index)) {
+    return numbers[0] + '–' + numbers.at(-1);
+  }
+  return numbers.join(', ');
+}
+
+function renderTaskPicker(set) {
+  const groups = taskGroups(set);
+  const sectionPicker = $('taskSectionPicker');
+  const sectionIndex = browsedSection ?? groups.findIndex(group => group.indices.includes(task));
+  if (sectionPicker.getAttribute('data-edition') !== set.id) {
+    sectionPicker.innerHTML = groups.map(({title, indices, language}, index) => {
+      const lang = language ? ` lang="${escapeAnswerText(language)}"` : '';
+      return `<option value="${index}"${lang}>${escapeAnswerText(title)} · № ${taskNumberRange(indices)}</option>`;
+    }).join('');
+    sectionPicker.setAttribute('data-edition', set.id);
+  }
+  sectionPicker.value = String(sectionIndex);
+
+  const titleLang = set.titleLanguage ? ` lang="${escapeAnswerText(set.titleLanguage)}"` : '';
+  renderButtons('taskPicker', 'data-task', groups[sectionIndex].indices.map(i => {
+    const lesson = LESSONS[i];
+    const {number, title} = lesson;
+    const name = escapeAnswerText(title);
+    const active = i === task;
+    const seen = states[i].seen;
+    return `<button class="task-tab ${active ? 'current-task' : ''}" data-task="${i}" aria-label="Задача ${number}. ${name}${seen ? '. Ответ открыт' : ''}" title="${name}" ${active ? 'aria-current="page"' : ''}>
+      <span class="task-tab-number">${String(number).padStart(2, '0')}</span>
+      <span class="task-tab-name"${titleLang}>${name}</span>${seen ? '<i aria-hidden="true">✓</i>' : ''}
+    </button>`;
+  }).join(''));
+}
+
 function renderPicker() {
   const set = activeSet();
   const {indices} = set;
-  const group = indices.filter(index => LESSONS[index].points === selectedPoints);
   const yearPicker = $('yearPicker');
   const subject = subjectOf(set);
   const editions = CATALOG.filter(item => subjectOf(item) === subject);
@@ -525,23 +582,7 @@ function renderPicker() {
   $('previousTaskShortcut').setAttribute('aria-disabled', String(position <= 0));
   $('nextTaskShortcut').setAttribute('aria-disabled', String(position === indices.length - 1));
 
-  const distinctPoints = [...new Set(indices.map(i => LESSONS[i].points))].sort((a, b) => (a || Infinity) - (b || Infinity));
-  $('levelPicker').hidden = distinctPoints.length === 1;
-  const levels = distinctPoints.map(points => ({points, count: indices.filter(i => LESSONS[i].points === points).length}));
-  renderButtons('levelPicker', 'data-points', levels.filter(level => level.count).map(({points, count}) =>
-    `<button data-points="${points}" aria-pressed="${selectedPoints === points}" class="${selectedPoints === points ? 'active-level' : ''}">${pointsLabel(points)} <span>${taskCount(count)}</span></button>`
-  ).join(''));
-  renderButtons('taskPicker', 'data-task', group.map(i => {
-    const lesson = LESSONS[i];
-    const {number, title} = lesson;
-    const name = escapeAnswerText(title);
-    const active = i === task;
-    const seen = states[i].seen;
-    return `<button class="task-tab ${active ? 'current-task' : ''}" data-task="${i}" aria-label="Задача ${number}. ${name}${seen ? '. Ответ открыт' : ''}" title="${name}" ${active ? 'aria-current="page"' : ''}>
-      <span class="task-tab-number">${String(number).padStart(2, '0')}</span>
-      <span class="task-tab-name">${name}</span>${seen ? '<i aria-hidden="true">✓</i>' : ''}
-    </button>`;
-  }).join(''));
+  renderTaskPicker(set);
   $('collectionProgress').textContent = `открыто ответов ${indices.filter(i => states[i].seen).length} из ${indices.length}`;
   $('tasksSource').href = set.sources.tasksUrl;
   $('answersSource').textContent = set.sources.reviewedKey ? 'Ответы редакции в PDF' : 'Ответы в PDF';
@@ -609,8 +650,13 @@ function render() {
   const focused = document.activeElement;
   if (final) st.seen = true;
   $('taskNumber').textContent = String(lesson.number).padStart(2, '0');
-  $('taskPoints').textContent = ' · ' + pointsLabel(lesson.points);
-  $('taskTitle').textContent = lesson.title;
+  $('taskPoints').textContent = pointsLabel(lesson.points);
+  const titleLanguage = activeSet().titleLanguage ?? 'ru';
+  for (const id of ['taskTitle', 'taskSummaryTitle']) {
+    $(id).textContent = lesson.title;
+    $(id).lang = titleLanguage;
+  }
+  $('taskSummaryTitle').title = lesson.title;
   $('taskSkill').textContent = lesson.skill;
   $('taskSkill').hidden = !lesson.skill;
   renderCondition(lesson, st.step);
@@ -722,12 +768,11 @@ function activateTask(n, historyMethod, savePosition) {
   finishMark();
   pause();
   task = n;
+  browsedSection = null;
   ratingAttempt = null;
   $('ratingNotice').textContent = '';
   const lesson = LESSONS[n];
-  selectedPoints = lesson.points;
   selectedDataset = lesson.datasetId;
-  groupLast[selectedDataset + ':' + selectedPoints] = n;
   datasetLast[selectedDataset] = n;
   lastSubjectTask.set(subjectOf(activeSet()), n);
   const hash = taskHash(n);
@@ -783,6 +828,7 @@ $('openLegacyZoom').onclick = () => {
   if (!path) return;
   const image = $('legacyZoomImage');
   const figure = lesson.choiceLayout?.condition;
+  image.style.width = figure?.pixelWidth ? '100%' : '';
   image.style.maxWidth = figure?.pixelWidth ? `min(100%, ${figure.pixelWidth * 2}px)` : '';
   image.style.maxHeight = figure?.pixelHeight ? `min(calc(100dvh - 106px), ${figure.pixelHeight * 2}px)` : '';
   image.src = path;
@@ -847,7 +893,6 @@ function arrangeOpeningScene(lesson, step) {
 
 function arrangeNavigation() {
   const compact = compactNavigation.matches;
-  $('taskNavigation').open = !compact;
   $('chapterNavigation').open = !compact;
   $(compact ? 'chapterSlot' : 'lessonAside').append($('chapterNavigation'));
   arrangeOpeningScene(LESSONS[task], current().step);
@@ -865,15 +910,16 @@ function selectAdjacentTask(offset) {
 $('previousTaskShortcut').onclick = () => selectAdjacentTask(-1);
 $('nextTaskShortcut').onclick = () => selectAdjacentTask(1);
 
-$('levelPicker').addEventListener('click',e=>{const button=e.target.closest('[data-points]');if(button){const points=Number(button.dataset.points);selectTask(groupLast[selectedDataset+':'+points]??activeSet().indices.find(i=>LESSONS[i].points===points))}});
+$('taskSectionPicker').addEventListener('change', event => {
+  browsedSection = Number(event.target.value);
+  renderTaskPicker(activeSet());
+});
 $('taskPicker').addEventListener('click', async e => {
   const button = e.target.closest('[data-task]');
   if (!button) return;
   await selectTask(Number(button.dataset.task));
-  if (compactNavigation?.matches) {
-    $('taskNavigation').open = false;
-    $('taskNavigationToggle').focus();
-  }
+  $('taskNavigation').open = false;
+  $('taskNavigationToggle').focus();
 });
 $('chapters').addEventListener('click', e => {
   const button = e.target.closest('[data-step]');
@@ -939,8 +985,9 @@ document.addEventListener('keydown', e => {
     if (menu) {
       menu.open = false;
       menu.querySelector('summary').focus();
-    } else if (compactNavigation?.matches) {
-      const navigation = e.target.closest?.('.lesson-disclosure[open]');
+    } else {
+      const disclosure = compactNavigation?.matches ? '.lesson-disclosure[open]' : '#taskNavigation[open]';
+      const navigation = e.target.closest?.(disclosure);
       if (navigation) {
         navigation.open = false;
         navigation.querySelector('summary').focus();

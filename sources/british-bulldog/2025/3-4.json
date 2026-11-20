@@ -1,6 +1,6 @@
 [
   {
-    "title": "Разговор на кухне",
+    "title": "What She’s Doing",
     "question": "What is the woman doing at the moment? She is ... .",
     "context": "Listen to the recording and answer the questions",
     "choices": [
@@ -17,7 +17,7 @@
     "audio": true
   },
   {
-    "title": "Вкус торта",
+    "title": "The Cake’s Flavour",
     "question": "What kind of cake is the woman baking?",
     "context": "Listen to the recording and answer the questions",
     "choices": [
@@ -34,7 +34,7 @@
     "audio": true
   },
   {
-    "title": "Для кого торт",
+    "title": "Who the Cake Is For",
     "question": "The woman is baking a cake for ... .",
     "context": "Listen to the recording and answer the questions",
     "choices": [
@@ -51,7 +51,7 @@
     "audio": true
   },
   {
-    "title": "Что предлагает мужчина",
+    "title": "The Man’s Offer",
     "question": "What does the man offer to eat?",
     "context": "Listen to the recording and answer the questions",
     "choices": [
@@ -68,7 +68,7 @@
     "audio": true
   },
   {
-    "title": "Просьба женщины",
+    "title": "The Woman’s Request",
     "question": "What kind of sandwich does the woman ask for?",
     "context": "Listen to the recording and answer the questions",
     "choices": [
@@ -85,7 +85,7 @@
     "audio": true
   },
   {
-    "title": "Города Великобритании",
+    "title": "Cities in Great Britain",
     "question": "The largest city in Great Britain is ... .",
     "context": "Read the text and choose the right variant\n\nLondon is the capital of Great Britain. There are more than 10 million people living here. It is the largest city in the country. The Thames flows through it. It provides 2/3 of London’s drinking water. Traditionally, the capital is divided into several parts: the City, the West End, the East End and Westminster. It has one of the largest airports in the world, named Heathrow. London’s most famous sights are red double-decker buses, The Houses of Parliament, St Paul’s Cathedral, The Tower of London and many more.",
     "choices": [
@@ -101,7 +101,7 @@
     ]
   },
   {
-    "title": "Водный путь в Лондоне",
+    "title": "A London Waterway",
     "question": "The name of the most famous waterway in London is ... .",
     "context": "Read the text and choose the right variant\n\nLondon is the capital of Great Britain. There are more than 10 million people living here. It is the largest city in the country. The Thames flows through it. It provides 2/3 of London’s drinking water. Traditionally, the capital is divided into several parts: the City, the West End, the East End and Westminster. It has one of the largest airports in the world, named Heathrow. London’s most famous sights are red double-decker buses, The Houses of Parliament, St Paul’s Cathedral, The Tower of London and many more.",
     "choices": [
@@ -117,7 +117,7 @@
     ]
   },
   {
-    "title": "Части города",
+    "title": "Parts of London",
     "question": "There are ... parts in London.",
     "context": "Read the text and choose the right variant\n\nLondon is the capital of Great Britain. There are more than 10 million people living here. It is the largest city in the country. The Thames flows through it. It provides 2/3 of London’s drinking water. Traditionally, the capital is divided into several parts: the City, the West End, the East End and Westminster. It has one of the largest airports in the world, named Heathrow. London’s most famous sights are red double-decker buses, The Houses of Parliament, St Paul’s Cathedral, The Tower of London and many more.",
     "choices": [
@@ -133,7 +133,7 @@
     ]
   },
   {
-    "title": "Аэропорт столицы",
+    "title": "A London Airport",
     "question": "The name of the main airport in London is ... .",
     "context": "Read the text and choose the right variant\n\nLondon is the capital of Great Britain. There are more than 10 million people living here. It is the largest city in the country. The Thames flows through it. It provides 2/3 of London’s drinking water. Traditionally, the capital is divided into several parts: the City, the West End, the East End and Westminster. It has one of the largest airports in the world, named Heathrow. London’s most famous sights are red double-decker buses, The Houses of Parliament, St Paul’s Cathedral, The Tower of London and many more.",
     "choices": [
@@ -149,7 +149,7 @@
     ]
   },
   {
-    "title": "Лондонский транспорт",
+    "title": "Getting Around London",
     "question": "One of the famous means of transport in London is ... .",
     "context": "Read the text and choose the right variant\n\nLondon is the capital of Great Britain. There are more than 10 million people living here. It is the largest city in the country. The Thames flows through it. It provides 2/3 of London’s drinking water. Traditionally, the capital is divided into several parts: the City, the West End, the East End and Westminster. It has one of the largest airports in the world, named Heathrow. London’s most famous sights are red double-decker buses, The Houses of Parliament, St Paul’s Cathedral, The Tower of London and many more.",
     "choices": [
@@ -165,7 +165,7 @@
     ]
   },
   {
-    "title": "Щенок Джейн",
+    "title": "Jane’s Little Puppy",
     "question": "Jane’s little puppy ... very funny.",
     "context": "Find the right verb form",
     "choices": [
@@ -181,7 +181,7 @@
     ]
   },
   {
-    "title": "Голодный щенок",
+    "title": "A Hungry Puppy",
     "question": "When Jane’s puppy is hungry, it ... “bow-wow”.",
     "context": "Find the right verb form",
     "choices": [
@@ -197,7 +197,7 @@
     ]
   },
   {
-    "title": "Мальчики на хоккее",
+    "title": "The Boys’ Hockey Game",
     "question": "The boys ... hockey now, because they don’t have any homework.",
     "context": "Find the right verb form",
     "choices": [
@@ -213,7 +213,7 @@
     ]
   },
   {
-    "title": "Собака и вода",
+    "title": "The Dog and the Water",
     "question": "The dog ... the water and went to sleep on the rag.",
     "context": "Find the right verb form",
     "choices": [
@@ -229,7 +229,7 @@
     ]
   },
   {
-    "title": "Питомцы Элизабет",
+    "title": "Elizabeth’s Pets",
     "question": "Elizabeth ... a pet a year ago, but now she has got a turtle and a cat.",
     "context": "Find the right verb form",
     "choices": [
@@ -245,7 +245,7 @@
     ]
   },
   {
-    "title": "Оранжевая открытка",
+    "title": "An Orange Greeting Card",
     "question": "What holiday is it?",
     "choices": [
       "Halloween",
@@ -266,7 +266,7 @@
     }
   },
   {
-    "title": "Осенние символы",
+    "title": "An Autumn Greeting Card",
     "question": "What holiday is it?",
     "choices": [
       "Fool’s Day",
@@ -287,7 +287,7 @@
     }
   },
   {
-    "title": "Подарки на открытке",
+    "title": "Gifts on a Card",
     "question": "What holiday is it?",
     "choices": [
       "Christmas",
@@ -308,7 +308,7 @@
     }
   },
   {
-    "title": "Открытка с узором",
+    "title": "A Patterned Card",
     "question": "What holiday is it?",
     "choices": [
       "Easter",
@@ -329,7 +329,7 @@
     }
   },
   {
-    "title": "Открытка с шарами",
+    "title": "A Card with Balloons",
     "question": "What holiday is it?",
     "choices": [
       "Mother’s Day",
@@ -350,7 +350,7 @@
     }
   },
   {
-    "title": "Дом в непогоду",
+    "title": "A House in Bad Weather",
     "question": "It protects the house from rain, hail and snow.",
     "context": "Look at the picture of the house and make a choice",
     "choices": [
@@ -372,7 +372,7 @@
     }
   },
   {
-    "title": "Место для машины",
+    "title": "A Place for the Car",
     "question": "You can keep your car there.",
     "context": "Look at the picture of the house and make a choice",
     "choices": [
@@ -394,7 +394,7 @@
     }
   },
   {
-    "title": "Вход в дом",
+    "title": "Entering the House",
     "question": "It’s the entrance to the house.",
     "context": "Look at the picture of the house and make a choice",
     "choices": [
@@ -416,7 +416,7 @@
     }
   },
   {
-    "title": "Вид из дома",
+    "title": "Looking Outside",
     "question": "You can see the sky, the clouds and the sun through it.",
     "context": "Look at the picture of the house and make a choice",
     "choices": [
@@ -438,7 +438,7 @@
     }
   },
   {
-    "title": "По пути к дому",
+    "title": "The Way to the House",
     "question": "It’s the road towards the house.",
     "context": "Look at the picture of the house and make a choice",
     "choices": [
@@ -460,7 +460,7 @@
     }
   },
   {
-    "title": "Отец в банке",
+    "title": "His Father at the Bank",
     "question": "His father ... in a bank.",
     "context": "Fill in the blanks",
     "choices": [
@@ -476,7 +476,7 @@
     ]
   },
   {
-    "title": "Мальчик и английский",
+    "title": "The Boy’s English",
     "question": "The boy ... speak English.",
     "context": "Fill in the blanks",
     "choices": [
@@ -492,7 +492,7 @@
     ]
   },
   {
-    "title": "Брат и сестра",
+    "title": "A Brother and a Sister",
     "question": "His sister and his brother ... students.",
     "context": "Fill in the blanks",
     "choices": [
@@ -508,7 +508,7 @@
     ]
   },
   {
-    "title": "Трое из десяти",
+    "title": "Three out of Ten",
     "question": "Only three ... out of ten are grey.",
     "context": "Fill in the blanks",
     "choices": [
@@ -524,7 +524,7 @@
     ]
   },
   {
-    "title": "День рождения",
+    "title": "A Birthday Question",
     "question": "... is his birthday?",
     "context": "Fill in the blanks",
     "choices": [
@@ -540,7 +540,7 @@
     ]
   },
   {
-    "title": "Пять минут",
+    "title": "Five Minutes on the Clock",
     "question": "It’s 5 minutes ... .",
     "context": "What time is it?",
     "choices": [
@@ -562,7 +562,7 @@
     }
   },
   {
-    "title": "Час и минуты",
+    "title": "Hours and Minutes",
     "question": "It’s ... .",
     "context": "What time is it?",
     "choices": [
@@ -584,7 +584,7 @@
     }
   },
   {
-    "title": "Десять минут",
+    "title": "Ten Minutes on the Clock",
     "question": "It’s 10 minutes ... .",
     "context": "What time is it?",
     "choices": [
@@ -606,7 +606,7 @@
     }
   },
   {
-    "title": "Положение стрелок",
+    "title": "Where the Hands Point",
     "question": "It’s ... .",
     "context": "What time is it?",
     "choices": [
@@ -628,7 +628,7 @@
     }
   },
   {
-    "title": "Стрелки на делениях",
+    "title": "The Hands on the Dial",
     "question": "It’s ... .",
     "context": "What time is it?",
     "choices": [

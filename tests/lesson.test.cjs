@@ -3,7 +3,7 @@ const root=path.join(__dirname,'..');
 function app(includeArchive = false, archiveOverride = null, browser = {}) {
   const elements = new Map(), handlers = {}, callbacks = new Map();
   const fetched = [];
-  let time = 0, id = 0;
+  let time = 0, id = 0, focused;
   const element = name => {
     if (!elements.has(name)) elements.set(name, {
       innerHTML: '', textContent: '', hidden: false, disabled: false, value: name === 'drawingColor' ? '#e9693e' : '',
@@ -12,6 +12,7 @@ function app(includeArchive = false, archiveOverride = null, browser = {}) {
       getAttribute(key) { return this.attributes[key] ?? null; },
       append(child) { child.parentElement = this; },
       addEventListener(key, listener) { this[key] = listener; },
+      focus() { focused = this; },
       remove() {},
     });
     return elements.get(name);
@@ -20,6 +21,7 @@ function app(includeArchive = false, archiveOverride = null, browser = {}) {
     TextEncoder, URL, ...browser,
     document: {
       body: {}, getElementById: element, addEventListener(key, listener) { handlers[key] = listener; },
+      get activeElement() { return focused; },
     },
     requestAnimationFrame(fn) { callbacks.set(++id, fn); return id; },
     cancelAnimationFrame(key) { callbacks.delete(key); }, console,
@@ -78,14 +80,84 @@ test('learner-facing wording refers to solving rather than guessing',()=>{for(co
 test('fast cell painting has no gaps and the eraser removes a single cell',()=>{const a=app();a.run('selectTask(2);activeSheet=sheetKey();draft={type:"fill",color:"#e9693e",points:[],cells:[]};extendMark([110,25]);extendMark([490,25]);finishMark()');assert.equal(a.run('getSheet().marks[0].cells.length'),7);a.run('activeSheet=sheetKey();workingMarks=getSheet().marks.slice();extendMark([110,25]);finishMark()');assert.equal(a.run('getSheet().marks[0].cells.length'),6);a.run('undoDrawing()');assert.equal(a.run('getSheet().marks[0].cells.length'),7)});
 test('square choices have no cell grid; the dropdown really changes the drawing',()=>{const a=app();a.run('selectTask(0);navigate(0)');assert.equal(a.run('drawingGrid()'),null);assert.doesNotMatch(a.element('answers').innerHTML,/grid-line/);assert.equal((a.element('scene').innerHTML.match(/<rect /g)||[]).length,1);const drawings=new Set();for(let i=0;i<5;i++){a.element('workVariant').selectedIndex=i;a.element('workVariant').change();assert.equal(a.run('workVariant'),i);assert.equal(a.element('workVariant').selectedIndex,i);drawings.add(a.element('scene').innerHTML)}assert.equal(drawings.size,5);a.run('navigate(1)');assert.notEqual(a.run('drawingGrid()'),null)});
 test('cube lesson rejects each candidate before testing D and reaches its real final step',()=>{const a=app();a.run('selectTask(6)');assert.equal(a.run('LESSONS[6].steps.length'),9);for(let s=2;s<=5;s++){a.run(`navigate(${s})`);assert.match(a.element('sceneTitle').textContent,new RegExp('^'+['А','Б','В','Г'][s-2]+':'));assert.match(a.element('scene').innerHTML,/После падения · условие/);assert.match(a.element('scene').innerHTML,/не подходит/);assert.equal(a.run(`CUBE_HEIGHTS[${s-2}][${[3,3,2,0][s-2]}]<TARGET_HEIGHTS[${[3,3,2,0][s-2]}]`),true)}a.run('navigate(6)');assert.equal(a.element('next').hidden,false);assert.doesNotMatch(a.element('feedback').textContent,/Ответ Д/);a.run('navigate(7)');assert.match(a.element('play').textContent,/Убрать кубик/);a.run('navigate(8)');assert.equal(a.element('next').hidden,true);assert.equal(a.element('nextTask').hidden,false);assert.equal(a.element('counter').textContent,'09 / 09');assert.match(a.element('scene').innerHTML,/Все четыре столбика совпали/);a.run('navigate(0);current().selected=4;start()');a.advance(55000);assert.equal(a.run('current().step'),8);assert.equal(a.run('playing'),false)});
-test('all three groups keep their place and the final task wraps to the first',()=>{const a=app();assert.equal(a.run('LESSONS.length'),24);assert.equal(a.run('SCENES.length'),24);for(const points of [4,5,3]){a.element('levelPicker').click({target:{closest:()=>({dataset:{points:String(points)}})}});assert.equal(a.run('selectedPoints'),points);assert.equal(a.run('LESSONS[task].points'),points);assert.equal((a.element('taskPicker').innerHTML.match(/data-task=/g)||[]).length,8)}a.run('selectTask(13);current().selected=1;navigate(3);selectTask(19)');a.element('levelPicker').click({target:{closest:()=>({dataset:{points:'4'}})}});assert.equal(a.run('task'),13);assert.equal(a.run('current().step'),3);assert.equal(a.run('current().selected'),1);a.run('selectTask(10);navigate(0)');assert.match(a.element('answers').innerHTML,/disks-option-4/);a.run('selectTask(22);navigate(0)');assert.match(a.element('answers').innerHTML,/cookie-choice/);a.run('selectTask(23);navigate(lastStep())');assert.match(a.element('nextTask').textContent,/К первой/);a.element('nextTask').onclick();assert.equal(a.run('task'),0);assert.equal(a.run('selectedPoints'),3)});
+function taskPickerNumbers(visit) {
+  return [...visit.element('taskPicker').innerHTML.matchAll(/class="task-tab-number">(\d+)</g)]
+    .map(([, number]) => Number(number));
+}
+
+function chooseTaskGroup(visit, group) {
+  const picker = visit.element('taskSectionPicker');
+  picker.value = String(group);
+  picker.change({target: picker});
+}
+
+async function clickTaskCard(visit, number) {
+  const index = visit.run(`activeSet().indices.find(i => LESSONS[i].number === ${number})`);
+  assert.ok(visit.element('taskPicker').innerHTML.includes(`data-task="${index}"`));
+  await visit.element('taskPicker').click({target: {closest: () => ({dataset: {task: String(index)}})}});
+}
+
+test('task groups keep all point levels and show at most five cards until a task is chosen', async () => {
+  const visit = app();
+  assert.equal(visit.run('LESSONS.length'), 24);
+  assert.equal(visit.run('SCENES.length'), 24);
+  const expected = [[1, 2, 3, 4, 5], [6, 7, 8], [9, 10, 11, 12, 13], [14, 15, 16],
+    [17, 18, 19, 20, 21], [22, 23, 24]];
+  assert.equal(visit.element('taskSummaryTitle').textContent, visit.element('taskTitle').textContent);
+  for (const [group, numbers] of expected.entries()) {
+    chooseTaskGroup(visit, group);
+    assert.deepEqual(taskPickerNumbers(visit), numbers);
+    assert.equal(visit.run('LESSONS[task].number'), 1);
+  }
+  assert.match(visit.element('taskSectionPicker').innerHTML, />4 балла · № 14–16</);
+  chooseTaskGroup(visit, 3);
+  visit.element('taskNavigation').open = true;
+  await clickTaskCard(visit, 14);
+  assert.equal(visit.element('taskNavigation').open, false);
+  assert.equal(visit.run('document.activeElement.id ?? (document.activeElement === $("taskNavigationToggle"))'), true);
+  visit.run('current().selected=1; navigate(3); selectTask(19)');
+  chooseTaskGroup(visit, 3);
+  await clickTaskCard(visit, 14);
+  assert.equal(visit.run('current().step'), 3);
+  assert.equal(visit.run('current().selected'), 1);
+  visit.run('selectTask(10); navigate(0)');
+  assert.match(visit.element('answers').innerHTML, /disks-option-4/);
+  visit.run('selectTask(22); navigate(0)');
+  assert.match(visit.element('answers').innerHTML, /cookie-choice/);
+  visit.run('selectTask(23); navigate(lastStep())');
+  assert.match(visit.element('nextTask').textContent, /К первой/);
+  await visit.element('nextTask').onclick();
+  assert.equal(visit.run('task'), 0);
+  assert.deepEqual(taskPickerNumbers(visit), expected[0]);
+});
 test('coin lesson finishes Tonya and Dima before offering an optional check',()=>{const a=app();a.run('selectTask(8)');assert.equal(a.run('LESSONS[8].steps.map(s=>s[0]).join(",")'),'Твой выбор,Правила,Тоня,Дима,Ответ');for(let s=0;s<4;s++){a.run(`navigate(${s})`);assert.equal(a.element('alternative').hidden,true);assert.doesNotMatch(a.element('scene').innerHTML,/все возможные итоги/)}a.run('navigate(4)');assert.equal(a.element('alternative').hidden,false);assert.equal(a.element('alternative').open,false);assert.match(a.element('alternativeTitle').textContent,/Другой способ/);assert.match(a.element('scene').innerHTML,/2 \+ 1 = 3/);assert.equal((a.element('alternativeTable').innerHTML.match(/scope="row"/g)||[]).length,5);a.element('alternative').open=true;a.run('selectTask(9)');assert.equal(a.element('alternative').hidden,true);assert.equal(a.element('alternative').open,false)});
 test('fruit scheme begins blank and is filled by the learner, not by deduction order',()=>{const a=app();a.run('selectTask(9);navigate(0)');assert.equal(a.run('FRUIT_WORK.preferences.flat().filter(v=>v===null).length'),25);assert.equal(a.run('FRUIT_WORK.assignment.filter(v=>v===null).length'),5);assert.equal(a.run('FRUIT_WORK_ROWS.map(i=>FOUR_FRUIT_PEOPLE[i]).join(",")'),'Аня,Боря,Коля,Денис,Эльза');assert.equal((a.element('scene').innerHTML.match(/class="fruit-cell unknown"/g)||[]).length,25);assert.doesNotMatch(a.element('scene').innerHTML,/class="fruit-cell likes"/);assert.equal(a.element('drawingLayer').attributes['data-visible'],'false');assert.equal(a.element('drawingTools').hidden,true);a.element('scene').click({target:{closest:selector=>selector==='[data-fruit-row]'?{dataset:{fruitRow:'0',fruitColumn:'2'}}:null}});assert.equal(a.run('FRUIT_WORK.preferences[0][2]'),true);a.run('cycleFruitPreference(0,2)');assert.equal(a.run('FRUIT_WORK.preferences[0][2]'),false);a.run('cycleFruitPreference(0,2)');assert.equal(a.run('FRUIT_WORK.preferences[0][2]'),null);a.element('drawingWorkspace').open=true;a.run('navigate(1)');assert.equal(a.element('drawingLayer').attributes['data-visible'],'true')});
 test('fruit checks reject incomplete, incorrect and repeated choices without completing the answer',()=>{const a=app();a.run('selectTask(9)');assert.match(a.run('checkFruitPreferences()'),/Заполни все/);a.run('FRUIT_WORK.preferences=Array.from({length:5},()=>Array(5).fill(true))');assert.match(a.run('checkFruitPreferences()'),/неточности/);assert.equal(a.run('FRUIT_WORK.preferences.flat().every(v=>v===true)'),true);a.run('FRUIT_WORK.preferences=FRUIT_WORK_ROWS.map(source=>FOUR_FRUITS.map((_,column)=>FOUR_FRUIT_PREFS[source].includes(column)))');assert.match(a.run('checkFruitPreferences()'),/соответствует/);assert.equal(a.run('current().selected'),null);assert.match(a.run('checkFruitAssignment()'),/всем пяти/);a.run('FRUIT_WORK.assignment=[2,0,3,4,4]');assert.match(a.run('checkFruitAssignment()'),/все взяли разное/);a.run('FRUIT_WORK.assignment=[0,2,3,4,1]');assert.match(a.run('checkFruitAssignment()'),/не любит/);a.run('FRUIT_WORK.assignment=[2,0,3,4,1]');assert.match(a.run('checkFruitAssignment()'),/Все условия выполнены/);assert.equal(a.run('current().selected'),null);a.run('selectTask(0);selectTask(9)');assert.equal(a.run('FRUIT_WORK.assignment.join(",")'),'2,0,3,4,1');a.element('repeat').onclick();assert.equal(a.run('FRUIT_WORK.assignment.every(v=>v===null)'),true);assert.equal(a.run('FRUIT_WORK.preferences.flat().every(v=>v===null)'),true)});
 test('fruit dropdown keeps the selected value through rendering',()=>{const a=app();a.run('selectTask(9)');a.element('scene').change({target:{closest:()=>({dataset:{fruitPerson:'1'},value:'3'})}});assert.equal(a.run('FRUIT_WORK.assignment[1]'),3);assert.match(a.element('scene').innerHTML,/value="3" selected/);assert.equal(a.run('FRUIT_WORK.assignment.filter(v=>v!==null).length'),1)});
 
 test('archive keeps original year sizes, local task numbers and official sources',()=>{const a=app(true);assert.equal(a.run('LESSONS.length'),684);assert.equal(a.run('SCENES.length'),684);assert.equal(a.run('CATALOG.map(s=>s.year).sort().join(",")'),Array.from({length:27},(_,i)=>2000+i).join(','));for(const [year,count] of [...Array.from({length:21},(_,i)=>[2000+i,26]),[2021,18],[2022,24],[2023,24],[2024,24],[2025,24],[2026,24]]){a.run(`selectYear(${year})`);assert.equal(a.run('activeSet().indices.length'),count);assert.equal(a.run('current().step'),0);assert.equal(a.element('gradePicker').disabled,true);assert.match(a.element('gradePicker').innerHTML,/3–4 классы/);assert.equal(a.element('tasksSource').href,`assets/kenguru/kenguru_${year}_class_3-4.pdf`);assert.equal(a.element('solutionsSource').hidden,year<=2020);const indices=JSON.parse(a.run('JSON.stringify(activeSet().indices)'));for(let n=0;n<indices.length;n++)assert.equal(a.run(`LESSONS[${indices[n]}].number`),n+1);a.run(`selectTask(activeSet().indices.at(-1));navigate(lastStep())`);assert.equal(a.element('taskNumber').textContent,String(count).padStart(2,'0'));a.element('nextTask').onclick();assert.equal(a.run('LESSONS[task].number'),1);assert.equal(a.run('LESSONS[task].year'),year)}});
-test('year navigation preserves answers, steps, point groups and drawings independently',()=>{const a=app(true);a.run('selectYear(2024);selectTask(0);current().selected=2;addMark({type:"pen",color:"#e9693e",points:[[220,30],[240,50]]});navigate(2);selectYear(2020)');assert.equal(a.run('current().selected'),null);assert.equal(a.run('getSheet().marks.length'),0);assert.equal((a.element('taskPicker').innerHTML.match(/data-task=/g)||[]).length,10);a.element('levelPicker').click({target:{closest:()=>({dataset:{points:'4'}})}});assert.equal(a.run('LESSONS[task].number'),11);a.run('current().selected=4;navigate(2);selectYear(2021)');assert.equal((a.element('taskPicker').innerHTML.match(/data-task=/g)||[]).length,6);a.run('selectYear(2020)');assert.equal(a.run('LESSONS[task].number'),11);assert.equal(a.run('current().selected'),4);assert.equal(a.run('current().step'),2);a.run('selectYear(2024)');assert.equal(a.run('task'),0);assert.equal(a.run('current().selected'),2);assert.equal(a.run('current().step'),2);a.run('navigate(0)');assert.equal(a.run('getSheet().marks.length'),1)});
+test('year navigation preserves answers, steps, task positions and drawings independently', async () => {
+  const visit = app(true);
+  visit.run('selectYear(2024); selectTask(0); current().selected=2; addMark({type:"pen",color:"#e9693e",points:[[220,30],[240,50]]}); navigate(2); selectYear(2020)');
+  assert.equal(visit.run('current().selected'), null);
+  assert.equal(visit.run('getSheet().marks.length'), 0);
+  assert.deepEqual(taskPickerNumbers(visit), [1, 2, 3, 4, 5]);
+  chooseTaskGroup(visit, 2);
+  await clickTaskCard(visit, 11);
+  visit.run('current().selected=4; navigate(2); selectYear(2021)');
+  assert.deepEqual(taskPickerNumbers(visit), [1, 2, 3, 4, 5]);
+  visit.run('selectYear(2020)');
+  assert.equal(visit.run('LESSONS[task].number'), 11);
+  assert.deepEqual(taskPickerNumbers(visit), [11, 12, 13, 14, 15]);
+  assert.equal(visit.run('current().selected'), 4);
+  assert.equal(visit.run('current().step'), 2);
+  visit.run('selectYear(2024)');
+  assert.equal(visit.run('task'), 0);
+  assert.equal(visit.run('current().selected'), 2);
+  assert.equal(visit.run('current().step'), 2);
+  visit.run('navigate(0)');
+  assert.equal(visit.run('getSheet().marks.length'), 1);
+});
 test('separate third and fourth grade datasets stay separate when provided',()=>{const makeSet=grade=>({id:'2030-'+grade,year:2030,grades:[grade],label:grade+' класс',sources:{tasksUrl:'https://example.invalid/tasks.pdf',answersUrl:'https://example.invalid/answers.pdf',solutionUrl:null},lessons:[{number:1,points:3,answer:0,title:'Тест',short:'Тест',skill:'Проверяем',question:'Тестовое условие',choices:['1','2','3','4','5'],originalImage:'assets/original-1.png',steps:[['Выбор','Выбор','Выбери'],['Ответ','Ответ','Проверка']]}],scenes:[()=>'<svg aria-label="Тест" viewBox="0 0 640 300"></svg>']});const a=app(false,{2030:[makeSet(3),makeSet(4)]});a.run('selectYear(2030);current().selected=2');assert.equal(a.element('gradePicker').disabled,false);assert.equal((a.element('gradePicker').innerHTML.match(/<option /g)||[]).length,2);a.element('gradePicker').value='2030-4';a.element('gradePicker').change();assert.equal(a.run('selectedDataset'),'2030-4');assert.equal(a.run('current().selected'),null);a.element('gradePicker').value='2030-3';a.element('gradePicker').change();assert.equal(a.run('current().selected'),2)});
 test('all archive lessons render together and reference existing files',()=>{const a=app(true),total=a.run('LESSONS.length');for(let index=0;index<total;index++){const count=a.run(`LESSONS[${index}].steps.length`);assert.ok(count>=2);assert.equal(a.run(`LESSONS[${index}].choices.length`),5);assert.ok(a.run(`Number.isInteger(LESSONS[${index}].answer)&&LESSONS[${index}].answer>=0&&LESSONS[${index}].answer<5`));const original=a.run(`LESSONS[${index}].originalImage`);assert.ok(fs.existsSync(path.join(root,'dist',original)),original);for(let step=0;step<count;step++)for(const frame of [0,.01,.5,2.25,5.9,12]){const markup=a.run(`SCENES[${index}](${step},${frame})`);assert.equal(typeof markup,'string');assert.doesNotMatch(markup,/NaN|undefined|Infinity/,`${index}/${step}/${frame}`);for(const match of markup.matchAll(/(?:src|href)="(assets\/[^"#]+)"/g))assert.ok(fs.existsSync(path.join(root,'dist',match[1])),match[1])}}});
 
@@ -397,8 +469,8 @@ test('listening, reading and grade-specific numeric answers load through the pub
   await syncTurn();
   assert.equal(visit.element('currentSubject').textContent, 'Английский');
   assert.equal(visit.element('listeningAudio').src, 'assets/british-bulldog/2025/listening.mp3');
-  assert.equal(visit.element('levelPicker').hidden, true);
-  assert.equal(visit.element('taskPoints').textContent, ' · 1 балл');
+  assert.deepEqual(taskPickerNumbers(visit), [1, 2, 3, 4, 5]);
+  assert.equal(visit.element('taskPoints').textContent, '1 балл');
   visit.run('selectTask(activeSet().indices[5])');
   assert.equal(visit.element('listeningBlock').hidden, true);
   assert.equal(visit.element('readingPassage').hidden, false);
@@ -691,6 +763,7 @@ test('rebuilt visual lessons keep the condition separate and each worked scene i
   assert.equal(appView.element('answers').hidden, false);
   assert.equal(appView.element('play').hidden, false);
   assert.match(appView.element('taskPicker').innerHTML, /class="task-tab-name">Плитки на фотографии<\/span>/u);
+  appView.run('selectTask(activeSet().indices.find(i => LESSONS[i].title === "Браслет Лены"))');
   assert.match(appView.element('taskPicker').innerHTML, /class="task-tab-name">Браслет Лены<\/span>/u);
   assert.doesNotMatch(appView.element('taskPicker').innerHTML, /повторяющуюся последовательность|Проверь соседство/u);
 
