@@ -1,4 +1,4 @@
-<!doctype html><html lang="ru"><head><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'"><base href="/_releases/b44e19a513c71cb8a3494b936221ebbb4a9a496f/"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Школьные олимпиады по предметам. Выбирай конкурс, класс и год, решай задачи и проверяй ответы."><title>Olympiads.pro</title><link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="favicon.svg"><script src="account.js?v=profile-layout"></script><script src="edition-loader.js" defer></script><link rel="stylesheet" href="style.css?v=profile-layout"><link rel="stylesheet" href="account.css?v=profile-layout"><link rel="stylesheet" href="leaderboard.css?v=profile-layout"></head><body>
+<!doctype html><html lang="ru"><head><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'"><base href="/_releases/5c21d801d50880b80e48b68eceffb4134239ad32/"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Школьные олимпиады по предметам. Выбирай конкурс, класс и год, решай задачи и проверяй ответы."><title>Olympiads.pro</title><link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="favicon.svg"><script src="account.js?v=profile-layout"></script><script src="edition-loader.js" defer></script><link rel="stylesheet" href="style.css?v=profile-layout"><link rel="stylesheet" href="account.css?v=profile-layout"><link rel="stylesheet" href="leaderboard.css?v=profile-layout"></head><body>
 <div class="page-art" aria-hidden="true"><span></span></div>
 <header class="lesson-header"><a class="site-brand" href="/" aria-label="olympiads.pro — к урокам"><span class="site-brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span>olympiads.pro</a>
 <div class="header-menus">
@@ -223,6 +223,16 @@
 <dialog id="legacyZoom" class="legacy-zoom" aria-label="Увеличенный рисунок задачи">
   <form method="dialog"><button type="submit" autofocus>Закрыть рисунок</button></form>
   <div id="legacyZoomScroll" class="legacy-zoom-scroll" tabindex="0" aria-label="Прокрутка рисунка"><img id="legacyZoomImage" alt=""></div>
+</dialog>
+<dialog id="detailZoom" class="detail-zoom" aria-labelledby="detailTitle">
+  <header><strong id="detailTitle" aria-live="polite"></strong><form method="dialog"><button autofocus>Закрыть</button></form></header>
+  <div id="detailViewport" class="detail-viewport" tabindex="0" aria-label="Область просмотра рисунка"><img id="detailImage" alt=""><div id="detailError" class="detail-error" role="status" hidden>Не удалось загрузить рисунок. <button id="detailRetry" type="button">Попробовать снова</button></div></div>
+  <div class="detail-controls">
+    <button id="detailPrev" type="button" aria-label="Предыдущий вариант">←</button>
+    <button id="detailScale" type="button">Крупнее</button>
+    <button id="detailNext" type="button" aria-label="Следующий вариант">→</button>
+  </div>
+  <a class="detail-credit" href="assets/chip/illustrations.html" target="_blank" rel="noopener">Источники иллюстраций</a>
 </dialog>
 <dialog id="choiceZoom" class="legacy-zoom choice-zoom" aria-labelledby="choiceZoomTitle">
   <div class="choice-zoom-header"><h2 id="choiceZoomTitle">Варианты ответа</h2><form method="dialog"><button type="submit" autofocus>Закрыть</button></form></div>
