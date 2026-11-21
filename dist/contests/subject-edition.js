@@ -11,6 +11,7 @@ globalThis.makeSubjectEdition = function (meta, rows) {
       if (!image) return {text};
       return {text: row.showOptionText ? text : '', image: image.src,
         description: row.showOptionText ? text + '. ' + image.alt : image.alt,
+        ...(image.detailSrc ? {detailSrc: image.detailSrc} : {}),
         pixelWidth: image.width, pixelHeight: image.height};
     });
     return {

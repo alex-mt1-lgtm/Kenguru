@@ -224,6 +224,16 @@
   <form method="dialog"><button type="submit" autofocus>Закрыть рисунок</button></form>
   <div id="legacyZoomScroll" class="legacy-zoom-scroll" tabindex="0" aria-label="Прокрутка рисунка"><img id="legacyZoomImage" alt=""></div>
 </dialog>
+<dialog id="detailZoom" class="detail-zoom" aria-labelledby="detailTitle">
+  <header><strong id="detailTitle" aria-live="polite"></strong><form method="dialog"><button autofocus>Закрыть</button></form></header>
+  <div id="detailViewport" class="detail-viewport" tabindex="0" aria-label="Область просмотра рисунка"><img id="detailImage" alt=""><div id="detailError" class="detail-error" role="status" hidden>Не удалось загрузить рисунок. <button id="detailRetry" type="button">Попробовать снова</button></div></div>
+  <div class="detail-controls">
+    <button id="detailPrev" type="button" aria-label="Предыдущий вариант">←</button>
+    <button id="detailScale" type="button">Крупнее</button>
+    <button id="detailNext" type="button" aria-label="Следующий вариант">→</button>
+  </div>
+  <a class="detail-credit" href="assets/chip/illustrations.html" target="_blank" rel="noopener">Источники иллюстраций</a>
+</dialog>
 <dialog id="choiceZoom" class="legacy-zoom choice-zoom" aria-labelledby="choiceZoomTitle">
   <div class="choice-zoom-header"><h2 id="choiceZoomTitle">Варианты ответа</h2><form method="dialog"><button type="submit" autofocus>Закрыть</button></form></div>
   <div id="choiceZoomItems" class="choice-zoom-items"></div>

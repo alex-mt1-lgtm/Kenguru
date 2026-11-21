@@ -18,32 +18,37 @@
       {
         "src": "assets/chip/2020/01-a.webp",
         "alt": "Зелёным выделена суша с широкой северной частью, островами и узким перешейком на юге.",
-        "width": 150,
-        "height": 149
+        "width": 480,
+        "height": 480,
+        "detailSrc": "assets/chip/2020/detail/01-a.webp"
       },
       {
         "src": "assets/chip/2020/01-b.webp",
         "alt": "Зелёным выделен материк с широкой северной частью, сужающейся к острому южному концу.",
-        "width": 150,
-        "height": 149
+        "width": 480,
+        "height": 480,
+        "detailSrc": "assets/chip/2020/detail/01-b.webp"
       },
       {
         "src": "assets/chip/2020/01-c.webp",
         "alt": "Зелёным выделена суша, выступающая далеко к востоку вверху и сужающаяся к югу.",
-        "width": 150,
-        "height": 149
+        "width": 480,
+        "height": 480,
+        "detailSrc": "assets/chip/2020/detail/01-c.webp"
       },
       {
         "src": "assets/chip/2020/01-d.webp",
         "alt": "Зелёным выделена обширная суша с неровным западным краем и несколькими южными полуостровами.",
-        "width": 149,
-        "height": 149
+        "width": 480,
+        "height": 480,
+        "detailSrc": "assets/chip/2020/detail/01-d.webp"
       },
       {
         "src": "assets/chip/2020/01-e.webp",
         "alt": "Зелёным выделен небольшой материк в нижней части глобуса.",
-        "width": 149,
-        "height": 149
+        "width": 480,
+        "height": 480,
+        "detailSrc": "assets/chip/2020/detail/01-e.webp"
       }
     ],
     "points": 3
@@ -67,10 +72,11 @@
     "figure": {
       "src": "assets/chip/2020/01-d.webp",
       "alt": "Глобус повёрнут к Азии. Евразия выделена зелёным, Африка слева показана серым. К югу от Евразии видна вода.",
-      "width": 149,
-      "height": 149,
-      "pixelWidth": 149,
-      "pixelHeight": 149
+      "width": 350,
+      "height": 350,
+      "pixelWidth": 480,
+      "pixelHeight": 480,
+      "detailSrc": "assets/chip/2020/detail/01-d.webp"
     }
   },
   {
@@ -92,32 +98,37 @@
       {
         "src": "assets/chip/2020/03-a.webp",
         "alt": "Крупные узловатые стволы, одни освещены солнцем, другие уходят в тень.",
-        "width": 150,
-        "height": 112
+        "width": 480,
+        "height": 304,
+        "detailSrc": "assets/chip/2020/detail/03-a.webp"
       },
       {
         "src": "assets/chip/2020/03-b.webp",
         "alt": "Тёмно-зелёные кроны за светлой открытой поляной.",
-        "width": 150,
-        "height": 112
+        "width": 480,
+        "height": 314,
+        "detailSrc": "assets/chip/2020/detail/03-b.webp"
       },
       {
         "src": "assets/chip/2020/03-c.webp",
         "alt": "Тонкие белые стволы с тёмными полосками на берегу ручья.",
-        "width": 150,
-        "height": 112
+        "width": 480,
+        "height": 326,
+        "detailSrc": "assets/chip/2020/detail/03-c.webp"
       },
       {
         "src": "assets/chip/2020/03-d.webp",
         "alt": "Толстые тёмные стволы и несколько белых стволов в глубине леса.",
-        "width": 150,
-        "height": 112
+        "width": 480,
+        "height": 308,
+        "detailSrc": "assets/chip/2020/detail/03-d.webp"
       },
       {
         "src": "assets/chip/2020/03-e.webp",
         "alt": "Группа высоких деревьев с тёмными кронами на краю песчаной поляны.",
-        "width": 150,
-        "height": 112
+        "width": 480,
+        "height": 314,
+        "detailSrc": "assets/chip/2020/detail/03-e.webp"
       }
     ],
     "points": 3
@@ -157,33 +168,38 @@
     "optionFigures": [
       {
         "src": "assets/chip/2020/05-a.webp",
-        "alt": "Одиночный широкий лист с крупными неровными зубцами.",
-        "width": 123,
-        "height": 123
+        "alt": "Округлый лист на длинном черешке с зубчатым краем.",
+        "width": 284,
+        "height": 480,
+        "detailSrc": "assets/chip/2020/detail/05-a.webp"
       },
       {
         "src": "assets/chip/2020/05-b.webp",
         "alt": "На одном черешке по обе стороны сидят несколько небольших зубчатых листочков.",
-        "width": 207,
-        "height": 209
+        "width": 298,
+        "height": 480,
+        "detailSrc": "assets/chip/2020/detail/05-b.webp"
       },
       {
         "src": "assets/chip/2020/05-c.webp",
         "alt": "Лист с расходящимися острыми лопастями.",
-        "width": 207,
-        "height": 209
+        "width": 480,
+        "height": 427,
+        "detailSrc": "assets/chip/2020/detail/05-c.webp"
       },
       {
         "src": "assets/chip/2020/05-d.webp",
         "alt": "Одиночный лист с острым кончиком, мелкими зубцами по краю и хорошо заметными жилками.",
-        "width": 128,
-        "height": 128
+        "width": 433,
+        "height": 480,
+        "detailSrc": "assets/chip/2020/detail/05-d.webp"
       },
       {
         "src": "assets/chip/2020/05-e.webp",
         "alt": "Лист с округлыми лопастями вдоль центральной жилки.",
-        "width": 127,
-        "height": 127
+        "width": 271,
+        "height": 480,
+        "detailSrc": "assets/chip/2020/detail/05-e.webp"
       }
     ],
     "points": 3
@@ -241,32 +257,37 @@
       {
         "src": "assets/chip/2020/08-a.webp",
         "alt": "Длинный металлический стержень с кольцом на одном конце и крюком на другом.",
-        "width": 132,
-        "height": 131
+        "width": 480,
+        "height": 480,
+        "detailSrc": "assets/chip/2020/detail/08-a.svg"
       },
       {
         "src": "assets/chip/2020/08-b.webp",
         "alt": "Короткая деревянная рукоятка и сильно изогнутое узкое лезвие.",
-        "width": 149,
-        "height": 149
+        "width": 480,
+        "height": 480,
+        "detailSrc": "assets/chip/2020/detail/08-b.svg"
       },
       {
         "src": "assets/chip/2020/08-c.webp",
         "alt": "Длинный стержень с петлёй и коротким концом, отогнутым под прямым углом.",
-        "width": 149,
-        "height": 149
+        "width": 480,
+        "height": 480,
+        "detailSrc": "assets/chip/2020/detail/08-c.svg"
       },
       {
         "src": "assets/chip/2020/08-d.webp",
         "alt": "Деревянная ручка с несколькими параллельными металлическими зубцами.",
-        "width": 149,
-        "height": 149
+        "width": 480,
+        "height": 480,
+        "detailSrc": "assets/chip/2020/detail/08-d.svg"
       },
       {
         "src": "assets/chip/2020/08-e.webp",
         "alt": "Длинная деревянная ручка с изогнутыми металлическими рожками, образующими полукруг.",
-        "width": 149,
-        "height": 149
+        "width": 480,
+        "height": 480,
+        "detailSrc": "assets/chip/2020/detail/08-e.svg"
       }
     ],
     "points": 3
@@ -306,8 +327,11 @@
     "figure": {
       "src": "assets/chip/2020/10.webp",
       "alt": "Длинный бело-зелёный фасад дворца с колоннами, парадными окнами и скульптурами вдоль крыши.",
-      "width": 329,
-      "height": 229
+      "width": 430,
+      "height": 149,
+      "detailSrc": "assets/chip/2020/detail/10.webp",
+      "pixelWidth": 480,
+      "pixelHeight": 166
     },
     "points": 3
   },
@@ -329,8 +353,11 @@
     "figure": {
       "src": "assets/chip/2020/11.webp",
       "alt": "Щит с тремя чёрными дымящимися горами. По бокам две фигуры в золотых одеждах, наверху золотая корона.",
-      "width": 164,
-      "height": 159
+      "width": 280,
+      "height": 280,
+      "detailSrc": "assets/chip/2020/detail/11.webp",
+      "pixelWidth": 480,
+      "pixelHeight": 480
     },
     "points": 4
   },
@@ -370,32 +397,37 @@
       {
         "src": "assets/chip/2020/13-a.webp",
         "alt": "Низкие зелёные растения с жёлтыми звёздчатыми цветками.",
-        "width": 149,
-        "height": 120
+        "width": 480,
+        "height": 320,
+        "detailSrc": "assets/chip/2020/detail/13-a.webp"
       },
       {
         "src": "assets/chip/2020/13-b.webp",
         "alt": "Блестящие округлые зелёные листья с выемкой у основания.",
-        "width": 149,
-        "height": 120
+        "width": 480,
+        "height": 320,
+        "detailSrc": "assets/chip/2020/detail/13-b.webp"
       },
       {
         "src": "assets/chip/2020/13-c.webp",
         "alt": "Белые поникающие цветки между узкими зелёными листьями.",
-        "width": 149,
-        "height": 120
+        "width": 480,
+        "height": 320,
+        "detailSrc": "assets/chip/2020/detail/13-c.webp"
       },
       {
         "src": "assets/chip/2020/13-d.webp",
         "alt": "Фиолетовые цветки на коротких стеблях среди рассечённых листьев.",
-        "width": 149,
-        "height": 120
+        "width": 480,
+        "height": 312,
+        "detailSrc": "assets/chip/2020/detail/13-d.webp"
       },
       {
         "src": "assets/chip/2020/13-e.webp",
         "alt": "Небольшие синие цветки среди длинных узких листьев.",
-        "width": 149,
-        "height": 120
+        "width": 480,
+        "height": 480,
+        "detailSrc": "assets/chip/2020/detail/13-e.webp"
       }
     ],
     "points": 4
@@ -418,8 +450,11 @@
     "figure": {
       "src": "assets/chip/2020/14.webp",
       "alt": "Белая бабочка с чёрными пятнами и красными кружками на задних крыльях.",
-      "width": 230,
-      "height": 147
+      "width": 380,
+      "height": 280,
+      "detailSrc": "assets/chip/2020/detail/14.webp",
+      "pixelWidth": 480,
+      "pixelHeight": 354
     },
     "points": 4
   },
@@ -442,32 +477,37 @@
       {
         "src": "assets/chip/2020/15-a.webp",
         "alt": "Крупный зверь с однотонной рыжей шерстью и тёмной гривой.",
-        "width": 149,
-        "height": 129
+        "width": 480,
+        "height": 320,
+        "detailSrc": "assets/chip/2020/detail/15-a.webp"
       },
       {
         "src": "assets/chip/2020/15-b.webp",
         "alt": "Пушистый серый зверь с круглыми ушами и тёмными полосками на лбу.",
-        "width": 149,
-        "height": 129
+        "width": 480,
+        "height": 480,
+        "detailSrc": "assets/chip/2020/detail/15-b.webp"
       },
       {
         "src": "assets/chip/2020/15-c.webp",
         "alt": "Крупная кошка в чёрных пятнах, с длинным хвостом.",
-        "width": 149,
-        "height": 129
+        "width": 480,
+        "height": 360,
+        "detailSrc": "assets/chip/2020/detail/15-c.webp"
       },
       {
         "src": "assets/chip/2020/15-d.webp",
         "alt": "Большая рыжая кошка с поперечными чёрными полосами.",
-        "width": 149,
-        "height": 129
+        "width": 480,
+        "height": 347,
+        "detailSrc": "assets/chip/2020/detail/15-d.webp"
       },
       {
         "src": "assets/chip/2020/15-e.webp",
         "alt": "У кошки короткий хвост, пятнистая шерсть и кисточки на ушах.",
-        "width": 149,
-        "height": 129
+        "width": 480,
+        "height": 321,
+        "detailSrc": "assets/chip/2020/detail/15-e.webp"
       }
     ],
     "points": 4
@@ -524,8 +564,11 @@
     "figure": {
       "src": "assets/chip/2020/18.webp",
       "alt": "Растение с розеткой плавающих листьев. Справа внизу видны тёмный плод с рожками и его разрез.",
-      "width": 216,
-      "height": 317
+      "width": 174,
+      "height": 280,
+      "detailSrc": "assets/chip/2020/detail/18.webp",
+      "pixelWidth": 298,
+      "pixelHeight": 480
     },
     "points": 4
   },
@@ -547,33 +590,38 @@
     "optionFigures": [
       {
         "src": "assets/chip/2020/19-a.webp",
-        "alt": "Серое копытное с изогнутыми рогами и бородой.",
-        "width": 149,
-        "height": 128
+        "alt": "Коричнево-белое копытное с рогами и бородой.",
+        "width": 480,
+        "height": 480,
+        "detailSrc": "assets/chip/2020/detail/19-a.webp"
       },
       {
         "src": "assets/chip/2020/19-b.webp",
-        "alt": "Крупное чёрно-белое копытное с выменем.",
-        "width": 149,
-        "height": 128
+        "alt": "Крупное чёрно-белое копытное на пастбище.",
+        "width": 480,
+        "height": 360,
+        "detailSrc": "assets/chip/2020/detail/19-b.webp"
       },
       {
         "src": "assets/chip/2020/19-c.webp",
-        "alt": "Копытное с густой светлой шерстью и ушами, выступающими в стороны.",
-        "width": 149,
-        "height": 128
+        "alt": "Голова животного с густой светлой шерстью и выступающими в стороны ушами.",
+        "width": 480,
+        "height": 321,
+        "detailSrc": "assets/chip/2020/detail/19-c.webp"
       },
       {
         "src": "assets/chip/2020/19-d.webp",
-        "alt": "Тёмное копытное с длинными ногами, гривой и длинным хвостом.",
-        "width": 149,
-        "height": 128
+        "alt": "Два копытных с гривами и длинными хвостами на траве.",
+        "width": 480,
+        "height": 360,
+        "detailSrc": "assets/chip/2020/detail/19-d.webp"
       },
       {
         "src": "assets/chip/2020/19-e.webp",
-        "alt": "Розовое животное с пятачком и короткими ногами.",
-        "width": 149,
-        "height": 128
+        "alt": "Розовые животные с пятачками и короткими ногами.",
+        "width": 480,
+        "height": 297,
+        "detailSrc": "assets/chip/2020/detail/19-e.webp"
       }
     ],
     "points": 4
@@ -596,8 +644,11 @@
     "figure": {
       "src": "assets/chip/2020/20.webp",
       "alt": "У рыбы широкое плоское тело с плавниками по краям. Два глаза видны на одной стороне головы.",
-      "width": 298,
-      "height": 147
+      "width": 373,
+      "height": 280,
+      "detailSrc": "assets/chip/2020/detail/20.webp",
+      "pixelWidth": 480,
+      "pixelHeight": 360
     },
     "points": 4
   },
@@ -653,8 +704,11 @@
     "figure": {
       "src": "assets/chip/2020/23.webp",
       "alt": "Ящерица с закрученным хвостом высоко приподняла тело над песком.",
-      "width": 273,
-      "height": 164
+      "width": 373,
+      "height": 280,
+      "detailSrc": "assets/chip/2020/detail/23.webp",
+      "pixelWidth": 480,
+      "pixelHeight": 360
     },
     "points": 5
   },
@@ -692,9 +746,12 @@
     ],
     "figure": {
       "src": "assets/chip/2020/25.webp",
-      "alt": "Ярко-зелёный камень с волнистыми полосами и кольцами разных оттенков.",
-      "width": 290,
-      "height": 205
+      "alt": "Полированный зелёный камень с полосами разных оттенков.",
+      "width": 373,
+      "height": 280,
+      "detailSrc": "assets/chip/2020/detail/25.webp",
+      "pixelWidth": 480,
+      "pixelHeight": 360
     },
     "points": 5
   },
@@ -715,9 +772,12 @@
     ],
     "figure": {
       "src": "assets/chip/2020/26.webp",
-      "alt": "Юноша и зверь на задних лапах в узорной рамке. Надпись гласит «Нет друга — так ищи, а нашёл — так береги».",
-      "width": 247,
-      "height": 231
+      "alt": "Старинная раскрашенная гравюра с котом, мышами и печатным текстом.",
+      "width": 430,
+      "height": 253,
+      "detailSrc": "assets/chip/2020/detail/26.webp",
+      "pixelWidth": 480,
+      "pixelHeight": 282
     },
     "points": 5
   },
@@ -773,8 +833,11 @@
     "figure": {
       "src": "assets/chip/2020/29.webp",
       "alt": "Старая ботаническая иллюстрация. У растения широкие лопастные листья и светлый округлый корнеплод с тонким корнем.",
-      "width": 226,
-      "height": 271
+      "width": 235,
+      "height": 280,
+      "detailSrc": "assets/chip/2020/detail/29.webp",
+      "pixelWidth": 402,
+      "pixelHeight": 480
     },
     "points": 5
   },

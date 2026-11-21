@@ -19,32 +19,37 @@
       {
         "src": "assets/chip/2019/3-4-01-1.webp",
         "alt": "Глобус с Африкой в центре",
-        "width": 150,
-        "height": 155
+        "width": 480,
+        "height": 480,
+        "detailSrc": "assets/chip/2019/detail/3-4-01-1.webp"
       },
       {
         "src": "assets/chip/2019/3-4-01-2.webp",
         "alt": "Глобус с материком целиком между островами Юго-Восточной Азии и Антарктидой",
-        "width": 150,
-        "height": 155
+        "width": 480,
+        "height": 480,
+        "detailSrc": "assets/chip/2019/detail/3-4-01-2.webp"
       },
       {
         "src": "assets/chip/2019/3-4-01-3.webp",
         "alt": "Глобус с Северной Америкой в центре",
-        "width": 150,
-        "height": 155
+        "width": 480,
+        "height": 480,
+        "detailSrc": "assets/chip/2019/detail/3-4-01-3.webp"
       },
       {
         "src": "assets/chip/2019/3-4-01-4.webp",
         "alt": "Глобус с Южной Америкой в центре",
-        "width": 150,
-        "height": 155
+        "width": 480,
+        "height": 480,
+        "detailSrc": "assets/chip/2019/detail/3-4-01-4.webp"
       },
       {
         "src": "assets/chip/2019/3-4-01-5.webp",
         "alt": "Глобус с Евразией в центре и частью материка у нижнего правого края",
-        "width": 150,
-        "height": 155
+        "width": 480,
+        "height": 480,
+        "detailSrc": "assets/chip/2019/detail/3-4-01-5.webp"
       }
     ]
   },
@@ -68,7 +73,8 @@
       "src": "assets/chip/2019/3-4-02.svg",
       "alt": "Австралия слева внизу. Северная и Южная Америка справа. Между их берегами — открытая вода.",
       "width": 720,
-      "height": 414
+      "height": 414,
+      "detailSrc": "assets/chip/2019/3-4-02.svg"
     }
   },
   {
@@ -108,32 +114,37 @@
       {
         "src": "assets/chip/2019/3-4-04-1.webp",
         "alt": "Невысокое серое животное с округлым туловищем и короткими лапами",
-        "width": 160,
-        "height": 165
+        "width": 480,
+        "height": 320,
+        "detailSrc": "assets/chip/2019/detail/3-4-04-1.webp"
       },
       {
         "src": "assets/chip/2019/3-4-04-2.webp",
         "alt": "Животное с длинной мордочкой и иглами на спине",
-        "width": 160,
-        "height": 165
+        "width": 480,
+        "height": 293,
+        "detailSrc": "assets/chip/2019/detail/3-4-04-2.webp"
       },
       {
         "src": "assets/chip/2019/3-4-04-3.webp",
         "alt": "Животное с широким плоским клювом у воды",
-        "width": 160,
-        "height": 165
+        "width": 480,
+        "height": 320,
+        "detailSrc": "assets/chip/2019/detail/3-4-04-3.webp"
       },
       {
         "src": "assets/chip/2019/3-4-04-4.webp",
         "alt": "Серое животное с круглыми пушистыми ушами на ветке",
-        "width": 160,
-        "height": 165
+        "width": 480,
+        "height": 472,
+        "detailSrc": "assets/chip/2019/detail/3-4-04-4.webp"
       },
       {
         "src": "assets/chip/2019/3-4-04-5.webp",
         "alt": "Животное с длинным хвостом и мощными задними лапами",
-        "width": 160,
-        "height": 165
+        "width": 480,
+        "height": 389,
+        "detailSrc": "assets/chip/2019/detail/3-4-04-5.webp"
       }
     ]
   },
@@ -168,38 +179,43 @@
     "points": 3,
     "steps": [
       "Миклухо-Маклай жил на северо-восточном берегу Новой Гвинеи и зарисовывал местных жителей. Здесь нужно найти один из его дневниковых портретов.",
-      "Среди портретов подходит набросок бородатого мужчины в профиль. Это второй рисунок в ряду."
+      "На втором рисунке изображён Туй из селения Горенду. Его профиль, короткие кудри и бороду можно сверить с подписанной зарисовкой Миклухо-Маклая."
     ],
     "optionFigures": [
       {
         "src": "assets/chip/2019/3-4-06-1.webp",
         "alt": "Рисунок человека в головном уборе из длинных перьев",
-        "width": 160,
-        "height": 165
+        "width": 346,
+        "height": 480,
+        "detailSrc": "assets/chip/2019/detail/3-4-06-1.webp"
       },
       {
         "src": "assets/chip/2019/3-4-06-2.webp",
         "alt": "Рисунок бородатого мужчины с короткими волосами в профиль",
-        "width": 160,
-        "height": 165
+        "width": 253,
+        "height": 480,
+        "detailSrc": "assets/chip/2019/detail/3-4-06-2.webp"
       },
       {
         "src": "assets/chip/2019/3-4-06-3.webp",
-        "alt": "Рисунок человека в меховом капюшоне со снаряжением за спиной",
-        "width": 160,
-        "height": 165
+        "alt": "Человек в меховой одежде держит в руках длинные предметы.",
+        "width": 353,
+        "height": 480,
+        "detailSrc": "assets/chip/2019/detail/3-4-06-3.webp"
       },
       {
         "src": "assets/chip/2019/3-4-06-4.webp",
-        "alt": "Рисунок мужчины с длинными волосами и узорчатым ожерельем",
-        "width": 160,
-        "height": 165
+        "alt": "Карандашный портрет с распущенными волосами, лицо повёрнуто к зрителю.",
+        "width": 361,
+        "height": 480,
+        "detailSrc": "assets/chip/2019/detail/3-4-06-4.webp"
       },
       {
         "src": "assets/chip/2019/3-4-06-5.webp",
-        "alt": "Рисунок бородатого мужчины с пучком волос на макушке",
-        "width": 160,
-        "height": 165
+        "alt": "Бородатый человек в длинном одеянии со сложенными перед собой руками.",
+        "width": 274,
+        "height": 480,
+        "detailSrc": "assets/chip/2019/detail/3-4-06-5.webp"
       }
     ]
   },
@@ -257,32 +273,37 @@
       {
         "src": "assets/chip/2019/3-4-09-1.webp",
         "alt": "Синяя птица с раскрытым зелёным хвостом-веером",
-        "width": 160,
-        "height": 139
+        "width": 480,
+        "height": 297,
+        "detailSrc": "assets/chip/2019/detail/3-4-09-1.webp"
       },
       {
         "src": "assets/chip/2019/3-4-09-2.webp",
-        "alt": "Серо-голубая птица в полёте с раскрытыми крыльями",
-        "width": 160,
-        "height": 139
+        "alt": "Серо-голубая птица со светлым пятном на шее стоит на земле.",
+        "width": 480,
+        "height": 360,
+        "detailSrc": "assets/chip/2019/detail/3-4-09-2.webp"
       },
       {
         "src": "assets/chip/2019/3-4-09-3.webp",
-        "alt": "Тёмная птица на ветке с длинными перьями хвоста, загнутыми вверх",
-        "width": 160,
-        "height": 139
+        "alt": "Птица с двумя длинными изогнутыми перьями и тонкими перьями между ними.",
+        "width": 480,
+        "height": 320,
+        "detailSrc": "assets/chip/2019/detail/3-4-09-3.webp"
       },
       {
         "src": "assets/chip/2019/3-4-09-4.webp",
         "alt": "Оранжево-красная птица с длинным узким хвостом",
-        "width": 160,
-        "height": 139
+        "width": 480,
+        "height": 209,
+        "detailSrc": "assets/chip/2019/detail/3-4-09-4.webp"
       },
       {
         "src": "assets/chip/2019/3-4-09-5.webp",
         "alt": "Бурая птица с жёлтой головой и широкими длинными перьями",
-        "width": 160,
-        "height": 139
+        "width": 320,
+        "height": 480,
+        "detailSrc": "assets/chip/2019/detail/3-4-09-5.webp"
       }
     ]
   },
@@ -356,8 +377,11 @@
     "figure": {
       "src": "assets/chip/2019/3-4-13.webp",
       "alt": "Здание на берегу с белыми крышами, похожими на паруса",
-      "width": 358,
-      "height": 264
+      "width": 373,
+      "height": 280,
+      "detailSrc": "assets/chip/2019/detail/3-4-13.webp",
+      "pixelWidth": 480,
+      "pixelHeight": 360
     }
   },
   {
@@ -396,8 +420,11 @@
     "figure": {
       "src": "assets/chip/2019/3-4-15.webp",
       "alt": "Жёлтый знак с изображением медузы и надписью MARINE STINGERS",
-      "width": 200,
-      "height": 199
+      "width": 280,
+      "height": 280,
+      "detailSrc": "assets/chip/2019/detail/3-4-15.svg",
+      "pixelWidth": 480,
+      "pixelHeight": 480
     }
   },
   {
@@ -453,8 +480,11 @@
     "figure": {
       "src": "assets/chip/2019/3-4-18.webp",
       "alt": "Колючая ящерица на песке",
-      "width": 200,
-      "height": 140
+      "width": 371,
+      "height": 280,
+      "detailSrc": "assets/chip/2019/detail/3-4-18.webp",
+      "pixelWidth": 480,
+      "pixelHeight": 362
     }
   },
   {
@@ -476,8 +506,11 @@
     "figure": {
       "src": "assets/chip/2019/3-4-19.webp",
       "alt": "Чёрный силуэт с шестью ногами, усиками и округлым брюшком",
-      "width": 200,
-      "height": 113
+      "width": 430,
+      "height": 244,
+      "detailSrc": "assets/chip/2019/detail/3-4-19.svg",
+      "pixelWidth": 480,
+      "pixelHeight": 272
     }
   },
   {
@@ -500,32 +533,37 @@
       {
         "src": "assets/chip/2019/3-4-20-1.webp",
         "alt": "Чёрная птица с синей шеей и наростом на голове",
-        "width": 160,
-        "height": 118
+        "width": 480,
+        "height": 360,
+        "detailSrc": "assets/chip/2019/detail/3-4-20-1.webp"
       },
       {
         "src": "assets/chip/2019/3-4-20-2.webp",
         "alt": "Крупная бурая птица на длинных ногах",
-        "width": 160,
-        "height": 118
+        "width": 480,
+        "height": 384,
+        "detailSrc": "assets/chip/2019/detail/3-4-20-2.webp"
       },
       {
         "src": "assets/chip/2019/3-4-20-3.webp",
         "alt": "Серая птица с длинной шеей",
-        "width": 160,
-        "height": 118
+        "width": 480,
+        "height": 376,
+        "detailSrc": "assets/chip/2019/detail/3-4-20-3.webp"
       },
       {
         "src": "assets/chip/2019/3-4-20-4.webp",
-        "alt": "Тёмная птица с белыми полосами на крыльях и хохолком",
-        "width": 160,
-        "height": 118
+        "alt": "Тёмная птица с золотистым хохолком, на сложенных крыльях видны белые перья.",
+        "width": 480,
+        "height": 440,
+        "detailSrc": "assets/chip/2019/detail/3-4-20-4.webp"
       },
       {
         "src": "assets/chip/2019/3-4-20-5.webp",
         "alt": "Розовая птица с изогнутой шеей стоит в воде",
-        "width": 160,
-        "height": 118
+        "width": 384,
+        "height": 480,
+        "detailSrc": "assets/chip/2019/detail/3-4-20-5.webp"
       }
     ],
     "showOptionText": true
@@ -550,32 +588,37 @@
       {
         "src": "assets/chip/2019/3-4-21-1.webp",
         "alt": "Древко с острым наконечником",
-        "width": 160,
-        "height": 151
+        "width": 480,
+        "height": 480,
+        "detailSrc": "assets/chip/2019/detail/3-4-21-1.svg"
       },
       {
         "src": "assets/chip/2019/3-4-21-2.webp",
         "alt": "Верёвочная петля с кармашком",
-        "width": 160,
-        "height": 151
+        "width": 480,
+        "height": 480,
+        "detailSrc": "assets/chip/2019/detail/3-4-21-2.svg"
       },
       {
         "src": "assets/chip/2019/3-4-21-3.webp",
         "alt": "Плоский предмет с двумя длинными плечами, соединёнными плавным изгибом",
-        "width": 160,
-        "height": 151
+        "width": 480,
+        "height": 480,
+        "detailSrc": "assets/chip/2019/detail/3-4-21-3.svg"
       },
       {
         "src": "assets/chip/2019/3-4-21-4.webp",
         "alt": "Лук с натянутой тетивой",
-        "width": 160,
-        "height": 151
+        "width": 480,
+        "height": 480,
+        "detailSrc": "assets/chip/2019/detail/3-4-21-4.svg"
       },
       {
         "src": "assets/chip/2019/3-4-21-5.webp",
         "alt": "Сетка на рукоятке",
-        "width": 160,
-        "height": 151
+        "width": 480,
+        "height": 480,
+        "detailSrc": "assets/chip/2019/detail/3-4-21-5.svg"
       }
     ]
   },
@@ -632,8 +675,11 @@
     "figure": {
       "src": "assets/chip/2019/3-4-24.webp",
       "alt": "Люди с лопатами и деревянными приспособлениями у воды на картине",
-      "width": 200,
-      "height": 144
+      "width": 359,
+      "height": 280,
+      "detailSrc": "assets/chip/2019/detail/3-4-24.webp",
+      "pixelWidth": 480,
+      "pixelHeight": 374
     }
   },
   {
@@ -673,32 +719,37 @@
       {
         "src": "assets/chip/2019/3-4-26-1.webp",
         "alt": "Деревянная трубка с отверстиями",
-        "width": 160,
-        "height": 145
+        "width": 201,
+        "height": 480,
+        "detailSrc": "assets/chip/2019/detail/3-4-26-1.webp"
       },
       {
         "src": "assets/chip/2019/3-4-26-2.webp",
-        "alt": "Барабан с двумя палочками",
-        "width": 160,
-        "height": 145
+        "alt": "Невысокий барабан с натянутой мембраной и металлическим ободом.",
+        "width": 480,
+        "height": 480,
+        "detailSrc": "assets/chip/2019/detail/3-4-26-2.webp"
       },
       {
         "src": "assets/chip/2019/3-4-26-3.webp",
         "alt": "Струнный инструмент с длинным грифом и круглым отверстием в корпусе",
-        "width": 160,
-        "height": 145
+        "width": 234,
+        "height": 480,
+        "detailSrc": "assets/chip/2019/detail/3-4-26-3.webp"
       },
       {
         "src": "assets/chip/2019/3-4-26-4.webp",
-        "alt": "Струнный инструмент рядом со смычком",
-        "width": 160,
-        "height": 145
+        "alt": "Деревянный инструмент с четырьмя струнами и двумя фигурными отверстиями, показанный спереди и сбоку.",
+        "width": 353,
+        "height": 480,
+        "detailSrc": "assets/chip/2019/detail/3-4-26-4.webp"
       },
       {
         "src": "assets/chip/2019/3-4-26-5.webp",
         "alt": "Золотистый духовой инструмент с широким раструбом",
-        "width": 160,
-        "height": 145
+        "width": 480,
+        "height": 262,
+        "detailSrc": "assets/chip/2019/detail/3-4-26-5.webp"
       }
     ]
   },
@@ -738,8 +789,11 @@
     "figure": {
       "src": "assets/chip/2019/3-4-28.webp",
       "alt": "Круглая впадина с приподнятым краем на снимке с воздуха",
-      "width": 200,
-      "height": 87
+      "width": 430,
+      "height": 242,
+      "detailSrc": "assets/chip/2019/detail/3-4-28.webp",
+      "pixelWidth": 480,
+      "pixelHeight": 270
     }
   },
   {
