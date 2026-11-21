@@ -1,4 +1,5 @@
 import json
+from html import escape
 from pathlib import Path
 
 import fitz
@@ -10,12 +11,72 @@ SOURCES = ROOT / 'sources' / 'chip'
 ASSETS = ROOT / 'dist' / 'assets' / 'chip'
 
 
+def preview_from_master(path):
+    if path.suffix == '.svg':
+        with fitz.open(path) as vector:
+            page = vector[0]
+            scale = 480 / max(page.rect.width, page.rect.height)
+            pixels = page.get_pixmap(matrix=fitz.Matrix(scale, scale), alpha=False)
+            return Image.frombytes('RGB', (pixels.width, pixels.height), pixels.samples)
+    with Image.open(path) as original:
+        image = original.copy()
+    image.thumbnail((480, 480), Image.Resampling.LANCZOS)
+    return image
+
+
+def build_credits(manifests):
+    parts = ['''<!doctype html>
+<html lang="ru"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Источники иллюстраций ЧИП · Olympiads.pro</title>
+<style>body{font:1rem/1.6 system-ui,sans-serif;max-width:56rem;margin:auto;padding:1.2rem;color:#172e34;background:#fffefa}h1,h2{line-height:1.2}li{margin-block:.65rem}a{color:#165c56}ul{padding-inline-start:1.5rem}</style>
+<main><h1>Источники иллюстраций ЧИП</h1>
+<p>Оригинальные буклеты доступны в уроках. Здесь указаны источники крупных изображений, использованных в тренировочных заданиях.</p>''']
+    for path in manifests:
+        year = path.parent.name
+        rows = json.loads(path.with_name('3-4.json').read_text(encoding='utf-8'))
+        figures = json.loads(path.read_text(encoding='utf-8'))['figures']
+        parts.append(f'<h2>{escape(year)} · 3–4 классы</h2><ul>')
+        for number, row in enumerate(rows, 1):
+            images = row.get('optionFigures') or ([row['figure']] if 'figure' in row else [])
+            for index, image in enumerate(images):
+                detail = figures.get(Path(image['src']).stem, {}).get('detail')
+                if not detail:
+                    continue
+                source = detail['source']
+                if source == 'tasks.pdf':
+                    source = year + '/tasks.pdf'
+                label = f'№ {number}' + (' · ' + 'АБВГД'[index] if row.get('optionFigures') else '')
+                license_name = escape(detail['license'])
+                if detail.get('licenseUrl'):
+                    license_name = f'<a href="{escape(detail["licenseUrl"], quote=True)}">{license_name}</a>'
+                master = ASSETS / year / detail['file']
+                size = 'SVG'
+                if master.suffix != '.svg':
+                    with Image.open(master) as original:
+                        size = f'{original.width} × {original.height} px'
+                parts.append(f'<li><strong>{label}</strong> · {escape(detail["author"])}. '
+                             f'<a href="{escape(source, quote=True)}">Источник</a> · {license_name}. '
+                             f'{escape(detail["processing"])} <small>({size})</small></li>')
+        parts.append('</ul>')
+    parts.append('</main>')
+    (ASSETS / 'illustrations.html').write_text('\n'.join(parts) + '\n', encoding='utf-8')
+
+
 def build_figures(manifest_path):
     manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
     output = ASSETS / manifest_path.parent.name
     output.mkdir(parents=True, exist_ok=True)
     with fitz.open(manifest_path.with_name(manifest['source'])) as document:
         for name, figure in manifest['figures'].items():
+            if 'detail' in figure:
+                master = output / figure['detail']['file']
+                if master == output / f'{name}.svg':
+                    if not master.is_file():
+                        raise FileNotFoundError(master)
+                    continue
+                preview = preview_from_master(master)
+                preview.save(output / f'{name}.webp', quality=86, method=5)
+                continue
             page = document[figure['page']]
             if 'xref' in figure:
                 pixels = fitz.Pixmap(document, figure['xref'])
@@ -39,5 +100,7 @@ def build_figures(manifest_path):
 
 
 if __name__ == '__main__':
-    for manifest_path in sorted(SOURCES.glob('*/figures.json')):
+    manifests = sorted(SOURCES.glob('*/figures.json'))
+    for manifest_path in manifests:
         build_figures(manifest_path)
+    build_credits(manifests)

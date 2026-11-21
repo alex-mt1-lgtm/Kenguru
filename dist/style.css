@@ -456,6 +456,33 @@ body{font-size:18px;line-height:1.5}.player .condition{margin:18px 0 24px;font-s
   object-fit: contain;
 }
 
+.detail-zoom {
+  width: min(1100px, calc(100% - 16px));
+  height: min(850px, calc(100dvh - 16px));
+  max-width: none;
+  max-height: none;
+  box-sizing: border-box;
+  padding: 12px;
+  border: 1px solid #bacdb8;
+  border-radius: 12px;
+  background: #fffefa;
+  color: var(--ink);
+}
+.detail-zoom[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto auto; gap: 6px; }
+.detail-zoom::backdrop { background: #172e34b0; }
+.detail-zoom header, .detail-controls { display: flex; gap: 10px; align-items: center; }
+.detail-zoom header { justify-content: space-between; position: static; width: 100%; margin: 0; border: 0; color: var(--ink); font-size: 18px; background: none; padding: 0; }
+.detail-controls { justify-content: center; }
+.detail-zoom button {
+  min-width: 44px; min-height: 44px; padding: 6px 14px;
+  border: 1px solid #bacdb8; border-radius: 8px; background: #f3f6ef; color: var(--ink);
+}
+.detail-zoom button:disabled { opacity: .45; }
+.detail-viewport { min-width: 0; min-height: 0; display: grid; overflow: auto; overscroll-behavior: contain; background: #f4f2ed; }
+.detail-viewport img { display: block; align-self: safe center; margin: auto; max-width: none; height: auto; }
+.detail-zoom [hidden] { display: none; }
+.detail-error { align-self: center; text-align: center; padding: 16px; }
+.detail-credit { justify-self: center; font-size: 13px; color: #275955; }
 .choice-zoom-trigger { display: block; margin: 12px 0 0; }
 .separated-answers .answer { justify-content: center; }
 .separated-answers .answer img {

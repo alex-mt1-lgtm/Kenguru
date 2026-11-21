@@ -822,12 +822,84 @@ $('yearPicker').addEventListener('change', () => {
   if (selected) selected.then(closeSingleEdition);
   else closeSingleEdition();
 });
+let detailGallery = [];
+let detailIndex = 0;
+let detailMagnified = false;
+
+function sizeDetailImage() {
+  const img = $('detailImage');
+  const viewport = $('detailViewport');
+  if (!$('detailZoom').open || !img.complete || !img.naturalWidth) return;
+  const vector = img.currentSrc.endsWith('.svg');
+  const fit = Math.min(viewport.clientWidth / img.naturalWidth, viewport.clientHeight / img.naturalHeight, vector ? Infinity : 1);
+  const scale = detailMagnified ? Math.min(vector ? Infinity : 1, fit * 2) : fit;
+  const scaleButton = $('detailScale');
+  scaleButton.disabled = !vector && fit >= 1;
+  scaleButton.textContent = scaleButton.disabled ? 'Полный размер' : detailMagnified ? 'Целиком' : 'Крупнее';
+  img.style.width = Math.round(img.naturalWidth * scale) + 'px';
+  viewport.scrollLeft = Math.max(0, (img.offsetWidth - viewport.clientWidth) / 2);
+  viewport.scrollTop = Math.max(0, (img.offsetHeight - viewport.clientHeight) / 2);
+}
+
+function showDetail(index) {
+  detailIndex = index;
+  const item = detailGallery[index];
+  const img = $('detailImage');
+  $('detailTitle').textContent = item.title;
+  $('detailPrev').hidden = $('detailNext').hidden = detailGallery.length === 1;
+  $('detailPrev').disabled = index === 0;
+  $('detailNext').disabled = index === detailGallery.length - 1;
+  $('detailScale').textContent = detailMagnified ? 'Целиком' : 'Крупнее';
+  img.alt = item.alt;
+  img.hidden = false;
+  $('detailError').hidden = true;
+  $('detailScale').disabled = true;
+  img.onload = sizeDetailImage;
+  img.onerror = () => {
+    img.hidden = true;
+    $('detailScale').disabled = true;
+    $('detailError').hidden = false;
+  };
+  img.src = item.detail || item.preview;
+  sizeDetailImage();
+}
+
+function openDetail(items, index, magnified) {
+  detailGallery = items;
+  detailMagnified = magnified;
+  $('detailZoom').showModal();
+  showDetail(index);
+}
+
+$('detailRetry').onclick = () => showDetail(detailIndex);
+$('detailZoom').addEventListener('keydown', event => {
+  if (detailMagnified || detailGallery.length < 2) return;
+  const direction = event.key === 'ArrowLeft' ? -1 : event.key === 'ArrowRight' ? 1 : 0;
+  const next = detailIndex + direction;
+  if (direction && next >= 0 && next < detailGallery.length) {
+    event.preventDefault();
+    showDetail(next);
+  }
+});
+$('detailPrev').onclick = () => showDetail(detailIndex - 1);
+$('detailNext').onclick = () => showDetail(detailIndex + 1);
+$('detailScale').onclick = () => {
+  detailMagnified = !detailMagnified;
+  sizeDetailImage();
+};
+globalThis.addEventListener?.('resize', sizeDetailImage);
+
 $('openLegacyZoom').onclick = () => {
   const lesson = LESSONS[task];
   const path = lesson.conditionImage;
   if (!path) return;
   const image = $('legacyZoomImage');
   const figure = lesson.choiceLayout?.condition;
+  if (activeSet().subject === 'chip') {
+    openDetail([{title: 'Рисунок к задаче ' + lesson.number, preview: path, detail: figure?.detailSrc,
+      alt: lesson.conditionAlt ?? 'Рисунок из условия задачи'}], 0, globalThis.matchMedia('(max-width: 600px)').matches);
+    return;
+  }
   image.style.width = figure?.pixelWidth ? '100%' : '';
   image.style.maxWidth = figure?.pixelWidth ? `min(100%, ${figure.pixelWidth * 2}px)` : '';
   image.style.maxHeight = figure?.pixelHeight ? `min(calc(100dvh - 106px), ${figure.pixelHeight * 2}px)` : '';
@@ -840,6 +912,15 @@ $('openChoiceZoom').onclick = () => {
   const lesson = LESSONS[task];
   const options = lesson.choiceLayout?.options;
   if (!options?.some(option => option.image)) return;
+  if (activeSet().subject === 'chip') {
+    const items = options.flatMap((option, index) => option.image ? [{
+      index, title: 'Вариант ' + answerLetter(index), preview: option.image, detail: option.detailSrc,
+      alt: graphicAnswerDescription(lesson, index) ?? option.description ?? '',
+    }] : []);
+    const selected = items.findIndex(item => item.index === current().selected);
+    openDetail(items, Math.max(0, selected), false);
+    return;
+  }
   $('choiceZoomItems').innerHTML = options.map((option, index) => {
     const {image, text, presentation} = option;
     const description = graphicAnswerDescription(lesson, index) ?? option.description ?? '';
