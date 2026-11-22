@@ -110,11 +110,17 @@ REBUSES = [
         ((14,0,192,57), 'Две ели, буква Е за В, затем таз с запятой после него.'),
         ((211,0,411,57), 'Гриб и гора с запятой после каждого, кий с запятой перед ним.'),
         ((424,0,591,57), 'Дом с зачёркнутой о, затем буква и, цифра 3 и буква й.'),
-        ((84,57,177,118), 'Нота соль с запятой перед ней, нога с двумя запятыми перед ней.'),
-        ((216,57,306,118), 'Мак, нота си и буква м.'),
-        ((324,57,410,118), 'Ж над Е, цифра 2 с зачёркнутой в над ней.'),
+        ((84,57,177,118), 'Запятая перед нотным станом с нотой соль. Две запятые перед рисунком ноги.'),
+        ((216,57,306,118), 'Цветок мака, нота си на нотном стане и прописная М.'),
+        ((324,57,410,118), 'Слева Ж над Е. Справа строчная в, перечёркнутая крестом, над цифрой 2.'),
     ]),
 ]
+# Hand-drawn vector masters, checked against the corresponding regions of the 2004 booklet.
+REBUS_VECTORS = {'4-5': {
+    4: {}, 5: {},
+    # On first magnification show the crossed-out letter above the 2.
+    6: {'zoomCenter': {'x': 0.79, 'y': 0.20}},
+}}
 # Traced from the 1023 × 230 embedded diagram on page 2 of the 2016 answers PDF.
 # The five paths use the original coordinates so the key and the signs keep the same proportions.
 CIPHER = [
@@ -215,17 +221,37 @@ def rebus_reader(grade, number, items):
             top = 109 + (index // 2) * 214
             page.draw_line((left,top),(left+253,top),color=(0.65,0.65,0.65),width=0.5)
             page.insert_text((left,top+21), item['caption'], fontname=font, fontsize=12)
-            with Image.open(ROOT / 'dist' / item['src']) as image:
-                buffer = io.BytesIO()
-                image.save(buffer, format='PNG')
-                page.insert_image((left,top+35,left+253,top+152),stream=buffer.getvalue())
+            artwork = ROOT / 'dist' / item['src']
+            bounds = fitz.Rect(left, top+35, left+253, top+152)
+            if artwork.suffix == '.svg':
+                with fitz.open(artwork) as svg, fitz.open('pdf', svg.convert_to_pdf()) as vector:
+                    page.show_pdf_page(bounds, vector, 0)
+            else:
+                with Image.open(artwork) as image:
+                    buffer = io.BytesIO()
+                    image.save(buffer, format='PNG')
+                    page.insert_image(bounds, stream=buffer.getvalue())
             note = page.insert_textbox((left,top+160,left+253,top+207),item['alt'],fontname=font,fontsize=11)
             if note < 0:
                 raise ValueError(f'Caption for {grade}, № {number}, panel {index + 1} does not fit')
-        page.insert_text((36,790), 'Рисунки увеличены из оригинального растра. Под ними перечислены видимые знаки.',
-                         fontname=font, fontsize=9)
+        footnote = ('Ребусы 1–3 увеличены из исходного растра. Ребусы 4–6 восстановлены по буклету.'
+                    if grade in REBUS_VECTORS else
+                    'Рисунки увеличены из оригинального растра. Под ними перечислены видимые знаки.')
+        page.insert_text((36,790), footnote, fontname=font, fontsize=9)
         appendix.subset_fonts()
+        appendix_number = len(booklet)
         booklet.insert_pdf(appendix)
+        if grade in REBUS_VECTORS:
+            task_page = booklet[0]
+            panel, = task_page.get_image_info()
+            link_area = fitz.Rect(panel['bbox'])
+            label = f'Крупные рисунки к задаче {number}'
+            task_page.insert_text((link_area.x0, link_area.y1 + 15), label, fontname=font,
+                                  fontfile=font_file, fontsize=10, color=(0.08, 0.28, 0.53))
+            link_area.y1 += 19
+            task_page.insert_link({'kind': fitz.LINK_GOTO, 'from': link_area, 'page': appendix_number})
+            booklet.set_toc([[1, label, appendix_number + 1]])
+            booklet.subset_fonts()
         output.write_bytes(booklet.tobytes(garbage=4, deflate=True, no_new_id=True))
 
 
@@ -283,10 +309,20 @@ def main():
         folder,stem,record=destination(2004,grade,number)
         original = embedded(doc,page,top)
         figure = raster_asset(original,folder,stem)
-        figure['items'] = [
-            {**raster_asset(original.crop(box),folder,f'{stem}-condition-{i}'),'caption':f'Ребус {i}','alt':description}
-            for i,(box,description) in enumerate(regions, 1)
-        ]
+        items = []
+        for i, (box, description) in enumerate(regions, 1):
+            name = f'{stem}-condition-{i}'
+            if i in REBUS_VECTORS.get(grade, ()):
+                source = folder / f'{name}.svg'
+                with fitz.open(source) as svg:
+                    size = svg[0].rect
+                file = {'src': source.relative_to(ROOT / 'dist').as_posix(),
+                        'width': round(size.width), 'height': round(size.height),
+                        **REBUS_VECTORS[grade][i]}
+            else:
+                file = raster_asset(original.crop(box), folder, name)
+            items.append({**file, 'caption': f'Ребус {i}', 'alt': description})
+        figure['items'] = items
         figure['alt'] = ' '.join(f'{i}. {description}' for i,(_,description) in enumerate(regions, 1))
         record['condition']=figure
         rebus_reader(grade, number, figure['items'])

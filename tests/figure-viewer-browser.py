@@ -202,6 +202,20 @@ def condition_items(page):
     expect(page.locator("#conditionPictures")).to_be_hidden()
     expect(page.locator("#conditionImage")).to_have_attribute("src", figure["src"])
 
+    open_task(page, "2004-medvezhonok-4-5/10")
+    button = page.locator('#scene [data-condition-item="5"]')
+    open_viewer(page, button)
+    page.locator("#detailScale").click()
+    view = page.locator("#detailViewport").bounding_box()
+    image = page.locator("#detailImage").bounding_box()
+    # The two strokes crossing the small letter occupy the top-right of the 67 × 53 drawing.
+    for axis, size, start, end, span in (("x", "width", 46, 60, 67), ("y", "height", 4, 18, 53)):
+        assert view[axis] <= image[axis] + start / span * image[size]
+        assert image[axis] + end / span * image[size] <= view[axis] + view[size]
+    page.locator("#detailScale").click()
+    assert_fitted(page)
+    close_viewer(page, button)
+
 
 def workspace(page):
     open_task(page, "2024-3-4/1")
