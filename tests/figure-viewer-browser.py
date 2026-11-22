@@ -1,5 +1,6 @@
 """Run with Python Playwright and Chromium against a server for dist/."""
 
+import re
 import shutil
 import sys
 
@@ -56,11 +57,23 @@ def compact_viewer(page):
     button = page.locator("#openLegacyZoom")
     open_viewer(page, button)
     initial = control_positions(page)
-    assert initial[0]["height"] < height * .45
-    page.locator("#detailNext").click()
-    expect(page.locator("#detailScale")).to_be_enabled()
-    assert control_positions(page) == initial
+    assert initial[0]["height"] <= height
     img = page.locator("#detailImage")
+    page.locator("#detailNext").click()
+    expect(img).to_have_attribute("src", re.compile(r"condition-2[.]svg$"))
+    expect(page.locator("#detailScale")).to_be_enabled()
+    assert_fitted(page)
+    vector_width = img.bounding_box()["width"]
+    page.locator("#detailScale").click()
+    assert img.bounding_box()["width"] > vector_width
+    assert control_positions(page) == initial
+
+    # Rebus 5 retains a small raster. Its zoom uses the source pixel limit.
+    for number in (3, 4, 5):
+        page.locator("#detailNext").click()
+        expect(img).to_have_attribute("src", re.compile(rf"condition-{number}[.]"))
+        expect(page.locator("#detailScale")).to_be_enabled()
+    assert control_positions(page) == initial
     native_width = img.evaluate("(img) => img.naturalWidth")
     normal_width = img.bounding_box()["width"]
     assert native_width < normal_width <= native_width * 1.5
