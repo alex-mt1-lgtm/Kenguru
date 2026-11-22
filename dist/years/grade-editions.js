@@ -46,6 +46,23 @@
       '102 0 432 348', 'worked-scene');
   }
 
+  function shadeCells(step, frame) {
+    if (step !== 2) return null;
+    const alreadyShaded = [2, 4, 7, 9];
+    const newlyShaded = [0, 1];
+    const cells = Array.from({length: 12}, (_, index) => {
+      const x = 90 + index % 4 * 42;
+      const y = 20 + Math.floor(index / 4) * 42;
+      const change = newlyShaded.indexOf(index);
+      const opacity = alreadyShaded.includes(index) ? 1 : change < 0 ? 0 : visual.reveal(frame * 2 - change * .65);
+      return `<rect x="${x}" y="${y}" width="42" height="42" fill="#fff"/>
+        <rect x="${x}" y="${y}" width="42" height="42" fill="#202020" opacity="${opacity}"/>
+        <rect x="${x}" y="${y}" width="42" height="42" fill="none" stroke="#202020" stroke-width="1.2"/>`;
+    });
+    return visual.svg(cells.join(''), 'В двух белых клетках верхней строки появляется чёрная заливка',
+      '65 6 218 154', 'worked-scene');
+  }
+
   const editions = [...(globalThis.KENGURU_GRADES_7_8 ?? []), ...(globalThis.KENGURU_JUNIOR_SENIOR ?? [])];
   for (const edition of editions) {
     const answerLetters = [...(edition.answerLetters ?? cyrillicAnswers)];
@@ -80,7 +97,8 @@
         if (!step) return '';
         if (!hasReview) return keyedAnswer;
         const stage = review[step - 1];
-        const animation = id === '2026-7-8' && number === 1 ? circleComparison(step, frame) : null;
+        const animation = id === '2026-7-8' && number === 1 ? circleComparison(step, frame)
+          : id === '2017-2' && number === 6 ? shadeCells(step, frame) : null;
         return animation ?? (visual.workedScene(stage, frame)
           || (step === review.length ? keyedAnswer : ''));
       });

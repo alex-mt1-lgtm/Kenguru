@@ -20,6 +20,14 @@ function showArchiveGrade() {
     for (const group of russianEditions.querySelectorAll('.archive-editions')) group.hidden = group.id !== 'russian-' + lastRussianYear;
   }
   const contest = target?.closest('.subject-archive');
+  let selectedYear;
+  if (contest) {
+    const picker = contest.querySelector('[data-contest-year]');
+    selectedYear = target.closest('[data-contest-group]')?.dataset.contestGroup ?? picker.value;
+    picker.value = selectedYear;
+    picker.parentElement.hidden = false;
+    for (const group of contest.querySelectorAll('[data-contest-group]')) group.hidden = group.dataset.contestGroup !== selectedYear;
+  }
   const subject = contest?.id ?? (russian ? 'ru' : 'math');
   const math = subject === 'math';
   for (const section of document.querySelectorAll('.subject-archive')) section.hidden = section !== contest;
@@ -30,7 +38,8 @@ function showArchiveGrade() {
   document.querySelector('.archive-heading .intro').textContent = contest || russian
     ? 'Выбери год конкурса и класс.' : mathIntro;
   for (const link of document.querySelectorAll('footer [data-subject]')) link.hidden = link.dataset.subject !== subject;
-  const lessonUrl = contest ? contest.querySelector('.archive-open').getAttribute('href').replace('./#', '/#') : russian ? '/#zadacha=' + lastRussianYear + '-medvezhonok-2-3/1' : '/';
+  const contestLesson = contest && (document.getElementById(contest.id + '-' + selectedYear)?.querySelector('.archive-open') ?? contest.querySelector('.archive-open'));
+  const lessonUrl = contestLesson ? contestLesson.getAttribute('href').replace('./#', '/#') : russian ? '/#zadacha=' + lastRussianYear + '-medvezhonok-2-3/1' : '/';
   document.querySelector('.archive-back').href = lessonUrl;
   document.querySelector('.archive-header .site-brand').href = lessonUrl;
   russianEditions.hidden = !russian;
@@ -61,7 +70,7 @@ const formats = globalThis.KENGURU_ARCHIVE_FORMATS ?? {};
 for (const card of document.querySelectorAll('.archive-card')) {
   const solveLink = card.querySelector('a[href*="#zadacha="]');
   const edition = solveLink?.hash.slice('#zadacha='.length).split('/')[0];
-  const text = formatNames[solveLink ? formats[edition] : 'pdf'];
+  const text = !solveLink && card.closest('.subject-archive') ? '' : formatNames[solveLink ? formats[edition] : 'pdf'];
   if (!text) continue;
   const label = document.createElement('p');
   label.className = 'archive-format';
@@ -70,6 +79,9 @@ for (const card of document.querySelectorAll('.archive-card')) {
 }
 
 document.querySelector('.archive-page').classList.add('has-grade-nav');
+for (const picker of document.querySelectorAll('[data-contest-year]')) {
+  picker.addEventListener('change', () => { location.hash = picker.closest('.subject-archive').id + '-' + picker.value; });
+}
 showArchiveGrade();
 window.addEventListener('hashchange', showArchiveGrade);
 russianYear.addEventListener('change', () => { location.hash = 'russian-' + russianYear.value; });

@@ -5,16 +5,17 @@ function formatRatingPoints(points) {
   return `${points} ${word}`;
 }
 
-function recordRatedTransition(step) {
-  const lesson = LESSONS[task];
-  const state = current();
-  if (!activeProfileId || state.step !== 0 || step === 0 || !Number.isInteger(lesson.answer)) return 0;
+function recordRatedTransition(step, index = task) {
+  const lesson = LESSONS[index];
+  const state = states[index];
+  const answer = lesson.numericAnswer ?? lesson.answer;
+  if (!activeProfileId || state.step !== 0 || step === 0 || !Number.isInteger(answer)) return 0;
   const key = 'rating:' + lessonKey(lesson);
   try {
     if (readProfileValue(activeProfileId, key)) return 0;
     const previous = readProgress(lessonKey(lesson));
     const independent = !state.seen && !previous?.seen && !previous?.reviewOpened && !(previous?.step > 0);
-    const correct = independent && state.selected === lesson.answer;
+    const correct = independent && state.selected === answer;
     writeProfileValue(activeProfileId, key, correct ? 'solved' : 'reviewed', independent ? state.selected : undefined);
     return correct ? lesson.points : 0;
   } catch {

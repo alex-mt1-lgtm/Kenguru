@@ -1,4 +1,5 @@
 import json
+import re
 from html import escape
 from pathlib import Path
 
@@ -11,17 +12,54 @@ SOURCES = ROOT / 'sources' / 'chip'
 ASSETS = ROOT / 'dist' / 'assets' / 'chip'
 
 
-def preview_from_master(path):
+def preview_from_master(path, max_size=480):
     if path.suffix == '.svg':
         with fitz.open(path) as vector:
             page = vector[0]
-            scale = 480 / max(page.rect.width, page.rect.height)
+            scale = max_size / max(page.rect.width, page.rect.height)
             pixels = page.get_pixmap(matrix=fitz.Matrix(scale, scale), alpha=False)
             return Image.frombytes('RGB', (pixels.width, pixels.height), pixels.samples)
     with Image.open(path) as original:
         image = original.copy()
-    image.thumbnail((480, 480), Image.Resampling.LANCZOS)
+    image.thumbnail((max_size, max_size), Image.Resampling.LANCZOS)
     return image
+
+
+def credit_lines(path, manifest):
+    year = path.parent.name
+    label = year
+    if manifest.get('title'):
+        label += ' · ' + manifest['title']
+    for edition in sorted(path.parent.glob('*.json')):
+        grade = edition.stem
+        if not re.fullmatch(r'\d+(?:-\d+)?', grade):
+            continue
+        grade_label = grade.replace('-', '–')
+        grade_label += ' классы' if '-' in grade else ' класс'
+        yield f'<h2>{escape(label)} · {grade_label}</h2><ul>'
+        rows = json.loads(edition.read_text(encoding='utf-8'))
+        for number, row in enumerate(rows, 1):
+            images = row.get('optionFigures') or ([row['figure']] if 'figure' in row else [])
+            for index, image in enumerate(images):
+                detail = manifest['figures'].get(Path(image['src']).stem, {}).get('detail')
+                if not detail:
+                    continue
+                source = detail['source']
+                if source == 'tasks.pdf':
+                    source = year + '/tasks.pdf'
+                name = f'№ {number}' + (' · ' + 'АБВГД'[index] if row.get('optionFigures') else '')
+                license_name = escape(detail['license'])
+                if detail.get('licenseUrl'):
+                    license_name = f'<a href="{escape(detail["licenseUrl"], quote=True)}">{license_name}</a>'
+                master = ASSETS / year / detail['file']
+                size = 'SVG'
+                if master.suffix != '.svg':
+                    with Image.open(master) as original:
+                        size = f'{original.width} × {original.height} px'
+                yield (f'<li><strong>{name}</strong> · {escape(detail["author"])}. '
+                       f'<a href="{escape(source, quote=True)}">Источник</a> · {license_name}. '
+                       f'{escape(detail["processing"])} <small>({size})</small></li>')
+        yield '</ul>'
 
 
 def build_credits(manifests):
@@ -32,32 +70,7 @@ def build_credits(manifests):
 <main><h1>Источники иллюстраций ЧИП</h1>
 <p>Оригинальные буклеты доступны в уроках. Здесь указаны источники крупных изображений, использованных в тренировочных заданиях.</p>''']
     for path in manifests:
-        year = path.parent.name
-        rows = json.loads(path.with_name('3-4.json').read_text(encoding='utf-8'))
-        figures = json.loads(path.read_text(encoding='utf-8'))['figures']
-        parts.append(f'<h2>{escape(year)} · 3–4 классы</h2><ul>')
-        for number, row in enumerate(rows, 1):
-            images = row.get('optionFigures') or ([row['figure']] if 'figure' in row else [])
-            for index, image in enumerate(images):
-                detail = figures.get(Path(image['src']).stem, {}).get('detail')
-                if not detail:
-                    continue
-                source = detail['source']
-                if source == 'tasks.pdf':
-                    source = year + '/tasks.pdf'
-                label = f'№ {number}' + (' · ' + 'АБВГД'[index] if row.get('optionFigures') else '')
-                license_name = escape(detail['license'])
-                if detail.get('licenseUrl'):
-                    license_name = f'<a href="{escape(detail["licenseUrl"], quote=True)}">{license_name}</a>'
-                master = ASSETS / year / detail['file']
-                size = 'SVG'
-                if master.suffix != '.svg':
-                    with Image.open(master) as original:
-                        size = f'{original.width} × {original.height} px'
-                parts.append(f'<li><strong>{label}</strong> · {escape(detail["author"])}. '
-                             f'<a href="{escape(source, quote=True)}">Источник</a> · {license_name}. '
-                             f'{escape(detail["processing"])} <small>({size})</small></li>')
-        parts.append('</ul>')
+        parts.extend(credit_lines(path, json.loads(path.read_text(encoding='utf-8'))))
     parts.append('</main>')
     (ASSETS / 'illustrations.html').write_text('\n'.join(parts) + '\n', encoding='utf-8')
 
@@ -66,7 +79,7 @@ def build_figures(manifest_path):
     manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
     output = ASSETS / manifest_path.parent.name
     output.mkdir(parents=True, exist_ok=True)
-    with fitz.open(manifest_path.with_name(manifest['source'])) as document:
+    with fitz.open(manifest_path.parent / manifest['source']) as document:
         for name, figure in manifest['figures'].items():
             if 'detail' in figure:
                 master = output / figure['detail']['file']
@@ -74,7 +87,7 @@ def build_figures(manifest_path):
                     if not master.is_file():
                         raise FileNotFoundError(master)
                     continue
-                preview = preview_from_master(master)
+                preview = preview_from_master(master, figure['detail'].get('previewMax', 480))
                 preview.save(output / f'{name}.webp', quality=86, method=5)
                 continue
             page = document[figure['page']]

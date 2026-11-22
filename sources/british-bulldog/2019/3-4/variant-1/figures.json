@@ -1,0 +1,29 @@
+{
+  "source": "tasks.pdf",
+  "coordinateUnit": "rendered-pixel",
+  "renderScale": 2.75,
+  "crops": [
+    {
+      "page": 1,
+      "box": [
+        831,
+        136,
+        1498,
+        679
+      ],
+      "file": "snowy-day.webp",
+      "tasks": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "page": "https://runodog.ru/index/2003/0-25",
+  "format": "html",
+  "localOriginal": "official.html",
+  "title": "Аргонавтика",
+  "tasks": {
+    "1-11": "tasks-1-11.pdf"
+  },
+  "answers": "answers.pdf",
+  "conversion": "Локальные PDF подготовлены из HTML организатора.",
+  "statistics": "https://runodog.ru/ZR_stat_03-12/ZR_stat_2003.pdf",
+  "notes": [
+    "Организатор указал общий вариант для 1–11 классов. Последние пять вопросов рассчитаны прежде всего на 10–11 классы."
+  ],
+  "localIllustrations": "illustrations.json"
+}

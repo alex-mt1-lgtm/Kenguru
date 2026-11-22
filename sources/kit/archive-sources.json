@@ -1,0 +1,1383 @@
+{
+  "contest": "КИТ",
+  "checkedOn": "2026-11-22",
+  "editions": {
+    "2008": {
+      "schoolYear": "2008–2009",
+      "variants": {
+        "10-11": {
+          "tasks": {
+            "url": "https://yadi.sk/d/-L9fZE_HrKvSb",
+            "originalFile": "КИТ 2008 классы 10-11.pdf",
+            "filename": "10-11.pdf",
+            "pages": 4,
+            "sha256": "ab43c8531286f6002fd2424f00bb57ac63bafa7f9ef00c46fbafdab52648aca0",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "5-7": {
+          "tasks": {
+            "url": "https://yadi.sk/d/-L9fZE_HrKvSb",
+            "originalFile": "КИТ 2008 классы 5-7.pdf",
+            "filename": "5-7.pdf",
+            "pages": 4,
+            "sha256": "e317ed18be4dc0ffba3920a294a5bf2fa72671c041720a18630665533762db91",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "8-9": {
+          "tasks": {
+            "url": "https://yadi.sk/d/-L9fZE_HrKvSb",
+            "originalFile": "КИТ 2008 классы 8-9.pdf",
+            "filename": "8-9.pdf",
+            "pages": 4,
+            "sha256": "2348dd9031c00a7dcce2fa19c137fde866653e1e7cd05efb9de690b50b45a2cc",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        }
+      },
+      "catalogue": "https://teacher-of-info.ucoz.ru/index/contests/0-10",
+      "originalCatalogue": "https://schoolinformati.my1.ru/index/kit/0-14",
+      "archive": {
+        "url": "https://yadi.sk/d/-L9fZE_HrKvSb",
+        "originalFile": "КИТ 2008 с ответами.rar",
+        "sha256": "b3075acbd171dd12dac9cc80576b18daf38a0befcacabb80b4b2aca9f91df068"
+      },
+      "solutions": {
+        "url": "https://yadi.sk/d/-L9fZE_HrKvSb",
+        "originalFile": "КИТ 2008 решения.pdf",
+        "filename": "solutions.pdf",
+        "pages": 6,
+        "sha256": "261cb9252830c630d46ae131ee4dab93c0585e5b303576c09602025a39af07fc",
+        "kind": "organizer-solutions"
+      },
+      "answers": {
+        "url": "https://yadi.sk/d/-L9fZE_HrKvSb",
+        "originalFile": "КИТ 2008 ответы.pdf",
+        "filename": "answers.pdf",
+        "pages": 1,
+        "sha256": "3cb77b8a2cab9b403184b5ae23a6946def8f77aa09006b8b4e785dba149681cf",
+        "kind": "answer-key"
+      },
+      "note": "В таблице ответов для 8–9 классов в задании № 2 указаны два варианта («Г и Б»)."
+    },
+    "2009": {
+      "schoolYear": "2009–2010",
+      "variants": {
+        "8-9": {
+          "tasks": {
+            "url": "https://yadi.sk/d/YmUFsHGZrKvSh",
+            "originalFile": "КИТ 2009 классы 8-9.pdf",
+            "filename": "8-9.pdf",
+            "pages": 4,
+            "sha256": "ab1a174c29bf7ab02e2179ab3271344fb47f9d5de4176955904cba775bc58081",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "10-11": {
+          "tasks": {
+            "url": "https://yadi.sk/d/YmUFsHGZrKvSh",
+            "originalFile": "КИТ 2009 классы 10-11.pdf",
+            "filename": "10-11.pdf",
+            "pages": 4,
+            "sha256": "e4581019924b22e3f96537a8bc6011fdabf0bbeb0b3655ea67ef6f4022ec4f65",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "5-7": {
+          "tasks": {
+            "url": "https://yadi.sk/d/YmUFsHGZrKvSh",
+            "originalFile": "КИТ 2009 классы 5-7.pdf",
+            "filename": "5-7.pdf",
+            "pages": 4,
+            "sha256": "5dcae6d03595598ea876d985990dd7398b06b9d4fa20a2004f95ff4e96bead1c",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        }
+      },
+      "catalogue": "https://teacher-of-info.ucoz.ru/index/contests/0-10",
+      "originalCatalogue": "https://schoolinformati.my1.ru/index/kit/0-14",
+      "archive": {
+        "url": "https://yadi.sk/d/YmUFsHGZrKvSh",
+        "originalFile": "КИТ 2009 с ответами.rar",
+        "sha256": "1fd14403d734d8a988264dfb0a65e49ce2b667f0d1eecf1df9ef144cdc4e5068"
+      },
+      "additionalSolutions": {
+        "url": "https://yadi.sk/d/YmUFsHGZrKvSh",
+        "originalFile": "КИТ 2009 решения 23, 25, 26.pdf",
+        "filename": "additional-solutions.pdf",
+        "pages": 1,
+        "sha256": "0c6398826a8f046e5c177e6ac2ada768b2017b84ffbca3beca15df3f52a1472e",
+        "kind": "supplementary-solutions"
+      },
+      "solutions": {
+        "url": "https://yadi.sk/d/YmUFsHGZrKvSh",
+        "originalFile": "КИТ 2009 решения.pdf",
+        "filename": "solutions.pdf",
+        "pages": 9,
+        "sha256": "6a8f21f3bbf15bcab7c03371794daeb15dfc4e2a82ec14db72a577932898a5be",
+        "kind": "organizer-solutions"
+      },
+      "answers": {
+        "url": "https://yadi.sk/d/YmUFsHGZrKvSh",
+        "originalFile": "КИТ 2009 ответы.pdf",
+        "filename": "answers.pdf",
+        "pages": 1,
+        "sha256": "91bb13486edb8d40d80f96b16ac29b1a39b4ac1d3c132f68dc5a364d3852a2f5",
+        "kind": "answer-key"
+      }
+    },
+    "2010": {
+      "schoolYear": "2010–2011",
+      "variants": {
+        "4-5": {
+          "tasks": {
+            "url": "https://yadi.sk/d/n85gb-UIrKvYd",
+            "originalFile": "КИТ 2010 классы 4-5.pdf",
+            "filename": "4-5.pdf",
+            "pages": 4,
+            "sha256": "8ff15ea71663a4ef117e5b03f3b0e7aef4aa959c9748f72708ecce9e35c72081",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "6-7": {
+          "tasks": {
+            "url": "https://yadi.sk/d/n85gb-UIrKvYd",
+            "originalFile": "КИТ 2010 классы 6-7.pdf",
+            "filename": "6-7.pdf",
+            "pages": 4,
+            "sha256": "54de854335dd69a5a8c6f6177bce258149628407d478efb854bea3bdbef28e21",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "10-11": {
+          "tasks": {
+            "url": "https://yadi.sk/d/n85gb-UIrKvYd",
+            "originalFile": "КИТ 2010 классы 10-11.pdf",
+            "filename": "10-11.pdf",
+            "pages": 4,
+            "sha256": "87d3a49d2f047b5edb0b61fadd62fedb445574cd41fce2c27db289f8a7abd4c6",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "8-9": {
+          "tasks": {
+            "url": "https://yadi.sk/d/n85gb-UIrKvYd",
+            "originalFile": "КИТ 2010 классы 8-9.pdf",
+            "filename": "8-9.pdf",
+            "pages": 4,
+            "sha256": "84b7cb8d4421f1ee729d89dc118ca5b3a208ea23660e418973425d3dbaa64706",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "2-3": {
+          "tasks": {
+            "url": "https://yadi.sk/d/n85gb-UIrKvYd",
+            "originalFile": "КИТ 2010 классы 2-3.pdf",
+            "filename": "2-3.pdf",
+            "pages": 4,
+            "sha256": "d7c1e93786a23461e652f9c97ab53b0c1aff7396f12b59953acd156cd8b9f026",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        }
+      },
+      "catalogue": "https://teacher-of-info.ucoz.ru/index/contests/0-10",
+      "originalCatalogue": "https://schoolinformati.my1.ru/index/kit/0-14",
+      "archive": {
+        "url": "https://yadi.sk/d/n85gb-UIrKvYd",
+        "originalFile": "КИТ 2010 с ответами.rar",
+        "sha256": "64834792cd5962a76e903e732abf3e95bdafa89a0f69fea67965b64d42b2573c"
+      },
+      "solutions": {
+        "url": "https://yadi.sk/d/n85gb-UIrKvYd",
+        "originalFile": "КИТ 2010 решения.pdf",
+        "filename": "solutions.pdf",
+        "pages": 16,
+        "sha256": "913caa28a2c3eecc34f59abae8ab8e385d040233d601df1905e8ed363151647d",
+        "kind": "organizer-solutions"
+      },
+      "answers": {
+        "url": "https://yadi.sk/d/n85gb-UIrKvYd",
+        "originalFile": "КИТ 2010 ответы.pdf",
+        "filename": "answers.pdf",
+        "pages": 1,
+        "sha256": "b2025816cc3db8cb675e112778108d242a7467b65945bdfe06496d40d2a35e87",
+        "kind": "answer-key"
+      }
+    },
+    "2011": {
+      "schoolYear": "2011–2012",
+      "variants": {
+        "6-7": {
+          "tasks": {
+            "url": "https://yadi.sk/d/ub2fTso0rKvUB",
+            "originalFile": "КИТ 2011 классы 6-7.pdf",
+            "filename": "6-7.pdf",
+            "pages": 2,
+            "sha256": "d2a612b10235c0ab0f144b53ecbee1de3ae06aac53a5b383dfa7bc068f2edbc1",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "4-5": {
+          "tasks": {
+            "url": "https://yadi.sk/d/ub2fTso0rKvUB",
+            "originalFile": "КИТ 2011 классы 4-5.pdf",
+            "filename": "4-5.pdf",
+            "pages": 2,
+            "sha256": "8610941a4caadeaad4032e9fa2c67434ebc0fc31b248b20ff7ef6e8afabf9203",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "8-9": {
+          "tasks": {
+            "url": "https://yadi.sk/d/ub2fTso0rKvUB",
+            "originalFile": "КИТ 2011 классы 8-9.pdf",
+            "filename": "8-9.pdf",
+            "pages": 2,
+            "sha256": "5538afac1c35471102bbc17c4ed849fbefb90bfc2ac1211dc26aca3c605d0964",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "10-11": {
+          "tasks": {
+            "url": "https://yadi.sk/d/ub2fTso0rKvUB",
+            "originalFile": "КИТ 2011 классы 10-11.pdf",
+            "filename": "10-11.pdf",
+            "pages": 2,
+            "sha256": "eee171938093704b2042e4a4b5ed16580d2dbf2d96ce7cb43e2efc54d6450682",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "2-3": {
+          "tasks": {
+            "url": "https://yadi.sk/d/ub2fTso0rKvUB",
+            "originalFile": "КИТ 2011 классы 2-3.pdf",
+            "filename": "2-3.pdf",
+            "pages": 2,
+            "sha256": "019d7505d2ff64a4ad053c5fef794efb66a8d531e87639ba0ee6d3e4ac81a3f7",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        }
+      },
+      "catalogue": "https://teacher-of-info.ucoz.ru/index/contests/0-10",
+      "originalCatalogue": "https://schoolinformati.my1.ru/index/kit/0-14",
+      "archive": {
+        "url": "https://yadi.sk/d/ub2fTso0rKvUB",
+        "originalFile": "КИТ 2011 с ответами.rar",
+        "sha256": "90328e1387059e5bcaa43bb90c45e9c7ed127723870c62a9cffdb6d9e4e4e11c"
+      },
+      "solutions": {
+        "url": "https://yadi.sk/d/ub2fTso0rKvUB",
+        "originalFile": "КИТ 2011 решения.pdf",
+        "filename": "solutions.pdf",
+        "pages": 13,
+        "sha256": "310abff54c9fbba6696d7074f42ebf1b6e27d16d63d8070258a341377c173ffb",
+        "kind": "organizer-solutions"
+      },
+      "note": "Правильные ответы включены в официальный PDF с решениями."
+    },
+    "2012": {
+      "schoolYear": "2012–2013",
+      "variants": {
+        "8-9": {
+          "tasks": {
+            "url": "https://yadi.sk/d/ehmnbQwjrKvYq",
+            "originalFile": "КИТ 2012 классы 8-9.pdf",
+            "filename": "8-9.pdf",
+            "pages": 1,
+            "sha256": "937f9a9a7621c432cbf7481e41d22949ad2c16a31cbff4cebe9e3cae58ce7310",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "4-5": {
+          "tasks": {
+            "url": "https://yadi.sk/d/ehmnbQwjrKvYq",
+            "originalFile": "КИТ 2012 классы 4-5.pdf",
+            "filename": "4-5.pdf",
+            "pages": 1,
+            "sha256": "83561a3415c3f214c8d602e1398b6177ed57cfd7f24a8c09ba8b84afbc93ca38",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "2-3": {
+          "tasks": {
+            "url": "https://yadi.sk/d/ehmnbQwjrKvYq",
+            "originalFile": "КИТ 2012 классы 2-3.pdf",
+            "filename": "2-3.pdf",
+            "pages": 1,
+            "sha256": "57c11f2c2112ddd722c75d764201dca880e7bdf051d8da52625e3aa156387f6a",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "10-11": {
+          "tasks": {
+            "url": "https://yadi.sk/d/ehmnbQwjrKvYq",
+            "originalFile": "КИТ 2012 классы 10-11.pdf",
+            "filename": "10-11.pdf",
+            "pages": 1,
+            "sha256": "c0da33a5915089aeab741d64c77f2f49baf284e06ab3a17ccbb4b2fb3836f105",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "6-7": {
+          "tasks": {
+            "url": "https://yadi.sk/d/ehmnbQwjrKvYq",
+            "originalFile": "КИТ 2012 классы 6-7.pdf",
+            "filename": "6-7.pdf",
+            "pages": 1,
+            "sha256": "5a9dfc808b10a5bd565f486676d9c27083e8a259f8c7267f63e7910fd322122c",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        }
+      },
+      "catalogue": "https://teacher-of-info.ucoz.ru/index/contests/0-10",
+      "originalCatalogue": "https://schoolinformati.my1.ru/index/kit/0-14",
+      "archive": {
+        "url": "https://yadi.sk/d/ehmnbQwjrKvYq",
+        "originalFile": "КИТ 2012 с ответами.rar",
+        "sha256": "7b9a3916308fc67cc09a1ae64fed5f85c9f7f3b3403661ffa0aabbcb50825def"
+      },
+      "solutions": {
+        "url": "https://yadi.sk/d/ehmnbQwjrKvYq",
+        "originalFile": "КИТ 2012 решения.pdf",
+        "filename": "solutions.pdf",
+        "pages": 8,
+        "sha256": "f435cf4087be6566dc3894834a82175fa0c5fa22239dc766418debe3a382fbcd",
+        "kind": "organizer-solutions"
+      },
+      "note": "Правильные ответы включены в официальный PDF с решениями."
+    },
+    "2013": {
+      "schoolYear": "2013–2014",
+      "variants": {
+        "2-3": {
+          "tasks": {
+            "url": "https://100ballnik.com/wp-content/uploads/2021/08/2-3_klass_kit_2013god.pdf",
+            "originalFile": "2-3_klass_kit_2013god.pdf",
+            "filename": "2-3.pdf",
+            "pages": 2,
+            "sha256": "50ab0de303676f9215370ed1a5ee3de2d4189dfa2b38c01fdec0a804de172374",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "4-5": {
+          "tasks": {
+            "url": "https://100ballnik.com/wp-content/uploads/2021/08/4-5_klass_kit_2013god.pdf",
+            "originalFile": "4-5_klass_kit_2013god.pdf",
+            "filename": "4-5.pdf",
+            "pages": 2,
+            "sha256": "52331ceaa0aee736bab33c9f6bf69024fbca88e42536c32b5b718f5e58c195b5",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "6-7": {
+          "tasks": {
+            "url": "https://100ballnik.com/wp-content/uploads/2021/08/6-7_klass_kit_2013god.pdf",
+            "originalFile": "6-7_klass_kit_2013god.pdf",
+            "filename": "6-7.pdf",
+            "pages": 2,
+            "sha256": "83353f432c05509ca4fe0d9cb7afd158617368cea657f496cdd8a636ffacd610",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "8-9": {
+          "tasks": {
+            "url": "https://100ballnik.com/wp-content/uploads/2021/08/8-9_klass_kit_2013god.pdf",
+            "originalFile": "8-9_klass_kit_2013god.pdf",
+            "filename": "8-9.pdf",
+            "pages": 2,
+            "sha256": "3eb08b49007d7f094fcbc2a3be8f9dcbc11fc6ab757c2528b11409cd694aa923",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "10-11": {
+          "tasks": {
+            "url": "https://100ballnik.com/wp-content/uploads/2021/08/10-11_klass_kit_2013god.pdf",
+            "originalFile": "10-11_klass_kit_2013god.pdf",
+            "filename": "10-11.pdf",
+            "pages": 2,
+            "sha256": "4cb197874d0378290304b156b1677b7cfbe77074eaf6fdfbf58b9a177bea3cb9",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        }
+      },
+      "catalogue": "https://matango.ru/konkurs-kit-oficzialnye-zadaniya-i-otvety/",
+      "answers": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/otveti_kit_2013_god.pdf",
+        "originalFile": "otveti_kit_2013_god.pdf",
+        "filename": "answers.pdf",
+        "pages": 2,
+        "sha256": "966a9e85d772ec3540a7412f1816e6723e3ce1d56d297c4f34a88d3db9a984bf",
+        "kind": "answer-key"
+      }
+    },
+    "2014": {
+      "schoolYear": "2014–2015",
+      "variants": {
+        "4-5": {
+          "tasks": {
+            "url": "https://yadi.sk/d/035dq7AsrKvYu",
+            "originalFile": "КИТ 2014 классы 4-5.pdf",
+            "filename": "4-5.pdf",
+            "pages": 2,
+            "sha256": "9d195b6dd85f151749909cfd000e4ab8d27533d5a694a440ce2ba140a0273bba",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "6-7": {
+          "tasks": {
+            "url": "https://yadi.sk/d/035dq7AsrKvYu",
+            "originalFile": "КИТ 2014 классы 6-7.pdf",
+            "filename": "6-7.pdf",
+            "pages": 2,
+            "sha256": "058d09720ddcad16ff78a8d6f828f2ee2e41f3dffeb537d01f8c0399dd48dd77",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "2-3": {
+          "tasks": {
+            "url": "https://yadi.sk/d/035dq7AsrKvYu",
+            "originalFile": "КИТ 2014 классы 2-3.pdf",
+            "filename": "2-3.pdf",
+            "pages": 2,
+            "sha256": "b313925bbe1bac9393936d575b81df61c93a9b51e05f1bc3b5521570c3bef393",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "8-9": {
+          "tasks": {
+            "url": "https://yadi.sk/d/035dq7AsrKvYu",
+            "originalFile": "КИТ 2014 классы 8-9.pdf",
+            "filename": "8-9.pdf",
+            "pages": 2,
+            "sha256": "49f130d0483aa4c4bc77841bcc597bfca24661594d1cc7a559cfd6d6d5c339d5",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "10-11": {
+          "tasks": {
+            "url": "https://yadi.sk/d/035dq7AsrKvYu",
+            "originalFile": "КИТ 2014 классы 10-11.pdf",
+            "filename": "10-11.pdf",
+            "pages": 2,
+            "sha256": "12db6c35c530941379a767af1e900ff7603786071a5e2a9fb21dde0627313f7d",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        }
+      },
+      "catalogue": "https://teacher-of-info.ucoz.ru/index/contests/0-10",
+      "archive": {
+        "url": "https://yadi.sk/d/035dq7AsrKvYu",
+        "originalFile": "КИТ 2014 с ответами.rar",
+        "sha256": "88ce2cd390b8674ea65e40b8989ddff519b71a74b4a0d8729ea172b21f30c107"
+      },
+      "answers": {
+        "url": "https://yadi.sk/d/035dq7AsrKvYu",
+        "originalFile": "КИТ 2014 ответы.pdf",
+        "filename": "answers.pdf",
+        "pages": 1,
+        "sha256": "5c9aa24c33eda89a6a3b06ea0b9bced06b2fb545cd95bd1202596fc5e0f39086",
+        "kind": "answer-key"
+      }
+    },
+    "2015": {
+      "schoolYear": "2015–2016",
+      "variants": {
+        "1": {
+          "tasks": {
+            "url": "https://drive.google.com/file/d/1rf-2_khlGBwLGo8uyEbXVpc11whAqMWJ/view",
+            "originalFile": "2015-2016-1 kl._KIT.pdf",
+            "filename": "1.pdf",
+            "pages": 2,
+            "sha256": "c5ae8a985f68589c59642abdfe63e4e34bfb6d707b76d2a25f309eed3d0f6715",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "2-3": {
+          "tasks": {
+            "url": "https://drive.google.com/file/d/16QG6tkYymKAagoblrRRha7hKWSNrkHNX/view",
+            "originalFile": "2015-2016-2-3 kl._KIT.pdf",
+            "filename": "2-3.pdf",
+            "pages": 2,
+            "sha256": "900c75555fd6c913a2b0192b728f6bb4491f04857a66cfccd9e927fa83cac0b9",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "4-5": {
+          "tasks": {
+            "url": "https://drive.google.com/file/d/1TKfYfiD41iwpTh-f6uexvxw9oguJ-VJj/view",
+            "originalFile": "2015-2016-4-5 kl._KIT.pdf",
+            "filename": "4-5.pdf",
+            "pages": 2,
+            "sha256": "07766a0d4bede249eb92a220ac80a6517a6adacffcbdce2a0b5652b2578c7524",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "6-7": {
+          "tasks": {
+            "url": "https://drive.google.com/file/d/17987N4313_94FPVLia5h_r6d9E1V-pYT/view",
+            "originalFile": "2015-2016-6-7 kl._KIT.pdf",
+            "filename": "6-7.pdf",
+            "pages": 2,
+            "sha256": "dc73098890511d0cf52fb7244e4ba30001add1219677a6ec846ceea61c6c29a8",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "8-9": {
+          "tasks": {
+            "url": "https://drive.google.com/file/d/1LBDFBgty7X92sP4nvNUAQrn83WN4azLX/view",
+            "originalFile": "2015-2016-8-9 kl._KIT.pdf",
+            "filename": "8-9.pdf",
+            "pages": 2,
+            "sha256": "50b7e1041c37b22343ef1755bff733f0fe761b98225a69e9d74496fbc502388f",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "10-11": {
+          "tasks": {
+            "url": "https://drive.google.com/file/d/1HP5y9z2H1sIj_un1l_yS-cCEcNdOYf3Q/view",
+            "originalFile": "2015-2016-10-11 kl._KIT.pdf",
+            "filename": "10-11.pdf",
+            "pages": 2,
+            "sha256": "635744d71419c7bac56b03e41910f63900a61bbf3cbd357eb2761c1ea54621ea",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        }
+      },
+      "catalogue": "https://tolkoexamen.ru/rossijskij-konkurs-po-informatike-kit-2015-2016-zadaniya-i-otvety/",
+      "answers": {
+        "url": "https://drive.google.com/file/d/16zgaB12F_wVYRDHTI42nYE_N-jejnVST/view",
+        "originalFile": "2015-2016-KIT-otvet_2015.pdf",
+        "filename": "answers.pdf",
+        "pages": 1,
+        "sha256": "caf32f25a4079ddc50f797500e17369275dc13b4127d8ee7b244b4acb091ced3",
+        "kind": "answer-key"
+      },
+      "mirrorArchive": {
+        "url": "https://yadi.sk/d/_S-NEsWWrKvZ2",
+        "originalFile": "КИТ 2015 с ответами.rar",
+        "sha256": "80ed237a31ca83a309449c3a0ea7c727beb025c6ef9b2f38b4113d0e8109b899"
+      }
+    },
+    "2016": {
+      "schoolYear": "2016–2017",
+      "variants": {
+        "1": {
+          "tasks": {
+            "url": "https://drive.google.com/file/d/1bcvc7TshzL2OsYXwYHtx0HCeKF7u9TRj/view",
+            "originalFile": "2016-2017_KIT_1 kl.pdf",
+            "filename": "1.pdf",
+            "pages": 2,
+            "sha256": "1b6436608a3ff6e22f36c31692c02a7325e91a342bbf72e4bc3a4f9ea9da78b3",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "2-3": {
+          "tasks": {
+            "url": "https://drive.google.com/file/d/19eXbasG7aMihtrFBcObJLLcuBhWyPcr4/view",
+            "originalFile": "2016-2017_KIT_2-3 kl.pdf",
+            "filename": "2-3.pdf",
+            "pages": 2,
+            "sha256": "c82dca8254e25dc4ae3fce2b6f77a9b05ed58fe2cdc00ae27d3e1d7bc1c31780",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "4-5": {
+          "tasks": {
+            "url": "https://drive.google.com/file/d/1AINUdGDMDct6r_jbqlMv5_h7N3D_dGI1/view",
+            "originalFile": "2016-2017_KIT_4-5 kl.pdf",
+            "filename": "4-5.pdf",
+            "pages": 2,
+            "sha256": "5c813c323decdfa14091a59ba9f530382537462ab5035fa3761678d989d9a7a2",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "6-7": {
+          "tasks": {
+            "url": "https://drive.google.com/file/d/1q-eJQWi2p2rCQE0SswhPADHCMUzQw_sX/view",
+            "originalFile": "2016-2017_KIT_6-7 kl.pdf",
+            "filename": "6-7.pdf",
+            "pages": 2,
+            "sha256": "49a8c5b03e6d6bbdab76a556e06b5b30bf31aac569ff7f92d8a63c453a3618a0",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "8-9": {
+          "tasks": {
+            "url": "https://drive.google.com/file/d/1oARqeGtlVu4iQlYZ6vPNFG9iiTUA0tmh/view",
+            "originalFile": "2016-2017_KIT_8-9 kl.pdf",
+            "filename": "8-9.pdf",
+            "pages": 2,
+            "sha256": "633bddd3bf0074f5c968e20e7694aac0c2b506447679fc7444ff12df5febbe06",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "10-11": {
+          "tasks": {
+            "url": "https://drive.google.com/file/d/11gSBwUOHZ48rS18-ifBPJJBg_3PYosgM/view",
+            "originalFile": "2016-2017_KIT_10-11 kl.pdf",
+            "filename": "10-11.pdf",
+            "pages": 2,
+            "sha256": "8b26fdbeeb0d572dfe9810c8c77d8cd157bc2873af212329232e747140eb91a7",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        }
+      },
+      "catalogue": "https://tolkoexamen.ru/rossijskij-konkurs-po-informatike-kit-2016-2017-zadaniya-i-otvety/",
+      "answers": {
+        "url": "https://drive.google.com/file/d/1oCrVkym8r65hXzevoeYZbhF1As9cXICS/view",
+        "originalFile": "2016-2017_KIT_otvet.pdf",
+        "filename": "answers.pdf",
+        "pages": 1,
+        "sha256": "640f88b972fdf5c4f5f7f3a227a14069489a8a5ebe59ba6908ea57a0829be18e",
+        "kind": "answer-key"
+      }
+    },
+    "2017": {
+      "schoolYear": "2017–2018",
+      "variants": {
+        "1": {
+          "tasks": {
+            "url": "https://drive.google.com/file/d/1R3qAbk6Fc3MsC9S3XFh22uJRXqDft-JS/view",
+            "originalFile": "2017-2018_KIT_zadanie_1 kl.pdf",
+            "filename": "1.pdf",
+            "pages": 2,
+            "sha256": "2243dcefb4deb24a1938d295305a478fd2318bdb33d4d06ea30f7c3a19c29d54",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "2-3": {
+          "tasks": {
+            "url": "https://drive.google.com/file/d/1_HB8YyUn4mnMy5Bo_7ObutGHn1vUa7wu/view",
+            "originalFile": "2017-2018_KIT_zadanie_2-3 kl.pdf",
+            "filename": "2-3.pdf",
+            "pages": 2,
+            "sha256": "d3b6942580f9559ad6ca2455393d156a9c71affde444462f9452a1457a003f29",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "4-5": {
+          "tasks": {
+            "url": "https://drive.google.com/file/d/18OInCaJYVe2zTieon8JilO_H2yQZwZwE/view",
+            "originalFile": "2017-2018_KIT_zadanie_4-5 kl.pdf",
+            "filename": "4-5.pdf",
+            "pages": 2,
+            "sha256": "4ad92c595c16a94368d43e2fcd0ead732dba2b2c21f6c673694ff928653a19e9",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "6-7": {
+          "tasks": {
+            "url": "https://drive.google.com/file/d/1Z1X1DLTRf2U2CbxKtsT4fz2DBjdWW_l5/view",
+            "originalFile": "2017-2018_KIT_zadanie_6-7 kl.pdf",
+            "filename": "6-7.pdf",
+            "pages": 2,
+            "sha256": "ec08db1e4658f4004b328db6828ced0886efce4312d2e31d61d8d86d25b14b1f",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "8-9": {
+          "tasks": {
+            "url": "https://drive.google.com/file/d/11pdBWkBziJt9a6jhv5U458X-nrH_MlKu/view",
+            "originalFile": "2017-2018_KIT_zadanie_8-9 kl.pdf",
+            "filename": "8-9.pdf",
+            "pages": 2,
+            "sha256": "09cdbddfe1c0eea5b921b003da373412ca1ca910b597acd6add77ffcddf08360",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "10-11": {
+          "tasks": {
+            "url": "https://drive.google.com/file/d/1frqw4yTKUP-4hM3NIe8H-7L0j8C0u9zN/view",
+            "originalFile": "2017-2018_KIT_zadanie_10-11 kl.pdf",
+            "filename": "10-11.pdf",
+            "pages": 2,
+            "sha256": "f09898250518fd07646d88b3660ff021c23e1268e1eec20fb2e5942c868f46c9",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        }
+      },
+      "catalogue": "https://tolkoexamen.ru/rossijskij-konkurs-po-informatike-kit-2017-2018-zadaniya-i-otvety/",
+      "answers": {
+        "url": "https://drive.google.com/file/d/1czXWnJcuDO71_IWvGN-TMqniK-pBOrIl/view",
+        "originalFile": "2017-2018_KIT_otvet.pdf",
+        "filename": "answers.pdf",
+        "pages": 1,
+        "sha256": "8b9d96bfa0cb23ec0f988f7c552ba56eacc34da4c1e3ebce3043687bcb19bc29",
+        "kind": "answer-key"
+      }
+    },
+    "2018": {
+      "schoolYear": "2018–2019",
+      "variants": {
+        "1": {
+          "tasks": {
+            "url": "https://drive.google.com/file/d/1-V511I9kzNYTYGLWejcroAyZMb_g4jZb/view",
+            "originalFile": "2018-2019_KIT_1.pdf",
+            "filename": "1.pdf",
+            "pages": 2,
+            "sha256": "2a2728af6d98d9362134b44ad11b3d4409f8e177144d21fe6e51f013f865104d",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "2-3": {
+          "tasks": {
+            "url": "https://drive.google.com/file/d/16RU85Dx2W4EfnKhgxmtZOmLX3FOY9oWv/view",
+            "originalFile": "2018-2019_KIT_2-3.pdf",
+            "filename": "2-3.pdf",
+            "pages": 2,
+            "sha256": "d691cf110963b0c1e692d723876a06ad45607e16e6c533f183efad8496261b18",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "4-5": {
+          "tasks": {
+            "url": "https://drive.google.com/file/d/1OmeFzf-isD9Nb1ty823ytfbTeycEpkcx/view",
+            "originalFile": "2018-2019_KIT_4-5.pdf",
+            "filename": "4-5.pdf",
+            "pages": 2,
+            "sha256": "8de4d91168a1da0e1bc144cf69b3da7b62f026cd69dc56c39960476bdca50edc",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "6-7": {
+          "tasks": {
+            "url": "https://drive.google.com/file/d/1l-fWcjy3ApThBUnqdhGdOjSVFJrUwCls/view",
+            "originalFile": "2018-2019_KIT_6-7.pdf",
+            "filename": "6-7.pdf",
+            "pages": 2,
+            "sha256": "ce1574d55828b4081da43be6fda44ec93d7c58e629ae54a8a70e6d834c4c3413",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "8-9": {
+          "tasks": {
+            "url": "https://drive.google.com/file/d/1bRcl8lnwCUDiVA3Ma3fvie2SGf43_H2v/view",
+            "originalFile": "2018-2019_KIT_8-9.pdf",
+            "filename": "8-9.pdf",
+            "pages": 2,
+            "sha256": "deae0cc432648a7546ca4e3dc774a95fcdd6bd705676f733d6a1025604c3df11",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "10-11": {
+          "tasks": {
+            "url": "https://drive.google.com/file/d/1m32gHBo8dv-79Yrn0YhTA9mQi4T3aOCC/view",
+            "originalFile": "2018-2019_KIT_10-11.pdf",
+            "filename": "10-11.pdf",
+            "pages": 2,
+            "sha256": "e126da906e937983b908ce58002277740b14b968342deb1d49d54ee4967d0ced",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        }
+      },
+      "catalogue": "https://tolkoexamen.ru/rossijskij-konkurs-po-informatike-kit-2018-2019-zadaniya-i-otvety/",
+      "answers": {
+        "url": "https://drive.google.com/file/d/1lqHei9ZTc4kGRYzQgA7j8x5asS6MAu6D/view",
+        "originalFile": "2018-2019_KIT_otvet.pdf",
+        "filename": "answers.pdf",
+        "pages": 1,
+        "sha256": "cbb6e324b80b56016f87eaa3627ea443561e27ffaac92378666a4cf5fad590f7",
+        "kind": "answer-key"
+      }
+    },
+    "2019": {
+      "schoolYear": "2019–2020",
+      "variants": {
+        "1": {
+          "tasks": {
+            "url": "https://drive.google.com/file/d/11I2eOOlHnGMMaOWAmkLFj0evVzJg7Qj9/view",
+            "originalFile": "2019-2020_KIT_zadanie_1 kl.pdf",
+            "filename": "1.pdf",
+            "pages": 2,
+            "sha256": "0fe521aa4ffd1a9fac13af594dd7d588c983cf15c91b35e043dbec05dd4b8e7f",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "2-3": {
+          "tasks": {
+            "url": "https://drive.google.com/file/d/1UJxArdNcWlVlg2fsTjuzMMSqi_hPIJb7/view",
+            "originalFile": "2019-2020_KIT_zadanie_2-3 kl.pdf",
+            "filename": "2-3.pdf",
+            "pages": 2,
+            "sha256": "4846167e45fd0b4f02444dc9c8af2d2492de0d4618809e0f3454c05bdf717829",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "4-5": {
+          "tasks": {
+            "url": "https://drive.google.com/file/d/1wFkT_mEVjgp2QMVwjtnEhWNdvZu7yImL/view",
+            "originalFile": "2019-2020_KIT_zadanie_4-5 kl.pdf",
+            "filename": "4-5.pdf",
+            "pages": 2,
+            "sha256": "476a6af53957fff19ada3106916479dbd9e02fa2e8564f7a85a1c1938b343936",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "6-7": {
+          "tasks": {
+            "url": "https://drive.google.com/file/d/1_mgnW5HPr5pAma34FdKrz0o84xeRXke1/view",
+            "originalFile": "2019-2020_KIT_zadanie_6-7 kl.pdf",
+            "filename": "6-7.pdf",
+            "pages": 2,
+            "sha256": "94d06467bd24ada8273060ed7b94f741d2559c5dd5fb66c25ba5d1cb04b3ff17",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "8-9": {
+          "tasks": {
+            "url": "https://drive.google.com/file/d/1ziR37dzlFo84jcA5CbNr0bRbA7kc1y1l/view",
+            "originalFile": "2019-2020_KIT_zadanie_8-9 kl.pdf",
+            "filename": "8-9.pdf",
+            "pages": 2,
+            "sha256": "06d638b69524e349b41420ea8cfbcd9b8353d66b17cc9c17f39c99522473b54f",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "10-11": {
+          "tasks": {
+            "url": "https://drive.google.com/file/d/12ZHFk3Oai0Z0AKXLbQSMUHFegqWd-qJ1/view",
+            "originalFile": "2019-2020_KIT_zadanie_10-11 kl.pdf",
+            "filename": "10-11.pdf",
+            "pages": 2,
+            "sha256": "a853827e50bbe15c314066f4be46c08bcce195b69d8d513b58f51af801fc35f5",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        }
+      },
+      "catalogue": "https://tolkoexamen.ru/rossijskij-konkurs-po-informatike-kit-2019-2020-zadaniya-i-otvety/",
+      "answers": {
+        "url": "https://drive.google.com/file/d/1_ZDc43Dt2DufzZJQj35NdfIdMCiSzrB_/view",
+        "originalFile": "2019-2020_KIT_otvet.pdf",
+        "filename": "answers.pdf",
+        "pages": 1,
+        "sha256": "c37f7340797a2b8bb47a77a399c265ab956a187801798a7ff4abafb6694986d5",
+        "kind": "answer-key"
+      }
+    },
+    "2020": {
+      "schoolYear": "2020–2021",
+      "variants": {
+        "1": {
+          "tasks": {
+            "url": "https://tolkoexamen.ru/wp-content/uploads/2021/11/2020-2021_KIT_zadanie_1-kl.pdf",
+            "originalFile": "2020-2021_KIT_zadanie_1-kl.pdf",
+            "filename": "1.pdf",
+            "pages": 2,
+            "sha256": "263de573269376d79295c3fab7da33ef69276e917dcc28d4e7a606677d56780d",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "2-3": {
+          "tasks": {
+            "url": "https://tolkoexamen.ru/wp-content/uploads/2021/11/2020-2021_KIT_zadanie_2-3-kl.pdf",
+            "originalFile": "2020-2021_KIT_zadanie_2-3-kl.pdf",
+            "filename": "2-3.pdf",
+            "pages": 2,
+            "sha256": "c2a21f4237f029a4779864a3609109f5f7d10b10783134f3e2b165d4c0b3b9e1",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "4-5": {
+          "tasks": {
+            "url": "https://tolkoexamen.ru/wp-content/uploads/2021/11/2020-2021_KIT_zadanie_4-5-kl.pdf",
+            "originalFile": "2020-2021_KIT_zadanie_4-5-kl.pdf",
+            "filename": "4-5.pdf",
+            "pages": 2,
+            "sha256": "8bd6b7a10b8de00e73c1dcb4b2ac0d95c3ecb92c4e251a82dcdc2d4f8ff72ad7",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "6-7": {
+          "tasks": {
+            "url": "https://tolkoexamen.ru/wp-content/uploads/2021/11/2020-2021_KIT_zadanie_6-7-kl.pdf",
+            "originalFile": "2020-2021_KIT_zadanie_6-7-kl.pdf",
+            "filename": "6-7.pdf",
+            "pages": 2,
+            "sha256": "de9d3fe765420938c87049abdd5f3f545abb9f30e9a5b6130d44df8bea1e1076",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "8-9": {
+          "tasks": {
+            "url": "https://tolkoexamen.ru/wp-content/uploads/2021/11/2020-2021_KIT_zadanie_8-9-kl.pdf",
+            "originalFile": "2020-2021_KIT_zadanie_8-9-kl.pdf",
+            "filename": "8-9.pdf",
+            "pages": 2,
+            "sha256": "147050668af2e4513aafcc4e4bd1ae0835089b19498ea43a27318bbb5db2eb50",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "10-11": {
+          "tasks": {
+            "url": "https://tolkoexamen.ru/wp-content/uploads/2021/11/2020-2021_KIT_zadanie_10-11-kl.pdf",
+            "originalFile": "2020-2021_KIT_zadanie_10-11-kl.pdf",
+            "filename": "10-11.pdf",
+            "pages": 2,
+            "sha256": "4f8603a6b375978f29ebe97f1e61aac22a65b47593eb4dbf2f69600811e1aec7",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        }
+      },
+      "catalogue": "https://tolkoexamen.ru/rossijskij-konkurs-po-informatike-kit-2020-2021-zadaniya-i-otvety/",
+      "answers": {
+        "url": "https://tolkoexamen.ru/wp-content/uploads/2021/11/2020-2021_KIT_otvet.pdf",
+        "originalFile": "2020-2021_KIT_otvet.pdf",
+        "filename": "answers.pdf",
+        "pages": 1,
+        "sha256": "96010bcab52c1e104acf3e935321adf0da977471e2267712f1bcd05ad01060d3",
+        "kind": "answer-key"
+      }
+    },
+    "2021": {
+      "schoolYear": "2021–2022",
+      "variants": {
+        "1": {
+          "tasks": {
+            "url": "https://tolkoexamen.ru/wp-content/uploads/2023/10/2021-2022_KIT_1-kl.pdf",
+            "originalFile": "2021-2022_KIT_1-kl.pdf",
+            "filename": "1.pdf",
+            "pages": 2,
+            "sha256": "5b54568996d0254db7e572adb214601753920c915e3f36c458721edc2cbeebe2",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "2-3": {
+          "tasks": {
+            "url": "https://tolkoexamen.ru/wp-content/uploads/2023/10/2021-2022_KIT_2-3-kl.pdf",
+            "originalFile": "2021-2022_KIT_2-3-kl.pdf",
+            "filename": "2-3.pdf",
+            "pages": 2,
+            "sha256": "adff6a97bcb5f158b6190149cfa51261f6a7dc043dd4ac1b82e6ae2a26bc1683",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "4-5": {
+          "tasks": {
+            "url": "https://tolkoexamen.ru/wp-content/uploads/2023/10/2021-2022_KIT_4-5-kl.pdf",
+            "originalFile": "2021-2022_KIT_4-5-kl.pdf",
+            "filename": "4-5.pdf",
+            "pages": 2,
+            "sha256": "91c33fec2ec56100c42d9154c943e2ea85b22e050558842bf7fe702fb9200e97",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "6-7": {
+          "tasks": {
+            "url": "https://tolkoexamen.ru/wp-content/uploads/2023/10/2021-2022_KIT_6-7-kl.pdf",
+            "originalFile": "2021-2022_KIT_6-7-kl.pdf",
+            "filename": "6-7.pdf",
+            "pages": 2,
+            "sha256": "dea400224e7db606d957117686da0e2b32ef08ac6e914ee331ea4074098d1cf9",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "8-9": {
+          "tasks": {
+            "url": "https://tolkoexamen.ru/wp-content/uploads/2023/10/2021-2022_KIT_8-9-kl.pdf",
+            "originalFile": "2021-2022_KIT_8-9-kl.pdf",
+            "filename": "8-9.pdf",
+            "pages": 2,
+            "sha256": "747b06103f325fe80da289ed14f2d90d551207a38b5aee32e6427136d5d69953",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "10-11": {
+          "tasks": {
+            "url": "https://tolkoexamen.ru/wp-content/uploads/2023/10/2021-2022_KIT_10-11-kl.pdf",
+            "originalFile": "2021-2022_KIT_10-11-kl.pdf",
+            "filename": "10-11.pdf",
+            "pages": 2,
+            "sha256": "ae976b70308757920650ca9bfecc881b0054e148e7021b94d66f127954697771",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        }
+      },
+      "catalogue": "https://tolkoexamen.ru/rossijskij-konkurs-po-informatike-kit-2021-2022-zadaniya-i-otvety/",
+      "answers": {
+        "url": "https://tolkoexamen.ru/wp-content/uploads/2023/10/2021-2022_KIT_otvet.pdf",
+        "originalFile": "2021-2022_KIT_otvet.pdf",
+        "filename": "answers.pdf",
+        "pages": 1,
+        "sha256": "a294af5c6f8f30b34c95abcf9aab6ef6673d01d8d67483963e9d3f118c635514",
+        "kind": "answer-key"
+      }
+    },
+    "2022": {
+      "schoolYear": "2022–2023",
+      "variants": {
+        "1": {
+          "tasks": {
+            "url": "https://tolkoexamen.ru/wp-content/uploads/2023/10/2022-2023_KIT_zadanie_1.pdf",
+            "originalFile": "2022-2023_KIT_zadanie_1.pdf",
+            "filename": "1.pdf",
+            "pages": 2,
+            "sha256": "5fc22691f78a43aefa222077893339a76d76f0475da6bbf7a9d324d5d7181830",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "2-3": {
+          "tasks": {
+            "url": "https://tolkoexamen.ru/wp-content/uploads/2023/10/2022-2023_KIT_zadanie_2-3.pdf",
+            "originalFile": "2022-2023_KIT_zadanie_2-3.pdf",
+            "filename": "2-3.pdf",
+            "pages": 2,
+            "sha256": "cfc550e837377312a6a591684de1a4ded175729ee8e4c2751b41a7fb723cb218",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "4-5": {
+          "tasks": {
+            "url": "https://tolkoexamen.ru/wp-content/uploads/2023/10/2022-2023_KIT_zadanie_4-5.pdf",
+            "originalFile": "2022-2023_KIT_zadanie_4-5.pdf",
+            "filename": "4-5.pdf",
+            "pages": 2,
+            "sha256": "80db467fd7972a2113ed50c6a58912188d64eebfedf8abf5c35d62b4cff832d6",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "6-7": {
+          "tasks": {
+            "url": "https://tolkoexamen.ru/wp-content/uploads/2023/10/2022-2023_KIT_zadanie_6-7.pdf",
+            "originalFile": "2022-2023_KIT_zadanie_6-7.pdf",
+            "filename": "6-7.pdf",
+            "pages": 2,
+            "sha256": "5d53119f0e13e56c3c26c4e1460fa285946e8398be50b1875d68821023786984",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "8-9": {
+          "tasks": {
+            "url": "https://tolkoexamen.ru/wp-content/uploads/2023/10/2022-2023_KIT_zadanie_8-9.pdf",
+            "originalFile": "2022-2023_KIT_zadanie_8-9.pdf",
+            "filename": "8-9.pdf",
+            "pages": 2,
+            "sha256": "c920c4770825e7e4bd64fadf702931b2afd42289e923d14f26486d07dd241291",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "10-11": {
+          "tasks": {
+            "url": "https://tolkoexamen.ru/wp-content/uploads/2023/10/2022-2023_KIT_zadanie_10-11.pdf",
+            "originalFile": "2022-2023_KIT_zadanie_10-11.pdf",
+            "filename": "10-11.pdf",
+            "pages": 2,
+            "sha256": "54fc1489db59df7c53f60fd4e8f5d18adbc4a031e6a1229ab4ac46ed886f70e8",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        }
+      },
+      "catalogue": "https://tolkoexamen.ru/rossijskij-konkurs-po-informatike-kit-2022-2023-zadaniya-i-otvety/",
+      "answers": {
+        "url": "https://tolkoexamen.ru/wp-content/uploads/2023/10/2022-2023_KIT_otvet.pdf",
+        "originalFile": "2022-2023_KIT_otvet.pdf",
+        "filename": "answers.pdf",
+        "pages": 1,
+        "sha256": "b5201a37c3c833bfece8d434324b04be1ccb3bcf2a5c0247585ca4bf3d5b816d",
+        "kind": "answer-key"
+      }
+    },
+    "2023": {
+      "schoolYear": "2023–2024",
+      "variants": {
+        "1": {
+          "tasks": {
+            "url": "https://tolkoexamen.ru/wp-content/uploads/2024/11/2023-2024_KIT_test_1-1.pdf",
+            "originalFile": "2023-2024_KIT_test_1-1.pdf",
+            "filename": "1.pdf",
+            "pages": 2,
+            "sha256": "32b1ff8852534a562341c98c4adf30c628881347908802452f6fd9109631305d",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "2-3": {
+          "tasks": {
+            "url": "https://tolkoexamen.ru/wp-content/uploads/2024/11/2023-2024_KIT_test_2-3-1.pdf",
+            "originalFile": "2023-2024_KIT_test_2-3-1.pdf",
+            "filename": "2-3.pdf",
+            "pages": 2,
+            "sha256": "6c0dfe63a605987fc2fd07e07c311f9764afd6d1e17d1a1344e1ce49957ccab9",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "4-5": {
+          "tasks": {
+            "url": "https://tolkoexamen.ru/wp-content/uploads/2024/11/2023-2024_KIT_test_4-5-1.pdf",
+            "originalFile": "2023-2024_KIT_test_4-5-1.pdf",
+            "filename": "4-5.pdf",
+            "pages": 2,
+            "sha256": "734c9edf93fbc374001f48d3a35f12a305e9d834bf5708bb62ffc24f690adfc2",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "6-7": {
+          "tasks": {
+            "url": "https://tolkoexamen.ru/wp-content/uploads/2024/11/2023-2024_KIT_test_6-7-1.pdf",
+            "originalFile": "2023-2024_KIT_test_6-7-1.pdf",
+            "filename": "6-7.pdf",
+            "pages": 2,
+            "sha256": "850784a04f49dbe5a31807fa4bac295f32c67f763934f50ecc32b99a1dc8b2a3",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "8-9": {
+          "tasks": {
+            "url": "https://tolkoexamen.ru/wp-content/uploads/2024/11/2023-2024_KIT_test_8-9-1.pdf",
+            "originalFile": "2023-2024_KIT_test_8-9-1.pdf",
+            "filename": "8-9.pdf",
+            "pages": 2,
+            "sha256": "04ba739ca69032c3bba1561682335f4409fe832a0d51ba66e25a047233697bc8",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        },
+        "10-11": {
+          "tasks": {
+            "url": "https://tolkoexamen.ru/wp-content/uploads/2024/11/2023-2024_KIT_test_10-11-1.pdf",
+            "originalFile": "2023-2024_KIT_test_10-11-1.pdf",
+            "filename": "10-11.pdf",
+            "pages": 2,
+            "sha256": "8579aab28c4953d9a2a40011046c57909e52db19668df5e5086eb3001dfacbcc",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "published"
+        }
+      },
+      "catalogue": "https://tolkoexamen.ru/rossijskij-konkurs-po-informatike-kit-2023-2024-zadaniya-i-otvety/",
+      "answers": {
+        "url": "https://tolkoexamen.ru/wp-content/uploads/2024/11/2023-2024_KIT_otvet.pdf",
+        "originalFile": "2023-2024_KIT_otvet.pdf",
+        "filename": "answers.pdf",
+        "pages": 1,
+        "sha256": "2644e6e0ff5fb4a88dcb11b321ce3551b835c32a9158ec5580108ecd03056a3f",
+        "kind": "answer-key"
+      }
+    },
+    "2024": {
+      "schoolYear": "2024–2025",
+      "variants": {
+        "1": {
+          "tasks": {
+            "url": "https://tolkoexamen.ru/wp-content/uploads/2025/10/2024-2025_KIT_1.pdf",
+            "originalFile": "2024-2025_KIT_1.pdf",
+            "filename": "1.pdf",
+            "pages": 2,
+            "sha256": "3f0ae64111245804da59d9662012ebd00cc7015c778e557784317e02153e14e6",
+            "kind": "contest-booklet"
+          },
+          "editorialAnswersFile": "1-editorial-answers.pdf",
+          "answerStatus": "editorial"
+        },
+        "2-3": {
+          "tasks": {
+            "url": "https://tolkoexamen.ru/wp-content/uploads/2025/10/2024-2025_KIT_2-3.pdf",
+            "originalFile": "2024-2025_KIT_2-3.pdf",
+            "filename": "2-3.pdf",
+            "pages": 2,
+            "sha256": "b441b88960ef1fb9e16d2a27e1bc2849fad6b25044ea035325a32af29bfb1ee2",
+            "kind": "contest-booklet"
+          },
+          "editorialAnswersFile": "editorial-answers.pdf",
+          "answerStatus": "editorial"
+        },
+        "4-5": {
+          "tasks": {
+            "url": "https://tolkoexamen.ru/wp-content/uploads/2025/10/2024-2025_KIT_4-5.pdf",
+            "originalFile": "2024-2025_KIT_4-5.pdf",
+            "filename": "4-5.pdf",
+            "pages": 2,
+            "sha256": "c756682e31bbae66f84e8d7d6804267951b1c050e05bb940506fb57c76af17cc",
+            "kind": "contest-booklet"
+          },
+          "editorialAnswersFile": "editorial-answers.pdf",
+          "answerStatus": "editorial"
+        },
+        "6-7": {
+          "tasks": {
+            "url": "https://tolkoexamen.ru/wp-content/uploads/2025/10/2024-2025_KIT_6-7.pdf",
+            "originalFile": "2024-2025_KIT_6-7.pdf",
+            "filename": "6-7.pdf",
+            "pages": 2,
+            "sha256": "22b575d375adecce326b9469964233cf7dd9da580bd7761290118786b39478ce",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "editorial",
+          "editorialAnswersFile": "senior-editorial-answers.pdf"
+        },
+        "8-9": {
+          "tasks": {
+            "url": "https://tolkoexamen.ru/wp-content/uploads/2025/10/2024-2025_KIT_8-9.pdf",
+            "originalFile": "2024-2025_KIT_8-9.pdf",
+            "filename": "8-9.pdf",
+            "pages": 2,
+            "sha256": "260a9191af1c74b1eb3ed1691e94d55cac2ecf4628606394c2011d633af0f629",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "editorial",
+          "editorialAnswersFile": "senior-editorial-answers.pdf"
+        },
+        "10-11": {
+          "tasks": {
+            "url": "https://tolkoexamen.ru/wp-content/uploads/2025/10/2024-2025_KIT_10-11.pdf",
+            "originalFile": "2024-2025_KIT_10-11.pdf",
+            "filename": "10-11.pdf",
+            "pages": 2,
+            "sha256": "da62c929d98424c51e2144838d55f9a460b6fef8e63a11d55b3d20d4c017326d",
+            "kind": "contest-booklet"
+          },
+          "answerStatus": "editorial",
+          "editorialAnswersFile": "senior-editorial-answers.pdf"
+        }
+      },
+      "catalogue": "https://tolkoexamen.ru/rossijskij-konkurs-po-informatike-kit-2024-2025-zadaniya-i-otvety/",
+      "officialNotice": "https://konkurskit.ru/doc/infokit_24.pdf",
+      "note": "Под заголовком «Правильные ответы» общедоступного ключа нет. Для выпусков с разбором доступны ответы редакции."
+    },
+    "2025": {
+      "schoolYear": "2025–2026",
+      "catalogue": "https://zubrilka.online/27-11-2025-konkurs-kit-kompyuter-informatika-tehnologii-zadaniya-otvety-dlya-1-11-klassa/",
+      "note": "В открытой публикации есть HTML-фрагменты заданий, а полный комплект и ключ предложены в магазине. Открытые PDF конкурсных бланков и подтверждённый полный ключ пока не найдены.",
+      "variants": {
+        "1": {
+          "answerStatus": "unavailable",
+          "tasksStatus": "partial-online"
+        },
+        "2-3": {
+          "answerStatus": "unavailable",
+          "tasksStatus": "partial-online"
+        },
+        "4-5": {
+          "answerStatus": "unavailable",
+          "tasksStatus": "partial-online"
+        },
+        "6-7": {
+          "answerStatus": "unavailable",
+          "tasksStatus": "partial-online"
+        },
+        "8-9": {
+          "answerStatus": "unavailable",
+          "tasksStatus": "partial-online"
+        },
+        "10-11": {
+          "answerStatus": "unavailable",
+          "tasksStatus": "partial-online"
+        }
+      }
+    },
+    "2026": {
+      "schoolYear": "2026–2027",
+      "catalogue": "https://konkurskit.ru/",
+      "contestDate": "2026-11-25",
+      "note": "По объявлению организатора основной конкурс состоится 25 ноября 2026 года.",
+      "variants": {
+        "1": {
+          "answerStatus": "unavailable",
+          "tasksStatus": "not-yet-held"
+        },
+        "2-3": {
+          "answerStatus": "unavailable",
+          "tasksStatus": "not-yet-held"
+        },
+        "4-5": {
+          "answerStatus": "unavailable",
+          "tasksStatus": "not-yet-held"
+        },
+        "6-7": {
+          "answerStatus": "unavailable",
+          "tasksStatus": "not-yet-held"
+        },
+        "8-9": {
+          "answerStatus": "unavailable",
+          "tasksStatus": "not-yet-held"
+        },
+        "10-11": {
+          "answerStatus": "unavailable",
+          "tasksStatus": "not-yet-held"
+        }
+      }
+    }
+  }
+}

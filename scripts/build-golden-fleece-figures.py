@@ -39,5 +39,5 @@ def build_figures(manifest_path):
 
 
 if __name__ == '__main__':
-    for manifest in sorted(SOURCES.glob('*/figures.json')):
+    for manifest in sorted(SOURCES.glob('*/figures*.json')):
         build_figures(manifest)

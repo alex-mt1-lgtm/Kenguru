@@ -51,10 +51,7 @@ function loadLessonCatalog() {
   const subjectRows = new Map();
   context.SUBJECT_EDITIONS = [];
   vm.runInContext(readScript('contests/subject-edition.js'), context);
-  const manifest = JSON.parse(fs.readFileSync(path.join(dist, '../sources/subject-editions.json'), 'utf8'));
-  for (const meta of manifest) {
-    const file = path.join(dist, '../sources', meta.subject, String(meta.year), meta.grade + '.json');
-    const rows = JSON.parse(fs.readFileSync(file, 'utf8'));
+  for (const {meta, rows, file} of require('./subject-data.cjs').loadSubjects().editions) {
     if (rows.length !== meta.count) throw new Error(file + ': incomplete edition');
     if (meta.sections) {
       if (!Array.isArray(meta.sections) || meta.sections[0]?.start !== 1) {
@@ -70,14 +67,18 @@ function loadLessonCatalog() {
     }
     for (const [index, row] of rows.entries()) {
       const numeric = Number.isInteger(row.numericAnswer);
-      const validAnswer = numeric ? row.choices.length === 0
-        : row.choices.length === meta.letters.length && Number.isInteger(row.answer)
-          && row.answer >= 0 && row.answer < row.choices.length;
-      if (!row.question || !validAnswer || row.steps.length < 2 || row.steps.some(step => !step.trim())) {
-        throw new Error(file + ': incomplete question or walkthrough at ' + (index + 1));
+      const choiceCounts = meta.choiceCounts ?? [meta.letters.length];
+      const validAnswer = numeric ? row.choices.length === 0 && row.numericAnswer >= 0 && row.numericAnswer <= 999999
+        : row.choices.length >= 2 && choiceCounts.includes(row.choices.length) && row.choices.length <= meta.letters.length
+          && Number.isInteger(row.answer) && row.answer >= 0 && row.answer < row.choices.length;
+      const points = row.points ?? meta.points;
+      if (!row.question || !validAnswer || row.acceptedAnswers || row.keyConflict ||
+          !Number.isInteger(points) || points <= 0 || row.steps.length < 2 || row.steps.some(step => !step.trim())) {
+        throw new Error(file + ': incomplete question, score or walkthrough at ' + (row.number ?? index + 1));
       }
     }
     const edition = context.makeSubjectEdition(meta, rows);
+    if (subjectRows.has(edition.id)) throw new Error(file + ': duplicate edition ' + edition.id);
     subjectRows.set(edition.id, {meta, rows});
     context.SUBJECT_EDITIONS.push(edition);
   }

@@ -1,0 +1,41 @@
+{
+  "source": "tasks.pdf",
+  "coordinateUnit": "rendered-pixel",
+  "renderScale": 2.75,
+  "crops": [
+    {
+      "page": 0,
+      "box": [
+        1676,
+        214,
+        2229,
+        783
+      ],
+      "file": "family-outside.webp",
+      "tasks": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "page": 1,
+      "box": [
+        856,
+        231,
+        1506,
+        649
+      ],
+      "file": "living-room.webp",
+      "tasks": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ]
+    }
+  ]
+}

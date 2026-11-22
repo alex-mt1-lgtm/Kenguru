@@ -98,6 +98,14 @@ class TestAccountApi(unittest.TestCase):
     def verify_current_email(self):
         return self.client.action("verify-email", {"token": self.verification_tokens()[-1]})
 
+    def task_records(self, account_id):
+        database = self.home / ".olympiads-auth" / "accounts.sqlite"
+        with sqlite3.connect(database) as db:
+            records, = db.execute(
+                "SELECT records_json FROM account_task_records WHERE account_id = ?", (account_id,)
+            ).fetchone()
+        return json.loads(records)
+
     def test_https_is_required(self):
         environment = {**os.environ, "REQUEST_METHOD": "GET", "HTTP_X_FORWARDED_PROTO": "https"}
         environment.pop("HTTPS", None)
@@ -373,6 +381,119 @@ class TestAccountApi(unittest.TestCase):
             db.execute("DROP TABLE account_scores")
             db.execute("PRAGMA user_version = 1")
         self.assertEqual(self.client.action("leaderboard")[1], board)
+
+    def test_numeric_rating_accepts_six_digit_integers_once(self):
+        catalog_file = self.home / "www" / "olympiads.pro" / "api" / "rating-catalog.json"
+        catalog = json.loads(catalog_file.read_text())
+        large = "2024-kit-10-11/21"
+        zero = "2099-kit-6-7/19"
+        upper_bound = "2099-kit-6-7/20"
+        wrong = "2099-kit-6-7/21"
+        after_review = "2099-kit-8-9/19"
+        choice = "2099-chip-eurasia-3-4-moscow-v2/1"
+        self.assertEqual(catalog[large], [171700, 4, "number"])
+        catalog.update({
+            zero: [0, 3, "number"], upper_bound: [999999, 5, "number"],
+            wrong: [132, 4, "number"], after_review: [6, 4, "number"],
+            choice: [4, 3],
+        })
+        catalog_file.write_text(json.dumps(catalog))
+
+        status, signed_in, _ = self.client.action("register", {
+            "username": "numeric_reader", "email": "numeric@example.test", "password": "numeric-reader-password"
+        })
+        self.assertEqual(status, 201)
+        account_id = signed_in["user"]["id"]
+
+        def state(selected, step=1):
+            return json.dumps({"selected": selected, "step": step, "seen": False, "reviewOpened": True})
+
+        for invalid in (-1, 1000000, 1.5, "0", True):
+            with self.subTest(invalid=invalid):
+                for progress, claims in (
+                    ({zero: state(invalid)}, {}),
+                    ({zero: state(0), "rating:" + zero: "solved"}, {zero: invalid}),
+                ):
+                    self.assertEqual(self.client.action("progress", {
+                        "revision": 0, "progress": progress, "ratingAnswers": claims
+                    })[0], 422)
+        self.assertEqual(self.client.action("progress", {
+            "revision": 0, "progress": {choice: state(4), "rating:" + choice: "solved"},
+            "ratingAnswers": {choice: 5},
+        })[0], 422)
+        self.assertEqual(self.client.action("progress")[1], {"revision": 0, "progress": {}})
+        self.assertEqual(self.client.action("progress", {
+            "revision": 0, "progress": {after_review: state(None)}
+        })[0], 200)
+        progress = {
+            large: state(None, step=0), zero: state(0), upper_bound: state(999999),
+            wrong: state(131), after_review: state(6), choice: state(4),
+        }
+        progress.update({"rating:" + lesson: "solved" for lesson in tuple(progress)})
+        submission = {"revision": 1, "progress": progress, "ratingAnswers": {large: 171700, zero: 0}}
+        status, saved, _ = self.client.action("progress", submission)
+        self.assertEqual(status, 200)
+        self.assertEqual(saved["revision"], 2)
+        for lesson in (large, zero, upper_bound, choice):
+            self.assertEqual(saved["progress"]["rating:" + lesson], "solved")
+        self.assertEqual(saved["progress"]["rating:" + wrong], "reviewed")
+        self.assertEqual(saved["progress"]["rating:" + after_review], "reviewed")
+        self.assertEqual(self.client.action("progress", submission)[0], 409)
+        self.assertEqual(self.client.action("progress", {**submission, "revision": 2})[1], saved)
+        self.assertEqual(self.client.action("progress", {
+            "revision": 2, "progress": {wrong: state(132), "rating:" + wrong: "solved"},
+            "ratingAnswers": {wrong: 132},
+        })[1]["progress"]["rating:" + wrong], "reviewed")
+        records = self.task_records(account_id)
+        self.assertEqual({k: records[k]["firstAnswer"] for k in (large, zero, upper_bound, wrong, choice)}, {
+            large: 171700, zero: 0, upper_bound: 999999, wrong: 131, choice: 4,
+        })
+        self.assertNotIn("firstAnswer", records[after_review])
+        standing = self.client.action("leaderboard")[1]["current"]
+        self.assertEqual((standing["points"], standing["solved"]), (15, 4))
+
+    def test_historical_matching_has_five_independent_scores_in_each_edition(self):
+        catalog_file = self.home / "www" / "olympiads.pro" / "api" / "rating-catalog.json"
+        catalog = json.loads(catalog_file.read_text())
+        answers = [0, 2, 1, 3, 4]
+        editions = ("2004-golden-fleece-3-7", "2004-golden-fleece-8-11")
+        for edition in editions:
+            self.assertEqual([catalog[f"{edition}/{n}"] for n in range(1, 6)], [[a, 3] for a in answers])
+        status, signed_in, _ = self.client.action("register", {
+            "username": "match_reader", "email": "matching@example.test", "password": "matching-reader-password"
+        })
+        self.assertEqual(status, 201)
+        progress, claims = {}, {}
+        missed = f"{editions[0]}/2"
+        for edition in editions:
+            for n, answer in enumerate(answers, 1):
+                lesson = f"{edition}/{n}"
+                selected = 1 if lesson == missed else answer
+                progress[lesson] = json.dumps({
+                    "selected": selected, "step": 1, "seen": False, "reviewOpened": True
+                })
+                progress["rating:" + lesson] = "solved"
+                claims[lesson] = selected
+        status, saved, _ = self.client.action("progress", {
+            "revision": 0, "progress": progress, "ratingAnswers": claims
+        })
+        self.assertEqual(status, 200)
+        records = self.task_records(signed_in["user"]["id"])
+        for lesson, selected in claims.items():
+            rating = "reviewed" if lesson == missed else "solved"
+            self.assertEqual(saved["progress"]["rating:" + lesson], rating)
+            self.assertEqual((records[lesson]["rating"], records[lesson]["firstAnswer"]), (rating, selected))
+        rating = "rating:" + missed
+        status, retry, _ = self.client.action("progress", {
+            "revision": 1, "progress": {
+                missed: json.dumps({"selected": 2, "step": 2, "seen": True, "reviewOpened": True}),
+                rating: "solved",
+            }, "ratingAnswers": {missed: 2},
+        })
+        self.assertEqual(status, 200)
+        self.assertEqual(retry["progress"][rating], "reviewed")
+        standing = self.client.action("leaderboard")[1]["current"]
+        self.assertEqual((standing["points"], standing["solved"]), (27, 9))
 
 
 if __name__ == "__main__":

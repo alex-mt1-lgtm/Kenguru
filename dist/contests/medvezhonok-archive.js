@@ -47,13 +47,15 @@ globalThis.makeMedvezhonokEdition = function (year, grade, rows) {
       }).join('') + '</div>';
     };
   });
+  const reviewedKey = rows.some(row => row.reviewedEdition);
   return {
     id: year + '-medvezhonok-' + grade, year, grades, subject: 'ru',
     label: grades.join('–') + ' классы',
     sources: {
       contest: 'Русский медвежонок',
       tasksUrl: 'assets/medvezhonok/' + year + '/' + grade + '.pdf',
-      answersUrl: 'assets/medvezhonok/' + year + '/' + grade + '-answers.pdf',
+      reviewedKey,
+      answersUrl: 'assets/medvezhonok/' + year + '/' + (reviewedKey ? 'reviewed-' + grade : grade + '-answers') + '.pdf',
     },
     lessons, scenes,
   };

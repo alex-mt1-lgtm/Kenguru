@@ -1,0 +1,58 @@
+{
+  "source": "tasks.pdf",
+  "coordinateUnit": "rendered-pixel",
+  "renderScale": 2.75,
+  "crops": [
+    {
+      "page": 0,
+      "box": [
+        1597,
+        235,
+        2292,
+        697
+      ],
+      "file": "jobs.webp",
+      "tasks": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "page": 1,
+      "box": [
+        123,
+        176,
+        660,
+        730
+      ],
+      "file": "family.webp",
+      "tasks": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "page": 1,
+      "box": [
+        831,
+        230,
+        1480,
+        726
+      ],
+      "file": "room.webp",
+      "tasks": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "source": "tasks.pdf",
+  "coordinateUnit": "rendered-pixel",
+  "renderScale": 5.4,
+  "crops": [
+    {
+      "page": 1,
+      "box": [
+        113,
+        339,
+        1443,
+        1722
+      ],
+      "file": "theatre.webp",
+      "tasks": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "alt": "A scene with actors, scenery, a red curtain and a person seated out of sight of the spectators. In front of the stage, audience seats are divided by a central aisle."
+    }
+  ]
+}

@@ -13,8 +13,7 @@ test('each archive and lesson PDF link points to a published PDF in this release
   const files = new Set([...pdfLinks(archive), ...pdfLinks(home)]);
   const editions = new Map();
   for (const [card] of archive.matchAll(/<li\b[^>]*class="archive-card"[^>]*>[\s\S]*?<\/li>/g)) {
-    const id = /#zadacha=([^/]+)\//.exec(card)?.[1];
-    if (id) editions.set(id, pdfLinks(card));
+    for (const match of card.matchAll(/#zadacha=([^/]+)\//g)) editions.set(match[1], pdfLinks(card));
   }
   for (const {id, sources} of loadLessonCatalog().catalog) {
     const cardLinks = editions.get(id);
@@ -24,7 +23,7 @@ test('each archive and lesson PDF link points to a published PDF in this release
     }
   }
   for (const link of files) {
-    assert.match(link, /^assets\/(?:[\w-]+\/)+[\w.-]+\.pdf$/);
+    assert.match(link, /^assets\/(?:[\w-]+\/)+[\p{L}\p{N}_.-]+\.pdf$/u);
     const file = path.join(dist, link);
     assert.equal(fs.readFileSync(file).subarray(0, 5).toString(), '%PDF-', link);
   }

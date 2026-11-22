@@ -1,0 +1,30 @@
+{
+  "source": "tasks.pdf",
+  "coordinateUnit": "rendered-pixel",
+  "renderScale": 5.4,
+  "crops": [
+    {
+      "page": 1,
+      "box": [
+        124,
+        1609,
+        1496,
+        2668
+      ],
+      "file": "street.webp",
+      "tasks": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "alt": "A town street with a pedestrian crossing between two marked cycle lanes. Cars are on the street, with buildings and a group of pedestrians in the background. An aircraft and a hot-air balloon are in the sky."
+    }
+  ]
+}

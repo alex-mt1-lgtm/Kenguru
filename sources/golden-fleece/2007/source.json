@@ -1,0 +1,18 @@
+{
+  "page": "https://runodog.ru/index/2006_2007/0-8",
+  "format": "html",
+  "localOriginal": "official.html",
+  "title": "Douce France",
+  "tasks": {
+    "3-5": "tasks-3-5.pdf",
+    "6-8": "tasks-6-8.pdf",
+    "9-11": "tasks-9-11.pdf"
+  },
+  "answers": "answers.pdf",
+  "conversion": "Локальные PDF подготовлены из HTML организатора.",
+  "statistics": "https://runodog.ru/ZR_stat_03-12/ZR_stat_2006-2007.pdf",
+  "notes": [
+    "В 3–5 классе текст №37 спрашивает о соборе, но назначенная в HTML иллюстрация показывает парижскую Триумфальную арку. В локальном PDF сохранена связка оригинала."
+  ],
+  "localIllustrations": "illustrations.json"
+}

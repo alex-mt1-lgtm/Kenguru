@@ -1,0 +1,548 @@
+[
+  {
+    "title": "The Letter Writer",
+    "question": "Who is writing the letter?",
+    "choices": [
+      "Sue",
+      "Ann",
+      "Emma",
+      "Helen"
+    ],
+    "answer": 0,
+    "steps": [
+      "Вопрос who спрашивает об авторе письма. Послушай, каким именем подписано письмо.",
+      "В подписи звучит Sue. Так зовут девочку, которая пишет письмо."
+    ],
+    "context": "Listen to the girl’s letter and answer the questions.",
+    "audio": true
+  },
+  {
+    "title": "The Girl’s Occupation",
+    "question": "Who is she? She is a ... .",
+    "choices": [
+      "student",
+      "doctor",
+      "manager",
+      "teacher"
+    ],
+    "answer": 0,
+    "steps": [
+      "Нужно понять, кем девочка называет себя. Ищи в её рассказе слово про учёбу или работу.",
+      "Девочка говорит, что она student. Здесь это «ученица»."
+    ],
+    "context": "Listen to the girl’s letter and answer the questions.",
+    "audio": true
+  },
+  {
+    "title": "Where She Lives",
+    "question": "Where does she live? She lives ... .",
+    "choices": [
+      "in London",
+      "in a small village",
+      "in a little town",
+      "in a big town"
+    ],
+    "answer": 2,
+    "steps": [
+      "Where does she live? означает «Где она живёт?» Слушай, какое место девочка называет своим домом.",
+      "Она говорит о маленьком городе, a little town. Village означает «деревня», а big town — большой город."
+    ],
+    "context": "Listen to the girl’s letter and answer the questions.",
+    "audio": true
+  },
+  {
+    "title": "Her Pet",
+    "question": "What pet does she have?",
+    "choices": [
+      "A dog",
+      "A cat",
+      "A horse",
+      "A rabbit"
+    ],
+    "answer": 1,
+    "steps": [
+      "Pet означает «домашнее животное». В рассказе ищи фразу, где девочка говорит о своём питомце.",
+      "Девочка рассказывает о кошке. Кошка по-английски — a cat."
+    ],
+    "context": "Listen to the girl’s letter and answer the questions.",
+    "audio": true
+  },
+  {
+    "title": "The Pet’s Name",
+    "question": "What is its name?",
+    "choices": [
+      "Jane",
+      "Baby",
+      "Cori",
+      "Penny"
+    ],
+    "answer": 3,
+    "steps": [
+      "Its указывает на питомца. Послушай, какое имя девочка произносит, когда рассказывает о кошке.",
+      "Кошку зовут Penny. Это её имя, которое спрашивают в задании."
+    ],
+    "context": "Listen to the girl’s letter and answer the questions.",
+    "audio": true
+  },
+  {
+    "title": "The Sound of G",
+    "question": "Which word has g pronounced /dʒ/?",
+    "choices": [
+      "go",
+      "gym",
+      "god",
+      "game"
+    ],
+    "answer": 1,
+    "steps": [
+      "Сравни начало go и gym. В go слышится твёрдое /ɡ/.",
+      "Gym произносится /dʒɪm/. Начальный звук похож на сочетание «дж»."
+    ],
+    "context": "Choose the word in which g is pronounced /dʒ/."
+  },
+  {
+    "title": "G in Four Words",
+    "question": "Which word has g pronounced /dʒ/?",
+    "choices": [
+      "pig",
+      "big",
+      "page",
+      "grow"
+    ],
+    "answer": 2,
+    "steps": [
+      "В pig и big на конце есть /ɡ/. В grow тот же звук стоит в начале.",
+      "Page произносится /peɪdʒ/. Буквы ge дают на конце /dʒ/."
+    ],
+    "context": "Choose the word in which g is pronounced /dʒ/."
+  },
+  {
+    "title": "Spotting the G Sound",
+    "question": "Which word has g pronounced /dʒ/?",
+    "choices": [
+      "cage",
+      "gun",
+      "gate",
+      "goat"
+    ],
+    "answer": 0,
+    "steps": [
+      "В gun, gate и goat в начале слышится звук /ɡ/. Проверь g в конце оставшегося слова.",
+      "Cage произносится /keɪdʒ/. В конце слышится /dʒ/."
+    ],
+    "context": "Choose the word in which g is pronounced /dʒ/."
+  },
+  {
+    "title": "Comparing G Sounds",
+    "question": "Which word has g pronounced /dʒ/?",
+    "choices": [
+      "frog",
+      "grey",
+      "green",
+      "large"
+    ],
+    "answer": 3,
+    "steps": [
+      "Прочитай frog, grey и green. Во всех трёх словах g даёт /ɡ/.",
+      "В large буквы ge на конце передают /dʒ/."
+    ],
+    "context": "Choose the word in which g is pronounced /dʒ/."
+  },
+  {
+    "title": "Reading Words with G",
+    "question": "Which word has g pronounced /dʒ/?",
+    "choices": [
+      "bag",
+      "age",
+      "glass",
+      "guitar"
+    ],
+    "answer": 1,
+    "steps": [
+      "В bag, glass и guitar буква g читается /ɡ/. В age она стоит перед e.",
+      "Age произносится /eɪdʒ/. Конечный звук — /dʒ/."
+    ],
+    "context": "Choose the word in which g is pronounced /dʒ/."
+  },
+  {
+    "title": "Meg the Dog",
+    "question": "Meg ... a very big dog.",
+    "choices": [
+      "are",
+      "is",
+      "am",
+      "have"
+    ],
+    "answer": 1,
+    "steps": [
+      "Meg — имя. Здесь оно обозначает одну собаку, которую описывают словами a very big dog.",
+      "С одним именем используем is. «Meg is a very big dog» означает «Мег — очень большая собака»."
+    ],
+    "context": "Choose the word that completes the sentence."
+  },
+  {
+    "title": "The Wall Colour",
+    "question": "What colour ... the walls?",
+    "choices": [
+      "am",
+      "is",
+      "are",
+      "has"
+    ],
+    "answer": 2,
+    "steps": [
+      "Walls — «стены», слово во множественном числе. Представь, что вместо него стоит they.",
+      "С they используем are. В вопросе глагол ставим перед the walls."
+    ],
+    "context": "Choose the word that completes the sentence."
+  },
+  {
+    "title": "Telling the Time",
+    "question": "What time ... it?",
+    "choices": [
+      "is",
+      "be",
+      "are",
+      "am"
+    ],
+    "answer": 0,
+    "steps": [
+      "Вопрос о времени строится со словом it. Ему нужна форма глагола be.",
+      "С it употребляем is. «What time is it?» означает «Который час?»."
+    ],
+    "context": "Choose the word that completes the sentence."
+  },
+  {
+    "title": "Being a Manager",
+    "question": "I ... a manager.",
+    "choices": [
+      "am",
+      "has",
+      "does",
+      "are"
+    ],
+    "answer": 0,
+    "steps": [
+      "A manager — профессия. Чтобы назвать свою профессию, начни предложение с I.",
+      "После I употребляем am. «I am a manager» означает «Я менеджер»."
+    ],
+    "context": "Choose the word that completes the sentence."
+  },
+  {
+    "title": "Not Wanting to Read",
+    "question": "I ... want to read this book.",
+    "choices": [
+      "don’t",
+      "aren’t",
+      "doesn’t",
+      "be not"
+    ],
+    "answer": 0,
+    "steps": [
+      "Want — обычный глагол. В отрицательном предложении в настоящем времени ему нужен помощник do.",
+      "С I используем don’t. «I don’t want to read this book» означает «Я не хочу читать эту книгу»."
+    ],
+    "context": "Choose the word that completes the sentence."
+  },
+  {
+    "title": "Counting People",
+    "question": "How many people can you see?",
+    "choices": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": 3,
+    "steps": [
+      "How many people? спрашивает о числе людей. Посчитай сначала детей на коврике и взрослого на скамейке.",
+      "В окне ещё двое, мама и малыш. Всего получается пять человек."
+    ],
+    "context": "Look at the picture and answer the questions.",
+    "figure": {
+      "src": "assets/british-bulldog/2022/2/family-outside.webp",
+      "alt": "Two children are on a pink rug outside a house. A man holds an open newspaper and a woman holds a baby at the window.",
+      "width": 553,
+      "height": 569
+    }
+  },
+  {
+    "title": "The Girl’s Activity",
+    "question": "What is the girl doing? She is ... .",
+    "choices": [
+      "running",
+      "sitting",
+      "jumping",
+      "swimming"
+    ],
+    "answer": 1,
+    "steps": [
+      "Найди девочку на коврике. Она опирается на него и держит ноги перед собой.",
+      "Она сидит. В выражении she is sitting слово sitting описывает то, что она делает сейчас."
+    ],
+    "context": "Look at the picture and answer the questions.",
+    "figure": {
+      "src": "assets/british-bulldog/2022/2/family-outside.webp",
+      "alt": "Two children are on a pink rug outside a house. A man holds an open newspaper and a woman holds a baby at the window.",
+      "width": 553,
+      "height": 569
+    }
+  },
+  {
+    "title": "The Father’s Activity",
+    "question": "What is the father doing? He is ... .",
+    "choices": [
+      "reading",
+      "jumping",
+      "eating",
+      "sleeping"
+    ],
+    "answer": 0,
+    "steps": [
+      "Отец сидит на скамейке. Обрати внимание на развёрнутую газету у него в руках.",
+      "Он читает газету. Подходит he is reading."
+    ],
+    "context": "Look at the picture and answer the questions.",
+    "figure": {
+      "src": "assets/british-bulldog/2022/2/family-outside.webp",
+      "alt": "Two children are on a pink rug outside a house. A man holds an open newspaper and a woman holds a baby at the window.",
+      "width": 553,
+      "height": 569
+    }
+  },
+  {
+    "title": "The Boy’s Clothes",
+    "question": "What is the boy wearing?",
+    "choices": [
+      "A T-shirt",
+      "A dress",
+      "A coat",
+      "A sweater"
+    ],
+    "answer": 0,
+    "steps": [
+      "Найди мальчика слева на коврике. На нём голубая вещь с короткими рукавами.",
+      "Это футболка, по-английски a T-shirt. Coat означает «пальто», sweater — «свитер»."
+    ],
+    "context": "Look at the picture and answer the questions.",
+    "figure": {
+      "src": "assets/british-bulldog/2022/2/family-outside.webp",
+      "alt": "Two children are on a pink rug outside a house. A man holds an open newspaper and a woman holds a baby at the window.",
+      "width": 553,
+      "height": 569
+    }
+  },
+  {
+    "title": "Mother and Baby",
+    "question": "Where are the mom and the baby? They are in the ... .",
+    "choices": [
+      "shop",
+      "park",
+      "garden",
+      "house"
+    ],
+    "answer": 3,
+    "steps": [
+      "Посмотри на открытое окно. Мама держит малыша за оконной рамой, внутри здания.",
+      "На картинке это дом. Подходит they are in the house."
+    ],
+    "context": "Look at the picture and answer the questions.",
+    "figure": {
+      "src": "assets/british-bulldog/2022/2/family-outside.webp",
+      "alt": "Two children are on a pink rug outside a house. A man holds an open newspaper and a woman holds a baby at the window.",
+      "width": 553,
+      "height": 569
+    }
+  },
+  {
+    "title": "Yellow and Green",
+    "question": "Yellow, green, grey, black, red",
+    "choices": [
+      "Colours",
+      "Clothes",
+      "Family",
+      "Animals"
+    ],
+    "answer": 0,
+    "steps": [
+      "Yellow означает «жёлтый», green — «зелёный», grey — «серый». Добавь к ним чёрный и красный.",
+      "Все слова обозначают цвета. По-английски они относятся к группе colours."
+    ],
+    "context": "Choose the category that matches the words."
+  },
+  {
+    "title": "Frog and Horse",
+    "question": "Frog, cow, horse, pig, cat",
+    "choices": [
+      "Animals",
+      "Birds",
+      "Plants",
+      "Family"
+    ],
+    "answer": 0,
+    "steps": [
+      "Frog — лягушка, cow — корова, horse — лошадь. Найди общее название и для них, и для свиньи с кошкой.",
+      "Все они животные, animals. Вариант birds означает только птиц, а их в списке нет."
+    ],
+    "context": "Choose the category that matches the words."
+  },
+  {
+    "title": "Sister and Uncle",
+    "question": "Sister, brother, mother, grandfather, uncle",
+    "choices": [
+      "Colours",
+      "Family",
+      "Food",
+      "Plants"
+    ],
+    "answer": 1,
+    "steps": [
+      "Sister — сестра, brother — брат, uncle — дядя. Как связаны эти люди?",
+      "Все слова называют родственников. В английском их объединяет слово family — «семья»."
+    ],
+    "context": "Choose the category that matches the words."
+  },
+  {
+    "title": "Coat and T-shirt",
+    "question": "Coat, T-shirt, dress, skirt, blouse",
+    "choices": [
+      "Animals",
+      "Birds",
+      "Colours",
+      "Clothes"
+    ],
+    "answer": 3,
+    "steps": [
+      "Coat — пальто, T-shirt — футболка, dress — платье. Вспомни, что делают со всеми этими вещами.",
+      "Пальто, футболку, платье, юбку и блузку носят. Это clothes — «одежда»."
+    ],
+    "context": "Choose the category that matches the words."
+  },
+  {
+    "title": "Bread and Apples",
+    "question": "Cheese, milk, apples, bread, sweet",
+    "choices": [
+      "Colours",
+      "Birds",
+      "Plants",
+      "Food"
+    ],
+    "answer": 3,
+    "steps": [
+      "Bread — хлеб, apples — яблоки, sweet здесь обозначает конфету. Ищи категорию, куда входят также сыр и молоко.",
+      "Все эти продукты — food. Слово plants означает «растения», к ним сыр и молоко не относятся."
+    ],
+    "context": "Choose the category that matches the words."
+  },
+  {
+    "title": "On the Shelf",
+    "question": "There are ... on the shelf.",
+    "choices": [
+      "clocks",
+      "Teddy bears",
+      "books",
+      "bananas"
+    ],
+    "answer": 2,
+    "steps": [
+      "Shelf означает «полка». Найди стеллаж справа от дивана.",
+      "На его средней полке стоят и лежат книги. Книги — books."
+    ],
+    "context": "Look at the picture and fill in the blanks.",
+    "figure": {
+      "src": "assets/british-bulldog/2022/2/living-room.webp",
+      "alt": "A drawing of a living room with a sofa, a table on the left, a wall and shelves. Several objects are on the furniture, on the wall and on the floor.",
+      "width": 650,
+      "height": 418
+    }
+  },
+  {
+    "title": "On the Wall",
+    "question": "There is a ... on the wall.",
+    "choices": [
+      "plate",
+      "cat",
+      "lamp",
+      "picture"
+    ],
+    "answer": 3,
+    "steps": [
+      "On the wall означает «на стене». Посмотри, что висит над диваном.",
+      "Там висит картина в рамке. Подходит слово picture."
+    ],
+    "context": "Look at the picture and fill in the blanks.",
+    "figure": {
+      "src": "assets/british-bulldog/2022/2/living-room.webp",
+      "alt": "A drawing of a living room with a sofa, a table on the left, a wall and shelves. Several objects are on the furniture, on the wall and on the floor.",
+      "width": 650,
+      "height": 418
+    }
+  },
+  {
+    "title": "On the Table",
+    "question": "There is a ... on the table.",
+    "choices": [
+      "book",
+      "cup",
+      "lamp",
+      "clock"
+    ],
+    "answer": 1,
+    "steps": [
+      "Слева от дивана стоит маленький столик. Посмотри на предметы поверх столешницы.",
+      "Рядом с вазой стоит красная чашка с ручкой. Чашка — cup."
+    ],
+    "context": "Look at the picture and fill in the blanks.",
+    "figure": {
+      "src": "assets/british-bulldog/2022/2/living-room.webp",
+      "alt": "A drawing of a living room with a sofa, a table on the left, a wall and shelves. Several objects are on the furniture, on the wall and on the floor.",
+      "width": 650,
+      "height": 418
+    }
+  },
+  {
+    "title": "Above the Table",
+    "question": "There is a ... above the table.",
+    "choices": [
+      "vase",
+      "cushion",
+      "sofa",
+      "clock"
+    ],
+    "answer": 3,
+    "steps": [
+      "Above означает «над». Подними взгляд от столика к стене прямо над ним.",
+      "Там висят часы со стрелками. Подходит clock."
+    ],
+    "context": "Look at the picture and fill in the blanks.",
+    "figure": {
+      "src": "assets/british-bulldog/2022/2/living-room.webp",
+      "alt": "A drawing of a living room with a sofa, a table on the left, a wall and shelves. Several objects are on the furniture, on the wall and on the floor.",
+      "width": 650,
+      "height": 418
+    }
+  },
+  {
+    "title": "In Front of the Sofa",
+    "question": "There are ... in front of the sofa.",
+    "choices": [
+      "windows",
+      "slippers",
+      "books",
+      "pictures"
+    ],
+    "answer": 1,
+    "steps": [
+      "In front of the sofa означает «перед диваном». Ищи то, что лежит на полу у дивана.",
+      "На полу видна пара домашних тапочек. Тапочки — slippers."
+    ],
+    "context": "Look at the picture and fill in the blanks.",
+    "figure": {
+      "src": "assets/british-bulldog/2022/2/living-room.webp",
+      "alt": "A drawing of a living room with a sofa, a table on the left, a wall and shelves. Several objects are on the furniture, on the wall and on the floor.",
+      "width": 650,
+      "height": 418
+    },
+    "reviewedEdition": true
+  }
+]

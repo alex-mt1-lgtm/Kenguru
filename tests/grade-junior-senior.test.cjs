@@ -44,8 +44,11 @@ test('the archive reflects the official contest groups and keeps their source bo
 test('each interactive junior and senior task uses native text, available artwork and the correct rating scale', () => {
   assert.deepEqual([...editions.get('1997-9-10').answerLetters], [...'ABCDE']);
   const grade2 = editions.get('2017-2').cards[5];
-  assert.equal(grade2.answer, null);
-  assert.match(grade2.keyNote, /2.*4/u);
+  assert.equal(grade2.options[grade2.answer].text, '2');
+  assert.equal(grade2.points, 3);
+  assert.match(grade2.review[1].text, /6 − 4 = 2/u);
+  const shading = context.KENGURU_ARCHIVE['2017-2'].scenes[5];
+  assert.notEqual(shading(2, 0), shading(2, 2));
   const rating = JSON.parse(fs.readFileSync(path.join(dist, 'api/rating-catalog.json'), 'utf8'));
   for (const entry of manifest.datasets) {
     if (!editions.has(entry.id)) continue;
@@ -62,8 +65,8 @@ test('each interactive junior and senior task uses native text, available artwor
       assert.equal(lesson[card.number - 1].title, card.title, key);
       assert.ok(card.title.length <= 30 && card.question.trim(), key);
       assert.equal(card.options.length, 5, key);
-      if (card.answer === null) assert.equal(rating[key], undefined, key);
-      else assert.deepEqual(rating[key], [card.answer, expectedPoints], key);
+      assert.ok(Number.isInteger(card.answer) && card.answer >= 0 && card.answer < 5, key);
+      assert.deepEqual(rating[key], [card.answer, expectedPoints], key);
       for (const option of card.options) {
         assert.ok(option.text?.trim() || (option.description?.trim() && fs.existsSync(path.join(dist, option.image))), key);
       }

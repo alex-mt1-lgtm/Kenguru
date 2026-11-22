@@ -185,12 +185,14 @@ function renderSyncStatus() {
     sync === 'saved' ? 'Прогресс сохранён в аккаунте.' : '';
   retry.hidden = sync !== 'blocked';
   if (!ratingAttempt) return;
-  const confirmed = accountProgress?.confirmed(ratingAttempt.key);
-  const awarded = accountProgress?.confirmedAward(ratingAttempt.key);
-  $('ratingNotice').textContent = awarded ? `+${formatRatingPoints(ratingAttempt.points)} в рейтинг` :
-    confirmed === 'solved' ? 'Баллы за эту задачу уже сохранены.' :
-    confirmed ? 'Ответ проверен. Баллы за эту попытку не начислены.' :
-    accountProgress?.read(ratingAttempt.key) === 'solved' ? 'Ответ ожидает подтверждения рейтинга.' : '';
+  const awarded = ratingAttempt.reduce((sum, entry) =>
+    sum + (accountProgress?.confirmedAward(entry.key) ? entry.points : 0), 0);
+  const confirmed = ratingAttempt.map(entry => accountProgress?.confirmed(entry.key));
+  $('ratingNotice').textContent = awarded ? `+${formatRatingPoints(awarded)} в рейтинг` :
+    confirmed.every(value => value === 'solved') ? 'Баллы за эту задачу уже сохранены.' :
+    confirmed.every(Boolean) ? 'Ответ проверен. Баллы за эту попытку не начислены.' :
+    'Ответ ожидает подтверждения рейтинга.';
+
 }
 
 function refreshAccountProgress(changed) {
@@ -255,11 +257,11 @@ function changeAccount({user, restored, clearLocal}) {
   }
 }
 
-function saveLessonProgress() {
-  const key = lessonKey(LESSONS[task]);
-  const {step, selected, seen} = current();
+function saveLessonProgress(index = task) {
+  const key = lessonKey(LESSONS[index]);
+  const {step, selected, seen} = states[index];
   const previous = readProgress(key);
-  if (activeProfileId === accountProfile?.id) {
+  if (index === task && activeProfileId === accountProfile?.id) {
     accountResume = false;
     writeProgress('current', key);
   }
@@ -277,7 +279,16 @@ const subjectNames = {math: 'Математика', ru: 'Русский язык
 const compactSubject = {'british-bulldog': 'Английский', 'golden-fleece': 'История', chip: 'Окруж. мир'};
 const lastSubjectTask = new Map();
 const answerLetter=index=>(activeSet().answerLetters||LETTERS)[index];
-function nextTaskIndex(){const indices=activeSet().indices;return indices[(indices.indexOf(task)+1)%indices.length]}
+function visibleTasks(set) {
+  return set.indices.filter(i => !LESSONS[i].matching || LESSONS[i].matching.start === LESSONS[i].number);
+}
+
+function matchingParts() {
+  const group = LESSONS[task].matching;
+  return group ? activeSet().indices.filter(i => LESSONS[i].matching?.start === group.start) : [];
+}
+
+function nextTaskIndex(){const indices=visibleTasks(activeSet());return indices[(indices.indexOf(task)+1)%indices.length]}
 const reducedMotion=typeof matchMedia==='function'&&matchMedia('(prefers-reduced-motion: reduce)').matches;
 const FRAME_MS=600;
 const current=()=>states[task];
@@ -372,6 +383,7 @@ for(const attr of Array.from(target.attributes))if(!source.hasAttribute(attr.nam
 const children=Array.from(source.childNodes);for(let i=0;i<children.length;i++){if(target.childNodes[i])patchNode(target.childNodes[i],children[i]);else target.appendChild(children[i].cloneNode(true))}while(target.childNodes.length>children.length)target.lastChild.remove()}
 let lastScene='';
 function sceneMarkup(lesson, step, frame) {
+  if (lesson.matching) return '';
   if (step !== 0) return SCENES[task](step, frame);
   if (task === 0) return squareWorkScene();
   if (task === 9) return fruitWorkspaceScene();
@@ -450,6 +462,26 @@ function graphicAnswerDescription(lesson, index) {
     ?? globalThis.KENGURU_GRAPHIC_ANSWER_DESCRIPTIONS?.[lessonKey(lesson)]?.[index];
 }
 
+function renderMatching(lesson, step) {
+  const parts = matchingParts();
+  const rows = parts.map((i, offset) => {
+    const part = LESSONS[i];
+    const figure = part.choiceLayout.condition;
+    const label = 'Рисунок ' + (offset + 1);
+    const options = part.choices.map((choice, n) => '<option value="' + n + '"' +
+      (states[i].selected === n ? ' selected' : '') + '>' + answerLetter(n) + ' · ' + escapeAnswerText(choice) + '</option>');
+    const control = step === 0
+      ? '<select data-match="' + i + '" aria-label="' + label + ', выбери ответ"><option value="">Выбери ответ</option>' + options.join('') + '</select>'
+      : '<span>' + (states[i].selected === null ? 'Ответ пропущен' : 'Твой выбор — ' + answerLetter(states[i].selected)) + '</span>';
+    const solution = step === lastStep() || step === offset + 1
+      ? '<strong>' + (offset + 1) + ' — ' + answerLetter(part.answer) + ' · ' + escapeAnswerText(part.choices[part.answer]) + '</strong>' : '';
+    return '<div class="matching-item"><b>' + label + '</b><button type="button" data-match-image="' + offset +
+      '" aria-label="Увеличить рисунок ' + (offset + 1) + '"><img src="' + escapeAnswerText(figure.src) + '" alt="' +
+      escapeAnswerText(figure.alt) + '"></button>' + control + solution + '</div>';
+  });
+  $('matchingAnswers').innerHTML = rows.join('');
+}
+
 function renderAnswers() {
   const st = current();
   const lesson = LESSONS[task];
@@ -458,7 +490,9 @@ function renderAnswers() {
   const numeric = Number.isInteger(lesson.numericAnswer);
   $('numericEntry').hidden = !numeric || st.step !== 0;
   if (numeric) $('numericAnswer').value = st.selected ?? '';
-  $('answers').hidden = numeric || st.step !== 0;
+  $('matchingAnswers').hidden = !lesson.matching;
+  if (lesson.matching) renderMatching(lesson, st.step);
+  $('answers').hidden = Boolean(lesson.matching) || numeric || st.step !== 0;
   $('openChoiceZoom').hidden = st.step !== 0 || !options?.some(option => option.image);
   $('answers').className = 'answer-list' + (illustrated ? ' illustrated-answers' : '')
     + (options && illustrated ? ' separated-answers' : '');
@@ -485,7 +519,7 @@ function renderAnswers() {
 }
 
 const taskPlural = new Intl.PluralRules('ru');
-function pointsLabel(points) { return points ? formatRatingPoints(points) : 'Числовой ответ'; }
+function pointsLabel(points, numeric = true) { return points ? formatRatingPoints(points) : numeric ? 'Числовой ответ' : 'Без баллов'; }
 
 function splitTaskGroup(title, indices, language) {
   const groups = [];
@@ -496,7 +530,8 @@ function splitTaskGroup(title, indices, language) {
 }
 
 function taskGroups(set) {
-  const {indices, sections, titleLanguage} = set;
+  const {sections, titleLanguage} = set;
+  const indices = visibleTasks(set);
   if (sections) {
     return sections.flatMap(({title, start}, index) => {
       const end = sections[index + 1]?.start ?? Infinity;
@@ -504,8 +539,11 @@ function taskGroups(set) {
       return splitTaskGroup(title, group, titleLanguage);
     });
   }
-  const points = [...new Set(indices.map(i => LESSONS[i].points))].sort((a, b) => (a || Infinity) - (b || Infinity));
-  return points.flatMap(points => splitTaskGroup(pointsLabel(points), indices.filter(i => LESSONS[i].points === points)));
+  const numbers = indices.filter(i => Number.isInteger(LESSONS[i].numericAnswer));
+  const choices = indices.filter(i => !Number.isInteger(LESSONS[i].numericAnswer));
+  const points = [...new Set(choices.map(i => LESSONS[i].points))].sort((a, b) => a - b);
+  const groups = points.flatMap(value => splitTaskGroup(pointsLabel(value), choices.filter(i => LESSONS[i].points === value)));
+  return groups.concat(splitTaskGroup('Числовой ответ', numbers));
 }
 
 function taskNumberRange(indices) {
@@ -578,13 +616,15 @@ function renderPicker() {
   const archiveHash = subject === 'ru' ? russianHash : subject === 'math' ? 'grades-' + gradeGroup : subject;
   $('editionArchive').href = '/archive.html#' + archiveHash;
   $('allEditions').href = $('editionArchive').href;
-  const position = indices.indexOf(task);
+  const visible = visibleTasks(set);
+  const position = visible.indexOf(task);
   $('previousTaskShortcut').setAttribute('aria-disabled', String(position <= 0));
-  $('nextTaskShortcut').setAttribute('aria-disabled', String(position === indices.length - 1));
+  $('nextTaskShortcut').setAttribute('aria-disabled', String(position === visible.length - 1));
 
   renderTaskPicker(set);
   $('collectionProgress').textContent = `открыто ответов ${indices.filter(i => states[i].seen).length} из ${indices.length}`;
   $('tasksSource').href = set.sources.tasksUrl;
+  $('tasksSource').textContent = set.sources.reviewedKey ? 'Исходный бланк в PDF' : 'Задания в PDF';
   $('answersSource').textContent = set.sources.reviewedKey ? 'Ответы редакции в PDF' : 'Ответы в PDF';
   $('answersSource').hidden = !set.sources.answersUrl;
   if (set.sources.answersUrl) $('answersSource').href = set.sources.answersUrl;
@@ -633,13 +673,13 @@ function renderCondition(lesson, step) {
   note.textContent = lesson.questionNote ?? '';
   note.hidden = !lesson.questionNote;
 
-  const source = step > 0 && lesson.conditionImage;
+  const source = !lesson.matching && step > 0 && lesson.conditionImage;
   picture.hidden = !source;
   if (source && picture.getAttribute?.('src') !== source) {
     picture.src = source;
     picture.alt = lesson.conditionAlt ?? 'Рисунок из условия задачи';
   }
-  $('openLegacyZoom').hidden = !lesson.conditionImage;
+  $('openLegacyZoom').hidden = Boolean(lesson.matching) || !lesson.conditionImage;
 }
 
 function render() {
@@ -650,7 +690,7 @@ function render() {
   const focused = document.activeElement;
   if (final) st.seen = true;
   $('taskNumber').textContent = String(lesson.number).padStart(2, '0');
-  $('taskPoints').textContent = pointsLabel(lesson.points);
+  $('taskPoints').textContent = lesson.matching ? 'По ' + formatRatingPoints(lesson.points) + ' за пару' : pointsLabel(lesson.points, Number.isInteger(lesson.numericAnswer));
   const titleLanguage = activeSet().titleLanguage ?? 'ru';
   for (const id of ['taskTitle', 'taskSummaryTitle']) {
     $(id).textContent = lesson.title;
@@ -678,7 +718,11 @@ function render() {
   const feedback = $('feedback');
   const numeric = Number.isInteger(lesson.numericAnswer);
   const choice = st.selected === null ? '' : numeric ? `Твой ответ — ${st.selected}.` : `Твой выбор — ${answerLetter(st.selected)}.`;
-  if (st.step === 0) {
+  if (lesson.matching) {
+    const parts = matchingParts();
+    feedback.textContent = final ? 'Ответ: ' + parts.map((i, n) => (n + 1) + ' — ' + answerLetter(LESSONS[i].answer)).join(', ') + '.'
+      : st.step === 0 ? 'Подбери ответ к каждому рисунку и нажми «Далее».' : '';
+  } else if (st.step === 0) {
     const check = lesson.paperEdition ? ' Сверь его с официальным ключом.' : ' Проверим его в разборе.';
     feedback.textContent = numeric ? 'Введи целое число и нажми «Далее».' : choice ? choice + check : 'Выбери ответ. Затем нажми «Далее» и проверь своё решение.';
   } else if (final && numeric) {
@@ -688,6 +732,13 @@ function render() {
       ? 'Твой выбор совпал с официальным ответом.' : choice;
   } else if (final && lesson.archiveAnswer) {
     feedback.textContent = [choice, 'В официальном ключе указан ответ ' + lesson.archiveAnswer + '. Этот результат не влияет на рейтинг.'].filter(Boolean).join(' ');
+  } else if (final && lesson.keyConflict) {
+    feedback.textContent = [choice, lesson.keyConflict].filter(Boolean).join(' ');
+  } else if (final && lesson.acceptedAnswers) {
+    const accepted = lesson.acceptedAnswers;
+    const summary = accepted.length === lesson.choices.length ? 'Организатор засчитал любой вариант.'
+      : 'Организатор засчитал варианты ' + accepted.map(answerLetter).join(', ') + '.';
+    feedback.textContent = [accepted.includes(st.selected) ? 'Твой вариант засчитан.' : choice, summary].filter(Boolean).join(' ');
   } else if (final && lesson.answer === null) {
     feedback.textContent = [choice, 'Для этой задачи в официальном ключе нет ответа.'].filter(Boolean).join(' ');
   } else if (final) {
@@ -720,8 +771,22 @@ function sceneDuration(t,s){if(s===0)return 1500;if(t>=8)return s===lastStep(t)?
 function pause(){playing=false;if(clock!==null)cancelAnimationFrame(clock);clock=null;lastTimestamp=null;playLabel()}
 function resetPosition(st){st.frame=0;st.elapsed=0}
 function showLessonStep(step) {
-  const earned = recordRatedTransition(step);
-  if (earned) ratingAttempt = {key: 'rating:' + lessonKey(LESSONS[task]), points: earned};
+  const parts = matchingParts();
+  if (step > 0 && current().step === 0 && parts.some(i => states[i].selected === null)) {
+    $('feedback').textContent = 'Выбери ответ для каждого рисунка.';
+    if (playing) pause();
+    return;
+  }
+  const awards = [];
+  for (const index of parts.length ? parts : [task]) {
+    const points = recordRatedTransition(step, index);
+    if (points) awards.push({key: 'rating:' + lessonKey(LESSONS[index]), points});
+    if (index === task) continue;
+    states[index].step = step;
+    if (step === lastStep()) states[index].seen = true;
+    saveLessonProgress(index);
+  }
+  if (awards.length) ratingAttempt = awards;
   renderSyncStatus();
   current().step = step;
   resetPosition(current());
@@ -738,7 +803,9 @@ function selectTask(n, historyMethod = 'pushState', savePosition = true) {
   const activate = () => {
     if (request !== navigationRequest) return;
     $('lessonLoadStatus').textContent = '';
-    activateTask(n, historyMethod, savePosition);
+    const set = CATALOG.find(item => item.id === lesson.datasetId);
+    const index = lesson.matching ? set.indices.find(i => LESSONS[i].number === lesson.matching.start) : n;
+    activateTask(index, historyMethod, savePosition);
     if (streamedEditions && !ready) {
       ready = true;
       $('lessonPage').classList.remove('lesson-initializing');
@@ -984,7 +1051,7 @@ if (compactNavigation) {
 }
 
 function selectAdjacentTask(offset) {
-  const indices = activeSet().indices;
+  const indices = visibleTasks(activeSet());
   const destination = indices[indices.indexOf(task) + offset];
   if (destination !== undefined) return selectTask(destination);
 }
@@ -1010,6 +1077,22 @@ $('chapters').addEventListener('click', e => {
     $('chapterNavigation').open = false;
     $('lessonPlayer').scrollIntoView({block: 'start'});
   }
+});
+$('matchingAnswers').addEventListener('change', event => {
+  const select = event.target.closest('[data-match]');
+  if (!select || current().step !== 0) return;
+  const index = Number(select.dataset.match);
+  states[index].selected = select.value === '' ? null : Number(select.value);
+  saveLessonProgress(index);
+});
+$('matchingAnswers').addEventListener('click', event => {
+  const button = event.target.closest('[data-match-image]');
+  if (!button) return;
+  const gallery = matchingParts().map((i, n) => {
+    const figure = LESSONS[i].choiceLayout.condition;
+    return {title: 'Рисунок ' + (n + 1), preview: figure.src, detail: figure.detailSrc, alt: figure.alt};
+  });
+  openDetail(gallery, Number(button.dataset.matchImage), false);
 });
 $('numericAnswer').addEventListener('input', event => {
   if (!Number.isInteger(LESSONS[task].numericAnswer) || current().step !== 0) return;
@@ -1047,6 +1130,10 @@ $('repeat').onclick = () => {
   if (task === 9) resetFruitWorkspace();
   ratingAttempt = null;
   $('ratingNotice').textContent = '';
+  for (const index of matchingParts()) {
+    Object.assign(states[index], {step: 0, frame: 0, elapsed: 0, selected: null});
+    saveLessonProgress(index);
+  }
   Object.assign(current(), {step: 0, frame: 0, elapsed: 0, selected: null});
   render();
   saveLessonProgress();

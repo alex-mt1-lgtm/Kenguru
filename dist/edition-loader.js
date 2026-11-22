@@ -7,7 +7,7 @@ const LESSONS = [];
   const loaded = new Map();
   const requests = new Map();
   const address = id => new URL(id + '.js', base).href;
-  const linked = /^#zadacha=(\d{4}(?:-[a-z0-9]{1,12}){1,4})\/\d+$/u.exec(location.hash);
+  const linked = /^#zadacha=(\d{4}(?:-[a-z0-9]{1,12}){1,7})\/\d+$/u.exec(location.hash);
   const preload = document.createElement('link');
   preload.rel = 'preload';
   preload.as = 'script';

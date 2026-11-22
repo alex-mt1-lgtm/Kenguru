@@ -27,7 +27,7 @@ test('2022 registers one official 3–4 grade booklet with 24 tasks and the publ
     assert.equal(lessons.filter((lesson) => lesson.points === points).map(({answer}) => letter(answer)).join(''), expected);
   }
   for (const [kind, name] of [
-    ['tasksUrl', 'class_3-4'], ['answersUrl', 'answers'], ['solutionUrl', 'solution']
+    ['tasksUrl', 'class_3-4'], ['answersUrl', 'answers'], ['solutionUrl', 'solution-reviewed']
   ]) {
     assert.equal(archive.sources[kind], `assets/kenguru/kenguru_2022_${name}.pdf`);
   }

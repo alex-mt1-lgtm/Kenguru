@@ -194,3 +194,7 @@
 .subject-archive { scroll-margin-top: 7rem; }
 .subject-archive h2 { font-size: 1.35rem; }
 .subject-archive[hidden] { display: none; }
+
+.has-grade-nav .archive-year-heading, [data-contest-group][hidden] { display: none; }
+.archive-variants summary { cursor: pointer; color: #275955; }
+.archive-variants p { margin: 0.6rem 0 0; }

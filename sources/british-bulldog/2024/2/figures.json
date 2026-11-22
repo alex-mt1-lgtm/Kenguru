@@ -1,0 +1,58 @@
+{
+  "source": "tasks.pdf",
+  "coordinateUnit": "rendered-pixel",
+  "renderScale": 2.75,
+  "crops": [
+    {
+      "page": 0,
+      "box": [
+        891,
+        269,
+        1500,
+        733
+      ],
+      "file": "workers.webp",
+      "tasks": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "page": 0,
+      "box": [
+        1642,
+        230,
+        2295,
+        806
+      ],
+      "file": "picnic.webp",
+      "tasks": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "page": 1,
+      "box": [
+        869,
+        280,
+        1524,
+        835
+      ],
+      "file": "pets.webp",
+      "tasks": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "source": "tasks.pdf",
+  "coordinateUnit": "rendered-pixel",
+  "renderScale": 5.4,
+  "crops": [
+    {
+      "page": 1,
+      "box": [
+        124,
+        1243,
+        1427,
+        2551
+      ],
+      "clearBoxes": [
+        [
+          296,
+          0,
+          998,
+          16
+        ]
+      ],
+      "file": "buildings.webp",
+      "tasks": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "alt": "Four buildings with labels. A is Theatre, B is Cinema, C is Library and D is Stadium."
+    }
+  ]
+}

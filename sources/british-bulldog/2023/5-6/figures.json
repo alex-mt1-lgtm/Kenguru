@@ -1,0 +1,25 @@
+{
+  "source": "tasks.pdf",
+  "coordinateUnit": "rendered-pixel",
+  "renderScale": 2.7,
+  "crops": [
+    {
+      "page": 1,
+      "box": [
+        804,
+        490,
+        1545,
+        761
+      ],
+      "file": "professions.webp",
+      "tasks": [
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "alt": "Five people shown with different tools and equipment."
+    }
+  ]
+}

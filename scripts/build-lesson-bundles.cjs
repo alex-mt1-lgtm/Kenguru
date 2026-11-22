@@ -92,7 +92,7 @@ function build(check) {
   const model = loadLessonCatalog();
   const index = model.catalog.map(entry => [entry.id, entry.year, entry.grades, entry.label,
     entry.indices.map(index => model.lessons[index].number),
-    entry.indices.map(index => Number.isInteger(model.lessons[index].answer) ? model.lessons[index].points : '.').join(''),
+    entry.indices.map(index => Number.isInteger(model.lessons[index].numericAnswer ?? model.lessons[index].answer) ? model.lessons[index].points : '.').join(''),
     ...(entry.subject ? [entry.subject] : []),
   ]);
   function write(file, contents) {

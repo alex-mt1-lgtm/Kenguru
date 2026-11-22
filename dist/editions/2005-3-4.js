@@ -496,7 +496,7 @@ globalThis.KENGURU_LEGACY_CONDITIONS = {"2005":{"1":{"question":"В этом г�
       answerLetters: letters,
       sources: {
         tasksUrl: `${source}/kenguru_${year}_class_3-4.pdf`,
-        answersUrl: `${source}/kenguru_${year}_answers.pdf`,
+        answersUrl: `${source}/kenguru_${year}_answers${year === 2017 ? '-reviewed' : ''}.pdf`,
         solutionUrl: null,
       },
       lessons,

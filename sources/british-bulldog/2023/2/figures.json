@@ -1,0 +1,41 @@
+{
+  "source": "tasks.pdf",
+  "coordinateUnit": "rendered-pixel",
+  "renderScale": 2.75,
+  "crops": [
+    {
+      "page": 1,
+      "box": [
+        139,
+        264,
+        700,
+        713
+      ],
+      "file": "workers.webp",
+      "tasks": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "page": 1,
+      "box": [
+        809,
+        236,
+        1563,
+        1005
+      ],
+      "file": "room.webp",
+      "tasks": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "source": "tasks.pdf",
+  "coordinateUnit": "rendered-pixel",
+  "renderScale": 2.7,
+  "crops": [
+    {
+      "page": 1,
+      "box": [
+        92,
+        723,
+        740,
+        1137
+      ],
+      "file": "office.webp",
+      "tasks": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "alt": "An illustrated room with furniture and items on its walls."
+    }
+  ]
+}

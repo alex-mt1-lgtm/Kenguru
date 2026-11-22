@@ -1,0 +1,382 @@
+{
+  "source": "../archive/2010/5-6_2010.pdf",
+  "title": "Земля — наш общий дом",
+  "coordinateUnit": "rotated-pdf-point",
+  "renderScale": 2,
+  "figures": {
+    "5-6-04": {
+      "page": 0,
+      "xref": 176,
+      "detail": {
+        "author": "Карл Брюллов, Государственный Русский музей",
+        "source": "https://commons.wikimedia.org/wiki/File:Karl_Brullov_-_The_Last_Day_of_Pompeii_-_Google_Art_Project.jpg",
+        "license": "Общественное достояние",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "processing": "Полная музейная репродукция картины, фрагмент которой напечатан в буклете. Мастер 1280 × 899, превью сделано из мастера.",
+        "file": "detail/5-6-04.webp"
+      }
+    },
+    "5-6-10": {
+      "page": 0,
+      "xref": 178,
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2010/5-6_2010.pdf",
+        "license": "По иллюстрации оригинального буклета",
+        "processing": "Сохранены четыре надреза с одной стороны и непрерывный край полоски.",
+        "file": "5-6-10.svg"
+      },
+      "alsoSources": [
+        {
+          "grade": "3-4",
+          "number": 17,
+          "page": 1,
+          "xref": 232,
+          "sourceFile": "../archive/2010/3-4_2010.pdf"
+        }
+      ]
+    },
+    "5-6-19": {
+      "page": 1,
+      "xref": 364,
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2010/5-6_2010.pdf",
+        "license": "По иллюстрации оригинального буклета",
+        "processing": "Учебная схема отрисована по типам жилкования. Сохранены очерёдность листьев и направление жилок, видимых при увеличении.",
+        "file": "5-6-19.svg"
+      }
+    },
+    "5-6-29": {
+      "page": 2,
+      "xref": 448,
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2010/5-6_2010.pdf",
+        "license": "По иллюстрации оригинального буклета",
+        "processing": "Векторная схема повторяет контуры и географические подписи карты 2010 года.",
+        "file": "5-6-29.svg"
+      },
+      "alsoSources": [
+        {
+          "grade": "3-4",
+          "number": 30,
+          "page": 2,
+          "xref": 319,
+          "sourceFile": "../archive/2010/3-4_2010.pdf"
+        }
+      ]
+    },
+    "5-6-30-1": {
+      "page": 2,
+      "xref": 446,
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2010/5-6_2010.pdf",
+        "license": "По иллюстрации оригинального буклета",
+        "processing": "Сохранены положение звёзд и соединяющие их линии.",
+        "file": "5-6-30-1.svg"
+      }
+    },
+    "5-6-30-2": {
+      "page": 2,
+      "xref": 446,
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2010/5-6_2010.pdf",
+        "license": "По иллюстрации оригинального буклета",
+        "processing": "Сохранены положение звёзд и соединяющие их линии.",
+        "file": "5-6-30-2.svg"
+      }
+    },
+    "5-6-30-3": {
+      "page": 2,
+      "xref": 446,
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2010/5-6_2010.pdf",
+        "license": "По иллюстрации оригинального буклета",
+        "processing": "Сохранены положение звёзд и соединяющие их линии.",
+        "file": "5-6-30-3.svg"
+      }
+    },
+    "5-6-30-4": {
+      "page": 2,
+      "xref": 446,
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2010/5-6_2010.pdf",
+        "license": "По иллюстрации оригинального буклета",
+        "processing": "Сохранены положение звёзд и соединяющие их линии.",
+        "file": "5-6-30-4.svg"
+      }
+    },
+    "5-6-30-5": {
+      "page": 2,
+      "xref": 446,
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2010/5-6_2010.pdf",
+        "license": "По иллюстрации оригинального буклета",
+        "processing": "Сохранены положение звёзд и соединяющие их линии.",
+        "file": "5-6-30-5.svg"
+      }
+    },
+    "3-4-01-1": {
+      "page": 0,
+      "sourceFile": "../archive/2010/3-4_2010.pdf",
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2010/3-4_2010.pdf",
+        "license": "По иллюстрации оригинального буклета",
+        "processing": "Графика переведена в вектор из исходного герба в буклете. Сохранены цвет, число голов, положение корон и щитов.",
+        "file": "3-4-01-1.svg"
+      },
+      "xref": 168
+    },
+    "3-4-01-2": {
+      "page": 0,
+      "sourceFile": "../archive/2010/3-4_2010.pdf",
+      "detail": {
+        "author": "Государственная символика России · Президентская библиотека",
+        "source": "https://www.prlib.ru/item/1327743",
+        "license": "Государственный символ Российской Федерации",
+        "licenseUrl": "https://www.consultant.ru/document/cons_doc_LAW_29674/44762e02c26eea748f0d5355a0e358cef031cb36/",
+        "processing": "Цветное изображение герба из собрания Президентской библиотеки. Обзорная версия уменьшена с сохранением пропорций.",
+        "file": "detail/3-4-01-2.webp"
+      },
+      "xref": 168
+    },
+    "3-4-01-3": {
+      "page": 0,
+      "sourceFile": "../archive/2010/3-4_2010.pdf",
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2010/3-4_2010.pdf",
+        "license": "По иллюстрации оригинального буклета",
+        "processing": "Графика переведена в вектор из исходного герба в буклете. Сохранены цвет, число голов, положение корон и щитов.",
+        "file": "3-4-01-3.svg"
+      },
+      "xref": 168
+    },
+    "3-4-01-4": {
+      "page": 0,
+      "sourceFile": "../archive/2010/3-4_2010.pdf",
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2010/3-4_2010.pdf",
+        "license": "По иллюстрации оригинального буклета",
+        "processing": "Графика переведена в вектор из исходного герба в буклете. Сохранены цвет, число голов, положение корон и щитов.",
+        "file": "3-4-01-4.svg"
+      },
+      "xref": 168
+    },
+    "3-4-01-5": {
+      "page": 0,
+      "sourceFile": "../archive/2010/3-4_2010.pdf",
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2010/3-4_2010.pdf",
+        "license": "По иллюстрации оригинального буклета",
+        "processing": "Графика переведена в вектор из исходного герба в буклете. Сохранены цвет, число голов, положение корон и щитов.",
+        "file": "3-4-01-5.svg"
+      },
+      "xref": 168
+    },
+    "3-4-12-1": {
+      "page": 1,
+      "sourceFile": "../archive/2010/3-4_2010.pdf",
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2010/3-4_2010.pdf",
+        "license": "По иллюстрации оригинального буклета",
+        "processing": "Воссозданы три стрелки с направлениями и порядком из оригинала.",
+        "file": "3-4-12-1.svg"
+      }
+    },
+    "3-4-12-2": {
+      "page": 1,
+      "sourceFile": "../archive/2010/3-4_2010.pdf",
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2010/3-4_2010.pdf",
+        "license": "По иллюстрации оригинального буклета",
+        "processing": "Воссозданы три стрелки с направлениями и порядком из оригинала.",
+        "file": "3-4-12-2.svg"
+      }
+    },
+    "3-4-12-3": {
+      "page": 1,
+      "sourceFile": "../archive/2010/3-4_2010.pdf",
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2010/3-4_2010.pdf",
+        "license": "По иллюстрации оригинального буклета",
+        "processing": "Воссозданы три стрелки с направлениями и порядком из оригинала.",
+        "file": "3-4-12-3.svg"
+      }
+    },
+    "3-4-12-4": {
+      "page": 1,
+      "sourceFile": "../archive/2010/3-4_2010.pdf",
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2010/3-4_2010.pdf",
+        "license": "По иллюстрации оригинального буклета",
+        "processing": "Воссозданы три стрелки с направлениями и порядком из оригинала.",
+        "file": "3-4-12-4.svg"
+      }
+    },
+    "3-4-12-5": {
+      "page": 1,
+      "sourceFile": "../archive/2010/3-4_2010.pdf",
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2010/3-4_2010.pdf",
+        "license": "По иллюстрации оригинального буклета",
+        "processing": "Воссозданы три стрелки с направлениями и порядком из оригинала.",
+        "file": "3-4-12-5.svg"
+      }
+    },
+    "3-4-13-1": {
+      "page": 1,
+      "xref": 230,
+      "sourceFile": "../archive/2010/3-4_2010.pdf",
+      "detail": {
+        "author": "Marco Almbauer",
+        "source": "https://commons.wikimedia.org/wiki/File:Bombus_terrestris.jpg",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "processing": "Фотография того же вида или группы животных из печатного варианта. Сохранён кадр, превью уменьшено из мастера.",
+        "file": "detail/3-4-13-1.webp",
+        "previewMax": 430
+      }
+    },
+    "3-4-13-2": {
+      "page": 1,
+      "xref": 230,
+      "sourceFile": "../archive/2010/3-4_2010.pdf",
+      "detail": {
+        "author": "Jeroen Ruël",
+        "source": "https://commons.wikimedia.org/wiki/File:Vespula_vulgaris_%28gewone_wesp%29.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "processing": "Фотография того же вида или группы животных из печатного варианта. Сохранён кадр, превью уменьшено из мастера.",
+        "file": "detail/3-4-13-2.webp",
+        "previewMax": 430
+      }
+    },
+    "3-4-13-3": {
+      "page": 1,
+      "xref": 230,
+      "sourceFile": "../archive/2010/3-4_2010.pdf",
+      "detail": {
+        "author": "Don Horne",
+        "source": "https://commons.wikimedia.org/wiki/File:Apis_mellifera_%28NZAC06003200%29.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "processing": "Фотография того же вида или группы животных из печатного варианта. Сохранён кадр, превью уменьшено из мастера.",
+        "file": "detail/3-4-13-3.webp",
+        "previewMax": 430
+      }
+    },
+    "3-4-13-4": {
+      "page": 1,
+      "xref": 230,
+      "sourceFile": "../archive/2010/3-4_2010.pdf",
+      "detail": {
+        "author": "Paul Braun",
+        "source": "https://commons.wikimedia.org/wiki/File:Episyrphus_balteatus_199999407.jpg",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "processing": "Фотография того же вида или группы животных из печатного варианта. Сохранён кадр, превью уменьшено из мастера.",
+        "file": "detail/3-4-13-4.webp",
+        "previewMax": 430
+      }
+    },
+    "3-4-13-5": {
+      "page": 1,
+      "xref": 230,
+      "sourceFile": "../archive/2010/3-4_2010.pdf",
+      "detail": {
+        "author": "gailhampshire",
+        "source": "https://commons.wikimedia.org/wiki/File:Ichneumon_wasp._Ophion_luteus_-_Flickr_-_gailhampshire.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "processing": "Фотография того же вида или группы животных из печатного варианта. Сохранён кадр, превью уменьшено из мастера.",
+        "file": "detail/3-4-13-5.webp",
+        "previewMax": 430
+      }
+    },
+    "3-4-18-1": {
+      "page": 1,
+      "xref": 234,
+      "sourceFile": "../archive/2010/3-4_2010.pdf",
+      "detail": {
+        "author": "peggycadigan",
+        "source": "https://commons.wikimedia.org/wiki/File:Vulpes_Vulpes_in_snow.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "processing": "Фотография того же вида или группы животных из печатного варианта. Сохранён кадр, превью уменьшено из мастера.",
+        "file": "detail/3-4-18-1.webp",
+        "previewMax": 430
+      }
+    },
+    "3-4-18-2": {
+      "page": 1,
+      "xref": 234,
+      "sourceFile": "../archive/2010/3-4_2010.pdf",
+      "detail": {
+        "author": "Forest Service Alaska Region, USDA",
+        "source": "https://commons.wikimedia.org/wiki/File:Brownbear_closeup_Tongass_JSK_007_%2852503088979%29.jpg",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "processing": "Фотография того же вида или группы животных из печатного варианта. Сохранён кадр, превью уменьшено из мастера.",
+        "file": "detail/3-4-18-2.webp",
+        "previewMax": 430
+      }
+    },
+    "3-4-18-3": {
+      "page": 1,
+      "xref": 234,
+      "sourceFile": "../archive/2010/3-4_2010.pdf",
+      "detail": {
+        "author": "Seemaleena",
+        "source": "https://commons.wikimedia.org/wiki/File:Adult_male_Royal_Bengal_tiger.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "processing": "Фотография того же вида или группы животных из печатного варианта. Сохранён кадр, превью уменьшено из мастера.",
+        "file": "detail/3-4-18-3.webp",
+        "previewMax": 430
+      }
+    },
+    "3-4-18-4": {
+      "page": 1,
+      "xref": 234,
+      "sourceFile": "../archive/2010/3-4_2010.pdf",
+      "detail": {
+        "author": "Charles J Sharp",
+        "source": "https://commons.wikimedia.org/wiki/File:Lion_%28Panthera_leo%29_male_head_Serengeti.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "processing": "Фотография того же вида или группы животных из печатного варианта. Сохранён кадр, превью уменьшено из мастера.",
+        "file": "detail/3-4-18-4.webp",
+        "previewMax": 430
+      }
+    },
+    "3-4-18-5": {
+      "page": 1,
+      "xref": 234,
+      "sourceFile": "../archive/2010/3-4_2010.pdf",
+      "detail": {
+        "author": "caroline legg",
+        "source": "https://commons.wikimedia.org/wiki/File:Brown_Hare_-_Lepus_europaeus.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "processing": "Фотография того же вида или группы животных из печатного варианта. Сохранён кадр, превью уменьшено из мастера.",
+        "file": "detail/3-4-18-5.webp",
+        "previewMax": 430
+      }
+    }
+  }
+}

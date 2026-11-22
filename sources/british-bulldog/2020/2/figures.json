@@ -1,0 +1,106 @@
+{
+  "source": "tasks.pdf",
+  "coordinateUnit": "rendered-pixel",
+  "renderScale": 2.75,
+  "crops": [
+    {
+      "page": 0,
+      "box": [
+        809,
+        260,
+        1585,
+        945
+      ],
+      "file": "picnic.webp",
+      "tasks": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "page": 1,
+      "box": [
+        307,
+        260,
+        498,
+        516
+      ],
+      "file": "cat.webp",
+      "tasks": [
+        21
+      ]
+    },
+    {
+      "page": 1,
+      "box": [
+        446,
+        492,
+        733,
+        783
+      ],
+      "file": "dog.webp",
+      "tasks": [
+        22
+      ]
+    },
+    {
+      "page": 1,
+      "box": [
+        293,
+        773,
+        681,
+        1053
+      ],
+      "file": "cow.webp",
+      "tasks": [
+        23
+      ]
+    },
+    {
+      "page": 1,
+      "box": [
+        446,
+        1058,
+        632,
+        1301
+      ],
+      "file": "duck.webp",
+      "tasks": [
+        24
+      ]
+    },
+    {
+      "page": 1,
+      "box": [
+        345,
+        1299,
+        639,
+        1598
+      ],
+      "file": "sheep.webp",
+      "tasks": [
+        25
+      ]
+    },
+    {
+      "page": 1,
+      "box": [
+        817,
+        275,
+        1576,
+        854
+      ],
+      "file": "living-room.webp",
+      "tasks": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ]
+    }
+  ]
+}

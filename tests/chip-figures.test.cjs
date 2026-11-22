@@ -5,6 +5,8 @@ const path = require('node:path');
 const root = path.join(__dirname, '..');
 const sources = path.join(root, 'sources/chip');
 const json = file => JSON.parse(fs.readFileSync(file, 'utf8'));
+const editions = json(path.join(root, 'sources/subject-editions.json'))
+  .filter(edition => edition.subject === 'chip');
 
 function webpSize(file) {
   const bytes = fs.readFileSync(file);
@@ -20,12 +22,15 @@ function webpSize(file) {
 }
 
 test('each ЧИП illustration opens a local vector or a more detailed version of its preview', () => {
-  for (const year of fs.readdirSync(sources).filter(name => /^\d{4}$/.test(name))) {
-    const rows = json(path.join(sources, year, '3-4.json'));
-    const manifest = json(path.join(sources, year, 'figures.json')).figures;
+  for (const { year, grade, count } of editions) {
+    const folder = path.join(sources, String(year));
+    const rows = json(path.join(folder, `${grade}.json`));
+    const manifest = json(path.join(folder, 'figures.json')).figures;
+    assert.equal(rows.length, count);
     const localPrefix = 'assets/chip/' + year + '/';
     for (const row of rows) {
       for (const figure of [row.figure, ...(row.optionFigures || [])].filter(Boolean)) {
+        assert.ok(figure.src.startsWith(localPrefix), row.title);
         assert.ok(figure.detailSrc?.startsWith(localPrefix), row.title);
         const detail = path.join(root, 'dist', figure.detailSrc);
         assert.ok(fs.existsSync(detail), detail);

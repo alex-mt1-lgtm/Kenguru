@@ -1,0 +1,736 @@
+[
+  {
+    "title": "Length of the Adventure",
+    "question": "For how long did the adventure last?",
+    "context": "Listen to the dialogue and answer the questions",
+    "choices": [
+      "A week",
+      "More than two months",
+      "A year",
+      "More than three weeks"
+    ],
+    "answer": 3,
+    "steps": [
+      "В начале собеседница предполагает, что поездка длилась месяц. Слушай уточнение после actually.",
+      "Путешественник говорит «we actually came back after just over three weeks». Just over означает «немногим больше», поэтому выбираем More than three weeks."
+    ],
+    "audio": true
+  },
+  {
+    "title": "Cutting the Journey Short",
+    "question": "Why did the guys have to shorten their journey? They had no ... .",
+    "context": "Listen to the dialogue and answer the questions",
+    "choices": [
+      "time and health",
+      "desire and opportunity",
+      "money and energy",
+      "interest and transport"
+    ],
+    "answer": 2,
+    "steps": [
+      "Билеты действовали месяц, но друзья вернулись раньше. В записи причина стоит после «we ran out of».",
+      "Они исчерпали деньги и силы — money and energy. Run out of значит «израсходовать запасы чего-либо»."
+    ],
+    "audio": true
+  },
+  {
+    "title": "How They Travelled",
+    "question": "How did they travel?",
+    "context": "Listen to the dialogue and answer the questions",
+    "choices": [
+      "On foot",
+      "By plane",
+      "By ship",
+      "By train"
+    ],
+    "answer": 3,
+    "steps": [
+      "Слушай, какие билеты путешественник упоминает в начале. Позже он говорит, где друзья иногда ночевали.",
+      "В записи звучит «our train tickets» и «sleeping on the train». Они ездили поездами — By train."
+    ],
+    "audio": true
+  },
+  {
+    "title": "Agreeing Before Departure",
+    "question": "Why did the young people agree on their route beforehand? To avoid ... .",
+    "context": "Listen to the dialogue and answer the questions",
+    "choices": [
+      "criticism",
+      "disappointment",
+      "quarrels",
+      "pleasure"
+    ],
+    "answer": 2,
+    "steps": [
+      "Beforehand означает «заранее». В ответе ищи причину после «we’d agreed on our route before setting out».",
+      "Путешественник говорит «just to avoid arguments later». Quarrels — ссоры или споры, что соответствует arguments."
+    ],
+    "audio": true
+  },
+  {
+    "title": "A Change in Plans",
+    "question": "Why did they have to change some of their plans? They found out the place was ... .",
+    "context": "Listen to the dialogue and answer the questions",
+    "choices": [
+      "insecure",
+      "not worth visiting",
+      "notorious",
+      "too crowded"
+    ],
+    "answer": 1,
+    "steps": [
+      "В записи места описаны как «unspoilt by tourism». Слушай, что путешественники обнаружили, когда узнали о них подробнее.",
+      "Там было «nothing to do or see and nowhere to stay». Из вариантов подходит not worth visiting — «не стоит посещать»."
+    ],
+    "audio": true
+  },
+  {
+    "title": "Where They Slept",
+    "question": "Where did they prefer to sleep?",
+    "context": "Listen to the dialogue and answer the questions",
+    "choices": [
+      "In tents",
+      "At hotels",
+      "At hostles",
+      "On the train"
+    ],
+    "answer": 3,
+    "steps": [
+      "Путешественник говорит, что при возможности они планировали поездку на ночь. После «This meant …» он объясняет, где спали.",
+      "Предпочитали ночевать в поезде — On the train. На стоянках останавливались, когда ночная поездка не получалась."
+    ],
+    "audio": true
+  },
+  {
+    "title": "What Went Wrong with the Tent",
+    "question": "What was wrong with the young man’s tent? It ... .",
+    "context": "Listen to the dialogue and answer the questions",
+    "choices": [
+      "was stuffy inside",
+      "didn’t protect from the rain",
+      "was too big",
+      "was very expensive"
+    ],
+    "answer": 1,
+    "steps": [
+      "Найди фразу «my little tent wasn’t very waterproof». Waterproof означает «водонепроницаемый».",
+      "Во время грозы промокли и человек, и его вещи. Палатка не защитила от дождя — didn’t protect from the rain."
+    ],
+    "audio": true
+  },
+  {
+    "title": "Keeping Valuables Safe",
+    "question": "What did the young man do to avoid robbery? He put his passport and money ... .",
+    "context": "Listen to the dialogue and answer the questions",
+    "choices": [
+      "under the pillow",
+      "in his boots",
+      "in his rucksack",
+      "in his sleeping bag"
+    ],
+    "answer": 3,
+    "steps": [
+      "Слушай, куда герой клал деньги и паспорт перед сном. Место названо после «at the bottom of my …».",
+      "Он говорит «at the bottom of my sleeping bag» — на дне спального мешка. Выбираем in his sleeping bag."
+    ],
+    "audio": true
+  },
+  {
+    "title": "Preparing for Another Trip",
+    "question": "What are the guys doing to prepare for their next adventure? They are ... .",
+    "context": "Listen to the dialogue and answer the questions",
+    "choices": [
+      "studying the maps",
+      "buying necessary thing",
+      "saving money",
+      "discussing their route"
+    ],
+    "answer": 2,
+    "steps": [
+      "В конце разговора друзья готовятся к путешествию в Южную Америку. Найди слова «we’re all saving up».",
+      "Save up — «копить деньги». Подходит saving money."
+    ],
+    "audio": true
+  },
+  {
+    "title": "Sleeping on the Train",
+    "question": "What do they think is the advantage of sleeping on the train? It is … .",
+    "context": "Listen to the dialogue and answer the questions",
+    "choices": [
+      "enjoyable",
+      "expensive and comfortable",
+      "unusual",
+      "inexpensive and comfy"
+    ],
+    "answer": 3,
+    "steps": [
+      "В записи ночёвка в поезде описана словами «cheap and relatively comfortable».",
+      "Cheap означает «недорогой», comfy — разговорное «удобный». Подходит inexpensive and comfy."
+    ],
+    "audio": true,
+    "reviewedEdition": true
+  },
+  {
+    "title": "Feeling Blue",
+    "question": "What does “to feel blue” mean? I’m ... .",
+    "context": "Read the text and answer the questions\n\nIt is no coincidence that we use colours to describe our moods. For example, if we are feeling depressed we say we are feeling ‘blue’. It seems highly likely that the colours that surround us really do affect our emotions. In doing so, it is possible that they may also influence our health. Over two thousand years ago, scientists and philosophers wrote of the healing powers of colour, while in ancient Egypt temples were designed so that sunlight shone through precious stones to create a mystical red light. We now refer to this belief about the powers of colour as ‘colour therapy’. Therapists claim that we can alter how we feel emotionally by making use of different colours in rooms to lighten our mood. For example, many public buildings, including hospitals, favour green or blue walls so as to create a calming atmosphere and cause stress levels to go down. Claims have even been made that different colours can be helpful in the treatment of conditions such as insomnia, toothache and depression.",
+    "choices": [
+      "happy",
+      "excited",
+      "shocked",
+      "sad"
+    ],
+    "answer": 3,
+    "steps": [
+      "В начале текста «feeling blue» появляется после «if we are feeling depressed».",
+      "Здесь blue описывает подавленное настроение. Из вариантов подходит sad — «грустный»."
+    ]
+  },
+  {
+    "title": "An Old Belief About Colours",
+    "question": "What did scientists write about colours many years ago? They could ... .",
+    "context": "Read the text and answer the questions\n\nIt is no coincidence that we use colours to describe our moods. For example, if we are feeling depressed we say we are feeling ‘blue’. It seems highly likely that the colours that surround us really do affect our emotions. In doing so, it is possible that they may also influence our health. Over two thousand years ago, scientists and philosophers wrote of the healing powers of colour, while in ancient Egypt temples were designed so that sunlight shone through precious stones to create a mystical red light. We now refer to this belief about the powers of colour as ‘colour therapy’. Therapists claim that we can alter how we feel emotionally by making use of different colours in rooms to lighten our mood. For example, many public buildings, including hospitals, favour green or blue walls so as to create a calming atmosphere and cause stress levels to go down. Claims have even been made that different colours can be helpful in the treatment of conditions such as insomnia, toothache and depression.",
+    "choices": [
+      "insult people",
+      "change people",
+      "treat people",
+      "inspire people"
+    ],
+    "answer": 2,
+    "steps": [
+      "В тексте сказано, что учёные и философы писали о «the healing powers of colour». Healing означает «целительный».",
+      "По описанию их убеждения цвета могли помогать лечить людей. Этому соответствует treat people."
+    ]
+  },
+  {
+    "title": "Light in Egyptian Temples",
+    "question": "What colour did the sunlight transform into in ancient Egyptian temples?",
+    "context": "Read the text and answer the questions\n\nIt is no coincidence that we use colours to describe our moods. For example, if we are feeling depressed we say we are feeling ‘blue’. It seems highly likely that the colours that surround us really do affect our emotions. In doing so, it is possible that they may also influence our health. Over two thousand years ago, scientists and philosophers wrote of the healing powers of colour, while in ancient Egypt temples were designed so that sunlight shone through precious stones to create a mystical red light. We now refer to this belief about the powers of colour as ‘colour therapy’. Therapists claim that we can alter how we feel emotionally by making use of different colours in rooms to lighten our mood. For example, many public buildings, including hospitals, favour green or blue walls so as to create a calming atmosphere and cause stress levels to go down. Claims have even been made that different colours can be helpful in the treatment of conditions such as insomnia, toothache and depression.",
+    "choices": [
+      "Yellow",
+      "Red",
+      "White",
+      "Pink"
+    ],
+    "answer": 1,
+    "steps": [
+      "Найди в абзаце предложение с ancient Egypt. В конце оно описывает цвет света в храмах.",
+      "Автор пишет «a mystical red light». Значит, свет был красным — Red."
+    ]
+  },
+  {
+    "title": "What the Light Shone Through",
+    "question": "On what condition could the sunlight transform into that colour? The sunlight shone through the ... .",
+    "context": "Read the text and answer the questions\n\nIt is no coincidence that we use colours to describe our moods. For example, if we are feeling depressed we say we are feeling ‘blue’. It seems highly likely that the colours that surround us really do affect our emotions. In doing so, it is possible that they may also influence our health. Over two thousand years ago, scientists and philosophers wrote of the healing powers of colour, while in ancient Egypt temples were designed so that sunlight shone through precious stones to create a mystical red light. We now refer to this belief about the powers of colour as ‘colour therapy’. Therapists claim that we can alter how we feel emotionally by making use of different colours in rooms to lighten our mood. For example, many public buildings, including hospitals, favour green or blue walls so as to create a calming atmosphere and cause stress levels to go down. Claims have even been made that different colours can be helpful in the treatment of conditions such as insomnia, toothache and depression.",
+    "choices": [
+      "water",
+      "mud",
+      "pebbles",
+      "precious stones"
+    ],
+    "answer": 3,
+    "steps": [
+      "В том же предложении найди слова «sunlight shone through». После through названо то, сквозь что проходил свет.",
+      "Автор пишет «through precious stones» — сквозь драгоценные камни."
+    ]
+  },
+  {
+    "title": "The Meaning of Colour Therapy",
+    "question": "What does the expression “colour therapy” imply?",
+    "context": "Read the text and answer the questions\n\nIt is no coincidence that we use colours to describe our moods. For example, if we are feeling depressed we say we are feeling ‘blue’. It seems highly likely that the colours that surround us really do affect our emotions. In doing so, it is possible that they may also influence our health. Over two thousand years ago, scientists and philosophers wrote of the healing powers of colour, while in ancient Egypt temples were designed so that sunlight shone through precious stones to create a mystical red light. We now refer to this belief about the powers of colour as ‘colour therapy’. Therapists claim that we can alter how we feel emotionally by making use of different colours in rooms to lighten our mood. For example, many public buildings, including hospitals, favour green or blue walls so as to create a calming atmosphere and cause stress levels to go down. Claims have even been made that different colours can be helpful in the treatment of conditions such as insomnia, toothache and depression.",
+    "choices": [
+      "Healing people",
+      "Amusing people",
+      "Charming people",
+      "Entertaining people"
+    ],
+    "answer": 0,
+    "steps": [
+      "В тексте этот термин обозначает убеждение, что цвет можно использовать для улучшения самочувствия.",
+      "Therapy значит «терапия», то есть лечение. Из вариантов подходит Healing people."
+    ]
+  },
+  {
+    "title": "Colours and Stress",
+    "question": "Which colours are said to combat stress?",
+    "context": "Read the text and answer the questions\n\nIt is no coincidence that we use colours to describe our moods. For example, if we are feeling depressed we say we are feeling ‘blue’. It seems highly likely that the colours that surround us really do affect our emotions. In doing so, it is possible that they may also influence our health. Over two thousand years ago, scientists and philosophers wrote of the healing powers of colour, while in ancient Egypt temples were designed so that sunlight shone through precious stones to create a mystical red light. We now refer to this belief about the powers of colour as ‘colour therapy’. Therapists claim that we can alter how we feel emotionally by making use of different colours in rooms to lighten our mood. For example, many public buildings, including hospitals, favour green or blue walls so as to create a calming atmosphere and cause stress levels to go down. Claims have even been made that different colours can be helpful in the treatment of conditions such as insomnia, toothache and depression.",
+    "choices": [
+      "Red and pink",
+      "Blue and orange",
+      "Green and blue",
+      "White and green"
+    ],
+    "answer": 2,
+    "steps": [
+      "Combat stress означает «бороться со стрессом». Ищи в тексте цвета стен, которые, по словам автора, создают спокойную обстановку.",
+      "Автор называет green or blue walls. Подходит Green and blue."
+    ]
+  },
+  {
+    "title": "Colours in Public Buildings",
+    "question": "Where does the text give an example of these colours being used?",
+    "context": "Read the text and answer the questions\n\nIt is no coincidence that we use colours to describe our moods. For example, if we are feeling depressed we say we are feeling ‘blue’. It seems highly likely that the colours that surround us really do affect our emotions. In doing so, it is possible that they may also influence our health. Over two thousand years ago, scientists and philosophers wrote of the healing powers of colour, while in ancient Egypt temples were designed so that sunlight shone through precious stones to create a mystical red light. We now refer to this belief about the powers of colour as ‘colour therapy’. Therapists claim that we can alter how we feel emotionally by making use of different colours in rooms to lighten our mood. For example, many public buildings, including hospitals, favour green or blue walls so as to create a calming atmosphere and cause stress levels to go down. Claims have even been made that different colours can be helpful in the treatment of conditions such as insomnia, toothache and depression.",
+    "choices": [
+      "In cafés",
+      "In blocks of flats",
+      "In banks",
+      "In hospitals"
+    ],
+    "answer": 3,
+    "steps": [
+      "These colours — зелёный и синий из предыдущего вопроса. Найди в тексте пример после including.",
+      "Автор пишет «many public buildings, including hospitals». Выбираем In hospitals."
+    ],
+    "reviewedEdition": true
+  },
+  {
+    "title": "Who Talks About Colour?",
+    "question": "Who supposes that colours can lighten our mood?",
+    "context": "Read the text and answer the questions\n\nIt is no coincidence that we use colours to describe our moods. For example, if we are feeling depressed we say we are feeling ‘blue’. It seems highly likely that the colours that surround us really do affect our emotions. In doing so, it is possible that they may also influence our health. Over two thousand years ago, scientists and philosophers wrote of the healing powers of colour, while in ancient Egypt temples were designed so that sunlight shone through precious stones to create a mystical red light. We now refer to this belief about the powers of colour as ‘colour therapy’. Therapists claim that we can alter how we feel emotionally by making use of different colours in rooms to lighten our mood. For example, many public buildings, including hospitals, favour green or blue walls so as to create a calming atmosphere and cause stress levels to go down. Claims have even been made that different colours can be helpful in the treatment of conditions such as insomnia, toothache and depression.",
+    "choices": [
+      "Nobody",
+      "Surgeons",
+      "Dentists",
+      "Therapists"
+    ],
+    "answer": 3,
+    "steps": [
+      "Найди предложение со словами «to lighten our mood». Его начало называет тех, кто высказывает это мнение.",
+      "Автор пишет «Therapists claim …». Ответ Therapists."
+    ]
+  },
+  {
+    "title": "Conditions in the Text",
+    "question": "Which condition is mentioned in the text by the name insomnia?",
+    "context": "Read the text and answer the questions\n\nIt is no coincidence that we use colours to describe our moods. For example, if we are feeling depressed we say we are feeling ‘blue’. It seems highly likely that the colours that surround us really do affect our emotions. In doing so, it is possible that they may also influence our health. Over two thousand years ago, scientists and philosophers wrote of the healing powers of colour, while in ancient Egypt temples were designed so that sunlight shone through precious stones to create a mystical red light. We now refer to this belief about the powers of colour as ‘colour therapy’. Therapists claim that we can alter how we feel emotionally by making use of different colours in rooms to lighten our mood. For example, many public buildings, including hospitals, favour green or blue walls so as to create a calming atmosphere and cause stress levels to go down. Claims have even been made that different colours can be helpful in the treatment of conditions such as insomnia, toothache and depression.",
+    "choices": [
+      "Headaches",
+      "Sleeplessness",
+      "Madness",
+      "Allergies"
+    ],
+    "answer": 1,
+    "steps": [
+      "В последнем предложении названо состояние insomnia. Сопоставь его с простыми английскими названиями в ответах.",
+      "Insomnia — бессонница, то же, что sleeplessness."
+    ],
+    "reviewedEdition": true
+  },
+  {
+    "title": "The Effect of Colours",
+    "question": "Do the colours affect our emotions, according to the text?",
+    "context": "Read the text and answer the questions\n\nIt is no coincidence that we use colours to describe our moods. For example, if we are feeling depressed we say we are feeling ‘blue’. It seems highly likely that the colours that surround us really do affect our emotions. In doing so, it is possible that they may also influence our health. Over two thousand years ago, scientists and philosophers wrote of the healing powers of colour, while in ancient Egypt temples were designed so that sunlight shone through precious stones to create a mystical red light. We now refer to this belief about the powers of colour as ‘colour therapy’. Therapists claim that we can alter how we feel emotionally by making use of different colours in rooms to lighten our mood. For example, many public buildings, including hospitals, favour green or blue walls so as to create a calming atmosphere and cause stress levels to go down. Claims have even been made that different colours can be helpful in the treatment of conditions such as insomnia, toothache and depression.",
+    "choices": [
+      "No, not at all",
+      "There is no research",
+      "No, by no means",
+      "Yes, it’s highly possible"
+    ],
+    "answer": 3,
+    "steps": [
+      "Найди предложение «It seems highly likely that the colours that surround us really do affect our emotions».",
+      "Highly likely значит «весьма вероятно». Эту оценку передаёт Yes, it’s highly possible."
+    ]
+  },
+  {
+    "title": "A Memory of Paris",
+    "question": "He will never forget ... his friend in Paris.",
+    "context": "Grammar",
+    "choices": [
+      "meet",
+      "met",
+      "meeting",
+      "will meet"
+    ],
+    "answer": 2,
+    "steps": [
+      "Герой вспоминает уже произошедшую встречу. Forget to do означало бы «забыть сделать».",
+      "После forget для воспоминания о действии используем форму на -ing. Выбираем meeting."
+    ]
+  },
+  {
+    "title": "Rain Before Getting Home",
+    "question": "By the time we reach home, the rain ... .",
+    "context": "Grammar",
+    "choices": [
+      "stops",
+      "will be stopped",
+      "will stopped",
+      "will have stopped"
+    ],
+    "answer": 3,
+    "steps": [
+      "By the time указывает момент в будущем, к которому дождь уже закончится. Для такого завершённого действия нужен Future Perfect.",
+      "Future Perfect строится из will have и третьей формы глагола: will have stopped."
+    ]
+  },
+  {
+    "title": "Regretting a Job Decision",
+    "question": "I regret not accepting that new job. I wish I ... .",
+    "context": "Grammar",
+    "choices": [
+      "taking it",
+      "will take it",
+      "won’t take it",
+      "had taken it"
+    ],
+    "answer": 3,
+    "steps": [
+      "Говорящий уже отказался от новой работы. Wish выражает сожаление о прошлом.",
+      "Для такого сожаления используем wish + Past Perfect: «I wish I had taken it»."
+    ]
+  },
+  {
+    "title": "A Late Phone Call",
+    "question": "... it was late, he decided to call his friend.",
+    "context": "Grammar",
+    "choices": [
+      "However",
+      "Though",
+      "Until",
+      "In spite"
+    ],
+    "answer": 1,
+    "steps": [
+      "Позднее время могло бы помешать звонку, но герой всё равно решил позвонить. После пропуска стоит полноценное придаточное it was late.",
+      "Though означает «хотя» и вводит такое придаточное: «Though it was late, he decided to call his friend»."
+    ]
+  },
+  {
+    "title": "The Garden Grass",
+    "question": "The grass in the garden needs ... .",
+    "context": "Grammar",
+    "choices": [
+      "cutting",
+      "cutted",
+      "be cut",
+      "to cut"
+    ],
+    "answer": 0,
+    "steps": [
+      "Траву нужно подстричь. Подлежащее grass обозначает объект действия.",
+      "После need форма на -ing выражает пассивный смысл: «The grass needs cutting» значит «The grass needs to be cut»."
+    ]
+  },
+  {
+    "title": "A Colleague’s Request",
+    "question": "My colleague wants ... .",
+    "context": "Grammar",
+    "choices": [
+      "you to stay here",
+      "that you stay here",
+      "you stay here",
+      "you staying here"
+    ],
+    "answer": 0,
+    "steps": [
+      "Желание относится к действию другого человека, you. После wants указываем, кто должен остаться.",
+      "Используем want someone to do: «My colleague wants you to stay here»."
+    ]
+  },
+  {
+    "title": "A Car at the Repair Shop",
+    "question": "I can’t drive my car because it ... fixed at the moment.",
+    "context": "Grammar",
+    "choices": [
+      "has being",
+      "was",
+      "is",
+      "is being"
+    ],
+    "answer": 3,
+    "steps": [
+      "At the moment показывает, что ремонт происходит сейчас. Машина — объект, который ремонтируют.",
+      "Для текущего действия в пассиве нужно is being перед fixed. Получаем «it is being fixed»."
+    ]
+  },
+  {
+    "title": "Driving on the Left",
+    "question": "The problem is she ... to driving on the left. She keeps making mistakes.",
+    "context": "Grammar",
+    "choices": [
+      "isn’t use",
+      "isn’t used",
+      "used",
+      "get used"
+    ],
+    "answer": 1,
+    "steps": [
+      "Она продолжает ошибаться, потому что не привыкла ездить по левой стороне. Driving уже стоит в форме на -ing.",
+      "Be used to doing означает «быть привычным к действию». Здесь нужна отрицательная форма she isn’t used to driving."
+    ]
+  },
+  {
+    "title": "Finishing the Test",
+    "question": "… being late, he managed to complete the test.",
+    "context": "Grammar",
+    "choices": [
+      "Despite of",
+      "In spite",
+      "In spite of",
+      "Even if he was"
+    ],
+    "answer": 2,
+    "steps": [
+      "Герой закончил тест, несмотря на опоздание. Следом за пропуском стоит оборот being late.",
+      "Подходит «in spite of being late». Несмотря на смысл despite, с ним сочетание строилось бы без of."
+    ],
+    "reviewedEdition": true
+  },
+  {
+    "title": "When Things Go Wrong",
+    "question": "Why do you always blame him ... something goes wrong?",
+    "context": "Grammar",
+    "choices": [
+      "whoever",
+      "whenever",
+      "wherever",
+      "however"
+    ],
+    "answer": 1,
+    "steps": [
+      "Слово always показывает, что обвинение повторяется при каждой неудаче. Нужно связать части предложения по времени.",
+      "Whenever означает «всякий раз, когда». Выбираем whenever something goes wrong."
+    ]
+  },
+  {
+    "title": "Working for Yourself",
+    "question": "Working for yourself.",
+    "context": "Find the words which suit these definitions. They all begin with Self-",
+    "choices": [
+      "made",
+      "employed",
+      "proclaimed",
+      "evident"
+    ],
+    "answer": 1,
+    "steps": [
+      "Добавь self- к вариантам и найди слово, описывающее того, кто работает на себя.",
+      "Self-employed означает «самозанятый» или «работающий на себя». Подходит employed."
+    ]
+  },
+  {
+    "title": "Making a Picture of Yourself",
+    "question": "A drawing or description that you do of yourself.",
+    "context": "Find the words which suit these definitions. They all begin with Self-",
+    "choices": [
+      "portrait",
+      "destruction",
+      "denial",
+      "respect"
+    ],
+    "answer": 0,
+    "steps": [
+      "Слово из определения должно обозначать изображение или описание собственной внешности либо характера.",
+      "Portrait — «портрет». С добавлением self- получаем self-portrait — «автопортрет»."
+    ]
+  },
+  {
+    "title": "Protecting Yourself",
+    "question": "Something you do to protect yourself or your property.",
+    "context": "Find the words which suit these definitions. They all begin with Self-",
+    "choices": [
+      "help",
+      "critical",
+      "rule",
+      "defence"
+    ],
+    "answer": 3,
+    "steps": [
+      "Protect — защищать. Определение спрашивает о защите себя или своего имущества.",
+      "Self-defence означает «самозащита» или «самооборона». Значит, подходит defence."
+    ]
+  },
+  {
+    "title": "Doing What You Ought To Do",
+    "question": "The ability to make yourself do things you ought to do.",
+    "context": "Find the words which suit these definitions. They all begin with Self-",
+    "choices": [
+      "pity",
+      "sorrow",
+      "discipline",
+      "esteem"
+    ],
+    "answer": 2,
+    "steps": [
+      "Ought to do означает «следует сделать». Речь о способности заставить себя выполнить то, что необходимо.",
+      "Self-discipline — «самодисциплина». К self- нужно добавить discipline."
+    ]
+  },
+  {
+    "title": "Learning on Your Own",
+    "question": "Having taught yourself by reading books, etc.",
+    "context": "Find the words which suit these definitions. They all begin with Self-",
+    "choices": [
+      "satisfied",
+      "willed",
+      "proclaimed",
+      "educated"
+    ],
+    "answer": 3,
+    "steps": [
+      "Having taught yourself означает, что человек учился самостоятельно, например по книгам.",
+      "Self-educated значит «получивший образование самостоятельно». Выбираем educated."
+    ]
+  },
+  {
+    "title": "How You Value Yourself",
+    "question": "Respect for or a favourable opinion of oneself.",
+    "context": "Find the words which suit these definitions. They all begin with Self-",
+    "choices": [
+      "criticism",
+      "expression",
+      "esteem",
+      "help"
+    ],
+    "answer": 2,
+    "steps": [
+      "Речь об уважении к себе и положительной оценке своих качеств. Respect близко по смыслу к esteem.",
+      "С приставкой self- получаем self-esteem — «самоуважение» или «самооценка»."
+    ]
+  },
+  {
+    "title": "Confidence in Your Ideas",
+    "question": "Confidence in the validity, value, etc, of one’s own ideas, opinions, etc.",
+    "context": "Find the words which suit these definitions. They all begin with Self-",
+    "choices": [
+      "command",
+      "conceit",
+      "assurance",
+      "assertion"
+    ],
+    "answer": 2,
+    "steps": [
+      "Главное слово в определении — confidence, «уверенность». Речь об убеждённости в своих идеях и суждениях.",
+      "Self-assurance значит «уверенность в себе». Выбираем assurance."
+    ]
+  },
+  {
+    "title": "Giving Something Up",
+    "question": "When you decide not to do or have something you want or need, in order to help someone else.",
+    "context": "Find the words which suit these definitions. They all begin with Self-",
+    "choices": [
+      "sacrifice",
+      "determination",
+      "interest",
+      "possession"
+    ],
+    "answer": 0,
+    "steps": [
+      "Человек отказывается от чего-то нужного себе, чтобы помочь другому. Ищи слово, обозначающее жертву ради других.",
+      "Self-sacrifice означает «самопожертвование». Подходит sacrifice."
+    ]
+  },
+  {
+    "title": "Feeling Sorry for Yourself",
+    "question": "The feeling of being sorry for yourself because you think people have treated you badly.",
+    "context": "Find the words which suit these definitions. They all begin with Self-",
+    "choices": [
+      "help",
+      "pity",
+      "respect",
+      "knowledge"
+    ],
+    "answer": 1,
+    "steps": [
+      "Feeling sorry for yourself означает «жалеть себя». Для такого чувства есть сложное слово с self-.",
+      "Pity — «жалость». Self-pity — «жалость к себе»."
+    ]
+  },
+  {
+    "title": "Worrying About Opinions",
+    "question": "Worried and embarrassed about what other people think of you.",
+    "context": "Find the words which suit these definitions. They all begin with Self-",
+    "choices": [
+      "conscious",
+      "seeking",
+      "inflicted",
+      "defeating"
+    ],
+    "answer": 0,
+    "steps": [
+      "Определение описывает неловкость, возникающую из-за мыслей о впечатлении, которое производишь на других.",
+      "Self-conscious в таком контексте означает «смущённый из-за внимания к себе». Подходит conscious."
+    ]
+  },
+  {
+    "title": "A Literature Prize",
+    "question": "This Prime Minister won the Nobel Prize in Literature.",
+    "context": "British Prime Ministers",
+    "choices": [
+      "Boris Johnson",
+      "Margaret Thatcher",
+      "Theresa May",
+      "Winston Churchill"
+    ],
+    "answer": 3,
+    "steps": [
+      "Премию по литературе британскому политику присудили в 1953 году. Он был автором исторических и биографических работ и известным оратором.",
+      "Лауреат — Уинстон Черчилль. Выбираем Winston Churchill."
+    ]
+  },
+  {
+    "title": "Time in Office",
+    "question": "This person was the longest-serving British prime minister of the 20th century.",
+    "context": "British Prime Ministers",
+    "choices": [
+      "Harold Wilson",
+      "Winston Churchill",
+      "Boris Johnson",
+      "Margaret Thatcher"
+    ],
+    "answer": 3,
+    "steps": [
+      "Сравни время у власти. Маргарет Тэтчер занимала пост с 1979 по 1990 год, более 11 лет подряд.",
+      "Этот срок длиннее, чем у других британских премьер-министров XX века. Ответ Margaret Thatcher."
+    ]
+  },
+  {
+    "title": "The Official Residence",
+    "question": "It is the official residence of the British prime ministers.",
+    "context": "British Prime Ministers",
+    "choices": [
+      "10 Downing Street",
+      "Buckingham Palace",
+      "Scotland Yard",
+      "Westminster Palace"
+    ],
+    "answer": 0,
+    "steps": [
+      "Вопрос о резиденции главы правительства. Букингемский дворец связан с монархом, Скотленд-Ярд — с полицией, Вестминстерский дворец — с парламентом.",
+      "Официальная резиденция премьер-министра находится по адресу 10 Downing Street."
+    ]
+  },
+  {
+    "title": "From Waterloo to Parliament",
+    "question": "He defeated Napoleon at the battle of Waterloo and later became the Prime Minister of the UK.",
+    "context": "British Prime Ministers",
+    "choices": [
+      "William Lamb",
+      "Arthur Wellesley",
+      "John Major",
+      "David Cameron"
+    ],
+    "answer": 1,
+    "steps": [
+      "Союзной армией при Ватерлоо командовал герцог Веллингтон. Позже он возглавлял британское правительство.",
+      "Имя герцога Веллингтона — Артур Уэлсли, Arthur Wellesley."
+    ]
+  },
+  {
+    "title": "A Prime Minister’s Nickname",
+    "question": "This Prime Minister was often called “the British Bulldog.”",
+    "context": "British Prime Ministers",
+    "choices": [
+      "John Major",
+      "Winston Churchill",
+      "Tony Blair",
+      "Harold Wilson"
+    ],
+    "answer": 1,
+    "steps": [
+      "Прозвище British Bulldog связывают с упорством британского руководителя во время Второй мировой войны.",
+      "Из списка это Уинстон Черчилль — Winston Churchill."
+    ]
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "page": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+  "tasks": "https://web.archive.org/web/20171208185050/http://www.konkurs-chip.ru:80/file/files/5-6_2010.doc",
+  "answers": "https://web.archive.org/web/20171208185146/http://www.konkurs-chip.ru:80/file/files/answers_2010.doc",
+  "title": "Земля — наш общий дом",
+  "date": "2010-04-15",
+  "editorialSources": {
+    "5-6": {
+      "7": [
+        {
+          "title": "Русское географическое общество. Географическое пространство: сбалансированное развитие природы и общества, 2017",
+          "url": "https://www.rgo.ru/sites/default/files/sbornik_geograficheskoe_prostranstvo_sbalansirovannoe_razvitie_prirody_i_obshchestva_2017_god.pdf"
+        }
+      ],
+      "12": [
+        {
+          "title": "United Nations Statistics Division. Demographic Yearbook 2024, Table 3",
+          "url": "https://unstats.un.org/unsd/demographic-social/products/dyb/documents/DYB2024/table03.pdf"
+        }
+      ],
+      "22": [
+        {
+          "title": "US Bureau of Reclamation and Army Corps of Engineers. National Large Wood Manual",
+          "url": "https://ewn.erdc.dren.mil/wp-content/uploads/2021/03/National_Large_Wood_Manual-USBR_USACE-January2016-FINAL2.pdf"
+        }
+      ]
+    },
+    "3-4": {
+      "7": [
+        {
+          "title": "МЧС России. Как действовать при пожаре в квартире",
+          "url": "https://40.mchs.gov.ru/deyatelnost/poleznaya-informaciya/dopolnitelnye-stranicy/god-kultury-bezopasnosti/azy-bezopasnosti/kak-deystvovat-pri-pozhare-v-kvartire"
+        }
+      ],
+      "9": [
+        {
+          "title": "U.S. Naval Observatory. Length of Day and Night at the Equinoxes",
+          "url": "https://aa.usno.navy.mil/faq/equinoxes"
+        }
+      ],
+      "16": [
+        {
+          "title": "Комментарии организатора ЧИП, 3–4 классы, 2010",
+          "url": "https://web.archive.org/web/20171208190053/http://www.konkurs-chip.ru:80/file/files/3-4kom2010.doc"
+        }
+      ]
+    }
+  },
+  "booklets": {
+    "3-4": {
+      "tasks": "https://web.archive.org/web/20171208190037/http://www.konkurs-chip.ru:80/file/files/3-4_2010.doc",
+      "solutions": "https://web.archive.org/web/20171208190053/http://www.konkurs-chip.ru:80/file/files/3-4kom2010.doc"
+    },
+    "5-6": {
+      "tasks": "https://web.archive.org/web/20171208185050/http://www.konkurs-chip.ru:80/file/files/5-6_2010.doc"
+    }
+  }
+}

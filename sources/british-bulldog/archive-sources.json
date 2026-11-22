@@ -1,0 +1,3364 @@
+{
+  "archive": "https://runodog.ru/index/british_bulldog/0-20",
+  "checkedOn": "2026-11-22",
+  "seasons": [
+    {
+      "season": "2026-2027",
+      "archivePage": "https://runodog.ru/index/2025_2026/0-145",
+      "packages": [],
+      "status": "scheduled",
+      "contestDate": "2026-12-02"
+    },
+    {
+      "season": "2025-2026",
+      "archivePage": "https://runodog.ru/index/2025_2026/0-143",
+      "packages": [
+        {
+          "grade": "2",
+          "tasks": {
+            "url": "https://runodog.ru/BB_2526/BB_2526_quest_colour_1-2.pdf",
+            "bytes": 3087463,
+            "sha256": "ab332ef3b5980dd66d7af9aacf3bef5b8b047acc070e8b91600adfc0086e13ab",
+            "pages": 2,
+            "textLayer": false,
+            "status": "verified",
+            "localFile": "2025/2/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB_2526/vv_2526_otvety.jpg",
+            "bytes": 636320,
+            "sha256": "6bcb9a4bdc4b4e234239c25bbc31830233a2629f86c7868dff7a92c070fe2f48",
+            "status": "verified",
+            "localFile": "2025/answers.pdf",
+            "localOriginal": "2025/answers.jpg",
+            "derivation": "PDF wrapper of the official answer-key image"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB_2526/BB_2526_Audio_forms_1-2_LQ.mp3",
+            "bytes": 434468,
+            "sha256": "55d9a1c869b7cbe0d1fc304d80fa0e227b801360d4a9a8f46f22147561304456",
+            "durationSeconds": 71.4,
+            "status": "verified",
+            "localFile": "2025/2/listening.mp3"
+          }
+        },
+        {
+          "grade": "3-4",
+          "tasks": {
+            "url": "https://runodog.ru/BB_2526/BB_2526_quest_colour_3-4.pdf",
+            "bytes": 6705922,
+            "sha256": "9d05993e3c3eb63cb195bfbd4163a4df52e4741f70c4ca7568423b35e3e76e50",
+            "pages": 2,
+            "textLayer": false,
+            "status": "verified",
+            "localFile": "2025/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB_2526/vv_2526_otvety.jpg",
+            "bytes": 636320,
+            "sha256": "6bcb9a4bdc4b4e234239c25bbc31830233a2629f86c7868dff7a92c070fe2f48",
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB_2526/BB_2526_Audio_forms_3-4_LQ.mp3",
+            "bytes": 733109,
+            "sha256": "699176d0fcb9d0a77a910182d946ee8327d1f3f1166eef155cc80890638a29fc",
+            "durationSeconds": 90.84,
+            "status": "verified",
+            "localFile": "2025/listening.mp3"
+          }
+        },
+        {
+          "grade": "5-6",
+          "tasks": {
+            "url": "https://runodog.ru/BB_2526/BB_2526_quest_colour_5-6.pdf",
+            "bytes": 3182655,
+            "sha256": "edbdc4816f5bb47ce5496889da28b33c4e87e6ca97b6188ba6c751437eaecb87",
+            "pages": 2,
+            "textLayer": false,
+            "status": "verified",
+            "localFile": "2025/5-6/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB_2526/vv_2526_otvety.jpg",
+            "bytes": 636320,
+            "sha256": "6bcb9a4bdc4b4e234239c25bbc31830233a2629f86c7868dff7a92c070fe2f48",
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB_2526/BB_2526_Audio_forms_5-6_LQ.mp3",
+            "bytes": 2086970,
+            "sha256": "99e53108a973c2979bd9ddaf7246670283a918af295ad23d79dff1a14f3d2262",
+            "durationSeconds": 260.21,
+            "status": "verified",
+            "localFile": "2025/5-6/listening.mp3"
+          }
+        },
+        {
+          "grade": "7-8",
+          "tasks": {
+            "url": "https://runodog.ru/BB_2526/BB_2526_quest_colour_7-8.pdf",
+            "bytes": 3125322,
+            "sha256": "661bf7c951515316d7ffc743ab7a0095343a33ab58bc3e219d5b933847fc6ee5",
+            "pages": 2,
+            "textLayer": false,
+            "status": "verified",
+            "localFile": "2025/7-8/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB_2526/vv_2526_otvety.jpg",
+            "bytes": 636320,
+            "sha256": "6bcb9a4bdc4b4e234239c25bbc31830233a2629f86c7868dff7a92c070fe2f48",
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB_2526/BB_2526_Audio_forms_7-8_LQ.mp3",
+            "bytes": 1351964,
+            "sha256": "560d2c52964af3b8ff0a158d689ef1cfdc87a07f97f940bb6dfab94b30045ab9",
+            "durationSeconds": 168.27,
+            "status": "verified",
+            "localFile": "2025/7-8/listening.mp3"
+          }
+        },
+        {
+          "grade": "9-11",
+          "tasks": {
+            "url": "https://runodog.ru/BB_2526/BB_2526_quest_colour_9-11.pdf",
+            "bytes": 3108764,
+            "sha256": "9fe66aae5ccd5320377b20caa89e3dae043ff4df60e8d601325cd16561f1bc30",
+            "pages": 2,
+            "textLayer": false,
+            "status": "verified",
+            "localFile": "2025/9-11/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB_2526/vv_2526_otvety.jpg",
+            "bytes": 636320,
+            "sha256": "6bcb9a4bdc4b4e234239c25bbc31830233a2629f86c7868dff7a92c070fe2f48",
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB_2526/BB_2526_Audio_forms_9-11_LQ.mp3",
+            "bytes": 1945673,
+            "sha256": "dcafc8b794f817fe06c5241fa7758ca110eb1f0adb7413e7c6232eed16c758b4",
+            "durationSeconds": 242.37,
+            "status": "verified",
+            "localFile": "2025/9-11/listening.mp3"
+          }
+        }
+      ]
+    },
+    {
+      "season": "2024-2025",
+      "archivePage": "https://runodog.ru/index/2024_2025/0-140",
+      "packages": [
+        {
+          "grade": "2",
+          "tasks": {
+            "url": "https://runodog.ru/BB_2425/vv_2425_zadanija_1-2.pdf",
+            "bytes": 1968327,
+            "sha256": "e1f2f248f50b1e696507de9c370d6d87139b7ecafb9a550cdddadae0871d3fb9",
+            "pages": 2,
+            "textLayer": false,
+            "status": "verified",
+            "localFile": "2024/2/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB_2425/vv_2425_otvety.pdf",
+            "bytes": 287387,
+            "sha256": "ed8950c9b6369c49d5648bc7451b7e7fa003d45b97577d18bf8d34e0deaf31ad",
+            "pages": 1,
+            "textLayer": false,
+            "status": "verified",
+            "localFile": "2024/answers.pdf"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB_2425/BB_2425_audio_1-2_lq.mp3",
+            "bytes": 840729,
+            "sha256": "0607b704cba5c9a856bc86ea44b591cc38ddc5715d68c3789a7e0cc0abadd32b",
+            "durationSeconds": 104.49,
+            "status": "verified",
+            "localFile": "2024/2/listening.mp3"
+          }
+        },
+        {
+          "grade": "3-4",
+          "tasks": {
+            "url": "https://runodog.ru/BB_2425/vv_2425_zadanija_3-4.pdf",
+            "bytes": 1671582,
+            "sha256": "66defe0e1cbb7b454b60f30470f9f2b5c85a98a520b48b9fe396f6baee05b97f",
+            "pages": 2,
+            "textLayer": false,
+            "status": "verified",
+            "localFile": "2024/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB_2425/vv_2425_otvety.pdf",
+            "bytes": 287387,
+            "sha256": "ed8950c9b6369c49d5648bc7451b7e7fa003d45b97577d18bf8d34e0deaf31ad",
+            "pages": 1,
+            "textLayer": false,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB_2425/BB_2425_audio_3-4_lq.mp3",
+            "bytes": 1178521,
+            "sha256": "113ba53539282fa73a30df80a17299d1240bdd24c32c901dbebb3ac4143ced00",
+            "durationSeconds": 146.72,
+            "status": "verified",
+            "localFile": "2024/listening.mp3"
+          }
+        },
+        {
+          "grade": "5-6",
+          "tasks": {
+            "url": "https://runodog.ru/BB_2425/vv_2425_zadanija_5-6.pdf",
+            "bytes": 1929376,
+            "sha256": "6924db4d517838096f047c75c64bd8d3e4fae0c60fad4b917a24b74e3e761bd6",
+            "pages": 2,
+            "textLayer": false,
+            "status": "verified",
+            "localFile": "2024/5-6/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB_2425/vv_2425_otvety.pdf",
+            "bytes": 287387,
+            "sha256": "ed8950c9b6369c49d5648bc7451b7e7fa003d45b97577d18bf8d34e0deaf31ad",
+            "pages": 1,
+            "textLayer": false,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB_2425/BB_2425_audio_5-6_lq.mp3",
+            "bytes": 1493773,
+            "sha256": "be52649d4bcd059053aaa5976854af288b5a1a5213ade272901fd764f9ea7ad8",
+            "durationSeconds": 185.64,
+            "status": "verified",
+            "localFile": "2024/5-6/listening.mp3"
+          }
+        },
+        {
+          "grade": "7-8",
+          "tasks": {
+            "url": "https://runodog.ru/BB_2425/vv_2425_zadanija_7-8.pdf",
+            "bytes": 1671530,
+            "sha256": "3198a3cdc8a8f979109b029a148e376faff03d1f33d958ecf0bb18dee4873661",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2024/7-8/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB_2425/vv_2425_otvety.pdf",
+            "bytes": 287387,
+            "sha256": "ed8950c9b6369c49d5648bc7451b7e7fa003d45b97577d18bf8d34e0deaf31ad",
+            "pages": 1,
+            "textLayer": false,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB_2425/BB_2425_audio_7-8_lq.mp3",
+            "bytes": 1578107,
+            "sha256": "d9ab9281ce631fd24a2cac6777307f0ef1534543b1aa94e1deb85c036a96ab06",
+            "durationSeconds": 196.53,
+            "status": "verified",
+            "localFile": "2024/7-8/listening.mp3"
+          }
+        },
+        {
+          "grade": "9-11",
+          "tasks": {
+            "url": "https://runodog.ru/BB_2425/vv_2425_zadanija_9-11.pdf",
+            "bytes": 1925655,
+            "sha256": "71bde75bb6333139a7624c2220753b10ff74a72587a6dc6041f9040d61ecc748",
+            "pages": 2,
+            "textLayer": false,
+            "status": "verified",
+            "localFile": "2024/9-11/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB_2425/vv_2425_otvety.pdf",
+            "bytes": 287387,
+            "sha256": "ed8950c9b6369c49d5648bc7451b7e7fa003d45b97577d18bf8d34e0deaf31ad",
+            "pages": 1,
+            "textLayer": false,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB_2425/BB_2425_audio_9-11_lq.mp3",
+            "bytes": 2847133,
+            "sha256": "30326498a538d0d4cc4418f16eca8b3aebd450cf3fed01aaf10ecb0d45ba9807",
+            "durationSeconds": 355.03,
+            "status": "verified",
+            "localFile": "2024/9-11/listening.mp3"
+          }
+        }
+      ]
+    },
+    {
+      "season": "2023-2024",
+      "archivePage": "https://runodog.ru/index/2023_2024/0-136",
+      "packages": [
+        {
+          "grade": "2",
+          "tasks": {
+            "url": "https://runodog.ru/BB_2324/vv_2324-buklet_s_zadanijami-1-2_klassy.pdf",
+            "bytes": 1397132,
+            "sha256": "1fd0ed828fa0f6273bcc968aeb0868620520cf9548ad90883649b5973b42bf2d",
+            "pages": 2,
+            "textLayer": false,
+            "status": "verified",
+            "localFile": "2023/2/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB_2324/vv_2324_otvety.pdf",
+            "bytes": 68759,
+            "sha256": "59c481c850973766733d0b5fd7927e2924b530fb2276eb2e000764d239093c26",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2023/answers.pdf"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB_2324/BB_2324_audio_1-2_lq.mp3",
+            "bytes": 353902,
+            "sha256": "34f0fda02d87cde47d7a7b7b7d5d783c4e364f05ac7a9800c5572650e5b56c32",
+            "durationSeconds": 57.8,
+            "status": "verified",
+            "localFile": "2023/2/listening.mp3"
+          }
+        },
+        {
+          "grade": "3-4",
+          "tasks": {
+            "url": "https://runodog.ru/BB_2324/vv_2324-buklet_s_zadanijami-3-4_klassy.pdf",
+            "bytes": 1488473,
+            "sha256": "bb86d8a3a22a517c5384d8955057b2728243d156857ac0672d90e54c19ce4e79",
+            "pages": 2,
+            "textLayer": false,
+            "status": "verified",
+            "localFile": "2023/3-4/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB_2324/vv_2324_otvety.pdf",
+            "bytes": 68759,
+            "sha256": "59c481c850973766733d0b5fd7927e2924b530fb2276eb2e000764d239093c26",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB_2324/BB_2324_audio_3-4_lq.mp3",
+            "bytes": 432471,
+            "sha256": "27ddb900250af73058b0ae6d3a6424da5c1e7846180ac1f898dc2671f975a3f2",
+            "durationSeconds": 71.14,
+            "status": "verified",
+            "localFile": "2023/3-4/listening.mp3"
+          }
+        },
+        {
+          "grade": "5-6",
+          "tasks": {
+            "url": "https://runodog.ru/BB_2324/vv_2324-buklet_s_zadanijami-5-6_klassy.pdf",
+            "bytes": 1280598,
+            "sha256": "ab202843bc91ba995b4b4d927ccf1be2569db73db6bd996318cb4a0f698ec057",
+            "pages": 2,
+            "textLayer": false,
+            "status": "verified",
+            "localFile": "2023/5-6/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB_2324/vv_2324_otvety.pdf",
+            "bytes": 68759,
+            "sha256": "59c481c850973766733d0b5fd7927e2924b530fb2276eb2e000764d239093c26",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB_2324/BB_2324_audio_5-6_lq.mp3",
+            "bytes": 745079,
+            "sha256": "98dc78aee35ec96035abda1b9c2250b6cd3eb999047a8b89fa5d5d9f501bd54d",
+            "durationSeconds": 123.27,
+            "status": "verified",
+            "localFile": "2023/5-6/listening.mp3"
+          }
+        },
+        {
+          "grade": "7-8",
+          "tasks": {
+            "url": "https://runodog.ru/BB_2324/vv_2324-buklet_s_zadanijami-7-8_klassy.pdf",
+            "bytes": 1346474,
+            "sha256": "d38a6d0014d4257062c7a2893e73b8a3eaa5677914fe8e462f47cc0339510624",
+            "pages": 2,
+            "textLayer": false,
+            "status": "verified",
+            "localFile": "2023/7-8/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB_2324/vv_2324_otvety.pdf",
+            "bytes": 68759,
+            "sha256": "59c481c850973766733d0b5fd7927e2924b530fb2276eb2e000764d239093c26",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB_2324/BB_2324_audio_7-8_lq.mp3",
+            "bytes": 778536,
+            "sha256": "1383615eedf1933af0c8e11b6c55e00a8b9a04df616b5121fd7dac32e891d099",
+            "durationSeconds": 128.91,
+            "status": "verified",
+            "localFile": "2023/7-8/listening.mp3"
+          }
+        },
+        {
+          "grade": "9-11",
+          "tasks": {
+            "url": "https://runodog.ru/BB_2324/vv_2324-buklet_s_zadanijami-9-11_klassy.pdf",
+            "bytes": 1264985,
+            "sha256": "f639dfd4ba809694b2a699e1e3da9feec8cf25616cb58b47f786fe9a0c6be39c",
+            "pages": 2,
+            "textLayer": false,
+            "status": "verified",
+            "localFile": "2023/9-11/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB_2324/vv_2324_otvety.pdf",
+            "bytes": 68759,
+            "sha256": "59c481c850973766733d0b5fd7927e2924b530fb2276eb2e000764d239093c26",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_2324/BB_2324_audio_9-11_lq.mp3",
+            "bytes": 1352871,
+            "sha256": "19b8f22a8068b43c614800883a36394f2c32fb0bdbb94c79bedcaf8df5e9eed0",
+            "durationSeconds": 224.54,
+            "status": "verified",
+            "localFile": "2023/9-11/listening.mp3"
+          }
+        }
+      ]
+    },
+    {
+      "season": "2022-2023",
+      "archivePage": "https://runodog.ru/index/2022_2023_bb/0-132",
+      "packages": [
+        {
+          "grade": "2",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_2223/vv_2223_zadanija_1-2_cvet.pdf",
+            "bytes": 1090163,
+            "sha256": "c6c704086964ad45631b44f019ecab8e9885468fde7ef51579db26ae69945cfa",
+            "pages": 2,
+            "textLayer": false,
+            "status": "verified",
+            "localFile": "2022/2/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_2223/vv-2223-otvety.jpg",
+            "bytes": 568529,
+            "sha256": "393c4c9d7dab91d1747fceb81bf361bf1fecf17a1d4dbe80e0718dbb3f83b75d",
+            "status": "verified",
+            "localFile": "2022/answers.pdf",
+            "localOriginal": "2022/answers.jpg",
+            "derivation": "PDF wrapper of the official answer-key image"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_2223/BB_2223_audio_1-2_lq.mp3",
+            "bytes": 437462,
+            "sha256": "50b5e687bb531cdce01274f771bdb77f9e70c5f5526695c99ddc5d43300e5873",
+            "durationSeconds": 71.81,
+            "status": "verified",
+            "localFile": "2022/2/listening.mp3"
+          }
+        },
+        {
+          "grade": "3-4",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_2223/vv_2223_zadanija_3-4_cvet.pdf",
+            "bytes": 1028415,
+            "sha256": "d93682e630cec206ec0e16122943815b4038b359bf265911cdf172114ffbae46",
+            "pages": 2,
+            "textLayer": false,
+            "status": "verified",
+            "localFile": "2022/3-4/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_2223/vv-2223-otvety.jpg",
+            "bytes": 568529,
+            "sha256": "393c4c9d7dab91d1747fceb81bf361bf1fecf17a1d4dbe80e0718dbb3f83b75d",
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_2223/BB_2223_audio_3-4_lq.mp3",
+            "bytes": 1778558,
+            "sha256": "fcb6de5d05b31e16ff03558e1c947aa06cd362184f25c47690a2366c4c436bcf",
+            "durationSeconds": 147.85,
+            "status": "verified",
+            "localFile": "2022/3-4/listening.mp3"
+          }
+        },
+        {
+          "grade": "5-6",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_2223/vv_2223_zadanija_5-6_cvet.pdf",
+            "bytes": 1186807,
+            "sha256": "5723a510c530caf1c09e46e08ef63983fd16d14856d8c3808204a4ea8f6f792d",
+            "pages": 2,
+            "textLayer": false,
+            "status": "verified",
+            "localFile": "2022/5-6/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_2223/vv-2223-otvety.jpg",
+            "bytes": 568529,
+            "sha256": "393c4c9d7dab91d1747fceb81bf361bf1fecf17a1d4dbe80e0718dbb3f83b75d",
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_2223/BB_2223_audio_5-6_lq.mp3",
+            "bytes": 1164074,
+            "sha256": "2a1c359664fdf8314f6d65c070ef0004b406fb797ce366afdba2dc13e32d4121",
+            "durationSeconds": 193.13,
+            "status": "verified",
+            "localFile": "2022/5-6/listening.mp3"
+          }
+        },
+        {
+          "grade": "7-8",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_2223/vv_2223_zadanija_7-8_cvet.pdf",
+            "bytes": 943381,
+            "sha256": "21e4e55697b6055101424bc5841086a80a3b87ee8cfbeecd175e8658a7613932",
+            "pages": 2,
+            "textLayer": false,
+            "status": "verified",
+            "localFile": "2022/7-8/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_2223/vv-2223-otvety.jpg",
+            "bytes": 568529,
+            "sha256": "393c4c9d7dab91d1747fceb81bf361bf1fecf17a1d4dbe80e0718dbb3f83b75d",
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_2223/BB_2223_audio_7-8_lq.mp3",
+            "bytes": 1220209,
+            "sha256": "ca7674effc47fcd338012b20273b35861f5a8237f9de4e91e1254e0eca73576e",
+            "durationSeconds": 201.91,
+            "status": "verified",
+            "localFile": "2022/7-8/listening.mp3"
+          }
+        },
+        {
+          "grade": "9-11",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_2223/vv_2223_zadanija_9-11_cvet.pdf",
+            "bytes": 956196,
+            "sha256": "52ac1a9b3d5bc6bc95b358ad6e7835e8022b75e6a8750f58ccadfccb1210e569",
+            "pages": 2,
+            "textLayer": false,
+            "status": "verified",
+            "localFile": "2022/9-11/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_2223/vv-2223-otvety.jpg",
+            "bytes": 568529,
+            "sha256": "393c4c9d7dab91d1747fceb81bf361bf1fecf17a1d4dbe80e0718dbb3f83b75d",
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_2223/BB_2223_audio_9-11_lq.mp3",
+            "bytes": 1334858,
+            "sha256": "a5a0e1bb2e2f28f47d15f723a9041b58f5175845430037b284909812b7a60375",
+            "durationSeconds": 221.59,
+            "status": "verified",
+            "localFile": "2022/9-11/listening.mp3"
+          }
+        }
+      ]
+    },
+    {
+      "season": "2021-2022",
+      "archivePage": "https://runodog.ru/index/2021_2022/0-130",
+      "packages": [
+        {
+          "grade": "2",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_2122/vv_2122_zadanija_cvet_lq_1-2.pdf",
+            "bytes": 1681921,
+            "sha256": "b3181f39d42a9788a7719c037b73d60faefbad8d98a9d9673864087a6b1e36f3",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2021/2/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_2122/vv_2122_otvety.jpg",
+            "bytes": 554671,
+            "sha256": "0efd87010da15346bf1be4dcb327dd2f985d1171d6e425764e57a406c4a674a5",
+            "status": "verified",
+            "localFile": "2021/answers.pdf",
+            "localOriginal": "2021/answers.jpg",
+            "derivation": "PDF wrapper of the official answer-key image"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_2122/BB_2122_audio_2_LQ.mp3",
+            "bytes": 634777,
+            "sha256": "21d37ab7b93d6fcb2529402d015bc6776b2be14a7c293508f4e7681ee5184b50",
+            "durationSeconds": 105.0,
+            "status": "verified",
+            "localFile": "2021/2/listening.mp3"
+          }
+        },
+        {
+          "grade": "3-4",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_2122/vv_2122_zadanija_cvet_lq_3-4.pdf",
+            "bytes": 1236756,
+            "sha256": "f3c43cf74941e20e0c59020132c0e48147a0c6d0e9321ce9c03f115741bf8fb2",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2021/3-4/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_2122/vv_2122_otvety.jpg",
+            "bytes": 554671,
+            "sha256": "0efd87010da15346bf1be4dcb327dd2f985d1171d6e425764e57a406c4a674a5",
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_2122/BB_2122_audio_3-4_LQ.mp3",
+            "bytes": 952605,
+            "sha256": "fbb0ca0799aba3249ea17ce28aff76ffc9f758af3ee731b726dc33cd4f219c7d",
+            "durationSeconds": 157.85,
+            "status": "verified",
+            "localFile": "2021/3-4/listening.mp3"
+          }
+        },
+        {
+          "grade": "5-6",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_2122/vv_2122_zadanija_cvet_lq_5-6.pdf",
+            "bytes": 2149507,
+            "sha256": "db8bc3c7e07e6f6d87004a008ba68d7423ead448801ed6955e879da9be4e516c",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2021/5-6/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_2122/vv_2122_otvety.jpg",
+            "bytes": 554671,
+            "sha256": "0efd87010da15346bf1be4dcb327dd2f985d1171d6e425764e57a406c4a674a5",
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_2122/BB_2122_audio_5-6_LQ.mp3",
+            "bytes": 1110572,
+            "sha256": "f261789b79fbc2c53f17a73f0e3cfae18e8d69984a6044b9fe3f51b6c05c4ce0",
+            "durationSeconds": 184.08,
+            "status": "verified",
+            "localFile": "2021/5-6/listening.mp3"
+          }
+        },
+        {
+          "grade": "7-8",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_2122/vv_2122_zadanija_cvet_lq_7-8.pdf",
+            "bytes": 1105473,
+            "sha256": "5c74d1ebe6a11fd58318941e7ac5f294d19e598ee7458bf69b28f2fe388d651f",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2021/7-8/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_2122/vv_2122_otvety.jpg",
+            "bytes": 554671,
+            "sha256": "0efd87010da15346bf1be4dcb327dd2f985d1171d6e425764e57a406c4a674a5",
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_2122/BB_2122_audio_7-8_LQ.mp3",
+            "bytes": 1585675,
+            "sha256": "95e533c649c1c0d51357e0d3945c590c515eb485285fee5bfd7c28aa33430222",
+            "durationSeconds": 263.35,
+            "status": "verified",
+            "localFile": "2021/7-8/listening.mp3"
+          }
+        },
+        {
+          "grade": "9-11",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_2122/vv_2122_zadanija_cvet_lq_9-11.pdf",
+            "bytes": 1108838,
+            "sha256": "930fde12378a7d28611435e9f892f509b88ef2f8ab1d2e9e73ba53bff6ba6af7",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2021/9-11/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_2122/vv_2122_otvety.jpg",
+            "bytes": 554671,
+            "sha256": "0efd87010da15346bf1be4dcb327dd2f985d1171d6e425764e57a406c4a674a5",
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_2122/BB_2122_audio_9-11_LQ.mp3",
+            "bytes": 1290389,
+            "sha256": "b923b5da5fe589794010bae7d0198235ed7bfa44cbd32a6618eba014e5a9d226",
+            "durationSeconds": 214.08,
+            "status": "verified",
+            "localFile": "2021/9-11/listening.mp3"
+          }
+        }
+      ]
+    },
+    {
+      "season": "2020-2021",
+      "archivePage": "https://runodog.ru/index/2020_2021/0-128",
+      "packages": [
+        {
+          "grade": "2",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_2021/vv_2021_zadanija_s_1-2.pdf",
+            "bytes": 922797,
+            "sha256": "15d0b4c11f2d5d924950af6946c22e646d0e02fa8c835b685ae12f1652692233",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2020/2/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_2021/vv_2021_otvety_variant_1.pdf",
+            "bytes": 71085,
+            "sha256": "0eafec9b6cfc7d81a29c94e5e030078096e23b43de246450bce964f909990a68",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2020/answers.pdf"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_2021/BB_2021_audio_1-2_s.mp3",
+            "bytes": 933597,
+            "sha256": "273f8049e8951f3c8a8a7ba66456bc92e28fd285231a16d50ec3687b8719a459",
+            "durationSeconds": 57.94,
+            "status": "verified",
+            "localFile": "2020/2/listening.mp3"
+          }
+        },
+        {
+          "grade": "3-4",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_2021/vv_2021_zadanija_s_3-4.pdf",
+            "bytes": 1311704,
+            "sha256": "8117668c2289de47b7cbde0b65cf24a549c895efcf8e856002a77065cd591414",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2020/3-4/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_2021/vv_2021_otvety_variant_1.pdf",
+            "bytes": 71085,
+            "sha256": "0eafec9b6cfc7d81a29c94e5e030078096e23b43de246450bce964f909990a68",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_2021/BB_2021_audio_3-4_s.mp3",
+            "bytes": 836293,
+            "sha256": "47f54e7cd84d27cc9f2426c1c29b16634c66e8be0b9d66193f2cfdce673477b8",
+            "durationSeconds": 103.78,
+            "status": "verified",
+            "localFile": "2020/3-4/listening.mp3"
+          }
+        },
+        {
+          "grade": "5-6",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_2021/vv_2021_zadanija_s_5-6.pdf",
+            "bytes": 831599,
+            "sha256": "b4e63943e2bf8546b40ca4986a1d8af8fbf028b16049b64b90c998ec3ae3e33d",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2020/5-6/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_2021/vv_2021_otvety_variant_1.pdf",
+            "bytes": 71085,
+            "sha256": "0eafec9b6cfc7d81a29c94e5e030078096e23b43de246450bce964f909990a68",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_2021/BB_2021_audio_5-6_s.mp3",
+            "bytes": 1402771,
+            "sha256": "4aff6ae3260f9acb6459cdedc1f614ffdb478543b326889192b5e9e175cba432",
+            "durationSeconds": 174.43,
+            "status": "verified",
+            "localFile": "2020/5-6/listening.mp3"
+          }
+        },
+        {
+          "grade": "7-8",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_2021/vv_2021_zadanija_s_7-8.pdf",
+            "bytes": 873388,
+            "sha256": "8e097a03133798ba044893ee26e9384900148809e5cef1f18bae7d860f17e345",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2020/7-8/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_2021/vv_2021_otvety_variant_1.pdf",
+            "bytes": 71085,
+            "sha256": "0eafec9b6cfc7d81a29c94e5e030078096e23b43de246450bce964f909990a68",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_2021/BB_2021_audio_7-8_s.mp3",
+            "bytes": 1771213,
+            "sha256": "c96e5ffbf19c83880eaec503791d2b61147d95ca280698cf6fd62d8ba43aeeca",
+            "durationSeconds": 220.61,
+            "status": "verified",
+            "localFile": "2020/7-8/listening.mp3"
+          }
+        },
+        {
+          "grade": "9-11",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_2021/vv_2021_zadanija_s_9-11.pdf",
+            "bytes": 2212862,
+            "sha256": "7e0c8e9c30f743798ba00a7893fbc1f7808fb1cd4b36b85c5b4c2f8dffa5547f",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2020/9-11/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_2021/vv_2021_otvety_variant_1.pdf",
+            "bytes": 71085,
+            "sha256": "0eafec9b6cfc7d81a29c94e5e030078096e23b43de246450bce964f909990a68",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_2021/BB_2021_audio_9-11_s.mp3",
+            "bytes": 2318388,
+            "sha256": "ceaeca82585cc5461c8984ffb98c24d372cd3fcb78e857344357b26c4b05bf3f",
+            "durationSeconds": 288.7,
+            "status": "verified",
+            "localFile": "2020/9-11/listening.mp3"
+          }
+        }
+      ]
+    },
+    {
+      "season": "2019-2020",
+      "archivePage": "https://runodog.ru/index/2019_2020/0-122",
+      "packages": [
+        {
+          "grade": "3-4",
+          "variant": "2",
+          "region": "Казахстан, кроме Байконура",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1920/Buklet_BB_var2_fin_3-4.pdf",
+            "bytes": 1756879,
+            "sha256": "71f447db91bb1403798a9718d6d476d5e3ea9328cafa81846da2cfc2b9a0013f",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2019/3-4/variant-2/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1920/BB_1920_answers_var_2.pdf",
+            "bytes": 70825,
+            "sha256": "89d0d435d12d279db72ca128079d48d2103178b6e0ae264b5fef3fe0da638003",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2019/answers-variant-2.pdf"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1920/vv_1920_3-4_var_2.mp3",
+            "bytes": 1850794,
+            "sha256": "5fe8a63091290df5ed341975364be57412c879f29423942777082b7d7176c0be",
+            "durationSeconds": 115.33,
+            "status": "verified",
+            "localFile": "2019/3-4/variant-2/listening.mp3"
+          }
+        },
+        {
+          "grade": "5-6",
+          "variant": "2",
+          "region": "Казахстан, кроме Байконура",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1920/Buklet_BB_var2_fin_5-6.pdf",
+            "bytes": 881086,
+            "sha256": "29b7de6bb1b2f54a494312ed400d74d0e8073c59e9f7caa6378a68f1d0e4ce4a",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2019/5-6/variant-2/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1920/BB_1920_answers_var_2.pdf",
+            "bytes": 70825,
+            "sha256": "89d0d435d12d279db72ca128079d48d2103178b6e0ae264b5fef3fe0da638003",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1920/vv_1920_5-6_var_2.mp3",
+            "bytes": 1981732,
+            "sha256": "fe29e36a656a67fb9a8023f3fb74e03e26334b789c294624f4452610fcb7e9ef",
+            "durationSeconds": 123.51,
+            "status": "verified",
+            "localFile": "2019/5-6/variant-2/listening.mp3"
+          }
+        },
+        {
+          "grade": "7-8",
+          "variant": "2",
+          "region": "Казахстан, кроме Байконура",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1920/Buklet_BB_var2_fin_7-8.pdf",
+            "bytes": 1299976,
+            "sha256": "2c8dbd212a93d78cd35b6dbb9902aa6eb4d109ebc3df128dd4088f5643c9681a",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2019/7-8/variant-2/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1920/BB_1920_answers_var_2.pdf",
+            "bytes": 70825,
+            "sha256": "89d0d435d12d279db72ca128079d48d2103178b6e0ae264b5fef3fe0da638003",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1920/vv_1920_7-8_var_2.mp3",
+            "bytes": 2603060,
+            "sha256": "5e351c24fb7464a5eb692009d69ea060868a2788cb7120193937ead05a3fea8e",
+            "durationSeconds": 162.34,
+            "status": "verified",
+            "localFile": "2019/7-8/variant-2/listening.mp3"
+          }
+        },
+        {
+          "grade": "9-11",
+          "variant": "2",
+          "region": "Казахстан, кроме Байконура",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1920/Buklet_BB_var2_fin_9-11.pdf",
+            "bytes": 761798,
+            "sha256": "5758c97a0c28ee42c925a5e0e0aa6310fb058a1bfffebf2ca0951d935c21054f",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2019/9-11/variant-2/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1920/BB_1920_answers_var_2.pdf",
+            "bytes": 70825,
+            "sha256": "89d0d435d12d279db72ca128079d48d2103178b6e0ae264b5fef3fe0da638003",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1920/vv_1920_9-11_var_2.mp3",
+            "bytes": 3300701,
+            "sha256": "8fa9b3813f2c952f4d128aabe6faa64b6f1c9034614e260af6385eb084c3bb73",
+            "durationSeconds": 205.95,
+            "status": "verified",
+            "localFile": "2019/9-11/variant-2/listening.mp3"
+          }
+        },
+        {
+          "grade": "3-4",
+          "variant": "1",
+          "region": "Другие регионы",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1920/vv_1920_zadanija_3-4.pdf",
+            "bytes": 1569534,
+            "sha256": "db024ba7a89079e95841353ec079139f4da99cafe431ca2ac5aff20b642fc7d8",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2019/3-4/variant-1/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1920/BB_1920_answers_var_1.pdf",
+            "bytes": 70855,
+            "sha256": "112b5844e43dd37db1645ba860ac728781903c793bbfb5d160146a5c8e00bd3e",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2019/answers-variant-1.pdf"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1920/vv_1920_audirovanie_3-4_s.mp3",
+            "bytes": 1336401,
+            "sha256": "e359f8787229e62b745ca34d9cda9ecc486bb82df6d895c67faf6a5adea4b248",
+            "durationSeconds": 166.14,
+            "status": "verified",
+            "localFile": "2019/3-4/variant-1/listening.mp3"
+          }
+        },
+        {
+          "grade": "5-6",
+          "variant": "1",
+          "region": "Другие регионы",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1920/vv_1920_zadanija_5-6.pdf",
+            "bytes": 1553445,
+            "sha256": "6221a8c754a6b1476334c02af6d77ed1acd74f3a1c16cb602d31c15ba1104dbd",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2019/5-6/variant-1/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1920/BB_1920_answers_var_1.pdf",
+            "bytes": 70855,
+            "sha256": "112b5844e43dd37db1645ba860ac728781903c793bbfb5d160146a5c8e00bd3e",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1920/vv_1920_audirovanie_5-6_s.mp3",
+            "bytes": 1574526,
+            "sha256": "99aee866e73435e4523b354a965c44bc5fdf90917fc78d398eb676e17d32fb69",
+            "durationSeconds": 195.86,
+            "status": "verified",
+            "localFile": "2019/5-6/variant-1/listening.mp3"
+          }
+        },
+        {
+          "grade": "7-8",
+          "variant": "1",
+          "region": "Другие регионы",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1920/vv_1920_zadanija_7-8.pdf",
+            "bytes": 1843631,
+            "sha256": "027b3ce691b02c0d59b8bf60fa30d507e7013877f095c5711dece9d723973fdb",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2019/7-8/variant-1/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1920/BB_1920_answers_var_1.pdf",
+            "bytes": 70855,
+            "sha256": "112b5844e43dd37db1645ba860ac728781903c793bbfb5d160146a5c8e00bd3e",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1920/vv_1920_audirovanie_7-8_s.mp3",
+            "bytes": 1502626,
+            "sha256": "aca821fe0bca4b34cb8f6a8e34ab90d05146bac055f95be6fcb80ee6cc65211a",
+            "durationSeconds": 186.84,
+            "status": "verified",
+            "localFile": "2019/7-8/variant-1/listening.mp3"
+          }
+        },
+        {
+          "grade": "9-11",
+          "variant": "1",
+          "region": "Другие регионы",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1920/vv_1920_zadanija_9-11.pdf",
+            "bytes": 1407126,
+            "sha256": "43b5f2d99ea5ec156ac150d9c9bb4cfb9d83ab243737bb8c742a127e8bcf1bbf",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2019/9-11/variant-1/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1920/BB_1920_answers_var_1.pdf",
+            "bytes": 70855,
+            "sha256": "112b5844e43dd37db1645ba860ac728781903c793bbfb5d160146a5c8e00bd3e",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1920/vv_1920_audirovanie_9-11_s.mp3",
+            "bytes": 1845472,
+            "sha256": "7159b9905efb4581ef21404c458211c10cf89081a61472f8612bce396c4f2d5b",
+            "durationSeconds": 229.68,
+            "status": "verified",
+            "localFile": "2019/9-11/variant-1/listening.mp3"
+          }
+        }
+      ]
+    },
+    {
+      "season": "2018-2019",
+      "archivePage": "https://runodog.ru/index/2018_2019/0-113",
+      "packages": [
+        {
+          "grade": "3-4",
+          "variant": "1",
+          "region": "Россия и Байконур",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1819/BB_1819_3-4_var_1.pdf",
+            "bytes": 724927,
+            "sha256": "ab920c3c62b1f9f20c2ca87825bf708a9ff244924580061f262fdcc9e6b52ba6",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2018/3-4/variant-1/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1819/BB_1819_answers_var_1.pdf",
+            "bytes": 405020,
+            "sha256": "1568dc837e8780864256aac9736b82d56a4a4e07b172b2ae3a01ec197bda33d5",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2018/answers-variant-1.pdf"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1819/BB_1819_3-4_fin_c.mp3",
+            "bytes": 1609156,
+            "sha256": "1094bb3344dc8d5e43d581531e9a474f39dec8ea6fcefec302a6c8a531f4f27c",
+            "durationSeconds": 217.23,
+            "status": "verified",
+            "localFile": "2018/3-4/listening.mp3"
+          }
+        },
+        {
+          "grade": "5-6",
+          "variant": "1",
+          "region": "Россия и Байконур",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1819/BB_1819_5-6_var_1.pdf",
+            "bytes": 859583,
+            "sha256": "04a352d8b39d7531ea8819c2088d287c17f095ca3b81c3e128adce219af43666",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2018/5-6/variant-1/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1819/BB_1819_answers_var_1.pdf",
+            "bytes": 405020,
+            "sha256": "1568dc837e8780864256aac9736b82d56a4a4e07b172b2ae3a01ec197bda33d5",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1819/BB_1819_5-6_fin_c.mp3",
+            "bytes": 1218122,
+            "sha256": "f6f8dba64948d282365dfc6295e0b5e4aba2278d5ef848849dfef08af0281d89",
+            "durationSeconds": 173.0,
+            "status": "verified",
+            "localFile": "2018/5-6/listening.mp3"
+          }
+        },
+        {
+          "grade": "7-8",
+          "variant": "1",
+          "region": "Россия и Байконур",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1819/BB_1819_7-8_var_1.pdf",
+            "bytes": 656600,
+            "sha256": "0eb873b1ba41b027d4355b5efa58c4d11275d3d4cecd5ff37e034a9f0fe8672a",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2018/7-8/variant-1/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1819/BB_1819_answers_var_1.pdf",
+            "bytes": 405020,
+            "sha256": "1568dc837e8780864256aac9736b82d56a4a4e07b172b2ae3a01ec197bda33d5",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1819/BB_1819_7-8-fin_c.mp3",
+            "bytes": 1321559,
+            "sha256": "5963f38db45f7c40569e9bba9802299518e5cded603b30cafb3fbadc369be1f0",
+            "durationSeconds": 187.88,
+            "status": "verified",
+            "localFile": "2018/7-8/listening.mp3"
+          }
+        },
+        {
+          "grade": "9-11",
+          "variant": "1",
+          "region": "Россия и Байконур",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1819/BB_1819_9-11_var_1.pdf",
+            "bytes": 806046,
+            "sha256": "905c66a2cfd37ef0bae8d804090d662e0ccf27aa042ec44e56f126d28b522452",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2018/9-11/variant-1/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1819/BB_1819_answers_var_1.pdf",
+            "bytes": 405020,
+            "sha256": "1568dc837e8780864256aac9736b82d56a4a4e07b172b2ae3a01ec197bda33d5",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1819/BB_1819_9-11_fin_c.mp3",
+            "bytes": 1736880,
+            "sha256": "cbd9f0966617d5c0107e5b69a3b698d0f6989f16b1a8f0962d878f07d003054d",
+            "durationSeconds": 247.18,
+            "status": "verified",
+            "localFile": "2018/9-11/listening.mp3"
+          }
+        },
+        {
+          "grade": "3-4",
+          "variant": "2",
+          "region": "Школы в других странах, кроме Байконура",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1819/BB_1819_3-4_var_2.pdf",
+            "bytes": 718092,
+            "sha256": "103e39ccc686ab05a431067faa421b110280c0bff3150be0ef0de66d2b2f9373",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2018/3-4/variant-2/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1819/BB_1819_answers_var_2.pdf",
+            "bytes": 405010,
+            "sha256": "7b6e870064a0e0d301617ace6aa1a236ef06c007a6ebf7a0c21034598b1e1306",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2018/answers-variant-2.pdf"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1819/BB_1819_3-4_fin_c.mp3",
+            "bytes": 1609156,
+            "sha256": "1094bb3344dc8d5e43d581531e9a474f39dec8ea6fcefec302a6c8a531f4f27c",
+            "durationSeconds": 217.23,
+            "status": "verified"
+          }
+        },
+        {
+          "grade": "5-6",
+          "variant": "2",
+          "region": "Школы в других странах, кроме Байконура",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1819/BB_1819_5-6_var_2.pdf",
+            "bytes": 860024,
+            "sha256": "8b740c206e2b735f5e92388c72e3bbb16d98ee46d3d133b971ace29911230011",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2018/5-6/variant-2/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1819/BB_1819_answers_var_2.pdf",
+            "bytes": 405010,
+            "sha256": "7b6e870064a0e0d301617ace6aa1a236ef06c007a6ebf7a0c21034598b1e1306",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1819/BB_1819_5-6_fin_c.mp3",
+            "bytes": 1218122,
+            "sha256": "f6f8dba64948d282365dfc6295e0b5e4aba2278d5ef848849dfef08af0281d89",
+            "durationSeconds": 173.0,
+            "status": "verified"
+          }
+        },
+        {
+          "grade": "7-8",
+          "variant": "2",
+          "region": "Школы в других странах, кроме Байконура",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1819/BB_1819_7-8_var_2.pdf",
+            "bytes": 656916,
+            "sha256": "9c1668ed52faca1a14fae429c6ffcce532099f60e5ccbd9393f52955cf75da6d",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2018/7-8/variant-2/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1819/BB_1819_answers_var_2.pdf",
+            "bytes": 405010,
+            "sha256": "7b6e870064a0e0d301617ace6aa1a236ef06c007a6ebf7a0c21034598b1e1306",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1819/BB_1819_7-8-fin_c.mp3",
+            "bytes": 1321559,
+            "sha256": "5963f38db45f7c40569e9bba9802299518e5cded603b30cafb3fbadc369be1f0",
+            "durationSeconds": 187.88,
+            "status": "verified"
+          }
+        },
+        {
+          "grade": "9-11",
+          "variant": "2",
+          "region": "Школы в других странах, кроме Байконура",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1819/BB_1819_9-11_var_2.pdf",
+            "bytes": 806534,
+            "sha256": "e37c94e37527b903140f23213a1f1c3648ed6453edbff2d58cd84d8085b3c598",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2018/9-11/variant-2/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1819/BB_1819_answers_var_2.pdf",
+            "bytes": 405010,
+            "sha256": "7b6e870064a0e0d301617ace6aa1a236ef06c007a6ebf7a0c21034598b1e1306",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1819/BB_1819_9-11_fin_c.mp3",
+            "bytes": 1736880,
+            "sha256": "cbd9f0966617d5c0107e5b69a3b698d0f6989f16b1a8f0962d878f07d003054d",
+            "durationSeconds": 247.18,
+            "status": "verified"
+          }
+        }
+      ],
+      "variantsNote": "Организатор описывает одинаковый порядок вопросов с разным порядком вариантов ответа."
+    },
+    {
+      "season": "2017-2018",
+      "archivePage": "https://runodog.ru/index/2017_2018/0-96",
+      "packages": [
+        {
+          "grade": "3-4",
+          "variant": "2",
+          "region": "Сибирь, Дальний Восток и школы вне России с указанными организатором исключениями",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1718/BB_1718_3-4_var_2.pdf",
+            "bytes": 1667636,
+            "sha256": "ee1d4f28f02eabf2215e3b930d6fee900029c914aa7b724f113242ddf0387cf1",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2017/3-4/variant-2/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1718/BB_1718_answers_var_2.pdf",
+            "bytes": 209015,
+            "sha256": "e4dff07f67cd23fd243aa621ce64570d5c7abaa893afc2696f33e06dc0c9295f",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2017/answers-variant-2.pdf"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1718/Level_I_Forms_3-4_BB_1718_audio.mp3",
+            "bytes": 1440780,
+            "sha256": "1643c7b32b14ba33b4f4731ca2f716bb8462af0ca1be84c23567a050a22ea76f",
+            "durationSeconds": 180.09,
+            "status": "verified",
+            "localFile": "2017/3-4/listening.mp3"
+          }
+        },
+        {
+          "grade": "5-6",
+          "variant": "2",
+          "region": "Сибирь, Дальний Восток и школы вне России с указанными организатором исключениями",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1718/BB_1718_5-6_var_2.pdf",
+            "bytes": 1057762,
+            "sha256": "5825f90989e7e041c0770157426336915abeb8c7b4f6ecbeed20395915741d30",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2017/5-6/variant-2/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1718/BB_1718_answers_var_2.pdf",
+            "bytes": 209015,
+            "sha256": "e4dff07f67cd23fd243aa621ce64570d5c7abaa893afc2696f33e06dc0c9295f",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1718/Level_II_Forms_5-6_BB_1718_audio.mp3",
+            "bytes": 1292613,
+            "sha256": "7ca4540daf733e05124efd1baa478a39912e3267ac4e1fadce809c97e938769a",
+            "durationSeconds": 161.57,
+            "status": "verified",
+            "localFile": "2017/5-6/listening.mp3"
+          }
+        },
+        {
+          "grade": "7-8",
+          "variant": "2",
+          "region": "Сибирь, Дальний Восток и школы вне России с указанными организатором исключениями",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1718/BB_1718_7-8_var_2.pdf",
+            "bytes": 574880,
+            "sha256": "254f15909b6b51ffb195c6c90a7f259952296c4a822bb1d4412599c48ee18246",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2017/7-8/variant-2/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1718/BB_1718_answers_var_2.pdf",
+            "bytes": 209015,
+            "sha256": "e4dff07f67cd23fd243aa621ce64570d5c7abaa893afc2696f33e06dc0c9295f",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1718/Level_III_Forms_7-8_BB_1718_audio.mp3",
+            "bytes": 2264159,
+            "sha256": "ee7f1e7c7975b1dfa137f24512d6c8733fd1d28728e89aa9ea6bfabe67de760a",
+            "durationSeconds": 283.01,
+            "status": "verified",
+            "localFile": "2017/7-8/listening.mp3"
+          }
+        },
+        {
+          "grade": "9-11",
+          "variant": "2",
+          "region": "Сибирь, Дальний Восток и школы вне России с указанными организатором исключениями",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1718/BB_1718_9-11_var_2.pdf",
+            "bytes": 532336,
+            "sha256": "2da3004fc3335d5c01a329d16134042af2fa178855b1fbb70461c2e53d2d9346",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2017/9-11/variant-2/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1718/BB_1718_answers_var_2.pdf",
+            "bytes": 209015,
+            "sha256": "e4dff07f67cd23fd243aa621ce64570d5c7abaa893afc2696f33e06dc0c9295f",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1718/Level_IV_Forms_9-11_BB_1718_audio.mp3",
+            "bytes": 1989978,
+            "sha256": "c26a2c4d851f9de22afd4e7f4a628d8f087b8880342b9ee21ea7a361892a81b9",
+            "durationSeconds": 248.74,
+            "status": "verified",
+            "localFile": "2017/9-11/listening.mp3"
+          }
+        },
+        {
+          "grade": "3-4",
+          "variant": "1",
+          "region": "Другие регионы",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1718/BB_1718_3-4_var_1.pdf",
+            "bytes": 939514,
+            "sha256": "dc0cbe1c75dfafed84905c203bb1b9d34383f8166e29efc4bc3561b77f249c16",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2017/3-4/variant-1/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1718/BB_1718_answers_var_1.pdf",
+            "bytes": 209004,
+            "sha256": "aaee8e7dd67210d6bd6444ec0d6a14cb49e8a29f08d7b724624dd9a401002b2b",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2017/answers-variant-1.pdf"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1718/Level_I_Forms_3-4_BB_1718_audio.mp3",
+            "bytes": 1440780,
+            "sha256": "1643c7b32b14ba33b4f4731ca2f716bb8462af0ca1be84c23567a050a22ea76f",
+            "durationSeconds": 180.09,
+            "status": "verified"
+          }
+        },
+        {
+          "grade": "5-6",
+          "variant": "1",
+          "region": "Другие регионы",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1718/BB_1718_5-6_var_1.pdf",
+            "bytes": 973283,
+            "sha256": "3163c36eed9279ca371249c783dd0dd811819dab3ee3bf3b1268a134f23ac20b",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2017/5-6/variant-1/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1718/BB_1718_answers_var_1.pdf",
+            "bytes": 209004,
+            "sha256": "aaee8e7dd67210d6bd6444ec0d6a14cb49e8a29f08d7b724624dd9a401002b2b",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1718/Level_II_Forms_5-6_BB_1718_audio.mp3",
+            "bytes": 1292613,
+            "sha256": "7ca4540daf733e05124efd1baa478a39912e3267ac4e1fadce809c97e938769a",
+            "durationSeconds": 161.57,
+            "status": "verified"
+          }
+        },
+        {
+          "grade": "7-8",
+          "variant": "1",
+          "region": "Другие регионы",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1718/BB_1718_7-8_var_1.pdf",
+            "bytes": 453045,
+            "sha256": "d8f1ce3daf22117d04cf8862ede26857641df9bf8f9e9ac3bdee7848bab865f9",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2017/7-8/variant-1/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1718/BB_1718_answers_var_1.pdf",
+            "bytes": 209004,
+            "sha256": "aaee8e7dd67210d6bd6444ec0d6a14cb49e8a29f08d7b724624dd9a401002b2b",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1718/Level_III_Forms_7-8_BB_1718_audio.mp3",
+            "bytes": 2264159,
+            "sha256": "ee7f1e7c7975b1dfa137f24512d6c8733fd1d28728e89aa9ea6bfabe67de760a",
+            "durationSeconds": 283.01,
+            "status": "verified"
+          }
+        },
+        {
+          "grade": "9-11",
+          "variant": "1",
+          "region": "Другие регионы",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1718/BB_1718_9-11_var_1.pdf",
+            "bytes": 493792,
+            "sha256": "e80fab4b39137c5b5d87ed8c5a3d5913f2d39000ac114746612a278ed40668d8",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2017/9-11/variant-1/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1718/BB_1718_answers_var_1.pdf",
+            "bytes": 209004,
+            "sha256": "aaee8e7dd67210d6bd6444ec0d6a14cb49e8a29f08d7b724624dd9a401002b2b",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1718/Level_IV_Forms_9-11_BB_1718_audio.mp3",
+            "bytes": 1989978,
+            "sha256": "c26a2c4d851f9de22afd4e7f4a628d8f087b8880342b9ee21ea7a361892a81b9",
+            "durationSeconds": 248.74,
+            "status": "verified"
+          }
+        }
+      ],
+      "variantsNote": "Организатор описывает одинаковый порядок вопросов с разным порядком вариантов ответа."
+    },
+    {
+      "season": "2016-2017",
+      "archivePage": "https://runodog.ru/index/2016_2017/0-92",
+      "packages": [
+        {
+          "grade": "3-4",
+          "variant": "2",
+          "region": "Сибирь, Дальний Восток и школы вне России с указанными организатором исключениями",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1617/BB_1617_Level_I_3-4_var_2.pdf",
+            "bytes": 723283,
+            "sha256": "fe148f9218c192270329f8157797b5705beca21a6eff20f5ad91d2f4d6ace412",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2016/3-4/variant-2/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1617/BB_1617_answers_var_2.pdf",
+            "bytes": 301990,
+            "sha256": "57cb6cd2afae0ba8e89db48079865aafece4621fafe46695ced21a376929cde2",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2016/answers-variant-2.pdf"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1617/Level_I_Forms_3-4_BB_1617_audio.mp3",
+            "bytes": 2547450,
+            "sha256": "80b34fab547889851ee058b49035221e85c70e14062670cd6a1251143b0cc9bd",
+            "durationSeconds": 158.85,
+            "status": "verified",
+            "localFile": "2016/3-4/listening.mp3"
+          }
+        },
+        {
+          "grade": "5-6",
+          "variant": "2",
+          "region": "Сибирь, Дальний Восток и школы вне России с указанными организатором исключениями",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1617/BB_1617_Level_II_5-6_var_2.pdf",
+            "bytes": 505968,
+            "sha256": "46c2cb986e37295ef5d85e1a3836a9a866d94b4d7e4779032116479b0efd1172",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2016/5-6/variant-2/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1617/BB_1617_answers_var_2.pdf",
+            "bytes": 301990,
+            "sha256": "57cb6cd2afae0ba8e89db48079865aafece4621fafe46695ced21a376929cde2",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1617/Level_II_Forms_5-6_BB_1617_audio.mp3",
+            "bytes": 2575709,
+            "sha256": "eadb702dbf9f71ba12abff3ebd2416999bf86c593b3a66e8c3d1f23cbba07455",
+            "durationSeconds": 160.57,
+            "status": "verified",
+            "localFile": "2016/5-6/listening.mp3"
+          }
+        },
+        {
+          "grade": "7-8",
+          "variant": "2",
+          "region": "Сибирь, Дальний Восток и школы вне России с указанными организатором исключениями",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1617/BB_1617_Level_III_7-8_var_2.pdf",
+            "bytes": 1119718,
+            "sha256": "8efefdd8e0b0a550e2f13a3d5a4fca842aabbf61e7fc1316e23ea43cd316b2c7",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2016/7-8/variant-2/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1617/BB_1617_answers_var_2.pdf",
+            "bytes": 301990,
+            "sha256": "57cb6cd2afae0ba8e89db48079865aafece4621fafe46695ced21a376929cde2",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1617/Level_III_Forms_7-8_BB_1617_audio.mp3",
+            "bytes": 3817632,
+            "sha256": "d5a78d80cea7d09ca8da46ce817b54cd54eb4ffb00fade73b10c094fa59d3834",
+            "durationSeconds": 238.24,
+            "status": "verified",
+            "localFile": "2016/7-8/listening.mp3"
+          }
+        },
+        {
+          "grade": "9-11",
+          "variant": "2",
+          "region": "Сибирь, Дальний Восток и школы вне России с указанными организатором исключениями",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1617/BB_1617_Level_IV_9-11_var_2.pdf",
+            "bytes": 232266,
+            "sha256": "da0dc9a3b42e4482401eeeeb20a7f29a1545564414e5311fc42f6b5556fe368c",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2016/9-11/variant-2/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1617/BB_1617_answers_var_2.pdf",
+            "bytes": 301990,
+            "sha256": "57cb6cd2afae0ba8e89db48079865aafece4621fafe46695ced21a376929cde2",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1617/Level_IV_Forms_9-11_BB_1617_audio.mp3",
+            "bytes": 2869072,
+            "sha256": "e53a2234f04ed2d2d5e360f9273755be90e9d993748a3844248d3fdff80b9c62",
+            "durationSeconds": 358.12,
+            "status": "verified",
+            "localFile": "2016/9-11/listening.mp3"
+          }
+        },
+        {
+          "grade": "3-4",
+          "variant": "1",
+          "region": "Другие регионы",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1617/BB_1617_Level_I_3-4_var_1.pdf",
+            "bytes": 265473,
+            "sha256": "1ac39bcb5531873381ccb899745219347a8444cc242a8af5be47acaad17a05c5",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2016/3-4/variant-1/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1617/BB_1617_answers_var_1.pdf",
+            "bytes": 423410,
+            "sha256": "1cb90659d6476a47a071398af9b50a7cd2c1bb9b30d8b3c2baa09d7ecc1826f8",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2016/answers-variant-1.pdf"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1617/Level_I_Forms_3-4_BB_1617_audio.mp3",
+            "bytes": 2547450,
+            "sha256": "80b34fab547889851ee058b49035221e85c70e14062670cd6a1251143b0cc9bd",
+            "durationSeconds": 158.85,
+            "status": "verified"
+          }
+        },
+        {
+          "grade": "5-6",
+          "variant": "1",
+          "region": "Другие регионы",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1617/BB_1617_Level_II_5-6_var_1.pdf",
+            "bytes": 504929,
+            "sha256": "5c03f355b01e348e0d731524b0b3c325fcd78adde3d205bede5d49a1eee31e18",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2016/5-6/variant-1/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1617/BB_1617_answers_var_1.pdf",
+            "bytes": 423410,
+            "sha256": "1cb90659d6476a47a071398af9b50a7cd2c1bb9b30d8b3c2baa09d7ecc1826f8",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1617/Level_II_Forms_5-6_BB_1617_audio.mp3",
+            "bytes": 2575709,
+            "sha256": "eadb702dbf9f71ba12abff3ebd2416999bf86c593b3a66e8c3d1f23cbba07455",
+            "durationSeconds": 160.57,
+            "status": "verified"
+          }
+        },
+        {
+          "grade": "7-8",
+          "variant": "1",
+          "region": "Другие регионы",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1617/BB_1617_Level_III_7-8_var_1.pdf",
+            "bytes": 1114792,
+            "sha256": "37b7349b3646efdd330a12493ce047a4bb910bc730b37fdda6ead13da459f852",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2016/7-8/variant-1/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1617/BB_1617_answers_var_1.pdf",
+            "bytes": 423410,
+            "sha256": "1cb90659d6476a47a071398af9b50a7cd2c1bb9b30d8b3c2baa09d7ecc1826f8",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1617/Level_III_Forms_7-8_BB_1617_audio.mp3",
+            "bytes": 3817632,
+            "sha256": "d5a78d80cea7d09ca8da46ce817b54cd54eb4ffb00fade73b10c094fa59d3834",
+            "durationSeconds": 238.24,
+            "status": "verified"
+          }
+        },
+        {
+          "grade": "9-11",
+          "variant": "1",
+          "region": "Другие регионы",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1617/BB_1617_Level_IV_9-11_var_1.pdf",
+            "bytes": 229212,
+            "sha256": "08dc55099324a6bb1690ad2811ba48e745964ed0ae2b94fbb7ab47816dad5112",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2016/9-11/variant-1/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1617/BB_1617_answers_var_1.pdf",
+            "bytes": 423410,
+            "sha256": "1cb90659d6476a47a071398af9b50a7cd2c1bb9b30d8b3c2baa09d7ecc1826f8",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1617/Level_IV_Forms_9-11_BB_1617_audio.mp3",
+            "bytes": 2869072,
+            "sha256": "e53a2234f04ed2d2d5e360f9273755be90e9d993748a3844248d3fdff80b9c62",
+            "durationSeconds": 358.12,
+            "status": "verified"
+          }
+        }
+      ],
+      "variantsNote": "Организатор описывает одинаковый порядок вопросов с разным порядком вариантов ответа."
+    },
+    {
+      "season": "2015-2016",
+      "archivePage": "https://runodog.ru/index/2015_2016/0-88",
+      "packages": [
+        {
+          "grade": "3-4",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1516/BB_1516_3-4.pdf",
+            "bytes": 2092941,
+            "sha256": "550081ceb7824161457b43a253aa1af353c32e9820583760ca7ecfe55727d100",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2015/3-4/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1516/BB_1516_answers.pdf",
+            "bytes": 321789,
+            "sha256": "60d7ac997ed3a23397fb4ac37dbfe52444c77a7b0b3ed7d2359f60d5ca8bcb30",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2015/answers.pdf"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1516/BB_1516_3-4_audio.mp3",
+            "bytes": 679343,
+            "sha256": "ee81324abdb49fd0f9a9792d60bf79a106298071870c149bfbbdf0c5cf8e4e57",
+            "durationSeconds": 42.17,
+            "status": "verified",
+            "localFile": "2015/3-4/listening.mp3"
+          }
+        },
+        {
+          "grade": "5-6",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1516/BB_1516_5-6.pdf",
+            "bytes": 628401,
+            "sha256": "fd27c252eaefc96424ffcbc37e19cd54d725aebccfb8e06be67f38e2fa347fe5",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2015/5-6/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1516/BB_1516_answers.pdf",
+            "bytes": 321789,
+            "sha256": "60d7ac997ed3a23397fb4ac37dbfe52444c77a7b0b3ed7d2359f60d5ca8bcb30",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1516/BB_1516_5-6_audio.mp3",
+            "bytes": 1281208,
+            "sha256": "6c104b92cc2484cce19bf4e60f8523d44c607e1e6534778660a642c02ee5d123",
+            "durationSeconds": 79.8,
+            "status": "verified",
+            "localFile": "2015/5-6/listening.mp3"
+          }
+        },
+        {
+          "grade": "7-8",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1516/BB_1516_7-8.pdf",
+            "bytes": 862918,
+            "sha256": "18c408a7b83e648fcc3cbe53d786f83de394dbc3abfec5b0aca841d935af264c",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2015/7-8/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1516/BB_1516_answers.pdf",
+            "bytes": 321789,
+            "sha256": "60d7ac997ed3a23397fb4ac37dbfe52444c77a7b0b3ed7d2359f60d5ca8bcb30",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1516/BB_1516_7-8_audio.mp3",
+            "bytes": 1540852,
+            "sha256": "97727bc9dde890abb0343214f95e6e63130bfa26fc43ff3f6e3f5e372069d35a",
+            "durationSeconds": 95.99,
+            "status": "verified",
+            "localFile": "2015/7-8/listening.mp3"
+          }
+        },
+        {
+          "grade": "9-11",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1516/BB_1516_9-11.pdf",
+            "bytes": 282688,
+            "sha256": "9292a4f876bc8756cbef90140947adaf04d81b7b47a6742f076945090ad254c3",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2015/9-11/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1516/BB_1516_answers.pdf",
+            "bytes": 321789,
+            "sha256": "60d7ac997ed3a23397fb4ac37dbfe52444c77a7b0b3ed7d2359f60d5ca8bcb30",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1516/BB_1516_9-11_audio.mp3",
+            "bytes": 1674404,
+            "sha256": "7a0c0377d7bae78f50ba61a9b5d2c5bef5be5ffff63c347b11884d69a2c1589a",
+            "durationSeconds": 104.3,
+            "status": "verified",
+            "localFile": "2015/9-11/listening.mp3"
+          }
+        }
+      ]
+    },
+    {
+      "season": "2014-2015",
+      "archivePage": "https://runodog.ru/index/2014_2015/0-82",
+      "packages": [
+        {
+          "grade": "3-4",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1415/Buklet_BB_1415_3-4.pdf",
+            "bytes": 998311,
+            "sha256": "24a8c5bdcbc1de34cdf89095e2dc072050af281b2decb33e953185046356d6af",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2014/3-4/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1415/BB-1415_answers.pdf",
+            "bytes": 374366,
+            "sha256": "a89853970d952f67fc8b504137e30a522d5a3c29ae32f072df0d70746f5efe25",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2014/answers.pdf"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1415/BB_1415_aud_3-4.mp3",
+            "bytes": 834188,
+            "sha256": "083c9d2541a7a9f8f6ea85ee51777b066f4623b4ae7a75a89b35ab0d64e11513",
+            "durationSeconds": 103.51,
+            "status": "verified",
+            "localFile": "2014/3-4/listening.mp3"
+          }
+        },
+        {
+          "grade": "5-6",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1415/Buklet_BB_1415_5-6.pdf",
+            "bytes": 984818,
+            "sha256": "91dfc8a1b19b2ed5d57149355aedc58355f7b4344a4b83e18a5663d9f55deddd",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2014/5-6/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1415/BB-1415_answers.pdf",
+            "bytes": 374366,
+            "sha256": "a89853970d952f67fc8b504137e30a522d5a3c29ae32f072df0d70746f5efe25",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1415/BB_1415_aud_5-6.mp3",
+            "bytes": 1218979,
+            "sha256": "253179ca44381a0838e799116e1170e8e7b8bd1ec3c396f2814e041c4c6a8d37",
+            "durationSeconds": 151.54,
+            "status": "verified",
+            "localFile": "2014/5-6/listening.mp3"
+          }
+        },
+        {
+          "grade": "7-8",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1415/Buklet_BB_1415_7-8.pdf",
+            "bytes": 923764,
+            "sha256": "051eae65f98b21409a2b9f92011015c3aa9e69d2ad4376e649fb6420fe7f95a1",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2014/7-8/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1415/BB-1415_answers.pdf",
+            "bytes": 374366,
+            "sha256": "a89853970d952f67fc8b504137e30a522d5a3c29ae32f072df0d70746f5efe25",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1415/BB_1415_aud_7-8.mp3",
+            "bytes": 1169653,
+            "sha256": "a0ab7ef7476416e5c119613b5d8b39470dcd2d7b8dcf0da0994d644aeb92c089",
+            "durationSeconds": 145.51,
+            "status": "verified",
+            "localFile": "2014/7-8/listening.mp3"
+          }
+        },
+        {
+          "grade": "9-11",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1415/Buklet_BB_1415_9-11.pdf",
+            "bytes": 932924,
+            "sha256": "13808006349d0bec35dac358fade3646ae40f2936c66f875fa2d4f1667ee1e66",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2014/9-11/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1415/BB-1415_answers.pdf",
+            "bytes": 374366,
+            "sha256": "a89853970d952f67fc8b504137e30a522d5a3c29ae32f072df0d70746f5efe25",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1415/BB_1415_aud_9-11.mp3",
+            "bytes": 1101738,
+            "sha256": "076857792a098fe1368c6f554cff07cd0758917ff031857c11cb78d58b33e7b7",
+            "durationSeconds": 137.09,
+            "status": "verified",
+            "localFile": "2014/9-11/listening.mp3"
+          }
+        }
+      ]
+    },
+    {
+      "season": "2013-2014",
+      "archivePage": "https://runodog.ru/index/2013_2014/0-78",
+      "packages": [
+        {
+          "grade": "3-4",
+          "variant": "540",
+          "region": "Сибирь и Дальний Восток с указанными организатором исключениями",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1314/Buklet_BB_1314_540_3-4.pdf",
+            "bytes": 1366230,
+            "sha256": "29c99222932582f909b693631bc1b8b23d2a5db7bd5d889ea42ea7e92edd7e89",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2013/3-4/variant-540/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1314/BB_1314_answers_540.pdf",
+            "bytes": 218642,
+            "sha256": "de29504710ceacaffdb7dabcaf029201e8991543b5068a16523b9d5b1737839a",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2013/answers-variant-540.pdf"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1314/BB_1314_3-4.mp3",
+            "bytes": 1263606,
+            "sha256": "eb616ec3dbeecd2352f5a623b5a3e34de8618cc176bc54f6ea5bfb888a7515db",
+            "durationSeconds": 157.6,
+            "status": "verified",
+            "localFile": "2013/3-4/listening.mp3"
+          }
+        },
+        {
+          "grade": "5-6",
+          "variant": "540",
+          "region": "Сибирь и Дальний Восток с указанными организатором исключениями",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1314/Buklet_BB_1314_540_5-6.pdf",
+            "bytes": 570022,
+            "sha256": "95786e0696dab38cc00f04a5bcb960c3a4b4feb685872af26164d1719543345b",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2013/5-6/variant-540/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1314/BB_1314_answers_540.pdf",
+            "bytes": 218642,
+            "sha256": "de29504710ceacaffdb7dabcaf029201e8991543b5068a16523b9d5b1737839a",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1314/BB_1314_5-6.mp3",
+            "bytes": 1004979,
+            "sha256": "8883970a68aa4f88fa38ebb61a50cb7c08e011cf3e17fca1a8936601ede38b60",
+            "durationSeconds": 125.27,
+            "status": "verified",
+            "localFile": "2013/5-6/listening.mp3"
+          }
+        },
+        {
+          "grade": "7-8",
+          "variant": "540",
+          "region": "Сибирь и Дальний Восток с указанными организатором исключениями",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1314/Buklet_BB_1314_540_7-8.pdf",
+            "bytes": 629399,
+            "sha256": "c3bf03fe163e1f41300af37d21fdab74d7376635e35165c87389879f9b1e4d6a",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2013/7-8/variant-540/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1314/BB_1314_answers_540.pdf",
+            "bytes": 218642,
+            "sha256": "de29504710ceacaffdb7dabcaf029201e8991543b5068a16523b9d5b1737839a",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1314/BB_1314_7-8.mp3",
+            "bytes": 1647027,
+            "sha256": "3afbfdd084be6d18d99892d2b8923e00144e785fa7f637751693c764ce373a92",
+            "durationSeconds": 205.53,
+            "status": "verified",
+            "localFile": "2013/7-8/listening.mp3"
+          }
+        },
+        {
+          "grade": "9-11",
+          "variant": "540",
+          "region": "Сибирь и Дальний Восток с указанными организатором исключениями",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1314/Buklet_BB_1314_540_9-11.pdf",
+            "bytes": 678208,
+            "sha256": "f9782fcdd889bc6c385b203b1559ee15d0bfea02861862626efa33dcc9a50b22",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2013/9-11/variant-540/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1314/BB_1314_answers_540.pdf",
+            "bytes": 218642,
+            "sha256": "de29504710ceacaffdb7dabcaf029201e8991543b5068a16523b9d5b1737839a",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1314/BB_1314_9-11.mp3",
+            "bytes": 1758386,
+            "sha256": "3cd4af15b14c07c9da2d6eb955576269f867e21b043fe8883b32fbb2b1324d3c",
+            "durationSeconds": 219.45,
+            "status": "verified",
+            "localFile": "2013/9-11/listening.mp3"
+          }
+        },
+        {
+          "grade": "3-4",
+          "variant": "980",
+          "region": "Школы вне России с указанными организатором исключениями",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1314/Buklet_BB_1314_980_3-4.pdf",
+            "bytes": 1363148,
+            "sha256": "a277e4d8c2f93fd034754910c4fc7b4bdac22536eb27b0558dd495b9ebec7c17",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2013/3-4/variant-980/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1314/BB_1314_answers_980.pdf",
+            "bytes": 218934,
+            "sha256": "60dc6d1c31cc432196c58e4125faeab3714914cbfc35f0d19d02d02344e428a4",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2013/answers-variant-980.pdf"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1314/BB_1314_3-4.mp3",
+            "bytes": 1263606,
+            "sha256": "eb616ec3dbeecd2352f5a623b5a3e34de8618cc176bc54f6ea5bfb888a7515db",
+            "durationSeconds": 157.6,
+            "status": "verified"
+          }
+        },
+        {
+          "grade": "5-6",
+          "variant": "980",
+          "region": "Школы вне России с указанными организатором исключениями",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1314/Buklet_BB_1314_980_5-6.pdf",
+            "bytes": 568334,
+            "sha256": "42e5ff888270800e68ab463f850f3cd4329cb22d44a75999706534ee4f2ee961",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2013/5-6/variant-980/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1314/BB_1314_answers_980.pdf",
+            "bytes": 218934,
+            "sha256": "60dc6d1c31cc432196c58e4125faeab3714914cbfc35f0d19d02d02344e428a4",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1314/BB_1314_5-6.mp3",
+            "bytes": 1004979,
+            "sha256": "8883970a68aa4f88fa38ebb61a50cb7c08e011cf3e17fca1a8936601ede38b60",
+            "durationSeconds": 125.27,
+            "status": "verified"
+          }
+        },
+        {
+          "grade": "7-8",
+          "variant": "980",
+          "region": "Школы вне России с указанными организатором исключениями",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1314/Buklet_BB_1314_980_7-8.pdf",
+            "bytes": 626229,
+            "sha256": "2d8f6612446491906b682e28c3b54c32117db4eaa41ff23824a93ae98403b411",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2013/7-8/variant-980/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1314/BB_1314_answers_980.pdf",
+            "bytes": 218934,
+            "sha256": "60dc6d1c31cc432196c58e4125faeab3714914cbfc35f0d19d02d02344e428a4",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1314/BB_1314_7-8.mp3",
+            "bytes": 1647027,
+            "sha256": "3afbfdd084be6d18d99892d2b8923e00144e785fa7f637751693c764ce373a92",
+            "durationSeconds": 205.53,
+            "status": "verified"
+          }
+        },
+        {
+          "grade": "9-11",
+          "variant": "980",
+          "region": "Школы вне России с указанными организатором исключениями",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1314/Buklet_BB_1314_980_9-11.pdf",
+            "bytes": 676444,
+            "sha256": "b32232939655e3ad52c6f2e71e1189e067d2a70a80e8c10319ed3a7eaf031c26",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2013/9-11/variant-980/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1314/BB_1314_answers_980.pdf",
+            "bytes": 218934,
+            "sha256": "60dc6d1c31cc432196c58e4125faeab3714914cbfc35f0d19d02d02344e428a4",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1314/BB_1314_9-11.mp3",
+            "bytes": 1758386,
+            "sha256": "3cd4af15b14c07c9da2d6eb955576269f867e21b043fe8883b32fbb2b1324d3c",
+            "durationSeconds": 219.45,
+            "status": "verified"
+          }
+        },
+        {
+          "grade": "3-4",
+          "variant": "780",
+          "region": "Другие регионы",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1314/Buklet_BB_1314_780_3-4.pdf",
+            "bytes": 1362234,
+            "sha256": "24d2dc3677523d5ea5a34e22884c63702cb0e798d14c3e0702c006498e00f3d1",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2013/3-4/variant-780/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1314/BB_1314_answers_780.pdf",
+            "bytes": 213684,
+            "sha256": "a9e5abfb45074f76fc8f0b06d9e1285c06dcbbbf39b725258c8d8a8e1e75a3ac",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2013/answers-variant-780.pdf"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1314/BB_1314_3-4.mp3",
+            "bytes": 1263606,
+            "sha256": "eb616ec3dbeecd2352f5a623b5a3e34de8618cc176bc54f6ea5bfb888a7515db",
+            "durationSeconds": 157.6,
+            "status": "verified"
+          }
+        },
+        {
+          "grade": "5-6",
+          "variant": "780",
+          "region": "Другие регионы",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1314/Buklet_BB_1314_780_5-6.pdf",
+            "bytes": 567430,
+            "sha256": "aedce5b9ce8da94564eb4210ddf4f5d6bb5c6f6c935d1c5a5366fb8c505deb58",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2013/5-6/variant-780/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1314/BB_1314_answers_780.pdf",
+            "bytes": 213684,
+            "sha256": "a9e5abfb45074f76fc8f0b06d9e1285c06dcbbbf39b725258c8d8a8e1e75a3ac",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1314/BB_1314_5-6.mp3",
+            "bytes": 1004979,
+            "sha256": "8883970a68aa4f88fa38ebb61a50cb7c08e011cf3e17fca1a8936601ede38b60",
+            "durationSeconds": 125.27,
+            "status": "verified"
+          }
+        },
+        {
+          "grade": "7-8",
+          "variant": "780",
+          "region": "Другие регионы",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1314/Buklet_BB_1314_780_7-8.pdf",
+            "bytes": 625333,
+            "sha256": "622944cc76301976ba0049bbba3a2739318d559c351d270e37a3677fc017b053",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2013/7-8/variant-780/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1314/BB_1314_answers_780.pdf",
+            "bytes": 213684,
+            "sha256": "a9e5abfb45074f76fc8f0b06d9e1285c06dcbbbf39b725258c8d8a8e1e75a3ac",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1314/BB_1314_7-8.mp3",
+            "bytes": 1647027,
+            "sha256": "3afbfdd084be6d18d99892d2b8923e00144e785fa7f637751693c764ce373a92",
+            "durationSeconds": 205.53,
+            "status": "verified"
+          }
+        },
+        {
+          "grade": "9-11",
+          "variant": "780",
+          "region": "Другие регионы",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1314/Buklet_BB_1314_780_9-11.pdf",
+            "bytes": 674155,
+            "sha256": "171838818592f59be89ee84d674a25ded2300a9cc95be6318e1b473c1b2f27df",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2013/9-11/variant-780/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1314/BB_1314_answers_780.pdf",
+            "bytes": 213684,
+            "sha256": "a9e5abfb45074f76fc8f0b06d9e1285c06dcbbbf39b725258c8d8a8e1e75a3ac",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1314/BB_1314_9-11.mp3",
+            "bytes": 1758386,
+            "sha256": "3cd4af15b14c07c9da2d6eb955576269f867e21b043fe8883b32fbb2b1324d3c",
+            "durationSeconds": 219.45,
+            "status": "verified"
+          }
+        }
+      ],
+      "variantsNote": "Организатор описывает одинаковый состав вопросов с разным порядком."
+    },
+    {
+      "season": "2012-2013",
+      "archivePage": "https://runodog.ru/index/2012_2013/0-74",
+      "packages": [
+        {
+          "grade": "3-4",
+          "variant": "540",
+          "region": "Сибирь и Дальний Восток с указанными организатором исключениями",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1213/Buklet_BB_1213_540_3-4.pdf",
+            "bytes": 583775,
+            "sha256": "cc6a86e636929aab90fa8ee4b852ae8329b2e2f7b6bfefae6084b662331f5467",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2012/3-4/variant-540/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1213/BB_1213_answers_540.pdf",
+            "bytes": 162135,
+            "sha256": "2685b5dc2175df4448366bfa8119aae078db2f99bf21ee81cd13f595346938e0",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2012/answers-variant-540.pdf"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1213/BB_1213_3-4.mp3",
+            "bytes": 651258,
+            "sha256": "43dab0b774b3a40103875c17a9ca5135d1eceda06dd2ba36e2ce22fe63a75dfe",
+            "durationSeconds": 108.54,
+            "status": "verified",
+            "localFile": "2012/3-4/listening.mp3"
+          }
+        },
+        {
+          "grade": "5-6",
+          "variant": "540",
+          "region": "Сибирь и Дальний Восток с указанными организатором исключениями",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1213/Buklet_BB_1213_540_5-6.pdf",
+            "bytes": 425367,
+            "sha256": "fa0a0e6cb38d626c0ccb4a731925549e8f618e048a6337ff0cd09da69629e286",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2012/5-6/variant-540/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1213/BB_1213_answers_540.pdf",
+            "bytes": 162135,
+            "sha256": "2685b5dc2175df4448366bfa8119aae078db2f99bf21ee81cd13f595346938e0",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1213/BB_1213_5-6.mp3",
+            "bytes": 1161743,
+            "sha256": "d649814cf0b7a53fa50b7e6defdf3898131cc9cec926df9477565aad03be0b2c",
+            "durationSeconds": 193.62,
+            "status": "verified",
+            "localFile": "2012/5-6/listening.mp3"
+          }
+        },
+        {
+          "grade": "7-8",
+          "variant": "540",
+          "region": "Сибирь и Дальний Восток с указанными организатором исключениями",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1213/Buklet_BB_1213_540_7-8.pdf",
+            "bytes": 532253,
+            "sha256": "2fbeaea4148c179d58547c0c38a88a2a92446f96c4de24cfe051d388ea25825a",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2012/7-8/variant-540/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1213/BB_1213_answers_540.pdf",
+            "bytes": 162135,
+            "sha256": "2685b5dc2175df4448366bfa8119aae078db2f99bf21ee81cd13f595346938e0",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1213/BB_1213_7-8.mp3",
+            "bytes": 1747460,
+            "sha256": "d530a45210463c603116a27f97b0cb3ed67a06aa1bcbd91fd530be6bf187c17c",
+            "durationSeconds": 291.24,
+            "status": "verified",
+            "localFile": "2012/7-8/listening.mp3"
+          }
+        },
+        {
+          "grade": "9-11",
+          "variant": "540",
+          "region": "Сибирь и Дальний Восток с указанными организатором исключениями",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1213/Buklet_BB_1213_540_9-11.pdf",
+            "bytes": 524265,
+            "sha256": "fbb16c5f0748d7644090b665392e47bf3407cfc8d6b9baa2f1bd2478f55c368b",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2012/9-11/variant-540/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1213/BB_1213_answers_540.pdf",
+            "bytes": 162135,
+            "sha256": "2685b5dc2175df4448366bfa8119aae078db2f99bf21ee81cd13f595346938e0",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1213/BB_1213_9-11.mp3",
+            "bytes": 1741504,
+            "sha256": "67788d9158ba5e4ca8505ddce75a57548b5c1ea2516be5247dfba6a1e27a8374",
+            "durationSeconds": 290.25,
+            "status": "verified",
+            "localFile": "2012/9-11/listening.mp3"
+          }
+        },
+        {
+          "grade": "3-4",
+          "variant": "980",
+          "region": "Школы вне России с указанными организатором исключениями",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1213/Buklet_BB_1213_980_3-4.pdf",
+            "bytes": 583090,
+            "sha256": "1f23e326e968fe578ebc3d3f394d9a8688ba4df25f70e50a48c36acc96c65cb5",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2012/3-4/variant-980/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1213/BB_1213_answers_980.pdf",
+            "bytes": 162153,
+            "sha256": "0c32cf3d5dbb5015680670982b6dc7018505db3da1c834d10af2156e504234bb",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2012/answers-variant-980.pdf"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1213/BB_1213_3-4.mp3",
+            "bytes": 651258,
+            "sha256": "43dab0b774b3a40103875c17a9ca5135d1eceda06dd2ba36e2ce22fe63a75dfe",
+            "durationSeconds": 108.54,
+            "status": "verified"
+          }
+        },
+        {
+          "grade": "5-6",
+          "variant": "980",
+          "region": "Школы вне России с указанными организатором исключениями",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1213/Buklet_BB_1213_980_5-6.pdf",
+            "bytes": 425334,
+            "sha256": "7ea1288876de66c60191eeccd1d6608e751669d0593bc35691def7ef072e140d",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2012/5-6/variant-980/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1213/BB_1213_answers_980.pdf",
+            "bytes": 162153,
+            "sha256": "0c32cf3d5dbb5015680670982b6dc7018505db3da1c834d10af2156e504234bb",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1213/BB_1213_5-6.mp3",
+            "bytes": 1161743,
+            "sha256": "d649814cf0b7a53fa50b7e6defdf3898131cc9cec926df9477565aad03be0b2c",
+            "durationSeconds": 193.62,
+            "status": "verified"
+          }
+        },
+        {
+          "grade": "7-8",
+          "variant": "980",
+          "region": "Школы вне России с указанными организатором исключениями",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1213/Buklet_BB_1213_980_7-8.pdf",
+            "bytes": 532899,
+            "sha256": "44c65dc221078c55a1ddfa8406edc3dac0d6191afedd886278e5c9a1fc376f50",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2012/7-8/variant-980/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1213/BB_1213_answers_980.pdf",
+            "bytes": 162153,
+            "sha256": "0c32cf3d5dbb5015680670982b6dc7018505db3da1c834d10af2156e504234bb",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1213/BB_1213_7-8.mp3",
+            "bytes": 1747460,
+            "sha256": "d530a45210463c603116a27f97b0cb3ed67a06aa1bcbd91fd530be6bf187c17c",
+            "durationSeconds": 291.24,
+            "status": "verified"
+          }
+        },
+        {
+          "grade": "9-11",
+          "variant": "980",
+          "region": "Школы вне России с указанными организатором исключениями",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1213/Buklet_BB_1213_980_9-11.pdf",
+            "bytes": 523885,
+            "sha256": "64f490f846529aa224f29f14cc73fcb7160960927294ad46a631cb937a08a898",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2012/9-11/variant-980/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1213/BB_1213_answers_980.pdf",
+            "bytes": 162153,
+            "sha256": "0c32cf3d5dbb5015680670982b6dc7018505db3da1c834d10af2156e504234bb",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1213/BB_1213_9-11.mp3",
+            "bytes": 1741504,
+            "sha256": "67788d9158ba5e4ca8505ddce75a57548b5c1ea2516be5247dfba6a1e27a8374",
+            "durationSeconds": 290.25,
+            "status": "verified"
+          }
+        },
+        {
+          "grade": "3-4",
+          "variant": "780",
+          "region": "Другие регионы",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1213/Buklet_BB_1213_780_3-4.pdf",
+            "bytes": 582924,
+            "sha256": "5262f3f2fc9233cdcdfd61a1e22a1d55381d0fb690e3e7f35ceda8fcdd52b7e7",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2012/3-4/variant-780/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1213/BB_1213_answers_780.pdf",
+            "bytes": 157753,
+            "sha256": "7974d46fadcfd325d5c4c649fb2d5661a4650aebc9dc58e6468b0ac451de4a97",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2012/answers-variant-780.pdf"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1213/BB_1213_3-4.mp3",
+            "bytes": 651258,
+            "sha256": "43dab0b774b3a40103875c17a9ca5135d1eceda06dd2ba36e2ce22fe63a75dfe",
+            "durationSeconds": 108.54,
+            "status": "verified"
+          }
+        },
+        {
+          "grade": "5-6",
+          "variant": "780",
+          "region": "Другие регионы",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1213/Buklet_BB_1213_780_5-6.pdf",
+            "bytes": 424522,
+            "sha256": "7ecc4b8e9e3b4c98f24f12b03dc6726300ed015787e372fa8aad9cfbdb8e8138",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2012/5-6/variant-780/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1213/BB_1213_answers_780.pdf",
+            "bytes": 157753,
+            "sha256": "7974d46fadcfd325d5c4c649fb2d5661a4650aebc9dc58e6468b0ac451de4a97",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1213/BB_1213_5-6.mp3",
+            "bytes": 1161743,
+            "sha256": "d649814cf0b7a53fa50b7e6defdf3898131cc9cec926df9477565aad03be0b2c",
+            "durationSeconds": 193.62,
+            "status": "verified"
+          }
+        },
+        {
+          "grade": "7-8",
+          "variant": "780",
+          "region": "Другие регионы",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1213/Buklet_BB_1213_780_7-8.pdf",
+            "bytes": 532251,
+            "sha256": "1ee9adab099888ffdc7ec98bb9329b01e51a663980ed47e84a9b94a11375b718",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2012/7-8/variant-780/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1213/BB_1213_answers_780.pdf",
+            "bytes": 157753,
+            "sha256": "7974d46fadcfd325d5c4c649fb2d5661a4650aebc9dc58e6468b0ac451de4a97",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1213/BB_1213_7-8.mp3",
+            "bytes": 1747460,
+            "sha256": "d530a45210463c603116a27f97b0cb3ed67a06aa1bcbd91fd530be6bf187c17c",
+            "durationSeconds": 291.24,
+            "status": "verified"
+          }
+        },
+        {
+          "grade": "9-11",
+          "variant": "780",
+          "region": "Другие регионы",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1213/Buklet_BB_1213_780_9-11.pdf",
+            "bytes": 524240,
+            "sha256": "e0b62b23ebe49c36934b115138acd7673a79815fd5945e374dcc41016b9079d6",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2012/9-11/variant-780/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1213/BB_1213_answers_780.pdf",
+            "bytes": 157753,
+            "sha256": "7974d46fadcfd325d5c4c649fb2d5661a4650aebc9dc58e6468b0ac451de4a97",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1213/BB_1213_9-11.mp3",
+            "bytes": 1741504,
+            "sha256": "67788d9158ba5e4ca8505ddce75a57548b5c1ea2516be5247dfba6a1e27a8374",
+            "durationSeconds": 290.25,
+            "status": "verified"
+          }
+        }
+      ],
+      "variantsNote": "Организатор описывает одинаковый состав вопросов с разным порядком."
+    },
+    {
+      "season": "2011-2012",
+      "archivePage": "https://runodog.ru/index/2011_2012/0-40",
+      "packages": [
+        {
+          "grade": "3-4",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1112/3-4_Buklet_BB_1112.pdf",
+            "bytes": 222654,
+            "sha256": "75ed9985b8346c2f56854d12be1d076da5077182412c9b8fff0fee93606dffa0",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2011/3-4/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1112/BB_1112_stat.pdf",
+            "bytes": 208891,
+            "sha256": "3b5cc44405813bff09559950dbef06070046aa05eb752339f4a9d3e6721a34ef",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2011/answers.pdf"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1112/BB_1112_3-4_fin_light.mp3",
+            "bytes": 1186585,
+            "sha256": "ba2e3136acd8ab16037e5e7ca8740e3aa724074fbc7c620002a80f965facbcab",
+            "durationSeconds": 148.32,
+            "status": "verified",
+            "localFile": "2011/3-4/listening.mp3"
+          }
+        },
+        {
+          "grade": "5-6",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1112/5-6_Buklet_BB_1112.pdf",
+            "bytes": 157929,
+            "sha256": "705ba6ff65ca915958476d9896b13ba37aeca8a43d1c73e6faffbd12cfecaee5",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2011/5-6/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1112/BB_1112_stat.pdf",
+            "bytes": 208891,
+            "sha256": "3b5cc44405813bff09559950dbef06070046aa05eb752339f4a9d3e6721a34ef",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1112/BB_1112_5-6_fin_light.mp3",
+            "bytes": 1327321,
+            "sha256": "2164ac656e2d8c72e261c722f3476d03eb5da4d699602ccb2bf02c252a760d9d",
+            "durationSeconds": 165.91,
+            "status": "verified",
+            "localFile": "2011/5-6/listening.mp3"
+          }
+        },
+        {
+          "grade": "7-8",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1112/7-8_Buklet_BB_1112.pdf",
+            "bytes": 154511,
+            "sha256": "a98fd32196f57fc9d7e597e497fa2eafd5a9e52a240630de54948108af90164a",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2011/7-8/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1112/BB_1112_stat.pdf",
+            "bytes": 208891,
+            "sha256": "3b5cc44405813bff09559950dbef06070046aa05eb752339f4a9d3e6721a34ef",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1112/BB_1112_7-8_fin_light.mp3",
+            "bytes": 1768729,
+            "sha256": "d47e693d661f1749d610232bc505bb98eb1fc6981e8ba0a428744abe9b229aa5",
+            "durationSeconds": 221.09,
+            "status": "verified",
+            "localFile": "2011/7-8/listening.mp3"
+          }
+        },
+        {
+          "grade": "9-11",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1112/9-11_Buklet_BB_1112.pdf",
+            "bytes": 152777,
+            "sha256": "ac21c8ba810076822a4e0ccd008ff932432185596dc1716a03f8ed53fa18d31a",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2011/9-11/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1112/BB_1112_stat.pdf",
+            "bytes": 208891,
+            "sha256": "3b5cc44405813bff09559950dbef06070046aa05eb752339f4a9d3e6721a34ef",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1112/BB_1112_9-11_fin_light.mp3",
+            "bytes": 2665369,
+            "sha256": "26d7e187d6585f4a17792376dc50e8425231c8b2e36e9879351a8b44abbdfb77",
+            "durationSeconds": 333.17,
+            "status": "verified",
+            "localFile": "2011/9-11/listening.mp3"
+          }
+        }
+      ]
+    },
+    {
+      "season": "2010-2011",
+      "archivePage": "https://runodog.ru/index/2010_2011/0-14",
+      "packages": [
+        {
+          "grade": "3-4",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1011_3-4_bw.pdf",
+            "bytes": 309772,
+            "sha256": "9104f29ff2a866e9aa9d12fe3f97ecb75e33e0857a554e6aee5cebde55560c66",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2010/3-4/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1011_stat.pdf",
+            "bytes": 208085,
+            "sha256": "eb930249bc9345fd07980ed9a1b423ccdd715cbfb861d23073374782328ae99a",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2010/answers.pdf"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1011_3-4_mixdown.rar",
+            "bytes": 2199828,
+            "sha256": "51c96e60fde9695bf77f45a508088e74745ce2aefc4a4add8ccc5ab81e1c18db",
+            "status": "verified",
+            "localFile": "2010/3-4/listening.mp3",
+            "localOriginal": "2010/3-4/listening.rar",
+            "derivation": "Extracted 3-4_mixdown.wma from RAR and converted WMA to MP3",
+            "durationSeconds": 90.96
+          }
+        },
+        {
+          "grade": "5-6",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1011_5-6_bw.pdf",
+            "bytes": 79293,
+            "sha256": "245d1cf70b6942c88d109a20f9ac01b916209c247018db0b8b6158daf3c9da36",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2010/5-6/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1011_stat.pdf",
+            "bytes": 208085,
+            "sha256": "eb930249bc9345fd07980ed9a1b423ccdd715cbfb861d23073374782328ae99a",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1011_5-6_mixdown.rar",
+            "bytes": 4402634,
+            "sha256": "7a4cfe5db41bb4df9a9a891fa8d1bf40fceb44cde07de848fa1dc6aeb8249668",
+            "status": "verified",
+            "localFile": "2010/5-6/listening.mp3",
+            "localOriginal": "2010/5-6/listening.rar",
+            "derivation": "Extracted 5-6_mixdown.wma from RAR and converted WMA to MP3",
+            "durationSeconds": 235.78
+          }
+        },
+        {
+          "grade": "7-8",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1011_7-8_bw.pdf",
+            "bytes": 193295,
+            "sha256": "d90c2d5a704480e8c11fb5e5f10ab526f58f3e88f5cf47f18da9532e27782443",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2010/7-8/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1011_stat.pdf",
+            "bytes": 208085,
+            "sha256": "eb930249bc9345fd07980ed9a1b423ccdd715cbfb861d23073374782328ae99a",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1011_7-8_mixdown.rar",
+            "bytes": 4754924,
+            "sha256": "5ba0dcf81fd84f4437e2f54f49cb5708b32e6a96aae6c25b5b64eceef6588d57",
+            "status": "verified",
+            "localFile": "2010/7-8/listening.mp3",
+            "localOriginal": "2010/7-8/listening.rar",
+            "derivation": "Extracted 7-8_mixdown.wma from RAR and converted WMA to MP3",
+            "durationSeconds": 148.32
+          }
+        },
+        {
+          "grade": "9-11",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_1011_9-11_bw.pdf",
+            "bytes": 81316,
+            "sha256": "03bbbba451ce927631ff1b3431f56960a4cfb15f0cb31a778218f49e8aec254c",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2010/9-11/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_1011_stat.pdf",
+            "bytes": 208085,
+            "sha256": "eb930249bc9345fd07980ed9a1b423ccdd715cbfb861d23073374782328ae99a",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_1011_9-11_mixdown.rar",
+            "bytes": 663813,
+            "sha256": "39506c65114937b6961aa8d69a8a349e099045b5b91aae9c7b73d126e8a04d4d",
+            "status": "verified",
+            "localFile": "2010/9-11/listening.mp3",
+            "localOriginal": "2010/9-11/listening.rar",
+            "derivation": "Extracted BB_1011_9-11_mixdown.mp3 from RAR",
+            "durationSeconds": 206.98
+          }
+        }
+      ]
+    },
+    {
+      "season": "2009-2010",
+      "archivePage": "https://runodog.ru/index/2009_2010/0-15",
+      "packages": [
+        {
+          "grade": "3-4",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_0910_bw_3-4.pdf",
+            "bytes": 1016201,
+            "sha256": "55c30db12e88152ecf5b0973612f0e82df2130b4a2be6de75249356d8c36311b",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2009/3-4/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_0910_stat.pdf",
+            "bytes": 204131,
+            "sha256": "d9ad57f919403af533501ce4c933e893b332dc0ffa6d780744d8a97fb4a21f55",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2009/answers.pdf"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_0910_aud_3-4.mp3",
+            "bytes": 638304,
+            "sha256": "1ccbda8282cfe6e9872322ff83f82c0f4416ef52a5e44b2aeeaed8baf70739bb",
+            "durationSeconds": 94.41,
+            "status": "verified",
+            "localFile": "2009/3-4/listening.mp3"
+          }
+        },
+        {
+          "grade": "5-6",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_0910_bw_5-6.pdf",
+            "bytes": 158225,
+            "sha256": "21d5612066ca507c028a859c6ebcf9eacea5954283f32258e170ebc6533b9d7e",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2009/5-6/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_0910_stat.pdf",
+            "bytes": 204131,
+            "sha256": "d9ad57f919403af533501ce4c933e893b332dc0ffa6d780744d8a97fb4a21f55",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_0910_aud_5-6.mp3",
+            "bytes": 567236,
+            "sha256": "186053844a85367979c1c4d026f45e706de2c800576829034d19f262f8125f27",
+            "durationSeconds": 121.04,
+            "status": "verified",
+            "localFile": "2009/5-6/listening.mp3"
+          }
+        },
+        {
+          "grade": "7-8",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_0910_bw_7-8.pdf",
+            "bytes": 180174,
+            "sha256": "b3af8d81afc30df3b4d9927d99f61296ab65af0732b5ea6402fd474f21a574c7",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2009/7-8/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_0910_stat.pdf",
+            "bytes": 204131,
+            "sha256": "d9ad57f919403af533501ce4c933e893b332dc0ffa6d780744d8a97fb4a21f55",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_0910_aud_7-8.mp3",
+            "bytes": 1123073,
+            "sha256": "dc8ea009f8879b491f4cb04b7455d47bfcbcba39c8d8b249898e3b4cdcf009fe",
+            "durationSeconds": 160.0,
+            "status": "verified",
+            "localFile": "2009/7-8/listening.mp3"
+          }
+        },
+        {
+          "grade": "9-11",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_0910_bw_9-11.pdf",
+            "bytes": 180904,
+            "sha256": "61e0986960ca5f061673db9f2ffbe403c186defd6811b80767d6bf0279600e91",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2009/9-11/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_0910_stat.pdf",
+            "bytes": 204131,
+            "sha256": "d9ad57f919403af533501ce4c933e893b332dc0ffa6d780744d8a97fb4a21f55",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_0910_aud_9-11.mp3",
+            "bytes": 966732,
+            "sha256": "81c357e0c2fe89e1516cce744ddf378ed3ddb85e09d7a348cda30228ee6dd5b2",
+            "durationSeconds": 185.81,
+            "status": "verified",
+            "localFile": "2009/9-11/listening.mp3"
+          }
+        }
+      ]
+    },
+    {
+      "season": "2008-2009",
+      "archivePage": "https://runodog.ru/index/2008_2009/0-16",
+      "packages": [
+        {
+          "grade": "5-6",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_0809_5-6.pdf",
+            "bytes": 550495,
+            "sha256": "92f3788041a6ad401b65a649c4a0b76b4b2f27d4e7a9870b14c217710f502d01",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2008/5-6/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_0809_stat.pdf",
+            "bytes": 192632,
+            "sha256": "f486b4ecea80324984dcb10044b51b03a5442b04e26fd67303e00d7ce289a0b8",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2008/answers.pdf"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB2009_aud_5-6.mp3",
+            "bytes": 862203,
+            "sha256": "c8f43f58bf6e4c8875dfd8130af5d1f809a903c2ea8f79290ca7b1fcd6056afa",
+            "durationSeconds": 122.64,
+            "status": "verified",
+            "localFile": "2008/5-6/listening.mp3"
+          }
+        },
+        {
+          "grade": "7-8",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_0809_7-8.pdf",
+            "bytes": 510209,
+            "sha256": "6db5f674a518e154b4ce98545764782c41c2b828f39c8bc45153d70f47cfdabc",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2008/7-8/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_0809_stat.pdf",
+            "bytes": 192632,
+            "sha256": "f486b4ecea80324984dcb10044b51b03a5442b04e26fd67303e00d7ce289a0b8",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB2009_aud_7-8.mp3",
+            "bytes": 1764809,
+            "sha256": "1248c4ea2ff859cf3bf7bdedead20075f7980309ae4609f0560350a7a47ad893",
+            "durationSeconds": 251.06,
+            "status": "verified",
+            "localFile": "2008/7-8/listening.mp3"
+          }
+        },
+        {
+          "grade": "9-11",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_0809_9-11.pdf",
+            "bytes": 476369,
+            "sha256": "f131b94793471a626db2ef44ab832f91be2735cdfe23e644f87693eab037855a",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2008/9-11/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_0809_stat.pdf",
+            "bytes": 192632,
+            "sha256": "f486b4ecea80324984dcb10044b51b03a5442b04e26fd67303e00d7ce289a0b8",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB2009_aud_9-11.mp3",
+            "bytes": 1192155,
+            "sha256": "c259f230338173a3f044a9d03b39eed9e12e5a5f9186fac0de393d98f83bc3de",
+            "durationSeconds": 229.37,
+            "status": "verified",
+            "localFile": "2008/9-11/listening.mp3"
+          }
+        }
+      ],
+      "archiveNote": "Организатор указывает только варианты 5–6, 7–8 и 9–11 классов."
+    },
+    {
+      "season": "2007-2008",
+      "archivePage": "https://runodog.ru/index/2007_2008/0-17",
+      "packages": [
+        {
+          "grade": "5-6",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_0708/BB_0708_5-6.pdf",
+            "bytes": 298171,
+            "sha256": "3a0994ff972ed9532812cc38f05cc06f9523c1449fb6af5673492d401fd5723d",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2007/5-6/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_0708_stat.pdf",
+            "bytes": 188045,
+            "sha256": "bf671fd989733021394a78472192e6b42faa19c63159b34916ffee9049154e72",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2007/answers.pdf"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_0708/bb_audirovanie_0708.mp3",
+            "bytes": 1718856,
+            "sha256": "34276aa725fc84944851ff4e3e85b2f4ea0e19d13aea155cab9de863f137cbb8",
+            "durationSeconds": 142.88,
+            "status": "verified",
+            "localFile": "2007/listening.mp3"
+          }
+        },
+        {
+          "grade": "7-8",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_0708/BB_0708_7-8.pdf",
+            "bytes": 299508,
+            "sha256": "148c4366c8d4ce152600e7d218de6ad57cc2f5770eb87295557dc16094854a33",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2007/7-8/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_0708_stat.pdf",
+            "bytes": 188045,
+            "sha256": "bf671fd989733021394a78472192e6b42faa19c63159b34916ffee9049154e72",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_0708/bb_audirovanie_0708.mp3",
+            "bytes": 1718856,
+            "sha256": "34276aa725fc84944851ff4e3e85b2f4ea0e19d13aea155cab9de863f137cbb8",
+            "durationSeconds": 142.88,
+            "status": "verified"
+          }
+        },
+        {
+          "grade": "9-11",
+          "tasks": {
+            "url": "https://runodog.ru/BB/BB_0708/BB_0708_9-11.pdf",
+            "bytes": 297662,
+            "sha256": "c5be8c2cfb183c1c7353278a2a8cf0d154dd3ffc549e2a14ef608b750da620bf",
+            "pages": 2,
+            "textLayer": true,
+            "status": "verified",
+            "localFile": "2007/9-11/tasks.pdf"
+          },
+          "answers": {
+            "url": "https://runodog.ru/BB/BB_0708_stat.pdf",
+            "bytes": 188045,
+            "sha256": "bf671fd989733021394a78472192e6b42faa19c63159b34916ffee9049154e72",
+            "pages": 1,
+            "textLayer": true,
+            "status": "verified"
+          },
+          "listening": {
+            "url": "https://runodog.ru/BB/BB_0708/bb_audirovanie_0708.mp3",
+            "bytes": 1718856,
+            "sha256": "34276aa725fc84944851ff4e3e85b2f4ea0e19d13aea155cab9de863f137cbb8",
+            "durationSeconds": 142.88,
+            "status": "verified"
+          }
+        }
+      ],
+      "archiveNote": "Организатор указывает только варианты 5–6, 7–8 и 9–11 классов.",
+      "listeningNote": "На странице сезона опубликована одна ссылка на аудирование для всех вариантов."
+    }
+  ]
+}

@@ -3,5 +3,43 @@
   "tasks": "https://www.konkurs-chip.ru/files/arhiv/chip_2019-20_3-4.pdf",
   "answers": "https://100ballnik.com/wp-content/uploads/2021/08/ответы_чип_2019-1.pdf",
   "title": "Австралия и Океания",
-  "date": "2019-10-23"
+  "date": "2019-10-23",
+  "editorialSources": {
+    "5": [
+      {
+        "title": "Geoscience Australia. Australia’s Largest, Longest and Highest Features",
+        "url": "https://www.ga.gov.au/scientific-topics/national-location-information/geography/largest-longest-highest"
+      }
+    ],
+    "7": [
+      {
+        "title": "Les éditions du Kangourou. L’histoire du Kangourou",
+        "url": "https://www.mathkang.org/gazette/k2022/n6/pdfs/histoire.pdf"
+      }
+    ],
+    "14": [
+      {
+        "title": "Geoscience Australia. Australia’s Largest, Longest and Highest Features",
+        "url": "https://www.ga.gov.au/scientific-topics/national-location-information/geography/largest-longest-highest"
+      }
+    ],
+    "16": [
+      {
+        "title": "Geoscience Australia. Australia’s Identified Mineral Resources 2019, World Rankings",
+        "url": "https://www.ga.gov.au/digital-publication/aimr2019/world-rankings"
+      }
+    ],
+    "27": [
+      {
+        "title": "NSW National Parks. Burning Mountain Nature Reserve",
+        "url": "https://www.nationalparks.nsw.gov.au/visit-a-park/parks/burning-mountain-nature-reserve/learn-more"
+      }
+    ],
+    "29": [
+      {
+        "title": "Geoscience Australia. Volcano",
+        "url": "https://www.ga.gov.au/education/natural-hazards/volcano"
+      }
+    ]
+  }
 }

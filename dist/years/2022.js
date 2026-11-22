@@ -765,7 +765,7 @@
     sources: {
       tasksUrl: y2022Source + 'class_3-4.pdf',
       answersUrl: y2022Source + 'answers.pdf',
-      solutionUrl: y2022Source + 'solution.pdf'
+      solutionUrl: y2022Source + 'solution-reviewed.pdf'
     },
     lessons: y2022Lessons,
     scenes: y2022Scenes

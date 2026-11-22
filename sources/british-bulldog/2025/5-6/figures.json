@@ -1,0 +1,89 @@
+{
+  "source": "tasks.pdf",
+  "coordinateUnit": "rendered-pixel",
+  "renderScale": 2.75,
+  "crops": [
+    {
+      "page": 1,
+      "box": [
+        36,
+        131,
+        178,
+        273
+      ],
+      "file": "clock-31.webp",
+      "tasks": [
+        31
+      ]
+    },
+    {
+      "page": 1,
+      "box": [
+        178,
+        131,
+        320,
+        273
+      ],
+      "file": "clock-32.webp",
+      "tasks": [
+        32
+      ]
+    },
+    {
+      "page": 1,
+      "box": [
+        319,
+        131,
+        461,
+        273
+      ],
+      "file": "clock-33.webp",
+      "tasks": [
+        33
+      ]
+    },
+    {
+      "page": 1,
+      "box": [
+        459,
+        131,
+        602,
+        273
+      ],
+      "file": "clock-34.webp",
+      "tasks": [
+        34
+      ]
+    },
+    {
+      "page": 1,
+      "box": [
+        602,
+        131,
+        746,
+        273
+      ],
+      "file": "clock-35.webp",
+      "tasks": [
+        35
+      ]
+    },
+    {
+      "page": 1,
+      "box": [
+        823,
+        171,
+        1462,
+        480
+      ],
+      "file": "band.webp",
+      "tasks": [
+        41,
+        42,
+        43,
+        44,
+        45
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "source": "tasks.pdf",
+  "coordinateUnit": "rendered-pixel",
+  "renderScale": 2.75,
+  "crops": [
+    {
+      "page": 1,
+      "box": [
+        870,
+        204,
+        1522,
+        618
+      ],
+      "file": "shops.webp",
+      "tasks": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ]
+    }
+  ]
+}

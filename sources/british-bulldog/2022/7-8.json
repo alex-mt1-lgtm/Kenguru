@@ -1,0 +1,737 @@
+[
+  {
+    "title": "The Festival Season",
+    "question": "When does the Greenham Family Festival take place? In ... .",
+    "context": "Listen to the text and answer the questions",
+    "choices": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "answer": 1,
+    "steps": [
+      "В начале ведущий приветствует публику на фестивале и описывает день. Слушай, какой сезон он называет.",
+      "Он говорит «on this beautiful summer’s day». Фестиваль проходит летом — in summer."
+    ],
+    "audio": true
+  },
+  {
+    "title": "First on Stage",
+    "question": "Who are the first performers to appear on the stage?",
+    "context": "Listen to the text and answer the questions",
+    "choices": [
+      "The drummers",
+      "The singers",
+      "The jazzmen",
+      "The guitarists"
+    ],
+    "answer": 0,
+    "steps": [
+      "Ведущий перечисляет выступающих по порядку. Ищи слова «First on stage».",
+      "Первую группу он называет «a fantastic band of drummers». Первыми выступают барабанщики."
+    ],
+    "audio": true
+  },
+  {
+    "title": "The Performers’ Home",
+    "question": "Where are these performers from?",
+    "context": "Listen to the text and answer the questions",
+    "choices": [
+      "California",
+      "They are the local citizens",
+      "Nigeria",
+      "London"
+    ],
+    "answer": 2,
+    "steps": [
+      "These performers — участники первой группы из предыдущего вопроса. Слушай название страны после from.",
+      "Ведущий представляет барабанщиков «from Nigeria». Ответ — Nigeria."
+    ],
+    "audio": true
+  },
+  {
+    "title": "A Local Performer",
+    "question": "Who is the local performer?",
+    "context": "Listen to the text and answer the questions",
+    "choices": [
+      "The Bundy Boys",
+      "The Jarrow Jazz Band",
+      "Shady Sisters",
+      "Amy Brownlow"
+    ],
+    "answer": 3,
+    "steps": [
+      "Слушай слово local — «местный». Оно описывает исполнителя, которого объявляют после барабанщиков.",
+      "Ведущий говорит «local guitarist and singer, Amy Brownlow». Местная исполнительница — Эми Браунлоу."
+    ],
+    "audio": true
+  },
+  {
+    "title": "Amy’s Instrument",
+    "question": "Which musical instrument does Amy Brownlow play? The ... .",
+    "context": "Listen to the text and answer the questions",
+    "choices": [
+      "drum",
+      "guitar",
+      "piano",
+      "violin"
+    ],
+    "answer": 1,
+    "steps": [
+      "Имя Amy Brownlow следует за словами «local guitarist and singer». Свяжи название музыканта с инструментом.",
+      "Guitarist — гитарист. Эми играет на гитаре — the guitar."
+    ],
+    "audio": true
+  },
+  {
+    "title": "The Jazz Band’s Time",
+    "question": "When does the Jarrow Jazz Band appear on the stage?",
+    "context": "Listen to the text and answer the questions",
+    "choices": [
+      "At 5 p.m.",
+      "At 5 a.m.",
+      "After the break",
+      "Later in the evening"
+    ],
+    "answer": 0,
+    "steps": [
+      "Ведущий говорит «on stage at five o’clock». Определи, утро это или вторая половина дня.",
+      "После джаза объявлены выступающие «later this evening». В расписании фестиваля речь о пяти часах дня — at 5 p.m."
+    ],
+    "audio": true
+  },
+  {
+    "title": "Buying a CD",
+    "question": "Whose latest CD can the people buy?",
+    "context": "Listen to the text and answer the questions",
+    "choices": [
+      "The drummers’",
+      "The singer’s",
+      "The sisters’",
+      "The jazzmen’s"
+    ],
+    "answer": 2,
+    "steps": [
+      "Слушай фразу «You can buy their latest CD». Определи, к кому относится their.",
+      "Перед этим ведущий представляет Shady Sisters. The sisters’ означает «их, сестёр»."
+    ],
+    "audio": true
+  },
+  {
+    "title": "Stalls Around the Park",
+    "question": "What can you not buy at the stalls around the park?",
+    "context": "Listen to the text and answer the questions",
+    "choices": [
+      "Food",
+      "Drinks",
+      "Toys",
+      "Clothes"
+    ],
+    "answer": 2,
+    "steps": [
+      "Вопрос с not просит выбрать товар, которого нет в перечне. Ведущий называет еду, напитки, украшения и одежду.",
+      "Toys — игрушки. Их в перечне нет."
+    ],
+    "audio": true
+  },
+  {
+    "title": "The Price of a Portrait",
+    "question": "How much does the portrait cost?",
+    "context": "Listen to the text and answer the questions",
+    "choices": [
+      "Two pounds",
+      "A pound and a half",
+      "One pound",
+      "It’s free"
+    ],
+    "answer": 2,
+    "steps": [
+      "В записи в маленькой жёлтой палатке предлагают раскрасить лицо: «someone will paint your face». Вопрос называет эту услугу portrait.",
+      "Цена звучит как «for only one pound», то есть один фунт."
+    ],
+    "audio": true
+  },
+  {
+    "title": "The Festival Finale",
+    "question": "What will be at the end of the festival?",
+    "context": "Listen to the text and answer the questions",
+    "choices": [
+      "Fireworks",
+      "Disco",
+      "Gala concert",
+      "Meeting"
+    ],
+    "answer": 0,
+    "steps": [
+      "Слушай, что ведущий обещает в полночь, перед тем как просит всех остаться до конца.",
+      "Он говорит «There will be fireworks at midnight». Fireworks — фейерверк."
+    ],
+    "audio": true
+  },
+  {
+    "title": "The Maple in Summer",
+    "question": "Which word fits gap (11)?",
+    "context": "Read the text and fill in the most suitable word\n\nOnce, a beautiful maple tree grew in the centre of a large park. All summer it was ... (11) with green leaves. Many people sat on the green grass under it and enjoyed its cool ... (12). But along with the fall came a ... (13) in the maple tree. Its green leaves began to ... (14) red and yellow. So everyone said, “How beautiful ... (15)!” The maple tree was glad to hear it and she became ... (16) and vain. She spread out her branches so far that a little pine close by was almost hidden from ... (17). “It doesn’t matter,” said the maple, “No one cares to look at him, he is ... (18) plain little tree.” The pine heard the unkind words and sighed. Just then a cold wind passed and said, “Why do you sigh, little pine?” The pine replied, “I sigh because the maple is so ... (19) beautiful than I am.” The wind felt sorry for him and whispered, “Only wait!” In a few days the leaves of the maple tree turned brown and fell to the ground. When the snow came, there was but one bright cheerful spot in the whole park, the brave pine with the needles ... (20) they were when they first came out.",
+    "choices": [
+      "spread",
+      "covered",
+      "planked",
+      "drowned"
+    ],
+    "answer": 1,
+    "steps": [
+      "В предложении сказано, что летом дерево было покрыто зелёными листьями. После пропуска стоит with.",
+      "Подходит covered: «it was covered with green leaves»."
+    ]
+  },
+  {
+    "title": "Under the Maple",
+    "question": "Which word fits gap (12)?",
+    "context": "Read the text and fill in the most suitable word\n\nOnce, a beautiful maple tree grew in the centre of a large park. All summer it was ... (11) with green leaves. Many people sat on the green grass under it and enjoyed its cool ... (12). But along with the fall came a ... (13) in the maple tree. Its green leaves began to ... (14) red and yellow. So everyone said, “How beautiful ... (15)!” The maple tree was glad to hear it and she became ... (16) and vain. She spread out her branches so far that a little pine close by was almost hidden from ... (17). “It doesn’t matter,” said the maple, “No one cares to look at him, he is ... (18) plain little tree.” The pine heard the unkind words and sighed. Just then a cold wind passed and said, “Why do you sigh, little pine?” The pine replied, “I sigh because the maple is so ... (19) beautiful than I am.” The wind felt sorry for him and whispered, “Only wait!” In a few days the leaves of the maple tree turned brown and fell to the ground. When the snow came, there was but one bright cheerful spot in the whole park, the brave pine with the needles ... (20) they were when they first came out.",
+    "choices": [
+      "shade",
+      "roots",
+      "purity",
+      "shadow"
+    ],
+    "answer": 0,
+    "steps": [
+      "Людям прохладно под деревом, где нет прямого солнечного света. После cool нужно существительное.",
+      "Shade обозначает укрытое от солнца место или тень в этом смысле: «enjoyed its cool shade». Shadow чаще описывает очертание тени от предмета."
+    ]
+  },
+  {
+    "title": "Autumn Arrives",
+    "question": "Which word fits gap (13)?",
+    "context": "Read the text and fill in the most suitable word\n\nOnce, a beautiful maple tree grew in the centre of a large park. All summer it was ... (11) with green leaves. Many people sat on the green grass under it and enjoyed its cool ... (12). But along with the fall came a ... (13) in the maple tree. Its green leaves began to ... (14) red and yellow. So everyone said, “How beautiful ... (15)!” The maple tree was glad to hear it and she became ... (16) and vain. She spread out her branches so far that a little pine close by was almost hidden from ... (17). “It doesn’t matter,” said the maple, “No one cares to look at him, he is ... (18) plain little tree.” The pine heard the unkind words and sighed. Just then a cold wind passed and said, “Why do you sigh, little pine?” The pine replied, “I sigh because the maple is so ... (19) beautiful than I am.” The wind felt sorry for him and whispered, “Only wait!” In a few days the leaves of the maple tree turned brown and fell to the ground. When the snow came, there was but one bright cheerful spot in the whole park, the brave pine with the needles ... (20) they were when they first came out.",
+    "choices": [
+      "change",
+      "illness",
+      "disaster",
+      "destruction"
+    ],
+    "answer": 0,
+    "steps": [
+      "With the fall значит «с приходом осени». Следующее предложение говорит, что листья меняют цвет.",
+      "Их цвет меняется естественным образом, поэтому подходит A change — «перемена»."
+    ],
+    "reviewedEdition": true
+  },
+  {
+    "title": "The Leaves’ Colour",
+    "question": "Which word fits gap (14)?",
+    "context": "Read the text and fill in the most suitable word\n\nOnce, a beautiful maple tree grew in the centre of a large park. All summer it was ... (11) with green leaves. Many people sat on the green grass under it and enjoyed its cool ... (12). But along with the fall came a ... (13) in the maple tree. Its green leaves began to ... (14) red and yellow. So everyone said, “How beautiful ... (15)!” The maple tree was glad to hear it and she became ... (16) and vain. She spread out her branches so far that a little pine close by was almost hidden from ... (17). “It doesn’t matter,” said the maple, “No one cares to look at him, he is ... (18) plain little tree.” The pine heard the unkind words and sighed. Just then a cold wind passed and said, “Why do you sigh, little pine?” The pine replied, “I sigh because the maple is so ... (19) beautiful than I am.” The wind felt sorry for him and whispered, “Only wait!” In a few days the leaves of the maple tree turned brown and fell to the ground. When the snow came, there was but one bright cheerful spot in the whole park, the brave pine with the needles ... (20) they were when they first came out.",
+    "choices": [
+      "revoke",
+      "have",
+      "turn",
+      "acquire"
+    ],
+    "answer": 2,
+    "steps": [
+      "После пропуска стоят названия цветов red and yellow. Действие описывает изменение цвета листьев.",
+      "Turn с прилагательным может означать «становиться». «The leaves began to turn red and yellow» — листья начали краснеть и желтеть."
+    ]
+  },
+  {
+    "title": "Admiring the Maple",
+    "question": "Which words fit gap (15)?",
+    "context": "Read the text and fill in the most suitable word\n\nOnce, a beautiful maple tree grew in the centre of a large park. All summer it was ... (11) with green leaves. Many people sat on the green grass under it and enjoyed its cool ... (12). But along with the fall came a ... (13) in the maple tree. Its green leaves began to ... (14) red and yellow. So everyone said, “How beautiful ... (15)!” The maple tree was glad to hear it and she became ... (16) and vain. She spread out her branches so far that a little pine close by was almost hidden from ... (17). “It doesn’t matter,” said the maple, “No one cares to look at him, he is ... (18) plain little tree.” The pine heard the unkind words and sighed. Just then a cold wind passed and said, “Why do you sigh, little pine?” The pine replied, “I sigh because the maple is so ... (19) beautiful than I am.” The wind felt sorry for him and whispered, “Only wait!” In a few days the leaves of the maple tree turned brown and fell to the ground. When the snow came, there was but one bright cheerful spot in the whole park, the brave pine with the needles ... (20) they were when they first came out.",
+    "choices": [
+      "the tree",
+      "is the tree",
+      "the tree is",
+      "the tree was"
+    ],
+    "answer": 2,
+    "steps": [
+      "Это восклицание с «How beautiful». Дальше нужно назвать, чем восхищаются, и поставить глагол.",
+      "Во восклицании порядок прямой: «How beautiful the tree is!» В этой реплике люди смотрят на дерево сейчас."
+    ]
+  },
+  {
+    "title": "The Maple’s Reaction",
+    "question": "Which word fits gap (16)?",
+    "context": "Read the text and fill in the most suitable word\n\nOnce, a beautiful maple tree grew in the centre of a large park. All summer it was ... (11) with green leaves. Many people sat on the green grass under it and enjoyed its cool ... (12). But along with the fall came a ... (13) in the maple tree. Its green leaves began to ... (14) red and yellow. So everyone said, “How beautiful ... (15)!” The maple tree was glad to hear it and she became ... (16) and vain. She spread out her branches so far that a little pine close by was almost hidden from ... (17). “It doesn’t matter,” said the maple, “No one cares to look at him, he is ... (18) plain little tree.” The pine heard the unkind words and sighed. Just then a cold wind passed and said, “Why do you sigh, little pine?” The pine replied, “I sigh because the maple is so ... (19) beautiful than I am.” The wind felt sorry for him and whispered, “Only wait!” In a few days the leaves of the maple tree turned brown and fell to the ground. When the snow came, there was but one bright cheerful spot in the whole park, the brave pine with the needles ... (20) they were when they first came out.",
+    "choices": [
+      "violent",
+      "proud",
+      "successful",
+      "independent"
+    ],
+    "answer": 1,
+    "steps": [
+      "Клён радуется похвале. Прилагательное vain означает «тщеславный» и подсказывает, как дерево стало себя воспринимать.",
+      "Proud означает «гордый». Proud and vain вместе описывают, как клён возгордился после похвалы."
+    ]
+  },
+  {
+    "title": "The Hidden Pine",
+    "question": "Which word fits gap (17)?",
+    "context": "Read the text and fill in the most suitable word\n\nOnce, a beautiful maple tree grew in the centre of a large park. All summer it was ... (11) with green leaves. Many people sat on the green grass under it and enjoyed its cool ... (12). But along with the fall came a ... (13) in the maple tree. Its green leaves began to ... (14) red and yellow. So everyone said, “How beautiful ... (15)!” The maple tree was glad to hear it and she became ... (16) and vain. She spread out her branches so far that a little pine close by was almost hidden from ... (17). “It doesn’t matter,” said the maple, “No one cares to look at him, he is ... (18) plain little tree.” The pine heard the unkind words and sighed. Just then a cold wind passed and said, “Why do you sigh, little pine?” The pine replied, “I sigh because the maple is so ... (19) beautiful than I am.” The wind felt sorry for him and whispered, “Only wait!” In a few days the leaves of the maple tree turned brown and fell to the ground. When the snow came, there was but one bright cheerful spot in the whole park, the brave pine with the needles ... (20) they were when they first came out.",
+    "choices": [
+      "scene",
+      "sight",
+      "scenery",
+      "look"
+    ],
+    "answer": 1,
+    "steps": [
+      "Ветки клёна разрослись так, что маленькую сосну почти перестали видеть. Сочетание начинается с hidden from.",
+      "Hidden from sight означает «скрытый из виду». Подходит sight."
+    ]
+  },
+  {
+    "title": "What the Maple Says",
+    "question": "Which words fit gap (18)?",
+    "context": "Read the text and fill in the most suitable word\n\nOnce, a beautiful maple tree grew in the centre of a large park. All summer it was ... (11) with green leaves. Many people sat on the green grass under it and enjoyed its cool ... (12). But along with the fall came a ... (13) in the maple tree. Its green leaves began to ... (14) red and yellow. So everyone said, “How beautiful ... (15)!” The maple tree was glad to hear it and she became ... (16) and vain. She spread out her branches so far that a little pine close by was almost hidden from ... (17). “It doesn’t matter,” said the maple, “No one cares to look at him, he is ... (18) plain little tree.” The pine heard the unkind words and sighed. Just then a cold wind passed and said, “Why do you sigh, little pine?” The pine replied, “I sigh because the maple is so ... (19) beautiful than I am.” The wind felt sorry for him and whispered, “Only wait!” In a few days the leaves of the maple tree turned brown and fell to the ground. When the snow came, there was but one bright cheerful spot in the whole park, the brave pine with the needles ... (20) they were when they first came out.",
+    "choices": [
+      "so",
+      "such",
+      "such a",
+      "so a"
+    ],
+    "answer": 2,
+    "steps": [
+      "После пропуска идёт plain little tree. Важно, что tree — исчисляемое существительное в единственном числе.",
+      "Чтобы усилить характеристику, используем such a перед прилагательными и существительным: «such a plain little tree»."
+    ]
+  },
+  {
+    "title": "Comparing Two Trees",
+    "question": "Which words fit gap (19)?",
+    "context": "Read the text and fill in the most suitable word\n\nOnce, a beautiful maple tree grew in the centre of a large park. All summer it was ... (11) with green leaves. Many people sat on the green grass under it and enjoyed its cool ... (12). But along with the fall came a ... (13) in the maple tree. Its green leaves began to ... (14) red and yellow. So everyone said, “How beautiful ... (15)!” The maple tree was glad to hear it and she became ... (16) and vain. She spread out her branches so far that a little pine close by was almost hidden from ... (17). “It doesn’t matter,” said the maple, “No one cares to look at him, he is ... (18) plain little tree.” The pine heard the unkind words and sighed. Just then a cold wind passed and said, “Why do you sigh, little pine?” The pine replied, “I sigh because the maple is so ... (19) beautiful than I am.” The wind felt sorry for him and whispered, “Only wait!” In a few days the leaves of the maple tree turned brown and fell to the ground. When the snow came, there was but one bright cheerful spot in the whole park, the brave pine with the needles ... (20) they were when they first came out.",
+    "choices": [
+      "much",
+      "more",
+      "the most",
+      "much more"
+    ],
+    "answer": 3,
+    "steps": [
+      "Сосна сравнивает клён с собой: после beautiful стоит than. Сравнительная степень здесь образуется с more.",
+      "Перед пропуском уже есть so. Чтобы усилить сравнительную степень, говорим so much more beautiful — «намного красивее»."
+    ]
+  },
+  {
+    "title": "The Pine’s Needles",
+    "question": "Which words fit gap (20)?",
+    "context": "Read the text and fill in the most suitable word\n\nOnce, a beautiful maple tree grew in the centre of a large park. All summer it was ... (11) with green leaves. Many people sat on the green grass under it and enjoyed its cool ... (12). But along with the fall came a ... (13) in the maple tree. Its green leaves began to ... (14) red and yellow. So everyone said, “How beautiful ... (15)!” The maple tree was glad to hear it and she became ... (16) and vain. She spread out her branches so far that a little pine close by was almost hidden from ... (17). “It doesn’t matter,” said the maple, “No one cares to look at him, he is ... (18) plain little tree.” The pine heard the unkind words and sighed. Just then a cold wind passed and said, “Why do you sigh, little pine?” The pine replied, “I sigh because the maple is so ... (19) beautiful than I am.” The wind felt sorry for him and whispered, “Only wait!” In a few days the leaves of the maple tree turned brown and fell to the ground. When the snow came, there was but one bright cheerful spot in the whole park, the brave pine with the needles ... (20) they were when they first came out.",
+    "choices": [
+      "so green",
+      "as green as",
+      "green as",
+      "such green"
+    ],
+    "answer": 1,
+    "steps": [
+      "Сравнивается цвет иголок сейчас и при их появлении. По смыслу он остался таким же.",
+      "Равенство выражает as + прилагательное + as: «as green as they were when they first came out»."
+    ]
+  },
+  {
+    "title": "Comparing Heights",
+    "question": "Complete the comparison with a verb after than: She is taller … .",
+    "context": "Fill in the gaps",
+    "choices": [
+      "than he",
+      "him",
+      "than he is",
+      "than his"
+    ],
+    "answer": 2,
+    "steps": [
+      "Taller — сравнительная степень. Вопрос просит закончить сравнение полной конструкцией, где после than стоят подлежащее и глагол.",
+      "Это than he is. В этой фразе is выражен явно."
+    ],
+    "reviewedEdition": true
+  },
+  {
+    "title": "A New Phone Number",
+    "question": "She had to have her phone number ... because she was receiving obscene calls.",
+    "context": "Fill in the gaps",
+    "choices": [
+      "change",
+      "changed",
+      "to change",
+      "will change"
+    ],
+    "answer": 1,
+    "steps": [
+      "Смысл в том, что номер должны были поменять по её просьбе. Номер является объектом действия.",
+      "В обороте have something done после объекта ставится третья форма глагола: «have her phone number changed»."
+    ]
+  },
+  {
+    "title": "A Change of Mind",
+    "question": "... the end, he agreed with his mother.",
+    "context": "Fill in the gaps",
+    "choices": [
+      "At",
+      "About",
+      "In",
+      "On"
+    ],
+    "answer": 2,
+    "steps": [
+      "Речь об окончательном результате, к которому он пришёл. Фраза означает «в конце концов».",
+      "Устойчивое выражение — in the end. At the end обычно указывает на конец конкретного периода или события."
+    ]
+  },
+  {
+    "title": "Traffic Habits",
+    "question": "Many drivers avoid ... in traffic.",
+    "context": "Fill in the gaps",
+    "choices": [
+      "to drive",
+      "drive",
+      "driving",
+      "drove"
+    ],
+    "answer": 2,
+    "steps": [
+      "Avoid значит «избегать». В задании нужно назвать действие, которого водители стараются избегать.",
+      "После avoid глагол принимает форму на -ing. Получаем «avoid driving in traffic»."
+    ]
+  },
+  {
+    "title": "A Tag with I Am",
+    "question": "I am so smart, ... ?",
+    "context": "Fill in the gaps",
+    "choices": [
+      "am I",
+      "are you",
+      "am not I",
+      "aren’t I"
+    ],
+    "answer": 3,
+    "steps": [
+      "Утвердительное I am требует отрицательной вопросительной концовки. Для первого лица здесь есть особая форма.",
+      "Обычная концовка — aren’t I? Получаем «I am so smart, aren’t I?»"
+    ]
+  },
+  {
+    "title": "Pictures and Names",
+    "question": "Match the pictures ... the names, please.",
+    "context": "Fill in the gaps",
+    "choices": [
+      "with",
+      "at",
+      "on",
+      "into"
+    ],
+    "answer": 0,
+    "steps": [
+      "Match в этой фразе значит «сопоставить». Предлог связывает две группы предметов.",
+      "Подходит match the pictures with the names — «сопоставьте картинки с названиями»."
+    ]
+  },
+  {
+    "title": "A Traffic Warning",
+    "question": "Mind the traffic, ... you?",
+    "context": "Fill in the gaps",
+    "choices": [
+      "do",
+      "did",
+      "have",
+      "will"
+    ],
+    "answer": 3,
+    "steps": [
+      "Mind the traffic — предупреждение, оформленное как повелительное предложение. Оно допускает короткую вопросительную концовку.",
+      "После повелительного предложения естественно звучит will you?: «Mind the traffic, will you?»"
+    ]
+  },
+  {
+    "title": "A Request About Behaviour",
+    "question": "Can you make your son ... more agreeable?",
+    "context": "Fill in the gaps",
+    "choices": [
+      "to be",
+      "being",
+      "be",
+      "was"
+    ],
+    "answer": 2,
+    "steps": [
+      "Make здесь означает «заставить». После make указан тот, кого побуждают к действию, your son.",
+      "В активной конструкции make someone do после объекта нужен инфинитив без to. Выбираем be."
+    ]
+  },
+  {
+    "title": "Tennis Before the Illness",
+    "question": "Before he became ill, he ... play tennis every morning.",
+    "context": "Fill in the gaps",
+    "choices": [
+      "got used",
+      "was used",
+      "used",
+      "used to"
+    ],
+    "answer": 3,
+    "steps": [
+      "Every morning описывает прошлую привычку. После пропуска идёт начальная форма play.",
+      "Прошлую привычку выражаем used to + инфинитив: «he used to play tennis»."
+    ]
+  },
+  {
+    "title": "Looking Up",
+    "question": "She ... her head and didn’t look up at me.",
+    "context": "Fill in the gaps",
+    "choices": [
+      "didn’t raise",
+      "didn’t rise",
+      "didn’t rose",
+      "rose"
+    ],
+    "answer": 0,
+    "steps": [
+      "Her head — прямое дополнение. Raise означает «поднимать что-либо», тогда как rise — «подниматься» и прямого дополнения не требует.",
+      "После didn’t берём начальную форму raise. Получаем «She didn’t raise her head»."
+    ]
+  },
+  {
+    "title": "Friday Before Thursday",
+    "question": "Where does Friday come before Thursday?",
+    "context": "Guess the riddles",
+    "choices": [
+      "In the timetable",
+      "In the school diary",
+      "In the calendar",
+      "In the dictionary"
+    ],
+    "answer": 3,
+    "steps": [
+      "В календаре четверг идёт раньше пятницы. В загадке нужен порядок, который определяется буквами названий.",
+      "В словаре F идёт раньше T. Поэтому Friday там стоит перед Thursday."
+    ]
+  },
+  {
+    "title": "A Harmless Fall",
+    "question": "What often falls and never gets hurt?",
+    "context": "Guess the riddles",
+    "choices": [
+      "Mood",
+      "A skater",
+      "A clumsy man",
+      "Snow"
+    ],
+    "answer": 3,
+    "steps": [
+      "Falls может описывать падение живого существа или осадков. Gets hurt означает «получает травму».",
+      "В выражении snow falls речь о снеге. Снег падает, но не может ушибиться."
+    ]
+  },
+  {
+    "title": "Something Speech Breaks",
+    "question": "Everyone breaks me whenever they speak. What am I?",
+    "context": "Guess the riddles",
+    "choices": [
+      "Privacy",
+      "Rumours",
+      "Secret",
+      "Silence"
+    ],
+    "answer": 3,
+    "steps": [
+      "Break может означать «нарушать», а не только «ломать». Подумай, что исчезает, когда начинается разговор.",
+      "Устойчивое выражение break the silence — «нарушить тишину». Ответ Silence."
+    ],
+    "reviewedEdition": true
+  },
+  {
+    "title": "A Missing Head",
+    "question": "What loses its head in the morning and gets it back at night?",
+    "context": "Guess the riddles",
+    "choices": [
+      "Blanket",
+      "Couch potato",
+      "Sleepy head",
+      "Pillow"
+    ],
+    "answer": 3,
+    "steps": [
+      "Подумай о предмете, на котором ночью лежит голова. Утром человек встаёт, и голова с него исчезает.",
+      "Это подушка — pillow. Загадка шутливо говорит, будто подушка возвращает себе голову ночью."
+    ],
+    "reviewedEdition": true
+  },
+  {
+    "title": "Light and Shade",
+    "question": "I exist when there is light, but direct light kills me. What am I?",
+    "context": "Guess the riddles",
+    "choices": [
+      "Shadow",
+      "Day",
+      "Image",
+      "Imagination"
+    ],
+    "answer": 0,
+    "steps": [
+      "Чтобы появилась тень, свет должен падать на объект, который перекрывает его путь. За этим объектом остаётся тёмная область.",
+      "Если осветить саму тёмную область напрямую, тень исчезнет. Подходит Shadow."
+    ]
+  },
+  {
+    "title": "Something Falling Down",
+    "question": "What comes down but never goes up?",
+    "context": "Guess the riddles",
+    "choices": [
+      "Mood",
+      "Intuition",
+      "Clouds",
+      "Rain"
+    ],
+    "answer": 3,
+    "steps": [
+      "Come down может описывать падение осадков. Ищи предмет, который в этом значении движется сверху вниз.",
+      "Дождевые капли падают из облаков. Подходит Rain."
+    ]
+  },
+  {
+    "title": "Counting the Months",
+    "question": "How many months have 28 days?",
+    "context": "Guess the riddles",
+    "choices": [
+      "0",
+      "1",
+      "10",
+      "12"
+    ],
+    "answer": 3,
+    "steps": [
+      "Вопрос «have 28 days» не уточняет, должно ли в месяце быть ровно 28 дней.",
+      "В каждом месяце есть первые 28 дней. Поэтому ответ 12."
+    ]
+  },
+  {
+    "title": "Bark and Bite",
+    "question": "What has a bark but no bite?",
+    "context": "Guess the riddles",
+    "choices": [
+      "A tree",
+      "A dog",
+      "A cat",
+      "A flower"
+    ],
+    "answer": 0,
+    "steps": [
+      "У слова bark есть два значения: «лай» и «кора». Сопоставь второе значение с вариантами.",
+      "У дерева есть кора, а кусать оно не может. Это A tree."
+    ]
+  },
+  {
+    "title": "Something You Can Catch",
+    "question": "What can you catch but not throw?",
+    "context": "Guess the riddles",
+    "choices": [
+      "A ball",
+      "A balloon",
+      "A cold",
+      "Warm"
+    ],
+    "answer": 2,
+    "steps": [
+      "Catch может означать «ловить» предмет или «подхватить» болезнь. Мяч и воздушный шарик можно как ловить, так и бросать.",
+      "Catch a cold означает «простудиться». Ответ A cold."
+    ],
+    "reviewedEdition": true
+  },
+  {
+    "title": "A Corner That Travels",
+    "question": "What goes around the world without leaving its corner?",
+    "context": "Guess the riddles",
+    "choices": [
+      "A letter",
+      "An envelope",
+      "A post box",
+      "A stamp"
+    ],
+    "answer": 3,
+    "steps": [
+      "Представь письмо, которое отправили далеко. На конверте есть предмет, прикреплённый к одному углу.",
+      "Почтовая марка едет вместе с письмом и всё время остаётся в том же углу. Ответ A stamp."
+    ]
+  },
+  {
+    "title": "The Parliament’s Palace",
+    "question": "The British Parliament occupies the ... Palace.",
+    "context": "Do you know London?",
+    "choices": [
+      "Buckingham",
+      "Westminster",
+      "St James’s",
+      "Kensington"
+    ],
+    "answer": 1,
+    "steps": [
+      "В здании британского парламента заседают Палата общин и Палата лордов. Его часто называют Houses of Parliament.",
+      "Полное название здания — Palace of Westminster, Вестминстерский дворец. В пропуск ставим Westminster."
+    ]
+  },
+  {
+    "title": "The Museum of London",
+    "question": "The Museum of London is situated in this part of the city.",
+    "context": "Do you know London?",
+    "choices": [
+      "West End",
+      "The City",
+      "East End",
+      "Westminster"
+    ],
+    "answer": 1,
+    "steps": [
+      "Вопрос относится к прежнему зданию Museum of London на London Wall около Барбикана.",
+      "Оно находилось в Сити — The City. Посещение старого здания завершилось в декабре 2022 года, а для переоткрытия музей выбрал площадку в Смитфилде, также в Сити."
+    ]
+  },
+  {
+    "title": "The Maritime Museum",
+    "question": "One of the largest Maritime Museums in the world is situated in this part of the city.",
+    "context": "Do you know London?",
+    "choices": [
+      "Barbican Centre",
+      "Greenwich",
+      "Westminster",
+      "West End"
+    ],
+    "answer": 1,
+    "steps": [
+      "Maritime означает «морской». Вопрос о лондонском районе, где находится National Maritime Museum.",
+      "Этот музей расположен в Гринвиче — Greenwich."
+    ]
+  },
+  {
+    "title": "A Flag at the Residence",
+    "question": "The ... on the residence of the monarch means that the sovereign is in.",
+    "context": "Do you know London?",
+    "choices": [
+      "Union Jack",
+      "Royal Standard",
+      "Flag of England",
+      "Flag of Wales"
+    ],
+    "answer": 1,
+    "steps": [
+      "Sovereign здесь означает монарха. Вопрос спрашивает о флаге, который показывает его присутствие в резиденции.",
+      "В таком случае поднимают королевский штандарт — Royal Standard."
+    ]
+  },
+  {
+    "title": "A British Queen’s Family",
+    "question": "This British queen who lived in London was often called “The Grandmother of Europe.”",
+    "context": "Do you know London?",
+    "choices": [
+      "Mary",
+      "Victoria",
+      "Elizabeth I",
+      "Elizabeth II"
+    ],
+    "answer": 1,
+    "steps": [
+      "Прозвище «Бабушка Европы» связано с династическими браками детей и внуков британской королевы.",
+      "Речь о королеве Виктории. Её потомки вошли во многие королевские семьи Европы."
+    ]
+  }
+]

@@ -1,0 +1,106 @@
+{
+  "source": "tasks.pdf",
+  "coordinateUnit": "rendered-pixel",
+  "renderScale": 2.75,
+  "crops": [
+    {
+      "page": 0,
+      "box": [
+        865,
+        288,
+        1503,
+        1026
+      ],
+      "file": "workers.webp",
+      "tasks": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "page": 0,
+      "box": [
+        2006,
+        796,
+        2260,
+        1039
+      ],
+      "file": "elephant.webp",
+      "tasks": [
+        16
+      ]
+    },
+    {
+      "page": 0,
+      "box": [
+        2025,
+        1060,
+        2219,
+        1326
+      ],
+      "file": "fox.webp",
+      "tasks": [
+        17
+      ]
+    },
+    {
+      "page": 0,
+      "box": [
+        2012,
+        1336,
+        2257,
+        1569
+      ],
+      "file": "zebra.webp",
+      "tasks": [
+        18
+      ]
+    },
+    {
+      "page": 1,
+      "box": [
+        417,
+        131,
+        755,
+        351
+      ],
+      "file": "wolf.webp",
+      "tasks": [
+        19
+      ]
+    },
+    {
+      "page": 1,
+      "box": [
+        459,
+        380,
+        717,
+        632
+      ],
+      "file": "pig.webp",
+      "tasks": [
+        20
+      ]
+    },
+    {
+      "page": 1,
+      "box": [
+        849,
+        223,
+        1543,
+        744
+      ],
+      "file": "living-room.webp",
+      "tasks": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ]
+    }
+  ]
+}

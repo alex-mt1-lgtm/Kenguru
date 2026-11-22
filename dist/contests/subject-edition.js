@@ -16,9 +16,12 @@ globalThis.makeSubjectEdition = function (meta, rows) {
     });
     return {
       title, question, choices, language, context, guided: true, hideIntroText: true,
-      skill: contest, answer: row.answer ?? null, points: row.points ?? meta.points,
-      ...(Number.isInteger(numericAnswer) ? {numericAnswer, questionNote: 'В тренировочном рейтинге за эту задачу баллы не начисляются.'} : {}),
-      ...(audio ? {audio: folder + 'listening.mp3'} : {}),
+      skill: contest, answer: row.answer ?? null,
+      points: row.points ?? meta.points,
+      ...(row.adaptation ? {questionNote: row.adaptation} : {}),
+      ...(row.number ? {number: row.number} : {}),
+      ...(Number.isInteger(numericAnswer) ? {numericAnswer} : {}),
+      ...(audio ? {audio: folder + (meta.listeningFile ?? 'listening.mp3')} : {}),
       ...(figure || optionFigures ? {choiceLayout: {condition: figure, options},
         choiceImages: options.map(option => option.image),
         ...(figure ? {conditionImage: figure.src, conditionAlt: figure.alt} : {})} : {}),
@@ -31,8 +34,21 @@ globalThis.makeSubjectEdition = function (meta, rows) {
       ],
     };
   });
+  for (const group of meta.matchingGroups ?? []) {
+    const parts = lessons.slice(group.start - 1, group.start - 1 + group.count);
+    if (parts.length !== group.count || parts.some(part => !part.conditionImage ||
+        JSON.stringify(part.choices) !== JSON.stringify(parts[0].choices))) throw new Error('Incomplete matching group ' + group.title);
+    const steps = [
+      ['Выбор', 'Условие задачи', ''],
+      ...parts.map((part, index) => ['Рисунок ' + (index + 1), part.title,
+        part.steps.slice(1, -1).map(step => step[2]).join(' ')]),
+      ['Ответ', 'Все пары', ''],
+    ];
+    for (const part of parts) Object.assign(part, {matching: group, title: group.title, question: group.question, steps});
+  }
   return {
-    id: year + '-' + subject + '-' + grade, year, grades, label: grades.join('–') + ' классы',
+    id: [year, subject, meta.session, grade, meta.editionSuffix].filter(Boolean).join('-'), year, grades,
+    label: grades.join('–') + (grades.length === 1 ? ' класс' : ' классы') + (meta.sessionTitle ? ' · ' + meta.sessionTitle : '') + (meta.editionLabel ? ' · ' + meta.editionLabel : ''),
     ...(meta.sections ? {sections: meta.sections} : {}),
     ...(meta.titleLanguage ? {titleLanguage: meta.titleLanguage} : {}),
     subject, answerLetters: [...letters], sources: {

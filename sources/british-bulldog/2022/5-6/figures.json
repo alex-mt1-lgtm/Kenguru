@@ -1,0 +1,25 @@
+{
+  "source": "tasks.pdf",
+  "coordinateUnit": "rendered-pixel",
+  "renderScale": 2.7,
+  "crops": [
+    {
+      "page": 1,
+      "box": [
+        835,
+        410,
+        1483,
+        846
+      ],
+      "file": "seaside.webp",
+      "tasks": [
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "alt": "An illustrated scene of people in the sea and on the shore."
+    }
+  ]
+}

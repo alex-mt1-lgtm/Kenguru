@@ -1,0 +1,1034 @@
+[
+  {
+    "title": "Swimming Days",
+    "question": "When did Hannah go swimming? On … .",
+    "context": "Listen to the dialogue and answer the questions",
+    "choices": [
+      "Monday",
+      "Thursday and Saturday",
+      "Tuesday",
+      "Friday and Sunday"
+    ],
+    "answer": 3,
+    "steps": [
+      "В первом ответе Ханна перечисляет два дня, когда ходила плавать. Второй день вводится словами «and again».",
+      "Она говорит «on Friday and again on Sunday». Подходит Friday and Sunday."
+    ],
+    "audio": true
+  },
+  {
+    "title": "The Department Store",
+    "question": "When did she go to the department store? On … .",
+    "context": "Listen to the dialogue and answer the questions",
+    "choices": [
+      "Friday",
+      "Saturday",
+      "Sunday",
+      "Monday"
+    ],
+    "answer": 1,
+    "steps": [
+      "После рассказа о плавании Ханна называет день посещения нового универмага.",
+      "Фраза начинается с «On Saturday». Ханна ездила туда в субботу."
+    ],
+    "audio": true
+  },
+  {
+    "title": "Where the Shop Is",
+    "question": "Where is the shop? Near the … .",
+    "context": "Listen to the dialogue and answer the questions",
+    "choices": [
+      "airport",
+      "hotel",
+      "bank",
+      "bus station"
+    ],
+    "answer": 3,
+    "steps": [
+      "Ханна объясняет, как пройти по Queen Street и West Street. После этого она называет ориентир «Not far from …».",
+      "Ориентир — автовокзал на Broad Street. Ответ bus station."
+    ],
+    "audio": true
+  },
+  {
+    "title": "Getting to the Shop",
+    "question": "How did Hannah get to the shop? By … .",
+    "context": "Listen to the dialogue and answer the questions",
+    "choices": [
+      "car",
+      "bus",
+      "train",
+      "taxi"
+    ],
+    "answer": 0,
+    "steps": [
+      "Собеседница спрашивает про автобус. Ханна отвечает «My mother drove me» и сравнивает поездку с более дорогим поездом.",
+      "Ханну отвезла мама на машине. Подходит car."
+    ],
+    "audio": true
+  },
+  {
+    "title": "Trying on Clothes",
+    "question": "What did she try on? A … .",
+    "context": "Listen to the dialogue and answer the questions",
+    "choices": [
+      "skirt",
+      "shirt",
+      "blouse",
+      "jacket"
+    ],
+    "answer": 0,
+    "steps": [
+      "В записи Ханна говорит «I tried on a sweater and a skirt». Потом отдельно рассказывает о купленном платье.",
+      "Из двух примеренных вещей в вариантах есть skirt, «юбка»."
+    ],
+    "audio": true
+  },
+  {
+    "title": "The Cost of the Dress",
+    "question": "How much did the dress cost?",
+    "context": "Listen to the dialogue and answer the questions",
+    "choices": [
+      "£35",
+      "£25",
+      "£65",
+      "£60"
+    ],
+    "answer": 0,
+    "steps": [
+      "После слов о покупке Ханна называет цену платья. Позже она говорит, какую сумму получила и сколько у неё осталось.",
+      "«It was only 35 pounds» — «Оно стоило всего 35 фунтов». Ответ £35."
+    ],
+    "audio": true
+  },
+  {
+    "title": "Money from Hannah’s Mother",
+    "question": "How much money did mother give her?",
+    "context": "Listen to the dialogue and answer the questions",
+    "choices": [
+      "£35",
+      "£25",
+      "£65",
+      "£60"
+    ],
+    "answer": 3,
+    "steps": [
+      "Найди фразу с «My mother gave me». Речь о деньгах, которые Ханна получила на день рождения.",
+      "Мама дала ей £60. Из них £35 ушло на платье, £25 осталось."
+    ],
+    "audio": true
+  },
+  {
+    "title": "Hannah’s Jacket",
+    "question": "What colour was Hannah’s jacket?",
+    "context": "Listen to the dialogue and answer the questions",
+    "choices": [
+      "Green",
+      "Black",
+      "Blue",
+      "Brown"
+    ],
+    "answer": 0,
+    "steps": [
+      "Black и blue относятся к платьям. Цвет куртки звучит в вопросе после «Can you wear it with your … jacket?».",
+      "Собеседница называет green jacket. Куртка зелёная — Green."
+    ],
+    "audio": true
+  },
+  {
+    "title": "Choosing a Dress",
+    "question": "Why did she buy a black dress but not a blue one? It … .",
+    "context": "Listen to the dialogue and answer the questions",
+    "choices": [
+      "fitted her",
+      "suited her",
+      "was long",
+      "matched her jacket"
+    ],
+    "answer": 3,
+    "steps": [
+      "Оба цвета были нужного размера. Ханна объясняет выбор сочетанием платья с другой вещью.",
+      "«The black one was better with the green jacket» — чёрное платье лучше подходило к зелёной куртке. Ответ matched her jacket."
+    ],
+    "audio": true
+  },
+  {
+    "title": "A Plan for Tomorrow",
+    "question": "What did Hannah’s friend ask her to do? To … the next day.",
+    "context": "Listen to the dialogue and answer the questions",
+    "choices": [
+      "wash it",
+      "iron it",
+      "put it on",
+      "try it on"
+    ],
+    "answer": 2,
+    "steps": [
+      "Последняя просьба в разговоре — «Wear it tomorrow». It обозначает купленное платье.",
+      "Подруга попросила Ханну надеть платье на следующий день. Выбираем put it on."
+    ],
+    "audio": true
+  },
+  {
+    "title": "Where Joe Saw an Ad",
+    "question": "Where did Joe see an ad for a new theme park? On … .",
+    "context": "Read the conversation and answer the questions\n\n– While I was watching television I saw an advertisement for a new theme park.\n– Really? Tell me about it.\n– It’s called The Haunted Garden and it has lots of spooky rides. It’s in the grounds of a castle that was built in the sixteenth century. The great thing about it is that it’s open at night so you can go on all the rides in the dark.\n– That sounds really cool! I have never been on a roller coaster in the dark before!\n– Me neither. When my dad gets home I’m going to ask him if we can go there for my birthday.\n– Good idea. I’ve forgotten – when is your birthday?\n– It’s next month, on the nineteenth.\n– Oh no! I’ll be away on holiday. We’re going to Rome. I wish I could go to your party.\n– Never mind. Perhaps we could go to The Haunted Garden the following week when you get back.\n– Thanks, Joe.",
+    "choices": [
+      "TV",
+      "an iPad",
+      "the radio",
+      "the phone"
+    ],
+    "answer": 0,
+    "steps": [
+      "Джо начинает беседу словами «While I was watching television». Во время этого занятия он увидел рекламу.",
+      "Он увидел рекламу по телевидению — on TV."
+    ]
+  },
+  {
+    "title": "The Park’s Location",
+    "question": "Where is the park situated?",
+    "context": "Read the conversation and answer the questions\n\n– While I was watching television I saw an advertisement for a new theme park.\n– Really? Tell me about it.\n– It’s called The Haunted Garden and it has lots of spooky rides. It’s in the grounds of a castle that was built in the sixteenth century. The great thing about it is that it’s open at night so you can go on all the rides in the dark.\n– That sounds really cool! I have never been on a roller coaster in the dark before!\n– Me neither. When my dad gets home I’m going to ask him if we can go there for my birthday.\n– Good idea. I’ve forgotten – when is your birthday?\n– It’s next month, on the nineteenth.\n– Oh no! I’ll be away on holiday. We’re going to Rome. I wish I could go to your party.\n– Never mind. Perhaps we could go to The Haunted Garden the following week when you get back.\n– Thanks, Joe.",
+    "choices": [
+      "In the country",
+      "In the city centre",
+      "In Rome",
+      "In the grounds of the castle"
+    ],
+    "answer": 3,
+    "steps": [
+      "После названия The Haunted Garden Джо говорит, где находится парк. Rome упоминается позже как место отпуска друга.",
+      "«In the grounds of a castle» означает «на территории замка». Подходит D."
+    ]
+  },
+  {
+    "title": "A Sixteenth-Century Site",
+    "question": "What was built in the sixteenth century? The … .",
+    "context": "Read the conversation and answer the questions\n\n– While I was watching television I saw an advertisement for a new theme park.\n– Really? Tell me about it.\n– It’s called The Haunted Garden and it has lots of spooky rides. It’s in the grounds of a castle that was built in the sixteenth century. The great thing about it is that it’s open at night so you can go on all the rides in the dark.\n– That sounds really cool! I have never been on a roller coaster in the dark before!\n– Me neither. When my dad gets home I’m going to ask him if we can go there for my birthday.\n– Good idea. I’ve forgotten – when is your birthday?\n– It’s next month, on the nineteenth.\n– Oh no! I’ll be away on holiday. We’re going to Rome. I wish I could go to your party.\n– Never mind. Perhaps we could go to The Haunted Garden the following week when you get back.\n– Thanks, Joe.",
+    "choices": [
+      "mill",
+      "mansion",
+      "castle",
+      "roller coaster"
+    ],
+    "answer": 2,
+    "steps": [
+      "В предложении «a castle that was built in the sixteenth century» определи, какое слово поясняет придаточная часть с that.",
+      "Она поясняет castle. В шестнадцатом веке построили замок."
+    ]
+  },
+  {
+    "title": "The Park’s Rides",
+    "question": "What kind of rides can the boys go on?",
+    "context": "Read the conversation and answer the questions\n\n– While I was watching television I saw an advertisement for a new theme park.\n– Really? Tell me about it.\n– It’s called The Haunted Garden and it has lots of spooky rides. It’s in the grounds of a castle that was built in the sixteenth century. The great thing about it is that it’s open at night so you can go on all the rides in the dark.\n– That sounds really cool! I have never been on a roller coaster in the dark before!\n– Me neither. When my dad gets home I’m going to ask him if we can go there for my birthday.\n– Good idea. I’ve forgotten – when is your birthday?\n– It’s next month, on the nineteenth.\n– Oh no! I’ll be away on holiday. We’re going to Rome. I wish I could go to your party.\n– Never mind. Perhaps we could go to The Haunted Garden the following week when you get back.\n– Thanks, Joe.",
+    "choices": [
+      "Scary",
+      "Romantic",
+      "Relaxed",
+      "Comforting"
+    ],
+    "answer": 0,
+    "steps": [
+      "Парк называется The Haunted Garden, а аттракционы — spooky rides. Слово spooky описывает то, что вызывает страх.",
+      "Из вариантов подходит Scary, «страшные»."
+    ]
+  },
+  {
+    "title": "A Talk about the Birthday",
+    "question": "Who is Joe going to speak to about his birthday? His … .",
+    "context": "Read the conversation and answer the questions\n\n– While I was watching television I saw an advertisement for a new theme park.\n– Really? Tell me about it.\n– It’s called The Haunted Garden and it has lots of spooky rides. It’s in the grounds of a castle that was built in the sixteenth century. The great thing about it is that it’s open at night so you can go on all the rides in the dark.\n– That sounds really cool! I have never been on a roller coaster in the dark before!\n– Me neither. When my dad gets home I’m going to ask him if we can go there for my birthday.\n– Good idea. I’ve forgotten – when is your birthday?\n– It’s next month, on the nineteenth.\n– Oh no! I’ll be away on holiday. We’re going to Rome. I wish I could go to your party.\n– Never mind. Perhaps we could go to The Haunted Garden the following week when you get back.\n– Thanks, Joe.",
+    "choices": [
+      "brother",
+      "mother",
+      "friend",
+      "father"
+    ],
+    "answer": 3,
+    "steps": [
+      "После слов «When my dad gets home» Джо говорит «I’m going to ask him». Найди, к кому относится him.",
+      "Джо собирается спросить папу, можно ли поехать в парк. Ответ father."
+    ]
+  },
+  {
+    "title": "Joe’s Birthday Plan",
+    "question": "What does Joe want to do on his birthday? To go to the … .",
+    "context": "Read the conversation and answer the questions\n\n– While I was watching television I saw an advertisement for a new theme park.\n– Really? Tell me about it.\n– It’s called The Haunted Garden and it has lots of spooky rides. It’s in the grounds of a castle that was built in the sixteenth century. The great thing about it is that it’s open at night so you can go on all the rides in the dark.\n– That sounds really cool! I have never been on a roller coaster in the dark before!\n– Me neither. When my dad gets home I’m going to ask him if we can go there for my birthday.\n– Good idea. I’ve forgotten – when is your birthday?\n– It’s next month, on the nineteenth.\n– Oh no! I’ll be away on holiday. We’re going to Rome. I wish I could go to your party.\n– Never mind. Perhaps we could go to The Haunted Garden the following week when you get back.\n– Thanks, Joe.",
+    "choices": [
+      "mansion",
+      "theme park at night",
+      "museum",
+      "beach"
+    ],
+    "answer": 1,
+    "steps": [
+      "Джо описывает парк, где можно кататься в темноте, и хочет попросить разрешения поехать туда на день рождения.",
+      "Его план — ночное посещение парка аттракционов, theme park at night."
+    ]
+  },
+  {
+    "title": "The Birthday Date",
+    "question": "When is his birthday? On the … .",
+    "context": "Read the conversation and answer the questions\n\n– While I was watching television I saw an advertisement for a new theme park.\n– Really? Tell me about it.\n– It’s called The Haunted Garden and it has lots of spooky rides. It’s in the grounds of a castle that was built in the sixteenth century. The great thing about it is that it’s open at night so you can go on all the rides in the dark.\n– That sounds really cool! I have never been on a roller coaster in the dark before!\n– Me neither. When my dad gets home I’m going to ask him if we can go there for my birthday.\n– Good idea. I’ve forgotten – when is your birthday?\n– It’s next month, on the nineteenth.\n– Oh no! I’ll be away on holiday. We’re going to Rome. I wish I could go to your party.\n– Never mind. Perhaps we could go to The Haunted Garden the following week when you get back.\n– Thanks, Joe.",
+    "choices": [
+      "18th",
+      "17th",
+      "19th",
+      "16th"
+    ],
+    "answer": 2,
+    "steps": [
+      "После вопроса «When is your birthday?» Джо сначала называет месяц, а затем число словами.",
+      "«On the nineteenth» означает «девятнадцатого». Выбираем 19th."
+    ]
+  },
+  {
+    "title": "A Friend’s Reaction",
+    "question": "Joe’s friend can’t be at the party. How does he feel?",
+    "context": "Read the conversation and answer the questions\n\n– While I was watching television I saw an advertisement for a new theme park.\n– Really? Tell me about it.\n– It’s called The Haunted Garden and it has lots of spooky rides. It’s in the grounds of a castle that was built in the sixteenth century. The great thing about it is that it’s open at night so you can go on all the rides in the dark.\n– That sounds really cool! I have never been on a roller coaster in the dark before!\n– Me neither. When my dad gets home I’m going to ask him if we can go there for my birthday.\n– Good idea. I’ve forgotten – when is your birthday?\n– It’s next month, on the nineteenth.\n– Oh no! I’ll be away on holiday. We’re going to Rome. I wish I could go to your party.\n– Never mind. Perhaps we could go to The Haunted Garden the following week when you get back.\n– Thanks, Joe.",
+    "choices": [
+      "Happy",
+      "Unhappy",
+      "Unusual",
+      "Pleased"
+    ],
+    "answer": 1,
+    "steps": [
+      "Друг восклицает «Oh no!» и объясняет, что уезжает. Затем говорит «I wish I could go to your party».",
+      "Он сожалеет, что пропустит праздник. Подходит Unhappy."
+    ]
+  },
+  {
+    "title": "The Friend’s Destination",
+    "question": "Where will Joe’s friend be on that day?",
+    "context": "Read the conversation and answer the questions\n\n– While I was watching television I saw an advertisement for a new theme park.\n– Really? Tell me about it.\n– It’s called The Haunted Garden and it has lots of spooky rides. It’s in the grounds of a castle that was built in the sixteenth century. The great thing about it is that it’s open at night so you can go on all the rides in the dark.\n– That sounds really cool! I have never been on a roller coaster in the dark before!\n– Me neither. When my dad gets home I’m going to ask him if we can go there for my birthday.\n– Good idea. I’ve forgotten – when is your birthday?\n– It’s next month, on the nineteenth.\n– Oh no! I’ll be away on holiday. We’re going to Rome. I wish I could go to your party.\n– Never mind. Perhaps we could go to The Haunted Garden the following week when you get back.\n– Thanks, Joe.",
+    "choices": [
+      "At home",
+      "In the park",
+      "In Rome",
+      "At school"
+    ],
+    "answer": 2,
+    "steps": [
+      "Ответ следует за обещанием «I’ll be away on holiday». Друг называет место предстоящей поездки.",
+      "«We’re going to Rome» означает, что друг будет в Риме. Ответ In Rome."
+    ]
+  },
+  {
+    "title": "The Birthday Celebration",
+    "question": "Whose birthday are they going to celebrate?",
+    "context": "Read the conversation and answer the questions\n\n– While I was watching television I saw an advertisement for a new theme park.\n– Really? Tell me about it.\n– It’s called The Haunted Garden and it has lots of spooky rides. It’s in the grounds of a castle that was built in the sixteenth century. The great thing about it is that it’s open at night so you can go on all the rides in the dark.\n– That sounds really cool! I have never been on a roller coaster in the dark before!\n– Me neither. When my dad gets home I’m going to ask him if we can go there for my birthday.\n– Good idea. I’ve forgotten – when is your birthday?\n– It’s next month, on the nineteenth.\n– Oh no! I’ll be away on holiday. We’re going to Rome. I wish I could go to your party.\n– Never mind. Perhaps we could go to The Haunted Garden the following week when you get back.\n– Thanks, Joe.",
+    "choices": [
+      "Joe’s",
+      "Joe’s friend’s",
+      "His brother’s",
+      "His father’s"
+    ],
+    "answer": 0,
+    "steps": [
+      "Фразу «my birthday» произносит тот, кто хочет попросить отца отвезти его в The Haunted Garden. Друг затем обращается к нему по имени.",
+      "День рождения у Джо. Для ответа на whose нужна форма Joe’s."
+    ]
+  },
+  {
+    "title": "Health and Wealth",
+    "question": "Health is … than wealth.",
+    "context": "Choose the correct variant",
+    "choices": [
+      "importanter",
+      "more important",
+      "important",
+      "least important"
+    ],
+    "answer": 1,
+    "steps": [
+      "Слово than вводит сравнение между здоровьем и богатством. Для длинного прилагательного important сравнительную степень образует more.",
+      "Получается «Health is more important than wealth»."
+    ]
+  },
+  {
+    "title": "Two Handwriting Samples",
+    "question": "My brother’s handwriting is … than mine.",
+    "context": "Choose the correct variant",
+    "choices": [
+      "worst",
+      "bad",
+      "worse",
+      "the worse"
+    ],
+    "answer": 2,
+    "steps": [
+      "Сравнивается почерк двух людей. У bad форма сравнительной степени образуется особым образом.",
+      "Это worse. Полная фраза «My brother’s handwriting is worse than mine»."
+    ]
+  },
+  {
+    "title": "Blood and Water",
+    "question": "Blood is … than water.",
+    "context": "Choose the correct variant",
+    "choices": [
+      "thick",
+      "more thicker",
+      "thicker",
+      "less thick"
+    ],
+    "answer": 2,
+    "steps": [
+      "Устойчивое английское выражение говорит о том, что семейные связи особенно важны. Для thick сравнительную степень обычно образует -er.",
+      "Пословица звучит «Blood is thicker than water». Выбираем thicker."
+    ]
+  },
+  {
+    "title": "A Mountain Peak",
+    "question": "Everest is … peak in the world.",
+    "context": "Choose the correct variant",
+    "choices": [
+      "highest",
+      "high",
+      "higher",
+      "the highest"
+    ],
+    "answer": 3,
+    "steps": [
+      "Эверест сопоставляется со всеми вершинами мира. Нужна превосходная степень прилагательного high перед словом peak.",
+      "Правильный оборот «the highest peak in the world»."
+    ]
+  },
+  {
+    "title": "Susie and Her Sisters",
+    "question": "Susie is … of all the four sisters.",
+    "context": "Choose the correct variant",
+    "choices": [
+      "beautiful",
+      "less beautiful",
+      "the most beautiful",
+      "more beautiful"
+    ],
+    "answer": 2,
+    "steps": [
+      "Оборот «of all the four sisters» задаёт сравнение внутри всей группы. Для beautiful превосходная степень строится с most.",
+      "С артиклем получаем «the most beautiful of all the four sisters»."
+    ]
+  },
+  {
+    "title": "Distance from Earth",
+    "question": "Mars is … from the Earth than the Moon.",
+    "context": "Choose the correct variant",
+    "choices": [
+      "farer",
+      "far",
+      "further",
+      "the furthest"
+    ],
+    "answer": 2,
+    "steps": [
+      "Than сравнивает расстояния до Марса и до Луны. Для far ищи предложенную сравнительную форму.",
+      "Подходит further. В этом значении возможна и форма farther, которой среди вариантов нет."
+    ]
+  },
+  {
+    "title": "Elephants and Size",
+    "question": "The elephant is one of … animals in the world.",
+    "context": "Choose the correct variant",
+    "choices": [
+      "a large",
+      "larger",
+      "largest",
+      "the largest"
+    ],
+    "answer": 3,
+    "steps": [
+      "Модель one of the + превосходная степень + существительное во множественном числе обозначает одного представителя группы.",
+      "Правильно «one of the largest animals in the world»."
+    ]
+  },
+  {
+    "title": "Cricket and Football",
+    "question": "I am … in cricket than in football.",
+    "context": "Choose the correct variant",
+    "choices": [
+      "interesting",
+      "most interested",
+      "interested",
+      "more interested"
+    ],
+    "answer": 3,
+    "steps": [
+      "Говорящий описывает свой интерес, поэтому нужно interested in. Than показывает, что требуется сравнение.",
+      "Получается «I am more interested in cricket than in football»."
+    ]
+  },
+  {
+    "title": "Ranking the Mona Lisa",
+    "question": "The Mona Lisa is one of … paintings in the world.",
+    "context": "Choose the correct variant",
+    "choices": [
+      "famous",
+      "more famous",
+      "the most",
+      "the most famous"
+    ],
+    "answer": 3,
+    "steps": [
+      "После one of нужно назвать группу наиболее известных картин. У famous превосходная степень строится с most.",
+      "Полная конструкция «one of the most famous paintings in the world»."
+    ]
+  },
+  {
+    "title": "Today and Yesterday",
+    "question": "Do you feel … today than yesterday?",
+    "context": "Choose the correct variant",
+    "choices": [
+      "the best",
+      "better",
+      "most better",
+      "more better"
+    ],
+    "answer": 1,
+    "steps": [
+      "Today than yesterday сравнивает самочувствие в два дня. Для good и well есть неправильная сравнительная форма.",
+      "Выбираем better. Дополнительное more в этом случае не требуется."
+    ]
+  },
+  {
+    "title": "Christmas Day",
+    "question": "I saw them … Christmas day.",
+    "context": "Fill in the correct prepositions if necessary",
+    "choices": [
+      "on",
+      "at",
+      "in",
+      "about"
+    ],
+    "answer": 0,
+    "steps": [
+      "Christmas day обозначает конкретный день. Для дат и дней недели в выражениях времени нужен соответствующий предлог.",
+      "Здесь on: «I saw them on Christmas day»."
+    ]
+  },
+  {
+    "title": "A Ball in a Box",
+    "question": "Which preposition means “surrounded by” in the sentence “The ball was in the box, … four toys”?",
+    "context": "Fill in the correct prepositions if necessary",
+    "choices": [
+      "adjacent",
+      "through",
+      "among",
+      "besides"
+    ],
+    "answer": 2,
+    "steps": [
+      "Нужно выразить именно положение мяча среди других предметов. Слово surrounded означает, что игрушки находятся со всех сторон.",
+      "Among означает «среди». Besides означает «помимо» и передаёт добавление к списку."
+    ],
+    "reviewedEdition": true
+  },
+  {
+    "title": "Playing Football",
+    "question": "He enjoys playing … football.",
+    "context": "Fill in the correct prepositions if necessary",
+    "choices": [
+      "in",
+      "with",
+      "at",
+      "No preposition"
+    ],
+    "answer": 3,
+    "steps": [
+      "Названия игр и видов спорта часто становятся прямым дополнением глагола play. Football — один из таких случаев.",
+      "Оборот пишется play football. Выбираем No preposition."
+    ]
+  },
+  {
+    "title": "Last Week’s Visit",
+    "question": "I went to the theatre … last week.",
+    "context": "Fill in the correct prepositions if necessary",
+    "choices": [
+      "in",
+      "at",
+      "on",
+      "No preposition"
+    ],
+    "answer": 3,
+    "steps": [
+      "Перед обстоятельством времени last week предлог обычно не ставят. Last уже указывает, какая именно неделя имеется в виду.",
+      "Правильно «I went to the theatre last week». Ответ No preposition."
+    ]
+  },
+  {
+    "title": "A Picture of a Castle",
+    "question": "I can see a castle … the picture.",
+    "context": "Fill in the correct prepositions if necessary",
+    "choices": [
+      "in",
+      "on",
+      "between",
+      "about"
+    ],
+    "answer": 0,
+    "steps": [
+      "Замок — часть изображения, а не предмет на его физической поверхности. В английском для элементов изображения используется in.",
+      "Правильно «a castle in the picture»."
+    ]
+  },
+  {
+    "title": "Listening and Music",
+    "question": "Ann likes listening … music.",
+    "context": "Fill in the correct prepositions if necessary",
+    "choices": [
+      "at",
+      "around",
+      "to",
+      "No preposition"
+    ],
+    "answer": 2,
+    "steps": [
+      "Когда listen означает «внимательно слушать», предмет или источник звука вводит предлог.",
+      "Устойчивое сочетание listen to music. Выбираем to."
+    ]
+  },
+  {
+    "title": "Next Year’s Visit",
+    "question": "My friend promised to visit me … next year.",
+    "context": "Fill in the correct prepositions if necessary",
+    "choices": [
+      "at",
+      "on",
+      "in",
+      "No preposition"
+    ],
+    "answer": 3,
+    "steps": [
+      "Next year — готовое обстоятельство времени. Next сам связывает этот год с моментом речи.",
+      "Получается «promised to visit me next year» без предлога. Ответ No preposition."
+    ]
+  },
+  {
+    "title": "Sunday Walks",
+    "question": "They like walking in the park … Sundays.",
+    "context": "Fill in the correct prepositions if necessary",
+    "choices": [
+      "in",
+      "on",
+      "at",
+      "with"
+    ],
+    "answer": 1,
+    "steps": [
+      "Дни недели во множественном числе здесь показывают, что действие повторяется. Предлог остаётся тем же, что у отдельного дня.",
+      "Правильно «on Sundays», то есть «по воскресеньям»."
+    ]
+  },
+  {
+    "title": "An Hour from Now",
+    "question": "He will stop doing homework … an hour.",
+    "context": "Fill in the correct prepositions if necessary",
+    "choices": [
+      "since",
+      "at",
+      "in",
+      "on"
+    ],
+    "answer": 2,
+    "steps": [
+      "Он закончит через час. Нужно выражение будущего момента после определённого промежутка.",
+      "«In an hour» означает «через час». Выбираем in."
+    ]
+  },
+  {
+    "title": "Granny’s Birthday",
+    "question": "He congratulated Granny … her birthday.",
+    "context": "Fill in the correct prepositions if necessary",
+    "choices": [
+      "with",
+      "to",
+      "on",
+      "in"
+    ],
+    "answer": 2,
+    "steps": [
+      "После congratulate somebody повод выражают отдельным предлогом. Здесь повод — her birthday.",
+      "Устойчивый оборот «congratulate Granny on her birthday». Ответ on."
+    ]
+  },
+  {
+    "title": "Summer Sports",
+    "question": "This summer camp is for those who are keen on sports and games.",
+    "context": "Read the camp notices and choose the best camp for each description",
+    "choices": [
+      "The camp is near the lake",
+      "Children’s theatre at the camp",
+      "Beautiful Scottish countryside",
+      "Sport games & activities"
+    ],
+    "answer": 3,
+    "steps": [
+      "Найди предложение про спортивные игры и проверь, что оно действует летом. Нужны оба признака.",
+      "В объявлении D перечислены volleyball, tennis, golf и другие игры, а срок — «All summer»."
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2017/5-6/camp-notices.webp",
+      "alt": "Four camp notices. A is a camp near the lake offering swimming, scuba diving, canoeing, dances and films for ages 12 to 14 in June or July. B has drama, music, art and crafts for ages 7 to 9 in autumn and spring. C is in the Scottish countryside with skiing, skating and hockey for ages 10 to 12 all winter. D offers climbing, volleyball, tennis, golf and other games for ages 14 to 15 all summer.",
+      "width": 1296,
+      "height": 1733
+    }
+  },
+  {
+    "title": "Music and Theatre",
+    "question": "For those who want to learn more about music and theatre.",
+    "context": "Read the camp notices and choose the best camp for each description",
+    "choices": [
+      "The camp is near the lake",
+      "Children’s theatre at the camp",
+      "Beautiful Scottish countryside",
+      "Sport games & activities"
+    ],
+    "answer": 1,
+    "steps": [
+      "Ищи объявление, где одновременно есть музыка и занятия сценическим искусством. Drama означает театральные занятия.",
+      "В списке B стоят «drama, music, art, crafts». Подходит B."
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2017/5-6/camp-notices.webp",
+      "alt": "Four camp notices. A is a camp near the lake offering swimming, scuba diving, canoeing, dances and films for ages 12 to 14 in June or July. B has drama, music, art and crafts for ages 7 to 9 in autumn and spring. C is in the Scottish countryside with skiing, skating and hockey for ages 10 to 12 all winter. D offers climbing, volleyball, tennis, golf and other games for ages 14 to 15 all summer.",
+      "width": 1296,
+      "height": 1733
+    }
+  },
+  {
+    "title": "Water Sports",
+    "question": "You can enjoy various water sports here.",
+    "context": "Read the camp notices and choose the best camp for each description",
+    "choices": [
+      "The camp is near the lake",
+      "Children’s theatre at the camp",
+      "Beautiful Scottish countryside",
+      "Sport games & activities"
+    ],
+    "answer": 0,
+    "steps": [
+      "Выдели водные занятия в объявлениях. Swimming — плавание, scuba diving — погружение с аквалангом, canoeing — гребля на каноэ.",
+      "Все три занятия указаны в объявлении A о лагере у озера."
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2017/5-6/camp-notices.webp",
+      "alt": "Four camp notices. A is a camp near the lake offering swimming, scuba diving, canoeing, dances and films for ages 12 to 14 in June or July. B has drama, music, art and crafts for ages 7 to 9 in autumn and spring. C is in the Scottish countryside with skiing, skating and hockey for ages 10 to 12 all winter. D offers climbing, volleyball, tennis, golf and other games for ages 14 to 15 all summer.",
+      "width": 1296,
+      "height": 1733
+    }
+  },
+  {
+    "title": "Winter Holidays",
+    "question": "You can enjoy your winter holidays at the camp.",
+    "context": "Read the camp notices and choose the best camp for each description",
+    "choices": [
+      "The camp is near the lake",
+      "Children’s theatre at the camp",
+      "Beautiful Scottish countryside",
+      "Sport games & activities"
+    ],
+    "answer": 2,
+    "steps": [
+      "Главный ориентир — winter holidays. В нижней части каждого объявления указан сезон.",
+      "В объявлении C написано «All winter». Значит, этот лагерь подходит для зимних каникул."
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2017/5-6/camp-notices.webp",
+      "alt": "Four camp notices. A is a camp near the lake offering swimming, scuba diving, canoeing, dances and films for ages 12 to 14 in June or July. B has drama, music, art and crafts for ages 7 to 9 in autumn and spring. C is in the Scottish countryside with skiing, skating and hockey for ages 10 to 12 all winter. D offers climbing, volleyball, tennis, golf and other games for ages 14 to 15 all summer.",
+      "width": 1296,
+      "height": 1733
+    }
+  },
+  {
+    "title": "Developing Painting Skills",
+    "question": "You can develop your skills in painting here.",
+    "context": "Read the camp notices and choose the best camp for each description",
+    "choices": [
+      "The camp is near the lake",
+      "Children’s theatre at the camp",
+      "Beautiful Scottish countryside",
+      "Sport games & activities"
+    ],
+    "answer": 1,
+    "steps": [
+      "Painting относится к изобразительному искусству. Ищи среди занятий слова art и crafts.",
+      "Они указаны в объявлении B. Этот лагерь лучше всего подходит для развития навыков рисования."
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2017/5-6/camp-notices.webp",
+      "alt": "Four camp notices. A is a camp near the lake offering swimming, scuba diving, canoeing, dances and films for ages 12 to 14 in June or July. B has drama, music, art and crafts for ages 7 to 9 in autumn and spring. C is in the Scottish countryside with skiing, skating and hockey for ages 10 to 12 all winter. D offers climbing, volleyball, tennis, golf and other games for ages 14 to 15 all summer.",
+      "width": 1296,
+      "height": 1733
+    }
+  },
+  {
+    "title": "Skis and a Hockey Stick",
+    "question": "You can take your own skis and a hockey stick with you.",
+    "context": "Read the camp notices and choose the best camp for each description",
+    "choices": [
+      "The camp is near the lake",
+      "Children’s theatre at the camp",
+      "Beautiful Scottish countryside",
+      "Sport games & activities"
+    ],
+    "answer": 2,
+    "steps": [
+      "Лыжи и хоккейная клюшка пригодятся, если в лагере можно кататься на лыжах и играть в хоккей.",
+      "Оба занятия перечислены в C: «ski, skate and play hockey»."
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2017/5-6/camp-notices.webp",
+      "alt": "Four camp notices. A is a camp near the lake offering swimming, scuba diving, canoeing, dances and films for ages 12 to 14 in June or July. B has drama, music, art and crafts for ages 7 to 9 in autumn and spring. C is in the Scottish countryside with skiing, skating and hockey for ages 10 to 12 all winter. D offers climbing, volleyball, tennis, golf and other games for ages 14 to 15 all summer.",
+      "width": 1296,
+      "height": 1733
+    }
+  },
+  {
+    "title": "Climbing for Teenagers",
+    "question": "If you are fourteen or fifteen you can enjoy climbing walls and games here.",
+    "context": "Read the camp notices and choose the best camp for each description",
+    "choices": [
+      "The camp is near the lake",
+      "Children’s theatre at the camp",
+      "Beautiful Scottish countryside",
+      "Sport games & activities"
+    ],
+    "answer": 3,
+    "steps": [
+      "Проверь два признака: возраст 14–15 и наличие скалодромов. Название climbing walls ищи в основном тексте объявления.",
+      "Оба признака есть в D: «Climbing walls» и «For ages 14 to 15»."
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2017/5-6/camp-notices.webp",
+      "alt": "Four camp notices. A is a camp near the lake offering swimming, scuba diving, canoeing, dances and films for ages 12 to 14 in June or July. B has drama, music, art and crafts for ages 7 to 9 in autumn and spring. C is in the Scottish countryside with skiing, skating and hockey for ages 10 to 12 all winter. D offers climbing, volleyball, tennis, golf and other games for ages 14 to 15 all summer.",
+      "width": 1296,
+      "height": 1733
+    }
+  },
+  {
+    "title": "A Chance to Visit Scotland",
+    "question": "It’s a chance to visit Scotland.",
+    "context": "Read the camp notices and choose the best camp for each description",
+    "choices": [
+      "The camp is near the lake",
+      "Children’s theatre at the camp",
+      "Beautiful Scottish countryside",
+      "Sport games & activities"
+    ],
+    "answer": 2,
+    "steps": [
+      "Смотри на заголовки объявлений. Scottish означает «шотландский», а countryside — сельская местность.",
+      "Шотландская местность названа в C: «Beautiful Scottish countryside»."
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2017/5-6/camp-notices.webp",
+      "alt": "Four camp notices. A is a camp near the lake offering swimming, scuba diving, canoeing, dances and films for ages 12 to 14 in June or July. B has drama, music, art and crafts for ages 7 to 9 in autumn and spring. C is in the Scottish countryside with skiing, skating and hockey for ages 10 to 12 all winter. D offers climbing, volleyball, tennis, golf and other games for ages 14 to 15 all summer.",
+      "width": 1296,
+      "height": 1733
+    }
+  },
+  {
+    "title": "Learning to Swim",
+    "question": "This camp is suited to those who want to learn to swim.",
+    "context": "Read the camp notices and choose the best camp for each description",
+    "choices": [
+      "The camp is near the lake",
+      "Children’s theatre at the camp",
+      "Beautiful Scottish countryside",
+      "Sport games & activities"
+    ],
+    "answer": 0,
+    "steps": [
+      "По условию нужны занятия плаванием. Найди слово swimming в списках того, чем занимаются дети.",
+      "Плавание стоит первым в объявлении A, о лагере у озера."
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2017/5-6/camp-notices.webp",
+      "alt": "Four camp notices. A is a camp near the lake offering swimming, scuba diving, canoeing, dances and films for ages 12 to 14 in June or July. B has drama, music, art and crafts for ages 7 to 9 in autumn and spring. C is in the Scottish countryside with skiing, skating and hockey for ages 10 to 12 all winter. D offers climbing, volleyball, tennis, golf and other games for ages 14 to 15 all summer.",
+      "width": 1296,
+      "height": 1733
+    }
+  },
+  {
+    "title": "Autumn Holidays",
+    "question": "If you don’t know where to spend the autumn holidays, come here.",
+    "context": "Read the camp notices and choose the best camp for each description",
+    "choices": [
+      "The camp is near the lake",
+      "Children’s theatre at the camp",
+      "Beautiful Scottish countryside",
+      "Sport games & activities"
+    ],
+    "answer": 1,
+    "steps": [
+      "Слово autumn означает «осень». Сезон указан внизу каждого объявления.",
+      "«Autumn & Spring» напечатано в B. Этот лагерь работает осенью."
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2017/5-6/camp-notices.webp",
+      "alt": "Four camp notices. A is a camp near the lake offering swimming, scuba diving, canoeing, dances and films for ages 12 to 14 in June or July. B has drama, music, art and crafts for ages 7 to 9 in autumn and spring. C is in the Scottish countryside with skiing, skating and hockey for ages 10 to 12 all winter. D offers climbing, volleyball, tennis, golf and other games for ages 14 to 15 all summer.",
+      "width": 1296,
+      "height": 1733
+    }
+  },
+  {
+    "title": "England’s Symbol",
+    "question": "The rose is the it symbol of England.",
+    "context": "Find the unnecessary word in the sentence",
+    "choices": [
+      "of",
+      "is",
+      "it",
+      "England"
+    ],
+    "answer": 2,
+    "steps": [
+      "Найди основную конструкцию: «The rose is the symbol of England». Между the и symbol не требуется отдельное местоимение.",
+      "Убери it. Остальные слова образуют грамматически правильное предложение."
+    ]
+  },
+  {
+    "title": "Robin Hood in the Forest",
+    "question": "Robin Hood was hunted deer in Sherwood Forest.",
+    "context": "Find the unnecessary word in the sentence",
+    "choices": [
+      "Forest",
+      "in",
+      "deer",
+      "was"
+    ],
+    "answer": 3,
+    "steps": [
+      "Робин Гуд в этой фразе сам охотился. Для простого прошедшего времени правильный глагол hunted употребляется без вспомогательного was.",
+      "После удаления was получается «Robin Hood hunted deer in Sherwood Forest»."
+    ]
+  },
+  {
+    "title": "Scots and an Invasion",
+    "question": "Thistles saved the very Scots from invasion.",
+    "context": "Find the unnecessary word in the sentence",
+    "choices": [
+      "Scots",
+      "from",
+      "very",
+      "saved"
+    ],
+    "answer": 2,
+    "steps": [
+      "Каркас фразы «Thistles saved the Scots from invasion». Very обычно усиливает прилагательное, а здесь стоит перед названием народа.",
+      "Убираем very. Получается предложение о легенде, в которой чертополох спас шотландцев от вторжения."
+    ]
+  },
+  {
+    "title": "Birds at the Tower",
+    "question": "People can’t imagine the Tower without ravens yet.",
+    "context": "Find the unnecessary word in the sentence",
+    "choices": [
+      "ravens",
+      "yet",
+      "People",
+      "without"
+    ],
+    "answer": 1,
+    "steps": [
+      "Здесь выражено общее представление о Тауэре и воронах. Yet добавило бы ограничение по времени «пока ещё».",
+      "Для общей мысли убери yet: «People can’t imagine the Tower without ravens»."
+    ]
+  },
+  {
+    "title": "Snakes in Ireland",
+    "question": "You don’t see because snakes in Ireland.",
+    "context": "Find the unnecessary word in the sentence",
+    "choices": [
+      "do",
+      "in",
+      "snakes",
+      "because"
+    ],
+    "answer": 3,
+    "steps": [
+      "В основной мысли see имеет прямое дополнение snakes. Because должно вводить причину, а здесь причинная часть предложения отсутствует.",
+      "Убираем because: «You don’t see snakes in Ireland»."
+    ]
+  },
+  {
+    "title": "A Christmas Dish",
+    "question": "Turkey is the traditional plate food at Christmas in the USA.",
+    "context": "Find the unnecessary word in the sentence",
+    "choices": [
+      "at",
+      "Turkey",
+      "plate",
+      "food"
+    ],
+    "answer": 2,
+    "steps": [
+      "Сочетание traditional food уже означает «традиционное блюдо». Plate, «тарелка», мешает этому словосочетанию.",
+      "Удаляем plate. Получается «Turkey is the traditional food at Christmas in the USA»."
+    ]
+  },
+  {
+    "title": "A Valentine’s Day Bird",
+    "question": "The dove is white one of the symbols of St Valentine’s Day.",
+    "context": "Find the unnecessary word in the sentence",
+    "choices": [
+      "Day",
+      "one",
+      "of",
+      "white"
+    ],
+    "answer": 3,
+    "steps": [
+      "После is нужна группа «one of the symbols», одно из нескольких обозначений. White нарушает порядок слов в этой группе.",
+      "Убираем white: «The dove is one of the symbols of St Valentine’s Day»."
+    ]
+  },
+  {
+    "title": "A Trafalgar Square Monument",
+    "question": "The statues of lions are near the monument there to Admiral Nelson in Trafalgar Square.",
+    "context": "Find the unnecessary word in the sentence",
+    "choices": [
+      "near",
+      "there",
+      "statues",
+      "to"
+    ],
+    "answer": 1,
+    "steps": [
+      "Устойчивый оборот «a monument to somebody» обозначает памятник кому-либо. Здесь внутрь оборота вставлено наречие места.",
+      "Убираем there. Оборот «the monument to Admiral Nelson» снова читается целиком."
+    ]
+  },
+  {
+    "title": "The War’s Symbols",
+    "question": "The symbols are of the war between two royal houses were red and white roses.",
+    "context": "Find the unnecessary word in the sentence",
+    "choices": [
+      "are",
+      "white",
+      "were",
+      "roses"
+    ],
+    "answer": 0,
+    "steps": [
+      "Подлежащее — «The symbols of the war between two royal houses». Затем следует сказуемое were.",
+      "Удаляем лишнее are внутри подлежащего. Фраза завершается словами «were red and white roses»."
+    ]
+  },
+  {
+    "title": "A Zoo in London",
+    "question": "London Zoo opened to the there public in 1847.",
+    "context": "Find the unnecessary word in the sentence",
+    "choices": [
+      "London",
+      "public",
+      "there",
+      "opened"
+    ],
+    "answer": 2,
+    "steps": [
+      "Слова the public образуют группу «публика». Между артиклем и существительным затесалось there.",
+      "Удали there: «London Zoo opened to the public in 1847». Лондонский зоопарк начал принимать широкую публику в 1847 году."
+    ],
+    "reviewedEdition": true
+  }
+]

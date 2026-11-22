@@ -1,0 +1,1033 @@
+[
+  {
+    "title": "The Boy’s Name",
+    "question": "What’s the boy’s name?",
+    "context": "Listen to the dialogue and answer the questions",
+    "choices": [
+      "Mark",
+      "Andrew",
+      "Dan",
+      "Robert"
+    ],
+    "answer": 3,
+    "steps": [
+      "Прислушайся к первому обращению девочки сразу после приветствия.",
+      "Она говорит «Hi, Robert». Мальчика зовут Robert."
+    ],
+    "audio": true
+  },
+  {
+    "title": "The Boy’s Purchase",
+    "question": "What is the boy going to buy?",
+    "context": "Listen to the dialogue and answer the questions",
+    "choices": [
+      "A camera",
+      "An MP3 player",
+      "A portable computer",
+      "A printer"
+    ],
+    "answer": 2,
+    "steps": [
+      "В первой реплике девочка упоминает модель MX-60. Мальчик объясняет, что будет делать на ней школьные задания.",
+      "В записи это laptop, то есть переносной компьютер — A portable computer."
+    ],
+    "audio": true
+  },
+  {
+    "title": "The Girl’s Wish",
+    "question": "What would the girl like to have?",
+    "context": "Listen to the dialogue and answer the questions",
+    "choices": [
+      "A camera",
+      "An MP3 player",
+      "A portable computer",
+      "A printer"
+    ],
+    "answer": 2,
+    "steps": [
+      "После слов о ноутбуке MX-60 девочка говорит «I’d like one too». Определи, к какому предмету относится one.",
+      "Она тоже хотела бы ноутбук. Из вариантов подходит A portable computer."
+    ],
+    "audio": true
+  },
+  {
+    "title": "Where to Buy It",
+    "question": "Where is the boy going to buy the gadget?",
+    "context": "Listen to the dialogue and answer the questions",
+    "choices": [
+      "At a flea market",
+      "In a shop",
+      "On line",
+      "From his friend"
+    ],
+    "answer": 1,
+    "steps": [
+      "Мальчик сравнивает цену в интернете и в компьютерном магазине. В магазине та же модель дешевле.",
+      "«I’ll go and get mine there» относится к магазину. Выбираем In a shop."
+    ],
+    "audio": true
+  },
+  {
+    "title": "Price of the Gadget",
+    "question": "How much does the gadget cost?",
+    "context": "Listen to the dialogue and answer the questions",
+    "choices": [
+      "£60",
+      "£345",
+      "£225",
+      "£295"
+    ],
+    "answer": 3,
+    "steps": [
+      "Слушай числа после вопроса «How much is it?». £345 — прежняя цена, а актуальную вводят слова «But now».",
+      "Сейчас ноутбук стоит £295."
+    ],
+    "audio": true
+  },
+  {
+    "title": "Money Already Saved",
+    "question": "How much money does the boy have?",
+    "context": "Listen to the dialogue and answer the questions",
+    "choices": [
+      "£60",
+      "£345",
+      "£225",
+      "£295"
+    ],
+    "answer": 2,
+    "steps": [
+      "Вслед за ценой ноутбука Роберт называет сумму, которую уже собрал. Её вводят слова «I’ve already got».",
+      "У него есть £225."
+    ],
+    "audio": true
+  },
+  {
+    "title": "Money for the Purchase",
+    "question": "How is the boy going to get the money he lacks?",
+    "context": "Listen to the dialogue and answer the questions",
+    "choices": [
+      "To save",
+      "To borrow from his cousin",
+      "To find",
+      "To win the lottery"
+    ],
+    "answer": 1,
+    "steps": [
+      "Роберту нужны деньги сейчас. Слушай, кто, по его словам, собирается одолжить недостающую сумму.",
+      "«My cousin’s going to lend it to me» означает, что он займёт у двоюродного брата — To borrow from his cousin."
+    ],
+    "audio": true
+  },
+  {
+    "title": "Paying the Money Back",
+    "question": "What will the boy do to return the money? He will … .",
+    "context": "Listen to the dialogue and answer the questions",
+    "choices": [
+      "help at home",
+      "work as a waiter",
+      "do nothing",
+      "win the lottery"
+    ],
+    "answer": 0,
+    "steps": [
+      "Отличи, кто даст деньги взаймы, от того, как Роберт заработает на возврат долга. Папа заплатит ему за покраску кухни.",
+      "Покраска кухни — помощь по дому. Подходит help at home."
+    ],
+    "audio": true
+  },
+  {
+    "title": "Colour of the Gadget",
+    "question": "Which colour of the gadget does the boy want to choose?",
+    "context": "Listen to the dialogue and answer the questions",
+    "choices": [
+      "Blue",
+      "Black",
+      "White",
+      "Pink"
+    ],
+    "answer": 2,
+    "steps": [
+      "Мальчик называет несколько доступных цветов. Его личный выбор следует сразу за «I want».",
+      "Он говорит «I want a white one». Выбираем White."
+    ],
+    "audio": true
+  },
+  {
+    "title": "A Free Gift",
+    "question": "Which free gift is the boy going to get?",
+    "context": "Listen to the dialogue and answer the questions",
+    "choices": [
+      "A camera",
+      "An MP3 player",
+      "A Laptop",
+      "A printer"
+    ],
+    "answer": 3,
+    "steps": [
+      "К покупке можно получить камеру, проигрыватель или принтер. Слушай, какой предмет Роберт считает более полезным.",
+      "Он говорит «A printer’s more useful» и выбирает принтер — A printer."
+    ],
+    "audio": true
+  },
+  {
+    "title": "A Programme on TV",
+    "question": "What kind of programme did the boy watch on TV?",
+    "context": "Read the text and answer the questions\n\nDear Tony,\n\nI am writing this letter to tell you about my latest idea for our club. Last night I watched an exciting programme on TV. It was a documentary about dolphins and whales. I liked the part about whales. They are such wonderful creatures! Among other things they said that whales are in danger of extinction. I thought it was terrible, but at the end of the programme they said we could save them by adopting a whale! You send a sum of money twice a year and you get information about your whale. The sum of money is a bit high but I thought that if all members took part, our club could adopt a whale. Now I would like to know your opinion.\n\nWrite to me as soon as possible.\nBye for now,\nBob",
+    "choices": [
+      "A news",
+      "A sport",
+      "A biographical",
+      "A documentary"
+    ],
+    "answer": 3,
+    "steps": [
+      "Боб рассказывает об интересной телепередаче и сразу уточняет её жанр.",
+      "В письме написано «It was a documentary». Ответ A documentary."
+    ]
+  },
+  {
+    "title": "The Programme’s Topic",
+    "question": "What was the programme about?",
+    "context": "Read the text and answer the questions\n\nDear Tony,\n\nI am writing this letter to tell you about my latest idea for our club. Last night I watched an exciting programme on TV. It was a documentary about dolphins and whales. I liked the part about whales. They are such wonderful creatures! Among other things they said that whales are in danger of extinction. I thought it was terrible, but at the end of the programme they said we could save them by adopting a whale! You send a sum of money twice a year and you get information about your whale. The sum of money is a bit high but I thought that if all members took part, our club could adopt a whale. Now I would like to know your opinion.\n\nWrite to me as soon as possible.\nBye for now,\nBob",
+    "choices": [
+      "Insects",
+      "Domestic animals",
+      "Birds",
+      "Sea animals"
+    ],
+    "answer": 3,
+    "steps": [
+      "Найди фразу «about dolphins and whales». О каких животных говорится в передаче?",
+      "Дельфины и киты — морские животные, Sea animals."
+    ]
+  },
+  {
+    "title": "The Best Part",
+    "question": "Which part of the programme did the boy enjoy? The part about … .",
+    "context": "Read the text and answer the questions\n\nDear Tony,\n\nI am writing this letter to tell you about my latest idea for our club. Last night I watched an exciting programme on TV. It was a documentary about dolphins and whales. I liked the part about whales. They are such wonderful creatures! Among other things they said that whales are in danger of extinction. I thought it was terrible, but at the end of the programme they said we could save them by adopting a whale! You send a sum of money twice a year and you get information about your whale. The sum of money is a bit high but I thought that if all members took part, our club could adopt a whale. Now I would like to know your opinion.\n\nWrite to me as soon as possible.\nBye for now,\nBob",
+    "choices": [
+      "birds",
+      "dolphins",
+      "insects",
+      "whales"
+    ],
+    "answer": 3,
+    "steps": [
+      "Тема передачи шире, чем любимая часть Боба. Ищи предложение, начинающееся с «I liked».",
+      "Он пишет «I liked the part about whales». Выбираем whales."
+    ]
+  },
+  {
+    "title": "What Could Happen?",
+    "question": "What could happen to the whales? They could … .",
+    "context": "Read the text and answer the questions\n\nDear Tony,\n\nI am writing this letter to tell you about my latest idea for our club. Last night I watched an exciting programme on TV. It was a documentary about dolphins and whales. I liked the part about whales. They are such wonderful creatures! Among other things they said that whales are in danger of extinction. I thought it was terrible, but at the end of the programme they said we could save them by adopting a whale! You send a sum of money twice a year and you get information about your whale. The sum of money is a bit high but I thought that if all members took part, our club could adopt a whale. Now I would like to know your opinion.\n\nWrite to me as soon as possible.\nBye for now,\nBob",
+    "choices": [
+      "be ill",
+      "not play",
+      "be hungry",
+      "disappear"
+    ],
+    "answer": 3,
+    "steps": [
+      "В передаче сказали, что китам грозит extinction — вымирание.",
+      "Если вид вымрет, он исчезнет. Подходит глагол disappear."
+    ]
+  },
+  {
+    "title": "The Presenter’s Idea",
+    "question": "What did the TV presenter offer to do? To … the whales.",
+    "context": "Read the text and answer the questions\n\nDear Tony,\n\nI am writing this letter to tell you about my latest idea for our club. Last night I watched an exciting programme on TV. It was a documentary about dolphins and whales. I liked the part about whales. They are such wonderful creatures! Among other things they said that whales are in danger of extinction. I thought it was terrible, but at the end of the programme they said we could save them by adopting a whale! You send a sum of money twice a year and you get information about your whale. The sum of money is a bit high but I thought that if all members took part, our club could adopt a whale. Now I would like to know your opinion.\n\nWrite to me as soon as possible.\nBye for now,\nBob",
+    "choices": [
+      "feed",
+      "buy",
+      "help save",
+      "ignore"
+    ],
+    "answer": 2,
+    "steps": [
+      "В финале передачи объяснили, как зрители могут помочь. Предлагалось символически взять кита под опеку.",
+      "Цель программы опеки — помочь спасти китов. Выбираем help save."
+    ]
+  },
+  {
+    "title": "How Often to Pay",
+    "question": "How often are the people supposed to transfer money?",
+    "context": "Read the text and answer the questions\n\nDear Tony,\n\nI am writing this letter to tell you about my latest idea for our club. Last night I watched an exciting programme on TV. It was a documentary about dolphins and whales. I liked the part about whales. They are such wonderful creatures! Among other things they said that whales are in danger of extinction. I thought it was terrible, but at the end of the programme they said we could save them by adopting a whale! You send a sum of money twice a year and you get information about your whale. The sum of money is a bit high but I thought that if all members took part, our club could adopt a whale. Now I would like to know your opinion.\n\nWrite to me as soon as possible.\nBye for now,\nBob",
+    "choices": [
+      "Once a month",
+      "Two times a month",
+      "Once a year",
+      "Two times a year"
+    ],
+    "answer": 3,
+    "steps": [
+      "В письме описана схема опеки. Найди выражение с частотой после «You send a sum of money».",
+      "«Twice a year» означает два раза в год. Ответ Two times a year."
+    ]
+  },
+  {
+    "title": "The Club’s Role",
+    "question": "What was the boy’s idea? To … .",
+    "context": "Read the text and answer the questions\n\nDear Tony,\n\nI am writing this letter to tell you about my latest idea for our club. Last night I watched an exciting programme on TV. It was a documentary about dolphins and whales. I liked the part about whales. They are such wonderful creatures! Among other things they said that whales are in danger of extinction. I thought it was terrible, but at the end of the programme they said we could save them by adopting a whale! You send a sum of money twice a year and you get information about your whale. The sum of money is a bit high but I thought that if all members took part, our club could adopt a whale. Now I would like to know your opinion.\n\nWrite to me as soon as possible.\nBye for now,\nBob",
+    "choices": [
+      "get information about money",
+      "make a lot of money",
+      "collect money from the club",
+      "send money individually"
+    ],
+    "answer": 2,
+    "steps": [
+      "Сумма кажется Бобу высокой. Он думает, что клуб сможет взять кита под опеку, если все его участники внесут свой вклад.",
+      "Его идея — собрать деньги у членов клуба, collect money from the club."
+    ]
+  },
+  {
+    "title": "What to Write About",
+    "question": "What does the boy ask his friend to write about? His … .",
+    "context": "Read the text and answer the questions\n\nDear Tony,\n\nI am writing this letter to tell you about my latest idea for our club. Last night I watched an exciting programme on TV. It was a documentary about dolphins and whales. I liked the part about whales. They are such wonderful creatures! Among other things they said that whales are in danger of extinction. I thought it was terrible, but at the end of the programme they said we could save them by adopting a whale! You send a sum of money twice a year and you get information about your whale. The sum of money is a bit high but I thought that if all members took part, our club could adopt a whale. Now I would like to know your opinion.\n\nWrite to me as soon as possible.\nBye for now,\nBob",
+    "choices": [
+      "dream",
+      "approval",
+      "disapproval",
+      "point of view"
+    ],
+    "answer": 3,
+    "steps": [
+      "В конце Боб просит «I would like to know your opinion». Друг может согласиться или возразить.",
+      "Opinion — мнение, то есть point of view."
+    ]
+  },
+  {
+    "title": "A Letter to a Friend",
+    "question": "Who is the boy writing the letter to? To … .",
+    "context": "Read the text and answer the questions\n\nDear Tony,\n\nI am writing this letter to tell you about my latest idea for our club. Last night I watched an exciting programme on TV. It was a documentary about dolphins and whales. I liked the part about whales. They are such wonderful creatures! Among other things they said that whales are in danger of extinction. I thought it was terrible, but at the end of the programme they said we could save them by adopting a whale! You send a sum of money twice a year and you get information about your whale. The sum of money is a bit high but I thought that if all members took part, our club could adopt a whale. Now I would like to know your opinion.\n\nWrite to me as soon as possible.\nBye for now,\nBob",
+    "choices": [
+      "Tony",
+      "Bob",
+      "the teacher",
+      "the TV presenter"
+    ],
+    "answer": 0,
+    "steps": [
+      "Посмотри на обращение в начале письма и на подпись в конце.",
+      "«Dear Tony» — обращение к адресату. Bob подписал письмо как отправитель. Ответ Tony."
+    ]
+  },
+  {
+    "title": "A Sum of Money",
+    "question": "What does “the sum of money is a bit high” mean? It means … money.",
+    "context": "Read the text and answer the questions\n\nDear Tony,\n\nI am writing this letter to tell you about my latest idea for our club. Last night I watched an exciting programme on TV. It was a documentary about dolphins and whales. I liked the part about whales. They are such wonderful creatures! Among other things they said that whales are in danger of extinction. I thought it was terrible, but at the end of the programme they said we could save them by adopting a whale! You send a sum of money twice a year and you get information about your whale. The sum of money is a bit high but I thought that if all members took part, our club could adopt a whale. Now I would like to know your opinion.\n\nWrite to me as soon as possible.\nBye for now,\nBob",
+    "choices": [
+      "a lot of",
+      "many",
+      "little",
+      "few"
+    ],
+    "answer": 0,
+    "steps": [
+      "«A bit high» об оценке суммы говорит, что она довольно велика. Money — неисчисляемое существительное.",
+      "С большой суммой подходит a lot of money. Little означает, что денег мало, а many и few сопровождают исчисляемые существительные."
+    ]
+  },
+  {
+    "title": "Yesterday’s Activity",
+    "question": "Yesterday I … .",
+    "context": "Fill in the correct variant",
+    "choices": [
+      "went the cinema",
+      "was to the cinema",
+      "went to the cinema",
+      "was went to the cinema"
+    ],
+    "answer": 2,
+    "steps": [
+      "Yesterday указывает на завершённое действие в прошлом. Прошедшая форма go — went.",
+      "Место назначения вводится предлогом to. Получается «Yesterday I went to the cinema»."
+    ]
+  },
+  {
+    "title": "Comparing Houses",
+    "question": "My house is … .",
+    "context": "Fill in the correct variant",
+    "choices": [
+      "bigger than yours",
+      "bigger as your house",
+      "more as yours",
+      "more that your house"
+    ],
+    "answer": 0,
+    "steps": [
+      "Для сравнения размеров используй сравнительную форму bigger. Второй предмет сравнения вводит than.",
+      "Yours заменяет your house. Выходит «My house is bigger than yours»."
+    ]
+  },
+  {
+    "title": "Jane and Golf",
+    "question": "Jane … .",
+    "context": "Fill in the correct variant",
+    "choices": [
+      "don’t play golf",
+      "doesn’t can play golf",
+      "can’t play golf",
+      "don’t can play golf"
+    ],
+    "answer": 2,
+    "steps": [
+      "Чтобы сказать, что Джейн не умеет играть, возьми отрицательную форму can — can’t.",
+      "После модального can’t сразу идёт play в начальной форме. Получается «Jane can’t play golf»."
+    ]
+  },
+  {
+    "title": "The Concert’s Start",
+    "question": "When … .",
+    "context": "Fill in the correct variant",
+    "choices": [
+      "does the concert start?",
+      "starts the concert?",
+      "does the concert starts?",
+      "the concert starts?"
+    ],
+    "answer": 0,
+    "steps": [
+      "В прямом вопросе в Present Simple используй does перед подлежащим the concert.",
+      "После does основная форма start остаётся без окончания. Верный вопрос «When does the concert start?»."
+    ]
+  },
+  {
+    "title": "A Request to Wait",
+    "question": "Please ask him … .",
+    "context": "Fill in the correct variant",
+    "choices": [
+      "for to wait",
+      "wait",
+      "that he waits",
+      "to wait"
+    ],
+    "answer": 3,
+    "steps": [
+      "Вежливая просьба строится по модели ask somebody to do something. Здесь somebody — him.",
+      "После him нужно to wait. Получаем «Please ask him to wait»."
+    ]
+  },
+  {
+    "title": "Taking a Photo",
+    "question": "… a photo of you?",
+    "context": "Fill in the correct variant",
+    "choices": [
+      "May I do",
+      "May I take",
+      "Can I to make",
+      "Will you let me to make"
+    ],
+    "answer": 1,
+    "steps": [
+      "Устойчивое сочетание для фотографирования — take a photo. Для вежливого разрешения можно начать с May I.",
+      "Вариант May I take составляет вопрос «May I take a photo of you?»."
+    ]
+  },
+  {
+    "title": "Asking About a Job",
+    "question": "What does he do?",
+    "context": "Fill in the correct variant",
+    "choices": [
+      "He a vet",
+      "He’s vet",
+      "He is vet",
+      "He is a vet"
+    ],
+    "answer": 3,
+    "steps": [
+      "На вопрос о профессии отвечают моделью «He is …». Существительное vet в единственном числе требует артикля.",
+      "Получается «He is a vet»."
+    ]
+  },
+  {
+    "title": "A Favourite Sport",
+    "question": "Ice hockey is the sport … .",
+    "context": "Fill in the correct variant",
+    "choices": [
+      "who I like best",
+      "what I like best",
+      "that I like best",
+      "which I like it best"
+    ],
+    "answer": 2,
+    "steps": [
+      "Определи, к чему относится придаточное: к the sport. Для предмета подходит that или which.",
+      "«That I like best» завершает предложение. В варианте с which местоимение it лишнее, ведь which уже служит дополнением."
+    ]
+  },
+  {
+    "title": "Living Nearby",
+    "question": "Paul and I live close to … .",
+    "context": "Fill in the correct variant",
+    "choices": [
+      "ourselves",
+      "ourself",
+      "each other",
+      "each others"
+    ],
+    "answer": 2,
+    "steps": [
+      "Пол и говорящий живут близко друг к другу. Для взаимного отношения употребляется each other.",
+      "Выбираем «Paul and I live close to each other». У each other нет окончания множественного числа."
+    ]
+  },
+  {
+    "title": "James’s Friends",
+    "question": "James hasn’t got … .",
+    "context": "Fill in the correct variant",
+    "choices": [
+      "no friends",
+      "none friends",
+      "any friends",
+      "not one friend"
+    ],
+    "answer": 2,
+    "steps": [
+      "Отрицание уже выражено формой hasn’t. С множественным friends в этом случае обычно употребляется any.",
+      "Стандартный вариант «James hasn’t got any friends». No friends сочетается с утвердительным «has got»."
+    ]
+  },
+  {
+    "title": "A Place to Get Care",
+    "question": "The place you go to when you are ill.",
+    "context": "Guess the correct word",
+    "choices": [
+      "Polyclinic",
+      "Library",
+      "Office",
+      "Circus"
+    ],
+    "answer": 0,
+    "steps": [
+      "Ищи название медицинского учреждения для посещения при болезни. Library, office и circus обозначают библиотеку, офис и цирк.",
+      "Медицинское учреждение среди вариантов — Polyclinic, «поликлиника»."
+    ]
+  },
+  {
+    "title": "A Medical Professional",
+    "question": "The person who treats you when you are ill.",
+    "context": "Guess the correct word",
+    "choices": [
+      "Physicist",
+      "Teacher",
+      "Vet",
+      "Physician"
+    ],
+    "answer": 3,
+    "steps": [
+      "Сопоставь похожие слова physicist и physician. Physicist — физик, а vet — ветеринар.",
+      "Врач, который лечит людей, — physician. Ответ Physician."
+    ]
+  },
+  {
+    "title": "A Place to Buy Medicine",
+    "question": "The place where you buy medicine.",
+    "context": "Guess the correct word",
+    "choices": [
+      "Jeweller’s",
+      "Pharmacy",
+      "Church",
+      "Newsagent’s"
+    ],
+    "answer": 1,
+    "steps": [
+      "Ищи место, где продают medicines — лекарства. Ювелирный магазин и газетный киоск имеют другой ассортимент.",
+      "Лекарства покупают в аптеке — Pharmacy."
+    ]
+  },
+  {
+    "title": "A Toothache",
+    "question": "The person you go to when you have a toothache.",
+    "context": "Guess the correct word",
+    "choices": [
+      "Psychologist",
+      "Vet",
+      "Allergy specialist",
+      "Dentist"
+    ],
+    "answer": 3,
+    "steps": [
+      "Toothache означает зубную боль. Среди вариантов найди специалиста по зубам.",
+      "Зубы лечит Dentist, «стоматолог»."
+    ]
+  },
+  {
+    "title": "Something Prescribed",
+    "question": "The doctor prescribes this medicine. You swallow it whole with water.",
+    "context": "Guess the correct word",
+    "choices": [
+      "Oil",
+      "Pill",
+      "Lotion",
+      "Soap"
+    ],
+    "answer": 1,
+    "steps": [
+      "В данном случае лекарство проглатывают целиком, запивая водой. Ищи название твёрдой формы лекарства.",
+      "Pill означает «таблетка». Лосьон наносят на кожу, а жидкое масло нельзя проглотить целиком как отдельный предмет."
+    ],
+    "reviewedEdition": true
+  },
+  {
+    "title": "Something to Measure",
+    "question": "You measure it when you are ill.",
+    "context": "Guess the correct word",
+    "choices": [
+      "Lungs",
+      "Heart",
+      "Mood",
+      "Temperature"
+    ],
+    "answer": 3,
+    "steps": [
+      "Глагол measure означает «измерять». Вспомни, какое число обычно смотрят на термометре, когда человек болен.",
+      "Термометр показывает temperature. Выбираем Temperature."
+    ]
+  },
+  {
+    "title": "Helping the Doctor",
+    "question": "The person who helps the doctor to treat sick people.",
+    "context": "Guess the correct word",
+    "choices": [
+      "Librarian",
+      "Nurse",
+      "Driver",
+      "Passerby"
+    ],
+    "answer": 1,
+    "steps": [
+      "Нужна профессия в медицине. Библиотекарь, водитель и прохожий в эту роль по своему названию не подходят.",
+      "Уходом за пациентами занимается nurse — медсестра или медбрат."
+    ]
+  },
+  {
+    "title": "Where Surgery Happens",
+    "question": "The place where doctors do the surgery.",
+    "context": "Guess the correct word",
+    "choices": [
+      "Museum",
+      "Library",
+      "Hospital",
+      "Cathedral"
+    ],
+    "answer": 2,
+    "steps": [
+      "Surgery в этом вопросе — хирургическая операция. Ищи медицинское учреждение, где её проводят.",
+      "Из перечисленного подходит больница — Hospital."
+    ]
+  },
+  {
+    "title": "Performing Operations",
+    "question": "A doctor who is trained to perform medical operations.",
+    "context": "Guess the correct word",
+    "choices": [
+      "An allergy specialist",
+      "A nurse",
+      "A surgeon",
+      "A psychiatrist"
+    ],
+    "answer": 2,
+    "steps": [
+      "Нужно название врача, специальность которого — проводить операции.",
+      "Такого врача называют surgeon. Ответ A surgeon."
+    ]
+  },
+  {
+    "title": "What the Doctor Writes",
+    "question": "After the doctor examines a patient he writes a … .",
+    "context": "Guess the correct word",
+    "choices": [
+      "letter",
+      "contract",
+      "script",
+      "prescription"
+    ],
+    "answer": 3,
+    "steps": [
+      "Ищи официальный медицинский документ, в котором врач указывает необходимое пациенту лекарство.",
+      "Такой рецепт называется prescription. Вариант D."
+    ]
+  },
+  {
+    "title": "People in the Street",
+    "question": "How many people can you see in the street?",
+    "context": "Look at the picture and answer the questions",
+    "choices": [
+      "Three",
+      "Four",
+      "Seven",
+      "Nine"
+    ],
+    "answer": 2,
+    "steps": [
+      "Посчитай людей на картинке группами. У дальнего светофора стоят четверо, отдельно видны велосипедисты по обе стороны дороги.",
+      "На велосипедах трое. Вместе 4 + 3 = 7 человек, Seven."
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2018/5-6/street.webp",
+      "alt": "A town street with a pedestrian crossing between two marked cycle lanes. Cars are on the street, with buildings and a group of pedestrians in the background. An aircraft and a hot-air balloon are in the sky.",
+      "width": 1372,
+      "height": 1059
+    }
+  },
+  {
+    "title": "At the Crossing",
+    "question": "How many people are going to cross the street?",
+    "context": "Look at the picture and answer the questions",
+    "choices": [
+      "Three",
+      "Four",
+      "Seven",
+      "Nine"
+    ],
+    "answer": 1,
+    "steps": [
+      "Найди белые полосы пешеходного перехода. Люди, которые ждут перехода, стоят у светофора на дальнем тротуаре.",
+      "В группе четыре человека. Ответ Four."
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2018/5-6/street.webp",
+      "alt": "A town street with a pedestrian crossing between two marked cycle lanes. Cars are on the street, with buildings and a group of pedestrians in the background. An aircraft and a hot-air balloon are in the sky.",
+      "width": 1372,
+      "height": 1059
+    }
+  },
+  {
+    "title": "People on Bicycles",
+    "question": "How many people are cycling?",
+    "context": "Look at the picture and answer the questions",
+    "choices": [
+      "One",
+      "Two",
+      "Three",
+      "Seven"
+    ],
+    "answer": 2,
+    "steps": [
+      "Сначала посчитай велосипедистов на ближней дорожке. Затем посмотри на дальнюю дорожку слева.",
+      "Двое едут на переднем плане и ещё один слева за дорогой. Всего Three."
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2018/5-6/street.webp",
+      "alt": "A town street with a pedestrian crossing between two marked cycle lanes. Cars are on the street, with buildings and a group of pedestrians in the background. An aircraft and a hot-air balloon are in the sky.",
+      "width": 1372,
+      "height": 1059
+    }
+  },
+  {
+    "title": "Where They Are Cycling",
+    "question": "Where are the people cycling?",
+    "context": "Look at the picture and answer the questions",
+    "choices": [
+      "Across the road",
+      "In the park",
+      "In the yard",
+      "In the bicycle lane"
+    ],
+    "answer": 3,
+    "steps": [
+      "Посмотри, где находятся велосипеды относительно машин. Велосипедисты едут по отдельным красным полосам с белой разметкой.",
+      "Полоса для велосипедов — bicycle lane. Ответ In the bicycle lane."
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2018/5-6/street.webp",
+      "alt": "A town street with a pedestrian crossing between two marked cycle lanes. Cars are on the street, with buildings and a group of pedestrians in the background. An aircraft and a hot-air balloon are in the sky.",
+      "width": 1372,
+      "height": 1059
+    }
+  },
+  {
+    "title": "Lights in the Street",
+    "question": "How many street lamps can you see in the picture?",
+    "context": "Look at the picture and answer the questions",
+    "choices": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "answer": 1,
+    "steps": [
+      "Ищи уличные фонари со светильником наверху стойки. Светофор у перехода выполняет другую функцию.",
+      "На дальнем тротуаре стоят два фонаря. Выбираем Two."
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2018/5-6/street.webp",
+      "alt": "A town street with a pedestrian crossing between two marked cycle lanes. Cars are on the street, with buildings and a group of pedestrians in the background. An aircraft and a hot-air balloon are in the sky.",
+      "width": 1372,
+      "height": 1059
+    }
+  },
+  {
+    "title": "The Weather",
+    "question": "What is the weather like? It’s … .",
+    "context": "Look at the picture and answer the questions",
+    "choices": [
+      "gloomy",
+      "foggy",
+      "rainy",
+      "a bit cloudy"
+    ],
+    "answer": 3,
+    "steps": [
+      "На рисунке голубое небо и несколько облаков. Улицу видно отчётливо, капель дождя нет.",
+      "Небольшую облачность описывает a bit cloudy."
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2018/5-6/street.webp",
+      "alt": "A town street with a pedestrian crossing between two marked cycle lanes. Cars are on the street, with buildings and a group of pedestrians in the background. An aircraft and a hot-air balloon are in the sky.",
+      "width": 1372,
+      "height": 1059
+    }
+  },
+  {
+    "title": "Direction of the Cyclists",
+    "question": "How many cyclists are riding to the right?",
+    "context": "Look at the picture and answer the questions",
+    "choices": [
+      "Three",
+      "Two",
+      "One",
+      "Nobody"
+    ],
+    "answer": 1,
+    "steps": [
+      "Посмотри, куда развёрнуты велосипеды и куда смотрят их водители. Оба велосипедиста на переднем плане едут вправо.",
+      "За дорогой велосипедист едет влево. В нужном направлении едут двое, Two."
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2018/5-6/street.webp",
+      "alt": "A town street with a pedestrian crossing between two marked cycle lanes. Cars are on the street, with buildings and a group of pedestrians in the background. An aircraft and a hot-air balloon are in the sky.",
+      "width": 1372,
+      "height": 1059
+    }
+  },
+  {
+    "title": "By the Traffic Lights",
+    "question": "What are the people standing near the traffic lights going to do? To … .",
+    "context": "Look at the picture and answer the questions",
+    "choices": [
+      "cross the street",
+      "take a tram",
+      "ride a bike",
+      "catch the balloon"
+    ],
+    "answer": 0,
+    "steps": [
+      "Люди стоят у светофора напротив белых полос. Эти полосы обозначают пешеходный переход.",
+      "Люди собираются перейти улицу — cross the street."
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2018/5-6/street.webp",
+      "alt": "A town street with a pedestrian crossing between two marked cycle lanes. Cars are on the street, with buildings and a group of pedestrians in the background. An aircraft and a hot-air balloon are in the sky.",
+      "width": 1372,
+      "height": 1059
+    }
+  },
+  {
+    "title": "Markings on a Vehicle",
+    "question": "Which vehicle in the picture has a stripe, a cross on its side and a warning light?",
+    "context": "Look at the picture and answer the questions",
+    "choices": [
+      "A taxi",
+      "A truck",
+      "An ambulance",
+      "A patrol car"
+    ],
+    "answer": 2,
+    "steps": [
+      "На правом краю дороги найди белый автомобиль с красной полосой, крестом и проблесковым маячком.",
+      "Такие признаки на рисунке у машины скорой помощи — An ambulance."
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2018/5-6/street.webp",
+      "alt": "A town street with a pedestrian crossing between two marked cycle lanes. Cars are on the street, with buildings and a group of pedestrians in the background. An aircraft and a hot-air balloon are in the sky.",
+      "width": 1372,
+      "height": 1059
+    }
+  },
+  {
+    "title": "Types of Transport",
+    "question": "What types of transport can you see in the picture? … transport.",
+    "context": "Look at the picture and answer the questions",
+    "choices": [
+      "Water",
+      "Sea and underground",
+      "Railway",
+      "Ground and air"
+    ],
+    "answer": 3,
+    "steps": [
+      "На земле едут автомобили и велосипеды, а в небе находятся самолёт и воздушный шар.",
+      "Здесь показаны наземный и воздушный транспорт. Подходит Ground and air."
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2018/5-6/street.webp",
+      "alt": "A town street with a pedestrian crossing between two marked cycle lanes. Cars are on the street, with buildings and a group of pedestrians in the background. An aircraft and a hot-air balloon are in the sky.",
+      "width": 1372,
+      "height": 1059
+    }
+  },
+  {
+    "title": "A Group of Verbs",
+    "question": "Find the odd word out.",
+    "context": "Find the odd words out",
+    "choices": [
+      "Glance",
+      "Gaze",
+      "Weed",
+      "Stare"
+    ],
+    "answer": 2,
+    "steps": [
+      "Glance значит «взглянуть мельком», gaze — «пристально смотреть», stare — «уставиться». Все три действия связаны со взглядом.",
+      "Weed в роли глагола означает «пропалывать». Оно лишнее."
+    ]
+  },
+  {
+    "title": "Sounds and Actions",
+    "question": "Find the odd word out.",
+    "context": "Find the odd words out",
+    "choices": [
+      "Shout",
+      "Twist",
+      "Yell",
+      "Scream"
+    ],
+    "answer": 1,
+    "steps": [
+      "Shout, yell и scream обозначают разновидности крика. Их объединяет громкий голос.",
+      "Twist означает «крутить» или «скручивать». Это лишнее слово."
+    ]
+  },
+  {
+    "title": "Expressing Emotion",
+    "question": "Find the odd word out.",
+    "context": "Find the odd words out",
+    "choices": [
+      "Cry",
+      "Sob",
+      "Strike",
+      "Weep"
+    ],
+    "answer": 2,
+    "steps": [
+      "Cry, sob и weep могут описывать плач. Sob уточняет, что человек всхлипывает.",
+      "Strike означает «ударять» или «наносить удар». Оно выпадает из группы."
+    ]
+  },
+  {
+    "title": "Ways to Communicate",
+    "question": "Find the odd word out.",
+    "context": "Find the odd words out",
+    "choices": [
+      "Speak",
+      "Whisper",
+      "Narrate",
+      "Grasp"
+    ],
+    "answer": 3,
+    "steps": [
+      "Speak — «говорить», whisper — «шептать», narrate — «рассказывать». Все три связаны с речью.",
+      "Grasp значит «схватить» или «понять». Это лишнее слово."
+    ]
+  },
+  {
+    "title": "Words for Travel",
+    "question": "Find the odd word out.",
+    "context": "Find the odd words out",
+    "choices": [
+      "Journey",
+      "Voyage",
+      "Experience",
+      "Trip"
+    ],
+    "answer": 2,
+    "steps": [
+      "Journey, voyage и trip — названия поездки или путешествия. Voyage часто говорят о плавании или дальнем путешествии.",
+      "Experience значит «опыт» или «переживание». Оно не обозначает поездку само по себе."
+    ]
+  },
+  {
+    "title": "Movement and Position",
+    "question": "Find the odd word out.",
+    "context": "Find the odd words out",
+    "choices": [
+      "Move",
+      "Ride",
+      "Lie",
+      "Drive"
+    ],
+    "answer": 2,
+    "steps": [
+      "Move, ride и drive могут обозначать движение или передвижение на транспорте.",
+      "Lie в значении «лежать» описывает положение. По этому признаку лишнее слово Lie."
+    ]
+  },
+  {
+    "title": "Natural Features",
+    "question": "Find the odd word out.",
+    "context": "Find the odd words out",
+    "choices": [
+      "Pond",
+      "Puddle",
+      "Stream",
+      "Mountain"
+    ],
+    "answer": 3,
+    "steps": [
+      "Pond — пруд, puddle — лужа, stream — ручей. Во всех трёх случаях речь о воде.",
+      "Mountain — гора. Это лишнее слово."
+    ]
+  },
+  {
+    "title": "Activities by Water",
+    "question": "Find the odd word out.",
+    "context": "Find the odd words out",
+    "choices": [
+      "Swim",
+      "Splash",
+      "Bathe",
+      "Roam"
+    ],
+    "answer": 3,
+    "steps": [
+      "Swim — «плавать», splash — «плескаться», bathe — «купаться». Эти значения объединяет контакт с водой.",
+      "Roam означает «бродить». В этом значении вода не предполагается. Ответ Roam."
+    ]
+  },
+  {
+    "title": "What We Expect",
+    "question": "Find the odd word out.",
+    "context": "Find the odd words out",
+    "choices": [
+      "Assure",
+      "Guess",
+      "Predict",
+      "Foresee"
+    ],
+    "answer": 0,
+    "steps": [
+      "Guess — «предполагать», predict — «предсказывать», foresee — «предвидеть». Все три могут описывать догадку о неизвестном или будущем.",
+      "Assure означает «заверять» или «убеждать». Слово отличается тем, что описывает действие говорящего по отношению к собеседнику."
+    ]
+  },
+  {
+    "title": "Stages and Professions",
+    "question": "Find the odd word out.",
+    "context": "Find the odd words out",
+    "choices": [
+      "Singer",
+      "Painter",
+      "Dancer",
+      "Deer"
+    ],
+    "answer": 3,
+    "steps": [
+      "Singer, painter и dancer называют людей по их занятиям в искусстве.",
+      "Deer — «олень». Название животного лишнее в группе."
+    ]
+  }
+]

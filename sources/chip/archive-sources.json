@@ -1,0 +1,2658 @@
+{
+  "school": [
+    {
+      "year": 2010,
+      "grade": "1-2",
+      "title": "Земля — наш общий дом",
+      "status": "booklet-and-key",
+      "note": "Оригинальные материалы восстановлены из публичных снимков сайта оргкомитета.",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "date": "2010-04-15",
+      "problemCount": 20,
+      "tasks": {
+        "url": "http://www.konkurs-chip.ru/file/files/1-2_2010.doc",
+        "archive": "https://web.archive.org/web/20171208184958/http://www.konkurs-chip.ru:80/file/files/1-2_2010.doc",
+        "status": "doc",
+        "sha256": "24c50ac7a478d6af2bdec4129d37da927c631bbfb91a05d5c3598c02ea3e4a1b",
+        "bytes": 206336,
+        "local": "2010/1-2_2010.doc",
+        "publishedPdf": {
+          "local": "2010/1-2_2010.pdf",
+          "sha256": "8e7e80e7124e04a4d7708191196f6d1ca58d167fecebeffe9f20e962f507cb84",
+          "pages": 2,
+          "conversion": "LibreOffice Writer из исходного DOC. Проверены страницы, иллюстрации и нумерация."
+        }
+      },
+      "answers": {
+        "url": "http://www.konkurs-chip.ru/file/files/answers_2010.doc",
+        "archive": "https://web.archive.org/web/20171208185146/http://www.konkurs-chip.ru:80/file/files/answers_2010.doc",
+        "status": "doc",
+        "sha256": "07c2f92110691c6a6c3cfd1ed36745245c8a73d58ae2d1d8e1f39ab6e0f9ed94",
+        "bytes": 54272,
+        "local": "2010/answers_2010.doc",
+        "publishedPdf": {
+          "local": "2010/answers_2010.pdf",
+          "sha256": "df1980c9cd94a93bd3031786ae6a26ba61de1dccfcadb67ab82c101524bb5e28",
+          "pages": 1,
+          "conversion": "Таблица организатора переведена из DOC в PDF в LibreOffice Writer."
+        }
+      },
+      "solutions": {
+        "url": "http://www.konkurs-chip.ru/file/files/1-2kom2010.doc",
+        "archive": "https://web.archive.org/web/20171208190022/http://www.konkurs-chip.ru:80/file/files/1-2kom2010.doc",
+        "status": "doc",
+        "sha256": "f2c36c4e81e716e6145da286e3b7f655b3dbb5d68f0806717253f94f26b08b5c",
+        "bytes": 393216,
+        "local": "2010/1-2kom2010.doc",
+        "publishedPdf": {
+          "local": "2010/1-2kom2010.pdf",
+          "sha256": "ecb443e74ec7a8c143fc4ae7180dad27ec418f6e93cd81a899f6cee2663c4700",
+          "pages": 9,
+          "conversion": "Комментарии организатора переведены из DOC в PDF в LibreOffice Writer."
+        }
+      }
+    },
+    {
+      "year": 2010,
+      "grade": "3-4",
+      "title": "Земля — наш общий дом",
+      "status": "booklet-and-key",
+      "note": "Оригинальные материалы восстановлены из публичных снимков сайта оргкомитета.",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "date": "2010-04-15",
+      "problemCount": 30,
+      "tasks": {
+        "url": "http://www.konkurs-chip.ru/file/files/3-4_2010.doc",
+        "archive": "https://web.archive.org/web/20171208190037/http://www.konkurs-chip.ru:80/file/files/3-4_2010.doc",
+        "status": "doc",
+        "sha256": "ca2a70c940a933916914980f9bfcb098ba46fad765881f13e04d1a551c5b84d9",
+        "bytes": 246272,
+        "local": "2010/3-4_2010.doc",
+        "publishedPdf": {
+          "local": "2010/3-4_2010.pdf",
+          "sha256": "c6ea62c5060ce7b5a76d1f8d5a7947afcaa0a708607835ac7be95d21851bd17b",
+          "pages": 3,
+          "conversion": "LibreOffice Writer из исходного DOC. Проверены страницы, иллюстрации и нумерация."
+        }
+      },
+      "answers": {
+        "url": "http://www.konkurs-chip.ru/file/files/answers_2010.doc",
+        "archive": "https://web.archive.org/web/20171208185146/http://www.konkurs-chip.ru:80/file/files/answers_2010.doc",
+        "status": "doc",
+        "sha256": "07c2f92110691c6a6c3cfd1ed36745245c8a73d58ae2d1d8e1f39ab6e0f9ed94",
+        "bytes": 54272,
+        "local": "2010/answers_2010.doc",
+        "publishedPdf": {
+          "local": "2010/answers_2010.pdf",
+          "sha256": "df1980c9cd94a93bd3031786ae6a26ba61de1dccfcadb67ab82c101524bb5e28",
+          "pages": 1,
+          "conversion": "Таблица организатора переведена из DOC в PDF в LibreOffice Writer."
+        }
+      },
+      "solutions": {
+        "url": "http://www.konkurs-chip.ru/file/files/3-4kom2010.doc",
+        "archive": "https://web.archive.org/web/20171208190053/http://www.konkurs-chip.ru:80/file/files/3-4kom2010.doc",
+        "status": "doc",
+        "sha256": "3cb4585d2fd73c707caf38bf0261384ddcab5255674b0d6c9bb925bb22164c28",
+        "bytes": 575488,
+        "local": "2010/3-4kom2010.doc",
+        "publishedPdf": {
+          "local": "2010/3-4kom2010.pdf",
+          "sha256": "b77bc25e4c50a83325bb7a388f9c2720ae2a1e1eeaac1d9988a59a4f08655f1e",
+          "pages": 9,
+          "conversion": "Комментарии организатора переведены из DOC в PDF в LibreOffice Writer."
+        }
+      }
+    },
+    {
+      "year": 2010,
+      "grade": "5-6",
+      "title": "Земля — наш общий дом",
+      "status": "booklet-and-key",
+      "note": "Оригинальные материалы восстановлены из публичных снимков сайта оргкомитета.",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "date": "2010-04-15",
+      "problemCount": 30,
+      "tasks": {
+        "url": "http://www.konkurs-chip.ru/file/files/5-6_2010.doc",
+        "archive": "https://web.archive.org/web/20171208185050/http://www.konkurs-chip.ru:80/file/files/5-6_2010.doc",
+        "status": "doc",
+        "sha256": "e18c1943e15d5cfc1d3109d48ff6c3ae5f136476d4671109ba43bc3c883ce89d",
+        "bytes": 130048,
+        "local": "2010/5-6_2010.doc",
+        "publishedPdf": {
+          "local": "2010/5-6_2010.pdf",
+          "sha256": "c0d7a150adf41c519c0a33621c81dc72efb1f7ae49bcabb122122f0fadd5de83",
+          "pages": 3,
+          "conversion": "LibreOffice Writer из исходного DOC. Проверены страницы, иллюстрации и нумерация."
+        }
+      },
+      "answers": {
+        "url": "http://www.konkurs-chip.ru/file/files/answers_2010.doc",
+        "archive": "https://web.archive.org/web/20171208185146/http://www.konkurs-chip.ru:80/file/files/answers_2010.doc",
+        "status": "doc",
+        "sha256": "07c2f92110691c6a6c3cfd1ed36745245c8a73d58ae2d1d8e1f39ab6e0f9ed94",
+        "bytes": 54272,
+        "local": "2010/answers_2010.doc",
+        "publishedPdf": {
+          "local": "2010/answers_2010.pdf",
+          "sha256": "df1980c9cd94a93bd3031786ae6a26ba61de1dccfcadb67ab82c101524bb5e28",
+          "pages": 1,
+          "conversion": "Таблица организатора переведена из DOC в PDF в LibreOffice Writer."
+        }
+      }
+    },
+    {
+      "year": 2011,
+      "grade": "1-2",
+      "title": "Человек и природа",
+      "status": "booklet-and-key",
+      "note": "Оригинальные материалы восстановлены из публичных снимков сайта оргкомитета.",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "date": "2011-04-21",
+      "problemCount": 20,
+      "tasks": {
+        "url": "http://www.konkurs-chip.ru/file/files/1-2_2011.doc",
+        "archive": "https://web.archive.org/web/20171208185004/http://www.konkurs-chip.ru:80/file/files/1-2_2011.doc",
+        "status": "doc",
+        "sha256": "ad474102acb2acfdd7f49fb0e6556d9d4ae52ed1f3415912b597e90009a56f7a",
+        "bytes": 327168,
+        "local": "2011/1-2_2011.doc",
+        "publishedPdf": {
+          "local": "2011/1-2_2011.pdf",
+          "sha256": "636433fecc6e97a933021956e14866b711f2781f61f238a0ec9bf16866bebddb",
+          "pages": 3,
+          "conversion": "LibreOffice Writer из исходного DOC. Проверены страницы, иллюстрации и нумерация."
+        }
+      },
+      "answers": {
+        "url": "http://www.konkurs-chip.ru/file/files/answers_2011.doc",
+        "archive": "https://web.archive.org/web/20171208190236/http://www.konkurs-chip.ru:80/file/files/answers_2011.doc",
+        "status": "doc",
+        "sha256": "cc81d6e21b7a78d7888cde4aba124c80c9401b00ee637ae9f0c2fff037ce67b0",
+        "bytes": 76288,
+        "local": "2011/answers_2011.doc",
+        "publishedPdf": {
+          "local": "2011/answers_2011.pdf",
+          "sha256": "30ee2302c3cfc2b376b9aebaf5d803e6b9741b2e68133fa5ffb95cbaddf77689",
+          "pages": 1,
+          "conversion": "Таблица организатора переведена из DOC в PDF в LibreOffice Writer."
+        }
+      },
+      "solutions": {
+        "url": "http://www.konkurs-chip.ru/file/files/1-2kom2011.doc",
+        "archive": "https://web.archive.org/web/20171208185015/http://www.konkurs-chip.ru:80/file/files/1-2kom2011.doc",
+        "status": "doc",
+        "sha256": "77f1733834bef3defeefac91bccc372d107f72b38ff48cd4d41d370f33aab09f",
+        "bytes": 676352,
+        "local": "2011/1-2kom2011.doc",
+        "publishedPdf": {
+          "local": "2011/1-2kom2011.pdf",
+          "sha256": "567c1215323d21d03b3ce9913badb09bbc6365fb8ae2af80fec91c7d74c88212",
+          "pages": 11,
+          "conversion": "Комментарии организатора переведены из DOC в PDF в LibreOffice Writer."
+        }
+      }
+    },
+    {
+      "year": 2011,
+      "grade": "3-4",
+      "title": "Человек и природа",
+      "status": "booklet-and-key",
+      "note": "Оригинальные материалы восстановлены из публичных снимков сайта оргкомитета.",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "date": "2011-04-21",
+      "problemCount": 30,
+      "tasks": {
+        "url": "http://www.konkurs-chip.ru/file/files/3-4_2011.doc",
+        "archive": "https://web.archive.org/web/20171208190043/http://www.konkurs-chip.ru:80/file/files/3-4_2011.doc",
+        "status": "doc",
+        "sha256": "f146c63e3c1f384ba3f2cf4f86f65c42e88ce4e1711897aa1e2361e0d1db2033",
+        "bytes": 441856,
+        "local": "2011/3-4_2011.doc",
+        "publishedPdf": {
+          "local": "2011/3-4_2011.pdf",
+          "sha256": "2862891ecbe35ce12d158058452ee7c85cfb8b99ea003e3604b311d69bc27310",
+          "pages": 4,
+          "conversion": "LibreOffice Writer из исходного DOC. Проверены страницы, иллюстрации и нумерация."
+        }
+      },
+      "answers": {
+        "url": "http://www.konkurs-chip.ru/file/files/answers_2011.doc",
+        "archive": "https://web.archive.org/web/20171208190236/http://www.konkurs-chip.ru:80/file/files/answers_2011.doc",
+        "status": "doc",
+        "sha256": "cc81d6e21b7a78d7888cde4aba124c80c9401b00ee637ae9f0c2fff037ce67b0",
+        "bytes": 76288,
+        "local": "2011/answers_2011.doc",
+        "publishedPdf": {
+          "local": "2011/answers_2011.pdf",
+          "sha256": "30ee2302c3cfc2b376b9aebaf5d803e6b9741b2e68133fa5ffb95cbaddf77689",
+          "pages": 1,
+          "conversion": "Таблица организатора переведена из DOC в PDF в LibreOffice Writer."
+        }
+      },
+      "solutions": {
+        "url": "http://www.konkurs-chip.ru/file/files/3-4kom2011.doc",
+        "archive": "https://web.archive.org/web/20171208190059/http://www.konkurs-chip.ru:80/file/files/3-4kom2011.doc",
+        "status": "doc",
+        "sha256": "84b577527c12fee5fa15fc5d402253329c1fce2a93c913c85d649244f6d3ca1a",
+        "bytes": 1201152,
+        "local": "2011/3-4kom2011.doc",
+        "publishedPdf": {
+          "local": "2011/3-4kom2011.pdf",
+          "sha256": "e40d916b82e133632e2156e83597f42afa14d76f5c3a580db540df8813a1f891",
+          "pages": 17,
+          "conversion": "Комментарии организатора переведены из DOC в PDF в LibreOffice Writer."
+        }
+      }
+    },
+    {
+      "year": 2011,
+      "grade": "5-6",
+      "title": "Человек и природа",
+      "status": "booklet-and-key",
+      "note": "Оригинальные материалы восстановлены из публичных снимков сайта оргкомитета.",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "date": "2011-04-21",
+      "problemCount": 30,
+      "tasks": {
+        "url": "http://www.konkurs-chip.ru/file/files/5-6_2011.doc",
+        "archive": "https://web.archive.org/web/20171208185056/http://www.konkurs-chip.ru:80/file/files/5-6_2011.doc",
+        "status": "doc",
+        "sha256": "b7df7b25a012cdf53f8548047844674b2c6652edc3037ecd112ec48ac1b6b2b4",
+        "bytes": 424448,
+        "local": "2011/5-6_2011.doc",
+        "publishedPdf": {
+          "local": "2011/5-6_2011.pdf",
+          "sha256": "45b9f3b6446a6ef9895b2c4a5d701cbe4c1e51564b4204be1e4ed4ee4d2aae61",
+          "pages": 4,
+          "conversion": "LibreOffice Writer из исходного DOC. Проверены страницы, иллюстрации и нумерация."
+        }
+      },
+      "answers": {
+        "url": "http://www.konkurs-chip.ru/file/files/answers_2011.doc",
+        "archive": "https://web.archive.org/web/20171208190236/http://www.konkurs-chip.ru:80/file/files/answers_2011.doc",
+        "status": "doc",
+        "sha256": "cc81d6e21b7a78d7888cde4aba124c80c9401b00ee637ae9f0c2fff037ce67b0",
+        "bytes": 76288,
+        "local": "2011/answers_2011.doc",
+        "publishedPdf": {
+          "local": "2011/answers_2011.pdf",
+          "sha256": "30ee2302c3cfc2b376b9aebaf5d803e6b9741b2e68133fa5ffb95cbaddf77689",
+          "pages": 1,
+          "conversion": "Таблица организатора переведена из DOC в PDF в LibreOffice Writer."
+        }
+      },
+      "solutions": {
+        "url": "http://www.konkurs-chip.ru/file/files/5-6kom2011.doc",
+        "archive": "https://web.archive.org/web/20171208185113/http://www.konkurs-chip.ru:80/file/files/5-6kom2011.doc",
+        "status": "doc",
+        "sha256": "fe49cf4ac83c5e81ed1d530ba0a3c14b58a23702a02741a13fe8724645bc3d12",
+        "bytes": 917504,
+        "local": "2011/5-6kom2011.doc",
+        "publishedPdf": {
+          "local": "2011/5-6kom2011.pdf",
+          "sha256": "2ad3c77935b67126751ecb0b3285bf1a12d398ace68810e0dc7a4bee24ffc793",
+          "pages": 17,
+          "conversion": "Комментарии организатора переведены из DOC в PDF в LibreOffice Writer."
+        }
+      }
+    },
+    {
+      "year": 2011,
+      "grade": "7-8",
+      "title": "Человек и природа",
+      "status": "booklet-and-key",
+      "note": "Оригинальные материалы восстановлены из публичных снимков сайта оргкомитета.",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "date": "2011-04-21",
+      "problemCount": 30,
+      "tasks": {
+        "url": "http://www.konkurs-chip.ru/file/files/7-8_2011.doc",
+        "archive": "https://web.archive.org/web/20171208185121/http://www.konkurs-chip.ru:80/file/files/7-8_2011.doc",
+        "status": "doc",
+        "sha256": "5ce19a6de308d0e522f499ec68061959fcb49311d8a7847d4956ca2aad7f2e5c",
+        "bytes": 279040,
+        "local": "2011/7-8_2011.doc",
+        "publishedPdf": {
+          "local": "2011/7-8_2011.pdf",
+          "sha256": "c89c1b6855cc0a7ed2f4f3ba46f90e90ab4cdf5dd66ad102b9e226e8d343d469",
+          "pages": 3,
+          "conversion": "LibreOffice Writer из исходного DOC. Проверены страницы, иллюстрации и нумерация."
+        }
+      },
+      "answers": {
+        "url": "http://www.konkurs-chip.ru/file/files/answers_2011.doc",
+        "archive": "https://web.archive.org/web/20171208190236/http://www.konkurs-chip.ru:80/file/files/answers_2011.doc",
+        "status": "doc",
+        "sha256": "cc81d6e21b7a78d7888cde4aba124c80c9401b00ee637ae9f0c2fff037ce67b0",
+        "bytes": 76288,
+        "local": "2011/answers_2011.doc",
+        "publishedPdf": {
+          "local": "2011/answers_2011.pdf",
+          "sha256": "30ee2302c3cfc2b376b9aebaf5d803e6b9741b2e68133fa5ffb95cbaddf77689",
+          "pages": 1,
+          "conversion": "Таблица организатора переведена из DOC в PDF в LibreOffice Writer."
+        }
+      },
+      "solutions": {
+        "url": "http://www.konkurs-chip.ru/file/files/7-8kom2011.doc",
+        "archive": "https://web.archive.org/web/20171208190141/http://www.konkurs-chip.ru:80/file/files/7-8kom2011.doc",
+        "status": "doc",
+        "sha256": "810b5e2c318a6d96bf432ad778b126bce0e5cc3cef5e2b6c3ab43d93f6dab400",
+        "bytes": 711680,
+        "local": "2011/7-8kom2011.doc",
+        "publishedPdf": {
+          "local": "2011/7-8kom2011.pdf",
+          "sha256": "7baf33b057bb7f7c6a390610ddf7546d05fda2732960c658686e6ed1092a365a",
+          "pages": 14,
+          "conversion": "Комментарии организатора переведены из DOC в PDF в LibreOffice Writer."
+        }
+      }
+    },
+    {
+      "year": 2011,
+      "grade": "9-10",
+      "title": "Человек и природа",
+      "status": "booklet-and-key",
+      "note": "Оригинальные материалы восстановлены из публичных снимков сайта оргкомитета.",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "date": "2011-04-21",
+      "problemCount": 30,
+      "tasks": {
+        "url": "http://www.konkurs-chip.ru/file/files/9-10_2011.doc",
+        "archive": "https://web.archive.org/web/20171208190200/http://www.konkurs-chip.ru:80/file/files/9-10_2011.doc",
+        "status": "doc",
+        "sha256": "79480c9d93426ad704215dce86c17f0aa7b1e874ee685d4fbd35a5418fdde936",
+        "bytes": 228864,
+        "local": "2011/9-10_2011.doc",
+        "publishedPdf": {
+          "local": "2011/9-10_2011.pdf",
+          "sha256": "f8b2fa4c7ef23c34fe19fe8e06adbfec2fd2dbe43577a6472510e47e5dd42289",
+          "pages": 3,
+          "conversion": "LibreOffice Writer из исходного DOC. Проверены страницы, иллюстрации и нумерация."
+        }
+      },
+      "answers": {
+        "url": "http://www.konkurs-chip.ru/file/files/answers_2011.doc",
+        "archive": "https://web.archive.org/web/20171208190236/http://www.konkurs-chip.ru:80/file/files/answers_2011.doc",
+        "status": "doc",
+        "sha256": "cc81d6e21b7a78d7888cde4aba124c80c9401b00ee637ae9f0c2fff037ce67b0",
+        "bytes": 76288,
+        "local": "2011/answers_2011.doc",
+        "publishedPdf": {
+          "local": "2011/answers_2011.pdf",
+          "sha256": "30ee2302c3cfc2b376b9aebaf5d803e6b9741b2e68133fa5ffb95cbaddf77689",
+          "pages": 1,
+          "conversion": "Таблица организатора переведена из DOC в PDF в LibreOffice Writer."
+        }
+      },
+      "solutions": {
+        "url": "http://www.konkurs-chip.ru/file/files/9-10kom2011.doc",
+        "archive": "https://web.archive.org/web/20171208190222/http://www.konkurs-chip.ru:80/file/files/9-10kom2011.doc",
+        "status": "doc",
+        "sha256": "9f4b3aae872486dd9854675ac5cf5bd48b7317d359c9d40ba04259780ea7d751",
+        "bytes": 659968,
+        "local": "2011/9-10kom2011.doc",
+        "publishedPdf": {
+          "local": "2011/9-10kom2011.pdf",
+          "sha256": "0d102d3c5413a13ffeea954695a2237d8313ca924c76884408f97d984b8a41b6",
+          "pages": 16,
+          "conversion": "Комментарии организатора переведены из DOC в PDF в LibreOffice Writer."
+        }
+      }
+    },
+    {
+      "year": 2012,
+      "grade": "1-2",
+      "title": "Человек и природа",
+      "status": "booklet-and-key",
+      "note": "Оригинальные материалы восстановлены из публичных снимков сайта оргкомитета.",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "date": "2012-04-19",
+      "problemCount": 20,
+      "tasks": {
+        "url": "https://www.konkurs-chip.ru/file/files/1-2_2012.doc",
+        "archive": "https://web.archive.org/web/20170921091926/http://www.konkurs-chip.ru:80/file/files/1-2_2012.doc",
+        "status": "doc",
+        "sha256": "f31003933f33a2213feeac92519a0e135ff0b83268e5d35e7c41100171261b7b",
+        "bytes": 211456,
+        "local": "2012/1-2_2012.doc",
+        "publishedPdf": {
+          "local": "2012/1-2_2012.pdf",
+          "sha256": "d239e0ae77d5919eb40e4ea328bd7112a5417f73cfb626c5d502d497e763dee9",
+          "pages": 2,
+          "conversion": "LibreOffice Writer из исходного DOC. Проверены страницы, иллюстрации и нумерация."
+        }
+      },
+      "answers": {
+        "url": "http://www.konkurs-chip.ru/file/files/answers_2012.doc",
+        "archive": "https://web.archive.org/web/20171208190240/http://www.konkurs-chip.ru:80/file/files/answers_2012.doc",
+        "status": "doc",
+        "sha256": "ae495ab4b804208bbebae12a50a7fe9062082a328889180608ac0d30aa7ccc64",
+        "bytes": 73216,
+        "local": "2012/answers_2012.doc",
+        "publishedPdf": {
+          "local": "2012/answers_2012.pdf",
+          "sha256": "4fb7132efa1ea024c79950eacf6078cafd95065fa6536bd962792c15fd16ce2d",
+          "pages": 1,
+          "conversion": "Таблица организатора переведена из DOC в PDF в LibreOffice Writer."
+        }
+      },
+      "solutions": {
+        "url": "http://www.konkurs-chip.ru/file/files/1-2kom2012.doc",
+        "archive": "https://web.archive.org/web/20171208190028/http://www.konkurs-chip.ru:80/file/files/1-2kom2012.doc",
+        "status": "doc",
+        "sha256": "79a00a80c4660fd683bf424a57a2b87778561ff3b7bf1e14d8d47c365da7d41a",
+        "bytes": 713728,
+        "local": "2012/1-2kom2012.doc",
+        "publishedPdf": {
+          "local": "2012/1-2kom2012.pdf",
+          "sha256": "1b2b2ab2aac7b6dbddfef255f49719a460f9de9094a200b97fe44349bfce7bf7",
+          "pages": 12,
+          "conversion": "Комментарии организатора переведены из DOC в PDF в LibreOffice Writer."
+        }
+      }
+    },
+    {
+      "year": 2012,
+      "grade": "3-4",
+      "title": "Человек и природа",
+      "status": "booklet-and-key",
+      "note": "Оригинальные материалы восстановлены из публичных снимков сайта оргкомитета.",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "date": "2012-04-19",
+      "problemCount": 30,
+      "tasks": {
+        "url": "https://www.konkurs-chip.ru/file/files/3-4_2012.doc",
+        "archive": "https://web.archive.org/web/20160417140245/http://www.konkurs-chip.ru:80/file/files/3-4_2012.doc",
+        "status": "doc",
+        "sha256": "5cdcda81ae28d61aab60c3c5fef6de687fea156a3367fd2bb799ba42d2d47a86",
+        "bytes": 351744,
+        "local": "2012/3-4_2012.doc",
+        "bookletScans": [
+          {
+            "url": "http://www.konkurs-chip.ru/file/files/4_2012_1.jpg",
+            "archive": "https://web.archive.org/web/20160318130644/http://konkurs-chip.ru/file/files/4_2012_1.jpg",
+            "status": "jpg",
+            "sha256": "4b7399d48dca0d3982ea721457937ffebea79237f6150c7174f73d4e58d5e8b3",
+            "bytes": 322213,
+            "local": "2012/4_2012_1.jpg"
+          },
+          {
+            "url": "http://www.konkurs-chip.ru/file/files/4_2012_2.jpg",
+            "archive": "https://web.archive.org/web/20160318125052/http://konkurs-chip.ru/file/files/4_2012_2.jpg",
+            "status": "jpg",
+            "sha256": "3ceb9ccbc059a7d831c8b75716dcf8a689ac91d6a063eb5f540784aeb576dd0b",
+            "bytes": 326451,
+            "local": "2012/4_2012_2.jpg"
+          }
+        ],
+        "publishedPdf": {
+          "local": "2012/3-4_2012.pdf",
+          "sha256": "bb9a734cf5c24fe4916437ad22d6ebc221adf2770bff5dbb5087784bcc2ed2ee",
+          "pages": 2,
+          "conversion": "Два разворота печатного буклета из архива организатора собраны в PDF без изменения изображений."
+        }
+      },
+      "answers": {
+        "url": "http://www.konkurs-chip.ru/file/files/answers_2012.doc",
+        "archive": "https://web.archive.org/web/20171208190240/http://www.konkurs-chip.ru:80/file/files/answers_2012.doc",
+        "status": "doc",
+        "sha256": "ae495ab4b804208bbebae12a50a7fe9062082a328889180608ac0d30aa7ccc64",
+        "bytes": 73216,
+        "local": "2012/answers_2012.doc",
+        "publishedPdf": {
+          "local": "2012/answers_2012.pdf",
+          "sha256": "4fb7132efa1ea024c79950eacf6078cafd95065fa6536bd962792c15fd16ce2d",
+          "pages": 1,
+          "conversion": "Таблица организатора переведена из DOC в PDF в LibreOffice Writer."
+        }
+      }
+    },
+    {
+      "year": 2012,
+      "grade": "5-6",
+      "title": "Человек и природа",
+      "status": "booklet-and-key",
+      "note": "Оригинальные материалы восстановлены из публичных снимков сайта оргкомитета.",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "date": "2012-04-19",
+      "problemCount": 30,
+      "tasks": {
+        "url": "http://www.konkurs-chip.ru/file/files/5-6_2012.doc",
+        "archive": "https://web.archive.org/web/20171208185100/http://www.konkurs-chip.ru:80/file/files/5-6_2012.doc",
+        "status": "doc",
+        "sha256": "775e0af6041ba967b7e7f0b29ae65fecc4af512e16a990068ea8fa0f859cd6aa",
+        "bytes": 232960,
+        "local": "2012/5-6_2012.doc",
+        "publishedPdf": {
+          "local": "2012/5-6_2012.pdf",
+          "sha256": "cd5dbc64f4674f3f3aeb78741e00281306cb37ddf778fa93bcb935cf9b15d0e6",
+          "pages": 4,
+          "conversion": "LibreOffice Writer из исходного DOC. Проверены страницы, иллюстрации и нумерация."
+        }
+      },
+      "answers": {
+        "url": "http://www.konkurs-chip.ru/file/files/answers_2012.doc",
+        "archive": "https://web.archive.org/web/20171208190240/http://www.konkurs-chip.ru:80/file/files/answers_2012.doc",
+        "status": "doc",
+        "sha256": "ae495ab4b804208bbebae12a50a7fe9062082a328889180608ac0d30aa7ccc64",
+        "bytes": 73216,
+        "local": "2012/answers_2012.doc",
+        "publishedPdf": {
+          "local": "2012/answers_2012.pdf",
+          "sha256": "4fb7132efa1ea024c79950eacf6078cafd95065fa6536bd962792c15fd16ce2d",
+          "pages": 1,
+          "conversion": "Таблица организатора переведена из DOC в PDF в LibreOffice Writer."
+        }
+      }
+    },
+    {
+      "year": 2012,
+      "grade": "7-8",
+      "title": "Человек и природа",
+      "status": "booklet-and-key",
+      "note": "Оригинальные материалы восстановлены из публичных снимков сайта оргкомитета.",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "date": "2012-04-19",
+      "problemCount": 30,
+      "tasks": {
+        "url": "http://www.konkurs-chip.ru/file/files/7-8_2012.doc",
+        "archive": "https://web.archive.org/web/20171208185126/http://www.konkurs-chip.ru:80/file/files/7-8_2012.doc",
+        "status": "doc",
+        "sha256": "fcd6ccae9e554a4652f0edcb7a3d8baca4306fe06d2845c5f070276be19dd8e8",
+        "bytes": 198656,
+        "local": "2012/7-8_2012.doc",
+        "publishedPdf": {
+          "local": "2012/7-8_2012.pdf",
+          "sha256": "73fc76c8c7d09bb4385e2c32d244fd39fe2988e70aeb803eb9391385b3f3e74d",
+          "pages": 3,
+          "conversion": "LibreOffice Writer из исходного DOC. Проверены страницы, иллюстрации и нумерация."
+        }
+      },
+      "answers": {
+        "url": "http://www.konkurs-chip.ru/file/files/answers_2012.doc",
+        "archive": "https://web.archive.org/web/20171208190240/http://www.konkurs-chip.ru:80/file/files/answers_2012.doc",
+        "status": "doc",
+        "sha256": "ae495ab4b804208bbebae12a50a7fe9062082a328889180608ac0d30aa7ccc64",
+        "bytes": 73216,
+        "local": "2012/answers_2012.doc",
+        "publishedPdf": {
+          "local": "2012/answers_2012.pdf",
+          "sha256": "4fb7132efa1ea024c79950eacf6078cafd95065fa6536bd962792c15fd16ce2d",
+          "pages": 1,
+          "conversion": "Таблица организатора переведена из DOC в PDF в LibreOffice Writer."
+        }
+      }
+    },
+    {
+      "year": 2012,
+      "grade": "9-10",
+      "title": "Человек и природа",
+      "status": "booklet-and-key",
+      "note": "Оригинальные материалы восстановлены из публичных снимков сайта оргкомитета.",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "date": "2012-04-19",
+      "problemCount": 30,
+      "tasks": {
+        "url": "http://www.konkurs-chip.ru/file/files/9-10_2012.doc",
+        "archive": "https://web.archive.org/web/20171208190206/http://www.konkurs-chip.ru:80/file/files/9-10_2012.doc",
+        "status": "doc",
+        "sha256": "11979b342a971d63053b2da464e185c550c07f5173781e024b1a15a2d8cf6a8d",
+        "bytes": 175104,
+        "local": "2012/9-10_2012.doc",
+        "publishedPdf": {
+          "local": "2012/9-10_2012.pdf",
+          "sha256": "fd0c0d1712a738e3fb4bbf284e2b7668132410ca2a3556f9cedcbbf6d31fe97f",
+          "pages": 5,
+          "conversion": "LibreOffice Writer из исходного DOC. Проверены страницы, иллюстрации и нумерация."
+        }
+      },
+      "answers": {
+        "url": "http://www.konkurs-chip.ru/file/files/answers_2012.doc",
+        "archive": "https://web.archive.org/web/20171208190240/http://www.konkurs-chip.ru:80/file/files/answers_2012.doc",
+        "status": "doc",
+        "sha256": "ae495ab4b804208bbebae12a50a7fe9062082a328889180608ac0d30aa7ccc64",
+        "bytes": 73216,
+        "local": "2012/answers_2012.doc",
+        "publishedPdf": {
+          "local": "2012/answers_2012.pdf",
+          "sha256": "4fb7132efa1ea024c79950eacf6078cafd95065fa6536bd962792c15fd16ce2d",
+          "pages": 1,
+          "conversion": "Таблица организатора переведена из DOC в PDF в LibreOffice Writer."
+        }
+      }
+    },
+    {
+      "year": 2013,
+      "grade": "1-2",
+      "title": "Круговорот",
+      "date": "2013-04-18",
+      "problemCount": 20,
+      "status": "booklet-and-key",
+      "note": "Оригинальные материалы восстановлены из публичных снимков сайта оргкомитета.",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "tasks": {
+        "url": "https://www.konkurs-chip.ru/file/files/1-2_2013.doc",
+        "archive": "https://web.archive.org/web/20160318122954/http://konkurs-chip.ru/file/files/1-2_2013.doc",
+        "status": "doc",
+        "sha256": "177cf427891423b3d6f195961f0ec989f98b36b4b3d4f869c35f4035bba3dd53",
+        "bytes": 328192,
+        "local": "2013/1-2_2013.doc",
+        "publishedPdf": {
+          "local": "2013/1-2_2013.pdf",
+          "sha256": "11982464ee8829cbf0cf8fbb5cb59ae61d9299f968bb9c887a1612f5b2080e74",
+          "pages": 3,
+          "conversion": "LibreOffice Writer из исходного DOC. Проверены страницы, иллюстрации и нумерация."
+        }
+      },
+      "answers": {
+        "url": "http://www.konkurs-chip.ru/file/files/answers_2013.doc",
+        "archive": "https://web.archive.org/web/20171208190246/http://www.konkurs-chip.ru:80/file/files/answers_2013.doc",
+        "status": "doc",
+        "sha256": "bafd6d185690feccda038ce040fe081827456ee143697b9aae41bf2f4da7d9f4",
+        "bytes": 74752,
+        "local": "2013/answers_2013.doc",
+        "publishedPdf": {
+          "local": "2013/answers_2013.pdf",
+          "sha256": "7be592bfa583853f99480a674c290f4a4a61856146695abf95065273779671fa",
+          "pages": 1,
+          "conversion": "Таблица организатора переведена из DOC в PDF в LibreOffice Writer."
+        }
+      },
+      "solutions": {
+        "url": "https://www.konkurs-chip.ru/file/files/1-2kom2013.doc",
+        "archive": "https://web.archive.org/web/20171208190033/http://www.konkurs-chip.ru:80/file/files/1-2kom2013.doc",
+        "status": "doc",
+        "sha256": "781889a28ce8fbb7e289b8586b9f5eb375a0ea878cd5c0bf91405a2a9123f697",
+        "bytes": 718336,
+        "local": "2013/1-2kom2013.doc",
+        "publishedPdf": {
+          "local": "2013/1-2kom2013.pdf",
+          "sha256": "7a1e589f6bae0eb5057cd8c1de71be77dc59e08dad98dc2651b2fcec51a6be8c",
+          "pages": 13,
+          "conversion": "Комментарии организатора переведены из DOC в PDF в LibreOffice Writer."
+        }
+      }
+    },
+    {
+      "year": 2013,
+      "grade": "3-4",
+      "title": "Круговорот",
+      "date": "2013-04-18",
+      "status": "booklet-and-key",
+      "note": "Оригинальные материалы восстановлены из публичных снимков сайта оргкомитета.",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "problemCount": 30,
+      "tasks": {
+        "url": "https://www.konkurs-chip.ru/file/files/3-4_2013.doc",
+        "archive": "https://web.archive.org/web/20160318181457/http://konkurs-chip.ru/file/files/3-4_2013.doc",
+        "status": "doc",
+        "sha256": "aebf5f04c8248d7e57ef50cfda4905c74076cde5b82418d3b3c9ff1fef46c6d7",
+        "bytes": 256000,
+        "local": "2013/3-4_2013.doc",
+        "publishedPdf": {
+          "local": "2013/3-4_2013.pdf",
+          "sha256": "f971662caea65f257a20fe3a0d2039fe638942eee6a98d0f954175d7e9a5513a",
+          "pages": 4,
+          "conversion": "LibreOffice Writer из исходного DOC. Проверены страницы, иллюстрации и нумерация."
+        }
+      },
+      "answers": {
+        "url": "http://www.konkurs-chip.ru/file/files/answers_2013.doc",
+        "archive": "https://web.archive.org/web/20171208190246/http://www.konkurs-chip.ru:80/file/files/answers_2013.doc",
+        "status": "doc",
+        "sha256": "bafd6d185690feccda038ce040fe081827456ee143697b9aae41bf2f4da7d9f4",
+        "bytes": 74752,
+        "local": "2013/answers_2013.doc",
+        "publishedPdf": {
+          "local": "2013/answers_2013.pdf",
+          "sha256": "7be592bfa583853f99480a674c290f4a4a61856146695abf95065273779671fa",
+          "pages": 1,
+          "conversion": "Таблица организатора переведена из DOC в PDF в LibreOffice Writer."
+        }
+      },
+      "solutions": {
+        "url": "https://www.konkurs-chip.ru/file/files/3-4kom2013.doc",
+        "archive": "https://web.archive.org/web/20171208185047/http://www.konkurs-chip.ru:80/file/files/3-4kom2013.doc",
+        "status": "doc",
+        "sha256": "be63a734c352131bab14e17e52a48207742babf809302a78481ae1f7d7e94b49",
+        "bytes": 774656,
+        "local": "2013/3-4kom2013.doc",
+        "publishedPdf": {
+          "local": "2013/3-4kom2013.pdf",
+          "sha256": "b461e0c035d6df6b14814764bd7660d61a3584aafdfaed3f900c3a14889d47d7",
+          "pages": 21,
+          "conversion": "Комментарии организатора переведены из DOC в PDF в LibreOffice Writer."
+        }
+      }
+    },
+    {
+      "year": 2013,
+      "grade": "5-6",
+      "title": "Круговорот",
+      "date": "2013-04-18",
+      "status": "booklet-and-key",
+      "note": "Оригинальные материалы восстановлены из публичных снимков сайта оргкомитета.",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "problemCount": 30,
+      "tasks": {
+        "url": "http://www.konkurs-chip.ru/file/files/5-6_2013.doc",
+        "archive": "https://web.archive.org/web/20171208190107/http://www.konkurs-chip.ru:80/file/files/5-6_2013.doc",
+        "status": "doc",
+        "sha256": "fbaec86ff01fafea75ca35ba7c4b8663a60196f263e3e07c7781440d59ca372c",
+        "bytes": 247808,
+        "local": "2013/5-6_2013.doc",
+        "bookletScans": [
+          {
+            "url": "https://www.konkurs-chip.ru/file/files/6_2013_1.jpg",
+            "archive": "https://web.archive.org/web/20160318182655/http://konkurs-chip.ru/file/files/6_2013_1.jpg",
+            "status": "jpg",
+            "sha256": "0dcb97c1cfb1b0ff710f8a56e9b058052d0aabc45e0c2ddfba9fb226a2367833",
+            "bytes": 471287,
+            "local": "2013/6_2013_1.jpg"
+          },
+          {
+            "url": "https://www.konkurs-chip.ru/file/files/6_2013_2.jpg",
+            "archive": "https://web.archive.org/web/20160318182612/http://konkurs-chip.ru/file/files/6_2013_2.jpg",
+            "status": "jpg",
+            "sha256": "fc8f0b888fc3967db5cf2d5b6ed937ec1e6aa82fa3cc5e36629e0b6ca031d8bd",
+            "bytes": 479100,
+            "local": "2013/6_2013_2.jpg"
+          }
+        ],
+        "publishedPdf": {
+          "local": "2013/5-6_2013.pdf",
+          "sha256": "022c736e02462d38286866308130be94847810a81c46692112effd974c652bc3",
+          "pages": 2,
+          "conversion": "Два разворота печатного буклета из архива организатора собраны в PDF без изменения изображений."
+        }
+      },
+      "answers": {
+        "url": "http://www.konkurs-chip.ru/file/files/answers_2013.doc",
+        "archive": "https://web.archive.org/web/20171208190246/http://www.konkurs-chip.ru:80/file/files/answers_2013.doc",
+        "status": "doc",
+        "sha256": "bafd6d185690feccda038ce040fe081827456ee143697b9aae41bf2f4da7d9f4",
+        "bytes": 74752,
+        "local": "2013/answers_2013.doc",
+        "publishedPdf": {
+          "local": "2013/answers_2013.pdf",
+          "sha256": "7be592bfa583853f99480a674c290f4a4a61856146695abf95065273779671fa",
+          "pages": 1,
+          "conversion": "Таблица организатора переведена из DOC в PDF в LibreOffice Writer."
+        }
+      },
+      "solutions": {
+        "url": "https://www.konkurs-chip.ru/file/files/5-6kom2013.doc",
+        "archive": "https://web.archive.org/web/20171208190124/http://www.konkurs-chip.ru:80/file/files/5-6kom2013.doc",
+        "status": "doc",
+        "sha256": "d59c962078fe8cbdacd9c4e65b0e7fbabf499e34bae6785d9f93792f771e55da",
+        "bytes": 834560,
+        "local": "2013/5-6kom2013.doc",
+        "publishedPdf": {
+          "local": "2013/5-6kom2013.pdf",
+          "sha256": "028e2710eed142cbf04f29d90a565b77366cf44e5c5f787e295bc286cd05bb9f",
+          "pages": 19,
+          "conversion": "Комментарии организатора переведены из DOC в PDF в LibreOffice Writer."
+        }
+      }
+    },
+    {
+      "year": 2013,
+      "grade": "7-8",
+      "title": "Круговорот",
+      "date": "2013-04-18",
+      "status": "booklet-and-key",
+      "note": "Оригинальные материалы восстановлены из публичных снимков сайта оргкомитета.",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "problemCount": 30,
+      "tasks": {
+        "url": "https://www.konkurs-chip.ru/file/files/7-8_2013.doc",
+        "archive": "https://web.archive.org/web/20160318121251/http://konkurs-chip.ru/file/files/7-8_2013.doc",
+        "status": "doc",
+        "sha256": "0f8ea2dd29e5de79be9c2cd8c791d9cbe35753790d39484b6158433b131997a6",
+        "bytes": 251904,
+        "local": "2013/7-8_2013.doc",
+        "publishedPdf": {
+          "local": "2013/7-8_2013.pdf",
+          "sha256": "2d706e137a5218a49a40ebe776a920372cb3e4dd8746e88492f48852a06b93a7",
+          "pages": 4,
+          "conversion": "LibreOffice Writer из исходного DOC. Проверены страницы, иллюстрации и нумерация."
+        }
+      },
+      "answers": {
+        "url": "http://www.konkurs-chip.ru/file/files/answers_2013.doc",
+        "archive": "https://web.archive.org/web/20171208190246/http://www.konkurs-chip.ru:80/file/files/answers_2013.doc",
+        "status": "doc",
+        "sha256": "bafd6d185690feccda038ce040fe081827456ee143697b9aae41bf2f4da7d9f4",
+        "bytes": 74752,
+        "local": "2013/answers_2013.doc",
+        "publishedPdf": {
+          "local": "2013/answers_2013.pdf",
+          "sha256": "7be592bfa583853f99480a674c290f4a4a61856146695abf95065273779671fa",
+          "pages": 1,
+          "conversion": "Таблица организатора переведена из DOC в PDF в LibreOffice Writer."
+        }
+      },
+      "solutions": {
+        "url": "https://www.konkurs-chip.ru/file/files/7-8kom2013.doc",
+        "archive": "https://web.archive.org/web/20171208190151/http://www.konkurs-chip.ru:80/file/files/7-8kom2013.doc",
+        "status": "doc",
+        "sha256": "9f8ef75c7e5314f49a45f0bef718432eb9b440c287ff1c44001dae98f655a9c6",
+        "bytes": 633344,
+        "local": "2013/7-8kom2013.doc",
+        "publishedPdf": {
+          "local": "2013/7-8kom2013.pdf",
+          "sha256": "9b1e1de11ac71e57de9547b5c889e890f735f7ca7159a5c7ebfbc54973d0b44d",
+          "pages": 19,
+          "conversion": "Комментарии организатора переведены из DOC в PDF в LibreOffice Writer."
+        }
+      }
+    },
+    {
+      "year": 2013,
+      "grade": "9-10",
+      "title": "Круговорот",
+      "date": "2013-04-18",
+      "status": "booklet-and-key",
+      "note": "Оригинальные материалы восстановлены из публичных снимков сайта оргкомитета.",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "problemCount": 30,
+      "tasks": {
+        "url": "http://www.konkurs-chip.ru/file/files/9-10_2013.doc",
+        "archive": "https://web.archive.org/web/20171208190211/http://www.konkurs-chip.ru:80/file/files/9-10_2013.doc",
+        "status": "doc",
+        "sha256": "ee28114270215c0f6ed9a7ae4fa23e4aed015482b0f787116014384fe8315cb4",
+        "bytes": 219136,
+        "local": "2013/9-10_2013.doc",
+        "publishedPdf": {
+          "local": "2013/9-10_2013.pdf",
+          "sha256": "4b550c2e20a63a5890f3695106c2a56b6e2849aed83205c3942c0ee84c21b932",
+          "pages": 4,
+          "conversion": "LibreOffice Writer из исходного DOC. Проверены страницы, иллюстрации и нумерация."
+        }
+      },
+      "answers": {
+        "url": "http://www.konkurs-chip.ru/file/files/answers_2013.doc",
+        "archive": "https://web.archive.org/web/20171208190246/http://www.konkurs-chip.ru:80/file/files/answers_2013.doc",
+        "status": "doc",
+        "sha256": "bafd6d185690feccda038ce040fe081827456ee143697b9aae41bf2f4da7d9f4",
+        "bytes": 74752,
+        "local": "2013/answers_2013.doc",
+        "publishedPdf": {
+          "local": "2013/answers_2013.pdf",
+          "sha256": "7be592bfa583853f99480a674c290f4a4a61856146695abf95065273779671fa",
+          "pages": 1,
+          "conversion": "Таблица организатора переведена из DOC в PDF в LibreOffice Writer."
+        }
+      },
+      "solutions": {
+        "url": "https://www.konkurs-chip.ru/file/files/9-10kom2013.doc",
+        "archive": "https://web.archive.org/web/20171208190232/http://www.konkurs-chip.ru:80/file/files/9-10kom2013.doc",
+        "status": "doc",
+        "sha256": "e905001e363b07f4c083e643f409e1132240d731d2fc6c87541ba708afcc0927",
+        "bytes": 522752,
+        "local": "2013/9-10kom2013.doc",
+        "publishedPdf": {
+          "local": "2013/9-10kom2013.pdf",
+          "sha256": "b9182b1e564f109ffbe0170eb63bc847e80f4be4315046615c60af2ccd3010a5",
+          "pages": 18,
+          "conversion": "Комментарии организатора переведены из DOC в PDF в LibreOffice Writer."
+        }
+      }
+    },
+    {
+      "year": 2014,
+      "grade": "1-2",
+      "title": "Человек и природа",
+      "date": "2014-04-17",
+      "problemCount": 20,
+      "status": "booklet-and-key",
+      "note": "Оригинальные материалы восстановлены из публичных снимков сайта оргкомитета.",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "tasks": {
+        "url": "http://www.konkurs-chip.ru/file/files/1-2_2014.doc",
+        "archive": "https://web.archive.org/web/20171208190011/http://www.konkurs-chip.ru:80/file/files/1-2_2014.doc",
+        "status": "doc",
+        "sha256": "6eed55be3293f82a829667174105b0050f0f4daf9508ac9e53eab88e4c6438c8",
+        "bytes": 214528,
+        "local": "2014/1-2_2014.doc",
+        "publishedPdf": {
+          "local": "2014/1-2_2014.pdf",
+          "sha256": "a63fb3d18f53ce34813d7dd80649ff18aef6cbab7ce15eae31835b7ba745af3e",
+          "pages": 3,
+          "conversion": "LibreOffice Writer из исходного DOC. Проверены страницы, иллюстрации и нумерация."
+        }
+      },
+      "answers": {
+        "url": "http://www.konkurs-chip.ru/file/files/answers_2014.doc",
+        "archive": "https://web.archive.org/web/20171208185151/http://www.konkurs-chip.ru:80/file/files/answers_2014.doc",
+        "status": "doc",
+        "sha256": "67099b978058c6f4c663e06b2c037b9bb134a0dcd51e955bff04bb30852eaa84",
+        "bytes": 73216,
+        "local": "2014/answers_2014.doc",
+        "publishedPdf": {
+          "local": "2014/answers_2014.pdf",
+          "sha256": "c8b5d168b5afa35421479fe1019b45a21280e479c4cfc897ff52e0486baac7f7",
+          "pages": 1,
+          "conversion": "Таблица организатора переведена из DOC в PDF в LibreOffice Writer."
+        }
+      }
+    },
+    {
+      "year": 2014,
+      "grade": "3-4",
+      "title": "Человек и природа",
+      "date": "2014-04-17",
+      "status": "booklet-and-key",
+      "note": "Оригинальные материалы восстановлены из публичных снимков сайта оргкомитета.",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "problemCount": 30,
+      "tasks": {
+        "url": "http://www.konkurs-chip.ru/file/files/3-4_2014.doc",
+        "archive": "https://web.archive.org/web/20171208190047/http://www.konkurs-chip.ru:80/file/files/3-4_2014.doc",
+        "status": "doc",
+        "sha256": "1e2e8a3ea48dc540e05a0f6d064a6efb96b6ed315949cf0a57459bce98dc93e8",
+        "bytes": 301568,
+        "local": "2014/3-4_2014.doc",
+        "publishedPdf": {
+          "local": "2014/3-4_2014.pdf",
+          "sha256": "ff64911b4b9b32854f2d4f2d83f9a57b53942518637188c3b19ad3dbed674f0a",
+          "pages": 4,
+          "conversion": "LibreOffice Writer из исходного DOC. Проверены страницы, иллюстрации и нумерация."
+        }
+      },
+      "answers": {
+        "url": "http://www.konkurs-chip.ru/file/files/answers_2014.doc",
+        "archive": "https://web.archive.org/web/20171208185151/http://www.konkurs-chip.ru:80/file/files/answers_2014.doc",
+        "status": "doc",
+        "sha256": "67099b978058c6f4c663e06b2c037b9bb134a0dcd51e955bff04bb30852eaa84",
+        "bytes": 73216,
+        "local": "2014/answers_2014.doc",
+        "publishedPdf": {
+          "local": "2014/answers_2014.pdf",
+          "sha256": "c8b5d168b5afa35421479fe1019b45a21280e479c4cfc897ff52e0486baac7f7",
+          "pages": 1,
+          "conversion": "Таблица организатора переведена из DOC в PDF в LibreOffice Writer."
+        }
+      }
+    },
+    {
+      "year": 2014,
+      "grade": "5-6",
+      "title": "Человек и природа",
+      "date": "2014-04-17",
+      "status": "booklet-and-key",
+      "note": "Оригинальные материалы восстановлены из публичных снимков сайта оргкомитета.",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "problemCount": 30,
+      "tasks": {
+        "url": "http://www.konkurs-chip.ru/file/files/5-6_2014.doc",
+        "archive": "https://web.archive.org/web/20171208185106/http://www.konkurs-chip.ru:80/file/files/5-6_2014.doc",
+        "status": "doc",
+        "sha256": "768a45bd31e2a63fd2fd11426bee39e60a6db8c4be4ff3608e6f0362e3ad0235",
+        "bytes": 309248,
+        "local": "2014/5-6_2014.doc",
+        "publishedPdf": {
+          "local": "2014/5-6_2014.pdf",
+          "sha256": "8d260c0f3a9acf023b60cdbbb3f5dcc3c7eb47d92500aac03eb2e66e8841b024",
+          "pages": 4,
+          "conversion": "LibreOffice Writer из исходного DOC. Проверены страницы, иллюстрации и нумерация."
+        }
+      },
+      "answers": {
+        "url": "http://www.konkurs-chip.ru/file/files/answers_2014.doc",
+        "archive": "https://web.archive.org/web/20171208185151/http://www.konkurs-chip.ru:80/file/files/answers_2014.doc",
+        "status": "doc",
+        "sha256": "67099b978058c6f4c663e06b2c037b9bb134a0dcd51e955bff04bb30852eaa84",
+        "bytes": 73216,
+        "local": "2014/answers_2014.doc",
+        "publishedPdf": {
+          "local": "2014/answers_2014.pdf",
+          "sha256": "c8b5d168b5afa35421479fe1019b45a21280e479c4cfc897ff52e0486baac7f7",
+          "pages": 1,
+          "conversion": "Таблица организатора переведена из DOC в PDF в LibreOffice Writer."
+        }
+      }
+    },
+    {
+      "year": 2014,
+      "grade": "7-8",
+      "title": "Человек и природа",
+      "date": "2014-04-17",
+      "status": "booklet-and-key",
+      "note": "Оригинальные материалы восстановлены из публичных снимков сайта оргкомитета.",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "problemCount": 30,
+      "tasks": {
+        "url": "http://www.konkurs-chip.ru/file/files/7-8_2014.doc",
+        "archive": "https://web.archive.org/web/20171208185136/http://www.konkurs-chip.ru:80/file/files/7-8_2014.doc",
+        "status": "doc",
+        "sha256": "c40ee008fa0013e067ac7bbe49206a111d9806ffa9b88c7a8624d6c617b0ecde",
+        "bytes": 288768,
+        "local": "2014/7-8_2014.doc",
+        "publishedPdf": {
+          "local": "2014/7-8_2014.pdf",
+          "sha256": "cd4e7b689e341ebad96e194858a183791f82f1fc5506a16492ba3e1ebabe3778",
+          "pages": 4,
+          "conversion": "LibreOffice Writer из исходного DOC. Проверены страницы, иллюстрации и нумерация."
+        }
+      },
+      "answers": {
+        "url": "http://www.konkurs-chip.ru/file/files/answers_2014.doc",
+        "archive": "https://web.archive.org/web/20171208185151/http://www.konkurs-chip.ru:80/file/files/answers_2014.doc",
+        "status": "doc",
+        "sha256": "67099b978058c6f4c663e06b2c037b9bb134a0dcd51e955bff04bb30852eaa84",
+        "bytes": 73216,
+        "local": "2014/answers_2014.doc",
+        "publishedPdf": {
+          "local": "2014/answers_2014.pdf",
+          "sha256": "c8b5d168b5afa35421479fe1019b45a21280e479c4cfc897ff52e0486baac7f7",
+          "pages": 1,
+          "conversion": "Таблица организатора переведена из DOC в PDF в LibreOffice Writer."
+        }
+      }
+    },
+    {
+      "year": 2014,
+      "grade": "9-10",
+      "title": "Человек и природа",
+      "date": "2014-04-17",
+      "status": "booklet-and-key",
+      "note": "Оригинальные материалы восстановлены из публичных снимков сайта оргкомитета.",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "problemCount": 30,
+      "tasks": {
+        "url": "http://www.konkurs-chip.ru/file/files/9-10_2014.doc",
+        "archive": "https://web.archive.org/web/20171208190216/http://www.konkurs-chip.ru:80/file/files/9-10_2014.doc",
+        "status": "doc",
+        "sha256": "08a1755fb1d126acb0c1b6aa80ef9c7c3d9ff6c44a959099bcba358b4b18ab48",
+        "bytes": 271360,
+        "local": "2014/9-10_2014.doc",
+        "publishedPdf": {
+          "local": "2014/9-10_2014.pdf",
+          "sha256": "4ea0e1a975f0debf4fb5c736a4699f32aec23d3ced14ddbbaf731b1996e22563",
+          "pages": 4,
+          "conversion": "LibreOffice Writer из исходного DOC. Проверены страницы, иллюстрации и нумерация."
+        }
+      },
+      "answers": {
+        "url": "http://www.konkurs-chip.ru/file/files/answers_2014.doc",
+        "archive": "https://web.archive.org/web/20171208185151/http://www.konkurs-chip.ru:80/file/files/answers_2014.doc",
+        "status": "doc",
+        "sha256": "67099b978058c6f4c663e06b2c037b9bb134a0dcd51e955bff04bb30852eaa84",
+        "bytes": 73216,
+        "local": "2014/answers_2014.doc",
+        "publishedPdf": {
+          "local": "2014/answers_2014.pdf",
+          "sha256": "c8b5d168b5afa35421479fe1019b45a21280e479c4cfc897ff52e0486baac7f7",
+          "pages": 1,
+          "conversion": "Таблица организатора переведена из DOC в PDF в LibreOffice Writer."
+        }
+      }
+    },
+    {
+      "year": 2015,
+      "grade": "1-2",
+      "title": "Европа",
+      "date": "2015-04-07",
+      "problemCount": 21,
+      "status": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "tasks": {
+        "url": "https://konkurs-chip.ru/files/arhiv/chip_2014-15_1-2.pdf",
+        "status": "pdf",
+        "sha256": "3341a7ece5929518ea6cc1d66be7dc09144d814e0933ab83e9bf68f2e19bbe91",
+        "bytes": 1138699,
+        "pages": 3,
+        "local": "2015/chip_2014-15_1-2.pdf"
+      },
+      "answers": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/otveti_chip_2014-15.pdf",
+        "status": "pdf",
+        "sha256": "09ef029a3b2db04ae443fc6cedd14b457a6096ef560ed940e71fb1a98e8222cb",
+        "bytes": 537580,
+        "pages": 1,
+        "local": "2015/otveti_chip_2014-15.pdf"
+      }
+    },
+    {
+      "year": 2015,
+      "grade": "3-4",
+      "title": "Европа",
+      "date": "2015-04-07",
+      "problemCount": 30,
+      "status": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "tasks": {
+        "url": "https://konkurs-chip.ru/files/arhiv/chip_2014-15_3-4.pdf",
+        "status": "pdf",
+        "sha256": "ff857130cf79b270c4c33dce435529fa61e0b1a6a979fc00bcdc330d0088be87",
+        "bytes": 805643,
+        "pages": 3,
+        "local": "2015/chip_2014-15_3-4.pdf"
+      },
+      "answers": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/otveti_chip_2014-15.pdf",
+        "status": "pdf",
+        "sha256": "09ef029a3b2db04ae443fc6cedd14b457a6096ef560ed940e71fb1a98e8222cb",
+        "bytes": 537580,
+        "pages": 1,
+        "local": "2015/otveti_chip_2014-15.pdf"
+      }
+    },
+    {
+      "year": 2015,
+      "grade": "5-6",
+      "title": "Европа",
+      "date": "2015-04-07",
+      "problemCount": 30,
+      "status": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "tasks": {
+        "url": "https://konkurs-chip.ru/files/arhiv/chip_2014-15_5-6.pdf",
+        "status": "pdf",
+        "sha256": "31af6c7ca8e606e5805537d4eee5c82ee2c32afbe0047219448e84f37abe088f",
+        "bytes": 817637,
+        "pages": 4,
+        "local": "2015/chip_2014-15_5-6.pdf"
+      },
+      "answers": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/otveti_chip_2014-15.pdf",
+        "status": "pdf",
+        "sha256": "09ef029a3b2db04ae443fc6cedd14b457a6096ef560ed940e71fb1a98e8222cb",
+        "bytes": 537580,
+        "pages": 1,
+        "local": "2015/otveti_chip_2014-15.pdf"
+      }
+    },
+    {
+      "year": 2015,
+      "grade": "7-8",
+      "title": "Европа",
+      "date": "2015-04-07",
+      "problemCount": 30,
+      "status": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "tasks": {
+        "url": "https://konkurs-chip.ru/files/arhiv/chip_2014-15_7-8.pdf",
+        "status": "pdf",
+        "sha256": "4078716c4c6aad2785cdbcee7de1888823f42be08e7283c47a9b597d2e22d896",
+        "bytes": 1387429,
+        "pages": 4,
+        "local": "2015/chip_2014-15_7-8.pdf"
+      },
+      "answers": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/otveti_chip_2014-15.pdf",
+        "status": "pdf",
+        "sha256": "09ef029a3b2db04ae443fc6cedd14b457a6096ef560ed940e71fb1a98e8222cb",
+        "bytes": 537580,
+        "pages": 1,
+        "local": "2015/otveti_chip_2014-15.pdf"
+      }
+    },
+    {
+      "year": 2015,
+      "grade": "9-10",
+      "title": "Европа",
+      "date": "2015-04-07",
+      "problemCount": 30,
+      "status": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "tasks": {
+        "url": "https://konkurs-chip.ru/files/arhiv/chip_2014-15_9-10.pdf",
+        "status": "pdf",
+        "sha256": "ec4fc1969117e126a1ef1f3cd5fac4aa652e979e58b54d3423ad0d4678484a6c",
+        "bytes": 1353627,
+        "pages": 4,
+        "local": "2015/chip_2014-15_9-10.pdf"
+      },
+      "answers": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/otveti_chip_2014-15.pdf",
+        "status": "pdf",
+        "sha256": "09ef029a3b2db04ae443fc6cedd14b457a6096ef560ed940e71fb1a98e8222cb",
+        "bytes": 537580,
+        "pages": 1,
+        "local": "2015/otveti_chip_2014-15.pdf"
+      }
+    },
+    {
+      "year": 2016,
+      "grade": "1-2",
+      "title": "Азия",
+      "problemCount": 20,
+      "status": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "tasks": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/задания_ЧИП-2016-1_2класс.pdf",
+        "status": "pdf",
+        "sha256": "5a7de6fed02a2de0998966c98689e7d906f011f7ec43c04a8977ed3777ad9c2e",
+        "bytes": 418231,
+        "pages": 3,
+        "local": "2016/задания_ЧИП-2016-1_2класс.pdf"
+      },
+      "answers": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/ответы-чип-2016.pdf",
+        "status": "pdf",
+        "sha256": "2ea523a5b77b335abba3be14632289517cfd177667438e67b21efac4dc57dd99",
+        "bytes": 538563,
+        "pages": 1,
+        "local": "2016/ответы-чип-2016.pdf"
+      }
+    },
+    {
+      "year": 2016,
+      "grade": "3-4",
+      "title": "Азия",
+      "problemCount": 30,
+      "status": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "tasks": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/задания_ЧИП-2016-3_4класс.pdf",
+        "status": "pdf",
+        "sha256": "e903321098ee26a01abc20331800f43cedfa07363a00d9c5a07a575f3e144fd4",
+        "bytes": 420649,
+        "pages": 4,
+        "local": "2016/задания_ЧИП-2016-3_4класс.pdf"
+      },
+      "answers": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/ответы-чип-2016.pdf",
+        "status": "pdf",
+        "sha256": "2ea523a5b77b335abba3be14632289517cfd177667438e67b21efac4dc57dd99",
+        "bytes": 538563,
+        "pages": 1,
+        "local": "2016/ответы-чип-2016.pdf"
+      }
+    },
+    {
+      "year": 2016,
+      "grade": "5-6",
+      "title": "Азия",
+      "problemCount": 30,
+      "status": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "tasks": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/задания_ЧИП-2016-5_6класс.pdf",
+        "status": "pdf",
+        "sha256": "b3762a2c89a4ae5c3e60447793dd5be5cb18c0b18b136098987e328c0e061ef5",
+        "bytes": 526919,
+        "pages": 4,
+        "local": "2016/задания_ЧИП-2016-5_6класс.pdf"
+      },
+      "answers": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/ответы-чип-2016.pdf",
+        "status": "pdf",
+        "sha256": "2ea523a5b77b335abba3be14632289517cfd177667438e67b21efac4dc57dd99",
+        "bytes": 538563,
+        "pages": 1,
+        "local": "2016/ответы-чип-2016.pdf"
+      }
+    },
+    {
+      "year": 2016,
+      "grade": "7-8",
+      "title": "Азия",
+      "problemCount": 30,
+      "status": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "tasks": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/задания_ЧИП-2016-7_8класс.pdf",
+        "status": "pdf",
+        "sha256": "0a83adeaa61c5f0467e1d28d214b18b89bd3c07854b10755b63d172263bfdbc4",
+        "bytes": 491265,
+        "pages": 4,
+        "local": "2016/задания_ЧИП-2016-7_8класс.pdf"
+      },
+      "answers": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/ответы-чип-2016.pdf",
+        "status": "pdf",
+        "sha256": "2ea523a5b77b335abba3be14632289517cfd177667438e67b21efac4dc57dd99",
+        "bytes": 538563,
+        "pages": 1,
+        "local": "2016/ответы-чип-2016.pdf"
+      }
+    },
+    {
+      "year": 2016,
+      "grade": "9-10",
+      "title": "Азия",
+      "problemCount": 30,
+      "status": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "tasks": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/задания_ЧИП-2016-9_10класс.pdf",
+        "status": "pdf",
+        "sha256": "309d4bb3401f45ef45068f05942989693906fcd4ae56fe30a0f4b001c384c076",
+        "bytes": 444029,
+        "pages": 4,
+        "local": "2016/задания_ЧИП-2016-9_10класс.pdf"
+      },
+      "answers": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/ответы-чип-2016.pdf",
+        "status": "pdf",
+        "sha256": "2ea523a5b77b335abba3be14632289517cfd177667438e67b21efac4dc57dd99",
+        "bytes": 538563,
+        "pages": 1,
+        "local": "2016/ответы-чип-2016.pdf"
+      }
+    },
+    {
+      "year": 2017,
+      "grade": "1-2",
+      "title": "Северная Америка",
+      "problemCount": 20,
+      "status": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "tasks": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/задания_ЧИП-2017-1_2класс.pdf",
+        "status": "pdf",
+        "sha256": "2cfb52980195850d268c4a2d6d4992ae987badd58582ace09dd7d0de73293448",
+        "bytes": 447234,
+        "pages": 3,
+        "local": "2017/задания_ЧИП-2017-1_2класс.pdf"
+      },
+      "answers": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/ответы_ЧИП_2017.pdf",
+        "status": "pdf",
+        "sha256": "5f3bf272acff1b032937c004daaba7ac64451efa564f801dd8dce823721c73fb",
+        "bytes": 538389,
+        "pages": 1,
+        "local": "2017/ответы_ЧИП_2017.pdf"
+      }
+    },
+    {
+      "year": 2017,
+      "grade": "3-4",
+      "title": "Северная Америка",
+      "problemCount": 30,
+      "status": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "tasks": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/задания_ЧИП-2017-3-4класс.pdf",
+        "status": "pdf",
+        "sha256": "f5dc06e5d68805a8471e564b621d4f6ac75dce39261f2e932a547a4b5d3a6082",
+        "bytes": 469438,
+        "pages": 4,
+        "local": "2017/задания_ЧИП-2017-3-4класс.pdf"
+      },
+      "answers": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/ответы_ЧИП_2017.pdf",
+        "status": "pdf",
+        "sha256": "5f3bf272acff1b032937c004daaba7ac64451efa564f801dd8dce823721c73fb",
+        "bytes": 538389,
+        "pages": 1,
+        "local": "2017/ответы_ЧИП_2017.pdf"
+      }
+    },
+    {
+      "year": 2017,
+      "grade": "5-6",
+      "title": "Северная Америка",
+      "problemCount": 30,
+      "status": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "tasks": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/задания_ЧИП-2017-5-6класс.pdf",
+        "status": "pdf",
+        "sha256": "f2c86e00c13dc65d0ae444ad31230e5a250154f77a094ef22e11dad252431dec",
+        "bytes": 459598,
+        "pages": 3,
+        "local": "2017/задания_ЧИП-2017-5-6класс.pdf"
+      },
+      "answers": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/ответы_ЧИП_2017.pdf",
+        "status": "pdf",
+        "sha256": "5f3bf272acff1b032937c004daaba7ac64451efa564f801dd8dce823721c73fb",
+        "bytes": 538389,
+        "pages": 1,
+        "local": "2017/ответы_ЧИП_2017.pdf"
+      }
+    },
+    {
+      "year": 2017,
+      "grade": "7-8",
+      "title": "Северная Америка",
+      "problemCount": 30,
+      "status": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "tasks": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/задания_ЧИП-2017-7-8класс.pdf",
+        "status": "pdf",
+        "sha256": "249d680f267543c1e759cfc6e380eec524c628b99c13d200cb1a31814078e6bb",
+        "bytes": 368879,
+        "pages": 3,
+        "local": "2017/задания_ЧИП-2017-7-8класс.pdf"
+      },
+      "answers": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/ответы_ЧИП_2017.pdf",
+        "status": "pdf",
+        "sha256": "5f3bf272acff1b032937c004daaba7ac64451efa564f801dd8dce823721c73fb",
+        "bytes": 538389,
+        "pages": 1,
+        "local": "2017/ответы_ЧИП_2017.pdf"
+      }
+    },
+    {
+      "year": 2017,
+      "grade": "9-10",
+      "title": "Северная Америка",
+      "problemCount": 30,
+      "status": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "tasks": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/задания_ЧИП-2017-9-10класс.pdf",
+        "status": "pdf",
+        "sha256": "f228f6ad12570fa78291ad1fb7cfe0ceb689f261a42bd29224c8d00ab49194a7",
+        "bytes": 355974,
+        "pages": 3,
+        "local": "2017/задания_ЧИП-2017-9-10класс.pdf"
+      },
+      "answers": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/ответы_ЧИП_2017.pdf",
+        "status": "pdf",
+        "sha256": "5f3bf272acff1b032937c004daaba7ac64451efa564f801dd8dce823721c73fb",
+        "bytes": 538389,
+        "pages": 1,
+        "local": "2017/ответы_ЧИП_2017.pdf"
+      }
+    },
+    {
+      "year": 2018,
+      "grade": "1-2",
+      "title": "Мир леса и Южная Америка",
+      "date": "2018-04-19",
+      "problemCount": 20,
+      "status": "booklet-and-key",
+      "note": "В оригинальном буклете задачи № 1–10 о лесе, № 11–20 о Южной Америке.",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "tasks": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/чип2018_1_2класс_задания.pdf",
+        "status": "pdf",
+        "sha256": "70b85daa28e7805afaa5398b8d7d373839d30e975af82d247407a888181c9a84",
+        "bytes": 2310442,
+        "pages": 2,
+        "local": "2018/чип2018_1_2класс_задания.pdf"
+      },
+      "answers": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/чип2018_ответы.pdf",
+        "status": "pdf",
+        "sha256": "9c5f98b17c7b0152f37c0feb29ec42a8bb2b4be35d9ece7bde17435d056125dc",
+        "bytes": 294444,
+        "pages": 1,
+        "local": "2018/чип2018_ответы.pdf"
+      }
+    },
+    {
+      "year": 2018,
+      "grade": "3-4",
+      "title": "Южная Америка",
+      "date": "2018-04-19",
+      "problemCount": 30,
+      "status": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "tasks": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/чип2018_3-4класс_задания.pdf",
+        "status": "pdf",
+        "sha256": "e6b3fb704148bf95b38e593c13c0b55dce40715493b433001da75cd4f5f4d3c1",
+        "bytes": 1838827,
+        "pages": 2,
+        "local": "2018/чип2018_3-4класс_задания.pdf"
+      },
+      "answers": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/чип2018_ответы.pdf",
+        "status": "pdf",
+        "sha256": "9c5f98b17c7b0152f37c0feb29ec42a8bb2b4be35d9ece7bde17435d056125dc",
+        "bytes": 294444,
+        "pages": 1,
+        "local": "2018/чип2018_ответы.pdf"
+      }
+    },
+    {
+      "year": 2018,
+      "grade": "5-6",
+      "title": "Южная Америка",
+      "date": "2018-04-19",
+      "problemCount": 30,
+      "status": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "tasks": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/чип2018_5-6класс_задания.pdf",
+        "status": "pdf",
+        "sha256": "863134666f4ac40f5cfcd6b85eca914952c23621cd3b96d42c112bfd21d2c08f",
+        "bytes": 1831869,
+        "pages": 2,
+        "local": "2018/чип2018_5-6класс_задания.pdf"
+      },
+      "answers": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/чип2018_ответы.pdf",
+        "status": "pdf",
+        "sha256": "9c5f98b17c7b0152f37c0feb29ec42a8bb2b4be35d9ece7bde17435d056125dc",
+        "bytes": 294444,
+        "pages": 1,
+        "local": "2018/чип2018_ответы.pdf"
+      }
+    },
+    {
+      "year": 2018,
+      "grade": "7-8",
+      "title": "Южная Америка",
+      "date": "2018-04-19",
+      "problemCount": 30,
+      "status": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "tasks": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/чип2018_7-8класс_задания.pdf",
+        "status": "pdf",
+        "sha256": "c468a0efc19f2b9fc0d40b4e41ab1eabb1063afdc82ef5260e65ce1cb50ef9d3",
+        "bytes": 1922820,
+        "pages": 2,
+        "local": "2018/чип2018_7-8класс_задания.pdf"
+      },
+      "answers": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/чип2018_ответы.pdf",
+        "status": "pdf",
+        "sha256": "9c5f98b17c7b0152f37c0feb29ec42a8bb2b4be35d9ece7bde17435d056125dc",
+        "bytes": 294444,
+        "pages": 1,
+        "local": "2018/чип2018_ответы.pdf"
+      }
+    },
+    {
+      "year": 2018,
+      "grade": "9-10",
+      "title": "Южная Америка",
+      "date": "2018-04-19",
+      "problemCount": 30,
+      "status": "booklet-and-key",
+      "note": "Имя файла на зеркале содержит 9–11. Обложка буклета и ключ указывают 9–10.",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "tasks": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/чип2018_9-11класс_задания.pdf",
+        "status": "pdf",
+        "sha256": "a7ab84333bbbddbf767ec44fd6a7939cfcd7b6ff1f5d310cd443757c2db9686b",
+        "bytes": 1827821,
+        "pages": 2,
+        "local": "2018/чип2018_9-11класс_задания.pdf"
+      },
+      "answers": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/чип2018_ответы.pdf",
+        "status": "pdf",
+        "sha256": "9c5f98b17c7b0152f37c0feb29ec42a8bb2b4be35d9ece7bde17435d056125dc",
+        "bytes": 294444,
+        "pages": 1,
+        "local": "2018/чип2018_ответы.pdf"
+      }
+    },
+    {
+      "year": 2019,
+      "grade": "1-2",
+      "title": "Африка",
+      "session": "africa",
+      "date": "2019-04-11",
+      "problemCount": 20,
+      "status": "booklet-only",
+      "note": "В общем указателе зеркала указан ключ 2019–2020 для «Австралии и Океании». Ключ «Африки» не подтверждён.",
+      "reference": [
+        "https://konkurs-chip.ru/aboutchip",
+        "https://co8a.ru/chp2019/",
+        "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/"
+      ],
+      "tasks": {
+        "url": "https://konkurs-chip.ru/files/arhiv/chip_2018-19_1-2.pdf",
+        "status": "pdf",
+        "sha256": "153f14756b358e3dc59d39d933815a464b0a29a0c6011bd0c1d030ae07c07132",
+        "bytes": 523661,
+        "pages": 3,
+        "local": "2019/africa/chip_2018-19_1-2.pdf"
+      }
+    },
+    {
+      "year": 2019,
+      "grade": "3-4",
+      "title": "Африка",
+      "session": "africa",
+      "date": "2019-04-11",
+      "problemCount": 30,
+      "status": "booklet-only",
+      "note": "В общем указателе зеркала указан ключ 2019–2020 для «Австралии и Океании». Ключ «Африки» не подтверждён.",
+      "reference": [
+        "https://konkurs-chip.ru/aboutchip",
+        "https://co8a.ru/chp2019/",
+        "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/"
+      ],
+      "tasks": {
+        "url": "https://konkurs-chip.ru/files/arhiv/chip_2018-19_3-4.pdf",
+        "status": "pdf",
+        "sha256": "25a0613d8786a2aabb17a7bb58d3693bfe5360ca203db79ed93f966582e245c9",
+        "bytes": 806363,
+        "pages": 4,
+        "local": "2019/africa/chip_2018-19_3-4.pdf"
+      }
+    },
+    {
+      "year": 2019,
+      "grade": "5-6",
+      "title": "Африка",
+      "session": "africa",
+      "date": "2019-04-11",
+      "problemCount": 30,
+      "status": "booklet-only",
+      "note": "В общем указателе зеркала указан ключ 2019–2020 для «Австралии и Океании». Ключ «Африки» не подтверждён.",
+      "reference": [
+        "https://konkurs-chip.ru/aboutchip",
+        "https://co8a.ru/chp2019/",
+        "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/"
+      ],
+      "tasks": {
+        "url": "https://konkurs-chip.ru/files/arhiv/chip_2018-19_5-6.pdf",
+        "status": "pdf",
+        "sha256": "18071ecdfddceb2cb0cb1c953aed3ef495ae09c286a404e005157bbe8b698e04",
+        "bytes": 599077,
+        "pages": 4,
+        "local": "2019/africa/chip_2018-19_5-6.pdf"
+      }
+    },
+    {
+      "year": 2019,
+      "grade": "7-8",
+      "title": "Африка",
+      "session": "africa",
+      "date": "2019-04-11",
+      "problemCount": 30,
+      "status": "booklet-only",
+      "note": "В общем указателе зеркала указан ключ 2019–2020 для «Австралии и Океании». Ключ «Африки» не подтверждён.",
+      "reference": [
+        "https://konkurs-chip.ru/aboutchip",
+        "https://co8a.ru/chp2019/",
+        "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/"
+      ],
+      "tasks": {
+        "url": "https://konkurs-chip.ru/files/arhiv/chip_2018-19_7-8.pdf",
+        "status": "pdf",
+        "sha256": "d68153140734fac4bbf051610c3d89de253261bf4184541b1deefc0f949b5322",
+        "bytes": 606252,
+        "pages": 4,
+        "local": "2019/africa/chip_2018-19_7-8.pdf"
+      }
+    },
+    {
+      "year": 2019,
+      "grade": "9-10",
+      "title": "Африка",
+      "session": "africa",
+      "date": "2019-04-11",
+      "problemCount": 30,
+      "status": "booklet-only",
+      "note": "В общем указателе зеркала указан ключ 2019–2020 для «Австралии и Океании». Ключ «Африки» не подтверждён.",
+      "reference": [
+        "https://konkurs-chip.ru/aboutchip",
+        "https://co8a.ru/chp2019/",
+        "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/"
+      ],
+      "tasks": {
+        "url": "https://konkurs-chip.ru/files/arhiv/chip_2018-19_9-10.pdf",
+        "status": "pdf",
+        "sha256": "f7760a38dbb0a36ee4d943c0b119deba28c274297ea2e5cf8695ecf58dcef36a",
+        "bytes": 532334,
+        "pages": 4,
+        "local": "2019/africa/chip_2018-19_9-10.pdf"
+      }
+    },
+    {
+      "year": 2019,
+      "grade": "1",
+      "title": "Австралия и Океания",
+      "date": "2019-10-23",
+      "status": "not-verified",
+      "note": "Отдельный школьный буклет 1-го класса по теме не найден. Вариант chip_2019-20_1-2.pdf помечен «2-е классы».",
+      "reference": "https://konkurs-chip.ru/aboutchip"
+    },
+    {
+      "year": 2019,
+      "grade": "2",
+      "title": "Австралия и Океания",
+      "date": "2019-10-23",
+      "problemCount": 20,
+      "status": "booklet-and-key",
+      "note": "Обложка указывает «2-е классы», ключ озаглавлен «1–2 классы».",
+      "reference": "https://konkurs-chip.ru/aboutchip",
+      "tasks": {
+        "url": "https://konkurs-chip.ru/files/arhiv/chip_2019-20_1-2.pdf",
+        "status": "pdf",
+        "sha256": "63e5209b4c31fda2eb536d0c3366a91bae71d3497b9ac2db3ae5446762806c1a",
+        "bytes": 763779,
+        "pages": 3,
+        "local": "2019/chip_2019-20_1-2.pdf"
+      },
+      "answers": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/ответы_чип_2019-1.pdf",
+        "status": "pdf",
+        "sha256": "3faf898a7686ba991dc0d9da2c1298f228e7790b740402da690f95cec4b4e9c9",
+        "bytes": 475201,
+        "pages": 1,
+        "local": "2019/ответы_чип_2019-1.pdf",
+        "publishedPdf": {
+          "local": "2019/answers.pdf",
+          "sha256": "3faf898a7686ba991dc0d9da2c1298f228e7790b740402da690f95cec4b4e9c9"
+        }
+      }
+    },
+    {
+      "year": 2019,
+      "grade": "3-4",
+      "title": "Австралия и Океания",
+      "date": "2019-10-23",
+      "problemCount": 30,
+      "status": "booklet-and-key",
+      "reference": "https://konkurs-chip.ru/aboutchip",
+      "tasks": {
+        "url": "https://konkurs-chip.ru/files/arhiv/chip_2019-20_3-4.pdf",
+        "status": "pdf",
+        "sha256": "a82bc820d4d8e31d1fe2e1f8b83f769f4edbd5aeca1c19566663e7fccfa47352",
+        "bytes": 694924,
+        "pages": 4,
+        "local": "2019/chip_2019-20_3-4.pdf",
+        "publishedPdf": {
+          "local": "2019/tasks.pdf",
+          "sha256": "a82bc820d4d8e31d1fe2e1f8b83f769f4edbd5aeca1c19566663e7fccfa47352"
+        }
+      },
+      "answers": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/ответы_чип_2019-1.pdf",
+        "status": "pdf",
+        "sha256": "3faf898a7686ba991dc0d9da2c1298f228e7790b740402da690f95cec4b4e9c9",
+        "bytes": 475201,
+        "pages": 1,
+        "local": "2019/ответы_чип_2019-1.pdf",
+        "publishedPdf": {
+          "local": "2019/answers.pdf",
+          "sha256": "3faf898a7686ba991dc0d9da2c1298f228e7790b740402da690f95cec4b4e9c9"
+        }
+      }
+    },
+    {
+      "year": 2019,
+      "grade": "5-6",
+      "title": "Австралия и Океания",
+      "date": "2019-10-23",
+      "problemCount": 30,
+      "status": "booklet-and-key",
+      "reference": "https://konkurs-chip.ru/aboutchip",
+      "tasks": {
+        "url": "https://konkurs-chip.ru/files/arhiv/chip_2019-20_5-6.pdf",
+        "status": "pdf",
+        "sha256": "c1d330cbb562483d5e44b38eed81646102ecbfc6dbef9cded901706b90d84977",
+        "bytes": 708264,
+        "pages": 4,
+        "local": "2019/chip_2019-20_5-6.pdf"
+      },
+      "answers": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/ответы_чип_2019-1.pdf",
+        "status": "pdf",
+        "sha256": "3faf898a7686ba991dc0d9da2c1298f228e7790b740402da690f95cec4b4e9c9",
+        "bytes": 475201,
+        "pages": 1,
+        "local": "2019/ответы_чип_2019-1.pdf",
+        "publishedPdf": {
+          "local": "2019/answers.pdf",
+          "sha256": "3faf898a7686ba991dc0d9da2c1298f228e7790b740402da690f95cec4b4e9c9"
+        }
+      }
+    },
+    {
+      "year": 2019,
+      "grade": "7-8",
+      "title": "Австралия и Океания",
+      "date": "2019-10-23",
+      "problemCount": 30,
+      "status": "booklet-and-key",
+      "reference": "https://konkurs-chip.ru/aboutchip",
+      "tasks": {
+        "url": "https://konkurs-chip.ru/files/arhiv/chip_2019-20_7-8.pdf",
+        "status": "pdf",
+        "sha256": "3c628d4097987d0e29eac3dfe32df2b6127bd045b7066777cfaeb20ebeb984de",
+        "bytes": 593154,
+        "pages": 4,
+        "local": "2019/chip_2019-20_7-8.pdf"
+      },
+      "answers": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/ответы_чип_2019-1.pdf",
+        "status": "pdf",
+        "sha256": "3faf898a7686ba991dc0d9da2c1298f228e7790b740402da690f95cec4b4e9c9",
+        "bytes": 475201,
+        "pages": 1,
+        "local": "2019/ответы_чип_2019-1.pdf",
+        "publishedPdf": {
+          "local": "2019/answers.pdf",
+          "sha256": "3faf898a7686ba991dc0d9da2c1298f228e7790b740402da690f95cec4b4e9c9"
+        }
+      }
+    },
+    {
+      "year": 2019,
+      "grade": "9-11",
+      "title": "Австралия и Океания",
+      "date": "2019-10-23",
+      "problemCount": 30,
+      "status": "booklet-and-key",
+      "note": "Обложка указывает 9–11, ключ озаглавлен «9–10».",
+      "reference": "https://konkurs-chip.ru/aboutchip",
+      "tasks": {
+        "url": "https://konkurs-chip.ru/files/arhiv/chip_2019-20_9-10.pdf",
+        "status": "pdf",
+        "sha256": "1949738733f9dae5442533268ff1f36c9c7ecdb757cc92d224727f93b96b240b",
+        "bytes": 709752,
+        "pages": 4,
+        "local": "2019/chip_2019-20_9-10.pdf"
+      },
+      "answers": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/ответы_чип_2019-1.pdf",
+        "status": "pdf",
+        "sha256": "3faf898a7686ba991dc0d9da2c1298f228e7790b740402da690f95cec4b4e9c9",
+        "bytes": 475201,
+        "pages": 1,
+        "local": "2019/ответы_чип_2019-1.pdf",
+        "publishedPdf": {
+          "local": "2019/answers.pdf",
+          "sha256": "3faf898a7686ba991dc0d9da2c1298f228e7790b740402da690f95cec4b4e9c9"
+        }
+      }
+    },
+    {
+      "year": 2020,
+      "grade": "1",
+      "title": "Евразия",
+      "date": "2020-10-22",
+      "problemCount": 15,
+      "status": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "tasks": {
+        "url": "https://100ballnik.com/wp-content/uploads/2020/10/2020-2021_CHIP_Evrazia_zadanie_1klass.pdf",
+        "status": "pdf",
+        "sha256": "e9401fb563e2470f12a1647d3c46b63061ab9bbd9f5f887a9983469979190cce",
+        "bytes": 2326592,
+        "pages": 2,
+        "local": "2020/2020-2021_CHIP_Evrazia_zadanie_1klass.pdf"
+      },
+      "answers": {
+        "url": "https://100ballnik.com/wp-content/uploads/2020/10/2020-2021_CHIP_Evrazia_otveti.pdf",
+        "status": "pdf",
+        "sha256": "82dfa40c19f0e9b2d29e234b42f044babdb6d15cac6fce35e705a2a8b4d31fcb",
+        "bytes": 405579,
+        "pages": 1,
+        "local": "2020/2020-2021_CHIP_Evrazia_otveti.pdf",
+        "publishedPdf": {
+          "local": "2020/answers.pdf",
+          "sha256": "c2507bd0861ce51eec4a524de1b9a28b3641e653708508698d07bd834801a590"
+        }
+      }
+    },
+    {
+      "year": 2020,
+      "grade": "2",
+      "title": "Евразия",
+      "date": "2020-10-22",
+      "problemCount": 20,
+      "status": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "tasks": {
+        "url": "https://100ballnik.com/wp-content/uploads/2020/10/2020-2021_CHIP_Evrazia_zadanie_2klass.pdf",
+        "status": "pdf",
+        "sha256": "034d22c07d91f83234a4413eb57b49cfc54f92b538e68274bd5ff2b517d60f55",
+        "bytes": 1529552,
+        "pages": 2,
+        "local": "2020/2020-2021_CHIP_Evrazia_zadanie_2klass.pdf"
+      },
+      "answers": {
+        "url": "https://100ballnik.com/wp-content/uploads/2020/10/2020-2021_CHIP_Evrazia_otveti.pdf",
+        "status": "pdf",
+        "sha256": "82dfa40c19f0e9b2d29e234b42f044babdb6d15cac6fce35e705a2a8b4d31fcb",
+        "bytes": 405579,
+        "pages": 1,
+        "local": "2020/2020-2021_CHIP_Evrazia_otveti.pdf",
+        "publishedPdf": {
+          "local": "2020/answers.pdf",
+          "sha256": "c2507bd0861ce51eec4a524de1b9a28b3641e653708508698d07bd834801a590"
+        }
+      }
+    },
+    {
+      "year": 2020,
+      "grade": "3-4",
+      "title": "Евразия",
+      "date": "2020-10-22",
+      "problemCount": 30,
+      "status": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "tasks": {
+        "url": "https://100ballnik.com/wp-content/uploads/2020/10/2020-2021_CHIP_Evrazia_zadanie_3-4-kl.pdf",
+        "status": "pdf",
+        "sha256": "7d47dbfcf94ebd2b60061e762f29790bf4ea7d4b1f8650d45578b1f3ca309107",
+        "bytes": 1736203,
+        "pages": 2,
+        "local": "2020/2020-2021_CHIP_Evrazia_zadanie_3-4-kl.pdf",
+        "publishedPdf": {
+          "local": "2020/tasks.pdf",
+          "sha256": "d2684b499746722b221920d8c24988361c67b6b2eda28f2a465515d3d40df85b"
+        }
+      },
+      "answers": {
+        "url": "https://100ballnik.com/wp-content/uploads/2020/10/2020-2021_CHIP_Evrazia_otveti.pdf",
+        "status": "pdf",
+        "sha256": "82dfa40c19f0e9b2d29e234b42f044babdb6d15cac6fce35e705a2a8b4d31fcb",
+        "bytes": 405579,
+        "pages": 1,
+        "local": "2020/2020-2021_CHIP_Evrazia_otveti.pdf",
+        "publishedPdf": {
+          "local": "2020/answers.pdf",
+          "sha256": "c2507bd0861ce51eec4a524de1b9a28b3641e653708508698d07bd834801a590"
+        }
+      }
+    },
+    {
+      "year": 2020,
+      "grade": "5-6",
+      "title": "Евразия",
+      "date": "2020-10-22",
+      "problemCount": 30,
+      "status": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "tasks": {
+        "url": "https://100ballnik.com/wp-content/uploads/2020/10/2020-2021_CHIP_Evrazia_zadanie_5-6-kl.pdf",
+        "status": "pdf",
+        "sha256": "b2611be41b37191121920996dc93500060f9f70e5cfb8bf51bdfdb0a9bd28bf0",
+        "bytes": 1609079,
+        "pages": 2,
+        "local": "2020/2020-2021_CHIP_Evrazia_zadanie_5-6-kl.pdf"
+      },
+      "answers": {
+        "url": "https://100ballnik.com/wp-content/uploads/2020/10/2020-2021_CHIP_Evrazia_otveti.pdf",
+        "status": "pdf",
+        "sha256": "82dfa40c19f0e9b2d29e234b42f044babdb6d15cac6fce35e705a2a8b4d31fcb",
+        "bytes": 405579,
+        "pages": 1,
+        "local": "2020/2020-2021_CHIP_Evrazia_otveti.pdf",
+        "publishedPdf": {
+          "local": "2020/answers.pdf",
+          "sha256": "c2507bd0861ce51eec4a524de1b9a28b3641e653708508698d07bd834801a590"
+        }
+      }
+    },
+    {
+      "year": 2020,
+      "grade": "7-8",
+      "title": "Евразия",
+      "date": "2020-10-22",
+      "problemCount": 30,
+      "status": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "tasks": {
+        "url": "https://100ballnik.com/wp-content/uploads/2020/10/2020-2021_CHIP_Evrazia_zadanie_7-8-kl.pdf",
+        "status": "pdf",
+        "sha256": "1e6809de6b1d742a32530f8560629c01e4706c008a19a999f0719a9714458ab0",
+        "bytes": 1603207,
+        "pages": 2,
+        "local": "2020/2020-2021_CHIP_Evrazia_zadanie_7-8-kl.pdf"
+      },
+      "answers": {
+        "url": "https://100ballnik.com/wp-content/uploads/2020/10/2020-2021_CHIP_Evrazia_otveti.pdf",
+        "status": "pdf",
+        "sha256": "82dfa40c19f0e9b2d29e234b42f044babdb6d15cac6fce35e705a2a8b4d31fcb",
+        "bytes": 405579,
+        "pages": 1,
+        "local": "2020/2020-2021_CHIP_Evrazia_otveti.pdf",
+        "publishedPdf": {
+          "local": "2020/answers.pdf",
+          "sha256": "c2507bd0861ce51eec4a524de1b9a28b3641e653708508698d07bd834801a590"
+        }
+      }
+    },
+    {
+      "year": 2020,
+      "grade": "9-11",
+      "title": "Евразия",
+      "date": "2020-10-22",
+      "problemCount": 30,
+      "status": "booklet-and-key",
+      "note": "Обложка указывает 9–11, ключ озаглавлен «9–10».",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "tasks": {
+        "url": "https://100ballnik.com/wp-content/uploads/2020/10/2020-2021_CHIP_Evrazia_zadanie_9-11-kl.pdf",
+        "status": "pdf",
+        "sha256": "909a974e13619dd243687d7de37a77bac4ed5f70aebc6522db6c74b7af3436d2",
+        "bytes": 1678414,
+        "pages": 2,
+        "local": "2020/2020-2021_CHIP_Evrazia_zadanie_9-11-kl.pdf"
+      },
+      "answers": {
+        "url": "https://100ballnik.com/wp-content/uploads/2020/10/2020-2021_CHIP_Evrazia_otveti.pdf",
+        "status": "pdf",
+        "sha256": "82dfa40c19f0e9b2d29e234b42f044babdb6d15cac6fce35e705a2a8b4d31fcb",
+        "bytes": 405579,
+        "pages": 1,
+        "local": "2020/2020-2021_CHIP_Evrazia_otveti.pdf",
+        "publishedPdf": {
+          "local": "2020/answers.pdf",
+          "sha256": "c2507bd0861ce51eec4a524de1b9a28b3641e653708508698d07bd834801a590"
+        }
+      }
+    },
+    {
+      "year": 2021,
+      "grade": "1",
+      "title": "Мир воды",
+      "date": "2021-10-21",
+      "status": "not-verified",
+      "note": "Найдены упоминание или фрагменты выпуска. Полный открытый оригинальный буклет и официальный ключ не подтверждены.",
+      "reference": "https://eobraz.ru/product/waterworld/"
+    },
+    {
+      "year": 2021,
+      "grade": "2",
+      "title": "Мир воды",
+      "date": "2021-10-21",
+      "status": "not-verified",
+      "note": "Найдены упоминание или фрагменты выпуска. Полный открытый оригинальный буклет и официальный ключ не подтверждены.",
+      "reference": "https://eobraz.ru/product/waterworld/"
+    },
+    {
+      "year": 2021,
+      "grade": "3-4",
+      "title": "Мир воды",
+      "date": "2021-10-21",
+      "status": "not-verified",
+      "note": "Найдены упоминание или фрагменты выпуска. Полный открытый оригинальный буклет и официальный ключ не подтверждены.",
+      "reference": "https://eobraz.ru/product/waterworld/"
+    },
+    {
+      "year": 2021,
+      "grade": "5-6",
+      "title": "Мир воды",
+      "date": "2021-10-21",
+      "status": "not-verified",
+      "note": "Найдены упоминание или фрагменты выпуска. Полный открытый оригинальный буклет и официальный ключ не подтверждены.",
+      "reference": "https://eobraz.ru/product/waterworld/"
+    },
+    {
+      "year": 2021,
+      "grade": "7-8",
+      "title": "Мир воды",
+      "date": "2021-10-21",
+      "status": "not-verified",
+      "note": "Найдены упоминание или фрагменты выпуска. Полный открытый оригинальный буклет и официальный ключ не подтверждены.",
+      "reference": "https://eobraz.ru/product/waterworld/"
+    },
+    {
+      "year": 2021,
+      "grade": "9-11",
+      "title": "Мир воды",
+      "date": "2021-10-21",
+      "status": "not-verified",
+      "note": "Найдены упоминание или фрагменты выпуска. Полный открытый оригинальный буклет и официальный ключ не подтверждены.",
+      "reference": "https://eobraz.ru/product/waterworld/"
+    },
+    {
+      "year": 2022,
+      "grade": "1",
+      "title": "Дальний Восток",
+      "date": "2022-10-19",
+      "status": "not-verified",
+      "note": "Найдены упоминание или фрагменты выпуска. Полный открытый оригинальный буклет и официальный ключ не подтверждены.",
+      "reference": "https://co8a.ru/chip/22-23/"
+    },
+    {
+      "year": 2022,
+      "grade": "2",
+      "title": "Дальний Восток",
+      "date": "2022-10-19",
+      "status": "not-verified",
+      "note": "Найдены упоминание или фрагменты выпуска. Полный открытый оригинальный буклет и официальный ключ не подтверждены.",
+      "reference": "https://co8a.ru/chip/22-23/"
+    },
+    {
+      "year": 2022,
+      "grade": "3-4",
+      "title": "Дальний Восток",
+      "date": "2022-10-19",
+      "status": "not-verified",
+      "note": "Найдены упоминание или фрагменты выпуска. Полный открытый оригинальный буклет и официальный ключ не подтверждены.",
+      "reference": "https://co8a.ru/chip/22-23/"
+    },
+    {
+      "year": 2022,
+      "grade": "5-6",
+      "title": "Дальний Восток",
+      "date": "2022-10-19",
+      "status": "not-verified",
+      "note": "Найдены упоминание или фрагменты выпуска. Полный открытый оригинальный буклет и официальный ключ не подтверждены.",
+      "reference": "https://co8a.ru/chip/22-23/"
+    },
+    {
+      "year": 2022,
+      "grade": "7-8",
+      "title": "Дальний Восток",
+      "date": "2022-10-19",
+      "status": "not-verified",
+      "note": "Найдены упоминание или фрагменты выпуска. Полный открытый оригинальный буклет и официальный ключ не подтверждены.",
+      "reference": "https://co8a.ru/chip/22-23/"
+    },
+    {
+      "year": 2022,
+      "grade": "9-11",
+      "title": "Дальний Восток",
+      "date": "2022-10-19",
+      "status": "not-verified",
+      "note": "Найдены упоминание или фрагменты выпуска. Полный открытый оригинальный буклет и официальный ключ не подтверждены.",
+      "reference": "https://co8a.ru/chip/22-23/"
+    },
+    {
+      "year": 2023,
+      "grade": "1",
+      "title": "Сибирь и Урал",
+      "date": "2023-10-19",
+      "status": "not-verified",
+      "note": "Найдены упоминание или фрагменты выпуска. Полный открытый оригинальный буклет и официальный ключ не подтверждены.",
+      "reference": "https://zubrilka.online/konkurs/chelovek-i-priroda/"
+    },
+    {
+      "year": 2023,
+      "grade": "2",
+      "title": "Сибирь и Урал",
+      "date": "2023-10-19",
+      "status": "not-verified",
+      "note": "Найдены упоминание или фрагменты выпуска. Полный открытый оригинальный буклет и официальный ключ не подтверждены.",
+      "reference": "https://zubrilka.online/konkurs/chelovek-i-priroda/"
+    },
+    {
+      "year": 2023,
+      "grade": "3-4",
+      "title": "Сибирь и Урал",
+      "date": "2023-10-19",
+      "status": "not-verified",
+      "note": "Найдены упоминание или фрагменты выпуска. Полный открытый оригинальный буклет и официальный ключ не подтверждены.",
+      "reference": "https://zubrilka.online/konkurs/chelovek-i-priroda/"
+    },
+    {
+      "year": 2023,
+      "grade": "5-6",
+      "title": "Сибирь и Урал",
+      "date": "2023-10-19",
+      "status": "not-verified",
+      "note": "Найдены упоминание или фрагменты выпуска. Полный открытый оригинальный буклет и официальный ключ не подтверждены.",
+      "reference": "https://zubrilka.online/konkurs/chelovek-i-priroda/"
+    },
+    {
+      "year": 2023,
+      "grade": "7-8",
+      "title": "Сибирь и Урал",
+      "date": "2023-10-19",
+      "status": "not-verified",
+      "note": "Найдены упоминание или фрагменты выпуска. Полный открытый оригинальный буклет и официальный ключ не подтверждены.",
+      "reference": "https://zubrilka.online/konkurs/chelovek-i-priroda/"
+    },
+    {
+      "year": 2023,
+      "grade": "9-11",
+      "title": "Сибирь и Урал",
+      "date": "2023-10-19",
+      "status": "not-verified",
+      "note": "Найдены упоминание или фрагменты выпуска. Полный открытый оригинальный буклет и официальный ключ не подтверждены.",
+      "reference": "https://zubrilka.online/konkurs/chelovek-i-priroda/"
+    },
+    {
+      "year": 2024,
+      "grade": "1",
+      "title": "Европейская Россия",
+      "date": "2024-11-07",
+      "status": "not-verified",
+      "note": "Найдены упоминание или фрагменты выпуска. Полный открытый оригинальный буклет и официальный ключ не подтверждены.",
+      "reference": "https://zubrilka.online/konkurs/chelovek-i-priroda/"
+    },
+    {
+      "year": 2024,
+      "grade": "2",
+      "title": "Европейская Россия",
+      "date": "2024-11-07",
+      "status": "not-verified",
+      "note": "Найдены упоминание или фрагменты выпуска. Полный открытый оригинальный буклет и официальный ключ не подтверждены.",
+      "reference": "https://zubrilka.online/konkurs/chelovek-i-priroda/"
+    },
+    {
+      "year": 2024,
+      "grade": "3-4",
+      "title": "Европейская Россия",
+      "date": "2024-11-07",
+      "status": "not-verified",
+      "note": "Найдены упоминание или фрагменты выпуска. Полный открытый оригинальный буклет и официальный ключ не подтверждены.",
+      "reference": "https://zubrilka.online/konkurs/chelovek-i-priroda/"
+    },
+    {
+      "year": 2024,
+      "grade": "5-6",
+      "title": "Европейская Россия",
+      "date": "2024-11-07",
+      "status": "not-verified",
+      "note": "Найдены упоминание или фрагменты выпуска. Полный открытый оригинальный буклет и официальный ключ не подтверждены.",
+      "reference": "https://zubrilka.online/konkurs/chelovek-i-priroda/"
+    },
+    {
+      "year": 2024,
+      "grade": "7-8",
+      "title": "Европейская Россия",
+      "date": "2024-11-07",
+      "status": "not-verified",
+      "note": "Найдены упоминание или фрагменты выпуска. Полный открытый оригинальный буклет и официальный ключ не подтверждены.",
+      "reference": "https://zubrilka.online/konkurs/chelovek-i-priroda/"
+    },
+    {
+      "year": 2024,
+      "grade": "9-11",
+      "title": "Европейская Россия",
+      "date": "2024-11-07",
+      "status": "not-verified",
+      "note": "Найдены упоминание или фрагменты выпуска. Полный открытый оригинальный буклет и официальный ключ не подтверждены.",
+      "reference": "https://zubrilka.online/konkurs/chelovek-i-priroda/"
+    },
+    {
+      "year": 2025,
+      "grade": "1",
+      "title": "Наша планета — Земля",
+      "date": "2025-10-23",
+      "status": "not-verified",
+      "note": "Найдены упоминание или фрагменты выпуска. Полный открытый оригинальный буклет и официальный ключ не подтверждены.",
+      "reference": "https://eobraz.ru/product/chip-231025/"
+    },
+    {
+      "year": 2025,
+      "grade": "2",
+      "title": "Наша планета — Земля",
+      "date": "2025-10-23",
+      "status": "not-verified",
+      "note": "Найдены упоминание или фрагменты выпуска. Полный открытый оригинальный буклет и официальный ключ не подтверждены.",
+      "reference": "https://eobraz.ru/product/chip-231025/"
+    },
+    {
+      "year": 2025,
+      "grade": "3-4",
+      "title": "Наша планета — Земля",
+      "date": "2025-10-23",
+      "status": "not-verified",
+      "note": "Найдены упоминание или фрагменты выпуска. Полный открытый оригинальный буклет и официальный ключ не подтверждены.",
+      "reference": "https://eobraz.ru/product/chip-231025/"
+    },
+    {
+      "year": 2025,
+      "grade": "5-6",
+      "title": "Наша планета — Земля",
+      "date": "2025-10-23",
+      "status": "not-verified",
+      "note": "Найдены упоминание или фрагменты выпуска. Полный открытый оригинальный буклет и официальный ключ не подтверждены.",
+      "reference": "https://eobraz.ru/product/chip-231025/"
+    },
+    {
+      "year": 2025,
+      "grade": "7-8",
+      "title": "Наша планета — Земля",
+      "date": "2025-10-23",
+      "status": "not-verified",
+      "note": "Найдены упоминание или фрагменты выпуска. Полный открытый оригинальный буклет и официальный ключ не подтверждены.",
+      "reference": "https://eobraz.ru/product/chip-231025/"
+    },
+    {
+      "year": 2025,
+      "grade": "9-11",
+      "title": "Наша планета — Земля",
+      "date": "2025-10-23",
+      "status": "not-verified",
+      "note": "Найдены упоминание или фрагменты выпуска. Полный открытый оригинальный буклет и официальный ключ не подтверждены.",
+      "reference": "https://eobraz.ru/product/chip-231025/"
+    },
+    {
+      "year": 2026,
+      "grade": "1",
+      "title": "Наша планета — Земля. Флора и фауна",
+      "date": "2026-10-22",
+      "status": "not-verified",
+      "note": "Найдены упоминание или фрагменты выпуска. Полный открытый оригинальный буклет и официальный ключ не подтверждены.",
+      "reference": "https://eobraz.ru/product/chip-221026/"
+    },
+    {
+      "year": 2026,
+      "grade": "2",
+      "title": "Наша планета — Земля. Флора и фауна",
+      "date": "2026-10-22",
+      "status": "not-verified",
+      "note": "Найдены упоминание или фрагменты выпуска. Полный открытый оригинальный буклет и официальный ключ не подтверждены.",
+      "reference": "https://eobraz.ru/product/chip-221026/"
+    },
+    {
+      "year": 2026,
+      "grade": "3-4",
+      "title": "Наша планета — Земля. Флора и фауна",
+      "date": "2026-10-22",
+      "status": "not-verified",
+      "note": "Найдены упоминание или фрагменты выпуска. Полный открытый оригинальный буклет и официальный ключ не подтверждены.",
+      "reference": "https://eobraz.ru/product/chip-221026/"
+    },
+    {
+      "year": 2026,
+      "grade": "5-6",
+      "title": "Наша планета — Земля. Флора и фауна",
+      "date": "2026-10-22",
+      "status": "not-verified",
+      "note": "Найдены упоминание или фрагменты выпуска. Полный открытый оригинальный буклет и официальный ключ не подтверждены.",
+      "reference": "https://eobraz.ru/product/chip-221026/"
+    },
+    {
+      "year": 2026,
+      "grade": "7-8",
+      "title": "Наша планета — Земля. Флора и фауна",
+      "date": "2026-10-22",
+      "status": "not-verified",
+      "note": "Найдены упоминание или фрагменты выпуска. Полный открытый оригинальный буклет и официальный ключ не подтверждены.",
+      "reference": "https://eobraz.ru/product/chip-221026/"
+    },
+    {
+      "year": 2026,
+      "grade": "9-11",
+      "title": "Наша планета — Земля. Флора и фауна",
+      "date": "2026-10-22",
+      "status": "not-verified",
+      "note": "Найдены упоминание или фрагменты выпуска. Полный открытый оригинальный буклет и официальный ключ не подтверждены.",
+      "reference": "https://eobraz.ru/product/chip-221026/"
+    }
+  ],
+  "preschool": [
+    {
+      "year": 2015,
+      "age": "5-7",
+      "title": "Времена года",
+      "season": "2014–2015",
+      "reference": "https://konkurs-chip.ru/aboutchipd",
+      "status": "booklet-only",
+      "tasks": {
+        "url": "https://nachalkaplus.ru/wp-content/uploads/2018/11/2014-2015_CHIP_doshool.pdf",
+        "status": "pdf",
+        "sha256": "58feeff95c781df6e16c67bdb688ca3830db5bed1509455fa596d58c17fae659",
+        "bytes": 1935533,
+        "pages": 2
+      }
+    },
+    {
+      "year": 2016,
+      "age": "5-7",
+      "title": "Я живу в России",
+      "season": "2015–2016",
+      "reference": "https://konkurs-chip.ru/aboutchipd",
+      "status": "booklet-only",
+      "tasks": {
+        "url": "https://nachalkaplus.ru/wp-content/uploads/2018/11/2015-2016_CHIP_baby.pdf",
+        "status": "pdf",
+        "sha256": "f0d5590745085b46a848ed1cf08d9f49598d67e3afba806e9d3b8d321c46d369",
+        "bytes": 2911700,
+        "pages": 2
+      }
+    },
+    {
+      "year": 2017,
+      "age": "5-7",
+      "title": "Солнце, воздух и вода",
+      "season": "2016–2017",
+      "reference": "https://konkurs-chip.ru/aboutchipd",
+      "status": "not-verified"
+    },
+    {
+      "year": 2017,
+      "age": "5-7",
+      "title": "Мир сказок",
+      "season": "2017–2018",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "status": "booklet-and-key",
+      "tasks": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/чип2017_1класс_задания.pdf",
+        "status": "pdf",
+        "sha256": "8ae34d675834f24be56a057b7289931b9043f3e7471f635cc2a19456fdc0462b",
+        "bytes": 6453179,
+        "pages": 2
+      },
+      "answers": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/чип2017_1класс_ответы.pdf",
+        "status": "pdf",
+        "sha256": "973efef812528657c2538c6af86640140cef5ecc9f49c9f5c2971574ec99dff0",
+        "bytes": 93002,
+        "pages": 1
+      }
+    },
+    {
+      "year": 2018,
+      "age": "5-7",
+      "title": "Мир леса",
+      "season": "2017–2018",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "status": "booklet-and-key",
+      "tasks": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/2017-2018_Mir_Lesa_5-7.pdf",
+        "status": "pdf",
+        "sha256": "b309f24808d83b18fc5a35a1fde8b148ed44890ade6efd20426df02ff6ef94f9",
+        "bytes": 2051349,
+        "pages": 2
+      },
+      "answers": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/ответы_чип2018_мир_леса_5_7лет.pdf",
+        "status": "pdf",
+        "sha256": "99904bcc1b7e67b3a45af06592bbbf9168c21bdf29732a2bd69dc9ae738d3752",
+        "bytes": 92580,
+        "pages": 1
+      }
+    },
+    {
+      "year": 2018,
+      "age": "5-7",
+      "title": "Мир сказок А. С. Пушкина",
+      "season": "2018–2019",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "status": "booklet-and-key",
+      "tasks": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/2018-2019_MIP_SKAZOK_zadanie.pdf",
+        "status": "pdf",
+        "sha256": "1f552eaa830eb227ed62f07e57def8618047214f5180177939b00561bfe9f1cd",
+        "bytes": 1764704,
+        "pages": 2
+      },
+      "answers": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/2018-2019_otveti-chip-5-7-let.pdf",
+        "status": "pdf",
+        "sha256": "3d4576ec2d57991fa24e648afcf869c0b619250713a0f4b5f49d2aa884139ee4",
+        "bytes": 255093,
+        "pages": 1
+      }
+    },
+    {
+      "year": 2019,
+      "age": "5-7",
+      "title": "Мир воды",
+      "season": "2018–2019",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "status": "booklet-and-key",
+      "tasks": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/2018-2019_MV_chip.pdf",
+        "status": "pdf",
+        "sha256": "1b4cf8143f2e1b003dab71c35ebb8fadcc3273162fe0992bf8fab6ca757cb91c",
+        "bytes": 1266075,
+        "pages": 2
+      },
+      "answers": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/ответы_мир_воды_ЧИП.pdf",
+        "status": "pdf",
+        "sha256": "9576e5e3ae8c7c6ea171c7f5339f60164e8683cb74c7eb44a354e1cc4be7d139",
+        "bytes": 254915,
+        "pages": 1
+      }
+    },
+    {
+      "year": 2019,
+      "age": "5-7",
+      "title": "Сказки о дружбе",
+      "season": "2019–2020",
+      "reference": "https://konkurs-chip.ru/aboutchipd",
+      "status": "not-verified"
+    },
+    {
+      "year": 2020,
+      "age": "5-7",
+      "title": "Домашние животные",
+      "season": "2019–2020",
+      "reference": "https://konkurs-chip.ru/aboutchipd",
+      "status": "not-verified"
+    },
+    {
+      "year": 2020,
+      "age": "5-7",
+      "title": "Сказки Х. К. Андерсена",
+      "season": "2020–2021",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "status": "booklet-and-key",
+      "tasks": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/2020-2021_Skazki_zadanie.pdf",
+        "status": "pdf",
+        "sha256": "d4fe9a4f99b0ef296da1c0e2f318bb406e76808f49c5bd8c51af45ea7d7f3603",
+        "bytes": 8708021,
+        "pages": 2
+      },
+      "answers": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/2020-2021_otveti_CHIP_.pdf",
+        "status": "pdf",
+        "sha256": "5d06fb6a84de0c76d9b0edb23c5370c48607c2630376ab127d3655d66c4c110c",
+        "bytes": 181110,
+        "pages": 1
+      }
+    },
+    {
+      "year": 2021,
+      "age": "5-7",
+      "title": "Мир птиц",
+      "season": "2020–2021",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "status": "booklet-and-key",
+      "tasks": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/2020-2021_zadanie_Birds.pdf",
+        "status": "pdf",
+        "sha256": "3cdffab4d358846e3af32aeebcd77e3d9fa4218203ae63508f76a2e6d9ce4ec2",
+        "bytes": 3110860,
+        "pages": 4
+      },
+      "answers": {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/2020-2021_otveti_CHIP_bird.pdf",
+        "status": "pdf",
+        "sha256": "394b228ca389d860c00761bb01458af4763e758d7e8a12b6808ab20b53285f3f",
+        "bytes": 180574,
+        "pages": 1
+      }
+    },
+    {
+      "year": 2021,
+      "age": "5-7",
+      "title": "Сказки о временах года",
+      "season": "2021–2022",
+      "reference": "https://konkurs-chip.ru/aboutchipd",
+      "status": "not-verified"
+    },
+    {
+      "year": 2022,
+      "age": "5-7",
+      "title": "На воде и под водой",
+      "season": "2021–2022",
+      "reference": "https://konkurs-chip.ru/aboutchipd",
+      "status": "not-verified"
+    },
+    {
+      "year": 2022,
+      "age": "5-7",
+      "title": "Мир сказок С. Я. Маршака",
+      "season": "2022–2023",
+      "reference": "https://konkurs-chip.ru/aboutchipd",
+      "status": "not-verified"
+    },
+    {
+      "year": 2023,
+      "age": "5-7",
+      "title": "Космическое путешествие",
+      "season": "2022–2023",
+      "reference": "https://konkurs-chip.ru/aboutchipd",
+      "status": "not-verified"
+    },
+    {
+      "year": 2023,
+      "age": "5-7",
+      "title": "Незнайка и его друзья",
+      "season": "2023–2024",
+      "reference": "https://konkurs-chip.ru/aboutchipd",
+      "status": "not-verified"
+    },
+    {
+      "year": 2024,
+      "age": "5-7",
+      "title": "Какие бывают животные?",
+      "season": "2023–2024",
+      "reference": "https://konkurs-chip.ru/aboutchipd",
+      "status": "not-verified"
+    },
+    {
+      "year": 2024,
+      "age": "5-7",
+      "title": "Мир сказок В. В. Бианки",
+      "season": "2024–2025",
+      "reference": "https://konkurs-chip.ru/aboutchipd",
+      "status": "not-verified"
+    },
+    {
+      "year": 2025,
+      "age": "5-7",
+      "title": "Все профессии нужны, все профессии важны",
+      "season": "2024–2025",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "status": "not-verified"
+    },
+    {
+      "year": 2025,
+      "age": "4-5",
+      "title": "Русские народные сказки",
+      "season": "2024–2025",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "status": "not-verified"
+    },
+    {
+      "year": 2025,
+      "age": "5-7",
+      "title": "Сказки Джанни Родари",
+      "season": "2025–2026",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "status": "not-verified"
+    },
+    {
+      "year": 2026,
+      "age": "5-7",
+      "title": "Неживая природа",
+      "season": "2025–2026",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "status": "not-verified"
+    },
+    {
+      "year": 2026,
+      "age": "5-7",
+      "title": "Сказки народов России",
+      "season": "2026–2027",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "status": "not-verified"
+    }
+  ],
+  "originals": {
+    "history": "https://konkurs-chip.ru/aboutchip",
+    "geography": "https://konkurs-chip.ru/travelchip",
+    "russia": "https://konkurs-chip.ru/travelchiprus",
+    "preschool": "https://konkurs-chip.ru/aboutchipd"
+  },
+  "scopeNote": "Проверены все три школьные категории 2010 года по архиву оргкомитета и пять категорий в 2011–2014 годах. Школьные и дошкольные варианты имеют разные списки.",
+  "checkedOn": "2026-11-22"
+}

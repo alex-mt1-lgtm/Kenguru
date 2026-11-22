@@ -1,0 +1,1813 @@
+{
+  "contest": "Золотое руно",
+  "organizerArchive": "https://runodog.ru/",
+  "checkedOn": "2026-11-22",
+  "seasons": [
+    {
+      "year": 2027,
+      "season": "2026-2027",
+      "title": "Россия и мир",
+      "page": "https://runodog.ru/index/2026_2027/0-144",
+      "notes": [
+        "Конкурс объявлен на 26 февраля — 1 марта 2027 года. Задания и ответы пока не опубликованы."
+      ],
+      "status": "announced",
+      "grades": [
+        "1-2",
+        "3-4",
+        "5-7",
+        "8-11"
+      ]
+    },
+    {
+      "year": 2026,
+      "season": "2025-2026",
+      "title": "Столицы России",
+      "page": "https://runodog.ru/index/2025_2026/0-142",
+      "status": "published",
+      "statisticsUrl": "https://runodog.ru/ZR_2526/zr_2526_stat_2.pdf",
+      "variants": [
+        {
+          "answersUrl": "https://runodog.ru/ZR_2526/zr_2526_otvety.pdf",
+          "answersFormat": "pdf",
+          "editions": [
+            {
+              "grade": "1-2",
+              "count": 20,
+              "tasksUrl": "https://runodog.ru/ZR_2526/zr_2526_stolicy_quest_1-2.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "complete",
+              "tasksFile": "zr_2526_stolicy_quest_1-2.pdf",
+              "answersFile": "answers.pdf"
+            },
+            {
+              "grade": "3-4",
+              "count": 30,
+              "tasksUrl": "https://runodog.ru/ZR_2526/zr_2526_stolicy_quest_3-4.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "complete",
+              "tasksFile": "tasks.pdf",
+              "answersFile": "answers.pdf"
+            },
+            {
+              "grade": "5-7",
+              "count": 30,
+              "tasksUrl": "https://runodog.ru/ZR_2526/zr_2526_stolicy_quest_5-7.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "complete",
+              "tasksFile": "zr_2526_stolicy_quest_5-7.pdf",
+              "answersFile": "answers.pdf"
+            },
+            {
+              "grade": "8-11",
+              "count": 30,
+              "tasksUrl": "https://runodog.ru/ZR_2526/zr_2526_stolicy_quest_8-11.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "complete",
+              "tasksFile": "zr_2526_stolicy_quest_8-11.pdf",
+              "answersFile": "answers.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "season": "2024-2025",
+      "title": "Тысяча и одна ночь",
+      "page": "https://runodog.ru/index/2024_2025/0-139",
+      "status": "published",
+      "statisticsUrl": "https://runodog.ru/ZR_2425/zr_2425_stat980.pdf",
+      "variants": [
+        {
+          "answersUrl": "https://runodog.ru/ZR_2425/zr_2425_otvety.pdf",
+          "answersFormat": "pdf",
+          "editions": [
+            {
+              "grade": "1-2",
+              "count": 20,
+              "tasksUrl": "https://runodog.ru/ZR_2425/zr_2425_zadanija_1-2.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "complete",
+              "tasksFile": "zr_2425_zadanija_1-2.pdf",
+              "answersFile": "answers.pdf"
+            },
+            {
+              "grade": "3-4",
+              "count": 30,
+              "tasksUrl": "https://runodog.ru/ZR_2425/zr_2425_zadanija_3-4.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "complete",
+              "tasksFile": "tasks.pdf",
+              "answersFile": "answers.pdf"
+            },
+            {
+              "grade": "5-7",
+              "count": 30,
+              "tasksUrl": "https://runodog.ru/ZR_2425/zr_2425_zadanija_5-7.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "complete",
+              "tasksFile": "zr_2425_zadanija_5-7.pdf",
+              "answersFile": "answers.pdf"
+            },
+            {
+              "grade": "8-11",
+              "count": 30,
+              "tasksUrl": "https://runodog.ru/ZR_2425/zr_2425_zadanija_8-11.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "complete",
+              "tasksFile": "zr_2425_zadanija_8-11.pdf",
+              "answersFile": "answers.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "season": "2023-2024",
+      "title": "Индия — страна чудес",
+      "page": "https://runodog.ru/index/2023_2024/0-133",
+      "status": "published",
+      "statisticsUrl": "https://runodog.ru/ZR_2324/zr_2324_stat980.pdf",
+      "variants": [
+        {
+          "answersUrl": "https://runodog.ru/ZR_2324/zr_2324_otvety.pdf",
+          "answersFormat": "pdf",
+          "editions": [
+            {
+              "grade": "1-2",
+              "count": 30,
+              "tasksUrl": "https://runodog.ru/ZR_2324/zadanija-1-2_klassy.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "complete",
+              "tasksFile": "zadanija-1-2_klassy.pdf",
+              "answersFile": "zr_2324_otvety.pdf"
+            },
+            {
+              "grade": "3-4",
+              "count": 30,
+              "tasksUrl": "https://runodog.ru/ZR_2324/zadanija-3-4_klassy.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "complete",
+              "tasksFile": "zadanija-3-4_klassy.pdf",
+              "answersFile": "zr_2324_otvety.pdf"
+            },
+            {
+              "grade": "5-7",
+              "count": 30,
+              "tasksUrl": "https://runodog.ru/ZR_2324/zadanija-5-7_klassy.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "complete",
+              "tasksFile": "zadanija-5-7_klassy.pdf",
+              "answersFile": "zr_2324_otvety.pdf"
+            },
+            {
+              "grade": "8-11",
+              "count": 30,
+              "tasksUrl": "https://runodog.ru/ZR_2324/zadanija-8-11_klassy.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "complete",
+              "tasksFile": "zadanija-8-11_klassy.pdf",
+              "answersFile": "zr_2324_otvety.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "season": "2022-2023",
+      "title": "Поднебесная",
+      "page": "https://runodog.ru/index/2022_2023_zr/0-131",
+      "status": "published",
+      "statisticsUrl": "https://runodog.ru/ZR_2223/zr_2223_stat.pdf",
+      "variants": [
+        {
+          "answersUrl": "https://runodog.ru/ZR_2223/zr_2223_otvety.pdf",
+          "answersFormat": "pdf",
+          "editions": [
+            {
+              "grade": "1-2",
+              "count": 30,
+              "tasksUrl": "https://runodog.ru/ZR_2223/zr_2223_quest_lq_1-2.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "zr_2223_quest_lq_1-2.pdf",
+              "answersFile": "zr_2223_otvety.pdf"
+            },
+            {
+              "grade": "3-4",
+              "count": 45,
+              "tasksUrl": "https://runodog.ru/ZR_2223/zr_2223_quest_lq_3-4.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "zr_2223_quest_lq_3-4.pdf",
+              "answersFile": "zr_2223_otvety.pdf"
+            },
+            {
+              "grade": "5-7",
+              "count": 45,
+              "tasksUrl": "https://runodog.ru/ZR_2223/zr_2223_quest_lq_5-7.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "zr_2223_quest_lq_5-7.pdf",
+              "answersFile": "zr_2223_otvety.pdf"
+            },
+            {
+              "grade": "8-11",
+              "count": 45,
+              "tasksUrl": "https://runodog.ru/ZR_2223/zr_2223_quest_lq_8-11.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "zr_2223_quest_lq_8-11.pdf",
+              "answersFile": "zr_2223_otvety.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "season": "2021-2022",
+      "title": "Герои Отечества",
+      "page": "https://runodog.ru/index/zr_2021_2022/0-129",
+      "status": "published",
+      "statisticsUrl": "https://runodog.ru/ZR_2122/zr_2122_stat.pdf",
+      "variants": [
+        {
+          "answersUrl": "https://runodog.ru/ZR_2122/zr_2122_otvety_na_sajt.pdf",
+          "answersFormat": "pdf",
+          "editions": [
+            {
+              "grade": "1-2",
+              "count": 30,
+              "tasksUrl": "https://runodog.ru/ZR_2122/zr_2122_zadanija_lq_1-2.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "zr_2122_zadanija_lq_1-2.pdf",
+              "answersFile": "zr_2122_otvety_na_sajt.pdf"
+            },
+            {
+              "grade": "3-4",
+              "count": 45,
+              "tasksUrl": "https://runodog.ru/ZR_2122/zr_2122_zadanija_lq_3-4.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "zr_2122_zadanija_lq_3-4.pdf",
+              "answersFile": "zr_2122_otvety_na_sajt.pdf"
+            },
+            {
+              "grade": "5-7",
+              "count": 45,
+              "tasksUrl": "https://runodog.ru/ZR_2122/zr_2122_zadanija_lq_5-7.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "zr_2122_zadanija_lq_5-7.pdf",
+              "answersFile": "zr_2122_otvety_na_sajt.pdf"
+            },
+            {
+              "grade": "8-11",
+              "count": 45,
+              "tasksUrl": "https://runodog.ru/ZR_2122/zr_2122_zadanija_lq_8-11.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "zr_2122_zadanija_lq_8-11.pdf",
+              "answersFile": "zr_2122_otvety_na_sajt.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "season": "2020-2021",
+      "title": "Музеи России",
+      "page": "https://runodog.ru/index/zr_2020_2021/0-127",
+      "notes": [
+        "Организатор публикует по одному буклету и одной таблице ответов для каждого возраста. В имени PDF ключа упоминаются два варианта."
+      ],
+      "status": "published",
+      "statisticsUrl": "https://runodog.ru/ZR_2021/zr_2021_stat.pdf",
+      "variants": [
+        {
+          "answersUrl": "https://runodog.ru/ZR_2021/zr_2021_otvety_dlja_subd_i_sajta_var1_i_var2.pdf",
+          "answersFormat": "pdf",
+          "editions": [
+            {
+              "grade": "1-2",
+              "count": 30,
+              "tasksUrl": "https://runodog.ru/ZR_2021/ZR_2021_quest_standart_1-2.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_2021_quest_standart_1-2.pdf",
+              "answersFile": "zr_2021_otvety_dlja_subd_i_sajta_var1_i_var2.pdf"
+            },
+            {
+              "grade": "3-4",
+              "count": 45,
+              "tasksUrl": "https://runodog.ru/ZR_2021/ZR_2021_quest_standart_3-4.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_2021_quest_standart_3-4.pdf",
+              "answersFile": "zr_2021_otvety_dlja_subd_i_sajta_var1_i_var2.pdf"
+            },
+            {
+              "grade": "5-6",
+              "count": 45,
+              "tasksUrl": "https://runodog.ru/ZR_2021/ZR_2021_quest_standart_5-6.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_2021_quest_standart_5-6.pdf",
+              "answersFile": "zr_2021_otvety_dlja_subd_i_sajta_var1_i_var2.pdf"
+            },
+            {
+              "grade": "7-8",
+              "count": 45,
+              "tasksUrl": "https://runodog.ru/ZR_2021/ZR_2021_quest_standart_7-8.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_2021_quest_standart_7-8.pdf",
+              "answersFile": "zr_2021_otvety_dlja_subd_i_sajta_var1_i_var2.pdf"
+            },
+            {
+              "grade": "9-11",
+              "count": 45,
+              "tasksUrl": "https://runodog.ru/ZR_2021/ZR_2021_quest_standart_9-11.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_2021_quest_standart_9-11.pdf",
+              "answersFile": "zr_2021_otvety_dlja_subd_i_sajta_var1_i_var2.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "season": "2019-2020",
+      "title": "Эрмитаж",
+      "page": "https://runodog.ru/index/zr_2019_2020/0-124",
+      "status": "published",
+      "statisticsUrl": "https://runodog.ru/ZR_1920/ZR_1920_stat.pdf",
+      "variants": [
+        {
+          "answersUrl": "https://runodog.ru/ZR_1920/zr_1920_otvety.pdf",
+          "answersFormat": "pdf",
+          "editions": [
+            {
+              "grade": "1-2",
+              "count": 30,
+              "tasksUrl": "https://runodog.ru/ZR_1920/ZR_1920_quest_Standard_1-2.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1920_quest_Standard_1-2.pdf",
+              "answersFile": "zr_1920_otvety.pdf"
+            },
+            {
+              "grade": "3-4",
+              "count": 45,
+              "tasksUrl": "https://runodog.ru/ZR_1920/ZR_1920_quest_Standard_3-4.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1920_quest_Standard_3-4.pdf",
+              "answersFile": "zr_1920_otvety.pdf"
+            },
+            {
+              "grade": "5-6",
+              "count": 45,
+              "tasksUrl": "https://runodog.ru/ZR_1920/ZR_1920_quest_Standard_5-6.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1920_quest_Standard_5-6.pdf",
+              "answersFile": "zr_1920_otvety.pdf"
+            },
+            {
+              "grade": "7-8",
+              "count": 45,
+              "tasksUrl": "https://runodog.ru/ZR_1920/ZR_1920_quest_Standard_7-8.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1920_quest_Standard_7-8.pdf",
+              "answersFile": "zr_1920_otvety.pdf"
+            },
+            {
+              "grade": "9-11",
+              "count": 45,
+              "tasksUrl": "https://runodog.ru/ZR_1920/ZR_1920_quest_Standard_9-11.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1920_quest_Standard_9-11.pdf",
+              "answersFile": "zr_1920_otvety.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "season": "2018-2019",
+      "title": "Британский стиль",
+      "page": "https://runodog.ru/index/zr_2018_2019/0-121",
+      "notes": [
+        "В двух региональных версиях переставлены варианты ответов при одинаковом порядке вопросов. Пять ссылок на вариант 1 в меню организатора дают 404, официальные файлы найдены с дополнительным подчёркиванием перед .pdf."
+      ],
+      "status": "published",
+      "statisticsUrl": "https://runodog.ru/ZR_1819/zr_1819_stat.pdf",
+      "defaultVariant": "1",
+      "variants": [
+        {
+          "variant": "1",
+          "variantLabel": "Россия и Байконур",
+          "answersUrl": "https://runodog.ru/ZR_1819/ZR_1819_answers_var1.pdf",
+          "answersFormat": "pdf",
+          "editions": [
+            {
+              "grade": "1-2",
+              "count": 30,
+              "tasksUrl": "https://runodog.ru/ZR_1819/ZR_1819_1-2_var1_.pdf",
+              "oldTasksUrl": "https://runodog.ru/ZR_1819/ZR_1819_1-2_var1.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1819_1-2_var1_.pdf",
+              "answersFile": "ZR_1819_answers_var1.pdf"
+            },
+            {
+              "grade": "3-4",
+              "count": 45,
+              "tasksUrl": "https://runodog.ru/ZR_1819/ZR_1819_3-4_var1_.pdf",
+              "oldTasksUrl": "https://runodog.ru/ZR_1819/ZR_1819_3-4_var1.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1819_3-4_var1_.pdf",
+              "answersFile": "ZR_1819_answers_var1.pdf"
+            },
+            {
+              "grade": "5-6",
+              "count": 45,
+              "tasksUrl": "https://runodog.ru/ZR_1819/ZR_1819_5-6_var1_.pdf",
+              "oldTasksUrl": "https://runodog.ru/ZR_1819/ZR_1819_5-6_var1.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1819_5-6_var1_.pdf",
+              "answersFile": "ZR_1819_answers_var1.pdf"
+            },
+            {
+              "grade": "7-8",
+              "count": 45,
+              "tasksUrl": "https://runodog.ru/ZR_1819/ZR_1819_7-8_var1_.pdf",
+              "oldTasksUrl": "https://runodog.ru/ZR_1819/ZR_1819_7-8_var1.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1819_7-8_var1_.pdf",
+              "answersFile": "ZR_1819_answers_var1.pdf"
+            },
+            {
+              "grade": "9-11",
+              "count": 45,
+              "tasksUrl": "https://runodog.ru/ZR_1819/ZR_1819_9-11_var1_.pdf",
+              "oldTasksUrl": "https://runodog.ru/ZR_1819/ZR_1819_9-11_var1.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1819_9-11_var1_.pdf",
+              "answersFile": "ZR_1819_answers_var1.pdf"
+            }
+          ]
+        },
+        {
+          "variant": "2",
+          "variantLabel": "Другие страны",
+          "answersUrl": "https://runodog.ru/ZR_1819/ZR_1819_answers_var2.pdf",
+          "answersFormat": "pdf",
+          "editions": [
+            {
+              "grade": "1-2",
+              "count": 30,
+              "tasksUrl": "https://runodog.ru/ZR_1819/zr_1819_1-2_var2_.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "zr_1819_1-2_var2_.pdf",
+              "answersFile": "ZR_1819_answers_var2.pdf"
+            },
+            {
+              "grade": "3-4",
+              "count": 45,
+              "tasksUrl": "https://runodog.ru/ZR_1819/zr_1819_3-4_var2_.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "zr_1819_3-4_var2_.pdf",
+              "answersFile": "ZR_1819_answers_var2.pdf"
+            },
+            {
+              "grade": "5-6",
+              "count": 45,
+              "tasksUrl": "https://runodog.ru/ZR_1819/zr_1819_5-6_var2_.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "zr_1819_5-6_var2_.pdf",
+              "answersFile": "ZR_1819_answers_var2.pdf"
+            },
+            {
+              "grade": "7-8",
+              "count": 45,
+              "tasksUrl": "https://runodog.ru/ZR_1819/zr_1819_7-8_var2_.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "zr_1819_7-8_var2_.pdf",
+              "answersFile": "ZR_1819_answers_var2.pdf"
+            },
+            {
+              "grade": "9-11",
+              "count": 45,
+              "tasksUrl": "https://runodog.ru/ZR_1819/zr_1819_9-11_var2_.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "zr_1819_9-11_var2_.pdf",
+              "answersFile": "ZR_1819_answers_var2.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "season": "2017-2018",
+      "title": "XIX век. Новое время России",
+      "page": "https://runodog.ru/index/2017_2018/0-95",
+      "notes": [
+        "В двух региональных версиях переставлены варианты ответов при одинаковом составе вопросов."
+      ],
+      "status": "published",
+      "statisticsUrl": "https://runodog.ru/ZR_1718/zr_1718_stat.pdf",
+      "defaultVariant": "1",
+      "variants": [
+        {
+          "variant": "2",
+          "variantLabel": "Вариант 2",
+          "answersUrl": "https://runodog.ru/ZR_1718/ZR_1718_answers_var_2.pdf",
+          "answersFormat": "pdf",
+          "editions": [
+            {
+              "grade": "3-4",
+              "count": 45,
+              "tasksUrl": "https://runodog.ru/ZR_1718/ZR_1718_3-4_var_2.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1718_3-4_var_2.pdf",
+              "answersFile": "ZR_1718_answers_var_2.pdf"
+            },
+            {
+              "grade": "5-6",
+              "count": 45,
+              "tasksUrl": "https://runodog.ru/ZR_1718/ZR_1718_5-6_var_2.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1718_5-6_var_2.pdf",
+              "answersFile": "ZR_1718_answers_var_2.pdf"
+            },
+            {
+              "grade": "7-8",
+              "count": 45,
+              "tasksUrl": "https://runodog.ru/ZR_1718/ZR_1718_7-8_var_2.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1718_7-8_var_2.pdf",
+              "answersFile": "ZR_1718_answers_var_2.pdf"
+            },
+            {
+              "grade": "9-11",
+              "count": 45,
+              "tasksUrl": "https://runodog.ru/ZR_1718/ZR_1718_9-11_var_2.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1718_9-11_var_2.pdf",
+              "answersFile": "ZR_1718_answers_var_2.pdf"
+            }
+          ]
+        },
+        {
+          "variant": "1",
+          "variantLabel": "Вариант 1",
+          "answersUrl": "https://runodog.ru/ZR_1718/ZR_1718_answers_var_1.pdf",
+          "answersFormat": "pdf",
+          "editions": [
+            {
+              "grade": "3-4",
+              "count": 45,
+              "tasksUrl": "https://runodog.ru/ZR_1718/ZR_1718_3-4_var_1.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1718_3-4_var_1.pdf",
+              "answersFile": "ZR_1718_answers_var_1.pdf"
+            },
+            {
+              "grade": "5-6",
+              "count": 45,
+              "tasksUrl": "https://runodog.ru/ZR_1718/ZR_1718_5-6_var_1.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1718_5-6_var_1.pdf",
+              "answersFile": "ZR_1718_answers_var_1.pdf"
+            },
+            {
+              "grade": "7-8",
+              "count": 45,
+              "tasksUrl": "https://runodog.ru/ZR_1718/ZR_1718_7-8_var_1.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1718_7-8_var_1.pdf",
+              "answersFile": "ZR_1718_answers_var_1.pdf"
+            },
+            {
+              "grade": "9-11",
+              "count": 45,
+              "tasksUrl": "https://runodog.ru/ZR_1718/ZR_1718_9-11_var_1.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1718_9-11_var_1.pdf",
+              "answersFile": "ZR_1718_answers_var_1.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "season": "2016-2017",
+      "title": "Эпоха Просвещения в России",
+      "page": "https://runodog.ru/index/2016_2017/0-91",
+      "notes": [
+        "В двух региональных версиях переставлены варианты ответов при одинаковом составе вопросов."
+      ],
+      "status": "published",
+      "statisticsUrl": "https://runodog.ru/ZR_1617/ZR_1617_stat.pdf",
+      "defaultVariant": "1",
+      "variants": [
+        {
+          "variant": "2",
+          "variantLabel": "Вариант 2",
+          "answersUrl": "https://runodog.ru/ZR_1617/ZR_1617_answers_var_2.pdf",
+          "answersFormat": "pdf",
+          "editions": [
+            {
+              "grade": "3-4",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1617/ZR_1617_3-4_var_2.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1617_3-4_var_2.pdf",
+              "answersFile": "ZR_1617_answers_var_2.pdf"
+            },
+            {
+              "grade": "5-6",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1617/ZR_1617_5-6_var_2.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1617_5-6_var_2.pdf",
+              "answersFile": "ZR_1617_answers_var_2.pdf"
+            },
+            {
+              "grade": "7-8",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1617/ZR_1617_7-8_var_2.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1617_7-8_var_2.pdf",
+              "answersFile": "ZR_1617_answers_var_2.pdf"
+            },
+            {
+              "grade": "9-11",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1617/ZR_1617_9-11_var_2.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1617_9-11_var_2.pdf",
+              "answersFile": "ZR_1617_answers_var_2.pdf"
+            }
+          ]
+        },
+        {
+          "variant": "1",
+          "variantLabel": "Вариант 1",
+          "answersUrl": "https://runodog.ru/ZR_1617/ZR_1617_answers_var_1.pdf",
+          "answersFormat": "pdf",
+          "editions": [
+            {
+              "grade": "3-4",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1617/ZR_1617_3-4_var_1.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1617_3-4_var_1.pdf",
+              "answersFile": "ZR_1617_answers_var_1.pdf"
+            },
+            {
+              "grade": "5-6",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1617/ZR_1617_5-6_var_1.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1617_5-6_var_1.pdf",
+              "answersFile": "ZR_1617_answers_var_1.pdf"
+            },
+            {
+              "grade": "7-8",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1617/ZR_1617_7-8_var_1.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1617_7-8_var_1.pdf",
+              "answersFile": "ZR_1617_answers_var_1.pdf"
+            },
+            {
+              "grade": "9-11",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1617/ZR_1617_9-11_var_1.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1617_9-11_var_1.pdf",
+              "answersFile": "ZR_1617_answers_var_1.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2016,
+      "season": "2015-2016",
+      "title": "XVII век. Россия накануне перемен",
+      "page": "https://runodog.ru/index/2015_2016/0-87",
+      "notes": [
+        "В двух региональных версиях переставлены варианты ответов при одинаковом составе вопросов."
+      ],
+      "status": "published",
+      "statisticsUrl": "https://runodog.ru/ZR_1516/ZR_1516_stat.pdf",
+      "defaultVariant": "1",
+      "variants": [
+        {
+          "variant": "2",
+          "variantLabel": "Вариант 2",
+          "answersUrl": "https://runodog.ru/ZR_1516/ZR_1516_answers_2.pdf",
+          "answersFormat": "pdf",
+          "editions": [
+            {
+              "grade": "3-4",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1516/3-4_2.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "3-4_2.pdf",
+              "answersFile": "ZR_1516_answers_2.pdf"
+            },
+            {
+              "grade": "5-6",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1516/5-6_2.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "5-6_2.pdf",
+              "answersFile": "ZR_1516_answers_2.pdf"
+            },
+            {
+              "grade": "7-8",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1516/7-8_2.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "7-8_2.pdf",
+              "answersFile": "ZR_1516_answers_2.pdf"
+            },
+            {
+              "grade": "9-11",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1516/9-11_2.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "9-11_2.pdf",
+              "answersFile": "ZR_1516_answers_2.pdf"
+            }
+          ]
+        },
+        {
+          "variant": "1",
+          "variantLabel": "Вариант 1",
+          "answersUrl": "https://runodog.ru/ZR_1516/ZR_1516_answers_1.pdf",
+          "answersFormat": "pdf",
+          "editions": [
+            {
+              "grade": "3-4",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1516/3-4_1.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "3-4_1.pdf",
+              "answersFile": "ZR_1516_answers_1.pdf"
+            },
+            {
+              "grade": "5-6",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1516/5-6_1.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "5-6_1.pdf",
+              "answersFile": "ZR_1516_answers_1.pdf"
+            },
+            {
+              "grade": "7-8",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1516/7-8_1.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "7-8_1.pdf",
+              "answersFile": "ZR_1516_answers_1.pdf"
+            },
+            {
+              "grade": "9-11",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1516/9-11_1.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "9-11_1.pdf",
+              "answersFile": "ZR_1516_answers_1.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2015,
+      "season": "2014-2015",
+      "title": "Эпоха Возрождения",
+      "page": "https://runodog.ru/index/2014_2015/0-83",
+      "status": "published",
+      "statisticsUrl": "https://runodog.ru/ZR_1415/ZR_stat_2014-2015.pdf",
+      "variants": [
+        {
+          "answersUrl": "https://runodog.ru/ZR_1415/ZR_1415_answers.pdf",
+          "answersFormat": "pdf",
+          "editions": [
+            {
+              "grade": "3-4",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1415/ZR_1415_3-4.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1415_3-4.pdf",
+              "answersFile": "ZR_1415_answers.pdf"
+            },
+            {
+              "grade": "5-6",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1415/ZR_1415_5-6.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1415_5-6.pdf",
+              "answersFile": "ZR_1415_answers.pdf"
+            },
+            {
+              "grade": "7-8",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1415/ZR_1415_7-8.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1415_7-8.pdf",
+              "answersFile": "ZR_1415_answers.pdf"
+            },
+            {
+              "grade": "9-11",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1415/ZR_1415_9-11.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1415_9-11.pdf",
+              "answersFile": "ZR_1415_answers.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2014,
+      "season": "2013-2014",
+      "title": "Iberia Paeninsula. От зелёных долин до бескрайнего моря",
+      "page": "https://runodog.ru/index/2013_2014/0-77",
+      "notes": [
+        "Организатор публикует одинаковый состав задач с региональными перестановками и переводом на казахский язык. Ключ forOU указан для обоих зарубежных вариантов."
+      ],
+      "status": "published",
+      "statisticsUrl": "https://runodog.ru/ZR_1314/ZR_stat_2013-2014.pdf",
+      "defaultVariant": "780",
+      "variants": [
+        {
+          "variant": "540",
+          "variantLabel": "Сибирь и Дальний Восток",
+          "answersUrl": "https://runodog.ru/ZR_1314/ZR_1314_answers_540.pdf",
+          "answersFormat": "pdf",
+          "editions": [
+            {
+              "grade": "3-4",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1314/ZR_1314_540_3-4.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1314_540_3-4.pdf",
+              "answersFile": "ZR_1314_answers_540.pdf"
+            },
+            {
+              "grade": "5-6",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1314/ZR_1314_540_5-6.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1314_540_5-6.pdf",
+              "answersFile": "ZR_1314_answers_540.pdf"
+            },
+            {
+              "grade": "7-8",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1314/ZR_1314_540_7-8.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1314_540_7-8.pdf",
+              "answersFile": "ZR_1314_answers_540.pdf"
+            },
+            {
+              "grade": "9-11",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1314/ZR_1314_540_9-11.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1314_540_9-11.pdf",
+              "answersFile": "ZR_1314_answers_540.pdf"
+            }
+          ]
+        },
+        {
+          "variant": "for-ou",
+          "variantLabel": "Школы за пределами России",
+          "answersUrl": "https://runodog.ru/ZR_1314/ZR_1314_answers_forOU.pdf",
+          "answersFormat": "pdf",
+          "editions": [
+            {
+              "grade": "3-4",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1314/ZR_1314_forOU_3-4.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1314_forOU_3-4.pdf",
+              "answersFile": "ZR_1314_answers_forOU.pdf"
+            },
+            {
+              "grade": "5-6",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1314/ZR_1314_forOU_5-6.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1314_forOU_5-6.pdf",
+              "answersFile": "ZR_1314_answers_forOU.pdf"
+            },
+            {
+              "grade": "7-8",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1314/ZR_1314_forOU_7-8.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1314_forOU_7-8.pdf",
+              "answersFile": "ZR_1314_answers_forOU.pdf"
+            },
+            {
+              "grade": "9-11",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1314/ZR_1314_forOU_9-11.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1314_forOU_9-11.pdf",
+              "answersFile": "ZR_1314_answers_forOU.pdf"
+            }
+          ]
+        },
+        {
+          "variant": "780",
+          "variantLabel": "Другие регионы",
+          "answersUrl": "https://runodog.ru/ZR_1314/ZR_1314_answers_780.pdf",
+          "answersFormat": "pdf",
+          "editions": [
+            {
+              "grade": "3-4",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1314/ZR_1314_780_3-4.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1314_780_3-4.pdf",
+              "answersFile": "ZR_1314_answers_780.pdf"
+            },
+            {
+              "grade": "5-6",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1314/ZR_1314_780_5-6.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1314_780_5-6.pdf",
+              "answersFile": "ZR_1314_answers_780.pdf"
+            },
+            {
+              "grade": "7-8",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1314/ZR_1314_780_7-8.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1314_780_7-8.pdf",
+              "answersFile": "ZR_1314_answers_780.pdf"
+            },
+            {
+              "grade": "9-11",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1314/ZR_1314_780_9-11.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1314_780_9-11.pdf",
+              "answersFile": "ZR_1314_answers_780.pdf"
+            }
+          ]
+        },
+        {
+          "variant": "kz",
+          "variantLabel": "На казахском языке",
+          "language": "kk",
+          "answersUrl": "https://runodog.ru/ZR_1314/ZR_1314_answers_forOU.pdf",
+          "answersFormat": "pdf",
+          "editions": [
+            {
+              "grade": "3-4",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1314/ZR_1314_KZ_3-4.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1314_KZ_3-4.pdf",
+              "answersFile": "ZR_1314_answers_forOU.pdf"
+            },
+            {
+              "grade": "5-6",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1314/ZR_1314_KZ_5-6.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1314_KZ_5-6.pdf",
+              "answersFile": "ZR_1314_answers_forOU.pdf"
+            },
+            {
+              "grade": "7-8",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1314/ZR_1314_KZ_7-8.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1314_KZ_7-8.pdf",
+              "answersFile": "ZR_1314_answers_forOU.pdf"
+            },
+            {
+              "grade": "9-11",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1314/ZR_1314_KZ_9-11.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1314_KZ_9-11.pdf",
+              "answersFile": "ZR_1314_answers_forOU.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2013,
+      "season": "2012-2013",
+      "title": "Pax Germanica. Единство немецкой стихии",
+      "page": "https://runodog.ru/index/2012_2013/0-73",
+      "notes": [
+        "Организатор публикует одинаковый состав задач с региональными перестановками."
+      ],
+      "status": "published",
+      "statisticsUrl": "https://runodog.ru/ZR_1213/ZR_stat_2012-2013.pdf",
+      "defaultVariant": "780",
+      "variants": [
+        {
+          "variant": "540",
+          "variantLabel": "Сибирь и Дальний Восток",
+          "answersUrl": "https://runodog.ru/ZR_1213/ZR_1213_answers_540.pdf",
+          "answersFormat": "pdf",
+          "editions": [
+            {
+              "grade": "3-4",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1213/ZR_1213_540_3-4.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1213_540_3-4.pdf",
+              "answersFile": "ZR_1213_answers_540.pdf"
+            },
+            {
+              "grade": "5-6",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1213/ZR_1213_540_5-6.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1213_540_5-6.pdf",
+              "answersFile": "ZR_1213_answers_540.pdf"
+            },
+            {
+              "grade": "7-8",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1213/ZR_1213_540_7-8.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1213_540_7-8.pdf",
+              "answersFile": "ZR_1213_answers_540.pdf"
+            },
+            {
+              "grade": "9-11",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1213/ZR_1213_540_9-11.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1213_540_9-11.pdf",
+              "answersFile": "ZR_1213_answers_540.pdf"
+            }
+          ]
+        },
+        {
+          "variant": "for-ou",
+          "variantLabel": "Школы за пределами России",
+          "answersUrl": "https://runodog.ru/ZR_1213/ZR_1213_answers_forOU.pdf",
+          "answersFormat": "pdf",
+          "editions": [
+            {
+              "grade": "3-4",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1213/ZR_1213_forOU_3-4.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1213_forOU_3-4.pdf",
+              "answersFile": "ZR_1213_answers_forOU.pdf"
+            },
+            {
+              "grade": "5-6",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1213/ZR_1213_forOU_5-6.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1213_forOU_5-6.pdf",
+              "answersFile": "ZR_1213_answers_forOU.pdf"
+            },
+            {
+              "grade": "7-8",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1213/ZR_1213_forOU_7-8.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1213_forOU_7-8.pdf",
+              "answersFile": "ZR_1213_answers_forOU.pdf"
+            },
+            {
+              "grade": "9-11",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1213/ZR_1213_forOU_9-11.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1213_forOU_9-11.pdf",
+              "answersFile": "ZR_1213_answers_forOU.pdf"
+            }
+          ]
+        },
+        {
+          "variant": "780",
+          "variantLabel": "Другие регионы",
+          "answersUrl": "https://runodog.ru/ZR_1213/ZR_1213_answers_780.pdf",
+          "answersFormat": "pdf",
+          "editions": [
+            {
+              "grade": "3-4",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1213/ZR_1213_780_3-4.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1213_780_3-4.pdf",
+              "answersFile": "ZR_1213_answers_780.pdf"
+            },
+            {
+              "grade": "5-6",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1213/ZR_1213_780_5-6.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1213_780_5-6.pdf",
+              "answersFile": "ZR_1213_answers_780.pdf"
+            },
+            {
+              "grade": "7-8",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1213/ZR_1213_780_7-8.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1213_780_7-8.pdf",
+              "answersFile": "ZR_1213_answers_780.pdf"
+            },
+            {
+              "grade": "9-11",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1213/ZR_1213_780_9-11.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1213_780_9-11.pdf",
+              "answersFile": "ZR_1213_answers_780.pdf"
+            }
+          ]
+        },
+        {
+          "variant": "kz",
+          "variantLabel": "На казахском языке",
+          "language": "kk",
+          "answersUrl": "https://runodog.ru/ZR_1213/ZR_1213_answers_forOU.pdf",
+          "answersFormat": "pdf",
+          "editions": [
+            {
+              "grade": "3-4",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1213/ZR_1213_KZ_3-4.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1213_KZ_3-4.pdf",
+              "answersFile": "ZR_1213_answers_forOU.pdf"
+            },
+            {
+              "grade": "5-6",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1213/ZR_1213_KZ_5-6.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1213_KZ_5-6.pdf",
+              "answersFile": "ZR_1213_answers_forOU.pdf"
+            },
+            {
+              "grade": "7-8",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1213/ZR_1213_KZ_7-8.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1213_KZ_7-8.pdf",
+              "answersFile": "ZR_1213_answers_forOU.pdf"
+            },
+            {
+              "grade": "9-11",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/ZR_1213/ZR_1213_KZ_9-11.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR_1213_KZ_9-11.pdf",
+              "answersFile": "ZR_1213_answers_forOU.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2012,
+      "season": "2011-2012",
+      "title": "Великобритания",
+      "page": "https://runodog.ru/index/2011_2012/0-39",
+      "notes": [
+        "Организатор разрешал участие второклассников по желанию. Отдельный вариант для 2 класса отсутствует."
+      ],
+      "status": "published",
+      "statisticsUrl": "https://runodog.ru/ZR_stat_03-12/ZR_stat_2011-2012.pdf",
+      "defaultVariant": "780",
+      "variants": [
+        {
+          "variant": "980",
+          "variantLabel": "Казахстан",
+          "answersUrl": "https://runodog.ru/runo2012/ZR_answers_980.pdf",
+          "answersFormat": "pdf",
+          "editions": [
+            {
+              "grade": "3-4",
+              "count": 50,
+              "tasksUrl": "https://runodog.ru/runo2012/3-4_ZR_1112_980.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "3-4_ZR_1112_980.pdf",
+              "answersFile": "ZR_answers_980.pdf"
+            },
+            {
+              "grade": "5-6",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/runo2012/5-6_ZR_1112_980.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "5-6_ZR_1112_980.pdf",
+              "answersFile": "ZR_answers_980.pdf"
+            },
+            {
+              "grade": "7-8",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/runo2012/7-8_ZR_1112_980.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "7-8_ZR_1112_980.pdf",
+              "answersFile": "ZR_answers_980.pdf"
+            },
+            {
+              "grade": "9-11",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/runo2012/9-11_ZR_1112_980.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "9-11_ZR_1112_980.pdf",
+              "answersFile": "ZR_answers_980.pdf"
+            }
+          ],
+          "language": "kk"
+        },
+        {
+          "variant": "540",
+          "variantLabel": "Сибирь и Дальний Восток",
+          "answersUrl": "https://runodog.ru/runo2012/ZR_answers_540.pdf",
+          "answersFormat": "pdf",
+          "editions": [
+            {
+              "grade": "3-4",
+              "count": 50,
+              "tasksUrl": "https://runodog.ru/runo2012/3-4_1112_540.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "3-4_1112_540.pdf",
+              "answersFile": "ZR_answers_540.pdf"
+            },
+            {
+              "grade": "5-6",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/runo2012/5-6_1112_540.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "5-6_1112_540.pdf",
+              "answersFile": "ZR_answers_540.pdf"
+            },
+            {
+              "grade": "7-8",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/runo2012/7-8_1112_540.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "7-8_1112_540.pdf",
+              "answersFile": "ZR_answers_540.pdf"
+            },
+            {
+              "grade": "9-11",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/runo2012/9-11_1112_540.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "9-11_1112_540.pdf",
+              "answersFile": "ZR_answers_540.pdf"
+            }
+          ]
+        },
+        {
+          "variant": "780",
+          "variantLabel": "Другие регионы",
+          "answersUrl": "https://runodog.ru/runo2012/ZR_answers_780.pdf",
+          "answersFormat": "pdf",
+          "editions": [
+            {
+              "grade": "3-4",
+              "count": 50,
+              "tasksUrl": "https://runodog.ru/runo2012/3-4_1112_780.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "3-4_1112_780.pdf",
+              "answersFile": "ZR_answers_780.pdf"
+            },
+            {
+              "grade": "5-6",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/runo2012/5-6_1112_780.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "5-6_1112_780.pdf",
+              "answersFile": "ZR_answers_780.pdf"
+            },
+            {
+              "grade": "7-8",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/runo2012/7-8_1112_780.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "7-8_1112_780.pdf",
+              "answersFile": "ZR_answers_780.pdf"
+            },
+            {
+              "grade": "9-11",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/runo2012/9-11_1112_780.pdf",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "9-11_1112_780.pdf",
+              "answersFile": "ZR_answers_780.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2011,
+      "season": "2010-2011",
+      "title": "Солнце светит всем",
+      "page": "https://runodog.ru/index/2010_2011/0-12",
+      "notes": [
+        "Звёздочкой в ключе помечены вопросы, для которых засчитывали любой ответ."
+      ],
+      "status": "published",
+      "statisticsUrl": "https://runodog.ru/ZR_stat_03-12/ZR_stat_2010-2011.pdf",
+      "variants": [
+        {
+          "answersUrl": "https://runodog.ru/index/otvety/0-46",
+          "answersFormat": "html",
+          "editions": [
+            {
+              "grade": "3-4",
+              "count": 50,
+              "tasksUrl": "https://runodog.ru/runo2011/3-4/ZR-3-4.pdf",
+              "textUrl": "https://runodog.ru/index/2010_2011/0-12#05",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR-3-4.pdf",
+              "answersFile": "answers.pdf"
+            },
+            {
+              "grade": "5-6",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/runo2011/5-6/ZR-5-6.pdf",
+              "textUrl": "https://runodog.ru/index/2010_2011/0-12#01",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR-5-6.pdf",
+              "answersFile": "answers.pdf"
+            },
+            {
+              "grade": "7-8",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/runo2011/7-8/ZR-7-8.pdf",
+              "textUrl": "https://runodog.ru/index/2010_2011/0-12#02",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR-7-8.pdf",
+              "answersFile": "answers.pdf"
+            },
+            {
+              "grade": "9-11",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/runo2011/9-11/ZR-9-11.pdf",
+              "textUrl": "https://runodog.ru/index/9-11klassy/0-47",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "ZR-9-11.pdf",
+              "answersFile": "answers.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2010,
+      "season": "2009-2010",
+      "title": "Литературные герои",
+      "page": "https://runodog.ru/index/2009_2010/0-11",
+      "status": "published",
+      "statisticsUrl": "https://runodog.ru/ZR_stat_03-12/ZR_stat_2009-2010.pdf",
+      "variants": [
+        {
+          "answersUrl": "https://runodog.ru/index/2009_2010/0-11#04",
+          "answersFormat": "html",
+          "editions": [
+            {
+              "grade": "3-4",
+              "count": 50,
+              "tasksUrl": "https://runodog.ru/runo2010/Buklet_ZR_0910_3-4.pdf",
+              "textUrl": "https://runodog.ru/index/2009_2010/0-11#05",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "Buklet_ZR_0910_3-4.pdf",
+              "answersFile": "answers.pdf"
+            },
+            {
+              "grade": "5-6",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/runo2010/Buklet_ZR_0910_5-6.pdf",
+              "textUrl": "https://runodog.ru/index/2009_2010/0-11#01",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "Buklet_ZR_0910_5-6.pdf",
+              "answersFile": "answers.pdf"
+            },
+            {
+              "grade": "7-8",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/runo2010/Buklet_ZR_0910_7-8.pdf",
+              "textUrl": "https://runodog.ru/index/2009_2010/0-11#02",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "Buklet_ZR_0910_7-8.pdf",
+              "answersFile": "answers.pdf"
+            },
+            {
+              "grade": "9-11",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/runo2010/Buklet_ZR_0910_9-11.pdf",
+              "textUrl": "https://runodog.ru/index/2009_2010/0-11#03",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "Buklet_ZR_0910_9-11.pdf",
+              "answersFile": "answers.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2009,
+      "season": "2008-2009",
+      "title": "Культурные столицы Европы",
+      "page": "https://runodog.ru/index/2008_2009/0-10",
+      "notes": [
+        "Официальная страница содержит три возрастные группы. Младшая начинается с 5 класса."
+      ],
+      "status": "published",
+      "statisticsUrl": "https://runodog.ru/ZR_stat_03-12/ZR_stat_2008-2009.pdf",
+      "variants": [
+        {
+          "answersUrl": "https://runodog.ru/index/2008_2009/0-10#04",
+          "answersFormat": "html",
+          "editions": [
+            {
+              "grade": "5-6",
+              "count": 45,
+              "tasksUrl": "https://runodog.ru/runo/2009_5-6.pdf",
+              "textUrl": "https://runodog.ru/index/2008_2009/0-10#01",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "2009_5-6.pdf",
+              "answersFile": "answers.pdf"
+            },
+            {
+              "grade": "7-8",
+              "count": 45,
+              "tasksUrl": "https://runodog.ru/runo/2009_7-8.pdf",
+              "textUrl": "https://runodog.ru/index/2008_2009/0-10#02",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "2009_7-8.pdf",
+              "answersFile": "answers.pdf"
+            },
+            {
+              "grade": "9-11",
+              "count": 45,
+              "tasksUrl": "https://runodog.ru/runo/2009_9-11.pdf",
+              "textUrl": "https://runodog.ru/index/2008_2009/0-10#03",
+              "tasksFormat": "pdf",
+              "lessons": "pending",
+              "tasksFile": "2009_9-11.pdf",
+              "answersFile": "answers.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2008,
+      "season": "2007-2008",
+      "title": "Портреты времени. 1861–1914",
+      "page": "https://runodog.ru/index/2007_2008/0-9",
+      "status": "published",
+      "statisticsUrl": "https://runodog.ru/ZR_stat_03-12/ZR_stat_2007-2008.pdf",
+      "variants": [
+        {
+          "answersUrl": "https://runodog.ru/index/2007_2008/0-9#04",
+          "answersFormat": "html",
+          "editions": [
+            {
+              "grade": "2-4",
+              "count": 90,
+              "tasksUrl": "https://runodog.ru/index/2007_2008/0-9#01",
+              "tasksFormat": "html",
+              "lessons": "pending",
+              "tasksFile": "tasks-2-4.pdf",
+              "answersFile": "answers.pdf"
+            },
+            {
+              "grade": "5-7",
+              "count": 90,
+              "tasksUrl": "https://runodog.ru/index/2007_2008/0-9#02",
+              "tasksFormat": "html",
+              "lessons": "pending",
+              "tasksFile": "tasks-5-7.pdf",
+              "answersFile": "answers.pdf"
+            },
+            {
+              "grade": "8-11",
+              "count": 90,
+              "tasksUrl": "https://runodog.ru/index/2007_2008/0-9#03",
+              "tasksFormat": "html",
+              "lessons": "pending",
+              "tasksFile": "tasks-8-11.pdf",
+              "answersFile": "answers.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2007,
+      "season": "2006-2007",
+      "title": "Douce France",
+      "page": "https://runodog.ru/index/2006_2007/0-8",
+      "status": "published",
+      "statisticsUrl": "https://runodog.ru/ZR_stat_03-12/ZR_stat_2006-2007.pdf",
+      "variants": [
+        {
+          "answersUrl": "https://runodog.ru/index/2006_2007/0-8#04",
+          "answersFormat": "html",
+          "editions": [
+            {
+              "grade": "3-5",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/index/2006_2007/0-8#01",
+              "tasksFormat": "html",
+              "lessons": "pending",
+              "tasksFile": "tasks-3-5.pdf",
+              "answersFile": "answers.pdf"
+            },
+            {
+              "grade": "6-8",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/index/2006_2007/0-8#02",
+              "tasksFormat": "html",
+              "lessons": "pending",
+              "tasksFile": "tasks-6-8.pdf",
+              "answersFile": "answers.pdf"
+            },
+            {
+              "grade": "9-11",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/index/2006_2007/0-8#03",
+              "tasksFormat": "html",
+              "lessons": "pending",
+              "tasksFile": "tasks-9-11.pdf",
+              "answersFile": "answers.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2006,
+      "season": "2005-2006",
+      "title": "Bella Italia",
+      "page": "https://runodog.ru/index/2005_2006/0-7",
+      "status": "published",
+      "statisticsUrl": "https://runodog.ru/ZR_stat_03-12/ZR_stat_2005-2006.pdf",
+      "variants": [
+        {
+          "answersUrl": "https://runodog.ru/index/2005_2006/0-7#04",
+          "answersFormat": "html",
+          "editions": [
+            {
+              "grade": "3-5",
+              "count": 50,
+              "tasksUrl": "https://runodog.ru/index/2005_2006/0-7#01",
+              "tasksFormat": "html",
+              "lessons": "pending",
+              "tasksFile": "tasks-3-5.pdf",
+              "answersFile": "answers.pdf"
+            },
+            {
+              "grade": "6-8",
+              "count": 50,
+              "tasksUrl": "https://runodog.ru/index/2005_2006/0-7#02",
+              "tasksFormat": "html",
+              "lessons": "pending",
+              "tasksFile": "tasks-6-8.pdf",
+              "answersFile": "answers.pdf"
+            },
+            {
+              "grade": "9-11",
+              "count": 50,
+              "tasksUrl": "https://runodog.ru/index/2005_2006/0-7#03",
+              "tasksFormat": "html",
+              "lessons": "pending",
+              "tasksFile": "tasks-9-11.pdf",
+              "answersFile": "answers.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2005,
+      "season": "2004-2005",
+      "title": "Ex Oriente Lux. Свет с Востока",
+      "page": "https://runodog.ru/index/2004_2005/0-6",
+      "status": "published",
+      "statisticsUrl": "https://runodog.ru/ZR_stat_03-12/ZR_stat_2004-2005.pdf",
+      "variants": [
+        {
+          "answersUrl": "https://runodog.ru/index/2004_2005/0-6#03",
+          "answersFormat": "html",
+          "editions": [
+            {
+              "grade": "1-7",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/index/2004_2005/0-6#01",
+              "tasksFormat": "html",
+              "lessons": "pending",
+              "tasksFile": "tasks-1-7.pdf",
+              "answersFile": "answers.pdf"
+            },
+            {
+              "grade": "8-11",
+              "count": 60,
+              "tasksUrl": "https://runodog.ru/index/2004_2005/0-6#02",
+              "tasksFormat": "html",
+              "lessons": "pending",
+              "tasksFile": "tasks-8-11.pdf",
+              "answersFile": "answers.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2004,
+      "season": "2003-2004",
+      "title": "Homo ludens. Человек играющий",
+      "page": "https://runodog.ru/index/2003_2004/0-5",
+      "notes": [
+        "На странице организатора отсутствуют цели ссылок #01 и #03. Текст обеих групп и таблица ответов находятся на той же странице."
+      ],
+      "status": "published",
+      "statisticsUrl": "https://runodog.ru/ZR_stat_03-12/ZR_stat_2003-2004.pdf",
+      "variants": [
+        {
+          "answersUrl": "https://runodog.ru/index/2003_2004/0-5#03",
+          "answersFormat": "html",
+          "editions": [
+            {
+              "grade": "3-7",
+              "count": 30,
+              "tasksUrl": "https://runodog.ru/index/2003_2004/0-5#01",
+              "tasksFormat": "html",
+              "lessons": "pending",
+              "tasksFile": "tasks-3-7.pdf",
+              "answersFile": "answers.pdf"
+            },
+            {
+              "grade": "8-11",
+              "count": 30,
+              "tasksUrl": "https://runodog.ru/index/2003_2004/0-5#02",
+              "tasksFormat": "html",
+              "lessons": "pending",
+              "tasksFile": "tasks-8-11.pdf",
+              "answersFile": "answers.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2003,
+      "season": "2003",
+      "title": "Аргонавтика",
+      "page": "https://runodog.ru/index/2003/0-25",
+      "notes": [
+        "Последние пять вопросов адресованы 10–11 классам, их мог решать любой участник."
+      ],
+      "status": "published",
+      "statisticsUrl": "https://runodog.ru/ZR_stat_03-12/ZR_stat_2003.pdf",
+      "variants": [
+        {
+          "answersUrl": "https://runodog.ru/index/2003/0-25#01",
+          "answersFormat": "html",
+          "editions": [
+            {
+              "grade": "1-11",
+              "count": 30,
+              "tasksUrl": "https://runodog.ru/index/2003/0-25#02",
+              "tasksFormat": "html",
+              "optionalFrom": 26,
+              "lessons": "pending",
+              "tasksFile": "tasks-1-11.pdf",
+              "answersFile": "answers.pdf"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

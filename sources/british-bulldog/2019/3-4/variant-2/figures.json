@@ -1,0 +1,51 @@
+{
+  "source": "tasks.pdf",
+  "coordinateUnit": "rendered-pixel",
+  "renderScale": 2.75,
+  "crops": [
+    {
+      "page": 1,
+      "box": [
+        63,
+        665,
+        733,
+        1068
+      ],
+      "file": "room.webp",
+      "tasks": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ]
+    },
+    {
+      "page": 1,
+      "box": [
+        819,
+        613,
+        1532,
+        1108
+      ],
+      "file": "travel.webp",
+      "tasks": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ]
+    }
+  ]
+}

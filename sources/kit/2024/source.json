@@ -2,10 +2,19 @@
   "page": "https://tolkoexamen.ru/rossijskij-konkurs-po-informatike-kit-2024-2025-zadaniya-i-otvety/",
   "tasks": {
     "2-3": "https://tolkoexamen.ru/wp-content/uploads/2025/10/2024-2025_KIT_2-3.pdf",
-    "4-5": "https://nachalkaplus.ru/wp-content/uploads/2025/10/2024-2025_KIT_4-5.pdf"
+    "4-5": "https://nachalkaplus.ru/wp-content/uploads/2025/10/2024-2025_KIT_4-5.pdf",
+    "1": "https://tolkoexamen.ru/wp-content/uploads/2025/10/2024-2025_KIT_1.pdf",
+    "6-7": "https://tolkoexamen.ru/wp-content/uploads/2025/10/2024-2025_KIT_6-7.pdf",
+    "8-9": "https://tolkoexamen.ru/wp-content/uploads/2025/10/2024-2025_KIT_8-9.pdf",
+    "10-11": "https://tolkoexamen.ru/wp-content/uploads/2025/10/2024-2025_KIT_10-11.pdf"
   },
   "officialNotice": "https://konkurskit.ru/doc/infokit_24.pdf",
-  "answerVerification": "Ответы для 2–3 и 4–5 классов выведены из условий оригинальных бланков. Открытый официальный ключ не найден.",
+  "answerVerification": "Ответы для всех возрастных групп выведены из условий оригинальных бланков. Открытый официальный ключ не найден.",
   "editorialKey": "dist/assets/kit/2024/editorial-answers.pdf",
-  "scoringNote": "В бланках для 4–5 классов цена числовых ответов №19–21 не указана. В тренировочном рейтинге эти задания не оцениваются."
+  "editorialKeys": {
+    "1": "dist/assets/kit/2024/1-editorial-answers.pdf",
+    "2-3, 4-5": "dist/assets/kit/2024/editorial-answers.pdf",
+    "6-7, 8-9, 10-11": "dist/assets/kit/2024/senior-editorial-answers.pdf"
+  },
+  "trainingNote": "В № 3 для 6–7 и 8–9 классов уточнены данные для распознавания. В тренировке задания № 19–21 для 4–11 классов оцениваются в 4 балла."
 }

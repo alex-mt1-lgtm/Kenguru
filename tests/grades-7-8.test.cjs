@@ -28,7 +28,6 @@ test('the archive lists all official 7–8 editions and links to each interactiv
 
 test('7–8 grade cards have native conditions and accessible artwork with matching official scoring', () => {
   const rating = JSON.parse(fs.readFileSync(path.join(dist, 'api/rating-catalog.json'), 'utf8'));
-  const unrated = ['2021-7-8/7', '2022-7-8/15'];
   assert.equal(editions.reduce((total, edition) => total + edition.cards.length, 0), 204);
   for (const {id, year, cards} of editions) {
     const lessons = context.KENGURU_ARCHIVE[id].lessons;
@@ -53,20 +52,27 @@ test('7–8 grade cards have native conditions and accessible artwork with match
         assert.ok(card.condition.alt, key);
         assert.ok(fs.existsSync(path.join(dist, card.condition.src)), card.condition.src);
       }
-      if (unrated.includes(key)) {
-        assert.equal(card.answer, null);
-        assert.equal(rating[key], undefined);
-      } else {
-        assert.ok(Number.isInteger(card.answer) && card.answer >= 0 && card.answer < 5, key);
-        assert.deepEqual(rating[key], [card.answer, card.points], key);
-      }
-      assert.equal(lesson.paperEdition, year === 2020 || key === '2022-7-8/15', key);
+      assert.ok(Number.isInteger(card.answer) && card.answer >= 0 && card.answer < 5, key);
+      assert.deepEqual(rating[key], [card.answer, card.points], key);
+      assert.equal(lesson.paperEdition, year === 2020, key);
       for (const stage of card.review) {
         assert.ok(stage.title && stage.text, key);
         if (stage.image) assert.ok(fs.existsSync(path.join(dist, stage.image)), stage.image);
       }
     }
   }
+});
+
+test('the reviewed combination and clock tasks score the verified values', () => {
+  const lock = context.KENGURU_ARCHIVE['2021-7-8'].lessons[6];
+  assert.match(lock.question, /каждое колёсико на пол-оборота/u);
+  assert.equal(lock.choices[lock.answer], '1893');
+  assert.equal(lock.points, 3);
+
+  const clocks = context.KENGURU_ARCHIVE['2022-7-8'].lessons[14];
+  assert.equal(clocks.choices[clocks.answer], '15:20');
+  assert.equal(clocks.points, 4);
+  assert.match(clocks.steps.at(-1)[2], /11:20.*15:20/u);
 });
 
 test('equal-area illustration moves the quarter-circles and works at a complete frame', () => {

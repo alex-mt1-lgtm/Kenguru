@@ -25,11 +25,16 @@ module.exports = {buildArchiveFormats};
 
 if (require.main === module) {
   const expected = buildArchiveFormats();
+  const archive = path.join(__dirname, '..', 'dist', 'archive.html');
+  const previous = fs.readFileSync(archive, 'utf8');
+  const html = require('./subject-archive.cjs').buildSubjectArchive(previous);
   if (process.argv.includes('--check')) {
+    if (html !== previous) throw new Error('Run node scripts/build-archive-formats.cjs to update archive.html');
     if (fs.readFileSync(destination, 'utf8') !== expected) {
       throw new Error('Run node scripts/build-archive-formats.cjs to update the archive format labels');
     }
   } else {
     fs.writeFileSync(destination, expected);
+    if (html !== previous) fs.writeFileSync(archive, html);
   }
 }

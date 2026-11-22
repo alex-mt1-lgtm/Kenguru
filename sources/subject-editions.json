@@ -2,6 +2,46 @@
   {
     "subject": "british-bulldog",
     "year": 2025,
+    "grade": "2",
+    "contest": "British Bulldog",
+    "letters": "ABCD",
+    "count": 30,
+    "language": "en",
+    "points": 3,
+    "tasksFile": "2/tasks.pdf",
+    "answersFile": "answers.pdf",
+    "listeningFile": "2/listening.mp3",
+    "titleLanguage": "en",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Listening"
+      },
+      {
+        "start": 6,
+        "title": "Verb forms"
+      },
+      {
+        "start": 11,
+        "title": "Word groups"
+      },
+      {
+        "start": 16,
+        "title": "Jobs"
+      },
+      {
+        "start": 21,
+        "title": "Family picture"
+      },
+      {
+        "start": 26,
+        "title": "Things in a room"
+      }
+    ]
+  },
+  {
+    "subject": "british-bulldog",
+    "year": 2025,
     "grade": "3-4",
     "contest": "British Bulldog",
     "letters": "ABCD",
@@ -40,7 +80,180 @@
         "title": "Telling the time"
       }
     ],
-    "titleLanguage": "en"
+    "titleLanguage": "en",
+    "listeningFile": "listening.mp3"
+  },
+  {
+    "subject": "british-bulldog",
+    "year": 2025,
+    "grade": "5-6",
+    "contest": "British Bulldog",
+    "letters": "ABCD",
+    "count": 45,
+    "language": "en",
+    "points": 3,
+    "tasksFile": "5-6/tasks.pdf",
+    "answersFile": "answers.pdf",
+    "listeningFile": "5-6/listening.mp3",
+    "titleLanguage": "en",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Listening"
+      },
+      {
+        "start": 11,
+        "title": "Reading"
+      },
+      {
+        "start": 16,
+        "title": "Fill in the blanks"
+      },
+      {
+        "start": 26,
+        "title": "Word meanings"
+      },
+      {
+        "start": 31,
+        "title": "Telling the time"
+      },
+      {
+        "start": 36,
+        "title": "Make or do"
+      },
+      {
+        "start": 41,
+        "title": "Picture clues"
+      }
+    ]
+  },
+  {
+    "subject": "british-bulldog",
+    "year": 2025,
+    "grade": "7-8",
+    "contest": "British Bulldog",
+    "letters": "ABCD",
+    "count": 45,
+    "language": "en",
+    "points": 3,
+    "tasksFile": "7-8/tasks.pdf",
+    "answersFile": "answers.pdf",
+    "listeningFile": "7-8/listening.mp3",
+    "titleLanguage": "en",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Listening"
+      },
+      {
+        "start": 11,
+        "title": "Madame Tussauds"
+      },
+      {
+        "start": 16,
+        "title": "Words from Alice"
+      },
+      {
+        "start": 21,
+        "title": "Singular or plural"
+      },
+      {
+        "start": 26,
+        "title": "Verb forms and usage"
+      },
+      {
+        "start": 36,
+        "title": "Word groups"
+      },
+      {
+        "start": 41,
+        "title": "Places"
+      }
+    ]
+  },
+  {
+    "subject": "british-bulldog",
+    "year": 2025,
+    "grade": "9-11",
+    "contest": "British Bulldog",
+    "letters": "ABCD",
+    "count": 45,
+    "language": "en",
+    "points": 3,
+    "tasksFile": "9-11/tasks.pdf",
+    "answersFile": "answers.pdf",
+    "listeningFile": "9-11/listening.mp3",
+    "titleLanguage": "en",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Listening"
+      },
+      {
+        "start": 11,
+        "title": "The British Museum"
+      },
+      {
+        "start": 16,
+        "title": "Deserts"
+      },
+      {
+        "start": 21,
+        "title": "Plural forms"
+      },
+      {
+        "start": 26,
+        "title": "Verb forms and usage"
+      },
+      {
+        "start": 36,
+        "title": "Word choice"
+      },
+      {
+        "start": 41,
+        "title": "Formal letters"
+      }
+    ]
+  },
+  {
+    "subject": "british-bulldog",
+    "year": 2024,
+    "grade": "2",
+    "contest": "British Bulldog",
+    "letters": "ABCD",
+    "count": 30,
+    "language": "en",
+    "points": 3,
+    "tasksFile": "2/tasks.pdf",
+    "answersFile": "answers.pdf",
+    "listeningFile": "2/listening.mp3",
+    "titleLanguage": "en",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Listening"
+      },
+      {
+        "start": 6,
+        "title": "Jobs"
+      },
+      {
+        "start": 11,
+        "title": "Picnic picture"
+      },
+      {
+        "start": 16,
+        "title": "Word groups"
+      },
+      {
+        "start": 21,
+        "title": "Verb forms"
+      },
+      {
+        "start": 26,
+        "title": "Pets in a room"
+      }
+    ]
   },
   {
     "subject": "british-bulldog",
@@ -83,7 +296,1232 @@
         "title": "Picture clues"
       }
     ],
+    "titleLanguage": "en",
+    "listeningFile": "listening.mp3"
+  },
+  {
+    "subject": "british-bulldog",
+    "year": 2024,
+    "grade": "5-6",
+    "contest": "British Bulldog",
+    "letters": "ABCD",
+    "count": 45,
+    "language": "en",
+    "points": 3,
+    "tasksFile": "5-6/tasks.pdf",
+    "answersFile": "answers.pdf",
+    "listeningFile": "5-6/listening.mp3",
+    "titleLanguage": "en",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Listening"
+      },
+      {
+        "start": 6,
+        "title": "Dave’s commute"
+      },
+      {
+        "start": 11,
+        "title": "Articles"
+      },
+      {
+        "start": 21,
+        "title": "Fill in the gaps"
+      },
+      {
+        "start": 31,
+        "title": "Animal groups"
+      },
+      {
+        "start": 36,
+        "title": "Famous people"
+      },
+      {
+        "start": 41,
+        "title": "A television programme"
+      }
+    ]
+  },
+  {
+    "subject": "british-bulldog",
+    "year": 2024,
+    "grade": "7-8",
+    "contest": "British Bulldog",
+    "letters": "ABCD",
+    "count": 45,
+    "language": "en",
+    "points": 3,
+    "tasksFile": "7-8/tasks.pdf",
+    "answersFile": "answers.pdf",
+    "listeningFile": "7-8/listening.mp3",
+    "titleLanguage": "en",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Listening"
+      },
+      {
+        "start": 11,
+        "title": "The zoo"
+      },
+      {
+        "start": 16,
+        "title": "Grammar"
+      },
+      {
+        "start": 26,
+        "title": "Similar meanings"
+      },
+      {
+        "start": 31,
+        "title": "Famous people"
+      },
+      {
+        "start": 36,
+        "title": "Shops"
+      },
+      {
+        "start": 41,
+        "title": "Word choice"
+      }
+    ]
+  },
+  {
+    "subject": "british-bulldog",
+    "year": 2024,
+    "grade": "9-11",
+    "contest": "British Bulldog",
+    "letters": "ABCD",
+    "count": 45,
+    "language": "en",
+    "points": 3,
+    "tasksFile": "9-11/tasks.pdf",
+    "answersFile": "answers.pdf",
+    "listeningFile": "9-11/listening.mp3",
+    "titleLanguage": "en",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Listening"
+      },
+      {
+        "start": 11,
+        "title": "The luncheon"
+      },
+      {
+        "start": 16,
+        "title": "Grammar"
+      },
+      {
+        "start": 26,
+        "title": "Verb choice"
+      },
+      {
+        "start": 36,
+        "title": "Idioms"
+      },
+      {
+        "start": 41,
+        "title": "Art and landmarks"
+      }
+    ]
+  },
+  {
+    "subject": "british-bulldog",
+    "year": 2023,
+    "grade": "2",
+    "contest": "British Bulldog",
+    "letters": "ABCD",
+    "count": 30,
+    "language": "en",
+    "points": 3,
+    "tasksFile": "2/tasks.pdf",
+    "answersFile": "answers.pdf",
+    "listeningFile": "2/listening.mp3",
+    "titleLanguage": "en",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Listening"
+      },
+      {
+        "start": 6,
+        "title": "Pronouns"
+      },
+      {
+        "start": 11,
+        "title": "Daisy’s Day"
+      },
+      {
+        "start": 16,
+        "title": "Questions"
+      },
+      {
+        "start": 21,
+        "title": "Jobs"
+      },
+      {
+        "start": 26,
+        "title": "Things in a room"
+      }
+    ]
+  },
+  {
+    "subject": "british-bulldog",
+    "year": 2023,
+    "grade": "3-4",
+    "contest": "British Bulldog",
+    "letters": "ABCD",
+    "count": 30,
+    "language": "en",
+    "points": 3,
+    "tasksFile": "3-4/tasks.pdf",
+    "answersFile": "answers.pdf",
+    "listeningFile": "3-4/listening.mp3",
+    "titleLanguage": "en",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Listening"
+      },
+      {
+        "start": 6,
+        "title": "The bundle of sticks"
+      },
+      {
+        "start": 11,
+        "title": "Grammar"
+      },
+      {
+        "start": 16,
+        "title": "Odd word out"
+      },
+      {
+        "start": 21,
+        "title": "Parts of the body"
+      },
+      {
+        "start": 26,
+        "title": "A day at the beach"
+      }
+    ]
+  },
+  {
+    "subject": "british-bulldog",
+    "year": 2023,
+    "grade": "5-6",
+    "contest": "British Bulldog",
+    "letters": "ABCD",
+    "count": 45,
+    "language": "en",
+    "points": 3,
+    "tasksFile": "5-6/tasks.pdf",
+    "answersFile": "answers.pdf",
+    "listeningFile": "5-6/listening.mp3",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Listening"
+      },
+      {
+        "start": 11,
+        "title": "Reading"
+      },
+      {
+        "start": 21,
+        "title": "Grammar"
+      },
+      {
+        "start": 31,
+        "title": "Vocabulary"
+      },
+      {
+        "start": 41,
+        "title": "Professions"
+      }
+    ],
     "titleLanguage": "en"
+  },
+  {
+    "subject": "british-bulldog",
+    "year": 2023,
+    "grade": "7-8",
+    "contest": "British Bulldog",
+    "letters": "ABCD",
+    "count": 45,
+    "language": "en",
+    "points": 3,
+    "tasksFile": "7-8/tasks.pdf",
+    "answersFile": "answers.pdf",
+    "listeningFile": "7-8/listening.mp3",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Listening"
+      },
+      {
+        "start": 11,
+        "title": "Reading"
+      },
+      {
+        "start": 21,
+        "title": "Grammar"
+      },
+      {
+        "start": 31,
+        "title": "Word definitions"
+      },
+      {
+        "start": 41,
+        "title": "Nicknames"
+      }
+    ],
+    "titleLanguage": "en"
+  },
+  {
+    "subject": "british-bulldog",
+    "year": 2023,
+    "grade": "9-11",
+    "contest": "British Bulldog",
+    "letters": "ABCD",
+    "count": 45,
+    "language": "en",
+    "points": 3,
+    "tasksFile": "9-11/tasks.pdf",
+    "answersFile": "answers.pdf",
+    "listeningFile": "9-11/listening.mp3",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Listening"
+      },
+      {
+        "start": 11,
+        "title": "Reading"
+      },
+      {
+        "start": 21,
+        "title": "Grammar and vocabulary"
+      },
+      {
+        "start": 31,
+        "title": "Negative prefixes"
+      },
+      {
+        "start": 41,
+        "title": "History"
+      }
+    ],
+    "titleLanguage": "en"
+  },
+  {
+    "subject": "british-bulldog",
+    "year": 2022,
+    "grade": "2",
+    "contest": "British Bulldog",
+    "letters": "ABCD",
+    "count": 30,
+    "language": "en",
+    "points": 3,
+    "titleLanguage": "en",
+    "tasksFile": "2/tasks.pdf",
+    "listeningFile": "2/listening.mp3",
+    "answersFile": "answers.pdf",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Listening"
+      },
+      {
+        "start": 6,
+        "title": "The sound of G"
+      },
+      {
+        "start": 11,
+        "title": "Complete the sentences"
+      },
+      {
+        "start": 16,
+        "title": "Outside the house"
+      },
+      {
+        "start": 21,
+        "title": "Word groups"
+      },
+      {
+        "start": 26,
+        "title": "In the living room"
+      }
+    ]
+  },
+  {
+    "subject": "british-bulldog",
+    "year": 2022,
+    "grade": "3-4",
+    "contest": "British Bulldog",
+    "letters": "ABCD",
+    "count": 30,
+    "language": "en",
+    "points": 3,
+    "titleLanguage": "en",
+    "tasksFile": "3-4/tasks.pdf",
+    "listeningFile": "3-4/listening.mp3",
+    "answersFile": "answers.pdf",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Listening"
+      },
+      {
+        "start": 6,
+        "title": "A trip to London"
+      },
+      {
+        "start": 11,
+        "title": "Choose the correct option"
+      },
+      {
+        "start": 16,
+        "title": "Articles"
+      },
+      {
+        "start": 21,
+        "title": "Riddles"
+      },
+      {
+        "start": 26,
+        "title": "The classroom"
+      }
+    ]
+  },
+  {
+    "subject": "british-bulldog",
+    "year": 2022,
+    "grade": "5-6",
+    "contest": "British Bulldog",
+    "letters": "ABCD",
+    "count": 45,
+    "language": "en",
+    "points": 3,
+    "tasksFile": "5-6/tasks.pdf",
+    "answersFile": "answers.pdf",
+    "listeningFile": "5-6/listening.mp3",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Listening"
+      },
+      {
+        "start": 11,
+        "title": "Reading"
+      },
+      {
+        "start": 21,
+        "title": "Grammar and vocabulary"
+      },
+      {
+        "start": 31,
+        "title": "Riddles"
+      },
+      {
+        "start": 41,
+        "title": "Picture clues"
+      }
+    ],
+    "titleLanguage": "en"
+  },
+  {
+    "subject": "british-bulldog",
+    "year": 2022,
+    "grade": "7-8",
+    "contest": "British Bulldog",
+    "letters": "ABCD",
+    "count": 45,
+    "language": "en",
+    "points": 3,
+    "tasksFile": "7-8/tasks.pdf",
+    "answersFile": "answers.pdf",
+    "listeningFile": "7-8/listening.mp3",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Listening"
+      },
+      {
+        "start": 11,
+        "title": "Reading and word choice"
+      },
+      {
+        "start": 21,
+        "title": "Grammar"
+      },
+      {
+        "start": 31,
+        "title": "Riddles"
+      },
+      {
+        "start": 41,
+        "title": "London"
+      }
+    ],
+    "titleLanguage": "en"
+  },
+  {
+    "subject": "british-bulldog",
+    "year": 2022,
+    "grade": "9-11",
+    "contest": "British Bulldog",
+    "letters": "ABCD",
+    "count": 45,
+    "language": "en",
+    "points": 3,
+    "tasksFile": "9-11/tasks.pdf",
+    "answersFile": "answers.pdf",
+    "listeningFile": "9-11/listening.mp3",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Listening"
+      },
+      {
+        "start": 11,
+        "title": "Reading and word choice"
+      },
+      {
+        "start": 21,
+        "title": "Grammar and vocabulary"
+      },
+      {
+        "start": 31,
+        "title": "Odd word out"
+      },
+      {
+        "start": 41,
+        "title": "Literary characters"
+      }
+    ],
+    "titleLanguage": "en"
+  },
+  {
+    "subject": "british-bulldog",
+    "year": 2021,
+    "grade": "2",
+    "contest": "British Bulldog",
+    "letters": "ABCD",
+    "count": 30,
+    "language": "en",
+    "points": 3,
+    "titleLanguage": "en",
+    "tasksFile": "2/tasks.pdf",
+    "listeningFile": "2/listening.mp3",
+    "answersFile": "answers.pdf",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Listening"
+      },
+      {
+        "start": 6,
+        "title": "The sound of TH"
+      },
+      {
+        "start": 11,
+        "title": "Jobs"
+      },
+      {
+        "start": 16,
+        "title": "Animal colours"
+      },
+      {
+        "start": 21,
+        "title": "Complete the sentences"
+      },
+      {
+        "start": 26,
+        "title": "In the living room"
+      }
+    ]
+  },
+  {
+    "subject": "british-bulldog",
+    "year": 2021,
+    "grade": "3-4",
+    "contest": "British Bulldog",
+    "letters": "ABCD",
+    "count": 30,
+    "language": "en",
+    "points": 3,
+    "titleLanguage": "en",
+    "tasksFile": "3-4/tasks.pdf",
+    "listeningFile": "3-4/listening.mp3",
+    "answersFile": "answers.pdf",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Listening"
+      },
+      {
+        "start": 6,
+        "title": "A day in London"
+      },
+      {
+        "start": 11,
+        "title": "Complete the sentences"
+      },
+      {
+        "start": 16,
+        "title": "Holiday symbols"
+      },
+      {
+        "start": 21,
+        "title": "Jobs"
+      },
+      {
+        "start": 26,
+        "title": "In the bedroom"
+      }
+    ]
+  },
+  {
+    "subject": "british-bulldog",
+    "year": 2021,
+    "grade": "5-6",
+    "contest": "British Bulldog",
+    "letters": "ABCD",
+    "count": 45,
+    "language": "en",
+    "points": 3,
+    "tasksFile": "5-6/tasks.pdf",
+    "answersFile": "answers.pdf",
+    "listeningFile": "5-6/listening.mp3",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Listening"
+      },
+      {
+        "start": 11,
+        "title": "Reading"
+      },
+      {
+        "start": 21,
+        "title": "Grammar"
+      },
+      {
+        "start": 31,
+        "title": "Picture clues"
+      },
+      {
+        "start": 41,
+        "title": "British landmarks"
+      }
+    ],
+    "titleLanguage": "en"
+  },
+  {
+    "subject": "british-bulldog",
+    "year": 2021,
+    "grade": "7-8",
+    "contest": "British Bulldog",
+    "letters": "ABCD",
+    "count": 45,
+    "language": "en",
+    "points": 3,
+    "tasksFile": "7-8/tasks.pdf",
+    "answersFile": "answers.pdf",
+    "listeningFile": "7-8/listening.mp3",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Listening"
+      },
+      {
+        "start": 11,
+        "title": "Reading"
+      },
+      {
+        "start": 21,
+        "title": "Grammar"
+      },
+      {
+        "start": 31,
+        "title": "Reading and word choice"
+      },
+      {
+        "start": 41,
+        "title": "British queens"
+      }
+    ],
+    "titleLanguage": "en"
+  },
+  {
+    "subject": "british-bulldog",
+    "year": 2021,
+    "grade": "9-11",
+    "contest": "British Bulldog",
+    "letters": "ABCD",
+    "count": 45,
+    "language": "en",
+    "points": 3,
+    "tasksFile": "9-11/tasks.pdf",
+    "answersFile": "answers.pdf",
+    "listeningFile": "9-11/listening.mp3",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Listening"
+      },
+      {
+        "start": 11,
+        "title": "Reading"
+      },
+      {
+        "start": 21,
+        "title": "Grammar"
+      },
+      {
+        "start": 31,
+        "title": "Words with Self-"
+      },
+      {
+        "start": 41,
+        "title": "British prime ministers"
+      }
+    ],
+    "titleLanguage": "en"
+  },
+  {
+    "subject": "british-bulldog",
+    "year": 2020,
+    "grade": "2",
+    "contest": "British Bulldog",
+    "letters": "ABCD",
+    "count": 30,
+    "language": "en",
+    "points": 3,
+    "titleLanguage": "en",
+    "tasksFile": "2/tasks.pdf",
+    "listeningFile": "2/listening.mp3",
+    "answersFile": "answers.pdf",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Listening"
+      },
+      {
+        "start": 6,
+        "title": "The sound of C"
+      },
+      {
+        "start": 11,
+        "title": "At a picnic"
+      },
+      {
+        "start": 16,
+        "title": "Complete the sentences"
+      },
+      {
+        "start": 21,
+        "title": "Animal sounds"
+      },
+      {
+        "start": 26,
+        "title": "In the living room"
+      }
+    ]
+  },
+  {
+    "subject": "british-bulldog",
+    "year": 2020,
+    "grade": "3-4",
+    "contest": "British Bulldog",
+    "letters": "ABCD",
+    "count": 60,
+    "language": "en",
+    "points": 3,
+    "titleLanguage": "en",
+    "tasksFile": "3-4/tasks.pdf",
+    "listeningFile": "3-4/listening.mp3",
+    "answersFile": "answers.pdf",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Listening"
+      },
+      {
+        "start": 11,
+        "title": "A Birthday Party"
+      },
+      {
+        "start": 21,
+        "title": "Complete the sentences"
+      },
+      {
+        "start": 31,
+        "title": "Public notices"
+      },
+      {
+        "start": 41,
+        "title": "Toys and games"
+      },
+      {
+        "start": 51,
+        "title": "In the classroom"
+      }
+    ]
+  },
+  {
+    "subject": "british-bulldog",
+    "year": 2020,
+    "grade": "5-6",
+    "contest": "British Bulldog",
+    "letters": "ABCD",
+    "count": 60,
+    "language": "en",
+    "points": 3,
+    "tasksFile": "5-6/tasks.pdf",
+    "answersFile": "answers.pdf",
+    "listeningFile": "5-6/listening.mp3",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Listening"
+      },
+      {
+        "start": 11,
+        "title": "Reading"
+      },
+      {
+        "start": 21,
+        "title": "Prepositions"
+      },
+      {
+        "start": 31,
+        "title": "Grammar"
+      },
+      {
+        "start": 41,
+        "title": "Fairy tales"
+      },
+      {
+        "start": 51,
+        "title": "Picture clues"
+      }
+    ],
+    "titleLanguage": "en"
+  },
+  {
+    "subject": "british-bulldog",
+    "year": 2020,
+    "grade": "7-8",
+    "contest": "British Bulldog",
+    "letters": "ABCD",
+    "count": 60,
+    "language": "en",
+    "points": 3,
+    "tasksFile": "7-8/tasks.pdf",
+    "answersFile": "answers.pdf",
+    "listeningFile": "7-8/listening.mp3",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Listening"
+      },
+      {
+        "start": 11,
+        "title": "Reading"
+      },
+      {
+        "start": 21,
+        "title": "Dialogue and verb forms"
+      },
+      {
+        "start": 31,
+        "title": "Means of transport"
+      },
+      {
+        "start": 41,
+        "title": "British historical figures"
+      },
+      {
+        "start": 51,
+        "title": "Picture clues"
+      }
+    ],
+    "titleLanguage": "en"
+  },
+  {
+    "subject": "british-bulldog",
+    "year": 2020,
+    "grade": "9-11",
+    "contest": "British Bulldog",
+    "letters": "ABCD",
+    "count": 60,
+    "language": "en",
+    "points": 3,
+    "tasksFile": "9-11/tasks.pdf",
+    "answersFile": "answers.pdf",
+    "listeningFile": "9-11/listening.mp3",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Listening"
+      },
+      {
+        "start": 11,
+        "title": "Reading"
+      },
+      {
+        "start": 21,
+        "title": "Grammar"
+      },
+      {
+        "start": 31,
+        "title": "Sports"
+      },
+      {
+        "start": 41,
+        "title": "The office"
+      },
+      {
+        "start": 51,
+        "title": "Literary characters"
+      }
+    ],
+    "titleLanguage": "en"
+  },
+  {
+    "subject": "british-bulldog",
+    "year": 2019,
+    "grade": "3-4",
+    "contest": "British Bulldog",
+    "letters": "ABCD",
+    "count": 60,
+    "language": "en",
+    "points": 3,
+    "titleLanguage": "en",
+    "tasksFile": "3-4/variant-1/tasks.pdf",
+    "listeningFile": "3-4/variant-1/listening.mp3",
+    "answersFile": "answers-variant-1.pdf",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Listening"
+      },
+      {
+        "start": 11,
+        "title": "James’s paintings"
+      },
+      {
+        "start": 21,
+        "title": "A mountain holiday"
+      },
+      {
+        "start": 31,
+        "title": "Describing people"
+      },
+      {
+        "start": 41,
+        "title": "Holiday symbols"
+      },
+      {
+        "start": 51,
+        "title": "A snowy day"
+      }
+    ]
+  },
+  {
+    "subject": "british-bulldog",
+    "year": 2019,
+    "grade": "5-6",
+    "contest": "British Bulldog",
+    "letters": "ABCD",
+    "count": 60,
+    "language": "en",
+    "points": 3,
+    "tasksFile": "5-6/variant-1/tasks.pdf",
+    "answersFile": "answers.pdf",
+    "listeningFile": "5-6/variant-1/listening.mp3",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Listening"
+      },
+      {
+        "start": 11,
+        "title": "Reading"
+      },
+      {
+        "start": 21,
+        "title": "Plural forms"
+      },
+      {
+        "start": 31,
+        "title": "Personal qualities"
+      },
+      {
+        "start": 41,
+        "title": "Around town"
+      },
+      {
+        "start": 51,
+        "title": "British traditions"
+      }
+    ],
+    "titleLanguage": "en"
+  },
+  {
+    "subject": "british-bulldog",
+    "year": 2019,
+    "grade": "7-8",
+    "contest": "British Bulldog",
+    "letters": "ABCD",
+    "count": 60,
+    "language": "en",
+    "points": 3,
+    "tasksFile": "7-8/variant-1/tasks.pdf",
+    "answersFile": "answers.pdf",
+    "listeningFile": "7-8/variant-1/listening.mp3",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Listening"
+      },
+      {
+        "start": 11,
+        "title": "Reading"
+      },
+      {
+        "start": 21,
+        "title": "Verb forms"
+      },
+      {
+        "start": 31,
+        "title": "Personal qualities"
+      },
+      {
+        "start": 41,
+        "title": "Words beginning with Ex-"
+      },
+      {
+        "start": 51,
+        "title": "Picture clues"
+      }
+    ],
+    "titleLanguage": "en"
+  },
+  {
+    "subject": "british-bulldog",
+    "year": 2019,
+    "grade": "9-11",
+    "contest": "British Bulldog",
+    "letters": "ABCD",
+    "count": 60,
+    "language": "en",
+    "points": 3,
+    "tasksFile": "9-11/variant-1/tasks.pdf",
+    "answersFile": "answers.pdf",
+    "listeningFile": "9-11/variant-1/listening.mp3",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Listening"
+      },
+      {
+        "start": 11,
+        "title": "Reading"
+      },
+      {
+        "start": 21,
+        "title": "Grammar"
+      },
+      {
+        "start": 31,
+        "title": "Personal qualities"
+      },
+      {
+        "start": 41,
+        "title": "At the airport"
+      },
+      {
+        "start": 51,
+        "title": "The Statue of Liberty"
+      }
+    ],
+    "titleLanguage": "en"
+  },
+  {
+    "subject": "british-bulldog",
+    "year": 2018,
+    "grade": "5-6",
+    "contest": "British Bulldog",
+    "letters": "ABCD",
+    "count": 60,
+    "language": "en",
+    "points": 3,
+    "tasksFile": "5-6/variant-1/tasks.pdf",
+    "answersFile": "answers.pdf",
+    "listeningFile": "5-6/listening.mp3",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Listening"
+      },
+      {
+        "start": 11,
+        "title": "Reading"
+      },
+      {
+        "start": 21,
+        "title": "Grammar"
+      },
+      {
+        "start": 31,
+        "title": "Health and medicine"
+      },
+      {
+        "start": 41,
+        "title": "Picture clues"
+      },
+      {
+        "start": 51,
+        "title": "Odd words out"
+      }
+    ],
+    "titleLanguage": "en"
+  },
+  {
+    "subject": "british-bulldog",
+    "year": 2018,
+    "grade": "7-8",
+    "contest": "British Bulldog",
+    "letters": "ABCD",
+    "count": 60,
+    "language": "en",
+    "points": 3,
+    "tasksFile": "7-8/variant-1/tasks.pdf",
+    "answersFile": "answers.pdf",
+    "listeningFile": "7-8/listening.mp3",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Listening"
+      },
+      {
+        "start": 11,
+        "title": "Reading"
+      },
+      {
+        "start": 21,
+        "title": "Grammar"
+      },
+      {
+        "start": 31,
+        "title": "Word endings"
+      },
+      {
+        "start": 41,
+        "title": "Buildings and activities"
+      },
+      {
+        "start": 51,
+        "title": "Verb forms"
+      }
+    ],
+    "titleLanguage": "en"
+  },
+  {
+    "subject": "british-bulldog",
+    "year": 2018,
+    "grade": "9-11",
+    "contest": "British Bulldog",
+    "letters": "ABCD",
+    "count": 60,
+    "language": "en",
+    "points": 3,
+    "tasksFile": "9-11/variant-1/tasks.pdf",
+    "answersFile": "answers.pdf",
+    "listeningFile": "9-11/listening.mp3",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Listening"
+      },
+      {
+        "start": 11,
+        "title": "Reading"
+      },
+      {
+        "start": 21,
+        "title": "Grammar"
+      },
+      {
+        "start": 31,
+        "title": "Phrasal verbs and expressions"
+      },
+      {
+        "start": 41,
+        "title": "At the theatre"
+      },
+      {
+        "start": 51,
+        "title": "Scotland"
+      }
+    ],
+    "titleLanguage": "en"
+  },
+  {
+    "subject": "british-bulldog",
+    "year": 2017,
+    "grade": "5-6",
+    "contest": "British Bulldog",
+    "letters": "ABCD",
+    "count": 60,
+    "language": "en",
+    "points": 3,
+    "tasksFile": "5-6/variant-1/tasks.pdf",
+    "answersFile": "answers.pdf",
+    "listeningFile": "5-6/listening.mp3",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Listening"
+      },
+      {
+        "start": 11,
+        "title": "Reading"
+      },
+      {
+        "start": 21,
+        "title": "Comparisons"
+      },
+      {
+        "start": 31,
+        "title": "Prepositions"
+      },
+      {
+        "start": 41,
+        "title": "Camp notices"
+      },
+      {
+        "start": 51,
+        "title": "Unnecessary words"
+      }
+    ],
+    "titleLanguage": "en"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2026,
+    "grade": "1-2",
+    "contest": "Золотое руно",
+    "letters": "ABCD",
+    "count": 20,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "zr_2526_stolicy_quest_1-2.pdf",
+    "answersFile": "answers.pdf"
   },
   {
     "subject": "golden-fleece",
@@ -95,6 +1533,43 @@
     "language": "ru",
     "points": 3,
     "tasksFile": "tasks.pdf",
+    "answersFile": "answers.pdf",
+    "title": "Столицы России"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2026,
+    "grade": "5-7",
+    "contest": "Золотое руно",
+    "letters": "ABCD",
+    "count": 30,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "zr_2526_stolicy_quest_5-7.pdf",
+    "answersFile": "answers.pdf"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2026,
+    "grade": "8-11",
+    "contest": "Золотое руно",
+    "letters": "ABCD",
+    "count": 30,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "zr_2526_stolicy_quest_8-11.pdf",
+    "answersFile": "answers.pdf"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2025,
+    "grade": "1-2",
+    "contest": "Золотое руно",
+    "letters": "ABCD",
+    "count": 20,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "zr_2425_zadanija_1-2.pdf",
     "answersFile": "answers.pdf"
   },
   {
@@ -107,7 +1582,757 @@
     "language": "ru",
     "points": 3,
     "tasksFile": "tasks.pdf",
+    "answersFile": "answers.pdf",
+    "title": "Тысяча и одна ночь"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2025,
+    "grade": "5-7",
+    "contest": "Золотое руно",
+    "letters": "ABCD",
+    "count": 30,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "zr_2425_zadanija_5-7.pdf",
     "answersFile": "answers.pdf"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2025,
+    "grade": "8-11",
+    "contest": "Золотое руно",
+    "letters": "ABCD",
+    "count": 30,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "zr_2425_zadanija_8-11.pdf",
+    "answersFile": "answers.pdf"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2024,
+    "grade": "1-2",
+    "contest": "Золотое руно",
+    "letters": "ABCD",
+    "count": 30,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "zadanija-1-2_klassy.pdf",
+    "answersFile": "zr_2324_otvety.pdf"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2024,
+    "grade": "3-4",
+    "contest": "Золотое руно",
+    "letters": "ABCD",
+    "count": 30,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "zadanija-3-4_klassy.pdf",
+    "answersFile": "zr_2324_otvety.pdf"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2024,
+    "grade": "5-7",
+    "contest": "Золотое руно",
+    "letters": "ABCD",
+    "count": 30,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "zadanija-5-7_klassy.pdf",
+    "answersFile": "zr_2324_otvety.pdf"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2024,
+    "grade": "8-11",
+    "contest": "Золотое руно",
+    "letters": "ABCD",
+    "count": 30,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "zadanija-8-11_klassy.pdf",
+    "answersFile": "zr_2324_otvety.pdf"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2008,
+    "grade": "2-4",
+    "contest": "Золотое руно",
+    "letters": "DN?",
+    "count": 90,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "tasks-2-4.pdf",
+    "answersFile": "answers.pdf",
+    "sections": [
+      {
+        "start": 1,
+        "title": "1861–1870"
+      },
+      {
+        "start": 19,
+        "title": "1871–1880"
+      },
+      {
+        "start": 37,
+        "title": "1881–1890"
+      },
+      {
+        "start": 55,
+        "title": "1891–1900"
+      },
+      {
+        "start": 73,
+        "title": "1901–1914"
+      }
+    ]
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2008,
+    "grade": "5-7",
+    "contest": "Золотое руно",
+    "letters": "DN?",
+    "count": 90,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "tasks-5-7.pdf",
+    "answersFile": "answers.pdf",
+    "sections": [
+      {
+        "start": 1,
+        "title": "1861–1870"
+      },
+      {
+        "start": 19,
+        "title": "1871–1880"
+      },
+      {
+        "start": 37,
+        "title": "1881–1890"
+      },
+      {
+        "start": 55,
+        "title": "1891–1900"
+      },
+      {
+        "start": 73,
+        "title": "1901–1914"
+      }
+    ]
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2008,
+    "grade": "8-11",
+    "contest": "Золотое руно",
+    "letters": "DN?",
+    "count": 90,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "tasks-8-11.pdf",
+    "answersFile": "answers.pdf",
+    "sections": [
+      {
+        "start": 1,
+        "title": "1861–1870"
+      },
+      {
+        "start": 19,
+        "title": "1871–1880"
+      },
+      {
+        "start": 37,
+        "title": "1881–1890"
+      },
+      {
+        "start": 55,
+        "title": "1891–1900"
+      },
+      {
+        "start": 73,
+        "title": "1901–1914"
+      }
+    ]
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2007,
+    "grade": "3-5",
+    "contest": "Золотое руно",
+    "letters": "АБХ?",
+    "count": 60,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "tasks-3-5.pdf",
+    "answersFile": "answers.pdf",
+    "sections": [
+      {
+        "start": 1,
+        "title": "История"
+      },
+      {
+        "start": 11,
+        "title": "Сказки ш. перро"
+      },
+      {
+        "start": 21,
+        "title": "Литература"
+      },
+      {
+        "start": 31,
+        "title": "Живопись"
+      },
+      {
+        "start": 36,
+        "title": "Архитектура"
+      },
+      {
+        "start": 41,
+        "title": "Музыка"
+      },
+      {
+        "start": 46,
+        "title": "Наука"
+      },
+      {
+        "start": 51,
+        "title": "География"
+      },
+      {
+        "start": 56,
+        "title": "Интересные факты"
+      }
+    ]
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2007,
+    "grade": "6-8",
+    "contest": "Золотое руно",
+    "letters": "АБХ?",
+    "count": 60,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "tasks-6-8.pdf",
+    "answersFile": "answers.pdf",
+    "sections": [
+      {
+        "start": 1,
+        "title": "История"
+      },
+      {
+        "start": 11,
+        "title": "Литература"
+      },
+      {
+        "start": 16,
+        "title": "Живопись"
+      },
+      {
+        "start": 21,
+        "title": "Музыка"
+      },
+      {
+        "start": 26,
+        "title": "География"
+      },
+      {
+        "start": 31,
+        "title": "Спорт"
+      },
+      {
+        "start": 36,
+        "title": "Наука"
+      },
+      {
+        "start": 41,
+        "title": "Архитектура"
+      },
+      {
+        "start": 46,
+        "title": "Театр, кино"
+      },
+      {
+        "start": 51,
+        "title": "Интересные факты"
+      }
+    ]
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2007,
+    "grade": "9-11",
+    "contest": "Золотое руно",
+    "letters": "АБХ?",
+    "count": 60,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "tasks-9-11.pdf",
+    "answersFile": "answers.pdf",
+    "sections": [
+      {
+        "start": 1,
+        "title": "История"
+      },
+      {
+        "start": 11,
+        "title": "Литература"
+      },
+      {
+        "start": 21,
+        "title": "Живопись"
+      },
+      {
+        "start": 26,
+        "title": "Театр, музыка, кино"
+      },
+      {
+        "start": 36,
+        "title": "Спорт"
+      },
+      {
+        "start": 41,
+        "title": "Архитектура"
+      },
+      {
+        "start": 46,
+        "title": "Наука"
+      },
+      {
+        "start": 51,
+        "title": "Интересные факты"
+      }
+    ]
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2006,
+    "grade": "3-5",
+    "contest": "Золотое руно",
+    "letters": "АБХ?",
+    "count": 50,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "tasks-3-5.pdf",
+    "answersFile": "answers.pdf",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Города"
+      },
+      {
+        "start": 6,
+        "title": "Герои литературных сказок"
+      },
+      {
+        "start": 11,
+        "title": "Музыка"
+      },
+      {
+        "start": 16,
+        "title": "Итальянская литература"
+      },
+      {
+        "start": 21,
+        "title": "Архитектура"
+      },
+      {
+        "start": 26,
+        "title": "История"
+      },
+      {
+        "start": 31,
+        "title": "Интересные факты"
+      },
+      {
+        "start": 36,
+        "title": "Наука"
+      },
+      {
+        "start": 41,
+        "title": "Изобразительное искусство"
+      },
+      {
+        "start": 46,
+        "title": "Библейские сюжеты в живописи"
+      }
+    ]
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2006,
+    "grade": "6-8",
+    "contest": "Золотое руно",
+    "letters": "АБХ?",
+    "count": 50,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "tasks-6-8.pdf",
+    "answersFile": "answers.pdf",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Города"
+      },
+      {
+        "start": 6,
+        "title": "Русская литература и италия"
+      },
+      {
+        "start": 11,
+        "title": "Музыка"
+      },
+      {
+        "start": 16,
+        "title": "Итальянская литература"
+      },
+      {
+        "start": 21,
+        "title": "Архитектура"
+      },
+      {
+        "start": 26,
+        "title": "История"
+      },
+      {
+        "start": 31,
+        "title": "Интересные факты"
+      },
+      {
+        "start": 36,
+        "title": "Наука"
+      },
+      {
+        "start": 41,
+        "title": "Изобразительное искусство"
+      },
+      {
+        "start": 46,
+        "title": "Библейские сюжеты в живописи"
+      }
+    ]
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2006,
+    "grade": "9-11",
+    "contest": "Золотое руно",
+    "letters": "АБХ?",
+    "count": 50,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "tasks-9-11.pdf",
+    "answersFile": "answers.pdf",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Города"
+      },
+      {
+        "start": 6,
+        "title": "Венеция в русской поэзии"
+      },
+      {
+        "start": 11,
+        "title": "Музыка"
+      },
+      {
+        "start": 16,
+        "title": "Итальянская литература"
+      },
+      {
+        "start": 21,
+        "title": "Архитектура"
+      },
+      {
+        "start": 26,
+        "title": "История"
+      },
+      {
+        "start": 31,
+        "title": "Интересные факты"
+      },
+      {
+        "start": 36,
+        "title": "Наука"
+      },
+      {
+        "start": 41,
+        "title": "Изобразительное искусство"
+      },
+      {
+        "start": 46,
+        "title": "Библейские сюжеты в живописи"
+      }
+    ]
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2005,
+    "grade": "1-7",
+    "contest": "Золотое руно",
+    "letters": "ДН?",
+    "count": 60,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "tasks-1-7.pdf",
+    "answersFile": "answers.pdf",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Религии Востока"
+      },
+      {
+        "start": 6,
+        "title": "Пророки и основатели религий"
+      },
+      {
+        "start": 11,
+        "title": "Священные тексты"
+      },
+      {
+        "start": 16,
+        "title": "Наставления"
+      },
+      {
+        "start": 21,
+        "title": "Восток в русской литературе"
+      },
+      {
+        "start": 27,
+        "title": "Восток в европейской музыке"
+      },
+      {
+        "start": 32,
+        "title": "История"
+      },
+      {
+        "start": 37,
+        "title": "Сказки Востока"
+      },
+      {
+        "start": 42,
+        "title": "Путешествия на Восток"
+      },
+      {
+        "start": 47,
+        "title": "Архитектура"
+      },
+      {
+        "start": 52,
+        "title": "Мифы Востока"
+      },
+      {
+        "start": 57,
+        "title": "Высказывания о Востоке"
+      }
+    ]
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2005,
+    "grade": "8-11",
+    "contest": "Золотое руно",
+    "letters": "ДН?",
+    "count": 60,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "tasks-8-11.pdf",
+    "answersFile": "answers.pdf",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Религии Востока"
+      },
+      {
+        "start": 6,
+        "title": "Пророки и основатели религий"
+      },
+      {
+        "start": 11,
+        "title": "Священные тексты"
+      },
+      {
+        "start": 16,
+        "title": "Наставления"
+      },
+      {
+        "start": 21,
+        "title": "Восток в русской литературе"
+      },
+      {
+        "start": 27,
+        "title": "Восток в европейской музыке"
+      },
+      {
+        "start": 32,
+        "title": "История"
+      },
+      {
+        "start": 43,
+        "title": "Великие Моголы"
+      },
+      {
+        "start": 47,
+        "title": "Архитектура"
+      },
+      {
+        "start": 52,
+        "title": "Мифы Востока"
+      },
+      {
+        "start": 57,
+        "title": "Высказывания о Востоке"
+      }
+    ]
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2004,
+    "grade": "3-7",
+    "contest": "Золотое руно",
+    "letters": "АБВГД",
+    "count": 30,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "tasks-3-7.pdf",
+    "answersFile": "answers.pdf",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Олимпийские символы"
+      },
+      {
+        "start": 6,
+        "title": "Искусство разных эпох"
+      },
+      {
+        "start": 11,
+        "title": "Герои мифов"
+      },
+      {
+        "start": 16,
+        "title": "Игры в литературе"
+      },
+      {
+        "start": 21,
+        "title": "Спортивные игры"
+      },
+      {
+        "start": 26,
+        "title": "Музыкальные инструменты"
+      }
+    ],
+    "matchingGroups": [
+      {
+        "start": 1,
+        "count": 5,
+        "title": "Олимпийские города",
+        "question": "Где проходили Олимпийские игры? Подбери город и год к каждому из пяти плакатов."
+      }
+    ]
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2004,
+    "grade": "8-11",
+    "contest": "Золотое руно",
+    "letters": "АБВГД",
+    "count": 30,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "tasks-8-11.pdf",
+    "answersFile": "answers.pdf",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Олимпийские символы"
+      },
+      {
+        "start": 6,
+        "title": "Искусство разных эпох"
+      },
+      {
+        "start": 11,
+        "title": "Герои мифов"
+      },
+      {
+        "start": 16,
+        "title": "Игры в литературе"
+      },
+      {
+        "start": 21,
+        "title": "Литература в опере"
+      },
+      {
+        "start": 26,
+        "title": "Инструменты в поэзии"
+      }
+    ],
+    "matchingGroups": [
+      {
+        "start": 1,
+        "count": 5,
+        "title": "Олимпийские города",
+        "question": "Где проходили Олимпийские игры? Подбери город и год к каждому из пяти плакатов."
+      }
+    ]
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2003,
+    "grade": "1-11",
+    "contest": "Золотое руно",
+    "letters": "АБВГД",
+    "count": 30,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "tasks-1-11.pdf",
+    "answersFile": "answers.pdf",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Опасности плавания"
+      },
+      {
+        "start": 6,
+        "title": "Подвиги героев"
+      },
+      {
+        "start": 11,
+        "title": "Древние названия"
+      },
+      {
+        "start": 16,
+        "title": "Знаки зодиака"
+      },
+      {
+        "start": 21,
+        "title": "Герои в скульптуре"
+      },
+      {
+        "start": 26,
+        "title": "Античные образы в поэзии"
+      }
+    ]
+  },
+  {
+    "subject": "kit",
+    "year": 2024,
+    "grade": "1",
+    "contest": "КИТ",
+    "letters": "АБВГ",
+    "count": 18,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "1.pdf",
+    "answersFile": "1-editorial-answers.pdf",
+    "reviewedKey": true
   },
   {
     "subject": "kit",
@@ -117,7 +2342,7 @@
     "letters": "АБВГ",
     "count": 18,
     "language": "ru",
-    "points": 0,
+    "points": 3,
     "tasksFile": "2-3.pdf",
     "answersFile": "editorial-answers.pdf",
     "reviewedKey": true
@@ -130,10 +2355,139 @@
     "letters": "АБВГ",
     "count": 21,
     "language": "ru",
-    "points": 0,
+    "points": 3,
     "tasksFile": "4-5.pdf",
     "answersFile": "editorial-answers.pdf",
     "reviewedKey": true
+  },
+  {
+    "subject": "kit",
+    "year": 2024,
+    "grade": "6-7",
+    "contest": "КИТ",
+    "letters": "АБВГ",
+    "count": 21,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "6-7.pdf",
+    "answersFile": "senior-editorial-answers.pdf",
+    "reviewedKey": true,
+    "sections": [
+      {
+        "start": 1,
+        "title": "2 балла · № 1–5"
+      },
+      {
+        "start": 6,
+        "title": "2 балла · № 6–8"
+      },
+      {
+        "start": 9,
+        "title": "3 балла · № 9–13"
+      },
+      {
+        "start": 14,
+        "title": "3 балла · № 14–16"
+      },
+      {
+        "start": 17,
+        "title": "4 балла · № 17–18"
+      },
+      {
+        "start": 19,
+        "title": "Числовой ответ · № 19–21"
+      }
+    ]
+  },
+  {
+    "subject": "kit",
+    "year": 2024,
+    "grade": "8-9",
+    "contest": "КИТ",
+    "letters": "АБВГ",
+    "count": 21,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "8-9.pdf",
+    "answersFile": "senior-editorial-answers.pdf",
+    "reviewedKey": true,
+    "sections": [
+      {
+        "start": 1,
+        "title": "2 балла · № 1–5"
+      },
+      {
+        "start": 6,
+        "title": "2 балла · № 6–8"
+      },
+      {
+        "start": 9,
+        "title": "3 балла · № 9–13"
+      },
+      {
+        "start": 14,
+        "title": "3 балла · № 14–16"
+      },
+      {
+        "start": 17,
+        "title": "4 балла · № 17–18"
+      },
+      {
+        "start": 19,
+        "title": "Числовой ответ · № 19–21"
+      }
+    ]
+  },
+  {
+    "subject": "kit",
+    "year": 2024,
+    "grade": "10-11",
+    "contest": "КИТ",
+    "letters": "АБВГ",
+    "count": 21,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "10-11.pdf",
+    "answersFile": "senior-editorial-answers.pdf",
+    "reviewedKey": true,
+    "sections": [
+      {
+        "start": 1,
+        "title": "2 балла · № 1–5"
+      },
+      {
+        "start": 6,
+        "title": "2 балла · № 6–8"
+      },
+      {
+        "start": 9,
+        "title": "3 балла · № 9–13"
+      },
+      {
+        "start": 14,
+        "title": "3 балла · № 14–16"
+      },
+      {
+        "start": 17,
+        "title": "4 балла · № 17–18"
+      },
+      {
+        "start": 19,
+        "title": "Числовой ответ · № 19–21"
+      }
+    ]
+  },
+  {
+    "subject": "kit",
+    "year": 2023,
+    "grade": "1",
+    "contest": "КИТ",
+    "letters": "АБВГ",
+    "count": 18,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "1.pdf",
+    "answersFile": "answers.pdf"
   },
   {
     "subject": "kit",
@@ -143,7 +2497,7 @@
     "letters": "АБВГ",
     "count": 18,
     "language": "ru",
-    "points": 0,
+    "points": 3,
     "tasksFile": "2-3.pdf",
     "answersFile": "answers.pdf"
   },
@@ -155,8 +2509,302 @@
     "letters": "АБВГ",
     "count": 21,
     "language": "ru",
-    "points": 0,
+    "points": 3,
     "tasksFile": "4-5.pdf",
+    "answersFile": "answers.pdf"
+  },
+  {
+    "subject": "kit",
+    "year": 2023,
+    "grade": "6-7",
+    "contest": "КИТ",
+    "letters": "АБВГ",
+    "count": 21,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "6-7.pdf",
+    "answersFile": "answers.pdf",
+    "sections": [
+      {
+        "start": 1,
+        "title": "2 балла · № 1–5"
+      },
+      {
+        "start": 6,
+        "title": "2 балла · № 6–8"
+      },
+      {
+        "start": 9,
+        "title": "3 балла · № 9–13"
+      },
+      {
+        "start": 14,
+        "title": "3 балла · № 14–16"
+      },
+      {
+        "start": 17,
+        "title": "4 балла · № 17–18"
+      },
+      {
+        "start": 19,
+        "title": "Числовой ответ · № 19–21"
+      }
+    ]
+  },
+  {
+    "subject": "kit",
+    "year": 2023,
+    "grade": "8-9",
+    "contest": "КИТ",
+    "letters": "АБВГ",
+    "count": 21,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "8-9.pdf",
+    "answersFile": "answers.pdf",
+    "sections": [
+      {
+        "start": 1,
+        "title": "2 балла · № 1–5"
+      },
+      {
+        "start": 6,
+        "title": "2 балла · № 6–8"
+      },
+      {
+        "start": 9,
+        "title": "3 балла · № 9–13"
+      },
+      {
+        "start": 14,
+        "title": "3 балла · № 14–16"
+      },
+      {
+        "start": 17,
+        "title": "4 балла · № 17–18"
+      },
+      {
+        "start": 19,
+        "title": "Числовой ответ · № 19–21"
+      }
+    ]
+  },
+  {
+    "subject": "kit",
+    "year": 2023,
+    "grade": "10-11",
+    "contest": "КИТ",
+    "letters": "АБВГ",
+    "count": 21,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "10-11.pdf",
+    "answersFile": "answers.pdf",
+    "sections": [
+      {
+        "start": 1,
+        "title": "2 балла · № 1–5"
+      },
+      {
+        "start": 6,
+        "title": "2 балла · № 6–8"
+      },
+      {
+        "start": 9,
+        "title": "3 балла · № 9–13"
+      },
+      {
+        "start": 14,
+        "title": "3 балла · № 14–16"
+      },
+      {
+        "start": 17,
+        "title": "4 балла · № 17–18"
+      },
+      {
+        "start": 19,
+        "title": "Числовой ответ · № 19–21"
+      }
+    ]
+  },
+  {
+    "subject": "kit",
+    "year": 2022,
+    "grade": "1",
+    "contest": "КИТ",
+    "letters": "АБВГ",
+    "count": 18,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "1.pdf",
+    "answersFile": "answers.pdf"
+  },
+  {
+    "subject": "kit",
+    "year": 2022,
+    "grade": "2-3",
+    "contest": "КИТ",
+    "letters": "АБВГ",
+    "count": 18,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "2-3.pdf",
+    "answersFile": "answers.pdf"
+  },
+  {
+    "subject": "kit",
+    "year": 2022,
+    "grade": "4-5",
+    "contest": "КИТ",
+    "letters": "АБВГ",
+    "count": 21,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "4-5.pdf",
+    "answersFile": "answers.pdf",
+    "sections": [
+      {
+        "start": 1,
+        "title": "2 балла · № 1–8"
+      },
+      {
+        "start": 9,
+        "title": "3 балла · № 9–16"
+      },
+      {
+        "start": 17,
+        "title": "4 балла · № 17–18"
+      },
+      {
+        "start": 19,
+        "title": "Числовой ответ · № 19–21"
+      }
+    ]
+  },
+  {
+    "subject": "kit",
+    "year": 2022,
+    "grade": "6-7",
+    "contest": "КИТ",
+    "letters": "АБВГ",
+    "count": 21,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "6-7.pdf",
+    "answersFile": "answers.pdf",
+    "sections": [
+      {
+        "start": 1,
+        "title": "2 балла · № 1–8"
+      },
+      {
+        "start": 9,
+        "title": "3 балла · № 9–16"
+      },
+      {
+        "start": 17,
+        "title": "4 балла · № 17–18"
+      },
+      {
+        "start": 19,
+        "title": "Числовой ответ · № 19–21"
+      }
+    ]
+  },
+  {
+    "subject": "kit",
+    "year": 2022,
+    "grade": "8-9",
+    "contest": "КИТ",
+    "letters": "АБВГ",
+    "count": 21,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "8-9.pdf",
+    "answersFile": "answers.pdf",
+    "sections": [
+      {
+        "start": 1,
+        "title": "2 балла · № 1–8"
+      },
+      {
+        "start": 9,
+        "title": "3 балла · № 9–16"
+      },
+      {
+        "start": 17,
+        "title": "4 балла · № 17–18"
+      },
+      {
+        "start": 19,
+        "title": "Числовой ответ · № 19–21"
+      }
+    ]
+  },
+  {
+    "subject": "kit",
+    "year": 2022,
+    "grade": "10-11",
+    "contest": "КИТ",
+    "letters": "АБВГ",
+    "count": 21,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "10-11.pdf",
+    "answersFile": "answers.pdf",
+    "sections": [
+      {
+        "start": 1,
+        "title": "2 балла · № 1–8"
+      },
+      {
+        "start": 9,
+        "title": "3 балла · № 9–16"
+      },
+      {
+        "start": 17,
+        "title": "4 балла · № 17–18"
+      },
+      {
+        "start": 19,
+        "title": "Числовой ответ · № 19–21"
+      }
+    ]
+  },
+  {
+    "subject": "kit",
+    "year": 2021,
+    "grade": "1",
+    "contest": "КИТ",
+    "letters": "АБВГ",
+    "count": 18,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "1.pdf",
+    "answersFile": "answers.pdf"
+  },
+  {
+    "subject": "kit",
+    "year": 2021,
+    "grade": "2-3",
+    "contest": "КИТ",
+    "letters": "АБВГ",
+    "count": 18,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "2-3.pdf",
+    "answersFile": "answers.pdf"
+  },
+  {
+    "subject": "kit",
+    "year": 2008,
+    "grade": "5-7",
+    "contest": "КИТ",
+    "letters": "АБВГД",
+    "count": 30,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "5-7.pdf",
     "answersFile": "answers.pdf"
   },
   {
@@ -167,9 +2815,10 @@
     "letters": "АБВГД",
     "count": 30,
     "language": "ru",
-    "points": 0,
+    "points": 3,
     "tasksFile": "tasks.pdf",
-    "answersFile": "answers.pdf"
+    "answersFile": "answers.pdf",
+    "title": "Евразия"
   },
   {
     "subject": "chip",
@@ -179,8 +2828,92 @@
     "letters": "АБВГД",
     "count": 30,
     "language": "ru",
-    "points": 0,
+    "points": 3,
     "tasksFile": "tasks.pdf",
-    "answersFile": "answers.pdf"
+    "answersFile": "answers.pdf",
+    "title": "Австралия и Океания"
+  },
+  {
+    "subject": "chip",
+    "year": 2015,
+    "grade": "1-2",
+    "contest": "Человек и природа",
+    "letters": "АБВГД",
+    "count": 21,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "chip_2014-15_1-2.pdf",
+    "answersFile": "otveti_chip_2014-15.pdf",
+    "title": "Европа"
+  },
+  {
+    "subject": "chip",
+    "year": 2010,
+    "grade": "3-4",
+    "contest": "Человек и природа",
+    "letters": "АБВГД",
+    "count": 30,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "3-4_2010.pdf",
+    "answersFile": "answers_2010.pdf",
+    "title": "Земля — наш общий дом"
+  },
+  {
+    "subject": "chip",
+    "year": 2010,
+    "grade": "5-6",
+    "contest": "Человек и природа",
+    "letters": "АБВГД",
+    "count": 30,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "5-6_2010.pdf",
+    "answersFile": "answers_2010.pdf",
+    "title": "Земля — наш общий дом"
+  },
+  {
+    "subject": "british-bulldog",
+    "year": 2019,
+    "grade": "3-4",
+    "contest": "British Bulldog",
+    "letters": "ABCD",
+    "count": 60,
+    "language": "en",
+    "points": 3,
+    "titleLanguage": "en",
+    "tasksFile": "3-4/variant-2/tasks.pdf",
+    "listeningFile": "3-4/variant-2/listening.mp3",
+    "answersFile": "answers-variant-2.pdf",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Listening"
+      },
+      {
+        "start": 11,
+        "title": "Anna and her friends"
+      },
+      {
+        "start": 21,
+        "title": "Complete the sentences"
+      },
+      {
+        "start": 31,
+        "title": "Choose the reply"
+      },
+      {
+        "start": 41,
+        "title": "In the room"
+      },
+      {
+        "start": 51,
+        "title": "Ways of travelling"
+      }
+    ],
+    "variant": "2",
+    "sourceFile": "sources/british-bulldog/2019/3-4/variant-2/lessons.json",
+    "editionSuffix": "v2",
+    "editionLabel": "Вариант 2"
   }
 ]

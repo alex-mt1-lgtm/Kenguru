@@ -1,0 +1,41 @@
+{
+  "source": "tasks.pdf",
+  "coordinateUnit": "rendered-pixel",
+  "renderScale": 2.75,
+  "crops": [
+    {
+      "page": 1,
+      "box": [
+        112,
+        183,
+        734,
+        804
+      ],
+      "file": "arrows.webp",
+      "tasks": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "page": 1,
+      "box": [
+        870,
+        218,
+        1522,
+        655
+      ],
+      "file": "children.webp",
+      "tasks": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ]
+    }
+  ]
+}

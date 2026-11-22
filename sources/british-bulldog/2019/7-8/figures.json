@@ -1,0 +1,30 @@
+{
+  "source": "tasks.pdf",
+  "coordinateUnit": "rendered-pixel",
+  "renderScale": 2.7,
+  "crops": [
+    {
+      "page": 1,
+      "box": [
+        821,
+        133,
+        1468,
+        623
+      ],
+      "file": "holiday-room.webp",
+      "tasks": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "alt": "A child and a puppy beside a decorated tree and a fire."
+    }
+  ]
+}

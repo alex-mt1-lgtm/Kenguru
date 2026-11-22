@@ -848,3 +848,24 @@ test('the server catalogue matches the task answers and rating points', () => {
   const {buildRatingCatalog} = require('../scripts/build-rating-catalog.cjs');
   assert.equal(buildRatingCatalog(), fs.readFileSync(path.join(root, 'dist', 'api', 'rating-catalog.json'), 'utf8'));
 });
+
+test('the Olympic posters take five answers, show all five pairs and retain old numbered links', async () => {
+  for (const grade of ['3-7', '8-11']) {
+    const visit = app(false, null, {streamProduction: true,
+      location: {hash: '#zadacha=2004-golden-fleece-' + grade + '/4'}});
+    await syncTurn();
+    assert.equal(visit.run('LESSONS[task].number'), 1);
+    assert.equal(visit.element('matchingAnswers').hidden, false);
+    assert.equal((visit.element('matchingAnswers').innerHTML.match(/<select /g) || []).length, 5);
+    visit.run('navigate(1)');
+    assert.equal(visit.run('current().step'), 0);
+    const indices = Array.from(visit.run('matchingParts()'));
+    for (const [n, value] of [0, 2, 1, 3, 4].entries()) {
+      const select = {value: String(value), dataset: {match: String(indices[n])}};
+      visit.element('matchingAnswers').change({target: {closest: () => select}});
+    }
+    visit.run('navigate(lastStep())');
+    assert.equal(visit.element('feedback').textContent, 'Ответ: 1 — А, 2 — В, 3 — Б, 4 — Г, 5 — Д.');
+    assert.equal(visit.run('LESSONS[nextTaskIndex()].number'), 6);
+  }
+});
