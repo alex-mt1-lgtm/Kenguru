@@ -52,6 +52,12 @@ def replace_condition_figure(document, collection, year, number, entry, checked=
     settings = flags[0] if flags else {}
     if not isinstance(settings, dict):
         settings = {'rasterScale': settings}
+    if asset := settings.get('editorialAsset'):
+        path = Path('assets/kenguru/illustrations') / f'{asset}.svg'
+        svg = ElementTree.parse(ROOT / 'dist' / path).getroot()
+        entry.update(image=path.as_posix(), imageWidth=int(svg.get('width')), imageHeight=int(svg.get('height')),
+                     figureAlt=settings['alt'])
+        return True
     raster_scale = settings.get('rasterScale')
     if rectangle is None:
         (row,) = checked['illustrationRows']

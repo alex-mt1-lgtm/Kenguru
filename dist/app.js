@@ -629,6 +629,12 @@ function renderPicker() {
 
   renderTaskPicker(set);
   $('collectionProgress').textContent = `открыто ответов ${indices.filter(i => states[i].seen).length} из ${indices.length}`;
+  for (const [id, key] of [['tasksReader', 'tasksUrl'], ['answersReader', 'answersUrl'], ['solutionsReader', 'solutionUrl']]) {
+    const link = $(id);
+    const reader = set.sources.readers?.[key];
+    link.hidden = !reader;
+    link.href = reader || '';
+  }
   $('tasksSource').href = set.sources.tasksUrl;
   $('tasksSource').textContent = set.sources.reviewedKey ? 'Исходный бланк в PDF' : 'Задания в PDF';
   $('answersSource').textContent = set.sources.reviewedKey ? 'Ответы редакции в PDF' : 'Ответы в PDF';

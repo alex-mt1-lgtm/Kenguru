@@ -1,4 +1,4 @@
-"""Extract only the figures used by the Russian-language lessons from official local PDFs."""
+"""Build figures and reading copies from official Russian Bear PDFs and checked artwork."""
 import io
 import json
 import subprocess
@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 # Page numbers are zero-based. The split rectangles are percentages of the original rebus panel.
 # Each rectangle excludes the printed answer letter and the decoded words underneath the panel.
 PANELS = [
-    (2005, '2-3', 17, 2, 86, [(6,0,33,42),(43,0,65,42),(75,0,100,42),(14,44,44,100),(56,44,100,100)]),
+    (2005, '2-3', 17, 2, 86, [(6,0,33,42),(43,0,65,42),(75,0,100,42),(14,42,44,100),(56,44,100,100)]),
     (2005, '4-5', 20, 2, 415, [(8,0,38,46),(43,0,62,46),(68,0,100,46),(20,46,49,100),(58,46,83,100)]),
     (2006, '2-3', 11, 1, [60,330,540,438], [(2.6,0,26,48),(29.4,0,59,50),(62.8,0,99,43),(15.5,50,48,100),(59,43,86,100)]),
     (2006, '4-5', 10, 1, [60,156,530,303], [(3.1,0,31.3,49),(36.4,0,66.3,47),(71.8,0,100,47),(23,50,52,100),(60.5,50,98,100)]),
@@ -100,7 +100,7 @@ SINGLE = [
 REBUSES = [
     ('2-3',20,2,531,[
         ((36,0,211,83), 'Бант с запятой перед ним, слон с двумя запятыми перед ним.'),
-        ((252,0,398,83), 'Нота ми и шар с запятой после него.'),
+        ((252,0,398,83), 'Нота ми и воздушный шар с запятой после него.'),
         ((435,0,558,83), 'Внутри О лодка с двумя запятыми после неё, рядом Я.'),
         ((50,84,178,175), 'Маленькая а над Т, лилия с двумя запятыми перед ней.'),
         ((251,84,380,175), 'Юла с заменой Л на Р.'),
@@ -116,11 +116,22 @@ REBUSES = [
     ]),
 ]
 # Hand-drawn vector masters, checked against the corresponding regions of the 2004 booklet.
-REBUS_VECTORS = {'4-5': {
-    4: {}, 5: {},
+REBUS_VECTORS = {'2-3': {2: {}, 3: {}, 4: {}, 6: {}}, '4-5': {
+    1: {}, 2: {}, 3: {}, 4: {}, 5: {},
     # On first magnification show the crossed-out letter above the 2.
     6: {'zoomCenter': {'x': 0.79, 'y': 0.20}},
 }}
+# Task sheet pages containing the corresponding image; answer sheet pages are in REBUSES and PANELS.
+REBUS_TASK_PAGES = {(2004, '2-3'): 2, (2004, '4-5'): 0, (2005, '2-3'): 1, (2005, '4-5'): 1}
+OPTION_VECTORS = {
+    (2005, '2-3', 17): {4, 5},
+    (2005, '4-5', 20): {4},
+}
+# Coordinates in points on page 2 of the 2008 booklet after normalizing its rotation.
+ORIGINAL_2008_PANEL = (37, 259, 362, 310)
+ORIGINAL_2008_OPTIONS = {1: (61, 261, 129, 285), 4: (98, 288, 172, 309)}
+# The horse from variant Б extends over the top right corner of the crop for Г.
+ORIGINAL_2008_MASKS = {4: [(161, 288, 172, 291)]}
 # Traced from the 1023 × 230 embedded diagram on page 2 of the 2016 answers PDF.
 # The five paths use the original coordinates so the key and the signs keep the same proportions.
 CIPHER = [
@@ -180,6 +191,14 @@ def raster_asset(image, folder, stem):
     return {'src':output.relative_to(ROOT/'dist').as_posix(), 'width':image.width, 'height':image.height, 'pixelWidth':image.width, 'pixelHeight':image.height}
 
 
+def vector_master(folder, stem):
+    source = folder / f'{stem}.svg'
+    with fitz.open(source) as svg:
+        size = svg[0].rect
+    return {'src': source.relative_to(ROOT / 'dist').as_posix(),
+            'width': round(size.width), 'height': round(size.height)}
+
+
 def svg_asset(doc, page, rectangle, folder, stem, masks=()):
     rect = fitz.Rect(rectangle)
     output = folder / (stem+'.svg')
@@ -205,54 +224,99 @@ def cipher_asset(folder, stem, bounds, paths):
     return {'src':output.relative_to(ROOT/'dist').as_posix(), 'width':width, 'height':height}
 
 
-def rebus_reader(grade, number, items):
-    source = ROOT / f'sources/medvezhonok/2004/{grade}.pdf'
-    output = ROOT / f'dist/assets/medvezhonok/2004/{grade}-reading.pdf'
+def paint_figure(page, bounds, item):
+    artwork = ROOT / 'dist' / item['src']
+    if artwork.suffix == '.svg':
+        with fitz.open(artwork) as svg, fitz.open('pdf', svg.convert_to_pdf()) as vector:
+            page.show_pdf_page(bounds, vector, 0)
+    else:
+        with Image.open(artwork) as image:
+            buffer = io.BytesIO()
+            image.save(buffer, format='PNG')
+            page.insert_image(bounds, stream=buffer.getvalue())
+
+
+def patch_raster_panel(original, rectangles, items, indices):
+    """Keep the printed labels and untouched figures in the panel at their original coordinates."""
+    panel = fitz.open()
+    page = panel.new_page(width=original.width, height=original.height)
+    background = original.copy()
+    for index in indices:
+        background.paste('white', rectangles[index - 1])
+    buffer = io.BytesIO()
+    background.save(buffer, format='PNG')
+    page.insert_image(page.rect, stream=buffer.getvalue())
+    for index in indices:
+        paint_figure(page, fitz.Rect(rectangles[index - 1]), items[index - 1])
+    return panel
+
+
+def rebus_reader(year, grade, number, items, source_suffix, page_number, panel, clip=None, note=''):
+    filename = f'{grade}{source_suffix}'
+    source = ROOT / f'sources/medvezhonok/{year}/{filename}.pdf'
+    output = ROOT / f'dist/assets/medvezhonok/{year}/{filename}-reading.pdf'
     font_file = subprocess.check_output(['fc-match', '-f', '%{file}', 'DejaVu Sans'], text=True)
-    with fitz.open(source) as booklet, fitz.open() as appendix:
-        page = appendix.new_page(width=595.28, height=841.89)
-        font = 'DejaVu'
+    font = 'DejaVu'
+    with fitz.open(source) as booklet:
+        source_page = booklet[page_number]
+        original, = source_page.get_image_info()
+        panel_bounds = fitz.Rect(original['bbox'])
+        source_page.add_redact_annot(panel_bounds, fill=False, cross_out=False)
+        source_page.apply_redactions(images=fitz.PDF_REDACT_IMAGE_REMOVE,
+                                     graphics=fitz.PDF_REDACT_LINE_ART_NONE,
+                                     text=fitz.PDF_REDACT_TEXT_NONE)
+        source_page.show_pdf_page(panel_bounds, panel, 0, keep_proportion=clip is not None, clip=clip)
+
+        appendix_number = len(booklet)
+        page = booklet.new_page(width=595.28, height=841.89)
         page.insert_font(fontname=font, fontfile=font_file)
-        page.insert_text((36,53), f'Ребусы к заданию № {number}', fontname=font, fontsize=23)
-        page.insert_text((36,76), f'Русский медвежонок · 2004 · {grade.replace("-", "–")} классы',
+        label = f'Ребусы к заданию № {number}'
+        page.insert_text((36,53), label, fontname=font, fontsize=23)
+        page.insert_text((36,76), f'Русский медвежонок · {year} · {grade.replace("-", "–")} классы',
                          fontname=font, fontsize=11)
         for index, item in enumerate(items):
             left = 36 + (index % 2) * 270
             top = 109 + (index // 2) * 214
             page.draw_line((left,top),(left+253,top),color=(0.65,0.65,0.65),width=0.5)
             page.insert_text((left,top+21), item['caption'], fontname=font, fontsize=12)
-            artwork = ROOT / 'dist' / item['src']
-            bounds = fitz.Rect(left, top+35, left+253, top+152)
-            if artwork.suffix == '.svg':
-                with fitz.open(artwork) as svg, fitz.open('pdf', svg.convert_to_pdf()) as vector:
-                    page.show_pdf_page(bounds, vector, 0)
-            else:
-                with Image.open(artwork) as image:
-                    buffer = io.BytesIO()
-                    image.save(buffer, format='PNG')
-                    page.insert_image(bounds, stream=buffer.getvalue())
-            note = page.insert_textbox((left,top+160,left+253,top+207),item['alt'],fontname=font,fontsize=11)
-            if note < 0:
-                raise ValueError(f'Caption for {grade}, № {number}, panel {index + 1} does not fit')
-        footnote = ('Ребусы 1–3 увеличены из исходного растра. Ребусы 4–6 восстановлены по буклету.'
-                    if grade in REBUS_VECTORS else
-                    'Рисунки увеличены из оригинального растра. Под ними перечислены видимые знаки.')
-        page.insert_text((36,790), footnote, fontname=font, fontsize=9)
-        appendix.subset_fonts()
-        appendix_number = len(booklet)
-        booklet.insert_pdf(appendix)
-        if grade in REBUS_VECTORS:
-            task_page = booklet[0]
-            panel, = task_page.get_image_info()
-            link_area = fitz.Rect(panel['bbox'])
-            label = f'Крупные рисунки к задаче {number}'
-            task_page.insert_text((link_area.x0, link_area.y1 + 15), label, fontname=font,
-                                  fontfile=font_file, fontsize=10, color=(0.08, 0.28, 0.53))
-            link_area.y1 += 19
-            task_page.insert_link({'kind': fitz.LINK_GOTO, 'from': link_area, 'page': appendix_number})
-            booklet.set_toc([[1, label, appendix_number + 1]])
-            booklet.subset_fonts()
+            paint_figure(page, fitz.Rect(left,top+35,left+253,top+152), item)
+            remaining = page.insert_textbox((left,top+160,left+253,top+207),item['alt'],
+                                            fontname=font,fontsize=11)
+            if remaining < 0:
+                raise ValueError(f'Caption for {year}, {grade}, № {number}, panel {index + 1} does not fit')
+        if note:
+            page.insert_text((36,790), note, fontname=font, fontsize=9)
+        source_page = booklet[page_number]
+        link_area = fitz.Rect(panel_bounds.x1 + 5, panel_bounds.y0 + 2,
+                              source_page.rect.x1 - 5, panel_bounds.y0 + 27)
+        text = source_page.insert_textbox(link_area, 'Крупные\nребусы →', fontname=font,
+                                          fontfile=font_file, fontsize=8, color=(0.08, 0.28, 0.53))
+        if text < 0:
+            raise ValueError(f'Link to rebuses for {year}, {grade}, № {number} does not fit')
+        source_page.insert_link({'kind': fitz.LINK_GOTO, 'from': link_area, 'page': appendix_number})
+        booklet.set_toc([[1, label, appendix_number + 1]])
+        booklet.subset_fonts()
         output.write_bytes(booklet.tobytes(garbage=4, deflate=True, no_new_id=True))
+
+
+def build_raster_readers(year, grade, number, items, page_number, original, rectangles, indices):
+    rebuilt = None
+    restored = ', '.join(items[i - 1]['caption'].split()[-1] for i in indices)
+    note = f'Векторная перерисовка по архивному буклету. Исправленные рисунки: {restored}.'
+    with patch_raster_panel(original, rectangles, items, indices) as panel:
+        rebus_reader(year, grade, number, items, '-answers', page_number, panel, note=note)
+    task_page = REBUS_TASK_PAGES[year, grade]
+    with fitz.open(ROOT / f'sources/medvezhonok/{year}/{grade}.pdf') as tasks:
+        placed, = tasks[task_page].get_image_info()
+        original = embedded(tasks, tasks[task_page], placed['bbox'][1])
+        with patch_raster_panel(original, rectangles, items, indices) as panel:
+            rebus_reader(year, grade, number, items, '', task_page, panel, note=note)
+            if year == 2004:
+                stem = f'{grade}-{number}'
+                folder = ROOT / f'dist/assets/medvezhonok/{year}'
+                (folder / f'{stem}.svg').write_text(panel[0].get_svg_image())
+                rebuilt = vector_master(folder, stem)
+    return rebuilt
 
 
 def main():
@@ -264,16 +328,24 @@ def main():
         doc,page = open_page(year,grade,pn)
         folder,stem,record = destination(year,grade,number)
         options = []
+        panel_indices = OPTION_VECTORS.get((year, grade, number), ())
         if isinstance(panel,int):
             image = embedded(doc,page,panel)
             width,height = image.size
+            rectangles = [(int(width*x/100),int(height*y/100),round(width*right/100),round(height*bottom/100))
+                          for x,y,right,bottom in regions]
         else:
             rect = fitz.Rect(panel)
         for i,((x,y,right,bottom),description) in enumerate(zip(regions,descriptions,strict=True)):
             name = f'{stem}-{i+1}'
-            if isinstance(panel,int):
-                box = (int(width*x/100),int(height*y/100),round(width*right/100),round(height*bottom/100))
-                file = raster_asset(image.crop(box),folder,name)
+            if i + 1 in panel_indices:
+                file = vector_master(folder, name)
+            elif (year, grade, number) == (2008, '2-3', 11) and i + 1 in ORIGINAL_2008_OPTIONS:
+                with fitz.open(ROOT / 'sources/medvezhonok/2008/2-3.pdf') as tasks:
+                    file = svg_asset(tasks, tasks[1], ORIGINAL_2008_OPTIONS[i + 1], folder, name,
+                                     ORIGINAL_2008_MASKS.get(i + 1, ()))
+            elif isinstance(panel,int):
+                file = raster_asset(image.crop(rectangles[i]),folder,name)
             else:
                 box = [rect.x0+rect.width*x/100, rect.y0+rect.height*y/100, rect.x0+rect.width*right/100, rect.y0+rect.height*bottom/100]
                 masks = ()
@@ -300,6 +372,18 @@ def main():
                 file = svg_asset(doc,page,box,folder,name,masks)
             options.append({**file,'description':description})
         record.update(options=options,onlyPictures=True)
+        if panel_indices or (year, grade, number) == (2008, '2-3', 11):
+            items = [{**option, 'caption': f'Вариант {letter}', 'alt': option['description'] + '.'}
+                     for option, letter in zip(options, 'АБВГД', strict=True)]
+            if panel_indices:
+                build_raster_readers(year, grade, number, items, pn, image, rectangles, sorted(panel_indices))
+            else:
+                with fitz.open(ROOT / 'sources/medvezhonok/2008/2-3.pdf') as original, fitz.open() as panel_doc:
+                    panel_doc.insert_pdf(original, from_page=1, to_page=1)
+                    panel_doc[0].remove_rotation()
+                    rebus_reader(year, grade, number, items, '-answers', pn, panel_doc,
+                                 clip=fitz.Rect(ORIGINAL_2008_PANEL),
+                                 note='Полоса на странице ответов восстановлена по векторному бланку заданий.')
     for year,grade,number,pn,top,alt in SINGLE:
         doc,page=open_page(year,grade,pn)
         folder,stem,record=destination(year,grade,number)
@@ -308,24 +392,19 @@ def main():
         doc,page=open_page(2004,grade,pn)
         folder,stem,record=destination(2004,grade,number)
         original = embedded(doc,page,top)
-        figure = raster_asset(original,folder,stem)
         items = []
         for i, (box, description) in enumerate(regions, 1):
             name = f'{stem}-condition-{i}'
-            if i in REBUS_VECTORS.get(grade, ()):
-                source = folder / f'{name}.svg'
-                with fitz.open(source) as svg:
-                    size = svg[0].rect
-                file = {'src': source.relative_to(ROOT / 'dist').as_posix(),
-                        'width': round(size.width), 'height': round(size.height),
-                        **REBUS_VECTORS[grade][i]}
+            if i in REBUS_VECTORS[grade]:
+                file = {**vector_master(folder, name), **REBUS_VECTORS[grade][i]}
             else:
                 file = raster_asset(original.crop(box), folder, name)
             items.append({**file, 'caption': f'Ребус {i}', 'alt': description})
+        figure = build_raster_readers(2004, grade, number, items, pn, original,
+                                     [box for box, _ in regions], REBUS_VECTORS[grade])
         figure['items'] = items
         figure['alt'] = ' '.join(f'{i}. {description}' for i,(_,description) in enumerate(regions, 1))
         record['condition']=figure
-        rebus_reader(grade, number, figure['items'])
     folder,stem,record = destination(2016,'2-3',24)
     figure = cipher_asset(folder,stem,(8,4,1013,214),[path for _,path,_,_ in CIPHER])
     figure['alt'] = 'Сверху ключ. Под ним слева направо четыре знака. ' + ' '.join(

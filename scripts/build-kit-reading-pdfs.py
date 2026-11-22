@@ -2,12 +2,13 @@
 from pathlib import Path
 import fitz
 
+from kit_restored_figures import build_reading_copies
+
 ROOT = Path(__file__).resolve().parents[1]
 PANELS = {
     2011: [(0, 'lower', 0), (1, 'upper', 0), (1, 'lower', 0), (0, 'upper', 0)],
     2012: [(0, 'left', 90), (0, 'right', 270)],
 }
-DISPLAY_DIGEST = '8f73835d926dede16ac1f14c5b7e3bb4'
 
 
 def prepare(year, grade):
@@ -32,29 +33,8 @@ def prepare(year, grade):
         output.write_bytes(result.tobytes(garbage=4, deflate=True, no_new_id=True))
 
 
-def prepare_display_booklet(grade):
-    source = ROOT / 'sources' / 'kit' / '2022' / f'{grade}.pdf'
-    assets = ROOT / 'dist' / 'assets' / 'kit' / '2022'
-    with fitz.open(source) as booklet, fitz.open(assets / 'display-segments.svg') as vector:
-        matches = [(page.number, item['bbox']) for page in booklet
-                   for item in page.get_image_info(hashes=True) if item['digest'].hex() == DISPLAY_DIGEST]
-        if len(matches) != 1:
-            raise ValueError(f'Expected one calculator figure in {source}')
-        page_index, bounds = matches[0]
-        page = booklet[page_index]
-        rect = fitz.Rect(bounds)
-        page.add_redact_annot(rect, fill=False, cross_out=False)
-        page.apply_redactions(images=fitz.PDF_REDACT_IMAGE_REMOVE,
-                              graphics=fitz.PDF_REDACT_LINE_ART_NONE,
-                              text=fitz.PDF_REDACT_TEXT_NONE)
-        with fitz.open('pdf', vector.convert_to_pdf()) as figure:
-            page.show_pdf_page(rect, figure, keep_proportion=False)
-        (assets / f'{grade}-reading.pdf').write_bytes(booklet.tobytes(garbage=4, deflate=True, no_new_id=True))
-
-
 if __name__ == '__main__':
     for year in PANELS:
         for grade in ['2-3', '4-5', '6-7', '8-9', '10-11']:
             prepare(year, grade)
-    for grade in ['4-5', '6-7', '8-9']:
-        prepare_display_booklet(grade)
+    build_reading_copies()

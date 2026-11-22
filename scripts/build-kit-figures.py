@@ -8,6 +8,7 @@ import fitz
 from PIL import Image, ImageOps
 
 from pdf_figure import cropped_svg
+from kit_restored_figures import build_interactive
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -102,3 +103,4 @@ if __name__ == '__main__':
     for manifest_path in sorted(SOURCES.glob('*/*-figures.json')):
         build_figures(manifest_path)
     display_segments()
+    build_interactive()

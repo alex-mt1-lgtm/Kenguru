@@ -1,0 +1,4431 @@
+[
+  {
+    "id": "fleece-0039",
+    "title": "Colosseum April 2007",
+    "source": "https://commons.wikimedia.org/wiki/File:Colosseum_April_2007.jpg",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "author": "Eivind Mikkelsen",
+    "size": [
+      2008,
+      1344
+    ],
+    "nativeSize": [
+      3840,
+      2571
+    ],
+    "substitute": true,
+    "appendix": true,
+    "processing": "Кадрирование и уменьшение для буклета.",
+    "file": "fleece-0039.jpg",
+    "targets": [
+      {
+        "pdf": "2006/tasks-3-5.pdf",
+        "page": 1,
+        "size": [
+          516,
+          346
+        ],
+        "rect": [
+          57.0,
+          358.5,
+          213.0,
+          462.75
+        ],
+        "task": "2006/3-5/1",
+        "crop": [
+          0,
+          0,
+          2008,
+          1344
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fleece-0043",
+    "title": "Florence Cathedral seen from Piazzale Michelangelo dllu",
+    "source": "https://commons.wikimedia.org/wiki/File:Florence_Cathedral_seen_from_Piazzale_Michelangelo_dllu.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Dllu",
+    "size": [
+      1610,
+      1071
+    ],
+    "nativeSize": [
+      3840,
+      2879
+    ],
+    "substitute": true,
+    "appendix": true,
+    "processing": "Кадрирование и уменьшение для буклета.",
+    "file": "fleece-0043.jpg",
+    "targets": [
+      {
+        "pdf": "2006/tasks-3-5.pdf",
+        "page": 1,
+        "size": [
+          586,
+          390
+        ],
+        "rect": [
+          57.0,
+          606.0,
+          213.0,
+          709.5
+        ],
+        "task": "2006/3-5/5",
+        "crop": [
+          0,
+          0,
+          1610,
+          1071
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fleece-0126",
+    "title": "Palace of Westminster and Elizabeth Tower 20250522",
+    "source": "https://commons.wikimedia.org/wiki/File:Palace_of_Westminster_and_Elizabeth_Tower_20250522.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Domob",
+    "size": [
+      1710,
+      1022
+    ],
+    "nativeSize": [
+      3840,
+      1731
+    ],
+    "substitute": true,
+    "appendix": true,
+    "processing": "Кадрирование и уменьшение для буклета.",
+    "file": "fleece-0126.jpg",
+    "targets": [
+      {
+        "pdf": "2009/2009_5-6.pdf",
+        "page": 1,
+        "size": [
+          129,
+          88
+        ],
+        "rect": [
+          169.748,
+          73.864,
+          262.377,
+          136.816
+        ],
+        "task": "2009/5-6/1",
+        "crop": [
+          0,
+          0,
+          1710,
+          1022
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fleece-0151",
+    "title": "Coat of arms athens",
+    "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_athens.svg",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Municipality of Athens",
+    "size": [
+      2134,
+      2190
+    ],
+    "nativeSize": [
+      3840,
+      4319
+    ],
+    "substitute": false,
+    "appendix": true,
+    "processing": "Подпись с названием города исключена из кадра.",
+    "file": "fleece-0151.jpg",
+    "targets": [
+      {
+        "pdf": "2009/2009_5-6.pdf",
+        "page": 2,
+        "size": [
+          120,
+          139
+        ],
+        "rect": [
+          456.311,
+          187.687,
+          542.126,
+          287.605
+        ],
+        "task": "2009/5-6/42"
+      }
+    ]
+  },
+  {
+    "id": "fleece-0161",
+    "title": "Dresden, Goldener Reiter",
+    "source": "https://commons.wikimedia.org/wiki/File:Dresden,_Goldener_Reiter.jpg",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "author": "No machine-readable author provided. M.katze assumed (based on copyright claims).",
+    "size": [
+      980,
+      1559
+    ],
+    "nativeSize": [
+      3648,
+      2736
+    ],
+    "substitute": true,
+    "appendix": true,
+    "processing": "Кадрирование и уменьшение для буклета.",
+    "file": "fleece-0161.jpg",
+    "targets": [
+      {
+        "pdf": "2009/2009_7-8.pdf",
+        "page": 1,
+        "size": [
+          107,
+          179
+        ],
+        "rect": [
+          579.788,
+          421.315,
+          656.801,
+          550.17
+        ],
+        "task": "2009/7-8/28",
+        "crop": [
+          0,
+          0,
+          980,
+          1559
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fleece-0172",
+    "title": "Prague Astronomical Clock",
+    "source": "https://commons.wikimedia.org/wiki/File:Prague_Astronomical_Clock.jpg",
+    "author": "C1815",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "nativeSize": [
+      3008,
+      2000
+    ],
+    "size": [
+      1602,
+      1962
+    ],
+    "substitute": true,
+    "appendix": true,
+    "processing": "Кадрирование и уменьшение для буклета.",
+    "file": "fleece-0172.jpg",
+    "targets": [
+      {
+        "pdf": "2009/2009_7-8.pdf",
+        "page": 2,
+        "size": [
+          141,
+          187
+        ],
+        "rect": [
+          441.26,
+          420.237,
+          542.126,
+          554.725
+        ],
+        "task": "2009/7-8/45",
+        "crop": [
+          0,
+          0,
+          1602,
+          1962
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fleece-0183",
+    "title": "Venezia-Stemma",
+    "source": "https://commons.wikimedia.org/wiki/File:Venezia-Stemma.svg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "ashoppio",
+    "size": [
+      1553,
+      2400
+    ],
+    "nativeSize": [
+      3840,
+      5934
+    ],
+    "substitute": false,
+    "appendix": true,
+    "processing": "Уменьшение для буклета.",
+    "file": "fleece-0183.jpg",
+    "targets": [
+      {
+        "pdf": "2009/2009_9-11.pdf",
+        "page": 1,
+        "size": [
+          83,
+          125
+        ],
+        "rect": [
+          581.249,
+          455.386,
+          640.517,
+          545.187
+        ],
+        "task": "2009/9-11/28"
+      }
+    ]
+  },
+  {
+    "id": "fleece-0187",
+    "title": "Coat of Arms of Lisbon",
+    "source": "https://commons.wikimedia.org/wiki/File:Coat_of_Arms_of_Lisbon.svg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "Sérgio Horta",
+    "size": [
+      2139,
+      2400
+    ],
+    "nativeSize": [
+      3840,
+      4308
+    ],
+    "substitute": false,
+    "appendix": true,
+    "processing": "Название города закрыто на ленте. Другие слова, щит и эмблема сохранены.",
+    "file": "fleece-0187.jpg",
+    "targets": [
+      {
+        "pdf": "2009/2009_9-11.pdf",
+        "page": 1,
+        "size": [
+          117,
+          127
+        ],
+        "rect": [
+          728.691,
+          455.386,
+          812.334,
+          546.824
+        ],
+        "task": "2009/9-11/30"
+      }
+    ]
+  },
+  {
+    "id": "fleece-0198",
+    "source": "https://commons.wikimedia.org/wiki/File:Hercules_discovering_Telephus,_from_Herculaneum_%27Basilica%27._Naples,_Archaeological_Museum_9008_-_01.jpg",
+    "size": [
+      2005,
+      2400
+    ],
+    "title": "Hercules and Telephus (fresco), Herculaneum",
+    "author": "BeakheadIntrados",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "appendix": true,
+    "substitute": true,
+    "substituteLabel": "Редакционная замена иллюстрации.",
+    "file": "fleece-0198.jpg",
+    "targets": [
+      {
+        "pdf": "2010/Buklet_ZR_0910_3-4.pdf",
+        "page": 1,
+        "size": [
+          103,
+          139
+        ],
+        "rect": [
+          384.342,
+          453.941,
+          458.152,
+          553.855
+        ],
+        "task": "2010/3-4/19",
+        "appendixOnly": true
+      }
+    ]
+  },
+  {
+    "id": "fleece-0207",
+    "source": "https://commons.wikimedia.org/wiki/File:Ilya_Repin_-_Sadko_-_Google_Art_Project.jpg",
+    "size": [
+      1706,
+      2400
+    ],
+    "title": "Sadko, 1876, Ilya Repin",
+    "author": "Ilya Repin",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "appendix": true,
+    "substitute": false,
+    "substituteLabel": "Редакционная замена иллюстрации.",
+    "file": "fleece-0207.jpg",
+    "targets": [
+      {
+        "pdf": "2010/Buklet_ZR_0910_5-6.pdf",
+        "page": 1,
+        "size": [
+          115,
+          158
+        ],
+        "rect": [
+          165.12,
+          312.158,
+          247.401,
+          425.37
+        ],
+        "task": "2010/5-6/10",
+        "appendixOnly": true
+      }
+    ]
+  },
+  {
+    "id": "fleece-0215",
+    "source": "https://commons.wikimedia.org/wiki/File:Mr_Bumble_and_Oliver_Twist,_by_Charles_Edmund_Brock.jpg",
+    "size": [
+      1485,
+      1990
+    ],
+    "title": "Mr Bumble and Oliver Twist",
+    "author": "Charles Edmund Brock",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "appendix": true,
+    "substitute": true,
+    "substituteLabel": "Редакционная замена иллюстрации.",
+    "file": "fleece-0215.jpg",
+    "targets": [
+      {
+        "pdf": "2010/Buklet_ZR_0910_5-6.pdf",
+        "page": 2,
+        "size": [
+          126,
+          100
+        ],
+        "rect": [
+          184.562,
+          480.809,
+          256.427,
+          571.219
+        ],
+        "task": "2010/5-6/50",
+        "appendixOnly": true
+      }
+    ]
+  },
+  {
+    "id": "fleece-0220",
+    "source": "https://commons.wikimedia.org/wiki/File:Romeo_and_juliet_brown.jpg",
+    "size": [
+      768,
+      1119
+    ],
+    "title": "Romeo and Juliet by Ford Madox Brown",
+    "author": "Ford Madox Brown",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "appendix": true,
+    "substitute": false,
+    "substituteLabel": "Редакционная замена иллюстрации.",
+    "file": "fleece-0220.jpg",
+    "targets": [
+      {
+        "pdf": "2010/Buklet_ZR_0910_7-8.pdf",
+        "page": 1,
+        "size": [
+          98,
+          143
+        ],
+        "rect": [
+          184.347,
+          469.544,
+          254.646,
+          571.988
+        ],
+        "task": "2010/7-8/10",
+        "appendixOnly": true
+      }
+    ]
+  },
+  {
+    "id": "fleece-0240",
+    "size": [
+      220,
+      227
+    ],
+    "nativeSize": [
+      487,
+      307
+    ],
+    "title": "Иллюстрация из рукописи CCC MS 157",
+    "author": "Иоанн Вустерский",
+    "source": "https://www.ccc.ox.ac.uk/illustrations-john-worcesters-chronicle-england-ccc-ms-157",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "substitute": false,
+    "appendix": true,
+    "processing": "Кадрирование и уменьшение для буклета.",
+    "file": "fleece-0240.jpg",
+    "targets": [
+      {
+        "pdf": "2011/ZR-3-4.pdf",
+        "page": 2,
+        "size": [
+          143,
+          146
+        ],
+        "rect": [
+          227.023,
+          237.118,
+          295.252,
+          307.087
+        ],
+        "task": "2011/3-4/37",
+        "appendixOnly": true
+      }
+    ]
+  },
+  {
+    "id": "fleece-0258",
+    "title": "Coat of arms of Komi",
+    "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Komi.svg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Katuni5",
+    "size": [
+      2036,
+      2400
+    ],
+    "nativeSize": [
+      3840,
+      4527
+    ],
+    "substitute": false,
+    "appendix": true,
+    "processing": "Уменьшение для буклета.",
+    "file": "fleece-0258.jpg",
+    "targets": [
+      {
+        "pdf": "2011/ZR-5-6.pdf",
+        "page": 1,
+        "size": [
+          84,
+          98
+        ],
+        "rect": [
+          823.971,
+          86.678,
+          864.013,
+          133.36
+        ],
+        "task": "2011/5-6/22"
+      }
+    ]
+  },
+  {
+    "id": "fleece-0272",
+    "title": "South rose window of the Lausanne Cathedrale",
+    "source": "https://commons.wikimedia.org/wiki/File:South_rose_window_of_the_Lausanne_Cathedrale.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "Stéphane Magnenat",
+    "size": [
+      2100,
+      2000
+    ],
+    "nativeSize": [
+      2848,
+      2848
+    ],
+    "substitute": true,
+    "appendix": true,
+    "processing": "Кадрирование и уменьшение для буклета.",
+    "file": "fleece-0272.jpg",
+    "targets": [
+      {
+        "pdf": "2011/ZR-5-6.pdf",
+        "page": 2,
+        "size": [
+          159,
+          158
+        ],
+        "rect": [
+          505.634,
+          182.313,
+          581.939,
+          258.139
+        ],
+        "task": "2011/5-6/50",
+        "crop": [
+          0,
+          0,
+          2100,
+          2000
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fleece-0281",
+    "title": "Coyolxauhqui stone",
+    "source": "https://commons.wikimedia.org/wiki/File:Coyolxauhqui_stone.jpg",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "author": "Iris from Culemborg, The Netherlands",
+    "size": [
+      657,
+      620
+    ],
+    "nativeSize": [
+      657,
+      620
+    ],
+    "substitute": true,
+    "appendix": true,
+    "processing": "Уменьшение для буклета.",
+    "file": "fleece-0281.jpg",
+    "targets": [
+      {
+        "pdf": "2011/ZR-7-8.pdf",
+        "page": 1,
+        "size": [
+          107,
+          111
+        ],
+        "rect": [
+          243.421,
+          89.671,
+          294.378,
+          142.791
+        ],
+        "task": "2011/7-8/2",
+        "appendixOnly": true
+      }
+    ]
+  },
+  {
+    "id": "fleece-0282",
+    "title": "Piedra del Sol en MNA",
+    "source": "https://commons.wikimedia.org/wiki/File:Piedra_del_Sol_en_MNA.jpg",
+    "author": "Juan Carlos Fonseca Mata",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "size": [
+      2400,
+      2031
+    ],
+    "substitute": true,
+    "appendix": true,
+    "processing": "Уменьшение для буклета.",
+    "file": "fleece-0282.jpg",
+    "targets": [
+      {
+        "pdf": "2011/ZR-7-8.pdf",
+        "page": 1,
+        "size": [
+          123,
+          123
+        ],
+        "rect": [
+          1095.851,
+          197.35,
+          1154.551,
+          256.051
+        ],
+        "task": "2011/7-8/34",
+        "crop": [
+          0,
+          0,
+          2400,
+          2031
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fleece-0340",
+    "pdf": "2012/3-4_ZR_1112_980.pdf",
+    "page": 2,
+    "rect": [
+      327.841,
+      296.53,
+      410.892,
+      407.077
+    ],
+    "size": [
+      167,
+      222
+    ],
+    "targets": [
+      {
+        "pdf": "2012/3-4_1112_540.pdf",
+        "page": 2,
+        "size": [
+          84,
+          89
+        ],
+        "rect": [
+          36.33,
+          524.372,
+          119.382,
+          613.33
+        ],
+        "task": "2012/3-4-v540/42",
+        "crop": [
+          1,
+          13,
+          166,
+          192
+        ]
+      },
+      {
+        "pdf": "2012/3-4_1112_780.pdf",
+        "page": 2,
+        "size": [
+          84,
+          89
+        ],
+        "rect": [
+          215.942,
+          448.243,
+          298.994,
+          537.201
+        ],
+        "task": "2012/3-4-v780/41",
+        "crop": [
+          1,
+          13,
+          166,
+          192
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fleece-0344",
+    "pdf": "2012/3-4_ZR_1112_980.pdf",
+    "page": 2,
+    "rect": [
+      189.719,
+      35.184,
+      298.994,
+      100.203
+    ],
+    "size": [
+      219,
+      131
+    ],
+    "targets": [
+      {
+        "pdf": "2012/3-4_1112_540.pdf",
+        "page": 2,
+        "size": [
+          110,
+          66
+        ],
+        "rect": [
+          189.719,
+          106.759,
+          298.994,
+          171.778
+        ],
+        "task": "2012/3-4-v540/37"
+      },
+      {
+        "pdf": "2012/3-4_1112_780.pdf",
+        "page": 2,
+        "size": [
+          110,
+          66
+        ],
+        "rect": [
+          189.719,
+          178.865,
+          298.994,
+          243.884
+        ],
+        "task": "2012/3-4-v780/38"
+      }
+    ]
+  },
+  {
+    "id": "fleece-0344",
+    "pdf": "2012/5-6_ZR_1112_980.pdf",
+    "page": 2,
+    "rect": [
+      206.659,
+      327.088,
+      299.037,
+      388.673
+    ],
+    "size": [
+      185,
+      124
+    ],
+    "targets": [
+      {
+        "pdf": "2012/5-6_1112_540.pdf",
+        "page": 2,
+        "size": [
+          93,
+          62
+        ],
+        "rect": [
+          206.659,
+          262.6,
+          299.037,
+          324.185
+        ],
+        "task": "2012/5-6-v540/48"
+      },
+      {
+        "pdf": "2012/5-6_1112_780.pdf",
+        "page": 2,
+        "size": [
+          93,
+          57
+        ],
+        "rect": [
+          206.621,
+          211.246,
+          298.998,
+          267.596
+        ],
+        "task": "2012/5-6-v780/47"
+      }
+    ]
+  },
+  {
+    "id": "fleece-0344",
+    "pdf": "2012/9-11_ZR_1112_980.pdf",
+    "page": 2,
+    "rect": [
+      214.266,
+      303.03,
+      299.274,
+      352.902
+    ],
+    "size": [
+      171,
+      100
+    ],
+    "targets": [
+      {
+        "pdf": "2012/9-11_1112_540.pdf",
+        "page": 2,
+        "size": [
+          86,
+          50
+        ],
+        "rect": [
+          214.266,
+          223.66,
+          299.274,
+          273.532
+        ],
+        "task": "2012/9-11-v540/47"
+      },
+      {
+        "pdf": "2012/9-11_1112_780.pdf",
+        "page": 2,
+        "size": [
+          86,
+          57
+        ],
+        "rect": [
+          214.88,
+          35.306,
+          299.888,
+          91.836
+        ],
+        "task": "2012/9-11-v780/44"
+      }
+    ]
+  },
+  {
+    "id": "fleece-0348",
+    "pdf": "2012/3-4_ZR_1112_980.pdf",
+    "page": 2,
+    "rect": [
+      508.913,
+      260.47,
+      590.428,
+      349.729
+    ],
+    "size": [
+      164,
+      179
+    ],
+    "targets": [
+      {
+        "pdf": "2012/3-4_1112_540.pdf",
+        "page": 2,
+        "size": [
+          82,
+          90
+        ],
+        "rect": [
+          217.402,
+          452.819,
+          298.917,
+          542.078
+        ],
+        "task": "2012/3-4-v540/41"
+      },
+      {
+        "pdf": "2012/3-4_1112_780.pdf",
+        "page": 2,
+        "size": [
+          82,
+          90
+        ],
+        "rect": [
+          36.25,
+          524.612,
+          117.765,
+          613.871
+        ],
+        "task": "2012/3-4-v780/42"
+      }
+    ]
+  },
+  {
+    "id": "fleece-0351",
+    "pdf": "2012/3-4_ZR_1112_980.pdf",
+    "page": 2,
+    "rect": [
+      327.841,
+      472.045,
+      389.919,
+      558.147
+    ],
+    "size": [
+      125,
+      173
+    ],
+    "targets": [
+      {
+        "pdf": "2012/3-4_1112_540.pdf",
+        "page": 2,
+        "size": [
+          83,
+          90
+        ],
+        "rect": [
+          327.48,
+          95.341,
+          409.794,
+          184.979
+        ],
+        "task": "2012/3-4-v540/44",
+        "crop": [
+          0,
+          4,
+          125,
+          145
+        ]
+      },
+      {
+        "pdf": "2012/3-4_1112_780.pdf",
+        "page": 2,
+        "size": [
+          83,
+          90
+        ],
+        "rect": [
+          327.841,
+          95.341,
+          410.155,
+          184.979
+        ],
+        "task": "2012/3-4-v780/44",
+        "crop": [
+          0,
+          4,
+          125,
+          145
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fleece-0352",
+    "pdf": "2012/3-4_ZR_1112_980.pdf",
+    "page": 2,
+    "rect": [
+      327.855,
+      71.8,
+      409.536,
+      176.081
+    ],
+    "size": [
+      164,
+      209
+    ],
+    "targets": [
+      {
+        "pdf": "2012/3-4_1112_540.pdf",
+        "page": 2,
+        "size": [
+          85,
+          108
+        ],
+        "rect": [
+          327.892,
+          464.451,
+          412.447,
+          572.401
+        ],
+        "task": "2012/3-4-v540/49"
+      },
+      {
+        "pdf": "2012/3-4_1112_780.pdf",
+        "page": 2,
+        "size": [
+          85,
+          108
+        ],
+        "rect": [
+          327.892,
+          460.199,
+          412.447,
+          568.149
+        ],
+        "task": "2012/3-4-v780/49"
+      }
+    ]
+  },
+  {
+    "id": "fleece-0352",
+    "pdf": "2012/7-8_ZR_1112_980.pdf",
+    "page": 2,
+    "rect": [
+      517.013,
+      363.404,
+      590.835,
+      457.65
+    ],
+    "size": [
+      148,
+      189
+    ],
+    "targets": [
+      {
+        "pdf": "2012/7-8_1112_540.pdf",
+        "page": 2,
+        "size": [
+          74,
+          95
+        ],
+        "rect": [
+          517.013,
+          289.364,
+          590.835,
+          383.611
+        ],
+        "task": "2012/7-8-v540/57"
+      },
+      {
+        "pdf": "2012/7-8_1112_780.pdf",
+        "page": 2,
+        "size": [
+          74,
+          95
+        ],
+        "rect": [
+          517.02,
+          220.215,
+          590.842,
+          314.462
+        ],
+        "task": "2012/7-8-v780/56"
+      }
+    ]
+  },
+  {
+    "id": "fleece-0354",
+    "pdf": "2012/3-4_ZR_1112_980.pdf",
+    "page": 2,
+    "rect": [
+      481.56,
+      154.384,
+      590.585,
+      228.299
+    ],
+    "size": [
+      219,
+      148
+    ],
+    "targets": [
+      {
+        "pdf": "2012/3-4_1112_540.pdf",
+        "page": 2,
+        "size": [
+          110,
+          74
+        ],
+        "rect": [
+          481.577,
+          539.037,
+          590.602,
+          612.952
+        ],
+        "task": "2012/3-4-v540/50"
+      },
+      {
+        "pdf": "2012/3-4_1112_780.pdf",
+        "page": 2,
+        "size": [
+          110,
+          74
+        ],
+        "rect": [
+          327.295,
+          331.195,
+          436.32,
+          405.11
+        ],
+        "task": "2012/3-4-v780/47"
+      }
+    ]
+  },
+  {
+    "id": "fleece-0357",
+    "pdf": "2012/3-4_ZR_1112_980.pdf",
+    "page": 2,
+    "rect": [
+      508.863,
+      372.051,
+      591.276,
+      459.92
+    ],
+    "size": [
+      165,
+      176
+    ],
+    "targets": [
+      {
+        "pdf": "2012/3-4_1112_540.pdf",
+        "page": 2,
+        "size": [
+          85,
+          90
+        ],
+        "rect": [
+          507.161,
+          35.149,
+          591.491,
+          124.973
+        ],
+        "task": "2012/3-4-v540/43"
+      },
+      {
+        "pdf": "2012/3-4_1112_780.pdf",
+        "page": 2,
+        "size": [
+          85,
+          90
+        ],
+        "rect": [
+          507.161,
+          174.201,
+          591.491,
+          264.025
+        ],
+        "task": "2012/3-4-v780/45"
+      }
+    ]
+  },
+  {
+    "id": "fleece-0358",
+    "pdf": "2012/3-4_ZR_1112_980.pdf",
+    "page": 2,
+    "rect": [
+      501.903,
+      508.715,
+      590.291,
+      613.853
+    ],
+    "size": [
+      177,
+      211
+    ],
+    "targets": [
+      {
+        "pdf": "2012/3-4_1112_540.pdf",
+        "page": 2,
+        "size": [
+          81,
+          90
+        ],
+        "rect": [
+          509.761,
+          162.189,
+          590.477,
+          251.562
+        ],
+        "task": "2012/3-4-v540/45",
+        "crop": [
+          1,
+          14,
+          177,
+          206
+        ]
+      },
+      {
+        "pdf": "2012/3-4_1112_780.pdf",
+        "page": 2,
+        "size": [
+          81,
+          90
+        ],
+        "rect": [
+          509.872,
+          35.16,
+          590.589,
+          124.533
+        ],
+        "task": "2012/3-4-v780/43",
+        "crop": [
+          1,
+          14,
+          177,
+          206
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fleece-0419",
+    "pdf": "2012/5-6_ZR_1112_980.pdf",
+    "page": 2,
+    "rect": [
+      236.087,
+      459.463,
+      299.24,
+      530.739
+    ],
+    "size": [
+      127,
+      143
+    ],
+    "targets": [
+      {
+        "pdf": "2012/5-6_1112_540.pdf",
+        "page": 2,
+        "size": [
+          64,
+          72
+        ],
+        "rect": [
+          236.087,
+          467.258,
+          299.24,
+          538.535
+        ],
+        "task": "2012/5-6-v540/51"
+      },
+      {
+        "pdf": "2012/5-6_1112_780.pdf",
+        "page": 2,
+        "size": [
+          64,
+          72
+        ],
+        "rect": [
+          235.841,
+          542.518,
+          298.994,
+          613.794
+        ],
+        "task": "2012/5-6-v780/52"
+      }
+    ]
+  },
+  {
+    "id": "fleece-0420",
+    "pdf": "2012/5-6_ZR_1112_980.pdf",
+    "page": 2,
+    "rect": [
+      527.928,
+      180.7,
+      591.75,
+      252.263
+    ],
+    "size": [
+      128,
+      144
+    ],
+    "targets": [
+      {
+        "pdf": "2012/5-6_1112_540.pdf",
+        "page": 2,
+        "size": [
+          64,
+          72
+        ],
+        "rect": [
+          236.087,
+          542.275,
+          299.91,
+          613.838
+        ],
+        "task": "2012/5-6-v540/52"
+      },
+      {
+        "pdf": "2012/5-6_1112_780.pdf",
+        "page": 2,
+        "size": [
+          64,
+          72
+        ],
+        "rect": [
+          236.087,
+          469.534,
+          299.91,
+          541.097
+        ],
+        "task": "2012/5-6-v780/51"
+      }
+    ]
+  },
+  {
+    "id": "fleece-0422",
+    "pdf": "2012/5-6_ZR_1112_980.pdf",
+    "page": 2,
+    "rect": [
+      526.844,
+      330.03,
+      591.786,
+      398.0
+    ],
+    "size": [
+      130,
+      136
+    ],
+    "targets": [
+      {
+        "pdf": "2012/5-6_1112_540.pdf",
+        "page": 2,
+        "size": [
+          65,
+          68
+        ],
+        "rect": [
+          526.844,
+          250.355,
+          591.786,
+          318.324
+        ],
+        "task": "2012/5-6-v540/56"
+      },
+      {
+        "pdf": "2012/5-6_1112_780.pdf",
+        "page": 2,
+        "size": [
+          65,
+          68
+        ],
+        "rect": [
+          526.594,
+          174.785,
+          591.536,
+          242.754
+        ],
+        "task": "2012/5-6-v780/55"
+      }
+    ]
+  },
+  {
+    "id": "fleece-0423",
+    "pdf": "2012/5-6_ZR_1112_980.pdf",
+    "page": 2,
+    "rect": [
+      527.052,
+      536.615,
+      591.822,
+      613.674
+    ],
+    "size": [
+      130,
+      155
+    ],
+    "targets": [
+      {
+        "pdf": "2012/5-6_1112_540.pdf",
+        "page": 2,
+        "size": [
+          65,
+          78
+        ],
+        "rect": [
+          527.052,
+          458.662,
+          591.822,
+          535.721
+        ],
+        "task": "2012/5-6-v540/59"
+      },
+      {
+        "pdf": "2012/5-6_1112_780.pdf",
+        "page": 2,
+        "size": [
+          65,
+          78
+        ],
+        "rect": [
+          526.802,
+          536.804,
+          591.572,
+          613.863
+        ],
+        "task": "2012/5-6-v780/60"
+      }
+    ]
+  },
+  {
+    "id": "fleece-0424",
+    "pdf": "2012/5-6_ZR_1112_980.pdf",
+    "page": 2,
+    "rect": [
+      527.11,
+      111.364,
+      591.807,
+      179.476
+    ],
+    "size": [
+      130,
+      137
+    ],
+    "targets": [
+      {
+        "pdf": "2012/5-6_1112_540.pdf",
+        "page": 2,
+        "size": [
+          65,
+          69
+        ],
+        "rect": [
+          527.11,
+          111.894,
+          591.807,
+          180.006
+        ],
+        "task": "2012/5-6-v540/54"
+      },
+      {
+        "pdf": "2012/5-6_1112_780.pdf",
+        "page": 2,
+        "size": [
+          65,
+          69
+        ],
+        "rect": [
+          526.86,
+          36.25,
+          591.557,
+          104.362
+        ],
+        "task": "2012/5-6-v780/53"
+      }
+    ]
+  },
+  {
+    "id": "fleece-0425",
+    "pdf": "2012/5-6_ZR_1112_980.pdf",
+    "page": 2,
+    "rect": [
+      527.375,
+      252.354,
+      590.835,
+      330.108
+    ],
+    "size": [
+      127,
+      156
+    ],
+    "targets": [
+      {
+        "pdf": "2012/5-6_1112_540.pdf",
+        "page": 2,
+        "size": [
+          64,
+          78
+        ],
+        "rect": [
+          527.375,
+          536.316,
+          590.835,
+          614.07
+        ],
+        "task": "2012/5-6-v540/60"
+      },
+      {
+        "pdf": "2012/5-6_1112_780.pdf",
+        "page": 2,
+        "size": [
+          64,
+          78
+        ],
+        "rect": [
+          527.125,
+          458.595,
+          590.585,
+          536.349
+        ],
+        "task": "2012/5-6-v780/59"
+      }
+    ]
+  },
+  {
+    "id": "fleece-0426",
+    "pdf": "2012/5-6_ZR_1112_980.pdf",
+    "page": 2,
+    "rect": [
+      527.863,
+      398.214,
+      590.835,
+      467.839
+    ],
+    "size": [
+      126,
+      140
+    ],
+    "targets": [
+      {
+        "pdf": "2012/5-6_1112_540.pdf",
+        "page": 2,
+        "size": [
+          63,
+          70
+        ],
+        "rect": [
+          527.863,
+          319.202,
+          590.835,
+          388.826
+        ],
+        "task": "2012/5-6-v540/57"
+      },
+      {
+        "pdf": "2012/5-6_1112_780.pdf",
+        "page": 2,
+        "size": [
+          63,
+          70
+        ],
+        "rect": [
+          527.613,
+          388.425,
+          590.585,
+          458.05
+        ],
+        "task": "2012/5-6-v780/58"
+      }
+    ]
+  },
+  {
+    "id": "fleece-0427",
+    "pdf": "2012/5-6_ZR_1112_980.pdf",
+    "page": 2,
+    "rect": [
+      527.895,
+      468.808,
+      591.639,
+      536.316
+    ],
+    "size": [
+      128,
+      136
+    ],
+    "targets": [
+      {
+        "pdf": "2012/5-6_1112_540.pdf",
+        "page": 2,
+        "size": [
+          64,
+          68
+        ],
+        "rect": [
+          527.948,
+          390.493,
+          591.691,
+          458.0
+        ],
+        "task": "2012/5-6-v540/58"
+      },
+      {
+        "pdf": "2012/5-6_1112_780.pdf",
+        "page": 2,
+        "size": [
+          64,
+          68
+        ],
+        "rect": [
+          527.698,
+          320.236,
+          591.441,
+          387.744
+        ],
+        "task": "2012/5-6-v780/57"
+      }
+    ]
+  },
+  {
+    "id": "fleece-0428",
+    "pdf": "2012/5-6_ZR_1112_980.pdf",
+    "page": 2,
+    "rect": [
+      236.713,
+      545.085,
+      300.328,
+      613.675
+    ],
+    "size": [
+      128,
+      138
+    ],
+    "targets": [
+      {
+        "pdf": "2012/5-6_1112_540.pdf",
+        "page": 2,
+        "size": [
+          64,
+          69
+        ],
+        "rect": [
+          528.167,
+          181.596,
+          591.782,
+          250.186
+        ],
+        "task": "2012/5-6-v540/55"
+      },
+      {
+        "pdf": "2012/5-6_1112_780.pdf",
+        "page": 2,
+        "size": [
+          64,
+          69
+        ],
+        "rect": [
+          527.917,
+          105.865,
+          591.532,
+          174.454
+        ],
+        "task": "2012/5-6-v780/54"
+      }
+    ]
+  },
+  {
+    "id": "fleece-0429",
+    "pdf": "2012/5-6_ZR_1112_980.pdf",
+    "page": 2,
+    "rect": [
+      528.42,
+      34.95,
+      591.708,
+      110.246
+    ],
+    "size": [
+      127,
+      151
+    ],
+    "targets": [
+      {
+        "pdf": "2012/5-6_1112_540.pdf",
+        "page": 2,
+        "size": [
+          64,
+          76
+        ],
+        "rect": [
+          528.42,
+          34.95,
+          591.708,
+          110.246
+        ],
+        "task": "2012/5-6-v540/53"
+      },
+      {
+        "pdf": "2012/5-6_1112_780.pdf",
+        "page": 2,
+        "size": [
+          64,
+          76
+        ],
+        "rect": [
+          528.17,
+          243.38,
+          591.458,
+          318.677
+        ],
+        "task": "2012/5-6-v780/56"
+      }
+    ]
+  },
+  {
+    "id": "fleece-0474",
+    "pdf": "2012/7-8_ZR_1112_980.pdf",
+    "page": 2,
+    "rect": [
+      505.738,
+      36.25,
+      590.835,
+      107.861
+    ],
+    "size": [
+      171,
+      144
+    ],
+    "targets": [
+      {
+        "pdf": "2012/7-8_1112_540.pdf",
+        "page": 2,
+        "size": [
+          86,
+          72
+        ],
+        "rect": [
+          213.898,
+          541.326,
+          298.994,
+          612.911
+        ],
+        "task": "2012/7-8-v540/53"
+      },
+      {
+        "pdf": "2012/7-8_1112_780.pdf",
+        "page": 2,
+        "size": [
+          86,
+          72
+        ],
+        "rect": [
+          214.334,
+          453.813,
+          299.431,
+          525.398
+        ],
+        "task": "2012/7-8-v780/52"
+      }
+    ]
+  },
+  {
+    "id": "fleece-0478",
+    "pdf": "2012/7-8_ZR_1112_980.pdf",
+    "page": 2,
+    "rect": [
+      224.924,
+      380.397,
+      299.751,
+      466.822
+    ],
+    "size": [
+      150,
+      173
+    ],
+    "targets": [
+      {
+        "pdf": "2012/7-8_1112_540.pdf",
+        "page": 2,
+        "size": [
+          75,
+          87
+        ],
+        "rect": [
+          224.924,
+          380.397,
+          299.751,
+          466.822
+        ],
+        "task": "2012/7-8-v540/51"
+      },
+      {
+        "pdf": "2012/7-8_1112_780.pdf",
+        "page": 2,
+        "size": [
+          75,
+          87
+        ],
+        "rect": [
+          225.539,
+          526.835,
+          300.365,
+          613.26
+        ],
+        "task": "2012/7-8-v780/53"
+      }
+    ]
+  },
+  {
+    "id": "fleece-0482",
+    "pdf": "2012/7-8_ZR_1112_980.pdf",
+    "page": 2,
+    "rect": [
+      496.228,
+      547.193,
+      590.835,
+      612.884
+    ],
+    "size": [
+      190,
+      132
+    ],
+    "targets": [
+      {
+        "pdf": "2012/7-8_1112_540.pdf",
+        "page": 2,
+        "size": [
+          95,
+          66
+        ],
+        "rect": [
+          496.228,
+          547.193,
+          590.835,
+          612.884
+        ],
+        "task": "2012/7-8-v540/60"
+      },
+      {
+        "pdf": "2012/7-8_1112_780.pdf",
+        "page": 2,
+        "size": [
+          92,
+          64
+        ],
+        "rect": [
+          499.074,
+          475.301,
+          590.842,
+          539.021
+        ],
+        "task": "2012/7-8-v780/59"
+      }
+    ]
+  },
+  {
+    "id": "fleece-0483",
+    "pdf": "2012/7-8_ZR_1112_980.pdf",
+    "page": 2,
+    "rect": [
+      505.958,
+      110.946,
+      590.835,
+      176.222
+    ],
+    "size": [
+      170,
+      131
+    ],
+    "targets": [
+      {
+        "pdf": "2012/7-8_1112_540.pdf",
+        "page": 2,
+        "size": [
+          85,
+          66
+        ],
+        "rect": [
+          505.958,
+          36.25,
+          590.835,
+          101.526
+        ],
+        "task": "2012/7-8-v540/54"
+      },
+      {
+        "pdf": "2012/7-8_1112_780.pdf",
+        "page": 2,
+        "size": [
+          92,
+          71
+        ],
+        "rect": [
+          499.22,
+          542.185,
+          590.842,
+          612.648
+        ],
+        "task": "2012/7-8-v780/60"
+      }
+    ]
+  },
+  {
+    "id": "fleece-0484",
+    "pdf": "2012/7-8_ZR_1112_980.pdf",
+    "page": 2,
+    "rect": [
+      515.863,
+      460.788,
+      591.666,
+      545.04
+    ],
+    "size": [
+      152,
+      169
+    ],
+    "targets": [
+      {
+        "pdf": "2012/7-8_1112_540.pdf",
+        "page": 2,
+        "size": [
+          76,
+          85
+        ],
+        "rect": [
+          515.863,
+          386.967,
+          591.666,
+          471.22
+        ],
+        "task": "2012/7-8-v540/58"
+      },
+      {
+        "pdf": "2012/7-8_1112_780.pdf",
+        "page": 2,
+        "size": [
+          76,
+          85
+        ],
+        "rect": [
+          515.871,
+          317.614,
+          591.673,
+          401.866
+        ],
+        "task": "2012/7-8-v780/57"
+      }
+    ]
+  },
+  {
+    "id": "fleece-0485",
+    "pdf": "2012/7-8_ZR_1112_980.pdf",
+    "page": 2,
+    "rect": [
+      516.479,
+      265.66,
+      590.835,
+      360.266
+    ],
+    "size": [
+      149,
+      190
+    ],
+    "targets": [
+      {
+        "pdf": "2012/7-8_1112_540.pdf",
+        "page": 2,
+        "size": [
+          75,
+          95
+        ],
+        "rect": [
+          516.479,
+          191.402,
+          590.835,
+          286.008
+        ],
+        "task": "2012/7-8-v540/56"
+      },
+      {
+        "pdf": "2012/7-8_1112_780.pdf",
+        "page": 2,
+        "size": [
+          75,
+          95
+        ],
+        "rect": [
+          516.486,
+          122.457,
+          590.842,
+          217.063
+        ],
+        "task": "2012/7-8-v780/55"
+      }
+    ]
+  },
+  {
+    "id": "fleece-0523",
+    "pdf": "2012/9-11_ZR_1112_980.pdf",
+    "page": 2,
+    "rect": [
+      213.087,
+      558.272,
+      299.871,
+      609.532
+    ],
+    "size": [
+      174,
+      103
+    ],
+    "targets": [
+      {
+        "pdf": "2012/9-11_1112_540.pdf",
+        "page": 2,
+        "size": [
+          87,
+          52
+        ],
+        "rect": [
+          213.087,
+          562.524,
+          299.871,
+          613.784
+        ],
+        "task": "2012/9-11-v540/52"
+      },
+      {
+        "pdf": "2012/9-11_1112_780.pdf",
+        "page": 2,
+        "size": [
+          87,
+          52
+        ],
+        "rect": [
+          213.087,
+          562.494,
+          299.871,
+          613.754
+        ],
+        "task": "2012/9-11-v780/52"
+      }
+    ]
+  },
+  {
+    "id": "fleece-0529",
+    "pdf": "2012/9-11_ZR_1112_980.pdf",
+    "page": 2,
+    "rect": [
+      214.268,
+      428.944,
+      299.525,
+      494.501
+    ],
+    "size": [
+      171,
+      132
+    ],
+    "targets": [
+      {
+        "pdf": "2012/9-11_1112_540.pdf",
+        "page": 2,
+        "size": [
+          86,
+          66
+        ],
+        "rect": [
+          214.268,
+          412.645,
+          299.525,
+          478.201
+        ],
+        "task": "2012/9-11-v540/50"
+      },
+      {
+        "pdf": "2012/9-11_1112_780.pdf",
+        "page": 2,
+        "size": [
+          86,
+          66
+        ],
+        "rect": [
+          214.883,
+          419.023,
+          300.139,
+          484.579
+        ],
+        "task": "2012/9-11-v780/50"
+      }
+    ]
+  },
+  {
+    "id": "fleece-0531",
+    "pdf": "2012/9-11_ZR_1112_980.pdf",
+    "page": 2,
+    "rect": [
+      214.272,
+      499.219,
+      298.988,
+      554.26
+    ],
+    "size": [
+      170,
+      111
+    ],
+    "targets": [
+      {
+        "pdf": "2012/9-11_1112_540.pdf",
+        "page": 2,
+        "size": [
+          85,
+          56
+        ],
+        "rect": [
+          214.272,
+          499.219,
+          298.988,
+          554.26
+        ],
+        "task": "2012/9-11-v540/51"
+      },
+      {
+        "pdf": "2012/9-11_1112_780.pdf",
+        "page": 2,
+        "size": [
+          85,
+          56
+        ],
+        "rect": [
+          506.484,
+          36.202,
+          591.2,
+          91.244
+        ],
+        "task": "2012/9-11-v780/53"
+      }
+    ]
+  },
+  {
+    "id": "fleece-0534",
+    "pdf": "2012/9-11_ZR_1112_980.pdf",
+    "page": 2,
+    "rect": [
+      508.74,
+      36.215,
+      590.575,
+      100.21
+    ],
+    "size": [
+      164,
+      128
+    ],
+    "targets": [
+      {
+        "pdf": "2012/9-11_1112_540.pdf",
+        "page": 2,
+        "size": [
+          82,
+          64
+        ],
+        "rect": [
+          508.76,
+          481.693,
+          590.595,
+          545.688
+        ],
+        "task": "2012/9-11-v540/59"
+      },
+      {
+        "pdf": "2012/9-11_1112_780.pdf",
+        "page": 2,
+        "size": [
+          85,
+          67
+        ],
+        "rect": [
+          506.773,
+          94.312,
+          591.234,
+          160.361
+        ],
+        "task": "2012/9-11-v780/54"
+      }
+    ]
+  },
+  {
+    "id": "fleece-0536",
+    "pdf": "2012/9-11_ZR_1112_980.pdf",
+    "page": 2,
+    "rect": [
+      508.766,
+      482.558,
+      590.589,
+      546.923
+    ],
+    "size": [
+      164,
+      129
+    ],
+    "targets": [
+      {
+        "pdf": "2012/9-11_1112_540.pdf",
+        "page": 2,
+        "size": [
+          82,
+          65
+        ],
+        "rect": [
+          508.766,
+          410.983,
+          590.589,
+          475.348
+        ],
+        "task": "2012/9-11-v540/58"
+      },
+      {
+        "pdf": "2012/9-11_1112_780.pdf",
+        "page": 2,
+        "size": [
+          85,
+          67
+        ],
+        "rect": [
+          507.029,
+          481.187,
+          591.199,
+          547.399
+        ],
+        "task": "2012/9-11-v780/59"
+      }
+    ]
+  },
+  {
+    "id": "fleece-0537",
+    "pdf": "2012/9-11_ZR_1112_980.pdf",
+    "page": 2,
+    "rect": [
+      530.521,
+      108.268,
+      590.55,
+      181.919
+    ],
+    "size": [
+      121,
+      148
+    ],
+    "targets": [
+      {
+        "pdf": "2012/9-11_1112_540.pdf",
+        "page": 2,
+        "size": [
+          61,
+          74
+        ],
+        "rect": [
+          530.521,
+          36.694,
+          590.551,
+          110.296
+        ],
+        "task": "2012/9-11-v540/53"
+      },
+      {
+        "pdf": "2012/9-11_1112_780.pdf",
+        "page": 2,
+        "size": [
+          64,
+          79
+        ],
+        "rect": [
+          527.314,
+          163.387,
+          591.201,
+          241.72
+        ],
+        "task": "2012/9-11-v780/55"
+      }
+    ]
+  },
+  {
+    "id": "fleece-0538",
+    "pdf": "2012/9-11_ZR_1112_980.pdf",
+    "page": 2,
+    "rect": [
+      530.992,
+      188.669,
+      590.551,
+      265.994
+    ],
+    "size": [
+      120,
+      155
+    ],
+    "targets": [
+      {
+        "pdf": "2012/9-11_1112_540.pdf",
+        "page": 2,
+        "size": [
+          60,
+          78
+        ],
+        "rect": [
+          530.992,
+          117.094,
+          590.551,
+          194.42
+        ],
+        "task": "2012/9-11-v540/54"
+      },
+      {
+        "pdf": "2012/9-11_1112_780.pdf",
+        "page": 2,
+        "size": [
+          65,
+          84
+        ],
+        "rect": [
+          526.653,
+          244.771,
+          591.197,
+          328.568
+        ],
+        "task": "2012/9-11-v780/56"
+      }
+    ]
+  },
+  {
+    "id": "fleece-0539",
+    "pdf": "2012/9-11_ZR_1112_980.pdf",
+    "page": 2,
+    "rect": [
+      532.324,
+      337.967,
+      590.55,
+      405.827
+    ],
+    "size": [
+      117,
+      136
+    ],
+    "targets": [
+      {
+        "pdf": "2012/9-11_1112_540.pdf",
+        "page": 2,
+        "size": [
+          59,
+          68
+        ],
+        "rect": [
+          532.324,
+          266.393,
+          590.55,
+          334.252
+        ],
+        "task": "2012/9-11-v540/56"
+      },
+      {
+        "pdf": "2012/9-11_1112_780.pdf",
+        "page": 2,
+        "size": [
+          64,
+          75
+        ],
+        "rect": [
+          527.322,
+          331.203,
+          591.193,
+          405.641
+        ],
+        "task": "2012/9-11-v780/57"
+      }
+    ]
+  },
+  {
+    "id": "fleece-0540",
+    "pdf": "2012/9-11_ZR_1112_980.pdf",
+    "page": 2,
+    "rect": [
+      532.541,
+      412.666,
+      590.79,
+      475.717
+    ],
+    "size": [
+      117,
+      127
+    ],
+    "targets": [
+      {
+        "pdf": "2012/9-11_1112_540.pdf",
+        "page": 2,
+        "size": [
+          59,
+          64
+        ],
+        "rect": [
+          532.541,
+          341.091,
+          590.79,
+          404.143
+        ],
+        "task": "2012/9-11-v540/57"
+      },
+      {
+        "pdf": "2012/9-11_1112_780.pdf",
+        "page": 2,
+        "size": [
+          65,
+          70
+        ],
+        "rect": [
+          527.087,
+          408.736,
+          591.159,
+          478.091
+        ],
+        "task": "2012/9-11-v780/58"
+      }
+    ]
+  },
+  {
+    "id": "fleece-0582",
+    "title": "Wien - Musikverein, großer Saal",
+    "source": "https://commons.wikimedia.org/wiki/File:Wien_-_Musikverein,_gro%C3%9Fer_Saal.JPG",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "C.Stadler/Bwag",
+    "size": [
+      2400,
+      1599
+    ],
+    "nativeSize": [
+      3840,
+      2559
+    ],
+    "substitute": true,
+    "appendix": true,
+    "processing": "Уменьшение для буклета.",
+    "file": "fleece-0582.jpg",
+    "targets": [
+      {
+        "pdf": "2013/ZR_1213_540_3-4.pdf",
+        "page": 1,
+        "size": [
+          164,
+          132
+        ],
+        "rect": [
+          724.254,
+          323.634,
+          793.506,
+          379.146
+        ],
+        "task": "2013/3-4-v540/41",
+        "appendixOnly": true
+      },
+      {
+        "pdf": "2013/ZR_1213_780_3-4.pdf",
+        "page": 1,
+        "size": [
+          164,
+          132
+        ],
+        "rect": [
+          724.254,
+          323.634,
+          793.506,
+          379.146
+        ],
+        "task": "2013/3-4-v780/41",
+        "appendixOnly": true
+      },
+      {
+        "pdf": "2013/ZR_1213_KZ_3-4.pdf",
+        "page": 1,
+        "size": [
+          163,
+          112
+        ],
+        "rect": [
+          737.214,
+          323.454,
+          809.702,
+          381.186
+        ],
+        "task": "2013/3-4-vkz/41",
+        "appendixOnly": true
+      },
+      {
+        "pdf": "2013/ZR_1213_forOU_3-4.pdf",
+        "page": 1,
+        "size": [
+          164,
+          132
+        ],
+        "rect": [
+          724.254,
+          323.634,
+          793.506,
+          379.146
+        ],
+        "task": "2013/3-4-vforou/41",
+        "appendixOnly": true
+      }
+    ]
+  },
+  {
+    "id": "fleece-0644",
+    "title": "Self-portrait at Thirteen label QS:Les,\"autorretrato de Durero\" label QS:Lfr,\"Autoportrait à l'âge de 13 ans\" label QS:Lcy,\"Hunanbortread\" label QS:Lpt,\"Autorretrato aos 13 anos\" label QS:Len-gb,\"Self-portrait\" label QS:Lhy,\"Ինքնադիմանկար\" label QS:Lzh,\"丢勒自画像 (1484年)\" label QS:Lda,\"Selvportræt som 13-årig\" label QS:Lsl,\"Avtoportret v starosti 13 let (Dürer)\" label QS:Lsv,\"självporträtt vid 13 års ålder\" label QS:Lpl,\"Autoportrety Albrechta Dürera\" label QS:Luk,\"Автопортрет у віці 13 років\" label QS:Lnl,\"zelfportret van Albrecht Dürer met dertien jaar\" label QS:Lro,\"Autoportret la 13 ani\" label QS:Lde,\"Selbstbildnis als Dreizehnjähriger\" label QS:Lit,\"Autoritratto a tredici anni\" label QS:Lhe,\"דיוקן עצמי\" label QS:Len,\"Self-portrait at Thirteen\" label QS:Lru,\"Автопортрет в возрасте тринадцати лет\" label QS:Lmk,\"Автопортрет на 13 години\" label QS:Lca,\"Autoretrat als tretze anys\"",
+    "source": "https://commons.wikimedia.org/wiki/File:Durer-self-portrait-at-the-age-of-thirteen.jpg",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Albrecht Dürer",
+    "size": [
+      1453,
+      2076
+    ],
+    "nativeSize": [
+      1453,
+      2076
+    ],
+    "substitute": false,
+    "appendix": true,
+    "processing": "Подпись с именем автора закрыта в учебном кадре, остальные строки сохранены.",
+    "file": "fleece-0644.jpg",
+    "targets": [
+      {
+        "pdf": "2013/ZR_1213_540_5-6.pdf",
+        "page": 2,
+        "size": [
+          127,
+          180
+        ],
+        "rect": [
+          483.234,
+          181.554,
+          536.766,
+          257.526
+        ],
+        "task": "2013/5-6-v540/56"
+      },
+      {
+        "pdf": "2013/ZR_1213_780_5-6.pdf",
+        "page": 2,
+        "size": [
+          127,
+          180
+        ],
+        "rect": [
+          483.234,
+          181.554,
+          536.766,
+          257.526
+        ],
+        "task": "2013/5-6-v780/56"
+      },
+      {
+        "pdf": "2013/ZR_1213_KZ_5-6.pdf",
+        "page": 2,
+        "size": [
+          117,
+          166
+        ],
+        "rect": [
+          485.994,
+          176.514,
+          542.15,
+          255.726
+        ],
+        "task": "2013/5-6-vkz/56"
+      },
+      {
+        "pdf": "2013/ZR_1213_forOU_5-6.pdf",
+        "page": 2,
+        "size": [
+          127,
+          180
+        ],
+        "rect": [
+          483.234,
+          181.554,
+          536.766,
+          257.526
+        ],
+        "task": "2013/5-6-vforou/56"
+      }
+    ]
+  },
+  {
+    "id": "fleece-0645",
+    "title": "Self-Portrait in a Rolling Mill",
+    "source": "https://germanhistorydocs.org/en/forging-an-empire-bismarckian-germany-1866-1890/adolph-menzel-self-portrait-in-a-rolling-mill-1872",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "author": "Adolph von Menzel",
+    "nativeSize": [
+      951,
+      1200
+    ],
+    "size": [
+      882,
+      1131
+    ],
+    "substitute": false,
+    "appendix": true,
+    "processing": "Убрано место с подписью художника. Рабочие, печь и колесо сохранены.",
+    "file": "fleece-0645.jpg",
+    "targets": [
+      {
+        "pdf": "2013/ZR_1213_540_5-6.pdf",
+        "page": 2,
+        "size": [
+          131,
+          169
+        ],
+        "rect": [
+          226.074,
+          181.974,
+          281.406,
+          253.026
+        ],
+        "task": "2013/5-6-v540/48"
+      },
+      {
+        "pdf": "2013/ZR_1213_780_5-6.pdf",
+        "page": 2,
+        "size": [
+          131,
+          169
+        ],
+        "rect": [
+          226.074,
+          181.974,
+          281.406,
+          253.026
+        ],
+        "task": "2013/5-6-v780/48"
+      },
+      {
+        "pdf": "2013/ZR_1213_KZ_5-6.pdf",
+        "page": 2,
+        "size": [
+          120,
+          155
+        ],
+        "rect": [
+          217.554,
+          177.054,
+          275.185,
+          251.046
+        ],
+        "task": "2013/5-6-vkz/48"
+      },
+      {
+        "pdf": "2013/ZR_1213_forOU_5-6.pdf",
+        "page": 2,
+        "size": [
+          131,
+          169
+        ],
+        "rect": [
+          226.074,
+          181.974,
+          281.406,
+          253.026
+        ],
+        "task": "2013/5-6-vforou/48"
+      }
+    ]
+  },
+  {
+    "id": "fleece-0681",
+    "title": "Бал в Новом дворце. 1829 год",
+    "source": "https://www.hermitagemuseum.org/wps/portal/hermitage/digital-collection/02.%2Bdrawings/294353",
+    "author": "Adolph von Menzel",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "nativeSize": [
+      1849,
+      1451
+    ],
+    "catalog": "https://www.culture.ru/materials/132969/zabytye-baly-v-akvarelyakh",
+    "reproductionSource": "https://aria-art.ru/0/B/Bal/1.html",
+    "size": [
+      1849,
+      1451
+    ],
+    "substitute": true,
+    "appendix": true,
+    "processing": "Редакционная замена на другое произведение того же художника. В буклете сохранена иллюстрация организатора.",
+    "substituteLabel": "В версии для чтения показана другая работа того же художника.",
+    "file": "fleece-0681.jpg",
+    "targets": [
+      {
+        "pdf": "2013/ZR_1213_540_7-8.pdf",
+        "page": 2,
+        "size": [
+          161,
+          125
+        ],
+        "rect": [
+          212.994,
+          127.914,
+          280.806,
+          180.366
+        ],
+        "task": "2013/7-8-v540/47",
+        "appendixOnly": true
+      },
+      {
+        "pdf": "2013/ZR_1213_780_7-8.pdf",
+        "page": 2,
+        "size": [
+          161,
+          125
+        ],
+        "rect": [
+          212.994,
+          127.914,
+          280.806,
+          180.366
+        ],
+        "task": "2013/7-8-v780/47",
+        "appendixOnly": true
+      },
+      {
+        "pdf": "2013/ZR_1213_KZ_7-8.pdf",
+        "page": 2,
+        "size": [
+          147,
+          114
+        ],
+        "rect": [
+          203.994,
+          120.594,
+          274.547,
+          175.266
+        ],
+        "task": "2013/7-8-vkz/47",
+        "appendixOnly": true
+      },
+      {
+        "pdf": "2013/ZR_1213_forOU_7-8.pdf",
+        "page": 2,
+        "size": [
+          161,
+          125
+        ],
+        "rect": [
+          212.994,
+          127.914,
+          280.806,
+          180.366
+        ],
+        "task": "2013/7-8-vforou/47",
+        "appendixOnly": true
+      }
+    ]
+  },
+  {
+    "id": "fleece-0689",
+    "title": "Catalan: La batalla d'Alexandre a Issos The Battle of Alexander at Issus title QS:P1476,ca:\"La batalla d'Alexandre a Issos \" label QS:Lca,\"La batalla d'Alexandre a Issos \" label QS:Les,\"La batalla de Alejandro en Issos\" label QS:Lfr,\"La Bataille d'Alexandre\" label QS:Lvi,\"Trận đánh của Alexandros\" label QS:Lmk,\"Александровата битка\" label QS:Leo,\"La Batalo de Aleksandro ĉe Iso\" label QS:Lsr-ec,\"Александрова победа\" label QS:Lfa,\"نبرد اسکندر در ایسوس\" label QS:Lru,\"Битва Александра\" label QS:Larz,\"معركه الاسكندر فى اسوس\" label QS:Lde,\"Die Alexanderschlacht\" label QS:Lpt,\"A Batalha de Alexandre em Isso\" label QS:Lsr,\"Александрова победа\" label QS:Lhy,\"Ալեքսանդրիայի ճակատամարտը\" label QS:Lzh,\"亞歷山大之戰\" label QS:Lda,\"Alexanderslaget\" label QS:Lro,\"Bătălia lui Alexandru\" label QS:Lja,\"アレクサンダー大王の戦い\" label QS:Lit,\"Battaglia di Alessandro e Dario a Isso\" label QS:Lha,\"Yaƙin Alexander a Issus\" label QS:Lid,\"Pertempuran Alexander di Issus\" label QS:Lpl,\"Zwycięstwo Aleksandra Wielkiego\" label QS:Luk,\"Битва Александра\" label QS:Lnl,\"Slacht tussen Alexander en Darius in Issus\" label QS:Lel,\"Μάχη του Αλεξάνδρου στην Ισσό\" label QS:Lcs,\"Die Alexanderschlacht\" label QS:Lko,\"알렉산드로스 대왕의 이소스 전투\" label QS:Len,\"The Battle of Alexander at Issus\" label QS:Lar,\"معركة الإسكندر في إسوس\"",
+    "source": "https://commons.wikimedia.org/wiki/File:Albrecht_Altdorfer_-_Schlacht_bei_Issus_(Alte_Pinakothek,_M%C3%BCnchen)_-_Google_Art_Project.jpg",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Albrecht Altdorfer",
+    "size": [
+      1837,
+      2400
+    ],
+    "nativeSize": [
+      3840,
+      5017
+    ],
+    "substitute": false,
+    "appendix": true,
+    "processing": "Уменьшение для буклета.",
+    "file": "fleece-0689.jpg",
+    "targets": [
+      {
+        "pdf": "2013/ZR_1213_540_7-8.pdf",
+        "page": 2,
+        "size": [
+          125,
+          165
+        ],
+        "rect": [
+          228.174,
+          367.614,
+          280.866,
+          436.686
+        ],
+        "task": "2013/7-8-v540/51",
+        "appendixOnly": true
+      },
+      {
+        "pdf": "2013/ZR_1213_780_7-8.pdf",
+        "page": 2,
+        "size": [
+          125,
+          165
+        ],
+        "rect": [
+          228.174,
+          367.614,
+          280.866,
+          436.686
+        ],
+        "task": "2013/7-8-v780/51",
+        "appendixOnly": true
+      },
+      {
+        "pdf": "2013/ZR_1213_KZ_7-8.pdf",
+        "page": 2,
+        "size": [
+          114,
+          150
+        ],
+        "rect": [
+          219.834,
+          370.674,
+          274.561,
+          442.686
+        ],
+        "task": "2013/7-8-vkz/51",
+        "appendixOnly": true
+      },
+      {
+        "pdf": "2013/ZR_1213_forOU_7-8.pdf",
+        "page": 2,
+        "size": [
+          125,
+          165
+        ],
+        "rect": [
+          228.174,
+          367.614,
+          280.866,
+          436.686
+        ],
+        "task": "2013/7-8-vforou/51",
+        "appendixOnly": true
+      }
+    ]
+  },
+  {
+    "id": "fleece-0695",
+    "title": "Ankeruhr, Hoher Markt, Vienna",
+    "source": "https://commons.wikimedia.org/wiki/File:Ankeruhr,_Hoher_Markt,_Vienna.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Thomas Ledl",
+    "size": [
+      2400,
+      2400
+    ],
+    "nativeSize": [
+      3141,
+      3141
+    ],
+    "substitute": true,
+    "appendix": true,
+    "processing": "Уменьшение для буклета.",
+    "file": "fleece-0695.jpg",
+    "targets": [
+      {
+        "pdf": "2013/ZR_1213_540_9-11.pdf",
+        "page": 1,
+        "size": [
+          162,
+          126
+        ],
+        "rect": [
+          724.794,
+          275.814,
+          793.086,
+          328.686
+        ],
+        "task": "2013/9-11-v540/41",
+        "appendixOnly": true
+      },
+      {
+        "pdf": "2013/ZR_1213_780_9-11.pdf",
+        "page": 1,
+        "size": [
+          162,
+          126
+        ],
+        "rect": [
+          724.794,
+          275.814,
+          793.086,
+          328.686
+        ],
+        "task": "2013/9-11-v780/41",
+        "appendixOnly": true
+      },
+      {
+        "pdf": "2013/ZR_1213_KZ_9-11.pdf",
+        "page": 1,
+        "size": [
+          154,
+          112
+        ],
+        "rect": [
+          738.114,
+          274.974,
+          809.518,
+          330.006
+        ],
+        "task": "2013/9-11-vkz/41",
+        "appendixOnly": true
+      },
+      {
+        "pdf": "2013/ZR_1213_forOU_9-11.pdf",
+        "page": 1,
+        "size": [
+          162,
+          126
+        ],
+        "rect": [
+          724.794,
+          275.814,
+          793.086,
+          328.686
+        ],
+        "task": "2013/9-11-vforou/41",
+        "appendixOnly": true
+      }
+    ]
+  },
+  {
+    "id": "fleece-0704",
+    "title": "Innsbruck - painting of Albrecht Dürer",
+    "source": "https://commons.wikimedia.org/wiki/File:Innsbruck_-_painting_of_Albrecht_D%C3%BCrer.jpg",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Albrecht Dürer",
+    "size": [
+      956,
+      640
+    ],
+    "nativeSize": [
+      956,
+      640
+    ],
+    "substitute": false,
+    "appendix": true,
+    "processing": "Монограмма художника закрыта, рукописное название города сохранено.",
+    "file": "fleece-0704.jpg",
+    "targets": [
+      {
+        "pdf": "2013/ZR_1213_540_9-11.pdf",
+        "page": 2,
+        "size": [
+          185,
+          125
+        ],
+        "rect": [
+          202.674,
+          133.794,
+          280.866,
+          186.426
+        ],
+        "task": "2013/9-11-v540/47"
+      },
+      {
+        "pdf": "2013/ZR_1213_780_9-11.pdf",
+        "page": 2,
+        "size": [
+          185,
+          125
+        ],
+        "rect": [
+          202.674,
+          133.794,
+          280.866,
+          186.426
+        ],
+        "task": "2013/9-11-v780/47"
+      },
+      {
+        "pdf": "2013/ZR_1213_KZ_9-11.pdf",
+        "page": 2,
+        "size": [
+          170,
+          114
+        ],
+        "rect": [
+          193.134,
+          126.774,
+          274.799,
+          181.446
+        ],
+        "task": "2013/9-11-vkz/47"
+      },
+      {
+        "pdf": "2013/ZR_1213_forOU_9-11.pdf",
+        "page": 2,
+        "size": [
+          185,
+          125
+        ],
+        "rect": [
+          202.674,
+          133.794,
+          280.866,
+          186.426
+        ],
+        "task": "2013/9-11-vforou/47"
+      }
+    ]
+  },
+  {
+    "id": "fleece-0707",
+    "title": "Die Konservenmacherinnen",
+    "source": "https://commons.wikimedia.org/wiki/File:Leipzig,_Museum_der_bildenden_K%C3%BCnste,_Max_Liebermann,_die_Konservenmacherinnen.jpg",
+    "author": "Max Liebermann, фото Dguendel",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "nativeSize": [
+      3917,
+      2908
+    ],
+    "size": [
+      2400,
+      1782
+    ],
+    "substitute": false,
+    "appendix": true,
+    "processing": "Уменьшение для буклета.",
+    "file": "fleece-0707.jpg",
+    "targets": [
+      {
+        "pdf": "2013/ZR_1213_540_9-11.pdf",
+        "page": 2,
+        "size": [
+          160,
+          121
+        ],
+        "rect": [
+          213.294,
+          256.314,
+          280.866,
+          307.266
+        ],
+        "task": "2013/9-11-v540/49"
+      },
+      {
+        "pdf": "2013/ZR_1213_780_9-11.pdf",
+        "page": 2,
+        "size": [
+          160,
+          121
+        ],
+        "rect": [
+          213.294,
+          256.314,
+          280.866,
+          307.266
+        ],
+        "task": "2013/9-11-v780/49"
+      },
+      {
+        "pdf": "2013/ZR_1213_KZ_9-11.pdf",
+        "page": 2,
+        "size": [
+          147,
+          111
+        ],
+        "rect": [
+          201.954,
+          252.774,
+          272.487,
+          305.826
+        ],
+        "task": "2013/9-11-vkz/49"
+      },
+      {
+        "pdf": "2013/ZR_1213_forOU_9-11.pdf",
+        "page": 2,
+        "size": [
+          160,
+          121
+        ],
+        "rect": [
+          213.294,
+          256.314,
+          280.866,
+          307.266
+        ],
+        "task": "2013/9-11-vforou/49"
+      }
+    ]
+  },
+  {
+    "id": "fleece-0981",
+    "pdf": "2014/ZR_1314_KZ_9-11.pdf",
+    "page": 1,
+    "rect": [
+      471.385,
+      498.648,
+      551.339,
+      563.475
+    ],
+    "size": [
+      333,
+      270
+    ],
+    "targets": [
+      {
+        "pdf": "2014/ZR_1314_540_9-11.pdf",
+        "page": 1,
+        "size": [
+          168,
+          136
+        ],
+        "rect": [
+          746.018,
+          23.36,
+          826.534,
+          88.304
+        ],
+        "task": "2014/9-11-v540/22"
+      },
+      {
+        "pdf": "2014/ZR_1314_780_9-11.pdf",
+        "page": 1,
+        "size": [
+          168,
+          136
+        ],
+        "rect": [
+          746.018,
+          23.36,
+          826.534,
+          88.304
+        ],
+        "task": "2014/9-11-v780/22"
+      },
+      {
+        "pdf": "2014/ZR_1314_forOU_9-11.pdf",
+        "page": 1,
+        "size": [
+          168,
+          136
+        ],
+        "rect": [
+          746.018,
+          23.36,
+          826.534,
+          88.304
+        ],
+        "task": "2014/9-11-vforou/22"
+      }
+    ]
+  },
+  {
+    "id": "fleece-0983",
+    "title": "Spanish: Las Meninas The Maids of Honour title QS:P1476,es:\"Las Meninas\" label QS:Les,\"Las Meninas\" label QS:Lsk,\"Dvorné dámy\" label QS:Lcs,\"Dvorní dámy\" label QS:Lfr,\"Les Ménines\" label QS:Lsr,\"Лас менинас\" label QS:Lzh,\"宮女\" label QS:Lko,\"시녀들\" label QS:Llv,\"Galminieces\" label QS:Len,\"The Maids of Honour\" label QS:Lru,\"Менины\" label QS:Lde,\"Die Hoffräulein\" label QS:Lpl,\"Panny dworskie\" label QS:Lja,\"ラス・メニーナス\"",
+    "source": "https://commons.wikimedia.org/wiki/File:Las_Meninas,_by_Diego_Vel%C3%A1zquez,_from_Prado_in_Google_Earth.jpg",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Diego Velázquez",
+    "size": [
+      2085,
+      2400
+    ],
+    "nativeSize": [
+      3840,
+      4420
+    ],
+    "substitute": false,
+    "appendix": true,
+    "processing": "Уменьшение для буклета.",
+    "file": "fleece-0983.jpg",
+    "targets": [
+      {
+        "pdf": "2014/ZR_1314_540_9-11.pdf",
+        "page": 1,
+        "size": [
+          140,
+          160
+        ],
+        "rect": [
+          758.738,
+          126.68,
+          825.978,
+          203.264
+        ],
+        "task": "2014/9-11-v540/24"
+      },
+      {
+        "pdf": "2014/ZR_1314_780_9-11.pdf",
+        "page": 1,
+        "size": [
+          140,
+          160
+        ],
+        "rect": [
+          758.738,
+          126.68,
+          825.978,
+          203.264
+        ],
+        "task": "2014/9-11-v780/24"
+      },
+      {
+        "pdf": "2014/ZR_1314_forOU_9-11.pdf",
+        "page": 1,
+        "size": [
+          140,
+          160
+        ],
+        "rect": [
+          758.738,
+          126.68,
+          825.978,
+          203.264
+        ],
+        "task": "2014/9-11-vforou/24"
+      }
+    ]
+  },
+  {
+    "id": "fleece-1060",
+    "source": "https://commons.wikimedia.org/wiki/File:Bosch_-_Haywain_Triptych_(1512-1515).jpg",
+    "size": [
+      2400,
+      1683
+    ],
+    "title": "The Haywain Triptych",
+    "author": "Hieronymus Bosch",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "appendix": true,
+    "substitute": false,
+    "file": "fleece-1060.jpg",
+    "targets": [
+      {
+        "pdf": "2015/ZR_1415_3-4.pdf",
+        "page": 2,
+        "size": [
+          38,
+          110
+        ],
+        "rect": [
+          467.628,
+          471.33,
+          485.839,
+          523.794
+        ],
+        "task": "2015/3-4/59",
+        "appendixOnly": true
+      },
+      {
+        "pdf": "2015/ZR_1415_3-4.pdf",
+        "page": 2,
+        "size": [
+          85,
+          110
+        ],
+        "rect": [
+          488.305,
+          471.33,
+          529.041,
+          523.794
+        ],
+        "task": "2015/3-4/59",
+        "appendixOnly": true
+      },
+      {
+        "pdf": "2015/ZR_1415_3-4.pdf",
+        "page": 2,
+        "size": [
+          37,
+          110
+        ],
+        "rect": [
+          531.581,
+          471.33,
+          549.313,
+          523.794
+        ],
+        "task": "2015/3-4/59",
+        "appendixOnly": true
+      },
+      {
+        "pdf": "2015/ZR_1415_7-8.pdf",
+        "page": 2,
+        "size": [
+          44,
+          130
+        ],
+        "rect": [
+          452.988,
+          251.01,
+          474.119,
+          312.954
+        ],
+        "task": "2015/7-8/56",
+        "appendixOnly": true
+      },
+      {
+        "pdf": "2015/ZR_1415_7-8.pdf",
+        "page": 2,
+        "size": [
+          100,
+          130
+        ],
+        "rect": [
+          477.379,
+          251.01,
+          525.404,
+          312.954
+        ],
+        "task": "2015/7-8/56",
+        "appendixOnly": true
+      },
+      {
+        "pdf": "2015/ZR_1415_7-8.pdf",
+        "page": 2,
+        "size": [
+          44,
+          130
+        ],
+        "rect": [
+          528.428,
+          251.01,
+          549.559,
+          312.954
+        ],
+        "task": "2015/7-8/56",
+        "appendixOnly": true
+      }
+    ]
+  },
+  {
+    "id": "fleece-1115",
+    "source": "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_Children%E2%80%99s_Games_-_Google_Art_Project.jpg",
+    "size": [
+      2400,
+      1743
+    ],
+    "title": "Children's Games (Bruegel)",
+    "author": "Pieter Bruegel the Elder",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "appendix": true,
+    "substitute": false,
+    "file": "fleece-1115.jpg",
+    "targets": [
+      {
+        "pdf": "2015/ZR_1415_5-6.pdf",
+        "page": 2,
+        "size": [
+          168,
+          124
+        ],
+        "rect": [
+          468.708,
+          30.09,
+          549.224,
+          89.394
+        ],
+        "task": "2015/5-6/53"
+      }
+    ]
+  },
+  {
+    "id": "fleece-1132",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg",
+    "size": [
+      2400,
+      1200
+    ],
+    "title": "The Last Supper (Leonardo)",
+    "author": "Leonardo da Vinci",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "appendix": true,
+    "substitute": false,
+    "file": "fleece-1132.jpg",
+    "targets": [
+      {
+        "pdf": "2015/ZR_1415_7-8.pdf",
+        "page": 2,
+        "size": [
+          226,
+          124
+        ],
+        "rect": [
+          163.068,
+          44.85,
+          271.692,
+          104.034
+        ],
+        "task": "2015/7-8/46"
+      }
+    ]
+  },
+  {
+    "id": "fleece-1133",
+    "source": "https://commons.wikimedia.org/wiki/File:%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg",
+    "size": [
+      2400,
+      1862
+    ],
+    "title": "The School of Athens",
+    "author": "Raphael",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "appendix": true,
+    "substitute": false,
+    "file": "fleece-1133.jpg",
+    "targets": [
+      {
+        "pdf": "2015/ZR_1415_7-8.pdf",
+        "page": 2,
+        "size": [
+          224,
+          143
+        ],
+        "rect": [
+          163.788,
+          204.33,
+          271.332,
+          272.874
+        ],
+        "task": "2015/7-8/48"
+      }
+    ]
+  },
+  {
+    "id": "fleece-1134",
+    "source": "https://commons.wikimedia.org/wiki/File:Da_Vinci_Vitruve_Luc_Viatour.jpg",
+    "size": [
+      1765,
+      2400
+    ],
+    "title": "Vitruvian Man",
+    "author": "Leonardo da Vinci",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "appendix": true,
+    "substitute": false,
+    "file": "fleece-1134.jpg",
+    "targets": [
+      {
+        "pdf": "2015/ZR_1415_7-8.pdf",
+        "page": 2,
+        "size": [
+          128,
+          174
+        ],
+        "rect": [
+          209.868,
+          112.65,
+          271.332,
+          196.194
+        ],
+        "task": "2015/7-8/47"
+      }
+    ]
+  },
+  {
+    "id": "fleece-1153",
+    "source": "https://commons.wikimedia.org/wiki/File:At_the_right_end_of_the_Loggia_dei_Lanzi_(13356760625).jpg",
+    "size": [
+      963,
+      1024
+    ],
+    "title": "Piazza della Signoria",
+    "author": "Patrick Nielsen Hayden from Brooklyn, NY",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "appendix": true,
+    "substitute": true,
+    "file": "fleece-1153.jpg",
+    "targets": [
+      {
+        "pdf": "2015/ZR_1415_9-11.pdf",
+        "page": 2,
+        "size": [
+          171,
+          115
+        ],
+        "rect": [
+          190.073,
+          50.379,
+          272.28,
+          105.469
+        ],
+        "task": "2015/9-11/46",
+        "appendixOnly": true
+      }
+    ]
+  },
+  {
+    "id": "fleece-1196",
+    "title": "Russian: «Запорожцы» The Zaporozhian Cossacks write a letter to the Sultan of Turkey title QS:P1476,ru:\"Запорожцы\" label QS:Lru,\"Запорожцы\" label QS:Ltr,\"Zaporojtsi: Türk sultanına mektubu yazan Zaporojya Kazakları adıyla da bilinen tablo. Etnolog Dmitri Yavorinitski'nin araştırmasından esinlenen İlya Repin, 1880'de skeçe başladı ve 1891'de tamamladı. (Rusya Müzesi, Sankt Petersburg)\" label QS:Luk,\"Запорожці\" label QS:Lfr,\"Les Cosaques zaporogues écrivant une lettre au sultan de Turquie\" label QS:Len,\"The Zaporozhian Cossacks write a letter to the Sultan of Turkey\" label QS:Lfi,\"Zaporogit kirjoittavat pilkkakirjettä Turkin sulttaanille\" label QS:Lde,\"Die Saporoger Kosaken schreiben dem türkischen Sultan einen Brief\" label QS:Lit,\"I cosacchi di Zaporižžja scrivono una lettera al Sultano di Turchia\" label QS:Les,\"Los cosacos Zaporogos le escriben una carta al Sultán de Turquía\" label QS:Lpl,\"Zaporożcy piszą do sułtana tureckiego\" label QS:Lpt,\"A Resposta dos Cossacos Zaporogos ao Sultão da Turquia\"",
+    "source": "https://commons.wikimedia.org/wiki/File:Repin_Cossacks.jpg",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Ilya Repin",
+    "size": [
+      2202,
+      1300
+    ],
+    "nativeSize": [
+      2202,
+      1300
+    ],
+    "substitute": false,
+    "appendix": true,
+    "processing": "Уменьшение для буклета.",
+    "file": "fleece-1196.jpg",
+    "targets": [
+      {
+        "pdf": "2016/3-4_1.pdf",
+        "page": 2,
+        "size": [
+          168,
+          97
+        ],
+        "rect": [
+          191.868,
+          505.384,
+          272.384,
+          551.608
+        ],
+        "task": "2016/3-4-v1/51"
+      },
+      {
+        "pdf": "2016/3-4_2.pdf",
+        "page": 2,
+        "size": [
+          168,
+          97
+        ],
+        "rect": [
+          191.868,
+          505.384,
+          272.384,
+          551.608
+        ],
+        "task": "2016/3-4-v2/51"
+      },
+      {
+        "pdf": "2022/zr_2122_zadanija_lq_1-2.pdf",
+        "page": 1,
+        "size": [
+          227,
+          135
+        ],
+        "rect": [
+          724.367,
+          133.21,
+          833.168,
+          197.578
+        ],
+        "task": "2022/1-2/14"
+      }
+    ]
+  },
+  {
+    "id": "fleece-1199",
+    "title": "Vereshchagin. Defense of the Trinity",
+    "source": "https://commons.wikimedia.org/wiki/File:Vereshchagin._Defense_of_the_Trinity.jpg",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Vasily Vereshchagin",
+    "size": [
+      2268,
+      1400
+    ],
+    "nativeSize": [
+      2268,
+      1400
+    ],
+    "substitute": false,
+    "appendix": true,
+    "processing": "Уменьшение для буклета.",
+    "file": "fleece-1199.jpg",
+    "targets": [
+      {
+        "pdf": "2016/3-4_1.pdf",
+        "page": 2,
+        "size": [
+          168,
+          104
+        ],
+        "rect": [
+          469.668,
+          345.064,
+          550.184,
+          394.648
+        ],
+        "task": "2016/3-4-v1/57"
+      },
+      {
+        "pdf": "2016/3-4_2.pdf",
+        "page": 2,
+        "size": [
+          168,
+          104
+        ],
+        "rect": [
+          469.668,
+          345.064,
+          550.184,
+          394.648
+        ],
+        "task": "2016/3-4-v2/57"
+      }
+    ]
+  },
+  {
+    "id": "fleece-1213",
+    "size": [
+      894,
+      1200
+    ],
+    "nativeSize": [
+      894,
+      1200
+    ],
+    "title": "Св. Параскева Пятница с Великомученицами Екатериной и Варварой",
+    "author": "Пермская государственная художественная галерея",
+    "source": "https://bogi.permartmuseum.ru/sculpture/205",
+    "license": "Фотографии Пермской государственной художественной галереи",
+    "licenseUrl": "",
+    "substitute": false,
+    "appendix": true,
+    "processing": "Уменьшение для буклета.",
+    "detailFile": "fleece-1213-detail.jpg",
+    "detailLabel": "Фрагмент со свитком",
+    "detailNativeSize": [
+      273,
+      625
+    ],
+    "file": "fleece-1213.jpg",
+    "targets": [
+      {
+        "pdf": "2016/5-6_1.pdf",
+        "page": 1,
+        "size": [
+          112,
+          157
+        ],
+        "rect": [
+          773.988,
+          156.664,
+          827.829,
+          232.048
+        ],
+        "task": "2016/5-6-v1/33"
+      },
+      {
+        "pdf": "2016/5-6_2.pdf",
+        "page": 1,
+        "size": [
+          114,
+          160
+        ],
+        "rect": [
+          773.268,
+          155.704,
+          828.071,
+          232.048
+        ],
+        "task": "2016/5-6-v2/33"
+      }
+    ]
+  },
+  {
+    "id": "fleece-1216",
+    "title": "Russian: «Боярыня Морозова» Boyarina Morozova title QS:P1476,ru:\"Боярыня Морозова\" label QS:Lru,\"Боярыня Морозова\" label QS:Len,\"Boyarina Morozova\"",
+    "source": "https://commons.wikimedia.org/wiki/File:Vasily_Surikov_-_%D0%91%D0%BE%D1%8F%D1%80%D1%8B%D0%BD%D1%8F_%D0%9C%D0%BE%D1%80%D0%BE%D0%B7%D0%BE%D0%B2%D0%B0_-_Google_Art_Project.jpg",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Vasily Surikov",
+    "size": [
+      2400,
+      1236
+    ],
+    "nativeSize": [
+      3840,
+      1977
+    ],
+    "substitute": false,
+    "appendix": true,
+    "processing": "Уменьшение для буклета.",
+    "file": "fleece-1216.jpg",
+    "targets": [
+      {
+        "pdf": "2016/5-6_1.pdf",
+        "page": 2,
+        "size": [
+          202,
+          105
+        ],
+        "rect": [
+          175.308,
+          516.064,
+          272.412,
+          566.488
+        ],
+        "task": "2016/5-6-v1/51"
+      },
+      {
+        "pdf": "2016/5-6_2.pdf",
+        "page": 2,
+        "size": [
+          202,
+          105
+        ],
+        "rect": [
+          175.308,
+          516.064,
+          272.412,
+          566.488
+        ],
+        "task": "2016/5-6-v2/51"
+      }
+    ]
+  },
+  {
+    "id": "fleece-1217",
+    "source": "https://commons.wikimedia.org/wiki/File:Myasoyedov_G._Begstvo_Grigoriya_Otrepeva_iz_korchmyi_na_litovskoy_granitse.jpg",
+    "size": [
+      1200,
+      759
+    ],
+    "title": "Григорий Отрепьев, Мясоедов",
+    "author": "Grigoriy Myasoyedov",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "appendix": true,
+    "file": "fleece-1217.jpg",
+    "targets": [
+      {
+        "pdf": "2016/5-6_1.pdf",
+        "page": 2,
+        "size": [
+          202,
+          128
+        ],
+        "rect": [
+          452.868,
+          303.424,
+          549.852,
+          364.768
+        ],
+        "task": "2016/5-6-v1/57"
+      },
+      {
+        "pdf": "2016/5-6_2.pdf",
+        "page": 2,
+        "size": [
+          202,
+          128
+        ],
+        "rect": [
+          452.868,
+          303.424,
+          549.852,
+          364.768
+        ],
+        "task": "2016/5-6-v2/57"
+      },
+      {
+        "pdf": "2022/zr_2122_zadanija_lq_5-7.pdf",
+        "page": 2,
+        "size": [
+          232,
+          147
+        ],
+        "rect": [
+          166.467,
+          383.169,
+          277.509,
+          453.257
+        ],
+        "task": "2022/5-7/34"
+      }
+    ]
+  },
+  {
+    "id": "fleece-1236",
+    "pdf": "2026/zr_2526_stolicy_quest_5-7.pdf",
+    "page": 1,
+    "rect": [
+      761.069,
+      292.976,
+      833.386,
+      396.046
+    ],
+    "size": [
+      301,
+      429
+    ],
+    "targets": [
+      {
+        "pdf": "2016/7-8_1.pdf",
+        "page": 2,
+        "size": [
+          128,
+          187
+        ],
+        "rect": [
+          488.388,
+          84.664,
+          549.852,
+          174.208
+        ],
+        "task": "2016/7-8-v1/52",
+        "crop": [
+          0,
+          3,
+          293,
+          426
+        ]
+      },
+      {
+        "pdf": "2016/7-8_2.pdf",
+        "page": 2,
+        "size": [
+          128,
+          187
+        ],
+        "rect": [
+          488.388,
+          84.664,
+          549.852,
+          174.208
+        ],
+        "task": "2016/7-8-v2/52",
+        "crop": [
+          0,
+          3,
+          293,
+          426
+        ]
+      },
+      {
+        "pdf": "2022/zr_2122_zadanija_lq_5-7.pdf",
+        "page": 2,
+        "size": [
+          140,
+          199
+        ],
+        "rect": [
+          491.419,
+          73.983,
+          558.285,
+          169.13
+        ],
+        "task": "2022/5-7/38"
+      }
+    ]
+  },
+  {
+    "id": "fleece-1248",
+    "size": [
+      919,
+      1200
+    ],
+    "nativeSize": [
+      919,
+      1200
+    ],
+    "title": "Призвание Михаила Фёдоровича Романова на царство",
+    "author": "Григорий Угрюмов",
+    "source": "https://rusmuseumvrm.ru/data/collections/painting/18_19/zh-5054/?lang=en",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "substitute": false,
+    "appendix": true,
+    "processing": "Уменьшение для буклета.",
+    "file": "fleece-1248.jpg",
+    "targets": [
+      {
+        "pdf": "2016/9-11_1.pdf",
+        "page": 2,
+        "size": [
+          128,
+          181
+        ],
+        "rect": [
+          488.508,
+          145.864,
+          549.972,
+          232.168
+        ],
+        "task": "2016/9-11-v1/53"
+      },
+      {
+        "pdf": "2016/9-11_2.pdf",
+        "page": 2,
+        "size": [
+          128,
+          181
+        ],
+        "rect": [
+          488.508,
+          145.864,
+          549.972,
+          232.168
+        ],
+        "task": "2016/9-11-v2/53"
+      }
+    ]
+  },
+  {
+    "id": "fleece-1342",
+    "size": [
+      1200,
+      674
+    ],
+    "nativeSize": [
+      1200,
+      674
+    ],
+    "title": "Военный совет в Филях",
+    "author": "Алексей Кившенко",
+    "source": "https://rusmuseumvrm.ru/data/collections/painting/19_20/kivshenko_a._d._voenniy_sovet_v_filyah_v_1812_godu._1880._zh-4176/index.php",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "substitute": false,
+    "appendix": true,
+    "processing": "Уменьшение для буклета.",
+    "file": "fleece-1342.jpg",
+    "targets": [
+      {
+        "pdf": "2018/ZR_1718_5-6_var_1.pdf",
+        "page": 1,
+        "size": [
+          194,
+          109
+        ],
+        "rect": [
+          194.148,
+          69.09,
+          287.259,
+          121.314
+        ],
+        "task": "2018/5-6-v1/1"
+      },
+      {
+        "pdf": "2018/ZR_1718_5-6_var_2.pdf",
+        "page": 1,
+        "size": [
+          194,
+          109
+        ],
+        "rect": [
+          194.148,
+          69.09,
+          287.259,
+          121.314
+        ],
+        "task": "2018/5-6-v2/1"
+      }
+    ]
+  },
+  {
+    "id": "fleece-1409",
+    "title": "Coat of arms of the United Kingdom (1837)",
+    "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_the_United_Kingdom_(1837).svg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Sodacan (ed. Safes007 )",
+    "size": [
+      2400,
+      2400
+    ],
+    "nativeSize": [
+      3840,
+      3840
+    ],
+    "substitute": false,
+    "appendix": true,
+    "processing": "Уменьшение для буклета.",
+    "file": "fleece-1409.jpg",
+    "targets": [
+      {
+        "pdf": "2019/ZR_1819_3-4_var1_.pdf",
+        "page": 1,
+        "size": [
+          138,
+          114
+        ],
+        "rect": [
+          212.148,
+          372.09,
+          278.41,
+          426.594
+        ],
+        "task": "2019/3-4-v1/7",
+        "appendixOnly": true
+      },
+      {
+        "pdf": "2019/zr_1819_3-4_var2_.pdf",
+        "page": 1,
+        "size": [
+          138,
+          114
+        ],
+        "rect": [
+          212.148,
+          372.09,
+          278.41,
+          426.594
+        ],
+        "task": "2019/3-4-v2/7",
+        "appendixOnly": true
+      }
+    ]
+  },
+  {
+    "id": "fleece-1518",
+    "title": "Reception of the French Ambassador in Venice title QS:P1476,en:\"Reception of the French Ambassador in Venice \" label QS:Len,\"Reception of the French Ambassador in Venice \" label QS:Les,\"Llegada del embajador francés a Venecia\" label QS:Lja,\"フランス大使のヴェネツィア到着\" label QS:Lfr,\"L'Arrivée de l'Ambassadeur français à Venise\" label QS:Lnl,\"Ankomst van de franse ambassadeur in Venetie\" label QS:Lde,\"Empfang des französischen Gesandten in Venedig\" label QS:Lru,\"Приём французского посла в Венеции\"",
+    "source": "https://commons.wikimedia.org/wiki/File:Canal,_Giovanni_Antonio_-_Reception_of_the_French_Ambassador_in_Venice_-_Hermitage_-_1726-1727.jpg",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Giovanni Antonio Canal",
+    "size": [
+      2400,
+      1594
+    ],
+    "nativeSize": [
+      3840,
+      2550
+    ],
+    "substitute": false,
+    "appendix": true,
+    "processing": "Уменьшение для буклета.",
+    "file": "fleece-1518.jpg",
+    "targets": [
+      {
+        "pdf": "2020/ZR_1920_quest_Standard_3-4.pdf",
+        "page": 1,
+        "size": [
+          209,
+          146
+        ],
+        "rect": [
+          733.308,
+          507.57,
+          833.526,
+          577.674
+        ],
+        "task": "2020/3-4/27"
+      }
+    ]
+  },
+  {
+    "id": "fleece-1525",
+    "size": [
+      1255,
+      757
+    ],
+    "nativeSize": [
+      1255,
+      757
+    ],
+    "title": "Фруктовая лавка",
+    "author": "Франс Снейдерс",
+    "source": "https://www.wga.hu/html_m/s/snyders/1/market1.html",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "substitute": false,
+    "appendix": true,
+    "processing": "Уменьшение для буклета.",
+    "file": "fleece-1525.jpg",
+    "targets": [
+      {
+        "pdf": "2020/ZR_1920_quest_Standard_3-4.pdf",
+        "page": 2,
+        "size": [
+          216,
+          130
+        ],
+        "rect": [
+          174.468,
+          71.61,
+          278.165,
+          133.794
+        ],
+        "task": "2020/3-4/28"
+      }
+    ]
+  },
+  {
+    "id": "fleece-1530",
+    "source": "https://commons.wikimedia.org/wiki/File:Jacob_Jordaens_-_The_Bean_King_(Hermitage).jpg",
+    "size": [
+      1998,
+      1523
+    ],
+    "title": "Праздник бобового короля, Эрмитаж",
+    "author": "Jacob Jordaens",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "appendix": true,
+    "file": "fleece-1530.jpg",
+    "targets": [
+      {
+        "pdf": "2020/ZR_1920_quest_Standard_5-6.pdf",
+        "page": 1,
+        "size": [
+          182,
+          134
+        ],
+        "rect": [
+          746.028,
+          297.33,
+          833.344,
+          361.194
+        ],
+        "task": "2020/5-6/23"
+      },
+      {
+        "pdf": "2020/ZR_1920_quest_Standard_7-8.pdf",
+        "page": 2,
+        "size": [
+          184,
+          140
+        ],
+        "rect": [
+          189.828,
+          122.49,
+          278.084,
+          189.594
+        ],
+        "task": "2020/7-8/29"
+      }
+    ]
+  },
+  {
+    "id": "fleece-1537",
+    "title": "Kustodiev - Congress of Comintern",
+    "source": "https://commons.wikimedia.org/wiki/File:Kustodiev_-_Congress_of_Comintern.JPG",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Boris Kustodiev",
+    "size": [
+      800,
+      384
+    ],
+    "nativeSize": [
+      800,
+      384
+    ],
+    "substitute": false,
+    "appendix": true,
+    "processing": "Уменьшение для буклета.",
+    "file": "fleece-1537.jpg",
+    "targets": [
+      {
+        "pdf": "2020/ZR_1920_quest_Standard_5-6.pdf",
+        "page": 2,
+        "size": [
+          293,
+          141
+        ],
+        "rect": [
+          417.948,
+          510.93,
+          558.697,
+          578.394
+        ],
+        "task": "2020/5-6/45"
+      }
+    ]
+  },
+  {
+    "id": "fleece-1552",
+    "title": "The Return of the Prodigal Son label QS:Lit,\"Ritorno del figliol prodigo\" label QS:Lfr,\"Le Retour du fils prodigue\" label QS:Let,\"Kadunud poja tagasitulek\" label QS:Lpl,\"Powrót syna marnotrawnego\" label QS:Lhe,\"שובו של הבן האובד\" label QS:Lnl,\"De terugkeer van de verloren zoon\" label QS:Lru,\"Возвращение блудного сына\" label QS:Lde,\"Die Rückkehr des verlorenen Sohnes\" label QS:Len,\"The Return of the Prodigal Son\" label QS:Luk,\"Повернення блудного сина\" label QS:Lmk,\"Враќањето на блудниот син\" label QS:Les,\"El retorno del hijo pródigo\"",
+    "source": "https://commons.wikimedia.org/wiki/File:Rembrandt_Harmensz._van_Rijn_-_The_Return_of_the_Prodigal_Son.jpg",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Rembrandt",
+    "size": [
+      1871,
+      2400
+    ],
+    "nativeSize": [
+      3840,
+      4925
+    ],
+    "substitute": false,
+    "appendix": true,
+    "processing": "Уменьшение для буклета.",
+    "file": "fleece-1552.jpg",
+    "targets": [
+      {
+        "pdf": "2020/ZR_1920_quest_Standard_9-11.pdf",
+        "page": 1,
+        "size": [
+          140,
+          179
+        ],
+        "rect": [
+          772.428,
+          368.25,
+          839.606,
+          453.954
+        ],
+        "task": "2020/9-11/25"
+      }
+    ]
+  },
+  {
+    "id": "fleece-1613",
+    "title": "Покорение Сибири Ермаком",
+    "source": "https://commons.wikimedia.org/wiki/File:Vasily_Surikov_-_Yermak%27s_Conquest_of_Siberia_-_Google_Art_Project.jpg",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Vasily Surikov",
+    "size": [
+      2400,
+      1118
+    ],
+    "nativeSize": [
+      3840,
+      1788
+    ],
+    "substitute": false,
+    "appendix": true,
+    "processing": "Уменьшение для буклета.",
+    "file": "fleece-1613.jpg",
+    "targets": [
+      {
+        "pdf": "2022/zr_2122_zadanija_lq_1-2.pdf",
+        "page": 1,
+        "size": [
+          256,
+          122
+        ],
+        "rect": [
+          149.052,
+          323.808,
+          271.893,
+          382.349
+        ],
+        "task": "2022/1-2/4"
+      },
+      {
+        "pdf": "2022/zr_2122_zadanija_lq_3-4.pdf",
+        "page": 1,
+        "size": [
+          269,
+          129
+        ],
+        "rect": [
+          149.168,
+          117.874,
+          277.809,
+          179.314
+        ],
+        "task": "2022/3-4/2"
+      }
+    ]
+  },
+  {
+    "id": "fleece-1649",
+    "title": "Переход Суворова через Альпы в 1799 году",
+    "source": "https://commons.wikimedia.org/wiki/File:Vasily_Surikov_-_Suvorov_Crossing_the_Alps_in_1799_-_Google_Art_Project.jpg",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Vasily Surikov",
+    "size": [
+      1788,
+      2400
+    ],
+    "nativeSize": [
+      3840,
+      5155
+    ],
+    "substitute": false,
+    "appendix": true,
+    "processing": "Уменьшение для буклета.",
+    "file": "fleece-1649.jpg",
+    "targets": [
+      {
+        "pdf": "2022/zr_2122_zadanija_lq_3-4.pdf",
+        "page": 1,
+        "size": [
+          154,
+          207
+        ],
+        "rect": [
+          204.066,
+          261.746,
+          277.795,
+          360.692
+        ],
+        "task": "2022/3-4/4"
+      }
+    ]
+  },
+  {
+    "id": "fleece-1662",
+    "title": "Минин на площади Нижнего Новгорода, призывающий народ к пожертвованиям",
+    "author": "Константин Маковский",
+    "source": "https://www.rmgallery.rusmuseumvrm.ru/ru/1477",
+    "size": [
+      1021,
+      1200
+    ],
+    "license": "Собрание Русского музея, Ж-1544",
+    "appendix": true,
+    "file": "fleece-1662.jpg",
+    "targets": [
+      {
+        "pdf": "2022/zr_2122_zadanija_lq_8-11.pdf",
+        "page": 1,
+        "size": [
+          185,
+          210
+        ],
+        "rect": [
+          469.782,
+          246.378,
+          558.425,
+          347.032
+        ],
+        "task": "2022/8-11/13"
+      }
+    ]
+  },
+  {
+    "id": "fleece-1770",
+    "title": "上海玻璃博物馆",
+    "source": "https://commons.wikimedia.org/wiki/File:%E4%B8%8A%E6%B5%B7%E7%8E%BB%E7%92%83%E5%8D%9A%E7%89%A9%E9%A6%86.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "Coolmanjackey",
+    "size": [
+      2400,
+      1596
+    ],
+    "nativeSize": [
+      3008,
+      2000
+    ],
+    "substitute": true,
+    "appendix": true,
+    "processing": "На вывеске закрыто слово, входящее в ответ.",
+    "substituteLabel": "Тот же объект, другой снимок. Часть названия закрыта.",
+    "file": "fleece-1770.jpg",
+    "targets": [
+      {
+        "pdf": "2023/zr_2223_quest_lq_5-7.pdf",
+        "page": 1,
+        "size": [
+          201,
+          132
+        ],
+        "rect": [
+          462.402,
+          102.79,
+          558.425,
+          165.686
+        ],
+        "task": "2023/5-7/12",
+        "crop": [
+          0,
+          0,
+          2400,
+          1596
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fleece-2446",
+    "title": "Памятник Афанасию Никитину в Феодосии",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%90%D1%84%D0%B0%D0%BD%D0%B0%D1%81%D0%B8%D0%B9_%D0%9D%D0%B8%D0%BA%D0%B8%D1%82%D0%B8%D0%BD.JPG",
+    "author": "Keenset",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "nativeSize": [
+      3000,
+      4000
+    ],
+    "size": [
+      1682,
+      2400
+    ],
+    "substitute": true,
+    "appendix": true,
+    "processing": "Фронтальный снимок того же памятника. Кадрирование, закрыты имя и название записок. Остальные строки таблички сохранены.",
+    "detailFile": "fleece-2446-detail.jpg",
+    "detailLabel": "Фрагмент таблички",
+    "detailNativeSize": [
+      936,
+      795
+    ],
+    "substituteLabel": "Тот же памятник, другой снимок. Часть надписи закрыта.",
+    "file": "fleece-2446.jpg",
+    "targets": [
+      {
+        "pdf": "2024/zadanija-5-7_klassy.pdf",
+        "page": 2,
+        "size": [
+          209,
+          295
+        ],
+        "rect": [
+          178.469,
+          437.244,
+          278.594,
+          578.428
+        ],
+        "task": "2024/5-7/23",
+        "crop": [
+          0,
+          0,
+          1682,
+          2400
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fleece-3058",
+    "size": [
+      1200,
+      802
+    ],
+    "nativeSize": [
+      1200,
+      802
+    ],
+    "title": "Перенесение священного ковра в Каире",
+    "author": "Константин Маковский",
+    "source": "https://rusmuseumvrm.ru/data/collections/painting/19_20/zh_4395/index.php?lang=ru",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "substitute": false,
+    "appendix": true,
+    "processing": "Уменьшение для буклета.",
+    "file": "fleece-3058.jpg",
+    "targets": [
+      {
+        "pdf": "2025/zr_2425_zadanija_8-11.pdf",
+        "page": 2,
+        "size": [
+          228,
+          153
+        ],
+        "rect": [
+          168.406,
+          386.22,
+          277.795,
+          459.387
+        ],
+        "task": "2025/8-11/24"
+      }
+    ]
+  }
+]

@@ -259,5 +259,43 @@
     "usage": "Репродукция из архивного задания организатора.",
     "previewMaxSide": 320,
     "processing": "Исходный JPEG сохранён побайтно. Для карточки сделано уменьшенное превью с теми же границами кадра."
+  },
+  "3-5/1-reading.webp": {
+    "src": "assets/golden-fleece/2006/3-5/1-reading.webp",
+    "detailSrc": "assets/golden-fleece/2006/3-5/1-reading-detail.webp",
+    "alt": "Овальная арена с ярусами арок и сломанным краем внешней стены.",
+    "width": 560,
+    "height": 375,
+    "source": "https://commons.wikimedia.org/wiki/File:Colosseum_April_2007.jpg",
+    "originalWidth": 2008,
+    "originalHeight": 1344,
+    "previewMaxSide": 560,
+    "masterSource": "fleece-0039.jpg",
+    "processing": "Кадрирование и уменьшение для буклета.",
+    "credit": {
+      "title": "Colosseum April 2007",
+      "author": "Eivind Mikkelsen",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+    }
+  },
+  "3-5/5-reading.webp": {
+    "src": "assets/golden-fleece/2006/3-5/5-reading.webp",
+    "detailSrc": "assets/golden-fleece/2006/3-5/5-reading-detail.webp",
+    "alt": "Купол с белыми рёбрами и отдельная высокая колокольня над крышами.",
+    "width": 560,
+    "height": 373,
+    "source": "https://commons.wikimedia.org/wiki/File:Florence_Cathedral_seen_from_Piazzale_Michelangelo_dllu.jpg",
+    "originalWidth": 1610,
+    "originalHeight": 1071,
+    "previewMaxSide": 560,
+    "masterSource": "fleece-0043.jpg",
+    "processing": "Кадрирование и уменьшение для буклета.",
+    "credit": {
+      "title": "Florence Cathedral seen from Piazzale Michelangelo dllu",
+      "author": "Dllu",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
   }
 }

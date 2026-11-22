@@ -1,0 +1,87 @@
+[
+  {
+    "original": "2015/chip_2014-15_3-4.pdf",
+    "year": "2015",
+    "label": "2015 · 3–4 классы",
+    "entries": [
+      {
+        "number": 21,
+        "page": 3,
+        "box": [
+          387.0,
+          67.7,
+          495.0,
+          149.4
+        ],
+        "panels": [
+          {
+            "file": "reading/figure-441.webp",
+            "credit": {
+              "source": "https://commons.wikimedia.org/wiki/File:Sirtaki_at_Accroches_coeurs.jpg",
+              "author": "Simon Bonaventure · Wikimedia Commons",
+              "license": "CC BY-SA 2.0 · creativecommons.org/licenses/by-sa/2.0/",
+              "processing": "Другой снимок того же танца, обрезано окружение."
+            },
+            "replacement": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "original": "2015/chip_2014-15_5-6.pdf",
+    "year": "2015",
+    "label": "2015 · 5–6 классы",
+    "entries": [
+      {
+        "number": 9,
+        "page": 1,
+        "box": [
+          49.7,
+          613.5,
+          142.5,
+          730.8
+        ],
+        "panels": [
+          {
+            "file": "reading/figure-450.webp",
+            "credit": {
+              "source": "https://commons.wikimedia.org/wiki/File:Vasily_Surikov_-_Suvorov_Crossing_the_Alps_in_1799_-_Google_Art_Project.jpg",
+              "author": "Василий Суриков · Государственный Русский музей",
+              "license": "Общественное достояние · Public Domain Mark 1.0",
+              "processing": "Репродукция уменьшена из цифрового мастер-файла."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "original": "2015/chip_2014-15_9-10.pdf",
+    "year": "2015",
+    "label": "2015 · 9–10 классы",
+    "entries": [
+      {
+        "number": 27,
+        "page": 3,
+        "box": [
+          437.5,
+          665.1,
+          539.0,
+          749.7
+        ],
+        "panels": [
+          {
+            "file": "reading/figure-482.png",
+            "credit": {
+              "source": "https://publ.lib.ru/ARCHIVES/F/FABR_Jan_Anri/%d4%e0%e1%f0%20%c6.%c0._%20%c8%ed%f1%f2%e8%ed%ea%f2%20%e8%20%ed%f0%e0%e2%fb%20%ed%e0%f1%e5%ea%ee%ec%fb%f5.%20%d2%ee%ec%201.(1906).pdf#page=71",
+              "author": "Гравюра из книги Ж.-А. Фабра «Инстинкт и нравы насекомых»",
+              "license": "Историческое издание 1906 года · общественное достояние.",
+              "processing": "Том I, с. 61, рис. 30. Кадр исходного скана без подписи."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -37,12 +37,7 @@
         "3"
       ],
       "page": 0,
-      "figure": [
-        305.29,
-        211.18,
-        394.12,
-        302.94
-      ],
+      "figureAsset": { "src": "assets/kenguru/illustrations/1997-square-acfe.svg", "width": 230, "height": 237 },
       "figureAlt": "Вершины квадрата от нижней левой по часовой стрелке A, B, C, D. Его диагональ AC — сторона наклонного прямоугольника ACFE, а D лежит на стороне EF"
     },
     {
@@ -149,12 +144,7 @@
         "не существует"
       ],
       "page": 1,
-      "figure": [
-        274.12,
-        199.41,
-        394.12,
-        255.29
-      ],
+      "figureAsset": { "src": "assets/kenguru/illustrations/1997-angle-algebra.svg", "width": 390, "height": 178 },
       "figureAlt": "У вершины сверху указан внутренний угол x + 1, у правого конца основания внутренний x − 1, у левого конца внешний 2x + 5"
     },
     {
@@ -279,12 +269,7 @@
         "40"
       ],
       "page": 2,
-      "figure": [
-        310.0,
-        233.53,
-        395.29,
-        318.24
-      ],
+      "figureAsset": { "src": "assets/kenguru/illustrations/1997-eight-cell-board.svg", "width": 260, "height": 260 },
       "figureAlt": "Квадратная сетка 8×8. Верхняя правая и нижняя левая четверти 4×4 закрашены, две остальные белые"
     },
     {

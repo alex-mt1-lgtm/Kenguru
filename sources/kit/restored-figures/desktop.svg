@@ -1,0 +1,299 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="542" viewBox="0 0 960 542">
+<rect x="0" y="0" width="960" height="542" fill="#3186ce" stroke="none" stroke-width="1" rx="0"/>
+<path d="M0 197Q300 171 492 207T960 218v180H0Z" fill="#67a9df" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M595 363Q732 307 861 326q49 4 99 -16v138H531Z" fill="#6796ad" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0 329Q214 278 449 316Q737 365 960 368v174H0Z" fill="#72a03f" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0 457Q222 455 386 433Q640 406 960 457v85H0Z" fill="#4f7f2f" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(22 151) scale(1.3)">
+<path d="M4 19Q0 13 14 12Q20 1 33 8Q46 1 54 13Q70 11 76 20Q78 29 36 27Q4 27 4 19Z" fill="#f7fbff" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(200 80) scale(0.85)">
+<path d="M4 19Q0 13 14 12Q20 1 33 8Q46 1 54 13Q70 11 76 20Q78 29 36 27Q4 27 4 19Z" fill="#f7fbff" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(515 211) scale(1.7)">
+<path d="M4 19Q0 13 14 12Q20 1 33 8Q46 1 54 13Q70 11 76 20Q78 29 36 27Q4 27 4 19Z" fill="#f7fbff" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(741 139) scale(0.9)">
+<path d="M4 19Q0 13 14 12Q20 1 33 8Q46 1 54 13Q70 11 76 20Q78 29 36 27Q4 27 4 19Z" fill="#f7fbff" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(840 54) scale(1.35)">
+<path d="M4 19Q0 13 14 12Q20 1 33 8Q46 1 54 13Q70 11 76 20Q78 29 36 27Q4 27 4 19Z" fill="#f7fbff" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(829 278) scale(1.3)">
+<path d="M4 19Q0 13 14 12Q20 1 33 8Q46 1 54 13Q70 11 76 20Q78 29 36 27Q4 27 4 19Z" fill="#f7fbff" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(276 233) scale(0.7)">
+<path d="M4 19Q0 13 14 12Q20 1 33 8Q46 1 54 13Q70 11 76 20Q78 29 36 27Q4 27 4 19Z" fill="#f7fbff" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(22 11)">
+<path d="M0 6h10l4 4h17v22H0Z" fill="#f4ca69" stroke="#674d23" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1 16h30" fill="none" stroke="#c5953f" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Документы</text>
+</g>
+<g transform="translate(100 11)">
+<rect x="1" y="3" width="31" height="29" fill="#535c78" stroke="#263b57" stroke-width="1" rx="5"/>
+<path d="M12 11l12 7l-12 7Z" fill="white" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Видео</text>
+</g>
+<g transform="translate(178 11)">
+<ellipse cx="16" cy="17" rx="15" ry="15" fill="#478fca" stroke="#214969" stroke-width="1"/>
+<path d="M7 23q16 2 17 -14m-18 9q5 -5 20 -5" fill="none" stroke="#f2f7fb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Браузер</text>
+</g>
+<g transform="translate(256 11)">
+<path d="M5 2h15l8 8v23H5Z" fill="#f4f7f8" stroke="#3d525e" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M20 2v9h7M9 16h15m-15 6h15m-15 5h10" fill="none" stroke="#61808f" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Проекты</text>
+</g>
+<g transform="translate(334 11)">
+<rect x="2" y="3" width="28" height="28" fill="#326f68" stroke="#274952" stroke-width="1" rx="5"/>
+<path d="M10 22l2 -10l11 -2v12m-13 0h3m7 0h3" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Музыка</text>
+</g>
+<g transform="translate(412 11)">
+<rect x="2" y="4" width="29" height="28" fill="#615884" stroke="#4d3e68" stroke-width="1" rx="5"/>
+<path d="M5 27l9 -12l6 8l5 -6l4 10Z" fill="#cdded8" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="23" cy="12" rx="3" ry="3" fill="#f6d082" stroke="none" stroke-width="1"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Фотографии</text>
+</g>
+<g transform="translate(22 78)">
+<ellipse cx="16" cy="17" rx="15" ry="15" fill="#478fca" stroke="#214969" stroke-width="1"/>
+<path d="M7 23q16 2 17 -14m-18 9q5 -5 20 -5" fill="none" stroke="#f2f7fb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Компьютер</text>
+</g>
+<g transform="translate(100 78)">
+<path d="M5 2h15l8 8v23H5Z" fill="#f4f7f8" stroke="#3d525e" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M20 2v9h7M9 16h15m-15 6h15m-15 5h10" fill="none" stroke="#61808f" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Загрузки</text>
+</g>
+<g transform="translate(178 78)">
+<rect x="2" y="3" width="28" height="28" fill="#326f68" stroke="#274952" stroke-width="1" rx="5"/>
+<path d="M10 22l2 -10l11 -2v12m-13 0h3m7 0h3" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Почта</text>
+</g>
+<g transform="translate(256 78)">
+<rect x="2" y="4" width="29" height="28" fill="#615884" stroke="#4d3e68" stroke-width="1" rx="5"/>
+<path d="M5 27l9 -12l6 8l5 -6l4 10Z" fill="#cdded8" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="23" cy="12" rx="3" ry="3" fill="#f6d082" stroke="none" stroke-width="1"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Рисунки</text>
+</g>
+<g transform="translate(334 78)">
+<path d="M0 6h10l4 4h17v22H0Z" fill="#f4ca69" stroke="#674d23" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1 16h30" fill="none" stroke="#c5953f" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Таблицы</text>
+</g>
+<g transform="translate(412 78)">
+<rect x="1" y="3" width="31" height="29" fill="#535c78" stroke="#263b57" stroke-width="1" rx="5"/>
+<path d="M12 11l12 7l-12 7Z" fill="white" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Архив</text>
+</g>
+<g transform="translate(22 145)">
+<rect x="2" y="3" width="28" height="28" fill="#326f68" stroke="#274952" stroke-width="1" rx="5"/>
+<path d="M10 22l2 -10l11 -2v12m-13 0h3m7 0h3" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Корзина</text>
+</g>
+<g transform="translate(100 145)">
+<rect x="2" y="4" width="29" height="28" fill="#615884" stroke="#4d3e68" stroke-width="1" rx="5"/>
+<path d="M5 27l9 -12l6 8l5 -6l4 10Z" fill="#cdded8" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="23" cy="12" rx="3" ry="3" fill="#f6d082" stroke="none" stroke-width="1"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Справка</text>
+</g>
+<g transform="translate(178 145)">
+<path d="M0 6h10l4 4h17v22H0Z" fill="#f4ca69" stroke="#674d23" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1 16h30" fill="none" stroke="#c5953f" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Текст</text>
+</g>
+<g transform="translate(256 145)">
+<rect x="1" y="3" width="31" height="29" fill="#535c78" stroke="#263b57" stroke-width="1" rx="5"/>
+<path d="M12 11l12 7l-12 7Z" fill="white" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Аудио</text>
+</g>
+<g transform="translate(334 145)">
+<ellipse cx="16" cy="17" rx="15" ry="15" fill="#478fca" stroke="#214969" stroke-width="1"/>
+<path d="M7 23q16 2 17 -14m-18 9q5 -5 20 -5" fill="none" stroke="#f2f7fb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Игры</text>
+</g>
+<g transform="translate(412 145)">
+<path d="M5 2h15l8 8v23H5Z" fill="#f4f7f8" stroke="#3d525e" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M20 2v9h7M9 16h15m-15 6h15m-15 5h10" fill="none" stroke="#61808f" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Заметки</text>
+</g>
+<g transform="translate(22 212)">
+<path d="M0 6h10l4 4h17v22H0Z" fill="#f4ca69" stroke="#674d23" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1 16h30" fill="none" stroke="#c5953f" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Календарь</text>
+</g>
+<g transform="translate(100 212)">
+<rect x="1" y="3" width="31" height="29" fill="#535c78" stroke="#263b57" stroke-width="1" rx="5"/>
+<path d="M12 11l12 7l-12 7Z" fill="white" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Книги</text>
+</g>
+<g transform="translate(178 212)">
+<ellipse cx="16" cy="17" rx="15" ry="15" fill="#478fca" stroke="#214969" stroke-width="1"/>
+<path d="M7 23q16 2 17 -14m-18 9q5 -5 20 -5" fill="none" stroke="#f2f7fb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Папка</text>
+</g>
+<g transform="translate(256 212)">
+<path d="M5 2h15l8 8v23H5Z" fill="#f4f7f8" stroke="#3d525e" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M20 2v9h7M9 16h15m-15 6h15m-15 5h10" fill="none" stroke="#61808f" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Карта</text>
+</g>
+<g transform="translate(334 212)">
+<rect x="2" y="3" width="28" height="28" fill="#326f68" stroke="#274952" stroke-width="1" rx="5"/>
+<path d="M10 22l2 -10l11 -2v12m-13 0h3m7 0h3" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Фото</text>
+</g>
+<g transform="translate(412 212)">
+<rect x="2" y="4" width="29" height="28" fill="#615884" stroke="#4d3e68" stroke-width="1" rx="5"/>
+<path d="M5 27l9 -12l6 8l5 -6l4 10Z" fill="#cdded8" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="23" cy="12" rx="3" ry="3" fill="#f6d082" stroke="none" stroke-width="1"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Плеер</text>
+</g>
+<g transform="translate(22 279)">
+<ellipse cx="16" cy="17" rx="15" ry="15" fill="#478fca" stroke="#214969" stroke-width="1"/>
+<path d="M7 23q16 2 17 -14m-18 9q5 -5 20 -5" fill="none" stroke="#f2f7fb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Файлы</text>
+</g>
+<g transform="translate(100 279)">
+<path d="M5 2h15l8 8v23H5Z" fill="#f4f7f8" stroke="#3d525e" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M20 2v9h7M9 16h15m-15 6h15m-15 5h10" fill="none" stroke="#61808f" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Работы</text>
+</g>
+<g transform="translate(178 279)">
+<rect x="2" y="3" width="28" height="28" fill="#326f68" stroke="#274952" stroke-width="1" rx="5"/>
+<path d="M10 22l2 -10l11 -2v12m-13 0h3m7 0h3" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Галерея</text>
+</g>
+<g transform="translate(256 279)">
+<rect x="2" y="4" width="29" height="28" fill="#615884" stroke="#4d3e68" stroke-width="1" rx="5"/>
+<path d="M5 27l9 -12l6 8l5 -6l4 10Z" fill="#cdded8" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="23" cy="12" rx="3" ry="3" fill="#f6d082" stroke="none" stroke-width="1"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Редактор</text>
+</g>
+<g transform="translate(334 279)">
+<path d="M0 6h10l4 4h17v22H0Z" fill="#f4ca69" stroke="#674d23" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1 16h30" fill="none" stroke="#c5953f" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Чертежи</text>
+</g>
+<g transform="translate(412 279)">
+<rect x="1" y="3" width="31" height="29" fill="#535c78" stroke="#263b57" stroke-width="1" rx="5"/>
+<path d="M12 11l12 7l-12 7Z" fill="white" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Диск</text>
+</g>
+<g transform="translate(22 346)">
+<rect x="2" y="3" width="28" height="28" fill="#326f68" stroke="#274952" stroke-width="1" rx="5"/>
+<path d="M10 22l2 -10l11 -2v12m-13 0h3m7 0h3" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Видео</text>
+</g>
+<g transform="translate(100 346)">
+<rect x="2" y="4" width="29" height="28" fill="#615884" stroke="#4d3e68" stroke-width="1" rx="5"/>
+<path d="M5 27l9 -12l6 8l5 -6l4 10Z" fill="#cdded8" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="23" cy="12" rx="3" ry="3" fill="#f6d082" stroke="none" stroke-width="1"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Доклады</text>
+</g>
+<g transform="translate(178 346)">
+<path d="M0 6h10l4 4h17v22H0Z" fill="#f4ca69" stroke="#674d23" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1 16h30" fill="none" stroke="#c5953f" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Архив</text>
+</g>
+<g transform="translate(256 346)">
+<rect x="1" y="3" width="31" height="29" fill="#535c78" stroke="#263b57" stroke-width="1" rx="5"/>
+<path d="M12 11l12 7l-12 7Z" fill="white" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Альбомы</text>
+</g>
+<g transform="translate(334 346)">
+<ellipse cx="16" cy="17" rx="15" ry="15" fill="#478fca" stroke="#214969" stroke-width="1"/>
+<path d="M7 23q16 2 17 -14m-18 9q5 -5 20 -5" fill="none" stroke="#f2f7fb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Поиск</text>
+</g>
+<g transform="translate(412 346)">
+<path d="M5 2h15l8 8v23H5Z" fill="#f4f7f8" stroke="#3d525e" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M20 2v9h7M9 16h15m-15 6h15m-15 5h10" fill="none" stroke="#61808f" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Рисование</text>
+</g>
+<g transform="translate(22 413)">
+<path d="M0 6h10l4 4h17v22H0Z" fill="#f4ca69" stroke="#674d23" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1 16h30" fill="none" stroke="#c5953f" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Записи</text>
+</g>
+<g transform="translate(100 413)">
+<rect x="1" y="3" width="31" height="29" fill="#535c78" stroke="#263b57" stroke-width="1" rx="5"/>
+<path d="M12 11l12 7l-12 7Z" fill="white" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Учёба</text>
+</g>
+<g transform="translate(178 413)">
+<ellipse cx="16" cy="17" rx="15" ry="15" fill="#478fca" stroke="#214969" stroke-width="1"/>
+<path d="M7 23q16 2 17 -14m-18 9q5 -5 20 -5" fill="none" stroke="#f2f7fb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Эскизы</text>
+</g>
+<g transform="translate(256 413)">
+<path d="M5 2h15l8 8v23H5Z" fill="#f4f7f8" stroke="#3d525e" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M20 2v9h7M9 16h15m-15 6h15m-15 5h10" fill="none" stroke="#61808f" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Папка</text>
+</g>
+<g transform="translate(334 413)">
+<rect x="2" y="3" width="28" height="28" fill="#326f68" stroke="#274952" stroke-width="1" rx="5"/>
+<path d="M10 22l2 -10l11 -2v12m-13 0h3m7 0h3" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Связь</text>
+</g>
+<g transform="translate(412 413)">
+<rect x="2" y="4" width="29" height="28" fill="#615884" stroke="#4d3e68" stroke-width="1" rx="5"/>
+<path d="M5 27l9 -12l6 8l5 -6l4 10Z" fill="#cdded8" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="23" cy="12" rx="3" ry="3" fill="#f6d082" stroke="none" stroke-width="1"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Документы</text>
+</g>
+<g transform="translate(548 11)">
+<path d="M0 6h10l4 4h17v22H0Z" fill="#f4ca69" stroke="#674d23" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1 16h30" fill="none" stroke="#c5953f" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Фильм</text>
+</g>
+<g transform="translate(630 11)">
+<path d="M5 2h15l8 8v23H5Z" fill="#f4f7f8" stroke="#3d525e" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M20 2v9h7M9 16h15m-15 6h15m-15 5h10" fill="none" stroke="#61808f" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Кадры</text>
+</g>
+<g transform="translate(712 11)">
+<path d="M0 6h10l4 4h17v22H0Z" fill="#f4ca69" stroke="#674d23" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1 16h30" fill="none" stroke="#c5953f" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Клип</text>
+</g>
+<g transform="translate(794 11)">
+<path d="M5 2h15l8 8v23H5Z" fill="#f4f7f8" stroke="#3d525e" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M20 2v9h7M9 16h15m-15 6h15m-15 5h10" fill="none" stroke="#61808f" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Материалы</text>
+</g>
+<g transform="translate(548 78)">
+<rect x="1" y="3" width="31" height="29" fill="#535c78" stroke="#263b57" stroke-width="1" rx="5"/>
+<path d="M12 11l12 7l-12 7Z" fill="white" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Запись</text>
+</g>
+<g transform="translate(630 78)">
+<rect x="2" y="3" width="28" height="28" fill="#326f68" stroke="#274952" stroke-width="1" rx="5"/>
+<path d="M10 22l2 -10l11 -2v12m-13 0h3m7 0h3" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Папка</text>
+</g>
+<g transform="translate(712 78)">
+<rect x="1" y="3" width="31" height="29" fill="#535c78" stroke="#263b57" stroke-width="1" rx="5"/>
+<path d="M12 11l12 7l-12 7Z" fill="white" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Проект</text>
+</g>
+<g transform="translate(794 78)">
+<rect x="2" y="3" width="28" height="28" fill="#326f68" stroke="#274952" stroke-width="1" rx="5"/>
+<path d="M10 22l2 -10l11 -2v12m-13 0h3m7 0h3" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text paint-order="stroke" stroke="#17283b" stroke-width="1" x="16" y="49" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">Видео</text>
+</g>
+<rect x="0" y="510" width="960" height="32" fill="#152431" stroke="none" stroke-width="1" rx="0"/>
+<path d="M12 520h16v13H12Z M20 520v13m-8 -6h16" fill="none" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M45 521a5 5 0 1 0 0.1 0m4 8l5 5" fill="none" stroke="#d2dce4" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="67" y="520" width="14" height="13" fill="#80b6d7" stroke="none" stroke-width="1" rx="2"/>
+<rect x="94" y="520" width="14" height="13" fill="#f0cd77" stroke="none" stroke-width="1" rx="2"/>
+<rect x="121" y="520" width="14" height="13" fill="#77b4ac" stroke="none" stroke-width="1" rx="2"/>
+<rect x="148" y="520" width="14" height="13" fill="#d9a589" stroke="none" stroke-width="1" rx="2"/>
+<rect x="175" y="520" width="14" height="13" fill="#af9ec8" stroke="none" stroke-width="1" rx="2"/>
+<rect x="202" y="520" width="14" height="13" fill="#78a9cf" stroke="none" stroke-width="1" rx="2"/>
+<rect x="229" y="520" width="14" height="13" fill="#b27257" stroke="none" stroke-width="1" rx="2"/>
+<rect x="256" y="520" width="14" height="13" fill="#9abb7b" stroke="none" stroke-width="1" rx="2"/>
+<rect x="283" y="520" width="14" height="13" fill="#c6a2b2" stroke="none" stroke-width="1" rx="2"/>
+<rect x="310" y="520" width="14" height="13" fill="#f3dda8" stroke="none" stroke-width="1" rx="2"/>
+<text x="945" y="532" text-anchor="end" fill="#f6f8fb" font-family="sans-serif" font-size="12" font-weight="normal">12:45</text>
+</svg>

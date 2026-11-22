@@ -1,0 +1,177 @@
+{
+  "interactive": {
+    "2008/5-7-02.svg": "semaphore-junior",
+    "2008/5-7-08.svg": "word-paragraphs",
+    "2022/4-5-10.webp": "khwarizmi",
+    "2022/8-9-07.svg": "keyboard-2018-2022",
+    "2022/10-11-04.svg": "keyboard-2018-2022",
+    "2024/1-11-b.svg": "shoe-high-mono",
+    "2024/1-11-d.svg": "shoe-low",
+    "2024/2-3-11-b.svg": "shoe-high-color",
+    "2024/2-3-11-d.svg": "shoe-low",
+    "2024/4-5-02-d.svg": "grid-parity-d",
+    "2024/6-7-02-d.svg": "grid-parity-d",
+    "2024/6-7-01.svg": "desktop",
+    "2024/8-9-01.svg": "desktop",
+    "2024/2-3-08.svg": "forest-route",
+    "2024/4-5-08.svg": "forest-route"
+  },
+  "pdfs": {
+    "2008/5-7": {
+      "semaphore-alphabet": "eaf7fa34aa2830473e052ba5c3467c77",
+      "semaphore-signal-junior": "b6bbfe6da18ad7d7b857a36dab6e5441",
+      "word-paragraphs": "a7fafb28a8e009fffe13c29dc115e23a"
+    },
+    "2008/8-9": {
+      "semaphore-fragment": "a4ce7db467b707e6ef3a0d9be360a2fe",
+      "semaphore-signal-senior": "683e8398d1d7b82434eee492b5c29366",
+      "word-paragraphs": "a7fafb28a8e009fffe13c29dc115e23a"
+    },
+    "2008/10-11": {
+      "word-paragraphs": "a7fafb28a8e009fffe13c29dc115e23a"
+    },
+    "2010/solutions": {
+      "battleship-67": "1c09820b2aa9d6dc655e9f5c48c11e44",
+      "battleship-89": "e1f4427d7bba133ef09ba7dcc8571fef"
+    },
+    "2011/4-5": {
+      "keyboard-2011": "7e077ad74062f94a3f3a9dc1944cfc27"
+    },
+    "2011/6-7": {
+      "keyboard-2011": "7e077ad74062f94a3f3a9dc1944cfc27"
+    },
+    "2015/6-7": {
+      "tablet": "2376df212626d212410df8120408d76a"
+    },
+    "2015/8-9": {
+      "tablet": "d3676f2e8c26a28f104ab0cab83e7ecb"
+    },
+    "2015/10-11": {
+      "tablet": "d3676f2e8c26a28f104ab0cab83e7ecb"
+    },
+    "2018/4-5": {
+      "keyboard-2018-2022": "9a64c177a39650cba66af94e34ae7080",
+      "display": "9d72115dff37d4a5831d8dd1172680db"
+    },
+    "2018/6-7": {
+      "display": "9d72115dff37d4a5831d8dd1172680db"
+    },
+    "2018/8-9": {
+      "display": "9d72115dff37d4a5831d8dd1172680db"
+    },
+    "2018/10-11": {
+      "display": "9d72115dff37d4a5831d8dd1172680db"
+    },
+    "2019/1": {
+      "display": "40a54b1f840856fadbd1043b0995c4b5"
+    },
+    "2019/2-3": {
+      "display": "d573d4b9afca87f94e69e47d1ad86440"
+    },
+    "2019/4-5": {
+      "display": "ef1d3bfd07dd38a61200d77da0ad6775"
+    },
+    "2019/6-7": {
+      "display": "07acf4e4297d1beb44c49639e265c5d1"
+    },
+    "2020/1": {
+      "service-vehicle-a": "420250da71417d03f0b9d70c7d72e1a0",
+      "service-vehicle-b": "d20175116bd90063af739bee178df93b",
+      "service-vehicle-c": "59984520e64e2db08c23cdb5e7272b65",
+      "service-vehicle-d": "a3485fe2fc8d8130ad8faab0ac6f0342"
+    },
+    "2022/4-5": {
+      "display": "8f73835d926dede16ac1f14c5b7e3bb4"
+    },
+    "2022/6-7": {
+      "display": "8f73835d926dede16ac1f14c5b7e3bb4"
+    },
+    "2022/8-9": {
+      "display": "8f73835d926dede16ac1f14c5b7e3bb4",
+      "keyboard-2018-2022": "2265757cfdc2d66831596f5a8067e1c9"
+    },
+    "2022/10-11": {
+      "keyboard-2018-2022": "2265757cfdc2d66831596f5a8067e1c9"
+    },
+    "2024/1": {
+      "shoe-high-mono": "d2c4640784befcdd8617d40ceea967dc",
+      "shoe-low": "196e6e9b6e4e1a309827db33378d1a14"
+    },
+    "2024/2-3": {
+      "forest-sign-first": "c5afc25fb5dc2a42f904db7c02cd3334",
+      "forest-sign-second": "ed4ef618ad6525ef0b954aca8a0190e3",
+      "shoe-high-color": "d49c1d29e432f8e55753cbd103c4e9c4",
+      "shoe-low": "196e6e9b6e4e1a309827db33378d1a14"
+    },
+    "2024/4-5": {
+      "forest-sign-first": "c5afc25fb5dc2a42f904db7c02cd3334",
+      "forest-sign-second": "ed4ef618ad6525ef0b954aca8a0190e3",
+      "grid-parity-d": "093e1fcf2eb54e9be0363b23d2e22af3"
+    },
+    "2024/6-7": {
+      "desktop": "033dc550cc171254fc533aa244e49fa4",
+      "grid-parity-d": "093e1fcf2eb54e9be0363b23d2e22af3"
+    },
+    "2024/8-9": {
+      "desktop": "1e01f4eddd9b4accf0a7641e0bb07c2a"
+    }
+  },
+  "overlayPages": {
+    "2008/8-9": [1]
+  },
+  "stampClips": {
+    "2022/4-5": [
+      0,
+      [
+        731,
+        348,
+        812,
+        460
+      ]
+    ],
+    "2022/6-7": [
+      0,
+      [
+        740,
+        463,
+        812,
+        566
+      ]
+    ]
+  },
+  "stampSource": {
+    "url": "https://commons.wikimedia.org/wiki/File:1983_CPA_5426_(1).png",
+    "work": "Почта СССР, 1983, № 5426",
+    "author": "Автор не указан на странице источника",
+    "rights": "Wikimedia Commons, PD-RU-exempt для марки целиком",
+    "processing": "Сведено на белом фоне и переведено в оттенки серого для соответствия оригиналу. 735 × 985 пикселей."
+  },
+  "shelves": {
+    "2024/1": {
+      "imageDigest": "607648001fd15f838775d094e0c76468",
+      "page": 1,
+      "asset": "2024/1-11.svg",
+      "high": "shoe-high-mono"
+    },
+    "2024/2-3": {
+      "imageDigest": "7c65db4f73d24d351560980124a0b939",
+      "page": 0,
+      "asset": "2024/2-3-11.svg",
+      "high": "shoe-high-color"
+    }
+  },
+  "shelfChips": [
+    [
+      114,
+      211,
+      174,
+      257
+    ],
+    [
+      185,
+      91,
+      247,
+      130
+    ]
+  ]
+}
