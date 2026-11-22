@@ -56,37 +56,12 @@
         "Верёвочка с двойной петлёй справа"
       ],
       "page": 0,
-      "choiceRects": [
-        [
-          77.65,
-          317.65,
-          124.71,
-          373.53
-        ],
-        [
-          139.41,
-          328.24,
-          186.47,
-          371.76
-        ],
-        [
-          191.18,
-          320.0,
-          238.24,
-          375.88
-        ],
-        [
-          239.41,
-          318.24,
-          285.88,
-          377.65
-        ],
-        [
-          290.0,
-          320.59,
-          339.41,
-          376.47
-        ]
+      "choiceAssets": [
+        "assets/separated-choices/1997-5-6/18-1.webp",
+        "assets/separated-choices/1997-5-6/18-2.webp",
+        "assets/separated-choices/1997-5-6/18-3.webp",
+        "assets/separated-choices/1997-5-6/18-4.webp",
+        "assets/separated-choices/1997-5-6/18-5.webp"
       ]
     },
     {

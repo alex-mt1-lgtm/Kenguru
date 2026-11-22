@@ -91,17 +91,17 @@ def crop_art(document, asset_folder, name, page_number, coordinates, force_raste
 
     (DIST / asset_folder).mkdir(parents=True, exist_ok=True)
     if force_raster or any(is_scan(page, region) for region in regions):
-        width, height = round(bounds.width * raster_scale), round(bounds.height * raster_scale)
+        matrix = fitz.Matrix(raster_scale, raster_scale)
+        extent = (bounds * matrix).irect
         path = asset_folder / (name + '.webp')
-        canvas = Image.new('RGB', (width, height), 'white')
+        canvas = Image.new('RGB', (extent.width, extent.height), 'white')
         for region in regions:
-            pixmap = page.get_pixmap(matrix=fitz.Matrix(raster_scale, raster_scale), clip=region, alpha=False)
+            pixmap = page.get_pixmap(matrix=matrix, clip=region, alpha=False)
             image = Image.open(BytesIO(pixmap.tobytes('png')))
-            canvas.paste(image, (round((region.x0 - bounds.x0) * raster_scale),
-                                 round((region.y0 - bounds.y0) * raster_scale)))
+            canvas.paste(image, (pixmap.x - extent.x0, pixmap.y - extent.y0))
         canvas.save(DIST / path, lossless=True)
-        return {'src': path.as_posix(), 'width': width, 'height': height,
-                'pixelWidth': width, 'pixelHeight': height}
+        return {'src': path.as_posix(), 'width': round(bounds.width * 3), 'height': round(bounds.height * 3),
+                'pixelWidth': extent.width, 'pixelHeight': extent.height}
 
     path = asset_folder / (name + '.svg')
     if len(regions) == 1:
@@ -168,9 +168,14 @@ def task_cards(edition, folder, metadata, solution_steps):
             choices_and_art = zip(choices, rectangles, option_parts, raster_options, reviewed_options)
             for choice_index, (choice, rect, parts, raster, asset) in enumerate(choices_and_art):
                 if asset:
-                    if not (DIST / asset).is_file():
+                    asset_path = DIST / asset
+                    if not asset_path.is_file():
                         raise ValueError(f'{identifier} task {number}: missing reviewed option {choice_index + 1}')
-                    options.append({'image': asset, 'description': choice})
+                    option = {'image': asset, 'description': choice}
+                    if asset_path.suffix != '.svg':
+                        with Image.open(asset_path) as picture:
+                            option['pixelWidth'], option['pixelHeight'] = picture.size
+                    options.append(option)
                 elif rect or parts:
                     regions = parts or [rect]
                     art = crop_art(document, assets, f'{name}-answer-{choice_index + 1}', page,
@@ -190,7 +195,8 @@ def task_cards(edition, folder, metadata, solution_steps):
                     raise ValueError(f'{identifier} task {number}: missing reviewed figure')
                 condition = dict(asset)
             elif figure:
-                condition = crop_art(document, assets, name, page, figure, task.get('figureRaster', False))
+                condition = crop_art(document, assets, name, page, figure,
+                                     task.get('figureRaster', False), task.get('figureRasterScale', 3))
                 raster_size = embedded_raster_size(document[page], [fitz.Rect(region) for region in figure])
                 for field, size in raster_size.items():
                     condition[field] = min(condition.get(field, size), size)

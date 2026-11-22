@@ -731,15 +731,51 @@
     ],
     "answer": 2,
     "title": "Объявление имени",
-    "figure": {
-      "src": "assets/golden-fleece/2006/biblical-gallery.webp",
-      "alt": "Пять репродукций библейских сцен под номерами I, II, III, IV и V.",
-      "width": 680,
-      "height": 260
-    },
     "steps": [
       "Слова о рождении и имени относятся к Благовещению. В этом сюжете ангел возвещает Марии, что у неё родится сын.",
       "На рисунке III показаны ангел и Мария. В вариантах предложены I и V, поэтому ни один не подходит."
+    ],
+    "figures": [
+      {
+        "src": "assets/golden-fleece/2006/2006_I.webp",
+        "alt": "Группа людей за длинным столом.",
+        "width": 320,
+        "height": 174,
+        "caption": "I",
+        "detailSrc": "assets/golden-fleece/2006/2006_I.jpg"
+      },
+      {
+        "src": "assets/golden-fleece/2006/2006_II.webp",
+        "alt": "Несколько путников перед сидящей женщиной с младенцем.",
+        "width": 320,
+        "height": 182,
+        "caption": "II",
+        "detailSrc": "assets/golden-fleece/2006/2006_II.jpg"
+      },
+      {
+        "src": "assets/golden-fleece/2006/2006_III.webp",
+        "alt": "Две фигуры под арками с колоннами.",
+        "width": 304,
+        "height": 320,
+        "caption": "III",
+        "detailSrc": "assets/golden-fleece/2006/2006_III.jpg"
+      },
+      {
+        "src": "assets/golden-fleece/2006/2006_IV.webp",
+        "alt": "Один человек стоит в воде, другой поднимает руку над его головой.",
+        "width": 320,
+        "height": 303,
+        "caption": "IV",
+        "detailSrc": "assets/golden-fleece/2006/2006_IV.jpg"
+      },
+      {
+        "src": "assets/golden-fleece/2006/2006_V.webp",
+        "alt": "Фигура в белом между двумя стоящими людьми. Внизу ещё три фигуры.",
+        "width": 320,
+        "height": 212,
+        "caption": "V",
+        "detailSrc": "assets/golden-fleece/2006/2006_V.jpg"
+      }
     ]
   },
   {
@@ -753,17 +789,53 @@
     ],
     "answer": 0,
     "title": "Звезда на востоке",
-    "figure": {
-      "src": "assets/golden-fleece/2006/biblical-gallery.webp",
-      "alt": "Пять репродукций библейских сцен под номерами I, II, III, IV и V.",
-      "width": 680,
-      "height": 260
-    },
     "steps": [
       "Цитата о звезде принадлежит волхвам. Они пришли поклониться младенцу Иисусу и принесли дары.",
       "На картине II изображено поклонение волхвов. Картина IV показывает крещение на Иордане."
     ],
-    "reviewedEdition": true
+    "reviewedEdition": true,
+    "figures": [
+      {
+        "src": "assets/golden-fleece/2006/2006_I.webp",
+        "alt": "Группа людей за длинным столом.",
+        "width": 320,
+        "height": 174,
+        "caption": "I",
+        "detailSrc": "assets/golden-fleece/2006/2006_I.jpg"
+      },
+      {
+        "src": "assets/golden-fleece/2006/2006_II.webp",
+        "alt": "Несколько путников перед сидящей женщиной с младенцем.",
+        "width": 320,
+        "height": 182,
+        "caption": "II",
+        "detailSrc": "assets/golden-fleece/2006/2006_II.jpg"
+      },
+      {
+        "src": "assets/golden-fleece/2006/2006_III.webp",
+        "alt": "Две фигуры под арками с колоннами.",
+        "width": 304,
+        "height": 320,
+        "caption": "III",
+        "detailSrc": "assets/golden-fleece/2006/2006_III.jpg"
+      },
+      {
+        "src": "assets/golden-fleece/2006/2006_IV.webp",
+        "alt": "Один человек стоит в воде, другой поднимает руку над его головой.",
+        "width": 320,
+        "height": 303,
+        "caption": "IV",
+        "detailSrc": "assets/golden-fleece/2006/2006_IV.jpg"
+      },
+      {
+        "src": "assets/golden-fleece/2006/2006_V.webp",
+        "alt": "Фигура в белом между двумя стоящими людьми. Внизу ещё три фигуры.",
+        "width": 320,
+        "height": 212,
+        "caption": "V",
+        "detailSrc": "assets/golden-fleece/2006/2006_V.jpg"
+      }
+    ]
   },
   {
     "question": "Тогда приходит Иисус из Галилеи на Иордан к Иоанну.",
@@ -776,15 +848,51 @@
     ],
     "answer": 0,
     "title": "Встреча на Иордане",
-    "figure": {
-      "src": "assets/golden-fleece/2006/biblical-gallery.webp",
-      "alt": "Пять репродукций библейских сцен под номерами I, II, III, IV и V.",
-      "width": 680,
-      "height": 260
-    },
     "steps": [
       "Евангельский текст описывает встречу с Иоанном Крестителем. На репродукции один человек стоит в воде, а другой совершает крещение.",
       "Такая сцена под номером IV. Поэтому из двух предложенных номеров подходит первый."
+    ],
+    "figures": [
+      {
+        "src": "assets/golden-fleece/2006/2006_I.webp",
+        "alt": "Группа людей за длинным столом.",
+        "width": 320,
+        "height": 174,
+        "caption": "I",
+        "detailSrc": "assets/golden-fleece/2006/2006_I.jpg"
+      },
+      {
+        "src": "assets/golden-fleece/2006/2006_II.webp",
+        "alt": "Несколько путников перед сидящей женщиной с младенцем.",
+        "width": 320,
+        "height": 182,
+        "caption": "II",
+        "detailSrc": "assets/golden-fleece/2006/2006_II.jpg"
+      },
+      {
+        "src": "assets/golden-fleece/2006/2006_III.webp",
+        "alt": "Две фигуры под арками с колоннами.",
+        "width": 304,
+        "height": 320,
+        "caption": "III",
+        "detailSrc": "assets/golden-fleece/2006/2006_III.jpg"
+      },
+      {
+        "src": "assets/golden-fleece/2006/2006_IV.webp",
+        "alt": "Один человек стоит в воде, другой поднимает руку над его головой.",
+        "width": 320,
+        "height": 303,
+        "caption": "IV",
+        "detailSrc": "assets/golden-fleece/2006/2006_IV.jpg"
+      },
+      {
+        "src": "assets/golden-fleece/2006/2006_V.webp",
+        "alt": "Фигура в белом между двумя стоящими людьми. Внизу ещё три фигуры.",
+        "width": 320,
+        "height": 212,
+        "caption": "V",
+        "detailSrc": "assets/golden-fleece/2006/2006_V.jpg"
+      }
     ]
   },
   {
@@ -798,15 +906,51 @@
     ],
     "answer": 1,
     "title": "Белые одежды",
-    "figure": {
-      "src": "assets/golden-fleece/2006/biblical-gallery.webp",
-      "alt": "Пять репродукций библейских сцен под номерами I, II, III, IV и V.",
-      "width": 680,
-      "height": 260
-    },
     "steps": [
       "Слова описывают Преображение, когда одежда Иисуса становится ослепительно белой. На картине можно найти фигуру в белом между двумя стоящими рядом людьми.",
       "На репродукции V показано Преображение. На III находится сцена Благовещения."
+    ],
+    "figures": [
+      {
+        "src": "assets/golden-fleece/2006/2006_I.webp",
+        "alt": "Группа людей за длинным столом.",
+        "width": 320,
+        "height": 174,
+        "caption": "I",
+        "detailSrc": "assets/golden-fleece/2006/2006_I.jpg"
+      },
+      {
+        "src": "assets/golden-fleece/2006/2006_II.webp",
+        "alt": "Несколько путников перед сидящей женщиной с младенцем.",
+        "width": 320,
+        "height": 182,
+        "caption": "II",
+        "detailSrc": "assets/golden-fleece/2006/2006_II.jpg"
+      },
+      {
+        "src": "assets/golden-fleece/2006/2006_III.webp",
+        "alt": "Две фигуры под арками с колоннами.",
+        "width": 304,
+        "height": 320,
+        "caption": "III",
+        "detailSrc": "assets/golden-fleece/2006/2006_III.jpg"
+      },
+      {
+        "src": "assets/golden-fleece/2006/2006_IV.webp",
+        "alt": "Один человек стоит в воде, другой поднимает руку над его головой.",
+        "width": 320,
+        "height": 303,
+        "caption": "IV",
+        "detailSrc": "assets/golden-fleece/2006/2006_IV.jpg"
+      },
+      {
+        "src": "assets/golden-fleece/2006/2006_V.webp",
+        "alt": "Фигура в белом между двумя стоящими людьми. Внизу ещё три фигуры.",
+        "width": 320,
+        "height": 212,
+        "caption": "V",
+        "detailSrc": "assets/golden-fleece/2006/2006_V.jpg"
+      }
     ]
   },
   {
@@ -820,16 +964,52 @@
     ],
     "answer": 0,
     "title": "Разговор за столом",
-    "figure": {
-      "src": "assets/golden-fleece/2006/biblical-gallery.webp",
-      "alt": "Пять репродукций библейских сцен под номерами I, II, III, IV и V.",
-      "width": 680,
-      "height": 260
-    },
     "steps": [
       "В евангельском рассказе Иисус говорит об измене ученика во время последней общей трапезы с апостолами.",
       "На иллюстрации I апостолы сидят с Иисусом за длинным столом. Это «Тайная вечеря» Леонардо да Винчи."
     ],
-    "reviewedEdition": true
+    "reviewedEdition": true,
+    "figures": [
+      {
+        "src": "assets/golden-fleece/2006/2006_I.webp",
+        "alt": "Группа людей за длинным столом.",
+        "width": 320,
+        "height": 174,
+        "caption": "I",
+        "detailSrc": "assets/golden-fleece/2006/2006_I.jpg"
+      },
+      {
+        "src": "assets/golden-fleece/2006/2006_II.webp",
+        "alt": "Несколько путников перед сидящей женщиной с младенцем.",
+        "width": 320,
+        "height": 182,
+        "caption": "II",
+        "detailSrc": "assets/golden-fleece/2006/2006_II.jpg"
+      },
+      {
+        "src": "assets/golden-fleece/2006/2006_III.webp",
+        "alt": "Две фигуры под арками с колоннами.",
+        "width": 304,
+        "height": 320,
+        "caption": "III",
+        "detailSrc": "assets/golden-fleece/2006/2006_III.jpg"
+      },
+      {
+        "src": "assets/golden-fleece/2006/2006_IV.webp",
+        "alt": "Один человек стоит в воде, другой поднимает руку над его головой.",
+        "width": 320,
+        "height": 303,
+        "caption": "IV",
+        "detailSrc": "assets/golden-fleece/2006/2006_IV.jpg"
+      },
+      {
+        "src": "assets/golden-fleece/2006/2006_V.webp",
+        "alt": "Фигура в белом между двумя стоящими людьми. Внизу ещё три фигуры.",
+        "width": 320,
+        "height": 212,
+        "caption": "V",
+        "detailSrc": "assets/golden-fleece/2006/2006_V.jpg"
+      }
+    ]
   }
 ]

@@ -5,42 +5,62 @@
     "4": {
       "page": 0,
       "rect": [
-        163,
-        429,
-        272,
-        534
+        161.9837,
+        429.3238,
+        272.946,
+        533.3209
       ],
-      "src": "assets/golden-fleece/2025/1-2/04.webp"
+      "src": "assets/golden-fleece/2025/1-2/04.webp",
+      "embeddedSize": [
+        232,
+        217
+      ],
+      "embeddedXref": 20
     },
     "8": {
       "page": 0,
       "rect": [
-        461,
-        388,
-        553,
-        513
+        460.5033,
+        388.3464,
+        553.6059,
+        511.9232
       ],
-      "src": "assets/golden-fleece/2025/1-2/08.webp"
+      "src": "assets/golden-fleece/2025/1-2/08.webp",
+      "embeddedSize": [
+        194,
+        258
+      ],
+      "embeddedXref": 21
     },
     "12": {
       "page": 0,
       "rect": [
-        742,
-        406,
-        834,
-        532
+        742.3469,
+        406.4151,
+        833.3857,
+        530.8429
       ],
-      "src": "assets/golden-fleece/2025/1-2/12.webp"
+      "src": "assets/golden-fleece/2025/1-2/12.webp",
+      "embeddedSize": [
+        190,
+        260
+      ],
+      "embeddedXref": 19
     },
     "13": {
       "page": 1,
       "rect": [
-        179,
-        56,
-        273,
-        169
+        179.5946,
+        55.6856,
+        273.0178,
+        169.7628
       ],
-      "src": "assets/golden-fleece/2025/1-2/13.webp"
+      "src": "assets/golden-fleece/2025/1-2/13.webp",
+      "embeddedSize": [
+        195,
+        238
+      ],
+      "embeddedXref": 38
     },
     "19": {
       "page": 1,
@@ -55,12 +75,17 @@
     "20": {
       "page": 1,
       "rect": [
-        460,
-        428,
-        553,
-        546
+        459.8915,
+        428.1132,
+        553.7432,
+        546.2078
       ],
-      "src": "assets/golden-fleece/2025/1-2/20.webp"
+      "src": "assets/golden-fleece/2025/1-2/20.webp",
+      "embeddedSize": [
+        196,
+        247
+      ],
+      "embeddedXref": 37
     }
   }
 }

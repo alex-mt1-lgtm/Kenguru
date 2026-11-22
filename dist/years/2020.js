@@ -226,6 +226,16 @@
     if (pictureChoices.has(number)) {
       lesson.choiceImages = letters.map((_, choice) => `${directory}choice-${number}-${choice}.png`);
     }
+    if (number === 5) {
+      const frames = ['Линии первых сгибов', 'Согнуты два угла', 'Два следующих сгиба',
+        'Лист сложен пополам', 'Готовый самолётик с проколом'];
+      lesson.choiceLayout = {
+        condition: {items: frames.map((alt, i) => ({
+          src: directory + 'fold-' + (i + 1) + '.svg', caption: String(i + 1), alt,
+        }))},
+        options: choices.map(text => ({text})),
+      };
+    }
     return lesson;
   });
 

@@ -10,7 +10,8 @@ function add(meta, rows, partial, paperKey = false) {
     const matching = meta.matchingGroups?.find(group => number >= group.start && number < group.start + group.count);
     return {number, choices: row.choices, answer: row.answer, numericAnswer: row.numericAnswer,
       ...((paperKey && row.question || row.adaptation || row.reviewedEdition) ? {
-        revisedQuestion: [row.context, row.question].filter(Boolean).join('\n\n'), revisedChoices: row.choices, figure: row.figure, optionFigures: row.optionFigures} : {}),
+        revisedQuestion: [row.context, row.question].filter(Boolean).join('\n\n'), revisedChoices: row.choices,
+        figure: row.figure, figures: row.figures, optionFigures: row.optionFigures} : {}),
       ...(matching ? {matching, label: 'Рисунок ' + (number - matching.start + 1)} : {})};
   });
   output.set([meta.subject, meta.year, filename].join('/'), {subject:meta.subject, year:meta.year, grade:meta.grade,

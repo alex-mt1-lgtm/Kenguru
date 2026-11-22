@@ -506,7 +506,7 @@
     ],
     "context": "What time is it?",
     "figure": {
-      "src": "assets/british-bulldog/2025/5-6/clock-31.webp",
+      "src": "assets/british-bulldog/2025/5-6/clock-31.svg",
       "alt": "The long hand points at 1, and the short hand is just past 12.",
       "width": 142,
       "height": 142
@@ -528,7 +528,7 @@
     ],
     "context": "What time is it?",
     "figure": {
-      "src": "assets/british-bulldog/2025/5-6/clock-32.webp",
+      "src": "assets/british-bulldog/2025/5-6/clock-32.svg",
       "alt": "The long hand points at 3, and the short hand is between 1 and 2.",
       "width": 142,
       "height": 142
@@ -550,7 +550,7 @@
     ],
     "context": "What time is it?",
     "figure": {
-      "src": "assets/british-bulldog/2025/5-6/clock-33.webp",
+      "src": "assets/british-bulldog/2025/5-6/clock-33.svg",
       "alt": "The long hand points at 2, and the short hand is just past 10.",
       "width": 142,
       "height": 142
@@ -572,9 +572,9 @@
     ],
     "context": "What time is it?",
     "figure": {
-      "src": "assets/british-bulldog/2025/5-6/clock-34.webp",
+      "src": "assets/british-bulldog/2025/5-6/clock-34.svg",
       "alt": "The long hand points at 8, and the short hand is close to 2.",
-      "width": 143,
+      "width": 142,
       "height": 142
     }
   },
@@ -594,7 +594,7 @@
     ],
     "context": "What time is it?",
     "figure": {
-      "src": "assets/british-bulldog/2025/5-6/clock-35.webp",
+      "src": "assets/british-bulldog/2025/5-6/clock-35.svg",
       "alt": "The long hand points at 12, and the short hand points at 2.",
       "width": 144,
       "height": 142
@@ -699,7 +699,8 @@
       "src": "assets/british-bulldog/2025/5-6/band.webp",
       "alt": "Four performers stand or sit on a raised platform. Two hold guitars, the seated one holds drumsticks, and the one in a dark sleeveless garment holds a microphone. Four boxes with round grilles stand along the front.",
       "width": 639,
-      "height": 309
+      "height": 309,
+      "detailSrc": "assets/british-bulldog/2025/5-6/band-detail.webp"
     }
   },
   {
@@ -721,7 +722,8 @@
       "src": "assets/british-bulldog/2025/5-6/band.webp",
       "alt": "Four performers stand or sit on a raised platform. Two hold guitars, the seated one holds drumsticks, and the one in a dark sleeveless garment holds a microphone. Four boxes with round grilles stand along the front.",
       "width": 639,
-      "height": 309
+      "height": 309,
+      "detailSrc": "assets/british-bulldog/2025/5-6/band-detail.webp"
     }
   },
   {
@@ -743,7 +745,8 @@
       "src": "assets/british-bulldog/2025/5-6/band.webp",
       "alt": "Four performers stand or sit on a raised platform. Two hold guitars, the seated one holds drumsticks, and the one in a dark sleeveless garment holds a microphone. Four boxes with round grilles stand along the front.",
       "width": 639,
-      "height": 309
+      "height": 309,
+      "detailSrc": "assets/british-bulldog/2025/5-6/band-detail.webp"
     }
   },
   {
@@ -765,7 +768,8 @@
       "src": "assets/british-bulldog/2025/5-6/band.webp",
       "alt": "Four performers stand or sit on a raised platform. Two hold guitars, the seated one holds drumsticks, and the one in a dark sleeveless garment holds a microphone. Four boxes with round grilles stand along the front.",
       "width": 639,
-      "height": 309
+      "height": 309,
+      "detailSrc": "assets/british-bulldog/2025/5-6/band-detail.webp"
     }
   },
   {
@@ -787,7 +791,8 @@
       "src": "assets/british-bulldog/2025/5-6/band.webp",
       "alt": "Four performers stand or sit on a raised platform. Two hold guitars, the seated one holds drumsticks, and the one in a dark sleeveless garment holds a microphone. Four boxes with round grilles stand along the front.",
       "width": 639,
-      "height": 309
+      "height": 309,
+      "detailSrc": "assets/british-bulldog/2025/5-6/band-detail.webp"
     },
     "reviewedEdition": true
   }

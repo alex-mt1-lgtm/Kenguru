@@ -5,52 +5,77 @@
     "8": {
       "page": 0,
       "rect": [
-        445,
-        45,
-        559,
-        145
+        445.3937,
+        45.3543,
+        559.4146,
+        144.7325
       ],
-      "src": "assets/golden-fleece/2024/5-7/08.webp"
+      "src": "assets/golden-fleece/2024/5-7/08.webp",
+      "embeddedSize": [
+        238,
+        208
+      ],
+      "embeddedXref": 39
     },
     "10": {
       "page": 0,
       "rect": [
-        459,
-        268,
-        559,
-        398
+        458.9291,
+        268.5826,
+        558.4252,
+        398.5269
       ],
-      "src": "assets/golden-fleece/2024/5-7/10.webp"
+      "src": "assets/golden-fleece/2024/5-7/10.webp",
+      "embeddedSize": [
+        208,
+        271
+      ],
+      "embeddedXref": 35
     },
     "12": {
       "page": 0,
       "rect": [
-        461,
-        469,
-        559,
-        579
+        460.2469,
+        468.7805,
+        559.3737,
+        578.948
       ],
-      "src": "assets/golden-fleece/2024/5-7/12.webp"
+      "src": "assets/golden-fleece/2024/5-7/12.webp",
+      "embeddedSize": [
+        207,
+        230
+      ],
+      "embeddedXref": 41
     },
     "14": {
       "page": 0,
       "rect": [
-        720,
-        97,
-        835,
-        198
+        718.857,
+        97.7952,
+        834.3116,
+        196.9278
       ],
-      "src": "assets/golden-fleece/2024/5-7/14.webp"
+      "src": "assets/golden-fleece/2024/5-7/14.webp",
+      "embeddedSize": [
+        241,
+        207
+      ],
+      "embeddedXref": 37
     },
     "18": {
       "page": 0,
       "rect": [
-        734,
-        473,
-        835,
-        579
+        733.8898,
+        472.155,
+        833.3859,
+        579.0833
       ],
-      "src": "assets/golden-fleece/2024/5-7/18.webp"
+      "src": "assets/golden-fleece/2024/5-7/18.webp",
+      "embeddedSize": [
+        208,
+        223
+      ],
+      "embeddedXref": 43
     },
     "21": {
       "page": 1,
@@ -65,22 +90,32 @@
     "23": {
       "page": 1,
       "rect": [
-        180,
-        437,
-        278,
-        579
+        178.4687,
+        437.244,
+        278.5939,
+        578.4277
       ],
-      "src": "assets/golden-fleece/2024/5-7/23.webp"
+      "src": "assets/golden-fleece/2024/5-7/23.webp",
+      "embeddedSize": [
+        209,
+        295
+      ],
+      "embeddedXref": 7
     },
     "29": {
       "page": 1,
       "rect": [
-        459,
-        398,
-        559,
-        501
+        457.6646,
+        398.2509,
+        559.1498,
+        500.9358
       ],
-      "src": "assets/golden-fleece/2024/5-7/29.webp"
+      "src": "assets/golden-fleece/2024/5-7/29.webp",
+      "embeddedSize": [
+        212,
+        214
+      ],
+      "embeddedXref": 11
     }
   }
 }

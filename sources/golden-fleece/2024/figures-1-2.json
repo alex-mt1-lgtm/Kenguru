@@ -5,62 +5,92 @@
     "14": {
       "page": 0,
       "rect": [
-        734,
-        45,
-        835,
-        152
+        733.8898,
+        44.1234,
+        833.3859,
+        151.0517
       ],
-      "src": "assets/golden-fleece/2024/1-2/14.webp"
+      "src": "assets/golden-fleece/2024/1-2/14.webp",
+      "embeddedSize": [
+        208,
+        223
+      ],
+      "embeddedXref": 35
     },
     "16": {
       "page": 0,
       "rect": [
-        616,
-        309,
-        816,
-        380
+        616.9323,
+        307.4634,
+        814.5638,
+        378.5435
       ],
-      "src": "assets/golden-fleece/2024/1-2/16.webp"
+      "src": "assets/golden-fleece/2024/1-2/16.webp",
+      "embeddedSize": [
+        412,
+        149
+      ],
+      "embeddedXref": 37
     },
     "18": {
       "page": 0,
       "rect": [
-        734,
-        436,
-        835,
-        580
+        733.8898,
+        435.4542,
+        833.3859,
+        578.1052
       ],
-      "src": "assets/golden-fleece/2024/1-2/18.webp"
+      "src": "assets/golden-fleece/2024/1-2/18.webp",
+      "embeddedSize": [
+        208,
+        298
+      ],
+      "embeddedXref": 39
     },
     "20": {
       "page": 1,
       "rect": [
-        172,
-        113,
-        273,
-        216
+        171.4904,
+        113.1023,
+        272.9757,
+        215.7872
       ],
-      "src": "assets/golden-fleece/2024/1-2/20.webp"
+      "src": "assets/golden-fleece/2024/1-2/20.webp",
+      "embeddedSize": [
+        212,
+        214
+      ],
+      "embeddedXref": 7
     },
     "22": {
       "page": 1,
       "rect": [
-        144,
-        312,
-        273,
-        402
+        144.4016,
+        312.3071,
+        273.0113,
+        400.6063
       ],
-      "src": "assets/golden-fleece/2024/1-2/22.webp"
+      "src": "assets/golden-fleece/2024/1-2/22.webp",
+      "embeddedSize": [
+        268,
+        184
+      ],
+      "embeddedXref": 9
     },
     "24": {
       "page": 1,
       "rect": [
-        178,
-        489,
-        273,
-        579
+        177.0679,
+        488.0595,
+        273.0744,
+        579.2657
       ],
-      "src": "assets/golden-fleece/2024/1-2/24.webp"
+      "src": "assets/golden-fleece/2024/1-2/24.webp",
+      "embeddedSize": [
+        201,
+        191
+      ],
+      "embeddedXref": 11
     }
   }
 }

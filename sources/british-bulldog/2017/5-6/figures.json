@@ -24,7 +24,11 @@
         49,
         50
       ],
-      "alt": "Four camp notices. A is a camp near the lake offering swimming, scuba diving, canoeing, dances and films for ages 12 to 14 in June or July. B has drama, music, art and crafts for ages 7 to 9 in autumn and spring. C is in the Scottish countryside with skiing, skating and hockey for ages 10 to 12 all winter. D offers climbing, volleyball, tennis, golf and other games for ages 14 to 15 all summer."
+      "alt": "Four camp notices. A is a camp near the lake offering swimming, scuba diving, canoeing, dances and films for ages 12 to 14 in June or July. B has drama, music, art and crafts for ages 7 to 9 in autumn and spring. C is in the Scottish countryside with skiing, skating and hockey for ages 10 to 12 all winter. D offers climbing, volleyball, tennis, golf and other games for ages 14 to 15 all summer.",
+      "detail": {
+        "file": "camp-notices-detail.webp",
+        "renderScale": 8.1
+      }
     }
   ]
 }

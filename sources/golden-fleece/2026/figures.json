@@ -7,72 +7,107 @@
     "6": {
       "page": 0,
       "rect": [
-        173.5,
-        351.65,
-        278.65,
-        423.25
+        173.9027,
+        352.5738,
+        278.556,
+        422.4227
       ],
-      "src": "assets/golden-fleece/2026/06.webp"
+      "src": "assets/golden-fleece/2026/06.webp",
+      "embeddedSize": [
+        436,
+        291
+      ],
+      "embeddedXref": 16
     },
     "8": {
       "page": 0,
       "rect": [
-        201.7,
-        492.35,
-        278.4,
-        578.9
+        201.4331,
+        492.2327,
+        278.4274,
+        578.8213
       ],
-      "src": "assets/golden-fleece/2026/08.webp"
+      "src": "assets/golden-fleece/2026/08.webp",
+      "embeddedSize": [
+        321,
+        361
+      ],
+      "embeddedXref": 17
     },
     "10": {
       "page": 0,
       "rect": [
-        457.2,
-        139.85,
-        559.05,
-        209.95
+        456.8504,
+        139.5234,
+        558.4252,
+        209.8814
       ],
-      "src": "assets/golden-fleece/2026/10.webp"
+      "src": "assets/golden-fleece/2026/10.webp",
+      "embeddedSize": [
+        423,
+        293
+      ],
+      "embeddedXref": 15
     },
     "12": {
       "page": 0,
       "rect": [
-        490.6,
-        293.8,
-        559.3,
-        381.5
+        491.4723,
+        293.5112,
+        558.4252,
+        381.5818
       ],
-      "src": "assets/golden-fleece/2026/12.webp"
+      "src": "assets/golden-fleece/2026/12.webp",
+      "embeddedSize": [
+        279,
+        367
+      ],
+      "embeddedXref": 18
     },
     "14": {
       "page": 0,
       "rect": [
-        461.65,
-        508.75,
-        559.05,
-        578.9
+        461.2349,
+        508.5358,
+        559.1067,
+        578.8211
       ],
-      "src": "assets/golden-fleece/2026/14.webp"
+      "src": "assets/golden-fleece/2026/14.webp",
+      "embeddedSize": [
+        408,
+        293
+      ],
+      "embeddedXref": 19
     },
     "16": {
       "page": 0,
       "rect": [
-        734.2,
-        169.9,
-        834.25,
-        241.4
+        735.0858,
+        170.7874,
+        833.3859,
+        240.5564
       ],
-      "src": "assets/golden-fleece/2026/16.webp"
+      "src": "assets/golden-fleece/2026/16.webp",
+      "embeddedSize": [
+        410,
+        291
+      ],
+      "embeddedXref": 22
     },
     "18": {
       "page": 0,
       "rect": [
-        748.4,
-        372.1,
-        834.25,
-        442.75
+        749.2932,
+        372.9921,
+        833.3857,
+        441.948
       ],
-      "src": "assets/golden-fleece/2026/18.webp"
+      "src": "assets/golden-fleece/2026/18.webp",
+      "embeddedSize": [
+        350,
+        287
+      ],
+      "embeddedXref": 21
     },
     "19": {
       "page": 0,
@@ -87,42 +122,62 @@
     "20": {
       "page": 1,
       "rect": [
-        170.6,
-        74.95,
-        278.65,
-        134.1
+        171.4961,
+        75.8267,
+        277.7953,
+        134.1353
       ],
-      "src": "assets/golden-fleece/2026/20.webp"
+      "src": "assets/golden-fleece/2026/20.webp",
+      "embeddedSize": [
+        443,
+        243
+      ],
+      "embeddedXref": 27
     },
     "22": {
       "page": 1,
       "rect": [
-        170.6,
-        265.35,
-        278.65,
-        343.35
+        170.3745,
+        265.5118,
+        278.6767,
+        342.5961
       ],
-      "src": "assets/golden-fleece/2026/22.webp"
+      "src": "assets/golden-fleece/2026/22.webp",
+      "embeddedSize": [
+        451,
+        321
+      ],
+      "embeddedXref": 28
     },
     "24": {
       "page": 1,
       "rect": [
-        170.35,
-        508.65,
-        278.4,
-        578.9
+        171.2461,
+        508.3699,
+        277.5453,
+        578.9161
       ],
-      "src": "assets/golden-fleece/2026/24.webp"
+      "src": "assets/golden-fleece/2026/24.webp",
+      "embeddedSize": [
+        443,
+        294
+      ],
+      "embeddedXref": 30
     },
     "29": {
       "page": 1,
       "rect": [
-        471.8,
-        412.85,
-        559.3,
-        480.75
+        471.4395,
+        413.1979,
+        558.4252,
+        479.9991
       ],
-      "src": "assets/golden-fleece/2026/29.webp"
+      "src": "assets/golden-fleece/2026/29.webp",
+      "embeddedSize": [
+        362,
+        278
+      ],
+      "embeddedXref": 29
     }
   }
 }

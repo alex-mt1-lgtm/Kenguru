@@ -1,0 +1,49 @@
+{
+  "8-11/12-pond.webp": {
+    "src": "assets/golden-fleece/2024/8-11/12-pond.webp",
+    "alt": "Резная башня за прудом. На воде видна золотая фигура цветка на постаменте.",
+    "width": 341,
+    "height": 460,
+    "detailSrc": "assets/golden-fleece/2024/8-11/12-pond-large.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Golden_Lotus_pond_Madurai_Meenakshi_Temples.jpg",
+    "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Golden_Lotus_pond_Madurai_Meenakshi_Temples.jpg",
+    "originalWidth": 780,
+    "originalHeight": 1052,
+    "sha256": "011ac566242ac71a45a97e5cc9e9aac390a6a65b48ae24c603b560aaa1278f28",
+    "masterWidth": 780,
+    "masterHeight": 1052,
+    "previewMaxSide": 460,
+    "processing": "Дополнительный снимок того же пруда с другого ракурса. Сохранён исходный кадр. Для карточки сделана уменьшенная копия.",
+    "credit": {
+      "task": "8–11 классы, № 12",
+      "title": "Golden Lotus pond Madurai Meenakshi Temples.jpg",
+      "author": "Nikamnitish9002",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "bookletFigure": "8-11/12.webp"
+  },
+  "5-7/21-procession.webp": {
+    "src": "assets/golden-fleece/2024/5-7/21-procession.webp",
+    "alt": "Картина с торжественным шествием людей и слонов",
+    "width": 440,
+    "height": 281,
+    "detailSrc": "assets/golden-fleece/2024/5-7/21-procession-large.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Vereshchagin_The_elephant_procession_1879.jpg",
+    "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Vereshchagin_The_elephant_procession_1879.jpg",
+    "originalWidth": 1200,
+    "originalHeight": 767,
+    "masterWidth": 1200,
+    "masterHeight": 767,
+    "sha256": "a775531a5a795a5d82fe45e66c8943e04136c0d78692ee48e7f343dd6cbc0d77",
+    "previewMaxSide": 440,
+    "processing": "Полная репродукция картины 1879 года. Для карточки подготовлена уменьшенная копия.",
+    "credit": {
+      "task": "5–7 классы, № 21",
+      "title": "Шествие слонов. Въезд принца Уэльского в Джайпур",
+      "author": "Василий Верещагин",
+      "license": "Общественное достояние",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+  }
+}

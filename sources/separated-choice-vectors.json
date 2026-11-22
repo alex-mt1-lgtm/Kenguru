@@ -532,6 +532,13 @@
       ]
     }
   },
+  "2004-5-6/15": {
+    "source": "sources/grades-5-6/2004/tasks.pdf",
+    "page": 1,
+    "condition": "assets/separated-choice-vectors/2004-5-6/15-condition.svg",
+    "conditionClip": [346, 450, 375, 478],
+    "conditionWidth": 180
+  },
   "2005-3-4/7": {
     "source": "sources/2005/tasks.pdf",
     "page": 1,
@@ -1509,6 +1516,9 @@
   "2011-5-6/12": {
     "source": "sources/grades-5-6/2011/tasks.pdf",
     "page": 1,
+    "condition": "assets/separated-choice-vectors/2011-5-6/12-condition.svg",
+    "conditionClip": [304, 238, 367, 296],
+    "conditionWidth": 201,
     "options": {
       "1": "assets/separated-choice-vectors/2011-5-6/12-1.svg",
       "2": "assets/separated-choice-vectors/2011-5-6/12-2.svg",
@@ -1917,6 +1927,10 @@
   "2016-3-4/12": {
     "source": "sources/2016/tasks.pdf",
     "page": 1,
+    "condition": "assets/separated-choice-vectors/2016-3-4/12-condition.svg",
+    "conditionClip": [307, 349, 387, 431],
+    "conditionWidth": 248,
+    "conditionExcludeRects": [[0, 71, 13, 82]],
     "options": {
       "1": "assets/separated-choice-vectors/2016-3-4/12-1.svg",
       "2": "assets/separated-choice-vectors/2016-3-4/12-2.svg",
@@ -2968,6 +2982,9 @@
   "2023-5-6/13": {
     "source": "sources/grades-5-6/2023/tasks.pdf",
     "page": 1,
+    "condition": "assets/separated-choice-vectors/2023-5-6/13-condition.svg",
+    "conditionWidth": 248,
+    "conditionClip": [76.8, 344.5, 120.45, 363.25],
     "options": {
       "1": "assets/separated-choice-vectors/2023-5-6/13-1.svg",
       "2": "assets/separated-choice-vectors/2023-5-6/13-2.svg",

@@ -38,16 +38,16 @@ def credit_lines(path, manifest):
         grade_label += ' классы' if '-' in grade else ' класс'
         yield f'<h2>{escape(label)} · {grade_label}</h2><ul>'
         rows = json.loads(edition.read_text(encoding='utf-8'))
-        for number, row in enumerate(rows, 1):
-            images = row.get('optionFigures') or ([row['figure']] if 'figure' in row else [])
-            for index, image in enumerate(images):
+        credits = set()
+        for row in rows:
+            images = row.get('optionFigures') or row.get('figures') or ([row['figure']] if 'figure' in row else [])
+            for image in images:
                 detail = manifest['figures'].get(Path(image['src']).stem, {}).get('detail')
                 if not detail:
                     continue
                 source = detail['source']
                 if source == 'tasks.pdf':
                     source = year + '/tasks.pdf'
-                name = f'№ {number}' + (' · ' + 'АБВГД'[index] if row.get('optionFigures') else '')
                 license_name = escape(detail['license'])
                 if detail.get('licenseUrl'):
                     license_name = f'<a href="{escape(detail["licenseUrl"], quote=True)}">{license_name}</a>'
@@ -56,9 +56,10 @@ def credit_lines(path, manifest):
                 if master.suffix != '.svg':
                     with Image.open(master) as original:
                         size = f'{original.width} × {original.height} px'
-                yield (f'<li><strong>{name}</strong> · {escape(detail["author"])}. '
-                       f'<a href="{escape(source, quote=True)}">Источник</a> · {license_name}. '
-                       f'{escape(detail["processing"])} <small>({size})</small></li>')
+                credits.add(f'<li><strong>{escape(detail["author"])}</strong>. '
+                            f'<a href="{escape(source, quote=True)}">Источник</a> · {license_name}. '
+                            f'{escape(detail["processing"])} <small>({size})</small></li>')
+        yield from sorted(credits, key=str.casefold)
         yield '</ul>'
 
 

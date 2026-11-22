@@ -106,14 +106,14 @@
         "src": "assets/chip/2020/03-b.webp",
         "alt": "Тёмно-зелёные кроны за светлой открытой поляной.",
         "width": 480,
-        "height": 314,
+        "height": 313,
         "detailSrc": "assets/chip/2020/detail/03-b.webp"
       },
       {
         "src": "assets/chip/2020/03-c.webp",
         "alt": "Тонкие белые стволы с тёмными полосками на берегу ручья.",
         "width": 480,
-        "height": 326,
+        "height": 325,
         "detailSrc": "assets/chip/2020/detail/03-c.webp"
       },
       {
@@ -176,7 +176,7 @@
       {
         "src": "assets/chip/2020/05-b.webp",
         "alt": "На одном черешке по обе стороны сидят несколько небольших зубчатых листочков.",
-        "width": 298,
+        "width": 304,
         "height": 480,
         "detailSrc": "assets/chip/2020/detail/05-b.webp"
       },
@@ -184,7 +184,7 @@
         "src": "assets/chip/2020/05-c.webp",
         "alt": "Лист с расходящимися острыми лопастями.",
         "width": 480,
-        "height": 427,
+        "height": 420,
         "detailSrc": "assets/chip/2020/detail/05-c.webp"
       },
       {
@@ -567,10 +567,10 @@
     "figure": {
       "src": "assets/chip/2020/18.webp",
       "alt": "Растение с розеткой плавающих листьев. Справа внизу видны тёмный плод с рожками и его разрез.",
-      "width": 174,
+      "width": 188,
       "height": 280,
       "detailSrc": "assets/chip/2020/detail/18.webp",
-      "pixelWidth": 298,
+      "pixelWidth": 322,
       "pixelHeight": 480
     },
     "points": 4
@@ -614,9 +614,9 @@
       },
       {
         "src": "assets/chip/2020/19-d.webp",
-        "alt": "Два копытных с гривами и длинными хвостами на траве.",
+        "alt": "Одно взрослое гнедое животное с длинной гривой и хвостом стоит на траве.",
         "width": 480,
-        "height": 360,
+        "height": 386,
         "detailSrc": "assets/chip/2020/detail/19-d.webp"
       },
       {
@@ -708,12 +708,12 @@
     ],
     "figure": {
       "src": "assets/chip/2020/23.webp",
-      "alt": "Ящерица с закрученным хвостом высоко приподняла тело над песком.",
-      "width": 373,
-      "height": 280,
-      "detailSrc": "assets/chip/2020/detail/23.webp",
+      "alt": "Круглоголовка в профиль. Она опирается на лапы, между брюшком и песком виден просвет, кончик хвоста закручен.",
+      "width": 430,
+      "height": 242,
+      "detailSrc": "assets/chip/2020/detail/23.svg",
       "pixelWidth": 480,
-      "pixelHeight": 360
+      "pixelHeight": 270
     },
     "points": 5,
     "reviewedEdition": true

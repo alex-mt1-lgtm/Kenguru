@@ -5,52 +5,77 @@
     "9": {
       "page": 0,
       "rect": [
-        456,
-        45,
-        559,
-        145
+        456.5546,
+        45.3543,
+        559.4248,
+        144.8674
       ],
-      "src": "assets/golden-fleece/2024/3-4/09.webp"
+      "src": "assets/golden-fleece/2024/3-4/09.webp",
+      "embeddedSize": [
+        215,
+        208
+      ],
+      "embeddedXref": 31
     },
     "11": {
       "page": 0,
       "rect": [
-        427,
-        239,
-        559,
-        341
+        426.4475,
+        239.5275,
+        558.4252,
+        338.8708
       ],
-      "src": "assets/golden-fleece/2024/3-4/11.webp"
+      "src": "assets/golden-fleece/2024/3-4/11.webp",
+      "embeddedSize": [
+        275,
+        207
+      ],
+      "embeddedXref": 33
     },
     "13": {
       "page": 0,
       "rect": [
-        427,
-        461,
-        559,
-        563
+        426.2484,
+        461.9055,
+        559.2252,
+        561.2781
       ],
-      "src": "assets/golden-fleece/2024/3-4/13.webp"
+      "src": "assets/golden-fleece/2024/3-4/13.webp",
+      "embeddedSize": [
+        278,
+        208
+      ],
+      "embeddedXref": 35
     },
     "15": {
       "page": 0,
       "rect": [
-        704,
-        112,
-        835,
-        213
+        704.3654,
+        111.3466,
+        834.1254,
+        212.3243
       ],
-      "src": "assets/golden-fleece/2024/3-4/15.webp"
+      "src": "assets/golden-fleece/2024/3-4/15.webp",
+      "embeddedSize": [
+        271,
+        211
+      ],
+      "embeddedXref": 37
     },
     "17": {
       "page": 0,
       "rect": [
-        734,
-        319,
-        835,
-        449
+        733.8898,
+        319.6063,
+        833.3859,
+        449.5505
       ],
-      "src": "assets/golden-fleece/2024/3-4/17.webp"
+      "src": "assets/golden-fleece/2024/3-4/17.webp",
+      "embeddedSize": [
+        208,
+        271
+      ],
+      "embeddedXref": 29
     }
   }
 }

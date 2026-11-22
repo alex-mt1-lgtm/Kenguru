@@ -389,12 +389,8 @@ function sceneMarkup(lesson, step, frame) {
   if (task === 9) return fruitWorkspaceScene();
   if (lesson.choiceLayout) {
     const figure = lesson.choiceLayout.condition;
-    if (figure?.items) {
-      return '<div class="named-figures">' + figure.items.map(({src, caption, alt}) =>
-        '<figure><img src="' + escapeAnswerText(src) + '" alt="' + escapeAnswerText(alt)
-        + '"><figcaption>' + escapeAnswerText(caption) + '</figcaption></figure>').join('') + '</div>';
-    }
-    return figure
+    if (figure?.items?.length) return conditionItemsMarkup(figure.items);
+    return figure?.src
       ? `<svg class="legacy-scene" role="img" aria-label="${escapeAnswerText(figure.alt ?? 'Рисунок из условия задачи')}" viewBox="0 0 ${figure.width} ${figure.height}" style="max-width:${figure.width}px"><image href="${figure.src}" width="${figure.width}" height="${figure.height}"/></svg>`
       : '';
   }
@@ -457,6 +453,15 @@ function choiceImageMarkup(path, option, alt = '') {
   return `<img src="${escapeAnswerText(path)}" alt="${escapeAnswerText(alt)}"${rasterSize}>`;
 }
 
+function conditionItemsMarkup(items) {
+  return '<div class="named-figures">' + items.map(({src, caption, alt}, index) => {
+    const label = caption || 'Рисунок ' + (index + 1);
+    return `<figure><button class="figure-thumbnail" type="button" data-condition-item="${index}" aria-haspopup="dialog"
+      aria-label="${escapeAnswerText('Увеличить ' + label)}">${choiceImageMarkup(src, null, alt ?? '')}</button>
+      <figcaption>${escapeAnswerText(label)}</figcaption></figure>`;
+  }).join('') + '</div>';
+}
+
 function graphicAnswerDescription(lesson, index) {
   return lesson.graphicDescriptions?.[index]
     ?? globalThis.KENGURU_GRAPHIC_ANSWER_DESCRIPTIONS?.[lessonKey(lesson)]?.[index];
@@ -466,7 +471,7 @@ function renderMatching(lesson, step) {
   const parts = matchingParts();
   const rows = parts.map((i, offset) => {
     const part = LESSONS[i];
-    const figure = part.choiceLayout.condition;
+    const figure = part.choiceLayout.condition.items?.[0] ?? part.choiceLayout.condition;
     const label = 'Рисунок ' + (offset + 1);
     const options = part.choices.map((choice, n) => '<option value="' + n + '"' +
       (states[i].selected === n ? ' selected' : '') + '>' + answerLetter(n) + ' · ' + escapeAnswerText(choice) + '</option>');
@@ -475,7 +480,7 @@ function renderMatching(lesson, step) {
       : '<span>' + (states[i].selected === null ? 'Ответ пропущен' : 'Твой выбор — ' + answerLetter(states[i].selected)) + '</span>';
     const solution = step === lastStep() || step === offset + 1
       ? '<strong>' + (offset + 1) + ' — ' + answerLetter(part.answer) + ' · ' + escapeAnswerText(part.choices[part.answer]) + '</strong>' : '';
-    return '<div class="matching-item"><b>' + label + '</b><button type="button" data-match-image="' + offset +
+    return '<div class="matching-item"><b>' + label + '</b><button class="figure-thumbnail" type="button" aria-haspopup="dialog" data-match-image="' + offset +
       '" aria-label="Увеличить рисунок ' + (offset + 1) + '"><img src="' + escapeAnswerText(figure.src) + '" alt="' +
       escapeAnswerText(figure.alt) + '"></button>' + control + solution + '</div>';
   });
@@ -486,14 +491,15 @@ function renderAnswers() {
   const st = current();
   const lesson = LESSONS[task];
   const options = lesson.choiceLayout?.options;
-  const illustrated = task === 0 || task === 6 || Boolean(lesson.choiceImages?.some(Boolean));
+  const illustrated = task === 0 || task === 6 || Boolean(lesson.choiceImages?.some(Boolean)
+    || options?.some(option => option.image));
   const numeric = Number.isInteger(lesson.numericAnswer);
   $('numericEntry').hidden = !numeric || st.step !== 0;
   if (numeric) $('numericAnswer').value = st.selected ?? '';
   $('matchingAnswers').hidden = !lesson.matching;
   if (lesson.matching) renderMatching(lesson, st.step);
   $('answers').hidden = Boolean(lesson.matching) || numeric || st.step !== 0;
-  $('openChoiceZoom').hidden = st.step !== 0 || !options?.some(option => option.image);
+  $('openChoiceZoom').hidden = !illustrated || Boolean(lesson.matching) || numeric;
   $('answers').className = 'answer-list' + (illustrated ? ' illustrated-answers' : '')
     + (options && illustrated ? ' separated-answers' : '');
   const markup = lesson.choices.map((value, i) => {
@@ -506,8 +512,8 @@ function renderAnswers() {
     } else if (task === 6) {
       description = CUBE_COLUMN_NAMES.map((name, col) => name + ': ' + CUBE_HEIGHTS[i][col]).join(', ');
       picture = `<img src="assets/cubes-${i}.svg" alt="">`;
-    } else if (lesson.choiceImages?.[i]) {
-      picture = choiceImageMarkup(lesson.choiceImages[i], option);
+    } else if (option?.image || lesson.choiceImages?.[i]) {
+      picture = choiceImageMarkup(option?.image ?? lesson.choiceImages[i], option);
     }
     const label = escapeAnswerText('Выбрать ответ ' + answerLetter(i) + (description ? ': ' + description : ''));
     const visibleText = option ? option.text : picture ? '' : value;
@@ -630,6 +636,10 @@ function renderPicker() {
   if (set.sources.answersUrl) $('answersSource').href = set.sources.answersUrl;
   $('solutionsSource').hidden = !set.sources.solutionUrl;
   $('solutionsSource').href = set.sources.solutionUrl || '';
+  const illustrationSources = $('lessonIllustrationSources');
+  const creditHref = illustrationCredits(set);
+  illustrationSources.hidden = !creditHref;
+  if (creditHref) illustrationSources.href = creditHref;
 
 }
 
@@ -673,13 +683,19 @@ function renderCondition(lesson, step) {
   note.textContent = lesson.questionNote ?? '';
   note.hidden = !lesson.questionNote;
 
-  const source = !lesson.matching && step > 0 && lesson.conditionImage;
+  const figure = lesson.choiceLayout?.condition;
+  const source = !lesson.matching && step > 0 && !figure?.items?.length && (figure?.src ?? lesson.conditionImage);
   picture.hidden = !source;
   if (source && picture.getAttribute?.('src') !== source) {
     picture.src = source;
-    picture.alt = lesson.conditionAlt ?? 'Рисунок из условия задачи';
+    picture.alt = figure?.alt ?? lesson.conditionAlt ?? 'Рисунок из условия задачи';
   }
-  $('openLegacyZoom').hidden = Boolean(lesson.matching) || !lesson.conditionImage;
+  const pictures = $('conditionPictures');
+  pictures.hidden = !step || Boolean(lesson.matching) || !figure?.items?.length;
+  if (!pictures.hidden) {
+    const markup = conditionItemsMarkup(figure.items);
+    if (pictures.innerHTML !== markup) pictures.innerHTML = markup;
+  }
 }
 
 function render() {
@@ -711,6 +727,7 @@ function render() {
     `<button data-step="${i}" class="${i === st.step ? 'active' : ''}" ${i === st.step ? 'aria-current="step"' : ''}><span>${String(i + 1).padStart(2, '0')}</span> ${name}</button>`
   ).join(''));
   renderScene();
+  renderFigureControls(lesson, st.step);
   renderAnswers();
   renderPicker();
   renderWorkspace();
@@ -834,6 +851,10 @@ function selectTask(n, historyMethod = 'pushState', savePosition = true) {
 function activateTask(n, historyMethod, savePosition) {
   finishMark();
   pause();
+  if (n !== task && detailDialog.open) {
+    detailOpener = null;
+    detailDialog.close();
+  }
   task = n;
   browsedSection = null;
   ratingAttempt = null;
@@ -889,113 +910,331 @@ $('yearPicker').addEventListener('change', () => {
   if (selected) selected.then(closeSingleEdition);
   else closeSingleEdition();
 });
+const detailDialog = $('detailZoom');
+const detailViewport = $('detailViewport');
+const detailMedia = $('detailMedia');
 let detailGallery = [];
 let detailIndex = 0;
 let detailMagnified = false;
+let detailSource = null;
+let detailOpener = null;
+let detailDrag = null;
+let detailHeight = 0;
 
-function sizeDetailImage() {
-  const img = $('detailImage');
-  const viewport = $('detailViewport');
-  if (!$('detailZoom').open || !img.complete || !img.naturalWidth) return;
-  const vector = img.currentSrc.endsWith('.svg');
-  const fit = Math.min(viewport.clientWidth / img.naturalWidth, viewport.clientHeight / img.naturalHeight, vector ? Infinity : 1);
-  const scale = detailMagnified ? Math.min(vector ? Infinity : 1, fit * 2) : fit;
+function illustrationCredits(set) {
+  const subject = subjectOf(set);
+  return subject === 'chip' || subject === 'golden-fleece' ? 'assets/' + subject + '/illustrations.html' : '';
+}
+
+function sceneHasFigures(markup) {
+  return /<(?:img|svg)(?:\s|>)/i.test(markup) && !markup.includes('answer-key-scene');
+}
+
+function renderFigureControls(lesson, step) {
+  const figure = lesson.choiceLayout?.condition;
+  const named = (figure?.detailItems ?? figure?.items)?.length;
+  const hasCondition = !lesson.matching && (named || figure?.src || lesson.conditionImage
+    || task !== 9 && sceneHasFigures(step ? sceneMarkup(lesson, 0, 0) : lastScene));
+  let hasScene = step > 0 && sceneHasFigures(lastScene);
+  if (hasScene && hasCondition && $('scene').querySelectorAll) {
+    const conditionSources = new Set(conditionDetailItems(lesson)
+      .filter(item => item.src).map(item => new URL(item.detailSrc || item.src, document.baseURI).href));
+    const sceneItems = detailSceneItems($('scene'), 'Схема разбора');
+    hasScene = sceneItems.some(item => !item.src
+      || !conditionSources.has(new URL(item.detailSrc || item.src, document.baseURI).href));
+  }
+  const conditionButton = $('openLegacyZoom');
+  conditionButton.hidden = !hasCondition;
+  const label = named > 1 ? 'Увеличить рисунки' : 'Увеличить рисунок';
+  conditionButton.textContent = hasScene ? label + ' условия' : label;
+  $('openSceneZoom').hidden = !hasScene;
+}
+
+function detailSceneItems(container, label, lesson = LESSONS[task]) {
+  const graphics = Array.from(container.querySelectorAll('svg:not(.answer-key-scene), img[src]'))
+    .filter(node => !node.parentElement?.closest('svg'));
+  const condition = lesson.choiceLayout?.condition;
+  const sources = [condition, ...(condition?.items ?? []), ...(lesson.choiceLayout?.options ?? [])];
+  const masters = new Map(sources.filter(item => item?.detailSrc).map(item => [
+    new URL(item.src ?? item.image, document.baseURI).href, item.detailSrc,
+  ]));
+  return graphics.map((node, index) => {
+    const title = graphics.length === 1 ? label : label + ' ' + (index + 1);
+    const alt = node.getAttribute('aria-label') ?? node.getAttribute('alt') ?? label;
+    const image = node.firstElementChild;
+    const resource = node.localName === 'img' ? node.currentSrc || node.getAttribute('src')
+      : node.matches('.legacy-scene, .worked-scene') && node.childElementCount === 1 && image.localName === 'image'
+        ? image.getAttribute('href') : null;
+    if (resource) return {title, alt, src: resource, detailSrc: masters.get(new URL(resource, document.baseURI).href),
+      preview: node.localName === 'img' ? node : null, width: image?.width?.baseVal?.value, height: image?.height?.baseVal?.value};
+    return {title, alt, svg: node};
+  });
+}
+
+function conditionDetailItems(lesson) {
+  const figure = lesson.choiceLayout?.condition;
+  const items = figure?.detailItems ?? figure?.items;
+  const thumbnails = current().step ? $('conditionPictures') : $('scene');
+  if (items?.length) return items.map((item, index) => ({
+    ...item, title: item.caption || 'Рисунок ' + (index + 1),
+    preview: figure.detailItems ? null : thumbnails.querySelector(`[data-condition-item="${index}"] img`),
+  }));
+  const title = 'Рисунок к задаче ' + lesson.number;
+  const src = figure?.src ?? lesson.conditionImage;
+  if (src) return [{src, detailSrc: figure?.detailSrc, title,
+    alt: figure?.alt ?? lesson.conditionAlt ?? 'Рисунок из условия задачи'}];
+  if (!current().step) return detailSceneItems($('scene'), title);
+  const template = document.createElement('template');
+  template.innerHTML = sceneMarkup(lesson, 0, 0);
+  return detailSceneItems(template.content, title);
+}
+
+function isVectorDetail(src) {
+  return /^(?:data:image\/svg\+xml[;,])|\.svg(?:[?#]|$)/i.test(src);
+}
+
+function detailPreviewSize(item) {
+  if (item.svg) {
+    const {width, height} = item.svg.viewBox.baseVal;
+    return {width, height, maxScale: Infinity};
+  }
+  return {
+    width: item.preview?.naturalWidth || item.pixelWidth || item.width,
+    height: item.preview?.naturalHeight || item.pixelHeight || item.height,
+    // A master keeps the same crop. Its preview gives the aspect ratio, not the pixel limit.
+    maxScale: item.detailSrc || isVectorDetail(item.src) ? Infinity : 1.5,
+  };
+}
+
+function setDetailFrameHeight(height, viewportChanged = false) {
+  const multi = detailGallery.length > 1;
+  if (multi && detailHeight && !viewportChanged) return;
+  const controlsHeight = detailDialog.offsetHeight - detailViewport.offsetHeight;
+  if (multi) {
+    const availableWidth = Math.max(1, detailViewport.clientWidth - 16);
+    const heights = detailGallery.map(item => {
+      if (!item.src && !item.svg) return 0;
+      const {width, height, maxScale} = detailPreviewSize(item);
+      if (!(width > 0 && height > 0)) return 850;
+      return Math.ceil(height * Math.min(availableWidth / width, maxScale)) + 18;
+    });
+    height = Math.max(height, ...heights);
+  }
+  detailHeight = height + controlsHeight;
+  detailDialog.style.setProperty('--detail-height', detailHeight + 'px');
+}
+
+function resizeDetail(recenter = false, viewportChanged = false) {
+  if (!detailDialog.open || !detailSource) return;
+  const {width, height, vector} = detailSource;
+  const previous = detailMedia.getBoundingClientRect();
+  const viewport = detailViewport.getBoundingClientRect();
+  const focusX = recenter || !previous.width ? .5 : (viewport.left + viewport.width / 2 - previous.left) / previous.width;
+  const focusY = recenter || !previous.height ? .5 : (viewport.top + viewport.height / 2 - previous.top) / previous.height;
+  // Measure the area without scrollbars. Both the inset and the first view keep the entire frame visible.
+  detailViewport.dataset.panning = 'false';
+  if (detailGallery.length === 1 && !vector && width <= 220) {
+    detailDialog.style.setProperty('--detail-width', '480px');
+  }
+  const fitByWidth = Math.min(Math.max(1, detailViewport.clientWidth - 16) / width, vector ? Infinity : 1.5);
+  const preferredHeight = Math.max(104, Math.ceil(height * fitByWidth) + 18);
+  setDetailFrameHeight(preferredHeight, viewportChanged);
+  const fit = Math.min(fitByWidth, Math.max(1, detailViewport.clientHeight - 16) / height);
+  const scale = detailMagnified ? Math.min(vector ? Infinity : 2, fit * 2) : fit;
+  detailMedia.style.width = Math.max(1, Math.floor(width * scale)) + 'px';
+  detailMedia.style.height = Math.max(1, Math.floor(height * scale)) + 'px';
+  const scrollable = detailMagnified && (width * scale + 16 > detailViewport.clientWidth
+    || height * scale + 16 > detailViewport.clientHeight);
+  detailViewport.dataset.panning = String(scrollable);
+  if (scrollable) {
+    detailViewport.scrollLeft = 8 + focusX * detailMedia.offsetWidth - detailViewport.clientWidth / 2;
+    detailViewport.scrollTop = 8 + focusY * detailMedia.offsetHeight - detailViewport.clientHeight / 2;
+  }
   const scaleButton = $('detailScale');
-  scaleButton.disabled = !vector && fit >= 1;
-  scaleButton.textContent = scaleButton.disabled ? 'Полный размер' : detailMagnified ? 'Целиком' : 'Крупнее';
-  img.style.width = Math.round(img.naturalWidth * scale) + 'px';
-  viewport.scrollLeft = Math.max(0, (img.offsetWidth - viewport.clientWidth) / 2);
-  viewport.scrollTop = Math.max(0, (img.offsetHeight - viewport.clientHeight) / 2);
+  scaleButton.disabled = false;
+  scaleButton.textContent = detailMagnified ? 'Целиком' : 'Крупнее';
+  const sizeHint = !vector && scale > 1 ? 'Исходник ' + width + ' × ' + height + ' пикс.' : '';
+  const panHint = scrollable ? 'Перемещай рисунок' : '';
+  $('detailHint').textContent = sizeHint || panHint;
+}
+
+function showDetailSvg(node, alt) {
+  const clone = node.cloneNode(true);
+  const descendants = [clone, ...clone.querySelectorAll('*')];
+  const ids = new Map(descendants.filter(child => child.id).map(child => [child.id, 'detail-copy-' + child.id]));
+  for (const child of descendants) {
+    if (child.id) child.id = ids.get(child.id);
+    child.removeAttribute('tabindex');
+    for (const attr of Array.from(child.attributes)) {
+      let value = attr.value.replace(/url\(#([^)]+)\)/g, (match, id) => ids.has(id) ? 'url(#' + ids.get(id) + ')' : match);
+      if (attr.localName === 'href' && value.startsWith('#') && ids.has(value.slice(1))) value = '#' + ids.get(value.slice(1));
+      if (value !== attr.value) attr.value = value;
+    }
+  }
+  clone.setAttribute('role', 'img');
+  clone.setAttribute('aria-label', alt);
+  clone.removeAttribute('aria-labelledby');
+  clone.removeAttribute('aria-describedby');
+  const {width, height} = clone.viewBox.baseVal;
+  if (!width || !height) return false;
+  detailMedia.replaceChildren(clone);
+  detailSource = {width, height, vector: true};
+  resizeDetail(true);
+  return true;
+}
+
+function loadDetailImage(item, src, fallback) {
+  const img = document.createElement('img');
+  img.id = 'detailImage';
+  img.alt = item.alt ?? '';
+  img.draggable = false;
+  detailMedia.hidden = true;
+  detailMedia.replaceChildren(img);
+  img.addEventListener('load', () => {
+    if (!detailDialog.open || !img.isConnected) return;
+    detailSource = {width: img.naturalWidth, height: img.naturalHeight,
+      vector: isVectorDetail(img.currentSrc)};
+    if (detailSource.width && detailSource.height) {
+      detailMedia.hidden = false;
+      resizeDetail(true);
+    }
+  });
+  img.addEventListener('error', () => {
+    if (!detailDialog.open || !img.isConnected) return;
+    if (fallback) loadDetailImage(item, fallback);
+    else {
+      detailMedia.hidden = true;
+      $('detailError').hidden = false;
+    }
+  });
+  img.src = src;
 }
 
 function showDetail(index) {
+  if (index < 0 || index >= detailGallery.length) return;
+  if (document.activeElement === $('detailScale')) {
+    $(index < detailIndex ? 'detailPrev' : 'detailNext').focus({preventScroll: true});
+  }
   detailIndex = index;
+  detailSource = null;
+  detailMagnified = false;
+  detailViewport.dataset.panning = 'false';
+  detailViewport.dataset.text = 'false';
+  detailViewport.scrollLeft = detailViewport.scrollTop = 0;
+  detailMedia.style.width = detailMedia.style.height = '';
+  detailMedia.hidden = false;
   const item = detailGallery[index];
-  const img = $('detailImage');
   $('detailTitle').textContent = item.title;
-  $('detailPrev').hidden = $('detailNext').hidden = detailGallery.length === 1;
-  $('detailPrev').disabled = index === 0;
-  $('detailNext').disabled = index === detailGallery.length - 1;
-  $('detailScale').textContent = detailMagnified ? 'Целиком' : 'Крупнее';
-  img.alt = item.alt;
-  img.hidden = false;
-  $('detailError').hidden = true;
+  $('detailCaption').innerHTML = item.src ? item.text ?? '' : '';
+  $('detailNavigation').hidden = detailGallery.length < 2;
+  $('detailCount').textContent = (index + 1) + ' / ' + detailGallery.length;
+  $('detailPrev').setAttribute('aria-disabled', String(index === 0));
+  $('detailNext').setAttribute('aria-disabled', String(index === detailGallery.length - 1));
+  $('detailHint').textContent = '';
   $('detailScale').disabled = true;
-  img.onload = sizeDetailImage;
-  img.onerror = () => {
-    img.hidden = true;
-    $('detailScale').disabled = true;
+  $('detailScale').textContent = 'Крупнее';
+  $('detailError').hidden = true;
+  if (detailGallery.length > 1) setDetailFrameHeight(104);
+  detailMedia.replaceChildren();
+  if (item.svg && showDetailSvg(item.svg, item.alt)) return;
+  if (item.src) {
+    loadDetailImage(item, item.detailSrc || item.src, item.detailSrc !== item.src ? item.src : null);
+  } else if (item.text) {
+    detailMedia.innerHTML = item.text;
+    detailViewport.dataset.text = 'true';
+    setDetailFrameHeight(detailMedia.offsetHeight + 18);
+  } else {
+    detailMedia.hidden = true;
     $('detailError').hidden = false;
-  };
-  img.src = item.detail || item.preview;
-  sizeDetailImage();
+  }
 }
 
-function openDetail(items, index, magnified) {
+function openDetail(items, index, opener) {
+  if (!items[index] || detailDialog.open) return;
+  if (playing) pause();
+  detailHeight = 0;
+  detailDialog.style.removeProperty('--detail-height');
+  detailDialog.style.removeProperty('--detail-width');
   detailGallery = items;
-  detailMagnified = magnified;
-  $('detailZoom').showModal();
+  detailOpener = opener;
+  const noun = opener.id === 'openChoiceZoom' ? 'вариант' : 'рисунок';
+  $('detailPrev').setAttribute('aria-label', 'Предыдущий ' + noun);
+  $('detailNext').setAttribute('aria-label', 'Следующий ' + noun);
+  const credit = $('detailCredit');
+  const creditHref = illustrationCredits(activeSet());
+  credit.hidden = !current().step || !creditHref;
+  if (!credit.hidden) credit.href = creditHref;
+  $('detailTitle').textContent = items[index].title;
+  detailDialog.showModal();
   showDetail(index);
 }
 
-$('detailRetry').onclick = () => showDetail(detailIndex);
-$('detailZoom').addEventListener('keydown', event => {
-  if (detailMagnified || detailGallery.length < 2) return;
+$('detailRetry').onclick = () => {
+  showDetail(detailIndex);
+  $('detailClose').focus();
+};
+detailDialog.addEventListener('close', () => {
+  if (detailDialog.open) return;
+  detailMedia.replaceChildren();
+  detailSource = null;
+  detailGallery = [];
+  detailDrag = null;
+  detailOpener?.focus({preventScroll: true});
+  detailOpener = null;
+});
+detailDialog.addEventListener('keydown', event => {
+  if (event.altKey || event.ctrlKey || event.metaKey
+      || (event.target === detailViewport && detailViewport.dataset.panning === 'true')) return;
   const direction = event.key === 'ArrowLeft' ? -1 : event.key === 'ArrowRight' ? 1 : 0;
-  const next = detailIndex + direction;
-  if (direction && next >= 0 && next < detailGallery.length) {
+  if (direction && detailGallery.length > 1) {
     event.preventDefault();
-    showDetail(next);
+    showDetail(detailIndex + direction);
   }
 });
 $('detailPrev').onclick = () => showDetail(detailIndex - 1);
 $('detailNext').onclick = () => showDetail(detailIndex + 1);
 $('detailScale').onclick = () => {
   detailMagnified = !detailMagnified;
-  sizeDetailImage();
+  resizeDetail(true);
 };
-globalThis.addEventListener?.('resize', sizeDetailImage);
+detailViewport.addEventListener('pointerdown', event => {
+  if (event.pointerType !== 'mouse' || event.button !== 0 || detailViewport.dataset.panning !== 'true'
+      || !detailMedia.contains(event.target)) return;
+  event.preventDefault();
+  detailDrag = {x: event.clientX + detailViewport.scrollLeft, y: event.clientY + detailViewport.scrollTop};
+  detailViewport.setPointerCapture(event.pointerId);
+  detailViewport.focus({preventScroll: true});
+});
+detailViewport.addEventListener('pointermove', event => {
+  if (!detailDrag) return;
+  detailViewport.scrollLeft = detailDrag.x - event.clientX;
+  detailViewport.scrollTop = detailDrag.y - event.clientY;
+});
+detailViewport.addEventListener('lostpointercapture', () => { detailDrag = null; });
+globalThis.addEventListener?.('resize', () => resizeDetail(false, true));
 
-$('openLegacyZoom').onclick = () => {
-  const lesson = LESSONS[task];
-  const path = lesson.conditionImage;
-  if (!path) return;
-  const image = $('legacyZoomImage');
-  const figure = lesson.choiceLayout?.condition;
-  if (activeSet().subject === 'chip') {
-    openDetail([{title: 'Рисунок к задаче ' + lesson.number, preview: path, detail: figure?.detailSrc,
-      alt: lesson.conditionAlt ?? 'Рисунок из условия задачи'}], 0, globalThis.matchMedia('(max-width: 600px)').matches);
-    return;
-  }
-  image.style.width = figure?.pixelWidth ? '100%' : '';
-  image.style.maxWidth = figure?.pixelWidth ? `min(100%, ${figure.pixelWidth * 2}px)` : '';
-  image.style.maxHeight = figure?.pixelHeight ? `min(calc(100dvh - 106px), ${figure.pixelHeight * 2}px)` : '';
-  image.src = path;
-  image.alt = lesson.conditionAlt ?? 'Рисунок из условия задачи';
-  $('legacyZoom').showModal();
-  $('legacyZoomScroll').scrollTop = 0;
-};
+$('openLegacyZoom').onclick = () => openDetail(conditionDetailItems(LESSONS[task]), 0, $('openLegacyZoom'));
+$('openSceneZoom').onclick = () => openDetail(detailSceneItems($('scene'), 'Схема разбора'), 0, $('openSceneZoom'));
+for (const id of ['stage', 'conditionPictures']) {
+  $(id).addEventListener('click', event => {
+    const button = event.target.closest('[data-condition-item]');
+    if (button) openDetail(conditionDetailItems(LESSONS[task]), Number(button.dataset.conditionItem), button);
+  });
+}
 $('openChoiceZoom').onclick = () => {
   const lesson = LESSONS[task];
-  const options = lesson.choiceLayout?.options;
-  if (!options?.some(option => option.image)) return;
-  if (activeSet().subject === 'chip') {
-    const items = options.flatMap((option, index) => option.image ? [{
-      index, title: 'Вариант ' + answerLetter(index), preview: option.image, detail: option.detailSrc,
-      alt: graphicAnswerDescription(lesson, index) ?? option.description ?? '',
-    }] : []);
-    const selected = items.findIndex(item => item.index === current().selected);
-    openDetail(items, Math.max(0, selected), false);
-    return;
-  }
-  $('choiceZoomItems').innerHTML = options.map((option, index) => {
-    const {image, text, presentation} = option;
-    const description = graphicAnswerDescription(lesson, index) ?? option.description ?? '';
-    return `<figure>${image ? choiceImageMarkup(image, option, description) : ''}
-      <figcaption><strong>${answerLetter(index)}</strong>${text ? choiceTextMarkup(text, presentation) : ''}</figcaption></figure>`
-  }).join('');
-  $('choiceZoom').showModal();
-  $('choiceZoom').scrollTop = 0;
+  const items = lesson.choices.map((value, index) => {
+    const option = lesson.choiceLayout?.options[index];
+    const title = 'Вариант ' + answerLetter(index);
+    if (task === 0) return {title, alt: squareDescription(index), svg: $('answers').querySelector(`[data-answer="${index}"] svg`)};
+    const src = task === 6 ? 'assets/cubes-' + index + '.svg' : option?.image ?? lesson.choiceImages?.[index];
+    const caption = option ? option.text : src ? '' : value;
+    const preview = src ? $('answers').querySelector(`[data-answer="${index}"] img`) : null;
+    return {title, src, preview, detailSrc: option?.detailSrc, pixelWidth: option?.pixelWidth, pixelHeight: option?.pixelHeight, text: caption
+      ? choiceTextMarkup(caption, option?.presentation, lesson.formattedChoices?.[index]) : '',
+      alt: graphicAnswerDescription(lesson, index) ?? option?.description ?? caption ?? title};
+  });
+  openDetail(items, current().selected ?? 0, $('openChoiceZoom'));
 };
 $('gradePicker').addEventListener('change', () => {
   selectDataset($('gradePicker').value);
@@ -1090,9 +1329,10 @@ $('matchingAnswers').addEventListener('click', event => {
   if (!button) return;
   const gallery = matchingParts().map((i, n) => {
     const figure = LESSONS[i].choiceLayout.condition;
-    return {title: 'Рисунок ' + (n + 1), preview: figure.src, detail: figure.detailSrc, alt: figure.alt};
+    const image = figure.detailItems?.[0] ?? figure.items?.[0] ?? figure;
+    return {...image, title: 'Рисунок ' + (n + 1)};
   });
-  openDetail(gallery, Number(button.dataset.matchImage), false);
+  openDetail(gallery, Number(button.dataset.matchImage), button);
 });
 $('numericAnswer').addEventListener('input', event => {
   if (!Number.isInteger(LESSONS[task].numericAnswer) || current().step !== 0) return;

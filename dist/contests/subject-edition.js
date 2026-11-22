@@ -5,7 +5,8 @@ globalThis.makeSubjectEdition = function (meta, rows) {
   const folder = 'assets/' + subject + '/' + year + '/';
   const grades = grade.split('-').map(Number);
   const lessons = rows.map(row => {
-    const {title, question, choices, figure, optionFigures, steps, context, audio, numericAnswer} = row;
+    const {title, question, choices, figure, figures, optionFigures, steps, context, audio, numericAnswer} = row;
+    const condition = figures?.length ? {items: figures} : figure;
     const options = choices.map((text, i) => {
       const image = optionFigures?.[i];
       if (!image) return {text};
@@ -22,9 +23,9 @@ globalThis.makeSubjectEdition = function (meta, rows) {
       ...(row.number ? {number: row.number} : {}),
       ...(Number.isInteger(numericAnswer) ? {numericAnswer} : {}),
       ...(audio ? {audio: folder + (meta.listeningFile ?? 'listening.mp3')} : {}),
-      ...(figure || optionFigures ? {choiceLayout: {condition: figure, options},
+      ...(condition || optionFigures ? {choiceLayout: {condition, options},
         choiceImages: options.map(option => option.image),
-        ...(figure ? {conditionImage: figure.src, conditionAlt: figure.alt} : {})} : {}),
+        ...(condition?.src ? {conditionImage: condition.src, conditionAlt: condition.alt} : {})} : {}),
       steps: [
         ['Выбор', 'Условие задачи', ''],
         ...steps.map((explanation, index) => index === steps.length - 1

@@ -19,16 +19,28 @@
       "items": [
         {
           "src": "assets/medvezhonok/2024/2-3-28-condition-1.webp",
+          "width": 141,
+          "height": 238,
+          "pixelWidth": 141,
+          "pixelHeight": 238,
           "caption": "Валентина",
           "alt": "Неваляшка"
         },
         {
           "src": "assets/medvezhonok/2024/2-3-28-condition-2.webp",
+          "width": 156,
+          "height": 274,
+          "pixelWidth": 156,
+          "pixelHeight": 274,
           "caption": "Ирина",
           "alt": "Жираф"
         },
         {
           "src": "assets/medvezhonok/2024/2-3-28-condition-3.webp",
+          "width": 183,
+          "height": 265,
+          "pixelWidth": 183,
+          "pixelHeight": 265,
           "caption": "Зинаида",
           "alt": "Корзина"
         }

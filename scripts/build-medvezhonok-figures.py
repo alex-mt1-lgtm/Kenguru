@@ -1,6 +1,7 @@
 """Extract only the figures used by the Russian-language lessons from official local PDFs."""
 import io
 import json
+import subprocess
 from pathlib import Path
 
 import fitz
@@ -90,31 +91,43 @@ DESCRIPTIONS = [
 ]
 # For embedded originals identify each image by the vertical coordinate of its top edge.
 SINGLE = [
-    (2004,'2-3',20,2,531,
-     '1. Бант с запятой перед ним, слон с двумя запятыми перед ним. '
-     '2. Нота ми и шар с запятой после него. '
-     '3. Внутри О лодка с двумя запятыми после неё, рядом Я. '
-     '4. Маленькая а над Т, лилия с двумя запятыми перед ней. '
-     '5. Юла с заменой Л на Р. '
-     '6. Нота фа, шина с запятой перед ней.'),
-    (2004,'4-5',10,1,218,
-     '1. Две ели, буква Е за В, затем таз с запятой после него. '
-     '2. Гриб и гора с запятой после каждого, кий с запятой перед ним. '
-     '3. Дом с зачёркнутой о, затем буква и и цифра 3 с й. '
-     '4. Нота соль с запятой перед ней, нога с двумя запятыми перед ней. '
-     '5. Мак, нота си и буква м. '
-     '6. Ж над Е, цифра 2 с зачёркнутой в над ней.'),
-    (2016,'2-3',24,1,446,
-     'Сверху прямоугольник с горизонталью, вертикалью и двумя диагоналями через центр. '
-     'Под ним четыре рисунка. '
-     'На первом три горизонтали, средняя вертикаль и линии от центра к нижним углам. '
-     'На втором средняя горизонталь, средняя вертикаль и обе диагонали. '
-     'На третьем средняя горизонталь, средняя и правая вертикали и обе диагонали. '
-     'На четвёртом средняя и нижняя горизонтали, обе боковые вертикали и обе диагонали.'),
     (2022,'4-5',2,0,301,'Силуэт собаки в красном перечёркнутом круге.'),
     (2023,'2-3',7,1,64,'Над ртом зачёркнута Т, над почтовой маркой указана замена Р на Ш.'),
     (2023,'4-5',1,0,249,'Белый треугольник с красной каймой и чёрной буквой У.'),
     (2024,'4-5',21,2,562,'Красная К над синей А, внутри которой маленькая О.'),
+]
+# Pixel coordinates in the 591-pixel-wide originals. The printed numbers become captions.
+REBUSES = [
+    ('2-3',20,2,531,[
+        ((36,0,211,83), 'Бант с запятой перед ним, слон с двумя запятыми перед ним.'),
+        ((252,0,398,83), 'Нота ми и шар с запятой после него.'),
+        ((435,0,558,83), 'Внутри О лодка с двумя запятыми после неё, рядом Я.'),
+        ((50,84,178,175), 'Маленькая а над Т, лилия с двумя запятыми перед ней.'),
+        ((251,84,380,175), 'Юла с заменой Л на Р.'),
+        ((420,84,569,175), 'Нота фа, шина с запятой перед ней.'),
+    ]),
+    ('4-5',10,1,218,[
+        ((14,0,192,57), 'Две ели, буква Е за В, затем таз с запятой после него.'),
+        ((211,0,411,57), 'Гриб и гора с запятой после каждого, кий с запятой перед ним.'),
+        ((424,0,591,57), 'Дом с зачёркнутой о, затем буква и, цифра 3 и буква й.'),
+        ((84,57,177,118), 'Нота соль с запятой перед ней, нога с двумя запятыми перед ней.'),
+        ((216,57,306,118), 'Мак, нота си и буква м.'),
+        ((324,57,410,118), 'Ж над Е, цифра 2 с зачёркнутой в над ней.'),
+    ]),
+]
+# Traced from the 1023 × 230 embedded diagram on page 2 of the 2016 answers PDF.
+# The five paths use the original coordinates so the key and the signs keep the same proportions.
+CIPHER = [
+    ((10,0,311,105), 'M68 11H286V92H68ZM68 52H286M176 11V92M68 11L286 92M68 92L286 11',
+     'Ключ', 'Рамка со средней горизонталью, средней вертикалью и обеими диагоналями.'),
+    ((7,114,244,212), 'M16 122H235M16 163H234M16 203H234M125 122V203M16 203L125 163 234 203',
+     'Знак 1', 'Три горизонтали, средняя вертикаль и линии от центра к нижним углам.'),
+    ((269,114,508,212), 'M278 163H498M388 123V203M278 122L498 203M278 203L498 122',
+     'Знак 2', 'Средняя горизонталь, средняя вертикаль и обе диагонали.'),
+    ((530,114,768,214), 'M539 165H758M648 124V206M758 124V206M539 124L758 206M539 206L758 124',
+     'Знак 3', 'Средняя горизонталь, средняя и правая вертикали и обе диагонали.'),
+    ((776,114,1014,214), 'M786 165H1004M786 206H1004M786 124V206M1004 124V206M786 124L1004 206M786 206L1004 124',
+     'Знак 4', 'Средняя и нижняя горизонтали, обе боковые вертикали и обе диагонали.'),
 ]
 # Display-coordinate rectangles in PDF points. Preserve text, glyph outlines and complete images.
 GROUPS = [
@@ -173,6 +186,49 @@ def svg_asset(doc, page, rectangle, folder, stem, masks=()):
     return {'src':output.relative_to(ROOT/'dist').as_posix(), 'width':round(rect.width*2), 'height':round(rect.height*2)}
 
 
+def cipher_asset(folder, stem, bounds, paths):
+    x0, y0, x1, y1 = bounds
+    width, height = x1 - x0, y1 - y0
+    output = folder / (stem + '.svg')
+    drawing = ''.join(f'<path d="{path}"/>' for path in paths)
+    output.write_text(
+        f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{x0} {y0} {width} {height}" width="{width}" height="{height}">'
+        f'<rect x="{x0}" y="{y0}" width="{width}" height="{height}" fill="white"/>'
+        f'<g fill="none" stroke="black" stroke-width="2.5" stroke-linejoin="round">{drawing}</g></svg>\n'
+    )
+    return {'src':output.relative_to(ROOT/'dist').as_posix(), 'width':width, 'height':height}
+
+
+def rebus_reader(grade, number, items):
+    source = ROOT / f'sources/medvezhonok/2004/{grade}.pdf'
+    output = ROOT / f'dist/assets/medvezhonok/2004/{grade}-reading.pdf'
+    font_file = subprocess.check_output(['fc-match', '-f', '%{file}', 'DejaVu Sans'], text=True)
+    with fitz.open(source) as booklet, fitz.open() as appendix:
+        page = appendix.new_page(width=595.28, height=841.89)
+        font = 'DejaVu'
+        page.insert_font(fontname=font, fontfile=font_file)
+        page.insert_text((36,53), f'Ребусы к заданию № {number}', fontname=font, fontsize=23)
+        page.insert_text((36,76), f'Русский медвежонок · 2004 · {grade.replace("-", "–")} классы',
+                         fontname=font, fontsize=11)
+        for index, item in enumerate(items):
+            left = 36 + (index % 2) * 270
+            top = 109 + (index // 2) * 214
+            page.draw_line((left,top),(left+253,top),color=(0.65,0.65,0.65),width=0.5)
+            page.insert_text((left,top+21), item['caption'], fontname=font, fontsize=12)
+            with Image.open(ROOT / 'dist' / item['src']) as image:
+                buffer = io.BytesIO()
+                image.save(buffer, format='PNG')
+                page.insert_image((left,top+35,left+253,top+152),stream=buffer.getvalue())
+            note = page.insert_textbox((left,top+160,left+253,top+207),item['alt'],fontname=font,fontsize=11)
+            if note < 0:
+                raise ValueError(f'Caption for {grade}, № {number}, panel {index + 1} does not fit')
+        page.insert_text((36,790), 'Рисунки увеличены из оригинального растра. Под ними перечислены видимые знаки.',
+                         fontname=font, fontsize=9)
+        appendix.subset_fonts()
+        booklet.insert_pdf(appendix)
+        output.write_bytes(booklet.tobytes(garbage=4, deflate=True, no_new_id=True))
+
+
 def main():
     art = {}
     def destination(year, grade, number):
@@ -202,6 +258,8 @@ def main():
                     elif i==2:
                         box=[360,327,516,379.5]
                         masks=[(360,327,366,356), (360,374,384,380)]
+                    elif i==3:
+                        box[1]=381
                     elif i==4:
                         box[1]=374
                 else:
@@ -220,6 +278,28 @@ def main():
         doc,page=open_page(year,grade,pn)
         folder,stem,record=destination(year,grade,number)
         record['condition']={**raster_asset(embedded(doc,page,top),folder,stem),'alt':alt}
+    for grade,number,pn,top,regions in REBUSES:
+        doc,page=open_page(2004,grade,pn)
+        folder,stem,record=destination(2004,grade,number)
+        original = embedded(doc,page,top)
+        figure = raster_asset(original,folder,stem)
+        figure['items'] = [
+            {**raster_asset(original.crop(box),folder,f'{stem}-condition-{i}'),'caption':f'Ребус {i}','alt':description}
+            for i,(box,description) in enumerate(regions, 1)
+        ]
+        figure['alt'] = ' '.join(f'{i}. {description}' for i,(_,description) in enumerate(regions, 1))
+        record['condition']=figure
+        rebus_reader(grade, number, figure['items'])
+    folder,stem,record = destination(2016,'2-3',24)
+    figure = cipher_asset(folder,stem,(8,4,1013,214),[path for _,path,_,_ in CIPHER])
+    figure['alt'] = 'Сверху ключ. Под ним слева направо четыре знака. ' + ' '.join(
+        f'{caption}. {description}' for _,_,caption,description in CIPHER
+    )
+    figure['detailItems'] = [
+        {**cipher_asset(folder,f'{stem}-condition-{i}',bounds,[path]),'caption':caption,'alt':description}
+        for i,(bounds,path,caption,description) in enumerate(CIPHER, 1)
+    ]
+    record['condition'] = figure
     for year,grade,number,pn,rect,alt in GROUPS:
         doc,page=open_page(year,grade,pn)
         folder,stem,record=destination(year,grade,number)
@@ -231,7 +311,7 @@ def main():
             for i, (left, top, caption, description) in enumerate(CONDITION_ITEMS, 1):
                 image = embedded(doc,page,top,left)
                 item = raster_asset(image,folder,f'{stem}-condition-{i}')
-                figure['items'].append({'src':item['src'], 'caption':caption, 'alt':description})
+                figure['items'].append({**item, 'caption':caption, 'alt':description})
         else:
             figure = svg_asset(doc,page,rect,folder,stem)
         record['condition']={**figure,'alt':alt}
@@ -242,6 +322,8 @@ def main():
         record['onlyPictures']=grade=='2-3'
     for year,figures in art.items():
         (ROOT/f'sources/medvezhonok/{year}/figures.json').write_text(json.dumps(figures,ensure_ascii=False,indent=2)+'\n')
+    with fitz.open(ROOT / 'sources/medvezhonok/2025/2-3.pdf') as doc:
+        svg_asset(doc,doc[1],(668,173,788,265),ROOT / 'dist/assets/medvezhonok/2025','2-3-20')
 
 
 if __name__=='__main__':

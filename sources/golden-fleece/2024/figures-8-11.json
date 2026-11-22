@@ -5,12 +5,17 @@
     "8": {
       "page": 0,
       "rect": [
-        452,
-        45,
-        559,
-        146
+        450.5102,
+        45.3543,
+        559.2194,
+        144.7044
       ],
-      "src": "assets/golden-fleece/2024/8-11/08.webp"
+      "src": "assets/golden-fleece/2024/8-11/08.webp",
+      "embeddedSize": [
+        227,
+        207
+      ],
+      "embeddedXref": 37
     },
     "10": {
       "page": 0,
@@ -25,42 +30,62 @@
     "12": {
       "page": 0,
       "rect": [
-        476,
-        455,
-        559,
-        580
+        476.22,
+        454.96,
+        558.43,
+        578.15
       ],
-      "src": "assets/golden-fleece/2024/8-11/12.webp"
+      "src": "assets/golden-fleece/2024/8-11/12.webp",
+      "embeddedSize": [
+        172,
+        257
+      ],
+      "processing": "Фотография извлечена без номера задания и фона страницы. Размер ограничен встроенным растром буклета."
     },
     "15": {
       "page": 0,
       "rect": [
-        749,
-        181,
-        835,
-        312
+        748.2293,
+        179.5918,
+        834.1882,
+        312.6119
       ],
-      "src": "assets/golden-fleece/2024/8-11/15.webp"
+      "src": "assets/golden-fleece/2024/8-11/15.webp",
+      "embeddedSize": [
+        180,
+        278
+      ],
+      "embeddedXref": 33
     },
     "26": {
       "page": 1,
       "rect": [
-        447,
-        45,
-        559,
-        147
+        445.668,
+        45.3542,
+        559.2024,
+        144.4868
       ],
-      "src": "assets/golden-fleece/2024/8-11/26.webp"
+      "src": "assets/golden-fleece/2024/8-11/26.webp",
+      "embeddedSize": [
+        237,
+        207
+      ],
+      "embeddedXref": 9
     },
     "29": {
       "page": 1,
       "rect": [
-        447,
-        341,
-        559,
-        442
+        445.7099,
+        340.8661,
+        559.2443,
+        439.9987
       ],
-      "src": "assets/golden-fleece/2024/8-11/29.webp"
+      "src": "assets/golden-fleece/2024/8-11/29.webp",
+      "embeddedSize": [
+        237,
+        207
+      ],
+      "embeddedXref": 7
     }
   }
 }

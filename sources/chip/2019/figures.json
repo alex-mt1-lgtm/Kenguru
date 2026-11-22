@@ -263,7 +263,7 @@
         "source": "https://commons.wikimedia.org/wiki/File:Karl_Bodmer_Travels_in_America_(47).jpg",
         "author": "Karl Bodmer",
         "license": "Public domain",
-        "processing": "Подготовлены мастер и веб-превью."
+        "processing": "Портрет коренного жителя Северной Америки работы Карла Бодмера. Использован вместо изображения на ту же тему в буклете."
       }
     },
     "3-4-06-2": {
@@ -309,7 +309,7 @@
         "source": "https://commons.wikimedia.org/wiki/File:Kalicho.jpg",
         "author": "John White",
         "license": "Public domain",
-        "processing": "Подготовлены мастер и веб-превью."
+        "processing": "Исторический портрет инуита Каличо. Использован вместо изображения на ту же тему в буклете."
       }
     },
     "3-4-06-4": {
@@ -332,7 +332,7 @@
         "source": "https://commons.wikimedia.org/wiki/File:Joshua_Reynolds_%E2%80%93_Omai_of_the_Friendly_Isles.jpg",
         "author": "Joshua Reynolds",
         "license": "Public domain",
-        "processing": "Подготовлены мастер и веб-превью."
+        "processing": "Карандашный портрет Омаи. Использован вместо изображения жителя Океании в буклете."
       }
     },
     "3-4-06-5": {
@@ -355,7 +355,7 @@
         "source": "https://commons.wikimedia.org/wiki/File:%E5%AD%94%E5%AD%90%E8%81%96%E8%B9%9F%E5%9C%96.png",
         "author": "孔子",
         "license": "Public domain",
-        "processing": "Подготовлены мастер и веб-превью."
+        "processing": "Историческое изображение Конфуция. Использовано вместо изображения на ту же тему в буклете."
       }
     },
     "3-4-09-1": {
@@ -399,11 +399,15 @@
       ],
       "detail": {
         "file": "detail/3-4-09-2.webp",
-        "source": "https://commons.wikimedia.org/wiki/File:Columba_palumbus_EM1B1397_(27445478998).jpg",
-        "author": "Bengt Nyman from Vaxholm, Sweden",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-        "processing": "Подготовлены мастер и веб-превью."
+        "source": "https://commons.wikimedia.org/wiki/File:Crested_pigeon_7th_Brigade_Park_Chermside_P1120086.jpg",
+        "author": "John Robert McPherson",
+        "license": "CC BY-SA 4.0",
+        "processing": "Ocyphaps lophotes, австралийский хохлатый голубь, как в буклете. Выбран кадр с поднятыми крыльями и хорошо видимым тонким хохлом. Обрезаны внешние ветки вокруг птицы.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "nativePixels": [
+          2056,
+          2056
+        ]
       }
     },
     "3-4-09-3": {
@@ -423,11 +427,15 @@
       ],
       "detail": {
         "file": "detail/3-4-09-3.webp",
-        "source": "https://commons.wikimedia.org/wiki/File:Lyrebird_Tail_(4781948523).jpg",
-        "author": "Rexness",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-        "processing": "Подготовлены мастер и веб-превью."
+        "source": "https://commons.wikimedia.org/wiki/File:Lyrebird.jpg",
+        "author": "Melburnian",
+        "license": "CC BY-SA 3.0",
+        "processing": "Самец большого лирохвоста с раскрытым хвостом. Светлые нити и две изогнутые полосатые рулевые видны на фоне грунта. Сохранён исходный размер снимка 1088 × 1000 px.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "nativePixels": [
+          1088,
+          1000
+        ]
       }
     },
     "3-4-09-4": {

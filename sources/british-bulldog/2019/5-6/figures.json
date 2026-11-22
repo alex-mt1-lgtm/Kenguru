@@ -24,7 +24,10 @@
         49,
         50
       ],
-      "alt": "A numbered map with English signs for public buildings. The illustration can be enlarged."
+      "alt": "A numbered map with English signs for public buildings. The illustration can be enlarged.",
+      "detail": {
+        "file": "town-map.svg"
+      }
     }
   ]
 }

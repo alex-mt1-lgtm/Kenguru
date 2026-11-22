@@ -621,18 +621,9 @@
     telephone,
   ];
 
-  const rebus = `<svg class="medvezhonok-rebus" viewBox="0 0 410 245" role="img" aria-label="Буква З сидит на букве Й. Буква Й шагает вправо, где стоит буква А.">
-    <g fill="none" stroke="#266c69" stroke-linecap="round" stroke-linejoin="round" stroke-width="7">
-      <path d="M119 177l-32 34-30-9m91-25 24 26-20 23M102 129l-29 17-19-21m97 17 38-13 17-20"/>
-    </g>
-    <g fill="#266c69" font-family="system-ui, sans-serif" font-weight="850" text-anchor="middle">
-      <text x="124" y="183" font-size="110">И</text>
-      <path d="M102 75q22 28 44 0" fill="none" stroke="#266c69" stroke-linecap="round" stroke-width="9"/>
-      <text x="124" y="72" font-size="72" fill="#a93e24">З</text>
-      <text x="315" y="183" font-size="105" fill="#735097">а</text>
-    </g>
-    <path d="M294 181l-8 35m45-35 11 35m-49-77-25 19 16 14m45-32 26 13-17 17" fill="none" stroke="#735097" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
-  </svg>`;
+  const conditionImage = 'assets/medvezhonok/2025/2-3-20.svg';
+  const conditionAlt = 'Буква З сидит на букве Й. Буква Й шагает вправо, где стоит буква А.';
+  const rebus = `<img class="medvezhonok-rebus" src="${conditionImage}" alt="${conditionAlt}">`;
 
   function escapeText(value) {
     return value.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
@@ -647,7 +638,7 @@
         points: index < 10 ? 3 : index < 20 ? 4 : 5,
         skill: 'Русский медвежонок · Языкознание',
         hideIntroText: true,
-        ...(index + 1 === figureNumber ? {openingFigure: true} : {}),
+        ...(index + 1 === figureNumber ? {openingFigure: true, conditionImage, conditionAlt} : {}),
         showCompletedStep: true,
         steps: [
           ['Выбор', 'Условие задачи', ''],

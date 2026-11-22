@@ -5,82 +5,122 @@
     "2": {
       "page": 0,
       "rect": [
-        193,
-        124,
-        278,
-        244
+        192.5233,
+        123.6577,
+        278.7171,
+        242.024
       ],
-      "src": "assets/golden-fleece/2025/5-7/02.webp"
+      "src": "assets/golden-fleece/2025/5-7/02.webp",
+      "embeddedSize": [
+        180,
+        247
+      ],
+      "embeddedXref": 54
     },
     "5": {
       "page": 0,
       "rect": [
-        193,
-        398,
-        278,
-        515
+        193.748,
+        398.3778,
+        277.7953,
+        513.6426
       ],
-      "src": "assets/golden-fleece/2025/5-7/05.webp"
+      "src": "assets/golden-fleece/2025/5-7/05.webp",
+      "embeddedSize": [
+        176,
+        241
+      ],
+      "embeddedXref": 55
     },
     "8": {
       "page": 0,
       "rect": [
-        448,
-        158,
-        559,
-        225
+        448.937,
+        158.0315,
+        558.4252,
+        225.261
       ],
-      "src": "assets/golden-fleece/2025/5-7/08.webp"
+      "src": "assets/golden-fleece/2025/5-7/08.webp",
+      "embeddedSize": [
+        229,
+        141
+      ],
+      "embeddedXref": 56
     },
     "11": {
       "page": 0,
       "rect": [
-        474,
-        353,
-        559,
-        461
+        474.3779,
+        352.2398,
+        558.4252,
+        460.0604
       ],
-      "src": "assets/golden-fleece/2025/5-7/11.webp"
+      "src": "assets/golden-fleece/2025/5-7/11.webp",
+      "embeddedSize": [
+        176,
+        225
+      ],
+      "embeddedXref": 57
     },
     "22": {
       "page": 1,
       "rect": [
-        166,
-        233,
-        278,
-        307
+        166.1811,
+        233.8582,
+        277.7953,
+        308.2677
       ],
-      "src": "assets/golden-fleece/2025/5-7/22.webp"
+      "src": "assets/golden-fleece/2025/5-7/22.webp",
+      "embeddedSize": [
+        233,
+        156
+      ],
+      "embeddedXref": 60
     },
     "24": {
       "page": 1,
       "rect": [
-        166,
-        449,
-        278,
-        528
+        164.9686,
+        448.8702,
+        278.6921,
+        527.8048
       ],
-      "src": "assets/golden-fleece/2025/5-7/24.webp"
+      "src": "assets/golden-fleece/2025/5-7/24.webp",
+      "embeddedSize": [
+        237,
+        165
+      ],
+      "embeddedXref": 61
     },
     "29": {
       "page": 1,
       "rect": [
-        452,
-        375,
-        560,
-        456
+        452.126,
+        375.5905,
+        558.4252,
+        455.2549
       ],
-      "src": "assets/golden-fleece/2025/5-7/29.webp"
+      "src": "assets/golden-fleece/2025/5-7/29.webp",
+      "embeddedSize": [
+        222,
+        166
+      ],
+      "embeddedXref": 59
     },
     "30": {
       "page": 1,
       "rect": [
-        386,
-        523,
-        559,
-        580
+        386.0079,
+        523.2756,
+        559.1934,
+        579.165
       ],
-      "src": "assets/golden-fleece/2025/5-7/30.webp"
+      "src": "assets/golden-fleece/2025/5-7/30.webp",
+      "embeddedSize": [
+        361,
+        117
+      ],
+      "embeddedXref": 62
     }
   }
 }

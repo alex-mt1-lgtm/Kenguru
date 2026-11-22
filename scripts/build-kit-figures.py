@@ -1,10 +1,11 @@
 """Rebuild reviewed КИТ figures from zero-indexed pages and PDF-point boxes."""
 
+import io
 import json
 from pathlib import Path
 
 import fitz
-from PIL import Image
+from PIL import Image, ImageOps
 
 from pdf_figure import cropped_svg
 
@@ -17,6 +18,15 @@ ASSETS = ROOT / 'dist' / 'assets' / 'kit'
 def extract_fragment(page, bounds, scale):
     pixels = page.get_pixmap(matrix=scale, clip=fitz.Rect(bounds), alpha=False)
     return Image.frombytes('RGB', (pixels.width, pixels.height), pixels.samples)
+
+
+def extract_original(document, page, bounds):
+    rect = fitz.Rect(bounds)
+    images = [image for image in page.get_image_info(xrefs=True) if rect.contains(fitz.Rect(image['bbox']))]
+    if len(images) != 1 or not images[0]['xref'] or images[0]['has-mask']:
+        raise ValueError(f'Expected one unmasked image in {document.name}, page {page.number + 1}, {rect}')
+    original = document.extract_image(images[0]['xref'])
+    return Image.open(io.BytesIO(original['image'])).convert('RGB')
 
 
 def combine_fragments(fragments, gap):
@@ -44,16 +54,51 @@ def build_figures(manifest_path):
     output.mkdir(parents=True, exist_ok=True)
     pdf_path = manifest_path.with_name(manifest_path.name.replace('-figures.json', '.pdf'))
     with fitz.open(pdf_path) as document:
-        for name, (page_index, bounds) in crops.items():
+        for name, (page_index, bounds, *options) in crops.items():
             if name.endswith('.svg'):
                 (box,) = bounds
                 graphic = cropped_svg(document, page_index, fitz.Rect(box))
                 (output / name).write_text(graphic, encoding='utf-8')
             else:
-                fragments = [extract_fragment(document[page_index], rect, scale) for rect in bounds]
+                page = document[page_index]
+                if options and options[0].get('original'):
+                    # Image inspection can affect subsequent renderings in the same PDF instance.
+                    with fitz.open(pdf_path) as original:
+                        fragments = [extract_original(original, original[page_index], rect) for rect in bounds]
+                    padding = options[0].get('padding', 0)
+                    if padding:
+                        fragments = [ImageOps.expand(fragment, padding, fill='white') for fragment in fragments]
+                elif not options:
+                    fragments = [extract_fragment(page, rect, scale) for rect in bounds]
+                else:
+                    raise ValueError(f'Unknown figure extraction options: {options}')
                 combine_fragments(fragments, gap).save(output / f'{name}.webp', lossless=True, method=webp_method)
+
+
+def display_segments():
+    # Traced from the identical 262 × 42 raster in the 2022 booklets for grades 4–5, 6–7 and 8–9.
+    segments = [
+        'M0 0H18', 'M0 16H18', 'M0 32H18',
+        'M0 0V16', 'M18 0V16', 'M0 16V32', 'M18 16V32',
+        'M0 16L18 0', 'M0 32L18 16',
+    ]
+    lit = [
+        (0,2,3,4,5,6), (4,6,7), (0,2,4,8), (0,1,7,8), (1,3,4,6),
+        (0,1,2,3,6), (1,2,5,6,7), (0,5,7), (0,1,2,3,4,5,6), (0,1,3,4,8),
+    ]
+    digits = []
+    for index, active in enumerate(lit):
+        bold = ''.join(segments[i] for i in active)
+        digits.append(f'<g transform="translate({5 + 26*index} 5)">'
+                      f'<use href="#segments"/><path d="{bold}" stroke-width="4.5"/></g>')
+    graphic = ('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 262 42" width="262" height="42">'
+               f'<defs><path id="segments" d="{"".join(segments)}"/></defs>'
+               '<rect width="262" height="42" fill="white"/>'
+               f'<g fill="none" stroke="black" stroke-width="0.85" stroke-linecap="square">{"".join(digits)}</g></svg>\n')
+    (ASSETS / '2022' / 'display-segments.svg').write_text(graphic, encoding='utf-8')
 
 
 if __name__ == '__main__':
     for manifest_path in sorted(SOURCES.glob('*/*-figures.json')):
         build_figures(manifest_path)
+    display_segments()

@@ -11,7 +11,7 @@
         178,
         273
       ],
-      "file": "clock-31.webp",
+      "file": "clock-31.svg",
       "tasks": [
         31
       ]
@@ -24,7 +24,7 @@
         320,
         273
       ],
-      "file": "clock-32.webp",
+      "file": "clock-32.svg",
       "tasks": [
         32
       ]
@@ -37,7 +37,7 @@
         461,
         273
       ],
-      "file": "clock-33.webp",
+      "file": "clock-33.svg",
       "tasks": [
         33
       ]
@@ -45,12 +45,12 @@
     {
       "page": 1,
       "box": [
-        459,
+        460,
         131,
         602,
         273
       ],
-      "file": "clock-34.webp",
+      "file": "clock-34.svg",
       "tasks": [
         34
       ]
@@ -63,7 +63,7 @@
         746,
         273
       ],
-      "file": "clock-35.webp",
+      "file": "clock-35.svg",
       "tasks": [
         35
       ]
@@ -83,7 +83,11 @@
         43,
         44,
         45
-      ]
+      ],
+      "detail": {
+        "file": "band-detail.webp",
+        "renderScale": 8.25
+      }
     }
   ]
 }

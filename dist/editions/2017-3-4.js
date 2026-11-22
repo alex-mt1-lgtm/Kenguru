@@ -115,9 +115,6 @@ globalThis.KENGURU_LEGACY_CONDITIONS = {"2017":{"1":{"question":"Кенга со
       draw: drawStairs,
     },
     '2005/3': {
-      question: 'Каждый из восьми кенгуру может перепрыгнуть на любую клетку квадратной таблицы 4 × 4. Им надо расположиться так, чтобы в каждой строчке и каждом столбце этой таблицы оказалось ровно по 2 кенгуру. Какое наименьшее число кенгуру должно для этого прыгнуть?',
-      choices: ['4', '3', '2', '1', '0'],
-      crop: [537, 8, 244, 240],
       illustration: 'Квадратная таблица с восемью кенгуру',
       draw: drawKangaroos,
     },
@@ -165,9 +162,6 @@ globalThis.KENGURU_LEGACY_CONDITIONS = {"2017":{"1":{"question":"Кенга со
         : drawBars(['А', 'Б', 'В', 'Г', 'Д'], [320, 37, 35, 30, 302], 0, frame, ' мм'),
     },
     '2014/1': {
-      question: 'Боря выложил из одинаковых палочек слово КЕНГУРУ. Сколько букв сложены из 5 палочек?',
-      choices: ['2', '3', '4', '5', '6'],
-      crop: [447, 4, 348, 81],
       illustration: 'Буквы слова КЕНГУРУ, сложенные из палочек',
       draw: drawStickLetters,
     },
@@ -267,8 +261,8 @@ globalThis.KENGURU_LEGACY_CONDITIONS = {"2017":{"1":{"question":"Кенга со
     return [225, drawing];
   }
 
-  function drawKangaroos(step, frame, card) {
-    const [url, w, h] = card;
+  function drawKangaroos(step, frame, figure) {
+    const [url, w, h] = figure;
     const locations = [[0, 0], [0, 1], [1, 0], [1, 3], [2, 2], [2, 3], [3, 2], [1, 2]];
     let drawing = '';
     for (let row = 0; row < 4; row++) {
@@ -288,7 +282,7 @@ globalThis.KENGURU_LEGACY_CONDITIONS = {"2017":{"1":{"question":"Кенга со
       const x = 210 + col * 64 - shift * 64;
       const y = 21 + row * 64 + shift * 128 - 37 * Math.sin(shift * Math.PI);
       if (active) drawing += box(x - 3, y - 3, 58, 57, mint, teal, 7);
-      drawing += `<svg x="${x}" y="${y}" width="52" height="50" viewBox="549 19 49 46" style="overflow:hidden;mix-blend-mode:multiply">${image(url, w, h)}</svg>`;
+      drawing += `<svg x="${x}" y="${y}" width="52" height="50" viewBox="16 21 65 62" style="overflow:hidden;mix-blend-mode:multiply">${image(url, w, h)}</svg>`;
     });
     const counts = moving === 1 ? [2, 2, 2, 2] : moving === 0 ? [2, 3, 2, 1] : [2, 2, 2, 1];
     for (let i = 0; i < 4; i++) {
@@ -389,9 +383,9 @@ globalThis.KENGURU_LEGACY_CONDITIONS = {"2017":{"1":{"question":"Кенга со
     return [239, drawing];
   }
 
-  function drawStickLetters(step, frame, card) {
-    const [url, w, h] = card;
-    const sources = [[449, 42], [492, 48], [541, 53], [597, 49], [645, 46], [692, 52], [745, 48]];
+  function drawStickLetters(step, frame, figure) {
+    const [url, w, h] = figure;
+    const sources = [[7, 43], [57, 57], [123, 60], [193, 56], [253, 53], [313, 62], [380, 58]];
     const values = [4, 5, 5, 3, 3, 5, 3];
     const active = Math.min(6, Math.floor(Math.max(0, frame) / 3));
     let drawing = '';
@@ -400,7 +394,8 @@ globalThis.KENGURU_LEGACY_CONDITIONS = {"2017":{"1":{"question":"Кенга со
       const x = 24 + i * 98;
       const relevant = step === 2 ? values[i] === 5 : values[i] !== 5;
       drawing += box(x, 21, 85, 126, relevant ? mint : muted, relevant ? teal : line);
-      drawing += crop(url, w, h, [sx, 8, sw, 75], x + 14, 30, 56, 77);
+      const letterWidth = sw * 77 / 100;
+      drawing += crop(url, w, h, [sx, 3, sw, 100], x + (85 - letterWidth) / 2, 30, letterWidth, 77);
       if (relevant) drawing += text(x + 43, 125, values[i], 24, active === i ? '#a24d36' : teal);
     }
     return [167, drawing];
@@ -428,10 +423,12 @@ globalThis.KENGURU_LEGACY_CONDITIONS = {"2017":{"1":{"question":"Кенга со
       const card = [originalImage, width, height];
       const authoredTask = authored[year + '/' + number];
       const imported = globalThis.KENGURU_LEGACY_CONDITIONS?.[year]?.[number];
-      const native = authoredTask ?? imported;
-      const illustration = !authoredTask && imported?.image
-        ? svg(imported.imageWidth, imported.imageHeight, 'Рисунки и варианты из условия',
-            `<image href="${escape(imported.image)}" width="${imported.imageWidth}" height="${imported.imageHeight}"/>`)
+      const native = authoredTask?.question ? authoredTask : imported ?? authoredTask;
+      const figure = native === imported && imported?.image
+        ? [imported.image, imported.imageWidth, imported.imageHeight] : null;
+      const illustration = figure
+        ? svg(imported.imageWidth, imported.imageHeight, authoredTask?.illustration ?? 'Рисунки и варианты из условия',
+            image(escape(imported.image), imported.imageWidth, imported.imageHeight))
           .replace('<svg ', `<svg style="max-width:${imported.imageWidth}px" `)
         : '';
       const steps = [
@@ -452,7 +449,7 @@ globalThis.KENGURU_LEGACY_CONDITIONS = {"2017":{"1":{"question":"Кенга со
         choices: native?.choices ?? ['', '', '', '', ''],
         choiceImages: native?.choiceImages,
         question: native?.question ?? '',
-        conditionImage: !authoredTask ? imported?.image : undefined,
+        conditionImage: figure?.[0],
         questionNote: note,
         legacyOriginal: true,
         hideIntroText: Boolean(native),
@@ -462,8 +459,7 @@ globalThis.KENGURU_LEGACY_CONDITIONS = {"2017":{"1":{"question":"Кенга со
         steps,
       });
       scenes.push((step, frame) => {
-        if (step === 0 && authoredTask) {
-          if (!authoredTask.crop) return '';
+        if (step === 0 && authoredTask?.crop) {
           const region = authoredTask.crop;
           const cropHeight = Math.round(720 * region[3] / Math.max(600, region[2]));
           const cropWidth = cropHeight * region[2] / region[3];
@@ -476,7 +472,7 @@ globalThis.KENGURU_LEGACY_CONDITIONS = {"2017":{"1":{"question":"Кенга со
         const answerLabel = revealed ? ` Ответ ${revealed}.` : '';
         if (step > 0) {
           const content = authoredTask?.draw
-            ? authoredTask.draw(step, frame * 3, card)
+            ? authoredTask.draw(step, frame * 3, figure ?? card)
             : formulas[step - 1].length ? drawEquations(formulas[step - 1], frame * 5) : null;
           if (content) return workedScene(content, steps[step][1] + '. ' + steps[step][2] + answerLabel, revealed);
           if (native) {

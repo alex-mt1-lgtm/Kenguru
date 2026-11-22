@@ -1,4 +1,9 @@
+from xml.etree import ElementTree
+
 import fitz
+
+
+SVG = 'http://www.w3.org/2000/svg'
 
 
 def cropped_svg(document, page_number, rect):
@@ -11,3 +16,35 @@ def cropped_svg(document, page_number, rect):
         page.clip_to_rect(rect)
         page.set_cropbox(rect)
         return page.get_svg_image(text_as_path=True)
+
+
+def remove_print_marks(svg, clear_watermark=False, omit_glyphs=(), exclude_rects=()):
+    """Omit the watermark or adjoining printed labels on checked crops."""
+    for parent in svg.iter():
+        for item in list(parent):
+            glyph = item.get('data-text')
+            if item.tag != f'{{{SVG}}}use' or glyph is None:
+                continue
+            watermark = (clear_watermark and item.get('fill') == '#ff5400'
+                         and item.get('fill-opacity') == '.25')
+            if watermark or glyph in omit_glyphs:
+                parent.remove(item)
+    if exclude_rects:
+        _, _, width, height = map(float, svg.get('viewBox').split())
+        outline = f'M0 0H{width}V{height}H0Z'
+        for left, top, right, bottom in exclude_rects:
+            if not (0 <= left < right <= width and 0 <= top < bottom <= height):
+                raise ValueError(f'Invalid print mark rectangle {left, top, right, bottom}')
+            outline += f' M{left} {top}H{right}V{bottom}H{left}Z'
+        artwork = list(svg)
+        defs = ElementTree.SubElement(svg, f'{{{SVG}}}defs')
+        clip = ElementTree.SubElement(defs, f'{{{SVG}}}clipPath', {'id': 'exclude-print-marks'})
+        ElementTree.SubElement(clip, f'{{{SVG}}}path', {'d': outline, 'clip-rule': 'evenodd'})
+        group = ElementTree.SubElement(svg, f'{{{SVG}}}g', {'clip-path': 'url(#exclude-print-marks)'})
+        for item in artwork:
+            if item.tag != f'{{{SVG}}}defs':
+                svg.remove(item)
+                group.append(item)
+    ElementTree.register_namespace('', SVG)
+    ElementTree.register_namespace('xlink', 'http://www.w3.org/1999/xlink')
+    return ElementTree.tostring(svg, encoding='unicode') + '\n'

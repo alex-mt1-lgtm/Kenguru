@@ -3,11 +3,12 @@
 import json
 from pathlib import Path
 import re
+from xml.etree import ElementTree
 
 import fitz
 from PIL import Image
 
-from pdf_figure import cropped_svg
+from pdf_figure import cropped_svg, remove_print_marks
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -25,7 +26,7 @@ def vector_display_size(width, height):
     return round(width * scale), round(height * scale)
 
 
-def vector_figure(document, page_number, region, width, height):
+def vector_figure(document, page_number, region, width, height, *, clear_watermark=False):
     """Crop in printed coordinates, keeping the illustration's display size."""
     if document[page_number].rotation:
         with fitz.open() as upright:
@@ -36,6 +37,8 @@ def vector_figure(document, page_number, region, width, height):
         svg = cropped_svg(document, page_number, region)
     if '<image' in svg:
         raise ValueError(f'Unexpected bitmap in checked vector artwork {region}')
+    if clear_watermark:
+        svg = remove_print_marks(ElementTree.fromstring(svg), clear_watermark=True)
     return SVG_DIMENSIONS.sub(rf'\1 width="{width}" height="{height}"', svg, count=1)
 
 
@@ -45,7 +48,11 @@ def replace_condition_figure(document, collection, year, number, entry, checked=
     record = records.get(str(number))
     if record is None:
         return False
-    page, rectangle, *raster_scale = record
+    page, rectangle, *flags = record
+    settings = flags[0] if flags else {}
+    if not isinstance(settings, dict):
+        settings = {'rasterScale': settings}
+    raster_scale = settings.get('rasterScale')
     if rectangle is None:
         (row,) = checked['illustrationRows']
         (rectangle,) = row
@@ -56,14 +63,15 @@ def replace_condition_figure(document, collection, year, number, entry, checked=
     destination = ROOT / 'dist' / path
     destination.parent.mkdir(parents=True, exist_ok=True)
     if raster_scale:
-        (scale,) = raster_scale
-        pixels = document[page].get_pixmap(matrix=fitz.Matrix(scale, scale), clip=region, alpha=False)
+        pixels = document[page].get_pixmap(matrix=fitz.Matrix(raster_scale, raster_scale), clip=region, alpha=False)
         width, height = pixels.width, pixels.height
         image = Image.frombytes('RGB', (width, height), pixels.samples)
         image.save(destination, 'WEBP', lossless=True, method=6)
     else:
         width, height = vector_display_size(width, height)
-        destination.write_text(vector_figure(document, page, region, width, height), encoding='utf-8')
+        svg = vector_figure(document, page, region, width, height,
+                            clear_watermark=settings.get('clearWatermark', False))
+        destination.write_text(svg, encoding='utf-8')
     entry.update(image=path.as_posix(), imageWidth=width, imageHeight=height)
     return True
 

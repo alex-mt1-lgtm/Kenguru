@@ -196,7 +196,7 @@
     if (!letter) return '';
     const suffix = value && value.length < 27 ? ' · ' + value : '';
     return svg(card(115, 12, 410, 78, pale) + text(320, 63, letter + suffix, Math.min(34, 530 / (letter.length + suffix.length)), teal),
-      'Официальный ответ ' + letter + suffix, '0 0 640 104', 'worked-scene');
+      'Официальный ответ ' + letter + suffix, '0 0 640 104', 'worked-scene answer-key-scene');
   }
 
   globalThis.KenguruVisual = {svg, reveal, escape, workedScene, answerScene};

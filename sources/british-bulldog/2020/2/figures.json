@@ -57,7 +57,25 @@
       "file": "cow.webp",
       "tasks": [
         23
-      ]
+      ],
+      "clearBoxes": [
+        [
+          229,
+          0,
+          272,
+          10
+        ],
+        [
+          365,
+          0,
+          388,
+          12
+        ]
+      ],
+      "detail": {
+        "file": "cow-detail.webp",
+        "renderScale": 5.5
+      }
     },
     {
       "page": 1,

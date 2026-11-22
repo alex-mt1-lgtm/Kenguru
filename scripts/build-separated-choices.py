@@ -99,7 +99,7 @@ def save_image(image, folder, name):
     return path.relative_to(DIST).as_posix()
 
 
-def condition_asset(asset):
+def condition_asset(asset, display_width=None):
     source = DIST / asset
     if source.suffix == '.svg':
         page = ElementTree.parse(source).getroot()
@@ -107,6 +107,8 @@ def condition_asset(asset):
     else:
         with Image.open(source) as image:
             width, height = image.size
+    if display_width is not None:
+        width, height = display_width, round(height * display_width / width)
     return {'src': asset, 'width': width, 'height': height}
 
 
@@ -152,7 +154,7 @@ def main():
         prefix = f'{int(number):02}'
         entry = {'options': options}
         if condition_vector:
-            entry['condition'] = condition_asset(condition_vector)
+            entry['condition'] = condition_asset(condition_vector, replacements.get('conditionWidth'))
         elif diagram is not None:
             src = save_image(diagram, folder, prefix + '-condition')
             entry['condition'] = {'src': src, 'width': diagram.width, 'height': diagram.height}

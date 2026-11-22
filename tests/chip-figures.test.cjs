@@ -29,7 +29,7 @@ test('each ЧИП illustration opens a local vector or a more detailed version o
     assert.equal(rows.length, count);
     const localPrefix = 'assets/chip/' + year + '/';
     for (const row of rows) {
-      for (const figure of [row.figure, ...(row.optionFigures || [])].filter(Boolean)) {
+      for (const figure of [row.figure, ...(row.figures || []), ...(row.optionFigures || [])].filter(Boolean)) {
         assert.ok(figure.src.startsWith(localPrefix), row.title);
         assert.ok(figure.detailSrc?.startsWith(localPrefix), row.title);
         const detail = path.join(root, 'dist', figure.detailSrc);

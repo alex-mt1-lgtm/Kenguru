@@ -110,10 +110,14 @@
       "flipVertical": true,
       "detail": {
         "file": "detail/03-a.webp",
-        "source": "https://gallerix.ru/storeroom/2037947957/N/152075195/",
+        "source": "https://commons.wikimedia.org/wiki/File:Ivan_Ivanovich_Shishkin_-_Oak_Grove,_1887.jpg",
         "author": "Иван Шишкин",
         "license": "Общественное достояние",
-        "processing": "Дубовая роща. Сохранена композиция картины."
+        "processing": "«Дубовая роща», 1887. Взята прямая репродукция 2056 × 1300 px.",
+        "nativePixels": [
+          2056,
+          1300
+        ]
       }
     },
     "03-b": {
@@ -128,10 +132,14 @@
       "flipVertical": true,
       "detail": {
         "file": "detail/03-b.webp",
-        "source": "https://gallerix.ru/album/Shishkin/pic/glrx-633413696",
+        "source": "https://www.wikiart.org/en/ivan-shishkin/edge-of-the-deciduous-forest-1895",
         "author": "Иван Шишкин",
         "license": "Общественное достояние",
-        "processing": "Опушка лиственного леса 1895 42х66. Сохранена композиция картины."
+        "processing": "«Опушка лиственного леса», 1895, Русский музей, инв. Ж-4135. Доступный полноразмерный файл 1000 × 653 px. Сохранена вся композиция.",
+        "nativePixels": [
+          1000,
+          653
+        ]
       }
     },
     "03-c": {
@@ -146,10 +154,14 @@
       "flipVertical": true,
       "detail": {
         "file": "detail/03-c.webp",
-        "source": "https://gallerix.ru/album/Shishkin/pic/glrx-527697753",
+        "source": "https://commons.wikimedia.org/wiki/File:Ivan_Ivanovich_Shishkin_-_Brook_in_a_Birch_Forest,_1883.jpg",
         "author": "Иван Шишкин",
         "license": "Общественное достояние",
-        "processing": "Ручей в берёзовом лесу 1883 105х153. Сохранена композиция картины."
+        "processing": "«Ручей в берёзовом лесу», 1883, Русский музей. Взята прямая репродукция 2000 × 1355 px.",
+        "nativePixels": [
+          2000,
+          1355
+        ]
       }
     },
     "03-d": {
@@ -164,10 +176,14 @@
       "flipVertical": true,
       "detail": {
         "file": "detail/03-d.webp",
-        "source": "https://gallerix.ru/album/Shishkin/pic/glrx-815594482",
+        "source": "https://www.wikiart.org/ru/ivan-shishkin/deti-v-lesu",
         "author": "Иван Шишкин",
         "license": "Общественное достояние",
-        "processing": "Дети в лесу. Сохранена композиция картины."
+        "processing": "«Дети в лесу». Доступный полноразмерный файл 1000 × 642 px. Сохранена вся композиция, включая светлые лиственные и тёмные хвойные стволы.",
+        "nativePixels": [
+          1000,
+          642
+        ]
       }
     },
     "03-e": {
@@ -182,10 +198,14 @@
       "flipVertical": true,
       "detail": {
         "file": "detail/03-e.webp",
-        "source": "https://gallerix.ru/album/Shishkin/pic/glrx-935290527",
+        "source": "https://commons.wikimedia.org/wiki/File:Pine_Forest_by_Ivan_Shishkin_1895.jpg",
         "author": "Иван Шишкин",
         "license": "Общественное достояние",
-        "processing": "Сосновый бор 1895 128х195. Сохранена композиция картины."
+        "processing": "«Сосновый бор», 1895, Дальневосточный художественный музей. Доступный оригинал репродукции 1000 × 655 px.",
+        "nativePixels": [
+          1000,
+          655
+        ]
       }
     },
     "05-a": {
@@ -226,8 +246,12 @@
         "source": "https://commons.wikimedia.org/wiki/File:2020_year._Herbarium._Sorbus_aucuparia._img-036.jpg",
         "author": "Dmitry Makeev",
         "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "processing": "Подготовлены мастер и веб-превью."
+        "processing": "Из полного файла гербария выделен лист с целой пластинкой и черешком. Нижняя измерительная шкала убрана обрезкой.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "nativePixels": [
+          3069,
+          4948
+        ]
       }
     },
     "05-c": {
@@ -249,8 +273,12 @@
         "source": "https://commons.wikimedia.org/wiki/File:2020_year._Herbarium._Acer_platanoides._img-001.jpg",
         "author": "Dmitry Makeev",
         "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "processing": "Подготовлены мастер и веб-превью."
+        "processing": "Из полного файла гербария выделен лист с целой пластинкой и черешком. Нижняя измерительная шкала убрана обрезкой.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "nativePixels": [
+          5897,
+          5246
+        ]
       }
     },
     "05-d": {
@@ -642,7 +670,7 @@
         "source": "https://commons.wikimedia.org/wiki/File:Illustration_Trapa_natans1.jpg",
         "author": "Prof. Dr. Otto Wilhelm Thomé",
         "license": "Public domain",
-        "processing": "Подготовлены мастер и веб-превью."
+        "processing": "Сохранены листья, стебли, плод и разрез. У печатного листа убрана нижняя подпись с ботаническим названием."
       }
     },
     "19-a": {
@@ -714,11 +742,15 @@
       "flipVertical": true,
       "detail": {
         "file": "detail/19-d.webp",
-        "source": "https://commons.wikimedia.org/wiki/File:Mare_foal_poland.jpg",
-        "author": "Peter.shaman",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "processing": "Подготовлены мастер и веб-превью."
+        "source": "https://commons.wikimedia.org/wiki/File:Horse_posing_in_the_grass.jpg",
+        "author": "Joselodos",
+        "license": "CC0 1.0",
+        "processing": "Как в буклете, в кадре одна взрослая лошадь. Сохранены корпус, голова, грива, хвост и копыта. Кадр приближен к животному.",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "nativePixels": [
+          12000,
+          8000
+        ]
       }
     },
     "19-e": {
@@ -770,12 +802,11 @@
       "xref": 577,
       "flipVertical": true,
       "detail": {
-        "file": "detail/23.webp",
-        "source": "https://commons.wikimedia.org/wiki/File:Phrynocephalus_guttatus-animal-reader.ru.jpg",
-        "author": "AnimalReader.ru",
-        "license": "CC0",
-        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-        "processing": "Подготовлены мастер и веб-превью."
+        "file": "detail/23.svg",
+        "source": "tasks.pdf",
+        "author": "Редакция Olympiads.pro по иллюстрации в официальном буклете",
+        "license": "Редакционная схема",
+        "processing": "Профиль сверен с фотографией на первой стороне буклета. Сохранены приподнятый корпус, положение лап, округлая голова, закрученный хвост и просвет между брюшком и песком. Редакционная иллюстрация поведения."
       }
     },
     "25": {

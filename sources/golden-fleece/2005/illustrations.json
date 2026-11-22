@@ -148,5 +148,66 @@
     "originalWidth": 200,
     "originalHeight": 200,
     "usage": "Иллюстрация из архивного задания организатора."
+  },
+  "2005-01-lotus.webp": {
+    "src": "assets/golden-fleece/2005/2005-01-lotus.webp",
+    "alt": "Розовато-жёлтый цветок с широкими лепестками на фоне зелёных листьев.",
+    "width": 460,
+    "height": 460,
+    "detailSrc": "assets/golden-fleece/2005/2005-01-lotus-large.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:A_perfect_pale_pink_lily_and_bud_%28Nelumbo_Nucifera%29_at_the_Villa_Taranto_Gardens_in_Intra%2C_Italy_%2835741792023%29.jpg",
+    "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/4/47/A_perfect_pale_pink_lily_and_bud_%28Nelumbo_Nucifera%29_at_the_Villa_Taranto_Gardens_in_Intra%2C_Italy_%2835741792023%29.jpg",
+    "originalWidth": 6016,
+    "originalHeight": 4016,
+    "sha256": "512b698dfa93e6be00d42709517a81d747401f971464a55d3666256362ea54df",
+    "masterWidth": 1480,
+    "masterHeight": 1480,
+    "previewMaxSide": 460,
+    "processing": "Другой снимок открытого лотоса. Кадр обрезан вокруг цветка и уменьшен.",
+    "credit": {
+      "task": "1–7 и 8–11 классы, № 1",
+      "title": "A perfect pale pink lily and bud (Nelumbo Nucifera) at the Villa Taranto Gardens in Intra, Italy (35741792023).jpg",
+      "author": "Winniepix",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    "crop": [
+      1000,
+      0,
+      5016,
+      4016
+    ],
+    "masterMaxSide": 1480,
+    "bookletFigure": "2005_01.jpg"
+  },
+  "2005-02-kaaba.webp": {
+    "src": "assets/golden-fleece/2005/2005-02-kaaba.webp",
+    "alt": "Кубическое здание под чёрным покрывалом с золотой вышивкой, окружённое людьми.",
+    "width": 420,
+    "height": 420,
+    "detailSrc": "assets/golden-fleece/2005/2005-02-kaaba-large.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Kabaa_%28January_2003%29.jpg",
+    "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Kabaa_%28January_2003%29.jpg",
+    "originalWidth": 725,
+    "originalHeight": 580,
+    "sha256": "9288f4636e67c89d97ce1b225964a3430419c999e3cd6d220cb257d9c952d613",
+    "masterWidth": 580,
+    "masterHeight": 580,
+    "previewMaxSide": 420,
+    "processing": "Другой снимок святилища и паломников с верхней точки. По бокам убраны полосы, чтобы сохранить квадратный кадр.",
+    "credit": {
+      "task": "1–7 и 8–11 классы, № 2",
+      "title": "Kabaa (January 2003).jpg",
+      "author": "Al-Fassam",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    "crop": [
+      73,
+      0,
+      653,
+      580
+    ],
+    "bookletFigure": "2005_02.jpg"
   }
 }

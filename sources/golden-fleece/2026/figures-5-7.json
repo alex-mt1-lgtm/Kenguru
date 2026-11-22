@@ -5,82 +5,122 @@
     "1": {
       "page": 0,
       "rect": [
-        177.69,
-        96.45,
-        277.8,
-        161.98
+        177.6928,
+        96.4469,
+        277.7953,
+        161.9816
       ],
-      "src": "assets/golden-fleece/2026/5-7/01.webp"
+      "src": "assets/golden-fleece/2026/5-7/01.webp",
+      "embeddedSize": [
+        417,
+        273
+      ],
+      "embeddedXref": 15
     },
     "6": {
       "page": 0,
       "rect": [
-        195.43,
-        503.94,
-        277.8,
-        579.02
+        195.434,
+        503.944,
+        277.8003,
+        579.015
       ],
-      "src": "assets/golden-fleece/2026/5-7/06.webp"
+      "src": "assets/golden-fleece/2026/5-7/06.webp",
+      "embeddedSize": [
+        344,
+        313
+      ],
+      "embeddedXref": 17
     },
     "8": {
       "page": 0,
       "rect": [
-        478.64,
-        187.0,
-        559.24,
-        273.84
+        478.6382,
+        186.998,
+        559.2408,
+        273.8376
       ],
-      "src": "assets/golden-fleece/2026/5-7/08.webp"
+      "src": "assets/golden-fleece/2026/5-7/08.webp",
+      "embeddedSize": [
+        336,
+        362
+      ],
+      "embeddedXref": 16
     },
     "10": {
       "page": 0,
       "rect": [
-        480.69,
-        377.48,
-        559.32,
-        466.41
+        480.694,
+        377.4801,
+        559.3151,
+        466.4083
       ],
-      "src": "assets/golden-fleece/2026/5-7/10.webp"
+      "src": "assets/golden-fleece/2026/5-7/10.webp",
+      "embeddedSize": [
+        328,
+        371
+      ],
+      "embeddedXref": 19
     },
     "12": {
       "page": 0,
       "rect": [
-        728.21,
-        107.45,
-        833.39,
-        163.16
+        728.213,
+        107.4527,
+        833.3858,
+        163.1606
       ],
-      "src": "assets/golden-fleece/2026/5-7/12.webp"
+      "src": "assets/golden-fleece/2026/5-7/12.webp",
+      "embeddedSize": [
+        438,
+        232
+      ],
+      "embeddedXref": 20
     },
     "14": {
       "page": 0,
       "rect": [
-        761.07,
-        292.98,
-        833.39,
-        396.05
+        761.069,
+        292.9762,
+        833.3859,
+        396.0456
       ],
-      "src": "assets/golden-fleece/2026/5-7/14.webp"
+      "src": "assets/golden-fleece/2026/5-7/14.webp",
+      "embeddedSize": [
+        301,
+        429
+      ],
+      "embeddedXref": 18
     },
     "22": {
       "page": 1,
       "rect": [
         191.64,
         446.31,
-        267.48,
-        525.27
+        278.04,
+        531.03
       ],
-      "src": "assets/golden-fleece/2026/5-7/22.webp"
+      "src": "assets/golden-fleece/2026/5-7/22.webp",
+      "embeddedSize": [
+        360,
+        353
+      ],
+      "processing": "Встроенный растр содержит герб целиком. При извлечении исключены номер задания, текст и фон страницы."
     },
     "25": {
       "page": 1,
       "rect": [
-        467.42,
-        144.11,
-        559.4,
-        215.92
+        467.4212,
+        144.1102,
+        559.4016,
+        215.9173
       ],
-      "src": "assets/golden-fleece/2026/5-7/25.webp"
+      "src": "assets/golden-fleece/2026/5-7/25.webp",
+      "embeddedSize": [
+        383,
+        299
+      ],
+      "embeddedXref": 26
     }
   }
 }
