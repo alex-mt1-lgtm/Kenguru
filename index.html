@@ -1,4 +1,4 @@
-<!doctype html><html lang="ru"><head><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'"><base href="/_releases/b8640de1489627e3574c00508f8873dd8461d0f9/"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Школьные олимпиады по предметам. Выбирай конкурс, класс и год, решай задачи и проверяй ответы."><title>Olympiads.pro</title><link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="favicon.svg"><script src="account.js?v=profile-layout"></script><script src="edition-loader.js" defer></script><link rel="stylesheet" href="style.css?v=profile-layout"><link rel="stylesheet" href="account.css?v=profile-layout"><link rel="stylesheet" href="leaderboard.css?v=profile-layout"></head><body>
+<!doctype html><html lang="ru"><head><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'"><base href="/_releases/d406be20162b9d7b6c3104d5a5544974839bdbba/"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Школьные олимпиады по предметам. Выбирай конкурс, класс и год, решай задачи и проверяй ответы."><title>Olympiads.pro</title><link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="favicon.svg"><script src="account.js?v=profile-layout"></script><script src="edition-loader.js" defer></script><link rel="stylesheet" href="style.css?v=compact-figure-viewer"><link rel="stylesheet" href="account.css?v=profile-layout"><link rel="stylesheet" href="leaderboard.css?v=profile-layout"></head><body>
 <div class="page-art" aria-hidden="true"><span></span></div>
 <header class="lesson-header"><a class="site-brand" href="/" aria-label="olympiads.pro — к урокам"><span class="site-brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span>olympiads.pro</a>
 <div class="header-menus">
@@ -63,6 +63,7 @@
   <div id="listeningBlock" hidden><label for="listeningAudio">Аудирование</label><audio id="listeningAudio" controls preload="none" aria-label="Запись к заданию"></audio></div>
   <p id="questionNote" class="question-note" hidden></p>
   <img id="conditionImage" class="condition-image" loading="lazy" alt="" hidden>
+  <div id="conditionPictures" role="region" aria-label="Рисунки условия" tabindex="0" hidden></div>
 </details>
 <h2 id="sceneTitle"></h2><p id="sceneText"></p>
 <div id="lessonScene"><div id="sceneWorkbench"><div id="draftControls" class="draft-controls">
@@ -100,7 +101,8 @@
     <p id="drawingHint" class="draft-hint" role="status"></p>
   </details>
   <div class="diagram-controls">
-    <button id="openLegacyZoom" class="legacy-zoom-trigger" type="button" hidden>Открыть рисунок крупнее</button>
+    <button id="openLegacyZoom" class="figure-viewer-trigger" type="button" aria-haspopup="dialog" hidden>Увеличить рисунок</button>
+    <button id="openSceneZoom" class="figure-viewer-trigger" type="button" aria-haspopup="dialog" hidden>Увеличить схему разбора</button>
     <label id="variantLabel" class="variant-picker" hidden>Рисунок <select id="workVariant" aria-label="Рисунок для своей схемы"><option>А</option><option>Б</option><option>В</option><option>Г</option><option>Д</option></select></label>
   </div>
 </div><div id="stage"><div id="scene"></div><svg id="drawingLayer" viewBox="0 0 640 300" data-visible="false" aria-label="Твои пометки" role="img">
@@ -109,7 +111,7 @@
 </svg></div>
 <div id="draftBoard" class="draft-board" hidden>
   <svg id="draftPaper" viewBox="0 0 640 300" aria-hidden="true"></svg>
-</div></div></div><button id="openChoiceZoom" class="legacy-zoom-trigger choice-zoom-trigger" type="button" aria-haspopup="dialog" hidden>Увеличить варианты</button><label id="numericEntry" hidden>Твой ответ<input id="numericAnswer" type="text" inputmode="numeric" maxlength="6" autocomplete="off" placeholder="Целое число"></label><div id="matchingAnswers" class="matching-answers" hidden></div><div id="answers" class="answer-list" aria-label="Варианты ответа"></div>
+</div></div></div><button id="openChoiceZoom" class="figure-viewer-trigger choice-zoom-trigger" type="button" aria-haspopup="dialog" hidden>Увеличить варианты</button><label id="numericEntry" hidden>Твой ответ<input id="numericAnswer" type="text" inputmode="numeric" maxlength="6" autocomplete="off" placeholder="Целое число"></label><div id="matchingAnswers" class="matching-answers" hidden></div><div id="answers" class="answer-list" aria-label="Варианты ответа"></div>
 <div id="lessonSupplement"><div id="openingDraftControls" class="draft-controls"></div></div>
 <div id="chapterSlot"><details id="chapterNavigation" class="lesson-disclosure" aria-label="Навигация по шагам">
   <summary id="chapterNavigationToggle"><span class="step-count">Шаг <span id="counter"></span></span><span id="chapterTag"></span></summary>
@@ -220,21 +222,31 @@
     </details>
   </div>
 </dialog>
-<dialog id="legacyZoom" class="legacy-zoom" aria-label="Увеличенный рисунок задачи">
-  <form method="dialog"><button type="submit" autofocus>Закрыть рисунок</button></form>
-  <div id="legacyZoomScroll" class="legacy-zoom-scroll" tabindex="0" aria-label="Прокрутка рисунка"><img id="legacyZoomImage" alt=""></div>
-</dialog>
 <dialog id="detailZoom" class="detail-zoom" aria-labelledby="detailTitle">
-  <header><strong id="detailTitle" aria-live="polite"></strong><form method="dialog"><button autofocus>Закрыть</button></form></header>
-  <div id="detailViewport" class="detail-viewport" tabindex="0" aria-label="Область просмотра рисунка"><img id="detailImage" alt=""><div id="detailError" class="detail-error" role="status" hidden>Не удалось загрузить рисунок. <button id="detailRetry" type="button">Попробовать снова</button></div></div>
-  <div class="detail-controls">
-    <button id="detailPrev" type="button" aria-label="Предыдущий вариант">←</button>
-    <button id="detailScale" type="button">Крупнее</button>
-    <button id="detailNext" type="button" aria-label="Следующий вариант">→</button>
+  <div class="detail-heading">
+    <div class="detail-heading-copy">
+      <h2 id="detailTitle" aria-live="polite"></h2>
+      <span id="detailHint" class="detail-hint"></span>
+      <div id="detailCaption" class="detail-caption"></div>
+    </div>
+    <form method="dialog"><button id="detailClose" autofocus>Закрыть</button></form>
   </div>
-  <a class="detail-credit" href="assets/chip/illustrations.html" target="_blank" rel="noopener">Источники иллюстраций</a>
+  <div id="detailViewport" class="detail-viewport" tabindex="0" role="region" aria-label="Область просмотра" aria-describedby="detailHint">
+    <div class="detail-canvas">
+      <div id="detailMedia" class="detail-media"></div>
+      <div id="detailError" class="detail-error" role="status" hidden>Не удалось загрузить рисунок. <button id="detailRetry" type="button">Повторить</button></div>
+    </div>
+  </div>
+  <div class="detail-footer">
+    <div class="detail-controls">
+      <div id="detailNavigation" class="detail-navigation" role="group" aria-label="Листание иллюстраций" hidden>
+        <button id="detailPrev" type="button" aria-label="Предыдущий рисунок">←</button>
+        <span id="detailCount" aria-live="polite"></span>
+        <button id="detailNext" type="button" aria-label="Следующий рисунок">→</button>
+      </div>
+      <button id="detailScale" type="button">Крупнее</button>
+    </div>
+    <a id="detailCredit" class="detail-credit" href="assets/chip/illustrations.html" target="_blank" rel="noopener" hidden>Источники иллюстраций</a>
+  </div>
 </dialog>
-<dialog id="choiceZoom" class="legacy-zoom choice-zoom" aria-labelledby="choiceZoomTitle">
-  <div class="choice-zoom-header"><h2 id="choiceZoomTitle">Варианты ответа</h2><form method="dialog"><button type="submit" autofocus>Закрыть</button></form></div>
-  <div id="choiceZoomItems" class="choice-zoom-items"></div>
-</dialog><footer>Olympiads.pro <span>Учимся замечать, рассуждать и проверять.</span><a href="https://github.com/alex-mt1-lgtm/Kenguru">Исходный код ↗</a></footer><script src="editions/index.js" defer></script><script src="lesson-visuals.js" defer></script><script src="workspace.js" defer></script><script src="fruit-workspace.js" defer></script><script src="profile-rating.js?v=profile-layout" defer></script><script src="account-progress.js?v=confirmed-progress" defer></script><script src="app.js?v=edition-loader" defer></script><script src="leaderboard.js?v=service-audit" defer></script></body></html>
+<footer>Olympiads.pro <span>Учимся замечать, рассуждать и проверять.</span><a id="lessonIllustrationSources" href="assets/chip/illustrations.html" hidden>Источники иллюстраций</a><a href="https://github.com/alex-mt1-lgtm/Kenguru">Исходный код ↗</a></footer><script src="editions/index.js" defer></script><script src="lesson-visuals.js?v=compact-figure-viewer" defer></script><script src="workspace.js" defer></script><script src="fruit-workspace.js" defer></script><script src="profile-rating.js?v=profile-layout" defer></script><script src="account-progress.js?v=confirmed-progress" defer></script><script src="app.js?v=compact-figure-viewer" defer></script><script src="leaderboard.js?v=service-audit" defer></script></body></html>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="480" viewBox="0 0 480 480">
+  <rect width="480" height="480" fill="#fffdf9"/>
+  <ellipse cx="241" cy="427" rx="117" ry="22" fill="#eee8db"/>
+  <path d="M212 63 H269 L270 120 Q275 151 294 183 Q312 214 314 250 L318 390 Q318 418 290 426 H192 Q165 417 165 391 L169 250 Q171 214 189 183 Q208 151 211 120Z" fill="#e0e7ce" stroke="#617366" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M173 239 Q242 230 310 239 L314 392 Q313 411 286 418 H196 Q170 413 170 393Z" fill="#eddfaf"/>
+  <path d="M175 240 Q243 231 308 240" fill="none" stroke="#c5b777" stroke-width="3"/>
+  <path d="M213 85 L212 119 Q208 153 192 184 Q171 222 171 250 L169 388 Q169 409 185 414 L190 240 Q194 207 207 183 Q223 151 223 122 L225 85Z" fill="#fffff2" opacity=".72"/>
+  <path d="M261 89 L262 124 Q266 152 286 186 Q305 224 304 258 L308 395 Q304 412 292 414 L293 257 Q295 222 277 193 Q257 162 254 130 L253 89Z" fill="#b8c2a0" opacity=".77"/>
+  <path d="M206 90 V62 Q207 54 214 54 H266 Q276 54 276 62 V90Z" fill="#8a9d91" stroke="#56685e" stroke-width="4"/>
+  <path d="M215 64 V86 M226 64 V86 M237 64 V86 M248 64 V86 M259 64 V86 M269 64 V86" stroke="#b7c4b9" stroke-width="2.5"/>
+  <path d="M167 269 Q239 252 315 269 L317 359 Q242 373 166 359Z" fill="#f3f1d9" stroke="#9c9f80" stroke-width="3"/>
+  <path d="M168 276 Q241 262 315 276 M166 351 Q239 365 317 351" fill="none" stroke="#58815b" stroke-width="4"/>
+  <path d="M240 286 Q230 299 230 304 A10 10 0 0 0 250 304 Q250 299 240 286Z" fill="#58815b"/>
+  <text x="242" y="341" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="30" fill="#34513f">СОК</text>
+</svg>
