@@ -1029,8 +1029,9 @@ function resizeDetail(recenter = false, viewportChanged = false) {
   const {width, height, vector} = detailSource;
   const previous = detailMedia.getBoundingClientRect();
   const viewport = detailViewport.getBoundingClientRect();
-  const focusX = recenter || !previous.width ? .5 : (viewport.left + viewport.width / 2 - previous.left) / previous.width;
-  const focusY = recenter || !previous.height ? .5 : (viewport.top + viewport.height / 2 - previous.top) / previous.height;
+  const zoomCenter = detailMagnified ? detailGallery[detailIndex]?.zoomCenter : null;
+  const focusX = recenter || !previous.width ? zoomCenter?.x ?? .5 : (viewport.left + viewport.width / 2 - previous.left) / previous.width;
+  const focusY = recenter || !previous.height ? zoomCenter?.y ?? .5 : (viewport.top + viewport.height / 2 - previous.top) / previous.height;
   // Measure the area without scrollbars. Both the inset and the first view keep the entire frame visible.
   detailViewport.dataset.panning = 'false';
   if (detailGallery.length === 1 && !vector && width <= 220) {
