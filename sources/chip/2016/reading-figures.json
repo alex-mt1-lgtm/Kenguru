@@ -1,0 +1,80 @@
+[
+  {
+    "original": "2016/задания_ЧИП-2016-3_4класс.pdf",
+    "year": "2016",
+    "label": "2016 · 3–4 классы",
+    "entries": [
+      {
+        "number": 20,
+        "page": 3,
+        "box": [
+          427.6,
+          224.6,
+          553.5,
+          320.2
+        ],
+        "panels": [
+          {
+            "file": "reading/figure-505.webp",
+            "credit": {
+              "source": "https://gallerix.ru/album/Vereshagin/pic/glrx-788732910",
+              "author": "Василий Верещагин · Gallerix",
+              "license": "Общественное достояние · историческое полотно.",
+              "processing": "Репродукция в исходном разрешении."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "original": "2016/задания_ЧИП-2016-7_8класс.pdf",
+    "year": "2016",
+    "label": "2016 · 7–8 классы",
+    "entries": [
+      {
+        "number": 13,
+        "page": 2,
+        "box": [
+          427.6,
+          483.1,
+          550.8,
+          568.8
+        ],
+        "panels": [
+          {
+            "file": "reading/figure-528.webp",
+            "credit": {
+              "source": "https://commons.wikimedia.org/wiki/File:Galerie_Tretiakov_-_Vasili_Vasilyevich_Vereshchagin_-_Medrasah_Shir-Dhor_at_Registan_place_in_Samarkand_(1869_-_1870)_(cropped).jpg",
+              "author": "Василий Верещагин · Государственная Третьяковская галерея",
+              "license": "Gzen92 (фото) · CC BY-SA 4.0 · creativecommons.org/licenses/by-sa/4.0/",
+              "processing": "Репродукция уменьшена из оригинала."
+            }
+          }
+        ]
+      },
+      {
+        "number": 22,
+        "page": 3,
+        "box": [
+          427.6,
+          474.5,
+          535.7,
+          553.2
+        ],
+        "panels": [
+          {
+            "file": "reading/figure-531.webp",
+            "credit": {
+              "source": "https://commons.wikimedia.org/wiki/File:Ruins_of_the_Temple_of_Artemis_at_Ephesus%2C_Selcuk%2C_Turkiye_(53520188237).jpg",
+              "author": "Warren LeMay · Wikimedia Commons",
+              "license": "CC BY-SA 2.0 · creativecommons.org/licenses/by-sa/2.0/",
+              "processing": "Другой снимок той же площадки, кадрирование."
+            },
+            "replacement": true
+          }
+        ]
+      }
+    ]
+  }
+]

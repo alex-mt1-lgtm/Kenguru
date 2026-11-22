@@ -392,10 +392,11 @@
       "Русский музей хранит работу «Перенесение священного ковра в Каире» 1876 года. Автор этой картины — Константин Маковский."
     ],
     "figure": {
-      "src": "assets/golden-fleece/2025/8-11/24.webp",
+      "src": "assets/golden-fleece/2025/8-11/24-reading.webp",
+      "detailSrc": "assets/golden-fleece/2025/8-11/24-reading-detail.webp",
       "alt": "Картина с многолюдным шествием по улице восточного города",
-      "width": 228,
-      "height": 153
+      "width": 560,
+      "height": 374
     },
     "references": [
       "https://rusmuseumvrm.ru/data/collections/painting/19_20/zh_4395/index.php?lang=ru"

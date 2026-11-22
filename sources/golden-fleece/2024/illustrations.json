@@ -45,5 +45,38 @@
       "license": "Общественное достояние",
       "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
     }
+  },
+  "5-7/23-reading.webp": {
+    "src": "assets/golden-fleece/2024/5-7/23-reading.webp",
+    "detailSrc": "assets/golden-fleece/2024/5-7/23-reading-detail.webp",
+    "alt": "Статуя мужчины в длинной одежде на высоком постаменте",
+    "width": 392,
+    "height": 560,
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%90%D1%84%D0%B0%D0%BD%D0%B0%D1%81%D0%B8%D0%B9_%D0%9D%D0%B8%D0%BA%D0%B8%D1%82%D0%B8%D0%BD.JPG",
+    "originalWidth": 1682,
+    "originalHeight": 2400,
+    "previewMaxSide": 560,
+    "masterSource": "fleece-2446.jpg",
+    "processing": "Фронтальный снимок того же памятника. Кадрирование, закрыты имя и название записок. Остальные строки таблички сохранены.",
+    "credit": {
+      "title": "Памятник Афанасию Никитину в Феодосии",
+      "author": "Keenset",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+    }
+  },
+  "5-7/23-plaque.webp": {
+    "src": "assets/golden-fleece/2024/5-7/23-plaque.webp",
+    "detailSrc": "assets/golden-fleece/2024/5-7/23-plaque-detail.webp",
+    "alt": "Строки на мемориальной табличке памятника. Две части надписи закрыты.",
+    "caption": "Табличка на постаменте",
+    "width": 560,
+    "height": 476,
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%90%D1%84%D0%B0%D0%BD%D0%B0%D1%81%D0%B8%D0%B9_%D0%9D%D0%B8%D0%BA%D0%B8%D1%82%D0%B8%D0%BD.JPG",
+    "originalWidth": 936,
+    "originalHeight": 795,
+    "previewMaxSide": 560,
+    "masterSource": "fleece-2446-detail.jpg",
+    "processing": "Крупный кадр таблички из того же снимка."
   }
 }

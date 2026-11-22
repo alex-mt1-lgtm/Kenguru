@@ -69,12 +69,7 @@
         "шестиугольник"
       ],
       "page": 0,
-      "figure": [
-        328.82,
-        203.53,
-        394.71,
-        271.76
-      ],
+      "figureAsset": { "src": "assets/kenguru/illustrations/1998-fold-diagonal.svg", "width": 232, "height": 232 },
       "figureAlt": "Квадрат со сгибом от первой отметки на верхней стороне до второй на нижней стороне"
     },
     {
@@ -348,12 +343,7 @@
         "8"
       ],
       "page": 2,
-      "figure": [
-        277.06,
-        219.41,
-        397.06,
-        284.71
-      ],
+      "figureAsset": { "src": "assets/kenguru/illustrations/1998-function-shape.svg", "width": 359, "height": 196 },
       "figureAlt": "Координатные оси и четыре симметричные кривые, выходящие из начала координат"
     },
     {

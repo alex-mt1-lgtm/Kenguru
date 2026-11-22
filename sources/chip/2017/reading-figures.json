@@ -1,0 +1,80 @@
+[
+  {
+    "original": "2017/задания_ЧИП-2017-3-4класс.pdf",
+    "year": "2017",
+    "label": "2017 · 3–4 классы",
+    "entries": [
+      {
+        "number": 18,
+        "page": 2,
+        "box": [
+          357.5,
+          672.6,
+          546.5,
+          768.3
+        ],
+        "panels": [
+          {
+            "file": "reading/figure-565.webp",
+            "credit": {
+              "source": "https://americanillustration.org/november-2026-virtual-exhibition/",
+              "author": "Норман Роквелл · National Museum of American Illustration",
+              "license": "В музейном каталоге отдельная лицензия репродукции не указана.",
+              "processing": "Репродукция цифрового каталога, кадрирование."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "original": "2017/задания_ЧИП-2017-9-10класс.pdf",
+    "year": "2017",
+    "label": "2017 · 9–10 классы",
+    "entries": [
+      {
+        "number": 11,
+        "page": 2,
+        "box": [
+          429.5,
+          42.5,
+          546.5,
+          129.1
+        ],
+        "panels": [
+          {
+            "file": "reading/figure-595.webp",
+            "credit": {
+              "source": "https://chtv.ru/rokuell-kent-za-cvetom-polyarnoy-zvezdy",
+              "author": "Рокуэлл Кент · ГМИИ имени А. С. Пушкина",
+              "license": "В музейной копии отдельная лицензия репродукции не указана.",
+              "processing": "Полная музейная репродукция Ж-3780, уменьшена из оригинала."
+            }
+          }
+        ]
+      },
+      {
+        "number": 18,
+        "page": 2,
+        "box": [
+          402.5,
+          537.6,
+          552.5,
+          631.2
+        ],
+        "panels": [
+          {
+            "file": "reading/figure-597.webp",
+            "credit": {
+              "source": "https://commons.wikimedia.org/wiki/File:Voyageurs_National_Park_VOYA9516.jpg",
+              "author": "Служба национальных парков США · Wikimedia Commons",
+              "license": "Общественное достояние · NPS.",
+              "processing": "Другой аэрофотоснимок, обрезана рамка слайда."
+            },
+            "replacement": true
+          }
+        ]
+      }
+    ]
+  }
+]

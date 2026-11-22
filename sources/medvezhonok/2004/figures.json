@@ -1,11 +1,9 @@
 {
   "2-3/20": {
     "condition": {
-      "src": "assets/medvezhonok/2004/2-3-20.webp",
-      "width": 558,
-      "height": 174,
-      "pixelWidth": 558,
-      "pixelHeight": 174,
+      "src": "assets/medvezhonok/2004/2-3-20.svg",
+      "width": 591,
+      "height": 175,
       "items": [
         {
           "src": "assets/medvezhonok/2004/2-3-20-condition-1.webp",
@@ -17,29 +15,23 @@
           "alt": "Бант с запятой перед ним, слон с двумя запятыми перед ним."
         },
         {
-          "src": "assets/medvezhonok/2004/2-3-20-condition-2.webp",
-          "width": 141,
-          "height": 72,
-          "pixelWidth": 141,
-          "pixelHeight": 72,
+          "src": "assets/medvezhonok/2004/2-3-20-condition-2.svg",
+          "width": 146,
+          "height": 83,
           "caption": "Ребус 2",
-          "alt": "Нота ми и шар с запятой после него."
+          "alt": "Нота ми и воздушный шар с запятой после него."
         },
         {
-          "src": "assets/medvezhonok/2004/2-3-20-condition-3.webp",
-          "width": 115,
-          "height": 73,
-          "pixelWidth": 115,
-          "pixelHeight": 73,
+          "src": "assets/medvezhonok/2004/2-3-20-condition-3.svg",
+          "width": 123,
+          "height": 83,
           "caption": "Ребус 3",
           "alt": "Внутри О лодка с двумя запятыми после неё, рядом Я."
         },
         {
-          "src": "assets/medvezhonok/2004/2-3-20-condition-4.webp",
-          "width": 105,
-          "height": 81,
-          "pixelWidth": 105,
-          "pixelHeight": 81,
+          "src": "assets/medvezhonok/2004/2-3-20-condition-4.svg",
+          "width": 128,
+          "height": 91,
           "caption": "Ребус 4",
           "alt": "Маленькая а над Т, лилия с двумя запятыми перед ней."
         },
@@ -53,50 +45,40 @@
           "alt": "Юла с заменой Л на Р."
         },
         {
-          "src": "assets/medvezhonok/2004/2-3-20-condition-6.webp",
-          "width": 144,
-          "height": 93,
-          "pixelWidth": 144,
-          "pixelHeight": 93,
+          "src": "assets/medvezhonok/2004/2-3-20-condition-6.svg",
+          "width": 149,
+          "height": 91,
           "caption": "Ребус 6",
           "alt": "Нота фа, шина с запятой перед ней."
         }
       ],
-      "alt": "1. Бант с запятой перед ним, слон с двумя запятыми перед ним. 2. Нота ми и шар с запятой после него. 3. Внутри О лодка с двумя запятыми после неё, рядом Я. 4. Маленькая а над Т, лилия с двумя запятыми перед ней. 5. Юла с заменой Л на Р. 6. Нота фа, шина с запятой перед ней."
+      "alt": "1. Бант с запятой перед ним, слон с двумя запятыми перед ним. 2. Нота ми и воздушный шар с запятой после него. 3. Внутри О лодка с двумя запятыми после неё, рядом Я. 4. Маленькая а над Т, лилия с двумя запятыми перед ней. 5. Юла с заменой Л на Р. 6. Нота фа, шина с запятой перед ней."
     }
   },
   "4-5/10": {
     "condition": {
-      "src": "assets/medvezhonok/2004/4-5-10.webp",
-      "width": 588,
-      "height": 110,
-      "pixelWidth": 588,
-      "pixelHeight": 110,
+      "src": "assets/medvezhonok/2004/4-5-10.svg",
+      "width": 591,
+      "height": 118,
       "items": [
         {
-          "src": "assets/medvezhonok/2004/4-5-10-condition-1.webp",
-          "width": 180,
-          "height": 49,
-          "pixelWidth": 180,
-          "pixelHeight": 49,
+          "src": "assets/medvezhonok/2004/4-5-10-condition-1.svg",
+          "width": 178,
+          "height": 57,
           "caption": "Ребус 1",
           "alt": "Две ели, буква Е за В, затем таз с запятой после него."
         },
         {
-          "src": "assets/medvezhonok/2004/4-5-10-condition-2.webp",
-          "width": 202,
-          "height": 45,
-          "pixelWidth": 202,
-          "pixelHeight": 45,
+          "src": "assets/medvezhonok/2004/4-5-10-condition-2.svg",
+          "width": 200,
+          "height": 57,
           "caption": "Ребус 2",
           "alt": "Гриб и гора с запятой после каждого, кий с запятой перед ним."
         },
         {
-          "src": "assets/medvezhonok/2004/4-5-10-condition-3.webp",
-          "width": 165,
-          "height": 53,
-          "pixelWidth": 165,
-          "pixelHeight": 53,
+          "src": "assets/medvezhonok/2004/4-5-10-condition-3.svg",
+          "width": 167,
+          "height": 57,
           "caption": "Ребус 3",
           "alt": "Дом с зачёркнутой о, затем буква и, цифра 3 и буква й."
         },

@@ -4,6 +4,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 
 const {loadSubjects, idFor, fileKey} = require('./subject-data.cjs');
+const {readingPdfFor} = require('./reading-pdf.cjs');
 const root = path.join(__dirname, '..');
 const subjects = {
   'british-bulldog': 'British Bulldog',
@@ -17,9 +18,17 @@ const groupKey = row => [row.year, row.session || '', row.grade].join('/');
 const readJson = file => JSON.parse(fs.readFileSync(file, 'utf8'));
 
 function materialLinks(subject, row) {
-  const bookletLabel = row.readerFile ? 'Буклет для печати' : row.reviewedKey ? 'Исходный бланк' : 'Задания';
-  const files = [[row.readerFile, 'Задания для чтения'], [row.tasksFile, bookletLabel], [row.answersFile, row.reviewedKey ? 'Редакционный ключ' : 'Ответы'],
-    [row.solutionsFile, 'Решения'], [row.additionalSolutionsFile, 'Дополнительные решения'], [row.listeningFile, 'Аудио']];
+  const folder = 'assets/' + subject + '/' + row.year + '/';
+  const readerFor = file => file && readingPdfFor(folder + file)?.slice(folder.length);
+  const reader = row.readerFile || readerFor(row.tasksFile);
+  const bookletLabel = reader ? 'Буклет для печати' : row.reviewedKey ? 'Исходный бланк' : 'Задания';
+  const files = [
+    [reader, 'Задания для чтения'], [row.tasksFile, bookletLabel],
+    [readerFor(row.answersFile), 'Ответы для чтения'], [row.answersFile, row.reviewedKey ? 'Редакционный ключ' : 'Ответы'],
+    [readerFor(row.solutionsFile), 'Решения для чтения'], [row.solutionsFile, 'Решения'],
+    [readerFor(row.additionalSolutionsFile), 'Дополнительные решения для чтения'],
+    [row.additionalSolutionsFile, 'Дополнительные решения'], [row.listeningFile, 'Аудио'],
+  ];
   return files.filter(([file]) => file).map(([file, name]) => {
     if (!/^(?:[\p{L}\p{N}_.-]+\/)*[\p{L}\p{N}_.-]+$/u.test(file) || file.split('/').some(part => part === '.' || part === '..')) {
       throw new Error('Invalid archive path ' + file);
@@ -61,6 +70,23 @@ function card(subject, variants, lesson) {
     parts.push('</details>');
   }
   return parts.join('') + '</li>';
+}
+
+// The mathematics and Russian-language cards are authored directly in archive.html.
+function linkStaticReadingCopies(html) {
+  return html.replace(/<li class="archive-card">[\s\S]*?<\/li>/g, card => {
+    if (!/href="assets\/(?:kenguru|medvezhonok)\//.test(card)) return card;
+    const source = card.replace(/<a data-reading-copy[^>]*>[^<]*<\/a> /g, '');
+    const link = /<a ([^>]*?)href="(assets\/(?:kenguru|medvezhonok)\/[^"]+\.pdf)"[^>]*>([^<]*)<\/a>/g;
+    return source.replace(link, (original, attrs, href, label) => {
+      const reader = readingPdfFor(href);
+      if (!reader || source.includes('href="' + reader + '"')) return original;
+      const kind = /пояснени/i.test(label) ? 'Пояснения' : /решени/i.test(label) ? 'Решения' : /ответ|ключ/i.test(label) ? 'Ответы' : 'Задания';
+      const css = attrs.includes('class="archive-key"') ? ' class="archive-key"' : '';
+      return '<a data-reading-copy' + css + ' href="' + escape(reader) + '" target="_blank" rel="noopener">' +
+        kind + ' для чтения PDF</a> ' + original;
+    });
+  });
 }
 
 function buildSubjectArchive(html) {
@@ -107,7 +133,7 @@ function buildSubjectArchive(html) {
   }
   const marker = /(    <!-- subject-editions:start -->\n)[\s\S]*?(    <!-- subject-editions:end -->)/;
   if (!marker.test(html)) throw new Error('Missing archive section markers');
-  return html.replace(marker, (_, start, end) => start + sections.join('\n') + '\n' + end);
+  return linkStaticReadingCopies(html.replace(marker, (_, start, end) => start + sections.join('\n') + '\n' + end));
 }
 
 module.exports = {buildSubjectArchive};

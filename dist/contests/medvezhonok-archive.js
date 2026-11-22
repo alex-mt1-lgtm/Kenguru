@@ -56,6 +56,7 @@ globalThis.makeMedvezhonokEdition = function (year, grade, rows) {
       tasksUrl: 'assets/medvezhonok/' + year + '/' + grade + '.pdf',
       reviewedKey,
       answersUrl: 'assets/medvezhonok/' + year + '/' + (reviewedKey ? 'reviewed-' + grade : grade + '-answers') + '.pdf',
+      ...(year === 2004 && grade === '2-3' ? {solutionUrl: 'assets/medvezhonok/2004/2-3-answers.pdf'} : {}),
     },
     lessons, scenes,
   };

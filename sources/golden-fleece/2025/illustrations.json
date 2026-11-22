@@ -23,5 +23,24 @@
     },
     "masterMaxSide": 1600,
     "bookletFigure": "3-4-22.webp"
+  },
+  "8-11/24-reading.webp": {
+    "src": "assets/golden-fleece/2025/8-11/24-reading.webp",
+    "detailSrc": "assets/golden-fleece/2025/8-11/24-reading-detail.webp",
+    "alt": "Картина с многолюдным шествием по улице восточного города",
+    "width": 560,
+    "height": 374,
+    "source": "https://rusmuseumvrm.ru/data/collections/painting/19_20/zh_4395/index.php?lang=ru",
+    "originalWidth": 1200,
+    "originalHeight": 802,
+    "previewMaxSide": 560,
+    "masterSource": "fleece-3058.jpg",
+    "processing": "Уменьшение для буклета.",
+    "credit": {
+      "title": "Перенесение священного ковра в Каире",
+      "author": "Константин Маковский",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
   }
 }

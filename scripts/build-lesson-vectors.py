@@ -1,8 +1,11 @@
 """Export official lesson figures as vector-only SVGs (PyMuPDF)."""
 
 from pathlib import Path
+from xml.etree import ElementTree
 
 import fitz
+
+from pdf_figure import cropped_svg, remove_print_marks
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -90,14 +93,39 @@ def export(page, bounds, destination):
     )
 
 
+def export_cookie_choices(book):
+    page = 3
+    regions = [
+        (38.9, 439.4, 79, 454), (95.1, 439.4, 176, 454),
+        (190.3, 439.4, 262, 454), (276.6, 439.4, 351.2, 454),
+        (368.2, 439.4, 399.85, 454),
+    ]
+    frame_width = max(region[2] - region[0] for region in regions) + 1
+    frame_height = regions[0][3] - regions[0][1]
+    for index, bounds in enumerate(regions):
+        region = fitz.Rect(bounds)
+        svg = remove_print_marks(ElementTree.fromstring(cropped_svg(book, page, region)), omit_glyphs=('(', ')'))
+        horizontal_padding = (frame_width - region.width) / 2
+        # Use one scale for all five buttons so small and large cookies remain comparable.
+        width, height = number(frame_width), number(frame_height)
+        svg = (f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" '
+               f'viewBox="{number(-horizontal_padding)} 0 {width} {height}">\n{svg}</svg>\n')
+        destination = ROOT / 'dist' / 'assets' / f'five-cookie-choice-{index}.svg'
+        destination.write_text(svg, encoding='utf-8')
+    region = fitz.Rect(368.2, 442.9, 399.85, 453.8)
+    book[page].get_pixmap(matrix=fitz.Matrix(8, 8), clip=region).save(
+        str(ROOT / 'dist' / 'assets' / 'five-cookie-choice-4.png'))
+
+
 def main():
     with fitz.open(SOURCES / 'tasks.pdf') as tasks, fitz.open(SOURCES / 'solutions.pdf') as solutions:
         for name, region in TASK_REGIONS.items():
             export(tasks[0], region, OUTPUT / f'{name}.svg')
         export(solutions[3], (172, 51, 251, 129), OUTPUT / 'puzzle-complete.svg')
-        desserts = [(54.5, 326.1, 77, 365.4), (124.5, 327, 142, 365.5),
-                    (196.4, 325.4, 221.4, 367), (266.5, 326.6, 290, 365.5),
-                    (339, 324.8, 364.5, 367)]
+        # All scoops, their outlines and highlights belong to the choice.
+        desserts = [(51.8, 327.6, 77.5, 365.4), (124.5, 327, 142, 365.5),
+                    (193.4, 325.7, 221.8, 367.55), (263.6, 327.5, 291.7, 365.5),
+                    (336.8, 324.65, 365.75, 367.55)]
         for index, region in enumerate(desserts):
             export(tasks[2], region, OUTPUT / f'ice-cream-choice-{index}.svg')
 
@@ -113,6 +141,13 @@ def main():
     with fitz.open(ROOT / 'sources' / 'kenguru_2024_class_3-4.pdf') as book:
         for name, region in cube_regions.items():
             export(book[1], region, ROOT / 'dist' / 'assets' / f'cubes-{name}.svg')
+        export_cookie_choices(book)
+
+    with fitz.open(ROOT / 'sources' / 'grades-7-8' / '2022' / 'tasks.pdf') as book:
+        # Export the native circle paths together, without adjoining letters.
+        for option, region in enumerate([(50, 410, 90.7, 432), (122.9, 403.5, 154.9, 438.5)], 1):
+            export(book[0], region, ROOT / 'dist' / 'assets' / 'grades-7-8' / '2022' /
+                   f'task-05-answer-{option}.svg')
 
 
 if __name__ == '__main__':

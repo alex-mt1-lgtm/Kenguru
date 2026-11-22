@@ -82,6 +82,7 @@ globalThis.KENGURU_GRADE_TITLES = {"2018":["Бусинка на проволок
         choiceImages: custom ? custom.choiceImages : native?.choiceImages,
         question,
         conditionImage: custom?.conditionImage ?? (!custom ? figure : undefined),
+        conditionAlt: !custom ? native?.figureAlt : undefined,
         legacyOriginal: !custom || Boolean(custom.originalAtStart),
         hideIntroText: !custom,
         paperEdition,
@@ -94,7 +95,7 @@ globalThis.KENGURU_GRADE_TITLES = {"2018":["Бусинка на проволок
 
       const initialScene = !question || custom?.originalAtStart
         ? conditionScene(originalImage, width, height, description)
-        : figure && !custom ? conditionScene(figure, native.imageWidth, native.imageHeight, description) : '';
+        : figure && !custom ? conditionScene(figure, native.imageWidth, native.imageHeight, native.figureAlt ?? description) : '';
       const key = officialKey
         ? (answerImage ? answerDiagram(answerImage, answerWidth, answerHeight) : '')
         : visual.answerScene({letter: answerLetters[answer], value: choices[answer]});

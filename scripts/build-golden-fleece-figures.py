@@ -88,7 +88,12 @@ def build_previews(manifest_path):
     for figure in illustrations.values():
         if 'previewMaxSide' not in figure:
             continue
-        with Image.open(ROOT / 'dist' / figure['detailSrc']) as original:
+        master = ROOT / 'dist' / figure['detailSrc']
+        if 'masterSource' in figure:
+            with Image.open(SOURCES / 'reading-art' / figure['masterSource']) as original:
+                master.parent.mkdir(parents=True, exist_ok=True)
+                original.save(master, quality=94, method=5)
+        with Image.open(master) as original:
             image = original.copy()
         max_side = figure['previewMaxSide']
         image.thumbnail((max_side, max_side), Image.Resampling.LANCZOS)
@@ -103,7 +108,7 @@ def build_credits(manifests):
 <title>Источники иллюстраций «Золотого руна» · Olympiads.pro</title>
 <style>body{font:1rem/1.6 system-ui,sans-serif;max-width:56rem;margin:auto;padding:1.2rem;color:#172e34;background:#fffefa}h1,h2{line-height:1.2}li{margin-block:.65rem}a{color:#165c56}ul{padding-inline-start:1.5rem}</style>
 <main><h1>Источники иллюстраций «Золотого руна»</h1>
-<p>Буклеты организатора доступны в уроках. Здесь собраны сведения о фотографиях, добавленных в интерактивные задания.</p>''']
+<p>Буклеты организатора доступны в архиве. Здесь указаны источники иллюстраций для интерактивных заданий и буклетов для чтения.</p>''']
     for path in manifests:
         illustrations = json.loads(path.read_text(encoding='utf-8'))
         entries = [figure for figure in illustrations.values() if 'credit' in figure]
@@ -116,6 +121,23 @@ def build_credits(manifests):
                          f'{escape(credit["author"])} · '
                          f'<a href="{escape(credit["licenseUrl"], quote=True)}">{escape(credit["license"])}</a>. '
                          f'{escape(figure["processing"])}</li>')
+        parts.append('</ul>')
+    reading_manifest = SOURCES / 'reading-pdfs.json'
+    if reading_manifest.is_file():
+        reading_art = json.loads(reading_manifest.read_text(encoding='utf-8'))
+        parts.append('<h2>Буклеты для чтения</h2><ul>')
+        for figure in reading_art:
+            if 'source' not in figure:
+                continue
+            label = figure.get('title') or figure['id']
+            license_name = figure.get('license') or 'Общественное достояние'
+            license_url = figure.get('licenseUrl')
+            license_markup = escape(license_name)
+            if license_url:
+                license_markup = f'<a href="{escape(license_url, quote=True)}">{license_markup}</a>'
+            parts.append(f'<li><a href="{escape(figure["source"], quote=True)}">{escape(label)}</a> · '
+                         f'{escape(figure.get("author", ""))} · {license_markup}. '
+                         f'{escape(figure.get("processing", ""))}</li>')
         parts.append('</ul>')
     parts.append('</main></html>')
     (ROOT / 'dist/assets/golden-fleece/illustrations.html').write_text('\n'.join(parts) + '\n', encoding='utf-8')

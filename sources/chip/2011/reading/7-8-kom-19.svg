@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 620" width="390" height="620">
+  <title>Рисунок к комментарию на задание 19</title>
+  <rect width="390" height="620" fill="#fff"/>
+  <g stroke="#243640" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M98 86Q127 31 206 35c55-2 103 17 138 48l-20 60-16 31-5 248q0 59-121 70c-52 5-93-5-110-48l-18-44c-26-69-55-197-27-252Q52 102 98 86Z" fill="#edf4f7"/>
+    <path d="M95 99c-34 17-44 44-47 87-6 75 27 156 47 218-9-79-25-145-24-205 2-36 14-66 38-78 13-6-5-27-14-22Z" fill="#fff"/>
+    <path d="M102 101c-25 13-38 43-43 69-7 37 2 95 13 138m-18 41 28 56" fill="none" stroke="#7493a1"/>
+    <ellipse cx="207" cy="63" rx="82" ry="20" fill="#f3f7fa"/>
+    <path d="M110 81q48 28 158 16l50-18 26 4-20 60-21 31-59-47-30-25Z" fill="#edf3f6"/>
+    <path d="m280 96 19 58 22-32 8-34Zm-41 5 33 12 21 31-14-32Z" fill="#b9c9d2"/>
+    <path d="m271 108 27 43m-24-35 29 31m-25-24 28 21" fill="none" stroke="#718894"/>
+    <path d="M197 180q0-10 10-10h14q10 0 10 10v226q0 9-7 10h-23q-6-2-6-10Z" fill="#a8dce9"/>
+    <path d="M152 141q1-10 9-10h12q8 0 8 10l-4 185q0 8-7 8h-16q-9 0-9-8Z" fill="#e1f1f5"/>
+    <path d="M197 241h10m-10 29h16m-16 30h10m-10 31h16m-16 29h10m-10 30h15m-61-208h15m-17 24h10m-10 26h12m-13 28h10m-12 27h16m-17 27h10" fill="none"/>
+    <path d="M87 414c22-28 62-42 117-43 46 0 85 15 98 39 21 41-31 76-114 78-64 2-93-19-101-56Z" fill="#e1e9ee"/>
+    <ellipse cx="195" cy="425" rx="103" ry="32" fill="#f7fafb"/>
+    <path d="M98 423q8 33 56 32l7-20 22-6-16-18-27-4Zm71 11q20-15 35-7l20 23-6 22-49 1-14-14Z" fill="#5c6970"/>
+    <ellipse cx="185" cy="449" rx="21" ry="12" fill="#ead1a3"/>
+    <path d="M82 473q23 17 84 22t123-23m-84-44q23-21 48-10c8 3 12 9 17 13" fill="none"/>
+    <path d="M170 490q31-14 65 3l11 15-11 15-54-1-23-18Z" fill="#667985"/>
+    <ellipse cx="191" cy="549" rx="119" ry="44" fill="#e8eef2"/>
+    <ellipse cx="191" cy="545" rx="101" ry="34" fill="#fbfdfe"/>
+    <path d="M130 549q29 16 59 14 27-2 54-23l-18-22-12 2-6 21-18 4-21-2-15-12Z" fill="#889ba8"/>
+    <path d="m161 531 14-28h30l15 28q-13 18-30 18-19 0-29-18Z" fill="#293840"/>
+    <ellipse cx="190" cy="504" rx="16" ry="7" fill="#d0af7e"/>
+    <path d="M132 551q-10 15-25 19l-42 3-30 10m98-26q-14 16-24 19l-42 5-29 11" fill="none"/>
+    <path d="m62 130 9-30 22-11 6-20 13-4 10 22 16-5 15 9 3 20-22 12-48 16Z" fill="#556973"/>
+    <path d="M102 85q11-21 31-15l6 27-14 20-13-10Zm23-24 2-17 15 2 9 27-11 15Z" fill="#c5d4db"/>
+    <path d="M63 120l33-9 15 9 22-10 13 7m-52 11q-15 7-27 8" fill="none" stroke="#161f25"/>
+  </g>
+  <g fill="none" stroke="#8e1f28" stroke-width="2">
+    <path d="m123 27 14 27m150 34-7 35m-22 146-29 1m46 147-45 19m24 49-24 13m53 62-45-22m-102 39-28-15m10-171 48 22m-78-255 22-33m31 16-10-27m-88 22 25-19m16-60 16 18"/>
+  </g>
+  <g fill="#ae2836">
+    <circle cx="123" cy="27" r="14"/><circle cx="287" cy="88" r="14"/>
+    <circle cx="258" cy="269" r="14"/><circle cx="275" cy="417" r="14"/>
+    <circle cx="254" cy="485" r="14"/><circle cx="283" cy="560" r="14"/>
+    <circle cx="136" cy="577" r="14"/><circle cx="118" cy="391" r="14"/>
+    <circle cx="88" cy="158" r="14"/><circle cx="141" cy="141" r="14"/>
+    <circle cx="43" cy="136" r="14"/><circle cx="84" cy="55" r="14"/>
+  </g>
+  <g fill="#fff" font-family="DejaVu Sans" font-weight="bold" font-size="15" text-anchor="middle">
+    <text x="123" y="32">1</text><text x="287" y="93">2</text>
+    <text x="258" y="274">3</text><text x="275" y="422">4</text>
+    <text x="254" y="490">5</text><text x="283" y="565">6</text>
+    <text x="136" y="582">7</text><text x="118" y="396">8</text>
+    <text x="88" y="163">9</text><text x="141" y="146">10</text>
+    <text x="43" y="141">11</text><text x="84" y="60">12</text>
+  </g>
+</svg>
