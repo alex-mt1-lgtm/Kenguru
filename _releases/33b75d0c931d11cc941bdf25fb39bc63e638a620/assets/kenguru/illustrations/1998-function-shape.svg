@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="359" height="196" viewBox="0 0 180 98">
+  <path d="M4 50H172M85 94V5M162 47L172 50L162 53M82 16L85 5L88 16" fill="none" stroke="#181818" stroke-width=".9"/>
+  <path d="M15 20Q85 35 85 50Q85 65 15 80M155 20Q85 35 85 50Q85 65 155 80" fill="none" stroke="#181818" stroke-width="1.9"/>
+  <circle cx="85" cy="50" r="2.5" fill="#181818"/>
+  <g fill="#181818" font-style="italic" font-family="serif" font-size="16">
+    <text x="92" y="13">y</text><text x="163" y="66">x</text><text x="88" y="76">O</text>
+  </g>
+</svg>

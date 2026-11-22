@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="178" viewBox="0 0 180 82">
+  <path d="M4 77H175L79 3L50 77" fill="none" stroke="#171717" stroke-width="1.6" stroke-linejoin="round"/>
+  <path d="M42 77A11 11 0 0 1 54 66M75 14Q82 17 88 10M73 19Q84 22 93 14M153 77Q153 66 159 65M149 77Q149 65 156 62M145 77Q145 63 153 60" fill="none" stroke="#171717" stroke-width=".75"/>
+  <g fill="#171717" font-family="serif" font-size="14">
+    <text x="3" y="71">2<tspan font-style="italic">x</tspan> + 5</text>
+    <text x="73" y="37"><tspan font-style="italic">x</tspan> + 1</text>
+    <text x="113" y="71"><tspan font-style="italic">x</tspan> − 1</text>
+  </g>
+</svg>

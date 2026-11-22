@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="364" height="236" viewBox="0 0 182 118">
+  <path d="M6 78H171M85 115V5M161 75L171 78L161 81M82 15L85 5L88 15" fill="none" stroke="#171717" stroke-width=".95"/>
+  <path d="M15 114L51 78H119L157 40" fill="none" stroke="#171717" stroke-width="1.9"/>
+  <path d="M35 78Q35 85 40 89M131 66Q136 71 136 78" fill="none" stroke="#171717" stroke-width=".76"/>
+  <circle cx="85" cy="78" r="2.2" fill="#171717"/>
+  <g fill="#171717" font-family="sans-serif" font-size="15">
+    <text x="11" y="95">45°</text><text x="141" y="71">45°</text>
+  </g>
+  <g fill="#171717" font-family="serif" font-style="italic" font-size="16">
+    <text x="169" y="96">x</text><text x="93" y="15">y</text>
+  </g>
+</svg>
