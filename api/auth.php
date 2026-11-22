@@ -10,7 +10,8 @@ const PROGRESS_BODY_LIMIT = 524288;
 const PROGRESS_TOTAL_LIMIT = 4194304;
 const PROGRESS_TASK_LIMIT = 8192;
 const PROGRESS_ARTIFACT_LIMIT = 24576;
-const LESSON_KEY_PATTERN = '[0-9]{4}(?:-[a-z0-9]{1,12}){1,4}/[1-9][0-9]{0,2}';
+const LESSON_KEY_PATTERN = '[0-9]{4}(?:-[a-z0-9]{1,12}){1,7}/[1-9][0-9]{0,2}';
+const MAX_NUMERIC_ANSWER = 999999;
 
 final class AccountError extends RuntimeException
 {
@@ -590,9 +591,19 @@ function validDrawing(mixed $marks): bool
     return true;
 }
 
-function validLessonProgress(mixed $progress, string $lesson = ''): bool
+function numericRating(string $lesson): bool
 {
-    $maxChoice = preg_match('~\A[0-9]{4}-kit-4-5/(?:19|20|21)\z~', $lesson) ? 999999 : 50;
+    return (ratingCatalog()[$lesson][2] ?? null) === 'number';
+}
+
+function validRatingAnswer(mixed $answer, string $lesson): bool
+{
+    return is_int($answer) && $answer >= 0 && $answer <= (numericRating($lesson) ? MAX_NUMERIC_ANSWER : 4);
+}
+
+function validLessonProgress(mixed $progress, string $lesson): bool
+{
+    $maxChoice = numericRating($lesson) ? MAX_NUMERIC_ANSWER : 50;
     return $progress instanceof stdClass
         && !array_diff(array_keys(get_object_vars($progress)), ['step', 'selected', 'seen', 'reviewOpened'])
         && is_int($progress->step ?? null) && $progress->step >= 0 && $progress->step <= 500
@@ -716,21 +727,17 @@ function refreshLeaderboardScores(PDO $db): void
     }
 }
 
-function verifiedRating(string $key, string $value, stdClass $next, stdClass $saved, stdClass $claims): string
+function independentRatingAnswer(string $lesson, stdClass $next, stdClass $saved, stdClass $claims): ?int
 {
-    if ($value !== 'solved') {
-        return 'reviewed';
-    }
-    $lesson = substr($key, strlen('rating:'));
-    $answer = ratingCatalog()[$lesson][0] ?? null;
     $before = json_decode($saved->$lesson ?? 'null', false, 12, JSON_THROW_ON_ERROR);
     $submitted = json_decode($next->$lesson ?? 'null', false, 12, JSON_THROW_ON_ERROR);
-    if ($answer === null || !validLessonProgress($submitted) || ($claims->$lesson ?? $submitted->selected) !== $answer
+    if (!isset(ratingCatalog()[$lesson][0]) || !validLessonProgress($submitted, $lesson)
         || ($submitted->step === 0 && !($submitted->reviewOpened ?? false))
         || ($before->seen ?? false) || ($before->reviewOpened ?? false) || ($before->step ?? 0) > 0) {
-        return 'reviewed';
+        return null;
     }
-    return 'solved';
+    $answer = $claims->$lesson ?? $submitted->selected;
+    return validRatingAnswer($answer, $lesson) ? $answer : null;
 }
 
 function leaderboard(PDO $db, array $account): array
@@ -816,7 +823,7 @@ function progressForAccount(PDO $db, array $account, ?stdClass $data = null): ar
         throw new AccountError(422, 'Не удалось прочитать первые ответы.');
     }
     foreach ($claims as $key => $answer) {
-        if (!is_int($answer) || $answer < 0 || $answer > 4 || !isset($data->progress->{'rating:' . $key})) {
+        if (!validRatingAnswer($answer, (string) $key) || !isset($data->progress->{'rating:' . $key})) {
             throw new AccountError(422, 'Не удалось прочитать первые ответы.');
         }
     }
@@ -851,17 +858,14 @@ function progressForAccount(PDO $db, array $account, ?stdClass $data = null): ar
                 if (isset($task->rating)) {
                     continue;
                 }
-                $value = verifiedRating($key, $value, $data->progress, $saved, $claims);
-                $task->rating = $value;
-                $scoreChanged = $scoreChanged || $value === 'solved';
-                $before = json_decode($saved->$lesson ?? 'null', false, 12, JSON_THROW_ON_ERROR);
-                $submitted = json_decode($data->progress->$lesson ?? 'null', false, 12, JSON_THROW_ON_ERROR);
-                $firstAnswer = $claims->$lesson ?? $submitted->selected ?? null;
-                if (is_int($firstAnswer) && $firstAnswer <= 4 && $submitted !== null
-                    && ($submitted->step > 0 || ($submitted->reviewOpened ?? false))
-                    && !($before->seen ?? false) && !($before->reviewOpened ?? false) && !($before->step ?? 0)) {
+                $firstAnswer = independentRatingAnswer($lesson, $data->progress, $saved, $claims);
+                if ($firstAnswer !== null) {
                     $task->firstAnswer = $firstAnswer;
                 }
+                $correct = $firstAnswer !== null && $firstAnswer === ratingCatalog()[$lesson][0];
+                $value = $value === 'solved' && $correct ? 'solved' : 'reviewed';
+                $task->rating = $value;
+                $scoreChanged = $scoreChanged || $value === 'solved';
             } else {
                 $value = isset($task->progress) ? preserveLessonReview($task->progress, $value) : $value;
                 $task->progress = $value;

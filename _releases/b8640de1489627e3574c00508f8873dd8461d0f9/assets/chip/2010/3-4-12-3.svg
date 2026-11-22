@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="128" viewBox="0 0 96 64">
+  <rect x="1" y="1" width="94" height="62" rx="1" fill="#ccecff" stroke="#368fb2" stroke-width="1.8"/>
+  <line x1="18" y1="14" x2="54.00" y2="14.00" stroke="#182b33" stroke-width="1.5"/>
+  <path fill="#182b33" d="M61 14L54.00 17.50L54.00 10.50Z"/>
+  <line x1="61" y1="14" x2="61.00" y2="37.00" stroke="#182b33" stroke-width="1.5"/>
+  <path fill="#182b33" d="M61 44L57.50 37.00L64.50 37.00Z"/>
+  <line x1="61" y1="44" x2="25.00" y2="44.00" stroke="#182b33" stroke-width="1.5"/>
+  <path fill="#182b33" d="M18 44L25.00 40.50L25.00 47.50Z"/>
+</svg>
