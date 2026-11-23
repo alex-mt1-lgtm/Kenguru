@@ -215,8 +215,8 @@
         "width": 480,
         "height": 371,
         "detailSrc": "assets/chip/2017/detail/1-2-07-1.webp",
-        "pixelWidth": 132,
-        "pixelHeight": 121
+        "pixelWidth": 1600,
+        "pixelHeight": 1238
       },
       {
         "src": "assets/chip/2017/1-2-07-2.webp",
@@ -224,8 +224,8 @@
         "width": 480,
         "height": 320,
         "detailSrc": "assets/chip/2017/detail/1-2-07-2.webp",
-        "pixelWidth": 132,
-        "pixelHeight": 121
+        "pixelWidth": 1600,
+        "pixelHeight": 1067
       },
       {
         "src": "assets/chip/2017/1-2-07-3.webp",
@@ -233,8 +233,8 @@
         "width": 480,
         "height": 480,
         "detailSrc": "assets/chip/2017/detail/1-2-07-3.webp",
-        "pixelWidth": 133,
-        "pixelHeight": 121
+        "pixelWidth": 1482,
+        "pixelHeight": 1482
       },
       {
         "src": "assets/chip/2017/1-2-07-4.webp",
@@ -242,8 +242,8 @@
         "width": 441,
         "height": 480,
         "detailSrc": "assets/chip/2017/detail/1-2-07-4.webp",
-        "pixelWidth": 132,
-        "pixelHeight": 121
+        "pixelWidth": 1052,
+        "pixelHeight": 1145
       },
       {
         "src": "assets/chip/2017/1-2-07-5.webp",
@@ -251,8 +251,8 @@
         "width": 480,
         "height": 320,
         "detailSrc": "assets/chip/2017/detail/1-2-07-5.webp",
-        "pixelWidth": 144,
-        "pixelHeight": 121
+        "pixelWidth": 1600,
+        "pixelHeight": 1067
       }
     ]
   },
@@ -297,8 +297,8 @@
         "width": 301,
         "height": 480,
         "detailSrc": "assets/chip/2017/detail/1-2-09-1.webp",
-        "pixelWidth": 301,
-        "pixelHeight": 480
+        "pixelWidth": 1002,
+        "pixelHeight": 1600
       },
       {
         "src": "assets/chip/2017/1-2-09-2.webp",
@@ -306,8 +306,8 @@
         "width": 480,
         "height": 360,
         "detailSrc": "assets/chip/2017/detail/1-2-09-2.webp",
-        "pixelWidth": 480,
-        "pixelHeight": 360
+        "pixelWidth": 1280,
+        "pixelHeight": 960
       },
       {
         "src": "assets/chip/2017/1-2-09-3.webp",
@@ -315,8 +315,8 @@
         "width": 377,
         "height": 480,
         "detailSrc": "assets/chip/2017/detail/1-2-09-3.webp",
-        "pixelWidth": 377,
-        "pixelHeight": 480
+        "pixelWidth": 779,
+        "pixelHeight": 993
       },
       {
         "src": "assets/chip/2017/1-2-09-4.webp",
@@ -324,8 +324,8 @@
         "width": 318,
         "height": 480,
         "detailSrc": "assets/chip/2017/detail/1-2-09-4.webp",
-        "pixelWidth": 318,
-        "pixelHeight": 480
+        "pixelWidth": 1060,
+        "pixelHeight": 1600
       },
       {
         "src": "assets/chip/2017/1-2-09-5.webp",
@@ -333,8 +333,8 @@
         "width": 330,
         "height": 480,
         "detailSrc": "assets/chip/2017/detail/1-2-09-5.webp",
-        "pixelWidth": 330,
-        "pixelHeight": 480
+        "pixelWidth": 1100,
+        "pixelHeight": 1600
       }
     ]
   },
@@ -432,8 +432,8 @@
         "width": 480,
         "height": 480,
         "detailSrc": "assets/chip/2017/detail/1-2-12-1.webp",
-        "pixelWidth": 143,
-        "pixelHeight": 129
+        "pixelWidth": 1248,
+        "pixelHeight": 1248
       },
       {
         "src": "assets/chip/2017/1-2-12-2.webp",
@@ -441,8 +441,8 @@
         "width": 480,
         "height": 312,
         "detailSrc": "assets/chip/2017/detail/1-2-12-2.webp",
-        "pixelWidth": 143,
-        "pixelHeight": 129
+        "pixelWidth": 1600,
+        "pixelHeight": 1039
       },
       {
         "src": "assets/chip/2017/1-2-12-3.webp",
@@ -450,8 +450,8 @@
         "width": 480,
         "height": 332,
         "detailSrc": "assets/chip/2017/detail/1-2-12-3.webp",
-        "pixelWidth": 142,
-        "pixelHeight": 129
+        "pixelWidth": 800,
+        "pixelHeight": 553
       },
       {
         "src": "assets/chip/2017/1-2-12-4.webp",
@@ -468,8 +468,8 @@
         "width": 480,
         "height": 356,
         "detailSrc": "assets/chip/2017/detail/1-2-12-5.webp",
-        "pixelWidth": 135,
-        "pixelHeight": 129
+        "pixelWidth": 918,
+        "pixelHeight": 680
       }
     ]
   },
@@ -600,8 +600,8 @@
       "width": 361,
       "height": 480,
       "detailSrc": "assets/chip/2017/detail/1-2-18.webp",
-      "pixelWidth": 361,
-      "pixelHeight": 480
+      "pixelWidth": 1203,
+      "pixelHeight": 1600
     }
   },
   {

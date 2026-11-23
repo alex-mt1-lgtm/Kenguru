@@ -125,12 +125,12 @@
       },
       {
         "src": "assets/chip/2020/1-03-3.webp",
-        "alt": "Крупный белый зверь на снегу.",
-        "width": 383,
-        "height": 384,
+        "alt": "Крупный белый зверь перепрыгивает между льдинами.",
+        "width": 384,
+        "height": 256,
         "detailSrc": "assets/chip/2020/detail/1-03-3.webp",
-        "pixelWidth": 563,
-        "pixelHeight": 565
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2020/1-03-4.webp",
@@ -172,12 +172,12 @@
     "optionFigures": [
       {
         "src": "assets/chip/2020/1-04-1.webp",
-        "alt": "Длинные хвоинки расходятся пучками.",
-        "width": 168,
-        "height": 144,
+        "alt": "Длинные хвоинки растут пучками на концах веточек.",
+        "width": 384,
+        "height": 296,
         "detailSrc": "assets/chip/2020/detail/1-04-1.webp",
-        "pixelWidth": 210,
-        "pixelHeight": 180
+        "pixelWidth": 1280,
+        "pixelHeight": 985
       },
       {
         "src": "assets/chip/2020/1-04-2.webp",
@@ -246,12 +246,12 @@
       },
       {
         "src": "assets/chip/2020/1-05-2.webp",
-        "alt": "Меховые зверьки в лесу рядом с корнями дерева.",
-        "width": 169,
-        "height": 149,
+        "alt": "Небольшие рыжие зверьки с острыми ушами стоят рядом.",
+        "width": 384,
+        "height": 290,
         "detailSrc": "assets/chip/2020/detail/1-05-2.webp",
-        "pixelWidth": 211,
-        "pixelHeight": 186
+        "pixelWidth": 1280,
+        "pixelHeight": 967
       },
       {
         "src": "assets/chip/2020/1-05-3.webp",
@@ -441,30 +441,30 @@
     "optionFigures": [
       {
         "src": "assets/chip/2020/1-08-1.webp",
-        "alt": "Светлые клубни и зелёное растение.",
-        "width": 169,
-        "height": 169,
+        "alt": "Светлые клубни показаны рядом с зелёным растением.",
+        "width": 384,
+        "height": 384,
         "detailSrc": "assets/chip/2020/detail/1-08-1.webp",
-        "pixelWidth": 211,
-        "pixelHeight": 211
+        "pixelWidth": 800,
+        "pixelHeight": 800
       },
       {
         "src": "assets/chip/2020/1-08-2.webp",
-        "alt": "Круглые зелёные семена рядом со стручком.",
-        "width": 168,
-        "height": 169,
+        "alt": "Круглые зелёные семена внутри стручков, на заднем плане зелёные стебли.",
+        "width": 384,
+        "height": 384,
         "detailSrc": "assets/chip/2020/detail/1-08-2.webp",
-        "pixelWidth": 210,
-        "pixelHeight": 211
+        "pixelWidth": 1278,
+        "pixelHeight": 1278
       },
       {
         "src": "assets/chip/2020/1-08-3.webp",
-        "alt": "Чёрные семена рядом с крупным жёлтым цветком.",
-        "width": 168,
-        "height": 169,
+        "alt": "Крупный жёлтый цветок и тёмное семечко с полосами.",
+        "width": 384,
+        "height": 384,
         "detailSrc": "assets/chip/2020/detail/1-08-3.webp",
-        "pixelWidth": 210,
-        "pixelHeight": 211
+        "pixelWidth": 963,
+        "pixelHeight": 963
       },
       {
         "src": "assets/chip/2020/1-08-4.webp",
@@ -477,14 +477,15 @@
       },
       {
         "src": "assets/chip/2020/1-08-5.webp",
-        "alt": "Красные округлые корнеплоды и листья.",
-        "width": 169,
-        "height": 169,
+        "alt": "Красные круглые корнеплоды с широкими листьями и бордовыми черешками.",
+        "width": 384,
+        "height": 257,
         "detailSrc": "assets/chip/2020/detail/1-08-5.webp",
-        "pixelWidth": 211,
-        "pixelHeight": 211
+        "pixelWidth": 1280,
+        "pixelHeight": 858
       }
-    ]
+    ],
+    "adaptation": "В задании использованы крупные фотографии тех же видов или объектов. Порядок вариантов сохранён."
   },
   {
     "title": "Как цветёт одуванчик",
@@ -505,21 +506,21 @@
     "figure": {
       "src": "assets/chip/2020/1-09.webp",
       "alt": "Белый пушистый шар со множеством семянок на стебле.",
-      "width": 169,
-      "height": 169,
+      "width": 384,
+      "height": 288,
       "detailSrc": "assets/chip/2020/detail/1-09.webp",
-      "pixelWidth": 211,
-      "pixelHeight": 211
+      "pixelWidth": 1280,
+      "pixelHeight": 960
     },
     "optionFigures": [
       {
         "src": "assets/chip/2020/1-09-1.webp",
-        "alt": "Голубовато-сиреневые цветки расположены вдоль ветвящихся побегов.",
-        "width": 255,
-        "height": 384,
+        "alt": "Голубовато-сиреневые соцветия на нескольких ветвящихся стеблях.",
+        "width": 384,
+        "height": 173,
         "detailSrc": "assets/chip/2020/detail/1-09-1.webp",
-        "pixelWidth": 1020,
-        "pixelHeight": 1536
+        "pixelWidth": 1280,
+        "pixelHeight": 576
       },
       {
         "src": "assets/chip/2020/1-09-2.webp",
@@ -589,12 +590,12 @@
       },
       {
         "src": "assets/chip/2020/1-10-2.webp",
-        "alt": "Большая розовая шляпка с круговыми полосками.",
-        "width": 168,
-        "height": 169,
+        "alt": "Большая розовая шляпка с круговыми полосами.",
+        "width": 384,
+        "height": 383,
         "detailSrc": "assets/chip/2020/detail/1-10-2.webp",
-        "pixelWidth": 210,
-        "pixelHeight": 211
+        "pixelWidth": 1280,
+        "pixelHeight": 1275
       },
       {
         "src": "assets/chip/2020/1-10-3.webp",
@@ -607,12 +608,12 @@
       },
       {
         "src": "assets/chip/2020/1-10-4.webp",
-        "alt": "Светлая пятнистая шляпка и белая ножка с кольцом.",
-        "width": 169,
-        "height": 169,
+        "alt": "Пятнистая шляпка и светлая ножка с кольцом; рядом нижняя сторона второго гриба.",
+        "width": 384,
+        "height": 257,
         "detailSrc": "assets/chip/2020/detail/1-10-4.webp",
-        "pixelWidth": 211,
-        "pixelHeight": 211
+        "pixelWidth": 1280,
+        "pixelHeight": 858
       },
       {
         "src": "assets/chip/2020/1-10-5.webp",
@@ -680,12 +681,12 @@
       },
       {
         "src": "assets/chip/2020/1-11-4.webp",
-        "alt": "Крылатое полосатое насекомое.",
-        "width": 169,
-        "height": 169,
+        "alt": "Крылатое насекомое с чёрными и жёлтыми полосами на брюшке.",
+        "width": 384,
+        "height": 256,
         "detailSrc": "assets/chip/2020/detail/1-11-4.webp",
-        "pixelWidth": 211,
-        "pixelHeight": 211
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2020/1-11-5.webp",
@@ -736,30 +737,30 @@
       },
       {
         "src": "assets/chip/2020/1-12-3.webp",
-        "alt": "Керамические сосуды с рисунками.",
-        "width": 169,
-        "height": 169,
+        "alt": "Керамический сосуд, украшенный силуэтами людей.",
+        "width": 285,
+        "height": 384,
         "detailSrc": "assets/chip/2020/detail/1-12-3.webp",
-        "pixelWidth": 211,
-        "pixelHeight": 211
+        "pixelWidth": 1141,
+        "pixelHeight": 1536
       },
       {
         "src": "assets/chip/2020/1-12-4.webp",
-        "alt": "Две фигурки светлых сказочных существ, одна в чёрной шляпе.",
-        "width": 169,
-        "height": 168,
+        "alt": "Светлые фигурки сказочных персонажей; одна в высокой чёрной шляпе.",
+        "width": 384,
+        "height": 266,
         "detailSrc": "assets/chip/2020/detail/1-12-4.webp",
-        "pixelWidth": 211,
-        "pixelHeight": 210
+        "pixelWidth": 768,
+        "pixelHeight": 531
       },
       {
         "src": "assets/chip/2020/1-12-5.webp",
-        "alt": "Складной веер с красным узором.",
-        "width": 146,
-        "height": 144,
+        "alt": "Раскрытый веер с цветочным рисунком на бумаге.",
+        "width": 384,
+        "height": 195,
         "detailSrc": "assets/chip/2020/detail/1-12-5.webp",
-        "pixelWidth": 183,
-        "pixelHeight": 180
+        "pixelWidth": 1280,
+        "pixelHeight": 651
       }
     ],
     "adaptation": "В задании использованы крупные фотографии тех же видов или объектов. Порядок вариантов сохранён."
@@ -801,7 +802,7 @@
       },
       {
         "src": "assets/chip/2020/1-13-3.webp",
-        "alt": "Ровные ряды молодых зелёных растений, между которыми стоит вода.",
+        "alt": "Ровные ряды молодых зелёных растений стоят в воде.",
         "width": 384,
         "height": 256,
         "detailSrc": "assets/chip/2020/detail/1-13-3.webp",
@@ -858,49 +859,50 @@
       {
         "src": "assets/chip/2020/1-14-1.webp",
         "alt": "Сильно рассечённые ярко-зелёные листья.",
-        "width": 157,
-        "height": 152,
+        "width": 160,
+        "height": 142,
         "detailSrc": "assets/chip/2020/detail/1-14-1.webp",
         "pixelWidth": 196,
-        "pixelHeight": 190
+        "pixelHeight": 174
       },
       {
         "src": "assets/chip/2020/1-14-2.webp",
         "alt": "Мелкие листочки на тонких стебельках.",
-        "width": 157,
-        "height": 152,
+        "width": 160,
+        "height": 142,
         "detailSrc": "assets/chip/2020/detail/1-14-2.webp",
         "pixelWidth": 196,
-        "pixelHeight": 190
+        "pixelHeight": 174
       },
       {
         "src": "assets/chip/2020/1-14-3.webp",
         "alt": "Длинные узкие зелёные листья.",
-        "width": 157,
-        "height": 152,
+        "width": 160,
+        "height": 142,
         "detailSrc": "assets/chip/2020/detail/1-14-3.webp",
         "pixelWidth": 196,
-        "pixelHeight": 190
+        "pixelHeight": 174
       },
       {
         "src": "assets/chip/2020/1-14-4.webp",
-        "alt": "Крупные широкие листья с красными черешками.",
-        "width": 157,
-        "height": 152,
+        "alt": "Широкие зелёные листья с бордовыми черешками.",
+        "width": 308,
+        "height": 384,
         "detailSrc": "assets/chip/2020/detail/1-14-4.webp",
-        "pixelWidth": 196,
-        "pixelHeight": 190
+        "pixelWidth": 627,
+        "pixelHeight": 781
       },
       {
         "src": "assets/chip/2020/1-14-5.webp",
         "alt": "Зелёные листья с широкими лопастями и крупными выемками.",
-        "width": 157,
-        "height": 152,
+        "width": 334,
+        "height": 384,
         "detailSrc": "assets/chip/2020/detail/1-14-5.webp",
-        "pixelWidth": 196,
-        "pixelHeight": 190
+        "pixelWidth": 601,
+        "pixelHeight": 692
       }
-    ]
+    ],
+    "adaptation": "В задании использованы крупные фотографии тех же видов или объектов. Порядок вариантов сохранён."
   },
   {
     "title": "Кого в тайге не встретить",
@@ -948,12 +950,12 @@
       },
       {
         "src": "assets/chip/2020/1-15-4.webp",
-        "alt": "Небольшое мохнатое животное с тёмной мордой.",
-        "width": 169,
-        "height": 169,
+        "alt": "Коренастый лохматый зверь с тёмной мордой и светлыми боками.",
+        "width": 384,
+        "height": 240,
         "detailSrc": "assets/chip/2020/detail/1-15-4.webp",
-        "pixelWidth": 211,
-        "pixelHeight": 211
+        "pixelWidth": 1280,
+        "pixelHeight": 800
       },
       {
         "src": "assets/chip/2020/1-03-1.webp",

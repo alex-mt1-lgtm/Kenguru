@@ -76,12 +76,12 @@
     ],
     "figure": {
       "src": "assets/chip/2019/7-8-04.webp",
-      "alt": "Высокая башня с острым шпилем и круглыми площадками на нескольких уровнях.",
-      "width": 120,
-      "height": 218,
+      "alt": "Башня со шпилем и несколькими круглыми платформами с антеннами.",
+      "width": 255,
+      "height": 384,
       "detailSrc": "assets/chip/2019/detail/7-8-04.webp",
-      "pixelWidth": 150,
-      "pixelHeight": 272
+      "pixelWidth": 958,
+      "pixelHeight": 1440
     }
   },
   {
@@ -202,7 +202,7 @@
   },
   {
     "title": "Электроэнергия Австралии",
-    "question": "Какие установки из показанных обеспечивали бо́льшую часть производства электроэнергии Австралии в 2019 году?",
+    "question": "Какой из показанных способов производства электроэнергии давал больше половины всей выработки Австралии в 2019 году?",
     "choices": [
       "",
       "",
@@ -213,55 +213,55 @@
     "answer": 0,
     "points": 3,
     "steps": [
-      "В 2019 году угольные электростанции ещё давали более половины электроэнергии Австралии.",
-      "Среди фотографий тепловая электростанция на снимке А. На других снимках видны водные сооружения, ветряки и солнечные панели."
+      "В 2019 году угольные электростанции давали больше половины электроэнергии Австралии.",
+      "На снимке А показана угольная станция. Другие варианты показывают ГЭС, ветрогенераторы, солнечные панели и приливную электростанцию."
     ],
-    "adaptation": "Указан год, потому что структура производства электроэнергии меняется.",
+    "adaptation": "Указан год и уточнено, что нужно определить способ выработки, показанный на фотографии.",
     "optionFigures": [
       {
         "src": "assets/chip/2019/7-8-09-1.webp",
-        "alt": "Высокие промышленные трубы и градирни.",
-        "width": 122,
-        "height": 86,
+        "alt": "Промышленный комплекс с восемью высокими трубами и облаками над корпусами.",
+        "width": 384,
+        "height": 288,
         "detailSrc": "assets/chip/2019/detail/7-8-09-1.webp",
-        "pixelWidth": 152,
-        "pixelHeight": 107
+        "pixelWidth": 1280,
+        "pixelHeight": 960
       },
       {
         "src": "assets/chip/2019/7-8-09-2.webp",
-        "alt": "Плотина и комплекс сооружений у водоёма.",
-        "width": 122,
-        "height": 86,
+        "alt": "Высокая изогнутая бетонная плотина между отвесными берегами.",
+        "width": 253,
+        "height": 384,
         "detailSrc": "assets/chip/2019/detail/7-8-09-2.webp",
-        "pixelWidth": 152,
-        "pixelHeight": 107
+        "pixelWidth": 947,
+        "pixelHeight": 1440
       },
       {
         "src": "assets/chip/2019/7-8-09-3.webp",
-        "alt": "Ряд ветряных турбин.",
-        "width": 122,
-        "height": 86,
+        "alt": "На зелёных холмах стоят высокие башни с лопастями.",
+        "width": 384,
+        "height": 288,
         "detailSrc": "assets/chip/2019/detail/7-8-09-3.webp",
-        "pixelWidth": 152,
-        "pixelHeight": 107
+        "pixelWidth": 1280,
+        "pixelHeight": 960
       },
       {
         "src": "assets/chip/2019/7-8-09-4.webp",
-        "alt": "Прямоугольные солнечные панели.",
-        "width": 122,
-        "height": 86,
+        "alt": "Ряды тёмных прямоугольных панелей занимают открытый участок.",
+        "width": 384,
+        "height": 256,
         "detailSrc": "assets/chip/2019/detail/7-8-09-4.webp",
-        "pixelWidth": 152,
-        "pixelHeight": 107
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2019/7-8-09-5.webp",
-        "alt": "Длинное узкое сооружение над морской водой.",
-        "width": 122,
-        "height": 86,
+        "alt": "Длинная плотина с дорогой и шлюзом соединяет два берега устья.",
+        "width": 384,
+        "height": 288,
         "detailSrc": "assets/chip/2019/detail/7-8-09-5.webp",
-        "pixelWidth": 152,
-        "pixelHeight": 107
+        "pixelWidth": 1280,
+        "pixelHeight": 960
       }
     ]
   },
@@ -377,48 +377,48 @@
     "optionFigures": [
       {
         "src": "assets/chip/2019/7-8-14-1.webp",
-        "alt": "Тёмный попугай с крепким клювом и хохлом.",
-        "width": 122,
-        "height": 83,
+        "alt": "Тёмная птица с высоким хохлом, большим клювом и красным участком щеки.",
+        "width": 384,
+        "height": 288,
         "detailSrc": "assets/chip/2019/detail/7-8-14-1.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 102
+        "pixelWidth": 1280,
+        "pixelHeight": 960
       },
       {
         "src": "assets/chip/2019/7-8-14-2.webp",
-        "alt": "Светло-бурая птица с большой головой и крепким клювом.",
-        "width": 122,
-        "height": 83,
+        "alt": "Светло-бурая птица с большой головой и крепким клювом сидит на ветке.",
+        "width": 256,
+        "height": 384,
         "detailSrc": "assets/chip/2019/detail/7-8-14-2.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 102
+        "pixelWidth": 960,
+        "pixelHeight": 1440
       },
       {
         "src": "assets/chip/2019/7-8-14-3.webp",
-        "alt": "Мелкий голубой попугай с полосами.",
-        "width": 122,
-        "height": 83,
+        "alt": "Небольшая голубая птица со светлой головой и коротким загнутым клювом.",
+        "width": 256,
+        "height": 384,
         "detailSrc": "assets/chip/2019/detail/7-8-14-3.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 102
+        "pixelWidth": 960,
+        "pixelHeight": 1440
       },
       {
         "src": "assets/chip/2019/7-8-14-4.webp",
-        "alt": "Чёрная и белая птица стоит на траве.",
-        "width": 122,
-        "height": 83,
+        "alt": "Птица с чёрной грудью и широкой белой полосой на затылке стоит на траве.",
+        "width": 374,
+        "height": 384,
         "detailSrc": "assets/chip/2019/detail/7-8-14-4.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 102
+        "pixelWidth": 1280,
+        "pixelHeight": 1313
       },
       {
         "src": "assets/chip/2019/7-8-14-5.webp",
-        "alt": "Синеватая птица с ажурным хохолком.",
-        "width": 122,
-        "height": 83,
+        "alt": "Синевато-серая птица с бордовой грудью и ажурным хохолком.",
+        "width": 384,
+        "height": 384,
         "detailSrc": "assets/chip/2019/detail/7-8-14-5.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 102
+        "pixelWidth": 1280,
+        "pixelHeight": 1280
       }
     ]
   },
@@ -478,12 +478,12 @@
     "points": 4,
     "steps": [
       "У тасманийского дьявола тёмное коренастое тело, мощная голова и иногда светлая полоса на груди.",
-      "Такой зверь показан на снимке Г. На других снимках видны птица, пресмыкающиеся и летучая лисица."
+      "Такой зверь показан на снимке Г. На рисунке А крылатое существо, на остальных снимках — пресмыкающиеся и летучая лисица."
     ],
     "optionFigures": [
       {
         "src": "assets/chip/2019/7-8-17-1.webp",
-        "alt": "Большая хищная птица с расправленными крыльями.",
+        "alt": "Золотистое крылатое существо с птичьей головой на фоне скал.",
         "width": 122,
         "height": 107,
         "detailSrc": "assets/chip/2019/detail/7-8-17-1.webp",
@@ -510,21 +510,21 @@
       },
       {
         "src": "assets/chip/2019/7-8-17-4.webp",
-        "alt": "Чёрный коренастый зверь с крепкой головой.",
-        "width": 122,
-        "height": 107,
+        "alt": "Чёрный коренастый зверь с короткими лапами, широкой мордой и светлой полосой на груди.",
+        "width": 384,
+        "height": 250,
         "detailSrc": "assets/chip/2019/detail/7-8-17-4.webp",
-        "pixelWidth": 152,
-        "pixelHeight": 133
+        "pixelWidth": 1440,
+        "pixelHeight": 939
       },
       {
         "src": "assets/chip/2019/7-8-17-5.webp",
-        "alt": "Рыжеватое животное с перепончатыми крыльями.",
-        "width": 122,
-        "height": 107,
+        "alt": "Зверёк с рыжеватой шеей летит с расправленными перепончатыми крыльями.",
+        "width": 384,
+        "height": 260,
         "detailSrc": "assets/chip/2019/detail/7-8-17-5.webp",
-        "pixelWidth": 152,
-        "pixelHeight": 133
+        "pixelWidth": 1280,
+        "pixelHeight": 867
       }
     ],
     "adaptation": "Для карточки использованы крупные фотографии тех же видов или объектов. Порядок и ответ сохранены."
@@ -583,31 +583,27 @@
         "pixelHeight": 1113
       },
       {
-        "src": "assets/chip/2019/7-8-19-3.webp",
-        "alt": "Невысокий округлый зверь с короткими лапами.",
-        "width": 122,
-        "height": 106,
-        "detailSrc": "assets/chip/2019/detail/7-8-19-3.webp",
-        "pixelWidth": 152,
-        "pixelHeight": 132
+        "src": "assets/chip/2019/3-4-04-1.webp",
+        "alt": "Невысокое серое животное с округлым туловищем и короткими лапами",
+        "width": 480,
+        "height": 320,
+        "detailSrc": "assets/chip/2019/detail/3-4-04-1.webp"
       },
       {
         "src": "assets/chip/2019/7-8-17-4.webp",
-        "alt": "Чёрный коренастый зверь с крепкой головой.",
-        "width": 122,
-        "height": 107,
+        "alt": "Чёрный коренастый зверь с короткими лапами, широкой мордой и светлой полосой на груди.",
+        "width": 384,
+        "height": 250,
         "detailSrc": "assets/chip/2019/detail/7-8-17-4.webp",
-        "pixelWidth": 152,
-        "pixelHeight": 133
+        "pixelWidth": 1440,
+        "pixelHeight": 939
       },
       {
-        "src": "assets/chip/2019/7-8-19-5.webp",
-        "alt": "Зверь с плоским широким клювом у воды.",
-        "width": 122,
-        "height": 106,
-        "detailSrc": "assets/chip/2019/detail/7-8-19-5.webp",
-        "pixelWidth": 152,
-        "pixelHeight": 132
+        "src": "assets/chip/2019/3-4-04-3.webp",
+        "alt": "Животное с широким плоским клювом у воды",
+        "width": 480,
+        "height": 320,
+        "detailSrc": "assets/chip/2019/detail/3-4-04-3.webp"
       }
     ]
   },
@@ -699,48 +695,48 @@
     "optionFigures": [
       {
         "src": "assets/chip/2019/7-8-24-1.webp",
-        "alt": "Хищная птица с полосатым оперением.",
-        "width": 122,
-        "height": 77,
+        "alt": "Передняя часть тёмно-бурой птицы с загнутым клювом и более светлыми отметинами на шее.",
+        "width": 384,
+        "height": 288,
         "detailSrc": "assets/chip/2019/detail/7-8-24-1.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 95
+        "pixelWidth": 1280,
+        "pixelHeight": 960
       },
       {
         "src": "assets/chip/2019/7-8-24-2.webp",
-        "alt": "Округлый зеленоватый попугай на земле.",
-        "width": 122,
-        "height": 77,
+        "alt": "Округлый зеленоватый попугай с кругами светлых перьев вокруг глаз и бледным клювом.",
+        "width": 384,
+        "height": 256,
         "detailSrc": "assets/chip/2019/detail/7-8-24-2.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 95
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2019/7-8-24-3.webp",
-        "alt": "Зелёный попугай с длинным клювом на палке.",
-        "width": 122,
-        "height": 77,
+        "alt": "Зелёно-бурый попугай с длинным загнутым клювом на каменистой земле.",
+        "width": 384,
+        "height": 256,
         "detailSrc": "assets/chip/2019/detail/7-8-24-3.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 95
+        "pixelWidth": 1440,
+        "pixelHeight": 960
       },
       {
         "src": "assets/chip/2019/7-8-24-4.webp",
-        "alt": "Тёмная птица с синим отливом и белыми перьями на горле.",
-        "width": 122,
-        "height": 77,
+        "alt": "Тёмная птица с сине-фиолетовым отливом и белыми пучками перьев на горле.",
+        "width": 288,
+        "height": 384,
         "detailSrc": "assets/chip/2019/detail/7-8-24-4.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 95
+        "pixelWidth": 1080,
+        "pixelHeight": 1440
       },
       {
         "src": "assets/chip/2019/7-8-24-5.webp",
-        "alt": "Синевато-серая птица с маленькими синими выростами у клюва.",
-        "width": 122,
-        "height": 77,
+        "alt": "Сизая птица с тёмной маской и небольшими голубыми выростами у клюва.",
+        "width": 384,
+        "height": 253,
         "detailSrc": "assets/chip/2019/detail/7-8-24-5.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 95
+        "pixelWidth": 1037,
+        "pixelHeight": 682
       }
     ]
   },

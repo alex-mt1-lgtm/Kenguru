@@ -87,7 +87,7 @@
       "Дикие лошади исчезли в Америке в конце последнего ледникового периода. Евразийских домашних лошадей завезли европейцы.",
       "На картине Г показан всадник. Такой сюжет относится ко времени после того, как лошади вновь появились в Америке."
     ],
-    "adaptation": "Уточнён период, чтобы не смешивать его с ледниковым временем, когда в Америке были дикие лошади.",
+    "adaptation": "Уточнён период, чтобы не смешивать его с ледниковым временем, когда в Америке были дикие лошади. Одна репродукция заменена другой картиной того же художника. Исходные репродукции доступны в буклете.",
     "optionFigures": [
       {
         "src": "assets/chip/2018/7-8-03-1.webp",
@@ -95,8 +95,8 @@
         "width": 480,
         "height": 325,
         "detailSrc": "assets/chip/2018/detail/7-8-03-1.webp",
-        "pixelWidth": 480,
-        "pixelHeight": 325
+        "pixelWidth": 1600,
+        "pixelHeight": 1084
       },
       {
         "src": "assets/chip/2018/7-8-03-2.webp",
@@ -113,17 +113,17 @@
         "width": 480,
         "height": 339,
         "detailSrc": "assets/chip/2018/detail/7-8-03-3.webp",
-        "pixelWidth": 480,
-        "pixelHeight": 339
+        "pixelWidth": 1000,
+        "pixelHeight": 707
       },
       {
         "src": "assets/chip/2018/7-8-03-4.webp",
-        "alt": "Всадник на скачущей лошади.",
-        "width": 81,
-        "height": 97,
+        "alt": "Всадник на светлой лошади среди открытой равнины.",
+        "width": 360,
+        "height": 480,
         "detailSrc": "assets/chip/2018/detail/7-8-03-4.webp",
-        "pixelWidth": 101,
-        "pixelHeight": 121
+        "pixelWidth": 525,
+        "pixelHeight": 700
       },
       {
         "src": "assets/chip/2018/7-8-03-5.webp",
@@ -256,8 +256,8 @@
         "width": 360,
         "height": 480,
         "detailSrc": "assets/chip/2018/detail/7-8-08-3.webp",
-        "pixelWidth": 360,
-        "pixelHeight": 480
+        "pixelWidth": 960,
+        "pixelHeight": 1281
       },
       {
         "src": "assets/chip/2018/7-8-08-4.webp",
@@ -302,8 +302,8 @@
       "width": 480,
       "height": 319,
       "detailSrc": "assets/chip/2018/detail/7-8-09.webp",
-      "pixelWidth": 480,
-      "pixelHeight": 319
+      "pixelWidth": 1280,
+      "pixelHeight": 850
     }
   },
   {
@@ -373,8 +373,8 @@
         "width": 309,
         "height": 480,
         "detailSrc": "assets/chip/2018/detail/5-6-17-1.webp",
-        "pixelWidth": 309,
-        "pixelHeight": 480
+        "pixelWidth": 1031,
+        "pixelHeight": 1600
       },
       {
         "src": "assets/chip/2018/7-8-12-3.webp",
@@ -382,8 +382,8 @@
         "width": 480,
         "height": 321,
         "detailSrc": "assets/chip/2018/detail/7-8-12-3.webp",
-        "pixelWidth": 480,
-        "pixelHeight": 321
+        "pixelWidth": 1280,
+        "pixelHeight": 855
       },
       {
         "src": "assets/chip/2018/7-8-12-4.webp",
@@ -463,8 +463,8 @@
       "width": 480,
       "height": 472,
       "detailSrc": "assets/chip/2018/detail/7-8-15.webp",
-      "pixelWidth": 480,
-      "pixelHeight": 472
+      "pixelWidth": 632,
+      "pixelHeight": 622
     }
   },
   {
@@ -542,8 +542,8 @@
       "width": 480,
       "height": 390,
       "detailSrc": "assets/chip/2018/detail/7-8-19.webp",
-      "pixelWidth": 480,
-      "pixelHeight": 390
+      "pixelWidth": 1280,
+      "pixelHeight": 1040
     }
   },
   {
@@ -686,8 +686,8 @@
         "width": 480,
         "height": 425,
         "detailSrc": "assets/chip/2018/detail/7-8-24-1.webp",
-        "pixelWidth": 480,
-        "pixelHeight": 425
+        "pixelWidth": 1280,
+        "pixelHeight": 1133
       },
       {
         "src": "assets/chip/2018/7-8-24-2.webp",
@@ -695,8 +695,8 @@
         "width": 480,
         "height": 320,
         "detailSrc": "assets/chip/2018/detail/7-8-24-2.webp",
-        "pixelWidth": 480,
-        "pixelHeight": 320
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2018/7-8-24-3.webp",

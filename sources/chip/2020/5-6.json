@@ -58,49 +58,39 @@
     ],
     "optionFigures": [
       {
-        "src": "assets/chip/2020/5-6-03-1.webp",
+        "src": "assets/chip/2020/5-6-03-1.svg",
         "alt": "Веточки с простыми листьями, серёжками и мелкими плодами.",
-        "width": 119,
-        "height": 182,
-        "detailSrc": "assets/chip/2020/detail/5-6-03-1.webp",
-        "pixelWidth": 149,
-        "pixelHeight": 227
+        "width": 149,
+        "height": 227,
+        "detailSrc": "assets/chip/2020/5-6-03-1.svg"
       },
       {
-        "src": "assets/chip/2020/5-6-03-2.webp",
+        "src": "assets/chip/2020/5-6-03-2.svg",
         "alt": "Перистые листья и яркие плоды на ветвях.",
-        "width": 384,
-        "height": 254,
-        "detailSrc": "assets/chip/2020/detail/5-6-03-2.webp",
-        "pixelWidth": 1280,
-        "pixelHeight": 848
+        "width": 149,
+        "height": 227,
+        "detailSrc": "assets/chip/2020/5-6-03-2.svg"
       },
       {
-        "src": "assets/chip/2020/5-6-03-3.webp",
+        "src": "assets/chip/2020/5-6-03-3.svg",
         "alt": "Лопастные листья и продолговатые плоды с чашечками.",
-        "width": 384,
-        "height": 288,
-        "detailSrc": "assets/chip/2020/detail/5-6-03-3.webp",
-        "pixelWidth": 1600,
-        "pixelHeight": 1200
+        "width": 149,
+        "height": 227,
+        "detailSrc": "assets/chip/2020/5-6-03-3.svg"
       },
       {
-        "src": "assets/chip/2020/5-6-03-4.webp",
+        "src": "assets/chip/2020/5-6-03-4.svg",
         "alt": "Длинные узкие листья и тёмные округлые плоды.",
-        "width": 119,
-        "height": 182,
-        "detailSrc": "assets/chip/2020/detail/5-6-03-4.webp",
-        "pixelWidth": 149,
-        "pixelHeight": 227
+        "width": 149,
+        "height": 227,
+        "detailSrc": "assets/chip/2020/5-6-03-4.svg"
       },
       {
-        "src": "assets/chip/2020/5-6-03-5.webp",
+        "src": "assets/chip/2020/5-6-03-5.svg",
         "alt": "Мелкие листья и веточки с многочисленными крылатыми плодами.",
-        "width": 119,
-        "height": 182,
-        "detailSrc": "assets/chip/2020/detail/5-6-03-5.webp",
-        "pixelWidth": 149,
-        "pixelHeight": 227
+        "width": 149,
+        "height": 227,
+        "detailSrc": "assets/chip/2020/5-6-03-5.svg"
       }
     ]
   },
@@ -209,12 +199,12 @@
     "optionFigures": [
       {
         "src": "assets/chip/2020/5-6-08-1.webp",
-        "alt": "Плоское насекомое с длинными усиками.",
-        "width": 120,
-        "height": 119,
+        "alt": "Плоское коричневое насекомое с длинными усиками.",
+        "width": 384,
+        "height": 232,
         "detailSrc": "assets/chip/2020/detail/5-6-08-1.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 149
+        "pixelWidth": 1000,
+        "pixelHeight": 605
       },
       {
         "src": "assets/chip/2020/5-6-08-2.webp",
@@ -227,30 +217,30 @@
       },
       {
         "src": "assets/chip/2020/5-6-08-3.webp",
-        "alt": "Насекомое с прозрачными крыльями и красноватыми глазами.",
-        "width": 120,
-        "height": 119,
+        "alt": "Насекомое с прозрачной парой крыльев и красноватыми глазами.",
+        "width": 384,
+        "height": 291,
         "detailSrc": "assets/chip/2020/detail/5-6-08-3.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 149
+        "pixelWidth": 1600,
+        "pixelHeight": 1214
       },
       {
         "src": "assets/chip/2020/5-6-08-4.webp",
-        "alt": "Зелёное насекомое с длинными согнутыми задними ногами.",
-        "width": 120,
-        "height": 119,
+        "alt": "Зелёное насекомое с длинными и мощными задними ногами.",
+        "width": 384,
+        "height": 295,
         "detailSrc": "assets/chip/2020/detail/5-6-08-4.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 149
+        "pixelWidth": 500,
+        "pixelHeight": 384
       },
       {
         "src": "assets/chip/2020/5-6-08-5.webp",
-        "alt": "Узкое насекомое с длинными крыльями сидит на травинке.",
-        "width": 120,
-        "height": 119,
+        "alt": "Насекомое с тонким телом и прозрачными крыльями сидит на листе.",
+        "width": 384,
+        "height": 276,
         "detailSrc": "assets/chip/2020/detail/5-6-08-5.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 149
+        "pixelWidth": 500,
+        "pixelHeight": 360
       }
     ]
   },
@@ -289,49 +279,39 @@
     ],
     "optionFigures": [
       {
-        "src": "assets/chip/2020/5-6-10-1.webp",
+        "src": "assets/chip/2020/5-6-10-1.svg",
         "alt": "Длинный металлический стержень с загнутым концом.",
-        "width": 119,
-        "height": 66,
-        "detailSrc": "assets/chip/2020/detail/5-6-10-1.webp",
-        "pixelWidth": 149,
-        "pixelHeight": 83
+        "width": 149,
+        "height": 83,
+        "detailSrc": "assets/chip/2020/5-6-10-1.svg"
       },
       {
-        "src": "assets/chip/2020/5-6-10-2.webp",
+        "src": "assets/chip/2020/5-6-10-2.svg",
         "alt": "Деревянный инструмент с массивной головкой.",
-        "width": 119,
-        "height": 65,
-        "detailSrc": "assets/chip/2020/detail/5-6-10-2.webp",
-        "pixelWidth": 149,
-        "pixelHeight": 82
+        "width": 149,
+        "height": 82,
+        "detailSrc": "assets/chip/2020/5-6-10-2.svg"
       },
       {
-        "src": "assets/chip/2020/5-6-10-3.webp",
+        "src": "assets/chip/2020/5-6-10-3.svg",
         "alt": "Длинная рукоять с плоской овальной частью.",
-        "width": 119,
-        "height": 66,
-        "detailSrc": "assets/chip/2020/detail/5-6-10-3.webp",
-        "pixelWidth": 149,
-        "pixelHeight": 83
+        "width": 149,
+        "height": 83,
+        "detailSrc": "assets/chip/2020/5-6-10-3.svg"
       },
       {
-        "src": "assets/chip/2020/5-6-10-4.webp",
+        "src": "assets/chip/2020/5-6-10-4.svg",
         "alt": "Металлическая дуга с двумя концами на длинной рукояти.",
-        "width": 119,
-        "height": 66,
-        "detailSrc": "assets/chip/2020/detail/5-6-10-4.webp",
-        "pixelWidth": 149,
-        "pixelHeight": 83
+        "width": 149,
+        "height": 83,
+        "detailSrc": "assets/chip/2020/5-6-10-4.svg"
       },
       {
-        "src": "assets/chip/2020/5-6-10-5.webp",
+        "src": "assets/chip/2020/5-6-10-5.svg",
         "alt": "Узкий инструмент с рядом тёмных щетинок.",
-        "width": 119,
-        "height": 66,
-        "detailSrc": "assets/chip/2020/detail/5-6-10-5.webp",
-        "pixelWidth": 149,
-        "pixelHeight": 83
+        "width": 149,
+        "height": 83,
+        "detailSrc": "assets/chip/2020/5-6-10-5.svg"
       }
     ]
   },
@@ -372,48 +352,48 @@
     "optionFigures": [
       {
         "src": "assets/chip/2020/5-6-12-1.webp",
-        "alt": "Фигура сидящей женщины в красной одежде с прялкой на синем фоне.",
-        "width": 105,
-        "height": 105,
-        "detailSrc": "assets/chip/2020/detail/5-6-12-1.webp",
-        "pixelWidth": 131,
-        "pixelHeight": 131
+        "alt": "Сидящая женщина в красном платье работает за прялкой на синем фоне.",
+        "width": 268,
+        "height": 360,
+        "detailSrc": "assets/chip/2020/detail/5-6-12-1.svg",
+        "pixelWidth": 800,
+        "pixelHeight": 1076
       },
       {
         "src": "assets/chip/2020/5-6-12-2.webp",
-        "alt": "Судно под белым парусом.",
-        "width": 105,
-        "height": 105,
-        "detailSrc": "assets/chip/2020/detail/5-6-12-2.webp",
-        "pixelWidth": 131,
-        "pixelHeight": 131
+        "alt": "На голубом щите корабль с белым парусом и ряд золотых кружков.",
+        "width": 327,
+        "height": 360,
+        "detailSrc": "assets/chip/2020/detail/5-6-12-2.svg",
+        "pixelWidth": 800,
+        "pixelHeight": 880
       },
       {
         "src": "assets/chip/2020/5-6-12-3.webp",
-        "alt": "Синяя эмблема с золотистыми деталями.",
-        "width": 105,
-        "height": 105,
-        "detailSrc": "assets/chip/2020/detail/5-6-12-3.webp",
-        "pixelWidth": 131,
-        "pixelHeight": 131
+        "alt": "Золотой корабль с парусом на волнах, поле щита голубое.",
+        "width": 285,
+        "height": 360,
+        "detailSrc": "assets/chip/2020/detail/5-6-12-3.svg",
+        "pixelWidth": 800,
+        "pixelHeight": 1010
       },
       {
         "src": "assets/chip/2020/5-6-12-4.webp",
-        "alt": "Красное сооружение на синем небе и зелёном фоне.",
-        "width": 112,
-        "height": 106,
+        "alt": "Белая лошадь скачет над красной дымящей печью.",
+        "width": 284,
+        "height": 360,
         "detailSrc": "assets/chip/2020/detail/5-6-12-4.webp",
-        "pixelWidth": 140,
-        "pixelHeight": 132
+        "pixelWidth": 486,
+        "pixelHeight": 617
       },
       {
         "src": "assets/chip/2020/5-6-12-5.webp",
-        "alt": "Тёмный щит со светлой центральной фигурой.",
-        "width": 106,
-        "height": 105,
-        "detailSrc": "assets/chip/2020/detail/5-6-12-5.webp",
-        "pixelWidth": 132,
-        "pixelHeight": 131
+        "alt": "На красно-чёрном щите белый ковш над золотой половиной шестерни.",
+        "width": 221,
+        "height": 360,
+        "detailSrc": "assets/chip/2020/detail/5-6-12-5.svg",
+        "pixelWidth": 800,
+        "pixelHeight": 1302
       }
     ]
   },
@@ -448,55 +428,56 @@
     "points": 4,
     "steps": [
       "Хохлома — роспись деревянных изделий. Для неё характерны красные и золотистые растительные узоры на чёрном или золотистом фоне.",
-      "Под буквой Д на круглом предмете виден растительный орнамент в этой гамме."
+      "Под буквой Д эти цвета образуют узор из листьев и ягод на деревянной доске."
     ],
     "optionFigures": [
       {
         "src": "assets/chip/2020/5-6-14-1.webp",
-        "alt": "Доска с нарисованными фигурами и узором.",
-        "width": 119,
-        "height": 119,
+        "alt": "Деревянные изделия с многоцветными фигурами и сценками.",
+        "width": 360,
+        "height": 232,
         "detailSrc": "assets/chip/2020/detail/5-6-14-1.webp",
-        "pixelWidth": 149,
-        "pixelHeight": 149
+        "pixelWidth": 1280,
+        "pixelHeight": 825
       },
       {
         "src": "assets/chip/2020/5-6-14-2.webp",
-        "alt": "Тёмный овальный поднос с цветами.",
-        "width": 119,
-        "height": 119,
+        "alt": "На тёмном подносе крупный букет с красными и светлыми цветами.",
+        "width": 360,
+        "height": 240,
         "detailSrc": "assets/chip/2020/detail/5-6-14-2.webp",
-        "pixelWidth": 149,
-        "pixelHeight": 149
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2020/5-6-14-3.webp",
-        "alt": "Красно-белый круглый предмет с мелким узором.",
-        "width": 120,
-        "height": 119,
+        "alt": "Светлая доска с рядами красно-чёрных геометрических узоров и фигурок животных.",
+        "width": 250,
+        "height": 360,
         "detailSrc": "assets/chip/2020/detail/5-6-14-3.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 149
+        "pixelWidth": 1111,
+        "pixelHeight": 1600
       },
       {
         "src": "assets/chip/2020/5-6-14-4.webp",
-        "alt": "Белая посуда с синим орнаментом.",
-        "width": 119,
-        "height": 119,
+        "alt": "Белый кувшин с крышкой, украшенный синей росписью.",
+        "width": 270,
+        "height": 360,
         "detailSrc": "assets/chip/2020/detail/5-6-14-4.webp",
-        "pixelWidth": 149,
-        "pixelHeight": 149
+        "pixelWidth": 1200,
+        "pixelHeight": 1600
       },
       {
         "src": "assets/chip/2020/5-6-14-5.webp",
-        "alt": "Красно-чёрный круглый предмет с золотистыми деталями растительного узора.",
-        "width": 119,
-        "height": 119,
+        "alt": "Деревянная доска с красными ягодами и золотистыми листьями.",
+        "width": 238,
+        "height": 360,
         "detailSrc": "assets/chip/2020/detail/5-6-14-5.webp",
-        "pixelWidth": 149,
-        "pixelHeight": 149
+        "pixelWidth": 1059,
+        "pixelHeight": 1600
       }
-    ]
+    ],
+    "adaptation": "Для увеличения подобраны музейные и выставочные фотографии изделий тех же пяти промыслов. Варианты расположены в порядке буклета."
   },
   {
     "title": "Герой из Чернигова",
@@ -534,12 +515,12 @@
     ],
     "figure": {
       "src": "assets/chip/2020/5-6-16.webp",
-      "alt": "Массивные высокие скалы над хвойными деревьями.",
-      "width": 181,
-      "height": 156,
+      "alt": "Среди хвойных деревьев видны высокие отвесные скальные столбы.",
+      "width": 384,
+      "height": 256,
       "detailSrc": "assets/chip/2020/detail/5-6-16.webp",
-      "pixelWidth": 226,
-      "pixelHeight": 195
+      "pixelWidth": 960,
+      "pixelHeight": 640
     }
   },
   {
@@ -577,12 +558,12 @@
     ],
     "figure": {
       "src": "assets/chip/2020/5-6-18.webp",
-      "alt": "Бабочка с быстрыми взмахами крыльев перед цветком.",
-      "width": 168,
-      "height": 93,
+      "alt": "Бабочка зависла около группы мелких цветков, разглядываются крылья и длинный хоботок.",
+      "width": 384,
+      "height": 300,
       "detailSrc": "assets/chip/2020/detail/5-6-18.webp",
-      "pixelWidth": 210,
-      "pixelHeight": 116
+      "pixelWidth": 500,
+      "pixelHeight": 390
     }
   },
   {
@@ -604,30 +585,30 @@
     "optionFigures": [
       {
         "src": "assets/chip/2020/5-6-19-1.webp",
-        "alt": "Крупный округлый зверь с короткими ушами.",
-        "width": 120,
-        "height": 98,
+        "alt": "Крупный округлый бурый зверь с короткими ушами и широкой мордой.",
+        "width": 384,
+        "height": 256,
         "detailSrc": "assets/chip/2020/detail/5-6-19-1.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 122
+        "pixelWidth": 1280,
+        "pixelHeight": 854
       },
       {
         "src": "assets/chip/2020/5-6-19-2.webp",
-        "alt": "Тёмное животное с длинным телом у воды.",
-        "width": 119,
-        "height": 98,
+        "alt": "Коренастый тёмный зверь с длинными белыми и чёрными иглами.",
+        "width": 384,
+        "height": 255,
         "detailSrc": "assets/chip/2020/detail/5-6-19-2.webp",
-        "pixelWidth": 149,
-        "pixelHeight": 123
+        "pixelWidth": 500,
+        "pixelHeight": 332
       },
       {
         "src": "assets/chip/2020/5-6-19-3.webp",
-        "alt": "Рыжеватый зверёк сидит на задних лапах.",
-        "width": 120,
-        "height": 98,
+        "alt": "Рыжий зверёк с пушистым хвостом.",
+        "width": 384,
+        "height": 321,
         "detailSrc": "assets/chip/2020/detail/5-6-19-3.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 122
+        "pixelWidth": 1600,
+        "pixelHeight": 1337
       },
       {
         "src": "assets/chip/2020/5-6-19-4.webp",
@@ -640,12 +621,12 @@
       },
       {
         "src": "assets/chip/2020/5-6-19-5.webp",
-        "alt": "Коренастый бурый зверь с короткой шеей.",
-        "width": 119,
-        "height": 97,
+        "alt": "Бурый грызун с округлой мордой и широким плоским хвостом.",
+        "width": 384,
+        "height": 299,
         "detailSrc": "assets/chip/2020/detail/5-6-19-5.webp",
-        "pixelWidth": 149,
-        "pixelHeight": 122
+        "pixelWidth": 711,
+        "pixelHeight": 554
       }
     ]
   },
@@ -667,12 +648,12 @@
     ],
     "figure": {
       "src": "assets/chip/2020/5-6-20.webp",
-      "alt": "Бурый зверь сидит у воды среди зелёных растений.",
-      "width": 159,
-      "height": 106,
+      "alt": "Бурый грызун с длинным тонким хвостом плывёт среди прибрежных растений.",
+      "width": 384,
+      "height": 288,
       "detailSrc": "assets/chip/2020/detail/5-6-20.webp",
-      "pixelWidth": 199,
-      "pixelHeight": 133
+      "pixelWidth": 500,
+      "pixelHeight": 375
     }
   },
   {
@@ -737,12 +718,12 @@
     ],
     "figure": {
       "src": "assets/chip/2020/5-6-23.webp",
-      "alt": "Длинная узкая пасть крокодила с рядами мелких зубов.",
-      "width": 173,
-      "height": 101,
+      "alt": "Крупное пресмыкающееся у берега, видны узкие вытянутые челюсти.",
+      "width": 384,
+      "height": 256,
       "detailSrc": "assets/chip/2020/detail/5-6-23.webp",
-      "pixelWidth": 216,
-      "pixelHeight": 126
+      "pixelWidth": 500,
+      "pixelHeight": 333
     }
   },
   {
@@ -790,12 +771,12 @@
       },
       {
         "src": "assets/chip/2020/5-6-25-2.webp",
-        "alt": "Камень с широкими розовыми кристаллическими участками.",
-        "width": 119,
-        "height": 100,
+        "alt": "Тёмный камень с яркими розовыми участками кристаллов.",
+        "width": 384,
+        "height": 345,
         "detailSrc": "assets/chip/2020/detail/5-6-25-2.webp",
-        "pixelWidth": 149,
-        "pixelHeight": 125
+        "pixelWidth": 500,
+        "pixelHeight": 449
       },
       {
         "src": "assets/chip/2020/5-6-25-3.webp",
@@ -808,21 +789,21 @@
       },
       {
         "src": "assets/chip/2020/5-6-25-4.webp",
-        "alt": "Срез с плавными красноватыми и светлыми полосами.",
-        "width": 119,
-        "height": 101,
+        "alt": "Срез камня с чередованием округлых красных, синих и светлых полос.",
+        "width": 384,
+        "height": 318,
         "detailSrc": "assets/chip/2020/detail/5-6-25-4.webp",
-        "pixelWidth": 149,
-        "pixelHeight": 127
+        "pixelWidth": 500,
+        "pixelHeight": 414
       },
       {
         "src": "assets/chip/2020/5-6-25-5.webp",
-        "alt": "Тёмный блестящий минерал с неровной поверхностью.",
-        "width": 119,
-        "height": 93,
+        "alt": "Тёмный образец с неровным блестящим сколом.",
+        "width": 256,
+        "height": 384,
         "detailSrc": "assets/chip/2020/detail/5-6-25-5.webp",
-        "pixelWidth": 149,
-        "pixelHeight": 116
+        "pixelWidth": 500,
+        "pixelHeight": 751
       }
     ]
   },
@@ -860,13 +841,11 @@
       "Действительный источник волокна — семена хлопчатника с пушистыми выростами."
     ],
     "figure": {
-      "src": "assets/chip/2020/5-6-27.webp",
+      "src": "assets/chip/2020/5-6-27.svg",
       "alt": "На старинном рисунке ветви растения заканчиваются фигурами, похожими на ягнят.",
-      "width": 174,
-      "height": 171,
-      "detailSrc": "assets/chip/2020/detail/5-6-27.webp",
-      "pixelWidth": 218,
-      "pixelHeight": 214
+      "width": 218,
+      "height": 214,
+      "detailSrc": "assets/chip/2020/5-6-27.svg"
     }
   },
   {

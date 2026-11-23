@@ -200,31 +200,31 @@
         "pixelHeight": 133
       },
       {
-        "src": "assets/chip/2019/5-6-08-2.webp",
-        "alt": "Зверь с сильными задними лапами и длинным хвостом на траве.",
-        "width": 122,
-        "height": 108,
-        "detailSrc": "assets/chip/2019/detail/5-6-08-2.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 133
+        "src": "assets/chip/2019/2-04-4.webp",
+        "alt": "На траве два зверя с сильными задними лапами и длинными хвостами.",
+        "width": 384,
+        "height": 384,
+        "detailSrc": "assets/chip/2019/detail/2-04-4.webp",
+        "pixelWidth": 1280,
+        "pixelHeight": 1280
       },
       {
         "src": "assets/chip/2019/5-6-08-3.webp",
-        "alt": "Небольшой бурый зверёк с заострённой мордочкой.",
-        "width": 122,
-        "height": 108,
+        "alt": "Небольшой буро-серый зверёк с заострённой мордочкой и длинным хвостом.",
+        "width": 280,
+        "height": 384,
         "detailSrc": "assets/chip/2019/detail/5-6-08-3.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 133
+        "pixelWidth": 933,
+        "pixelHeight": 1280
       },
       {
         "src": "assets/chip/2019/5-6-08-4.webp",
-        "alt": "Чёрный коренастый зверь со светлыми отметинами.",
-        "width": 122,
-        "height": 108,
+        "alt": "Коренастый чёрный зверь на траве, на груди светлая полоса.",
+        "width": 384,
+        "height": 251,
         "detailSrc": "assets/chip/2019/detail/5-6-08-4.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 133
+        "pixelWidth": 1280,
+        "pixelHeight": 835
       },
       {
         "src": "assets/chip/2019/2-04-5.webp",
@@ -235,7 +235,8 @@
         "pixelWidth": 1113,
         "pixelHeight": 1113
       }
-    ]
+    ],
+    "adaptation": "Для карточки использованы крупные фотографии тех же видов или объектов. Порядок и ответ сохранены."
   },
   {
     "title": "Сходство очертаний стран",
@@ -282,48 +283,48 @@
     "optionFigures": [
       {
         "src": "assets/chip/2019/5-6-10-1.webp",
-        "alt": "Чёрно-белые животные пасутся на лугу.",
-        "width": 122,
-        "height": 107,
+        "alt": "Чёрно-белое копытное на зелёном лугу.",
+        "width": 384,
+        "height": 288,
         "detailSrc": "assets/chip/2019/detail/5-6-10-1.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 131
+        "pixelWidth": 1280,
+        "pixelHeight": 960
       },
       {
         "src": "assets/chip/2019/5-6-10-2.webp",
-        "alt": "Светлое копытное с отвислыми ушами ест траву.",
-        "width": 122,
-        "height": 107,
+        "alt": "Рогатое копытное с бородой стоит на пне среди травы.",
+        "width": 384,
+        "height": 384,
         "detailSrc": "assets/chip/2019/detail/5-6-10-2.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 131
+        "pixelWidth": 1280,
+        "pixelHeight": 1280
       },
       {
         "src": "assets/chip/2019/5-6-10-3.webp",
-        "alt": "Два крупных животных с длинными шеями и горбами.",
-        "width": 122,
-        "height": 107,
+        "alt": "Крупное животное с длинной шеей и горбом.",
+        "width": 384,
+        "height": 257,
         "detailSrc": "assets/chip/2019/detail/5-6-10-3.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 131
+        "pixelWidth": 1280,
+        "pixelHeight": 857
       },
       {
         "src": "assets/chip/2019/5-6-10-4.webp",
-        "alt": "Группа длинноухих зверьков с короткими хвостами.",
-        "width": 122,
-        "height": 107,
+        "alt": "Длинноухий зверёк с коротким хвостом среди травы.",
+        "width": 353,
+        "height": 384,
         "detailSrc": "assets/chip/2019/detail/5-6-10-4.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 131
+        "pixelWidth": 1052,
+        "pixelHeight": 1145
       },
       {
         "src": "assets/chip/2019/5-6-10-5.webp",
-        "alt": "Два копытных с густой шерстью.",
-        "width": 122,
-        "height": 107,
+        "alt": "Стадо копытных с густой светлой шерстью.",
+        "width": 253,
+        "height": 384,
         "detailSrc": "assets/chip/2019/detail/5-6-10-5.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 131
+        "pixelWidth": 842,
+        "pixelHeight": 1280
       }
     ]
   },
@@ -363,50 +364,51 @@
     "optionFigures": [
       {
         "src": "assets/chip/2019/5-6-12-1.webp",
-        "alt": "Зелёно-жёлтый маленький попугай.",
-        "width": 122,
-        "height": 89,
+        "alt": "Небольшая длиннохвостая птица с зелёным оперением и жёлтой головой.",
+        "width": 384,
+        "height": 256,
         "detailSrc": "assets/chip/2019/detail/5-6-12-1.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 109
+        "pixelWidth": 1280,
+        "pixelHeight": 854
       },
       {
         "src": "assets/chip/2019/5-6-12-2.webp",
-        "alt": "Полосатый зверь с острыми ушами.",
-        "width": 122,
-        "height": 89,
+        "alt": "Полосатый зверь с острыми ушами и длинным хвостом.",
+        "width": 288,
+        "height": 384,
         "detailSrc": "assets/chip/2019/detail/5-6-12-2.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 109
+        "pixelWidth": 959,
+        "pixelHeight": 1280
       },
       {
         "src": "assets/chip/2019/5-6-12-3.webp",
         "alt": "Небольшой коричнево-белый зверёк на траве.",
-        "width": 122,
-        "height": 89,
+        "width": 384,
+        "height": 288,
         "detailSrc": "assets/chip/2019/detail/5-6-12-3.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 109
+        "pixelWidth": 600,
+        "pixelHeight": 450
       },
       {
         "src": "assets/chip/2019/5-6-12-4.webp",
-        "alt": "Маленькая жёлтая птица на ветке.",
-        "width": 122,
-        "height": 89,
+        "alt": "Небольшая жёлтая птица на ветке.",
+        "width": 384,
+        "height": 256,
         "detailSrc": "assets/chip/2019/detail/5-6-12-4.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 109
+        "pixelWidth": 1280,
+        "pixelHeight": 854
       },
       {
         "src": "assets/chip/2019/5-6-12-5.webp",
-        "alt": "Рыбка оранжевого цвета с длинными плавниками.",
-        "width": 122,
-        "height": 89,
+        "alt": "Оранжевая рыба с длинным хвостом среди водных растений.",
+        "width": 384,
+        "height": 251,
         "detailSrc": "assets/chip/2019/detail/5-6-12-5.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 109
+        "pixelWidth": 1280,
+        "pixelHeight": 836
       }
-    ]
+    ],
+    "adaptation": "Для карточки использованы крупные фотографии тех же видов или объектов. Порядок и ответ сохранены."
   },
   {
     "title": "Цветочный символ страны",
@@ -461,30 +463,30 @@
     "optionFigures": [
       {
         "src": "assets/chip/2019/5-6-15-1.webp",
-        "alt": "Золотистые колосья.",
-        "width": 122,
-        "height": 90,
+        "alt": "Золотистые созревшие колосья.",
+        "width": 384,
+        "height": 256,
         "detailSrc": "assets/chip/2019/detail/5-6-15-1.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 111
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2019/5-6-15-2.webp",
-        "alt": "Длинные узкие колосья на зелёных стеблях.",
-        "width": 122,
-        "height": 90,
+        "alt": "Зеленоватые колосья с заметными остями на длинных стеблях.",
+        "width": 384,
+        "height": 288,
         "detailSrc": "assets/chip/2019/detail/5-6-15-2.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 111
+        "pixelWidth": 1280,
+        "pixelHeight": 960
       },
       {
         "src": "assets/chip/2019/5-6-15-3.webp",
-        "alt": "Соцветия с небольшими светлыми зёрнами.",
-        "width": 122,
-        "height": 90,
+        "alt": "Поникающие соцветия с небольшими светлыми зёрнами.",
+        "width": 384,
+        "height": 216,
         "detailSrc": "assets/chip/2019/detail/5-6-15-3.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 111
+        "pixelWidth": 1280,
+        "pixelHeight": 720
       },
       {
         "src": "assets/chip/2019/2-11-4.webp",
@@ -497,12 +499,12 @@
       },
       {
         "src": "assets/chip/2019/5-6-15-5.webp",
-        "alt": "Круглый светло-жёлтый корнеплод с зелёными листьями.",
-        "width": 122,
-        "height": 90,
+        "alt": "Округлые светлые корнеплоды с остатками листовых черешков.",
+        "width": 384,
+        "height": 256,
         "detailSrc": "assets/chip/2019/detail/5-6-15-5.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 111
+        "pixelWidth": 1279,
+        "pixelHeight": 852
       }
     ],
     "adaptation": "Для карточки использованы крупные фотографии тех же видов или объектов. Порядок и ответ сохранены."
@@ -544,12 +546,12 @@
     "adaptation": "Апельсин служит моделью сферической геометрии. Историю о том, что плод прямо вдохновил архитектора, не подтверждает сам Сиднейский оперный театр.",
     "figure": {
       "src": "assets/chip/2019/5-6-17.webp",
-      "alt": "Несколько белых выпуклых оболочек крыши на фоне неба.",
-      "width": 240,
-      "height": 111,
+      "alt": "Несколько белых выпуклых оболочек с острыми верхушками на фоне неба.",
+      "width": 384,
+      "height": 255,
       "detailSrc": "assets/chip/2019/detail/5-6-17.webp",
-      "pixelWidth": 300,
-      "pixelHeight": 139
+      "pixelWidth": 1280,
+      "pixelHeight": 850
     }
   },
   {
@@ -607,12 +609,12 @@
     "adaptation": "Добавлено местоположение каскада, чтобы его можно было определить по совокупности признаков.",
     "figure": {
       "src": "assets/chip/2019/5-6-20.webp",
-      "alt": "Вода падает через несколько каменистых уступов в тёмные круглые заводи.",
-      "width": 160,
-      "height": 232,
+      "alt": "Две видимые ступени каскада и скалистые уступы над глубокими заводями.",
+      "width": 288,
+      "height": 384,
       "detailSrc": "assets/chip/2019/detail/5-6-20.webp",
-      "pixelWidth": 200,
-      "pixelHeight": 290
+      "pixelWidth": 960,
+      "pixelHeight": 1280
     }
   },
   {
@@ -633,13 +635,14 @@
     ],
     "figure": {
       "src": "assets/chip/2019/5-6-21.webp",
-      "alt": "Голубые огоньки на тёмном потолке пещеры над водой.",
-      "width": 200,
-      "height": 184,
+      "alt": "На тёмном потолке пещеры рассыпаны мелкие голубые огоньки.",
+      "width": 384,
+      "height": 256,
       "detailSrc": "assets/chip/2019/detail/5-6-21.webp",
-      "pixelWidth": 250,
-      "pixelHeight": 230
-    }
+      "pixelWidth": 1024,
+      "pixelHeight": 683
+    },
+    "adaptation": "Для карточки использованы крупные фотографии тех же видов или объектов. Порядок и ответ сохранены."
   },
   {
     "title": "Клубнелуковицы в Океании",
@@ -753,13 +756,14 @@
     ],
     "figure": {
       "src": "assets/chip/2019/5-6-27.webp",
-      "alt": "На ладони муравьи. У нескольких особей сильно увеличено светло-коричневое брюшко.",
-      "width": 340,
-      "height": 226,
+      "alt": "На ладони ряд муравьёв со сильно увеличенными, янтарными брюшками.",
+      "width": 384,
+      "height": 256,
       "detailSrc": "assets/chip/2019/detail/5-6-27.webp",
-      "pixelWidth": 425,
-      "pixelHeight": 283
-    }
+      "pixelWidth": 1280,
+      "pixelHeight": 853
+    },
+    "adaptation": "Для карточки использованы крупные фотографии тех же видов или объектов. Порядок и ответ сохранены."
   },
   {
     "title": "Крупный щитовой вулкан",
@@ -798,21 +802,21 @@
     "optionFigures": [
       {
         "src": "assets/chip/2019/5-6-29-1.webp",
-        "alt": "Лицо с многочисленными линиями и узорами.",
-        "width": 122,
-        "height": 108,
+        "alt": "На лице человека заметны линии и спиральные узоры.",
+        "width": 246,
+        "height": 384,
         "detailSrc": "assets/chip/2019/detail/5-6-29-1.webp",
-        "pixelWidth": 152,
-        "pixelHeight": 134
+        "pixelWidth": 492,
+        "pixelHeight": 768
       },
       {
         "src": "assets/chip/2019/5-6-29-2.webp",
-        "alt": "Большие каменные фигуры с удлинёнными лицами на склоне.",
-        "width": 122,
-        "height": 108,
+        "alt": "Крупные каменные фигуры с удлинёнными лицами на склоне.",
+        "width": 288,
+        "height": 384,
         "detailSrc": "assets/chip/2019/detail/5-6-29-2.webp",
-        "pixelWidth": 152,
-        "pixelHeight": 134
+        "pixelWidth": 960,
+        "pixelHeight": 1280
       },
       {
         "src": "assets/chip/2019/5-6-29-3.webp",
@@ -841,7 +845,8 @@
         "pixelWidth": 152,
         "pixelHeight": 134
       }
-    ]
+    ],
+    "adaptation": "Для карточки использованы крупные фотографии тех же видов или объектов. Порядок и ответ сохранены."
   },
   {
     "title": "Условный знак воды",
