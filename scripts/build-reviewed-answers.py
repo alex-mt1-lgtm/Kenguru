@@ -112,6 +112,12 @@ def answer_parts(row, letters):
     if type(answer) is not int or not 0 <= answer < len(letters) or (choices and answer >= len(choices)):
         raise ValueError(f'Question {number}: missing or invalid answer')
 
+    accepted = row.get('acceptedAnswers')
+    if accepted:
+        if answer not in accepted or any(type(i) is not int or not 0 <= i < len(choices) for i in accepted):
+            raise ValueError(f'Question {number}: invalid alternative answers')
+        return ', '.join(letters[i] for i in accepted), ' или '.join(normalize(choices[i]) for i in accepted)
+
     if 'answerText' in row:
         answer_text = normalize(row['answerText'])
     else:
@@ -450,6 +456,13 @@ def draw_appendix(pdf, title, revisions, letters, regular, bold):
                     draw_text(page, regular, MARGIN + 25, y + BODY_SIZE, line)
                     y += LINE_HEIGHT
 
+        for paragraph in [*row.get('solution', []), row.get('keyNote')]:
+            if paragraph:
+                y += 5
+                for line in wrap(normalize(paragraph), regular, BODY_SIZE, width):
+                    reserve(LINE_HEIGHT)
+                    draw_text(page, regular, MARGIN, y + BODY_SIZE, line)
+                    y += LINE_HEIGHT
         if y + 4 <= bottom:
             page.draw_line((MARGIN, y + 4), (right, y + 4), color=RULE, width=0.5)
         y += 13

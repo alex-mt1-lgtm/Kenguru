@@ -8,7 +8,8 @@ function add(meta, rows, partial, paperKey = false) {
   const data = rows.map((row, i) => {
     const number = row.number ?? i + 1;
     const matching = meta.matchingGroups?.find(group => number >= group.start && number < group.start + group.count);
-    return {number, choices: row.choices, answer: row.answer, numericAnswer: row.numericAnswer,
+    return {number, choices: row.choices, answer: row.answer, acceptedAnswers: row.acceptedAnswers, numericAnswer: row.numericAnswer,
+      ...(row.reviewedEdition && row.review ? {solution: row.review.slice(1), keyNote: row.keyNote} : {}),
       ...((paperKey && row.question || row.adaptation || row.reviewedEdition) ? {
         revisedQuestion: [row.context, row.question].filter(Boolean).join('\n\n'), revisedChoices: row.choices,
         figure: row.figure, figures: row.figures, optionFigures: row.optionFigures} : {}),
@@ -24,6 +25,6 @@ for (const set of model.catalog.filter(s => s.subject === 'ru' && s.sources.revi
   const grade = set.grades.join('-');
   const rows = model.russianRows.get(set.id);
   add({subject:'medvezhonok', contest:'Русский медвежонок', year:set.year, grade, letters:'АБВГД',
-    answersFile:'reviewed-' + grade + '.pdf'}, rows.map((row, i) => ({...row, answer:model.lessons[set.indices[i]].answer, choices:model.lessons[set.indices[i]].choices})), false);
+    answersFile:'reviewed-' + grade + '.pdf'}, rows.map((row, i) => ({...row, figure:row.figure?.condition, optionFigures:row.figure?.options, answer:model.lessons[set.indices[i]].answer, choices:model.lessons[set.indices[i]].choices})), false);
 }
 process.stdout.write(JSON.stringify([...output.values()]));

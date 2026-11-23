@@ -133,7 +133,7 @@ function buildSubjectArchive(html) {
   }
   const marker = /(    <!-- subject-editions:start -->\n)[\s\S]*?(    <!-- subject-editions:end -->)/;
   if (!marker.test(html)) throw new Error('Missing archive section markers');
-  return linkStaticReadingCopies(html.replace(marker, (_, start, end) => start + sections.join('\n') + '\n' + end));
+  return linkStaticReadingCopies(require('./russian-archive.cjs').buildRussianArchive(html).replace(marker, (_, start, end) => start + sections.join('\n') + '\n' + end));
 }
 
 module.exports = {buildSubjectArchive};

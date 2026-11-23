@@ -452,6 +452,25 @@ class TestAccountApi(unittest.TestCase):
         standing = self.client.action("leaderboard")[1]["current"]
         self.assertEqual((standing["points"], standing["solved"]), (15, 4))
 
+    def test_russian_authorized_alternative_receives_full_points(self):
+        lesson = "2003-medvezhonok-8-9/18"
+        for selected, result in ((1, "solved"), (2, "solved"), (0, "reviewed")):
+            client = ApiClient(self.port)
+            self.assertEqual(client.action("session")[0], 200)
+            status, signed_in, _ = client.action("register", {
+                "username": f"language_{selected}", "email": f"language_{selected}@example.test",
+                "password": "language-reader-password",
+            })
+            self.assertEqual(status, 201)
+            progress = {lesson: json.dumps({"selected": selected, "step": 1, "seen": False, "reviewOpened": True}),
+                        "rating:" + lesson: "solved"}
+            status, saved, _ = client.action("progress", {
+                "revision": 0, "progress": progress, "ratingAnswers": {lesson: selected},
+            })
+            self.assertEqual(status, 200)
+            self.assertEqual(saved["progress"]["rating:" + lesson], result)
+            self.assertEqual(self.task_records(signed_in["user"]["id"])[lesson]["firstAnswer"], selected)
+
     def test_historical_matching_has_five_independent_scores_in_each_edition(self):
         catalog_file = self.home / "www" / "olympiads.pro" / "api" / "rating-catalog.json"
         catalog = json.loads(catalog_file.read_text())
