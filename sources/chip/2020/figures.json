@@ -1147,9 +1147,13 @@
         "author": "Изображение из буклета ЧИП",
         "source": "2020/2020-2021_CHIP_Evrazia_zadanie_1klass.pdf",
         "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "processing": "Сохранён нативный кадр с округлыми листьями целиком.",
         "file": "detail/1-04-2.webp",
-        "previewMax": 168
+        "previewMax": 168,
+        "nativePixels": [
+          210,
+          180
+        ]
       },
       "imageBox": [
         0,
@@ -1285,9 +1289,13 @@
         "author": "Изображение из буклета ЧИП",
         "source": "2020/2020-2021_CHIP_Evrazia_zadanie_1klass.pdf",
         "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "processing": "Сохранён нативный кадр с медведицей и медвежатами. Все четыре животных различимы.",
         "file": "detail/1-05-3.webp",
-        "previewMax": 169
+        "previewMax": 169,
+        "nativePixels": [
+          211,
+          186
+        ]
       },
       "imageBox": [
         0,
@@ -1349,12 +1357,16 @@
       "page": 1,
       "xref": 593,
       "detail": {
-        "author": "Изображение из буклета ЧИП",
+        "author": "Павел Оринянский",
         "source": "2020/2020-2021_CHIP_Evrazia_zadanie_1klass.pdf",
         "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "processing": "Извлечена именно та иллюстрация Павла Оринянского, что использована в буклете. Сохранён нативный размер.",
         "file": "detail/1-06.webp",
-        "previewMax": 281
+        "previewMax": 281,
+        "nativePixels": [
+          250,
+          351
+        ]
       },
       "imageBox": [
         0,
@@ -1369,7 +1381,7 @@
       "xref": 0,
       "detail": {
         "file": "1-06-1.svg",
-        "source": "../../../dist/assets/chip/2020/2020-2021_CHIP_Evrazia_zadanie_1klass.pdf",
+        "source": "2020/2020-2021_CHIP_Evrazia_zadanie_1klass.pdf",
         "author": "Редакция Olympiads.pro по контурам буклета ЧИП",
         "license": "Редакционный векторный рисунок",
         "processing": "Контур листа или группы листочков сверён с буклетом. Жилки показаны схематично. Сохранены форма, характер края и порядок вариантов."
@@ -1388,7 +1400,7 @@
       "xref": 0,
       "detail": {
         "file": "1-06-2.svg",
-        "source": "../../../dist/assets/chip/2020/2020-2021_CHIP_Evrazia_zadanie_1klass.pdf",
+        "source": "2020/2020-2021_CHIP_Evrazia_zadanie_1klass.pdf",
         "author": "Редакция Olympiads.pro по контурам буклета ЧИП",
         "license": "Редакционный векторный рисунок",
         "processing": "Контур листа или группы листочков сверён с буклетом. Жилки показаны схематично. Сохранены форма, характер края и порядок вариантов."
@@ -1407,7 +1419,7 @@
       "xref": 0,
       "detail": {
         "file": "1-06-3.svg",
-        "source": "../../../dist/assets/chip/2020/2020-2021_CHIP_Evrazia_zadanie_1klass.pdf",
+        "source": "2020/2020-2021_CHIP_Evrazia_zadanie_1klass.pdf",
         "author": "Редакция Olympiads.pro по контурам буклета ЧИП",
         "license": "Редакционный векторный рисунок",
         "processing": "Контур листа или группы листочков сверён с буклетом. Жилки показаны схематично. Сохранены форма, характер края и порядок вариантов."
@@ -1426,7 +1438,7 @@
       "xref": 0,
       "detail": {
         "file": "1-06-4.svg",
-        "source": "../../../dist/assets/chip/2020/2020-2021_CHIP_Evrazia_zadanie_1klass.pdf",
+        "source": "2020/2020-2021_CHIP_Evrazia_zadanie_1klass.pdf",
         "author": "Редакция Olympiads.pro по контурам буклета ЧИП",
         "license": "Редакционный векторный рисунок",
         "processing": "Контур листа или группы листочков сверён с буклетом. Жилки показаны схематично. Сохранены форма, характер края и порядок вариантов."
@@ -1445,7 +1457,7 @@
       "xref": 0,
       "detail": {
         "file": "1-06-5.svg",
-        "source": "../../../dist/assets/chip/2020/2020-2021_CHIP_Evrazia_zadanie_1klass.pdf",
+        "source": "2020/2020-2021_CHIP_Evrazia_zadanie_1klass.pdf",
         "author": "Редакция Olympiads.pro по контурам буклета ЧИП",
         "license": "Редакционный векторный рисунок",
         "processing": "Контур листа или группы листочков сверён с буклетом. Жилки показаны схематично. Сохранены форма, характер края и порядок вариантов."
@@ -1511,12 +1523,17 @@
       "page": 1,
       "xref": 82,
       "detail": {
-        "author": "Изображение из буклета ЧИП",
-        "source": "2020/2020-2021_CHIP_Evrazia_zadanie_1klass.pdf",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "source": "https://commons.wikimedia.org/wiki/File:Buchenwald_im_Nationalpark_Jasmund.jpg",
+        "author": "Chicken-foto",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "nativePixels": [
+          6400,
+          2160
+        ],
         "file": "detail/1-07-3.webp",
-        "previewMax": 169
+        "previewMax": 384,
+        "processing": "Крупная фотография того же объекта или природного типа. Из мастера подготовлено превью для карточки."
       },
       "imageBox": [
         0,
@@ -1691,17 +1708,23 @@
       "page": 1,
       "xref": 582,
       "detail": {
-        "author": "Изображение из буклета ЧИП",
-        "source": "2020/2020-2021_CHIP_Evrazia_zadanie_1klass.pdf",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Фотографии растения и его съедобной части собраны в одном кадре по композиции буклета. Из мастера подготовлено превью.",
+        "source": "https://commons.wikimedia.org/wiki/File:HelianthusTuberosus.jpg",
+        "author": "Christian Fischer",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "nativePixels": [
+          936,
+          936
+        ],
         "file": "detail/1-08-4.webp",
-        "previewMax": 169,
+        "previewMax": 384,
+        "processing": "Соцветия и клубни одного растения собраны в одном кадре по композиции буклета. Из мастера подготовлено превью.",
         "additionalSources": [
           {
-            "source": "https://commons.wikimedia.org/wiki/File:Sunroot_top.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:HelianthusTuberosus.jpg",
+            "author": "Christian Fischer",
             "license": "CC BY-SA 3.0",
-            "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
           },
           {
             "source": "https://commons.wikimedia.org/wiki/File:JlmartichokeS.jpg",
@@ -1939,12 +1962,17 @@
       "page": 1,
       "xref": 592,
       "detail": {
-        "author": "Изображение из буклета ЧИП",
-        "source": "2020/2020-2021_CHIP_Evrazia_zadanie_1klass.pdf",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "source": "https://commons.wikimedia.org/wiki/File:Cantharellus_cibarius_56222619.jpg",
+        "author": "Алексей",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "nativePixels": [
+          1600,
+          1200
+        ],
         "file": "detail/1-10-3.webp",
-        "previewMax": 169
+        "previewMax": 384,
+        "processing": "Крупная фотография того же объекта или природного типа. Из мастера подготовлено превью для карточки."
       },
       "imageBox": [
         0,
@@ -2153,9 +2181,13 @@
         "author": "Изображение из буклета ЧИП",
         "source": "2020/2020-2021_CHIP_Evrazia_zadanie_1klass.pdf",
         "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "processing": "Сохранён нативный кадр сувенира. Различимы поднятый хобот и орнамент на фигурке.",
         "file": "detail/1-12-1.webp",
-        "previewMax": 169
+        "previewMax": 169,
+        "nativePixels": [
+          211,
+          210
+        ]
       },
       "imageBox": [
         0,
@@ -2264,12 +2296,17 @@
       "page": 0,
       "xref": 896,
       "detail": {
-        "author": "Изображение из буклета ЧИП",
-        "source": "2020/2020-2021_CHIP_Evrazia_zadanie_1klass.pdf",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "source": "https://commons.wikimedia.org/wiki/File:Sunflower_fields_(3678167898).jpg",
+        "author": "Yellow.Cat from Roma, Italy",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "nativePixels": [
+          1024,
+          768
+        ],
         "file": "detail/1-13-1.webp",
-        "previewMax": 169
+        "previewMax": 384,
+        "processing": "Крупная фотография того же объекта или природного типа. Из мастера подготовлено превью для карточки."
       },
       "imageBox": [
         0,
@@ -2286,9 +2323,13 @@
         "author": "Изображение из буклета ЧИП",
         "source": "2020/2020-2021_CHIP_Evrazia_zadanie_1klass.pdf",
         "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "processing": "Сохранён нативный снимок поля из буклета. Верхняя линия растительности включена целиком.",
         "file": "detail/1-13-2.webp",
-        "previewMax": 169
+        "previewMax": 169,
+        "nativePixels": [
+          211,
+          180
+        ]
       },
       "imageBox": [
         0,
@@ -2350,12 +2391,17 @@
       "page": 0,
       "xref": 897,
       "detail": {
-        "author": "Изображение из буклета ЧИП",
-        "source": "2020/2020-2021_CHIP_Evrazia_zadanie_1klass.pdf",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "source": "https://commons.wikimedia.org/wiki/File:Zea_mays_003.JPG",
+        "author": "H. Zell",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "nativePixels": [
+          1329,
+          1772
+        ],
         "file": "detail/1-13-5.webp",
-        "previewMax": 169
+        "previewMax": 384,
+        "processing": "Крупная фотография того же объекта или природного типа. Из мастера подготовлено превью для карточки."
       },
       "imageBox": [
         0,
@@ -2372,9 +2418,13 @@
         "author": "Изображение из буклета ЧИП",
         "source": "2020/2020-2021_CHIP_Evrazia_zadanie_1klass.pdf",
         "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "processing": "Сохранён нативный кадр жёлтого корнеплода с тонким корнем.",
         "file": "detail/1-14.webp",
-        "previewMax": 197
+        "previewMax": 197,
+        "nativePixels": [
+          246,
+          246
+        ]
       },
       "imageBox": [
         0,
@@ -2606,13 +2656,13 @@
       "page": 0,
       "xref": 905,
       "detail": {
-        "source": "https://commons.wikimedia.org/wiki/File:J%C3%A4rv1.jpg",
-        "author": "Esquilo",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Lemmuslemmus.jpg",
+        "author": "johsgrd",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
         "nativePixels": [
-          3200,
-          2000
+          2142,
+          1500
         ],
         "file": "detail/1-15-4.webp",
         "previewMax": 384,
@@ -2799,9 +2849,13 @@
         "author": "Изображение из буклета ЧИП",
         "source": "2020/2020-2021_CHIP_Evrazia_zadanie_2klass.pdf",
         "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "processing": "Сохранён резкий исходный кадр. Различимы полупрозрачное тело и увеличенные грудные плавники.",
         "file": "detail/2-16-5.webp",
-        "previewMax": 119
+        "previewMax": 119,
+        "nativePixels": [
+          149,
+          123
+        ]
       },
       "imageBox": [
         0,
@@ -2850,10 +2904,10 @@
       "page": 0,
       "xref": 202,
       "detail": {
-        "author": "Векторная прорисовка Olympiads.pro",
+        "author": "Редакционная векторная иллюстрация Olympiads.pro",
         "source": "2020/2020-2021_CHIP_Evrazia_zadanie_5-6-kl.pdf",
-        "license": "Редакционная реконструкция по иллюстрации конкурсного буклета.",
-        "processing": "Очерчены области рисунка. Видны форма листьев и расположение соцветий и плодов. Варианты соответствуют исходным рисункам.",
+        "license": "Редакционная реконструкция исходного задания.",
+        "processing": "Схематически перерисованы ветви, форма листьев, соцветия и плоды. Сохранены ключевые различия и порядок вариантов.",
         "file": "5-6-03-1.svg"
       },
       "imageBox": [
@@ -2868,10 +2922,10 @@
       "page": 0,
       "xref": 205,
       "detail": {
-        "author": "Векторная прорисовка Olympiads.pro",
+        "author": "Редакционная векторная иллюстрация Olympiads.pro",
         "source": "2020/2020-2021_CHIP_Evrazia_zadanie_5-6-kl.pdf",
-        "license": "Редакционная реконструкция по иллюстрации конкурсного буклета.",
-        "processing": "Очерчены области рисунка. Видны форма листьев и расположение соцветий и плодов. Варианты соответствуют исходным рисункам.",
+        "license": "Редакционная реконструкция исходного задания.",
+        "processing": "Схематически перерисованы ветви, форма листьев, соцветия и плоды. Сохранены ключевые различия и порядок вариантов.",
         "file": "5-6-03-2.svg"
       },
       "imageBox": [
@@ -2886,10 +2940,10 @@
       "page": 0,
       "xref": 206,
       "detail": {
-        "author": "Векторная прорисовка Olympiads.pro",
+        "author": "Редакционная векторная иллюстрация Olympiads.pro",
         "source": "2020/2020-2021_CHIP_Evrazia_zadanie_5-6-kl.pdf",
-        "license": "Редакционная реконструкция по иллюстрации конкурсного буклета.",
-        "processing": "Очерчены области рисунка. Видны форма листьев и расположение соцветий и плодов. Варианты соответствуют исходным рисункам.",
+        "license": "Редакционная реконструкция исходного задания.",
+        "processing": "Схематически перерисованы ветви, форма листьев, соцветия и плоды. Сохранены ключевые различия и порядок вариантов.",
         "file": "5-6-03-3.svg"
       },
       "imageBox": [
@@ -2904,10 +2958,10 @@
       "page": 0,
       "xref": 201,
       "detail": {
-        "author": "Векторная прорисовка Olympiads.pro",
+        "author": "Редакционная векторная иллюстрация Olympiads.pro",
         "source": "2020/2020-2021_CHIP_Evrazia_zadanie_5-6-kl.pdf",
-        "license": "Редакционная реконструкция по иллюстрации конкурсного буклета.",
-        "processing": "Очерчены области рисунка. Видны форма листьев и расположение соцветий и плодов. Варианты соответствуют исходным рисункам.",
+        "license": "Редакционная реконструкция исходного задания.",
+        "processing": "Схематически перерисованы ветви, форма листьев, соцветия и плоды. Сохранены ключевые различия и порядок вариантов.",
         "file": "5-6-03-4.svg"
       },
       "imageBox": [
@@ -2922,10 +2976,10 @@
       "page": 0,
       "xref": 203,
       "detail": {
-        "author": "Векторная прорисовка Olympiads.pro",
+        "author": "Редакционная векторная иллюстрация Olympiads.pro",
         "source": "2020/2020-2021_CHIP_Evrazia_zadanie_5-6-kl.pdf",
-        "license": "Редакционная реконструкция по иллюстрации конкурсного буклета.",
-        "processing": "Очерчены области рисунка. Видны форма листьев и расположение соцветий и плодов. Варианты соответствуют исходным рисункам.",
+        "license": "Редакционная реконструкция исходного задания.",
+        "processing": "Схематически перерисованы ветви, форма листьев, соцветия и плоды. Сохранены ключевые различия и порядок вариантов.",
         "file": "5-6-03-5.svg"
       },
       "imageBox": [
@@ -4046,12 +4100,17 @@
       "page": 1,
       "xref": 31,
       "detail": {
-        "author": "Изображение из буклета ЧИП",
-        "source": "2020/2020-2021_CHIP_Evrazia_zadanie_7-8-kl.pdf",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
         "file": "detail/7-8-22.webp",
-        "previewMax": 210
+        "source": "https://commons.wikimedia.org/wiki/File:Baarle-Nassau_fronti%C3%A8re_caf%C3%A9.jpg",
+        "author": "User:Jérôme",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "nativePixels": [
+          1143,
+          774
+        ],
+        "previewMax": 384,
+        "processing": "Тот же снимок кафе, что в буклете. Мастер из файла фотографа с полным кадром."
       },
       "imageBox": [
         0,
@@ -4265,12 +4324,17 @@
       "page": 1,
       "xref": 6,
       "detail": {
-        "author": "Изображение из буклета ЧИП",
-        "source": "2020/2020-2021_CHIP_Evrazia_zadanie_9-11-kl.pdf",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
         "file": "detail/9-11-08.webp",
-        "previewMax": 234
+        "source": "https://commons.wikimedia.org/wiki/File:Woonboot_-_Singel_Amsterdam_(26718936812).jpg",
+        "author": "FaceMePLS from The Hague, The Netherlands",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "nativePixels": [
+          1280,
+          853
+        ],
+        "previewMax": 384,
+        "processing": "Крупный документированный снимок жилого судна на канале Сингел в Амстердаме."
       },
       "imageBox": [
         0,
@@ -4702,13 +4766,17 @@
       "page": 0,
       "xref": 204,
       "detail": {
-        "author": "Benh LIEU SONG",
+        "file": "detail/9-11-30.webp",
         "source": "https://commons.wikimedia.org/wiki/File:Baux_de_Provence.jpg",
+        "author": "Benh LIEU SONG",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-        "processing": "Крупный документированный снимок того же вида или типа объекта. Размер использованного кадра: 500 × 166 пикселей.",
-        "file": "detail/9-11-30.webp",
-        "previewMax": 384
+        "nativePixels": [
+          1280,
+          424
+        ],
+        "previewMax": 384,
+        "processing": "Крупная документированная панорама Ле-Бо-де-Прованс с дороги D27."
       },
       "imageBox": [
         0,

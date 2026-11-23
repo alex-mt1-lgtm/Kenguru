@@ -2834,7 +2834,7 @@
           114
         ],
         "previewMax": 160,
-        "processing": "Тот же исходный кадр. Руки и вертикальная палочка в нём видны крупным планом; сохранён нативный растр."
+        "processing": "Сохранён исходный кадр, где руки и вертикальная палочка видны крупным планом."
       },
       "imageBox": [
         0,
@@ -3177,7 +3177,7 @@
       "detail": {
         "file": "2-20.svg",
         "author": "Редакция Olympiads.pro по изображению из буклета ЧИП",
-        "source": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+        "source": "2019/chip_2019-20_1-2.pdf",
         "license": "Редакционный векторный рисунок",
         "processing": "Два гребца, узкий корпус, боковой поплавок и соединяющие их штанги перенесены с исходного фото. Текст и обозначения на схему не добавлялись."
       },
@@ -3268,7 +3268,7 @@
         "author": "Альберт Наматжира",
         "source": "2019/chip_2019-20_5-6.pdf",
         "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Извлечён исходный кадр буклета без увеличения. Белые стволы эвкалиптов различимы; крупная репродукция именно этой композиции не подтверждена.",
+        "processing": "Извлечён исходный кадр буклета в нативном размере. На нём различимы белые стволы эвкалиптов.",
         "file": "detail/5-6-06.webp",
         "previewMax": 200,
         "nativePixels": [
@@ -3288,12 +3288,17 @@
       "page": 0,
       "xref": 29,
       "detail": {
-        "author": "Изображение из буклета ЧИП",
-        "source": "2019/chip_2019-20_5-6.pdf",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "source": "https://commons.wikimedia.org/wiki/File:Petaurus_breviceps_(sugar_glider).jpg",
+        "author": "Inconnu(e)",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "nativePixels": [
+          4928,
+          3264
+        ],
         "file": "detail/5-6-08-1.webp",
-        "previewMax": 122
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
       },
       "imageBox": [
         6,
@@ -3909,16 +3914,17 @@
       "page": 3,
       "xref": 51,
       "detail": {
-        "author": "Изображение из буклета ЧИП",
-        "source": "2019/chip_2019-20_5-6.pdf",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Сохранён отдельный нативный снимок из буклета. На карточке и в увеличении видно целый предмет или участок рисунка.",
-        "file": "detail/5-6-29-4.webp",
-        "previewMax": 122,
+        "source": "https://commons.wikimedia.org/wiki/File:%27Le_toga_(fine_mat)_from_Samoa,_Honolulu_Museum_of_Art_2018-20-01.JPG",
+        "author": "Hiart",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
         "nativePixels": [
-          152,
-          134
-        ]
+          3702,
+          2766
+        ],
+        "file": "detail/5-6-29-4.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
       },
       "imageBox": [
         484,
@@ -4413,7 +4419,11 @@
         "license": "В архивном источнике отдельная лицензия не указана.",
         "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
         "file": "detail/7-8-17-1.webp",
-        "previewMax": 122
+        "previewMax": 122,
+        "nativePixels": [
+          152,
+          133
+        ]
       },
       "imageBox": [
         4,
@@ -4650,7 +4660,11 @@
         "license": "В архивном источнике отдельная лицензия не указана.",
         "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
         "file": "detail/7-8-27.webp",
-        "previewMax": 219
+        "previewMax": 219,
+        "nativePixels": [
+          274,
+          184
+        ]
       },
       "imageBox": [
         0,
@@ -4831,13 +4845,13 @@
       "xref": 22,
       "detail": {
         "file": "detail/9-11-06-2.webp",
-        "source": "https://commons.wikimedia.org/wiki/File:TeTuatahianui.jpg",
-        "author": "Maungatautari Ecological Island Trust",
-        "license": "Public domain",
-        "licenseUrl": "",
+        "source": "https://commons.wikimedia.org/wiki/File:Apteryx_mantelli_-Rotorua,_North_Island,_New_Zealand-8a.jpg",
+        "author": "The.Rohit",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
         "nativePixels": [
-          994,
-          1325
+          1280,
+          960
         ],
         "previewMax": 384,
         "processing": "Подготовлены мастер и веб-превью документированной фотографии показанного объекта или вида."
@@ -4927,13 +4941,13 @@
       "xref": 25,
       "detail": {
         "file": "detail/9-11-09.webp",
-        "source": "https://commons.wikimedia.org/wiki/File:BowerOfSatinBowerbird.jpg",
-        "author": "Gaz at English Wikipedia",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Satin_bowerbird_bower,_Lamington_National_Park.jpg",
+        "author": "chujoslaw",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
         "nativePixels": [
-          640,
-          480
+          1280,
+          853
         ],
         "previewMax": 384,
         "processing": "Подготовлены мастер и веб-превью документированной фотографии показанного объекта или вида."
@@ -5195,7 +5209,7 @@
       "detail": {
         "file": "detail/9-11-17-1.webp",
         "source": "https://commons.wikimedia.org/wiki/File:Grevillea_robusta_flowers_01.jpg",
-        "author": "RickP 13:02,",
+        "author": "RickP",
         "license": "CC BY 2.5",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
         "nativePixels": [
@@ -5315,7 +5329,7 @@
       "detail": {
         "file": "detail/9-11-19.webp",
         "source": "https://commons.wikimedia.org/wiki/File:Brachychiton_rupestris_01.jpg",
-        "author": "No machine-readable author provided. Dlanglois assumed (based on copyright claims).",
+        "author": "Danielle Langlois",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
         "nativePixels": [
