@@ -95,8 +95,8 @@
       {
         "src": "assets/chip/2017/3-4-05-1.webp",
         "alt": "Паровоз и вагон на рельсах.",
-        "width": 110,
-        "height": 106,
+        "width": 480,
+        "height": 340,
         "detailSrc": "assets/chip/2017/detail/3-4-05-1.webp",
         "pixelWidth": 138,
         "pixelHeight": 133
@@ -104,8 +104,8 @@
       {
         "src": "assets/chip/2017/3-4-05-2.webp",
         "alt": "Поезд на приподнятом пути.",
-        "width": 110,
-        "height": 106,
+        "width": 480,
+        "height": 360,
         "detailSrc": "assets/chip/2017/detail/3-4-05-2.webp",
         "pixelWidth": 138,
         "pixelHeight": 133
@@ -113,8 +113,8 @@
       {
         "src": "assets/chip/2017/3-4-05-3.webp",
         "alt": "Белый многоярусный прогулочный пароход.",
-        "width": 110,
-        "height": 106,
+        "width": 480,
+        "height": 444,
         "detailSrc": "assets/chip/2017/detail/3-4-05-3.webp",
         "pixelWidth": 138,
         "pixelHeight": 133
@@ -122,8 +122,8 @@
       {
         "src": "assets/chip/2017/3-4-05-4.webp",
         "alt": "Городской пассажирский транспорт с контактными проводами.",
-        "width": 110,
-        "height": 106,
+        "width": 480,
+        "height": 320,
         "detailSrc": "assets/chip/2017/detail/3-4-05-4.webp",
         "pixelWidth": 138,
         "pixelHeight": 133
@@ -221,8 +221,8 @@
       {
         "src": "assets/chip/2017/3-4-09-1.webp",
         "alt": "Ряды высоких ветряков.",
-        "width": 110,
-        "height": 105,
+        "width": 480,
+        "height": 320,
         "detailSrc": "assets/chip/2017/detail/3-4-09-1.webp",
         "pixelWidth": 138,
         "pixelHeight": 132
@@ -239,8 +239,8 @@
       {
         "src": "assets/chip/2017/3-4-09-3.webp",
         "alt": "Плотина перегораживает большую реку.",
-        "width": 110,
-        "height": 105,
+        "width": 480,
+        "height": 320,
         "detailSrc": "assets/chip/2017/detail/3-4-09-3.webp",
         "pixelWidth": 138,
         "pixelHeight": 132
@@ -248,8 +248,8 @@
       {
         "src": "assets/chip/2017/3-4-09-4.webp",
         "alt": "Здания крупной промышленной станции.",
-        "width": 110,
-        "height": 105,
+        "width": 480,
+        "height": 272,
         "detailSrc": "assets/chip/2017/detail/3-4-09-4.webp",
         "pixelWidth": 138,
         "pixelHeight": 132
@@ -257,8 +257,8 @@
       {
         "src": "assets/chip/2017/3-4-09-5.webp",
         "alt": "Высокие трубы и градирни.",
-        "width": 110,
-        "height": 105,
+        "width": 480,
+        "height": 306,
         "detailSrc": "assets/chip/2017/detail/3-4-09-5.webp",
         "pixelWidth": 138,
         "pixelHeight": 132
@@ -302,9 +302,9 @@
     "optionFigures": [
       {
         "src": "assets/chip/2017/3-4-11-1.webp",
-        "alt": "Тёмное насекомое с тонкими ногами.",
-        "width": 110,
-        "height": 104,
+        "alt": "Рыже-чёрное насекомое с тонкими ногами.",
+        "width": 480,
+        "height": 288,
         "detailSrc": "assets/chip/2017/detail/3-4-11-1.webp",
         "pixelWidth": 138,
         "pixelHeight": 131
@@ -312,8 +312,8 @@
       {
         "src": "assets/chip/2017/3-4-11-2.webp",
         "alt": "Серебристая рыба с выступающими усами.",
-        "width": 110,
-        "height": 104,
+        "width": 480,
+        "height": 311,
         "detailSrc": "assets/chip/2017/detail/3-4-11-2.webp",
         "pixelWidth": 138,
         "pixelHeight": 131
@@ -330,8 +330,8 @@
       {
         "src": "assets/chip/2017/3-4-11-4.webp",
         "alt": "Небольшой зверёк с длинными ушами.",
-        "width": 110,
-        "height": 104,
+        "width": 441,
+        "height": 480,
         "detailSrc": "assets/chip/2017/detail/3-4-11-4.webp",
         "pixelWidth": 138,
         "pixelHeight": 131
@@ -393,8 +393,8 @@
       {
         "src": "assets/chip/2017/3-4-13-2.webp",
         "alt": "Зверёк с длинными иглами на ветке.",
-        "width": 110,
-        "height": 105,
+        "width": 480,
+        "height": 320,
         "detailSrc": "assets/chip/2017/detail/3-4-13-2.webp",
         "pixelWidth": 138,
         "pixelHeight": 132
@@ -402,17 +402,17 @@
       {
         "src": "assets/chip/2017/3-4-13-3.webp",
         "alt": "Серый зверь с чёрно-белым рисунком головы.",
-        "width": 110,
-        "height": 105,
+        "width": 480,
+        "height": 320,
         "detailSrc": "assets/chip/2017/detail/3-4-13-3.webp",
         "pixelWidth": 138,
         "pixelHeight": 132
       },
       {
         "src": "assets/chip/2017/3-4-13-4.webp",
-        "alt": "Коренастый тёмный зверь на снегу.",
-        "width": 110,
-        "height": 105,
+        "alt": "Коренастый тёмный зверь со светло-бурой полосой по боку.",
+        "width": 480,
+        "height": 300,
         "detailSrc": "assets/chip/2017/detail/3-4-13-4.webp",
         "pixelWidth": 138,
         "pixelHeight": 132
@@ -420,8 +420,8 @@
       {
         "src": "assets/chip/2017/3-4-13-5.webp",
         "alt": "Серый зверёк держится за ствол дерева.",
-        "width": 110,
-        "height": 105,
+        "width": 480,
+        "height": 472,
         "detailSrc": "assets/chip/2017/detail/3-4-13-5.webp",
         "pixelWidth": 138,
         "pixelHeight": 132
@@ -482,17 +482,17 @@
       {
         "src": "assets/chip/2017/3-4-16-1.webp",
         "alt": "Маленькая птица зависла в воздухе возле цветка.",
-        "width": 110,
-        "height": 104,
+        "width": 438,
+        "height": 480,
         "detailSrc": "assets/chip/2017/detail/3-4-16-1.webp",
         "pixelWidth": 138,
         "pixelHeight": 131
       },
       {
         "src": "assets/chip/2017/3-4-16-2.webp",
-        "alt": "Крупная длинноногая птица бежит по траве.",
-        "width": 110,
-        "height": 104,
+        "alt": "Крупная длинноногая птица в сухой траве.",
+        "width": 480,
+        "height": 320,
         "detailSrc": "assets/chip/2017/detail/3-4-16-2.webp",
         "pixelWidth": 138,
         "pixelHeight": 131
@@ -739,9 +739,9 @@
     ],
     "figure": {
       "src": "assets/chip/2017/3-4-25.webp",
-      "alt": "Бурый грызун держится прямо на задних лапах.",
-      "width": 145,
-      "height": 136,
+      "alt": "Из земляной норы выглядывает небольшой бурый грызун.",
+      "width": 480,
+      "height": 360,
       "detailSrc": "assets/chip/2017/detail/3-4-25.webp",
       "pixelWidth": 181,
       "pixelHeight": 170
@@ -782,47 +782,47 @@
     ],
     "optionFigures": [
       {
-        "src": "assets/chip/2017/3-4-27-1.webp",
+        "src": "assets/chip/2017/3-4-27-1.svg",
         "alt": "Низкая чёрная туфля со светлым краем.",
-        "width": 110,
-        "height": 68,
-        "detailSrc": "assets/chip/2017/detail/3-4-27-1.webp",
+        "width": 600,
+        "height": 285,
+        "detailSrc": "assets/chip/2017/3-4-27-1.svg",
         "pixelWidth": 138,
         "pixelHeight": 85
       },
       {
-        "src": "assets/chip/2017/3-4-27-2.webp",
-        "alt": "Мягкая коричневая обувь с узором и бахромой.",
-        "width": 110,
-        "height": 68,
-        "detailSrc": "assets/chip/2017/detail/3-4-27-2.webp",
+        "src": "assets/chip/2017/3-4-27-2.svg",
+        "alt": "Мягкая коричневая обувь с узорной вставкой и бахромой.",
+        "width": 600,
+        "height": 285,
+        "detailSrc": "assets/chip/2017/3-4-27-2.svg",
         "pixelWidth": 138,
         "pixelHeight": 85
       },
       {
-        "src": "assets/chip/2017/3-4-27-3.webp",
-        "alt": "Тёмная туфля с длинной петлёй.",
-        "width": 110,
-        "height": 68,
-        "detailSrc": "assets/chip/2017/detail/3-4-27-3.webp",
+        "src": "assets/chip/2017/3-4-27-3.svg",
+        "alt": "Тёмная туфля с длинной петлёй над носком.",
+        "width": 600,
+        "height": 285,
+        "detailSrc": "assets/chip/2017/3-4-27-3.svg",
         "pixelWidth": 138,
         "pixelHeight": 85
       },
       {
-        "src": "assets/chip/2017/3-4-27-4.webp",
-        "alt": "Плетёная низкая обувь.",
-        "width": 110,
-        "height": 68,
-        "detailSrc": "assets/chip/2017/detail/3-4-27-4.webp",
+        "src": "assets/chip/2017/3-4-27-4.svg",
+        "alt": "Низкая плетёная обувь из широких светлых полос.",
+        "width": 600,
+        "height": 285,
+        "detailSrc": "assets/chip/2017/3-4-27-4.svg",
         "pixelWidth": 138,
         "pixelHeight": 85
       },
       {
-        "src": "assets/chip/2017/3-4-27-5.webp",
-        "alt": "Коричневая туфля с красным украшением.",
-        "width": 110,
-        "height": 68,
-        "detailSrc": "assets/chip/2017/detail/3-4-27-5.webp",
+        "src": "assets/chip/2017/3-4-27-5.svg",
+        "alt": "Коричневая туфля с красным помпоном на носке.",
+        "width": 600,
+        "height": 285,
+        "detailSrc": "assets/chip/2017/3-4-27-5.svg",
         "pixelWidth": 138,
         "pixelHeight": 85
       }

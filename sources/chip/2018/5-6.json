@@ -51,49 +51,39 @@
     ],
     "optionFigures": [
       {
-        "src": "assets/chip/2018/5-6-03-1.webp",
+        "src": "assets/chip/2018/5-6-03-1.svg",
         "alt": "Выделена область на северо-западе материка, у перешейка.",
-        "width": 120,
-        "height": 158,
-        "detailSrc": "assets/chip/2018/detail/5-6-03-1.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 197
+        "width": 147,
+        "height": 182,
+        "detailSrc": "assets/chip/2018/5-6-03-1.svg"
       },
       {
-        "src": "assets/chip/2018/5-6-03-2.webp",
+        "src": "assets/chip/2018/5-6-03-2.svg",
         "alt": "Выделена самая широкая область на востоке материка.",
-        "width": 120,
-        "height": 158,
-        "detailSrc": "assets/chip/2018/detail/5-6-03-2.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 197
+        "width": 147,
+        "height": 182,
+        "detailSrc": "assets/chip/2018/5-6-03-2.svg"
       },
       {
-        "src": "assets/chip/2018/5-6-03-3.webp",
+        "src": "assets/chip/2018/5-6-03-3.svg",
         "alt": "Выделена широкая область в юго-восточной части материка.",
-        "width": 120,
-        "height": 158,
-        "detailSrc": "assets/chip/2018/detail/5-6-03-3.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 198
+        "width": 147,
+        "height": 182,
+        "detailSrc": "assets/chip/2018/5-6-03-3.svg"
       },
       {
-        "src": "assets/chip/2018/5-6-03-4.webp",
+        "src": "assets/chip/2018/5-6-03-4.svg",
         "alt": "Выделена узкая полоса вдоль берега на юго-западе.",
-        "width": 120,
-        "height": 158,
-        "detailSrc": "assets/chip/2018/detail/5-6-03-4.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 197
+        "width": 147,
+        "height": 182,
+        "detailSrc": "assets/chip/2018/5-6-03-4.svg"
       },
       {
-        "src": "assets/chip/2018/5-6-03-5.webp",
+        "src": "assets/chip/2018/5-6-03-5.svg",
         "alt": "Выделена область на западе материка с выходом к океану.",
-        "width": 120,
-        "height": 158,
-        "detailSrc": "assets/chip/2018/detail/5-6-03-5.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 197
+        "width": 147,
+        "height": 182,
+        "detailSrc": "assets/chip/2018/5-6-03-5.svg"
       }
     ]
   },

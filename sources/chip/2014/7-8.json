@@ -157,8 +157,8 @@
     "figure": {
       "src": "assets/chip/2014/7-8-06.webp",
       "detailSrc": "assets/chip/2014/detail/7-8-06.webp",
-      "width": 255,
-      "height": 192,
+      "width": 219,
+      "height": 165,
       "pixelWidth": 255,
       "pixelHeight": 192,
       "alt": "Город и две отдалённые заснеженные вершины в солнечный день."
@@ -248,17 +248,17 @@
       {
         "src": "assets/chip/2014/7-8-10-2.webp",
         "detailSrc": "assets/chip/2014/detail/7-8-10-2.webp",
-        "width": 95,
-        "height": 105,
-        "pixelWidth": 95,
-        "pixelHeight": 105,
+        "width": 480,
+        "height": 320,
+        "pixelWidth": 1280,
+        "pixelHeight": 853,
         "alt": "Круглые оранжевые плоды на ветках."
       },
       {
         "src": "assets/chip/2014/7-8-10-3.webp",
         "detailSrc": "assets/chip/2014/detail/7-8-10-3.webp",
-        "width": 96,
-        "height": 105,
+        "width": 82,
+        "height": 90,
         "pixelWidth": 96,
         "pixelHeight": 105,
         "alt": "Светло-зелёные низкие листовые розетки."
@@ -275,10 +275,10 @@
       {
         "src": "assets/chip/2014/7-8-10-5.webp",
         "detailSrc": "assets/chip/2014/detail/7-8-10-5.webp",
-        "width": 95,
-        "height": 105,
-        "pixelWidth": 95,
-        "pixelHeight": 105,
+        "width": 480,
+        "height": 270,
+        "pixelWidth": 1280,
+        "pixelHeight": 720,
         "alt": "Красные и желтоватые ягоды между широкими тёмными листьями."
       }
     ]
@@ -375,11 +375,11 @@
     ],
     "figure": {
       "src": "assets/chip/2014/7-8-15.webp",
-      "detailSrc": "assets/chip/2014/detail/7-8-15.webp",
-      "width": 200,
-      "height": 160,
-      "pixelWidth": 200,
-      "pixelHeight": 160,
+      "detailSrc": "assets/chip/2014/detail/7-8-15.svg",
+      "width": 480,
+      "height": 380,
+      "pixelWidth": 600,
+      "pixelHeight": 475,
       "alt": "Лыжник на склоне с изогнутыми палками."
     }
   },
@@ -642,10 +642,10 @@
       {
         "src": "assets/chip/2014/7-8-27-3.webp",
         "detailSrc": "assets/chip/2014/detail/7-8-27-3.webp",
-        "width": 109,
-        "height": 105,
-        "pixelWidth": 109,
-        "pixelHeight": 105,
+        "width": 319,
+        "height": 480,
+        "pixelWidth": 1063,
+        "pixelHeight": 1600,
         "alt": "Тёмный медведь со светлой отметиной на груди."
       },
       {
@@ -660,8 +660,8 @@
       {
         "src": "assets/chip/2014/7-8-27-5.webp",
         "detailSrc": "assets/chip/2014/detail/7-8-27-5.webp",
-        "width": 300,
-        "height": 451,
+        "width": 266,
+        "height": 400,
         "pixelWidth": 300,
         "pixelHeight": 451,
         "alt": "Кремовый медведь с тёмным носом и небольшими ушами."
@@ -723,11 +723,11 @@
     ],
     "figure": {
       "src": "assets/chip/2014/7-8-30.webp",
-      "detailSrc": "assets/chip/2014/detail/7-8-30.webp",
-      "width": 150,
-      "height": 232,
-      "pixelWidth": 150,
-      "pixelHeight": 232,
+      "detailSrc": "assets/chip/2014/detail/7-8-30.svg",
+      "width": 311,
+      "height": 480,
+      "pixelWidth": 450,
+      "pixelHeight": 696,
       "alt": "У воды стоит металлическая фигура с длинным телом и рядом тонких выростов."
     }
   }

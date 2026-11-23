@@ -37,47 +37,47 @@
       {
         "src": "assets/chip/2015/9-10-02-1.webp",
         "alt": "Золотой двуглавый орёл и золотая кайма на красном поле.",
-        "width": 121,
-        "height": 91,
-        "detailSrc": "assets/chip/2015/detail/9-10-02-1.webp",
-        "pixelWidth": 151,
-        "pixelHeight": 113
+        "width": 360,
+        "height": 180,
+        "detailSrc": "assets/chip/2015/detail/9-10-02-1.svg",
+        "pixelWidth": 800,
+        "pixelHeight": 400
       },
       {
         "src": "assets/chip/2015/9-10-02-2.webp",
         "alt": "Чёрный двуглавый орёл на красном поле.",
-        "width": 121,
-        "height": 91,
-        "detailSrc": "assets/chip/2015/detail/9-10-02-2.webp",
-        "pixelWidth": 151,
-        "pixelHeight": 113
+        "width": 360,
+        "height": 257,
+        "detailSrc": "assets/chip/2015/detail/9-10-02-2.svg",
+        "pixelWidth": 800,
+        "pixelHeight": 571
       },
       {
         "src": "assets/chip/2015/9-10-02-3.webp",
         "alt": "Зелёное и красное поля со сложным круглым знаком на стыке.",
-        "width": 122,
-        "height": 90,
-        "detailSrc": "assets/chip/2015/detail/9-10-02-3.webp",
-        "pixelWidth": 153,
-        "pixelHeight": 113
+        "width": 360,
+        "height": 240,
+        "detailSrc": "assets/chip/2015/detail/9-10-02-3.svg",
+        "pixelWidth": 800,
+        "pixelHeight": 533
       },
       {
         "src": "assets/chip/2015/9-10-02-4.webp",
         "alt": "Большая жёлтая звезда и четыре небольшие звезды на красном поле.",
-        "width": 122,
-        "height": 91,
-        "detailSrc": "assets/chip/2015/detail/9-10-02-4.webp",
-        "pixelWidth": 152,
-        "pixelHeight": 113
+        "width": 360,
+        "height": 240,
+        "detailSrc": "assets/chip/2015/detail/9-10-02-4.svg",
+        "pixelWidth": 800,
+        "pixelHeight": 533
       },
       {
         "src": "assets/chip/2015/9-10-02-5.webp",
         "alt": "Белая и красная половины, в белом верхнем углу маленький крест.",
-        "width": 122,
-        "height": 91,
-        "detailSrc": "assets/chip/2015/detail/9-10-02-5.webp",
-        "pixelWidth": 152,
-        "pixelHeight": 113
+        "width": 360,
+        "height": 240,
+        "detailSrc": "assets/chip/2015/detail/9-10-02-5.svg",
+        "pixelWidth": 800,
+        "pixelHeight": 533
       }
     ]
   },
@@ -282,11 +282,11 @@
       {
         "src": "assets/chip/2015/9-10-12-2.webp",
         "alt": "Группы белых цветков с пятью лепестками.",
-        "width": 122,
-        "height": 113,
+        "width": 360,
+        "height": 305,
         "detailSrc": "assets/chip/2015/detail/9-10-12-2.webp",
-        "pixelWidth": 152,
-        "pixelHeight": 141
+        "pixelWidth": 1280,
+        "pixelHeight": 1085
       },
       {
         "src": "assets/chip/2015/9-10-12-3.webp",
@@ -371,11 +371,11 @@
     "figure": {
       "src": "assets/chip/2015/7-8-19.webp",
       "alt": "Чёрно-белый рисунок высокой решётчатой башни с широким основанием.",
-      "width": 82,
-      "height": 179,
+      "width": 194,
+      "height": 360,
       "detailSrc": "assets/chip/2015/detail/7-8-19.webp",
-      "pixelWidth": 103,
-      "pixelHeight": 224
+      "pixelWidth": 864,
+      "pixelHeight": 1600
     }
   },
   {
@@ -576,11 +576,11 @@
       {
         "src": "assets/chip/2015/9-10-23-5.webp",
         "alt": "Травянистый склон вокруг углубления.",
-        "width": 121,
-        "height": 104,
+        "width": 360,
+        "height": 270,
         "detailSrc": "assets/chip/2015/detail/9-10-23-5.webp",
-        "pixelWidth": 151,
-        "pixelHeight": 130
+        "pixelWidth": 1280,
+        "pixelHeight": 960
       }
     ]
   },
@@ -656,11 +656,11 @@
     "figure": {
       "src": "assets/chip/2015/9-10-27.webp",
       "alt": "Чёрно-белая гравюра. На стеблях среди травы сидит кузнечик с длинными усами.",
-      "width": 160,
-      "height": 134,
+      "width": 360,
+      "height": 300,
       "detailSrc": "assets/chip/2015/detail/9-10-27.webp",
-      "pixelWidth": 200,
-      "pixelHeight": 167
+      "pixelWidth": 1422,
+      "pixelHeight": 1186
     }
   },
   {
@@ -737,11 +737,11 @@
       {
         "src": "assets/chip/2015/9-10-29-5.webp",
         "alt": "Буроватая бабочка с тёмными пятнами на крыльях.",
-        "width": 122,
-        "height": 113,
+        "width": 360,
+        "height": 270,
         "detailSrc": "assets/chip/2015/detail/9-10-29-5.webp",
-        "pixelWidth": 152,
-        "pixelHeight": 141
+        "pixelWidth": 1280,
+        "pixelHeight": 960
       }
     ]
   },

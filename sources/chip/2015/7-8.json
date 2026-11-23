@@ -227,12 +227,12 @@
     "adaptation": "Указана долгота отмеченной линии, которую рисунок передаёт схематически.",
     "figure": {
       "src": "assets/chip/2015/7-8-10.webp",
-      "alt": "На глобусе показаны Европа и Африка. Красная стрелка указывает на меридиан.",
-      "width": 218,
-      "height": 168,
-      "detailSrc": "assets/chip/2015/detail/7-8-10.webp",
-      "pixelWidth": 273,
-      "pixelHeight": 210
+      "alt": "На глобусе выделена линия с севера на юг через запад Европы и Африки.",
+      "width": 360,
+      "height": 360,
+      "detailSrc": "assets/chip/2015/detail/7-8-10.svg",
+      "pixelWidth": 800,
+      "pixelHeight": 800
     }
   },
   {
@@ -316,12 +316,12 @@
     "adaptation": "Указаны допущения для оценки высоты по погружённому объёму.",
     "figure": {
       "src": "assets/chip/2015/7-8-14.webp",
-      "alt": "Голубой айсберг с неровным верхом на фоне воды и неба.",
-      "width": 180,
-      "height": 120,
+      "alt": "Плавучая глыба льда в океане. Над водой видна её верхняя часть.",
+      "width": 360,
+      "height": 203,
       "detailSrc": "assets/chip/2015/detail/7-8-14.webp",
-      "pixelWidth": 225,
-      "pixelHeight": 150
+      "pixelWidth": 1280,
+      "pixelHeight": 720
     }
   },
   {
@@ -423,11 +423,11 @@
     "figure": {
       "src": "assets/chip/2015/7-8-19.webp",
       "alt": "Чёрно-белый рисунок высокой решётчатой башни с широким основанием.",
-      "width": 82,
-      "height": 179,
+      "width": 194,
+      "height": 360,
       "detailSrc": "assets/chip/2015/detail/7-8-19.webp",
-      "pixelWidth": 103,
-      "pixelHeight": 224
+      "pixelWidth": 864,
+      "pixelHeight": 1600
     }
   },
   {
@@ -468,11 +468,11 @@
     "figure": {
       "src": "assets/chip/2015/7-8-21.webp",
       "alt": "Ручной электронный безмен с круглой ручкой сверху и крючком снизу.",
-      "width": 103,
-      "height": 182,
+      "width": 74,
+      "height": 360,
       "detailSrc": "assets/chip/2015/detail/7-8-21.webp",
-      "pixelWidth": 129,
-      "pixelHeight": 228
+      "pixelWidth": 327,
+      "pixelHeight": 1600
     }
   },
   {
@@ -532,11 +532,11 @@
       {
         "src": "assets/chip/2015/7-8-22-5.webp",
         "alt": "Красноватые плоды с сухими наружными слоями.",
-        "width": 106,
-        "height": 106,
+        "width": 360,
+        "height": 270,
         "detailSrc": "assets/chip/2015/detail/7-8-22-5.webp",
-        "pixelWidth": 132,
-        "pixelHeight": 132
+        "pixelWidth": 1280,
+        "pixelHeight": 960
       }
     ]
   },
@@ -595,47 +595,47 @@
       {
         "src": "assets/chip/2015/7-8-25-1.webp",
         "alt": "Светлый шар на тёмной металлической подставке.",
-        "width": 106,
-        "height": 106,
+        "width": 270,
+        "height": 360,
         "detailSrc": "assets/chip/2015/detail/7-8-25-1.webp",
-        "pixelWidth": 132,
-        "pixelHeight": 132
+        "pixelWidth": 1200,
+        "pixelHeight": 1600
       },
       {
         "src": "assets/chip/2015/7-8-25-2.webp",
         "alt": "Две красно-золотистые высокие вазы.",
-        "width": 106,
-        "height": 106,
+        "width": 360,
+        "height": 234,
         "detailSrc": "assets/chip/2015/detail/7-8-25-2.webp",
-        "pixelWidth": 132,
-        "pixelHeight": 132
+        "pixelWidth": 1280,
+        "pixelHeight": 833
       },
       {
         "src": "assets/chip/2015/7-8-25-3.webp",
         "alt": "Набор прозрачных рельефных бокалов.",
-        "width": 106,
-        "height": 105,
+        "width": 360,
+        "height": 270,
         "detailSrc": "assets/chip/2015/detail/7-8-25-3.webp",
-        "pixelWidth": 133,
-        "pixelHeight": 132
+        "pixelWidth": 1280,
+        "pixelHeight": 960
       },
       {
         "src": "assets/chip/2015/7-8-25-4.webp",
         "alt": "Круглый предмет с множеством цветных пятен.",
-        "width": 106,
-        "height": 105,
+        "width": 360,
+        "height": 270,
         "detailSrc": "assets/chip/2015/detail/7-8-25-4.webp",
-        "pixelWidth": 133,
-        "pixelHeight": 132
+        "pixelWidth": 1280,
+        "pixelHeight": 960
       },
       {
         "src": "assets/chip/2015/7-8-25-5.webp",
         "alt": "Прозрачный рельефный сосуд с крышкой.",
-        "width": 106,
-        "height": 106,
+        "width": 360,
+        "height": 253,
         "detailSrc": "assets/chip/2015/detail/7-8-25-5.webp",
-        "pixelWidth": 132,
-        "pixelHeight": 132
+        "pixelWidth": 1280,
+        "pixelHeight": 900
       }
     ]
   },

@@ -313,5 +313,44 @@
     "tasksFile": "чип2018_5-6класс_задания.pdf",
     "answersFile": "чип2018_ответы.pdf",
     "title": "Южная Америка"
+  },
+  {
+    "subject": "chip",
+    "year": 2018,
+    "grade": "7-8",
+    "contest": "Человек и природа",
+    "letters": "АБВГД",
+    "count": 30,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "чип2018_7-8класс_задания.pdf",
+    "answersFile": "чип2018_ответы.pdf",
+    "title": "Южная Америка"
+  },
+  {
+    "subject": "chip",
+    "year": 2018,
+    "grade": "9-10",
+    "contest": "Человек и природа",
+    "letters": "АБВГД",
+    "count": 30,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "чип2018_9-11класс_задания.pdf",
+    "answersFile": "чип2018_ответы.pdf",
+    "title": "Южная Америка"
+  },
+  {
+    "subject": "chip",
+    "year": 2019,
+    "grade": "2",
+    "contest": "Человек и природа",
+    "letters": "АБВГД",
+    "count": 20,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "chip_2019-20_1-2.pdf",
+    "answersFile": "answers.pdf",
+    "title": "Австралия и Океания"
   }
 ]

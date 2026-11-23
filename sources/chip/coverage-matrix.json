@@ -4,8 +4,8 @@
   "counts": {
     "schoolBooklets": 59,
     "withKey": 54,
-    "interactive": 33,
-    "interactiveQuestions": 921,
+    "interactive": 51,
+    "interactiveQuestions": 1421,
     "preschoolBookletsConfirmed": 8
   },
   "school": [
@@ -148,7 +148,9 @@
         "tasks": "dist/assets/chip/2012/1-2_2012.pdf",
         "answers": "dist/assets/chip/2012/answers_2012.pdf",
         "solutions": "dist/assets/chip/2012/1-2kom2012.pdf"
-      }
+      },
+      "interactive": "sources/chip/2012/1-2.json",
+      "interactiveQuestions": 20
     },
     {
       "year": 2012,
@@ -161,7 +163,9 @@
       "archive": {
         "tasks": "dist/assets/chip/2012/3-4_2012.pdf",
         "answers": "dist/assets/chip/2012/answers_2012.pdf"
-      }
+      },
+      "interactive": "sources/chip/2012/3-4.json",
+      "interactiveQuestions": 30
     },
     {
       "year": 2012,
@@ -174,7 +178,9 @@
       "archive": {
         "tasks": "dist/assets/chip/2012/5-6_2012.pdf",
         "answers": "dist/assets/chip/2012/answers_2012.pdf"
-      }
+      },
+      "interactive": "sources/chip/2012/5-6.json",
+      "interactiveQuestions": 30
     },
     {
       "year": 2012,
@@ -187,7 +193,9 @@
       "archive": {
         "tasks": "dist/assets/chip/2012/7-8_2012.pdf",
         "answers": "dist/assets/chip/2012/answers_2012.pdf"
-      }
+      },
+      "interactive": "sources/chip/2012/7-8.json",
+      "interactiveQuestions": 30
     },
     {
       "year": 2012,
@@ -200,7 +208,9 @@
       "archive": {
         "tasks": "dist/assets/chip/2012/9-10_2012.pdf",
         "answers": "dist/assets/chip/2012/answers_2012.pdf"
-      }
+      },
+      "interactive": "sources/chip/2012/9-10.json",
+      "interactiveQuestions": 30
     },
     {
       "year": 2013,
@@ -293,7 +303,9 @@
       "archive": {
         "tasks": "dist/assets/chip/2014/1-2_2014.pdf",
         "answers": "dist/assets/chip/2014/answers_2014.pdf"
-      }
+      },
+      "interactive": "sources/chip/2014/1-2.json",
+      "interactiveQuestions": 20
     },
     {
       "year": 2014,
@@ -306,7 +318,9 @@
       "archive": {
         "tasks": "dist/assets/chip/2014/3-4_2014.pdf",
         "answers": "dist/assets/chip/2014/answers_2014.pdf"
-      }
+      },
+      "interactive": "sources/chip/2014/3-4.json",
+      "interactiveQuestions": 30
     },
     {
       "year": 2014,
@@ -319,7 +333,9 @@
       "archive": {
         "tasks": "dist/assets/chip/2014/5-6_2014.pdf",
         "answers": "dist/assets/chip/2014/answers_2014.pdf"
-      }
+      },
+      "interactive": "sources/chip/2014/5-6.json",
+      "interactiveQuestions": 30
     },
     {
       "year": 2014,
@@ -332,7 +348,9 @@
       "archive": {
         "tasks": "dist/assets/chip/2014/7-8_2014.pdf",
         "answers": "dist/assets/chip/2014/answers_2014.pdf"
-      }
+      },
+      "interactive": "sources/chip/2014/7-8.json",
+      "interactiveQuestions": 30
     },
     {
       "year": 2014,
@@ -345,7 +363,9 @@
       "archive": {
         "tasks": "dist/assets/chip/2014/9-10_2014.pdf",
         "answers": "dist/assets/chip/2014/answers_2014.pdf"
-      }
+      },
+      "interactive": "sources/chip/2014/9-10.json",
+      "interactiveQuestions": 30
     },
     {
       "year": 2015,
@@ -618,7 +638,9 @@
       "archive": {
         "tasks": "dist/assets/chip/2018/чип2018_7-8класс_задания.pdf",
         "answers": "dist/assets/chip/2018/чип2018_ответы.pdf"
-      }
+      },
+      "interactive": "sources/chip/2018/7-8.json",
+      "interactiveQuestions": 30
     },
     {
       "year": 2018,
@@ -631,7 +653,9 @@
       "archive": {
         "tasks": "dist/assets/chip/2018/чип2018_9-11класс_задания.pdf",
         "answers": "dist/assets/chip/2018/чип2018_ответы.pdf"
-      }
+      },
+      "interactive": "sources/chip/2018/9-10.json",
+      "interactiveQuestions": 30
     },
     {
       "year": 2019,
@@ -649,7 +673,9 @@
       "archive": {
         "tasks": "dist/assets/chip/2019/africa/chip_2018-19_1-2.pdf"
       },
-      "gap": "Вариант сохранён. Официальная таблица ответов не подтверждена."
+      "gap": "Вариант сохранён. Официальная таблица ответов не подтверждена.",
+      "interactive": "sources/chip/2019/africa/1-2.json",
+      "interactiveQuestions": 20
     },
     {
       "year": 2019,
@@ -667,7 +693,9 @@
       "archive": {
         "tasks": "dist/assets/chip/2019/africa/chip_2018-19_3-4.pdf"
       },
-      "gap": "Вариант сохранён. Официальная таблица ответов не подтверждена."
+      "gap": "Вариант сохранён. Официальная таблица ответов не подтверждена.",
+      "interactive": "sources/chip/2019/africa/3-4.json",
+      "interactiveQuestions": 30
     },
     {
       "year": 2019,
@@ -685,7 +713,9 @@
       "archive": {
         "tasks": "dist/assets/chip/2019/africa/chip_2018-19_5-6.pdf"
       },
-      "gap": "Вариант сохранён. Официальная таблица ответов не подтверждена."
+      "gap": "Вариант сохранён. Официальная таблица ответов не подтверждена.",
+      "interactive": "sources/chip/2019/africa/5-6.json",
+      "interactiveQuestions": 30
     },
     {
       "year": 2019,
@@ -703,7 +733,9 @@
       "archive": {
         "tasks": "dist/assets/chip/2019/africa/chip_2018-19_7-8.pdf"
       },
-      "gap": "Вариант сохранён. Официальная таблица ответов не подтверждена."
+      "gap": "Вариант сохранён. Официальная таблица ответов не подтверждена.",
+      "interactive": "sources/chip/2019/africa/7-8.json",
+      "interactiveQuestions": 30
     },
     {
       "year": 2019,
@@ -721,7 +753,9 @@
       "archive": {
         "tasks": "dist/assets/chip/2019/africa/chip_2018-19_9-10.pdf"
       },
-      "gap": "Вариант сохранён. Официальная таблица ответов не подтверждена."
+      "gap": "Вариант сохранён. Официальная таблица ответов не подтверждена.",
+      "interactive": "sources/chip/2019/africa/9-10.json",
+      "interactiveQuestions": 30
     },
     {
       "year": 2019,
@@ -744,7 +778,9 @@
       "archive": {
         "tasks": "dist/assets/chip/2019/chip_2019-20_1-2.pdf",
         "answers": "dist/assets/chip/2019/answers.pdf"
-      }
+      },
+      "interactive": "sources/chip/2019/2.json",
+      "interactiveQuestions": 20
     },
     {
       "year": 2019,

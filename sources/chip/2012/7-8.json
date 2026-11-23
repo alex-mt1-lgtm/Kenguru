@@ -197,8 +197,8 @@
       {
         "src": "assets/chip/2012/7-8-10-1.webp",
         "detailSrc": "assets/chip/2012/detail/7-8-10-1.webp",
-        "width": 197,
-        "height": 156,
+        "width": 169,
+        "height": 134,
         "pixelWidth": 197,
         "pixelHeight": 156,
         "alt": "Светлый кольцевой берег вокруг водной площадки."
@@ -206,8 +206,8 @@
       {
         "src": "assets/chip/2012/7-8-10-2.webp",
         "detailSrc": "assets/chip/2012/detail/7-8-10-2.webp",
-        "width": 200,
-        "height": 156,
+        "width": 172,
+        "height": 134,
         "pixelWidth": 200,
         "pixelHeight": 156,
         "alt": "Зеленоватый остров неправильных очертаний."
@@ -215,8 +215,8 @@
       {
         "src": "assets/chip/2012/7-8-10-3.webp",
         "detailSrc": "assets/chip/2012/detail/7-8-10-3.webp",
-        "width": 201,
-        "height": 156,
+        "width": 173,
+        "height": 134,
         "pixelWidth": 201,
         "pixelHeight": 156,
         "alt": "Крутой тёмный остров, выступающий из воды."
@@ -224,8 +224,8 @@
       {
         "src": "assets/chip/2012/7-8-10-4.webp",
         "detailSrc": "assets/chip/2012/detail/7-8-10-4.webp",
-        "width": 199,
-        "height": 156,
+        "width": 171,
+        "height": 134,
         "pixelWidth": 199,
         "pixelHeight": 156,
         "alt": "Высокий вытянутый остров с возвышенностями."
@@ -317,8 +317,8 @@
     "figure": {
       "src": "assets/chip/2012/7-8-14.webp",
       "detailSrc": "assets/chip/2012/detail/7-8-14.webp",
-      "width": 184,
-      "height": 229,
+      "width": 158,
+      "height": 197,
       "pixelWidth": 184,
       "pixelHeight": 229,
       "alt": "Бурый медвежонок летит над цветущей поляной."
@@ -592,10 +592,10 @@
     "figure": {
       "src": "assets/chip/2012/7-8-28.webp",
       "detailSrc": "assets/chip/2012/detail/7-8-28.webp",
-      "width": 312,
-      "height": 235,
-      "pixelWidth": 312,
-      "pixelHeight": 235,
+      "width": 480,
+      "height": 270,
+      "pixelWidth": 1280,
+      "pixelHeight": 720,
       "alt": "Из дна поднимаются светлые трубки с тёмными и красными выростами на концах."
     }
   },

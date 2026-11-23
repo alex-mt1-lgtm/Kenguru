@@ -116,8 +116,8 @@
     "figure": {
       "src": "assets/chip/2017/5-6-04.webp",
       "alt": "Большая статуя с поднятым факелом стоит на высоком постаменте.",
-      "width": 108,
-      "height": 124,
+      "width": 313,
+      "height": 480,
       "detailSrc": "assets/chip/2017/detail/5-6-04.webp",
       "pixelWidth": 135,
       "pixelHeight": 155
@@ -178,7 +178,7 @@
     "optionFigures": [
       {
         "src": "assets/chip/2017/5-6-07-1.webp",
-        "alt": "Девочка и её спутники идут по жёлтой дороге.",
+        "alt": "Девочка рядом со львом на жёлтой дороге.",
         "width": 110,
         "height": 108,
         "detailSrc": "assets/chip/2017/detail/5-6-07-1.webp",
@@ -187,7 +187,7 @@
       },
       {
         "src": "assets/chip/2017/5-6-07-2.webp",
-        "alt": "Два зверька сидят за столом.",
+        "alt": "Рыжий зверь с большим хвостом и ещё два персонажа на тропе.",
         "width": 110,
         "height": 108,
         "detailSrc": "assets/chip/2017/detail/5-6-07-2.webp",
@@ -214,7 +214,7 @@
       },
       {
         "src": "assets/chip/2017/5-6-07-5.webp",
-        "alt": "Птицы на чёрно-белой иллюстрации.",
+        "alt": "Крупная птица на воде и несколько маленьких птиц вокруг неё.",
         "width": 110,
         "height": 108,
         "detailSrc": "assets/chip/2017/detail/5-6-07-5.webp",
@@ -321,8 +321,8 @@
       {
         "src": "assets/chip/2017/5-6-12-1.webp",
         "alt": "Коренастый бурый зверь с широким плоским хвостом.",
-        "width": 109,
-        "height": 104,
+        "width": 479,
+        "height": 480,
         "detailSrc": "assets/chip/2017/detail/5-6-12-1.webp",
         "pixelWidth": 136,
         "pixelHeight": 130
@@ -330,8 +330,8 @@
       {
         "src": "assets/chip/2017/5-6-12-2.webp",
         "alt": "Большой бурый зверь с круглыми ушами.",
-        "width": 109,
-        "height": 104,
+        "width": 480,
+        "height": 320,
         "detailSrc": "assets/chip/2017/detail/5-6-12-2.webp",
         "pixelWidth": 136,
         "pixelHeight": 130
@@ -339,8 +339,8 @@
       {
         "src": "assets/chip/2017/5-6-12-3.webp",
         "alt": "Белый зверёк с длинными ушами.",
-        "width": 109,
-        "height": 104,
+        "width": 480,
+        "height": 383,
         "detailSrc": "assets/chip/2017/detail/5-6-12-3.webp",
         "pixelWidth": 136,
         "pixelHeight": 130
@@ -348,8 +348,8 @@
       {
         "src": "assets/chip/2017/5-6-12-4.webp",
         "alt": "Тёмная птица с белой головой.",
-        "width": 109,
-        "height": 104,
+        "width": 384,
+        "height": 480,
         "detailSrc": "assets/chip/2017/detail/5-6-12-4.webp",
         "pixelWidth": 136,
         "pixelHeight": 130
@@ -357,8 +357,8 @@
       {
         "src": "assets/chip/2017/5-6-12-5.webp",
         "alt": "Пятнистая кошка с кисточками на ушах.",
-        "width": 109,
-        "height": 104,
+        "width": 347,
+        "height": 480,
         "detailSrc": "assets/chip/2017/detail/5-6-12-5.webp",
         "pixelWidth": 136,
         "pixelHeight": 130
@@ -402,7 +402,7 @@
   },
   {
     "title": "Древняя культура Америки",
-    "question": "Какой из этих злаков впервые одомашнили в Мезоамерике?",
+    "question": "Какое из этих растений впервые одомашнили в Мезоамерике?",
     "choices": [
       "кукуруза",
       "картофель",
@@ -456,8 +456,8 @@
       {
         "src": "assets/chip/2017/5-6-17-1.webp",
         "alt": "Кожаное седло со стременем.",
-        "width": 107,
-        "height": 101,
+        "width": 446,
+        "height": 480,
         "detailSrc": "assets/chip/2017/detail/5-6-17-1.webp",
         "pixelWidth": 134,
         "pixelHeight": 127
@@ -474,8 +474,8 @@
       {
         "src": "assets/chip/2017/5-6-17-3.webp",
         "alt": "Рамка с рядами подвижных костяшек.",
-        "width": 107,
-        "height": 101,
+        "width": 415,
+        "height": 480,
         "detailSrc": "assets/chip/2017/detail/5-6-17-3.webp",
         "pixelWidth": 134,
         "pixelHeight": 127
@@ -491,9 +491,9 @@
       },
       {
         "src": "assets/chip/2017/5-6-17-5.webp",
-        "alt": "Прочная сетка, натянутая между деревьями.",
-        "width": 107,
-        "height": 101,
+        "alt": "Полотнище на верёвках натянуто между деревьями.",
+        "width": 480,
+        "height": 320,
         "detailSrc": "assets/chip/2017/detail/5-6-17-5.webp",
         "pixelWidth": 134,
         "pixelHeight": 127
@@ -606,27 +606,27 @@
     "optionFigures": [
       {
         "src": "assets/chip/2017/5-6-22-1.webp",
-        "alt": "Светлые крупные цветки с множеством удлинённых лепестков.",
-        "width": 106,
-        "height": 100,
+        "alt": "У зелёного куста раскрыто несколько красно-оранжевых цветков.",
+        "width": 360,
+        "height": 480,
         "detailSrc": "assets/chip/2017/detail/5-6-22-1.webp",
         "pixelWidth": 132,
         "pixelHeight": 124
       },
       {
         "src": "assets/chip/2017/5-6-22-2.webp",
-        "alt": "Ярко-жёлтые цветки с широкими лепестками.",
-        "width": 106,
-        "height": 100,
+        "alt": "Оранжевый цветок с широкими лепестками и почти круглые листья.",
+        "width": 480,
+        "height": 439,
         "detailSrc": "assets/chip/2017/detail/5-6-22-2.webp",
         "pixelWidth": 132,
         "pixelHeight": 124
       },
       {
         "src": "assets/chip/2017/5-6-22-3.webp",
-        "alt": "Множество мелких жёлтых цветков на одном пучке.",
-        "width": 106,
-        "height": 100,
+        "alt": "Плотные жёлтые цветочные корзинки на тёмном фоне.",
+        "width": 480,
+        "height": 360,
         "detailSrc": "assets/chip/2017/detail/5-6-22-3.webp",
         "pixelWidth": 132,
         "pixelHeight": 124
@@ -634,8 +634,8 @@
       {
         "src": "assets/chip/2017/5-6-22-4.webp",
         "alt": "Группы жёлтых и оранжевых цветков с гофрированными краями.",
-        "width": 106,
-        "height": 100,
+        "width": 360,
+        "height": 480,
         "detailSrc": "assets/chip/2017/detail/5-6-22-4.webp",
         "pixelWidth": 132,
         "pixelHeight": 124
@@ -688,7 +688,7 @@
   },
   {
     "title": "Зверь, пришедший с юга",
-    "question": "Какой из этих североамериканских зверей принадлежит к группе, которая возникла в Южной Америке и известна подвижными костными щитками?",
+    "question": "Какой из этих зверей принадлежит к группе, которая возникла в Южной Америке и известна подвижными костными щитками?",
     "choices": [
       "",
       "",
@@ -702,13 +702,13 @@
       "На снимке Б спина зверя закрыта панцирем из щитков и подвижных полос. Он отличается от остальных не только окраской, но и строением тела.",
       "Это броненосец. Предки этой группы возникли в Южной Америке, а некоторые виды позже расселились на север."
     ],
-    "adaptation": "Уточнено, о происхождении какой группы животных идёт речь.",
+    "adaptation": "Уточнено происхождение группы. Среди вариантов есть зверь из Евразии.",
     "optionFigures": [
       {
         "src": "assets/chip/2017/5-6-25-1.webp",
         "alt": "Крупная кошка со светлой мордой.",
-        "width": 106,
-        "height": 84,
+        "width": 480,
+        "height": 320,
         "detailSrc": "assets/chip/2017/detail/5-6-25-1.webp",
         "pixelWidth": 132,
         "pixelHeight": 105
@@ -716,8 +716,8 @@
       {
         "src": "assets/chip/2017/5-6-25-2.webp",
         "alt": "Животное с подвижными полосами панциря.",
-        "width": 106,
-        "height": 84,
+        "width": 480,
+        "height": 425,
         "detailSrc": "assets/chip/2017/detail/5-6-25-2.webp",
         "pixelWidth": 132,
         "pixelHeight": 105
@@ -725,8 +725,8 @@
       {
         "src": "assets/chip/2017/5-6-25-3.webp",
         "alt": "Бурый зверёк на земле.",
-        "width": 106,
-        "height": 84,
+        "width": 413,
+        "height": 480,
         "detailSrc": "assets/chip/2017/detail/5-6-25-3.webp",
         "pixelWidth": 132,
         "pixelHeight": 105
@@ -734,17 +734,17 @@
       {
         "src": "assets/chip/2017/5-6-25-4.webp",
         "alt": "Массивное копытное.",
-        "width": 106,
-        "height": 84,
+        "width": 480,
+        "height": 313,
         "detailSrc": "assets/chip/2017/detail/5-6-25-4.webp",
         "pixelWidth": 132,
         "pixelHeight": 105
       },
       {
         "src": "assets/chip/2017/5-6-25-5.webp",
-        "alt": "Тёмно-бурая птица в профиль.",
-        "width": 106,
-        "height": 84,
+        "alt": "Небольшой пёстрый грызун с короткими ушами среди камней.",
+        "width": 480,
+        "height": 379,
         "detailSrc": "assets/chip/2017/detail/5-6-25-5.webp",
         "pixelWidth": 132,
         "pixelHeight": 105
@@ -847,7 +847,7 @@
     "optionFigures": [
       {
         "src": "assets/chip/2017/5-6-30-1.svg",
-        "alt": "Уровень воды совпадает с красной линией.",
+        "alt": "Поверхность воды выше красной линии.",
         "width": 160,
         "height": 108,
         "detailSrc": "assets/chip/2017/5-6-30-1.svg"
@@ -861,7 +861,7 @@
       },
       {
         "src": "assets/chip/2017/5-6-30-3.svg",
-        "alt": "Поверхность воды выше красной линии.",
+        "alt": "Уровень воды совпадает с красной линией.",
         "width": 160,
         "height": 108,
         "detailSrc": "assets/chip/2017/5-6-30-3.svg"

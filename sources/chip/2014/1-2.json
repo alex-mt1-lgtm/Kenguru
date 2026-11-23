@@ -120,10 +120,10 @@
       {
         "src": "assets/chip/2014/1-2-04-5.webp",
         "detailSrc": "assets/chip/2014/detail/1-2-04-5.webp",
-        "width": 105,
-        "height": 105,
-        "pixelWidth": 105,
-        "pixelHeight": 105,
+        "width": 360,
+        "height": 480,
+        "pixelWidth": 1200,
+        "pixelHeight": 1600,
         "alt": "Белая собака с короткой мордой."
       }
     ]
@@ -166,8 +166,8 @@
     "figure": {
       "src": "assets/chip/2014/1-2-06.webp",
       "detailSrc": "assets/chip/2014/detail/1-2-06.webp",
-      "width": 150,
-      "height": 172,
+      "width": 129,
+      "height": 148,
       "pixelWidth": 150,
       "pixelHeight": 172,
       "alt": "Сказочная женщина в узорном одеянии, вокруг цветные камни и растения."
@@ -451,8 +451,8 @@
       {
         "src": "assets/chip/2014/1-2-15-2.webp",
         "detailSrc": "assets/chip/2014/detail/1-2-15-2.webp",
-        "width": 105,
-        "height": 105,
+        "width": 90,
+        "height": 90,
         "pixelWidth": 105,
         "pixelHeight": 105,
         "alt": "По стволу дерева тянутся побеги с узкими листьями."

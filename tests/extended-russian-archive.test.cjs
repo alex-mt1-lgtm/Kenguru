@@ -38,10 +38,9 @@ test('every converted Russian edition has a complete, scored walkthrough in the 
   for (const {year, grade} of readMaterials()) {
     const id = year + '-medvezhonok-' + grade;
     const file = path.join(source, String(year), 'editions', grade + '.json');
-    const available = fs.existsSync(file);
-    assert.equal(archive.includes('href="./#zadacha=' + id + '/1"'), available, id);
-    assert.equal(editions.has(id), available, id);
-    if (!available) continue;
+    assert.ok(fs.existsSync(file), id + ' has an original booklet and needs an interactive edition');
+    assert.ok(archive.includes('href="./#zadacha=' + id + '/1"'), id);
+    assert.ok(editions.has(id), id);
     const book = editions.get(id);
     const rows = JSON.parse(fs.readFileSync(file));
     assert.equal(book.indices.length, rows.length, id);

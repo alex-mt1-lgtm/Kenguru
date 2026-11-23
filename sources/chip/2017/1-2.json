@@ -212,8 +212,8 @@
       {
         "src": "assets/chip/2017/1-2-07-1.webp",
         "alt": "Зелёное животное на берегу с длинными задними лапами.",
-        "width": 106,
-        "height": 97,
+        "width": 480,
+        "height": 371,
         "detailSrc": "assets/chip/2017/detail/1-2-07-1.webp",
         "pixelWidth": 132,
         "pixelHeight": 121
@@ -221,8 +221,8 @@
       {
         "src": "assets/chip/2017/1-2-07-2.webp",
         "alt": "Маленький зверёк с круглыми ушами и тонким хвостом.",
-        "width": 106,
-        "height": 97,
+        "width": 480,
+        "height": 320,
         "detailSrc": "assets/chip/2017/detail/1-2-07-2.webp",
         "pixelWidth": 132,
         "pixelHeight": 121
@@ -230,8 +230,8 @@
       {
         "src": "assets/chip/2017/1-2-07-3.webp",
         "alt": "Зверёк с рыжеватым пушистым хвостом.",
-        "width": 106,
-        "height": 96,
+        "width": 480,
+        "height": 480,
         "detailSrc": "assets/chip/2017/detail/1-2-07-3.webp",
         "pixelWidth": 133,
         "pixelHeight": 121
@@ -239,8 +239,8 @@
       {
         "src": "assets/chip/2017/1-2-07-4.webp",
         "alt": "Зверёк с длинными ушами.",
-        "width": 106,
-        "height": 97,
+        "width": 441,
+        "height": 480,
         "detailSrc": "assets/chip/2017/detail/1-2-07-4.webp",
         "pixelWidth": 132,
         "pixelHeight": 121
@@ -248,8 +248,8 @@
       {
         "src": "assets/chip/2017/1-2-07-5.webp",
         "alt": "Крупная птица с расправленными крыльями.",
-        "width": 115,
-        "height": 97,
+        "width": 480,
+        "height": 320,
         "detailSrc": "assets/chip/2017/detail/1-2-07-5.webp",
         "pixelWidth": 144,
         "pixelHeight": 121
@@ -429,8 +429,8 @@
       {
         "src": "assets/chip/2017/1-2-12-1.webp",
         "alt": "Красный круглый жук с чёрными пятнами.",
-        "width": 114,
-        "height": 103,
+        "width": 480,
+        "height": 480,
         "detailSrc": "assets/chip/2017/detail/1-2-12-1.webp",
         "pixelWidth": 143,
         "pixelHeight": 129
@@ -438,8 +438,8 @@
       {
         "src": "assets/chip/2017/1-2-12-2.webp",
         "alt": "Округлый жук с чёрными продольными полосами на светлых надкрыльях.",
-        "width": 114,
-        "height": 103,
+        "width": 480,
+        "height": 312,
         "detailSrc": "assets/chip/2017/detail/1-2-12-2.webp",
         "pixelWidth": 143,
         "pixelHeight": 129
@@ -447,8 +447,8 @@
       {
         "src": "assets/chip/2017/1-2-12-3.webp",
         "alt": "Овальный тёмный жук без яркого рисунка.",
-        "width": 114,
-        "height": 104,
+        "width": 480,
+        "height": 332,
         "detailSrc": "assets/chip/2017/detail/1-2-12-3.webp",
         "pixelWidth": 142,
         "pixelHeight": 129
@@ -464,9 +464,9 @@
       },
       {
         "src": "assets/chip/2017/1-2-12-5.webp",
-        "alt": "Тёмный жук с длинными заметными челюстями.",
-        "width": 108,
-        "height": 103,
+        "alt": "Тёмный жук с вытянутой головой и длинным хоботком.",
+        "width": 480,
+        "height": 356,
         "detailSrc": "assets/chip/2017/detail/1-2-12-5.webp",
         "pixelWidth": 135,
         "pixelHeight": 129

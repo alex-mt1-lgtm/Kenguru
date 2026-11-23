@@ -65,11 +65,11 @@
       {
         "src": "assets/chip/2015/5-6-02-5.webp",
         "alt": "Горизонтальные белая, синяя и красная полосы и небольшой щит в углу.",
-        "width": 160,
-        "height": 80,
-        "detailSrc": "assets/chip/2015/detail/5-6-02-5.webp",
-        "pixelWidth": 200,
-        "pixelHeight": 100
+        "width": 360,
+        "height": 180,
+        "detailSrc": "assets/chip/2015/detail/5-6-02-5.svg",
+        "pixelWidth": 800,
+        "pixelHeight": 400
       }
     ]
   },
@@ -250,47 +250,47 @@
       {
         "src": "assets/chip/2015/3-4-12-1.webp",
         "alt": "Хохлатый красный цветок с зубчатыми краями лепестков.",
-        "width": 122,
-        "height": 122,
+        "width": 360,
+        "height": 270,
         "detailSrc": "assets/chip/2015/detail/3-4-12-1.webp",
-        "pixelWidth": 152,
-        "pixelHeight": 152
+        "pixelWidth": 800,
+        "pixelHeight": 600
       },
       {
         "src": "assets/chip/2015/3-4-12-2.webp",
         "alt": "Белый цветок с крупными пыльниками.",
-        "width": 122,
-        "height": 122,
+        "width": 256,
+        "height": 360,
         "detailSrc": "assets/chip/2015/detail/3-4-12-2.webp",
-        "pixelWidth": 152,
-        "pixelHeight": 152
+        "pixelWidth": 997,
+        "pixelHeight": 1400
       },
       {
         "src": "assets/chip/2015/3-4-12-3.webp",
         "alt": "Розовый цветок с многочисленными свёрнутыми лепестками.",
-        "width": 121,
-        "height": 122,
+        "width": 360,
+        "height": 240,
         "detailSrc": "assets/chip/2015/detail/3-4-12-3.webp",
-        "pixelWidth": 151,
-        "pixelHeight": 152
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2015/3-4-12-4.webp",
         "alt": "Белые лепестки окружают жёлтую круглую середину.",
-        "width": 121,
-        "height": 122,
+        "width": 360,
+        "height": 327,
         "detailSrc": "assets/chip/2015/detail/3-4-12-4.webp",
-        "pixelWidth": 151,
-        "pixelHeight": 152
+        "pixelWidth": 1280,
+        "pixelHeight": 1164
       },
       {
         "src": "assets/chip/2015/3-4-12-5.webp",
         "alt": "Жёлтый цветок в форме бокала.",
-        "width": 122,
-        "height": 122,
+        "width": 240,
+        "height": 360,
         "detailSrc": "assets/chip/2015/detail/3-4-12-5.webp",
-        "pixelWidth": 152,
-        "pixelHeight": 152
+        "pixelWidth": 1000,
+        "pixelHeight": 1500
       }
     ]
   },
@@ -486,12 +486,12 @@
     ],
     "figure": {
       "src": "assets/chip/2015/5-6-21.webp",
-      "alt": "Карта Европы. Красная стрелка указывает на море к востоку от южной части Скандинавии.",
-      "width": 158,
-      "height": 164,
-      "detailSrc": "assets/chip/2015/detail/5-6-21.webp",
-      "pixelWidth": 198,
-      "pixelHeight": 205
+      "alt": "Карта Северной и Центральной Европы. Стрелка отмечает водоём между Скандинавией и восточным берегом Балтики.",
+      "width": 360,
+      "height": 240,
+      "detailSrc": "assets/chip/2015/detail/5-6-21.svg",
+      "pixelWidth": 800,
+      "pixelHeight": 534
     }
   },
   {
@@ -610,11 +610,11 @@
       {
         "src": "assets/chip/2015/5-6-26-3.webp",
         "alt": "Длинные жёлтые початки с широкими листьями.",
-        "width": 106,
-        "height": 106,
+        "width": 360,
+        "height": 240,
         "detailSrc": "assets/chip/2015/detail/5-6-26-3.webp",
-        "pixelWidth": 133,
-        "pixelHeight": 133
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2015/5-6-26-4.webp",
@@ -628,11 +628,11 @@
       {
         "src": "assets/chip/2015/5-6-26-5.webp",
         "alt": "Стручки с круглыми семенами.",
-        "width": 106,
-        "height": 106,
+        "width": 360,
+        "height": 153,
         "detailSrc": "assets/chip/2015/detail/5-6-26-5.webp",
-        "pixelWidth": 133,
-        "pixelHeight": 133
+        "pixelWidth": 1280,
+        "pixelHeight": 543
       }
     ]
   },

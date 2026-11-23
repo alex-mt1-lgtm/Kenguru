@@ -3,18 +3,22 @@
 from io import BytesIO
 import json
 from pathlib import Path
+from xml.etree import ElementTree
 
 import fitz
 from PIL import Image
 
-from pdf_figure import cropped_svg
+from pdf_figure import cropped_svg, remove_print_marks
 
 ROOT = Path(__file__).resolve().parents[1]
 
 
 def vector_asset(document, record, destination):
     rect = fitz.Rect(record['box'])
-    destination.write_text(cropped_svg(document, record['page'], rect), encoding='utf-8')
+    svg = cropped_svg(document, record['page'], rect)
+    if record.get('excludeRects'):
+        svg = remove_print_marks(ElementTree.fromstring(svg), exclude_rects=record['excludeRects'])
+    destination.write_text(svg, encoding='utf-8')
 
 
 def photo_assets(document, record, directory):

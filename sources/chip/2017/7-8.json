@@ -71,8 +71,8 @@
     "figure": {
       "src": "assets/chip/2017/7-8-04.webp",
       "alt": "Модель высокого парусного корабля с тремя мачтами и надстройками.",
-      "width": 146,
-      "height": 126,
+      "width": 480,
+      "height": 360,
       "detailSrc": "assets/chip/2017/detail/7-8-04.webp",
       "pixelWidth": 182,
       "pixelHeight": 157
@@ -98,8 +98,8 @@
       {
         "src": "assets/chip/2017/7-8-05-1.webp",
         "alt": "Здание с белым куполом.",
-        "width": 106,
-        "height": 96,
+        "width": 480,
+        "height": 255,
         "detailSrc": "assets/chip/2017/detail/7-8-05-1.webp",
         "pixelWidth": 132,
         "pixelHeight": 120
@@ -107,8 +107,8 @@
       {
         "src": "assets/chip/2017/7-8-05-2.webp",
         "alt": "Статуя с факелом на высоком постаменте.",
-        "width": 106,
-        "height": 96,
+        "width": 313,
+        "height": 480,
         "detailSrc": "assets/chip/2017/detail/7-8-05-2.webp",
         "pixelWidth": 132,
         "pixelHeight": 120
@@ -125,8 +125,8 @@
       {
         "src": "assets/chip/2017/7-8-05-4.webp",
         "alt": "Красный подвесной мост над водой.",
-        "width": 106,
-        "height": 96,
+        "width": 480,
+        "height": 300,
         "detailSrc": "assets/chip/2017/detail/7-8-05-4.webp",
         "pixelWidth": 132,
         "pixelHeight": 120
@@ -195,9 +195,9 @@
     ],
     "figure": {
       "src": "assets/chip/2017/7-8-08.webp",
-      "alt": "Открытая равнина со светлыми травами до горизонта.",
-      "width": 146,
-      "height": 97,
+      "alt": "Открытая равнина с высокой пожелтевшей травой и стадом крупных животных.",
+      "width": 480,
+      "height": 328,
       "detailSrc": "assets/chip/2017/detail/7-8-08.webp",
       "pixelWidth": 183,
       "pixelHeight": 122
@@ -234,16 +234,16 @@
     "answer": 4,
     "points": 3,
     "steps": [
-      "Кукуруза появилась как сельскохозяйственная культура южнее, в Мезоамерике. На востоке нынешних США древние земледельцы выращивали другую культуру из этого ряда.",
-      "Это подсолнечник. Его узнают по крупной корзинке с жёлтыми цветками по краям, как на снимке Д."
+      "Древние земледельцы на востоке нынешних США выращивали растение с крупными корзинками. В центре корзинки созревают семена, а по краю видны ярко-жёлтые цветки.",
+      "Так выглядит подсолнечник на снимке Д. У растений на других снимках свои признаки: колоски пшеницы, корнеплоды редиса, плоды баклажана и стручки гороха."
     ],
-    "adaptation": "Одомашнивание уточнено по региону. Кукуруза тоже происходит из Северной Америки.",
+    "adaptation": "Уточнено место одомашнивания растения.",
     "optionFigures": [
       {
         "src": "assets/chip/2017/7-8-10-1.webp",
         "alt": "Золотистые колоски злака.",
-        "width": 106,
-        "height": 95,
+        "width": 480,
+        "height": 372,
         "detailSrc": "assets/chip/2017/detail/7-8-10-1.webp",
         "pixelWidth": 132,
         "pixelHeight": 118
@@ -251,8 +251,8 @@
       {
         "src": "assets/chip/2017/7-8-10-2.webp",
         "alt": "Круглые красные корнеплоды.",
-        "width": 106,
-        "height": 95,
+        "width": 360,
+        "height": 480,
         "detailSrc": "assets/chip/2017/detail/7-8-10-2.webp",
         "pixelWidth": 132,
         "pixelHeight": 118
@@ -260,17 +260,17 @@
       {
         "src": "assets/chip/2017/7-8-10-3.webp",
         "alt": "Тёмно-фиолетовые продолговатые плоды.",
-        "width": 106,
-        "height": 95,
+        "width": 440,
+        "height": 480,
         "detailSrc": "assets/chip/2017/detail/7-8-10-3.webp",
         "pixelWidth": 132,
         "pixelHeight": 118
       },
       {
         "src": "assets/chip/2017/7-8-10-4.webp",
-        "alt": "Высокие растения с крупными зелёными листьями и початками.",
-        "width": 106,
-        "height": 95,
+        "alt": "Зелёные стручки на стеблях с усиками.",
+        "width": 360,
+        "height": 480,
         "detailSrc": "assets/chip/2017/detail/7-8-10-4.webp",
         "pixelWidth": 132,
         "pixelHeight": 118
@@ -330,8 +330,8 @@
       {
         "src": "assets/chip/2017/7-8-12-2.webp",
         "alt": "Яркая зелёная птица с красной грудью и длинным хвостом.",
-        "width": 59,
-        "height": 105,
+        "width": 320,
+        "height": 480,
         "detailSrc": "assets/chip/2017/detail/7-8-12-2.webp",
         "pixelWidth": 73,
         "pixelHeight": 131
@@ -357,7 +357,7 @@
   },
   {
     "title": "Зерно у ацтеков",
-    "question": "Какой злак был одной из главных сельскохозяйственных культур ацтеков?",
+    "question": "Какое растение было одной из главных сельскохозяйственных культур ацтеков?",
     "choices": [
       "пшеница",
       "кукуруза",
@@ -391,9 +391,9 @@
     "optionFigures": [
       {
         "src": "assets/chip/2017/7-8-15-1.webp",
-        "alt": "Животное с длинными ушами и светлым подбрюшьем.",
-        "width": 106,
-        "height": 96,
+        "alt": "Копытное с широкими ветвистыми рогами.",
+        "width": 480,
+        "height": 325,
         "detailSrc": "assets/chip/2017/detail/7-8-15-1.webp",
         "pixelWidth": 132,
         "pixelHeight": 120
@@ -401,8 +401,8 @@
       {
         "src": "assets/chip/2017/7-8-15-2.webp",
         "alt": "Крупное животное с гривой и горбом.",
-        "width": 106,
-        "height": 96,
+        "width": 480,
+        "height": 313,
         "detailSrc": "assets/chip/2017/detail/7-8-15-2.webp",
         "pixelWidth": 132,
         "pixelHeight": 120
@@ -410,8 +410,8 @@
       {
         "src": "assets/chip/2017/7-8-15-3.webp",
         "alt": "Копытное с тёмными ветвящимися рогами.",
-        "width": 106,
-        "height": 96,
+        "width": 480,
+        "height": 320,
         "detailSrc": "assets/chip/2017/detail/7-8-15-3.webp",
         "pixelWidth": 132,
         "pixelHeight": 120
@@ -419,8 +419,8 @@
       {
         "src": "assets/chip/2017/7-8-15-4.webp",
         "alt": "Серый зверь с острыми ушами.",
-        "width": 106,
-        "height": 96,
+        "width": 480,
+        "height": 372,
         "detailSrc": "assets/chip/2017/detail/7-8-15-4.webp",
         "pixelWidth": 132,
         "pixelHeight": 120
@@ -526,9 +526,9 @@
     "optionFigures": [
       {
         "src": "assets/chip/2017/7-8-20-1.webp",
-        "alt": "Небольшая продолговатая буроватая птица на дереве.",
-        "width": 106,
-        "height": 96,
+        "alt": "Небольшая продолговатая буроватая птица с тонким клювом.",
+        "width": 471,
+        "height": 480,
         "detailSrc": "assets/chip/2017/detail/7-8-20-1.webp",
         "pixelWidth": 132,
         "pixelHeight": 119
@@ -536,17 +536,17 @@
       {
         "src": "assets/chip/2017/7-8-20-2.webp",
         "alt": "Птица с крючковатым клювом на ветке.",
-        "width": 106,
-        "height": 96,
+        "width": 480,
+        "height": 395,
         "detailSrc": "assets/chip/2017/detail/7-8-20-2.webp",
         "pixelWidth": 132,
         "pixelHeight": 119
       },
       {
         "src": "assets/chip/2017/7-8-20-3.webp",
-        "alt": "Крупная блестяще-чёрная птица.",
-        "width": 106,
-        "height": 96,
+        "alt": "Чёрная птица со светлым затылком.",
+        "width": 480,
+        "height": 480,
         "detailSrc": "assets/chip/2017/detail/7-8-20-3.webp",
         "pixelWidth": 132,
         "pixelHeight": 119
@@ -554,17 +554,17 @@
       {
         "src": "assets/chip/2017/7-8-20-4.webp",
         "alt": "Маленькая серо-бурая птица с коротким клювом.",
-        "width": 106,
-        "height": 96,
+        "width": 480,
+        "height": 373,
         "detailSrc": "assets/chip/2017/detail/7-8-20-4.webp",
         "pixelWidth": 132,
         "pixelHeight": 119
       },
       {
         "src": "assets/chip/2017/7-8-20-5.webp",
-        "alt": "Бурая птица с длинными крыльями на открытом месте.",
-        "width": 106,
-        "height": 96,
+        "alt": "Птица с длинными крыльями и тёмной полосой у клюва.",
+        "width": 395,
+        "height": 480,
         "detailSrc": "assets/chip/2017/detail/7-8-20-5.webp",
         "pixelWidth": 132,
         "pixelHeight": 119
@@ -626,7 +626,7 @@
   },
   {
     "title": "Очень древние горы",
-    "question": "Какая горная система Канады относится к древним породам Канадского щита и существовала задолго до формирования Пангеи?",
+    "question": "Какая система гор Канады находится в пределах Канадского щита и сложена породами, сформировавшимися задолго до Пангеи?",
     "choices": [
       "Сьерра-Невада",
       "Скалистые горы",
@@ -697,8 +697,8 @@
     "figure": {
       "src": "assets/chip/2017/7-8-27.webp",
       "alt": "Скорпион с поднятым сегментированным хвостом.",
-      "width": 147,
-      "height": 90,
+      "width": 480,
+      "height": 275,
       "detailSrc": "assets/chip/2017/detail/7-8-27.webp",
       "pixelWidth": 184,
       "pixelHeight": 113

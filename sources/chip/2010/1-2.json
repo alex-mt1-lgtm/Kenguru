@@ -212,51 +212,42 @@
     ],
     "optionFigures": [
       {
-        "src": "assets/chip/2010/1-2-07-1.webp",
+        "src": "assets/chip/2010/1-2-07-1.svg",
         "alt": "Ветка с округлыми глубокими вырезами по краям листьев.",
-        "width": 54,
-        "height": 86,
-        "detailSrc": "assets/chip/2010/detail/1-2-07-1.webp",
-        "pixelWidth": 68,
-        "pixelHeight": 108
+        "width": 360,
+        "height": 360,
+        "detailSrc": "assets/chip/2010/1-2-07-1.svg"
       },
       {
-        "src": "assets/chip/2010/1-2-07-2.webp",
+        "src": "assets/chip/2010/1-2-07-2.svg",
         "alt": "Ветка с гроздью красных плодов и рядом узких листочков.",
-        "width": 84,
-        "height": 86,
-        "detailSrc": "assets/chip/2010/detail/1-2-07-2.webp",
-        "pixelWidth": 105,
-        "pixelHeight": 108
+        "width": 360,
+        "height": 360,
+        "detailSrc": "assets/chip/2010/1-2-07-2.svg"
       },
       {
-        "src": "assets/chip/2010/1-2-07-3.webp",
+        "src": "assets/chip/2010/1-2-07-3.svg",
         "alt": "Ветка с крупными листьями, разделёнными на остроконечные лопасти.",
-        "width": 90,
-        "height": 86,
-        "detailSrc": "assets/chip/2010/detail/1-2-07-3.webp",
-        "pixelWidth": 113,
-        "pixelHeight": 108
+        "width": 360,
+        "height": 360,
+        "detailSrc": "assets/chip/2010/1-2-07-3.svg"
       },
       {
-        "src": "assets/chip/2010/1-2-07-4.webp",
+        "src": "assets/chip/2010/1-2-07-4.svg",
         "alt": "Ветка с широкими заострёнными листьями, похожими на сердечки.",
-        "width": 63,
-        "height": 86,
-        "detailSrc": "assets/chip/2010/detail/1-2-07-4.webp",
-        "pixelWidth": 79,
-        "pixelHeight": 108
+        "width": 360,
+        "height": 360,
+        "detailSrc": "assets/chip/2010/1-2-07-4.svg"
       },
       {
-        "src": "assets/chip/2010/1-2-07-5.webp",
+        "src": "assets/chip/2010/1-2-07-5.svg",
         "alt": "Зелёная ветка с короткими иголками.",
-        "width": 78,
-        "height": 86,
-        "detailSrc": "assets/chip/2010/detail/1-2-07-5.webp",
-        "pixelWidth": 98,
-        "pixelHeight": 108
+        "width": 360,
+        "height": 360,
+        "detailSrc": "assets/chip/2010/1-2-07-5.svg"
       }
-    ]
+    ],
+    "adaptation": "Ветви перерисованы по буклету. Сохранены порядок кадров, форма листьев и другие признаки растений."
   },
   {
     "title": "Направление ветра",
@@ -302,11 +293,11 @@
       {
         "src": "assets/chip/2010/1-2-09-1.webp",
         "alt": "Белые вытянутые лепестки вокруг круглой жёлтой середины.",
-        "width": 115,
-        "height": 115,
+        "width": 380,
+        "height": 380,
         "detailSrc": "assets/chip/2010/detail/1-2-09-1.webp",
-        "pixelWidth": 144,
-        "pixelHeight": 144
+        "pixelWidth": 1273,
+        "pixelHeight": 1273
       },
       {
         "src": "assets/chip/2010/1-2-09-2.webp",
@@ -344,7 +335,8 @@
         "pixelWidth": 144,
         "pixelHeight": 144
       }
-    ]
+    ],
+    "adaptation": "Варианты проиллюстрированы крупными фотографиями тех же объектов. Порядок и ответ сохранены."
   },
   {
     "title": "Чем питается крот",
@@ -435,11 +427,11 @@
       {
         "src": "assets/chip/2010/1-2-13-3.webp",
         "alt": "Серый волк на снегу.",
-        "width": 106,
-        "height": 106,
+        "width": 380,
+        "height": 380,
         "detailSrc": "assets/chip/2010/detail/1-2-13-3.webp",
-        "pixelWidth": 132,
-        "pixelHeight": 132
+        "pixelWidth": 991,
+        "pixelHeight": 991
       },
       {
         "src": "assets/chip/2010/1-2-13-4.webp",
@@ -452,14 +444,15 @@
       },
       {
         "src": "assets/chip/2010/1-2-13-5.webp",
-        "alt": "Зверь с густым светлым мехом и небольшими ушами.",
-        "width": 106,
-        "height": 106,
+        "alt": "Зверь с густым белым мехом и маленькими округлыми ушами на снегу.",
+        "width": 380,
+        "height": 380,
         "detailSrc": "assets/chip/2010/detail/1-2-13-5.webp",
-        "pixelWidth": 132,
-        "pixelHeight": 132
+        "pixelWidth": 1280,
+        "pixelHeight": 1280
       }
-    ]
+    ],
+    "adaptation": "Варианты проиллюстрированы крупными фотографиями тех же объектов. Порядок и ответ сохранены."
   },
   {
     "title": "Обороты Земли",
