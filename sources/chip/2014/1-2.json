@@ -18,11 +18,11 @@
     ],
     "figure": {
       "src": "assets/chip/2014/1-2-01.webp",
-      "detailSrc": "assets/chip/2014/detail/1-2-01.webp",
-      "width": 200,
-      "height": 191,
-      "pixelWidth": 200,
-      "pixelHeight": 191,
+      "detailSrc": "assets/chip/2014/detail/1-2-01.svg",
+      "width": 480,
+      "height": 459,
+      "pixelWidth": 1100,
+      "pixelHeight": 1050,
       "alt": "Схема материка, окружённого четырьмя океанами. На севере подписан Северный Ледовитый, на западе Атлантический, на юге Индийский, на востоке Тихий."
     }
   },
@@ -84,19 +84,19 @@
       {
         "src": "assets/chip/2014/1-2-04-1.webp",
         "detailSrc": "assets/chip/2014/detail/1-2-04-1.webp",
-        "width": 105,
-        "height": 104,
-        "pixelWidth": 105,
-        "pixelHeight": 104,
+        "width": 480,
+        "height": 360,
+        "pixelWidth": 1600,
+        "pixelHeight": 1200,
         "alt": "Зверь с широким плоским хвостом."
       },
       {
         "src": "assets/chip/2014/1-2-04-2.webp",
         "detailSrc": "assets/chip/2014/detail/1-2-04-2.webp",
-        "width": 105,
-        "height": 105,
-        "pixelWidth": 105,
-        "pixelHeight": 105,
+        "width": 480,
+        "height": 318,
+        "pixelWidth": 1280,
+        "pixelHeight": 848,
         "alt": "Рыжий зверь с заострённой мордой."
       },
       {
@@ -111,10 +111,10 @@
       {
         "src": "assets/chip/2014/1-2-04-4.webp",
         "detailSrc": "assets/chip/2014/detail/1-2-04-4.webp",
-        "width": 105,
-        "height": 105,
-        "pixelWidth": 105,
-        "pixelHeight": 105,
+        "width": 336,
+        "height": 480,
+        "pixelWidth": 1119,
+        "pixelHeight": 1600,
         "alt": "Бурый крупный зверь стоит на задних лапах."
       },
       {
@@ -295,47 +295,47 @@
     "optionFigures": [
       {
         "src": "assets/chip/2014/1-2-10-1.webp",
-        "detailSrc": "assets/chip/2014/detail/1-2-10-1.webp",
-        "width": 105,
-        "height": 105,
-        "pixelWidth": 105,
-        "pixelHeight": 105,
+        "detailSrc": "assets/chip/2014/detail/1-2-10-1.svg",
+        "width": 480,
+        "height": 480,
+        "pixelWidth": 1000,
+        "pixelHeight": 1000,
         "alt": "Ткань обёрнута вокруг головы, шеи и нижней части лица."
       },
       {
         "src": "assets/chip/2014/1-2-10-2.webp",
-        "detailSrc": "assets/chip/2014/detail/1-2-10-2.webp",
-        "width": 105,
-        "height": 105,
-        "pixelWidth": 105,
-        "pixelHeight": 105,
+        "detailSrc": "assets/chip/2014/detail/1-2-10-2.svg",
+        "width": 480,
+        "height": 480,
+        "pixelWidth": 1000,
+        "pixelHeight": 1000,
         "alt": "Тёплая меховая шапка."
       },
       {
         "src": "assets/chip/2014/1-2-10-3.webp",
-        "detailSrc": "assets/chip/2014/detail/1-2-10-3.webp",
-        "width": 105,
-        "height": 105,
-        "pixelWidth": 105,
-        "pixelHeight": 105,
+        "detailSrc": "assets/chip/2014/detail/1-2-10-3.svg",
+        "width": 480,
+        "height": 480,
+        "pixelWidth": 1000,
+        "pixelHeight": 1000,
         "alt": "Широкая коническая шляпа."
       },
       {
         "src": "assets/chip/2014/1-2-10-4.webp",
-        "detailSrc": "assets/chip/2014/detail/1-2-10-4.webp",
-        "width": 105,
-        "height": 105,
-        "pixelWidth": 105,
-        "pixelHeight": 105,
+        "detailSrc": "assets/chip/2014/detail/1-2-10-4.svg",
+        "width": 480,
+        "height": 480,
+        "pixelWidth": 1000,
+        "pixelHeight": 1000,
         "alt": "Шляпа с круглой тульей и сеткой перед лицом."
       },
       {
         "src": "assets/chip/2014/1-2-10-5.webp",
-        "detailSrc": "assets/chip/2014/detail/1-2-10-5.webp",
-        "width": 105,
-        "height": 105,
-        "pixelWidth": 105,
-        "pixelHeight": 105,
+        "detailSrc": "assets/chip/2014/detail/1-2-10-5.svg",
+        "width": 480,
+        "height": 480,
+        "pixelWidth": 1000,
+        "pixelHeight": 1000,
         "alt": "Кепка с козырьком."
       }
     ]
@@ -378,10 +378,10 @@
     "figure": {
       "src": "assets/chip/2014/1-2-12.webp",
       "detailSrc": "assets/chip/2014/detail/1-2-12.webp",
-      "width": 200,
-      "height": 173,
-      "pixelWidth": 200,
-      "pixelHeight": 173,
+      "width": 480,
+      "height": 428,
+      "pixelWidth": 1200,
+      "pixelHeight": 1071,
       "alt": "Заснеженная вершина среди облаков и глубоких долин."
     }
   },
@@ -442,10 +442,10 @@
       {
         "src": "assets/chip/2014/1-2-15-1.webp",
         "detailSrc": "assets/chip/2014/detail/1-2-15-1.webp",
-        "width": 105,
-        "height": 105,
-        "pixelWidth": 105,
-        "pixelHeight": 105,
+        "width": 480,
+        "height": 360,
+        "pixelWidth": 1600,
+        "pixelHeight": 1200,
         "alt": "Крупные лопастные листья и продолговатый зелёный плод."
       },
       {
@@ -469,19 +469,19 @@
       {
         "src": "assets/chip/2014/1-2-15-4.webp",
         "detailSrc": "assets/chip/2014/detail/1-2-15-4.webp",
-        "width": 105,
-        "height": 105,
-        "pixelWidth": 105,
-        "pixelHeight": 105,
+        "width": 480,
+        "height": 342,
+        "pixelWidth": 1280,
+        "pixelHeight": 912,
         "alt": "Тёмные сборные плоды на ветке."
       },
       {
         "src": "assets/chip/2014/1-2-15-5.webp",
         "detailSrc": "assets/chip/2014/detail/1-2-15-5.webp",
-        "width": 105,
-        "height": 105,
-        "pixelWidth": 105,
-        "pixelHeight": 105,
+        "width": 480,
+        "height": 360,
+        "pixelWidth": 1600,
+        "pixelHeight": 1200,
         "alt": "Невысокое растение с оранжевой сборной ягодой."
       }
     ]

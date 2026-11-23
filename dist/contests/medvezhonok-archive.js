@@ -5,9 +5,13 @@ globalThis.makeMedvezhonokEdition = function (year, grade, rows, material = {}) 
   const plain = value => value.replace(/<\/?(?:em|strong|u)>/g, '');
   const escape = value => value.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
   const grades = grade.split('-').map(Number);
-  const lessons = rows.map(({author, question, choices, key, review, figure, unrated, points}, index) => {
+  const lessons = rows.map(({author, question, choices, key, review, figure, unrated, points, acceptedAnswers}, index) => {
     const [title, idea, check] = review;
     const answer = letters.indexOf(key);
+    if (acceptedAnswers && (!acceptedAnswers.includes(answer) || new Set(acceptedAnswers).size !== acceptedAnswers.length ||
+        !acceptedAnswers.every(index => Number.isInteger(index) && index >= 0 && index < choices.length))) {
+      throw new Error('Invalid accepted answers in ' + year + '/' + grade + '/' + (index + 1));
+    }
     const textChoices = choices.map(plain);
     const options = figure?.options?.map(({src, detailSrc, description, pixelWidth, pixelHeight}, i) => ({
       image: src, ...(detailSrc ? {detailSrc} : {}), description, pixelWidth, pixelHeight, text: figure.onlyPictures ? '' : textChoices[i],
@@ -16,6 +20,7 @@ globalThis.makeMedvezhonokEdition = function (year, grade, rows, material = {}) 
       number: index + 1, title, author, question: plain(question), choices: textChoices,
       ...(plain(question) !== question ? {formattedQuestion: question} : {}),
       ...(textChoices.some((value,i) => value !== choices[i]) ? {formattedChoices: choices} : {}),
+      ...(acceptedAnswers ? {acceptedAnswers} : {}),
       ...(unrated ? {questionNote: unrated, archiveAnswer: key} : {}),
       ...(figure ? {
         choiceLayout: {options, condition: figure.condition},
@@ -38,8 +43,10 @@ globalThis.makeMedvezhonokEdition = function (year, grade, rows, material = {}) 
     )].slice(0, 5));
     return (step, frame) => {
       if (!step) return '';
-      const result = lessons[i].choices[letters.indexOf(key)].replace(/^\[(.*)\][.]?$/, '$1');
-      const tokens = step === 3 ? [key + (result ? ' · ' + result : '')] : terms[step-1];
+      const tokens = step === 3 ? (lessons[i].acceptedAnswers ?? [letters.indexOf(key)]).map(index => {
+        const result = lessons[i].choices[index].replace(/^\[(.*)\][.]?$/, '$1');
+        return letters[index] + (result ? ' · ' + result : '');
+      }) : terms[step-1];
       if (step < 3 && tokens.length < 2) return '';
       return '<div class="word-scene" data-result="' + (step === 3) + '">' + tokens.map((token, index) => {
         const reveal = Math.min(1, Math.max(0, (frame - index * 0.65) / 0.42));

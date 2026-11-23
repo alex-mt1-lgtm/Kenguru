@@ -862,7 +862,9 @@ function progressForAccount(PDO $db, array $account, ?stdClass $data = null): ar
                 if ($firstAnswer !== null) {
                     $task->firstAnswer = $firstAnswer;
                 }
-                $correct = $firstAnswer !== null && $firstAnswer === ratingCatalog()[$lesson][0];
+                $rule = ratingCatalog()[$lesson] ?? [];
+                $accepted = is_array($rule[2] ?? null) ? $rule[2] : [$rule[0] ?? null];
+                $correct = $firstAnswer !== null && in_array($firstAnswer, $accepted, true);
                 $value = $value === 'solved' && $correct ? 'solved' : 'reviewed';
                 $task->rating = $value;
                 $scoreChanged = $scoreChanged || $value === 'solved';

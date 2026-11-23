@@ -35,11 +35,11 @@
     "figure": {
       "src": "assets/chip/2015/7-8-02.webp",
       "alt": "Каменный храм с длинным рядом колонн на склоне холма.",
-      "width": 200,
-      "height": 96,
+      "width": 360,
+      "height": 253,
       "detailSrc": "assets/chip/2015/detail/7-8-02.webp",
-      "pixelWidth": 250,
-      "pixelHeight": 120
+      "pixelWidth": 1144,
+      "pixelHeight": 804
     }
   },
   {
@@ -496,38 +496,38 @@
       {
         "src": "assets/chip/2015/7-8-22-1.webp",
         "alt": "Округлые жёлтые корнеплоды.",
-        "width": 106,
-        "height": 105,
+        "width": 360,
+        "height": 240,
         "detailSrc": "assets/chip/2015/detail/7-8-22-1.webp",
-        "pixelWidth": 133,
-        "pixelHeight": 132
+        "pixelWidth": 1279,
+        "pixelHeight": 852
       },
       {
         "src": "assets/chip/2015/7-8-22-2.webp",
         "alt": "Вытянутые красноватые клубни.",
-        "width": 107,
-        "height": 105,
+        "width": 360,
+        "height": 270,
         "detailSrc": "assets/chip/2015/detail/7-8-22-2.webp",
-        "pixelWidth": 134,
-        "pixelHeight": 132
+        "pixelWidth": 1280,
+        "pixelHeight": 961
       },
       {
         "src": "assets/chip/2015/7-8-22-3.webp",
         "alt": "Круглые корнеплоды с фиолетовой кожицей и светлой верхней отметиной.",
-        "width": 106,
-        "height": 105,
+        "width": 360,
+        "height": 270,
         "detailSrc": "assets/chip/2015/detail/7-8-22-3.webp",
-        "pixelWidth": 133,
-        "pixelHeight": 132
+        "pixelWidth": 1280,
+        "pixelHeight": 960
       },
       {
         "src": "assets/chip/2015/7-8-22-4.webp",
         "alt": "Красные и белые небольшие корнеплоды с длинной ботвой.",
-        "width": 106,
-        "height": 105,
+        "width": 270,
+        "height": 360,
         "detailSrc": "assets/chip/2015/detail/7-8-22-4.webp",
-        "pixelWidth": 133,
-        "pixelHeight": 132
+        "pixelWidth": 1050,
+        "pixelHeight": 1400
       },
       {
         "src": "assets/chip/2015/7-8-22-5.webp",
@@ -695,47 +695,47 @@
       {
         "src": "assets/chip/2015/7-8-28-1.webp",
         "alt": "Светлая бабочка с чёрными жилками и пятнами.",
-        "width": 121,
-        "height": 93,
+        "width": 360,
+        "height": 240,
         "detailSrc": "assets/chip/2015/detail/7-8-28-1.webp",
-        "pixelWidth": 151,
-        "pixelHeight": 116
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2015/7-8-28-2.webp",
         "alt": "Бурая бабочка с крупными глазчатыми пятнами.",
-        "width": 120,
-        "height": 93,
+        "width": 360,
+        "height": 288,
         "detailSrc": "assets/chip/2015/detail/7-8-28-2.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 116
+        "pixelWidth": 1280,
+        "pixelHeight": 1023
       },
       {
         "src": "assets/chip/2015/7-8-28-3.webp",
         "alt": "Бабочка с ярко-синими крыльями и тёмными краями.",
-        "width": 120,
-        "height": 93,
+        "width": 360,
+        "height": 225,
         "detailSrc": "assets/chip/2015/detail/7-8-28-3.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 116
+        "pixelWidth": 1201,
+        "pixelHeight": 749
       },
       {
         "src": "assets/chip/2015/7-8-28-4.webp",
         "alt": "Тёмная бабочка с яркими жёлтыми пятнами на задних крыльях.",
-        "width": 120,
-        "height": 93,
+        "width": 360,
+        "height": 270,
         "detailSrc": "assets/chip/2015/detail/7-8-28-4.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 116
+        "pixelWidth": 1280,
+        "pixelHeight": 960
       },
       {
         "src": "assets/chip/2015/7-8-28-5.webp",
         "alt": "Оранжевая бабочка с чёрными жилками и светлыми точками по краю.",
-        "width": 121,
-        "height": 93,
+        "width": 360,
+        "height": 270,
         "detailSrc": "assets/chip/2015/detail/7-8-28-5.webp",
-        "pixelWidth": 151,
-        "pixelHeight": 116
+        "pixelWidth": 1280,
+        "pixelHeight": 960
       }
     ]
   },

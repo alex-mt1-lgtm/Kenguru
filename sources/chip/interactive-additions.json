@@ -238,5 +238,80 @@
     "tasksFile": "задания_ЧИП-2017-5-6класс.pdf",
     "answersFile": "ответы_ЧИП_2017.pdf",
     "title": "Северная Америка"
+  },
+  {
+    "subject": "chip",
+    "year": 2017,
+    "grade": "7-8",
+    "contest": "Человек и природа",
+    "letters": "АБВГД",
+    "count": 30,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "задания_ЧИП-2017-7-8класс.pdf",
+    "answersFile": "ответы_ЧИП_2017.pdf",
+    "title": "Северная Америка"
+  },
+  {
+    "subject": "chip",
+    "year": 2017,
+    "grade": "9-10",
+    "contest": "Человек и природа",
+    "letters": "АБВГД",
+    "count": 30,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "задания_ЧИП-2017-9-10класс.pdf",
+    "answersFile": "ответы_ЧИП_2017.pdf",
+    "title": "Северная Америка"
+  },
+  {
+    "subject": "chip",
+    "year": 2018,
+    "grade": "1-2",
+    "contest": "Человек и природа",
+    "letters": "АБВГД",
+    "count": 20,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "чип2018_1_2класс_задания.pdf",
+    "answersFile": "чип2018_ответы.pdf",
+    "title": "Мир леса и Южная Америка",
+    "sections": [
+      {
+        "title": "Мир леса",
+        "start": 1
+      },
+      {
+        "title": "Южная Америка",
+        "start": 11
+      }
+    ]
+  },
+  {
+    "subject": "chip",
+    "year": 2018,
+    "grade": "3-4",
+    "contest": "Человек и природа",
+    "letters": "АБВГД",
+    "count": 30,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "чип2018_3-4класс_задания.pdf",
+    "answersFile": "чип2018_ответы.pdf",
+    "title": "Южная Америка"
+  },
+  {
+    "subject": "chip",
+    "year": 2018,
+    "grade": "5-6",
+    "contest": "Человек и природа",
+    "letters": "АБВГД",
+    "count": 30,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "чип2018_5-6класс_задания.pdf",
+    "answersFile": "чип2018_ответы.pdf",
+    "title": "Южная Америка"
   }
 ]

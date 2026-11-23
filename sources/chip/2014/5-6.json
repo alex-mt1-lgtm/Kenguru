@@ -372,10 +372,10 @@
       {
         "src": "assets/chip/2014/5-6-14-2.webp",
         "detailSrc": "assets/chip/2014/detail/5-6-14-2.webp",
-        "width": 127,
-        "height": 105,
-        "pixelWidth": 127,
-        "pixelHeight": 105,
+        "width": 480,
+        "height": 370,
+        "pixelWidth": 1280,
+        "pixelHeight": 987,
         "alt": "Крупное животное с длинной шерстью и рогами."
       },
       {
@@ -390,19 +390,19 @@
       {
         "src": "assets/chip/2014/5-6-14-4.webp",
         "detailSrc": "assets/chip/2014/detail/5-6-14-4.webp",
-        "width": 124,
-        "height": 105,
-        "pixelWidth": 124,
-        "pixelHeight": 105,
+        "width": 480,
+        "height": 320,
+        "pixelWidth": 1280,
+        "pixelHeight": 853,
         "alt": "Серое животное с хоботом."
       },
       {
         "src": "assets/chip/2014/5-6-14-5.webp",
         "detailSrc": "assets/chip/2014/detail/5-6-14-5.webp",
-        "width": 125,
-        "height": 105,
-        "pixelWidth": 125,
-        "pixelHeight": 105,
+        "width": 480,
+        "height": 421,
+        "pixelWidth": 1280,
+        "pixelHeight": 1123,
         "alt": "Стройное длинношеее животное с небольшой головой."
       }
     ]
@@ -483,11 +483,11 @@
       {
         "src": "assets/chip/2014/5-6-18-1.webp",
         "detailSrc": "assets/chip/2014/detail/5-6-18-1.webp",
-        "width": 117,
-        "height": 100,
-        "pixelWidth": 117,
-        "pixelHeight": 100,
-        "alt": "Небольшой зверь с длинными ушами."
+        "width": 480,
+        "height": 320,
+        "pixelWidth": 1280,
+        "pixelHeight": 853,
+        "alt": "Серо-бурый зверь с заметными изогнутыми бивнями и вытянутой мордой."
       },
       {
         "src": "assets/chip/2014/5-6-18-2.webp",
@@ -732,11 +732,11 @@
     ],
     "figure": {
       "src": "assets/chip/2014/5-6-28.webp",
-      "detailSrc": "assets/chip/2014/detail/5-6-28.webp",
-      "width": 250,
-      "height": 128,
-      "pixelWidth": 250,
-      "pixelHeight": 128,
+      "detailSrc": "assets/chip/2014/detail/5-6-28.svg",
+      "width": 480,
+      "height": 246,
+      "pixelWidth": 1100,
+      "pixelHeight": 563,
       "alt": "Линия от Средиземного моря до Восточной Азии с морским маршрутом в обратную сторону."
     }
   },

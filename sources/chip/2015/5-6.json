@@ -110,11 +110,11 @@
     "figure": {
       "src": "assets/chip/2015/5-6-04.webp",
       "alt": "Мост через реку, две каменные башни соединены верхним переходом.",
-      "width": 200,
-      "height": 174,
+      "width": 360,
+      "height": 240,
       "detailSrc": "assets/chip/2015/detail/5-6-04.webp",
-      "pixelWidth": 250,
-      "pixelHeight": 218
+      "pixelWidth": 1280,
+      "pixelHeight": 853
     }
   },
   {
@@ -205,8 +205,8 @@
     "figure": {
       "src": "assets/chip/2015/5-6-09.webp",
       "alt": "Солдаты спускаются по заснеженному обрыву, сверху за ними наблюдает всадник.",
-      "width": 358,
-      "height": 480,
+      "width": 268,
+      "height": 360,
       "detailSrc": "assets/chip/2015/detail/5-6-09.webp",
       "pixelWidth": 1192,
       "pixelHeight": 1600
@@ -426,11 +426,11 @@
     "figure": {
       "src": "assets/chip/2015/5-6-18.webp",
       "alt": "Небольшое округлое озеро с высоким зелёным берегом.",
-      "width": 200,
-      "height": 97,
+      "width": 360,
+      "height": 239,
       "detailSrc": "assets/chip/2015/detail/5-6-18.webp",
-      "pixelWidth": 250,
-      "pixelHeight": 121
+      "pixelWidth": 1280,
+      "pixelHeight": 851
     }
   },
   {
@@ -592,20 +592,20 @@
       {
         "src": "assets/chip/2015/5-6-26-1.webp",
         "alt": "Жёлтые приплюснутые корнеплоды.",
-        "width": 106,
-        "height": 106,
+        "width": 360,
+        "height": 240,
         "detailSrc": "assets/chip/2015/detail/5-6-26-1.webp",
-        "pixelWidth": 133,
-        "pixelHeight": 133
+        "pixelWidth": 1279,
+        "pixelHeight": 852
       },
       {
         "src": "assets/chip/2015/5-6-26-2.webp",
         "alt": "Поникшие метёлки длинного злака.",
-        "width": 106,
-        "height": 106,
+        "width": 360,
+        "height": 203,
         "detailSrc": "assets/chip/2015/detail/5-6-26-2.webp",
-        "pixelWidth": 133,
-        "pixelHeight": 133
+        "pixelWidth": 1280,
+        "pixelHeight": 720
       },
       {
         "src": "assets/chip/2015/5-6-26-3.webp",
@@ -619,11 +619,11 @@
       {
         "src": "assets/chip/2015/5-6-26-4.webp",
         "alt": "Длинные розоватые клубни на земле.",
-        "width": 106,
-        "height": 106,
+        "width": 360,
+        "height": 270,
         "detailSrc": "assets/chip/2015/detail/5-6-26-4.webp",
-        "pixelWidth": 133,
-        "pixelHeight": 133
+        "pixelWidth": 1280,
+        "pixelHeight": 961
       },
       {
         "src": "assets/chip/2015/5-6-26-5.webp",
@@ -710,47 +710,47 @@
       {
         "src": "assets/chip/2015/5-6-30-1.webp",
         "alt": "Тёмный зверёк с вытянутым телом и белой областью под подбородком.",
-        "width": 124,
-        "height": 124,
+        "width": 360,
+        "height": 270,
         "detailSrc": "assets/chip/2015/detail/5-6-30-1.webp",
-        "pixelWidth": 155,
-        "pixelHeight": 155
+        "pixelWidth": 1280,
+        "pixelHeight": 961
       },
       {
         "src": "assets/chip/2015/5-6-30-2.webp",
         "alt": "Зверь с округлыми ушами и светлыми усами у воды.",
-        "width": 124,
-        "height": 124,
+        "width": 360,
+        "height": 197,
         "detailSrc": "assets/chip/2015/detail/5-6-30-2.webp",
-        "pixelWidth": 155,
-        "pixelHeight": 155
+        "pixelWidth": 908,
+        "pixelHeight": 497
       },
       {
         "src": "assets/chip/2015/5-6-30-3.webp",
         "alt": "Небольшой рыжевато-белый зверёк с узким телом.",
-        "width": 124,
-        "height": 124,
+        "width": 360,
+        "height": 308,
         "detailSrc": "assets/chip/2015/detail/5-6-30-3.webp",
-        "pixelWidth": 155,
-        "pixelHeight": 155
+        "pixelWidth": 1280,
+        "pixelHeight": 1094
       },
       {
         "src": "assets/chip/2015/5-6-30-4.webp",
         "alt": "Коренастый зверь со светлыми полосами по бокам.",
-        "width": 124,
-        "height": 124,
+        "width": 360,
+        "height": 225,
         "detailSrc": "assets/chip/2015/detail/5-6-30-4.webp",
-        "pixelWidth": 155,
-        "pixelHeight": 155
+        "pixelWidth": 1280,
+        "pixelHeight": 800
       },
       {
         "src": "assets/chip/2015/5-6-30-5.webp",
         "alt": "Рыжий зверь с острыми ушами и пушистым хвостом.",
-        "width": 124,
-        "height": 124,
+        "width": 360,
+        "height": 239,
         "detailSrc": "assets/chip/2015/detail/5-6-30-5.webp",
-        "pixelWidth": 155,
-        "pixelHeight": 155
+        "pixelWidth": 1280,
+        "pixelHeight": 848
       }
     ]
   }

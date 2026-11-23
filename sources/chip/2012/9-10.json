@@ -564,47 +564,47 @@
     "optionFigures": [
       {
         "src": "assets/chip/2012/9-10-27-1.webp",
-        "detailSrc": "assets/chip/2012/detail/9-10-27-1.webp",
-        "width": 121,
-        "height": 85,
-        "pixelWidth": 121,
-        "pixelHeight": 85,
+        "detailSrc": "assets/chip/2012/detail/9-10-27-1.svg",
+        "width": 480,
+        "height": 305,
+        "pixelWidth": 1100,
+        "pixelHeight": 697,
         "alt": "Трёхлопастной пропеллер."
       },
       {
         "src": "assets/chip/2012/9-10-27-2.webp",
-        "detailSrc": "assets/chip/2012/detail/9-10-27-2.webp",
-        "width": 123,
-        "height": 85,
-        "pixelWidth": 123,
-        "pixelHeight": 85,
+        "detailSrc": "assets/chip/2012/detail/9-10-27-2.svg",
+        "width": 480,
+        "height": 305,
+        "pixelWidth": 1100,
+        "pixelHeight": 697,
         "alt": "Стержень с широкой спиральной лопастью."
       },
       {
         "src": "assets/chip/2012/9-10-27-3.webp",
-        "detailSrc": "assets/chip/2012/detail/9-10-27-3.webp",
-        "width": 122,
-        "height": 85,
-        "pixelWidth": 122,
-        "pixelHeight": 85,
+        "detailSrc": "assets/chip/2012/detail/9-10-27-3.svg",
+        "width": 480,
+        "height": 305,
+        "pixelWidth": 1100,
+        "pixelHeight": 697,
         "alt": "Подъёмный механизм на каркасе у воды."
       },
       {
         "src": "assets/chip/2012/9-10-27-4.webp",
-        "detailSrc": "assets/chip/2012/detail/9-10-27-4.webp",
-        "width": 123,
-        "height": 85,
-        "pixelWidth": 123,
-        "pixelHeight": 85,
+        "detailSrc": "assets/chip/2012/detail/9-10-27-4.svg",
+        "width": 480,
+        "height": 305,
+        "pixelWidth": 1100,
+        "pixelHeight": 697,
         "alt": "Винт с головкой и мелкой резьбой."
       },
       {
         "src": "assets/chip/2012/9-10-27-5.webp",
-        "detailSrc": "assets/chip/2012/detail/9-10-27-5.webp",
-        "width": 121,
-        "height": 85,
-        "pixelWidth": 121,
-        "pixelHeight": 85,
+        "detailSrc": "assets/chip/2012/detail/9-10-27-5.svg",
+        "width": 480,
+        "height": 305,
+        "pixelWidth": 1100,
+        "pixelHeight": 697,
         "alt": "Лестница с отдельными ступенями вокруг оси."
       }
     ]

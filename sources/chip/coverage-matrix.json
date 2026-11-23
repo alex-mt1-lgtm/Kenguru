@@ -4,8 +4,8 @@
   "counts": {
     "schoolBooklets": 59,
     "withKey": 54,
-    "interactive": 20,
-    "interactiveQuestions": 561,
+    "interactive": 33,
+    "interactiveQuestions": 921,
     "preschoolBookletsConfirmed": 8
   },
   "school": [
@@ -432,7 +432,9 @@
       "archive": {
         "tasks": "dist/assets/chip/2016/задания_ЧИП-2016-1_2класс.pdf",
         "answers": "dist/assets/chip/2016/ответы-чип-2016.pdf"
-      }
+      },
+      "interactive": "sources/chip/2016/1-2.json",
+      "interactiveQuestions": 20
     },
     {
       "year": 2016,
@@ -444,7 +446,9 @@
       "archive": {
         "tasks": "dist/assets/chip/2016/задания_ЧИП-2016-3_4класс.pdf",
         "answers": "dist/assets/chip/2016/ответы-чип-2016.pdf"
-      }
+      },
+      "interactive": "sources/chip/2016/3-4.json",
+      "interactiveQuestions": 30
     },
     {
       "year": 2016,
@@ -456,7 +460,9 @@
       "archive": {
         "tasks": "dist/assets/chip/2016/задания_ЧИП-2016-5_6класс.pdf",
         "answers": "dist/assets/chip/2016/ответы-чип-2016.pdf"
-      }
+      },
+      "interactive": "sources/chip/2016/5-6.json",
+      "interactiveQuestions": 30
     },
     {
       "year": 2016,
@@ -468,7 +474,9 @@
       "archive": {
         "tasks": "dist/assets/chip/2016/задания_ЧИП-2016-7_8класс.pdf",
         "answers": "dist/assets/chip/2016/ответы-чип-2016.pdf"
-      }
+      },
+      "interactive": "sources/chip/2016/7-8.json",
+      "interactiveQuestions": 30
     },
     {
       "year": 2016,
@@ -480,7 +488,9 @@
       "archive": {
         "tasks": "dist/assets/chip/2016/задания_ЧИП-2016-9_10класс.pdf",
         "answers": "dist/assets/chip/2016/ответы-чип-2016.pdf"
-      }
+      },
+      "interactive": "sources/chip/2016/9-10.json",
+      "interactiveQuestions": 30
     },
     {
       "year": 2017,
@@ -492,7 +502,9 @@
       "archive": {
         "tasks": "dist/assets/chip/2017/задания_ЧИП-2017-1_2класс.pdf",
         "answers": "dist/assets/chip/2017/ответы_ЧИП_2017.pdf"
-      }
+      },
+      "interactive": "sources/chip/2017/1-2.json",
+      "interactiveQuestions": 20
     },
     {
       "year": 2017,
@@ -504,7 +516,9 @@
       "archive": {
         "tasks": "dist/assets/chip/2017/задания_ЧИП-2017-3-4класс.pdf",
         "answers": "dist/assets/chip/2017/ответы_ЧИП_2017.pdf"
-      }
+      },
+      "interactive": "sources/chip/2017/3-4.json",
+      "interactiveQuestions": 30
     },
     {
       "year": 2017,
@@ -516,7 +530,9 @@
       "archive": {
         "tasks": "dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf",
         "answers": "dist/assets/chip/2017/ответы_ЧИП_2017.pdf"
-      }
+      },
+      "interactive": "sources/chip/2017/5-6.json",
+      "interactiveQuestions": 30
     },
     {
       "year": 2017,
@@ -528,7 +544,9 @@
       "archive": {
         "tasks": "dist/assets/chip/2017/задания_ЧИП-2017-7-8класс.pdf",
         "answers": "dist/assets/chip/2017/ответы_ЧИП_2017.pdf"
-      }
+      },
+      "interactive": "sources/chip/2017/7-8.json",
+      "interactiveQuestions": 30
     },
     {
       "year": 2017,
@@ -540,7 +558,9 @@
       "archive": {
         "tasks": "dist/assets/chip/2017/задания_ЧИП-2017-9-10класс.pdf",
         "answers": "dist/assets/chip/2017/ответы_ЧИП_2017.pdf"
-      }
+      },
+      "interactive": "sources/chip/2017/9-10.json",
+      "interactiveQuestions": 30
     },
     {
       "year": 2018,
@@ -553,7 +573,9 @@
       "archive": {
         "tasks": "dist/assets/chip/2018/чип2018_1_2класс_задания.pdf",
         "answers": "dist/assets/chip/2018/чип2018_ответы.pdf"
-      }
+      },
+      "interactive": "sources/chip/2018/1-2.json",
+      "interactiveQuestions": 20
     },
     {
       "year": 2018,
@@ -566,7 +588,9 @@
       "archive": {
         "tasks": "dist/assets/chip/2018/чип2018_3-4класс_задания.pdf",
         "answers": "dist/assets/chip/2018/чип2018_ответы.pdf"
-      }
+      },
+      "interactive": "sources/chip/2018/3-4.json",
+      "interactiveQuestions": 30
     },
     {
       "year": 2018,
@@ -579,7 +603,9 @@
       "archive": {
         "tasks": "dist/assets/chip/2018/чип2018_5-6класс_задания.pdf",
         "answers": "dist/assets/chip/2018/чип2018_ответы.pdf"
-      }
+      },
+      "interactive": "sources/chip/2018/5-6.json",
+      "interactiveQuestions": 30
     },
     {
       "year": 2018,

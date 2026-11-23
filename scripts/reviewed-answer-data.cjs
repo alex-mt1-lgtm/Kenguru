@@ -8,7 +8,7 @@ function add(meta, rows, partial, paperKey = false) {
   const data = rows.map((row, i) => {
     const number = row.number ?? i + 1;
     const matching = meta.matchingGroups?.find(group => number >= group.start && number < group.start + group.count);
-    return {number, choices: row.choices, answer: row.answer, numericAnswer: row.numericAnswer,
+    return {number, choices: row.choices, answer: row.answer, acceptedAnswers: row.acceptedAnswers, numericAnswer: row.numericAnswer,
       ...((paperKey && row.question || row.adaptation || row.reviewedEdition) ? {
         revisedQuestion: [row.context, row.question].filter(Boolean).join('\n\n'), revisedChoices: row.choices,
         figure: row.figure, figures: row.figures, optionFigures: row.optionFigures} : {}),

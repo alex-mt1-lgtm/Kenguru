@@ -112,6 +112,12 @@ def answer_parts(row, letters):
     if type(answer) is not int or not 0 <= answer < len(letters) or (choices and answer >= len(choices)):
         raise ValueError(f'Question {number}: missing or invalid answer')
 
+    accepted = row.get('acceptedAnswers')
+    if accepted:
+        if answer not in accepted or any(type(i) is not int or not 0 <= i < len(choices) for i in accepted):
+            raise ValueError(f'Question {number}: invalid alternative answers')
+        return ', '.join(letters[i] for i in accepted), ' или '.join(normalize(choices[i]) for i in accepted)
+
     if 'answerText' in row:
         answer_text = normalize(row['answerText'])
     else:

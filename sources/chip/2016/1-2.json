@@ -35,11 +35,11 @@
     "figure": {
       "src": "assets/chip/2016/1-2-02.webp",
       "alt": "Юрий Гагарин улыбается в шлеме и оранжевом скафандре.",
-      "width": 168,
-      "height": 168,
+      "width": 270,
+      "height": 360,
       "detailSrc": "assets/chip/2016/detail/1-2-02.webp",
-      "pixelWidth": 210,
-      "pixelHeight": 210
+      "pixelWidth": 1050,
+      "pixelHeight": 1400
     }
   },
   {
@@ -63,47 +63,47 @@
       {
         "src": "assets/chip/2016/1-2-03-1.webp",
         "alt": "Большой бурый зверь с массивным телом.",
-        "width": 91,
-        "height": 82,
+        "width": 360,
+        "height": 240,
         "detailSrc": "assets/chip/2016/detail/1-2-03-1.webp",
-        "pixelWidth": 114,
-        "pixelHeight": 103
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2016/1-2-03-2.webp",
         "alt": "Копытное с широкими ветвистыми рогами.",
-        "width": 91,
-        "height": 82,
+        "width": 360,
+        "height": 240,
         "detailSrc": "assets/chip/2016/detail/1-2-03-2.webp",
-        "pixelWidth": 114,
-        "pixelHeight": 103
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2016/1-2-03-3.webp",
         "alt": "Крупное животное с хоботом.",
-        "width": 90,
-        "height": 82,
+        "width": 360,
+        "height": 240,
         "detailSrc": "assets/chip/2016/detail/1-2-03-3.webp",
-        "pixelWidth": 113,
-        "pixelHeight": 103
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2016/1-2-03-4.webp",
         "alt": "Коренастое животное с длинной мордой.",
-        "width": 90,
-        "height": 82,
+        "width": 360,
+        "height": 260,
         "detailSrc": "assets/chip/2016/detail/1-2-03-4.webp",
-        "pixelWidth": 113,
-        "pixelHeight": 103
+        "pixelWidth": 1280,
+        "pixelHeight": 923
       },
       {
         "src": "assets/chip/2016/1-2-03-5.webp",
         "alt": "Длинношёрстное копытное с загнутыми рогами.",
-        "width": 90,
-        "height": 83,
+        "width": 360,
+        "height": 278,
         "detailSrc": "assets/chip/2016/detail/1-2-03-5.webp",
-        "pixelWidth": 112,
-        "pixelHeight": 103
+        "pixelWidth": 1280,
+        "pixelHeight": 987
       }
     ]
   },
@@ -143,11 +143,11 @@
     "figure": {
       "src": "assets/chip/2016/1-2-05.webp",
       "alt": "Каменная стена с башнями тянется по зелёным холмам.",
-      "width": 160,
-      "height": 115,
+      "width": 360,
+      "height": 239,
       "detailSrc": "assets/chip/2016/detail/1-2-05.webp",
-      "pixelWidth": 200,
-      "pixelHeight": 144
+      "pixelWidth": 1280,
+      "pixelHeight": 850
     }
   },
   {
@@ -188,47 +188,47 @@
       {
         "src": "assets/chip/2016/1-2-07-1.webp",
         "alt": "Сероватый зверь с острыми ушами.",
-        "width": 91,
-        "height": 82,
+        "width": 227,
+        "height": 360,
         "detailSrc": "assets/chip/2016/detail/1-2-07-1.webp",
-        "pixelWidth": 114,
-        "pixelHeight": 103
+        "pixelWidth": 884,
+        "pixelHeight": 1400
       },
       {
         "src": "assets/chip/2016/1-2-07-2.webp",
         "alt": "Тёмный зверь со светлой отметиной на груди.",
-        "width": 91,
-        "height": 82,
+        "width": 270,
+        "height": 360,
         "detailSrc": "assets/chip/2016/detail/1-2-07-2.webp",
-        "pixelWidth": 114,
-        "pixelHeight": 103
+        "pixelWidth": 1050,
+        "pixelHeight": 1400
       },
       {
         "src": "assets/chip/2016/1-2-07-3.webp",
         "alt": "Большая чёрная кошка.",
-        "width": 90,
-        "height": 82,
+        "width": 360,
+        "height": 242,
         "detailSrc": "assets/chip/2016/detail/1-2-07-3.webp",
-        "pixelWidth": 113,
-        "pixelHeight": 103
+        "pixelWidth": 1280,
+        "pixelHeight": 860
       },
       {
         "src": "assets/chip/2016/1-2-07-4.webp",
         "alt": "Большая кошка с чёрными полосами на рыжей шерсти.",
-        "width": 90,
-        "height": 82,
+        "width": 360,
+        "height": 240,
         "detailSrc": "assets/chip/2016/detail/1-2-07-4.webp",
-        "pixelWidth": 113,
-        "pixelHeight": 103
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2016/1-2-07-5.webp",
         "alt": "Крупная змея с тёмным узором.",
-        "width": 90,
-        "height": 83,
+        "width": 360,
+        "height": 241,
         "detailSrc": "assets/chip/2016/detail/1-2-07-5.webp",
-        "pixelWidth": 112,
-        "pixelHeight": 103
+        "pixelWidth": 1280,
+        "pixelHeight": 857
       }
     ]
   },
@@ -347,11 +347,11 @@
       {
         "src": "assets/chip/2016/1-2-12-2.webp",
         "alt": "Животное с двумя горбами.",
-        "width": 90,
-        "height": 73,
+        "width": 360,
+        "height": 240,
         "detailSrc": "assets/chip/2016/detail/1-2-12-2.webp",
-        "pixelWidth": 113,
-        "pixelHeight": 92
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2016/1-2-12-3.webp",
@@ -365,20 +365,20 @@
       {
         "src": "assets/chip/2016/1-2-12-4.webp",
         "alt": "Светлое животное с опущенной головой.",
-        "width": 90,
-        "height": 74,
+        "width": 360,
+        "height": 257,
         "detailSrc": "assets/chip/2016/detail/1-2-12-4.webp",
-        "pixelWidth": 112,
-        "pixelHeight": 92
+        "pixelWidth": 750,
+        "pixelHeight": 536
       },
       {
         "src": "assets/chip/2016/1-2-12-5.webp",
         "alt": "Пассажирское судно на воде.",
-        "width": 90,
-        "height": 73,
+        "width": 360,
+        "height": 203,
         "detailSrc": "assets/chip/2016/detail/1-2-12-5.webp",
-        "pixelWidth": 113,
-        "pixelHeight": 92
+        "pixelWidth": 1280,
+        "pixelHeight": 721
       }
     ]
   },
@@ -463,11 +463,11 @@
       {
         "src": "assets/chip/2016/1-2-15-3.webp",
         "alt": "Лес с красными листьями.",
-        "width": 99,
-        "height": 89,
+        "width": 360,
+        "height": 270,
         "detailSrc": "assets/chip/2016/detail/1-2-15-3.webp",
-        "pixelWidth": 124,
-        "pixelHeight": 111
+        "pixelWidth": 1280,
+        "pixelHeight": 960
       },
       {
         "src": "assets/chip/2016/1-2-15-4.webp",
@@ -481,11 +481,11 @@
       {
         "src": "assets/chip/2016/1-2-15-5.webp",
         "alt": "Дерево, покрытое белыми цветками.",
-        "width": 97,
-        "height": 89,
+        "width": 240,
+        "height": 360,
         "detailSrc": "assets/chip/2016/detail/1-2-15-5.webp",
-        "pixelWidth": 121,
-        "pixelHeight": 111
+        "pixelWidth": 933,
+        "pixelHeight": 1400
       }
     ]
   },
@@ -526,20 +526,20 @@
       {
         "src": "assets/chip/2016/1-2-17-1.webp",
         "alt": "Извилистая река среди лесов.",
-        "width": 92,
-        "height": 64,
+        "width": 360,
+        "height": 270,
         "detailSrc": "assets/chip/2016/detail/1-2-17-1.webp",
-        "pixelWidth": 115,
-        "pixelHeight": 80
+        "pixelWidth": 640,
+        "pixelHeight": 480
       },
       {
         "src": "assets/chip/2016/1-2-17-2.webp",
         "alt": "Водный канал между городскими зданиями.",
-        "width": 93,
-        "height": 64,
+        "width": 360,
+        "height": 197,
         "detailSrc": "assets/chip/2016/detail/1-2-17-2.webp",
-        "pixelWidth": 116,
-        "pixelHeight": 80
+        "pixelWidth": 1280,
+        "pixelHeight": 700
       },
       {
         "src": "assets/chip/2016/1-2-17-3.webp",
@@ -617,38 +617,38 @@
       {
         "src": "assets/chip/2016/1-2-19-2.webp",
         "alt": "Свёрнутая кольцами змея.",
-        "width": 92,
-        "height": 68,
+        "width": 360,
+        "height": 309,
         "detailSrc": "assets/chip/2016/detail/1-2-19-2.webp",
-        "pixelWidth": 115,
-        "pixelHeight": 85
+        "pixelWidth": 988,
+        "pixelHeight": 848
       },
       {
         "src": "assets/chip/2016/1-2-19-3.webp",
         "alt": "Морская черепаха с панцирем.",
-        "width": 91,
-        "height": 68,
+        "width": 360,
+        "height": 240,
         "detailSrc": "assets/chip/2016/detail/1-2-19-3.webp",
-        "pixelWidth": 114,
-        "pixelHeight": 85
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2016/1-2-19-4.webp",
         "alt": "Морское животное с плавниками выпрыгнуло из воды.",
-        "width": 93,
-        "height": 68,
+        "width": 360,
+        "height": 266,
         "detailSrc": "assets/chip/2016/detail/1-2-19-4.webp",
-        "pixelWidth": 116,
-        "pixelHeight": 85
+        "pixelWidth": 1280,
+        "pixelHeight": 946
       },
       {
         "src": "assets/chip/2016/1-2-19-5.webp",
         "alt": "Крупная птица в полёте.",
-        "width": 92,
-        "height": 68,
+        "width": 288,
+        "height": 360,
         "detailSrc": "assets/chip/2016/detail/1-2-19-5.webp",
-        "pixelWidth": 115,
-        "pixelHeight": 85
+        "pixelWidth": 1120,
+        "pixelHeight": 1400
       }
     ]
   },

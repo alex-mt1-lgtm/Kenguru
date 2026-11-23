@@ -51,7 +51,7 @@ test('every converted Russian edition has a complete, scored walkthrough in the 
       assert.equal(lesson.number, i + 1, key);
       assert.ok(lesson.steps.length >= 4 && lesson.steps[1][2].trim() !== lesson.steps[2][2].trim(), key);
       assert.equal(lesson.answer, 'АБВГД'.indexOf(rows[i].key), key);
-      assert.deepEqual(rating[key], [lesson.answer, lesson.points], key);
+      assert.deepEqual(rating[key], [lesson.answer, lesson.points, ...(rows[i].acceptedAnswers ? [rows[i].acceptedAnswers] : [])], key);
       assert.ok(lesson.choices.every((text,j) => text.trim() || lesson.choiceImages?.[j]), key);
       assert.doesNotMatch(lesson.choices.join(' '), /(?:задачи|задания),?\s+оцениваемые в\s+[345]\s+балл/i, key);
     }

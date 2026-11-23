@@ -239,10 +239,10 @@
       {
         "src": "assets/chip/2014/7-8-10-1.webp",
         "detailSrc": "assets/chip/2014/detail/7-8-10-1.webp",
-        "width": 93,
-        "height": 105,
-        "pixelWidth": 93,
-        "pixelHeight": 105,
+        "width": 480,
+        "height": 320,
+        "pixelWidth": 1600,
+        "pixelHeight": 1066,
         "alt": "Красные и зелёные продолговатые плоды на кустах."
       },
       {
@@ -266,10 +266,10 @@
       {
         "src": "assets/chip/2014/7-8-10-4.webp",
         "detailSrc": "assets/chip/2014/detail/7-8-10-4.webp",
-        "width": 94,
-        "height": 105,
-        "pixelWidth": 94,
-        "pixelHeight": 105,
+        "width": 480,
+        "height": 320,
+        "pixelWidth": 1600,
+        "pixelHeight": 1066,
         "alt": "Оранжевые плоды плотно прилегают к тонким веткам."
       },
       {
@@ -624,19 +624,19 @@
       {
         "src": "assets/chip/2014/7-8-27-1.webp",
         "detailSrc": "assets/chip/2014/detail/7-8-27-1.webp",
-        "width": 109,
-        "height": 105,
-        "pixelWidth": 109,
-        "pixelHeight": 105,
+        "width": 480,
+        "height": 320,
+        "pixelWidth": 1600,
+        "pixelHeight": 1067,
         "alt": "Белый медведь на светлом фоне."
       },
       {
         "src": "assets/chip/2014/7-8-27-2.webp",
         "detailSrc": "assets/chip/2014/detail/7-8-27-2.webp",
-        "width": 111,
-        "height": 105,
-        "pixelWidth": 111,
-        "pixelHeight": 105,
+        "width": 480,
+        "height": 320,
+        "pixelWidth": 1280,
+        "pixelHeight": 853,
         "alt": "Чёрно-белый медведь с круглыми ушами."
       },
       {
@@ -651,19 +651,19 @@
       {
         "src": "assets/chip/2014/7-8-27-4.webp",
         "detailSrc": "assets/chip/2014/detail/7-8-27-4.webp",
-        "width": 110,
-        "height": 105,
-        "pixelWidth": 110,
-        "pixelHeight": 105,
+        "width": 480,
+        "height": 360,
+        "pixelWidth": 1600,
+        "pixelHeight": 1200,
         "alt": "Тёмный медведь со светло-бурой мордой и округлыми ушами."
       },
       {
         "src": "assets/chip/2014/7-8-27-5.webp",
         "detailSrc": "assets/chip/2014/detail/7-8-27-5.webp",
-        "width": 110,
-        "height": 105,
-        "pixelWidth": 110,
-        "pixelHeight": 105,
+        "width": 300,
+        "height": 451,
+        "pixelWidth": 300,
+        "pixelHeight": 451,
         "alt": "Кремовый медведь с тёмным носом и небольшими ушами."
       }
     ]

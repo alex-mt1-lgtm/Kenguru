@@ -53,20 +53,20 @@
       {
         "src": "assets/chip/2016/1-2-15-1.webp",
         "alt": "Лес со светлыми пятнистыми стволами.",
-        "width": 99,
-        "height": 89,
+        "width": 360,
+        "height": 270,
         "detailSrc": "assets/chip/2016/detail/1-2-15-1.webp",
-        "pixelWidth": 124,
-        "pixelHeight": 111
+        "pixelWidth": 1280,
+        "pixelHeight": 960
       },
       {
         "src": "assets/chip/2016/3-4-03-2.webp",
         "alt": "Луг с цветами и деревьями вдали.",
-        "width": 93,
-        "height": 86,
+        "width": 360,
+        "height": 270,
         "detailSrc": "assets/chip/2016/detail/3-4-03-2.webp",
-        "pixelWidth": 116,
-        "pixelHeight": 107
+        "pixelWidth": 1280,
+        "pixelHeight": 960
       },
       {
         "src": "assets/chip/2016/1-2-15-2.webp",
@@ -89,11 +89,11 @@
       {
         "src": "assets/chip/2016/3-4-03-5.webp",
         "alt": "Низкие кустики и водоёмы на открытой местности.",
-        "width": 92,
-        "height": 86,
+        "width": 360,
+        "height": 270,
         "detailSrc": "assets/chip/2016/detail/3-4-03-5.webp",
-        "pixelWidth": 115,
-        "pixelHeight": 107
+        "pixelWidth": 1280,
+        "pixelHeight": 960
       }
     ]
   },
@@ -135,47 +135,47 @@
       {
         "src": "assets/chip/2016/3-4-05-1.webp",
         "alt": "Крупный зверь с широким туловищем и короткими ногами.",
-        "width": 92,
-        "height": 79,
+        "width": 360,
+        "height": 240,
         "detailSrc": "assets/chip/2016/detail/3-4-05-1.webp",
-        "pixelWidth": 115,
-        "pixelHeight": 99
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2016/3-4-05-2.webp",
         "alt": "Копытное с длинной шеей и пятнами.",
-        "width": 93,
-        "height": 79,
+        "width": 360,
+        "height": 270,
         "detailSrc": "assets/chip/2016/detail/3-4-05-2.webp",
-        "pixelWidth": 116,
-        "pixelHeight": 99
+        "pixelWidth": 1280,
+        "pixelHeight": 960
       },
       {
         "src": "assets/chip/2016/3-4-05-3.webp",
         "alt": "Массивный серый зверь с рогом на носу.",
-        "width": 91,
-        "height": 79,
+        "width": 360,
+        "height": 231,
         "detailSrc": "assets/chip/2016/detail/3-4-05-3.webp",
-        "pixelWidth": 114,
-        "pixelHeight": 99
+        "pixelWidth": 1000,
+        "pixelHeight": 642
       },
       {
         "src": "assets/chip/2016/3-4-05-4.webp",
         "alt": "Чёрно-белый зверь с круглыми ушами.",
-        "width": 93,
-        "height": 79,
+        "width": 360,
+        "height": 240,
         "detailSrc": "assets/chip/2016/detail/3-4-05-4.webp",
-        "pixelWidth": 116,
-        "pixelHeight": 99
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2016/3-4-05-5.webp",
         "alt": "Животное с хоботом и широкими ушами.",
-        "width": 92,
-        "height": 79,
+        "width": 360,
+        "height": 240,
         "detailSrc": "assets/chip/2016/detail/3-4-05-5.webp",
-        "pixelWidth": 115,
-        "pixelHeight": 99
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       }
     ]
   },
@@ -260,20 +260,20 @@
       {
         "src": "assets/chip/2016/3-4-08-4.webp",
         "alt": "Крупный бурый зверь с круглыми ушами.",
-        "width": 93,
-        "height": 85,
+        "width": 360,
+        "height": 240,
         "detailSrc": "assets/chip/2016/detail/3-4-08-4.webp",
-        "pixelWidth": 116,
-        "pixelHeight": 106
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2016/3-4-08-5.webp",
         "alt": "Длинномордое копытное с широкими плоскими рогами.",
-        "width": 92,
-        "height": 85,
+        "width": 360,
+        "height": 240,
         "detailSrc": "assets/chip/2016/detail/3-4-08-5.webp",
-        "pixelWidth": 115,
-        "pixelHeight": 106
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       }
     ]
   },
@@ -314,11 +314,11 @@
     "figure": {
       "src": "assets/chip/2016/3-4-10.webp",
       "alt": "Красная шапочка с плоской верхушкой, орнаментом и чёрной кисточкой.",
-      "width": 160,
-      "height": 168,
+      "width": 360,
+      "height": 270,
       "detailSrc": "assets/chip/2016/detail/3-4-10.webp",
-      "pixelWidth": 200,
-      "pixelHeight": 210
+      "pixelWidth": 1280,
+      "pixelHeight": 960
     }
   },
   {
@@ -417,11 +417,11 @@
     "figure": {
       "src": "assets/chip/2016/3-4-15.webp",
       "alt": "Половинка плода с оранжевой мякотью и тёмными круглыми семенами.",
-      "width": 136,
-      "height": 90,
+      "width": 255,
+      "height": 360,
       "detailSrc": "assets/chip/2016/detail/3-4-15.webp",
-      "pixelWidth": 170,
-      "pixelHeight": 113
+      "pixelWidth": 991,
+      "pixelHeight": 1400
     }
   },
   {
@@ -461,29 +461,29 @@
       {
         "src": "assets/chip/2016/3-4-17-1.webp",
         "alt": "Розовый цветок с жёлтой серединкой над широким листом.",
-        "width": 94,
-        "height": 67,
+        "width": 360,
+        "height": 330,
         "detailSrc": "assets/chip/2016/detail/3-4-17-1.webp",
-        "pixelWidth": 117,
-        "pixelHeight": 83
+        "pixelWidth": 1280,
+        "pixelHeight": 1173
       },
       {
         "src": "assets/chip/2016/3-4-17-2.webp",
         "alt": "Много ярко-красных цветков на тонких стеблях.",
-        "width": 94,
-        "height": 67,
+        "width": 360,
+        "height": 270,
         "detailSrc": "assets/chip/2016/detail/3-4-17-2.webp",
-        "pixelWidth": 117,
-        "pixelHeight": 83
+        "pixelWidth": 1280,
+        "pixelHeight": 960
       },
       {
         "src": "assets/chip/2016/3-4-17-3.webp",
         "alt": "Мягко-розовые цветки с многочисленными лепестками.",
-        "width": 94,
-        "height": 66,
+        "width": 270,
+        "height": 360,
         "detailSrc": "assets/chip/2016/detail/3-4-17-3.webp",
-        "pixelWidth": 118,
-        "pixelHeight": 83
+        "pixelWidth": 1050,
+        "pixelHeight": 1400
       },
       {
         "src": "assets/chip/2016/3-4-17-4.webp",
@@ -497,11 +497,11 @@
       {
         "src": "assets/chip/2016/3-4-17-5.webp",
         "alt": "Густой красный цветок с большим количеством лепестков.",
-        "width": 94,
-        "height": 67,
+        "width": 360,
+        "height": 270,
         "detailSrc": "assets/chip/2016/detail/3-4-17-5.webp",
-        "pixelWidth": 117,
-        "pixelHeight": 83
+        "pixelWidth": 800,
+        "pixelHeight": 600
       }
     ]
   },
@@ -526,11 +526,11 @@
       {
         "src": "assets/chip/2016/3-4-18-1.webp",
         "alt": "Приземистое животное с бугорками на коже.",
-        "width": 94,
-        "height": 67,
+        "width": 360,
+        "height": 270,
         "detailSrc": "assets/chip/2016/detail/3-4-18-1.webp",
-        "pixelWidth": 117,
-        "pixelHeight": 83
+        "pixelWidth": 1280,
+        "pixelHeight": 960
       },
       {
         "src": "assets/chip/2016/3-4-18-2.webp",
@@ -544,29 +544,29 @@
       {
         "src": "assets/chip/2016/3-4-18-3.webp",
         "alt": "Четвероногое животное с пятнами и тонким хвостом.",
-        "width": 94,
-        "height": 66,
+        "width": 360,
+        "height": 203,
         "detailSrc": "assets/chip/2016/detail/3-4-18-3.webp",
-        "pixelWidth": 118,
-        "pixelHeight": 83
+        "pixelWidth": 1280,
+        "pixelHeight": 720
       },
       {
         "src": "assets/chip/2016/3-4-18-4.webp",
         "alt": "Зеленоватое животное с гладкой кожей и сложенными задними ногами.",
-        "width": 94,
-        "height": 67,
+        "width": 360,
+        "height": 270,
         "detailSrc": "assets/chip/2016/detail/3-4-18-4.webp",
-        "pixelWidth": 117,
-        "pixelHeight": 83
+        "pixelWidth": 1280,
+        "pixelHeight": 960
       },
       {
         "src": "assets/chip/2016/3-4-18-5.webp",
         "alt": "Массивное четвероногое животное на камнях, с утолщённым хвостом.",
-        "width": 94,
-        "height": 67,
+        "width": 360,
+        "height": 240,
         "detailSrc": "assets/chip/2016/detail/3-4-18-5.webp",
-        "pixelWidth": 117,
-        "pixelHeight": 83
+        "pixelWidth": 1280,
+        "pixelHeight": 854
       }
     ]
   },
@@ -606,11 +606,11 @@
     "figure": {
       "src": "assets/chip/2016/3-4-20.webp",
       "alt": "Караван длинношёрстных рогатых животных с грузом на горной тропе.",
-      "width": 160,
-      "height": 122,
+      "width": 360,
+      "height": 268,
       "detailSrc": "assets/chip/2016/detail/3-4-20.webp",
-      "pixelWidth": 200,
-      "pixelHeight": 152
+      "pixelWidth": 800,
+      "pixelHeight": 595
     }
   },
   {
@@ -632,11 +632,11 @@
     "figure": {
       "src": "assets/chip/2016/3-4-21.webp",
       "alt": "Светлый купол, тонкие башни и другие здания у реки.",
-      "width": 120,
-      "height": 147,
+      "width": 360,
+      "height": 265,
       "detailSrc": "assets/chip/2016/detail/3-4-21.webp",
-      "pixelWidth": 150,
-      "pixelHeight": 184
+      "pixelWidth": 800,
+      "pixelHeight": 588
     }
   },
   {
@@ -766,29 +766,29 @@
       {
         "src": "assets/chip/2016/3-4-27-1.webp",
         "alt": "Белая длинноногая птица с красноватым участком у клюва.",
-        "width": 94,
-        "height": 86,
+        "width": 270,
+        "height": 360,
         "detailSrc": "assets/chip/2016/detail/3-4-27-1.webp",
-        "pixelWidth": 117,
-        "pixelHeight": 107
+        "pixelWidth": 1050,
+        "pixelHeight": 1400
       },
       {
         "src": "assets/chip/2016/3-4-27-2.webp",
         "alt": "Белая птица с изогнутой шеей и широкими тёмными лапами.",
-        "width": 94,
-        "height": 86,
+        "width": 360,
+        "height": 240,
         "detailSrc": "assets/chip/2016/detail/3-4-27-2.webp",
-        "pixelWidth": 117,
-        "pixelHeight": 107
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2016/3-4-27-3.webp",
         "alt": "Белая птица с длинным жёлтым клювом и тёмными ногами.",
-        "width": 94,
-        "height": 85,
+        "width": 360,
+        "height": 298,
         "detailSrc": "assets/chip/2016/detail/3-4-27-3.webp",
-        "pixelWidth": 118,
-        "pixelHeight": 107
+        "pixelWidth": 1280,
+        "pixelHeight": 1058
       },
       {
         "src": "assets/chip/2016/3-4-27-4.webp",
@@ -802,11 +802,11 @@
       {
         "src": "assets/chip/2016/3-4-27-5.webp",
         "alt": "Белая длинноногая птица с чёрными крыльями и красным клювом.",
-        "width": 94,
-        "height": 86,
+        "width": 360,
+        "height": 360,
         "detailSrc": "assets/chip/2016/detail/3-4-27-5.webp",
-        "pixelWidth": 117,
-        "pixelHeight": 107
+        "pixelWidth": 1280,
+        "pixelHeight": 1280
       }
     ]
   },
