@@ -67,8 +67,10 @@ test('only the printed rebuses are shown on the answer buttons, and meaningful t
   const find = (edition, number) => lessons.find(lesson => lesson.datasetId === edition && lesson.number === number);
   for (const lesson of lessons.filter(lesson => lesson.datasetId.includes('-medvezhonok-') && lesson.choiceImages?.some(Boolean))) {
     assert.equal(lesson.choiceImages.filter(Boolean).length, 5, lesson.datasetId);
-    if (lesson.year !== 2024 || lesson.number !== 5) {
-      assert.ok(lesson.choiceLayout.options.every(option => !option.text && option.description.trim()), lesson.title);
+    const hasPrintedLabels = lesson.choiceLayout.options.some(option => option.text);
+    for (const [i, option] of lesson.choiceLayout.options.entries()) {
+      assert.ok(option.description.trim(), lesson.title);
+      if (hasPrintedLabels) assert.equal(option.text, lesson.choices[i], lesson.title);
     }
   }
   const stress = find('2012-medvezhonok-2-3', 20);

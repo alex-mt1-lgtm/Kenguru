@@ -1,11 +1,11 @@
 'use strict';
 
-globalThis.makeMedvezhonokEdition = function (year, grade, rows) {
+globalThis.makeMedvezhonokEdition = function (year, grade, rows, material = {}) {
   const letters = 'АБВГД';
   const plain = value => value.replace(/<\/?(?:em|strong|u)>/g, '');
   const escape = value => value.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
   const grades = grade.split('-').map(Number);
-  const lessons = rows.map(({author, question, choices, key, review, figure, unrated}, index) => {
+  const lessons = rows.map(({author, question, choices, key, review, figure, unrated, points}, index) => {
     const [title, idea, check] = review;
     const answer = letters.indexOf(key);
     const textChoices = choices.map(plain);
@@ -22,7 +22,7 @@ globalThis.makeMedvezhonokEdition = function (year, grade, rows) {
         choiceImages: options.map(option => option.image),
         ...(figure.condition ? {conditionImage: figure.condition.src, conditionAlt: figure.condition.alt} : {}),
       } : {}),
-      answer: unrated ? null : answer, points: index < 10 ? 3 : index < 20 ? 4 : 5,
+      answer: unrated ? null : answer, points: points ?? (index < 10 ? 3 : index < 20 ? 4 : 5),
       skill: 'Русский медвежонок · Языкознание', hideIntroText: true, showCompletedStep: true,
       steps: [
         ['Выбор', 'Условие задачи', ''],
@@ -50,12 +50,13 @@ globalThis.makeMedvezhonokEdition = function (year, grade, rows) {
   const reviewedKey = rows.some(row => row.reviewedEdition);
   return {
     id: year + '-medvezhonok-' + grade, year, grades, subject: 'ru',
-    label: grades.join('–') + ' классы',
+    label: grades.join('–') + (grades.length === 1 ? ' класс' : ' классы'),
     sources: {
       contest: 'Русский медвежонок',
-      tasksUrl: 'assets/medvezhonok/' + year + '/' + grade + '.pdf',
+      tasksUrl: 'assets/medvezhonok/' + year + '/' + (material.tasksFile ?? grade + '.pdf'),
       reviewedKey,
-      answersUrl: 'assets/medvezhonok/' + year + '/' + (reviewedKey ? 'reviewed-' + grade : grade + '-answers') + '.pdf',
+      answersUrl: 'assets/medvezhonok/' + year + '/' + (material.answersFile ?? (reviewedKey ? 'reviewed-' + grade : grade + '-answers') + '.pdf'),
+      ...(material.solutionsFile ? {solutionUrl: 'assets/medvezhonok/' + year + '/' + material.solutionsFile} : {}),
       ...(year === 2004 && grade === '2-3' ? {solutionUrl: 'assets/medvezhonok/2004/2-3-answers.pdf'} : {}),
     },
     lessons, scenes,

@@ -1,0 +1,5765 @@
+{
+  "organizerIndex": "https://xn--b1adccfhhghoqlbqpa6a.xn--p1ai/tasks.htm",
+  "foundYears": [
+    2000,
+    2025
+  ],
+  "notes": {
+    "2013-2014": "На индексной странице обнаружены неверные ссылки на некоторые комплекты; сверены фактические ZIP task2013-2.zip и task2014.zip по составу.",
+    "2020": "Организатор указывает 2020/21 учебный год. Локальный идентификатор 2020 совпадает с ранее опубликованным выпуском.",
+    "2026": "Официальный школьный архив на момент проверки заканчивается 2025 годом; ZIP преподавательского конкурса 2026 относится к другому состязанию."
+  },
+  "editions": [
+    {
+      "year": 2000,
+      "grade": "5-6",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2000.zip",
+        "member": "Med5-6.doc",
+        "sha256": "86927d4665cae74f2507fae3c6f88cdeb5b5902835347da8d8e9f1207456829d"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2000-2.zip",
+        "member": "5-6_2000_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "5–6 классы"
+        ],
+        "sha256": "65d1ec462cef44c852dc4f6612ccd6019afa9bc354d8985fadc9377321b503da"
+      },
+      "separateKeyMembers": [
+        "otvet2000.rtf"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "5-6.pdf",
+      "answersFile": "5-6-answers.pdf",
+      "localTask": "sources/medvezhonok/2000/5-6.pdf",
+      "taskPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "5–6 классы"
+        ],
+        "sha256": "60ad0825619d087e23b2973c3f995f1abfab7008b08491992b5a79f79751b57a"
+      },
+      "localAnswers": "sources/medvezhonok/2000/5-6-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "5–6 классы"
+        ],
+        "sha256": "65d1ec462cef44c852dc4f6612ccd6019afa9bc354d8985fadc9377321b503da"
+      }
+    },
+    {
+      "year": 2000,
+      "grade": "7-8",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2000.zip",
+        "member": "Med7-8.doc",
+        "sha256": "0c2b2fc181ed09969a1ae4d9706afc578c0b504a2eea49a3bf6ffa41e2e2621b"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2000-2.zip",
+        "member": "7-8_2000_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "7–8 классы"
+        ],
+        "sha256": "6a3edb3433fa429fb25d55c73c74834e6e0cbcc15cfbee6e2b7f0a38c2741daa"
+      },
+      "separateKeyMembers": [
+        "otvet2000.rtf"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "7-8.pdf",
+      "answersFile": "7-8-answers.pdf",
+      "localTask": "sources/medvezhonok/2000/7-8.pdf",
+      "taskPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "7–8 классы"
+        ],
+        "sha256": "71e8624ec41651f9e50d799e7e3523a1dfde3f770a651c9f7ef42df4d6e3f487"
+      },
+      "localAnswers": "sources/medvezhonok/2000/7-8-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "7–8 классы"
+        ],
+        "sha256": "6a3edb3433fa429fb25d55c73c74834e6e0cbcc15cfbee6e2b7f0a38c2741daa"
+      }
+    },
+    {
+      "year": 2000,
+      "grade": "9-11",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2000.zip",
+        "member": "Med9-11.doc",
+        "sha256": "18ad6fe4ab1cb13c157f492db3dd1fa4c018e4b24a4007032a094d51c5efe3fd"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2000-2.zip",
+        "member": "9-11_2000_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "9–11 классы"
+        ],
+        "sha256": "cf6132116fbaccc171db4982b6c99792e085276694b2168829addc67823ce814"
+      },
+      "separateKeyMembers": [
+        "otvet2000.rtf"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "9-11.pdf",
+      "answersFile": "9-11-answers.pdf",
+      "localTask": "sources/medvezhonok/2000/9-11.pdf",
+      "taskPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "9–11 классы"
+        ],
+        "sha256": "d6e98bbd9f7e57f8a37f2adb9c95eb25cbb42c1d01518c7d9f9e02c13de84af6"
+      },
+      "localAnswers": "sources/medvezhonok/2000/9-11-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "9–11 классы"
+        ],
+        "sha256": "cf6132116fbaccc171db4982b6c99792e085276694b2168829addc67823ce814"
+      }
+    },
+    {
+      "year": 2001,
+      "grade": "3-5",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2001.zip",
+        "member": "task2001/med2001/3-5.doc",
+        "sha256": "62d8aeca21ee287e6b106ef643a0222f3357c11f993c7984cfec850917244d25"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2001-2.zip",
+        "member": "3-5_2001_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "3–5 классы"
+        ],
+        "sha256": "abe87ce617cc7a474eb62eb60882ce16aa9da834236bf3a5da84d64cd5842f8e"
+      },
+      "separateKeyMembers": [
+        "task2001/med2001/otvet2001.xls"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "3-5.pdf",
+      "answersFile": "3-5-answers.pdf",
+      "localTask": "sources/medvezhonok/2001/3-5.pdf",
+      "taskPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "3-5 класс"
+        ],
+        "sha256": "a1b228534ec56ae17b16c3053c5a611b69587528bd8139b7dafd675375bf9194",
+        "yearHeader": "«Русский медвежонок» – 2001"
+      },
+      "localAnswers": "sources/medvezhonok/2001/3-5-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "3–5 классы"
+        ],
+        "sha256": "abe87ce617cc7a474eb62eb60882ce16aa9da834236bf3a5da84d64cd5842f8e"
+      }
+    },
+    {
+      "year": 2001,
+      "grade": "6-7",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2001.zip",
+        "member": "task2001/med2001/6-7.doc",
+        "sha256": "ede7e0c4fdddd8c9fb3aa4a30942d976e1296e1af07f0b3271a21246905c6da6"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2001-2.zip",
+        "member": "6-7_2001_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "e203be4d955d181304b8d4f3c9189ec869b2f21a4dde3fd5c773927ef773687a"
+      },
+      "separateKeyMembers": [
+        "task2001/med2001/otvet2001.xls"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "6-7.pdf",
+      "answersFile": "6-7-answers.pdf",
+      "localTask": "sources/medvezhonok/2001/6-7.pdf",
+      "taskPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "6-7 класс"
+        ],
+        "sha256": "a691ee0051e5f3e6eacac9a86456f867b68067322acb651400986bed7d15c5a1",
+        "yearHeader": "«Русский медвежонок» – 2001"
+      },
+      "localAnswers": "sources/medvezhonok/2001/6-7-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "e203be4d955d181304b8d4f3c9189ec869b2f21a4dde3fd5c773927ef773687a"
+      }
+    },
+    {
+      "year": 2001,
+      "grade": "8-9",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2001.zip",
+        "member": "task2001/med2001/8-9.doc",
+        "sha256": "9fdd31cf63ebe1761547e749720ff65bc75af8f03e82d46169482c83d29b7117"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2001-2.zip",
+        "member": "8-9_2001_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "429ceff0b7c3593774c1d63084efb1e51c0c3ac86e9bd9ce204e225d9d354114"
+      },
+      "separateKeyMembers": [
+        "task2001/med2001/otvet2001.xls"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "8-9.pdf",
+      "answersFile": "8-9-answers.pdf",
+      "localTask": "sources/medvezhonok/2001/8-9.pdf",
+      "taskPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "8-9 класс"
+        ],
+        "sha256": "6477643dc8277a07b576dd4e1fb05a7ee122e98a95fcb0343958ffa075c2938f",
+        "yearHeader": "«Русский медвежонок» – 2001"
+      },
+      "localAnswers": "sources/medvezhonok/2001/8-9-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "429ceff0b7c3593774c1d63084efb1e51c0c3ac86e9bd9ce204e225d9d354114"
+      }
+    },
+    {
+      "year": 2001,
+      "grade": "10-11",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2001.zip",
+        "member": "task2001/med2001/10-11.doc",
+        "sha256": "c9eb50f4a32c6aeb499de576da66e0c65a0eb40b5f27f56505be00867738cd32"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2001-2.zip",
+        "member": "10-11_2001_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "f5500fee185785c6fa1ac528bae7e455f14d330a0f70a13fd6b6447d82ae9fa7"
+      },
+      "separateKeyMembers": [
+        "task2001/med2001/otvet2001.xls"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "10-11.pdf",
+      "answersFile": "10-11-answers.pdf",
+      "localTask": "sources/medvezhonok/2001/10-11.pdf",
+      "taskPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "10-11 класс"
+        ],
+        "sha256": "f423166467e64a1eb513ed10373e480711ce9b74e3ae0f1a22cbf4cf155c1f94",
+        "yearHeader": "«Русский медвежонок» – 2001"
+      },
+      "localAnswers": "sources/medvezhonok/2001/10-11-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "f5500fee185785c6fa1ac528bae7e455f14d330a0f70a13fd6b6447d82ae9fa7"
+      }
+    },
+    {
+      "year": 2002,
+      "grade": "3-5",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2002.zip",
+        "member": "Задачи3-5.doc",
+        "sha256": "31a96ae919e7be0ab443721f325a9cb953fe30a73e58ed2a3d22ea4df2ed5c8a"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2002-2.zip",
+        "member": "3-5_2002_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "3–5 классы"
+        ],
+        "sha256": "6987f3f186d172197826292e98f29697d2bc9a181130450fe6ada2c0096710fb"
+      },
+      "separateKeyMembers": [
+        "правильные ответы.xls"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "3-5.pdf",
+      "answersFile": "3-5-answers.pdf",
+      "localTask": "sources/medvezhonok/2002/3-5.pdf",
+      "taskPdf": {
+        "pages": 3,
+        "gradeHeader": [
+          "3–5 классы"
+        ],
+        "sha256": "1dc44c1dfc43961373c667f8d7c0cf58bba7260cd7ddf28a86d0ee2abef57a2b",
+        "yearHeader": "«Русский медвежонок» – 2002"
+      },
+      "localAnswers": "sources/medvezhonok/2002/3-5-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "3–5 классы"
+        ],
+        "sha256": "6987f3f186d172197826292e98f29697d2bc9a181130450fe6ada2c0096710fb"
+      }
+    },
+    {
+      "year": 2002,
+      "grade": "6-7",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2002.zip",
+        "member": "Задачи6-7.doc",
+        "sha256": "8f66ab874c54fc393cc5205bc2a4bd4bdd4b6d82da7cce195086fd07e9b534f1"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2002-2.zip",
+        "member": "6-7_2002_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "90da536633cd8193a1cc00147552420d29b8f299f251e272aed058c2dc40c76c"
+      },
+      "separateKeyMembers": [
+        "правильные ответы.xls"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "6-7.pdf",
+      "answersFile": "6-7-answers.pdf",
+      "localTask": "sources/medvezhonok/2002/6-7.pdf",
+      "taskPdf": {
+        "pages": 3,
+        "gradeHeader": [
+          "6-7 классы"
+        ],
+        "sha256": "046d7a11e73b8edca070c4299fc099588e1456827d93d86bbaa0f0ebc33b662c",
+        "yearHeader": "«Русский медвежонок» – 2002"
+      },
+      "localAnswers": "sources/medvezhonok/2002/6-7-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "90da536633cd8193a1cc00147552420d29b8f299f251e272aed058c2dc40c76c"
+      }
+    },
+    {
+      "year": 2002,
+      "grade": "8-9",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2002.zip",
+        "member": "Задачи8-9.doc",
+        "sha256": "94d4652f1dfe6cb1bb5f8d3e2c26b07b57fb23db7f0b843561b9676931562c40"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2002-2.zip",
+        "member": "8-9_2002_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "34b44a26ffd5b34f03195ac7abddb847942d0d0d96aec2cd3ed8a24f15d44ca4"
+      },
+      "separateKeyMembers": [
+        "правильные ответы.xls"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "8-9.pdf",
+      "answersFile": "8-9-answers.pdf",
+      "localTask": "sources/medvezhonok/2002/8-9.pdf",
+      "taskPdf": {
+        "pages": 3,
+        "gradeHeader": [
+          "8-9 классы"
+        ],
+        "sha256": "6fb997daf16a4e1277fdedcfa71cdb2aacd30d871ab04bac7804df57d4179ef5",
+        "yearHeader": "«Русский медвежонок» – 2002"
+      },
+      "localAnswers": "sources/medvezhonok/2002/8-9-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "34b44a26ffd5b34f03195ac7abddb847942d0d0d96aec2cd3ed8a24f15d44ca4"
+      }
+    },
+    {
+      "year": 2002,
+      "grade": "10-11",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2002.zip",
+        "member": "Задачи10-11.doc",
+        "sha256": "0bbb369b979d74b2e7ad3c020319e3665e95aca974f83a78566d83e1ab0d4326"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2002-2.zip",
+        "member": "10-11_2002_website.pdf",
+        "pages": 5,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "95d7af0d0e88b3b7ac96979f5656d88ee01f4023be59f02033a611065a5919f0"
+      },
+      "separateKeyMembers": [
+        "правильные ответы.xls"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "10-11.pdf",
+      "answersFile": "10-11-answers.pdf",
+      "localTask": "sources/medvezhonok/2002/10-11.pdf",
+      "taskPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "10-11 классы"
+        ],
+        "sha256": "2f4d294f952983fba90e077bd34bb9bb43300a7ed8bea5ff6bbbea1d5f590e13",
+        "yearHeader": "«Русский медвежонок» – 2002"
+      },
+      "localAnswers": "sources/medvezhonok/2002/10-11-answers.pdf",
+      "answerPdf": {
+        "pages": 5,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "95d7af0d0e88b3b7ac96979f5656d88ee01f4023be59f02033a611065a5919f0"
+      }
+    },
+    {
+      "year": 2003,
+      "grade": "3-5",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2003.zip",
+        "member": "rm03rtf/3-5.rtf",
+        "sha256": "9ea699fe144eeafb9a4daf625c10eb20d7448fe4da792f2c976e4b00482934c4"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2003-2.zip",
+        "member": "3-5_2003_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "3–5 классы"
+        ],
+        "sha256": "385ea5efe4d0c690c52fb02c97891af2f64a8902058f58ed3bef626cdaa05d03"
+      },
+      "separateKeyMembers": [
+        "rm03rtf/Правильные ответы2003.xls"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "3-5.pdf",
+      "answersFile": "3-5-answers.pdf",
+      "localTask": "sources/medvezhonok/2003/3-5.pdf",
+      "taskPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "3–5 классы"
+        ],
+        "sha256": "87cd51f2ec7048b415f09a31220871f667dace0e2f885bb81ed2c2d5ddef1035",
+        "yearHeader": "«Русский медвежонок» – 2003"
+      },
+      "localAnswers": "sources/medvezhonok/2003/3-5-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "3–5 классы"
+        ],
+        "sha256": "385ea5efe4d0c690c52fb02c97891af2f64a8902058f58ed3bef626cdaa05d03"
+      }
+    },
+    {
+      "year": 2003,
+      "grade": "6-7",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2003.zip",
+        "member": "rm03rtf/6-7.rtf",
+        "sha256": "ef9eb5e005fc44043f9c220368c9bd9739f544d0b39d3b7f673aed29b0c91ba9"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2003-2.zip",
+        "member": "6-7_2003_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "dc16a0bad3e95c22736972ed2958da2714ed9d928f2c5604cf99bf45cc85105b"
+      },
+      "separateKeyMembers": [
+        "rm03rtf/Правильные ответы2003.xls"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "6-7.pdf",
+      "answersFile": "6-7-answers.pdf",
+      "localTask": "sources/medvezhonok/2003/6-7.pdf",
+      "taskPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "e784d46adbc863b52fdae1c85e5be379b62f038c5f839fa44ef5c4f5ef57da7a",
+        "yearHeader": "«Русский медвежонок» – 2003"
+      },
+      "localAnswers": "sources/medvezhonok/2003/6-7-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "dc16a0bad3e95c22736972ed2958da2714ed9d928f2c5604cf99bf45cc85105b"
+      }
+    },
+    {
+      "year": 2003,
+      "grade": "8-9",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2003.zip",
+        "member": "rm03rtf/8-9.rtf",
+        "sha256": "40e1609cf71a439e62448454e7e32d29731e77949a7ffc7ce6cacfead62f1dbe"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2003-2.zip",
+        "member": "8-9_2003_website.pdf",
+        "pages": 5,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "f9524ff17ff7f576f9735910cc1bc9b63c8ecad9386931373e8ebd2024f596fc"
+      },
+      "separateKeyMembers": [
+        "rm03rtf/Правильные ответы2003.xls"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "8-9.pdf",
+      "answersFile": "8-9-answers.pdf",
+      "localTask": "sources/medvezhonok/2003/8-9.pdf",
+      "taskPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "918ddd653ea2db7f43762b65bc0acd53b17d9199df14fa6d191495e40261eacb",
+        "yearHeader": "«Русский медвежонок» – 2003"
+      },
+      "localAnswers": "sources/medvezhonok/2003/8-9-answers.pdf",
+      "answerPdf": {
+        "pages": 5,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "f9524ff17ff7f576f9735910cc1bc9b63c8ecad9386931373e8ebd2024f596fc"
+      }
+    },
+    {
+      "year": 2003,
+      "grade": "10-11",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2003.zip",
+        "member": "rm03rtf/10-11.rtf",
+        "sha256": "c6e5457dfde23e50a0d9d01e5146204ef4c49393832faa49a88fb144cab8c021"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2003-2.zip",
+        "member": "10-11_2003_website.pdf",
+        "pages": 5,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "18f36f77f0042b4d19dab99eab208bd1b2a6571469feaa0d71f12efc2d044307"
+      },
+      "separateKeyMembers": [
+        "rm03rtf/Правильные ответы2003.xls"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "10-11.pdf",
+      "answersFile": "10-11-answers.pdf",
+      "localTask": "sources/medvezhonok/2003/10-11.pdf",
+      "taskPdf": {
+        "pages": 3,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "eadb69756b73218861c04b2292ba923861b89c310e88995aa93996933325f43b",
+        "yearHeader": "«Русский медвежонок» – 2003"
+      },
+      "localAnswers": "sources/medvezhonok/2003/10-11-answers.pdf",
+      "answerPdf": {
+        "pages": 5,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "18f36f77f0042b4d19dab99eab208bd1b2a6571469feaa0d71f12efc2d044307"
+      }
+    },
+    {
+      "year": 2004,
+      "grade": "2-3",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2004.zip",
+        "member": "task2004/rm04rtf/2-3.rtf",
+        "sha256": "95df14dff04d70f333552f67244db042d9471c71a1a70fcc00447c854b033cfb"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2004-2.zip",
+        "member": "2-3_2004_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "0e961df742222a9d896ec4d411d0c87347495aa8ac4851f98714d04949dabc5b"
+      },
+      "separateKeyMembers": [
+        "task2004/rm04rtf/otvet2004.xls"
+      ],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2004/2-3.pdf",
+      "taskPdf": {
+        "pages": 3,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "ad08b750684e7d3bd61127f932bc40636cc627d8d17808a0386bc76914312e17",
+        "yearHeader": "«Русский медвежонок» – 2004"
+      },
+      "localAnswers": "sources/medvezhonok/2004/2-3-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "0e961df742222a9d896ec4d411d0c87347495aa8ac4851f98714d04949dabc5b"
+      }
+    },
+    {
+      "year": 2004,
+      "grade": "4-5",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2004.zip",
+        "member": "task2004/rm04rtf/4-5.rtf",
+        "sha256": "bca189ea4e3fd56c3a8dd901d6ad4442b5c52c6a39b4e4719e2830369bcbf3bf"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2004-2.zip",
+        "member": "4-5_2004_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "8baed8d0519272af91b62d20a98f0348a10add5f9324061b1649aaadfc5272e6"
+      },
+      "separateKeyMembers": [
+        "task2004/rm04rtf/otvet2004.xls"
+      ],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2004/4-5.pdf",
+      "taskPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "e25e6a7808550504824b6b54d38511f092a7ddd529e43b39825d9f1c6f953c8c",
+        "yearHeader": "«Русский медвежонок» – 2004"
+      },
+      "localAnswers": "sources/medvezhonok/2004/4-5-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "8baed8d0519272af91b62d20a98f0348a10add5f9324061b1649aaadfc5272e6"
+      }
+    },
+    {
+      "year": 2004,
+      "grade": "6-7",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2004.zip",
+        "member": "task2004/rm04rtf/6-7.rtf",
+        "sha256": "b60465707d864aaf5dac37566ac5f17b966847b1e6fd74feebcac1f429cd0d94"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2004-2.zip",
+        "member": "6-7_2004_website.pdf",
+        "pages": 5,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "c918da8043668731b497510e0a291920448af40c2561198664d04252a7ca3c39"
+      },
+      "separateKeyMembers": [
+        "task2004/rm04rtf/otvet2004.xls"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "6-7.pdf",
+      "answersFile": "6-7-answers.pdf",
+      "localTask": "sources/medvezhonok/2004/6-7.pdf",
+      "taskPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "78e531a96bb7a9e175c78a0c0a001ea2b98ea1939dc3c8921b621b167071d8bb",
+        "yearHeader": "«Русский медвежонок» – 2004"
+      },
+      "localAnswers": "sources/medvezhonok/2004/6-7-answers.pdf",
+      "answerPdf": {
+        "pages": 5,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "c918da8043668731b497510e0a291920448af40c2561198664d04252a7ca3c39"
+      }
+    },
+    {
+      "year": 2004,
+      "grade": "8-9",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2004.zip",
+        "member": "task2004/rm04rtf/8-9.rtf",
+        "sha256": "a21e962e67b301757ca5a56aec6485066f8bc352bf2952750fe52ca739409dec"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2004-2.zip",
+        "member": "8-9_2004_website.pdf",
+        "pages": 5,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "d691f5ebf3550cf2cfbd53893d992e638a900c4017dfe1fd5404a65ec859aec7"
+      },
+      "separateKeyMembers": [
+        "task2004/rm04rtf/otvet2004.xls"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "8-9.pdf",
+      "answersFile": "8-9-answers.pdf",
+      "localTask": "sources/medvezhonok/2004/8-9.pdf",
+      "taskPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "a3b343a52757f3f891450e637cecd7860b21ddcc8be8237d88486c377bb5b4ba",
+        "yearHeader": "«Русский медвежонок» – 2004"
+      },
+      "localAnswers": "sources/medvezhonok/2004/8-9-answers.pdf",
+      "answerPdf": {
+        "pages": 5,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "d691f5ebf3550cf2cfbd53893d992e638a900c4017dfe1fd5404a65ec859aec7"
+      }
+    },
+    {
+      "year": 2004,
+      "grade": "10-11",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2004.zip",
+        "member": "task2004/rm04rtf/10-11.rtf",
+        "sha256": "f9087d177fc848a29fedc2beb2275f254737d1fe7b2bebf1d6eaef0e3e5a03c5"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2004-2.zip",
+        "member": "10-11_2004_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "0c681bc07f0334995271ea08bfd2c721f457062e0b422e657b40701329951ee7"
+      },
+      "separateKeyMembers": [
+        "task2004/rm04rtf/otvet2004.xls"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "10-11.pdf",
+      "answersFile": "10-11-answers.pdf",
+      "localTask": "sources/medvezhonok/2004/10-11.pdf",
+      "taskPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "e66b43c2c4859c87bf9ddb7a5f86e3b44d6219abaae910c1466ce0fae9380910",
+        "yearHeader": "«Русский медвежонок» – 2004"
+      },
+      "localAnswers": "sources/medvezhonok/2004/10-11-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "0c681bc07f0334995271ea08bfd2c721f457062e0b422e657b40701329951ee7"
+      }
+    },
+    {
+      "year": 2005,
+      "grade": "2-3",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2005.zip",
+        "member": "2-3.rtf",
+        "sha256": "fd38f54e0bb3c3b309b74fd97345e504e870dde7675cd99d2346bb1af503c5c8"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2005-2.zip",
+        "member": "2-3_ 2005_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "83cd2a6384386d7099ce1d9e2c8616c460b31ffd24fad6c0114dada9f1e77563",
+        "yearHeader": "«Русский медвежонок» – 2005"
+      },
+      "separateKeyMembers": [
+        "Ответы2005.xls"
+      ],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2005/2-3.pdf",
+      "taskPdf": {
+        "pages": 3,
+        "gradeHeader": [
+          "2-3 класс"
+        ],
+        "sha256": "df79d6e4c6426c6c11d0b9288d398cf26961cbc2a1652e6ccb3952d086beb667",
+        "yearHeader": "Задачи конкурса «Русский медвежонок - 2005»"
+      },
+      "localAnswers": "sources/medvezhonok/2005/2-3-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "83cd2a6384386d7099ce1d9e2c8616c460b31ffd24fad6c0114dada9f1e77563",
+        "yearHeader": "«Русский медвежонок» – 2005"
+      }
+    },
+    {
+      "year": 2005,
+      "grade": "4-5",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2005.zip",
+        "member": "4-5.rtf",
+        "sha256": "eb3eaf25150fba886af6937def7599813837fa57b2f5ec28b1df2d7389acc323"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2005-2.zip",
+        "member": "4-5_ 2005_website.pdf",
+        "pages": 5,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "b6042d8693218621a41edd8a0c1ad2274c38d1fb987a1f6e28069f886dd5b07f",
+        "yearHeader": "«Русский медвежонок» – 2005"
+      },
+      "separateKeyMembers": [
+        "Ответы2005.xls"
+      ],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2005/4-5.pdf",
+      "taskPdf": {
+        "pages": 3,
+        "gradeHeader": [
+          "4-5 класс"
+        ],
+        "sha256": "76358532db28b39596a477ed922d6442c7354b30c7aed2febd58b4ba55c4a1b2",
+        "yearHeader": "Задачи конкурса «Русский медвежонок - 2005»"
+      },
+      "localAnswers": "sources/medvezhonok/2005/4-5-answers.pdf",
+      "answerPdf": {
+        "pages": 5,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "b6042d8693218621a41edd8a0c1ad2274c38d1fb987a1f6e28069f886dd5b07f",
+        "yearHeader": "«Русский медвежонок» – 2005"
+      }
+    },
+    {
+      "year": 2005,
+      "grade": "6-7",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2005.zip",
+        "member": "6-7.rtf",
+        "sha256": "3da6e7f66904bda82ca8ce30eb241390cf99e1f15c4bef0ef7a88439940e2fc6"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2005-2.zip",
+        "member": "6-7_ 2005_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "32b8bd60c86578fbedb874b7a85ed74d9dcada950af9790d207ba9fb3fc4a1dd",
+        "yearHeader": "«Русский медвежонок» – 2005"
+      },
+      "separateKeyMembers": [
+        "Ответы2005.xls"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "6-7.pdf",
+      "answersFile": "6-7-answers.pdf",
+      "localTask": "sources/medvezhonok/2005/6-7.pdf",
+      "taskPdf": {
+        "pages": 3,
+        "gradeHeader": [
+          "6-7 класс"
+        ],
+        "sha256": "2ca44940e2a5a4d766fee24b43c9006b0965428fcc894a81a0f996b3c4cbf04e",
+        "yearHeader": "Задачи конкурса «Русский медвежонок - 2005»"
+      },
+      "localAnswers": "sources/medvezhonok/2005/6-7-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "32b8bd60c86578fbedb874b7a85ed74d9dcada950af9790d207ba9fb3fc4a1dd",
+        "yearHeader": "«Русский медвежонок» – 2005"
+      }
+    },
+    {
+      "year": 2005,
+      "grade": "8-9",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2005.zip",
+        "member": "8-9.rtf",
+        "sha256": "17ca29b7a225e7240f632b3cd478f9c29dd941d117b8bf3fa797c3a3bffe8582"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2005-2.zip",
+        "member": "8-9_ 2005_website.pdf",
+        "pages": 5,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "0071408434bf2e97616c00c60e9c5261391f109082ad42e6b27bb7bfba61f397",
+        "yearHeader": "«Русский медвежонок» – 2005"
+      },
+      "separateKeyMembers": [
+        "Ответы2005.xls"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "8-9.pdf",
+      "answersFile": "8-9-answers.pdf",
+      "localTask": "sources/medvezhonok/2005/8-9.pdf",
+      "taskPdf": {
+        "pages": 3,
+        "gradeHeader": [
+          "8-9 класс"
+        ],
+        "sha256": "39c6e6356b51430b829de17f8ed3758c43d7a5884b93c1b24ea5d7d2c0176469",
+        "yearHeader": "Задачи конкурса «Русский медвежонок - 2005»"
+      },
+      "localAnswers": "sources/medvezhonok/2005/8-9-answers.pdf",
+      "answerPdf": {
+        "pages": 5,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "0071408434bf2e97616c00c60e9c5261391f109082ad42e6b27bb7bfba61f397",
+        "yearHeader": "«Русский медвежонок» – 2005"
+      }
+    },
+    {
+      "year": 2005,
+      "grade": "10-11",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2005.zip",
+        "member": "10-11.rtf",
+        "sha256": "b46589729e832b83f0d1bb63d248be98b900fe27464b4fbcbda5fc841e6a653e"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2005-2.zip",
+        "member": "10-11_ 2005_website.pdf",
+        "pages": 5,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "1c10e1e230b8874253d89f5fdb5bdd23a127136a42c3d7b87815476bd98311ef",
+        "yearHeader": "«Русский медвежонок» – 2005"
+      },
+      "separateKeyMembers": [
+        "Ответы2005.xls"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "10-11.pdf",
+      "answersFile": "10-11-answers.pdf",
+      "localTask": "sources/medvezhonok/2005/10-11.pdf",
+      "taskPdf": {
+        "pages": 3,
+        "gradeHeader": [
+          "10-11 класс"
+        ],
+        "sha256": "bb5e0b233e56d1f9e0c408420fac471d22fe96d58cb6b3d5b66741e90c554da3",
+        "yearHeader": "Задачи конкурса «Русский медвежонок - 2005»"
+      },
+      "localAnswers": "sources/medvezhonok/2005/10-11-answers.pdf",
+      "answerPdf": {
+        "pages": 5,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "1c10e1e230b8874253d89f5fdb5bdd23a127136a42c3d7b87815476bd98311ef",
+        "yearHeader": "«Русский медвежонок» – 2005"
+      }
+    },
+    {
+      "year": 2006,
+      "grade": "2-3",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2006.zip",
+        "member": "2-3f2.doc",
+        "sha256": "330253ec1b044e56cf5f181580b935683149f02eefac2f648bc715c774312464"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2006-2.zip",
+        "member": "2-3_2006_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "931face376521727248058959afa3d0ab3d33d7c94c31586caeced4ada9bd37c"
+      },
+      "separateKeyMembers": [
+        "Ответы.xls"
+      ],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2006/2-3.pdf",
+      "taskPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "4a67772c4d3115dc7c6f4cc29841e1bb052b6ffbb4cc7fadce706029acf5e737"
+      },
+      "localAnswers": "sources/medvezhonok/2006/2-3-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "931face376521727248058959afa3d0ab3d33d7c94c31586caeced4ada9bd37c"
+      }
+    },
+    {
+      "year": 2006,
+      "grade": "4-5",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2006.zip",
+        "member": "4-5f2.doc",
+        "sha256": "91e356681341d586255d0622a840b8905e9cb4475d34b09a725280e846054fe8"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2006-2.zip",
+        "member": "4-5_2006_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "a3ae29de49e21c430588c9e3fcaf86a909e7d5217dbbbb712436278ba0523de8"
+      },
+      "separateKeyMembers": [
+        "Ответы.xls"
+      ],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2006/4-5.pdf",
+      "taskPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "8aa19051f0d87149dc0e0cd1e96567a8abc508c4c9afc927a6b52c00602cdde1",
+        "yearHeader": "“Русский медвежонок” – 2006"
+      },
+      "localAnswers": "sources/medvezhonok/2006/4-5-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "a3ae29de49e21c430588c9e3fcaf86a909e7d5217dbbbb712436278ba0523de8"
+      }
+    },
+    {
+      "year": 2006,
+      "grade": "6-7",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2006.zip",
+        "member": "6-7f1+.doc",
+        "sha256": "b258791e4ba7ddff891c1e41f747c8710c989eee4a4fa81a3c8bc56d3abf9ec8"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2006-2.zip",
+        "member": "6-7_2006_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "0678eaf1e23479275abbbf48cbd0d5f15945643b8801a20c256fb71eace0ae06"
+      },
+      "separateKeyMembers": [
+        "Ответы.xls"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "6-7.pdf",
+      "answersFile": "6-7-answers.pdf",
+      "localTask": "sources/medvezhonok/2006/6-7.pdf",
+      "taskPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "03f08c57a671cf3fc0377147c116896cd1c745b3162627b5f73137751324a0d5"
+      },
+      "localAnswers": "sources/medvezhonok/2006/6-7-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "0678eaf1e23479275abbbf48cbd0d5f15945643b8801a20c256fb71eace0ae06"
+      }
+    },
+    {
+      "year": 2006,
+      "grade": "8-9",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2006.zip",
+        "member": "8-9f2.doc",
+        "sha256": "7d8897b5cf3d4f23ff8335db75d755f1f907660f224a8f76e698a23310f15d23"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2006-2.zip",
+        "member": "8-9_2006_website.pdf",
+        "pages": 5,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "382c6e83428360b3a09a9c74e1e74bd127b3b3bf4bc37fe6c8457f4ec4f03f63"
+      },
+      "separateKeyMembers": [
+        "Ответы.xls"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "8-9.pdf",
+      "answersFile": "8-9-answers.pdf",
+      "localTask": "sources/medvezhonok/2006/8-9.pdf",
+      "taskPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "c3de73b056ff6f877369167d774ae002041cf900c9023db07fc809e3ee99ae3d",
+        "yearHeader": "“Русский медвежонок” – 2006"
+      },
+      "localAnswers": "sources/medvezhonok/2006/8-9-answers.pdf",
+      "answerPdf": {
+        "pages": 5,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "382c6e83428360b3a09a9c74e1e74bd127b3b3bf4bc37fe6c8457f4ec4f03f63"
+      }
+    },
+    {
+      "year": 2006,
+      "grade": "10-11",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2006.zip",
+        "member": "10-11e.doc",
+        "sha256": "057daafdb9cbd3c61f24646027aff2cda7fa22e624e255fa71c755a908e9cdfc"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2006-2.zip",
+        "member": "10-11_2006_website.pdf",
+        "pages": 5,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "25e537bbe186ee5ca17567a858b300f1892aeb930d0dc2fbd0087932b9d4ef6d"
+      },
+      "separateKeyMembers": [
+        "Ответы.xls"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "10-11.pdf",
+      "answersFile": "10-11-answers.pdf",
+      "localTask": "sources/medvezhonok/2006/10-11.pdf",
+      "taskPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "3879de56c23c22722245a718d17a862945e4ee41d847dc1deef0385cf9d0a4a1",
+        "yearHeader": "“Русский медвежонок” – 2006"
+      },
+      "localAnswers": "sources/medvezhonok/2006/10-11-answers.pdf",
+      "answerPdf": {
+        "pages": 5,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "25e537bbe186ee5ca17567a858b300f1892aeb930d0dc2fbd0087932b9d4ef6d"
+      }
+    },
+    {
+      "year": 2007,
+      "grade": "2-3",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2007.zip",
+        "member": "2-3f2.pdf",
+        "sha256": "819a856084e699a1648369a0f94ae193a6b98ec7c5184c51f1f09b4b9284118c",
+        "pages": 2,
+        "gradeHeader": [
+          "2-3 класс",
+          "2–3 классы"
+        ],
+        "yearHeader": "“Русский медвежонок” – 2007"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2007-2.zip",
+        "member": "2-3_2007_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "2764052b413a861dddeaead984e162692edcbfee70d51cc7f50ca3f12dcfb89e"
+      },
+      "separateKeyMembers": [
+        "otvet2007.xls"
+      ],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2007/2-3.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "2-3 класс",
+          "2–3 классы"
+        ],
+        "sha256": "819a856084e699a1648369a0f94ae193a6b98ec7c5184c51f1f09b4b9284118c",
+        "yearHeader": "“Русский медвежонок” – 2007"
+      },
+      "localAnswers": "sources/medvezhonok/2007/2-3-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "2764052b413a861dddeaead984e162692edcbfee70d51cc7f50ca3f12dcfb89e"
+      }
+    },
+    {
+      "year": 2007,
+      "grade": "4-5",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2007.zip",
+        "member": "4-5g.pdf",
+        "sha256": "6d5fb9bcd053b8989b03c739278637b625a2a4ffaa6f6d27d3285f18d7b678ca",
+        "pages": 2,
+        "gradeHeader": [
+          "4-5 класс",
+          "4–5 классы"
+        ],
+        "yearHeader": "“Русский медвежонок” – 2007"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2007-2.zip",
+        "member": "4-5_2007_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "3bfe7c1b7436f741dae465bc842a7b8d14bc5842f1e726b470953c5ba2548af5"
+      },
+      "separateKeyMembers": [
+        "otvet2007.xls"
+      ],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2007/4-5.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "4-5 класс",
+          "4–5 классы"
+        ],
+        "sha256": "6d5fb9bcd053b8989b03c739278637b625a2a4ffaa6f6d27d3285f18d7b678ca",
+        "yearHeader": "“Русский медвежонок” – 2007"
+      },
+      "localAnswers": "sources/medvezhonok/2007/4-5-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "3bfe7c1b7436f741dae465bc842a7b8d14bc5842f1e726b470953c5ba2548af5"
+      }
+    },
+    {
+      "year": 2007,
+      "grade": "6-7",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2007.zip",
+        "member": "6-7f.pdf",
+        "sha256": "168116c8b2c12165e02745b874c47ae68703a2b79ed31c39a5a7d91918758875",
+        "pages": 2,
+        "gradeHeader": [
+          "6-7 класс",
+          "6–7 классы"
+        ],
+        "yearHeader": "“Русский медвежонок” – 2007"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2007-2.zip",
+        "member": "6-7_2007_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "eff8429c020436085049986637cd6f99d8851586d84e5f0e28324b61c6ffe035"
+      },
+      "separateKeyMembers": [
+        "otvet2007.xls"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "6-7.pdf",
+      "answersFile": "6-7-answers.pdf",
+      "localTask": "sources/medvezhonok/2007/6-7.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "6-7 класс",
+          "6–7 классы"
+        ],
+        "sha256": "168116c8b2c12165e02745b874c47ae68703a2b79ed31c39a5a7d91918758875",
+        "yearHeader": "“Русский медвежонок” – 2007"
+      },
+      "localAnswers": "sources/medvezhonok/2007/6-7-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "eff8429c020436085049986637cd6f99d8851586d84e5f0e28324b61c6ffe035"
+      }
+    },
+    {
+      "year": 2007,
+      "grade": "8-9",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2007.zip",
+        "member": "8-9d1.pdf",
+        "sha256": "7cb2e8d91915dc7bdca4aec978f6b8db54e01ba5cc169318c2be7b8392babb72",
+        "pages": 2,
+        "gradeHeader": [
+          "8-9 класс",
+          "8–9 классы"
+        ],
+        "yearHeader": "“Русский медвежонок” – 2007"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2007-2.zip",
+        "member": "8-9_2007_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "3c44723db092faf5caed0032a389bf9ee7f9c565225fc7636e245d64e72e5361"
+      },
+      "separateKeyMembers": [
+        "otvet2007.xls"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "8-9.pdf",
+      "answersFile": "8-9-answers.pdf",
+      "localTask": "sources/medvezhonok/2007/8-9.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "8-9 класс",
+          "8–9 классы"
+        ],
+        "sha256": "7cb2e8d91915dc7bdca4aec978f6b8db54e01ba5cc169318c2be7b8392babb72",
+        "yearHeader": "“Русский медвежонок” – 2007"
+      },
+      "localAnswers": "sources/medvezhonok/2007/8-9-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "3c44723db092faf5caed0032a389bf9ee7f9c565225fc7636e245d64e72e5361"
+      }
+    },
+    {
+      "year": 2007,
+      "grade": "10-11",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2007.zip",
+        "member": "10-11e.pdf",
+        "sha256": "d0605d8cceb9b3d6292b6ac467fb588b800656d6e0b74705853843cbc77e8214",
+        "pages": 2,
+        "gradeHeader": [
+          "10-11 класс",
+          "10–11 классы"
+        ],
+        "yearHeader": "“Русский медвежонок” – 2007"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2007-2.zip",
+        "member": "10-11_2007_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "715668a6495c704a88921daeb215d1ca3bde9ebb4b4c3afa74f1f8d5885587a5"
+      },
+      "separateKeyMembers": [
+        "otvet2007.xls"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "10-11.pdf",
+      "answersFile": "10-11-answers.pdf",
+      "localTask": "sources/medvezhonok/2007/10-11.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "10-11 класс",
+          "10–11 классы"
+        ],
+        "sha256": "d0605d8cceb9b3d6292b6ac467fb588b800656d6e0b74705853843cbc77e8214",
+        "yearHeader": "“Русский медвежонок” – 2007"
+      },
+      "localAnswers": "sources/medvezhonok/2007/10-11-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "715668a6495c704a88921daeb215d1ca3bde9ebb4b4c3afa74f1f8d5885587a5"
+      }
+    },
+    {
+      "year": 2008,
+      "grade": "2-3",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2008.zip",
+        "member": "2-3+.pdf",
+        "sha256": "cb6a6d84cc93237c26cccbf49af22f1420e5634935b91ee4466985d62289ea04",
+        "pages": 2,
+        "gradeHeader": [
+          "2-3 класс",
+          "2–3 классы"
+        ],
+        "yearHeader": "Правильные ответы на все задания «Русского медвежонка»–2008 бу-"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2008-2.zip",
+        "member": "2-3_2008_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "a25cbab636e7cfdbbdd051e1e030b7c6f67bca030aa23ab52553145e05ca4e11"
+      },
+      "separateKeyMembers": [
+        "ответы2008.xls"
+      ],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2008/2-3.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "2-3 класс",
+          "2–3 классы"
+        ],
+        "sha256": "cb6a6d84cc93237c26cccbf49af22f1420e5634935b91ee4466985d62289ea04",
+        "yearHeader": "Правильные ответы на все задания «Русского медвежонка»–2008 бу-"
+      },
+      "localAnswers": "sources/medvezhonok/2008/2-3-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "a25cbab636e7cfdbbdd051e1e030b7c6f67bca030aa23ab52553145e05ca4e11"
+      }
+    },
+    {
+      "year": 2008,
+      "grade": "4-5",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2008.zip",
+        "member": "4-5.pdf",
+        "sha256": "72ccaa88ba5cb21014e3ed555eaaa58464c53b5db877ce9c8b2a92d61b153169",
+        "pages": 2,
+        "gradeHeader": [
+          "4-5 класс",
+          "4–5 классы"
+        ],
+        "yearHeader": "Правильные ответы на все задания «Русского медвежонка»–2008 будут опубликованы"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2008-2.zip",
+        "member": "4-5_2008_website.pdf",
+        "pages": 5,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "918c564843c5ce0ec0a2dfc4e2e2131c555ded3a95834d488611fbcddebf9a8c"
+      },
+      "separateKeyMembers": [
+        "ответы2008.xls"
+      ],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2008/4-5.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "4-5 класс",
+          "4–5 классы"
+        ],
+        "sha256": "72ccaa88ba5cb21014e3ed555eaaa58464c53b5db877ce9c8b2a92d61b153169",
+        "yearHeader": "Правильные ответы на все задания «Русского медвежонка»–2008 будут опубликованы"
+      },
+      "localAnswers": "sources/medvezhonok/2008/4-5-answers.pdf",
+      "answerPdf": {
+        "pages": 5,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "918c564843c5ce0ec0a2dfc4e2e2131c555ded3a95834d488611fbcddebf9a8c"
+      }
+    },
+    {
+      "year": 2008,
+      "grade": "6-7",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2008.zip",
+        "member": "6-7.pdf",
+        "sha256": "53247899c7f5240ab14341681c4f27ddf8ad5ec66c36d6c25813a04480387c96",
+        "pages": 2,
+        "gradeHeader": [
+          "6-7 класс",
+          "6–7 классы"
+        ],
+        "yearHeader": "Правильные ответы на все задания «Русского медвежонка»–2008 будут опубли-"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2008-2.zip",
+        "member": "6-7_2008_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "98fe98908ae922e37b601762a7adc3929def00b3f176ee7a513aedddaf35f981"
+      },
+      "separateKeyMembers": [
+        "ответы2008.xls"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "6-7.pdf",
+      "answersFile": "6-7-answers.pdf",
+      "localTask": "sources/medvezhonok/2008/6-7.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "6-7 класс",
+          "6–7 классы"
+        ],
+        "sha256": "53247899c7f5240ab14341681c4f27ddf8ad5ec66c36d6c25813a04480387c96",
+        "yearHeader": "Правильные ответы на все задания «Русского медвежонка»–2008 будут опубли-"
+      },
+      "localAnswers": "sources/medvezhonok/2008/6-7-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "98fe98908ae922e37b601762a7adc3929def00b3f176ee7a513aedddaf35f981"
+      }
+    },
+    {
+      "year": 2008,
+      "grade": "8-9",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2008.zip",
+        "member": "8-9.pdf",
+        "sha256": "2c07540ad03c2e7afbe068555eb5d997678e1d0a80bc382c3df2de906347eb7a",
+        "pages": 2,
+        "gradeHeader": [
+          "8-9 класс",
+          "8–9 классы"
+        ],
+        "yearHeader": "Правильные ответы на все задания «Русского медвежонка»–2008 будут опублико-"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2008-2.zip",
+        "member": "8-9_2008_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "1175139e5568457048e793c03411ce070eb581e75e020ca27bbcc2f8aeaa2c2d"
+      },
+      "separateKeyMembers": [
+        "ответы2008.xls"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "8-9.pdf",
+      "answersFile": "8-9-answers.pdf",
+      "localTask": "sources/medvezhonok/2008/8-9.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "8-9 класс",
+          "8–9 классы"
+        ],
+        "sha256": "2c07540ad03c2e7afbe068555eb5d997678e1d0a80bc382c3df2de906347eb7a",
+        "yearHeader": "Правильные ответы на все задания «Русского медвежонка»–2008 будут опублико-"
+      },
+      "localAnswers": "sources/medvezhonok/2008/8-9-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "1175139e5568457048e793c03411ce070eb581e75e020ca27bbcc2f8aeaa2c2d"
+      }
+    },
+    {
+      "year": 2008,
+      "grade": "10-11",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2008.zip",
+        "member": "10-11.pdf",
+        "sha256": "9bb8070142efd6f211adaf6d9dc7cd44a67335a1ba8ae8886fefae01932c0524",
+        "pages": 2,
+        "gradeHeader": [
+          "10-11 класс",
+          "10–11 классы"
+        ],
+        "yearHeader": "Правильные ответы на все задания «Русского медвежонка»–2008 будут опубли-"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2008-2.zip",
+        "member": "10-11_2008_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "3bb34f978eea3119865d3da5b0d9a3808caa35ece7356ffa09523365e7216f27"
+      },
+      "separateKeyMembers": [
+        "ответы2008.xls"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "10-11.pdf",
+      "answersFile": "10-11-answers.pdf",
+      "localTask": "sources/medvezhonok/2008/10-11.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "10-11 класс",
+          "10–11 классы"
+        ],
+        "sha256": "9bb8070142efd6f211adaf6d9dc7cd44a67335a1ba8ae8886fefae01932c0524",
+        "yearHeader": "Правильные ответы на все задания «Русского медвежонка»–2008 будут опубли-"
+      },
+      "localAnswers": "sources/medvezhonok/2008/10-11-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "3bb34f978eea3119865d3da5b0d9a3808caa35ece7356ffa09523365e7216f27"
+      }
+    },
+    {
+      "year": 2009,
+      "grade": "2-3",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2009.zip",
+        "member": "2-3.pdf",
+        "sha256": "c12d1f90ca03a57b1231f4d73904cb724bfbab2d17fc192771e0fbee59390f6f",
+        "pages": 2,
+        "gradeHeader": [
+          "2-3 класс",
+          "2–3 классы"
+        ],
+        "yearHeader": "Ответы на все задания будут опубликованы 1 декабря 2009 года на сайте"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2009-2.zip",
+        "member": "2-3_2009_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "879d31554e01dcf94e1b7b4875038de62eb0da8339303102b11e114b5ad634c8"
+      },
+      "separateKeyMembers": [
+        "ответы2009.xls"
+      ],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2009/2-3.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "2-3 класс",
+          "2–3 классы"
+        ],
+        "sha256": "c12d1f90ca03a57b1231f4d73904cb724bfbab2d17fc192771e0fbee59390f6f",
+        "yearHeader": "Ответы на все задания будут опубликованы 1 декабря 2009 года на сайте"
+      },
+      "localAnswers": "sources/medvezhonok/2009/2-3-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "879d31554e01dcf94e1b7b4875038de62eb0da8339303102b11e114b5ad634c8"
+      }
+    },
+    {
+      "year": 2009,
+      "grade": "4-5",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2009.zip",
+        "member": "4-5.pdf",
+        "sha256": "7912fad663423a0664fd2b9e6531542d5a9bab4e3620cb416d7db07aab84303e",
+        "pages": 2,
+        "gradeHeader": [
+          "4-5 класс",
+          "4–5 классы"
+        ],
+        "yearHeader": "Ответы на все задания будут опубликованы 1 декабря 2009 года на сайте"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2009-2.zip",
+        "member": "4-5_2009_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "35100a93033565720b952b63c5a312be05b24206832f5251990a8979a30047c6"
+      },
+      "separateKeyMembers": [
+        "ответы2009.xls"
+      ],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2009/4-5.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "4-5 класс",
+          "4–5 классы"
+        ],
+        "sha256": "7912fad663423a0664fd2b9e6531542d5a9bab4e3620cb416d7db07aab84303e",
+        "yearHeader": "Ответы на все задания будут опубликованы 1 декабря 2009 года на сайте"
+      },
+      "localAnswers": "sources/medvezhonok/2009/4-5-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "35100a93033565720b952b63c5a312be05b24206832f5251990a8979a30047c6"
+      }
+    },
+    {
+      "year": 2009,
+      "grade": "6-7",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2009.zip",
+        "member": "6-7.pdf",
+        "sha256": "2c470ceb97a66dbdd568da7a1c381d101824687c59994732154faf2954b1d55c",
+        "pages": 2,
+        "gradeHeader": [
+          "6-7 класс",
+          "6–7 классы"
+        ],
+        "yearHeader": "Ответы на все задания будут опубликованы 1 декабря 2009 года на сайте"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2009-2.zip",
+        "member": "6-7_2009_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "83083193159e144d816f7a2d10d201e5f72d2f4bce7c41f4842a6c22c85e3e79"
+      },
+      "separateKeyMembers": [
+        "ответы2009.xls"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "6-7.pdf",
+      "answersFile": "6-7-answers.pdf",
+      "localTask": "sources/medvezhonok/2009/6-7.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "6-7 класс",
+          "6–7 классы"
+        ],
+        "sha256": "2c470ceb97a66dbdd568da7a1c381d101824687c59994732154faf2954b1d55c",
+        "yearHeader": "Ответы на все задания будут опубликованы 1 декабря 2009 года на сайте"
+      },
+      "localAnswers": "sources/medvezhonok/2009/6-7-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "83083193159e144d816f7a2d10d201e5f72d2f4bce7c41f4842a6c22c85e3e79"
+      }
+    },
+    {
+      "year": 2009,
+      "grade": "8-9",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2009.zip",
+        "member": "8-9.pdf",
+        "sha256": "328398160df812c263e6166a8d727034b151f9f7846458384fe38d5213dc72a7",
+        "pages": 2,
+        "gradeHeader": [
+          "8-9 класс",
+          "8–9 классы"
+        ],
+        "yearHeader": "Ответы на все задания будут опубликованы 1 декабря 2009 года на сайте"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2009-2.zip",
+        "member": "8-9_2009_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "ae5718d6f216c1fb4718178f87afd13d76cee757fbca68bd0f0ad825bc578d27"
+      },
+      "separateKeyMembers": [
+        "ответы2009.xls"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "8-9.pdf",
+      "answersFile": "8-9-answers.pdf",
+      "localTask": "sources/medvezhonok/2009/8-9.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "8-9 класс",
+          "8–9 классы"
+        ],
+        "sha256": "328398160df812c263e6166a8d727034b151f9f7846458384fe38d5213dc72a7",
+        "yearHeader": "Ответы на все задания будут опубликованы 1 декабря 2009 года на сайте"
+      },
+      "localAnswers": "sources/medvezhonok/2009/8-9-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "ae5718d6f216c1fb4718178f87afd13d76cee757fbca68bd0f0ad825bc578d27"
+      }
+    },
+    {
+      "year": 2009,
+      "grade": "10-11",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2009.zip",
+        "member": "10-11.pdf",
+        "sha256": "4fee77989c1343f2b623d2094dee837acf2a35dff7045de30cbaea8f90dfa038",
+        "pages": 2,
+        "gradeHeader": [
+          "10-11 класс",
+          "10–11 классы"
+        ],
+        "yearHeader": "Ответы на все задания будут опубликованы 1 декабря 2009 года на сайте"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2009-2.zip",
+        "member": "10-11_2009_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "c1ba23003c1456391282c7796211189985ab34d101556b849d6f21ad7f8747c2"
+      },
+      "separateKeyMembers": [
+        "ответы2009.xls"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "10-11.pdf",
+      "answersFile": "10-11-answers.pdf",
+      "localTask": "sources/medvezhonok/2009/10-11.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "10-11 класс",
+          "10–11 классы"
+        ],
+        "sha256": "4fee77989c1343f2b623d2094dee837acf2a35dff7045de30cbaea8f90dfa038",
+        "yearHeader": "Ответы на все задания будут опубликованы 1 декабря 2009 года на сайте"
+      },
+      "localAnswers": "sources/medvezhonok/2009/10-11-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "c1ba23003c1456391282c7796211189985ab34d101556b849d6f21ad7f8747c2"
+      }
+    },
+    {
+      "year": 2010,
+      "grade": "2-3",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2010.zip",
+        "member": "2-3.pdf",
+        "sha256": "7c04ec183c9fc1ddc32da81d97c80604ace012afc89830945dddb5bb81e07b58",
+        "pages": 2,
+        "gradeHeader": [
+          "2-3 класс",
+          "2–3 классы"
+        ],
+        "yearHeader": "Ответы на все задания будут опубликованы 25 ноября 2010 года на сай-"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2010-2.zip",
+        "member": "2-3_2010_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "508ffee19666c893c03126eeb46b41a277718bf891dadc4b3dd1e7744582cded"
+      },
+      "separateKeyMembers": [],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2010/2-3.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "2-3 класс",
+          "2–3 классы"
+        ],
+        "sha256": "7c04ec183c9fc1ddc32da81d97c80604ace012afc89830945dddb5bb81e07b58",
+        "yearHeader": "Ответы на все задания будут опубликованы 25 ноября 2010 года на сай-"
+      },
+      "localAnswers": "sources/medvezhonok/2010/2-3-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "508ffee19666c893c03126eeb46b41a277718bf891dadc4b3dd1e7744582cded"
+      }
+    },
+    {
+      "year": 2010,
+      "grade": "4-5",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2010.zip",
+        "member": "4-5.pdf",
+        "sha256": "182e3d7845b451a3594bcbfa5bf619cb4b3d4d6b4cd0383c261675730e1578f1",
+        "pages": 2,
+        "gradeHeader": [
+          "4-5 класс",
+          "4–5 классы"
+        ],
+        "yearHeader": "Ответы на все задания будут опубликованы 25 ноября 2010 года на сайте"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2010-2.zip",
+        "member": "4-5_2010_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "5a65b2c6d07b154db84268ef9251d2f98043faf7fccb2b99e2795357388b28aa"
+      },
+      "separateKeyMembers": [],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2010/4-5.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "4-5 класс",
+          "4–5 классы"
+        ],
+        "sha256": "182e3d7845b451a3594bcbfa5bf619cb4b3d4d6b4cd0383c261675730e1578f1",
+        "yearHeader": "Ответы на все задания будут опубликованы 25 ноября 2010 года на сайте"
+      },
+      "localAnswers": "sources/medvezhonok/2010/4-5-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "5a65b2c6d07b154db84268ef9251d2f98043faf7fccb2b99e2795357388b28aa"
+      }
+    },
+    {
+      "year": 2010,
+      "grade": "6-7",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2010.zip",
+        "member": "6-7.pdf",
+        "sha256": "7277d152c809357810185390bea4d7e3ba38d4d328cf6217a7dd315c12f4d695",
+        "pages": 2,
+        "gradeHeader": [
+          "6-7 класс",
+          "6–7 классы"
+        ],
+        "yearHeader": "Ответы на все задания будут опубликованы 25 ноября 2010 года на сайте http://www.rm.kirov.ru."
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2010-2.zip",
+        "member": "6-7_2010_website.pdf",
+        "pages": 5,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "c94fd710aaae3e62dd3668e686a8a0ebe2c55de9ab38ef69f3e12cd249bfed07"
+      },
+      "separateKeyMembers": [],
+      "status": "paper-verified",
+      "tasksFile": "6-7.pdf",
+      "answersFile": "6-7-answers.pdf",
+      "localTask": "sources/medvezhonok/2010/6-7.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "6-7 класс",
+          "6–7 классы"
+        ],
+        "sha256": "7277d152c809357810185390bea4d7e3ba38d4d328cf6217a7dd315c12f4d695",
+        "yearHeader": "Ответы на все задания будут опубликованы 25 ноября 2010 года на сайте http://www.rm.kirov.ru."
+      },
+      "localAnswers": "sources/medvezhonok/2010/6-7-answers.pdf",
+      "answerPdf": {
+        "pages": 5,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "c94fd710aaae3e62dd3668e686a8a0ebe2c55de9ab38ef69f3e12cd249bfed07"
+      }
+    },
+    {
+      "year": 2010,
+      "grade": "8-9",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2010.zip",
+        "member": "8-9.pdf",
+        "sha256": "2d8a099b24cd91fd367445994240b261fbb23a4d8d7bd0f5cc1fd9724a15fd21",
+        "pages": 2,
+        "gradeHeader": [
+          "8-9 класс",
+          "8–9 классы"
+        ],
+        "yearHeader": "Ответы на все задания будут опубликованы 25 ноября 2010 года на сайте"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2010-2.zip",
+        "member": "8-9_2010_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "2fae23a0042ae3b8aff939b27bfbbe511f577cc2ba25d769e27301e18ca7f2df"
+      },
+      "separateKeyMembers": [],
+      "status": "paper-verified",
+      "tasksFile": "8-9.pdf",
+      "answersFile": "8-9-answers.pdf",
+      "localTask": "sources/medvezhonok/2010/8-9.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "8-9 класс",
+          "8–9 классы"
+        ],
+        "sha256": "2d8a099b24cd91fd367445994240b261fbb23a4d8d7bd0f5cc1fd9724a15fd21",
+        "yearHeader": "Ответы на все задания будут опубликованы 25 ноября 2010 года на сайте"
+      },
+      "localAnswers": "sources/medvezhonok/2010/8-9-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "2fae23a0042ae3b8aff939b27bfbbe511f577cc2ba25d769e27301e18ca7f2df"
+      }
+    },
+    {
+      "year": 2010,
+      "grade": "10-11",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2010.zip",
+        "member": "10-11.pdf",
+        "sha256": "e9204f008f5556c1f17935706532a8a0ef2153b8a61206b1b924ac32d658e837",
+        "pages": 2,
+        "gradeHeader": [
+          "10-11 класс",
+          "10–11 классы"
+        ],
+        "yearHeader": "Ответы на все задания будут опубликованы 25 ноября 2010 года на сайте"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2010-2.zip",
+        "member": "10-11_2010_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "ff4caa0942c7b1b1b01787cff0e6e3e39d313c88f681b1815a9fd299729b1cfa"
+      },
+      "separateKeyMembers": [],
+      "status": "paper-verified",
+      "tasksFile": "10-11.pdf",
+      "answersFile": "10-11-answers.pdf",
+      "localTask": "sources/medvezhonok/2010/10-11.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "10-11 класс",
+          "10–11 классы"
+        ],
+        "sha256": "e9204f008f5556c1f17935706532a8a0ef2153b8a61206b1b924ac32d658e837",
+        "yearHeader": "Ответы на все задания будут опубликованы 25 ноября 2010 года на сайте"
+      },
+      "localAnswers": "sources/medvezhonok/2010/10-11-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "ff4caa0942c7b1b1b01787cff0e6e3e39d313c88f681b1815a9fd299729b1cfa"
+      }
+    },
+    {
+      "year": 2011,
+      "grade": "2-3",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2011.zip",
+        "member": "2-3.pdf",
+        "sha256": "d65a87eb099b4e689572edbc0af3851f31c82bd76b8bbb1fcac73474e87844ea",
+        "pages": 2,
+        "gradeHeader": [
+          "2-3 класс",
+          "2–3 классы"
+        ],
+        "yearHeader": "Ответы на все задания будут опубликованы 25 ноября 2011 года на сайте"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2011-2.zip",
+        "member": "2-3_2011_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "2–3 классы",
+          "2-3 класс"
+        ],
+        "sha256": "5bcb21fa7db42957f603690bdfb23d5d6e7feedfb7779febb7a27db100438308",
+        "yearHeader": "«Русский медвежонок» – 2011"
+      },
+      "separateKeyMembers": [
+        "otvet2011.doc"
+      ],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2011/2-3.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "2-3 класс",
+          "2–3 классы"
+        ],
+        "sha256": "d65a87eb099b4e689572edbc0af3851f31c82bd76b8bbb1fcac73474e87844ea",
+        "yearHeader": "Ответы на все задания будут опубликованы 25 ноября 2011 года на сайте"
+      },
+      "localAnswers": "sources/medvezhonok/2011/2-3-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "2–3 классы",
+          "2-3 класс"
+        ],
+        "sha256": "5bcb21fa7db42957f603690bdfb23d5d6e7feedfb7779febb7a27db100438308",
+        "yearHeader": "«Русский медвежонок» – 2011"
+      }
+    },
+    {
+      "year": 2011,
+      "grade": "4-5",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2011.zip",
+        "member": "4-5.pdf",
+        "sha256": "028657b2dccefd830b2e04e4c725c6b9c8ce75384e40c9438cc00e902590ae77",
+        "pages": 2,
+        "gradeHeader": [
+          "4-5 класс",
+          "4–5 классы"
+        ],
+        "yearHeader": "Ответы на все задания будут опубликованы 25 ноября 2011 года на сайте"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2011-2.zip",
+        "member": "4-5_2011_website.pdf",
+        "pages": 5,
+        "gradeHeader": [
+          "4–5 классы",
+          "4-5 класс"
+        ],
+        "sha256": "08d2067cb8e68f78dfad9eb7918c7571e97f5e46512d93b6988cf40d5f78e626",
+        "yearHeader": "«Русский медвежонок» – 2011"
+      },
+      "separateKeyMembers": [
+        "otvet2011.doc"
+      ],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2011/4-5.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "4-5 класс",
+          "4–5 классы"
+        ],
+        "sha256": "028657b2dccefd830b2e04e4c725c6b9c8ce75384e40c9438cc00e902590ae77",
+        "yearHeader": "Ответы на все задания будут опубликованы 25 ноября 2011 года на сайте"
+      },
+      "localAnswers": "sources/medvezhonok/2011/4-5-answers.pdf",
+      "answerPdf": {
+        "pages": 5,
+        "gradeHeader": [
+          "4–5 классы",
+          "4-5 класс"
+        ],
+        "sha256": "08d2067cb8e68f78dfad9eb7918c7571e97f5e46512d93b6988cf40d5f78e626",
+        "yearHeader": "«Русский медвежонок» – 2011"
+      }
+    },
+    {
+      "year": 2011,
+      "grade": "6-7",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2011.zip",
+        "member": "6-7.pdf",
+        "sha256": "34efb7ce3267bb2b1e949b7b02293508f6745349e9753c6fdfd230c1c73b0781",
+        "pages": 2,
+        "gradeHeader": [
+          "6-7 класс",
+          "6–7 классы"
+        ],
+        "yearHeader": "Ответы на все задания будут опубликованы 25 ноября 2011 года на сайте"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2011-2.zip",
+        "member": "6-7_2011_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы",
+          "6-7 класс"
+        ],
+        "sha256": "439586932c868f403209817724dde3c50b70899107c2bbfec0938ba4d6886b5d",
+        "yearHeader": "«Русский медвежонок» – 2011"
+      },
+      "separateKeyMembers": [
+        "otvet2011.doc"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "6-7.pdf",
+      "answersFile": "6-7-answers.pdf",
+      "localTask": "sources/medvezhonok/2011/6-7.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "6-7 класс",
+          "6–7 классы"
+        ],
+        "sha256": "34efb7ce3267bb2b1e949b7b02293508f6745349e9753c6fdfd230c1c73b0781",
+        "yearHeader": "Ответы на все задания будут опубликованы 25 ноября 2011 года на сайте"
+      },
+      "localAnswers": "sources/medvezhonok/2011/6-7-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы",
+          "6-7 класс"
+        ],
+        "sha256": "439586932c868f403209817724dde3c50b70899107c2bbfec0938ba4d6886b5d",
+        "yearHeader": "«Русский медвежонок» – 2011"
+      }
+    },
+    {
+      "year": 2011,
+      "grade": "8-9",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2011.zip",
+        "member": "8-9.pdf",
+        "sha256": "a1aeea50e8a5e077522fb59e5d059816d0d69574ad9b2356493a4302654b6d88",
+        "pages": 2,
+        "gradeHeader": [
+          "8-9 класс",
+          "8–9 классы"
+        ],
+        "yearHeader": "Ответы на все задания будут опубликованы 25 ноября 2011 года на сайте"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2011-2.zip",
+        "member": "8-9_2011_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы",
+          "8-9 класс"
+        ],
+        "sha256": "792e139da7b75bb90db36891ab198d32b4c3cca01f8f40373f71f05f3ce62f38",
+        "yearHeader": "«Русский медвежонок» – 2011"
+      },
+      "separateKeyMembers": [
+        "otvet2011.doc"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "8-9.pdf",
+      "answersFile": "8-9-answers.pdf",
+      "localTask": "sources/medvezhonok/2011/8-9.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "8-9 класс",
+          "8–9 классы"
+        ],
+        "sha256": "a1aeea50e8a5e077522fb59e5d059816d0d69574ad9b2356493a4302654b6d88",
+        "yearHeader": "Ответы на все задания будут опубликованы 25 ноября 2011 года на сайте"
+      },
+      "localAnswers": "sources/medvezhonok/2011/8-9-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы",
+          "8-9 класс"
+        ],
+        "sha256": "792e139da7b75bb90db36891ab198d32b4c3cca01f8f40373f71f05f3ce62f38",
+        "yearHeader": "«Русский медвежонок» – 2011"
+      }
+    },
+    {
+      "year": 2011,
+      "grade": "10-11",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2011.zip",
+        "member": "10-11.pdf",
+        "sha256": "79359232dd9099f724baca4eec3fa1dd10b8de1e9c75e994ecb2f9cda6136041",
+        "pages": 2,
+        "gradeHeader": [
+          "10-11 класс",
+          "10–11 классы"
+        ],
+        "yearHeader": "Ответы на все задания будут опубликованы 25 ноября 2011 года на сайте"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2011-2.zip",
+        "member": "10-11_2011_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "10–11 классы",
+          "10-11 класс"
+        ],
+        "sha256": "9e6e63167eec4bc28b5b5f999c8cd47a4a83f5de2a7bc1a2ef1aff229e5fecd1",
+        "yearHeader": "«Русский медвежонок» – 2011"
+      },
+      "separateKeyMembers": [
+        "otvet2011.doc"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "10-11.pdf",
+      "answersFile": "10-11-answers.pdf",
+      "localTask": "sources/medvezhonok/2011/10-11.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "10-11 класс",
+          "10–11 классы"
+        ],
+        "sha256": "79359232dd9099f724baca4eec3fa1dd10b8de1e9c75e994ecb2f9cda6136041",
+        "yearHeader": "Ответы на все задания будут опубликованы 25 ноября 2011 года на сайте"
+      },
+      "localAnswers": "sources/medvezhonok/2011/10-11-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "10–11 классы",
+          "10-11 класс"
+        ],
+        "sha256": "9e6e63167eec4bc28b5b5f999c8cd47a4a83f5de2a7bc1a2ef1aff229e5fecd1",
+        "yearHeader": "«Русский медвежонок» – 2011"
+      }
+    },
+    {
+      "year": 2012,
+      "grade": "2-3",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2012.zip",
+        "member": "2-3_2012.pdf",
+        "sha256": "8e0eaaefd43658fe09d1f131615713dff5e4743f5e891e29b9482eeeee53bec9",
+        "pages": 2,
+        "gradeHeader": [
+          "2-3 класс",
+          "2–3 классы"
+        ],
+        "yearHeader": "Ответы на все задания будут опубликованы 29 ноября 2012 года на сайте"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2012-2.zip",
+        "member": "2-3_2012_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "2–3 классы",
+          "2-3 класс"
+        ],
+        "sha256": "32d481d5d206a837e99769d3cfbeb5dd31a792391f32e13f07dbce407544ef14",
+        "yearHeader": "«Русский медвежонок» – 2012"
+      },
+      "separateKeyMembers": [],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2012/2-3.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "2-3 класс",
+          "2–3 классы"
+        ],
+        "sha256": "8e0eaaefd43658fe09d1f131615713dff5e4743f5e891e29b9482eeeee53bec9",
+        "yearHeader": "Ответы на все задания будут опубликованы 29 ноября 2012 года на сайте"
+      },
+      "localAnswers": "sources/medvezhonok/2012/2-3-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "2–3 классы",
+          "2-3 класс"
+        ],
+        "sha256": "32d481d5d206a837e99769d3cfbeb5dd31a792391f32e13f07dbce407544ef14",
+        "yearHeader": "«Русский медвежонок» – 2012"
+      }
+    },
+    {
+      "year": 2012,
+      "grade": "4-5",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2012.zip",
+        "member": "4-5_2012.pdf",
+        "sha256": "ddff5118b83a0dd5699a56ae85aca803b53d4e2192a3d1967bca25e49f58cbf9",
+        "pages": 2,
+        "gradeHeader": [
+          "4-5 класс",
+          "4–5 классы"
+        ],
+        "yearHeader": "Ответы на все задания будут опубликованы 29 ноября 2012 года на сайте"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2012-2.zip",
+        "member": "4-5_2012_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "4–5 классы",
+          "4-5 класс"
+        ],
+        "sha256": "620793c2082c0ac2060db1f07330392c0167ddc600a70c654095609a5824c11e",
+        "yearHeader": "«Русский медвежонок» – 2012"
+      },
+      "separateKeyMembers": [],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2012/4-5.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "4-5 класс",
+          "4–5 классы"
+        ],
+        "sha256": "ddff5118b83a0dd5699a56ae85aca803b53d4e2192a3d1967bca25e49f58cbf9",
+        "yearHeader": "Ответы на все задания будут опубликованы 29 ноября 2012 года на сайте"
+      },
+      "localAnswers": "sources/medvezhonok/2012/4-5-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "4–5 классы",
+          "4-5 класс"
+        ],
+        "sha256": "620793c2082c0ac2060db1f07330392c0167ddc600a70c654095609a5824c11e",
+        "yearHeader": "«Русский медвежонок» – 2012"
+      }
+    },
+    {
+      "year": 2012,
+      "grade": "6-7",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2012.zip",
+        "member": "6-7_2012.pdf",
+        "sha256": "e5c0dab2967ae114c39b23de7ae8439fef30c07c65d1d56742893e01f4eaec07",
+        "pages": 2,
+        "gradeHeader": [
+          "6-7 класс",
+          "6–7 классы"
+        ],
+        "yearHeader": "Ответы на все задания будут опубликованы на сайте http://www.rm.kirov.ru 29 ноября 2012"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2012-2.zip",
+        "member": "6-7_2012_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы",
+          "6-7 класс"
+        ],
+        "sha256": "b238798e328fcbe1a5a04e44effcdbf6ef6abc5fcf7a29b158934849dbd1ef8f",
+        "yearHeader": "«Русский медвежонок» – 2012"
+      },
+      "separateKeyMembers": [],
+      "status": "paper-verified",
+      "tasksFile": "6-7.pdf",
+      "answersFile": "6-7-answers.pdf",
+      "localTask": "sources/medvezhonok/2012/6-7.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "6-7 класс",
+          "6–7 классы"
+        ],
+        "sha256": "e5c0dab2967ae114c39b23de7ae8439fef30c07c65d1d56742893e01f4eaec07",
+        "yearHeader": "Ответы на все задания будут опубликованы на сайте http://www.rm.kirov.ru 29 ноября 2012"
+      },
+      "localAnswers": "sources/medvezhonok/2012/6-7-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы",
+          "6-7 класс"
+        ],
+        "sha256": "b238798e328fcbe1a5a04e44effcdbf6ef6abc5fcf7a29b158934849dbd1ef8f",
+        "yearHeader": "«Русский медвежонок» – 2012"
+      }
+    },
+    {
+      "year": 2012,
+      "grade": "8-9",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2012.zip",
+        "member": "8-9_2012.pdf",
+        "sha256": "7eeef15a70963137e4803b98032b19c77e6ae899ab9ee1d91498018397cb07b1",
+        "pages": 2,
+        "gradeHeader": [
+          "8-9 класс",
+          "8–9 классы"
+        ],
+        "yearHeader": "Ответы на все задания будут опубликованы 29 ноября 2012 года на сайте"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2012-2.zip",
+        "member": "8-9_2012_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы",
+          "8-9 класс"
+        ],
+        "sha256": "63ea6628823dcf419359bcac6d9441b46331cd75358dc42e0d206ce5c46498ba",
+        "yearHeader": "«Русский медвежонок» – 2012"
+      },
+      "separateKeyMembers": [],
+      "status": "paper-verified",
+      "tasksFile": "8-9.pdf",
+      "answersFile": "8-9-answers.pdf",
+      "localTask": "sources/medvezhonok/2012/8-9.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "8-9 класс",
+          "8–9 классы"
+        ],
+        "sha256": "7eeef15a70963137e4803b98032b19c77e6ae899ab9ee1d91498018397cb07b1",
+        "yearHeader": "Ответы на все задания будут опубликованы 29 ноября 2012 года на сайте"
+      },
+      "localAnswers": "sources/medvezhonok/2012/8-9-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы",
+          "8-9 класс"
+        ],
+        "sha256": "63ea6628823dcf419359bcac6d9441b46331cd75358dc42e0d206ce5c46498ba",
+        "yearHeader": "«Русский медвежонок» – 2012"
+      }
+    },
+    {
+      "year": 2012,
+      "grade": "10-11",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2012.zip",
+        "member": "10-11_2012.pdf",
+        "sha256": "df64f3c953dc9e1673675c8576ec8767aa81f526766f0fbce5f3c0ff366b6f14",
+        "pages": 2,
+        "gradeHeader": [
+          "10-11 класс",
+          "10–11 классы"
+        ],
+        "yearHeader": "Ответы на все задания будут опубликованы 29 ноября 2012 года на сайте"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2012-2.zip",
+        "member": "10-11_2012_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "10–11 классы",
+          "10-11 класс"
+        ],
+        "sha256": "3905e3abf9c091cc5bffd6206a63556e6737efdec10e37b4c39135cd46c19f5e",
+        "yearHeader": "«Русский медвежонок» – 2012"
+      },
+      "separateKeyMembers": [],
+      "status": "paper-verified",
+      "tasksFile": "10-11.pdf",
+      "answersFile": "10-11-answers.pdf",
+      "localTask": "sources/medvezhonok/2012/10-11.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "10-11 класс",
+          "10–11 классы"
+        ],
+        "sha256": "df64f3c953dc9e1673675c8576ec8767aa81f526766f0fbce5f3c0ff366b6f14",
+        "yearHeader": "Ответы на все задания будут опубликованы 29 ноября 2012 года на сайте"
+      },
+      "localAnswers": "sources/medvezhonok/2012/10-11-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "10–11 классы",
+          "10-11 класс"
+        ],
+        "sha256": "3905e3abf9c091cc5bffd6206a63556e6737efdec10e37b4c39135cd46c19f5e",
+        "yearHeader": "«Русский медвежонок» – 2012"
+      }
+    },
+    {
+      "year": 2013,
+      "grade": "2-3",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2013.zip",
+        "member": "2-3-2013.pdf",
+        "sha256": "11814a63f64e3b17bec14ca7566b3cd81490e7d053ea6826c64f34d7cfebe8f9",
+        "pages": 2,
+        "gradeHeader": [
+          "2-3 класс",
+          "2–3 классы"
+        ],
+        "yearHeader": "Ответы на все задания будут опубликованы 28 ноября 2013 года на сайте"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2013-2.zip",
+        "member": "2-3-2013_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "2–3 классы",
+          "2-3 класс"
+        ],
+        "sha256": "7854fc7c0acec7f1d65dacf2597c97024351f516ad03cf261d0b77afca5cf363",
+        "yearHeader": "«Русский медвежонок» – 2013"
+      },
+      "separateKeyMembers": [
+        "Ответы РМ-2013.doc"
+      ],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2013/2-3.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "2-3 класс",
+          "2–3 классы"
+        ],
+        "sha256": "11814a63f64e3b17bec14ca7566b3cd81490e7d053ea6826c64f34d7cfebe8f9",
+        "yearHeader": "Ответы на все задания будут опубликованы 28 ноября 2013 года на сайте"
+      },
+      "localAnswers": "sources/medvezhonok/2013/2-3-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "2–3 классы",
+          "2-3 класс"
+        ],
+        "sha256": "7854fc7c0acec7f1d65dacf2597c97024351f516ad03cf261d0b77afca5cf363",
+        "yearHeader": "«Русский медвежонок» – 2013"
+      }
+    },
+    {
+      "year": 2013,
+      "grade": "4-5",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2013.zip",
+        "member": "4-5-2013.pdf",
+        "sha256": "f4cbca16323d2755ed2175263db89e09022600f48eebf888d59365db5061b754",
+        "pages": 2,
+        "gradeHeader": [
+          "4-5 класс",
+          "4–5 классы"
+        ],
+        "yearHeader": "«Русский медвежонок» – 2013"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2013-2.zip",
+        "member": "4-5-2013_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "4–5 классы",
+          "4-5 класс"
+        ],
+        "sha256": "07afa3c23ddab7d63a942397243451d8d35e99bff741fb8435ddb7865499e5a9",
+        "yearHeader": "«Русский медвежонок» – 2013"
+      },
+      "separateKeyMembers": [
+        "Ответы РМ-2013.doc"
+      ],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2013/4-5.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "4-5 класс",
+          "4–5 классы"
+        ],
+        "sha256": "f4cbca16323d2755ed2175263db89e09022600f48eebf888d59365db5061b754",
+        "yearHeader": "«Русский медвежонок» – 2013"
+      },
+      "localAnswers": "sources/medvezhonok/2013/4-5-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "4–5 классы",
+          "4-5 класс"
+        ],
+        "sha256": "07afa3c23ddab7d63a942397243451d8d35e99bff741fb8435ddb7865499e5a9",
+        "yearHeader": "«Русский медвежонок» – 2013"
+      }
+    },
+    {
+      "year": 2013,
+      "grade": "6-7",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2013.zip",
+        "member": "6-7-2013.pdf",
+        "sha256": "0fe523cccc43629da52fafaea7b9d34095b88051b87fafda1f9bae98ee78ca1a",
+        "pages": 2,
+        "gradeHeader": [
+          "6-7 класс",
+          "6–7 классы"
+        ],
+        "yearHeader": "Ответы на все задания будут опубликованы 28 ноября 2013 года на сайте"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2013-2.zip",
+        "member": "6-7-2013_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы",
+          "6-7 класс"
+        ],
+        "sha256": "a4af4d09258d36b4d5d92c5e471d132fafcfd7c4d9d57bdc565f3e90aa3dde84",
+        "yearHeader": "«Русский медвежонок» – 2013"
+      },
+      "separateKeyMembers": [
+        "Ответы РМ-2013.doc"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "6-7.pdf",
+      "answersFile": "6-7-answers.pdf",
+      "localTask": "sources/medvezhonok/2013/6-7.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "6-7 класс",
+          "6–7 классы"
+        ],
+        "sha256": "0fe523cccc43629da52fafaea7b9d34095b88051b87fafda1f9bae98ee78ca1a",
+        "yearHeader": "Ответы на все задания будут опубликованы 28 ноября 2013 года на сайте"
+      },
+      "localAnswers": "sources/medvezhonok/2013/6-7-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы",
+          "6-7 класс"
+        ],
+        "sha256": "a4af4d09258d36b4d5d92c5e471d132fafcfd7c4d9d57bdc565f3e90aa3dde84",
+        "yearHeader": "«Русский медвежонок» – 2013"
+      }
+    },
+    {
+      "year": 2013,
+      "grade": "8-9",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2013.zip",
+        "member": "8-9-2013.pdf",
+        "sha256": "88f789c541c2989fe351bde24dc0e57b94edc30f5c6fc5ca11a54f8134f91415",
+        "pages": 2,
+        "gradeHeader": [
+          "8-9 класс",
+          "8–9 классы"
+        ],
+        "yearHeader": "Ответы на все задания будут опубликованы 28 ноября 2013 года на сайте"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2013-2.zip",
+        "member": "8-9-2013_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы",
+          "8-9 класс"
+        ],
+        "sha256": "1a51955adedeea8b1c671269fe61c84fa2214081de58164611380a249ed4d432",
+        "yearHeader": "«Русский медвежонок» – 2013"
+      },
+      "separateKeyMembers": [
+        "Ответы РМ-2013.doc"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "8-9.pdf",
+      "answersFile": "8-9-answers.pdf",
+      "localTask": "sources/medvezhonok/2013/8-9.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "8-9 класс",
+          "8–9 классы"
+        ],
+        "sha256": "88f789c541c2989fe351bde24dc0e57b94edc30f5c6fc5ca11a54f8134f91415",
+        "yearHeader": "Ответы на все задания будут опубликованы 28 ноября 2013 года на сайте"
+      },
+      "localAnswers": "sources/medvezhonok/2013/8-9-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы",
+          "8-9 класс"
+        ],
+        "sha256": "1a51955adedeea8b1c671269fe61c84fa2214081de58164611380a249ed4d432",
+        "yearHeader": "«Русский медвежонок» – 2013"
+      }
+    },
+    {
+      "year": 2013,
+      "grade": "10-11",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2013.zip",
+        "member": "10-11-2013.pdf",
+        "sha256": "46e4dc364276fa4fc028c5eb08790dbb9f02709a3f36f824177cbdf4764bb8d1",
+        "pages": 2,
+        "gradeHeader": [
+          "10-11 класс",
+          "10–11 классы"
+        ],
+        "yearHeader": "Ответы на все задания будут опубликованы 28 ноября 2013 года на сайте"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2013-2.zip",
+        "member": "10-11-2013_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "10–11 классы",
+          "10-11 класс"
+        ],
+        "sha256": "f2a420ddcb4b7a661373bfa2fd9692a5c1c16594e7da945ddc926aa4040bfe71",
+        "yearHeader": "«Русский медвежонок» – 2013"
+      },
+      "separateKeyMembers": [
+        "Ответы РМ-2013.doc"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "10-11.pdf",
+      "answersFile": "10-11-answers.pdf",
+      "localTask": "sources/medvezhonok/2013/10-11.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "10-11 класс",
+          "10–11 классы"
+        ],
+        "sha256": "46e4dc364276fa4fc028c5eb08790dbb9f02709a3f36f824177cbdf4764bb8d1",
+        "yearHeader": "Ответы на все задания будут опубликованы 28 ноября 2013 года на сайте"
+      },
+      "localAnswers": "sources/medvezhonok/2013/10-11-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "10–11 классы",
+          "10-11 класс"
+        ],
+        "sha256": "f2a420ddcb4b7a661373bfa2fd9692a5c1c16594e7da945ddc926aa4040bfe71",
+        "yearHeader": "«Русский медвежонок» – 2013"
+      }
+    },
+    {
+      "year": 2014,
+      "grade": "2-3",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2014.zip",
+        "member": "2-3_2014 final+.pdf",
+        "sha256": "6906534f86f7ff3654230c1dccc35eb6b08c84369c8faf471c391664d9235d8f",
+        "pages": 2,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "yearHeader": "Ответы на все задания будут опубликованы 28 ноября 2014 года на"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2014-2.zip",
+        "member": "2-3_2014_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "bb1d90e0021ea0a549f7deee9b3e3859b58de6c4aeda5b4aafa8682e135f31da",
+        "yearHeader": "«Русский медвежонок» – 2014"
+      },
+      "separateKeyMembers": [
+        "Таблицы с ответами РМ-2014.doc"
+      ],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2014/2-3.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "6906534f86f7ff3654230c1dccc35eb6b08c84369c8faf471c391664d9235d8f",
+        "yearHeader": "Ответы на все задания будут опубликованы 28 ноября 2014 года на"
+      },
+      "localAnswers": "sources/medvezhonok/2014/2-3-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "bb1d90e0021ea0a549f7deee9b3e3859b58de6c4aeda5b4aafa8682e135f31da",
+        "yearHeader": "«Русский медвежонок» – 2014"
+      }
+    },
+    {
+      "year": 2014,
+      "grade": "4-5",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2014.zip",
+        "member": "4-5_2014 final++.pdf",
+        "sha256": "524059d208cf5a803f848d8abe30be2f4b4df6424c1dbfab94010c0e98e17cdc",
+        "pages": 2,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "yearHeader": "Ответы на все задания будут опубликованы 28 ноября 2014 года на сайте"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2014-2.zip",
+        "member": "4-5_2014_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "01e9b3ebe694c1eb29defc011a78d74f4e9106fa84dbc1c20bd8165a6bc53aea",
+        "yearHeader": "«Русский медвежонок» – 2014"
+      },
+      "separateKeyMembers": [
+        "Таблицы с ответами РМ-2014.doc"
+      ],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2014/4-5.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "524059d208cf5a803f848d8abe30be2f4b4df6424c1dbfab94010c0e98e17cdc",
+        "yearHeader": "Ответы на все задания будут опубликованы 28 ноября 2014 года на сайте"
+      },
+      "localAnswers": "sources/medvezhonok/2014/4-5-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "01e9b3ebe694c1eb29defc011a78d74f4e9106fa84dbc1c20bd8165a6bc53aea",
+        "yearHeader": "«Русский медвежонок» – 2014"
+      }
+    },
+    {
+      "year": 2014,
+      "grade": "6-7",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2014.zip",
+        "member": "6-7_2014 final+.pdf",
+        "sha256": "7351f08954858174c2df889d58b3653ea88a73b61814f0c96f706d553ef9052d",
+        "pages": 2,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "yearHeader": "Ответы на все задания будут опубликованы 28 ноября 2014 года на сайте"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2014-2.zip",
+        "member": "6-7_2014_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "08174f8e0db0b482efcfcd1a969691dc9009df80750031cd4dae639559990c89",
+        "yearHeader": "«Русский медвежонок» – 2014"
+      },
+      "separateKeyMembers": [
+        "Таблицы с ответами РМ-2014.doc"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "6-7.pdf",
+      "answersFile": "6-7-answers.pdf",
+      "localTask": "sources/medvezhonok/2014/6-7.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "7351f08954858174c2df889d58b3653ea88a73b61814f0c96f706d553ef9052d",
+        "yearHeader": "Ответы на все задания будут опубликованы 28 ноября 2014 года на сайте"
+      },
+      "localAnswers": "sources/medvezhonok/2014/6-7-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "08174f8e0db0b482efcfcd1a969691dc9009df80750031cd4dae639559990c89",
+        "yearHeader": "«Русский медвежонок» – 2014"
+      }
+    },
+    {
+      "year": 2014,
+      "grade": "8-9",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2014.zip",
+        "member": "8-9_2014 final++.pdf",
+        "sha256": "2bc1a7abc8dc7f3dabeb6ce980ff29b46c827ad7ad91d7a2daa136bbb5590811",
+        "pages": 2,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "yearHeader": "Ответы на все задания будут опубликованы 28 ноября 2014 года на сайте"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2014-2.zip",
+        "member": "8-9_2014_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "f1fef2be01e41a9c461e5730db53b272a5ccfb34e3a0602a8e768f3b9d96cb56",
+        "yearHeader": "«Русский медвежонок» – 2014"
+      },
+      "separateKeyMembers": [
+        "Таблицы с ответами РМ-2014.doc"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "8-9.pdf",
+      "answersFile": "8-9-answers.pdf",
+      "localTask": "sources/medvezhonok/2014/8-9.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "2bc1a7abc8dc7f3dabeb6ce980ff29b46c827ad7ad91d7a2daa136bbb5590811",
+        "yearHeader": "Ответы на все задания будут опубликованы 28 ноября 2014 года на сайте"
+      },
+      "localAnswers": "sources/medvezhonok/2014/8-9-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "f1fef2be01e41a9c461e5730db53b272a5ccfb34e3a0602a8e768f3b9d96cb56",
+        "yearHeader": "«Русский медвежонок» – 2014"
+      }
+    },
+    {
+      "year": 2014,
+      "grade": "10-11",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2014.zip",
+        "member": "10-11_2014 final++.pdf",
+        "sha256": "531027f10a20d4c57421008f8d7798096f170fce1a690ad9ecbed2a5257f704e",
+        "pages": 2,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "yearHeader": "Ответы на все задания будут опубликованы 28 ноября 2014 года на сайте"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2014-2.zip",
+        "member": "10-11_2014_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "a43a40b7a09c7e6f5c378d63af605e8adb4bbfa45f42a1c1f1bd7499f750fa5f",
+        "yearHeader": "«Русский медвежонок» – 2014"
+      },
+      "separateKeyMembers": [
+        "Таблицы с ответами РМ-2014.doc"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "10-11.pdf",
+      "answersFile": "10-11-answers.pdf",
+      "localTask": "sources/medvezhonok/2014/10-11.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "531027f10a20d4c57421008f8d7798096f170fce1a690ad9ecbed2a5257f704e",
+        "yearHeader": "Ответы на все задания будут опубликованы 28 ноября 2014 года на сайте"
+      },
+      "localAnswers": "sources/medvezhonok/2014/10-11-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "a43a40b7a09c7e6f5c378d63af605e8adb4bbfa45f42a1c1f1bd7499f750fa5f",
+        "yearHeader": "«Русский медвежонок» – 2014"
+      }
+    },
+    {
+      "year": 2015,
+      "grade": "2-3",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2015-1.zip",
+        "member": "ответы в отдельной таблице/2-3_2015_website.pdf",
+        "sha256": "168d216c1864c4b2198365ace339391ff13d6a65449e48dde5c421d63959562e",
+        "pages": 2,
+        "gradeHeader": [
+          "2–3 классы"
+        ]
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2015-2.zip",
+        "member": "ответы выделены в тексте/2-3_2015_website.pdf",
+        "pages": 2,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "b264453cb15609b6d299d461cfc90eaa1234117c61ad4051a0370e870bc55733"
+      },
+      "separateKeyMembers": [
+        "ответы в отдельной таблице/Otvety RM-2015.rtf"
+      ],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2015/2-3.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "168d216c1864c4b2198365ace339391ff13d6a65449e48dde5c421d63959562e"
+      },
+      "localAnswers": "sources/medvezhonok/2015/2-3-answers.pdf",
+      "answerPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "b264453cb15609b6d299d461cfc90eaa1234117c61ad4051a0370e870bc55733"
+      }
+    },
+    {
+      "year": 2015,
+      "grade": "4-5",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2015-1.zip",
+        "member": "ответы в отдельной таблице/4-5_2015_website.pdf",
+        "sha256": "4c3cdbc7084643a62c393f3c68cf2f8ba90107e641822c798ed8f7faa452217f",
+        "pages": 2,
+        "gradeHeader": [
+          "4–5 классы"
+        ]
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2015-2.zip",
+        "member": "ответы выделены в тексте/4-5_2015_website.pdf",
+        "pages": 2,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "a20e0770ff944d5fe6e0eff9fc3050d42ebe3f2cb9a9ddaf90ee0c76a3004286"
+      },
+      "separateKeyMembers": [
+        "ответы в отдельной таблице/Otvety RM-2015.rtf"
+      ],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2015/4-5.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "4c3cdbc7084643a62c393f3c68cf2f8ba90107e641822c798ed8f7faa452217f"
+      },
+      "localAnswers": "sources/medvezhonok/2015/4-5-answers.pdf",
+      "answerPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "a20e0770ff944d5fe6e0eff9fc3050d42ebe3f2cb9a9ddaf90ee0c76a3004286"
+      }
+    },
+    {
+      "year": 2015,
+      "grade": "6-7",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2015-1.zip",
+        "member": "ответы в отдельной таблице/6-7_2015_website.pdf",
+        "sha256": "2cc87629706d8ac9a3c79207ed6cd429548be1b1ece8e85e1a61b86bcbeaab77",
+        "pages": 2,
+        "gradeHeader": [
+          "6–7 классы"
+        ]
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2015-2.zip",
+        "member": "ответы выделены в тексте/6-7_2015_website.pdf",
+        "pages": 2,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "272b71601b064b8ff3e8d7e7b5a350324a63a1a26b0a3c86521c163b403f2da2"
+      },
+      "separateKeyMembers": [
+        "ответы в отдельной таблице/Otvety RM-2015.rtf"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "6-7.pdf",
+      "answersFile": "6-7-answers.pdf",
+      "localTask": "sources/medvezhonok/2015/6-7.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "2cc87629706d8ac9a3c79207ed6cd429548be1b1ece8e85e1a61b86bcbeaab77"
+      },
+      "localAnswers": "sources/medvezhonok/2015/6-7-answers.pdf",
+      "answerPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "272b71601b064b8ff3e8d7e7b5a350324a63a1a26b0a3c86521c163b403f2da2"
+      }
+    },
+    {
+      "year": 2015,
+      "grade": "8-9",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2015-1.zip",
+        "member": "ответы в отдельной таблице/8-9_2015_website.pdf",
+        "sha256": "b8333edbfcf8c46d7f5569092085e66da325f8d2b6f4465691bfc3c714d5155c",
+        "pages": 2,
+        "gradeHeader": [
+          "8–9 классы"
+        ]
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2015-2.zip",
+        "member": "ответы выделены в тексте/8-9_2015_website.pdf",
+        "pages": 2,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "9feb7854f51e480b159e74ae41b0e9f0adb5692bf25ce523db741b889bb30d82"
+      },
+      "separateKeyMembers": [
+        "ответы в отдельной таблице/Otvety RM-2015.rtf"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "8-9.pdf",
+      "answersFile": "8-9-answers.pdf",
+      "localTask": "sources/medvezhonok/2015/8-9.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "b8333edbfcf8c46d7f5569092085e66da325f8d2b6f4465691bfc3c714d5155c"
+      },
+      "localAnswers": "sources/medvezhonok/2015/8-9-answers.pdf",
+      "answerPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "9feb7854f51e480b159e74ae41b0e9f0adb5692bf25ce523db741b889bb30d82"
+      }
+    },
+    {
+      "year": 2015,
+      "grade": "10-11",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2015-1.zip",
+        "member": "ответы в отдельной таблице/10-11_2015_website.pdf",
+        "sha256": "dcd09ab703e8c02a0a59d2eb97763be53a2b7ba80d9c4d7c0b4a15e4b045ccd5",
+        "pages": 2,
+        "gradeHeader": [
+          "10–11 классы"
+        ]
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2015-2.zip",
+        "member": "ответы выделены в тексте/10-11_2015_website.pdf",
+        "pages": 2,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "651254efda0a68ce34ac78827cb8f02ee398b16ae60737c2c72f079410f21e04"
+      },
+      "separateKeyMembers": [
+        "ответы в отдельной таблице/Otvety RM-2015.rtf"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "10-11.pdf",
+      "answersFile": "10-11-answers.pdf",
+      "localTask": "sources/medvezhonok/2015/10-11.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "dcd09ab703e8c02a0a59d2eb97763be53a2b7ba80d9c4d7c0b4a15e4b045ccd5"
+      },
+      "localAnswers": "sources/medvezhonok/2015/10-11-answers.pdf",
+      "answerPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "651254efda0a68ce34ac78827cb8f02ee398b16ae60737c2c72f079410f21e04"
+      }
+    },
+    {
+      "year": 2016,
+      "grade": "2-3",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2016-1.zip",
+        "member": "2-3_2016_maket.pdf",
+        "sha256": "c3fabc0baac0d1ed94e2432d7f8ee98680f7c472d91a0439527e9e550c390b21",
+        "pages": 2,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "yearHeader": "Ответы на все задания будут опубликованы 29 ноября 2016 года на сайте"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2016-2.zip",
+        "member": "2-3_2016_website.pdf",
+        "pages": 2,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "771c90f9fe886c1c269c3585539376e2565d1714fba45e40aab4a8a790d0d34c"
+      },
+      "separateKeyMembers": [
+        "Otvety RM-2016.docx"
+      ],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2016/2-3.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "c3fabc0baac0d1ed94e2432d7f8ee98680f7c472d91a0439527e9e550c390b21",
+        "yearHeader": "Ответы на все задания будут опубликованы 29 ноября 2016 года на сайте"
+      },
+      "localAnswers": "sources/medvezhonok/2016/2-3-answers.pdf",
+      "answerPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "771c90f9fe886c1c269c3585539376e2565d1714fba45e40aab4a8a790d0d34c"
+      }
+    },
+    {
+      "year": 2016,
+      "grade": "4-5",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2016-1.zip",
+        "member": "4-5_2016_maket.pdf",
+        "sha256": "d01931488cf8723bf6e8614f3c5c4e9ed9e113b4205ebfd9938ce6482a492979",
+        "pages": 2,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "yearHeader": "Ответы на все задания будут опубликованы 29 ноября 2016 года на сайте"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2016-2.zip",
+        "member": "4-5_2016_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "285626653496c49db860d880b3a3409db1a3a59b0ec2380c4bab9d7b81f90b68"
+      },
+      "separateKeyMembers": [
+        "Otvety RM-2016.docx"
+      ],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2016/4-5.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "d01931488cf8723bf6e8614f3c5c4e9ed9e113b4205ebfd9938ce6482a492979",
+        "yearHeader": "Ответы на все задания будут опубликованы 29 ноября 2016 года на сайте"
+      },
+      "localAnswers": "sources/medvezhonok/2016/4-5-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "285626653496c49db860d880b3a3409db1a3a59b0ec2380c4bab9d7b81f90b68"
+      }
+    },
+    {
+      "year": 2016,
+      "grade": "6-7",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2016-1.zip",
+        "member": "6-7_2016_maket.pdf",
+        "sha256": "03f1269f6d5dd688978eab10bf3ecdb6f2cea366cd053f9643fc5752c0e216b6",
+        "pages": 2,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "yearHeader": "Ответы на все задания будут опубликованы 29 ноября 2016 года на сайте"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2016-2.zip",
+        "member": "6-7_2016_website.pdf",
+        "pages": 2,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "c713a6f07fde0fe0fac952a412855812d79668351bb65445adbf3145ad5937f3"
+      },
+      "separateKeyMembers": [
+        "Otvety RM-2016.docx"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "6-7.pdf",
+      "answersFile": "6-7-answers.pdf",
+      "localTask": "sources/medvezhonok/2016/6-7.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "03f1269f6d5dd688978eab10bf3ecdb6f2cea366cd053f9643fc5752c0e216b6",
+        "yearHeader": "Ответы на все задания будут опубликованы 29 ноября 2016 года на сайте"
+      },
+      "localAnswers": "sources/medvezhonok/2016/6-7-answers.pdf",
+      "answerPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "c713a6f07fde0fe0fac952a412855812d79668351bb65445adbf3145ad5937f3"
+      }
+    },
+    {
+      "year": 2016,
+      "grade": "8-9",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2016-1.zip",
+        "member": "8-9_2016_maket.pdf",
+        "sha256": "84983bea238f2290bbcb418acc637e5cd08fe947d62c8a0dd7bd337cc4742bab",
+        "pages": 2,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "yearHeader": "Ответы на все задания будут опубликованы 29 ноября 2016 года на сайте"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2016-2.zip",
+        "member": "8-9_2016_website.pdf",
+        "pages": 2,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "5e71fcaeb0391502f98b83c5b07c934a9682ce358b6e70996233a027f228d508"
+      },
+      "separateKeyMembers": [
+        "Otvety RM-2016.docx"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "8-9.pdf",
+      "answersFile": "8-9-answers.pdf",
+      "localTask": "sources/medvezhonok/2016/8-9.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "84983bea238f2290bbcb418acc637e5cd08fe947d62c8a0dd7bd337cc4742bab",
+        "yearHeader": "Ответы на все задания будут опубликованы 29 ноября 2016 года на сайте"
+      },
+      "localAnswers": "sources/medvezhonok/2016/8-9-answers.pdf",
+      "answerPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "5e71fcaeb0391502f98b83c5b07c934a9682ce358b6e70996233a027f228d508"
+      }
+    },
+    {
+      "year": 2016,
+      "grade": "10-11",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2016-1.zip",
+        "member": "10-11_2016_maket.pdf",
+        "sha256": "2fe4d37913e282b94ec041fd3e46b8f39d2244d99e2dea4bcb0ffe8d79944ce9",
+        "pages": 2,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "yearHeader": "Ответы на все задания будут опубликованы 29 ноября 2016 года на сайте"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2016-2.zip",
+        "member": "10-11_2016_website.pdf",
+        "pages": 2,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "f053b7c8fc95e49c33f8b74909c2f91aa24d497bd9f75547cc46283234a25034"
+      },
+      "separateKeyMembers": [
+        "Otvety RM-2016.docx"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "10-11.pdf",
+      "answersFile": "10-11-answers.pdf",
+      "localTask": "sources/medvezhonok/2016/10-11.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "2fe4d37913e282b94ec041fd3e46b8f39d2244d99e2dea4bcb0ffe8d79944ce9",
+        "yearHeader": "Ответы на все задания будут опубликованы 29 ноября 2016 года на сайте"
+      },
+      "localAnswers": "sources/medvezhonok/2016/10-11-answers.pdf",
+      "answerPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "f053b7c8fc95e49c33f8b74909c2f91aa24d497bd9f75547cc46283234a25034"
+      }
+    },
+    {
+      "year": 2017,
+      "grade": "2-3",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2017-1.zip",
+        "member": "2-3_2017_maket3-print.pdf",
+        "sha256": "f559ae236ee03111736130ef5f9787a808cccb8e04d8e45c99d3e7e7a54039e4",
+        "pages": 2,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "yearHeader": "Ответы на все задания будут опубликованы 29 ноября 2017 года на сайте"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2017-2.zip",
+        "member": "2-3_2017_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "5f2bd8b641f7b7199647887bbab4beafefafe6b1f42b8a8658870da1b72ef47a"
+      },
+      "separateKeyMembers": [
+        "OTVETY-2017.docx"
+      ],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2017/2-3.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "f559ae236ee03111736130ef5f9787a808cccb8e04d8e45c99d3e7e7a54039e4",
+        "yearHeader": "Ответы на все задания будут опубликованы 29 ноября 2017 года на сайте"
+      },
+      "localAnswers": "sources/medvezhonok/2017/2-3-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "5f2bd8b641f7b7199647887bbab4beafefafe6b1f42b8a8658870da1b72ef47a"
+      }
+    },
+    {
+      "year": 2017,
+      "grade": "4-5",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2017-1.zip",
+        "member": "4-5_2017_maket3-print.pdf",
+        "sha256": "3ac008d950618fe9fff953ad5e225df14b39ff9ce1ab323ed38180f7028103c3",
+        "pages": 2,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "yearHeader": "Ответы на все задания будут опубликованы 29 ноября 2017 года на сайте"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2017-2.zip",
+        "member": "4-5_2017_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "8b6c8d13bbe63162185aa59fa130132ab0a8c9ab202285034f4849e79dd84756"
+      },
+      "separateKeyMembers": [
+        "OTVETY-2017.docx"
+      ],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2017/4-5.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "3ac008d950618fe9fff953ad5e225df14b39ff9ce1ab323ed38180f7028103c3",
+        "yearHeader": "Ответы на все задания будут опубликованы 29 ноября 2017 года на сайте"
+      },
+      "localAnswers": "sources/medvezhonok/2017/4-5-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "8b6c8d13bbe63162185aa59fa130132ab0a8c9ab202285034f4849e79dd84756"
+      }
+    },
+    {
+      "year": 2017,
+      "grade": "6-7",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2017-1.zip",
+        "member": "6-7_2017_maket2-print.pdf",
+        "sha256": "fb43845caeacc9f34faf40eec1e945617ff69f6dcddefba1031ef82ea307a60e",
+        "pages": 2,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "yearHeader": "Ответы на все задания будут опубликованы 29 ноября 2017 года на сайте"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2017-2.zip",
+        "member": "6-7_2017_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "c92cb1ed6a153879f2ab8150136fc0365d729cdcd629ca91e4505af4335353c1"
+      },
+      "separateKeyMembers": [
+        "OTVETY-2017.docx"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "6-7.pdf",
+      "answersFile": "6-7-answers.pdf",
+      "localTask": "sources/medvezhonok/2017/6-7.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "fb43845caeacc9f34faf40eec1e945617ff69f6dcddefba1031ef82ea307a60e",
+        "yearHeader": "Ответы на все задания будут опубликованы 29 ноября 2017 года на сайте"
+      },
+      "localAnswers": "sources/medvezhonok/2017/6-7-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "c92cb1ed6a153879f2ab8150136fc0365d729cdcd629ca91e4505af4335353c1"
+      }
+    },
+    {
+      "year": 2017,
+      "grade": "8-9",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2017-1.zip",
+        "member": "8-9_2017_maket2-print.pdf",
+        "sha256": "230c710b5f1592cf68ba29379fc26f3c37a196e4a78d251670e3307b1eeeea04",
+        "pages": 2,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "yearHeader": "будут дисквалифицированы. Ответы на все задания будут опубликованы 29 ноября 2017"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2017-2.zip",
+        "member": "8-9_2017_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "49e187a7dbf748ec2bfd2273ce6a0fddfaf8c330dd9f36749c7e744ee7939787"
+      },
+      "separateKeyMembers": [
+        "OTVETY-2017.docx"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "8-9.pdf",
+      "answersFile": "8-9-answers.pdf",
+      "localTask": "sources/medvezhonok/2017/8-9.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "230c710b5f1592cf68ba29379fc26f3c37a196e4a78d251670e3307b1eeeea04",
+        "yearHeader": "будут дисквалифицированы. Ответы на все задания будут опубликованы 29 ноября 2017"
+      },
+      "localAnswers": "sources/medvezhonok/2017/8-9-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "49e187a7dbf748ec2bfd2273ce6a0fddfaf8c330dd9f36749c7e744ee7939787"
+      }
+    },
+    {
+      "year": 2017,
+      "grade": "10-11",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2017-1.zip",
+        "member": "10-11_2017_maket2-print.pdf",
+        "sha256": "39b363bc7eaf0ce3443c796f7317a6ad35f60c92dea3e13bc2271893eac23f88",
+        "pages": 2,
+        "gradeHeader": [
+          "10–11 классы"
+        ]
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2017-2.zip",
+        "member": "10-11_2017_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "1089b71ffa890c7842370484e2f05061c2c1a9808c3a173195573e695ed3c8dd"
+      },
+      "separateKeyMembers": [
+        "OTVETY-2017.docx"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "10-11.pdf",
+      "answersFile": "10-11-answers.pdf",
+      "localTask": "sources/medvezhonok/2017/10-11.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "39b363bc7eaf0ce3443c796f7317a6ad35f60c92dea3e13bc2271893eac23f88"
+      },
+      "localAnswers": "sources/medvezhonok/2017/10-11-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "1089b71ffa890c7842370484e2f05061c2c1a9808c3a173195573e695ed3c8dd"
+      }
+    },
+    {
+      "year": 2018,
+      "grade": "2-3",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2018-1.zip",
+        "member": "task2018-1/2-3 min.pdf",
+        "sha256": "d97ca741717107af6420b9d4ddcdaaf72a239cae91ca482556f9cc728333b905",
+        "pages": 2,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "yearHeader": "Ответы на все задания будут опубликованы 29 ноября 2018 года на сайте"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2018-2.zip",
+        "member": "task2018-2/2-3_2018_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "2–3 классы",
+          "2–3классы"
+        ],
+        "sha256": "f2b4eed061357fdd9a5fa61b230c2e0040c1678f53cccf250749efa16847eb60"
+      },
+      "separateKeyMembers": [
+        "task2018-1/Answers RM-2018.docx"
+      ],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2018/2-3.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "d97ca741717107af6420b9d4ddcdaaf72a239cae91ca482556f9cc728333b905",
+        "yearHeader": "Ответы на все задания будут опубликованы 29 ноября 2018 года на сайте"
+      },
+      "localAnswers": "sources/medvezhonok/2018/2-3-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "2–3 классы",
+          "2–3классы"
+        ],
+        "sha256": "f2b4eed061357fdd9a5fa61b230c2e0040c1678f53cccf250749efa16847eb60"
+      }
+    },
+    {
+      "year": 2018,
+      "grade": "4-5",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2018-1.zip",
+        "member": "task2018-1/4-5 min.pdf",
+        "sha256": "26c3fb272dd023c372853bef0a6e85a923f406aca8ecf4c8536d5564b16ae417",
+        "pages": 2,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "yearHeader": "Ответы на все задания будут опубликованы 29 ноября 2018 года на сайте"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2018-2.zip",
+        "member": "task2018-2/4-5_2018_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "4–5 классы",
+          "4–5классы"
+        ],
+        "sha256": "00f5b2a687217fcb0b6c2ca2e7a702d0fb1ab4ba4bea7f360041539de1e9c943"
+      },
+      "separateKeyMembers": [
+        "task2018-1/Answers RM-2018.docx"
+      ],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2018/4-5.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "26c3fb272dd023c372853bef0a6e85a923f406aca8ecf4c8536d5564b16ae417",
+        "yearHeader": "Ответы на все задания будут опубликованы 29 ноября 2018 года на сайте"
+      },
+      "localAnswers": "sources/medvezhonok/2018/4-5-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "4–5 классы",
+          "4–5классы"
+        ],
+        "sha256": "00f5b2a687217fcb0b6c2ca2e7a702d0fb1ab4ba4bea7f360041539de1e9c943"
+      }
+    },
+    {
+      "year": 2018,
+      "grade": "6-7",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2018-1.zip",
+        "member": "task2018-1/6-7 min.pdf",
+        "sha256": "5a2b1d853c1f608866d20c19847ed3f742def1081a207f98e0e18a90ff19d39f",
+        "pages": 2,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "yearHeader": "Ответы на все задания будут опубликованы 29 ноября 2018 года на сайте"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2018-2.zip",
+        "member": "task2018-2/6-7_2018_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "64e0933b5131c1674aec8d0bf1cc5c4e62ee8559e0edfcf9316ef43bb6c590f9"
+      },
+      "separateKeyMembers": [
+        "task2018-1/Answers RM-2018.docx"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "6-7.pdf",
+      "answersFile": "6-7-answers.pdf",
+      "localTask": "sources/medvezhonok/2018/6-7.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "5a2b1d853c1f608866d20c19847ed3f742def1081a207f98e0e18a90ff19d39f",
+        "yearHeader": "Ответы на все задания будут опубликованы 29 ноября 2018 года на сайте"
+      },
+      "localAnswers": "sources/medvezhonok/2018/6-7-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "64e0933b5131c1674aec8d0bf1cc5c4e62ee8559e0edfcf9316ef43bb6c590f9"
+      }
+    },
+    {
+      "year": 2018,
+      "grade": "8-9",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2018-1.zip",
+        "member": "task2018-1/8-9 min.pdf",
+        "sha256": "e0c072603dabb8b076ce7d4a2d01bc3f10c9a294537f79ee0260a03264fdc938",
+        "pages": 2,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "yearHeader": "быть дисквалифицированы. Ответы на все задания будут опубликованы 29 ноября 2018"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2018-2.zip",
+        "member": "task2018-2/8-9_2018_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы",
+          "8–9классы"
+        ],
+        "sha256": "cefb9535c3265775a8e501a9e0df7480ed52be45e39159d51ac1fcf312c684c3"
+      },
+      "separateKeyMembers": [
+        "task2018-1/Answers RM-2018.docx"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "8-9.pdf",
+      "answersFile": "8-9-answers.pdf",
+      "localTask": "sources/medvezhonok/2018/8-9.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "e0c072603dabb8b076ce7d4a2d01bc3f10c9a294537f79ee0260a03264fdc938",
+        "yearHeader": "быть дисквалифицированы. Ответы на все задания будут опубликованы 29 ноября 2018"
+      },
+      "localAnswers": "sources/medvezhonok/2018/8-9-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы",
+          "8–9классы"
+        ],
+        "sha256": "cefb9535c3265775a8e501a9e0df7480ed52be45e39159d51ac1fcf312c684c3"
+      }
+    },
+    {
+      "year": 2018,
+      "grade": "10-11",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2018-1.zip",
+        "member": "task2018-1/10-11 min.pdf",
+        "sha256": "de0b61fc170db32802b754171ca70327f72648f4c66e6265a7b00210e0cf68c8",
+        "pages": 2,
+        "gradeHeader": [
+          "10–11 классы"
+        ]
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2018-2.zip",
+        "member": "task2018-2/10-11_2018_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "10–11 классы",
+          "10–11классы"
+        ],
+        "sha256": "c99e3417aba371792e0be14db077cd4455ce12246e24da3c5a4ec002b1b4a359"
+      },
+      "separateKeyMembers": [
+        "task2018-1/Answers RM-2018.docx"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "10-11.pdf",
+      "answersFile": "10-11-answers.pdf",
+      "localTask": "sources/medvezhonok/2018/10-11.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "de0b61fc170db32802b754171ca70327f72648f4c66e6265a7b00210e0cf68c8"
+      },
+      "localAnswers": "sources/medvezhonok/2018/10-11-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "10–11 классы",
+          "10–11классы"
+        ],
+        "sha256": "c99e3417aba371792e0be14db077cd4455ce12246e24da3c5a4ec002b1b4a359"
+      }
+    },
+    {
+      "year": 2019,
+      "grade": "2-3",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2019-1.zip",
+        "member": "2-3_2019_maket_fin.pdf",
+        "sha256": "2396c274a07b02ad412c82f7cd6d627886ff3af7268cd6daf34db62d7a95d963",
+        "pages": 2,
+        "gradeHeader": [
+          "2–3 классы"
+        ]
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2019-2.zip",
+        "member": "2-3_2019_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "6844b3c06f3223e3fe9b59a15c42bbae5256a99f93b59d2f5071594a742721b3"
+      },
+      "separateKeyMembers": [
+        "ОТВЕТЫ РМ-2019.docx"
+      ],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2019/2-3.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "2396c274a07b02ad412c82f7cd6d627886ff3af7268cd6daf34db62d7a95d963"
+      },
+      "localAnswers": "sources/medvezhonok/2019/2-3-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "6844b3c06f3223e3fe9b59a15c42bbae5256a99f93b59d2f5071594a742721b3"
+      }
+    },
+    {
+      "year": 2019,
+      "grade": "4-5",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2019-1.zip",
+        "member": "4-5_2019_maket_fin.pdf",
+        "sha256": "37c29e57bf21c2c594ba94276c02d00dd2c0267a0554a92322dd12ebd1014087",
+        "pages": 2,
+        "gradeHeader": [
+          "4–5 классы"
+        ]
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2019-2.zip",
+        "member": "4-5_2019_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "de2353c7a0f7a8f750bbd5dc203ba1b271bcecb73272df89ebdcf42828aff838"
+      },
+      "separateKeyMembers": [
+        "ОТВЕТЫ РМ-2019.docx"
+      ],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2019/4-5.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "37c29e57bf21c2c594ba94276c02d00dd2c0267a0554a92322dd12ebd1014087"
+      },
+      "localAnswers": "sources/medvezhonok/2019/4-5-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "de2353c7a0f7a8f750bbd5dc203ba1b271bcecb73272df89ebdcf42828aff838"
+      }
+    },
+    {
+      "year": 2019,
+      "grade": "6-7",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2019-1.zip",
+        "member": "6-7_2019_maket_fin.pdf",
+        "sha256": "4dc92a2506565f5a0251969ccf6732eb57d8e5caeff3bf1a8fc7cbf8fc7e2aab",
+        "pages": 2,
+        "gradeHeader": [
+          "6–7 классы",
+          "6-7 классы"
+        ]
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2019-2.zip",
+        "member": "6-7_2019_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы",
+          "6-7 классы"
+        ],
+        "sha256": "7805b47e68a3bd22d0ddcd0261a14b15a4e600828d6d242a6e0d13e5ae5b9bd7"
+      },
+      "separateKeyMembers": [
+        "ОТВЕТЫ РМ-2019.docx"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "6-7.pdf",
+      "answersFile": "6-7-answers.pdf",
+      "localTask": "sources/medvezhonok/2019/6-7.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "6–7 классы",
+          "6-7 классы"
+        ],
+        "sha256": "4dc92a2506565f5a0251969ccf6732eb57d8e5caeff3bf1a8fc7cbf8fc7e2aab"
+      },
+      "localAnswers": "sources/medvezhonok/2019/6-7-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы",
+          "6-7 классы"
+        ],
+        "sha256": "7805b47e68a3bd22d0ddcd0261a14b15a4e600828d6d242a6e0d13e5ae5b9bd7"
+      }
+    },
+    {
+      "year": 2019,
+      "grade": "8-9",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2019-1.zip",
+        "member": "8-9_2019_maket_fin.pdf",
+        "sha256": "72ae269bedd5b6cefcb72996d17fbcb9223b57e85f7659b39dad6be59d974b9c",
+        "pages": 2,
+        "gradeHeader": [
+          "8–9 классы"
+        ]
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2019-2.zip",
+        "member": "8-9_2019_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "ef09b3f44aeb2e5e83846743f6e89c2aff9b42344944795c43f88e16ea506998"
+      },
+      "separateKeyMembers": [
+        "ОТВЕТЫ РМ-2019.docx"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "8-9.pdf",
+      "answersFile": "8-9-answers.pdf",
+      "localTask": "sources/medvezhonok/2019/8-9.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "72ae269bedd5b6cefcb72996d17fbcb9223b57e85f7659b39dad6be59d974b9c"
+      },
+      "localAnswers": "sources/medvezhonok/2019/8-9-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "ef09b3f44aeb2e5e83846743f6e89c2aff9b42344944795c43f88e16ea506998"
+      }
+    },
+    {
+      "year": 2019,
+      "grade": "10-11",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2019-1.zip",
+        "member": "10-11_2019_maket_fin.pdf",
+        "sha256": "97235ba038466a368dd11a1f72f0dfc7951b49bc1e61a1a36b043eafcb923a0b",
+        "pages": 2,
+        "gradeHeader": [
+          "10–11 классы"
+        ]
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2019-2.zip",
+        "member": "10-11_2019_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "3b09471f21da7819e05faba34473822200c18487e9c488cfde624bfe5044ddc0"
+      },
+      "separateKeyMembers": [
+        "ОТВЕТЫ РМ-2019.docx"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "10-11.pdf",
+      "answersFile": "10-11-answers.pdf",
+      "localTask": "sources/medvezhonok/2019/10-11.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "97235ba038466a368dd11a1f72f0dfc7951b49bc1e61a1a36b043eafcb923a0b"
+      },
+      "localAnswers": "sources/medvezhonok/2019/10-11-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "3b09471f21da7819e05faba34473822200c18487e9c488cfde624bfe5044ddc0"
+      }
+    },
+    {
+      "year": 2020,
+      "grade": "2-3",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2020-1.zip",
+        "member": "2-3_2020_maket_fin.pdf",
+        "sha256": "cffdac549d7d9cd2c28de927a86f0ae467d083e5a73590a4b627a0b0c3f89971",
+        "pages": 4,
+        "gradeHeader": [
+          "2–3 классы"
+        ]
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2020-2.zip",
+        "member": "2-3_2020_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "ecbb31c292a32c5606a5a3636faff08e2bbb907bf9984182b0f5d362dfd02d5e"
+      },
+      "separateKeyMembers": [
+        "ОТВЕТЫ РМ-2020.docx"
+      ],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2020/2-3.pdf",
+      "taskPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "cffdac549d7d9cd2c28de927a86f0ae467d083e5a73590a4b627a0b0c3f89971"
+      },
+      "localAnswers": "sources/medvezhonok/2020/2-3-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "ecbb31c292a32c5606a5a3636faff08e2bbb907bf9984182b0f5d362dfd02d5e"
+      }
+    },
+    {
+      "year": 2020,
+      "grade": "4-5",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2020-1.zip",
+        "member": "4-5_2020_maket_fin.pdf",
+        "sha256": "e25c95a59c7603e1485ede4755aae2335469c8c58c82875df6ac9b1fb14097e5",
+        "pages": 4,
+        "gradeHeader": [
+          "4–5 классы"
+        ]
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2020-2.zip",
+        "member": "4-5_2020_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "62a418825f6d8906eca30899c356614cd0772a9ccd76920dd88c908d4544a344"
+      },
+      "separateKeyMembers": [
+        "ОТВЕТЫ РМ-2020.docx"
+      ],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2020/4-5.pdf",
+      "taskPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "e25c95a59c7603e1485ede4755aae2335469c8c58c82875df6ac9b1fb14097e5"
+      },
+      "localAnswers": "sources/medvezhonok/2020/4-5-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "62a418825f6d8906eca30899c356614cd0772a9ccd76920dd88c908d4544a344"
+      }
+    },
+    {
+      "year": 2020,
+      "grade": "6-7",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2020-1.zip",
+        "member": "6-7_2020_maket_fin.pdf",
+        "sha256": "6de9471149aa9992afacf353f6ac8a934f80f2e4b1dda9bacdb69b4672d90171",
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы"
+        ]
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2020-2.zip",
+        "member": "6-7_2020_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "04b57bb97c9a4e3b8ed379f49236600e554a084c34251e5bf444ab5fe24db09d"
+      },
+      "separateKeyMembers": [
+        "ОТВЕТЫ РМ-2020.docx"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "6-7.pdf",
+      "answersFile": "6-7-answers.pdf",
+      "localTask": "sources/medvezhonok/2020/6-7.pdf",
+      "taskPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "6de9471149aa9992afacf353f6ac8a934f80f2e4b1dda9bacdb69b4672d90171"
+      },
+      "localAnswers": "sources/medvezhonok/2020/6-7-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "04b57bb97c9a4e3b8ed379f49236600e554a084c34251e5bf444ab5fe24db09d"
+      }
+    },
+    {
+      "year": 2020,
+      "grade": "8-9",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2020-1.zip",
+        "member": "8-9_2020_maket_fin.pdf",
+        "sha256": "45215d9cea516a36e2c8e7390f522dcbb69e81a116f5134cce7bd571bcf60a79",
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы"
+        ]
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2020-2.zip",
+        "member": "8-9_2020_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "de57605a72e2299103840c167d134a66dce064ffb7ee57cfa8d3fb79dd23c42b"
+      },
+      "separateKeyMembers": [
+        "ОТВЕТЫ РМ-2020.docx"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "8-9.pdf",
+      "answersFile": "8-9-answers.pdf",
+      "localTask": "sources/medvezhonok/2020/8-9.pdf",
+      "taskPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "45215d9cea516a36e2c8e7390f522dcbb69e81a116f5134cce7bd571bcf60a79"
+      },
+      "localAnswers": "sources/medvezhonok/2020/8-9-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "de57605a72e2299103840c167d134a66dce064ffb7ee57cfa8d3fb79dd23c42b"
+      }
+    },
+    {
+      "year": 2020,
+      "grade": "10-11",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2020-1.zip",
+        "member": "10-11_2020_maket_fin.pdf",
+        "sha256": "575212a1730948dc0b4f9cebe45b2fab62cdc24aa8873947c3f664a6d117fa26",
+        "pages": 4,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "yearHeader": "дисквалифицированы. Ответы на все задания будут опубликованы 17 марта 2021 года на сайте"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2020-2.zip",
+        "member": "10-11_2020_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "1afcc2ae4e0198ddadc75983f24bc8ad17894372b9c253e5a37accd9236dcb97"
+      },
+      "separateKeyMembers": [
+        "ОТВЕТЫ РМ-2020.docx"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "10-11.pdf",
+      "answersFile": "10-11-answers.pdf",
+      "localTask": "sources/medvezhonok/2020/10-11.pdf",
+      "taskPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "575212a1730948dc0b4f9cebe45b2fab62cdc24aa8873947c3f664a6d117fa26",
+        "yearHeader": "дисквалифицированы. Ответы на все задания будут опубликованы 17 марта 2021 года на сайте"
+      },
+      "localAnswers": "sources/medvezhonok/2020/10-11-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "1afcc2ae4e0198ddadc75983f24bc8ad17894372b9c253e5a37accd9236dcb97"
+      }
+    },
+    {
+      "year": 2021,
+      "grade": "2-3",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2021-1.zip",
+        "member": "2-3_2021_maket_fin_2.pdf",
+        "sha256": "9f215a5155b7138fe5aab40c6c8ce768aaa70f37cdf7d07eefdb61e3e3b84269",
+        "pages": 2,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "yearHeader": "фицированы. Ответы на все задания будут опубликованы 26 ноября 2021 года на сайте"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2021-2.zip",
+        "member": "2-3 2021 website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "afe0e096e3ce127981aa046061569f539e247b4ac1538d9f50f3c678f564820b"
+      },
+      "separateKeyMembers": [
+        "Ответы РМ-2021.docx"
+      ],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2021/2-3.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "9f215a5155b7138fe5aab40c6c8ce768aaa70f37cdf7d07eefdb61e3e3b84269",
+        "yearHeader": "фицированы. Ответы на все задания будут опубликованы 26 ноября 2021 года на сайте"
+      },
+      "localAnswers": "sources/medvezhonok/2021/2-3-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "afe0e096e3ce127981aa046061569f539e247b4ac1538d9f50f3c678f564820b"
+      }
+    },
+    {
+      "year": 2021,
+      "grade": "4-5",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2021-1.zip",
+        "member": "4-5_2021_maket_fin_2.pdf",
+        "sha256": "65e56cbb934fee432c844801afa40494492cf97d2045535751b21f7b12077da0",
+        "pages": 2,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "yearHeader": "фицированы. Ответы на все задания будут опубликованы 26 ноября 2021 года на сайте"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2021-2.zip",
+        "member": "4-5 2021 website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "f9555b16c6f757894fbd535a95c6ac4b476c965757cfbb18c0a554ad43045858"
+      },
+      "separateKeyMembers": [
+        "Ответы РМ-2021.docx"
+      ],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2021/4-5.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "65e56cbb934fee432c844801afa40494492cf97d2045535751b21f7b12077da0",
+        "yearHeader": "фицированы. Ответы на все задания будут опубликованы 26 ноября 2021 года на сайте"
+      },
+      "localAnswers": "sources/medvezhonok/2021/4-5-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "f9555b16c6f757894fbd535a95c6ac4b476c965757cfbb18c0a554ad43045858"
+      }
+    },
+    {
+      "year": 2021,
+      "grade": "6-7",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2021-1.zip",
+        "member": "6-7_2021_maket_fin_2.pdf",
+        "sha256": "716429907ea59d9b82ae9951ae070f86ebea292880f1abbea90ebff9d6ee1a3e",
+        "pages": 2,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "yearHeader": "фицированы. Ответы на все задания будут опубликованы 26 ноября 2021 года на сайте"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2021-2.zip",
+        "member": "6-7 2021 website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы",
+          "6-7 классы"
+        ],
+        "sha256": "b4e604783b0a2edf8ded3389933e79935d82671b0b2197ab83018b8b15273936"
+      },
+      "separateKeyMembers": [
+        "Ответы РМ-2021.docx"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "6-7.pdf",
+      "answersFile": "6-7-answers.pdf",
+      "localTask": "sources/medvezhonok/2021/6-7.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "716429907ea59d9b82ae9951ae070f86ebea292880f1abbea90ebff9d6ee1a3e",
+        "yearHeader": "фицированы. Ответы на все задания будут опубликованы 26 ноября 2021 года на сайте"
+      },
+      "localAnswers": "sources/medvezhonok/2021/6-7-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы",
+          "6-7 классы"
+        ],
+        "sha256": "b4e604783b0a2edf8ded3389933e79935d82671b0b2197ab83018b8b15273936"
+      }
+    },
+    {
+      "year": 2021,
+      "grade": "8-9",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2021-1.zip",
+        "member": "8-9_2021_maket_fin_2.pdf",
+        "sha256": "23e182f7ee629cc28f6e6756321a26d34646c2708c05fba02d16abc9d69f593e",
+        "pages": 2,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "yearHeader": "фицированы. Ответы на все задания будут опубликованы 26 ноября 2021 года на сайте"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2021-2.zip",
+        "member": "8-9 2021 website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "a4840c1bfc643faf2587fd553da1da042dd62292bca697c26a073f234bee3634"
+      },
+      "separateKeyMembers": [
+        "Ответы РМ-2021.docx"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "8-9.pdf",
+      "answersFile": "8-9-answers.pdf",
+      "localTask": "sources/medvezhonok/2021/8-9.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "23e182f7ee629cc28f6e6756321a26d34646c2708c05fba02d16abc9d69f593e",
+        "yearHeader": "фицированы. Ответы на все задания будут опубликованы 26 ноября 2021 года на сайте"
+      },
+      "localAnswers": "sources/medvezhonok/2021/8-9-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "a4840c1bfc643faf2587fd553da1da042dd62292bca697c26a073f234bee3634"
+      }
+    },
+    {
+      "year": 2021,
+      "grade": "10-11",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2021-1.zip",
+        "member": "10-11_2021_maket_fin_2.pdf",
+        "sha256": "6847b229d424e1c9116e36f2eb969f4bc8387e726332232a6b68d81d159bb6fe",
+        "pages": 2,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "yearHeader": "фицированы. Ответы на все задания будут опубликованы 26 ноября 2021 года на сайте"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2021-2.zip",
+        "member": "10-11 2021 website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "3ff1d6289d48f932342ea6b18293a9d82557dd9238b03e300d8f86f8745d2f7e"
+      },
+      "separateKeyMembers": [
+        "Ответы РМ-2021.docx"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "10-11.pdf",
+      "answersFile": "10-11-answers.pdf",
+      "localTask": "sources/medvezhonok/2021/10-11.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "6847b229d424e1c9116e36f2eb969f4bc8387e726332232a6b68d81d159bb6fe",
+        "yearHeader": "фицированы. Ответы на все задания будут опубликованы 26 ноября 2021 года на сайте"
+      },
+      "localAnswers": "sources/medvezhonok/2021/10-11-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "3ff1d6289d48f932342ea6b18293a9d82557dd9238b03e300d8f86f8745d2f7e"
+      }
+    },
+    {
+      "year": 2022,
+      "grade": "1",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2022-1.zip",
+        "member": "1 класс задания цветные.pdf",
+        "sha256": "f42575aa18fbcc4c95c11c35be693e809da45244dc1f67304a2267cfeb8947e0",
+        "pages": 2,
+        "gradeHeader": []
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2022-2.zip",
+        "member": "1_2022_website.pdf",
+        "pages": 2,
+        "gradeHeader": [
+          "1 класс"
+        ],
+        "sha256": "4addfbc5dde296c636ce996b8ed597a0758c379becad3ac36599345db867584f"
+      },
+      "separateKeyMembers": [
+        "Ответы РМ-2022.doc"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "1.pdf",
+      "answersFile": "1-answers.pdf",
+      "localTask": "sources/medvezhonok/2022/1.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [],
+        "sha256": "f42575aa18fbcc4c95c11c35be693e809da45244dc1f67304a2267cfeb8947e0"
+      },
+      "localAnswers": "sources/medvezhonok/2022/1-answers.pdf",
+      "answerPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "1 класс"
+        ],
+        "sha256": "4addfbc5dde296c636ce996b8ed597a0758c379becad3ac36599345db867584f"
+      }
+    },
+    {
+      "year": 2022,
+      "grade": "2-3",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2022-1.zip",
+        "member": "2-3_2022_maket_fin_A4.pdf",
+        "sha256": "229f8b590ab2ffa4417b7a57ec0f6fc4982e5544e9dfc87fe6ff628c8b96c333",
+        "pages": 2,
+        "gradeHeader": [
+          "2–3 классы"
+        ]
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2022-2.zip",
+        "member": "2-3_2022_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "d5751c0c9bbaeb0589fcdeb046b3673f6e5dfd7201a51c61878b66972a22a236"
+      },
+      "separateKeyMembers": [
+        "Ответы РМ-2022.doc"
+      ],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2022/2-3.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "229f8b590ab2ffa4417b7a57ec0f6fc4982e5544e9dfc87fe6ff628c8b96c333"
+      },
+      "localAnswers": "sources/medvezhonok/2022/2-3-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "d5751c0c9bbaeb0589fcdeb046b3673f6e5dfd7201a51c61878b66972a22a236"
+      }
+    },
+    {
+      "year": 2022,
+      "grade": "4-5",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2022-1.zip",
+        "member": "4-5_2022_maket_fin_A4.pdf",
+        "sha256": "654e0e228190319e6c572d67450614cc8705697ff33c14e490dd699cbb6bf11b",
+        "pages": 2,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "yearHeader": "Результаты будут опубликованы на сайте русскиймедвежонок.рф не позднее 20 января 2023"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2022-2.zip",
+        "member": "4-5_2022_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "372ba440bd7f8e14daf2d19db6999a2a14dc1d449e0967014768ac743788fb69"
+      },
+      "separateKeyMembers": [
+        "Ответы РМ-2022.doc"
+      ],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2022/4-5.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "654e0e228190319e6c572d67450614cc8705697ff33c14e490dd699cbb6bf11b",
+        "yearHeader": "Результаты будут опубликованы на сайте русскиймедвежонок.рф не позднее 20 января 2023"
+      },
+      "localAnswers": "sources/medvezhonok/2022/4-5-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "372ba440bd7f8e14daf2d19db6999a2a14dc1d449e0967014768ac743788fb69"
+      }
+    },
+    {
+      "year": 2022,
+      "grade": "6-7",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2022-1.zip",
+        "member": "6-7_2022_maket_fin_A4.pdf",
+        "sha256": "7e6719ee2c4a2ce3c4ecccb1afbf395c919b3a763cc0592db4540fae32c43b36",
+        "pages": 2,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "yearHeader": "быть дисквалифицированы. Ответы на все задания будут опубликованы 30 ноября 2022 года"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2022-2.zip",
+        "member": "6-7_2022_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы",
+          "6-7 классы"
+        ],
+        "sha256": "666172c738375e709bed588ea772f1d137fbd8f6b0590c7f1c13e97656649de0"
+      },
+      "separateKeyMembers": [
+        "Ответы РМ-2022.doc"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "6-7.pdf",
+      "answersFile": "6-7-answers.pdf",
+      "localTask": "sources/medvezhonok/2022/6-7.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "7e6719ee2c4a2ce3c4ecccb1afbf395c919b3a763cc0592db4540fae32c43b36",
+        "yearHeader": "быть дисквалифицированы. Ответы на все задания будут опубликованы 30 ноября 2022 года"
+      },
+      "localAnswers": "sources/medvezhonok/2022/6-7-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы",
+          "6-7 классы"
+        ],
+        "sha256": "666172c738375e709bed588ea772f1d137fbd8f6b0590c7f1c13e97656649de0"
+      }
+    },
+    {
+      "year": 2022,
+      "grade": "8-9",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2022-1.zip",
+        "member": "8-9_2022_maket_fin_A4.pdf",
+        "sha256": "a630c4e2dd3f41a4cf2818130e23dee8fc49d7a7049a029f2f7ef6d700c39dd5",
+        "pages": 2,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "yearHeader": "быть дисквалифицированы. Ответы на все задания будут опубликованы 30 ноября 2022 года"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2022-2.zip",
+        "member": "8-9_2022_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "94cdc90b8fe7ca7598d316a624e4d0278fae263ceb9d7c69c24f8bf48ed9896c"
+      },
+      "separateKeyMembers": [
+        "Ответы РМ-2022.doc"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "8-9.pdf",
+      "answersFile": "8-9-answers.pdf",
+      "localTask": "sources/medvezhonok/2022/8-9.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "a630c4e2dd3f41a4cf2818130e23dee8fc49d7a7049a029f2f7ef6d700c39dd5",
+        "yearHeader": "быть дисквалифицированы. Ответы на все задания будут опубликованы 30 ноября 2022 года"
+      },
+      "localAnswers": "sources/medvezhonok/2022/8-9-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "94cdc90b8fe7ca7598d316a624e4d0278fae263ceb9d7c69c24f8bf48ed9896c"
+      }
+    },
+    {
+      "year": 2022,
+      "grade": "10-11",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2022-1.zip",
+        "member": "10-11_2022_maket_fin_A4.pdf",
+        "sha256": "82d7fcb2360573ae0322b11deee5ca1d9a1f17d996708c41a372b16a69a4a2e1",
+        "pages": 2,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "yearHeader": "быть дисквалифицированы. Ответы на все задания будут опубликованы 30 ноября 2022 года"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2022-2.zip",
+        "member": "10-11_2022_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "54d95cbeac8366a2c08c1702157430d7847b8032603d94aaf16de23c7c7c1ac5"
+      },
+      "separateKeyMembers": [
+        "Ответы РМ-2022.doc"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "10-11.pdf",
+      "answersFile": "10-11-answers.pdf",
+      "localTask": "sources/medvezhonok/2022/10-11.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "82d7fcb2360573ae0322b11deee5ca1d9a1f17d996708c41a372b16a69a4a2e1",
+        "yearHeader": "быть дисквалифицированы. Ответы на все задания будут опубликованы 30 ноября 2022 года"
+      },
+      "localAnswers": "sources/medvezhonok/2022/10-11-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "54d95cbeac8366a2c08c1702157430d7847b8032603d94aaf16de23c7c7c1ac5"
+      }
+    },
+    {
+      "year": 2023,
+      "grade": "1",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2023-1.zip",
+        "member": "1 класс цветной.pdf",
+        "sha256": "9f509d02cf45078e0e97c83d73fb9c39ed79d24e7e37f5efea746e5516189dd2",
+        "pages": 2,
+        "gradeHeader": []
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2023-2.zip",
+        "member": "1_2023_website.pdf",
+        "pages": 2,
+        "gradeHeader": [
+          "1 класс"
+        ],
+        "sha256": "e5e94753287cd4b9dd09617ad2575cf3e3da8bced7000b71f36609f0df9c6742"
+      },
+      "separateKeyMembers": [
+        "ОТВЕТЫ РМ-2023.docx"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "1.pdf",
+      "answersFile": "1-answers.pdf",
+      "localTask": "sources/medvezhonok/2023/1.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [],
+        "sha256": "9f509d02cf45078e0e97c83d73fb9c39ed79d24e7e37f5efea746e5516189dd2"
+      },
+      "localAnswers": "sources/medvezhonok/2023/1-answers.pdf",
+      "answerPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "1 класс"
+        ],
+        "sha256": "e5e94753287cd4b9dd09617ad2575cf3e3da8bced7000b71f36609f0df9c6742"
+      }
+    },
+    {
+      "year": 2023,
+      "grade": "2-3",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2023-1.zip",
+        "member": "2-3_2023_maket_fin-.pdf",
+        "sha256": "9311e36fd05e9a293f33509e404241a2b47838d9fa943d09587b6f0ff6bd9fd7",
+        "pages": 2,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "yearHeader": "на все задания будут опубликованы 29 ноября 2023 года на сайте русскиймедвежонок.рф."
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2023-2.zip",
+        "member": "2-3_2023_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "286792639289b0d4941e56abcd32991b64e3354d2cd2aa5332fba27b85b919b6"
+      },
+      "separateKeyMembers": [
+        "ОТВЕТЫ РМ-2023.docx"
+      ],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2023/2-3.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "9311e36fd05e9a293f33509e404241a2b47838d9fa943d09587b6f0ff6bd9fd7",
+        "yearHeader": "на все задания будут опубликованы 29 ноября 2023 года на сайте русскиймедвежонок.рф."
+      },
+      "localAnswers": "sources/medvezhonok/2023/2-3-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "286792639289b0d4941e56abcd32991b64e3354d2cd2aa5332fba27b85b919b6"
+      }
+    },
+    {
+      "year": 2023,
+      "grade": "4-5",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2023-1.zip",
+        "member": "4-5_2023_maket_fin-.pdf",
+        "sha256": "1c773b8c2bc46368ed628bca7a46584bfe97a3582ea99b4f00b346d2415a354d",
+        "pages": 2,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "yearHeader": "на все задания будут опубликованы 29 ноября 2023 года на сайте русскиймедвежонок.рф."
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2023-2.zip",
+        "member": "4-5_2023_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "ed01146cd94ffd827039f03212a01aa41c6c9824aa909620606013798d13ca22"
+      },
+      "separateKeyMembers": [
+        "ОТВЕТЫ РМ-2023.docx"
+      ],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2023/4-5.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "1c773b8c2bc46368ed628bca7a46584bfe97a3582ea99b4f00b346d2415a354d",
+        "yearHeader": "на все задания будут опубликованы 29 ноября 2023 года на сайте русскиймедвежонок.рф."
+      },
+      "localAnswers": "sources/medvezhonok/2023/4-5-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "ed01146cd94ffd827039f03212a01aa41c6c9824aa909620606013798d13ca22"
+      }
+    },
+    {
+      "year": 2023,
+      "grade": "6-7",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2023-1.zip",
+        "member": "6-7_2023_maket_fin-.pdf",
+        "sha256": "170b31f911acfc168ffd063e8da6d40c54b041aea223eaa349c8bb0cf983d0a0",
+        "pages": 2,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "yearHeader": "Результаты будут опубликованы на сайте русскиймедвежонок.рф не позднее 25 января 2024"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2023-2.zip",
+        "member": "6-7_2023_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "ce82ec53212c160cc6754481da41a831b544339cc425a042571fef47a47e5538"
+      },
+      "separateKeyMembers": [
+        "ОТВЕТЫ РМ-2023.docx"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "6-7.pdf",
+      "answersFile": "6-7-answers.pdf",
+      "localTask": "sources/medvezhonok/2023/6-7.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "170b31f911acfc168ffd063e8da6d40c54b041aea223eaa349c8bb0cf983d0a0",
+        "yearHeader": "Результаты будут опубликованы на сайте русскиймедвежонок.рф не позднее 25 января 2024"
+      },
+      "localAnswers": "sources/medvezhonok/2023/6-7-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "ce82ec53212c160cc6754481da41a831b544339cc425a042571fef47a47e5538"
+      }
+    },
+    {
+      "year": 2023,
+      "grade": "8-9",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2023-1.zip",
+        "member": "8-9_2023_maket.pdf",
+        "sha256": "0bde5972b64b140cfef2a22a4e1a3638d150ee2d6c6663c2d1ed6431679c6b49",
+        "pages": 2,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "yearHeader": "Результаты будут опубликованы на сайте русскиймедвежонок.рф не позднее 25 января 2024"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2023-2.zip",
+        "member": "8-9_2023_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "76af4c9fd850dbe8f1c237f08c4eaecdfe8452570eae1479609ff687b61f3a47"
+      },
+      "separateKeyMembers": [
+        "ОТВЕТЫ РМ-2023.docx"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "8-9.pdf",
+      "answersFile": "8-9-answers.pdf",
+      "localTask": "sources/medvezhonok/2023/8-9.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "0bde5972b64b140cfef2a22a4e1a3638d150ee2d6c6663c2d1ed6431679c6b49",
+        "yearHeader": "Результаты будут опубликованы на сайте русскиймедвежонок.рф не позднее 25 января 2024"
+      },
+      "localAnswers": "sources/medvezhonok/2023/8-9-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "76af4c9fd850dbe8f1c237f08c4eaecdfe8452570eae1479609ff687b61f3a47"
+      }
+    },
+    {
+      "year": 2023,
+      "grade": "10-11",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2023-1.zip",
+        "member": "10-11_2023_maket_fin-.pdf",
+        "sha256": "d2c0779e9be8b2b617d98933406f5428d9e54434ef70997c5065bc89cd7d02fa",
+        "pages": 2,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "yearHeader": "Результаты будут опубликованы на сайте русскиймедвежонок.рф не позднее 25 января 2024 года."
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2023-2.zip",
+        "member": "10-11_2023_website.pdf",
+        "pages": 5,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "f28f0aba8e58d9d2536fd4508b53dcd9d094d784dcb41b04c6b847456eaaee68"
+      },
+      "separateKeyMembers": [
+        "ОТВЕТЫ РМ-2023.docx"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "10-11.pdf",
+      "answersFile": "10-11-answers.pdf",
+      "localTask": "sources/medvezhonok/2023/10-11.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "d2c0779e9be8b2b617d98933406f5428d9e54434ef70997c5065bc89cd7d02fa",
+        "yearHeader": "Результаты будут опубликованы на сайте русскиймедвежонок.рф не позднее 25 января 2024 года."
+      },
+      "localAnswers": "sources/medvezhonok/2023/10-11-answers.pdf",
+      "answerPdf": {
+        "pages": 5,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "f28f0aba8e58d9d2536fd4508b53dcd9d094d784dcb41b04c6b847456eaaee68"
+      }
+    },
+    {
+      "year": 2024,
+      "grade": "1",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2024-1.zip",
+        "member": "1 кл цв.pdf",
+        "sha256": "e998fc52cf7481c6429a11506a598d5779f23746246c14320ad8d3185035e78d",
+        "pages": 2,
+        "gradeHeader": []
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2024-2.zip",
+        "member": "1_2024_website.pdf",
+        "pages": 2,
+        "gradeHeader": [
+          "1 класс"
+        ],
+        "sha256": "e7a27afb5bbdb9bec096e2f13fe24892386c943d8ca1293b3a934e5cb5587007"
+      },
+      "separateKeyMembers": [
+        "ОТВЕТЫ РМ-2024.docx"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "1.pdf",
+      "answersFile": "1-answers.pdf",
+      "localTask": "sources/medvezhonok/2024/1.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [],
+        "sha256": "e998fc52cf7481c6429a11506a598d5779f23746246c14320ad8d3185035e78d"
+      },
+      "localAnswers": "sources/medvezhonok/2024/1-answers.pdf",
+      "answerPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "1 класс"
+        ],
+        "sha256": "e7a27afb5bbdb9bec096e2f13fe24892386c943d8ca1293b3a934e5cb5587007"
+      }
+    },
+    {
+      "year": 2024,
+      "grade": "2-3",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2024-1.zip",
+        "member": "2-3_2024_maket_fin_2.pdf",
+        "sha256": "ed3b7d3456623f70807e30b3d9e0171dac72d1814703c32503c42dad7df26e96",
+        "pages": 2,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "yearHeader": "Результаты будут опубликованы на сайте русскиймедвежонок.рф не позднее 25 января 2025 года."
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2024-2.zip",
+        "member": "2-3_2024_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "2–3 классы",
+          "Задачи для 2–3 классов"
+        ],
+        "sha256": "030346e8a943099cc095b2b88396015bfa535aeb16e66a897e12af03784dd0f8"
+      },
+      "separateKeyMembers": [
+        "ОТВЕТЫ РМ-2024.docx"
+      ],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2024/2-3.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "2–3 классы"
+        ],
+        "sha256": "ed3b7d3456623f70807e30b3d9e0171dac72d1814703c32503c42dad7df26e96",
+        "yearHeader": "Результаты будут опубликованы на сайте русскиймедвежонок.рф не позднее 25 января 2025 года."
+      },
+      "localAnswers": "sources/medvezhonok/2024/2-3-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "2–3 классы",
+          "Задачи для 2–3 классов"
+        ],
+        "sha256": "030346e8a943099cc095b2b88396015bfa535aeb16e66a897e12af03784dd0f8"
+      }
+    },
+    {
+      "year": 2024,
+      "grade": "4-5",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2024-1.zip",
+        "member": "4-5_2024_maket_fin_2.pdf",
+        "sha256": "4da91c49a1a613cbf3d0af13f4f92146e5981e18da72a1081353e40d1daa2fe2",
+        "pages": 2,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "yearHeader": "Результаты будут опубликованы на сайте русскиймедвежонок.рф не позднее 25 января 2025 года. Распечатки"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2024-2.zip",
+        "member": "4-5_2024_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "4–5 классы",
+          "Задачи для 4–5 классов"
+        ],
+        "sha256": "9568f9c56d6f3fa274ac859f2551f3bd01d3eac6c3528a391ca2adfe56a85a8b"
+      },
+      "separateKeyMembers": [
+        "ОТВЕТЫ РМ-2024.docx"
+      ],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2024/4-5.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "4–5 классы"
+        ],
+        "sha256": "4da91c49a1a613cbf3d0af13f4f92146e5981e18da72a1081353e40d1daa2fe2",
+        "yearHeader": "Результаты будут опубликованы на сайте русскиймедвежонок.рф не позднее 25 января 2025 года. Распечатки"
+      },
+      "localAnswers": "sources/medvezhonok/2024/4-5-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "4–5 классы",
+          "Задачи для 4–5 классов"
+        ],
+        "sha256": "9568f9c56d6f3fa274ac859f2551f3bd01d3eac6c3528a391ca2adfe56a85a8b"
+      }
+    },
+    {
+      "year": 2024,
+      "grade": "6-7",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2024-1.zip",
+        "member": "6-7_2024_maket_fin_2.pdf",
+        "sha256": "8d6c023462b9953b4180459f4c262f55d8ca54cfbd794b2097a33cf7a588b577",
+        "pages": 2,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "yearHeader": "Результаты будут опубликованы на сайте русскиймедвежонок.рф не позднее 25 января 2025"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2024-2.zip",
+        "member": "6-7_2024_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы",
+          "Задачи для 6–7 классов"
+        ],
+        "sha256": "9976d9754a9e7066a97a126e4cb15562c95f69d9ade42da0d487acf1f38f72fc"
+      },
+      "separateKeyMembers": [
+        "ОТВЕТЫ РМ-2024.docx"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "6-7.pdf",
+      "answersFile": "6-7-answers.pdf",
+      "localTask": "sources/medvezhonok/2024/6-7.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "6–7 классы"
+        ],
+        "sha256": "8d6c023462b9953b4180459f4c262f55d8ca54cfbd794b2097a33cf7a588b577",
+        "yearHeader": "Результаты будут опубликованы на сайте русскиймедвежонок.рф не позднее 25 января 2025"
+      },
+      "localAnswers": "sources/medvezhonok/2024/6-7-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы",
+          "Задачи для 6–7 классов"
+        ],
+        "sha256": "9976d9754a9e7066a97a126e4cb15562c95f69d9ade42da0d487acf1f38f72fc"
+      }
+    },
+    {
+      "year": 2024,
+      "grade": "8-9",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2024-1.zip",
+        "member": "8-9_2024_maket_fin_2.pdf",
+        "sha256": "6038ef12e8c654c46c4e31ab97b87b63bebc06760ec1b78de7035480f5e799f6",
+        "pages": 2,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "yearHeader": "Результаты будут опубликованы на сайте русскиймедвежонок.рф не позднее 25 января 2025"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2024-2.zip",
+        "member": "8-9_2024_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы",
+          "Задачи для 8–9 классов"
+        ],
+        "sha256": "1a2563fe91645c8b818e2dc9c16b95737e002a616ce6db844ee27c92b8c6c869"
+      },
+      "separateKeyMembers": [
+        "ОТВЕТЫ РМ-2024.docx"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "8-9.pdf",
+      "answersFile": "8-9-answers.pdf",
+      "localTask": "sources/medvezhonok/2024/8-9.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "8–9 классы"
+        ],
+        "sha256": "6038ef12e8c654c46c4e31ab97b87b63bebc06760ec1b78de7035480f5e799f6",
+        "yearHeader": "Результаты будут опубликованы на сайте русскиймедвежонок.рф не позднее 25 января 2025"
+      },
+      "localAnswers": "sources/medvezhonok/2024/8-9-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы",
+          "Задачи для 8–9 классов"
+        ],
+        "sha256": "1a2563fe91645c8b818e2dc9c16b95737e002a616ce6db844ee27c92b8c6c869"
+      }
+    },
+    {
+      "year": 2024,
+      "grade": "10-11",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2024-1.zip",
+        "member": "10-11_2024_maket_fin_2.pdf",
+        "sha256": "bb6499e55a073782b47cbb928dfc234e559211725e3dc61b70a1b70708889b6e",
+        "pages": 2,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "yearHeader": "Результаты будут опубликованы на сайте русскиймедвежонок.рф не позднее 25 января 2025"
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2024-2.zip",
+        "member": "10-11_2024_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "10–11 классы",
+          "Задачи для 10–11 классов"
+        ],
+        "sha256": "8d589ba9cfe12d659652ee53e4f52ab543cc6d1fc927a6bece29cb1132a9ced8"
+      },
+      "separateKeyMembers": [
+        "ОТВЕТЫ РМ-2024.docx"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "10-11.pdf",
+      "answersFile": "10-11-answers.pdf",
+      "localTask": "sources/medvezhonok/2024/10-11.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "10–11 классы"
+        ],
+        "sha256": "bb6499e55a073782b47cbb928dfc234e559211725e3dc61b70a1b70708889b6e",
+        "yearHeader": "Результаты будут опубликованы на сайте русскиймедвежонок.рф не позднее 25 января 2025"
+      },
+      "localAnswers": "sources/medvezhonok/2024/10-11-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "10–11 классы",
+          "Задачи для 10–11 классов"
+        ],
+        "sha256": "8d589ba9cfe12d659652ee53e4f52ab543cc6d1fc927a6bece29cb1132a9ced8"
+      }
+    },
+    {
+      "year": 2025,
+      "grade": "1",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2025-1.zip",
+        "member": "1 кл цв 1.pdf",
+        "sha256": "d9b56e0b130a87251aca62a84729358817de2ae11e160084ea85e6b43dbb99a8",
+        "pages": 2,
+        "gradeHeader": []
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2025-2.zip",
+        "member": "task2025-2/1_2025_website.pdf",
+        "pages": 2,
+        "gradeHeader": [
+          "1 класс"
+        ],
+        "sha256": "35066039a294f69c593cb877f1f6805b46445fc7aba3e9888a6e6ac48f0f4e86"
+      },
+      "separateKeyMembers": [
+        "Ответы РМ-2025.pdf"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "1.pdf",
+      "answersFile": "1-answers.pdf",
+      "localTask": "sources/medvezhonok/2025/1.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [],
+        "sha256": "d9b56e0b130a87251aca62a84729358817de2ae11e160084ea85e6b43dbb99a8"
+      },
+      "localAnswers": "sources/medvezhonok/2025/1-answers.pdf",
+      "answerPdf": {
+        "pages": 2,
+        "gradeHeader": [
+          "1 класс"
+        ],
+        "sha256": "35066039a294f69c593cb877f1f6805b46445fc7aba3e9888a6e6ac48f0f4e86"
+      }
+    },
+    {
+      "year": 2025,
+      "grade": "2-3",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2025-1.zip",
+        "member": "2-3 цв.pdf",
+        "sha256": "abfd7383a9e05fd58968e40f88072f0fd529b916aa739cd75773f263ad7ac00d",
+        "pages": 2,
+        "gradeHeader": []
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2025-2.zip",
+        "member": "task2025-2/2-3_2025_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "2–3 классы",
+          "Задачи для 2–3 классов"
+        ],
+        "sha256": "11c0a8e7d27b422db14ec743d1584721f0631b02d53b616b1734495233e8a018"
+      },
+      "separateKeyMembers": [
+        "Ответы РМ-2025.pdf"
+      ],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2025/2-3.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [],
+        "sha256": "abfd7383a9e05fd58968e40f88072f0fd529b916aa739cd75773f263ad7ac00d"
+      }
+    },
+    {
+      "year": 2025,
+      "grade": "4-5",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2025-1.zip",
+        "member": "4-5 цв.pdf",
+        "sha256": "dd2143c130a6043361c3019a532a6afa98dae5990b3983f74b4ec94d029dd9ec",
+        "pages": 2,
+        "gradeHeader": []
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2025-2.zip",
+        "member": "task2025-2/4-5_2025_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "4–5 классы",
+          "Задачи для 4–5 классов"
+        ],
+        "sha256": "d7b8d78f31b44404f941f8fc5c64bd267c21ce89eecb2211372c399e8d57c979"
+      },
+      "separateKeyMembers": [
+        "Ответы РМ-2025.pdf"
+      ],
+      "status": "previously-published",
+      "localTask": "sources/medvezhonok/2025/4-5.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [],
+        "sha256": "dd2143c130a6043361c3019a532a6afa98dae5990b3983f74b4ec94d029dd9ec"
+      }
+    },
+    {
+      "year": 2025,
+      "grade": "6-7",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2025-1.zip",
+        "member": "6-7 цв.pdf",
+        "sha256": "95fefc6d718023b18d381544c58b9c21f6d6ace59f9916fe4c05d17cf09058bf",
+        "pages": 2,
+        "gradeHeader": []
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2025-2.zip",
+        "member": "task2025-2/6-7_2025_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы",
+          "Задачи для 6–7 классов"
+        ],
+        "sha256": "3ef0424c957e37fa59f47ec75fb2b6b4a912cf3f0a34e9a916430c2f9e294ba9"
+      },
+      "separateKeyMembers": [
+        "Ответы РМ-2025.pdf"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "6-7.pdf",
+      "answersFile": "6-7-answers.pdf",
+      "localTask": "sources/medvezhonok/2025/6-7.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [],
+        "sha256": "95fefc6d718023b18d381544c58b9c21f6d6ace59f9916fe4c05d17cf09058bf"
+      },
+      "localAnswers": "sources/medvezhonok/2025/6-7-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "6–7 классы",
+          "Задачи для 6–7 классов"
+        ],
+        "sha256": "3ef0424c957e37fa59f47ec75fb2b6b4a912cf3f0a34e9a916430c2f9e294ba9"
+      }
+    },
+    {
+      "year": 2025,
+      "grade": "8-9",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2025-1.zip",
+        "member": "8-9 кл цв.pdf",
+        "sha256": "a99a77fe9ad89dbee3efbec1ef5a2c58c012af4054ce5f8348bb2aaf0a0047cb",
+        "pages": 2,
+        "gradeHeader": []
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2025-2.zip",
+        "member": "task2025-2/8-9_2025_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы",
+          "Задачи для 8–9 классов"
+        ],
+        "sha256": "b25822d3384dd1c78ff11331a5343ad6d9ff422cfe64e00b9414365cba457903"
+      },
+      "separateKeyMembers": [
+        "Ответы РМ-2025.pdf"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "8-9.pdf",
+      "answersFile": "8-9-answers.pdf",
+      "localTask": "sources/medvezhonok/2025/8-9.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [],
+        "sha256": "a99a77fe9ad89dbee3efbec1ef5a2c58c012af4054ce5f8348bb2aaf0a0047cb"
+      },
+      "localAnswers": "sources/medvezhonok/2025/8-9-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "8–9 классы",
+          "Задачи для 8–9 классов"
+        ],
+        "sha256": "b25822d3384dd1c78ff11331a5343ad6d9ff422cfe64e00b9414365cba457903"
+      }
+    },
+    {
+      "year": 2025,
+      "grade": "10-11",
+      "taskSource": {
+        "archive": "https://konkurs43.ru/rm/task2025-1.zip",
+        "member": "10-11 цв.pdf",
+        "sha256": "f72e23fd5acabacd11e6207849184f7360d36a4571cc8b8c4c61e6c346532d2f",
+        "pages": 2,
+        "gradeHeader": []
+      },
+      "answerSource": {
+        "archive": "https://konkurs43.ru/rm/task2025-2.zip",
+        "member": "task2025-2/10-11_2025_website.pdf",
+        "pages": 4,
+        "gradeHeader": [
+          "10–11 классы",
+          "Задачи для 10–11 классов"
+        ],
+        "sha256": "643e53eeaaf4070f6abfcbdc3b576266fd956889ddc71c67bffcc32ed9e1eac3"
+      },
+      "separateKeyMembers": [
+        "Ответы РМ-2025.pdf"
+      ],
+      "status": "paper-verified",
+      "tasksFile": "10-11.pdf",
+      "answersFile": "10-11-answers.pdf",
+      "localTask": "sources/medvezhonok/2025/10-11.pdf",
+      "taskPdf": {
+        "pages": 2,
+        "gradeHeader": [],
+        "sha256": "f72e23fd5acabacd11e6207849184f7360d36a4571cc8b8c4c61e6c346532d2f"
+      },
+      "localAnswers": "sources/medvezhonok/2025/10-11-answers.pdf",
+      "answerPdf": {
+        "pages": 4,
+        "gradeHeader": [
+          "10–11 классы",
+          "Задачи для 10–11 классов"
+        ],
+        "sha256": "643e53eeaaf4070f6abfcbdc3b576266fd956889ddc71c67bffcc32ed9e1eac3"
+      }
+    }
+  ]
+}

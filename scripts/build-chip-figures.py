@@ -40,7 +40,7 @@ def credit_lines(path, manifest):
         rows = json.loads(edition.read_text(encoding='utf-8'))
         credits = set()
         for row in rows:
-            images = row.get('optionFigures') or row.get('figures') or ([row['figure']] if 'figure' in row else [])
+            images = ([row['figure']] if row.get('figure') else []) + row.get('figures', []) + row.get('optionFigures', [])
             for image in images:
                 detail = manifest['figures'].get(Path(image['src']).stem, {}).get('detail')
                 if not detail:

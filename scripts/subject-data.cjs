@@ -9,7 +9,9 @@ const idFor = row => [row.year, row.subject, row.session, row.grade, row.edition
 const answerFile = row => 'reviewed-' + [row.grade, row.session, row.editionSuffix || row.variant].filter(Boolean).join('-') + '.pdf';
 
 function loadSubjects() {
-  const editions = read('sources/subject-editions.json').map(meta => {
+  const subjects = [...read('sources/subject-editions.json'), ...read('sources/chip/interactive-additions.json'),
+    ...read('sources/chip/interactive-2012-2014.json')];
+  const editions = subjects.map(meta => {
     const file = meta.sourceFile ?? ['sources', meta.subject, meta.year, meta.session, meta.grade + '.json'].filter(Boolean).join('/');
     return {meta: {...meta, answersFile: answerFile(meta), reviewedKey: true}, rows: read(file), file};
   });

@@ -57,14 +57,15 @@ globalThis.KENGURU_GRADE_TITLES = {"2022":["Два цветных треугол
       const description = `Условие задачи №${number}. Кенгуру ${year}, 5–6 классы.`;
       const custom = visualLessons[year]?.[number];
       const native = nativeConditions[year]?.[number];
-      const official = officialSolutions[year]?.[number]?.steps;
-      const question = custom?.question ?? native?.question ?? '';
-      const choices = custom?.choices ?? native?.choices ?? ['', '', '', '', ''];
+      const solution = officialSolutions[year]?.[number];
+      const official = solution?.steps;
+      const question = custom?.question ?? solution?.question ?? native?.question ?? '';
+      const choices = custom?.choices ?? solution?.choices ?? native?.choices ?? ['', '', '', '', ''];
       const paperEdition = !custom && !official?.length;
       const intro = ['Условие', 'Условие задачи', 'Выбери ответ и нажми «Далее».'];
       const officialKey = nativeKeys[year]?.[index];
       const [answerText, answerLetter, answerImage, answerWidth, answerHeight] = officialKey ?? [];
-      const answer = officialKey && answerLetter ? answerLetters.indexOf(answerLetter) : letterKey;
+      const answer = solution?.answer ?? (officialKey && answerLetter ? answerLetters.indexOf(answerLetter) : letterKey);
       const answerStep = officialKey
         ? ['Ответ', 'Официальный ответ', answerLetter ? `Вариант ${answerLetter}. ${answerText}` : answerText]
         : ['Ответ', 'Проверяем ответ', 'Сравни свой выбор с официальным ответом.'];
@@ -81,6 +82,7 @@ globalThis.KENGURU_GRADE_TITLES = {"2022":["Два цветных треугол
         choices,
         choiceImages: custom ? custom.choiceImages : native?.choiceImages,
         question,
+        ...(solution?.questionNote ? {questionNote: solution.questionNote} : {}),
         conditionImage: custom?.conditionImage ?? (!custom ? figure : undefined),
         conditionAlt: !custom ? native?.figureAlt : undefined,
         legacyOriginal: !custom || Boolean(custom.originalAtStart),
