@@ -54,7 +54,8 @@ test('7–8 grade cards have native conditions and accessible artwork with match
       }
       assert.ok(Number.isInteger(card.answer) && card.answer >= 0 && card.answer < 5, key);
       assert.deepEqual(rating[key], [card.answer, card.points], key);
-      assert.equal(lesson.paperEdition, year === 2020, key);
+      assert.equal(lesson.paperEdition, false, key);
+      assert.ok(card.review.length >= 2, key);
       for (const stage of card.review) {
         assert.ok(stage.title && stage.text, key);
         if (stage.image) assert.ok(fs.existsSync(path.join(dist, stage.image)), stage.image);

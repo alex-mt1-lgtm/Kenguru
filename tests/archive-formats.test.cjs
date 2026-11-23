@@ -20,6 +20,6 @@ test('archive format labels are current and every interactive archive card has o
   const interactiveEditions = [...archive.matchAll(/href="\.\/#zadacha=([a-z0-9-]+)\/\d+"/gu)].map(link => link[1]);
   assert.deepEqual([...new Set(interactiveEditions)].sort(), Object.keys(formats).sort());
   assert.equal(formats['2024-3-4'], 'walkthrough');
-  assert.equal(formats['2000-5-6'], 'mixed');
-  assert.equal(formats['2017-5-6'], 'key');
+  assert.equal(formats['2000-5-6'], 'walkthrough');
+  assert.equal(formats['2020-7-8'], 'walkthrough');
 });
