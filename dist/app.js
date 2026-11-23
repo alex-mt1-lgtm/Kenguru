@@ -605,7 +605,8 @@ function renderPicker() {
   }
   yearPicker.value = String(set.year);
 
-  const variants = editions.filter(item => item.year === set.year);
+  const variants = editions.filter(item => item.year === set.year)
+    .sort((a, b) => a.grades[0] - b.grades[0] || a.grades.at(-1) - b.grades.at(-1));
   $('gradePicker').innerHTML = variants.map(item =>
     `<option value="${item.id}" ${item.id === selectedDataset ? 'selected' : ''}>${item.label}</option>`
   ).join('');
