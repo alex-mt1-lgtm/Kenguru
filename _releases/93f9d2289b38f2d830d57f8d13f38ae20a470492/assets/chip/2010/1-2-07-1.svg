@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="360" viewBox="0 0 360 360">
+<rect width="360" height="360" fill="#fff"/>
+<defs>
+<g id="oak">
+ <path fill="#779a5b" stroke="#476846" stroke-width="1.15" stroke-linejoin="round" d="M0 0 C-6 -8 -23 -8 -25 -20 C-28 -32 -14 -28 -16 -39 C-24 -46 -44 -47 -42 -63 C-40 -77 -21 -68 -20 -76 C-22 -86 -41 -86 -39 -104 C-37 -118 -18 -106 -15 -114 C-18 -124 -28 -134 -18 -149 C-12 -157 -5 -154 -1 -160 C11 -163 24 -148 18 -137 C13 -125 8 -115 16 -110 C24 -110 35 -123 39 -105 C44 -89 23 -87 22 -76 C21 -67 40 -79 43 -63 C45 -46 27 -47 17 -41 C12 -34 26 -34 24 -22 C23 -11 11 -8 0 0 Z"/>
+ <path fill="none" stroke="#e2edb8" stroke-width="1.5" stroke-linecap="round" opacity=".9" d="M0 0 Q-3 -70 0 -151 M-2 -25 Q-12 -24 -21 -19 M-2 -25 Q11 -23 20 -24 M-1 -55 Q-17 -58 -36 -64 M-1 -54 Q20 -58 37 -63 M0 -88 Q-15 -92 -32 -103 M0 -87 Q17 -90 33 -103 M0 -122 Q-8 -135 -11 -143 M0 -121 Q9 -132 14 -142"/>
+ </g>
+ <g id="acorn">
+ <path d="M-10 -7 Q-12 -21 -5 -32 Q0 -41 7 -36 Q14 -32 13 -21 Q12 -8 8 -4 Z" fill="#b59057" stroke="#765e42" stroke-width="1.5"/>
+ <path d="M-13 -13 Q4 -7 13 -12 L12 -5 Q1 4 -10 -4 Z" fill="#7e7350" stroke="#625c41" stroke-width="1.3"/>
+ <path d="M-10 -8 l3 -3 3 5 4 -4 3 6 3 -6 4 3" fill="none" stroke="#aa9d72" stroke-width=".8"/>
+ </g>
+</defs>
+<g transform="translate(18 18) scale(.90)">
+<path d="M91 319 Q116 283 137 240 T177 157 Q186 139 188 112" fill="none" stroke="#7b664e" stroke-width="6" stroke-linecap="round"/><path d="M103 300 Q113 275 93 258 M128 263 Q159 253 180 257 M148 218 Q147 197 122 181 M166 185 Q186 173 208 180 M176 161 Q173 143 152 132 M184 140 Q195 137 207 129" fill="none" stroke="#816c55" stroke-width="3" stroke-linecap="round"/><use href="#oak" transform="translate(97 263) rotate(-54) scale(0.58)" color="#5f7a53"/><use href="#oak" transform="translate(174 259) rotate(61) scale(0.68)" color="#52734d"/><use href="#oak" transform="translate(129 184) rotate(-55) scale(0.79)" color="#708951"/><use href="#oak" transform="translate(196 182) rotate(66) scale(0.7)" color="#55764d"/><use href="#oak" transform="translate(155 135) rotate(-45) scale(0.69)" color="#6d8759"/><use href="#oak" transform="translate(194 145) rotate(54) scale(0.65)" color="#65834f"/><use href="#oak" transform="translate(188 116) rotate(13) scale(0.59)" color="#768e53"/><path d="M164 181 Q158 167 151 162 M164 181 Q170 170 176 160" fill="none" stroke="#7b664e" stroke-width="2.2" stroke-linecap="round"/><use href="#acorn" transform="translate(150 163) rotate(-37) scale(0.93)"/><use href="#acorn" transform="translate(175 162) rotate(40) scale(0.91)"/>
+</g>
+</svg>

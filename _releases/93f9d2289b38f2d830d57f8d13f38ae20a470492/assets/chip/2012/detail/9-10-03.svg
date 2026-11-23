@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 500"><defs><linearGradient id="water" x2="0" y2="1"><stop stop-color="#54a6bc"/><stop offset="1" stop-color="#207890"/></linearGradient><linearGradient id="sail" x2="1" y2="0"><stop stop-color="#b8322d"/><stop offset=".65" stop-color="#e76852"/><stop offset="1" stop-color="#b73934"/></linearGradient><linearGradient id="wood" x2="0" y2="1"><stop stop-color="#e1ad59"/><stop offset="1" stop-color="#885739"/></linearGradient></defs>
+<path d="M0 0h640v500H0Z" fill="#edf1df"/><path d="M0 356q140-10 320 0t320-1v145H0Z" fill="url(#water)"/>
+<g fill="none" stroke="#b1d7da" stroke-opacity=".65" stroke-width="3"><path d="M10 414q98-14 210 0t306 0m-94 35q90-18 187-9M42 471q126-15 278 1"/></g>
+<g fill="none" stroke="#766953" stroke-width="1.9">
+<path d="M130 106 64 316m66-210 84 232m6-239-75 232m79-234 132 272m45-268-74 240m74-234 56 223M126 118 221 105 397 119 520 209m-390-72 87 99 173-106 126 112m-388-69 85 85 178-5 128-32m-390-12 80 78 181-74 142 42m-408-3 81 88 203-68 132-73"/>
+<path d="M196 288h26m-41 15h41m-51 14h52m-57 13h56m145-50h24m-34 13h34m-47 14h46m-53 14h52m-56 13h56"/>
+</g>
+<g fill="url(#sail)" stroke="#8f4536" stroke-width="2.6" stroke-linejoin="round">
+<path d="M74 183q32 67 125 128-66-12-113-16Z"/><path d="M135 125h14l8 77-24-2Z"/>
+<path d="M230 113h19q15 53 12 95l-35 3q8-56 4-98Z"/><path d="M224 231h32q19 56 30 84l-63 4q7-49 1-88Z"/>
+<path d="M403 120h20q17 45 20 96l-41-5q7-42 1-91Z"/><path d="M398 239h36q23 51 22 81l-57 11q4-40-1-92Z"/>
+<path d="M552 222h13l15 56-29-7Z"/><path d="M508 302q37-22 61-14l15 45-49 9Z"/>
+</g>
+<g stroke="#65523a" fill="none" stroke-linecap="round">
+<path d="M130 331V98M224 327V81M395 329V100m33 246 134-103m-24 22 5-47" stroke-width="4.5"/>
+<path d="M104 127h47m54-15h52m-57 116h63m110-110h58m-67 118h75m99-17h31" stroke-width="4"/>
+</g>
+<path d="M225 86q11 5 23 2t16 2v15q-20-5-39 2Zm319 129q15-12 27-3v15q-13-6-28 1Z" fill="#c64a36"/>
+<path d="M58 315q45 9 93 9l202 13q91 1 126-24l-14 38q-20 30-84 36H111q-37-7-43-39Z" fill="url(#wood)" stroke="#725036" stroke-width="4"/>
+<g stroke="#6d5038" stroke-width="2.4" fill="none"><path d="M68 330q102 20 279 22 78 1 122-15m-392 14q85 17 263 17 76 0 116-15M83 363q69 15 265 14 53-2 93-13"/></g>
+<path d="M67 320q83 18 263 23 111 3 148-25" fill="none" stroke="#f8ce78" stroke-width="7"/>
+<g fill="#42534c"><circle cx="110" cy="339" r="4"/><circle cx="138" cy="342" r="4"/><circle cx="168" cy="345" r="4"/><circle cx="197" cy="347" r="4"/><circle cx="227" cy="349" r="4"/><circle cx="257" cy="351" r="4"/><circle cx="287" cy="352" r="4"/><circle cx="318" cy="352" r="4"/><circle cx="351" cy="351" r="4"/><circle cx="384" cy="350" r="4"/><circle cx="418" cy="347" r="4"/></g></svg>
