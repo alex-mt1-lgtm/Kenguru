@@ -13,54 +13,54 @@
     "points": 3,
     "steps": [
       "12 апреля 1961 года Юрий Гагарин стал первым человеком в космосе. Он совершил оборот вокруг Земли на корабле «Восток».",
-      "Гагарин в белом шлеме и оранжевом скафандре изображён под буквой В. В остальных кадрах спутник, собака Лайка, Валентина Терешкова и станция «Мир»."
+      "На портрете В — Юрий Гагарин. Лайка летала раньше него, в 1957 году, а Валентина Терешкова отправилась в космос позже, в 1963-м."
     ],
     "adaptation": "Надпись под вторым рисунком исправлена на Б по порядку вариантов. Изображения сохранены в исходном порядке.",
     "optionFigures": [
       {
         "src": "assets/chip/2011/1-2-01-1.webp",
         "alt": "Металлический шар с длинными антеннами.",
-        "width": 112,
-        "height": 112,
+        "width": 370,
+        "height": 278,
         "detailSrc": "assets/chip/2011/detail/1-2-01-1.webp",
-        "pixelWidth": 140,
-        "pixelHeight": 140
+        "pixelWidth": 1400,
+        "pixelHeight": 1050
       },
       {
         "src": "assets/chip/2011/1-2-01-2.webp",
-        "alt": "Собака с тёмной мордой на фоне неба.",
-        "width": 112,
-        "height": 112,
+        "alt": "Чёрно-белый снимок собаки с тёмными ушами.",
+        "width": 370,
+        "height": 256,
         "detailSrc": "assets/chip/2011/detail/1-2-01-2.webp",
-        "pixelWidth": 140,
-        "pixelHeight": 140
+        "pixelWidth": 1400,
+        "pixelHeight": 968
       },
       {
         "src": "assets/chip/2011/1-2-01-3.webp",
-        "alt": "Человек в белом шлеме и оранжевом скафандре.",
-        "width": 112,
-        "height": 112,
+        "alt": "Мужчина в военной форме с наградами.",
+        "width": 277,
+        "height": 370,
         "detailSrc": "assets/chip/2011/detail/1-2-01-3.webp",
-        "pixelWidth": 140,
-        "pixelHeight": 140
+        "pixelWidth": 1050,
+        "pixelHeight": 1400
       },
       {
         "src": "assets/chip/2011/1-2-01-4.webp",
-        "alt": "Женщина в белом скафандре.",
-        "width": 112,
-        "height": 112,
+        "alt": "Портрет седой женщины.",
+        "width": 277,
+        "height": 370,
         "detailSrc": "assets/chip/2011/detail/1-2-01-4.webp",
-        "pixelWidth": 140,
-        "pixelHeight": 140
+        "pixelWidth": 1050,
+        "pixelHeight": 1400
       },
       {
         "src": "assets/chip/2011/1-2-01-5.webp",
-        "alt": "Орбитальная станция с солнечными панелями над Землёй.",
-        "width": 112,
-        "height": 112,
+        "alt": "Орбитальная станция с солнечными панелями на тёмном фоне.",
+        "width": 370,
+        "height": 360,
         "detailSrc": "assets/chip/2011/detail/1-2-01-5.webp",
-        "pixelWidth": 140,
-        "pixelHeight": 140
+        "pixelWidth": 1400,
+        "pixelHeight": 1364
       }
     ]
   },
@@ -135,11 +135,11 @@
     "figure": {
       "src": "assets/chip/2011/1-2-05.webp",
       "alt": "Девочка в розовой блузке за столом. На светлой скатерти лежат четыре круглых плода и листья.",
-      "width": 427,
-      "height": 480,
+      "width": 329,
+      "height": 370,
       "detailSrc": "assets/chip/2011/detail/1-2-05.webp",
-      "pixelWidth": 1422,
-      "pixelHeight": 1600
+      "pixelWidth": 1244,
+      "pixelHeight": 1400
     }
   },
   {
@@ -214,7 +214,7 @@
   },
   {
     "title": "Светолюбивое дерево",
-    "question": "Самое светолюбивое дерево в лесу из изображённых ниже:",
+    "question": "На каком рисунке изображена светолюбивая сосна обыкновенная, выросшая в густом лесу?",
     "choices": [
       "",
       "",
@@ -226,55 +226,56 @@
     "points": 4,
     "steps": [
       "Дереву на рисунке Б нужны хорошо освещённые ветви. В лесу его крона поднимается высоко, внизу большинство ветвей отмирает в тени.",
-      "Так растёт сосна обыкновенная. На других рисунках кроны занимают большую часть ствола и лучше переносят затенение."
+      "У сосны обыкновенной, выросшей в густом лесу, остаётся длинный открытый ствол. На рисунке Б над ним видна редкая крона, похожая на зонтик."
     ],
     "optionFigures": [
       {
         "src": "assets/chip/2011/1-2-10-1.webp",
         "alt": "Широкая коническая крона со свисающими ярусами ветвей.",
-        "width": 80,
-        "height": 80,
-        "detailSrc": "assets/chip/2011/detail/1-2-10-1.webp",
-        "pixelWidth": 100,
-        "pixelHeight": 100
+        "width": 370,
+        "height": 255,
+        "detailSrc": "assets/chip/2011/detail/1-2-10-1.svg",
+        "pixelWidth": 1280,
+        "pixelHeight": 880
       },
       {
         "src": "assets/chip/2011/1-2-10-2.webp",
         "alt": "Длинный голый ствол и редкие ветви под округлой высокой кроной.",
-        "width": 80,
-        "height": 80,
-        "detailSrc": "assets/chip/2011/detail/1-2-10-2.webp",
-        "pixelWidth": 100,
-        "pixelHeight": 100
+        "width": 370,
+        "height": 255,
+        "detailSrc": "assets/chip/2011/detail/1-2-10-2.svg",
+        "pixelWidth": 1280,
+        "pixelHeight": 880
       },
       {
         "src": "assets/chip/2011/1-2-10-3.webp",
         "alt": "Тёмная разветвлённая раскидистая крона.",
-        "width": 80,
-        "height": 80,
-        "detailSrc": "assets/chip/2011/detail/1-2-10-3.webp",
-        "pixelWidth": 100,
-        "pixelHeight": 100
+        "width": 370,
+        "height": 255,
+        "detailSrc": "assets/chip/2011/detail/1-2-10-3.svg",
+        "pixelWidth": 1280,
+        "pixelHeight": 880
       },
       {
         "src": "assets/chip/2011/1-2-10-4.webp",
         "alt": "Плотная вытянутая конусообразная крона над голым стволом.",
-        "width": 80,
-        "height": 80,
-        "detailSrc": "assets/chip/2011/detail/1-2-10-4.webp",
-        "pixelWidth": 100,
-        "pixelHeight": 100
+        "width": 370,
+        "height": 255,
+        "detailSrc": "assets/chip/2011/detail/1-2-10-4.svg",
+        "pixelWidth": 1280,
+        "pixelHeight": 880
       },
       {
         "src": "assets/chip/2011/1-2-10-5.webp",
         "alt": "Высокая неровная крона, ветви расположены на разной высоте.",
-        "width": 80,
-        "height": 80,
-        "detailSrc": "assets/chip/2011/detail/1-2-10-5.webp",
-        "pixelWidth": 100,
-        "pixelHeight": 100
+        "width": 370,
+        "height": 255,
+        "detailSrc": "assets/chip/2011/detail/1-2-10-5.svg",
+        "pixelWidth": 1280,
+        "pixelHeight": 880
       }
-    ]
+    ],
+    "adaptation": "Уточнены вид дерева и условия, в которых формируется показанная крона."
   },
   {
     "title": "Балласт воздушного шара",
@@ -346,11 +347,11 @@
     "figure": {
       "src": "assets/chip/2011/1-2-14.webp",
       "alt": "Низкое куполообразное снежное жилище с узким входом.",
-      "width": 240,
-      "height": 120,
+      "width": 370,
+      "height": 214,
       "detailSrc": "assets/chip/2011/detail/1-2-14.webp",
-      "pixelWidth": 300,
-      "pixelHeight": 150
+      "pixelWidth": 1400,
+      "pixelHeight": 810
     }
   },
   {
@@ -410,7 +411,7 @@
   },
   {
     "title": "Цветок со звёздным именем",
-    "question": "Название какого цветка переводится с латыни как «звезда»:",
+    "question": "Название какого цветка восходит к слову со значением «звезда»?",
     "choices": [
       "",
       "",
@@ -421,54 +422,54 @@
     "answer": 0,
     "points": 5,
     "steps": [
-      "Латинское слово aster означает «звезда». От него происходит название «астра».",
-      "Астра с длинными сиреневыми лепестками показана на рисунке А. Георгин, ромашка, подсолнух и одуванчик имеют другие названия."
+      "Древнегреческое astḗr значит «звезда». Из греческого слово перешло в латынь, а с ним связано и название астры.",
+      "Рассмотри рисунок А. Узкие сиреневые цветки расходятся от жёлтой середины, как лучи звезды. На других снимках георгин, нивяник, подсолнечник и хризантема."
     ],
     "optionFigures": [
       {
         "src": "assets/chip/2011/1-2-16-1.webp",
         "alt": "Сиреневый цветок с узкими лепестками вокруг жёлтой середины.",
-        "width": 80,
-        "height": 80,
+        "width": 370,
+        "height": 231,
         "detailSrc": "assets/chip/2011/detail/1-2-16-1.webp",
-        "pixelWidth": 100,
-        "pixelHeight": 100
+        "pixelWidth": 1200,
+        "pixelHeight": 749
       },
       {
         "src": "assets/chip/2011/1-2-16-2.webp",
-        "alt": "Красный цветок с белыми концами многочисленных лепестков.",
-        "width": 80,
-        "height": 80,
+        "alt": "Цветок с красно-белыми лепестками.",
+        "width": 277,
+        "height": 370,
         "detailSrc": "assets/chip/2011/detail/1-2-16-2.webp",
-        "pixelWidth": 100,
-        "pixelHeight": 100
+        "pixelWidth": 1050,
+        "pixelHeight": 1400
       },
       {
         "src": "assets/chip/2011/1-2-16-3.webp",
         "alt": "Белые лепестки вокруг круглой жёлтой середины.",
-        "width": 80,
-        "height": 80,
+        "width": 370,
+        "height": 336,
         "detailSrc": "assets/chip/2011/detail/1-2-16-3.webp",
-        "pixelWidth": 100,
-        "pixelHeight": 100
+        "pixelWidth": 1400,
+        "pixelHeight": 1273
       },
       {
         "src": "assets/chip/2011/1-2-16-4.webp",
         "alt": "Крупные жёлтые лепестки вокруг тёмной середины.",
-        "width": 80,
-        "height": 80,
+        "width": 370,
+        "height": 370,
         "detailSrc": "assets/chip/2011/detail/1-2-16-4.webp",
-        "pixelWidth": 100,
-        "pixelHeight": 100
+        "pixelWidth": 1280,
+        "pixelHeight": 1280
       },
       {
         "src": "assets/chip/2011/1-2-16-5.webp",
-        "alt": "Множество тонких жёлтых лепестков образуют пушистую головку.",
-        "width": 80,
-        "height": 80,
+        "alt": "Оранжевые корзинки с узкими расходящимися лепестками.",
+        "width": 370,
+        "height": 278,
         "detailSrc": "assets/chip/2011/detail/1-2-16-5.webp",
-        "pixelWidth": 100,
-        "pixelHeight": 100
+        "pixelWidth": 1280,
+        "pixelHeight": 960
       }
     ]
   },
@@ -486,53 +487,53 @@
     "points": 5,
     "steps": [
       "Зайчата рождаются с открытыми глазами и покрыты шерстью. Поэтому заяц на рисунке А подходит.",
-      "У ежа, хомяка, белки и кошки детёныши открывают глаза после рождения."
+      "У ежа, мыши, белки и кошки детёныши открывают глаза после рождения."
     ],
     "optionFigures": [
       {
         "src": "assets/chip/2011/1-2-17-1.webp",
         "alt": "Серо-бурый зверёк с особенно длинными ушами.",
-        "width": 80,
-        "height": 78,
+        "width": 370,
+        "height": 247,
         "detailSrc": "assets/chip/2011/detail/1-2-17-1.webp",
-        "pixelWidth": 100,
-        "pixelHeight": 97
+        "pixelWidth": 1400,
+        "pixelHeight": 933
       },
       {
         "src": "assets/chip/2011/1-2-17-2.webp",
         "alt": "Зверёк с иголками на спине.",
-        "width": 80,
-        "height": 78,
+        "width": 370,
+        "height": 277,
         "detailSrc": "assets/chip/2011/detail/1-2-17-2.webp",
-        "pixelWidth": 100,
-        "pixelHeight": 97
+        "pixelWidth": 1400,
+        "pixelHeight": 1049
       },
       {
         "src": "assets/chip/2011/1-2-17-3.webp",
-        "alt": "Небольшой грызун с округлыми ушами и светлой мордочкой.",
-        "width": 80,
-        "height": 78,
+        "alt": "Бурая мышь с большими ушами и заострённой мордой.",
+        "width": 370,
+        "height": 247,
         "detailSrc": "assets/chip/2011/detail/1-2-17-3.webp",
-        "pixelWidth": 100,
-        "pixelHeight": 97
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2011/1-2-17-4.webp",
         "alt": "Рыжий зверёк с длинным пушистым хвостом.",
-        "width": 80,
-        "height": 78,
+        "width": 370,
+        "height": 309,
         "detailSrc": "assets/chip/2011/detail/1-2-17-4.webp",
-        "pixelWidth": 100,
-        "pixelHeight": 97
+        "pixelWidth": 1400,
+        "pixelHeight": 1170
       },
       {
         "src": "assets/chip/2011/1-2-17-5.webp",
-        "alt": "Пушистый серый зверёк с треугольными ушами и усами.",
-        "width": 80,
-        "height": 78,
+        "alt": "Полосатый серый котёнок с треугольными ушами.",
+        "width": 370,
+        "height": 247,
         "detailSrc": "assets/chip/2011/detail/1-2-17-5.webp",
-        "pixelWidth": 100,
-        "pixelHeight": 97
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       }
     ]
   },
@@ -574,47 +575,47 @@
       {
         "src": "assets/chip/2011/1-2-19-1.webp",
         "alt": "Тонкое насекомое с хоботком и длинными ногами.",
-        "width": 80,
-        "height": 78,
+        "width": 370,
+        "height": 246,
         "detailSrc": "assets/chip/2011/detail/1-2-19-1.webp",
-        "pixelWidth": 100,
-        "pixelHeight": 97
+        "pixelWidth": 1280,
+        "pixelHeight": 850
       },
       {
         "src": "assets/chip/2011/1-2-19-2.webp",
         "alt": "Длинное зелёное насекомое с четырьмя прозрачными крыльями.",
-        "width": 80,
-        "height": 78,
+        "width": 370,
+        "height": 284,
         "detailSrc": "assets/chip/2011/detail/1-2-19-2.webp",
-        "pixelWidth": 100,
-        "pixelHeight": 97
+        "pixelWidth": 1400,
+        "pixelHeight": 1073
       },
       {
         "src": "assets/chip/2011/1-2-19-3.webp",
         "alt": "Насекомое с крыльями и длинными нитями на конце тела.",
-        "width": 80,
-        "height": 78,
+        "width": 370,
+        "height": 278,
         "detailSrc": "assets/chip/2011/detail/1-2-19-3.webp",
-        "pixelWidth": 100,
-        "pixelHeight": 97
+        "pixelWidth": 1400,
+        "pixelHeight": 1052
       },
       {
         "src": "assets/chip/2011/1-2-19-4.webp",
         "alt": "Чёрный жук с длинными ногами и угловатым телом.",
-        "width": 80,
-        "height": 78,
+        "width": 370,
+        "height": 247,
         "detailSrc": "assets/chip/2011/detail/1-2-19-4.webp",
-        "pixelWidth": 100,
-        "pixelHeight": 97
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2011/1-2-19-5.webp",
         "alt": "Овальный жук с гладкой спинкой и светлым краем.",
-        "width": 80,
-        "height": 78,
+        "width": 370,
+        "height": 278,
         "detailSrc": "assets/chip/2011/detail/1-2-19-5.webp",
-        "pixelWidth": 100,
-        "pixelHeight": 97
+        "pixelWidth": 1024,
+        "pixelHeight": 768
       }
     ]
   },

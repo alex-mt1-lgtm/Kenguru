@@ -1,0 +1,724 @@
+[
+  {
+    "number": 1,
+    "question": "Какой цифрой на карте обозначена Африка?",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "points": 3,
+    "answer": 2,
+    "title": "Африка на карте",
+    "steps": [
+      "Найди материк под Европой, между Атлантическим и Индийским океанами. Он широкий сверху и сужается к югу.",
+      "У этого материка стоит цифра 3. Это Африка."
+    ],
+    "figure": {
+      "src": "assets/chip/2019/africa-world.webp",
+      "detailSrc": "assets/chip/2019/detail/africa-world.svg",
+      "width": 480,
+      "height": 257,
+      "pixelWidth": 760,
+      "pixelHeight": 406,
+      "alt": "Карта мира. Цифра 1 в верхней части западного материка, 2 на широком материке на северо-востоке, 3 на материке у центра карты, 4 внизу слева, 5 внизу справа."
+    }
+  },
+  {
+    "number": 2,
+    "question": "Какой океан разделяет Африку и Америку?",
+    "choices": [
+      "Северный Ледовитый",
+      "Атлантический",
+      "Индийский",
+      "Тихий",
+      "Южный"
+    ],
+    "points": 3,
+    "answer": 1,
+    "title": "Океан между материками",
+    "steps": [
+      "Америка лежит к западу от Африки. Между их берегами на карте большое водное пространство.",
+      "Это Атлантический океан. Индийский океан лежит с другой стороны Африки."
+    ]
+  },
+  {
+    "number": 3,
+    "question": "Какая из этих стран находится в Африке?",
+    "choices": [
+      "Чили",
+      "Индия",
+      "Болгария",
+      "Мексика",
+      "Нигерия"
+    ],
+    "points": 3,
+    "answer": 4,
+    "title": "Страна на карте Африки",
+    "steps": [
+      "Чили и Мексика находятся в Америке, Индия — в Азии, а Болгария — в Европе.",
+      "Нигерия находится на западе Африки. Её южный берег выходит к Гвинейскому заливу."
+    ]
+  },
+  {
+    "number": 4,
+    "question": "В мультфильме «Каникулы Бонифация» лев уехал на каникулы к бабушке и показывал там детям представления. На какой картинке изображены его зрители?",
+    "choices": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "points": 3,
+    "answer": 3,
+    "title": "Зрители Бонифация",
+    "steps": [
+      "Лев приехал в Африку к бабушке. Там он показывал детям фокусы и цирковые номера.",
+      "На рисунке Г показаны его зрители из мультфильма. Ищи тех же персонажей, которых видишь рядом с Бонифацием в сценах представления."
+    ],
+    "optionFigures": [
+      {
+        "src": "assets/chip/2019/africa-1-2-04-1.webp",
+        "detailSrc": "assets/chip/2019/detail/africa-1-2-04-1.svg",
+        "width": 480,
+        "height": 423,
+        "pixelWidth": 134,
+        "pixelHeight": 118,
+        "alt": "Группа детей с темноволосыми косами и в красной одежде."
+      },
+      {
+        "src": "assets/chip/2019/africa-1-2-04-2.webp",
+        "detailSrc": "assets/chip/2019/detail/africa-1-2-04-2.svg",
+        "width": 480,
+        "height": 423,
+        "pixelWidth": 134,
+        "pixelHeight": 118,
+        "alt": "Дети в светлых рубашках и шортах, у одного жёлтые волосы."
+      },
+      {
+        "src": "assets/chip/2019/africa-1-2-04-3.webp",
+        "detailSrc": "assets/chip/2019/detail/africa-1-2-04-3.svg",
+        "width": 480,
+        "height": 426,
+        "pixelWidth": 133,
+        "pixelHeight": 118,
+        "alt": "Дети в нарядах с перьями на голове."
+      },
+      {
+        "src": "assets/chip/2019/africa-1-2-04-4.webp",
+        "detailSrc": "assets/chip/2019/detail/africa-1-2-04-4.svg",
+        "width": 480,
+        "height": 423,
+        "pixelWidth": 134,
+        "pixelHeight": 118,
+        "alt": "Дети в стилизованных нарядах с яркими полосами и украшениями."
+      },
+      {
+        "src": "assets/chip/2019/africa-1-2-04-5.webp",
+        "detailSrc": "assets/chip/2019/detail/africa-1-2-04-5.svg",
+        "width": 480,
+        "height": 436,
+        "pixelWidth": 130,
+        "pixelHeight": 118,
+        "alt": "Дети в узорчатой одежде и круглых головных уборах."
+      }
+    ]
+  },
+  {
+    "number": 5,
+    "question": "О ком писал Самуил Яковлевич Маршак?\nПолосатые лошадки,\nАфриканские лошадки,\nХорошо играть вам в прятки\nНа лугу среди травы!",
+    "choices": [
+      "зебры",
+      "лошади Пржевальского",
+      "тарпаны",
+      "мустанги",
+      "куланы"
+    ],
+    "points": 3,
+    "answer": 0,
+    "title": "Полосатые лошадки",
+    "steps": [
+      "В стихотворении названы сразу две приметы: животные похожи на лошадей и живут в Африке.",
+      "Полосы на шерсти отличают зебр от остальных названных животных. Маршак писал о зебрах."
+    ]
+  },
+  {
+    "number": 6,
+    "question": "На иллюстрации к сказке Антуана де Сент-Экзюпери «Маленький принц» изображены распространённые в африканской саванне …",
+    "choices": [
+      "пальмы",
+      "кипарисы",
+      "эвкалипты",
+      "дубы",
+      "баобабы"
+    ],
+    "points": 3,
+    "answer": 4,
+    "title": "Деревья Маленького принца",
+    "steps": [
+      "На рисунке деревья имеют толстые стволы, а их ветви образуют широкие кроны. В сказке корни этих деревьев могли разорвать маленькую планету.",
+      "Маленький принц называл их баобабами. Баобабы растут и на Земле, в том числе в африканских саваннах."
+    ],
+    "figure": {
+      "src": "assets/chip/2019/africa-1-2-06.webp",
+      "detailSrc": "assets/chip/2019/detail/africa-1-2-06.svg",
+      "width": 480,
+      "height": 452,
+      "pixelWidth": 233,
+      "pixelHeight": 219,
+      "alt": "Группа зелёных деревьев с крупными кронами, растущих на маленькой планете."
+    }
+  },
+  {
+    "number": 7,
+    "question": "В Западной и Центральной Африке распространены влажные экваториальные и тропические леса. На какой фотографии изображен такой лес?",
+    "choices": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "points": 3,
+    "answer": 1,
+    "title": "Лес у экватора",
+    "steps": [
+      "Во влажном тропическом лесу деревья и другие растения растут густо. Под кронами видно много зелени и мало открытого грунта.",
+      "Такой лес показан под буквой Б. Саванна с редкими деревьями и пустынные пейзажи выглядят иначе."
+    ],
+    "optionFigures": [
+      {
+        "src": "assets/chip/2019/africa-photo-savanna.webp",
+        "detailSrc": "assets/chip/2019/detail/africa-photo-savanna.webp",
+        "width": 480,
+        "height": 360,
+        "pixelWidth": 1600,
+        "pixelHeight": 1200,
+        "alt": "Открытые травянистые пространства с редкими группами деревьев."
+      },
+      {
+        "src": "assets/chip/2019/africa-photo-rainforest.webp",
+        "detailSrc": "assets/chip/2019/detail/africa-photo-rainforest.webp",
+        "width": 480,
+        "height": 320,
+        "pixelWidth": 1280,
+        "pixelHeight": 853,
+        "alt": "Густая зелень высоких деревьев и переплетённых растений."
+      },
+      {
+        "src": "assets/chip/2019/africa-photo-stonydesert.webp",
+        "detailSrc": "assets/chip/2019/detail/africa-photo-stonydesert.webp",
+        "width": 480,
+        "height": 320,
+        "pixelWidth": 1280,
+        "pixelHeight": 853,
+        "alt": "Сухой каменистый пейзаж с редкой растительностью."
+      },
+      {
+        "src": "assets/chip/2019/africa-photo-scrub.webp",
+        "detailSrc": "assets/chip/2019/detail/africa-photo-scrub.webp",
+        "width": 480,
+        "height": 320,
+        "pixelWidth": 1001,
+        "pixelHeight": 667,
+        "alt": "Низкие кустарники на каменистом склоне."
+      },
+      {
+        "src": "assets/chip/2019/africa-photo-conifer.webp",
+        "detailSrc": "assets/chip/2019/detail/africa-photo-conifer.webp",
+        "width": 480,
+        "height": 237,
+        "pixelWidth": 1280,
+        "pixelHeight": 631,
+        "alt": "Хвойные деревья и открытая вода в прохладном пейзаже."
+      }
+    ]
+  },
+  {
+    "number": 8,
+    "question": "Какая из крупнейших рек Земли течёт в Африке?",
+    "choices": [
+      "Амазонка",
+      "Амур",
+      "Волга",
+      "Миссисипи",
+      "Нил"
+    ],
+    "points": 4,
+    "answer": 4,
+    "title": "Большая река Африки",
+    "steps": [
+      "Амазонка и Миссисипи текут в Америке. Волга и Амур находятся в Евразии.",
+      "Нил течёт через северо-восток Африки и впадает в Средиземное море."
+    ]
+  },
+  {
+    "number": 9,
+    "question": "Чем слон обмахивается для охлаждения, отдавая тепло воздуху через кровеносные сосуды?",
+    "choices": [
+      "большие уши",
+      "длинный хобот",
+      "толстая шкура",
+      "крепкие бивни",
+      "подвижный хвост"
+    ],
+    "points": 4,
+    "answer": 0,
+    "title": "Как слон охлаждается",
+    "steps": [
+      "В больших ушах слона проходит много кровеносных сосудов. Кровь у поверхности уха отдаёт тепло воздуху.",
+      "Когда слон обмахивается ушами, воздух около них движется быстрее. Это помогает ему охлаждаться."
+    ],
+    "adaptation": "Указано, какой способ охлаждения имеется в виду."
+  },
+  {
+    "number": 10,
+    "question": "Эти знаменитые пирамиды мы можем увидеть сейчас в …",
+    "choices": [
+      "Мексике",
+      "Судане",
+      "Ливии",
+      "Ираке",
+      "Египте"
+    ],
+    "points": 4,
+    "answer": 4,
+    "title": "Где стоят пирамиды",
+    "steps": [
+      "Все три большие пирамиды на фотографии стоят рядом. Такой вид открывается у древнего комплекса Гизы.",
+      "Гиза находится около Каира, в Египте. Пирамиды есть и в других странах, но на снимке именно египетский комплекс."
+    ],
+    "figure": {
+      "src": "assets/chip/2019/africa-photo-pyramids.webp",
+      "detailSrc": "assets/chip/2019/detail/africa-photo-pyramids.webp",
+      "width": 480,
+      "height": 271,
+      "pixelWidth": 1280,
+      "pixelHeight": 722,
+      "alt": "Три больших каменных сооружения с треугольными гранями и меньшие постройки рядом."
+    }
+  },
+  {
+    "number": 11,
+    "question": "В Африке располагается крупнейшая жаркая пустыня мира – это …",
+    "choices": [
+      "Сахара",
+      "Намиб",
+      "Гоби",
+      "Калахари",
+      "Атакама"
+    ],
+    "points": 4,
+    "answer": 0,
+    "title": "Жаркая пустыня",
+    "steps": [
+      "Сахара занимает огромную территорию на севере Африки. Она больше Намиба и Калахари, которые тоже находятся в Африке.",
+      "Гоби находится в Азии, а Атакама — в Южной Америке. Самая большая жаркая пустыня в списке — Сахара."
+    ]
+  },
+  {
+    "number": 12,
+    "question": "На каком рисунке изображён дом коренных жителей Африки?",
+    "choices": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "points": 4,
+    "answer": 2,
+    "title": "Дома из разных мест",
+    "steps": [
+      "На рисунке В видны круглое основание и высокая крыша из растительного материала. Такой тип дома встречается у некоторых народов Африки.",
+      "Другие рисунки показывают жилища, характерные для других регионов, например иглу из снежных блоков и типи с длинными шестами."
+    ],
+    "optionFigures": [
+      {
+        "src": "assets/chip/2019/africa-photo-igloo.webp",
+        "detailSrc": "assets/chip/2019/detail/africa-photo-igloo.webp",
+        "width": 480,
+        "height": 326,
+        "pixelWidth": 700,
+        "pixelHeight": 475,
+        "alt": "Белый купол из снежных блоков с входом сбоку."
+      },
+      {
+        "src": "assets/chip/2019/africa-photo-russianhouse.webp",
+        "detailSrc": "assets/chip/2019/detail/africa-photo-russianhouse.webp",
+        "width": 480,
+        "height": 360,
+        "pixelWidth": 1280,
+        "pixelHeight": 960,
+        "alt": "Прямоугольный деревянный дом с двускатной крышей."
+      },
+      {
+        "src": "assets/chip/2019/africa-photo-rondavel.webp",
+        "detailSrc": "assets/chip/2019/detail/africa-photo-rondavel.webp",
+        "width": 480,
+        "height": 360,
+        "pixelWidth": 1024,
+        "pixelHeight": 768,
+        "alt": "Круглые дома с высокими коническими крышами из растительного материала."
+      },
+      {
+        "src": "assets/chip/2019/africa-photo-asianhouse.webp",
+        "detailSrc": "assets/chip/2019/detail/africa-photo-asianhouse.webp",
+        "width": 480,
+        "height": 320,
+        "pixelWidth": 1280,
+        "pixelHeight": 852,
+        "alt": "Построенный вокруг двора дом с черепичными крышами."
+      },
+      {
+        "src": "assets/chip/2019/africa-photo-tipi.webp",
+        "detailSrc": "assets/chip/2019/detail/africa-photo-tipi.webp",
+        "width": 362,
+        "height": 480,
+        "pixelWidth": 1207,
+        "pixelHeight": 1600,
+        "alt": "Высокое коническое жилище, опирающееся на длинные шесты."
+      }
+    ]
+  },
+  {
+    "number": 13,
+    "question": "В сказке Корнея Чуковского «Айболит» читаем:\n«Мы живём на Занзибаре,\nВ Калахари и Сахаре,\nНа горе Фернандо-По,\nГде гуляет Гиппо-по\nПо широкой Лимпопо».\nЛимпопо — это …",
+    "choices": [
+      "гора",
+      "озеро",
+      "саванна",
+      "река",
+      "каньон"
+    ],
+    "points": 4,
+    "answer": 3,
+    "title": "Широкая Лимпопо",
+    "steps": [
+      "Лимпопо — название протяжённого потока воды на юге Африки. Он проходит через несколько стран и впадает в Индийский океан.",
+      "Поток имеет русло и устье. Значит, Лимпопо — река, вариант Г."
+    ],
+    "optionFigures": [
+      {
+        "src": "assets/chip/2019/africa-photo-mountain.webp",
+        "detailSrc": "assets/chip/2019/detail/africa-photo-mountain.webp",
+        "width": 480,
+        "height": 480,
+        "pixelWidth": 1280,
+        "pixelHeight": 1281,
+        "alt": "Горные вершины над долиной."
+      },
+      {
+        "src": "assets/chip/2019/africa-photo-lake.webp",
+        "detailSrc": "assets/chip/2019/detail/africa-photo-lake.webp",
+        "width": 480,
+        "height": 320,
+        "pixelWidth": 1280,
+        "pixelHeight": 853,
+        "alt": "Стоячая вода в углублении среди песков."
+      },
+      {
+        "src": "assets/chip/2019/africa-photo-savanna.webp",
+        "detailSrc": "assets/chip/2019/detail/africa-photo-savanna.webp",
+        "width": 480,
+        "height": 360,
+        "pixelWidth": 1600,
+        "pixelHeight": 1200,
+        "alt": "Открытая трава и редко растущие деревья."
+      },
+      {
+        "src": "assets/chip/2019/africa-photo-river.webp",
+        "detailSrc": "assets/chip/2019/detail/africa-photo-river.webp",
+        "width": 480,
+        "height": 316,
+        "pixelWidth": 1600,
+        "pixelHeight": 1052,
+        "alt": "Извилистая полоса воды, протекающая между берегами."
+      },
+      {
+        "src": "assets/chip/2019/africa-photo-canyon.webp",
+        "detailSrc": "assets/chip/2019/detail/africa-photo-canyon.webp",
+        "width": 480,
+        "height": 159,
+        "pixelWidth": 1280,
+        "pixelHeight": 425,
+        "alt": "Глубокая долина, врезанная в каменистый грунт."
+      }
+    ],
+    "showOptionText": true
+  },
+  {
+    "number": 14,
+    "question": "Какого цвета чистое металлическое золото, которое добывают в том числе в Южной Африке и Гане?",
+    "choices": [
+      "серебристо-белое",
+      "тёмно-синее",
+      "серо-голубое",
+      "жёлтое",
+      "красно-розовое"
+    ],
+    "points": 4,
+    "answer": 3,
+    "title": "Цвет золота",
+    "steps": [
+      "У чистого металлического золота характерный тёплый блеск. Серебро выглядит белее, а медь краснее.",
+      "Из предложенных цветов подходит жёлтый. Золотые сплавы могут иметь другие оттенки."
+    ],
+    "adaptation": "Вопрос уточнён по составу металла."
+  },
+  {
+    "number": 15,
+    "question": "Одного из этих обитателей африканских саванн называют царём зверей. Кого?",
+    "choices": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "points": 5,
+    "answer": 1,
+    "title": "Царь зверей",
+    "steps": [
+      "На снимке Б крупная кошка с гривой. Грива характерна для взрослого самца льва.",
+      "Именно льва часто называют царём зверей. Остальные животные показаны под другими буквами."
+    ],
+    "optionFigures": [
+      {
+        "src": "assets/chip/2019/africa-photo-buffalo.webp",
+        "detailSrc": "assets/chip/2019/detail/africa-photo-buffalo.webp",
+        "width": 480,
+        "height": 320,
+        "pixelWidth": 1280,
+        "pixelHeight": 853,
+        "alt": "Крупное копытное с двумя загнутыми рогами."
+      },
+      {
+        "src": "assets/chip/2019/africa-photo-lion.webp",
+        "detailSrc": "assets/chip/2019/detail/africa-photo-lion.webp",
+        "width": 480,
+        "height": 320,
+        "pixelWidth": 1280,
+        "pixelHeight": 854,
+        "alt": "Крупная кошка с густой гривой."
+      },
+      {
+        "src": "assets/chip/2019/africa-photo-giraffe.webp",
+        "detailSrc": "assets/chip/2019/detail/africa-photo-giraffe.webp",
+        "width": 480,
+        "height": 360,
+        "pixelWidth": 1280,
+        "pixelHeight": 960,
+        "alt": "Пятнистое копытное с длинной шеей."
+      },
+      {
+        "src": "assets/chip/2019/africa-photo-elephant.webp",
+        "detailSrc": "assets/chip/2019/detail/africa-photo-elephant.webp",
+        "width": 480,
+        "height": 320,
+        "pixelWidth": 1280,
+        "pixelHeight": 853,
+        "alt": "Крупный серый зверь с хоботом и бивнями."
+      },
+      {
+        "src": "assets/chip/2019/africa-photo-cheetah.webp",
+        "detailSrc": "assets/chip/2019/detail/africa-photo-cheetah.webp",
+        "width": 480,
+        "height": 320,
+        "pixelWidth": 1280,
+        "pixelHeight": 853,
+        "alt": "Стройная пятнистая кошка с длинными ногами."
+      }
+    ]
+  },
+  {
+    "number": 16,
+    "question": "Какой из этих напитков происходит из Африки?",
+    "choices": [
+      "чай",
+      "какао",
+      "кофе",
+      "квас",
+      "кефир"
+    ],
+    "points": 5,
+    "answer": 2,
+    "title": "Родина кофе",
+    "steps": [
+      "Кофе получают из семян кофейного дерева. Родина арабики находится в Африке, в том числе в Эфиопии.",
+      "Из перечисленных напитков африканское происхождение растения связано с кофе."
+    ]
+  },
+  {
+    "number": 17,
+    "question": "Какие деревья чаще всего встречаются в оазисах африканских пустынь?",
+    "choices": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "points": 5,
+    "answer": 2,
+    "title": "Деревья оазиса",
+    "steps": [
+      "Оазис появляется там, где среди пустыни доступна вода. На снимке В у деревьев длинные стволы с пучками перистых листьев.",
+      "Это финиковые пальмы. Их выращивают во многих оазисах Северной Африки ради плодов и тени."
+    ],
+    "optionFigures": [
+      {
+        "src": "assets/chip/2019/africa-photo-baobab.webp",
+        "detailSrc": "assets/chip/2019/detail/africa-photo-baobab.webp",
+        "width": 480,
+        "height": 300,
+        "pixelWidth": 1280,
+        "pixelHeight": 801,
+        "alt": "Высокие деревья с массивными стволами и широкими кронами."
+      },
+      {
+        "src": "assets/chip/2019/africa-photo-birch.webp",
+        "detailSrc": "assets/chip/2019/detail/africa-photo-birch.webp",
+        "width": 480,
+        "height": 360,
+        "pixelWidth": 1280,
+        "pixelHeight": 960,
+        "alt": "Деревья с белой корой и мелкими листьями."
+      },
+      {
+        "src": "assets/chip/2019/africa-photo-date.webp",
+        "detailSrc": "assets/chip/2019/detail/africa-photo-date.webp",
+        "width": 480,
+        "height": 270,
+        "pixelWidth": 1280,
+        "pixelHeight": 721,
+        "alt": "Стволы, на вершинах которых пучки длинных перистых листьев."
+      },
+      {
+        "src": "assets/chip/2019/africa-photo-pine.webp",
+        "detailSrc": "assets/chip/2019/detail/africa-photo-pine.webp",
+        "width": 320,
+        "height": 480,
+        "pixelWidth": 1067,
+        "pixelHeight": 1600,
+        "alt": "Хвойное дерево с длинными ветвями на стволе."
+      },
+      {
+        "src": "assets/chip/2019/africa-photo-acacia.webp",
+        "detailSrc": "assets/chip/2019/detail/africa-photo-acacia.webp",
+        "width": 480,
+        "height": 360,
+        "pixelWidth": 1280,
+        "pixelHeight": 960,
+        "alt": "Одиночное дерево с широкой плоской кроной."
+      }
+    ]
+  },
+  {
+    "number": 18,
+    "question": "Где в Африке недалеко от экватора бывает природный снег?",
+    "choices": [
+      "на заплывшем сюда айсберге",
+      "на Дурбанской ледовой арене",
+      "в кратере вулкана Нгоронгоро",
+      "на горе Килиманджаро",
+      "в горах Атласа"
+    ],
+    "points": 5,
+    "answer": 3,
+    "title": "Снег возле экватора",
+    "steps": [
+      "Высоко в горах воздух обычно холоднее, чем внизу. Поэтому снег может выпадать рядом с экватором.",
+      "Килиманджаро находится в Танзании недалеко от экватора. Его высокая вершина подходит под условие."
+    ],
+    "adaptation": "Указано, что речь о естественных условиях."
+  },
+  {
+    "number": 19,
+    "question": "В сказке «Айболит» доктор лечит разных зверей. Какое из показанных животных в природе живёт в Азии, а в Африку его привозят для зоопарков?",
+    "choices": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "points": 5,
+    "answer": 2,
+    "title": "Кто не живёт в Африке",
+    "steps": [
+      "На снимке В видна крупная полосатая кошка. Это тигр.",
+      "Дикие тигры живут в Азии. Бегемоты, страусы, верблюды и крокодилы, представленные в других вариантах, встречаются в Африке."
+    ],
+    "adaptation": "Уточнено, что сравнивается обычный ареал.",
+    "optionFigures": [
+      {
+        "src": "assets/chip/2019/africa-photo-hippo.webp",
+        "detailSrc": "assets/chip/2019/detail/africa-photo-hippo.webp",
+        "width": 480,
+        "height": 360,
+        "pixelWidth": 1280,
+        "pixelHeight": 960,
+        "alt": "Серый зверь с крупной головой и короткими ногами."
+      },
+      {
+        "src": "assets/chip/2019/africa-photo-ostrich.webp",
+        "detailSrc": "assets/chip/2019/detail/africa-photo-ostrich.webp",
+        "width": 480,
+        "height": 320,
+        "pixelWidth": 1600,
+        "pixelHeight": 1067,
+        "alt": "Высокие птицы с длинной шеей и сильными ногами."
+      },
+      {
+        "src": "assets/chip/2019/africa-photo-tiger.webp",
+        "detailSrc": "assets/chip/2019/detail/africa-photo-tiger.webp",
+        "width": 480,
+        "height": 320,
+        "pixelWidth": 1280,
+        "pixelHeight": 853,
+        "alt": "Крупная оранжевая кошка с чёрными полосами."
+      },
+      {
+        "src": "assets/chip/2019/africa-photo-camel.webp",
+        "detailSrc": "assets/chip/2019/detail/africa-photo-camel.webp",
+        "width": 480,
+        "height": 321,
+        "pixelWidth": 1280,
+        "pixelHeight": 857,
+        "alt": "Высокое животное с одним горбом."
+      },
+      {
+        "src": "assets/chip/2019/africa-photo-croc.webp",
+        "detailSrc": "assets/chip/2019/detail/africa-photo-croc.webp",
+        "width": 480,
+        "height": 377,
+        "pixelWidth": 1506,
+        "pixelHeight": 1182,
+        "alt": "Зелёно-бурое животное с длинной пастью и чешуйчатой кожей."
+      }
+    ]
+  },
+  {
+    "number": 20,
+    "question": "У какой из этих птиц обычный природный ареал не включает Африку?",
+    "choices": [
+      "домового воробья",
+      "белую трясогузку",
+      "сизого голубя",
+      "обыкновенного снегиря",
+      "деревенскую ласточку"
+    ],
+    "points": 5,
+    "answer": 3,
+    "title": "Птицы Африки",
+    "steps": [
+      "Ласточки и трясогузки могут прилетать в Африку на зимовку. Воробьи и сизые голуби встречаются на севере материка и в других районах.",
+      "Обыкновенный снегирь населяет главным образом север Евразии. Его обычный природный ареал Африку не включает."
+    ],
+    "adaptation": "Уточнено, что речь об обычном природном ареале."
+  }
+]

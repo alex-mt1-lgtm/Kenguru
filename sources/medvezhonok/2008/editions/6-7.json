@@ -84,12 +84,38 @@
       "В ребусе Д из «юла» убирается первая буква, затем добавляется «по-Т-ь». Получается «лапоть», тогда как в остальных зашифрована «повесть»."
     ],
     "figure": {
-      "condition": {
-        "src": "assets/medvezhonok/2008/6-7-05-rebuses.webp",
-        "alt": "Пять ребусов. А: буквы Е в большой В, число 100 с заменой О на Ь. Б: ПО внутри Е, рядом Т и Ь. В: рисунок с запятой после него, С внутри Е, две запятые и цифра 5. Г: рисунок шва с заменой Ш на П, запятая и цифра 6. Д: запятая перед юлой, буквы Ь в большой Т.",
-        "width": 516,
-        "height": 153
-      }
+      "options": [
+        {
+          "src": "assets/medvezhonok/2008/6-7-05-rebus-1.webp",
+          "description": "Буквы Е в большой В и число 100 с заменой О на Ь.",
+          "pixelWidth": 154,
+          "pixelHeight": 75
+        },
+        {
+          "src": "assets/medvezhonok/2008/6-7-05-rebus-2.webp",
+          "description": "ПО в букве Е, рядом Т и Ь.",
+          "pixelWidth": 157,
+          "pixelHeight": 71
+        },
+        {
+          "src": "assets/medvezhonok/2008/6-7-05-rebus-3.webp",
+          "description": "Рисунок с запятой, С внутри Е, две запятые и цифра 5.",
+          "pixelWidth": 192,
+          "pixelHeight": 68
+        },
+        {
+          "src": "assets/medvezhonok/2008/6-7-05-rebus-4.webp",
+          "description": "Рисунок шва с заменой Ш на П, запятая и цифра 6.",
+          "pixelWidth": 153,
+          "pixelHeight": 68
+        },
+        {
+          "src": "assets/medvezhonok/2008/6-7-05-rebus-5.webp",
+          "description": "Юла с запятой слева и буквы Ь в большой Т.",
+          "pixelWidth": 120,
+          "pixelHeight": 62
+        }
+      ]
     }
   },
   {

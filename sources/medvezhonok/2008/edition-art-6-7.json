@@ -1,7 +1,57 @@
 {
-  "6-7-05-rebuses.webp": {
+  "6-7-05-rebus-1.webp": {
     "source": "6-7-answers.pdf",
     "page": 0,
-    "xref": 51
+    "xref": 51,
+    "imageClip": [
+      0,
+      0,
+      154,
+      75
+    ]
+  },
+  "6-7-05-rebus-2.webp": {
+    "source": "6-7-answers.pdf",
+    "page": 0,
+    "xref": 51,
+    "imageClip": [
+      164,
+      4,
+      321,
+      75
+    ]
+  },
+  "6-7-05-rebus-3.webp": {
+    "source": "6-7-answers.pdf",
+    "page": 0,
+    "xref": 51,
+    "imageClip": [
+      324,
+      7,
+      516,
+      75
+    ]
+  },
+  "6-7-05-rebus-4.webp": {
+    "source": "6-7-answers.pdf",
+    "page": 0,
+    "xref": 51,
+    "imageClip": [
+      77,
+      85,
+      230,
+      153
+    ]
+  },
+  "6-7-05-rebus-5.webp": {
+    "source": "6-7-answers.pdf",
+    "page": 0,
+    "xref": 51,
+    "imageClip": [
+      250,
+      91,
+      370,
+      153
+    ]
   }
 }

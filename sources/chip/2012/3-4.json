@@ -138,19 +138,19 @@
       {
         "src": "assets/chip/2012/3-4-07-1.webp",
         "detailSrc": "assets/chip/2012/detail/3-4-07-1.webp",
-        "width": 141,
-        "height": 137,
-        "pixelWidth": 141,
-        "pixelHeight": 137,
+        "width": 480,
+        "height": 270,
+        "pixelWidth": 1182,
+        "pixelHeight": 665,
         "alt": "Жёлтая угловатая рыба с тёмными пятнами."
       },
       {
         "src": "assets/chip/2012/3-4-07-2.webp",
         "detailSrc": "assets/chip/2012/detail/3-4-07-2.webp",
-        "width": 144,
-        "height": 137,
-        "pixelWidth": 144,
-        "pixelHeight": 137,
+        "width": 480,
+        "height": 404,
+        "pixelWidth": 1600,
+        "pixelHeight": 1347,
         "alt": "Рыба со светлым телом и вертикальными оранжевыми полосами."
       },
       {
@@ -239,10 +239,10 @@
       {
         "src": "assets/chip/2012/3-4-08-5.webp",
         "detailSrc": "assets/chip/2012/detail/3-4-08-5.webp",
-        "width": 137,
-        "height": 110,
-        "pixelWidth": 137,
-        "pixelHeight": 110,
+        "width": 480,
+        "height": 320,
+        "pixelWidth": 1600,
+        "pixelHeight": 1067,
         "alt": "Полосатая длинношеяя птица среди сухой травы."
       }
     ]
@@ -303,47 +303,47 @@
     "optionFigures": [
       {
         "src": "assets/chip/2012/3-4-11-1.webp",
-        "detailSrc": "assets/chip/2012/detail/3-4-11-1.webp",
-        "width": 121,
-        "height": 87,
-        "pixelWidth": 121,
-        "pixelHeight": 87,
+        "detailSrc": "assets/chip/2012/detail/3-4-11-1.svg",
+        "width": 480,
+        "height": 340,
+        "pixelWidth": 1100,
+        "pixelHeight": 779,
         "alt": "Судно с высокими жёлтыми парусами."
       },
       {
         "src": "assets/chip/2012/3-4-11-2.webp",
-        "detailSrc": "assets/chip/2012/detail/3-4-11-2.webp",
-        "width": 121,
-        "height": 87,
-        "pixelWidth": 121,
-        "pixelHeight": 87,
+        "detailSrc": "assets/chip/2012/detail/3-4-11-2.svg",
+        "width": 480,
+        "height": 340,
+        "pixelWidth": 1100,
+        "pixelHeight": 779,
         "alt": "Длинное судно с рядом вёсел и загнутыми концами."
       },
       {
         "src": "assets/chip/2012/3-4-11-3.webp",
-        "detailSrc": "assets/chip/2012/detail/3-4-11-3.webp",
-        "width": 121,
-        "height": 87,
-        "pixelWidth": 121,
-        "pixelHeight": 87,
+        "detailSrc": "assets/chip/2012/detail/3-4-11-3.svg",
+        "width": 480,
+        "height": 340,
+        "pixelWidth": 1100,
+        "pixelHeight": 779,
         "alt": "Высокое парусное судно с несколькими мачтами."
       },
       {
         "src": "assets/chip/2012/3-4-11-4.webp",
-        "detailSrc": "assets/chip/2012/detail/3-4-11-4.webp",
-        "width": 121,
-        "height": 87,
-        "pixelWidth": 121,
-        "pixelHeight": 87,
+        "detailSrc": "assets/chip/2012/detail/3-4-11-4.svg",
+        "width": 480,
+        "height": 340,
+        "pixelWidth": 1100,
+        "pixelHeight": 779,
         "alt": "Судно с рядами вёсел и широким красным парусом."
       },
       {
         "src": "assets/chip/2012/3-4-11-5.webp",
-        "detailSrc": "assets/chip/2012/detail/3-4-11-5.webp",
-        "width": 119,
-        "height": 87,
-        "pixelWidth": 119,
-        "pixelHeight": 87,
+        "detailSrc": "assets/chip/2012/detail/3-4-11-5.svg",
+        "width": 480,
+        "height": 340,
+        "pixelWidth": 1100,
+        "pixelHeight": 779,
         "alt": "Открытая деревянная лодка с несколькими вёслами без мачты."
       }
     ]
@@ -406,19 +406,19 @@
       {
         "src": "assets/chip/2012/3-4-14-1.webp",
         "detailSrc": "assets/chip/2012/detail/3-4-14-1.webp",
-        "width": 108,
-        "height": 86,
-        "pixelWidth": 108,
-        "pixelHeight": 86,
+        "width": 480,
+        "height": 320,
+        "pixelWidth": 1600,
+        "pixelHeight": 1068,
         "alt": "Удлинённые широкие пластинки под водой."
       },
       {
         "src": "assets/chip/2012/3-4-14-2.webp",
         "detailSrc": "assets/chip/2012/detail/3-4-14-2.webp",
-        "width": 110,
-        "height": 86,
-        "pixelWidth": 110,
-        "pixelHeight": 86,
+        "width": 480,
+        "height": 360,
+        "pixelWidth": 1600,
+        "pixelHeight": 1200,
         "alt": "Круглые листья и светлые цветы на поверхности воды."
       },
       {
@@ -433,10 +433,10 @@
       {
         "src": "assets/chip/2012/3-4-14-4.webp",
         "detailSrc": "assets/chip/2012/detail/3-4-14-4.webp",
-        "width": 112,
-        "height": 86,
-        "pixelWidth": 112,
-        "pixelHeight": 86,
+        "width": 480,
+        "height": 360,
+        "pixelWidth": 1600,
+        "pixelHeight": 1200,
         "alt": "Зелёные клетки в виде нити под микроскопом."
       },
       {
@@ -544,10 +544,10 @@
       {
         "src": "assets/chip/2012/3-4-18-3.webp",
         "detailSrc": "assets/chip/2012/detail/3-4-18-3.webp",
-        "width": 114,
-        "height": 99,
-        "pixelWidth": 114,
-        "pixelHeight": 99,
+        "width": 480,
+        "height": 360,
+        "pixelWidth": 1600,
+        "pixelHeight": 1200,
         "alt": "Пятнистый зверь с округлыми ушами."
       },
       {
@@ -562,10 +562,10 @@
       {
         "src": "assets/chip/2012/3-4-18-5.webp",
         "detailSrc": "assets/chip/2012/detail/3-4-18-5.webp",
-        "width": 110,
-        "height": 99,
-        "pixelWidth": 110,
-        "pixelHeight": 99,
+        "width": 480,
+        "height": 464,
+        "pixelWidth": 1600,
+        "pixelHeight": 1548,
         "alt": "Небольшой зверёк с тёмной мордой стоит на задних лапах."
       }
     ]
@@ -665,10 +665,10 @@
       {
         "src": "assets/chip/2012/3-4-23-1.webp",
         "detailSrc": "assets/chip/2012/detail/3-4-23-1.webp",
-        "width": 143,
-        "height": 115,
-        "pixelWidth": 143,
-        "pixelHeight": 115,
+        "width": 480,
+        "height": 341,
+        "pixelWidth": 1600,
+        "pixelHeight": 1137,
         "alt": "Черепаха плывёт под водой."
       },
       {
@@ -683,10 +683,10 @@
       {
         "src": "assets/chip/2012/3-4-23-3.webp",
         "detailSrc": "assets/chip/2012/detail/3-4-23-3.webp",
-        "width": 146,
-        "height": 115,
-        "pixelWidth": 146,
-        "pixelHeight": 115,
+        "width": 480,
+        "height": 361,
+        "pixelWidth": 1600,
+        "pixelHeight": 1202,
         "alt": "Ярко раскрашенная утка на воде."
       },
       {
@@ -701,10 +701,10 @@
       {
         "src": "assets/chip/2012/3-4-23-5.webp",
         "detailSrc": "assets/chip/2012/detail/3-4-23-5.webp",
-        "width": 142,
-        "height": 115,
-        "pixelWidth": 142,
-        "pixelHeight": 115,
+        "width": 480,
+        "height": 320,
+        "pixelWidth": 1600,
+        "pixelHeight": 1066,
         "alt": "Чешуйчатый зверь на берегу."
       }
     ]

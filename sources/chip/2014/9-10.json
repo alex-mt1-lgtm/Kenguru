@@ -56,47 +56,47 @@
     "optionFigures": [
       {
         "src": "assets/chip/2014/9-10-03-1.webp",
-        "detailSrc": "assets/chip/2014/detail/9-10-03-1.webp",
-        "width": 117,
-        "height": 105,
-        "pixelWidth": 117,
-        "pixelHeight": 105,
+        "detailSrc": "assets/chip/2014/detail/9-10-03-1.svg",
+        "width": 480,
+        "height": 431,
+        "pixelWidth": 920,
+        "pixelHeight": 826,
         "alt": "Широкая восточная часть материка с несколькими южными полуостровами."
       },
       {
         "src": "assets/chip/2014/9-10-03-2.webp",
-        "detailSrc": "assets/chip/2014/detail/9-10-03-2.webp",
-        "width": 119,
-        "height": 105,
-        "pixelWidth": 119,
-        "pixelHeight": 105,
+        "detailSrc": "assets/chip/2014/detail/9-10-03-2.svg",
+        "width": 480,
+        "height": 424,
+        "pixelWidth": 920,
+        "pixelHeight": 812,
         "alt": "Материк с широким севером и узким югом, справа большой остров."
       },
       {
         "src": "assets/chip/2014/9-10-03-3.webp",
-        "detailSrc": "assets/chip/2014/detail/9-10-03-3.webp",
-        "width": 117,
-        "height": 105,
-        "pixelWidth": 117,
-        "pixelHeight": 105,
+        "detailSrc": "assets/chip/2014/detail/9-10-03-3.svg",
+        "width": 480,
+        "height": 431,
+        "pixelWidth": 920,
+        "pixelHeight": 826,
         "alt": "Вытянутый материк с неровной северной и западной границей."
       },
       {
         "src": "assets/chip/2014/9-10-03-4.webp",
-        "detailSrc": "assets/chip/2014/detail/9-10-03-4.webp",
-        "width": 118,
-        "height": 105,
-        "pixelWidth": 118,
-        "pixelHeight": 105,
+        "detailSrc": "assets/chip/2014/detail/9-10-03-4.svg",
+        "width": 480,
+        "height": 428,
+        "pixelWidth": 920,
+        "pixelHeight": 819,
         "alt": "Округлая масса суши с одним узким выступом."
       },
       {
         "src": "assets/chip/2014/9-10-03-5.webp",
-        "detailSrc": "assets/chip/2014/detail/9-10-03-5.webp",
-        "width": 118,
-        "height": 105,
-        "pixelWidth": 118,
-        "pixelHeight": 105,
+        "detailSrc": "assets/chip/2014/detail/9-10-03-5.svg",
+        "width": 480,
+        "height": 428,
+        "pixelWidth": 920,
+        "pixelHeight": 819,
         "alt": "Компактный материк и несколько соседних островов."
       }
     ]
@@ -669,10 +669,10 @@
     "figure": {
       "src": "assets/chip/2014/9-10-27.webp",
       "detailSrc": "assets/chip/2014/detail/9-10-27.webp",
-      "width": 150,
-      "height": 180,
-      "pixelWidth": 150,
-      "pixelHeight": 180,
+      "width": 400,
+      "height": 480,
+      "pixelWidth": 1334,
+      "pixelHeight": 1600,
       "alt": "Герб со щитом. На щите заснеженная гора и река, над щитом птица с раскрытыми крыльями."
     }
   },

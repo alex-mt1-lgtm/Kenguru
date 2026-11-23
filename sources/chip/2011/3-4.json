@@ -53,11 +53,11 @@
     "figure": {
       "src": "assets/chip/2011/3-4-03.webp",
       "alt": "Светлые кремлёвские постройки и высокая колокольня с золотым куполом.",
-      "width": 179,
-      "height": 241,
+      "width": 277,
+      "height": 370,
       "detailSrc": "assets/chip/2011/detail/3-4-03.webp",
-      "pixelWidth": 224,
-      "pixelHeight": 301
+      "pixelWidth": 1050,
+      "pixelHeight": 1400
     }
   },
   {
@@ -130,11 +130,11 @@
     "figure": {
       "src": "assets/chip/2011/3-4-07.webp",
       "alt": "Всадница в светлом платье сидит на тёмной лошади. Слева девочка в розовом платье.",
-      "width": 339,
-      "height": 480,
+      "width": 262,
+      "height": 370,
       "detailSrc": "assets/chip/2011/detail/3-4-07.webp",
-      "pixelWidth": 1131,
-      "pixelHeight": 1600
+      "pixelWidth": 990,
+      "pixelHeight": 1400
     }
   },
   {
@@ -173,11 +173,11 @@
     "figure": {
       "src": "assets/chip/2011/3-4-09.webp",
       "alt": "Красный плод с зелёными выростами на длинных мясистых стеблях.",
-      "width": 501,
-      "height": 440,
+      "width": 370,
+      "height": 302,
       "detailSrc": "assets/chip/2011/detail/3-4-09.webp",
-      "pixelWidth": 626,
-      "pixelHeight": 550
+      "pixelWidth": 1400,
+      "pixelHeight": 1143
     }
   },
   {
@@ -235,11 +235,11 @@
     "figure": {
       "src": "assets/chip/2011/3-4-12.webp",
       "alt": "Красная вышивка на ткани, многократно повторяется угловатый узор с четырьмя расходящимися лучами.",
-      "width": 141,
-      "height": 141,
-      "detailSrc": "assets/chip/2011/detail/3-4-12.webp",
-      "pixelWidth": 176,
-      "pixelHeight": 176
+      "width": 370,
+      "height": 312,
+      "detailSrc": "assets/chip/2011/detail/3-4-12.svg",
+      "pixelWidth": 1120,
+      "pixelHeight": 944
     }
   },
   {
@@ -279,47 +279,47 @@
       {
         "src": "assets/chip/2011/3-4-14-1.webp",
         "alt": "Тонкие прямые белые следы на синем небе.",
-        "width": 165,
-        "height": 159,
+        "width": 370,
+        "height": 208,
         "detailSrc": "assets/chip/2011/detail/3-4-14-1.webp",
-        "pixelWidth": 206,
-        "pixelHeight": 199
+        "pixelWidth": 1280,
+        "pixelHeight": 720
       },
       {
         "src": "assets/chip/2011/3-4-14-2.webp",
         "alt": "Длинные тонкие облака с волнистыми краями.",
-        "width": 165,
-        "height": 159,
+        "width": 370,
+        "height": 278,
         "detailSrc": "assets/chip/2011/detail/3-4-14-2.webp",
-        "pixelWidth": 206,
-        "pixelHeight": 199
+        "pixelWidth": 1225,
+        "pixelHeight": 919
       },
       {
         "src": "assets/chip/2011/3-4-14-3.webp",
         "alt": "Объёмные белые облака с бугристыми вершинами.",
-        "width": 166,
-        "height": 160,
+        "width": 370,
+        "height": 278,
         "detailSrc": "assets/chip/2011/detail/3-4-14-3.webp",
-        "pixelWidth": 207,
-        "pixelHeight": 199
+        "pixelWidth": 1280,
+        "pixelHeight": 960
       },
       {
         "src": "assets/chip/2011/3-4-14-4.webp",
         "alt": "Серовато-белые слои закрывают большую часть неба.",
-        "width": 165,
-        "height": 159,
+        "width": 370,
+        "height": 247,
         "detailSrc": "assets/chip/2011/detail/3-4-14-4.webp",
-        "pixelWidth": 206,
-        "pixelHeight": 199
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2011/3-4-14-5.webp",
         "alt": "Тёмная облачная рябь.",
-        "width": 165,
-        "height": 159,
+        "width": 370,
+        "height": 247,
         "detailSrc": "assets/chip/2011/detail/3-4-14-5.webp",
-        "pixelWidth": 206,
-        "pixelHeight": 199
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       }
     ]
   },
@@ -359,7 +359,7 @@
   },
   {
     "title": "Рацион лесного хищника",
-    "question": "Животное, в меню которого входят ягоды, мёд, личинки насекомых, яйца птиц, мыши, зайцы, рыба, косули, падаль:",
+    "question": "Какой из этих зверей относится к семейству куньих и питается в том числе мелкими животными, рыбой, ягодами и падалью?",
     "choices": [
       "",
       "",
@@ -370,56 +370,57 @@
     "answer": 2,
     "points": 4,
     "steps": [
-      "Ищи хищника, который поедает падаль и при этом охотно добывает ягоды и насекомых из гнёзд. Кабан ест прежде всего растительные корма, а рысь охотится на живую добычу.",
+      "Волк и лисица относятся к псовым, рысь — к кошачьим. У кабана копыта. Из пяти зверей к куньим относится росомаха.",
       "Росомаха ест мелких животных, рыбу, падаль и растительные корма. На рисунке В у неё плотное тело и густая коричневая шерсть."
     ],
     "optionFigures": [
       {
         "src": "assets/chip/2011/3-4-17-1.webp",
         "alt": "Серо-белый зверь с длинными ногами и острой мордой.",
-        "width": 82,
-        "height": 79,
+        "width": 370,
+        "height": 286,
         "detailSrc": "assets/chip/2011/detail/3-4-17-1.webp",
-        "pixelWidth": 103,
-        "pixelHeight": 99
+        "pixelWidth": 1280,
+        "pixelHeight": 991
       },
       {
         "src": "assets/chip/2011/3-4-17-2.webp",
         "alt": "Рыжий зверь с острыми ушами и пушистым хвостом.",
-        "width": 82,
-        "height": 79,
+        "width": 370,
+        "height": 245,
         "detailSrc": "assets/chip/2011/detail/3-4-17-2.webp",
-        "pixelWidth": 103,
-        "pixelHeight": 99
+        "pixelWidth": 1280,
+        "pixelHeight": 848
       },
       {
         "src": "assets/chip/2011/3-4-17-3.webp",
         "alt": "Приземистый коричневый зверь с небольшими округлыми ушами.",
-        "width": 82,
-        "height": 79,
+        "width": 370,
+        "height": 264,
         "detailSrc": "assets/chip/2011/detail/3-4-17-3.webp",
-        "pixelWidth": 103,
-        "pixelHeight": 99
+        "pixelWidth": 1280,
+        "pixelHeight": 914
       },
       {
         "src": "assets/chip/2011/3-4-17-4.webp",
         "alt": "Крупный зверь с тёмной щетиной и вытянутым рылом.",
-        "width": 82,
-        "height": 79,
+        "width": 370,
+        "height": 267,
         "detailSrc": "assets/chip/2011/detail/3-4-17-4.webp",
-        "pixelWidth": 103,
-        "pixelHeight": 99
+        "pixelWidth": 1280,
+        "pixelHeight": 923
       },
       {
         "src": "assets/chip/2011/3-4-17-5.webp",
         "alt": "Пятнистая кошка с кисточками на ушах.",
-        "width": 82,
-        "height": 79,
+        "width": 370,
+        "height": 248,
         "detailSrc": "assets/chip/2011/detail/3-4-17-5.webp",
-        "pixelWidth": 103,
-        "pixelHeight": 99
+        "pixelWidth": 1280,
+        "pixelHeight": 857
       }
-    ]
+    ],
+    "adaptation": "Добавлен признак семейства, поскольку рацион нескольких изображённых зверей частично совпадает."
   },
   {
     "title": "Глаза лягушки",
@@ -471,54 +472,54 @@
     "points": 4,
     "steps": [
       "Когда зверь стоит среди травы, тёмные полосы сливаются с тенями и стеблями. Из-за этого трудно увидеть контур тела.",
-      "Так тигр на рисунке Д скрывается от добычи. Яркие пятна божьей коровки и крупные «глаза» бабочки помогают иначе: они предупреждают или отпугивают."
+      "На снимке Д полосы на боках тигра расчленяют силуэт. У божьей коровки яркая окраска предупреждает хищника, а журчалка на снимке В окраской напоминает осу."
     ],
     "adaptation": "Уточнено, какой фон и какой способ маскировки нужно сравнить.",
     "optionFigures": [
       {
         "src": "assets/chip/2011/3-4-20-1.webp",
         "alt": "Птица с серой спиной и поперечными полосами на груди.",
-        "width": 165,
-        "height": 159,
+        "width": 370,
+        "height": 296,
         "detailSrc": "assets/chip/2011/detail/3-4-20-1.webp",
-        "pixelWidth": 206,
-        "pixelHeight": 199
+        "pixelWidth": 1280,
+        "pixelHeight": 1024
       },
       {
         "src": "assets/chip/2011/3-4-20-2.webp",
         "alt": "Красное округлое насекомое с чёрными точками.",
-        "width": 165,
-        "height": 159,
+        "width": 370,
+        "height": 370,
         "detailSrc": "assets/chip/2011/detail/3-4-20-2.webp",
-        "pixelWidth": 206,
-        "pixelHeight": 199
+        "pixelWidth": 1248,
+        "pixelHeight": 1248
       },
       {
         "src": "assets/chip/2011/3-4-20-3.webp",
-        "alt": "Жёлто-чёрное насекомое на зелёном листе.",
-        "width": 166,
-        "height": 160,
+        "alt": "Полосатое насекомое на белых цветках.",
+        "width": 370,
+        "height": 247,
         "detailSrc": "assets/chip/2011/detail/3-4-20-3.webp",
-        "pixelWidth": 207,
-        "pixelHeight": 199
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2011/3-4-20-4.webp",
-        "alt": "Бабочка с крупными пятнами в форме глаз.",
-        "width": 165,
-        "height": 159,
+        "alt": "Бурая бабочка со сложенными угловатыми крыльями.",
+        "width": 370,
+        "height": 247,
         "detailSrc": "assets/chip/2011/detail/3-4-20-4.webp",
-        "pixelWidth": 206,
-        "pixelHeight": 199
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2011/3-4-20-5.webp",
         "alt": "Крупная кошка с рыжей шерстью и тёмными полосами.",
-        "width": 165,
-        "height": 159,
+        "width": 370,
+        "height": 247,
         "detailSrc": "assets/chip/2011/detail/3-4-20-5.webp",
-        "pixelWidth": 206,
-        "pixelHeight": 199
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       }
     ]
   },
@@ -541,7 +542,7 @@
   },
   {
     "title": "Раковина как деньги",
-    "question": "Укажите раковину каури, которая ценилась за красоту и у многих народов Азии, Африки, а в древности и Европы использовалась в качестве денег:",
+    "question": "Какой снимок показывает денежную каури — небольшую раковину, которой в прошлом расплачивались во многих районах Африки и Азии?",
     "choices": [
       "",
       "",
@@ -553,53 +554,53 @@
     "points": 5,
     "steps": [
       "Каури имеет гладкую плотную раковину, округлую сверху. Снизу у неё длинное узкое отверстие.",
-      "В Г видна её гладкая овальная спинка. Другие раковины имеют выступы, широкое отверстие, заметные витки или веерообразные рёбра."
+      "На снимке Г одна раковина показана с нескольких сторон. У неё светлая гладкая спинка и узкая щель с мелкими зубчиками. Раковина Б тоже с зубцами, но у неё широкая выступающая губа и тёмные отметины."
     ],
     "optionFigures": [
       {
         "src": "assets/chip/2011/3-4-22-1.webp",
         "alt": "Коричневая раковина с острыми выступами.",
-        "width": 165,
-        "height": 159,
+        "width": 186,
+        "height": 370,
         "detailSrc": "assets/chip/2011/detail/3-4-22-1.webp",
-        "pixelWidth": 206,
-        "pixelHeight": 199
+        "pixelWidth": 436,
+        "pixelHeight": 866
       },
       {
         "src": "assets/chip/2011/3-4-22-2.webp",
-        "alt": "Ребристая светлая раковина с широким отверстием.",
-        "width": 165,
-        "height": 159,
+        "alt": "Светлая крупная раковина с широкой губой и тёмными зубцами.",
+        "width": 370,
+        "height": 273,
         "detailSrc": "assets/chip/2011/detail/3-4-22-2.webp",
-        "pixelWidth": 206,
-        "pixelHeight": 199
+        "pixelWidth": 1280,
+        "pixelHeight": 944
       },
       {
         "src": "assets/chip/2011/3-4-22-3.webp",
-        "alt": "Округлая раковина с заметными цветными витками.",
-        "width": 166,
-        "height": 160,
+        "alt": "Улитка с закрученными полосатыми витками.",
+        "width": 370,
+        "height": 278,
         "detailSrc": "assets/chip/2011/detail/3-4-22-3.webp",
-        "pixelWidth": 207,
-        "pixelHeight": 199
+        "pixelWidth": 1280,
+        "pixelHeight": 960
       },
       {
         "src": "assets/chip/2011/3-4-22-4.webp",
-        "alt": "Гладкая блестящая овальная раковина.",
-        "width": 165,
-        "height": 159,
+        "alt": "Несколько видов небольшой светлой раковины с узкой щелью.",
+        "width": 370,
+        "height": 260,
         "detailSrc": "assets/chip/2011/detail/3-4-22-4.webp",
-        "pixelWidth": 206,
-        "pixelHeight": 199
+        "pixelWidth": 1280,
+        "pixelHeight": 901
       },
       {
         "src": "assets/chip/2011/3-4-22-5.webp",
         "alt": "Веерообразная створка с расходящимися рёбрами.",
-        "width": 165,
-        "height": 159,
+        "width": 370,
+        "height": 266,
         "detailSrc": "assets/chip/2011/detail/3-4-22-5.webp",
-        "pixelWidth": 206,
-        "pixelHeight": 199
+        "pixelWidth": 1280,
+        "pixelHeight": 921
       }
     ]
   },
@@ -691,50 +692,51 @@
     "optionFigures": [
       {
         "src": "assets/chip/2011/3-4-27-1.webp",
-        "alt": "Тёмное животное с узкой талией и коленчатыми усиками.",
-        "width": 106,
-        "height": 96,
+        "alt": "Крылатое насекомое с узкой талией.",
+        "width": 370,
+        "height": 278,
         "detailSrc": "assets/chip/2011/detail/3-4-27-1.webp",
-        "pixelWidth": 132,
-        "pixelHeight": 120
+        "pixelWidth": 894,
+        "pixelHeight": 671
       },
       {
         "src": "assets/chip/2011/3-4-27-2.webp",
-        "alt": "Бурое длинноногое животное на земле.",
-        "width": 105,
-        "height": 96,
+        "alt": "Вытянутое бурое насекомое с длинными усиками и оранжевым участком брюшка.",
+        "width": 370,
+        "height": 356,
         "detailSrc": "assets/chip/2011/detail/3-4-27-2.webp",
-        "pixelWidth": 131,
-        "pixelHeight": 120
+        "pixelWidth": 1280,
+        "pixelHeight": 1230
       },
       {
         "src": "assets/chip/2011/3-4-27-3.webp",
         "alt": "Красно-чёрное животное с округлой задней частью тела.",
-        "width": 105,
-        "height": 96,
+        "width": 370,
+        "height": 277,
         "detailSrc": "assets/chip/2011/detail/3-4-27-3.webp",
-        "pixelWidth": 131,
-        "pixelHeight": 120
+        "pixelWidth": 1280,
+        "pixelHeight": 958
       },
       {
         "src": "assets/chip/2011/3-4-27-4.webp",
-        "alt": "Вытянутое рыжеватое животное с тёмной головой на листе.",
-        "width": 281,
-        "height": 253,
+        "alt": "Стройное рыжеватое животное с длинными ногами на зелёном листе.",
+        "width": 370,
+        "height": 247,
         "detailSrc": "assets/chip/2011/detail/3-4-27-4.webp",
-        "pixelWidth": 351,
-        "pixelHeight": 316
+        "pixelWidth": 1280,
+        "pixelHeight": 854
       },
       {
         "src": "assets/chip/2011/3-4-27-5.webp",
         "alt": "Красно-чёрное животное с длинными усиками.",
-        "width": 106,
-        "height": 96,
+        "width": 370,
+        "height": 277,
         "detailSrc": "assets/chip/2011/detail/3-4-27-5.webp",
-        "pixelWidth": 133,
-        "pixelHeight": 120
+        "pixelWidth": 1042,
+        "pixelHeight": 780
       }
-    ]
+    ],
+    "adaptation": "Сохранены группы животных и порядок вариантов. Фотографии подобраны заново: клоп показан на взрослой стадии, а сходство паука с муравьём демонстрирует родственный вид."
   },
   {
     "title": "Кику в Японии",
@@ -792,41 +794,41 @@
       {
         "src": "assets/chip/2011/3-4-30-1.webp",
         "alt": "Рука медленно тянет вправо одну тетрадь из середины стопки.",
-        "width": 339,
-        "height": 122,
-        "detailSrc": "assets/chip/2011/detail/3-4-30-1.webp",
-        "pixelWidth": 424,
-        "pixelHeight": 153,
+        "width": 370,
+        "height": 238,
+        "detailSrc": "assets/chip/2011/detail/3-4-30-1.svg",
+        "pixelWidth": 1280,
+        "pixelHeight": 820,
         "caption": "Рисунок 1"
       },
       {
         "src": "assets/chip/2011/3-4-30-2.webp",
         "alt": "Верхняя часть стопки сдвинута вправо как единый блок.",
-        "width": 339,
-        "height": 122,
-        "detailSrc": "assets/chip/2011/detail/3-4-30-2.webp",
-        "pixelWidth": 424,
-        "pixelHeight": 152,
+        "width": 370,
+        "height": 238,
+        "detailSrc": "assets/chip/2011/detail/3-4-30-2.svg",
+        "pixelWidth": 1280,
+        "pixelHeight": 820,
         "caption": "Рисунок 2"
       },
       {
         "src": "assets/chip/2011/3-4-30-3.webp",
         "alt": "Нижняя часть стопки ступенчато сдвинута, верхняя часть сохранена блоком.",
-        "width": 339,
-        "height": 122,
-        "detailSrc": "assets/chip/2011/detail/3-4-30-3.webp",
-        "pixelWidth": 424,
-        "pixelHeight": 153,
+        "width": 370,
+        "height": 238,
+        "detailSrc": "assets/chip/2011/detail/3-4-30-3.svg",
+        "pixelWidth": 1280,
+        "pixelHeight": 820,
         "caption": "Рисунок 3"
       },
       {
         "src": "assets/chip/2011/3-4-30-4.webp",
         "alt": "Тетради выше и ниже вытягиваемой сдвинуты под наклоном.",
-        "width": 339,
-        "height": 120,
-        "detailSrc": "assets/chip/2011/detail/3-4-30-4.webp",
-        "pixelWidth": 424,
-        "pixelHeight": 150,
+        "width": 370,
+        "height": 238,
+        "detailSrc": "assets/chip/2011/detail/3-4-30-4.svg",
+        "pixelWidth": 1280,
+        "pixelHeight": 820,
         "caption": "Рисунок 4"
       }
     ]

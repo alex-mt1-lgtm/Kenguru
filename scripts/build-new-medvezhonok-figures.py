@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 
 import fitz
-from PIL import Image
+from PIL import Image, ImageDraw
 
 from pdf_figure import cropped_svg
 
@@ -32,7 +32,12 @@ def main():
                 page = record['page']
                 destination = output / filename
                 if 'xref' in record:
-                    bitmap(document, page, record['xref']).save(destination, lossless=True)
+                    image = bitmap(document, page, record['xref'])
+                    if 'imageClip' in record:
+                        image = image.crop(tuple(record['imageClip']))
+                    for rectangle in record.get('whiteout', []):
+                        ImageDraw.Draw(image).rectangle(rectangle, fill='white')
+                    image.save(destination, lossless=True)
                 elif 'scale' in record:
                     scale = record['scale']
                     pixels = document[page].get_pixmap(

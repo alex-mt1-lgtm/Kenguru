@@ -199,5 +199,44 @@
     "tasksFile": "задания_ЧИП-2016-9_10класс.pdf",
     "answersFile": "ответы-чип-2016.pdf",
     "title": "Азия"
+  },
+  {
+    "subject": "chip",
+    "year": 2017,
+    "grade": "1-2",
+    "contest": "Человек и природа",
+    "letters": "АБВГД",
+    "count": 20,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "задания_ЧИП-2017-1_2класс.pdf",
+    "answersFile": "ответы_ЧИП_2017.pdf",
+    "title": "Северная Америка"
+  },
+  {
+    "subject": "chip",
+    "year": 2017,
+    "grade": "3-4",
+    "contest": "Человек и природа",
+    "letters": "АБВГД",
+    "count": 30,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "задания_ЧИП-2017-3-4класс.pdf",
+    "answersFile": "ответы_ЧИП_2017.pdf",
+    "title": "Северная Америка"
+  },
+  {
+    "subject": "chip",
+    "year": 2017,
+    "grade": "5-6",
+    "contest": "Человек и природа",
+    "letters": "АБВГД",
+    "count": 30,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "задания_ЧИП-2017-5-6класс.pdf",
+    "answersFile": "ответы_ЧИП_2017.pdf",
+    "title": "Северная Америка"
   }
 ]

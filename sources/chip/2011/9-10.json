@@ -36,11 +36,11 @@
     "figure": {
       "src": "assets/chip/2011/9-10-02.webp",
       "alt": "Золотой двуглавый орёл на красном щите со скипетром и державой.",
-      "width": 165,
-      "height": 197,
-      "detailSrc": "assets/chip/2011/detail/9-10-02.webp",
-      "pixelWidth": 206,
-      "pixelHeight": 246
+      "width": 313,
+      "height": 370,
+      "detailSrc": "assets/chip/2011/detail/9-10-02.svg",
+      "pixelWidth": 1014,
+      "pixelHeight": 1200
     }
   },
   {
@@ -203,47 +203,47 @@
       {
         "src": "assets/chip/2011/9-10-11-1.webp",
         "alt": "Красно-зелёный флаг с узкой орнаментальной полосой у древка.",
-        "width": 159,
-        "height": 84,
-        "detailSrc": "assets/chip/2011/detail/9-10-11-1.webp",
-        "pixelWidth": 199,
-        "pixelHeight": 105
+        "width": 370,
+        "height": 185,
+        "detailSrc": "assets/chip/2011/detail/9-10-11-1.svg",
+        "pixelWidth": 1200,
+        "pixelHeight": 600
       },
       {
         "src": "assets/chip/2011/9-10-11-2.webp",
         "alt": "Три полосы: жёлтая, зелёная и красная.",
-        "width": 159,
-        "height": 84,
-        "detailSrc": "assets/chip/2011/detail/9-10-11-2.webp",
-        "pixelWidth": 199,
-        "pixelHeight": 105
+        "width": 370,
+        "height": 222,
+        "detailSrc": "assets/chip/2011/detail/9-10-11-2.svg",
+        "pixelWidth": 1200,
+        "pixelHeight": 720
       },
       {
         "src": "assets/chip/2011/9-10-11-3.webp",
         "alt": "Голубой флаг с золотыми солнцем, птицей и вертикальным узором.",
-        "width": 159,
-        "height": 84,
-        "detailSrc": "assets/chip/2011/detail/9-10-11-3.webp",
-        "pixelWidth": 199,
-        "pixelHeight": 105
+        "width": 370,
+        "height": 185,
+        "detailSrc": "assets/chip/2011/detail/9-10-11-3.svg",
+        "pixelWidth": 1200,
+        "pixelHeight": 600
       },
       {
         "src": "assets/chip/2011/9-10-11-4.webp",
         "alt": "Голубая, белая и зелёная полосы с тонкими красными границами, полумесяц и звёзды.",
-        "width": 160,
-        "height": 84,
-        "detailSrc": "assets/chip/2011/detail/9-10-11-4.webp",
-        "pixelWidth": 200,
-        "pixelHeight": 105
+        "width": 370,
+        "height": 185,
+        "detailSrc": "assets/chip/2011/detail/9-10-11-4.svg",
+        "pixelWidth": 1200,
+        "pixelHeight": 600
       },
       {
         "src": "assets/chip/2011/9-10-11-5.webp",
         "alt": "Красная, синяя и оранжевая полосы.",
-        "width": 160,
-        "height": 84,
-        "detailSrc": "assets/chip/2011/detail/9-10-11-5.webp",
-        "pixelWidth": 200,
-        "pixelHeight": 105
+        "width": 370,
+        "height": 185,
+        "detailSrc": "assets/chip/2011/detail/9-10-11-5.svg",
+        "pixelWidth": 1200,
+        "pixelHeight": 600
       }
     ]
   },
@@ -405,47 +405,47 @@
       {
         "src": "assets/chip/2011/9-10-20-1.webp",
         "alt": "Широкая округлая рыба с высокими плавниками и тупым задним краем.",
-        "width": 158,
-        "height": 157,
+        "width": 370,
+        "height": 289,
         "detailSrc": "assets/chip/2011/detail/9-10-20-1.webp",
-        "pixelWidth": 197,
-        "pixelHeight": 196
+        "pixelWidth": 1400,
+        "pixelHeight": 1094
       },
       {
         "src": "assets/chip/2011/9-10-20-2.webp",
         "alt": "Коричневатая рыба, по форме напоминающая лист.",
-        "width": 157,
-        "height": 157,
+        "width": 277,
+        "height": 370,
         "detailSrc": "assets/chip/2011/detail/9-10-20-2.webp",
-        "pixelWidth": 196,
-        "pixelHeight": 196
+        "pixelWidth": 1050,
+        "pixelHeight": 1400
       },
       {
         "src": "assets/chip/2011/9-10-20-3.webp",
         "alt": "Полупрозрачное вытянутое животное с оранжевой головой и лопастями.",
-        "width": 157,
-        "height": 157,
+        "width": 294,
+        "height": 370,
         "detailSrc": "assets/chip/2011/detail/9-10-20-3.webp",
-        "pixelWidth": 196,
-        "pixelHeight": 196
+        "pixelWidth": 1025,
+        "pixelHeight": 1289
       },
       {
         "src": "assets/chip/2011/9-10-20-4.webp",
         "alt": "Плоская пятнистая рыба на песке.",
-        "width": 157,
-        "height": 157,
+        "width": 370,
+        "height": 279,
         "detailSrc": "assets/chip/2011/detail/9-10-20-4.webp",
-        "pixelWidth": 196,
-        "pixelHeight": 196
+        "pixelWidth": 1024,
+        "pixelHeight": 771
       },
       {
         "src": "assets/chip/2011/9-10-20-5.webp",
         "alt": "Яркая жёлтая рыба с узнаваемым хвостом.",
-        "width": 158,
-        "height": 157,
+        "width": 370,
+        "height": 257,
         "detailSrc": "assets/chip/2011/detail/9-10-20-5.webp",
-        "pixelWidth": 197,
-        "pixelHeight": 196
+        "pixelWidth": 1400,
+        "pixelHeight": 973
       }
     ]
   },
@@ -470,47 +470,47 @@
       {
         "src": "assets/chip/2011/9-10-21-1.webp",
         "alt": "Красный контур с выступом на севере.",
-        "width": 89,
-        "height": 71,
-        "detailSrc": "assets/chip/2011/detail/9-10-21-1.webp",
-        "pixelWidth": 111,
-        "pixelHeight": 89
+        "width": 370,
+        "height": 301,
+        "detailSrc": "assets/chip/2011/detail/9-10-21-1.svg",
+        "pixelWidth": 468,
+        "pixelHeight": 380
       },
       {
         "src": "assets/chip/2011/9-10-21-2.webp",
         "alt": "Оранжевый вытянутый контур.",
-        "width": 88,
-        "height": 71,
-        "detailSrc": "assets/chip/2011/detail/9-10-21-2.webp",
-        "pixelWidth": 110,
-        "pixelHeight": 89
+        "width": 370,
+        "height": 304,
+        "detailSrc": "assets/chip/2011/detail/9-10-21-2.svg",
+        "pixelWidth": 464,
+        "pixelHeight": 380
       },
       {
         "src": "assets/chip/2011/9-10-21-3.webp",
         "alt": "Зелёный контур с глубоким западным выступом.",
-        "width": 89,
-        "height": 71,
-        "detailSrc": "assets/chip/2011/detail/9-10-21-3.webp",
-        "pixelWidth": 111,
-        "pixelHeight": 89
+        "width": 370,
+        "height": 301,
+        "detailSrc": "assets/chip/2011/detail/9-10-21-3.svg",
+        "pixelWidth": 468,
+        "pixelHeight": 380
       },
       {
         "src": "assets/chip/2011/9-10-21-4.webp",
         "alt": "Голубой контур с южным выступом примерно посередине.",
-        "width": 89,
-        "height": 71,
-        "detailSrc": "assets/chip/2011/detail/9-10-21-4.webp",
-        "pixelWidth": 111,
-        "pixelHeight": 89
+        "width": 370,
+        "height": 301,
+        "detailSrc": "assets/chip/2011/detail/9-10-21-4.svg",
+        "pixelWidth": 468,
+        "pixelHeight": 380
       },
       {
         "src": "assets/chip/2011/9-10-21-5.webp",
         "alt": "Фиолетовый контур с округлым юго-западом.",
-        "width": 88,
-        "height": 71,
-        "detailSrc": "assets/chip/2011/detail/9-10-21-5.webp",
-        "pixelWidth": 110,
-        "pixelHeight": 89
+        "width": 370,
+        "height": 304,
+        "detailSrc": "assets/chip/2011/detail/9-10-21-5.svg",
+        "pixelWidth": 464,
+        "pixelHeight": 380
       }
     ]
   },
@@ -552,11 +552,11 @@
     "figure": {
       "src": "assets/chip/2011/9-10-23.webp",
       "alt": "Международная космическая станция с солнечными батареями на фоне Земли.",
-      "width": 214,
-      "height": 149,
+      "width": 370,
+      "height": 246,
       "detailSrc": "assets/chip/2011/detail/9-10-23.webp",
-      "pixelWidth": 268,
-      "pixelHeight": 186
+      "pixelWidth": 1280,
+      "pixelHeight": 850
     }
   },
   {

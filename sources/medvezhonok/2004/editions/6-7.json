@@ -135,12 +135,38 @@
       "В ребусе Г начало — «под Г — О», после запятой от «сто» остаётся «то», а «в К — а» даёт конец. Получается «подготовка»."
     ],
     "figure": {
-      "condition": {
-        "src": "assets/medvezhonok/2004/6-7-08-rebuses.webp",
-        "alt": "Пять ребусов с подписями А, Б, В, Г, Д. Среди знаков буквы разных размеров, цифры, миска и поезд. В некоторых буквах есть надписи внутри, под ними или рядом.",
-        "width": 787,
-        "height": 189
-      }
+      "options": [
+        {
+          "src": "assets/medvezhonok/2004/6-7-08-rebus-1.webp",
+          "description": "Буквы ТА под С и А внутри большой К.",
+          "pixelWidth": 147,
+          "pixelHeight": 82
+        },
+        {
+          "src": "assets/medvezhonok/2004/6-7-08-rebus-2.webp",
+          "description": "Буквы С в большой Д, миска, буквы В и А.",
+          "pixelWidth": 351,
+          "pixelHeight": 84
+        },
+        {
+          "src": "assets/medvezhonok/2004/6-7-08-rebus-3.webp",
+          "description": "Курсивная П, единица с запятыми, ТА и А внутри К.",
+          "pixelWidth": 286,
+          "pixelHeight": 81
+        },
+        {
+          "src": "assets/medvezhonok/2004/6-7-08-rebus-4.webp",
+          "description": "Под О стоит Г, запятая перед числом 100, А внутри большой К.",
+          "pixelWidth": 193,
+          "pixelHeight": 76
+        },
+        {
+          "src": "assets/medvezhonok/2004/6-7-08-rebus-5.webp",
+          "description": "Поезд с номерами 1, 2, 5, число 100 с запятой, А внутри К и ещё одна А.",
+          "pixelWidth": 408,
+          "pixelHeight": 88
+        }
+      ]
     }
   },
   {

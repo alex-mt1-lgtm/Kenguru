@@ -38,47 +38,47 @@
     "optionFigures": [
       {
         "src": "assets/chip/2014/5-6-02-1.webp",
-        "detailSrc": "assets/chip/2014/detail/5-6-02-1.webp",
-        "width": 108,
-        "height": 105,
-        "pixelWidth": 108,
-        "pixelHeight": 105,
+        "detailSrc": "assets/chip/2014/detail/5-6-02-1.svg",
+        "width": 480,
+        "height": 467,
+        "pixelWidth": 920,
+        "pixelHeight": 894,
         "alt": "Компактный материк и соседние острова."
       },
       {
         "src": "assets/chip/2014/5-6-02-2.webp",
-        "detailSrc": "assets/chip/2014/detail/5-6-02-2.webp",
-        "width": 110,
-        "height": 105,
-        "pixelWidth": 110,
-        "pixelHeight": 105,
+        "detailSrc": "assets/chip/2014/detail/5-6-02-2.svg",
+        "width": 480,
+        "height": 459,
+        "pixelWidth": 920,
+        "pixelHeight": 878,
         "alt": "Широкий контур с несколькими южными полуостровами."
       },
       {
         "src": "assets/chip/2014/5-6-02-3.webp",
-        "detailSrc": "assets/chip/2014/detail/5-6-02-3.webp",
-        "width": 110,
-        "height": 105,
-        "pixelWidth": 110,
-        "pixelHeight": 105,
+        "detailSrc": "assets/chip/2014/detail/5-6-02-3.svg",
+        "width": 480,
+        "height": 459,
+        "pixelWidth": 920,
+        "pixelHeight": 878,
         "alt": "Широкий север, длинный берег на западе и узкий юг."
       },
       {
         "src": "assets/chip/2014/5-6-02-4.webp",
-        "detailSrc": "assets/chip/2014/detail/5-6-02-4.webp",
-        "width": 111,
-        "height": 105,
-        "pixelWidth": 111,
-        "pixelHeight": 105,
+        "detailSrc": "assets/chip/2014/detail/5-6-02-4.svg",
+        "width": 480,
+        "height": 454,
+        "pixelWidth": 920,
+        "pixelHeight": 870,
         "alt": "Материк с широким севером и крупным островом близ юго-востока."
       },
       {
         "src": "assets/chip/2014/5-6-02-5.webp",
-        "detailSrc": "assets/chip/2014/detail/5-6-02-5.webp",
-        "width": 108,
-        "height": 105,
-        "pixelWidth": 108,
-        "pixelHeight": 105,
+        "detailSrc": "assets/chip/2014/detail/5-6-02-5.svg",
+        "width": 480,
+        "height": 467,
+        "pixelWidth": 920,
+        "pixelHeight": 894,
         "alt": "Два материка соединены узким перешейком."
       }
     ]
@@ -223,10 +223,10 @@
       {
         "src": "assets/chip/2014/5-6-09-1.webp",
         "detailSrc": "assets/chip/2014/detail/5-6-09-1.webp",
-        "width": 124,
-        "height": 105,
-        "pixelWidth": 124,
-        "pixelHeight": 105,
+        "width": 480,
+        "height": 360,
+        "pixelWidth": 1600,
+        "pixelHeight": 1200,
         "alt": "Розовый шаровидный цветок над колючими зелёными листьями."
       },
       {
@@ -241,28 +241,28 @@
       {
         "src": "assets/chip/2014/5-6-09-3.webp",
         "detailSrc": "assets/chip/2014/detail/5-6-09-3.webp",
-        "width": 126,
-        "height": 105,
-        "pixelWidth": 126,
-        "pixelHeight": 105,
+        "width": 480,
+        "height": 360,
+        "pixelWidth": 1600,
+        "pixelHeight": 1200,
         "alt": "Ярко-жёлтые корзинки с множеством лепестков."
       },
       {
         "src": "assets/chip/2014/5-6-09-4.webp",
         "detailSrc": "assets/chip/2014/detail/5-6-09-4.webp",
-        "width": 125,
-        "height": 105,
-        "pixelWidth": 125,
-        "pixelHeight": 105,
+        "width": 480,
+        "height": 360,
+        "pixelWidth": 1600,
+        "pixelHeight": 1200,
         "alt": "Соцветия с белыми и розовыми лепестками на ветках."
       },
       {
         "src": "assets/chip/2014/5-6-09-5.webp",
         "detailSrc": "assets/chip/2014/detail/5-6-09-5.webp",
-        "width": 125,
-        "height": 105,
-        "pixelWidth": 125,
-        "pixelHeight": 105,
+        "width": 480,
+        "height": 360,
+        "pixelWidth": 1600,
+        "pixelHeight": 1200,
         "alt": "Небольшие блестящие жёлтые цветы на тонких стеблях."
       }
     ]
@@ -362,11 +362,11 @@
     "optionFigures": [
       {
         "src": "assets/chip/2014/5-6-14-1.webp",
-        "detailSrc": "assets/chip/2014/detail/5-6-14-1.webp",
-        "width": 122,
-        "height": 105,
-        "pixelWidth": 122,
-        "pixelHeight": 105,
+        "detailSrc": "assets/chip/2014/detail/two-hump-camel.webp",
+        "width": 480,
+        "height": 320,
+        "pixelWidth": 1600,
+        "pixelHeight": 1066,
         "alt": "Крупное животное с двумя горбами."
       },
       {
@@ -519,10 +519,10 @@
       {
         "src": "assets/chip/2014/5-6-18-5.webp",
         "detailSrc": "assets/chip/2014/detail/5-6-18-5.webp",
-        "width": 117,
-        "height": 100,
-        "pixelWidth": 117,
-        "pixelHeight": 100,
+        "width": 480,
+        "height": 320,
+        "pixelWidth": 1600,
+        "pixelHeight": 1066,
         "alt": "Тёмный зверь с широкой головой и белой полосой на груди."
       }
     ]
@@ -604,10 +604,10 @@
     "figure": {
       "src": "assets/chip/2014/5-6-22.webp",
       "detailSrc": "assets/chip/2014/detail/5-6-22.webp",
-      "width": 200,
-      "height": 182,
-      "pixelWidth": 200,
-      "pixelHeight": 182,
+      "width": 480,
+      "height": 435,
+      "pixelWidth": 1600,
+      "pixelHeight": 1451,
       "alt": "Герб с птицей, змеёй и кактусом. Внизу две разные ветви."
     }
   },

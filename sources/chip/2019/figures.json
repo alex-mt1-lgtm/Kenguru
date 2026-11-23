@@ -953,6 +953,1343 @@
         "license": "Natural Earth, public domain",
         "processing": "Векторная учебная карта с Тихим океаном в центре."
       }
+    },
+    "africa-world": {
+      "detail": {
+        "source": "https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/",
+        "author": "Natural Earth; Olympiads.pro",
+        "license": "Natural Earth · общественное достояние",
+        "processing": "Векторная карта в новой отрисовке. Порядок и выделенные территории сверены с буклетом.",
+        "file": "detail/africa-world.svg"
+      }
+    },
+    "africa-1-2-04-1": {
+      "detail": {
+        "source": "2019/africa/chip_2018-19_1-2.pdf",
+        "author": "Оргкомитет конкурса «Человек и природа» · переработка Olympiads.pro",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Черты иллюстрации переведены в векторные контуры по исходнику; соблюдены порядок вариантов и опознаваемые детали.",
+        "file": "detail/africa-1-2-04-1.svg"
+      }
+    },
+    "africa-1-2-04-2": {
+      "detail": {
+        "source": "2019/africa/chip_2018-19_1-2.pdf",
+        "author": "Оргкомитет конкурса «Человек и природа» · переработка Olympiads.pro",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Черты иллюстрации переведены в векторные контуры по исходнику; соблюдены порядок вариантов и опознаваемые детали.",
+        "file": "detail/africa-1-2-04-2.svg"
+      }
+    },
+    "africa-1-2-04-3": {
+      "detail": {
+        "source": "2019/africa/chip_2018-19_1-2.pdf",
+        "author": "Оргкомитет конкурса «Человек и природа» · переработка Olympiads.pro",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Черты иллюстрации переведены в векторные контуры по исходнику; соблюдены порядок вариантов и опознаваемые детали.",
+        "file": "detail/africa-1-2-04-3.svg"
+      }
+    },
+    "africa-1-2-04-4": {
+      "detail": {
+        "source": "2019/africa/chip_2018-19_1-2.pdf",
+        "author": "Оргкомитет конкурса «Человек и природа» · переработка Olympiads.pro",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Черты иллюстрации переведены в векторные контуры по исходнику; соблюдены порядок вариантов и опознаваемые детали.",
+        "file": "detail/africa-1-2-04-4.svg"
+      }
+    },
+    "africa-1-2-04-5": {
+      "detail": {
+        "source": "2019/africa/chip_2018-19_1-2.pdf",
+        "author": "Оргкомитет конкурса «Человек и природа» · переработка Olympiads.pro",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Черты иллюстрации переведены в векторные контуры по исходнику; соблюдены порядок вариантов и опознаваемые детали.",
+        "file": "detail/africa-1-2-04-5.svg"
+      }
+    },
+    "africa-1-2-06": {
+      "detail": {
+        "source": "2019/africa/chip_2018-19_1-2.pdf",
+        "author": "Оргкомитет конкурса «Человек и природа» · переработка Olympiads.pro",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Черты иллюстрации переведены в векторные контуры по исходнику; соблюдены порядок вариантов и опознаваемые детали.",
+        "file": "detail/africa-1-2-06.svg"
+      }
+    },
+    "africa-photo-savanna": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Tarangire-Natpark800600.jpg",
+        "author": "ProfessorX",
+        "license": "Public domain",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "file": "detail/africa-photo-savanna.webp"
+      }
+    },
+    "africa-photo-rainforest": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Rainforest_-_Ituri_(20874628148).jpg",
+        "author": "MONUSCO Photos",
+        "license": "CC BY-SA 2.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "file": "detail/africa-photo-rainforest.webp"
+      }
+    },
+    "africa-photo-scrub": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Macchia01.jpg",
+        "author": "Markus Schweiss",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "file": "detail/africa-photo-scrub.webp"
+      }
+    },
+    "africa-photo-conifer": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Jack_London_Lake_by_bartosh.jpg",
+        "author": "Bartosh Dmytro, Ukraine, Kiev. http://fotostudio.com.ua",
+        "license": "CC BY 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "file": "detail/africa-photo-conifer.webp"
+      }
+    },
+    "africa-photo-pyramids": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Giza_Pyramids_Panorama.jpg",
+        "author": "Benjamin Inbar",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-pyramids.webp"
+      }
+    },
+    "africa-photo-igloo": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Igloo.jpg",
+        "author": "From [1], PD image from National Oceanic and Atmospheric Administration(corp1528)",
+        "license": "Public domain",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "file": "detail/africa-photo-igloo.webp"
+      }
+    },
+    "africa-photo-russianhouse": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Log_hut_in_Serpeevka_village.JPG",
+        "author": "User:Скампецкий",
+        "license": "CC BY 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "file": "detail/africa-photo-russianhouse.webp"
+      }
+    },
+    "africa-photo-rondavel": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Traditional_round_houses_in_Manica_(4419157639).jpg",
+        "author": "Ton Rulkens from Mozambique",
+        "license": "CC BY-SA 2.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "file": "detail/africa-photo-rondavel.webp"
+      }
+    },
+    "africa-photo-asianhouse": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:DSC_6694_Ornately_decorated_Chinese_temple_courtyard_with_colorful_tiled_roofs_carved_pillars_and_a_golden_Buddha_statue_under_a_cloudy_sky.jpg",
+        "author": "PattayaPatrol",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-asianhouse.webp"
+      }
+    },
+    "africa-photo-tipi": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Oglala_girl_in_front_of_a_tipi2.jpg",
+        "author": "John Grabill",
+        "license": "Public domain",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "file": "detail/africa-photo-tipi.webp"
+      }
+    },
+    "africa-photo-mountain": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Plateau_Yagour,_Agdal,_Morocco.jpg",
+        "author": "Mounir Neddi",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-mountain.webp"
+      }
+    },
+    "africa-photo-lake": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Libya_5391_Ubari_Lakes_Luca_Galuzzi_2007.jpg",
+        "author": "Luca Galuzzi (Lucag)",
+        "license": "CC BY-SA 2.5",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "file": "detail/africa-photo-lake.webp"
+      }
+    },
+    "africa-photo-river": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Limpopo.jpg",
+        "author": "Department of Defense. American Forces Information Service. Defense Visual Information Center. 1994",
+        "license": "Public domain",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "file": "detail/africa-photo-river.webp"
+      }
+    },
+    "africa-photo-canyon": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Fish_River_Canyon_from_Main_View_Point.jpg",
+        "author": "RudiBosbouer",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/africa-photo-canyon.webp"
+      }
+    },
+    "africa-photo-buffalo": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:African_buffalo_(Syncerus_caffer_caffer)_male_with_cattle_egret.jpg",
+        "author": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-buffalo.webp"
+      }
+    },
+    "africa-photo-lion": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+        "author": "Giles Laurent",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-lion.webp"
+      }
+    },
+    "africa-photo-giraffe": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Twin_Brother_Giraffes_(2).jpg",
+        "author": "Otukei Moses",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-giraffe.webp"
+      }
+    },
+    "africa-photo-elephant": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:178_Male_African_bush_elephant_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg",
+        "author": "Giles Laurent",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-elephant.webp"
+      }
+    },
+    "africa-photo-cheetah": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Male_cheetah_facing_left_in_South_Africa.jpg",
+        "author": "AfricanConservation",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-cheetah.webp"
+      }
+    },
+    "africa-photo-baobab": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:%22_Avenue_of_the_Baobabs_%22_(Adansonia_grandidieri)_(9576865450).jpg",
+        "author": "Bernard DUPONT from FRANCE",
+        "license": "CC BY-SA 2.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "file": "detail/africa-photo-baobab.webp"
+      }
+    },
+    "africa-photo-birch": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Betula_pendula_Finland.jpg",
+        "author": "Percita at Flickr",
+        "license": "CC BY-SA 2.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "file": "detail/africa-photo-birch.webp"
+      }
+    },
+    "africa-photo-date": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Siwa_Oasis,_sunset_on_Maraqi_(Egypt).jpg",
+        "author": "Vincent Battesti",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-date.webp"
+      }
+    },
+    "africa-photo-pine": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Skuleskogen_pine.jpg",
+        "author": "Mickaël Delcey (Silverkey)",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/africa-photo-pine.webp"
+      }
+    },
+    "africa-photo-acacia": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Vachellia_(ex_Acacia)_tortilis.jpg",
+        "author": "Robur.q",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/africa-photo-acacia.webp"
+      }
+    },
+    "africa-photo-hippo": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Hippopotamus.jpg",
+        "author": "Martin Olsson",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "file": "detail/africa-photo-hippo.webp"
+      }
+    },
+    "africa-photo-ostrich": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Struthio_camelus_-_Etosha_2014_(3).jpg",
+        "author": "Yathin S Krishnappa",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-ostrich.webp"
+      }
+    },
+    "africa-photo-tiger": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Bengal_tiger_(Panthera_tigris_tigris)_female_3_crop.jpg",
+        "author": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-tiger.webp"
+      }
+    },
+    "africa-photo-camel": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Camelus_dromedarius_in_Nuweiba.jpg",
+        "author": "Florian Prischl",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/africa-photo-camel.webp"
+      }
+    },
+    "africa-photo-croc": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:NileCrocodile.jpg",
+        "author": "Dewet",
+        "license": "CC BY-SA 2.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "file": "detail/africa-photo-croc.webp"
+      }
+    },
+    "africa-globe-1": {
+      "detail": {
+        "source": "https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/",
+        "author": "Natural Earth; Olympiads.pro",
+        "license": "Natural Earth · общественное достояние",
+        "processing": "Векторная карта в новой отрисовке. Порядок и выделенные территории сверены с буклетом.",
+        "file": "detail/africa-globe-1.svg"
+      }
+    },
+    "africa-globe-2": {
+      "detail": {
+        "source": "https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/",
+        "author": "Natural Earth; Olympiads.pro",
+        "license": "Natural Earth · общественное достояние",
+        "processing": "Векторная карта в новой отрисовке. Порядок и выделенные территории сверены с буклетом.",
+        "file": "detail/africa-globe-2.svg"
+      }
+    },
+    "africa-globe-3": {
+      "detail": {
+        "source": "https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/",
+        "author": "Natural Earth; Olympiads.pro",
+        "license": "Natural Earth · общественное достояние",
+        "processing": "Векторная карта в новой отрисовке. Порядок и выделенные территории сверены с буклетом.",
+        "file": "detail/africa-globe-3.svg"
+      }
+    },
+    "africa-globe-4": {
+      "detail": {
+        "source": "https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/",
+        "author": "Natural Earth; Olympiads.pro",
+        "license": "Natural Earth · общественное достояние",
+        "processing": "Векторная карта в новой отрисовке. Порядок и выделенные территории сверены с буклетом.",
+        "file": "detail/africa-globe-4.svg"
+      }
+    },
+    "africa-globe-5": {
+      "detail": {
+        "source": "https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/",
+        "author": "Natural Earth; Olympiads.pro",
+        "license": "Natural Earth · общественное достояние",
+        "processing": "Векторная карта в новой отрисовке. Порядок и выделенные территории сверены с буклетом.",
+        "file": "detail/africa-globe-5.svg"
+      }
+    },
+    "africa-photo-dunes": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Merzouga_Dunes_2011.jpg",
+        "author": "Bjørn Christian Tørrissen",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/africa-photo-dunes.webp"
+      }
+    },
+    "africa-photo-palmoasis": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Siwa_Oasis,_sunset_on_Maraqi_(Egypt).jpg",
+        "author": "Vincent Battesti",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-palmoasis.webp"
+      }
+    },
+    "africa-photo-kili": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Kilimanjaro_from_Amboseli.jpg",
+        "author": "Sergey Pesterev",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-kili.webp"
+      }
+    },
+    "africa-photo-zebra": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Equus_quagga_burchellii_-_Etosha,_2014.jpg",
+        "author": "Yathin S Krishnappa",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/africa-photo-zebra.webp"
+      }
+    },
+    "africa-photo-antelope": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Red_hartebeest_(Alcelaphus_buselaphus_caama)_Etosha_National_Park_Namibia.jpg",
+        "author": "25-south.com",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-antelope.webp"
+      }
+    },
+    "africa-photo-horse": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Tiergarten_Worms_Pfalz_Ardenner_2011.JPG",
+        "author": "4028mdk09",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/africa-photo-horse.webp"
+      }
+    },
+    "africa-photo-weaver": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Social_weaver_nest_1.jpg",
+        "author": "Photograph by Mike Peel (www.mikepeel.net).",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-weaver.webp"
+      }
+    },
+    "africa-photo-kigelia": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Starr-091104-0978-Kigelia_africana-hanging_fruit-Kahanu_Gardens_NTBG_Kaeleku_Hana-Maui_(24361088583).jpg",
+        "author": "Forest and Kim Starr",
+        "license": "CC BY 3.0 us",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/us/deed.en",
+        "file": "detail/africa-photo-kigelia.webp"
+      }
+    },
+    "africa-photo-stork": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:White_stork_(Ciconia_ciconia)_standing.jpg",
+        "author": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-stork.webp"
+      }
+    },
+    "africa-photo-flamingo": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:010_Greater_flamingos_male_and_female_in_the_Camargue_during_mating_season_Photo_by_Giles_Laurent.jpg",
+        "author": "Giles Laurent",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-flamingo.webp"
+      }
+    },
+    "africa-photo-crane": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Grey_crowned_crane_(Balearica_regulorum_gibbericeps).jpg",
+        "author": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-crane.webp"
+      }
+    },
+    "africa-photo-pelican": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Great_white_pelican_(Pelecanus_onocrotalus).jpg",
+        "author": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-pelican.webp"
+      }
+    },
+    "africa-photo-pumpkin": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Cucurbita_pepo_2013_G1.jpg",
+        "author": "George Chernilevsky",
+        "license": "Public domain",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "file": "detail/africa-photo-pumpkin.webp"
+      }
+    },
+    "africa-photo-watermelon": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Taiwan_2009_Tainan_City_Organic_Farm_Watermelon_FRD_7962.jpg",
+        "author": "Fred Hsu (Wikipedia:User:Fred Hsu on en.wikipedia)",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/africa-photo-watermelon.webp"
+      }
+    },
+    "africa-photo-peach": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Prunus_persica_-_Peach_Hungary.jpg",
+        "author": "Takkk",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/africa-photo-peach.webp"
+      }
+    },
+    "africa-photo-orange": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Oranges_-_whole-halved-segment.jpg",
+        "author": "Ivar Leidus",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-orange.webp"
+      }
+    },
+    "africa-photo-avocado": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Persea_americana_fruit_2.JPG",
+        "author": "B.navez",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/africa-photo-avocado.webp"
+      }
+    },
+    "africa-photo-talkdrum": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:TalkingDrum.jpg",
+        "author": "Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "file": "detail/africa-photo-talkdrum.webp"
+      }
+    },
+    "africa-photo-whiterhino": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:109_Male_White_rhinoceros_walking_in_the_Kalahari_Desert_of_Namibia_Photo_by_Giles_Laurent.jpg",
+        "author": "Giles Laurent",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-whiterhino.webp"
+      }
+    },
+    "africa-photo-bison": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:American_bison_k5680-1.jpg",
+        "author": "Jack Dykinga",
+        "license": "Public domain",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "file": "detail/africa-photo-bison.webp"
+      }
+    },
+    "africa-photo-gorilla": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Male_gorilla_in_SF_zoo.jpg",
+        "author": "Brocken Inaglory",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/africa-photo-gorilla.webp"
+      }
+    },
+    "africa-photo-rena": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Pierre-Auguste_Renoir_-_In_the_Woods_-_Google_Art_Project.jpg",
+        "author": "Pierre-Auguste Renoir",
+        "license": "Public domain",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "file": "detail/africa-photo-rena.webp"
+      }
+    },
+    "africa-photo-renb": {
+      "detail": {
+        "source": "https://www.wikiart.org/en/pierre-auguste-renoir/landscape-with-fence",
+        "author": "Пьер Огюст Ренуар",
+        "license": "Живопись в общественном достоянии.",
+        "processing": "Сопоставимая репродукция другого пейзажа автора.",
+        "file": "detail/africa-photo-renb.webp"
+      }
+    },
+    "africa-photo-renc": {
+      "detail": {
+        "source": "https://www.wikiart.org/en/pierre-auguste-renoir/algerian-landscape-the-ravine-of-the-wild-women-1881",
+        "author": "Пьер Огюст Ренуар",
+        "license": "Живопись в общественном достоянии.",
+        "processing": "Та же картина, что в буклете.",
+        "file": "detail/africa-photo-renc.webp"
+      }
+    },
+    "africa-photo-rend": {
+      "detail": {
+        "source": "https://www.wikiart.org/en/pierre-auguste-renoir/barges-on-the-seine-1870",
+        "author": "Пьер Огюст Ренуар",
+        "license": "Живопись в общественном достоянии.",
+        "processing": "Та же картина, что в буклете.",
+        "file": "detail/africa-photo-rend.webp"
+      }
+    },
+    "africa-photo-rene": {
+      "detail": {
+        "source": "https://www.wikiart.org/en/pierre-auguste-renoir/landscape-near-essoyes-1892",
+        "author": "Пьер Огюст Ренуар",
+        "license": "Живопись в общественном достоянии.",
+        "processing": "Сопоставимая репродукция другого пейзажа автора, написанного в Эссуа во Франции.",
+        "file": "detail/africa-photo-rene.webp"
+      }
+    },
+    "africa-photo-sailing": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Portuguese_Carracks_off_a_Rocky_Coast.jpg",
+        "author": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "file": "detail/africa-photo-sailing.webp"
+      }
+    },
+    "africa-photo-balloon": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:2006_Ojiya_balloon_festival_011.jpg",
+        "author": "Kropsoq",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "file": "detail/africa-photo-balloon.webp"
+      }
+    },
+    "africa-photo-ra2": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:19-08-28-Ra2-im-Kon-Tiki-Museum-Oslo-RalfR.jpg",
+        "author": "Ralf Roletschek",
+        "license": "FAL",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "http://artlibre.org/licence/lal/en",
+        "file": "detail/africa-photo-ra2.webp"
+      }
+    },
+    "africa-photo-canoe": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Boats_at_the_shore_of_the_malawi_lake.jpg",
+        "author": "i_pinz",
+        "license": "CC BY-SA 2.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "file": "detail/africa-photo-canoe.webp"
+      }
+    },
+    "africa-photo-steamboat": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:SteamboatBenCampbellb.jpg",
+        "author": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "file": "detail/africa-photo-steamboat.webp"
+      }
+    },
+    "africa-photo-aardvark": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Orycteropus_afer_175359469.jpg",
+        "author": "Kelly Abram",
+        "license": "CC BY 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "file": "detail/africa-photo-aardvark.webp"
+      }
+    },
+    "africa-photo-lionhead": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+        "author": "Giles Laurent",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-lionhead.webp"
+      }
+    },
+    "africa-photo-lithops": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Lithops_2.jpg",
+        "author": "yellowcloud",
+        "license": "CC BY 2.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "file": "detail/africa-photo-lithops.webp"
+      }
+    },
+    "africa-photo-dryforest": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Nyika_miombo.jpg",
+        "author": "Dr. Thomas Wagner, Environmental and Agricultural Consulting and Research",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/africa-photo-dryforest.webp"
+      }
+    },
+    "africa-photo-stonydesert": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Libya_5101_Fozzigiaren_Arch_Tadrart_Acacus_Luca_Galuzzi_2007.jpg",
+        "author": "Luca Galuzzi (Lucag)",
+        "license": "CC BY-SA 2.5",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "file": "detail/africa-photo-stonydesert.webp"
+      }
+    },
+    "africa-5-6-21": {
+      "detail": {
+        "source": "2019/africa/chip_2018-19_5-6.pdf",
+        "author": "Оргкомитет конкурса «Человек и природа» · переработка Olympiads.pro",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Черты иллюстрации переведены в векторные контуры по исходнику; соблюдены порядок вариантов и опознаваемые детали.",
+        "file": "detail/africa-5-6-21.svg"
+      }
+    },
+    "africa-5-6-24": {
+      "detail": {
+        "source": "https://www.e-rara.ch/zut/content/pageview/11583684",
+        "author": "Конрад Миллер · ETH-Bibliothek Zürich, e-rara",
+        "license": "Историческая карта · общественное достояние.",
+        "processing": "Mappaemundi VI, 1898, лист 5. Реконструкция утраченного западного листа.",
+        "file": "detail/africa-5-6-24.webp"
+      }
+    },
+    "africa-photo-marabou": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Leptoptilos_crumeniferus_-Masai_Mara_-Kenya-8-3c.jpg",
+        "author": "originally posted to Flickr as IMG_8043 and uploaded to commons as Leptoptilos_crumeniferus_-Masai_Mara_-Kenya-8.jpg: Hugh Lunnon  derivative work: Snowmanradio (talk)",
+        "license": "CC BY-SA 2.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "file": "detail/africa-photo-marabou.webp"
+      }
+    },
+    "africa-photo-lemur": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Ring-tailed_lemur_(Lemur_catta).jpg",
+        "author": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-lemur.webp"
+      }
+    },
+    "africa-photo-bongo": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Tragelaphus_eurycerus_-Marwell_Wildlife,_Hampshire,_England-8a.jpg",
+        "author": "Charles Miller from Basingstoke, United Kingdom",
+        "license": "CC BY 2.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "file": "detail/africa-photo-bongo.webp"
+      }
+    },
+    "africa-africa-map-1": {
+      "detail": {
+        "source": "https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/",
+        "author": "Natural Earth; Olympiads.pro",
+        "license": "Natural Earth · общественное достояние",
+        "processing": "Векторная карта в новой отрисовке. Порядок и выделенные территории сверены с буклетом.",
+        "file": "detail/africa-africa-map-1.svg"
+      }
+    },
+    "africa-africa-map-2": {
+      "detail": {
+        "source": "https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/",
+        "author": "Natural Earth; Olympiads.pro",
+        "license": "Natural Earth · общественное достояние",
+        "processing": "Векторная карта в новой отрисовке. Порядок и выделенные территории сверены с буклетом.",
+        "file": "detail/africa-africa-map-2.svg"
+      }
+    },
+    "africa-africa-map-3": {
+      "detail": {
+        "source": "https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/",
+        "author": "Natural Earth; Olympiads.pro",
+        "license": "Natural Earth · общественное достояние",
+        "processing": "Векторная карта в новой отрисовке. Порядок и выделенные территории сверены с буклетом.",
+        "file": "detail/africa-africa-map-3.svg"
+      }
+    },
+    "africa-africa-map-4": {
+      "detail": {
+        "source": "https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/",
+        "author": "Natural Earth; Olympiads.pro",
+        "license": "Natural Earth · общественное достояние",
+        "processing": "Векторная карта в новой отрисовке. Порядок и выделенные территории сверены с буклетом.",
+        "file": "detail/africa-africa-map-4.svg"
+      }
+    },
+    "africa-africa-map-5": {
+      "detail": {
+        "source": "https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/",
+        "author": "Natural Earth; Olympiads.pro",
+        "license": "Natural Earth · общественное достояние",
+        "processing": "Векторная карта в новой отрисовке. Порядок и выделенные территории сверены с буклетом.",
+        "file": "detail/africa-africa-map-5.svg"
+      }
+    },
+    "africa-7-8-07": {
+      "detail": {
+        "source": "2019/africa/chip_2018-19_7-8.pdf",
+        "author": "Оргкомитет конкурса «Человек и природа» · переработка Olympiads.pro",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Черты иллюстрации переведены в векторные контуры по исходнику; соблюдены порядок вариантов и опознаваемые детали.",
+        "file": "detail/africa-7-8-07.svg"
+      }
+    },
+    "africa-7-8-09": {
+      "detail": {
+        "source": "2019/africa/chip_2018-19_7-8.pdf",
+        "author": "Оргкомитет конкурса «Человек и природа» · переработка Olympiads.pro",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Черты иллюстрации переведены в векторные контуры по исходнику; соблюдены порядок вариантов и опознаваемые детали.",
+        "file": "detail/africa-7-8-09.svg"
+      }
+    },
+    "africa-photo-blackrhino": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Black_Rhino_at_Working_with_Wildlife.jpg",
+        "author": "AfricanConservation",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-blackrhino.webp"
+      }
+    },
+    "africa-photo-sereb1": {
+      "detail": {
+        "source": "https://www.serebriakova.com/collections/all/view/collioure-1930",
+        "author": "Зинаида Серебрякова · цифровой каталог",
+        "license": "В каталоге отдельная лицензия репродукции не указана.",
+        "processing": "Та же картина, что в буклете.",
+        "file": "detail/africa-photo-sereb1.webp"
+      }
+    },
+    "africa-photo-sereb2": {
+      "detail": {
+        "source": "https://www.serebriakova.com/collections/all/view/auvergne-town-esteng-1935",
+        "author": "Зинаида Серебрякова · цифровой каталог",
+        "license": "В каталоге отдельная лицензия репродукции не указана.",
+        "processing": "Та же картина, что в буклете.",
+        "file": "detail/africa-photo-sereb2.webp"
+      }
+    },
+    "africa-photo-sereb3": {
+      "detail": {
+        "source": "https://www.serebriakova.com/collections/all/view/versailles-the-roofs-of-the-city-1924",
+        "author": "Зинаида Серебрякова · цифровой каталог",
+        "license": "В каталоге отдельная лицензия репродукции не указана.",
+        "processing": "Та же картина, что в буклете.",
+        "file": "detail/africa-photo-sereb3.webp"
+      }
+    },
+    "africa-photo-sereb4": {
+      "detail": {
+        "source": "https://www.serebriakova.com/collections/all/view/marrakech-view-from-the-terrace-at-the-atlas-mountains-1928",
+        "author": "Зинаида Серебрякова · цифровой каталог",
+        "license": "В каталоге отдельная лицензия репродукции не указана.",
+        "processing": "Та же картина, что в буклете.",
+        "file": "detail/africa-photo-sereb4.webp"
+      }
+    },
+    "africa-photo-sereb5": {
+      "detail": {
+        "source": "https://www.serebriakova.com/collections/all/view/florence-ponte-vecchio-1932",
+        "author": "Зинаида Серебрякова · цифровой каталог",
+        "license": "В каталоге отдельная лицензия репродукции не указана.",
+        "processing": "Та же картина, что в буклете.",
+        "file": "detail/africa-photo-sereb5.webp"
+      }
+    },
+    "africa-photo-falcon": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Falco_peregrinus_m_Humber_Bay_Park_Toronto.jpg",
+        "author": "Mykola Swarnyk",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/africa-photo-falcon.webp"
+      }
+    },
+    "africa-photo-marmoset": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Dv%C3%A6rgsilkeabe_Callithrix_pygmaea.jpg",
+        "author": "Malene Thyssen (User Malene)",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "file": "detail/africa-photo-marmoset.webp"
+      }
+    },
+    "africa-photo-mandrill": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Mandrill_Albert_September_2015_Zoo_Berlin_(2).jpg",
+        "author": "Katma0601",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-mandrill.webp"
+      }
+    },
+    "africa-photo-monkey": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Red-tailed_monkey_(Cercopithecus_ascanius),_Semliki_Wildlife_Reserve.jpg",
+        "author": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-monkey.webp"
+      }
+    },
+    "africa-photo-chimp": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:015_Chimpanzee_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg",
+        "author": "Giles Laurent",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-chimp.webp"
+      }
+    },
+    "africa-photo-gorillahead": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Susa_group,_mountain_gorilla.jpg",
+        "author": "https://www.flickr.com/photos/deepphoto/ d_proffer",
+        "license": "CC BY 2.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "file": "detail/africa-photo-gorillahead.webp"
+      }
+    },
+    "africa-photo-leafbeetle": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Scarlet_lily_beetle_lilioceris_lilii.jpg",
+        "author": "Charles J. Sharp",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/africa-photo-leafbeetle.webp"
+      }
+    },
+    "africa-photo-mamba": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Dendroaspis_polylepis_(14).jpg",
+        "author": "TimVickers",
+        "license": "Public domain",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "file": "detail/africa-photo-mamba.webp"
+      }
+    },
+    "africa-photo-scorpion": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Deathstalker_ST_07.JPG",
+        "author": "This file is a work by Ester Inbar (user:ST or he:user:ST). More of my work can be found in Category:Files by User:ST.  If you use my work outside Wikimedia I would appreciate being notified and referred to site where used here.",
+        "license": "Свободная лицензия с атрибуцией автора",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "file": "detail/africa-photo-scorpion.webp"
+      }
+    },
+    "africa-photo-frog": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Dendrobates_azureus_qtl1.jpg",
+        "author": "Quartl",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/africa-photo-frog.webp"
+      }
+    },
+    "africa-photo-moth": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Urania_riphaeus_engraving.jpg",
+        "author": "Orbigny, Charles Dessalines d', author; Blanchard, artist ; Lamoureux, printer ; Fournier, engraver",
+        "license": "Public domain",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "file": "detail/africa-photo-moth.webp"
+      }
+    },
+    "africa-photo-bighole": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Open_pit_mine.jpg",
+        "author": "Irene2005",
+        "license": "CC BY 2.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "file": "detail/africa-photo-bighole.webp"
+      }
+    },
+    "africa-photo-sansevieria": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Sansevieria_cylindrica_flowers_7.jpg",
+        "author": "Mokkie",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/africa-photo-sansevieria.webp"
+      }
+    },
+    "africa-photo-aloe": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Unidentified_Agave_plant_5.jpg",
+        "author": "Andrew McMillan",
+        "license": "Public domain",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "file": "detail/africa-photo-aloe.webp"
+      }
+    },
+    "africa-photo-zzplant": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Zamioculcas_zamiifolia_1.jpg",
+        "author": "User:WeFt",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "file": "detail/africa-photo-zzplant.webp"
+      }
+    },
+    "africa-photo-lithopspot": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Lithops_2.jpg",
+        "author": "yellowcloud",
+        "license": "CC BY 2.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "file": "detail/africa-photo-lithopspot.webp"
+      }
+    },
+    "africa-photo-jade": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Crassula_ovata_700.jpg",
+        "author": "author is sannse.",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "file": "detail/africa-photo-jade.webp"
+      }
+    },
+    "africa-photo-mata": {
+      "detail": {
+        "source": "https://www.wikiart.org/en/henri-matisse/view-of-collioure-1",
+        "author": "Анри Матисс",
+        "license": "Историческая живопись; коллекционная репродукция.",
+        "processing": "Сопоставимый пейзаж автора, написанный в Коллиуре во Франции.",
+        "file": "detail/africa-photo-mata.webp"
+      }
+    },
+    "africa-photo-matb": {
+      "detail": {
+        "source": "https://www.wikiart.org/en/henri-matisse/the-artist-s-garden-at-issy-les-moulineaux-1918",
+        "author": "Анри Матисс",
+        "license": "Историческая живопись; коллекционная репродукция.",
+        "processing": "Сопоставимый пейзаж автора, написанный в Исси-ле-Мулино во Франции.",
+        "file": "detail/africa-photo-matb.webp"
+      }
+    },
+    "africa-photo-matc": {
+      "detail": {
+        "source": "https://www.wikiart.org/en/henri-matisse/landscape-3",
+        "author": "Анри Матисс",
+        "license": "Историческая живопись; коллекционная репродукция.",
+        "processing": "Та же картина, что в буклете.",
+        "file": "detail/africa-photo-matc.webp"
+      }
+    },
+    "africa-photo-matd": {
+      "detail": {
+        "source": "https://www.wikiart.org/en/henri-matisse/the-stream-near-nice",
+        "author": "Анри Матисс",
+        "license": "Историческая живопись; коллекционная репродукция.",
+        "processing": "Сопоставимый пейзаж автора, написанный возле Ниццы во Франции.",
+        "file": "detail/africa-photo-matd.webp"
+      }
+    },
+    "africa-photo-mate": {
+      "detail": {
+        "source": "https://www.theartnewspaper.com/2025/06/03/rain-insomnia-and-finding-a-model-how-morocco-challenged-and-changed-matisse",
+        "author": "Анри Матисс · собрание ГМИИ имени А. С. Пушкина",
+        "license": "Репродукция исторической живописи.",
+        "processing": "Репродукция оригинальной работы или снимок музейного предмета.",
+        "file": "detail/africa-photo-mate.webp"
+      }
+    },
+    "africa-photo-fossa": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Cryptoprocta_Ferox.JPG",
+        "author": "Ran Kirlian",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-fossa.webp"
+      }
+    },
+    "africa-photo-lynx": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Lynx_Nationalpark_Bayerischer_Wald_01.jpg",
+        "author": "Aconcagua (talk)",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/africa-photo-lynx.webp"
+      }
+    },
+    "africa-photo-headrest": {
+      "detail": {
+        "source": "https://www.metmuseum.org/art/collection/search/314981",
+        "author": "Мастер народа оромо · Музей Метрополитен",
+        "license": "Public Domain",
+        "processing": "Вместо маленького растра показан музейный подголовник из Восточной Африки.",
+        "file": "detail/africa-photo-headrest.webp"
+      }
+    },
+    "africa-coat-eqguinea": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Equatorial_Guinea.svg",
+        "author": "Szczepan dyskusja Mail 08:10, 2 April 2007 (UTC)",
+        "license": "Public domain",
+        "processing": "Герб той же страны из векторного источника.",
+        "file": "detail/africa-coat-eqguinea.svg"
+      }
+    },
+    "africa-coat-sl": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Sierra_Leone.svg",
+        "author": "Lion héraldique.svg - Bluebear2 Heraldique meuble lion passant.svg - Rinaldum, S@m, Zigeuner Coat of arms of Haiti (1964-1986).svg - Thommy9 derivative work: Yuma",
+        "license": "CC BY-SA 3.0",
+        "processing": "Герб той же страны из векторного источника.",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "file": "detail/africa-coat-sl.svg"
+      }
+    },
+    "africa-coat-gabon": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Gabon.svg",
+        "author": "Original by Louis Mühlemann, vectorised by user:Fenn-O-maniC",
+        "license": "Public domain",
+        "processing": "Герб той же страны из векторного источника.",
+        "file": "detail/africa-coat-gabon.svg"
+      }
+    },
+    "africa-coat-senegal": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Senegal.svg",
+        "author": "Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "processing": "Герб той же страны из векторного источника.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/africa-coat-senegal.svg"
+      }
+    },
+    "africa-coat-liberia": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Liberia.svg",
+        "author": "FXXX",
+        "license": "Public domain",
+        "processing": "Герб той же страны из векторного источника.",
+        "file": "detail/africa-coat-liberia.svg"
+      }
+    },
+    "africa-coat-botswana": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Botswana.svg",
+        "author": "Wikimedia Commons",
+        "license": "Public domain",
+        "processing": "Герб той же страны из векторного источника.",
+        "file": "detail/africa-coat-botswana.svg"
+      }
+    },
+    "africa-coat-australia": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_the_Commonwealth_of_Australia.svg",
+        "author": "Sodacan",
+        "license": "Public domain",
+        "processing": "Герб той же страны из векторного источника.",
+        "file": "detail/africa-coat-australia.svg"
+      }
+    },
+    "africa-coat-gambia": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_The_Gambia.svg",
+        "author": "Original design by Nicholas Potin, vectorised by user:Fenn-O-maniC",
+        "license": "CC BY-SA 3.0",
+        "processing": "Герб той же страны из векторного источника.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/africa-coat-gambia.svg"
+      }
+    },
+    "africa-coat-zimbabwe": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Zimbabwe.svg",
+        "author": "FischX, Meul",
+        "license": "Public domain",
+        "processing": "Герб той же страны из векторного источника.",
+        "file": "detail/africa-coat-zimbabwe.svg"
+      }
+    },
+    "africa-coat-uganda": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Uganda.svg",
+        "author": "Sodacan",
+        "license": "CC BY-SA 3.0",
+        "processing": "Герб той же страны из векторного источника.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/africa-coat-uganda.svg"
+      }
+    },
+    "africa-coat-namibia": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Namibia.svg",
+        "author": "Wikimedia Commons",
+        "license": "Public domain",
+        "processing": "Герб той же страны из векторного источника.",
+        "file": "detail/africa-coat-namibia.svg"
+      }
+    },
+    "africa-coat-mozambique": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Emblem_of_Mozambique.svg",
+        "author": "Jam123",
+        "license": "CC0",
+        "processing": "Герб той же страны из векторного источника.",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "file": "detail/africa-coat-mozambique.svg"
+      }
+    },
+    "africa-coat-mauritius": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Mauritius.svg",
+        "author": "User:Escondites",
+        "license": "CC BY-SA 3.0",
+        "processing": "Герб той же страны из векторного источника.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/africa-coat-mauritius.svg"
+      }
+    },
+    "africa-coat-angola": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Emblem_of_Angola.svg",
+        "author": "Wikimedia Commons",
+        "license": "Public domain",
+        "processing": "Герб той же страны из векторного источника.",
+        "file": "detail/africa-coat-angola.svg"
+      }
+    },
+    "africa-equator": {
+      "detail": {
+        "source": "2019/africa/chip_2018-19_7-8.pdf",
+        "author": "Оргкомитет · переработка Olympiads.pro",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Щит заново построен по исходной фотографии и карте Natural Earth.",
+        "file": "detail/africa-equator.svg"
+      }
+    },
+    "africa-coat-eritrea": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Emblem_of_Eritrea_(or_argent_azur).svg",
+        "author": "SanchoPanzaXXI",
+        "license": "Public domain",
+        "processing": "Герб той же страны из векторного источника.",
+        "file": "detail/africa-coat-eritrea.svg"
+      }
+    },
+    "africa-coat-somalia": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Somalia.svg",
+        "author": "Thommy",
+        "license": "Public domain",
+        "processing": "Герб той же страны из векторного источника.",
+        "file": "detail/africa-coat-somalia.svg"
+      }
+    },
+    "africa-coat-eswatini": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Eswatini.svg",
+        "author": "RoyFocker 12",
+        "license": "Public domain",
+        "processing": "Герб той же страны из векторного источника.",
+        "file": "detail/africa-coat-eswatini.svg"
+      }
+    },
+    "africa-coat-malaysia": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Malaysia.svg",
+        "author": "This vector image includes elements that have been taken or adapted from this file:",
+        "license": "Public domain",
+        "processing": "Герб той же страны из векторного источника.",
+        "file": "detail/africa-coat-malaysia.svg"
+      }
+    },
+    "africa-9-10-08": {
+      "detail": {
+        "source": "2019/africa/chip_2018-19_9-10.pdf",
+        "author": "Оргкомитет конкурса «Человек и природа» · переработка Olympiads.pro",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Черты иллюстрации переведены в векторные контуры по исходнику; соблюдены порядок вариантов и опознаваемые детали.",
+        "file": "detail/africa-9-10-08.svg"
+      }
     }
   }
 }

@@ -169,12 +169,38 @@
       "В ребусе Г от «ножи» оставляем «жи», читаем Р и перевёрнутую подсказку с нотой «фа» как «аф». Жираф выше перечисленных животных."
     ],
     "figure": {
-      "condition": {
-        "src": "assets/medvezhonok/2002/6-7-10-rebuses.webp",
-        "alt": "Пять ребусов с подписями А, Б, В, Г, Д: бант, шило, дым, шар, бокал, буквы, ножи, нотный стан, кол и пень. Запятые показывают, где нужно убрать буквы.",
-        "width": 416,
-        "height": 153
-      }
+      "options": [
+        {
+          "src": "assets/medvezhonok/2002/6-7-10-rebus-1.webp",
+          "description": "Бант, шило и дым с запятыми.",
+          "pixelWidth": 257,
+          "pixelHeight": 84
+        },
+        {
+          "src": "assets/medvezhonok/2002/6-7-10-rebus-2.webp",
+          "description": "Шар и бокал с запятыми.",
+          "pixelWidth": 150,
+          "pixelHeight": 83
+        },
+        {
+          "src": "assets/medvezhonok/2002/6-7-10-rebus-3.webp",
+          "description": "Две наложенные друг на друга буквы.",
+          "pixelWidth": 67,
+          "pixelHeight": 65
+        },
+        {
+          "src": "assets/medvezhonok/2002/6-7-10-rebus-4.webp",
+          "description": "Ножи с двумя запятыми слева, буква Р и перевёрнутый нотный стан.",
+          "pixelWidth": 211,
+          "pixelHeight": 65
+        },
+        {
+          "src": "assets/medvezhonok/2002/6-7-10-rebus-5.webp",
+          "description": "Единица и пень с запятыми слева.",
+          "pixelWidth": 131,
+          "pixelHeight": 65
+        }
+      ]
     }
   },
   {

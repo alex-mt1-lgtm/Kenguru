@@ -102,10 +102,10 @@
       {
         "src": "assets/chip/2014/1-2-04-3.webp",
         "detailSrc": "assets/chip/2014/detail/1-2-04-3.webp",
-        "width": 105,
-        "height": 105,
-        "pixelWidth": 105,
-        "pixelHeight": 105,
+        "width": 480,
+        "height": 319,
+        "pixelWidth": 1500,
+        "pixelHeight": 997,
         "alt": "Зверь с длинным хвостом и сильными задними лапами."
       },
       {
@@ -211,47 +211,47 @@
     "optionFigures": [
       {
         "src": "assets/chip/2014/1-2-08-1.webp",
-        "detailSrc": "assets/chip/2014/detail/1-2-08-1.webp",
-        "width": 107,
-        "height": 105,
-        "pixelWidth": 107,
-        "pixelHeight": 105,
+        "detailSrc": "assets/chip/2014/detail/1-2-08-1.svg",
+        "width": 480,
+        "height": 472,
+        "pixelWidth": 920,
+        "pixelHeight": 903,
         "alt": "Широкий вытянутый контур с большими южными полуостровами."
       },
       {
         "src": "assets/chip/2014/1-2-08-2.webp",
-        "detailSrc": "assets/chip/2014/detail/1-2-08-2.webp",
-        "width": 110,
-        "height": 105,
-        "pixelWidth": 110,
-        "pixelHeight": 105,
+        "detailSrc": "assets/chip/2014/detail/1-2-08-2.svg",
+        "width": 480,
+        "height": 459,
+        "pixelWidth": 920,
+        "pixelHeight": 878,
         "alt": "Материк с широким севером и сужающимся югом. У юго-восточного берега большой остров."
       },
       {
         "src": "assets/chip/2014/1-2-08-3.webp",
-        "detailSrc": "assets/chip/2014/detail/1-2-08-3.webp",
-        "width": 109,
-        "height": 105,
-        "pixelWidth": 109,
-        "pixelHeight": 105,
+        "detailSrc": "assets/chip/2014/detail/1-2-08-3.svg",
+        "width": 480,
+        "height": 463,
+        "pixelWidth": 920,
+        "pixelHeight": 886,
         "alt": "Длинный контур с несколькими полуостровами на западе и севере."
       },
       {
         "src": "assets/chip/2014/1-2-08-4.webp",
-        "detailSrc": "assets/chip/2014/detail/1-2-08-4.webp",
-        "width": 109,
-        "height": 105,
-        "pixelWidth": 109,
-        "pixelHeight": 105,
+        "detailSrc": "assets/chip/2014/detail/1-2-08-4.svg",
+        "width": 480,
+        "height": 463,
+        "pixelWidth": 920,
+        "pixelHeight": 886,
         "alt": "Округлый контур с узким выступом с одной стороны."
       },
       {
         "src": "assets/chip/2014/1-2-08-5.webp",
-        "detailSrc": "assets/chip/2014/detail/1-2-08-5.webp",
-        "width": 109,
-        "height": 105,
-        "pixelWidth": 109,
-        "pixelHeight": 105,
+        "detailSrc": "assets/chip/2014/detail/1-2-08-5.svg",
+        "width": 480,
+        "height": 463,
+        "pixelWidth": 920,
+        "pixelHeight": 886,
         "alt": "Компактный материк и несколько соседних островов."
       }
     ]
@@ -460,10 +460,10 @@
       {
         "src": "assets/chip/2014/1-2-15-3.webp",
         "detailSrc": "assets/chip/2014/detail/1-2-15-3.webp",
-        "width": 105,
-        "height": 105,
-        "pixelWidth": 105,
-        "pixelHeight": 105,
+        "width": 480,
+        "height": 320,
+        "pixelWidth": 1600,
+        "pixelHeight": 1066,
         "alt": "Крупные цельные листья и кисть ярко-розовых цветков."
       },
       {
@@ -542,11 +542,11 @@
     ],
     "figure": {
       "src": "assets/chip/2014/1-2-18.webp",
-      "detailSrc": "assets/chip/2014/detail/1-2-18.webp",
-      "width": 200,
-      "height": 197,
-      "pixelWidth": 200,
-      "pixelHeight": 197,
+      "detailSrc": "assets/chip/2014/detail/1-2-18.svg",
+      "width": 480,
+      "height": 475,
+      "pixelWidth": 920,
+      "pixelHeight": 909,
       "alt": "Малая Медведица слева и Большая Медведица справа. У звёзд подписаны номера 1–5."
     }
   },
@@ -588,10 +588,10 @@
     "figure": {
       "src": "assets/chip/2014/1-2-20.webp",
       "detailSrc": "assets/chip/2014/detail/1-2-20.webp",
-      "width": 200,
-      "height": 168,
-      "pixelWidth": 200,
-      "pixelHeight": 168,
+      "width": 480,
+      "height": 405,
+      "pixelWidth": 1600,
+      "pixelHeight": 1351,
       "alt": "Герб с заснеженной горой, зелёными холмами и гирляндой красных цветов."
     }
   }

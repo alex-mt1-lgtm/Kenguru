@@ -37,47 +37,47 @@
     "optionFigures": [
       {
         "src": "assets/chip/2014/3-4-02-1.webp",
-        "detailSrc": "assets/chip/2014/detail/3-4-02-1.webp",
-        "width": 108,
-        "height": 105,
-        "pixelWidth": 108,
-        "pixelHeight": 105,
+        "detailSrc": "assets/chip/2014/detail/3-4-02-1.svg",
+        "width": 480,
+        "height": 467,
+        "pixelWidth": 920,
+        "pixelHeight": 894,
         "alt": "Компактный контур и соседние острова."
       },
       {
         "src": "assets/chip/2014/3-4-02-2.webp",
-        "detailSrc": "assets/chip/2014/detail/3-4-02-2.webp",
-        "width": 110,
-        "height": 105,
-        "pixelWidth": 110,
-        "pixelHeight": 105,
+        "detailSrc": "assets/chip/2014/detail/3-4-02-2.svg",
+        "width": 480,
+        "height": 459,
+        "pixelWidth": 920,
+        "pixelHeight": 878,
         "alt": "Широкий материк от Атлантического океана до Тихого, с южными полуостровами."
       },
       {
         "src": "assets/chip/2014/3-4-02-3.webp",
-        "detailSrc": "assets/chip/2014/detail/3-4-02-3.webp",
-        "width": 110,
-        "height": 105,
-        "pixelWidth": 110,
-        "pixelHeight": 105,
+        "detailSrc": "assets/chip/2014/detail/3-4-02-3.svg",
+        "width": 480,
+        "height": 459,
+        "pixelWidth": 920,
+        "pixelHeight": 878,
         "alt": "Крупный контур, который сужается к югу, с выступом справа на севере."
       },
       {
         "src": "assets/chip/2014/3-4-02-4.webp",
-        "detailSrc": "assets/chip/2014/detail/3-4-02-4.webp",
-        "width": 111,
-        "height": 105,
-        "pixelWidth": 111,
-        "pixelHeight": 105,
+        "detailSrc": "assets/chip/2014/detail/3-4-02-4.svg",
+        "width": 480,
+        "height": 454,
+        "pixelWidth": 920,
+        "pixelHeight": 870,
         "alt": "Широкий север и более узкий юг, у берегов большой остров."
       },
       {
         "src": "assets/chip/2014/3-4-02-5.webp",
-        "detailSrc": "assets/chip/2014/detail/3-4-02-5.webp",
-        "width": 108,
-        "height": 105,
-        "pixelWidth": 108,
-        "pixelHeight": 105,
+        "detailSrc": "assets/chip/2014/detail/3-4-02-5.svg",
+        "width": 480,
+        "height": 467,
+        "pixelWidth": 920,
+        "pixelHeight": 894,
         "alt": "Часть света с северным и южным материками, соединёнными перешейком."
       }
     ]
@@ -221,11 +221,11 @@
     "optionFigures": [
       {
         "src": "assets/chip/2014/3-4-09-1.webp",
-        "detailSrc": "assets/chip/2014/detail/3-4-09-1.webp",
-        "width": 105,
-        "height": 105,
-        "pixelWidth": 105,
-        "pixelHeight": 105,
+        "detailSrc": "assets/chip/2014/detail/two-hump-camel.webp",
+        "width": 480,
+        "height": 320,
+        "pixelWidth": 1600,
+        "pixelHeight": 1066,
         "alt": "Верблюд с двумя горбами."
       },
       {
@@ -258,10 +258,10 @@
       {
         "src": "assets/chip/2014/3-4-09-5.webp",
         "detailSrc": "assets/chip/2014/detail/3-4-09-5.webp",
-        "width": 105,
-        "height": 105,
-        "pixelWidth": 105,
-        "pixelHeight": 105,
+        "width": 480,
+        "height": 378,
+        "pixelWidth": 1288,
+        "pixelHeight": 1015,
         "alt": "Невысокая лошадь со стоячей гривой и светлой мордой."
       }
     ]
@@ -305,47 +305,47 @@
     "optionFigures": [
       {
         "src": "assets/chip/2014/3-4-11-1.webp",
-        "detailSrc": "assets/chip/2014/detail/3-4-11-1.webp",
-        "width": 107,
-        "height": 105,
-        "pixelWidth": 107,
-        "pixelHeight": 105,
+        "detailSrc": "assets/chip/2014/detail/3-4-11-1.svg",
+        "width": 480,
+        "height": 480,
+        "pixelWidth": 920,
+        "pixelHeight": 920,
         "alt": "Солнце в центре. Луна движется по внешней орбите, Земля по внутренней."
       },
       {
         "src": "assets/chip/2014/3-4-11-2.webp",
-        "detailSrc": "assets/chip/2014/detail/3-4-11-2.webp",
-        "width": 111,
-        "height": 105,
-        "pixelWidth": 111,
-        "pixelHeight": 105,
+        "detailSrc": "assets/chip/2014/detail/3-4-11-2.svg",
+        "width": 480,
+        "height": 480,
+        "pixelWidth": 920,
+        "pixelHeight": 920,
         "alt": "Луна в центре. Земля движется по малой орбите, Солнце по внешней."
       },
       {
         "src": "assets/chip/2014/3-4-11-3.webp",
-        "detailSrc": "assets/chip/2014/detail/3-4-11-3.webp",
-        "width": 109,
-        "height": 105,
-        "pixelWidth": 109,
-        "pixelHeight": 105,
+        "detailSrc": "assets/chip/2014/detail/3-4-11-3.svg",
+        "width": 480,
+        "height": 480,
+        "pixelWidth": 920,
+        "pixelHeight": 920,
         "alt": "Земля находится на большой орбите вокруг Солнца, а Луна на небольшой орбите вокруг Земли."
       },
       {
         "src": "assets/chip/2014/3-4-11-4.webp",
-        "detailSrc": "assets/chip/2014/detail/3-4-11-4.webp",
-        "width": 109,
-        "height": 105,
-        "pixelWidth": 109,
-        "pixelHeight": 105,
+        "detailSrc": "assets/chip/2014/detail/3-4-11-4.svg",
+        "width": 480,
+        "height": 480,
+        "pixelWidth": 920,
+        "pixelHeight": 920,
         "alt": "Земля в центре. Луна движется по внешней орбите, Солнце по внутренней."
       },
       {
         "src": "assets/chip/2014/3-4-11-5.webp",
-        "detailSrc": "assets/chip/2014/detail/3-4-11-5.webp",
-        "width": 109,
-        "height": 105,
-        "pixelWidth": 109,
-        "pixelHeight": 105,
+        "detailSrc": "assets/chip/2014/detail/3-4-11-5.svg",
+        "width": 480,
+        "height": 480,
+        "pixelWidth": 920,
+        "pixelHeight": 920,
         "alt": "Земля в центре внешней орбиты, на которой находится Солнце. Луна обращается вокруг Солнца."
       }
     ]
@@ -499,8 +499,8 @@
     "points": 4,
     "title": "Ядовитые плоды",
     "steps": [
-      "На варианте Г под белыми цветками и широкими листьями показан ландыш. Его цветки напоминают маленькие колокольчики.",
-      "Плоды ландыша ядовиты. Узнавать растение важно именно по его признакам, а не только по цвету плодов."
+      "На рисунке Г видна одна синевато-чёрная ягода в центре четырёх листьев. Так выглядит вороний глаз.",
+      "Плоды вороньего глаза ядовиты. Узнавай растение по положению ягоды и листьев: по одному цвету ягоды её определить нельзя."
     ],
     "adaptation": "Добавлен отличительный признак ядовитого растения.",
     "optionFigures": [
@@ -534,10 +534,10 @@
       {
         "src": "assets/chip/2014/3-4-19-4.webp",
         "detailSrc": "assets/chip/2014/detail/3-4-19-4.webp",
-        "width": 110,
-        "height": 105,
-        "pixelWidth": 110,
-        "pixelHeight": 105,
+        "width": 480,
+        "height": 360,
+        "pixelWidth": 1600,
+        "pixelHeight": 1200,
         "alt": "Одна синяя ягода в центре мутовки листьев."
       },
       {
@@ -609,10 +609,10 @@
     "figure": {
       "src": "assets/chip/2014/3-4-22.webp",
       "detailSrc": "assets/chip/2014/detail/3-4-22.webp",
-      "width": 200,
-      "height": 197,
-      "pixelWidth": 200,
-      "pixelHeight": 197,
+      "width": 480,
+      "height": 473,
+      "pixelWidth": 1600,
+      "pixelHeight": 1576,
       "alt": "Герб со щитом, кораблём и двумя фигурами по бокам. В четвертях щита показаны растения и птица с ветвью."
     }
   },
@@ -673,10 +673,10 @@
     "figure": {
       "src": "assets/chip/2014/3-4-25.webp",
       "detailSrc": "assets/chip/2014/detail/3-4-25.webp",
-      "width": 200,
-      "height": 182,
-      "pixelWidth": 200,
-      "pixelHeight": 182,
+      "width": 480,
+      "height": 360,
+      "pixelWidth": 1600,
+      "pixelHeight": 1200,
       "alt": "Несколько высоких уплощённых земляных построек среди редких деревьев и сухой травы."
     }
   },
@@ -719,11 +719,11 @@
     "adaptation": "Задано различие скорости воды у верхних и нижних лопастей.",
     "figure": {
       "src": "assets/chip/2014/3-4-27.webp",
-      "detailSrc": "assets/chip/2014/detail/3-4-27.webp",
-      "width": 200,
-      "height": 149,
-      "pixelWidth": 200,
-      "pixelHeight": 149,
+      "detailSrc": "assets/chip/2014/detail/3-4-27.svg",
+      "width": 480,
+      "height": 360,
+      "pixelWidth": 920,
+      "pixelHeight": 690,
       "alt": "Поперечный вид берега и воды. Около дна видно колесо с радиальными лопастями."
     }
   },

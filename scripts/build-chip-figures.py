@@ -30,13 +30,14 @@ def credit_lines(path, manifest):
     label = year
     if manifest.get('title'):
         label += ' · ' + manifest['title']
-    for edition in sorted(path.parent.glob('*.json')):
+    for edition in sorted(path.parent.rglob('*.json')):
         grade = edition.stem
         if not re.fullmatch(r'\d+(?:-\d+)?', grade):
             continue
         grade_label = grade.replace('-', '–')
         grade_label += ' классы' if '-' in grade else ' класс'
-        yield f'<h2>{escape(label)} · {grade_label}</h2><ul>'
+        session_label = ' · Африка' if edition.parent.name == 'africa' else ''
+        yield f'<h2>{escape(label + session_label)} · {grade_label}</h2><ul>'
         rows = json.loads(edition.read_text(encoding='utf-8'))
         credits = set()
         for row in rows:

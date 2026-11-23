@@ -271,12 +271,38 @@
       "В ребусе Г У по Д, а у шкафа убирается последняя ф: «по-Д-У-шка». Подушку обычно не носят в портфеле."
     ],
     "figure": {
-      "condition": {
-        "src": "assets/medvezhonok/2003/3-5-16-rebuses.webp",
-        "alt": "Пять ребусов с буквами А, Б, В, Г, Д. Встречаются Т, «100 см», гиря, лист, Н, лейка, вложенные буквы, шкаф, единица и веник. Запятые указывают, какие буквы отбросить.",
-        "width": 452,
-        "height": 120
-      }
+      "options": [
+        {
+          "src": "assets/medvezhonok/2003/3-5-16-rebus-1.webp",
+          "description": "Буква Т, число 100 см и гиря с запятыми.",
+          "pixelWidth": 161,
+          "pixelHeight": 50
+        },
+        {
+          "src": "assets/medvezhonok/2003/3-5-16-rebus-2.webp",
+          "description": "Лист, буква Н и лейка с запятыми.",
+          "pixelWidth": 190,
+          "pixelHeight": 52
+        },
+        {
+          "src": "assets/medvezhonok/2003/3-5-16-rebus-3.webp",
+          "description": "Курсивная буква и фигура из двух букв.",
+          "pixelWidth": 74,
+          "pixelHeight": 55
+        },
+        {
+          "src": "assets/medvezhonok/2003/3-5-16-rebus-4.webp",
+          "description": "Большая Д в маленьких У и шкаф с запятой справа.",
+          "pixelWidth": 185,
+          "pixelHeight": 64
+        },
+        {
+          "src": "assets/medvezhonok/2003/3-5-16-rebus-5.webp",
+          "description": "Единица рядом с веником и обозначение перестановки.",
+          "pixelWidth": 129,
+          "pixelHeight": 62
+        }
+      ]
     }
   },
   {

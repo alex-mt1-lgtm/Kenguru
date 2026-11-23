@@ -288,12 +288,38 @@
       "В ребусе Д буквы У расположены по П, а от «гайка» оставляют «гай». Попугай — птица, которая на грядке не растёт."
     ],
     "figure": {
-      "condition": {
-        "src": "assets/medvezhonok/2002/3-5-17-rebuses.webp",
-        "alt": "Пять ребусов с подписями А, Б, В, Г, Д. Видны буквы, ноты, лук, рот, пятёрка, кружка и гайка. Запятые и стрелки указывают на удаления и замены букв.",
-        "width": 675,
-        "height": 215
-      }
+      "options": [
+        {
+          "src": "assets/medvezhonok/2002/3-5-17-rebus-1.webp",
+          "description": "Большая М с маленькими И, нота и Р.",
+          "pixelWidth": 611,
+          "pixelHeight": 184
+        },
+        {
+          "src": "assets/medvezhonok/2002/3-5-17-rebus-2.webp",
+          "description": "Луковица с запятой слева, рот с запятой справа и буква П.",
+          "pixelWidth": 545,
+          "pixelHeight": 254
+        },
+        {
+          "src": "assets/medvezhonok/2002/3-5-17-rebus-3.webp",
+          "description": "Цифра 5 и кружка с запятыми и заменой букв.",
+          "pixelWidth": 461,
+          "pixelHeight": 216
+        },
+        {
+          "src": "assets/medvezhonok/2002/3-5-17-rebus-4.webp",
+          "description": "Два нотных стана с нотами и запятая между ними.",
+          "pixelWidth": 463,
+          "pixelHeight": 206
+        },
+        {
+          "src": "assets/medvezhonok/2002/3-5-17-rebus-5.webp",
+          "description": "Большая П с маленькими У и гайка с двумя запятыми справа.",
+          "pixelWidth": 371,
+          "pixelHeight": 212
+        }
+      ]
     }
   },
   {

@@ -13,19 +13,19 @@
     },
     "1-2-04": {
       "detail": {
-        "source": "2012/1-2_2012.pdf",
-        "author": "Оргкомитет конкурса «Человек и природа»",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Извлечено из оригинального буклета без увеличения. Исходное разрешение ограничено.",
+        "source": "https://italian-art.pushkinmuseum.art/canvas/17-18_century/c/canaletto/bucentaur.php",
+        "author": "Джованни Антонио Каналь (Каналетто) · ГМИИ им. А. С. Пушкина",
+        "license": "Общественное достояние.",
+        "processing": "Та же картина «Возвращение Бучинторо к молу у Дворца дожей», воспроизведена в исходной ориентации музейного каталога.",
         "file": "detail/1-2-04.webp"
       }
     },
     "1-2-06": {
       "detail": {
-        "source": "2012/1-2_2012.pdf",
-        "author": "Оргкомитет конкурса «Человек и природа»",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Извлечено из оригинального буклета без увеличения. Исходное разрешение ограничено.",
+        "source": "https://www.stozharov.ru/index_st.php?id=110&lang=",
+        "author": "Владимир Фёдорович Стожаров",
+        "license": "На сайте художника отдельная лицензия на репродукцию не указана.",
+        "processing": "Та же работа «Река Ёртом. Ледоход». Мастер 512 × 319 получен с сайта художника.",
         "file": "detail/1-2-06.webp"
       }
     },
@@ -40,19 +40,20 @@
     },
     "1-2-08": {
       "detail": {
-        "source": "2012/1-2_2012.pdf",
-        "author": "Оргкомитет конкурса «Человек и природа»",
+        "source": "https://web.archive.org/web/20170921091926/http://www.konkurs-chip.ru:80/file/files/1-2_2012.doc",
+        "author": "Оргкомитет конкурса «Человек и природа» · векторная редакция Olympiads.pro",
         "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Извлечено из оригинального буклета без увеличения. Исходное разрешение ограничено.",
-        "file": "detail/1-2-08.webp"
+        "processing": "Векторная перерисовка по иллюстрации исходного буклета. Сохранены исходный объект, ракурс и относящиеся к задаче детали.",
+        "file": "detail/1-2-08.svg"
       }
     },
     "1-2-12": {
       "detail": {
-        "source": "2012/1-2_2012.pdf",
-        "author": "Оргкомитет конкурса «Человек и природа»",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Извлечено из оригинального буклета без увеличения. Исходное разрешение ограничено.",
+        "source": "https://commons.wikimedia.org/wiki/File:RanaTemporariaLarva2.jpg",
+        "author": "Viridiflavus",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "processing": "Крупная фотография того же объекта, выделенного в исходном буклете.",
         "file": "detail/1-2-12.webp"
       }
     },
@@ -76,82 +77,91 @@
     },
     "1-2-15-3": {
       "detail": {
-        "source": "https://web.archive.org/web/20170921091926/http://www.konkurs-chip.ru:80/file/files/1-2_2012.doc",
-        "author": "Оргкомитет конкурса «Человек и природа»",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Изображения в порядке исходного варианта.",
+        "source": "https://www.inaturalist.org/photos/202408759",
+        "author": "no rights reserved",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "processing": "Крупный снимок того же растения или животного (Scirpus sylvaticus). Признаки сопоставлены с иллюстрацией буклета.",
         "file": "detail/1-2-15-3.webp"
       }
     },
     "1-2-15-4": {
       "detail": {
-        "source": "https://web.archive.org/web/20170921091926/http://www.konkurs-chip.ru:80/file/files/1-2_2012.doc",
-        "author": "Оргкомитет конкурса «Человек и природа»",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Изображения в порядке исходного варианта.",
+        "source": "https://commons.wikimedia.org/wiki/File:Reed_panicle_at_Brodalen_1.jpg",
+        "author": "W.carter",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "processing": "Крупная фотография того же объекта, выделенного в исходном буклете.",
         "file": "detail/1-2-15-4.webp"
       }
     },
     "1-2-15-5": {
       "detail": {
-        "source": "https://web.archive.org/web/20170921091926/http://www.konkurs-chip.ru:80/file/files/1-2_2012.doc",
-        "author": "Оргкомитет конкурса «Человек и природа»",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Изображения в порядке исходного варианта.",
+        "source": "https://www.inaturalist.org/photos/391491814",
+        "author": "no rights reserved",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "processing": "Крупный снимок того же растения или животного (Acorus calamus). Признаки сопоставлены с иллюстрацией буклета.",
         "file": "detail/1-2-15-5.webp"
       }
     },
     "1-2-17-1": {
       "detail": {
-        "source": "2012/1-2_2012.pdf",
-        "author": "Оргкомитет конкурса «Человек и природа»",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Извлечено из оригинального буклета без увеличения. Исходное разрешение ограничено.",
+        "source": "https://commons.wikimedia.org/wiki/File:Portrait_Hippopotamus_in_the_water.jpg",
+        "author": "Muhammad Mahdi Karim",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "processing": "Крупная фотография того же объекта, выделенного в исходном буклете.",
         "file": "detail/1-2-17-1.webp"
       }
     },
     "1-2-17-2": {
       "detail": {
-        "source": "2012/1-2_2012.pdf",
-        "author": "Оргкомитет конкурса «Человек и природа»",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Извлечено из оригинального буклета без увеличения. Исходное разрешение ограничено.",
+        "source": "https://www.inaturalist.org/photos/540103051",
+        "author": "Golfopolikayak",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "processing": "Крупный снимок того же растения или животного (Octopus vulgaris). Признаки сопоставлены с иллюстрацией буклета.",
         "file": "detail/1-2-17-2.webp"
       }
     },
     "1-2-17-3": {
       "detail": {
-        "source": "2012/1-2_2012.pdf",
-        "author": "Оргкомитет конкурса «Человек и природа»",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Извлечено из оригинального буклета без увеличения. Исходное разрешение ограничено.",
+        "source": "https://commons.wikimedia.org/wiki/File:Alaska_moose.jpg",
+        "author": "Paxson Woelber",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "processing": "Крупная фотография того же объекта, выделенного в исходном буклете.",
         "file": "detail/1-2-17-3.webp"
       }
     },
     "1-2-17-4": {
       "detail": {
-        "source": "2012/1-2_2012.pdf",
-        "author": "Оргкомитет конкурса «Человек и природа»",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Извлечено из оригинального буклета без увеличения. Исходное разрешение ограничено.",
+        "source": "https://www.inaturalist.org/photos/488312051",
+        "author": "no rights reserved",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "processing": "Крупный снимок того же растения или животного (Gerris lacustris). Признаки сопоставлены с иллюстрацией буклета.",
         "file": "detail/1-2-17-4.webp"
       }
     },
     "1-2-17-5": {
       "detail": {
-        "source": "2012/1-2_2012.pdf",
-        "author": "Оргкомитет конкурса «Человек и природа»",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Извлечено из оригинального буклета без увеличения. Исходное разрешение ограничено.",
+        "source": "https://www.inaturalist.org/photos/50888296",
+        "author": "Dean Hester",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "processing": "Крупный снимок того же растения или животного (Tursiops truncatus). Признаки сопоставлены с иллюстрацией буклета.",
         "file": "detail/1-2-17-5.webp"
       }
     },
     "1-2-19-1": {
       "detail": {
-        "source": "2012/1-2_2012.pdf",
-        "author": "Оргкомитет конкурса «Человек и природа»",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Извлечено из оригинального буклета без увеличения. Исходное разрешение ограничено.",
+        "source": "https://www.inaturalist.org/photos/53046059",
+        "author": "no rights reserved",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "processing": "Крупный снимок того же растения или животного (Astacus astacus). Признаки сопоставлены с иллюстрацией буклета.",
         "file": "detail/1-2-19-1.webp"
       }
     },
@@ -184,10 +194,11 @@
     },
     "1-2-19-5": {
       "detail": {
-        "source": "2012/1-2_2012.pdf",
-        "author": "Оргкомитет конкурса «Человек и природа»",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Извлечено из оригинального буклета без увеличения. Исходное разрешение ограничено.",
+        "source": "https://www.inaturalist.org/photos/165596777",
+        "author": "Micha Baum",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "processing": "Крупный снимок того же растения или животного (Urticina felina). Признаки сопоставлены с иллюстрацией буклета.",
         "file": "detail/1-2-19-5.webp"
       }
     },
@@ -202,19 +213,21 @@
     },
     "3-4-07-1": {
       "detail": {
-        "source": "https://web.archive.org/web/20160417140245/http://www.konkurs-chip.ru:80/file/files/3-4_2012.doc",
-        "author": "Оргкомитет конкурса «Человек и природа»",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Растр из архивного DOC · исходное разрешение.",
+        "source": "https://www.inaturalist.org/photos/465877519",
+        "author": "no rights reserved",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "processing": "Крупный снимок того же растения или животного (Ostracion cubicum). Признаки сопоставлены с иллюстрацией буклета.",
         "file": "detail/3-4-07-1.webp"
       }
     },
     "3-4-07-2": {
       "detail": {
-        "source": "https://web.archive.org/web/20160417140245/http://www.konkurs-chip.ru:80/file/files/3-4_2012.doc",
-        "author": "Оргкомитет конкурса «Человек и природа»",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Растр из архивного DOC · исходное разрешение.",
+        "source": "https://www.inaturalist.org/photos/400115584",
+        "author": "portioid",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "processing": "Крупный снимок того же растения или животного (Chelmon rostratus). Признаки сопоставлены с иллюстрацией буклета.",
         "file": "detail/3-4-07-2.webp"
       }
     },
@@ -283,73 +296,76 @@
     },
     "3-4-08-5": {
       "detail": {
-        "source": "https://web.archive.org/web/20160417140245/http://www.konkurs-chip.ru:80/file/files/3-4_2012.doc",
-        "author": "Оргкомитет конкурса «Человек и природа»",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Растр из архивного DOC · исходное разрешение.",
+        "source": "https://www.inaturalist.org/photos/640921502",
+        "author": "Михаил Голомысов",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "processing": "Крупный снимок того же растения или животного (Botaurus stellaris). Признаки сопоставлены с иллюстрацией буклета.",
         "file": "detail/3-4-08-5.webp"
       }
     },
     "3-4-11-1": {
       "detail": {
         "source": "https://web.archive.org/web/20160417140245/http://www.konkurs-chip.ru:80/file/files/3-4_2012.doc",
-        "author": "Оргкомитет конкурса «Человек и природа»",
+        "author": "Оргкомитет конкурса «Человек и природа» · векторная редакция Olympiads.pro",
         "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Растр из архивного DOC · исходное разрешение.",
-        "file": "detail/3-4-11-1.webp"
+        "processing": "Векторная перерисовка по иллюстрации исходного буклета. Сохранены исходный объект, ракурс и относящиеся к задаче детали.",
+        "file": "detail/3-4-11-1.svg"
       }
     },
     "3-4-11-2": {
       "detail": {
         "source": "https://web.archive.org/web/20160417140245/http://www.konkurs-chip.ru:80/file/files/3-4_2012.doc",
-        "author": "Оргкомитет конкурса «Человек и природа»",
+        "author": "Оргкомитет конкурса «Человек и природа» · векторная редакция Olympiads.pro",
         "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Растр из архивного DOC · исходное разрешение.",
-        "file": "detail/3-4-11-2.webp"
+        "processing": "Векторная перерисовка по иллюстрации исходного буклета. Сохранены исходный объект, ракурс и относящиеся к задаче детали.",
+        "file": "detail/3-4-11-2.svg"
       }
     },
     "3-4-11-3": {
       "detail": {
         "source": "https://web.archive.org/web/20160417140245/http://www.konkurs-chip.ru:80/file/files/3-4_2012.doc",
-        "author": "Оргкомитет конкурса «Человек и природа»",
+        "author": "Оргкомитет конкурса «Человек и природа» · векторная редакция Olympiads.pro",
         "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Растр из архивного DOC · исходное разрешение.",
-        "file": "detail/3-4-11-3.webp"
+        "processing": "Векторная перерисовка по иллюстрации исходного буклета. Сохранены исходный объект, ракурс и относящиеся к задаче детали.",
+        "file": "detail/3-4-11-3.svg"
       }
     },
     "3-4-11-4": {
       "detail": {
         "source": "https://web.archive.org/web/20160417140245/http://www.konkurs-chip.ru:80/file/files/3-4_2012.doc",
-        "author": "Оргкомитет конкурса «Человек и природа»",
+        "author": "Оргкомитет конкурса «Человек и природа» · векторная редакция Olympiads.pro",
         "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Растр из архивного DOC · исходное разрешение.",
-        "file": "detail/3-4-11-4.webp"
+        "processing": "Векторная перерисовка по иллюстрации исходного буклета. Сохранены исходный объект, ракурс и относящиеся к задаче детали.",
+        "file": "detail/3-4-11-4.svg"
       }
     },
     "3-4-11-5": {
       "detail": {
         "source": "https://web.archive.org/web/20160417140245/http://www.konkurs-chip.ru:80/file/files/3-4_2012.doc",
-        "author": "Оргкомитет конкурса «Человек и природа»",
+        "author": "Оргкомитет конкурса «Человек и природа» · векторная редакция Olympiads.pro",
         "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Растр из архивного DOC · исходное разрешение.",
-        "file": "detail/3-4-11-5.webp"
+        "processing": "Векторная перерисовка по иллюстрации исходного буклета. Сохранены исходный объект, ракурс и относящиеся к задаче детали.",
+        "file": "detail/3-4-11-5.svg"
       }
     },
     "3-4-14-1": {
       "detail": {
-        "source": "https://web.archive.org/web/20160417140245/http://www.konkurs-chip.ru:80/file/files/3-4_2012.doc",
-        "author": "Оргкомитет конкурса «Человек и природа»",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Растр из архивного DOC · исходное разрешение.",
+        "source": "https://www.inaturalist.org/photos/671119147",
+        "author": "Gonzalo Bravo",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "processing": "Крупный снимок того же растения или животного (Macrocystis pyrifera). Признаки сопоставлены с иллюстрацией буклета.",
         "file": "detail/3-4-14-1.webp"
       }
     },
     "3-4-14-2": {
       "detail": {
-        "source": "https://web.archive.org/web/20160417140245/http://www.konkurs-chip.ru:80/file/files/3-4_2012.doc",
-        "author": "Оргкомитет конкурса «Человек и природа»",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Растр из архивного DOC · исходное разрешение.",
+        "source": "https://www.inaturalist.org/photos/669720023",
+        "author": "zebedeugalinha",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "processing": "Крупный снимок того же растения или животного (Nymphaea alba). Признаки сопоставлены с иллюстрацией буклета.",
         "file": "detail/3-4-14-2.webp"
       }
     },
@@ -364,10 +380,11 @@
     },
     "3-4-14-4": {
       "detail": {
-        "source": "https://web.archive.org/web/20160417140245/http://www.konkurs-chip.ru:80/file/files/3-4_2012.doc",
-        "author": "Оргкомитет конкурса «Человек и природа»",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Растр из архивного DOC · исходное разрешение.",
+        "source": "https://www.inaturalist.org/photos/119750302",
+        "author": "Lena Struwe",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "processing": "Крупный снимок того же растения или животного (Ulothrix zonata). Признаки сопоставлены с иллюстрацией буклета.",
         "file": "detail/3-4-14-4.webp"
       }
     },
@@ -400,10 +417,11 @@
     },
     "3-4-18-3": {
       "detail": {
-        "source": "https://web.archive.org/web/20160417140245/http://www.konkurs-chip.ru:80/file/files/3-4_2012.doc",
-        "author": "Оргкомитет конкурса «Человек и природа»",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Растр из архивного DOC · исходное разрешение.",
+        "source": "https://www.inaturalist.org/photos/526232036",
+        "author": "Nicolas Olejnik",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "processing": "Крупный снимок того же растения или животного (Panthera onca). Признаки сопоставлены с иллюстрацией буклета.",
         "file": "detail/3-4-18-3.webp"
       }
     },
@@ -418,19 +436,21 @@
     },
     "3-4-18-5": {
       "detail": {
-        "source": "https://web.archive.org/web/20160417140245/http://www.konkurs-chip.ru:80/file/files/3-4_2012.doc",
-        "author": "Оргкомитет конкурса «Человек и природа»",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Растр из архивного DOC · исходное разрешение.",
+        "source": "https://www.inaturalist.org/photos/10943972",
+        "author": "Peter Archdale",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "processing": "Крупный снимок того же растения или животного (Suricata suricatta suricatta). Признаки сопоставлены с иллюстрацией буклета.",
         "file": "detail/3-4-18-5.webp"
       }
     },
     "3-4-23-1": {
       "detail": {
-        "source": "https://web.archive.org/web/20160417140245/http://www.konkurs-chip.ru:80/file/files/3-4_2012.doc",
-        "author": "Оргкомитет конкурса «Человек и природа»",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Растр из архивного DOC · исходное разрешение.",
+        "source": "https://www.inaturalist.org/photos/58917865",
+        "author": "Don Loarie",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "processing": "Крупный снимок того же растения или животного (Chelonia mydas). Признаки сопоставлены с иллюстрацией буклета.",
         "file": "detail/3-4-23-1.webp"
       }
     },
@@ -445,10 +465,11 @@
     },
     "3-4-23-3": {
       "detail": {
-        "source": "https://web.archive.org/web/20160417140245/http://www.konkurs-chip.ru:80/file/files/3-4_2012.doc",
-        "author": "Оргкомитет конкурса «Человек и природа»",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Растр из архивного DOC · исходное разрешение.",
+        "source": "https://www.inaturalist.org/photos/170995034",
+        "author": "Blake Ross",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "processing": "Крупный снимок того же растения или животного (Aix galericulata). Признаки сопоставлены с иллюстрацией буклета.",
         "file": "detail/3-4-23-3.webp"
       }
     },
@@ -463,10 +484,11 @@
     },
     "3-4-23-5": {
       "detail": {
-        "source": "https://web.archive.org/web/20160417140245/http://www.konkurs-chip.ru:80/file/files/3-4_2012.doc",
-        "author": "Оргкомитет конкурса «Человек и природа»",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Растр из архивного DOC · исходное разрешение.",
+        "source": "https://www.inaturalist.org/photos/113744549",
+        "author": "no rights reserved",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "processing": "Крупный снимок того же растения или животного (Alligator mississippiensis). Признаки сопоставлены с иллюстрацией буклета.",
         "file": "detail/3-4-23-5.webp"
       }
     },
@@ -517,10 +539,10 @@
     },
     "5-6-02": {
       "detail": {
-        "source": "2012/5-6_2012.pdf",
-        "author": "Оргкомитет конкурса «Человек и природа»",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Извлечено из оригинального буклета без увеличения. Исходное разрешение ограничено.",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Great_Wave_off_Kanagawa.jpg",
+        "author": "After Katsushika Hokusai",
+        "license": "Public domain",
+        "processing": "То же произведение. Открытая музейная репродукция; композиция сохранена.",
         "file": "detail/5-6-02.webp"
       }
     },
@@ -535,10 +557,11 @@
     },
     "5-6-07-2": {
       "detail": {
-        "source": "2012/5-6_2012.pdf",
-        "author": "Оргкомитет конкурса «Человек и природа»",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Извлечено из оригинального буклета без увеличения. Исходное разрешение ограничено.",
+        "source": "https://www.inaturalist.org/photos/90957367",
+        "author": "no rights reserved",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "processing": "Крупный снимок того же растения или животного (Lemna minor). Признаки сопоставлены с иллюстрацией буклета.",
         "file": "detail/5-6-07-2.webp"
       }
     },
@@ -562,19 +585,21 @@
     },
     "5-6-07-5": {
       "detail": {
-        "source": "2012/5-6_2012.pdf",
-        "author": "Оргкомитет конкурса «Человек и природа»",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Извлечено из оригинального буклета без увеличения. Исходное разрешение ограничено.",
+        "source": "https://www.inaturalist.org/photos/651305883",
+        "author": "Nathan",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "processing": "Крупный снимок того же растения или животного (Urtica dioica). Признаки сопоставлены с иллюстрацией буклета.",
         "file": "detail/5-6-07-5.webp"
       }
     },
     "5-6-09-1": {
       "detail": {
-        "source": "2012/5-6_2012.pdf",
-        "author": "Оргкомитет конкурса «Человек и природа»",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Извлечено из оригинального буклета без увеличения. Исходное разрешение ограничено.",
+        "source": "https://www.inaturalist.org/photos/54181911",
+        "author": "Juli Mallett",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "processing": "Крупный снимок того же растения или животного (Sympetrum vulgatum). Признаки сопоставлены с иллюстрацией буклета.",
         "file": "detail/5-6-09-1.webp"
       }
     },
@@ -598,10 +623,11 @@
     },
     "5-6-09-4": {
       "detail": {
-        "source": "2012/5-6_2012.pdf",
-        "author": "Оргкомитет конкурса «Человек и природа»",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Извлечено из оригинального буклета без увеличения. Исходное разрешение ограничено.",
+        "source": "https://www.inaturalist.org/photos/78139268",
+        "author": "José Garrido",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "processing": "Крупный снимок того же растения или животного (Lumbricus terrestris). Признаки сопоставлены с иллюстрацией буклета.",
         "file": "detail/5-6-09-4.webp"
       }
     },
@@ -643,10 +669,11 @@
     },
     "5-6-26-1": {
       "detail": {
-        "source": "2012/5-6_2012.pdf",
-        "author": "Оргкомитет конкурса «Человек и природа»",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Извлечено из оригинального буклета без увеличения. Исходное разрешение ограничено.",
+        "source": "https://www.inaturalist.org/photos/155648869",
+        "author": "Steven Lamonde",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "processing": "Крупный снимок того же растения или животного (Mytilus edulis). Признаки сопоставлены с иллюстрацией буклета.",
         "file": "detail/5-6-26-1.webp"
       }
     },
@@ -670,10 +697,11 @@
     },
     "5-6-26-4": {
       "detail": {
-        "source": "2012/5-6_2012.pdf",
-        "author": "Оргкомитет конкурса «Человек и природа»",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Извлечено из оригинального буклета без увеличения. Исходное разрешение ограничено.",
+        "source": "https://www.inaturalist.org/photos/28954313",
+        "author": "oenobita",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "processing": "Крупный снимок того же растения или животного (Echeneis naucrates). Признаки сопоставлены с иллюстрацией буклета.",
         "file": "detail/5-6-26-4.webp"
       }
     },
@@ -760,10 +788,11 @@
     },
     "7-8-20": {
       "detail": {
-        "source": "2012/7-8_2012.pdf",
-        "author": "Оргкомитет конкурса «Человек и природа»",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Извлечено из оригинального буклета без увеличения. Исходное разрешение ограничено.",
+        "source": "https://www.inaturalist.org/photos/342287991",
+        "author": "Sylvain Montagner",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "processing": "Крупный снимок того же растения или животного (Ceiba pentandra). Признаки сопоставлены с иллюстрацией буклета.",
         "file": "detail/7-8-20.webp"
       }
     },

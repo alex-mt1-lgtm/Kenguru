@@ -152,12 +152,38 @@
       "В ребусе Г читаем «ГИ по Т», середину слова «тент», букву У и конец слова «ваза». Гипотенуза — сторона прямоугольного треугольника."
     ],
     "figure": {
-      "condition": {
-        "src": "assets/medvezhonok/2003/6-7-09-rebuses.webp",
-        "alt": "Пять ребусов с подписями А, Б, В, Г, Д. Встречаются буквы, числа, рисунки окна, саней, слона, тента, вазы и бус. Запятые указывают, какие буквы отбросить.",
-        "width": 452,
-        "height": 141
-      }
+      "options": [
+        {
+          "src": "assets/medvezhonok/2003/6-7-09-rebus-1.webp",
+          "description": "Буква П, число 300 и А внутри К.",
+          "pixelWidth": 141,
+          "pixelHeight": 66
+        },
+        {
+          "src": "assets/medvezhonok/2003/6-7-09-rebus-2.webp",
+          "description": "Дверь, буква И, сани и буква Е.",
+          "pixelWidth": 172,
+          "pixelHeight": 66
+        },
+        {
+          "src": "assets/medvezhonok/2003/6-7-09-rebus-3.webp",
+          "description": "Слон, запятая и буква Г.",
+          "pixelWidth": 131,
+          "pixelHeight": 66
+        },
+        {
+          "src": "assets/medvezhonok/2003/6-7-09-rebus-4.webp",
+          "description": "Маленькие ГИ в большой Т, тент, буква У и ваза с запятыми.",
+          "pixelWidth": 223,
+          "pixelHeight": 73
+        },
+        {
+          "src": "assets/medvezhonok/2003/6-7-09-rebus-5.webp",
+          "description": "Бусы с двумя запятыми и К внутри А.",
+          "pixelWidth": 118,
+          "pixelHeight": 72
+        }
+      ]
     }
   },
   {

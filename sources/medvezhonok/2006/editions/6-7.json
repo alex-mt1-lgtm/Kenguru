@@ -169,12 +169,38 @@
       "В последнем ребусе из «кран» остаётся «ка», далее «за Х» стоит С, у танка убирается последняя к. Получается Казахстан — страна."
     ],
     "figure": {
-      "condition": {
-        "src": "assets/medvezhonok/2006/6-7-10-rebuses.webp",
-        "alt": "Пять ребусов с подписями А, Б, В, Г, Д. В них используются рука, коса, дома, пень, ваза, орех, бусы, рог, кран, танк, буквы и обозначения замен.",
-        "width": 922,
-        "height": 262
-      }
+      "options": [
+        {
+          "src": "assets/medvezhonok/2006/6-7-10-rebus-1.webp",
+          "description": "Рука с двумя запятыми слева и фигура из букв.",
+          "pixelWidth": 272,
+          "pixelHeight": 139
+        },
+        {
+          "src": "assets/medvezhonok/2006/6-7-10-rebus-2.webp",
+          "description": "Коса, цифра 3 и два дома с запятыми.",
+          "pixelWidth": 353,
+          "pixelHeight": 96
+        },
+        {
+          "src": "assets/medvezhonok/2006/6-7-10-rebus-3.webp",
+          "description": "Пень с запятой справа и ваза с двумя запятыми слева.",
+          "pixelWidth": 228,
+          "pixelHeight": 98
+        },
+        {
+          "src": "assets/medvezhonok/2006/6-7-10-rebus-4.webp",
+          "description": "Орех с заменой Х на Н, бусы с двумя запятыми и рог с перечёркнутой О.",
+          "pixelWidth": 375,
+          "pixelHeight": 100
+        },
+        {
+          "src": "assets/medvezhonok/2006/6-7-10-rebus-5.webp",
+          "description": "Кран с перечёркнутой Р и запятой, буквы Х и С, танк с запятой справа.",
+          "pixelWidth": 478,
+          "pixelHeight": 128
+        }
+      ]
     }
   },
   {

@@ -84,12 +84,38 @@
       "В ребусе Д убираем последнюю букву «кол», меняем Т на Л в слове «рот» и читаем Е внутри А. Получается «ко-рол-е-в-а», то есть «королева»."
     ],
     "figure": {
-      "condition": {
-        "src": "assets/medvezhonok/2005/6-7-05-rebuses.webp",
-        "alt": "Пять ребусов с подписями А, Б, В, Г, Д. На картинках колос, конь, слон, зонт, буквы, число 1000, цифра 2 и другие знаки.",
-        "width": 787,
-        "height": 191
-      }
+      "options": [
+        {
+          "src": "assets/medvezhonok/2005/6-7-05-rebus-1.webp",
+          "description": "Колос с запятой и Н над А.",
+          "pixelWidth": 192,
+          "pixelHeight": 103
+        },
+        {
+          "src": "assets/medvezhonok/2005/6-7-05-rebus-2.webp",
+          "description": "Конь, слон и надписанная буква Д.",
+          "pixelWidth": 337,
+          "pixelHeight": 92
+        },
+        {
+          "src": "assets/medvezhonok/2005/6-7-05-rebus-3.webp",
+          "description": "Условное обозначение кола, зонт с запятыми и А над Д.",
+          "pixelWidth": 255,
+          "pixelHeight": 95
+        },
+        {
+          "src": "assets/medvezhonok/2005/6-7-05-rebus-4.webp",
+          "description": "Буквы О и Л, 1000 кг и цифра 2 с пометкой.",
+          "pixelWidth": 361,
+          "pixelHeight": 86
+        },
+        {
+          "src": "assets/medvezhonok/2005/6-7-05-rebus-5.webp",
+          "description": "Условное обозначение кола с запятой, рот с заменой Т на Л и Е внутри А.",
+          "pixelWidth": 296,
+          "pixelHeight": 87
+        }
+      ]
     }
   },
   {

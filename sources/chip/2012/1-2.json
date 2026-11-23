@@ -82,10 +82,10 @@
     "figure": {
       "src": "assets/chip/2012/1-2-04.webp",
       "detailSrc": "assets/chip/2012/detail/1-2-04.webp",
-      "width": 200,
-      "height": 138,
-      "pixelWidth": 200,
-      "pixelHeight": 138,
+      "width": 480,
+      "height": 335,
+      "pixelWidth": 750,
+      "pixelHeight": 524,
       "alt": "Широкий канал, лодки и празднично украшенные здания на берегах."
     }
   },
@@ -127,10 +127,10 @@
     "figure": {
       "src": "assets/chip/2012/1-2-06.webp",
       "detailSrc": "assets/chip/2012/detail/1-2-06.webp",
-      "width": 200,
-      "height": 125,
-      "pixelWidth": 200,
-      "pixelHeight": 125,
+      "width": 480,
+      "height": 299,
+      "pixelWidth": 512,
+      "pixelHeight": 319,
       "alt": "Зимняя река с отдельными светлыми льдинами среди тёмной воды."
     }
   },
@@ -180,11 +180,11 @@
     ],
     "figure": {
       "src": "assets/chip/2012/1-2-08.webp",
-      "detailSrc": "assets/chip/2012/detail/1-2-08.webp",
-      "width": 150,
-      "height": 186,
-      "pixelWidth": 150,
-      "pixelHeight": 186,
+      "detailSrc": "assets/chip/2012/detail/1-2-08.svg",
+      "width": 388,
+      "height": 480,
+      "pixelWidth": 1100,
+      "pixelHeight": 1364,
       "alt": "Снеговик, вокруг которого нарисованы лучистые снежинки."
     }
   },
@@ -264,10 +264,10 @@
     "figure": {
       "src": "assets/chip/2012/1-2-12.webp",
       "detailSrc": "assets/chip/2012/detail/1-2-12.webp",
-      "width": 120,
-      "height": 144,
-      "pixelWidth": 120,
-      "pixelHeight": 144,
+      "width": 480,
+      "height": 360,
+      "pixelWidth": 1600,
+      "pixelHeight": 1200,
       "alt": "Тёмное водное животное с округлой головой и длинным хвостом."
     }
   },
@@ -346,28 +346,28 @@
       {
         "src": "assets/chip/2012/1-2-15-3.webp",
         "detailSrc": "assets/chip/2012/detail/1-2-15-3.webp",
-        "width": 166,
-        "height": 191,
-        "pixelWidth": 166,
-        "pixelHeight": 191,
+        "width": 360,
+        "height": 480,
+        "pixelWidth": 1200,
+        "pixelHeight": 1600,
         "alt": "Линейные листья и раскидистая метёлка мелких колосков."
       },
       {
         "src": "assets/chip/2012/1-2-15-4.webp",
         "detailSrc": "assets/chip/2012/detail/1-2-15-4.webp",
-        "width": 165,
-        "height": 191,
-        "pixelWidth": 165,
-        "pixelHeight": 191,
+        "width": 480,
+        "height": 380,
+        "pixelWidth": 1600,
+        "pixelHeight": 1268,
         "alt": "Группа стеблей с высокими пушистыми метёлками."
       },
       {
         "src": "assets/chip/2012/1-2-15-5.webp",
         "detailSrc": "assets/chip/2012/detail/1-2-15-5.webp",
-        "width": 165,
-        "height": 191,
-        "pixelWidth": 165,
-        "pixelHeight": 191,
+        "width": 362,
+        "height": 480,
+        "pixelWidth": 1205,
+        "pixelHeight": 1600,
         "alt": "Вытянутые листья и зеленоватое соцветие сбоку стебля."
       }
     ]
@@ -411,46 +411,46 @@
       {
         "src": "assets/chip/2012/1-2-17-1.webp",
         "detailSrc": "assets/chip/2012/detail/1-2-17-1.webp",
-        "width": 103,
-        "height": 101,
-        "pixelWidth": 103,
-        "pixelHeight": 101,
+        "width": 480,
+        "height": 320,
+        "pixelWidth": 1600,
+        "pixelHeight": 1067,
         "alt": "Крупное серое животное с короткими ногами у воды."
       },
       {
         "src": "assets/chip/2012/1-2-17-2.webp",
         "detailSrc": "assets/chip/2012/detail/1-2-17-2.webp",
-        "width": 104,
-        "height": 101,
-        "pixelWidth": 104,
-        "pixelHeight": 101,
+        "width": 480,
+        "height": 360,
+        "pixelWidth": 1600,
+        "pixelHeight": 1200,
         "alt": "Морское животное с округлым телом и длинными руками."
       },
       {
         "src": "assets/chip/2012/1-2-17-3.webp",
         "detailSrc": "assets/chip/2012/detail/1-2-17-3.webp",
-        "width": 107,
-        "height": 101,
-        "pixelWidth": 107,
-        "pixelHeight": 101,
+        "width": 480,
+        "height": 320,
+        "pixelWidth": 1600,
+        "pixelHeight": 1067,
         "alt": "Высокий зверь с широкими рогами."
       },
       {
         "src": "assets/chip/2012/1-2-17-4.webp",
         "detailSrc": "assets/chip/2012/detail/1-2-17-4.webp",
-        "width": 105,
-        "height": 101,
-        "pixelWidth": 105,
-        "pixelHeight": 101,
+        "width": 480,
+        "height": 360,
+        "pixelWidth": 1600,
+        "pixelHeight": 1200,
         "alt": "Насекомое с длинными ногами на поверхности воды."
       },
       {
         "src": "assets/chip/2012/1-2-17-5.webp",
         "detailSrc": "assets/chip/2012/detail/1-2-17-5.webp",
-        "width": 104,
-        "height": 101,
-        "pixelWidth": 104,
-        "pixelHeight": 101,
+        "width": 480,
+        "height": 324,
+        "pixelWidth": 1600,
+        "pixelHeight": 1080,
         "alt": "Зверь с плавниками, выпрыгивающий над водой."
       }
     ]
@@ -494,10 +494,10 @@
       {
         "src": "assets/chip/2012/1-2-19-1.webp",
         "detailSrc": "assets/chip/2012/detail/1-2-19-1.webp",
-        "width": 102,
-        "height": 100,
-        "pixelWidth": 102,
-        "pixelHeight": 100,
+        "width": 480,
+        "height": 360,
+        "pixelWidth": 1600,
+        "pixelHeight": 1200,
         "alt": "Бурое ракообразное с клешнями на камне."
       },
       {
@@ -530,10 +530,10 @@
       {
         "src": "assets/chip/2012/1-2-19-5.webp",
         "detailSrc": "assets/chip/2012/detail/1-2-19-5.webp",
-        "width": 103,
-        "height": 100,
-        "pixelWidth": 103,
-        "pixelHeight": 100,
+        "width": 480,
+        "height": 436,
+        "pixelWidth": 1600,
+        "pixelHeight": 1452,
         "alt": "Розовые щупальца расходятся от круглого основания."
       }
     ]

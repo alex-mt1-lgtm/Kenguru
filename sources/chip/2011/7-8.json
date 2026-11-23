@@ -52,11 +52,11 @@
     "figure": {
       "src": "assets/chip/2011/7-8-03.webp",
       "alt": "Флаг с голубыми и белыми полосами и золотым солнцем в верхнем левом углу.",
-      "width": 207,
-      "height": 139,
-      "detailSrc": "assets/chip/2011/detail/7-8-03.webp",
-      "pixelWidth": 259,
-      "pixelHeight": 174
+      "width": 370,
+      "height": 247,
+      "detailSrc": "assets/chip/2011/detail/7-8-03.svg",
+      "pixelWidth": 1200,
+      "pixelHeight": 799
     }
   },
   {
@@ -147,11 +147,11 @@
     "figure": {
       "src": "assets/chip/2011/7-8-08.webp",
       "alt": "Узкое светло-бурое насекомое с длинными задними ногами на стебле.",
-      "width": 125,
-      "height": 223,
+      "width": 370,
+      "height": 245,
       "detailSrc": "assets/chip/2011/detail/7-8-08.webp",
-      "pixelWidth": 156,
-      "pixelHeight": 279
+      "pixelWidth": 1280,
+      "pixelHeight": 848
     }
   },
   {
@@ -314,11 +314,11 @@
     "figure": {
       "src": "assets/chip/2011/7-8-15.webp",
       "alt": "Холодные голубые горы. Над облаками светятся белые снежные вершины.",
-      "width": 357,
-      "height": 211,
+      "width": 370,
+      "height": 219,
       "detailSrc": "assets/chip/2011/detail/7-8-15.webp",
-      "pixelWidth": 446,
-      "pixelHeight": 264
+      "pixelWidth": 1280,
+      "pixelHeight": 757
     }
   },
   {
@@ -410,11 +410,11 @@
     "figure": {
       "src": "assets/chip/2011/7-8-20.webp",
       "alt": "Чашеобразное углубление с высокими скальными стенами и открытой передней частью.",
-      "width": 484,
-      "height": 203,
+      "width": 370,
+      "height": 337,
       "detailSrc": "assets/chip/2011/detail/7-8-20.webp",
-      "pixelWidth": 484,
-      "pixelHeight": 203
+      "pixelWidth": 1037,
+      "pixelHeight": 945
     }
   },
   {
@@ -535,54 +535,54 @@
     "answer": 3,
     "points": 5,
     "steps": [
-      "Северные олени связаны с северными ландшафтами, а лоси и косули часто используют лесные укрытия. Бизоны на рисунке представляют другую, североамериканскую фауну.",
-      "Сайгак хорошо приспособлен к открытой степи и прежде образовывал здесь большие стада. На кадре Г заметны его крупная выпуклая морда и близко стоящие рога."
+      "Сравните условия обитания. Северный олень живёт в том числе в тундре, а зубр, лось и косуля встречаются в лесах. Ищем копытное, которое исторически образовывало огромные стада именно в открытой степи.",
+      "Это сайгак, вариант Г. Его легко узнать по вздутому носу, который свешивается над ртом. Такую форму морды видно и у самки без рогов на снимке."
     ],
     "optionFigures": [
       {
         "src": "assets/chip/2011/7-8-27-1.webp",
         "alt": "Олень с широко разветвлёнными рогами.",
-        "width": 158,
-        "height": 159,
+        "width": 370,
+        "height": 250,
         "detailSrc": "assets/chip/2011/detail/7-8-27-1.webp",
-        "pixelWidth": 198,
-        "pixelHeight": 199
+        "pixelWidth": 1400,
+        "pixelHeight": 947
       },
       {
         "src": "assets/chip/2011/7-8-27-2.webp",
         "alt": "Массивное копытное с горбом и тёмной шерстью спереди.",
-        "width": 158,
-        "height": 159,
+        "width": 370,
+        "height": 247,
         "detailSrc": "assets/chip/2011/detail/7-8-27-2.webp",
-        "pixelWidth": 198,
-        "pixelHeight": 199
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2011/7-8-27-3.webp",
         "alt": "Крупное копытное с широкими лопатообразными рогами.",
-        "width": 158,
-        "height": 159,
+        "width": 370,
+        "height": 247,
         "detailSrc": "assets/chip/2011/detail/7-8-27-3.webp",
-        "pixelWidth": 198,
-        "pixelHeight": 199
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2011/7-8-27-4.webp",
-        "alt": "Светлое копытное с выпуклой мордой и двумя рогами.",
-        "width": 158,
-        "height": 159,
+        "alt": "Светлое копытное с длинной выпуклой мордой.",
+        "width": 370,
+        "height": 314,
         "detailSrc": "assets/chip/2011/detail/7-8-27-4.webp",
-        "pixelWidth": 198,
-        "pixelHeight": 199
+        "pixelWidth": 1280,
+        "pixelHeight": 1085
       },
       {
         "src": "assets/chip/2011/7-8-27-5.webp",
-        "alt": "Небольшое рыжее копытное с короткими рогами.",
-        "width": 158,
-        "height": 159,
+        "alt": "Небольшое копытное среди кустарников.",
+        "width": 370,
+        "height": 247,
         "detailSrc": "assets/chip/2011/detail/7-8-27-5.webp",
-        "pixelWidth": 198,
-        "pixelHeight": 199
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       }
     ]
   },
