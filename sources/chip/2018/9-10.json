@@ -124,21 +124,21 @@
     "optionFigures": [
       {
         "src": "assets/chip/2018/7-8-12-4.webp",
-        "alt": "Ровные ряды растений на плантации.",
-        "width": 120,
-        "height": 110,
+        "alt": "Зелёные кусты на склоне высажены рядами, между ними тянутся узкие тропинки.",
+        "width": 480,
+        "height": 320,
         "detailSrc": "assets/chip/2018/detail/7-8-12-4.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 137
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2018/9-10-05-2.webp",
-        "alt": "Зелёные листья образуют плотный кочан.",
-        "width": 120,
-        "height": 110,
+        "alt": "Плотный бледно-зелёный кочан из широких листьев.",
+        "width": 360,
+        "height": 480,
         "detailSrc": "assets/chip/2018/detail/9-10-05-2.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 137
+        "pixelWidth": 1200,
+        "pixelHeight": 1600
       },
       {
         "src": "assets/chip/2018/7-8-12-1.webp",
@@ -151,12 +151,12 @@
       },
       {
         "src": "assets/chip/2018/9-10-05-4.webp",
-        "alt": "У зелёного растения на земле заметны светлые клубни.",
-        "width": 120,
-        "height": 110,
+        "alt": "Рядом с зелёными стеблями из земли видны округлые клубни.",
+        "width": 360,
+        "height": 480,
         "detailSrc": "assets/chip/2018/detail/9-10-05-4.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 137
+        "pixelWidth": 1200,
+        "pixelHeight": 1600
       },
       {
         "src": "assets/chip/2018/7-8-12-3.webp",
@@ -205,12 +205,12 @@
     ],
     "figure": {
       "src": "assets/chip/2018/9-10-07.webp",
-      "alt": "Розовая длинноногая птица стоит на одной ноге в воде.",
-      "width": 150,
-      "height": 138,
+      "alt": "Розовая птица наклонила длинную шею к воде.",
+      "width": 480,
+      "height": 480,
       "detailSrc": "assets/chip/2018/detail/9-10-07.webp",
-      "pixelWidth": 187,
-      "pixelHeight": 172
+      "pixelWidth": 1024,
+      "pixelHeight": 1024
     }
   },
   {
@@ -320,12 +320,12 @@
     ],
     "figure": {
       "src": "assets/chip/2018/9-10-13.webp",
-      "alt": "Аэрофотоснимок пустынного плато. На земле видны светлые линии, часть из них образует фигуру.",
-      "width": 203,
-      "height": 114,
+      "alt": "Длинные светлые линии на пустынном плато образуют контур птицы.",
+      "width": 480,
+      "height": 291,
       "detailSrc": "assets/chip/2018/detail/9-10-13.webp",
-      "pixelWidth": 254,
-      "pixelHeight": 143
+      "pixelWidth": 1280,
+      "pixelHeight": 777
     }
   },
   {
@@ -346,12 +346,12 @@
     ],
     "figure": {
       "src": "assets/chip/2018/9-10-14.webp",
-      "alt": "Вокруг собора белые изогнутые опоры сходятся и вновь расходятся к небу.",
-      "width": 147,
-      "height": 178,
+      "alt": "Белые изогнутые опоры кафедрального собора расходятся над круглым основанием.",
+      "width": 360,
+      "height": 480,
       "detailSrc": "assets/chip/2018/detail/9-10-14.webp",
-      "pixelWidth": 183,
-      "pixelHeight": 222
+      "pixelWidth": 768,
+      "pixelHeight": 1024
     }
   },
   {
@@ -433,12 +433,12 @@
     "adaptation": "В условии оставлено определение до рода: по снимку нет необходимости устанавливать вид.",
     "figure": {
       "src": "assets/chip/2018/9-10-18.webp",
-      "alt": "С ветки свисает длинный жёлто-оранжевый цветок с расширенным краем.",
-      "width": 146,
-      "height": 165,
+      "alt": "Два трубчатых жёлто-оранжевых цветка с расширенным краем свисают с ветки.",
+      "width": 480,
+      "height": 397,
       "detailSrc": "assets/chip/2018/detail/9-10-18.webp",
-      "pixelWidth": 182,
-      "pixelHeight": 206
+      "pixelWidth": 1280,
+      "pixelHeight": 1059
     }
   },
   {
@@ -541,21 +541,21 @@
       },
       {
         "src": "assets/chip/2018/9-10-22-4.webp",
-        "alt": "Тёмная птица с длинными ногами.",
-        "width": 120,
-        "height": 110,
+        "alt": "Тёмная стройная птица на длинных ногах стоит на земле.",
+        "width": 480,
+        "height": 404,
         "detailSrc": "assets/chip/2018/detail/9-10-22-4.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 137
+        "pixelWidth": 1024,
+        "pixelHeight": 862
       },
       {
         "src": "assets/chip/2018/9-10-22-5.webp",
-        "alt": "Крупный мохнатый паук.",
-        "width": 120,
-        "height": 110,
+        "alt": "Крупный коричневый паук с толстыми мохнатыми ногами.",
+        "width": 480,
+        "height": 360,
         "detailSrc": "assets/chip/2018/detail/9-10-22-5.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 137
+        "pixelWidth": 1024,
+        "pixelHeight": 768
       }
     ]
   },
@@ -630,7 +630,7 @@
   },
   {
     "title": "Герб с кондором",
-    "question": "Какая из перечисленных стран не изображает андского кондора на своём государственном гербе?",
+    "question": "Какая из перечисленных стран не изображает андского кондора на своём государственном гербе? На иллюстрации приведены примеры гербов Южной Америки.",
     "choices": [
       "Эквадор",
       "Боливия",
@@ -646,7 +646,7 @@
     ],
     "figure": {
       "src": "assets/chip/2018/9-10-27.svg",
-      "alt": "Пять примеров южноамериканских гербов, на нескольких из них изображена крупная птица.",
+      "alt": "Пять примеров гербов Южной Америки. На нескольких видна крупная птица.",
       "width": 720,
       "height": 510,
       "detailSrc": "assets/chip/2018/9-10-27.svg",
@@ -691,21 +691,21 @@
     "optionFigures": [
       {
         "src": "assets/chip/2018/9-10-29-1.webp",
-        "alt": "Округлая буроватая птица с длинным тонким клювом.",
-        "width": 120,
-        "height": 110,
+        "alt": "Невысокая бурая птица с длинным тонким клювом.",
+        "width": 480,
+        "height": 444,
         "detailSrc": "assets/chip/2018/detail/9-10-29-1.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 137
+        "pixelWidth": 1280,
+        "pixelHeight": 1185
       },
       {
         "src": "assets/chip/2018/9-10-29-2.webp",
         "alt": "Высокая серо-бурая птица с длинными ногами и шеей.",
-        "width": 120,
-        "height": 110,
+        "width": 480,
+        "height": 376,
         "detailSrc": "assets/chip/2018/detail/9-10-29-2.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 137
+        "pixelWidth": 1280,
+        "pixelHeight": 1003
       },
       {
         "src": "assets/chip/2018/9-10-29-3.webp",
@@ -718,12 +718,12 @@
       },
       {
         "src": "assets/chip/2018/9-10-29-4.webp",
-        "alt": "Светлая птица с длинным красным клювом.",
-        "width": 120,
-        "height": 110,
+        "alt": "Белая птица с красным клювом и чёрными отметинами на крыльях. Рядом птенец.",
+        "width": 480,
+        "height": 320,
         "detailSrc": "assets/chip/2018/detail/9-10-29-4.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 137
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2018/9-10-29-5.webp",

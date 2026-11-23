@@ -76,12 +76,12 @@
     ],
     "figure": {
       "src": "assets/chip/2020/7-8-04.webp",
-      "alt": "Сухая открытая равнина с редкими низкими растениями.",
-      "width": 231,
-      "height": 114,
+      "alt": "Открытая засушливая область с песками, где растительность почти отсутствует.",
+      "width": 384,
+      "height": 288,
       "detailSrc": "assets/chip/2020/detail/7-8-04.webp",
-      "pixelWidth": 289,
-      "pixelHeight": 143
+      "pixelWidth": 986,
+      "pixelHeight": 739
     }
   },
   {
@@ -104,11 +104,11 @@
     "figure": {
       "src": "assets/chip/2020/7-8-05.webp",
       "alt": "Живописная сцена. Перед лодками и мачтами несколько людей в светлой одежде.",
-      "width": 205,
-      "height": 289,
+      "width": 270,
+      "height": 384,
       "detailSrc": "assets/chip/2020/detail/7-8-05.webp",
-      "pixelWidth": 256,
-      "pixelHeight": 361
+      "pixelWidth": 1056,
+      "pixelHeight": 1500
     }
   },
   {
@@ -327,48 +327,48 @@
     "optionFigures": [
       {
         "src": "assets/chip/2020/7-8-12-1.webp",
-        "alt": "Тёмный зверёк с плотным мехом сидит на траве.",
-        "width": 110,
-        "height": 110,
+        "alt": "Крупный тёмно-бурый грызун с широким плоским хвостом сидит на земле.",
+        "width": 119,
+        "height": 93,
         "detailSrc": "assets/chip/2020/detail/7-8-12-1.webp",
-        "pixelWidth": 137,
-        "pixelHeight": 137
+        "pixelWidth": 149,
+        "pixelHeight": 117
       },
       {
         "src": "assets/chip/2020/7-8-12-2.webp",
-        "alt": "Небольшой бурый грызун с вытянутой мордой и длинным хвостом.",
+        "alt": "Маленький грызун с продольными светлыми и тёмными полосами на спине.",
         "width": 119,
-        "height": 114,
+        "height": 93,
         "detailSrc": "assets/chip/2020/detail/7-8-12-2.webp",
         "pixelWidth": 149,
-        "pixelHeight": 143
+        "pixelHeight": 116
       },
       {
         "src": "assets/chip/2020/7-8-12-3.webp",
-        "alt": "Приземистый грызун с короткими ушами виден крупным планом.",
+        "alt": "Серовато-бежевый зверёк с небольшими ушами и короткой мордочкой прижался к земле.",
         "width": 120,
-        "height": 114,
+        "height": 93,
         "detailSrc": "assets/chip/2020/detail/7-8-12-3.webp",
         "pixelWidth": 150,
-        "pixelHeight": 142
+        "pixelHeight": 116
       },
       {
         "src": "assets/chip/2020/7-8-12-4.webp",
-        "alt": "Крупный округлый серый грызун.",
-        "width": 119,
-        "height": 114,
+        "alt": "Крупный серый грызун с мощным телом и светлой грудью стоит у камней.",
+        "width": 120,
+        "height": 93,
         "detailSrc": "assets/chip/2020/detail/7-8-12-4.webp",
-        "pixelWidth": 149,
-        "pixelHeight": 143
+        "pixelWidth": 150,
+        "pixelHeight": 116
       },
       {
         "src": "assets/chip/2020/7-8-12-5.webp",
-        "alt": "Небольшой зверёк с продольными полосами на спине.",
+        "alt": "Некрупный грызун с жёлто-бурой шерстью и крупными чёрными пятнами.",
         "width": 119,
-        "height": 114,
+        "height": 93,
         "detailSrc": "assets/chip/2020/detail/7-8-12-5.webp",
         "pixelWidth": 149,
-        "pixelHeight": 143
+        "pixelHeight": 116
       }
     ]
   },
@@ -468,12 +468,12 @@
     "optionFigures": [
       {
         "src": "assets/chip/2020/7-8-17-1.webp",
-        "alt": "Светлый длинноногий зверь стоит боком.",
-        "width": 119,
-        "height": 97,
+        "alt": "Небольшой северный зверь со светлой шерстью.",
+        "width": 384,
+        "height": 384,
         "detailSrc": "assets/chip/2020/detail/7-8-17-1.webp",
-        "pixelWidth": 149,
-        "pixelHeight": 122
+        "pixelWidth": 1280,
+        "pixelHeight": 1280
       },
       {
         "src": "assets/chip/2020/7-8-17-2.webp",
@@ -495,21 +495,21 @@
       },
       {
         "src": "assets/chip/2020/7-8-17-4.webp",
-        "alt": "Коренастый зверь с короткими ногами и пятнами на морде.",
-        "width": 119,
-        "height": 97,
+        "alt": "Коренастое длинношёрстное животное с тёмной маской на лице.",
+        "width": 263,
+        "height": 384,
         "detailSrc": "assets/chip/2020/detail/7-8-17-4.webp",
-        "pixelWidth": 149,
-        "pixelHeight": 122
+        "pixelWidth": 1095,
+        "pixelHeight": 1600
       },
       {
         "src": "assets/chip/2020/7-8-17-5.webp",
-        "alt": "Высокий длинноногий серый зверь с мощной мордой.",
-        "width": 119,
-        "height": 97,
+        "alt": "Серый длинноногий зверь с широкой мордой.",
+        "width": 384,
+        "height": 297,
         "detailSrc": "assets/chip/2020/detail/7-8-17-5.webp",
-        "pixelWidth": 149,
-        "pixelHeight": 122
+        "pixelWidth": 1280,
+        "pixelHeight": 991
       }
     ]
   },
@@ -775,21 +775,21 @@
     "optionFigures": [
       {
         "src": "assets/chip/2020/7-8-29-1.webp",
-        "alt": "Высокие бурые звери с мощной передней частью тела и короткими рогами.",
-        "width": 120,
-        "height": 93,
+        "alt": "Высокий бурый зверь с мощной передней частью тела и короткими рогами.",
+        "width": 384,
+        "height": 256,
         "detailSrc": "assets/chip/2020/detail/7-8-29-1.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 116
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2020/7-8-29-2.webp",
-        "alt": "Темноватые звери с очень крупными головами и густой шерстью на плечах.",
-        "width": 120,
-        "height": 93,
+        "alt": "Крупный тёмный зверь с очень широкой головой и густой шерстью на плечах.",
+        "width": 384,
+        "height": 251,
         "detailSrc": "assets/chip/2020/detail/7-8-29-2.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 116
+        "pixelWidth": 1280,
+        "pixelHeight": 835
       },
       {
         "src": "assets/chip/2020/7-8-29-3.webp",
@@ -811,12 +811,12 @@
       },
       {
         "src": "assets/chip/2020/7-8-29-5.webp",
-        "alt": "Коренастое животное с большими рогами и мохнатым телом.",
-        "width": 119,
-        "height": 93,
+        "alt": "Мохнатое крупное копытное с длинными рогами.",
+        "width": 384,
+        "height": 296,
         "detailSrc": "assets/chip/2020/detail/7-8-29-5.webp",
-        "pixelWidth": 149,
-        "pixelHeight": 117
+        "pixelWidth": 1280,
+        "pixelHeight": 987
       }
     ]
   },

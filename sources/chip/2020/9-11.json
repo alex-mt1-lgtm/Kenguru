@@ -299,21 +299,21 @@
       },
       {
         "src": "assets/chip/2020/9-11-11-3.webp",
-        "alt": "Образец с металлически блестящими кристаллами.",
-        "width": 119,
-        "height": 89,
+        "alt": "Блестящие золотистые кристаллы с плоскими гранями.",
+        "width": 302,
+        "height": 384,
         "detailSrc": "assets/chip/2020/detail/9-11-11-3.webp",
-        "pixelWidth": 149,
-        "pixelHeight": 112
+        "pixelWidth": 1257,
+        "pixelHeight": 1600
       },
       {
         "src": "assets/chip/2020/5-6-25-1.webp",
-        "alt": "Тёмный минерал с ярко-зелёными участками.",
-        "width": 119,
-        "height": 89,
+        "alt": "Зелёный минерал с волнистыми полосами светлых и тёмных оттенков.",
+        "width": 384,
+        "height": 281,
         "detailSrc": "assets/chip/2020/detail/5-6-25-1.webp",
-        "pixelWidth": 149,
-        "pixelHeight": 111
+        "pixelWidth": 1600,
+        "pixelHeight": 1169
       },
       {
         "src": "assets/chip/2020/5-6-25-2.webp",
@@ -450,11 +450,11 @@
     "figure": {
       "src": "assets/chip/2020/9-11-17.webp",
       "alt": "Живописный вид на город с невысокими домами в долине и холмами вдали.",
-      "width": 270,
-      "height": 164,
+      "width": 384,
+      "height": 197,
       "detailSrc": "assets/chip/2020/detail/9-11-17.webp",
-      "pixelWidth": 338,
-      "pixelHeight": 205
+      "pixelWidth": 800,
+      "pixelHeight": 410
     }
   },
   {
@@ -476,39 +476,39 @@
     "optionFigures": [
       {
         "src": "assets/chip/2020/9-11-18-1.webp",
-        "alt": "Массивное серое животное с толстой кожей.",
-        "width": 114,
-        "height": 79,
+        "alt": "Массивное серое животное с толстой кожей и одним рогом.",
+        "width": 384,
+        "height": 247,
         "detailSrc": "assets/chip/2020/detail/9-11-18-1.webp",
-        "pixelWidth": 142,
-        "pixelHeight": 98
+        "pixelWidth": 1000,
+        "pixelHeight": 642
       },
       {
         "src": "assets/chip/2020/9-11-18-2.webp",
-        "alt": "Тёмное животное со светлой отметиной на груди.",
-        "width": 114,
-        "height": 79,
+        "alt": "Тёмное животное с белой V-образной отметиной на груди.",
+        "width": 288,
+        "height": 384,
         "detailSrc": "assets/chip/2020/detail/9-11-18-2.webp",
-        "pixelWidth": 142,
-        "pixelHeight": 98
+        "pixelWidth": 1050,
+        "pixelHeight": 1400
       },
       {
         "src": "assets/chip/2020/9-11-18-3.webp",
         "alt": "Медведь с белой головой и чёрными пятнами вокруг глаз.",
-        "width": 114,
-        "height": 79,
+        "width": 384,
+        "height": 256,
         "detailSrc": "assets/chip/2020/detail/9-11-18-3.webp",
-        "pixelWidth": 142,
-        "pixelHeight": 98
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2020/9-11-18-4.webp",
-        "alt": "Рыжая кошка с чёрными полосами.",
-        "width": 114,
-        "height": 79,
+        "alt": "Крупная рыжая кошка с чёрными полосами.",
+        "width": 384,
+        "height": 256,
         "detailSrc": "assets/chip/2020/detail/9-11-18-4.webp",
-        "pixelWidth": 142,
-        "pixelHeight": 98
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2020/9-11-18-5.webp",
@@ -591,13 +591,13 @@
   },
   {
     "title": "Кочан и родственные формы",
-    "question": "На фотографии пекинская капуста. У какого из остальных растений её ботанический вид совпадает?",
+    "question": "Какое из перечисленных растений относится к тому же ботаническому виду, что и пекинская капуста на фотографии?",
     "choices": [
-      "капусты огородной",
-      "горчицы сарептской",
-      "репы",
-      "рапса",
-      "горчицы чёрной"
+      "капуста огородная",
+      "горчица сарептская",
+      "репа",
+      "рапс",
+      "горчица чёрная"
     ],
     "answer": 2,
     "points": 5,
@@ -653,21 +653,21 @@
       },
       {
         "src": "assets/chip/2020/9-11-24-3.webp",
-        "alt": "Рыжий зверёк с пышным хвостом на ветке.",
-        "width": 119,
-        "height": 97,
+        "alt": "Рыжий зверь с пышным хвостом держится на ветке.",
+        "width": 384,
+        "height": 321,
         "detailSrc": "assets/chip/2020/detail/9-11-24-3.webp",
-        "pixelWidth": 149,
-        "pixelHeight": 122
+        "pixelWidth": 1600,
+        "pixelHeight": 1337
       },
       {
         "src": "assets/chip/2020/9-11-24-4.webp",
-        "alt": "Округлый грызун с чёрными и светлыми участками меха.",
-        "width": 119,
-        "height": 97,
+        "alt": "Округлый грызун с жёлто-бурыми и чёрными участками меха.",
+        "width": 384,
+        "height": 304,
         "detailSrc": "assets/chip/2020/detail/9-11-24-4.webp",
-        "pixelWidth": 149,
-        "pixelHeight": 122
+        "pixelWidth": 1007,
+        "pixelHeight": 796
       },
       {
         "src": "assets/chip/2020/9-11-24-5.webp",
@@ -795,48 +795,48 @@
     "optionFigures": [
       {
         "src": "assets/chip/2020/7-8-17-5.webp",
-        "alt": "Высокий длинноногий серый зверь с мощной мордой.",
-        "width": 119,
-        "height": 97,
+        "alt": "Серый длинноногий зверь с широкой мордой.",
+        "width": 384,
+        "height": 297,
         "detailSrc": "assets/chip/2020/detail/7-8-17-5.webp",
-        "pixelWidth": 149,
-        "pixelHeight": 122
+        "pixelWidth": 1280,
+        "pixelHeight": 991
       },
       {
         "src": "assets/chip/2020/7-8-17-1.webp",
-        "alt": "Светлый длинноногий зверь стоит боком.",
-        "width": 119,
-        "height": 97,
+        "alt": "Небольшой северный зверь со светлой шерстью.",
+        "width": 384,
+        "height": 384,
         "detailSrc": "assets/chip/2020/detail/7-8-17-1.webp",
-        "pixelWidth": 149,
-        "pixelHeight": 122
+        "pixelWidth": 1280,
+        "pixelHeight": 1280
       },
       {
         "src": "assets/chip/2020/9-11-29-3.webp",
-        "alt": "Рыжеватое животное с пышным хвостом и острыми ушами.",
-        "width": 119,
-        "height": 97,
+        "alt": "Рыжее животное с острыми ушами и белыми участками на морде.",
+        "width": 384,
+        "height": 254,
         "detailSrc": "assets/chip/2020/detail/9-11-29-3.webp",
-        "pixelWidth": 149,
-        "pixelHeight": 122
+        "pixelWidth": 1280,
+        "pixelHeight": 848
       },
       {
         "src": "assets/chip/2020/9-11-29-4.webp",
-        "alt": "Небольшой стройный серо-бурый зверь с остро выступающей мордой.",
-        "width": 119,
-        "height": 97,
+        "alt": "Стоит серо-бурый зверь с острыми ушами, узкой мордой и сравнительно длинными ногами.",
+        "width": 286,
+        "height": 360,
         "detailSrc": "assets/chip/2020/detail/9-11-29-4.webp",
-        "pixelWidth": 149,
-        "pixelHeight": 122
+        "pixelWidth": 1111,
+        "pixelHeight": 1400
       },
       {
         "src": "assets/chip/2020/7-8-17-4.webp",
-        "alt": "Коренастый зверь с короткими ногами и пятнами на морде.",
-        "width": 119,
-        "height": 97,
+        "alt": "Коренастое длинношёрстное животное с тёмной маской на лице.",
+        "width": 263,
+        "height": 384,
         "detailSrc": "assets/chip/2020/detail/7-8-17-4.webp",
-        "pixelWidth": 149,
-        "pixelHeight": 122
+        "pixelWidth": 1095,
+        "pixelHeight": 1600
       }
     ]
   },

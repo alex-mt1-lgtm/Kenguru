@@ -124,21 +124,21 @@
     "optionFigures": [
       {
         "src": "assets/chip/2018/5-6-05-1.webp",
-        "alt": "Животное с длинной вертикальной шеей и густой шерстью.",
-        "width": 120,
-        "height": 120,
+        "alt": "Животное с длинной шеей, вытянутой мордой и густой шерстью.",
+        "width": 480,
+        "height": 319,
         "detailSrc": "assets/chip/2018/detail/5-6-05-1.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 150
+        "pixelWidth": 1280,
+        "pixelHeight": 851
       },
       {
         "src": "assets/chip/2018/5-6-05-2.webp",
-        "alt": "Животное с двумя горбами.",
-        "width": 120,
-        "height": 120,
+        "alt": "Крупное животное с длинной шеей и двумя горбами.",
+        "width": 480,
+        "height": 320,
         "detailSrc": "assets/chip/2018/detail/5-6-05-2.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 150
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2018/5-6-05-3.webp",
@@ -160,12 +160,12 @@
       },
       {
         "src": "assets/chip/2018/5-6-05-5.webp",
-        "alt": "Рыжее животное с гривой и копытами.",
-        "width": 120,
-        "height": 120,
+        "alt": "Животное с гривой, длинным хвостом и копытами.",
+        "width": 480,
+        "height": 386,
         "detailSrc": "assets/chip/2018/detail/5-6-05-5.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 150
+        "pixelWidth": 1600,
+        "pixelHeight": 1286
       }
     ]
   },
@@ -206,12 +206,12 @@
     "adaptation": "Снято категорическое определение назначения Мачу-Пикчу как крепости.",
     "figure": {
       "src": "assets/chip/2018/5-6-07.webp",
-      "alt": "Каменные стены и террасы среди высоких гор.",
-      "width": 190,
-      "height": 105,
+      "alt": "Каменные стены и террасы на склоне среди высоких гор.",
+      "width": 480,
+      "height": 320,
       "detailSrc": "assets/chip/2018/detail/5-6-07.webp",
-      "pixelWidth": 237,
-      "pixelHeight": 131
+      "pixelWidth": 1280,
+      "pixelHeight": 854
     }
   },
   {
@@ -250,30 +250,30 @@
     "optionFigures": [
       {
         "src": "assets/chip/2018/5-6-09-1.webp",
-        "alt": "Тёмная обезьяна с длинным закрученным хвостом.",
-        "width": 120,
-        "height": 95,
+        "alt": "Темношёрстная обезьяна с длинными конечностями.",
+        "width": 480,
+        "height": 314,
         "detailSrc": "assets/chip/2018/detail/5-6-09-1.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 119
+        "pixelWidth": 1280,
+        "pixelHeight": 836
       },
       {
         "src": "assets/chip/2018/5-6-09-2.webp",
-        "alt": "Пятнистая кошка с узким телом и вытянутой мордой.",
-        "width": 120,
-        "height": 95,
+        "alt": "Пятнистая кошка с узким телом стоит на наклонной ветке.",
+        "width": 480,
+        "height": 320,
         "detailSrc": "assets/chip/2018/detail/5-6-09-2.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 119
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2018/5-6-09-3.webp",
-        "alt": "Коренастый зверь с коротким подвижным хоботком.",
-        "width": 120,
-        "height": 95,
+        "alt": "Массивное животное вытягивает короткий хоботок к ветке.",
+        "width": 480,
+        "height": 320,
         "detailSrc": "assets/chip/2018/detail/5-6-09-3.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 119
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2018/5-6-09-4.webp",
@@ -330,12 +330,12 @@
     ],
     "figure": {
       "src": "assets/chip/2018/5-6-11.webp",
-      "alt": "Ступенчатый постамент с шаром наверху и дорожкой, ведущей к нему.",
-      "width": 157,
-      "height": 156,
+      "alt": "Высокий ступенчатый памятник с каменным шаром наверху.",
+      "width": 360,
+      "height": 480,
       "detailSrc": "assets/chip/2018/detail/5-6-11.webp",
-      "pixelWidth": 196,
-      "pixelHeight": 195
+      "pixelWidth": 1200,
+      "pixelHeight": 1600
     }
   },
   {
@@ -391,7 +391,7 @@
     ],
     "figure": {
       "src": "assets/chip/2018/5-6-14.webp",
-      "alt": "Белые фигуры, вырезанные из соли, на солончаке.",
+      "alt": "Белая скульптура на светлой равнине.",
       "width": 480,
       "height": 360,
       "detailSrc": "assets/chip/2018/detail/5-6-14.webp",
@@ -434,12 +434,12 @@
     ],
     "figure": {
       "src": "assets/chip/2018/5-6-16.webp",
-      "alt": "У каждой группы мелких светлых цветков крупные фиолетовые части.",
-      "width": 120,
-      "height": 106,
+      "alt": "Мелкие белые цветки окружены яркими пурпурными пластинками.",
+      "width": 360,
+      "height": 480,
       "detailSrc": "assets/chip/2018/detail/5-6-16.webp",
-      "pixelWidth": 150,
-      "pixelHeight": 133
+      "pixelWidth": 1200,
+      "pixelHeight": 1600
     }
   },
   {
@@ -479,21 +479,21 @@
       },
       {
         "src": "assets/chip/2018/5-6-17-3.webp",
-        "alt": "Крупные ребристые плоды на дереве.",
-        "width": 120,
-        "height": 102,
+        "alt": "Крупные продолговатые красные плоды с ребристой кожурой на стволе.",
+        "width": 360,
+        "height": 480,
         "detailSrc": "assets/chip/2018/detail/5-6-17-3.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 128
+        "pixelWidth": 1200,
+        "pixelHeight": 1600
       },
       {
         "src": "assets/chip/2018/5-6-17-4.webp",
-        "alt": "Группы крупных круглых бурых плодов.",
-        "width": 120,
-        "height": 102,
+        "alt": "Крупные округлые плоды с толстой древесной оболочкой.",
+        "width": 480,
+        "height": 360,
         "detailSrc": "assets/chip/2018/detail/5-6-17-4.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 128
+        "pixelWidth": 1280,
+        "pixelHeight": 960
       },
       {
         "src": "assets/chip/2018/5-6-17-5.webp",
@@ -595,30 +595,30 @@
       },
       {
         "src": "assets/chip/2018/5-6-21-2.webp",
-        "alt": "Зелёная лягушка на листе.",
-        "width": 120,
-        "height": 120,
+        "alt": "Ярко-зелёная лягушка с красными глазами держится на ветке.",
+        "width": 480,
+        "height": 480,
         "detailSrc": "assets/chip/2018/detail/5-6-21-2.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 150
+        "pixelWidth": 1024,
+        "pixelHeight": 1024
       },
       {
         "src": "assets/chip/2018/5-6-21-3.webp",
         "alt": "Полосатое насекомое с прозрачными крыльями.",
-        "width": 120,
-        "height": 120,
+        "width": 480,
+        "height": 399,
         "detailSrc": "assets/chip/2018/detail/5-6-21-3.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 150
+        "pixelWidth": 1280,
+        "pixelHeight": 1064
       },
       {
         "src": "assets/chip/2018/5-6-21-4.webp",
-        "alt": "Жук с крупными выступающими челюстями.",
-        "width": 120,
-        "height": 120,
+        "alt": "Крупный тёмный жук с удлинёнными разветвлёнными челюстями.",
+        "width": 480,
+        "height": 343,
         "detailSrc": "assets/chip/2018/detail/5-6-21-4.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 150
+        "pixelWidth": 1500,
+        "pixelHeight": 1071
       },
       {
         "src": "assets/chip/2018/5-6-21-5.webp",
@@ -713,12 +713,12 @@
       },
       {
         "src": "assets/chip/2018/5-6-25-2.webp",
-        "alt": "Чёрно-белое животное с коротким подвижным хоботком.",
-        "width": 131,
-        "height": 102,
+        "alt": "Крупный чёрно-белый зверь с коротким подвижным хоботком.",
+        "width": 480,
+        "height": 321,
         "detailSrc": "assets/chip/2018/detail/5-6-25-2.webp",
-        "pixelWidth": 164,
-        "pixelHeight": 128
+        "pixelWidth": 1024,
+        "pixelHeight": 684
       },
       {
         "src": "assets/chip/2018/5-6-25-3.webp",
@@ -731,12 +731,12 @@
       },
       {
         "src": "assets/chip/2018/5-6-25-4.webp",
-        "alt": "Длиннотелый зверь с ластами на берегу.",
-        "width": 130,
-        "height": 102,
+        "alt": "Два длиннотелых зверя с ластами на каменистом берегу.",
+        "width": 480,
+        "height": 320,
         "detailSrc": "assets/chip/2018/detail/5-6-25-4.webp",
-        "pixelWidth": 163,
-        "pixelHeight": 128
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       }
     ]
   },
@@ -820,12 +820,12 @@
     ],
     "figure": {
       "src": "assets/chip/2018/5-6-29.webp",
-      "alt": "Большие круглые листья с приподнятым краем и белый цветок на воде.",
-      "width": 210,
-      "height": 138,
+      "alt": "Огромные круглые листья с приподнятым краем и светлый цветок на воде.",
+      "width": 480,
+      "height": 321,
       "detailSrc": "assets/chip/2018/detail/5-6-29.webp",
-      "pixelWidth": 262,
-      "pixelHeight": 172
+      "pixelWidth": 1280,
+      "pixelHeight": 857
     }
   },
   {

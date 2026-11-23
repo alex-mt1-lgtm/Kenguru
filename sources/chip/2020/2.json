@@ -143,11 +143,11 @@
       {
         "src": "assets/chip/2020/1-04-4.webp",
         "alt": "Веточка густо покрыта короткими острыми хвоинками.",
-        "width": 168,
-        "height": 144,
+        "width": 384,
+        "height": 288,
         "detailSrc": "assets/chip/2020/detail/1-04-4.webp",
-        "pixelWidth": 210,
-        "pixelHeight": 180
+        "pixelWidth": 1536,
+        "pixelHeight": 1152
       },
       {
         "src": "assets/chip/2020/1-04-3.webp",
@@ -678,12 +678,12 @@
     "optionFigures": [
       {
         "src": "assets/chip/2020/1-09-1.webp",
-        "alt": "Светло-сиреневые соцветия с узкими лучами расположены вдоль зелёных стеблей.",
-        "width": 169,
-        "height": 169,
+        "alt": "Голубовато-сиреневые цветки расположены вдоль ветвящихся побегов.",
+        "width": 255,
+        "height": 384,
         "detailSrc": "assets/chip/2020/detail/1-09-1.webp",
-        "pixelWidth": 211,
-        "pixelHeight": 211
+        "pixelWidth": 1020,
+        "pixelHeight": 1536
       },
       {
         "src": "assets/chip/2020/1-09-2.webp",
@@ -705,12 +705,12 @@
       },
       {
         "src": "assets/chip/2020/1-09-4.webp",
-        "alt": "Ярко-жёлтые головки из множества узких цветков.",
-        "width": 169,
-        "height": 169,
+        "alt": "Ярко-жёлтая головка из множества узких язычковых цветков.",
+        "width": 384,
+        "height": 288,
         "detailSrc": "assets/chip/2020/detail/1-09-4.webp",
-        "pixelWidth": 211,
-        "pixelHeight": 211
+        "pixelWidth": 1536,
+        "pixelHeight": 1152
       },
       {
         "src": "assets/chip/2020/1-09-5.webp",
@@ -742,13 +742,14 @@
     ],
     "figure": {
       "src": "assets/chip/2020/2-19.webp",
-      "alt": "Коническая воронка в сухом песке.",
-      "width": 268,
-      "height": 198,
+      "alt": "Коническая воронка со светлой и затенённой стенками в сухом песке.",
+      "width": 384,
+      "height": 294,
       "detailSrc": "assets/chip/2020/detail/2-19.webp",
-      "pixelWidth": 335,
-      "pixelHeight": 248
-    }
+      "pixelWidth": 669,
+      "pixelHeight": 512
+    },
+    "adaptation": "В задании использованы крупные фотографии тех же видов или объектов. Порядок вариантов сохранён."
   },
   {
     "title": "Каких гор нет в России",

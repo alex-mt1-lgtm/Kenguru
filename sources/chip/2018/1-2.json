@@ -190,12 +190,12 @@
       },
       {
         "src": "assets/chip/2018/1-2-05-2.webp",
-        "alt": "Серая птица с полосатым брюхом и приподнятым хвостом.",
-        "width": 170,
-        "height": 169,
+        "alt": "Серая птица с поперечными полосами на светлом брюхе.",
+        "width": 480,
+        "height": 323,
         "detailSrc": "assets/chip/2018/detail/1-2-05-2.webp",
-        "pixelWidth": 213,
-        "pixelHeight": 212
+        "pixelWidth": 1280,
+        "pixelHeight": 860
       },
       {
         "src": "assets/chip/2018/1-2-05-3.webp",
@@ -490,21 +490,21 @@
       },
       {
         "src": "assets/chip/2018/1-2-10-4.webp",
-        "alt": "Розово-белые цветки на ветках на фоне неба.",
-        "width": 170,
-        "height": 170,
+        "alt": "Светлые цветки и розовые бутоны на ветке.",
+        "width": 480,
+        "height": 320,
         "detailSrc": "assets/chip/2018/detail/1-2-10-4.webp",
-        "pixelWidth": 213,
-        "pixelHeight": 213
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2018/1-2-10-5.webp",
-        "alt": "Белые соцветия с крупными краевыми цветками.",
+        "alt": "Плоское соцветие с крупными белыми цветками по краям и мелкими бутонами в середине.",
         "width": 480,
-        "height": 360,
+        "height": 395,
         "detailSrc": "assets/chip/2018/detail/1-2-10-5.webp",
-        "pixelWidth": 480,
-        "pixelHeight": 360
+        "pixelWidth": 1280,
+        "pixelHeight": 1053
       }
     ]
   },
@@ -562,8 +562,8 @@
     "answer": 2,
     "points": 3,
     "steps": [
-      "В Амазонии жарко и идут частые дожди. Деревья растут тесно: их кроны образуют сплошной зелёный полог.",
-      "На снимке В лес с густыми кронами разных высот тянется до горизонта. Во влажном воздухе над ним видна дымка."
+      "Деревья в дождевых лесах Амазонии растут тесно. Их кроны образуют сплошной зелёный полог.",
+      "На снимке В среди такого леса течёт широкая река с протоками. Заметьте, что лес продолжается до горизонта."
     ],
     "optionFigures": [
       {
@@ -768,48 +768,48 @@
     "optionFigures": [
       {
         "src": "assets/chip/2018/1-2-18-1.webp",
-        "alt": "Прыгающее животное с мощными задними лапами и длинным хвостом.",
-        "width": 170,
-        "height": 170,
+        "alt": "Прыгающее животное с длинным хвостом, мощными задними лапами и детёнышем в сумке.",
+        "width": 480,
+        "height": 442,
         "detailSrc": "assets/chip/2018/detail/1-2-18-1.webp",
-        "pixelWidth": 213,
-        "pixelHeight": 213
+        "pixelWidth": 1400,
+        "pixelHeight": 1290
       },
       {
         "src": "assets/chip/2018/1-2-18-2.webp",
-        "alt": "Крупные животные с хоботами.",
-        "width": 171,
-        "height": 198,
+        "alt": "Два крупных животных разного размера с длинными хоботами.",
+        "width": 362,
+        "height": 480,
         "detailSrc": "assets/chip/2018/detail/1-2-18-2.webp",
-        "pixelWidth": 213,
-        "pixelHeight": 247
+        "pixelWidth": 1056,
+        "pixelHeight": 1400
       },
       {
         "src": "assets/chip/2018/1-2-18-3.webp",
         "alt": "Два длинношеих животных с узкими мордами и стоячими ушами.",
-        "width": 170,
-        "height": 180,
+        "width": 446,
+        "height": 480,
         "detailSrc": "assets/chip/2018/detail/1-2-18-3.webp",
-        "pixelWidth": 213,
-        "pixelHeight": 225
+        "pixelWidth": 1300,
+        "pixelHeight": 1400
       },
       {
         "src": "assets/chip/2018/1-2-18-4.webp",
         "alt": "Большая кошка с густой гривой.",
-        "width": 171,
-        "height": 178,
+        "width": 249,
+        "height": 480,
         "detailSrc": "assets/chip/2018/detail/1-2-18-4.webp",
-        "pixelWidth": 213,
-        "pixelHeight": 222
+        "pixelWidth": 727,
+        "pixelHeight": 1400
       },
       {
         "src": "assets/chip/2018/1-2-18-5.webp",
         "alt": "Крупная птица с длинным клювом и горловым мешком.",
-        "width": 171,
-        "height": 190,
+        "width": 480,
+        "height": 463,
         "detailSrc": "assets/chip/2018/detail/1-2-18-5.webp",
-        "pixelWidth": 213,
-        "pixelHeight": 237
+        "pixelWidth": 1400,
+        "pixelHeight": 1350
       }
     ]
   },
@@ -831,12 +831,12 @@
     ],
     "figure": {
       "src": "assets/chip/2018/1-2-19.webp",
-      "alt": "Большие круглые плоды в твёрдой оболочке и отдельные коричневые семена.",
-      "width": 480,
-      "height": 410,
+      "alt": "Тёмный круглый плод с твёрдой оболочкой и светлые семена с неровными гранями.",
+      "width": 417,
+      "height": 480,
       "detailSrc": "assets/chip/2018/detail/1-2-19.webp",
-      "pixelWidth": 480,
-      "pixelHeight": 410
+      "pixelWidth": 1280,
+      "pixelHeight": 1474
     }
   },
   {
@@ -894,12 +894,12 @@
       },
       {
         "src": "assets/chip/2018/1-2-20-5.webp",
-        "alt": "Листья с розоватым краем образуют плотные розетки.",
-        "width": 480,
-        "height": 320,
+        "alt": "Две плотные розетки из округлых сизых мясистых листьев.",
+        "width": 320,
+        "height": 480,
         "detailSrc": "assets/chip/2018/detail/1-2-20-5.webp",
-        "pixelWidth": 480,
-        "pixelHeight": 320
+        "pixelWidth": 1067,
+        "pixelHeight": 1600
       }
     ]
   }

@@ -52,12 +52,12 @@
       },
       {
         "src": "assets/chip/2020/1-02-2.webp",
-        "alt": "Город на холмах; над крышами видны высокая башня круглой формы и высотные здания.",
-        "width": 169,
-        "height": 169,
+        "alt": "Город на холмах; видны высокая башня круглой формы и плотная застройка.",
+        "width": 384,
+        "height": 288,
         "detailSrc": "assets/chip/2020/detail/1-02-2.webp",
-        "pixelWidth": 211,
-        "pixelHeight": 211
+        "pixelWidth": 1200,
+        "pixelHeight": 900
       },
       {
         "src": "assets/chip/2020/1-02-3.webp",
@@ -70,21 +70,21 @@
       },
       {
         "src": "assets/chip/2020/1-02-4.webp",
-        "alt": "Современное высокое здание с тёмным верхом рядом с дорогой.",
-        "width": 169,
-        "height": 169,
+        "alt": "Большой фасад с высоким центральным проёмом и многоярусной восточной крышей.",
+        "width": 384,
+        "height": 256,
         "detailSrc": "assets/chip/2020/detail/1-02-4.webp",
-        "pixelWidth": 211,
-        "pixelHeight": 211
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2020/1-02-5.webp",
-        "alt": "Плотная городская застройка, выделяются шпили и купола.",
-        "width": 168,
-        "height": 169,
+        "alt": "Плотная городская застройка с куполами и белым монументом.",
+        "width": 384,
+        "height": 235,
         "detailSrc": "assets/chip/2020/detail/1-02-5.webp",
-        "pixelWidth": 210,
-        "pixelHeight": 211
+        "pixelWidth": 1536,
+        "pixelHeight": 940
       }
     ]
   },
@@ -200,11 +200,11 @@
       {
         "src": "assets/chip/2020/1-04-4.webp",
         "alt": "Веточка густо покрыта короткими острыми хвоинками.",
-        "width": 168,
-        "height": 144,
+        "width": 384,
+        "height": 288,
         "detailSrc": "assets/chip/2020/detail/1-04-4.webp",
-        "pixelWidth": 210,
-        "pixelHeight": 180
+        "pixelWidth": 1536,
+        "pixelHeight": 1152
       },
       {
         "src": "assets/chip/2020/1-04-5.webp",
@@ -376,12 +376,12 @@
     "optionFigures": [
       {
         "src": "assets/chip/2020/1-07-1.webp",
-        "alt": "Низкие растения и камни в открытом пейзаже.",
-        "width": 169,
-        "height": 169,
+        "alt": "Открытая равнина с низкой растительностью и небольшими водоёмами.",
+        "width": 384,
+        "height": 253,
         "detailSrc": "assets/chip/2020/detail/1-07-1.webp",
-        "pixelWidth": 211,
-        "pixelHeight": 211
+        "pixelWidth": 911,
+        "pixelHeight": 600
       },
       {
         "src": "assets/chip/2020/1-07-2.webp",
@@ -404,20 +404,20 @@
       {
         "src": "assets/chip/2020/1-07-4.webp",
         "alt": "Открытая равнина с травами до горизонта.",
-        "width": 169,
-        "height": 169,
+        "width": 384,
+        "height": 260,
         "detailSrc": "assets/chip/2020/detail/1-07-4.webp",
-        "pixelWidth": 211,
-        "pixelHeight": 211
+        "pixelWidth": 1000,
+        "pixelHeight": 677
       },
       {
         "src": "assets/chip/2020/1-07-5.webp",
-        "alt": "Золотистые песчаные холмы без растительности.",
-        "width": 169,
-        "height": 169,
+        "alt": "Песчаные холмы без растительности.",
+        "width": 384,
+        "height": 288,
         "detailSrc": "assets/chip/2020/detail/1-07-5.webp",
-        "pixelWidth": 211,
-        "pixelHeight": 211
+        "pixelWidth": 986,
+        "pixelHeight": 739
       }
     ],
     "adaptation": "В задании использованы крупные фотографии тех же видов или объектов. Порядок вариантов сохранён."
@@ -514,12 +514,12 @@
     "optionFigures": [
       {
         "src": "assets/chip/2020/1-09-1.webp",
-        "alt": "Светло-сиреневые соцветия с узкими лучами расположены вдоль зелёных стеблей.",
-        "width": 169,
-        "height": 169,
+        "alt": "Голубовато-сиреневые цветки расположены вдоль ветвящихся побегов.",
+        "width": 255,
+        "height": 384,
         "detailSrc": "assets/chip/2020/detail/1-09-1.webp",
-        "pixelWidth": 211,
-        "pixelHeight": 211
+        "pixelWidth": 1020,
+        "pixelHeight": 1536
       },
       {
         "src": "assets/chip/2020/1-09-2.webp",
@@ -541,12 +541,12 @@
       },
       {
         "src": "assets/chip/2020/1-09-4.webp",
-        "alt": "Ярко-жёлтые головки из множества узких цветков.",
-        "width": 169,
-        "height": 169,
+        "alt": "Ярко-жёлтая головка из множества узких язычковых цветков.",
+        "width": 384,
+        "height": 288,
         "detailSrc": "assets/chip/2020/detail/1-09-4.webp",
-        "pixelWidth": 211,
-        "pixelHeight": 211
+        "pixelWidth": 1536,
+        "pixelHeight": 1152
       },
       {
         "src": "assets/chip/2020/1-09-5.webp",
@@ -801,12 +801,12 @@
       },
       {
         "src": "assets/chip/2020/1-13-3.webp",
-        "alt": "Много ровных рядов зелёных растений, между ними стоит вода.",
-        "width": 169,
-        "height": 144,
+        "alt": "Ровные ряды молодых зелёных растений, между которыми стоит вода.",
+        "width": 384,
+        "height": 256,
         "detailSrc": "assets/chip/2020/detail/1-13-3.webp",
-        "pixelWidth": 211,
-        "pixelHeight": 180
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2020/1-13-4.webp",

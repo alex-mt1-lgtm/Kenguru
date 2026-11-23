@@ -68,21 +68,21 @@
       },
       {
         "src": "assets/chip/2020/5-6-03-2.webp",
-        "alt": "Веточка с перистыми листьями и красными плодами.",
-        "width": 119,
-        "height": 182,
+        "alt": "Перистые листья и яркие плоды на ветвях.",
+        "width": 384,
+        "height": 254,
         "detailSrc": "assets/chip/2020/detail/5-6-03-2.webp",
-        "pixelWidth": 149,
-        "pixelHeight": 227
+        "pixelWidth": 1280,
+        "pixelHeight": 848
       },
       {
         "src": "assets/chip/2020/5-6-03-3.webp",
-        "alt": "Лопастные листья и продолговатые плоды в чашечках.",
-        "width": 119,
-        "height": 182,
+        "alt": "Лопастные листья и продолговатые плоды с чашечками.",
+        "width": 384,
+        "height": 288,
         "detailSrc": "assets/chip/2020/detail/5-6-03-3.webp",
-        "pixelWidth": 149,
-        "pixelHeight": 227
+        "pixelWidth": 1600,
+        "pixelHeight": 1200
       },
       {
         "src": "assets/chip/2020/5-6-03-4.webp",
@@ -122,12 +122,12 @@
     ],
     "figure": {
       "src": "assets/chip/2020/5-6-04.webp",
-      "alt": "Открытая равнина с травой и редкими кустами.",
-      "width": 208,
-      "height": 138,
+      "alt": "Открытая равнина с густыми травами и небольшим количеством деревьев.",
+      "width": 384,
+      "height": 260,
       "detailSrc": "assets/chip/2020/detail/5-6-04.webp",
-      "pixelWidth": 260,
-      "pixelHeight": 172
+      "pixelWidth": 1000,
+      "pixelHeight": 677
     }
   },
   {
@@ -781,12 +781,12 @@
     "optionFigures": [
       {
         "src": "assets/chip/2020/5-6-25-1.webp",
-        "alt": "Тёмный минерал с ярко-зелёными участками.",
-        "width": 119,
-        "height": 89,
+        "alt": "Зелёный минерал с волнистыми полосами светлых и тёмных оттенков.",
+        "width": 384,
+        "height": 281,
         "detailSrc": "assets/chip/2020/detail/5-6-25-1.webp",
-        "pixelWidth": 149,
-        "pixelHeight": 111
+        "pixelWidth": 1600,
+        "pixelHeight": 1169
       },
       {
         "src": "assets/chip/2020/5-6-25-2.webp",
@@ -799,12 +799,12 @@
       },
       {
         "src": "assets/chip/2020/5-6-25-3.webp",
-        "alt": "Металлически блестящие зернистые кристаллы.",
-        "width": 119,
-        "height": 101,
+        "alt": "Металлически блестящие золотистые кубические кристаллы.",
+        "width": 302,
+        "height": 384,
         "detailSrc": "assets/chip/2020/detail/5-6-25-3.webp",
-        "pixelWidth": 149,
-        "pixelHeight": 127
+        "pixelWidth": 1257,
+        "pixelHeight": 1600
       },
       {
         "src": "assets/chip/2020/5-6-25-4.webp",

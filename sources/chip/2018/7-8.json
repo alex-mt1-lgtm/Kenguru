@@ -85,7 +85,7 @@
     "points": 3,
     "steps": [
       "Дикие лошади исчезли в Америке в конце последнего ледникового периода. Евразийских домашних лошадей завезли европейцы.",
-      "На картине Г изображены всадники на лошадях. Такой сюжет относится ко времени после их возвращения в Америку."
+      "На картине Г показан всадник. Такой сюжет относится ко времени после того, как лошади вновь появились в Америке."
     ],
     "adaptation": "Уточнён период, чтобы не смешивать его с ледниковым временем, когда в Америке были дикие лошади.",
     "optionFigures": [
@@ -118,7 +118,7 @@
       },
       {
         "src": "assets/chip/2018/7-8-03-4.webp",
-        "alt": "Люди верхом на скачущих лошадях.",
+        "alt": "Всадник на скачущей лошади.",
         "width": 81,
         "height": 97,
         "detailSrc": "assets/chip/2018/detail/7-8-03-4.webp",
@@ -154,12 +154,12 @@
     ],
     "figure": {
       "src": "assets/chip/2018/7-8-04.webp",
-      "alt": "Светлая плетёная шляпа с тёмной лентой и полями.",
-      "width": 108,
-      "height": 86,
+      "alt": "Плетёная соломенная шляпа со светлыми полями и чёрной лентой.",
+      "width": 480,
+      "height": 321,
       "detailSrc": "assets/chip/2018/detail/7-8-04.webp",
-      "pixelWidth": 135,
-      "pixelHeight": 108
+      "pixelWidth": 1280,
+      "pixelHeight": 857
     }
   },
   {
@@ -234,21 +234,21 @@
     "optionFigures": [
       {
         "src": "assets/chip/2018/7-8-08-1.webp",
-        "alt": "Длинная змея на берегу у воды.",
-        "width": 120,
-        "height": 110,
+        "alt": "Большая змея свернулась кольцами рядом с водой.",
+        "width": 480,
+        "height": 320,
         "detailSrc": "assets/chip/2018/detail/7-8-08-1.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 137
+        "pixelWidth": 1024,
+        "pixelHeight": 683
       },
       {
         "src": "assets/chip/2018/7-8-08-2.webp",
         "alt": "Рыба с высоким телом и красноватым брюхом.",
-        "width": 120,
-        "height": 110,
+        "width": 480,
+        "height": 320,
         "detailSrc": "assets/chip/2018/detail/7-8-08-2.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 137
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2018/7-8-08-3.webp",
@@ -261,21 +261,21 @@
       },
       {
         "src": "assets/chip/2018/7-8-08-4.webp",
-        "alt": "Большая кошка с тёмными пятнами в форме розеток.",
-        "width": 120,
-        "height": 110,
+        "alt": "Крупная кошка с тёмными пятнами в форме розеток.",
+        "width": 480,
+        "height": 331,
         "detailSrc": "assets/chip/2018/detail/7-8-08-4.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 137
+        "pixelWidth": 1280,
+        "pixelHeight": 882
       },
       {
         "src": "assets/chip/2018/7-8-08-5.webp",
-        "alt": "Ярко-синее земноводное с пятнами.",
-        "width": 120,
-        "height": 110,
+        "alt": "Ярко-синяя лягушка с чёрными пятнами.",
+        "width": 480,
+        "height": 350,
         "detailSrc": "assets/chip/2018/detail/7-8-08-5.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 137
+        "pixelWidth": 1109,
+        "pixelHeight": 808
       }
     ]
   },
@@ -387,21 +387,21 @@
       },
       {
         "src": "assets/chip/2018/7-8-12-4.webp",
-        "alt": "Ровные ряды растений на плантации.",
-        "width": 120,
-        "height": 110,
+        "alt": "Зелёные кусты на склоне высажены рядами, между ними тянутся узкие тропинки.",
+        "width": 480,
+        "height": 320,
         "detailSrc": "assets/chip/2018/detail/7-8-12-4.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 137
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2018/7-8-12-5.webp",
-        "alt": "Крупные красные ребристые плоды на стволе и ветвях.",
-        "width": 120,
-        "height": 110,
+        "alt": "Красные ребристые плоды на стволе и толстых ветвях.",
+        "width": 360,
+        "height": 480,
         "detailSrc": "assets/chip/2018/detail/7-8-12-5.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 137
+        "pixelWidth": 1200,
+        "pixelHeight": 1600
       }
     ]
   },
@@ -582,48 +582,48 @@
     "optionFigures": [
       {
         "src": "assets/chip/2018/7-8-21-1.webp",
-        "alt": "Светлый округлый грызун с короткими лапами.",
-        "width": 120,
-        "height": 107,
+        "alt": "Светлый округлый грызун с короткими лапами и маленькими ушами.",
+        "width": 480,
+        "height": 360,
         "detailSrc": "assets/chip/2018/detail/7-8-21-1.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 134
+        "pixelWidth": 1024,
+        "pixelHeight": 768
       },
       {
         "src": "assets/chip/2018/7-8-21-2.webp",
-        "alt": "Серый грызун с густым мехом и большими округлыми ушами.",
-        "width": 120,
-        "height": 107,
+        "alt": "Грызун с густым серым мехом и крупными округлыми ушами.",
+        "width": 480,
+        "height": 360,
         "detailSrc": "assets/chip/2018/detail/7-8-21-2.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 134
+        "pixelWidth": 1280,
+        "pixelHeight": 960
       },
       {
         "src": "assets/chip/2018/7-8-21-3.webp",
-        "alt": "Пёстрый грызун с длинными усами.",
-        "width": 120,
-        "height": 107,
+        "alt": "Морда грызуна с белой шерстью и тёмным пятном.",
+        "width": 360,
+        "height": 480,
         "detailSrc": "assets/chip/2018/detail/7-8-21-3.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 134
+        "pixelWidth": 1200,
+        "pixelHeight": 1600
       },
       {
         "src": "assets/chip/2018/7-8-21-4.webp",
-        "alt": "Песочный грызун с заострённой мордой и тонким хвостом.",
-        "width": 120,
-        "height": 107,
+        "alt": "Песочный грызун с тёмными глазами и заострённой мордой.",
+        "width": 480,
+        "height": 360,
         "detailSrc": "assets/chip/2018/detail/7-8-21-4.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 134
+        "pixelWidth": 1024,
+        "pixelHeight": 768
       },
       {
         "src": "assets/chip/2018/7-8-21-5.webp",
-        "alt": "Тёмный грызун с грубой шерстью и длинным хвостом.",
-        "width": 120,
-        "height": 107,
+        "alt": "Серовато-бурый грызун на земле у камня.",
+        "width": 360,
+        "height": 480,
         "detailSrc": "assets/chip/2018/detail/7-8-21-5.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 134
+        "pixelWidth": 768,
+        "pixelHeight": 1024
       }
     ]
   },
@@ -700,30 +700,30 @@
       },
       {
         "src": "assets/chip/2018/7-8-24-3.webp",
-        "alt": "Коренастый зверь с короткой мордой жует траву.",
-        "width": 120,
-        "height": 110,
+        "alt": "Коренастый бурый зверь с короткой широкой мордой.",
+        "width": 480,
+        "height": 320,
         "detailSrc": "assets/chip/2018/detail/7-8-24-3.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 137
+        "pixelWidth": 1280,
+        "pixelHeight": 854
       },
       {
         "src": "assets/chip/2018/7-8-24-4.webp",
-        "alt": "Тёмный зверь с коротким подвижным хоботком.",
-        "width": 120,
-        "height": 110,
+        "alt": "Массивное тёмное животное тянет короткий подвижный хоботок к ветке.",
+        "width": 480,
+        "height": 320,
         "detailSrc": "assets/chip/2018/detail/7-8-24-4.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 137
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2018/7-8-24-5.webp",
-        "alt": "Длинношеее животное с густой шерстью на открытом горном склоне.",
-        "width": 120,
-        "height": 110,
+        "alt": "Длинношеие животные с густой шерстью на открытом склоне.",
+        "width": 480,
+        "height": 360,
         "detailSrc": "assets/chip/2018/detail/7-8-24-5.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 137
+        "pixelWidth": 1280,
+        "pixelHeight": 960
       }
     ]
   },
@@ -798,12 +798,12 @@
     ],
     "figure": {
       "src": "assets/chip/2018/7-8-28.webp",
-      "alt": "Муравей несёт большой зелёный кусочек листа.",
-      "width": 162,
-      "height": 125,
+      "alt": "На ветке несколько муравьёв несут небольшие зелёные кусочки листьев.",
+      "width": 480,
+      "height": 335,
       "detailSrc": "assets/chip/2018/detail/7-8-28.webp",
-      "pixelWidth": 202,
-      "pixelHeight": 156
+      "pixelWidth": 1280,
+      "pixelHeight": 893
     }
   },
   {

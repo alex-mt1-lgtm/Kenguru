@@ -216,11 +216,18 @@ def prepare_figure(figure, use_detail=False):
     with Image.open(path) as image:
         if use_detail and image.format == 'JPEG':
             return image.width, image.height, path.read_bytes(), False
-        # Keep the decoded pixels of formats such as WebP, which PDF cannot embed directly.
         buffer = BytesIO()
         if use_detail:
             image.thumbnail((PRINT_IMAGE_MAX_SIDE, PRINT_IMAGE_MAX_SIDE), Image.Resampling.LANCZOS)
-        image.convert('RGBA' if image.has_transparency_data else 'RGB').save(buffer, format='PNG')
+        # PDF can embed JPEG directly. Preserve lossless line art and transparency as PNG.
+        lossy_chip_photo = False
+        if image.format == 'WEBP' and path.is_relative_to(ASSETS / 'chip') and not image.has_transparency_data:
+            with path.open('rb') as original:
+                lossy_chip_photo = original.read(16)[12:16] == b'VP8 '
+        if lossy_chip_photo:
+            image.convert('RGB').save(buffer, format='JPEG', quality=94, subsampling=0)
+        else:
+            image.convert('RGBA' if image.has_transparency_data else 'RGB').save(buffer, format='PNG')
         return image.width, image.height, buffer.getvalue(), False
 
 

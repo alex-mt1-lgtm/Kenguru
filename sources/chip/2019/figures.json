@@ -2753,12 +2753,17 @@
       "page": 1,
       "xref": 29,
       "detail": {
-        "author": "Изображение из буклета ЧИП",
-        "source": "2019/chip_2019-20_1-2.pdf",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "source": "https://commons.wikimedia.org/wiki/File:Sugarcane_field_in_Queensland,_Australia_1.jpg",
+        "author": "Phil",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "nativePixels": [
+          3888,
+          2592
+        ],
         "file": "detail/2-11-4.webp",
-        "previewMax": 122
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
       },
       "imageBox": [
         486,
@@ -3130,16 +3135,11 @@
       "page": 2,
       "xref": 34,
       "detail": {
-        "source": "https://commons.wikimedia.org/wiki/File:Polynesian_outrigger_canoe_at_sea,_Oc,G.T.1516,_Mana_Expedition_to_East_Polynesia,_British_Museum.jpg",
-        "author": "Неизвестный фотограф; собрание Британского музея, Oc,G.T.1516",
-        "license": "Public domain",
-        "nativePixels": [
-          750,
-          585
-        ],
-        "file": "detail/2-20.webp",
-        "previewMax": 384,
-        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+        "file": "2-20.svg",
+        "author": "Редакция Olympiads.pro по изображению из буклета ЧИП",
+        "source": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+        "license": "Редакционный векторный рисунок",
+        "processing": "Два гребца, узкий корпус, боковой поплавок и соединяющие их штанги перенесены с исходного фото. Текст и обозначения на схему не добавлялись."
       },
       "imageBox": [
         0,
@@ -3845,16 +3845,12 @@
       "page": 0,
       "xref": 26,
       "detail": {
+        "source": "https://guidoborelliprints.com/featured/i-girasoli-nel-campo-guido-borelli.html",
         "author": "Гвидо Борелли",
-        "source": "2019/chip_2019-20_7-8.pdf",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Извлечён исходный кадр буклета без увеличения. Пейзаж и поле подсолнечников различимы; крупная репродукция с подтверждённой лицензией не найдена.",
-        "file": "detail/7-8-06-1.webp",
-        "previewMax": 150,
-        "nativePixels": [
-          187,
-          131
-        ]
+        "license": "© Guido Borelli. Свободная лицензия в каталоге художника не указана.",
+        "processing": "Точная репродукция I girasoli nel campo из каталога художника: совпадают дом с черепичной крышей, деревья и поле подсолнечников.",
+        "previewMax": 360,
+        "file": "detail/7-8-06-1.webp"
       },
       "imageBox": [
         4,
@@ -4418,7 +4414,7 @@
         "author": "Векторная перерисовка Olympiads.pro",
         "source": "2019/chip_2019-20_7-8.pdf",
         "license": "Векторная реконструкция по архиву",
-        "processing": "Содержание и обозначения перенесены из исходного кадра.",
+        "processing": "Вручную перерисованы все три ряда отпечатков и продольные следы хвоста. Положение и направления перенесены из исходного рисунка.",
         "file": "7-8-29.svg"
       }
     },
@@ -5006,7 +5002,7 @@
         "author": "Векторная перерисовка Olympiads.pro",
         "source": "2019/chip_2019-20_9-10.pdf",
         "license": "Векторная реконструкция по архиву",
-        "processing": "Содержание и обозначения перенесены из исходного кадра.",
+        "processing": "Вручную восстановлены центральное кольцо и восемь открытых в его сторону дуг, как в исходном рисунке.",
         "file": "9-11-25.svg"
       }
     },

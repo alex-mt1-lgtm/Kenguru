@@ -46,20 +46,21 @@ def credit_lines(path, manifest):
                 detail = manifest['figures'].get(Path(image['src']).stem, {}).get('detail')
                 if not detail:
                     continue
-                source = detail['source']
-                if '/' not in source and source.endswith('.pdf'):
-                    source = year + '/' + source
-                license_name = escape(detail['license'])
-                if detail.get('licenseUrl'):
-                    license_name = f'<a href="{escape(detail["licenseUrl"], quote=True)}">{license_name}</a>'
                 master = ASSETS / year / detail['file']
                 size = 'SVG'
                 if master.suffix != '.svg':
                     with Image.open(master) as original:
                         size = f'{original.width} × {original.height} px'
-                credits.add(f'<li><strong>{escape(detail["author"])}</strong>. '
-                            f'<a href="{escape(source, quote=True)}">Источник</a> · {license_name}. '
-                            f'{escape(detail["processing"])} <small>({size})</small></li>')
+                for credit in detail.get('additionalSources') or [detail]:
+                    source = credit['source']
+                    if '/' not in source and source.endswith('.pdf'):
+                        source = year + '/' + source
+                    license_name = escape(credit['license'])
+                    if credit.get('licenseUrl'):
+                        license_name = f'<a href="{escape(credit["licenseUrl"], quote=True)}">{license_name}</a>'
+                    credits.add(f'<li><strong>{escape(credit["author"])}</strong>. '
+                                f'<a href="{escape(source, quote=True)}">Источник</a> · {license_name}. '
+                                f'{escape(detail["processing"])} <small>({size})</small></li>')
         yield from sorted(credits, key=str.casefold)
         yield '</ul>'
 
