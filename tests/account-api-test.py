@@ -76,7 +76,7 @@ class TestAccountApi(unittest.TestCase):
         environment = {**os.environ, "HTTPS": "on", "KENGURU_TEST_MAIL": str(self.inbox)}
         self.server = subprocess.Popen(command, env=environment, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE)
         self.addCleanup(self.stop_server)
-        self.client = ApiClient(self.client.port)
+        self.client = ApiClient(self.port)
         for _ in range(50):
             try:
                 self.assertEqual(self.client.action("session")[0], 200)
@@ -455,7 +455,8 @@ class TestAccountApi(unittest.TestCase):
     def test_russian_authorized_alternative_receives_full_points(self):
         lesson = "2003-medvezhonok-8-9/18"
         for selected, result in ((1, "solved"), (2, "solved"), (0, "reviewed")):
-            client = ApiClient(self.client.port)
+            client = ApiClient(self.port)
+            self.assertEqual(client.action("session")[0], 200)
             status, signed_in, _ = client.action("register", {
                 "username": f"language_{selected}", "email": f"language_{selected}@example.test",
                 "password": "language-reader-password",

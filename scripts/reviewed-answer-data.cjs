@@ -9,6 +9,7 @@ function add(meta, rows, partial, paperKey = false) {
     const number = row.number ?? i + 1;
     const matching = meta.matchingGroups?.find(group => number >= group.start && number < group.start + group.count);
     return {number, choices: row.choices, answer: row.answer, acceptedAnswers: row.acceptedAnswers, numericAnswer: row.numericAnswer,
+      ...(row.reviewedEdition && row.review ? {solution: row.review.slice(1), keyNote: row.keyNote} : {}),
       ...((paperKey && row.question || row.adaptation || row.reviewedEdition) ? {
         revisedQuestion: [row.context, row.question].filter(Boolean).join('\n\n'), revisedChoices: row.choices,
         figure: row.figure, figures: row.figures, optionFigures: row.optionFigures} : {}),

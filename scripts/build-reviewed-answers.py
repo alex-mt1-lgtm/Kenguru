@@ -456,6 +456,13 @@ def draw_appendix(pdf, title, revisions, letters, regular, bold):
                     draw_text(page, regular, MARGIN + 25, y + BODY_SIZE, line)
                     y += LINE_HEIGHT
 
+        for paragraph in [*row.get('solution', []), row.get('keyNote')]:
+            if paragraph:
+                y += 5
+                for line in wrap(normalize(paragraph), regular, BODY_SIZE, width):
+                    reserve(LINE_HEIGHT)
+                    draw_text(page, regular, MARGIN, y + BODY_SIZE, line)
+                    y += LINE_HEIGHT
         if y + 4 <= bottom:
             page.draw_line((MARGIN, y + 4), (right, y + 4), color=RULE, width=0.5)
         y += 13

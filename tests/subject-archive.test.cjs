@@ -36,7 +36,7 @@ test('the four subject archives include every local booklet, its matching key an
   }
 });
 
-test('every interactive question has one checked answer and its score in the deployed catalogue', () => {
+test('every interactive question has a verified answer and its score in the deployed catalogue', () => {
   const {loadLessonCatalog} = require('../scripts/lesson-catalog.cjs');
   const {lessons} = loadLessonCatalog();
   const catalog = JSON.parse(fs.readFileSync(path.join(root,'dist/api/rating-catalog.json')));
@@ -45,7 +45,12 @@ test('every interactive question has one checked answer and its score in the dep
     const numeric = Number.isInteger(lesson.numericAnswer);
     const expected = numeric ? lesson.numericAnswer : lesson.answer;
     assert.ok(Number.isInteger(expected) && expected >= 0 && (numeric || expected < lesson.choices.length), id);
-    assert.ok(lesson.points > 0 && !lesson.keyConflict && !lesson.acceptedAnswers, id);
-    assert.deepEqual(catalog[id], numeric ? [expected, lesson.points, 'number'] : [expected, lesson.points], id);
+    assert.ok(lesson.points > 0 && !lesson.keyConflict, id);
+    if (lesson.acceptedAnswers) {
+      assert.ok(!numeric && lesson.acceptedAnswers.includes(expected), id);
+      assert.ok(lesson.acceptedAnswers.every(i => Number.isInteger(i) && i >= 0 && i < lesson.choices.length), id);
+    }
+    assert.deepEqual(catalog[id], numeric ? [expected, lesson.points, 'number'] :
+      [expected, lesson.points, ...(lesson.acceptedAnswers ? [Array.from(lesson.acceptedAnswers)] : [])], id);
   }
 });
