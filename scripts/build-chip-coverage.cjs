@@ -25,7 +25,7 @@ function refreshCoverage(matrix) {
       continue;
     }
     if (!row.archive.tasks || book.rows.length !== row.problemCount) throw new Error(id + ': incomplete booklet');
-    row.interactive = book.meta.sourceFile ?? 'sources/chip/' + id + '.json';
+    row.interactive = book.file;
     row.interactiveQuestions = book.rows.length;
     books.delete(id);
     interactive++;

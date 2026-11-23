@@ -1994,10 +1994,10 @@
     },
     "africa-photo-aloe": {
       "detail": {
-        "source": "https://commons.wikimedia.org/wiki/File:Unidentified_Agave_plant_5.jpg",
-        "author": "Andrew McMillan",
+        "source": "https://commons.wikimedia.org/wiki/File:Aloe_ferox_in_pot_D150326.jpg",
+        "author": "Tangopaso",
         "license": "Public domain",
-        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "processing": "Вариант показывает алоэ, как в архивном буклете. Фотография кадрирована без увеличения.",
         "file": "detail/africa-photo-aloe.webp"
       }
     },
@@ -2158,7 +2158,7 @@
         "author": "Wikimedia Commons",
         "license": "Public domain",
         "processing": "Герб той же страны из векторного источника.",
-        "file": "detail/africa-coat-botswana.svg"
+        "file": "africa-coat-botswana.svg"
       }
     },
     "africa-coat-australia": {
@@ -2368,12 +2368,17 @@
       "page": 0,
       "xref": 21,
       "detail": {
-        "author": "Изображение из буклета ЧИП",
-        "source": "2019/chip_2019-20_1-2.pdf",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "source": "https://commons.wikimedia.org/wiki/File:Dingo_(Canis_lupus_dingo)_Kakadu_2.jpg",
+        "author": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "nativePixels": [
+          3154,
+          2783
+        ],
         "file": "detail/2-04-1.webp",
-        "previewMax": 114
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
       },
       "imageBox": [
         4,
@@ -2387,12 +2392,17 @@
       "page": 0,
       "xref": 21,
       "detail": {
-        "author": "Изображение из буклета ЧИП",
-        "source": "2019/chip_2019-20_1-2.pdf",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "source": "https://commons.wikimedia.org/wiki/File:Numbat,_Dryandra_Woodland,_Western_Australia.jpg",
+        "author": "JJ Harrison",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "nativePixels": [
+          2225,
+          1381
+        ],
         "file": "detail/2-04-2.webp",
-        "previewMax": 114
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
       },
       "imageBox": [
         154,
@@ -2406,12 +2416,17 @@
       "page": 0,
       "xref": 21,
       "detail": {
-        "author": "Изображение из буклета ЧИП",
-        "source": "2019/chip_2019-20_1-2.pdf",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "source": "https://commons.wikimedia.org/wiki/File:Dasyurus_viverrinus.jpg",
+        "author": "Michael Barritt & Karen May",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "nativePixels": [
+          2832,
+          2128
+        ],
         "file": "detail/2-04-3.webp",
-        "previewMax": 114
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
       },
       "imageBox": [
         304,
@@ -2425,12 +2440,13 @@
       "page": 0,
       "xref": 21,
       "detail": {
-        "author": "Изображение из буклета ЧИП",
-        "source": "2019/chip_2019-20_1-2.pdf",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
         "file": "detail/2-04-4.webp",
-        "previewMax": 114
+        "source": "https://commons.wikimedia.org/wiki/File:Forester_kangaroo_(Macropus_giganteus_tasmaniensis)_female_with_joey_Esk_Valley.jpg",
+        "author": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "processing": "Новый кадр показывает тот же вид или тот же объект, что и архивная иллюстрация. В карточку выводится уменьшенная копия мастера.",
+        "previewMax": 384
       },
       "imageBox": [
         454,
@@ -2444,12 +2460,13 @@
       "page": 0,
       "xref": 21,
       "detail": {
-        "author": "Изображение из буклета ЧИП",
-        "source": "2019/chip_2019-20_1-2.pdf",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
         "file": "detail/2-04-5.webp",
-        "previewMax": 114
+        "source": "https://commons.wikimedia.org/wiki/File:Koala_climbing_tree.jpg",
+        "author": "Diliff",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "processing": "Новый кадр показывает тот же вид или тот же объект, что и архивная иллюстрация. В карточку выводится уменьшенная копия мастера.",
+        "previewMax": 384
       },
       "imageBox": [
         604,
@@ -2463,12 +2480,17 @@
       "page": 0,
       "xref": 22,
       "detail": {
-        "author": "Изображение из буклета ЧИП",
-        "source": "2019/chip_2019-20_1-2.pdf",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "source": "https://commons.wikimedia.org/wiki/File:Kuusk_Keila-Paldiski_rdt_%C3%A4%C3%A4res.jpg",
+        "author": "Ivar Leidus",
+        "license": "CC BY-SA 3.0 ee",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/ee/deed.en",
+        "nativePixels": [
+          2400,
+          3600
+        ],
         "file": "detail/2-07-1.webp",
-        "previewMax": 143
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
       },
       "imageBox": [
         4,
@@ -2482,12 +2504,17 @@
       "page": 0,
       "xref": 22,
       "detail": {
-        "author": "Изображение из буклета ЧИП",
-        "source": "2019/chip_2019-20_1-2.pdf",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "source": "https://commons.wikimedia.org/wiki/File:Efate_East_-_Very_old_coconut_plantations_-_panoramio.jpg",
+        "author": "Jean Van Jean",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "nativePixels": [
+          1024,
+          768
+        ],
         "file": "detail/2-07-2.webp",
-        "previewMax": 143
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
       },
       "imageBox": [
         144,
@@ -2501,12 +2528,13 @@
       "page": 0,
       "xref": 22,
       "detail": {
-        "author": "Изображение из буклета ЧИП",
-        "source": "2019/chip_2019-20_1-2.pdf",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "source": "https://commons.wikimedia.org/wiki/File:Betula_pendula_Finland.jpg",
+        "author": "Percita at Flickr",
+        "license": "CC BY-SA 2.0",
+        "processing": "Новый кадр показывает тот же вид или тот же объект, что и архивная иллюстрация. В карточку выводится уменьшенная копия мастера.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
         "file": "detail/2-07-3.webp",
-        "previewMax": 143
+        "previewMax": 384
       },
       "imageBox": [
         284,
@@ -2520,12 +2548,13 @@
       "page": 0,
       "xref": 22,
       "detail": {
-        "author": "Изображение из буклета ЧИП",
-        "source": "2019/chip_2019-20_1-2.pdf",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "source": "https://commons.wikimedia.org/wiki/File:%22_Avenue_of_the_Baobabs_%22_(Adansonia_grandidieri)_(9576865450).jpg",
+        "author": "Bernard DUPONT from FRANCE",
+        "license": "CC BY-SA 2.0",
+        "processing": "Новый кадр показывает тот же вид или тот же объект, что и архивная иллюстрация. В карточку выводится уменьшенная копия мастера.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
         "file": "detail/2-07-4.webp",
-        "previewMax": 143
+        "previewMax": 384
       },
       "imageBox": [
         424,
@@ -2539,12 +2568,16 @@
       "page": 0,
       "xref": 22,
       "detail": {
-        "author": "Изображение из буклета ЧИП",
-        "source": "2019/chip_2019-20_1-2.pdf",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "source": "https://commons.wikimedia.org/wiki/File:Sherbrooke_forest_Victoria_220rs.jpg",
+        "author": "Patche99z",
+        "license": "Public domain",
+        "nativePixels": [
+          2192,
+          1644
+        ],
         "file": "detail/2-07-5.webp",
-        "previewMax": 143
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
       },
       "imageBox": [
         564,
@@ -2653,18 +2686,22 @@
       "page": 1,
       "xref": 29,
       "detail": {
-        "author": "Изображение из буклета ЧИП",
-        "source": "2019/chip_2019-20_1-2.pdf",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "source": "https://commons.wikimedia.org/wiki/File:SugarBeet.jpg",
+        "author": "USDA",
+        "license": "Public domain",
+        "nativePixels": [
+          1786,
+          2700
+        ],
         "file": "detail/2-11-1.webp",
-        "previewMax": 122
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
       },
       "imageBox": [
-        4,
+        6,
         1,
         156,
-        145
+        134
       ]
     },
     "2-11-2": {
@@ -2672,12 +2709,13 @@
       "page": 1,
       "xref": 29,
       "detail": {
-        "author": "Изображение из буклета ЧИП",
-        "source": "2019/chip_2019-20_1-2.pdf",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "source": "https://commons.wikimedia.org/wiki/File:Taiwan_2009_Tainan_City_Organic_Farm_Watermelon_FRD_7962.jpg",
+        "author": "Fred Hsu (Wikipedia:User:Fred Hsu on en.wikipedia)",
+        "license": "CC BY-SA 3.0",
+        "processing": "Новый кадр показывает тот же вид или тот же объект, что и архивная иллюстрация. В карточку выводится уменьшенная копия мастера.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
         "file": "detail/2-11-2.webp",
-        "previewMax": 122
+        "previewMax": 384
       },
       "imageBox": [
         164,
@@ -2691,18 +2729,23 @@
       "page": 1,
       "xref": 29,
       "detail": {
-        "author": "Изображение из буклета ЧИП",
-        "source": "2019/chip_2019-20_1-2.pdf",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "source": "https://commons.wikimedia.org/wiki/File:2014-11-02_15_25_30_Sugar_Maple_during_autumn_along_Patton_Drive_in_Ewing,_New_Jersey.jpg",
+        "author": "Famartin",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "nativePixels": [
+          2448,
+          3264
+        ],
         "file": "detail/2-11-3.webp",
-        "previewMax": 122
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
       },
       "imageBox": [
-        324,
+        326,
         1,
         476,
-        145
+        134
       ]
     },
     "2-11-4": {
@@ -2718,10 +2761,10 @@
         "previewMax": 122
       },
       "imageBox": [
-        484,
+        486,
         1,
         636,
-        145
+        134
       ]
     },
     "2-11-5": {
@@ -2737,10 +2780,10 @@
         "previewMax": 122
       },
       "imageBox": [
-        644,
+        646,
         1,
         796,
-        145
+        134
       ]
     },
     "2-13": {
@@ -2760,12 +2803,17 @@
       "page": 1,
       "xref": 30,
       "detail": {
-        "author": "Изображение из буклета ЧИП",
-        "source": "2019/chip_2019-20_1-2.pdf",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "source": "https://commons.wikimedia.org/wiki/File:Wiener_Staatsoper_Front.jpg",
+        "author": "Wiener Staatsoper GmbH",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "nativePixels": [
+          2362,
+          1527
+        ],
         "file": "detail/2-14-1.webp",
-        "previewMax": 122
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
       },
       "imageBox": [
         4,
@@ -2779,12 +2827,17 @@
       "page": 1,
       "xref": 30,
       "detail": {
-        "author": "Изображение из буклета ЧИП",
-        "source": "2019/chip_2019-20_1-2.pdf",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "source": "https://commons.wikimedia.org/wiki/File:Moscow-Bolshoi-Theare-1.jpg",
+        "author": "DmitriyGuryanov",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "nativePixels": [
+          6728,
+          5598
+        ],
         "file": "detail/2-14-2.webp",
-        "previewMax": 122
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
       },
       "imageBox": [
         164,
@@ -2798,12 +2851,13 @@
       "page": 1,
       "xref": 30,
       "detail": {
-        "author": "Изображение из буклета ЧИП",
-        "source": "2019/chip_2019-20_1-2.pdf",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
         "file": "detail/2-14-3.webp",
-        "previewMax": 122
+        "source": "https://commons.wikimedia.org/wiki/File:Sydney_Opera_House_2026.jpg",
+        "author": "BAVhah",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "processing": "Новый кадр показывает тот же вид или тот же объект, что и архивная иллюстрация. В карточку выводится уменьшенная копия мастера.",
+        "previewMax": 384
       },
       "imageBox": [
         324,
@@ -2817,12 +2871,17 @@
       "page": 1,
       "xref": 30,
       "detail": {
-        "author": "Изображение из буклета ЧИП",
-        "source": "2019/chip_2019-20_1-2.pdf",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "source": "https://commons.wikimedia.org/wiki/File:Dresden_-_Semperoper_-_2013.jpg",
+        "author": "Avda",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "nativePixels": [
+          2048,
+          1366
+        ],
         "file": "detail/2-14-4.webp",
-        "previewMax": 122
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
       },
       "imageBox": [
         484,
@@ -2836,12 +2895,17 @@
       "page": 1,
       "xref": 30,
       "detail": {
-        "author": "Изображение из буклета ЧИП",
-        "source": "2019/chip_2019-20_1-2.pdf",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "source": "https://commons.wikimedia.org/wiki/File:Paris_Opera_full_frontal_architecture,_May_2009.jpg",
+        "author": "Peter Rivera",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "nativePixels": [
+          2079,
+          1397
+        ],
         "file": "detail/2-14-5.webp",
-        "previewMax": 122
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
       },
       "imageBox": [
         644,
@@ -2855,12 +2919,13 @@
       "page": 2,
       "xref": 36,
       "detail": {
-        "author": "Изображение из буклета ЧИП",
-        "source": "2019/chip_2019-20_1-2.pdf",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
         "file": "detail/2-16-1.webp",
-        "previewMax": 122
+        "source": "https://commons.wikimedia.org/wiki/File:Southern_Cassowary_7071.jpg",
+        "author": "Summerdrought",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "processing": "Новый кадр показывает тот же вид или тот же объект, что и архивная иллюстрация. В карточку выводится уменьшенная копия мастера.",
+        "previewMax": 384
       },
       "imageBox": [
         4,
@@ -2874,12 +2939,13 @@
       "page": 2,
       "xref": 36,
       "detail": {
-        "author": "Изображение из буклета ЧИП",
-        "source": "2019/chip_2019-20_1-2.pdf",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
         "file": "detail/2-16-2.webp",
-        "previewMax": 122
+        "source": "https://commons.wikimedia.org/wiki/File:Emu_1_-_Tidbinbilla.jpg",
+        "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "processing": "Новый кадр показывает тот же вид или тот же объект, что и архивная иллюстрация. В карточку выводится уменьшенная копия мастера.",
+        "previewMax": 384
       },
       "imageBox": [
         164,
@@ -2893,12 +2959,17 @@
       "page": 2,
       "xref": 36,
       "detail": {
-        "author": "Изображение из буклета ЧИП",
-        "source": "2019/chip_2019-20_1-2.pdf",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "source": "https://commons.wikimedia.org/wiki/File:Australian_Bustard_2_-_Mt_Carbine.jpg",
+        "author": "JJ Harrison ( https://www.jjharrison.com.au/ )",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "nativePixels": [
+          3492,
+          2329
+        ],
         "file": "detail/2-16-3.webp",
-        "previewMax": 122
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
       },
       "imageBox": [
         324,
@@ -2912,12 +2983,17 @@
       "page": 2,
       "xref": 36,
       "detail": {
-        "author": "Изображение из буклета ЧИП",
-        "source": "2019/chip_2019-20_1-2.pdf",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "source": "https://commons.wikimedia.org/wiki/File:Australian_Brushturkey_2_-_Newington.jpg",
+        "author": "JJ Harrison ( https://www.jjharrison.com.au/ )",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "nativePixels": [
+          2921,
+          2922
+        ],
         "file": "detail/2-16-4.webp",
-        "previewMax": 122
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
       },
       "imageBox": [
         484,
@@ -2931,12 +3007,17 @@
       "page": 2,
       "xref": 36,
       "detail": {
-        "author": "Изображение из буклета ЧИП",
-        "source": "2019/chip_2019-20_1-2.pdf",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
         "file": "detail/2-16-5.webp",
-        "previewMax": 122
+        "source": "https://commons.wikimedia.org/wiki/File:Lyrebird.jpg",
+        "author": "Melburnian",
+        "license": "CC BY-SA 3.0",
+        "processing": "Новый кадр показывает тот же вид или тот же объект, что и архивная иллюстрация. В карточку выводится уменьшенная копия мастера.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "nativePixels": [
+          1088,
+          1000
+        ],
+        "previewMax": 384
       },
       "imageBox": [
         644,
@@ -2950,12 +3031,13 @@
       "page": 2,
       "xref": 33,
       "detail": {
-        "author": "Изображение из буклета ЧИП",
-        "source": "2019/chip_2019-20_1-2.pdf",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
         "file": "detail/2-17.webp",
-        "previewMax": 164
+        "source": "https://commons.wikimedia.org/wiki/File:Koala_climbing_tree.jpg",
+        "author": "Diliff",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "processing": "Новый кадр показывает тот же вид или тот же объект, что и архивная иллюстрация. В карточку выводится уменьшенная копия мастера.",
+        "previewMax": 384
       },
       "imageBox": [
         0,
@@ -2981,12 +3063,16 @@
       "page": 2,
       "xref": 37,
       "detail": {
-        "author": "Изображение из буклета ЧИП",
-        "source": "2019/chip_2019-20_1-2.pdf",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "source": "https://commons.wikimedia.org/wiki/File:Saltwater_Crocodile_on_a_river_bank._in_Australia.jpg",
+        "author": "Djambalawa at en.wikipedia",
+        "license": "Public domain",
+        "nativePixels": [
+          1914,
+          1226
+        ],
         "file": "detail/2-18-2.webp",
-        "previewMax": 122
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
       },
       "imageBox": [
         164,
@@ -3000,12 +3086,13 @@
       "page": 2,
       "xref": 37,
       "detail": {
-        "author": "Изображение из буклета ЧИП",
-        "source": "2019/chip_2019-20_1-2.pdf",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
         "file": "detail/2-18-4.webp",
-        "previewMax": 122
+        "source": "https://commons.wikimedia.org/wiki/File:Forester_kangaroo_(Macropus_giganteus_tasmaniensis)_female_with_joey_Esk_Valley.jpg",
+        "author": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "processing": "Новый кадр показывает тот же вид или тот же объект, что и архивная иллюстрация. В карточку выводится уменьшенная копия мастера.",
+        "previewMax": 384
       },
       "imageBox": [
         484,
@@ -3019,12 +3106,17 @@
       "page": 2,
       "xref": 37,
       "detail": {
-        "author": "Изображение из буклета ЧИП",
-        "source": "2019/chip_2019-20_1-2.pdf",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "source": "https://commons.wikimedia.org/wiki/File:Komodo_Dragon,_Komodo,_2016_(07)_(cropped).jpg",
+        "author": "Bahnfrend",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "nativePixels": [
+          4433,
+          1476
+        ],
         "file": "detail/2-18-5.webp",
-        "previewMax": 122
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
       },
       "imageBox": [
         644,
@@ -3038,18 +3130,1908 @@
       "page": 2,
       "xref": 34,
       "detail": {
-        "author": "Изображение из буклета ЧИП",
-        "source": "2019/chip_2019-20_1-2.pdf",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "source": "https://commons.wikimedia.org/wiki/File:Polynesian_outrigger_canoe_at_sea,_Oc,G.T.1516,_Mana_Expedition_to_East_Polynesia,_British_Museum.jpg",
+        "author": "Неизвестный фотограф; собрание Британского музея, Oc,G.T.1516",
+        "license": "Public domain",
+        "nativePixels": [
+          750,
+          585
+        ],
         "file": "detail/2-20.webp",
-        "previewMax": 160
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
       },
       "imageBox": [
         0,
         0,
         200,
         104
+      ]
+    },
+    "5-6-01": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 0,
+      "xref": 26,
+      "detail": {
+        "author": "Natural Earth, подготовка проекции Olympiads.pro",
+        "source": "https://www.naturalearthdata.com/downloads/110m-physical-vectors/110m-land/",
+        "license": "Общественное достояние.",
+        "processing": "Содержание и обозначения перенесены из исходного кадра.",
+        "file": "5-6-01.svg"
+      }
+    },
+    "5-6-04-1": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 0,
+      "xref": 28,
+      "detail": {
+        "author": "Вильгельм Хаагер · worldflags / CTAN",
+        "source": "https://ctan.org/pkg/worldflags",
+        "license": "Государственные символы. Пакет worldflags под лицензией LPPL.",
+        "processing": "Пять исходных флагов восстановлены в векторе по точным пропорциям.",
+        "file": "5-6-04-1.svg"
+      }
+    },
+    "5-6-04-2": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 0,
+      "xref": 28,
+      "detail": {
+        "author": "Вильгельм Хаагер · worldflags / CTAN",
+        "source": "https://ctan.org/pkg/worldflags",
+        "license": "Государственные символы. Пакет worldflags под лицензией LPPL.",
+        "processing": "Пять исходных флагов восстановлены в векторе по точным пропорциям.",
+        "file": "5-6-04-2.svg"
+      }
+    },
+    "5-6-04-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 0,
+      "xref": 28,
+      "detail": {
+        "author": "Вильгельм Хаагер · worldflags / CTAN",
+        "source": "https://ctan.org/pkg/worldflags",
+        "license": "Государственные символы. Пакет worldflags под лицензией LPPL.",
+        "processing": "Пять исходных флагов восстановлены в векторе по точным пропорциям.",
+        "file": "5-6-04-3.svg"
+      }
+    },
+    "5-6-04-4": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 0,
+      "xref": 28,
+      "detail": {
+        "author": "Вильгельм Хаагер · worldflags / CTAN",
+        "source": "https://ctan.org/pkg/worldflags",
+        "license": "Государственные символы. Пакет worldflags под лицензией LPPL.",
+        "processing": "Пять исходных флагов восстановлены в векторе по точным пропорциям.",
+        "file": "5-6-04-4.svg"
+      }
+    },
+    "5-6-04-5": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 0,
+      "xref": 28,
+      "detail": {
+        "author": "Вильгельм Хаагер · worldflags / CTAN",
+        "source": "https://ctan.org/pkg/worldflags",
+        "license": "Государственные символы. Пакет worldflags под лицензией LPPL.",
+        "processing": "Пять исходных флагов восстановлены в векторе по точным пропорциям.",
+        "file": "5-6-04-5.svg"
+      }
+    },
+    "5-6-06": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 0,
+      "xref": 27,
+      "detail": {
+        "author": "Альберт Наматжира",
+        "source": "2019/chip_2019-20_5-6.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Извлечён исходный кадр буклета без увеличения. Белые стволы эвкалиптов различимы; крупная репродукция именно этой композиции не подтверждена.",
+        "file": "detail/5-6-06.webp",
+        "previewMax": 200,
+        "nativePixels": [
+          250,
+          175
+        ]
+      },
+      "imageBox": [
+        0,
+        0,
+        250,
+        175
+      ]
+    },
+    "5-6-08-1": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 0,
+      "xref": 29,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_5-6.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/5-6-08-1.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        6,
+        1,
+        156,
+        134
+      ]
+    },
+    "5-6-08-2": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 0,
+      "xref": 29,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_5-6.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/5-6-08-2.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        166,
+        1,
+        316,
+        134
+      ]
+    },
+    "5-6-08-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 0,
+      "xref": 29,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_5-6.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/5-6-08-3.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        326,
+        1,
+        476,
+        134
+      ]
+    },
+    "5-6-08-4": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 0,
+      "xref": 29,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_5-6.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/5-6-08-4.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        486,
+        1,
+        636,
+        134
+      ]
+    },
+    "5-6-09": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 1,
+      "xref": 32,
+      "detail": {
+        "author": "Natural Earth, подготовка карты Olympiads.pro",
+        "source": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-countries/",
+        "license": "Общественное достояние.",
+        "processing": "Векторные очертания островов по данным Natural Earth в поставке QGIS.",
+        "file": "5-6-09.svg"
+      }
+    },
+    "5-6-10-1": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 1,
+      "xref": 33,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_5-6.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/5-6-10-1.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        6,
+        1,
+        156,
+        132
+      ]
+    },
+    "5-6-10-2": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 1,
+      "xref": 33,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_5-6.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/5-6-10-2.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        166,
+        1,
+        316,
+        132
+      ]
+    },
+    "5-6-10-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 1,
+      "xref": 33,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_5-6.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/5-6-10-3.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        326,
+        1,
+        476,
+        132
+      ]
+    },
+    "5-6-10-4": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 1,
+      "xref": 33,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_5-6.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/5-6-10-4.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        486,
+        1,
+        636,
+        132
+      ]
+    },
+    "5-6-10-5": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 1,
+      "xref": 33,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_5-6.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/5-6-10-5.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        646,
+        1,
+        796,
+        132
+      ]
+    },
+    "5-6-12-1": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 1,
+      "xref": 34,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_5-6.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/5-6-12-1.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        6,
+        1,
+        156,
+        110
+      ]
+    },
+    "5-6-12-2": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 1,
+      "xref": 34,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_5-6.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/5-6-12-2.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        166,
+        1,
+        316,
+        110
+      ]
+    },
+    "5-6-12-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 1,
+      "xref": 34,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_5-6.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/5-6-12-3.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        326,
+        1,
+        476,
+        110
+      ]
+    },
+    "5-6-12-4": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 1,
+      "xref": 34,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_5-6.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/5-6-12-4.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        486,
+        1,
+        636,
+        110
+      ]
+    },
+    "5-6-12-5": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 1,
+      "xref": 34,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_5-6.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/5-6-12-5.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        646,
+        1,
+        796,
+        110
+      ]
+    },
+    "5-6-15-1": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 1,
+      "xref": 35,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_5-6.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/5-6-15-1.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        6,
+        1,
+        156,
+        112
+      ]
+    },
+    "5-6-15-2": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 1,
+      "xref": 35,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_5-6.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/5-6-15-2.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        166,
+        1,
+        316,
+        112
+      ]
+    },
+    "5-6-15-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 1,
+      "xref": 35,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_5-6.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/5-6-15-3.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        326,
+        1,
+        476,
+        112
+      ]
+    },
+    "5-6-15-5": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 1,
+      "xref": 35,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_5-6.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/5-6-15-5.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        646,
+        1,
+        796,
+        112
+      ]
+    },
+    "5-6-17": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 2,
+      "xref": 44,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_5-6.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/5-6-17.webp",
+        "previewMax": 240
+      },
+      "imageBox": [
+        0,
+        0,
+        300,
+        139
+      ]
+    },
+    "5-6-20": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 2,
+      "xref": 43,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_5-6.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/5-6-20.webp",
+        "previewMax": 232
+      },
+      "imageBox": [
+        0,
+        0,
+        200,
+        290
+      ]
+    },
+    "5-6-21": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 2,
+      "xref": 45,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_5-6.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/5-6-21.webp",
+        "previewMax": 200
+      },
+      "imageBox": [
+        0,
+        0,
+        250,
+        230
+      ]
+    },
+    "5-6-24": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 2,
+      "xref": 46,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_5-6.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/5-6-24.webp",
+        "previewMax": 280
+      },
+      "imageBox": [
+        0,
+        0,
+        350,
+        236
+      ]
+    },
+    "5-6-27": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 3,
+      "xref": 50,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_5-6.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/5-6-27.webp",
+        "previewMax": 340
+      },
+      "imageBox": [
+        0,
+        0,
+        425,
+        283
+      ]
+    },
+    "5-6-29-1": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 3,
+      "xref": 51,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_5-6.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/5-6-29-1.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        4,
+        1,
+        156,
+        135
+      ]
+    },
+    "5-6-29-2": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 3,
+      "xref": 51,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_5-6.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/5-6-29-2.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        164,
+        1,
+        316,
+        135
+      ]
+    },
+    "5-6-29-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 3,
+      "xref": 51,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_5-6.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/5-6-29-3.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        324,
+        1,
+        476,
+        135
+      ]
+    },
+    "5-6-29-4": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 3,
+      "xref": 51,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_5-6.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/5-6-29-4.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        484,
+        1,
+        636,
+        135
+      ]
+    },
+    "5-6-29-5": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 3,
+      "xref": 51,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_5-6.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/5-6-29-5.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        644,
+        1,
+        796,
+        135
+      ]
+    },
+    "5-6-30": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 3,
+      "xref": 49,
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2019/chip_2019-20_5-6.pdf",
+        "license": "Векторная реконструкция по архиву",
+        "processing": "Содержание и обозначения перенесены из исходного кадра.",
+        "file": "5-6-30.svg"
+      }
+    },
+    "africa-photo-shark": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Blacktip_reef_sharks_(Carcharhinus_melanopterus)_Moorea.jpg",
+        "author": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "processing": "Фотография чернопёрых рифовых акул, уменьшенная из подлинного файла. Сохранён вид животного из варианта Д.",
+        "file": "detail/africa-photo-shark.webp"
+      }
+    },
+    "7-8-02": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 0,
+      "xref": 24,
+      "detail": {
+        "author": "Natural Earth, подготовка карты Olympiads.pro",
+        "source": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-countries/",
+        "license": "Общественное достояние.",
+        "processing": "Восстановлены карта Австралии и положение вопросительного знака из буклета.",
+        "file": "7-8-02.svg"
+      }
+    },
+    "7-8-04": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 0,
+      "xref": 25,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_7-8.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/7-8-04.webp",
+        "previewMax": 218
+      },
+      "imageBox": [
+        0,
+        0,
+        150,
+        272
+      ]
+    },
+    "7-8-06-1": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 0,
+      "xref": 26,
+      "detail": {
+        "author": "Гвидо Борелли",
+        "source": "2019/chip_2019-20_7-8.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Извлечён исходный кадр буклета без увеличения. Пейзаж и поле подсолнечников различимы; крупная репродукция с подтверждённой лицензией не найдена.",
+        "file": "detail/7-8-06-1.webp",
+        "previewMax": 150,
+        "nativePixels": [
+          187,
+          131
+        ]
+      },
+      "imageBox": [
+        4,
+        1,
+        191,
+        132
+      ]
+    },
+    "7-8-06-2": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 0,
+      "xref": 26,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Caillebotte_Tournesols_au_bord_de_la_Seine1885.jpg",
+        "author": "Gustave Caillebotte",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "nativePixels": [
+          1280,
+          1640
+        ],
+        "file": "detail/7-8-06-2.webp",
+        "previewMax": 384,
+        "processing": "Крупная репродукция той же картины, что в исходном буклете. Из мастера подготовлено превью.",
+        "artwork": "Гюстав Кайботт. Подсолнухи на берегу Сены (ок. 1885–1886)"
+      },
+      "imageBox": [
+        208,
+        1,
+        326,
+        132
+      ]
+    },
+    "7-8-06-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 0,
+      "xref": 26,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Bouquet_of_Sunflowers_MET_DP130800.jpg",
+        "author": "Claude Monet",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "nativePixels": [
+          1280,
+          1581
+        ],
+        "file": "detail/7-8-06-3.webp",
+        "previewMax": 384,
+        "processing": "Крупная репродукция той же картины, что в исходном буклете. Из мастера подготовлено превью.",
+        "artwork": "Клод Моне. Букет подсолнухов (1881)"
+      },
+      "imageBox": [
+        341,
+        1,
+        459,
+        132
+      ]
+    },
+    "7-8-06-4": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 0,
+      "xref": 26,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Van_Gogh_-_Zw%C3%B6lf_Sonnenblumen_in_einer_Vase.jpeg",
+        "author": "Vincent van Gogh",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "nativePixels": [
+          1280,
+          1673
+        ],
+        "file": "detail/7-8-06-4.webp",
+        "previewMax": 384,
+        "processing": "Крупная репродукция той же картины, что в исходном буклете. Из мастера подготовлено превью.",
+        "artwork": "Винсент ван Гог. Подсолнухи (1888), Новая пинакотека, Мюнхен"
+      },
+      "imageBox": [
+        475,
+        1,
+        593,
+        132
+      ]
+    },
+    "7-8-06-5": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 0,
+      "xref": 26,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Gauguin,_Paul_-_Sunflowers.jpg",
+        "author": "Paul Gauguin",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "nativePixels": [
+          1280,
+          1005
+        ],
+        "file": "detail/7-8-06-5.webp",
+        "previewMax": 384,
+        "processing": "Крупная репродукция той же картины, что в исходном буклете. Из мастера подготовлено превью.",
+        "artwork": "Поль Гоген. Подсолнечники (1901), Государственный Эрмитаж"
+      },
+      "imageBox": [
+        608,
+        1,
+        797,
+        132
+      ]
+    },
+    "7-8-09-1": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 0,
+      "xref": 27,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_7-8.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/7-8-09-1.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        4,
+        1,
+        156,
+        108
+      ]
+    },
+    "7-8-09-2": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 0,
+      "xref": 27,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_7-8.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/7-8-09-2.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        164,
+        1,
+        316,
+        108
+      ]
+    },
+    "7-8-09-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 0,
+      "xref": 27,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_7-8.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/7-8-09-3.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        324,
+        1,
+        476,
+        108
+      ]
+    },
+    "7-8-09-4": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 0,
+      "xref": 27,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_7-8.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/7-8-09-4.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        484,
+        1,
+        636,
+        108
+      ]
+    },
+    "7-8-09-5": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 0,
+      "xref": 27,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_7-8.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/7-8-09-5.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        644,
+        1,
+        796,
+        108
+      ]
+    },
+    "7-8-11-2": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 1,
+      "xref": 33,
+      "detail": {
+        "author": "Вильгельм Хаагер · worldflags / CTAN",
+        "source": "https://ctan.org/pkg/worldflags",
+        "license": "Государственные символы. Пакет worldflags под лицензией LPPL.",
+        "processing": "Содержание и обозначения перенесены из исходного кадра.",
+        "file": "7-8-11-2.svg"
+      }
+    },
+    "7-8-11-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 1,
+      "xref": 32,
+      "detail": {
+        "author": "Вильгельм Хаагер · worldflags / CTAN",
+        "source": "https://ctan.org/pkg/worldflags",
+        "license": "Государственные символы. Пакет worldflags под лицензией LPPL.",
+        "processing": "Содержание и обозначения перенесены из исходного кадра.",
+        "file": "7-8-11-3.svg"
+      }
+    },
+    "7-8-14-1": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 1,
+      "xref": 34,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_7-8.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/7-8-14-1.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        6,
+        1,
+        156,
+        103
+      ]
+    },
+    "7-8-14-2": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 1,
+      "xref": 34,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_7-8.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/7-8-14-2.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        166,
+        1,
+        316,
+        103
+      ]
+    },
+    "7-8-14-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 1,
+      "xref": 34,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_7-8.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/7-8-14-3.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        326,
+        1,
+        476,
+        103
+      ]
+    },
+    "7-8-14-4": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 1,
+      "xref": 34,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_7-8.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/7-8-14-4.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        486,
+        1,
+        636,
+        103
+      ]
+    },
+    "7-8-14-5": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 1,
+      "xref": 34,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_7-8.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/7-8-14-5.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        646,
+        1,
+        796,
+        103
+      ]
+    },
+    "7-8-15": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 1,
+      "xref": 30,
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "https://www.konkurs-chip.ru/files/arhiv/chip_2019-20_7-8.pdf#page=2",
+        "license": "Редакционная реконструкция Olympiads.pro",
+        "processing": "Силуэт, ствол и разветвление сверены с буклетом.",
+        "file": "7-8-15.svg"
+      }
+    },
+    "7-8-17-1": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 2,
+      "xref": 37,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_7-8.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/7-8-17-1.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        4,
+        1,
+        156,
+        134
+      ]
+    },
+    "7-8-17-4": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 2,
+      "xref": 37,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_7-8.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/7-8-17-4.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        484,
+        1,
+        636,
+        134
+      ]
+    },
+    "7-8-17-5": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 2,
+      "xref": 37,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_7-8.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/7-8-17-5.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        644,
+        1,
+        796,
+        134
+      ]
+    },
+    "7-8-19-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 2,
+      "xref": 38,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_7-8.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/7-8-19-3.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        324,
+        1,
+        476,
+        133
+      ]
+    },
+    "7-8-19-5": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 2,
+      "xref": 38,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_7-8.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/7-8-19-5.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        644,
+        1,
+        796,
+        133
+      ]
+    },
+    "7-8-24-1": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 2,
+      "xref": 39,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_7-8.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/7-8-24-1.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        6,
+        1,
+        156,
+        96
+      ]
+    },
+    "7-8-24-2": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 2,
+      "xref": 39,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_7-8.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/7-8-24-2.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        166,
+        1,
+        316,
+        96
+      ]
+    },
+    "7-8-24-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 2,
+      "xref": 39,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_7-8.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/7-8-24-3.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        326,
+        1,
+        476,
+        96
+      ]
+    },
+    "7-8-24-4": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 2,
+      "xref": 39,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_7-8.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/7-8-24-4.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        486,
+        1,
+        636,
+        96
+      ]
+    },
+    "7-8-24-5": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 2,
+      "xref": 39,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_7-8.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/7-8-24-5.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        646,
+        1,
+        796,
+        96
+      ]
+    },
+    "7-8-25": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 3,
+      "xref": 44,
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "https://www.konkurs-chip.ru/files/arhiv/chip_2019-20_7-8.pdf",
+        "license": "Редакционная реконструкция Olympiads.pro",
+        "processing": "Дорога, столб и деления шкалы перерисованы по фотографии буклета.",
+        "file": "7-8-25.svg"
+      }
+    },
+    "7-8-27": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 3,
+      "xref": 43,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_7-8.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/7-8-27.webp",
+        "previewMax": 219
+      },
+      "imageBox": [
+        0,
+        0,
+        274,
+        184
+      ]
+    },
+    "7-8-29": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 3,
+      "xref": 42,
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2019/chip_2019-20_7-8.pdf",
+        "license": "Векторная реконструкция по архиву",
+        "processing": "Содержание и обозначения перенесены из исходного кадра.",
+        "file": "7-8-29.svg"
+      }
+    },
+    "africa-photo-motorboat": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Bateau_semi-rigide.jpg",
+        "author": "Filo gèn'",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "processing": "Фотография моторной лодки, уменьшенная из подлинного файла. Сохранён тип судна из варианта Г.",
+        "file": "detail/africa-photo-motorboat.webp"
+      }
+    },
+    "9-11-03-1": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 0,
+      "xref": 21,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_9-10.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/9-11-03-1.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        4,
+        1,
+        156,
+        111
+      ]
+    },
+    "9-11-03-2": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 0,
+      "xref": 21,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_9-10.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/9-11-03-2.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        164,
+        1,
+        316,
+        111
+      ]
+    },
+    "9-11-03-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 0,
+      "xref": 21,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_9-10.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/9-11-03-3.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        324,
+        1,
+        476,
+        111
+      ]
+    },
+    "9-11-03-4": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 0,
+      "xref": 21,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_9-10.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/9-11-03-4.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        484,
+        1,
+        636,
+        111
+      ]
+    },
+    "9-11-03-5": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 0,
+      "xref": 21,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_9-10.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/9-11-03-5.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        644,
+        1,
+        796,
+        111
+      ]
+    },
+    "9-11-06-1": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 0,
+      "xref": 22,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_9-10.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/9-11-06-1.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        6,
+        1,
+        156,
+        124
+      ]
+    },
+    "9-11-06-2": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 0,
+      "xref": 22,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_9-10.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/9-11-06-2.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        166,
+        1,
+        316,
+        124
+      ]
+    },
+    "9-11-06-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 0,
+      "xref": 22,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_9-10.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/9-11-06-3.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        326,
+        1,
+        476,
+        124
+      ]
+    },
+    "9-11-06-4": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 0,
+      "xref": 22,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_9-10.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/9-11-06-4.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        486,
+        1,
+        636,
+        124
+      ]
+    },
+    "9-11-06-5": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 0,
+      "xref": 22,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_9-10.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/9-11-06-5.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        646,
+        1,
+        796,
+        124
+      ]
+    },
+    "9-11-09": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 1,
+      "xref": 25,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_9-10.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/9-11-09.webp",
+        "previewMax": 160
+      },
+      "imageBox": [
+        0,
+        0,
+        200,
+        161
+      ]
+    },
+    "9-11-10-1": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 1,
+      "xref": 26,
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2019/chip_2019-20_9-10.pdf",
+        "license": "Векторная реконструкция по архиву",
+        "processing": "Содержание и обозначения перенесены из исходного кадра.",
+        "file": "9-11-10-1.svg"
+      }
+    },
+    "9-11-10-2": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 1,
+      "xref": 26,
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2019/chip_2019-20_9-10.pdf",
+        "license": "Векторная реконструкция по архиву",
+        "processing": "Содержание и обозначения перенесены из исходного кадра.",
+        "file": "9-11-10-2.svg"
+      }
+    },
+    "9-11-10-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 1,
+      "xref": 26,
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2019/chip_2019-20_9-10.pdf",
+        "license": "Векторная реконструкция по архиву",
+        "processing": "Содержание и обозначения перенесены из исходного кадра.",
+        "file": "9-11-10-3.svg"
+      }
+    },
+    "9-11-10-4": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 1,
+      "xref": 26,
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2019/chip_2019-20_9-10.pdf",
+        "license": "Векторная реконструкция по архиву",
+        "processing": "Содержание и обозначения перенесены из исходного кадра.",
+        "file": "9-11-10-4.svg"
+      }
+    },
+    "9-11-10-5": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 1,
+      "xref": 26,
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2019/chip_2019-20_9-10.pdf",
+        "license": "Векторная реконструкция по архиву",
+        "processing": "Содержание и обозначения перенесены из исходного кадра.",
+        "file": "9-11-10-5.svg"
+      }
+    },
+    "9-11-11-1": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 1,
+      "xref": 27,
+      "detail": {
+        "author": "Вильгельм Хаагер · worldflags / CTAN",
+        "source": "https://ctan.org/pkg/worldflags",
+        "license": "Государственные символы. Пакет worldflags под лицензией LPPL.",
+        "processing": "Содержание и обозначения перенесены из исходного кадра.",
+        "file": "9-11-11-1.svg"
+      }
+    },
+    "9-11-11-2": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 1,
+      "xref": 27,
+      "detail": {
+        "author": "Вильгельм Хаагер · worldflags / CTAN",
+        "source": "https://ctan.org/pkg/worldflags",
+        "license": "Государственные символы. Пакет worldflags под лицензией LPPL.",
+        "processing": "Содержание и обозначения перенесены из исходного кадра.",
+        "file": "9-11-11-2.svg"
+      }
+    },
+    "9-11-11-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 1,
+      "xref": 27,
+      "detail": {
+        "author": "Гарольд Томас; рисунок Olympiads.pro",
+        "source": "https://www.pmc.gov.au/government/australian-national-symbols/australian-aboriginal-flag",
+        "license": "Государственный символ Австралии. Права переданы Содружеству Австралии.",
+        "processing": "Содержание и обозначения перенесены из исходного кадра.",
+        "file": "9-11-11-3.svg"
+      }
+    },
+    "9-11-11-4": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 1,
+      "xref": 27,
+      "detail": {
+        "author": "Вильгельм Хаагер · worldflags / CTAN",
+        "source": "https://ctan.org/pkg/worldflags",
+        "license": "Государственные символы. Пакет worldflags под лицензией LPPL.",
+        "processing": "Содержание и обозначения перенесены из исходного кадра.",
+        "file": "9-11-11-4.svg"
+      }
+    },
+    "9-11-11-5": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 1,
+      "xref": 27,
+      "detail": {
+        "author": "Вильгельм Хаагер · worldflags / CTAN",
+        "source": "https://ctan.org/pkg/worldflags",
+        "license": "Государственные символы. Пакет worldflags под лицензией LPPL.",
+        "processing": "Содержание и обозначения перенесены из исходного кадра.",
+        "file": "9-11-11-5.svg"
+      }
+    },
+    "9-11-14-1": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 1,
+      "xref": 28,
+      "detail": {
+        "source": "https://buehrle.ch/kunstwerke/die-strasse/",
+        "author": "Paul Gauguin",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "nativePixels": [
+          1533,
+          1800
+        ],
+        "file": "detail/9-11-14-1.webp",
+        "previewMax": 384,
+        "processing": "Крупная репродукция той же картины, что в исходном буклете. Из мастера подготовлено превью.",
+        "artwork": "Поль Гоген. Дорога в гору (1884)"
+      },
+      "imageBox": [
+        4,
+        1,
+        156,
+        142
+      ]
+    },
+    "9-11-14-2": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 1,
+      "xref": 28,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Paul_Gauguin_-_Tahitian_Landscape_-_Google_Art_Project.jpg",
+        "author": "Paul Gauguin",
+        "license": "Public domain",
+        "nativePixels": [
+          5751,
+          4205
+        ],
+        "file": "detail/9-11-14-2.webp",
+        "previewMax": 384,
+        "processing": "Крупная репродукция той же картины, что в исходном буклете. Из мастера подготовлено превью.",
+        "artwork": "Поль Гоген. Таитянский пейзаж (1891)"
+      },
+      "imageBox": [
+        164,
+        1,
+        316,
+        142
+      ]
+    },
+    "9-11-14-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 1,
+      "xref": 28,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Paul_Gauguin_044.jpg",
+        "author": "Paul Gauguin",
+        "license": "Public domain",
+        "nativePixels": [
+          3176,
+          2412
+        ],
+        "file": "detail/9-11-14-3.webp",
+        "previewMax": 384,
+        "processing": "Крупная репродукция той же картины, что в исходном буклете. Из мастера подготовлено превью.",
+        "artwork": "Поль Гоген. Сиеста (ок. 1892–1894)"
+      },
+      "imageBox": [
+        324,
+        1,
+        476,
+        142
+      ]
+    },
+    "9-11-14-4": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 1,
+      "xref": 28,
+      "detail": {
+        "source": "https://www.meisterdrucke.fr/fine-art-prints/Paul-Gauguin/930969/Les-trois-huttes%2C-Tahiti.html",
+        "author": "Paul Gauguin",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "nativePixels": [
+          1260,
+          772
+        ],
+        "file": "detail/9-11-14-4.webp",
+        "previewMax": 384,
+        "processing": "Крупная репродукция той же картины, что в исходном буклете. Из мастера подготовлено превью.",
+        "artwork": "Поль Гоген. Три хижины, Таити (1891–1892)"
+      },
+      "imageBox": [
+        484,
+        1,
+        636,
+        142
+      ]
+    },
+    "9-11-14-5": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 1,
+      "xref": 28,
+      "detail": {
+        "source": "https://www.wikiart.org/en/paul-gauguin/hut-under-the-coconut-palms",
+        "author": "Paul Gauguin",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "nativePixels": [
+          842,
+          1112
+        ],
+        "file": "detail/9-11-14-5.webp",
+        "previewMax": 384,
+        "processing": "Крупная репродукция той же картины, что в исходном буклете. Из мастера подготовлено превью.",
+        "artwork": "Поль Гоген. Хижина под кокосовыми пальмами (1894)"
+      },
+      "imageBox": [
+        644,
+        1,
+        796,
+        142
+      ]
+    },
+    "9-11-17-1": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 2,
+      "xref": 33,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_9-10.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/9-11-17-1.webp",
+        "previewMax": 138
+      },
+      "imageBox": [
+        4,
+        1,
+        176,
+        138
+      ]
+    },
+    "9-11-17-2": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 2,
+      "xref": 33,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_9-10.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/9-11-17-2.webp",
+        "previewMax": 138
+      },
+      "imageBox": [
+        184,
+        1,
+        356,
+        138
+      ]
+    },
+    "9-11-17-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 2,
+      "xref": 33,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_9-10.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/9-11-17-3.webp",
+        "previewMax": 138
+      },
+      "imageBox": [
+        364,
+        1,
+        536,
+        138
+      ]
+    },
+    "9-11-17-4": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 2,
+      "xref": 33,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_9-10.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/9-11-17-4.webp",
+        "previewMax": 138
+      },
+      "imageBox": [
+        544,
+        1,
+        716,
+        138
+      ]
+    },
+    "9-11-17-5": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 2,
+      "xref": 33,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_9-10.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/9-11-17-5.webp",
+        "previewMax": 138
+      },
+      "imageBox": [
+        724,
+        1,
+        896,
+        138
+      ]
+    },
+    "9-11-19": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 2,
+      "xref": 32,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_9-10.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/9-11-19.webp",
+        "previewMax": 308
+      },
+      "imageBox": [
+        0,
+        0,
+        385,
+        289
+      ]
+    },
+    "9-11-25": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 2,
+      "xref": 31,
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2019/chip_2019-20_9-10.pdf",
+        "license": "Векторная реконструкция по архиву",
+        "processing": "Содержание и обозначения перенесены из исходного кадра.",
+        "file": "9-11-25.svg"
+      }
+    },
+    "9-11-29": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 3,
+      "xref": 43,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Rock-Islands-Palau-1-2016-aerial-view-Luka-Peternel.jpg",
+        "author": "Luka Peternel",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "nativePixels": [
+          5472,
+          3648
+        ],
+        "file": "detail/9-11-29.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        0,
+        0,
+        250,
+        146
       ]
     }
   }

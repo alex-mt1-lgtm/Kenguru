@@ -91,12 +91,12 @@
     "optionFigures": [
       {
         "src": "assets/chip/2018/7-8-03-1.webp",
-        "alt": "Люди в лодке на фоне деревьев.",
-        "width": 130,
-        "height": 77,
+        "alt": "Человек в берестяном каноэ в зарослях у воды.",
+        "width": 480,
+        "height": 325,
         "detailSrc": "assets/chip/2018/detail/7-8-03-1.webp",
-        "pixelWidth": 163,
-        "pixelHeight": 96
+        "pixelWidth": 480,
+        "pixelHeight": 325
       },
       {
         "src": "assets/chip/2018/7-8-03-2.webp",
@@ -109,12 +109,12 @@
       },
       {
         "src": "assets/chip/2018/7-8-03-3.webp",
-        "alt": "Люди на каменистом берегу у воды.",
-        "width": 133,
-        "height": 81,
+        "alt": "Человек играет на флейте, сидя на краю каньона.",
+        "width": 480,
+        "height": 339,
         "detailSrc": "assets/chip/2018/detail/7-8-03-3.webp",
-        "pixelWidth": 166,
-        "pixelHeight": 101
+        "pixelWidth": 480,
+        "pixelHeight": 339
       },
       {
         "src": "assets/chip/2018/7-8-03-4.webp",
@@ -253,11 +253,11 @@
       {
         "src": "assets/chip/2018/7-8-08-3.webp",
         "alt": "Крупная ящерица с гребнем.",
-        "width": 120,
-        "height": 110,
+        "width": 360,
+        "height": 480,
         "detailSrc": "assets/chip/2018/detail/7-8-08-3.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 137
+        "pixelWidth": 360,
+        "pixelHeight": 480
       },
       {
         "src": "assets/chip/2018/7-8-08-4.webp",
@@ -299,11 +299,11 @@
     "figure": {
       "src": "assets/chip/2018/7-8-09.webp",
       "alt": "Птица с белыми перьями на теле и голой ярко окрашенной головой.",
-      "width": 138,
-      "height": 121,
+      "width": 480,
+      "height": 319,
       "detailSrc": "assets/chip/2018/detail/7-8-09.webp",
-      "pixelWidth": 172,
-      "pixelHeight": 151
+      "pixelWidth": 480,
+      "pixelHeight": 319
     }
   },
   {
@@ -361,29 +361,29 @@
       {
         "src": "assets/chip/2018/7-8-12-1.webp",
         "alt": "Гроздь крупных продолговатых зелёных плодов.",
-        "width": 120,
-        "height": 110,
+        "width": 480,
+        "height": 360,
         "detailSrc": "assets/chip/2018/detail/7-8-12-1.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 137
+        "pixelWidth": 1280,
+        "pixelHeight": 960
       },
       {
         "src": "assets/chip/2018/5-6-17-1.webp",
-        "alt": "Грозди небольших гладких красных плодов вдоль веток.",
-        "width": 120,
-        "height": 102,
+        "alt": "Грозди красных ягод на ветвях.",
+        "width": 309,
+        "height": 480,
         "detailSrc": "assets/chip/2018/detail/5-6-17-1.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 128
+        "pixelWidth": 309,
+        "pixelHeight": 480
       },
       {
         "src": "assets/chip/2018/7-8-12-3.webp",
         "alt": "Жёлтый початок в зелёных листьях.",
-        "width": 120,
-        "height": 110,
+        "width": 480,
+        "height": 321,
         "detailSrc": "assets/chip/2018/detail/7-8-12-3.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 137
+        "pixelWidth": 480,
+        "pixelHeight": 321
       },
       {
         "src": "assets/chip/2018/7-8-12-4.webp",
@@ -460,11 +460,11 @@
     "figure": {
       "src": "assets/chip/2018/7-8-15.webp",
       "alt": "Плоское тёмное земноводное с широко расставленными лапами и бугорками на спине.",
-      "width": 114,
-      "height": 125,
+      "width": 480,
+      "height": 472,
       "detailSrc": "assets/chip/2018/detail/7-8-15.webp",
-      "pixelWidth": 142,
-      "pixelHeight": 156
+      "pixelWidth": 480,
+      "pixelHeight": 472
     }
   },
   {
@@ -539,11 +539,11 @@
     "figure": {
       "src": "assets/chip/2018/7-8-19.webp",
       "alt": "Тёмная птица в полёте; под горлом выпуклый красный мешок.",
-      "width": 130,
-      "height": 98,
+      "width": 480,
+      "height": 390,
       "detailSrc": "assets/chip/2018/detail/7-8-19.webp",
-      "pixelWidth": 163,
-      "pixelHeight": 123
+      "pixelWidth": 480,
+      "pixelHeight": 390
     }
   },
   {
@@ -647,7 +647,7 @@
   },
   {
     "title": "Медный минерал",
-    "question": "Какой из перечисленных минералов содержит медь?",
+    "question": "У какого из перечисленных природных материалов медь входит в основной химический состав?",
     "choices": [
       "пирит",
       "галит",
@@ -683,20 +683,20 @@
       {
         "src": "assets/chip/2018/7-8-24-1.webp",
         "alt": "Приземистое животное с твёрдым панцирем.",
-        "width": 120,
-        "height": 110,
+        "width": 480,
+        "height": 425,
         "detailSrc": "assets/chip/2018/detail/7-8-24-1.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 137
+        "pixelWidth": 480,
+        "pixelHeight": 425
       },
       {
         "src": "assets/chip/2018/7-8-24-2.webp",
         "alt": "Мохнатый зверь с длинной мордой и большим хвостом.",
-        "width": 120,
-        "height": 110,
+        "width": 480,
+        "height": 320,
         "detailSrc": "assets/chip/2018/detail/7-8-24-2.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 137
+        "pixelWidth": 480,
+        "pixelHeight": 320
       },
       {
         "src": "assets/chip/2018/7-8-24-3.webp",

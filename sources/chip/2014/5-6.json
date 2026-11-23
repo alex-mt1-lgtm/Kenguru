@@ -139,10 +139,10 @@
     "figure": {
       "src": "assets/chip/2014/5-6-05.webp",
       "detailSrc": "assets/chip/2014/detail/5-6-05.webp",
-      "width": 172,
-      "height": 129,
-      "pixelWidth": 200,
-      "pixelHeight": 150,
+      "width": 480,
+      "height": 361,
+      "pixelWidth": 800,
+      "pixelHeight": 601,
       "alt": "Долина и широкий заснеженный горный массив под голубым небом."
     }
   },
@@ -381,11 +381,11 @@
       {
         "src": "assets/chip/2014/5-6-14-3.webp",
         "detailSrc": "assets/chip/2014/detail/5-6-14-3.webp",
-        "width": 108,
-        "height": 91,
-        "pixelWidth": 125,
-        "pixelHeight": 105,
-        "alt": "Светлая лошадь у склона."
+        "width": 480,
+        "height": 320,
+        "pixelWidth": 1600,
+        "pixelHeight": 1066,
+        "alt": "Светлая лошадь без сбруи стоит среди заснеженных кустов."
       },
       {
         "src": "assets/chip/2014/5-6-14-4.webp",
@@ -501,20 +501,20 @@
       {
         "src": "assets/chip/2014/5-6-18-3.webp",
         "detailSrc": "assets/chip/2014/detail/5-6-18-3.webp",
-        "width": 101,
-        "height": 86,
-        "pixelWidth": 118,
-        "pixelHeight": 100,
-        "alt": "Коренастый бурый зверь с округлым телом."
+        "width": 480,
+        "height": 230,
+        "pixelWidth": 960,
+        "pixelHeight": 459,
+        "alt": "Коренастый бурый зверь с округлым телом и небольшими ушами стоит в траве."
       },
       {
         "src": "assets/chip/2014/5-6-18-4.webp",
         "detailSrc": "assets/chip/2014/detail/5-6-18-4.webp",
-        "width": 101,
-        "height": 86,
-        "pixelWidth": 118,
-        "pixelHeight": 100,
-        "alt": "Рыжий зверь с острыми ушами."
+        "width": 480,
+        "height": 319,
+        "pixelWidth": 1280,
+        "pixelHeight": 851,
+        "alt": "Рыжий зверь с острыми ушами и пушистым хвостом среди травы."
       },
       {
         "src": "assets/chip/2014/5-6-18-5.webp",
@@ -686,11 +686,11 @@
     "adaptation": "Уточнено, что спрашивается о восприятии цвета фона.",
     "figure": {
       "src": "assets/chip/2014/5-6-26.webp",
-      "detailSrc": "assets/chip/2014/detail/5-6-26.webp",
-      "width": 172,
-      "height": 114,
-      "pixelWidth": 200,
-      "pixelHeight": 133,
+      "detailSrc": "assets/chip/2014/detail/5-6-26.svg",
+      "width": 480,
+      "height": 306,
+      "pixelWidth": 640,
+      "pixelHeight": 408,
       "alt": "Зелёное пресмыкающееся с цепкими лапами и хвостом, свёрнутым в спираль."
     }
   },

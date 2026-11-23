@@ -197,38 +197,38 @@
       {
         "src": "assets/chip/2012/7-8-10-1.webp",
         "detailSrc": "assets/chip/2012/detail/7-8-10-1.webp",
-        "width": 169,
-        "height": 134,
-        "pixelWidth": 197,
-        "pixelHeight": 156,
+        "width": 480,
+        "height": 374,
+        "pixelWidth": 1109,
+        "pixelHeight": 864,
         "alt": "Светлый кольцевой берег вокруг водной площадки."
       },
       {
         "src": "assets/chip/2012/7-8-10-2.webp",
         "detailSrc": "assets/chip/2012/detail/7-8-10-2.webp",
-        "width": 172,
-        "height": 134,
-        "pixelWidth": 200,
-        "pixelHeight": 156,
-        "alt": "Зеленоватый остров неправильных очертаний."
+        "width": 480,
+        "height": 360,
+        "pixelWidth": 1280,
+        "pixelHeight": 960,
+        "alt": "Зелёный остров с холмами и длинной светлой полосой пляжа, перед ним открытая вода."
       },
       {
         "src": "assets/chip/2012/7-8-10-3.webp",
         "detailSrc": "assets/chip/2012/detail/7-8-10-3.webp",
-        "width": 173,
-        "height": 134,
-        "pixelWidth": 201,
-        "pixelHeight": 156,
-        "alt": "Крутой тёмный остров, выступающий из воды."
+        "width": 480,
+        "height": 406,
+        "pixelWidth": 862,
+        "pixelHeight": 730,
+        "alt": "Тёмный остров с невысокой вершиной и узкой белой полосой прибоя."
       },
       {
         "src": "assets/chip/2012/7-8-10-4.webp",
         "detailSrc": "assets/chip/2012/detail/7-8-10-4.webp",
-        "width": 171,
-        "height": 134,
-        "pixelWidth": 199,
-        "pixelHeight": 156,
-        "alt": "Высокий вытянутый остров с возвышенностями."
+        "width": 480,
+        "height": 319,
+        "pixelWidth": 1280,
+        "pixelHeight": 851,
+        "alt": "Высокий зелёный остров с крутым склоном и вытянутым низким берегом."
       },
       {
         "src": "assets/chip/2012/7-8-10-5.webp",
@@ -316,11 +316,11 @@
     ],
     "figure": {
       "src": "assets/chip/2012/7-8-14.webp",
-      "detailSrc": "assets/chip/2012/detail/7-8-14.webp",
-      "width": 158,
-      "height": 197,
-      "pixelWidth": 184,
-      "pixelHeight": 229,
+      "detailSrc": "assets/chip/2012/detail/7-8-14.svg",
+      "width": 413,
+      "height": 480,
+      "pixelWidth": 430,
+      "pixelHeight": 500,
       "alt": "Бурый медвежонок летит над цветущей поляной."
     }
   },

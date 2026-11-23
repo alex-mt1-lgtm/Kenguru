@@ -54,3 +54,15 @@ test('every interactive question has a verified answer and its score in the depl
       [expected, lesson.points, ...(lesson.acceptedAnswers ? [Array.from(lesson.acceptedAnswers)] : [])], id);
   }
 });
+
+test('each ChIP school booklet in local storage has a complete interactive edition', () => {
+  const {refreshCoverage} = require('../scripts/build-chip-coverage.cjs');
+  const inventory = JSON.parse(fs.readFileSync(path.join(root, 'sources/chip/coverage-matrix.json'), 'utf8'));
+  assert.deepEqual(refreshCoverage(structuredClone(inventory)), inventory);
+  const withBooklet = inventory.school.filter(row => row.archive.tasks);
+  assert.equal(inventory.counts.schoolBooklets, withBooklet.length);
+  for (const row of withBooklet) {
+    assert.equal(row.interactiveQuestions, row.problemCount, [row.year, row.session, row.grade].filter(Boolean).join('/'));
+    assert.ok(row.interactive && fs.existsSync(path.join(root, row.interactive)), row.interactive);
+  }
+});

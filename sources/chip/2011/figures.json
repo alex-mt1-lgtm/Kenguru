@@ -717,13 +717,13 @@
         199
       ],
       "detail": {
-        "source": "https://commons.wikimedia.org/wiki/File:Stratus_clouds_Vodno_4.jpg",
-        "author": "kallerna",
-        "license": "CC BY-SA 4.0",
-        "processing": "Использована крупная репродукция либо фотография того же объекта. Подготовлены отдельные версии для карточки и увеличения.",
+        "source": "https://commons.wikimedia.org/wiki/File:Stratus-Opacus-Uniformis.jpg",
+        "author": "PiccoloNamek",
+        "license": "CC BY-SA 3.0",
+        "processing": "Снимок сплошного низкого слоя Stratus nebulosus opacus. Подготовлены мастер и превью без изменения кадра.",
         "previewMax": 370,
         "file": "detail/3-4-14-4.webp",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     "3-4-14-5": {
@@ -1077,13 +1077,17 @@
         122
       ],
       "detail": {
-        "source": "https://commons.wikimedia.org/wiki/File:Alydus_calcaratus_MHNT_Vol.jpg",
-        "author": "Didier Descouens",
-        "license": "CC BY-SA 3.0",
-        "processing": "Использована крупная репродукция либо фотография того же объекта. Подготовлены отдельные версии для карточки и увеличения.",
-        "previewMax": 370,
         "file": "detail/3-4-27-2.webp",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        "source": "https://commons.wikimedia.org/wiki/File:Alydus_calcaratus_Larve_080622.jpg",
+        "author": "Accipiter (R. Altenkamp, Berlin)",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "processing": "Нимфа клопа того же вида, который описан в авторском разборе. Подготовлена отдельная уменьшенная копия для карточки.",
+        "nativePixels": [
+          500,
+          557
+        ],
+        "previewMax": 380
       }
     },
     "3-4-27-3": {
@@ -1097,13 +1101,17 @@
         122
       ],
       "detail": {
-        "source": "https://commons.wikimedia.org/wiki/File:Mutillidae_-_Mutilla_europaea.jpg",
-        "author": "Hectonichus",
-        "license": "CC BY-SA 3.0",
-        "processing": "Использована крупная репродукция либо фотография того же объекта. Подготовлены отдельные версии для карточки и увеличения.",
-        "previewMax": 370,
         "file": "detail/3-4-27-3.webp",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        "source": "https://commons.wikimedia.org/wiki/File:Mutilla_europaea_(Mutille_europ%C3%A9enne)_femelle.jpg",
+        "author": "Simon Thevenin",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "processing": "Бескрылая самка осы-немки, как в авторском разборе. Кадр обрезан вокруг насекомого, подготовлена уменьшенная копия.",
+        "nativePixels": [
+          1280,
+          1280
+        ],
+        "previewMax": 380
       }
     },
     "3-4-27-4": {

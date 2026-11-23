@@ -143,11 +143,11 @@
       {
         "src": "assets/chip/2018/7-8-12-1.webp",
         "alt": "Гроздь крупных продолговатых зелёных плодов.",
-        "width": 120,
-        "height": 110,
+        "width": 480,
+        "height": 360,
         "detailSrc": "assets/chip/2018/detail/7-8-12-1.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 137
+        "pixelWidth": 1280,
+        "pixelHeight": 960
       },
       {
         "src": "assets/chip/2018/9-10-05-4.webp",
@@ -161,11 +161,11 @@
       {
         "src": "assets/chip/2018/7-8-12-3.webp",
         "alt": "Жёлтый початок в зелёных листьях.",
-        "width": 120,
-        "height": 110,
+        "width": 480,
+        "height": 321,
         "detailSrc": "assets/chip/2018/detail/7-8-12-3.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 137
+        "pixelWidth": 480,
+        "pixelHeight": 321
       }
     ]
   },
@@ -371,13 +371,13 @@
       "На белой ленте виден девиз «Ordem e Progresso». Это флаг Бразилии."
     ],
     "figure": {
-      "src": "assets/chip/2018/9-10-15.webp",
+      "src": "assets/chip/2018/9-10-15.svg",
       "alt": "На зелёном поле жёлтый ромб с синим звёздным кругом и белой лентой.",
-      "width": 169,
-      "height": 107,
-      "detailSrc": "assets/chip/2018/detail/9-10-15.webp",
-      "pixelWidth": 211,
-      "pixelHeight": 133
+      "width": 720,
+      "height": 504,
+      "detailSrc": "assets/chip/2018/9-10-15.svg",
+      "pixelWidth": 720,
+      "pixelHeight": 504
     }
   },
   {
@@ -515,29 +515,29 @@
       {
         "src": "assets/chip/2018/9-10-22-1.webp",
         "alt": "Пятнистая кошка с длинным хвостом.",
-        "width": 120,
-        "height": 110,
+        "width": 320,
+        "height": 480,
         "detailSrc": "assets/chip/2018/detail/9-10-22-1.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 137
+        "pixelWidth": 320,
+        "pixelHeight": 480
       },
       {
         "src": "assets/chip/2018/9-10-22-2.webp",
         "alt": "Крупная светлая собака с рыжими пятнами.",
-        "width": 120,
-        "height": 110,
+        "width": 480,
+        "height": 320,
         "detailSrc": "assets/chip/2018/detail/9-10-22-2.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 137
+        "pixelWidth": 480,
+        "pixelHeight": 320
       },
       {
         "src": "assets/chip/2018/9-10-22-3.webp",
         "alt": "Низкая крупная ящерица с мощным хвостом.",
-        "width": 120,
-        "height": 110,
+        "width": 480,
+        "height": 320,
         "detailSrc": "assets/chip/2018/detail/9-10-22-3.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 137
+        "pixelWidth": 480,
+        "pixelHeight": 320
       },
       {
         "src": "assets/chip/2018/9-10-22-4.webp",
@@ -645,13 +645,13 @@
       "Суринам находится на северо-востоке материка вдали от Анд. В его гербе другие фигуры, в том числе пальма и парусное судно."
     ],
     "figure": {
-      "src": "assets/chip/2018/9-10-27.webp",
+      "src": "assets/chip/2018/9-10-27.svg",
       "alt": "Пять примеров южноамериканских гербов, на нескольких из них изображена крупная птица.",
-      "width": 224,
-      "height": 155,
-      "detailSrc": "assets/chip/2018/detail/9-10-27.webp",
-      "pixelWidth": 280,
-      "pixelHeight": 194
+      "width": 720,
+      "height": 510,
+      "detailSrc": "assets/chip/2018/9-10-27.svg",
+      "pixelWidth": 720,
+      "pixelHeight": 510
     }
   },
   {
@@ -710,11 +710,11 @@
       {
         "src": "assets/chip/2018/9-10-29-3.webp",
         "alt": "Чёрно-белая птица стоит вертикально.",
-        "width": 120,
-        "height": 110,
+        "width": 480,
+        "height": 384,
         "detailSrc": "assets/chip/2018/detail/9-10-29-3.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 137
+        "pixelWidth": 1280,
+        "pixelHeight": 1024
       },
       {
         "src": "assets/chip/2018/9-10-29-4.webp",
@@ -727,12 +727,12 @@
       },
       {
         "src": "assets/chip/2018/9-10-29-5.webp",
-        "alt": "Попугай с жёлтой грудью и синими крыльями.",
-        "width": 120,
-        "height": 110,
+        "alt": "Длиннохвостая птица с голубыми крыльями, золотистой грудью и крупным клювом.",
+        "width": 320,
+        "height": 480,
         "detailSrc": "assets/chip/2018/detail/9-10-29-5.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 137
+        "pixelWidth": 1067,
+        "pixelHeight": 1600
       }
     ]
   },

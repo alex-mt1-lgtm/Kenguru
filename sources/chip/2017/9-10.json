@@ -95,48 +95,48 @@
     "optionFigures": [
       {
         "src": "assets/chip/2017/9-10-05-1.webp",
-        "alt": "Небольшая розоватая птица на фоне земли.",
-        "width": 106,
-        "height": 75,
+        "alt": "Рисунок длинноногих птиц с загнутыми кверху клювами у воды.",
+        "width": 480,
+        "height": 335,
         "detailSrc": "assets/chip/2017/detail/9-10-05-1.webp",
-        "pixelWidth": 132,
-        "pixelHeight": 93
+        "pixelWidth": 480,
+        "pixelHeight": 335
       },
       {
         "src": "assets/chip/2017/9-10-05-2.webp",
-        "alt": "Крупная тёмная птица со светлой головой и крючковатым клювом.",
-        "width": 106,
-        "height": 75,
+        "alt": "Крупная птица с белой головой удерживает лапами рыбу.",
+        "width": 480,
+        "height": 321,
         "detailSrc": "assets/chip/2017/detail/9-10-05-2.webp",
-        "pixelWidth": 132,
-        "pixelHeight": 93
+        "pixelWidth": 1280,
+        "pixelHeight": 857
       },
       {
         "src": "assets/chip/2017/9-10-05-3.webp",
-        "alt": "Белая длинношеяя птица наклонилась к воде.",
-        "width": 106,
-        "height": 75,
+        "alt": "Белая птица с длинной шеей и жёлтым клювом.",
+        "width": 480,
+        "height": 333,
         "detailSrc": "assets/chip/2017/detail/9-10-05-3.webp",
-        "pixelWidth": 132,
-        "pixelHeight": 93
+        "pixelWidth": 480,
+        "pixelHeight": 333
       },
       {
         "src": "assets/chip/2017/9-10-05-4.webp",
-        "alt": "Яркая розовая птица с вытянутой шеей.",
-        "width": 106,
-        "height": 75,
+        "alt": "Розовая птица с широким плоским клювом.",
+        "width": 480,
+        "height": 332,
         "detailSrc": "assets/chip/2017/detail/9-10-05-4.webp",
-        "pixelWidth": 132,
-        "pixelHeight": 93
+        "pixelWidth": 480,
+        "pixelHeight": 332
       },
       {
         "src": "assets/chip/2017/9-10-05-5.webp",
         "alt": "Большая белая птица на воде.",
-        "width": 106,
-        "height": 75,
+        "width": 480,
+        "height": 334,
         "detailSrc": "assets/chip/2017/detail/9-10-05-5.webp",
-        "pixelWidth": 132,
-        "pixelHeight": 93
+        "pixelWidth": 480,
+        "pixelHeight": 334
       }
     ]
   },
@@ -188,8 +188,8 @@
     "answer": 4,
     "points": 3,
     "steps": [
-      "У листа сахарного клёна несколько выраженных лопастей, которые расходятся от основания. Между лопастями видны выемки.",
-      "Такой лист показан под буквой Д. У других растений листья вытянуты, рассечены иначе или собраны из отдельных листочков."
+      "У сахарного клёна простой лист, обычно с пятью крупными лопастями. Между ними заметны округлые выемки.",
+      "Это листья на снимке Д. Под Б лист составлен из отдельных листочков, у листьев В три зубчатые лопасти, а под Г видны иглы."
     ],
     "optionFigures": [
       {
@@ -203,30 +203,30 @@
       },
       {
         "src": "assets/chip/2017/9-10-08-2.webp",
-        "alt": "Широкие листья и свисающие светлые плоды.",
+        "alt": "Составной лист из нескольких отдельных зелёных листочков.",
         "width": 480,
-        "height": 360,
+        "height": 480,
         "detailSrc": "assets/chip/2017/detail/9-10-08-2.webp",
-        "pixelWidth": 132,
-        "pixelHeight": 113
+        "pixelWidth": 1280,
+        "pixelHeight": 1280
       },
       {
         "src": "assets/chip/2017/9-10-08-3.webp",
-        "alt": "Листья с острыми мелкими краями и длинные светлые части.",
+        "alt": "Листья с зубчатыми краями и тремя лопастями.",
         "width": 480,
         "height": 320,
         "detailSrc": "assets/chip/2017/detail/9-10-08-3.webp",
-        "pixelWidth": 132,
-        "pixelHeight": 113
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2017/9-10-08-4.webp",
-        "alt": "Узкие иглы пучками.",
-        "width": 106,
-        "height": 91,
+        "alt": "Длинные тонкие хвоинки и шишка на ветке.",
+        "width": 360,
+        "height": 480,
         "detailSrc": "assets/chip/2017/detail/9-10-08-4.webp",
-        "pixelWidth": 132,
-        "pixelHeight": 113
+        "pixelWidth": 360,
+        "pixelHeight": 480
       },
       {
         "src": "assets/chip/2017/9-10-08-5.webp",
@@ -373,30 +373,30 @@
       },
       {
         "src": "assets/chip/2017/9-10-14-3.webp",
-        "alt": "Растения с плоскими частями стебля и красными цветками.",
-        "width": 106,
-        "height": 89,
+        "alt": "Куст из плоских суккулентных побегов с небольшими колючками.",
+        "width": 480,
+        "height": 360,
         "detailSrc": "assets/chip/2017/detail/9-10-14-3.webp",
-        "pixelWidth": 132,
-        "pixelHeight": 111
+        "pixelWidth": 480,
+        "pixelHeight": 360
       },
       {
         "src": "assets/chip/2017/9-10-14-4.webp",
-        "alt": "Круглые зелёные плоды на ветках.",
-        "width": 106,
-        "height": 89,
+        "alt": "Овальные зелёные оболочки с коричневыми орехами внутри.",
+        "width": 480,
+        "height": 446,
         "detailSrc": "assets/chip/2017/detail/9-10-14-4.webp",
-        "pixelWidth": 132,
-        "pixelHeight": 111
+        "pixelWidth": 480,
+        "pixelHeight": 446
       },
       {
         "src": "assets/chip/2017/9-10-14-5.webp",
         "alt": "Сизая розетка толстых острых листьев.",
-        "width": 106,
-        "height": 89,
+        "width": 360,
+        "height": 480,
         "detailSrc": "assets/chip/2017/detail/9-10-14-5.webp",
-        "pixelWidth": 132,
-        "pixelHeight": 111
+        "pixelWidth": 360,
+        "pixelHeight": 480
       }
     ]
   },
@@ -630,11 +630,11 @@
       {
         "src": "assets/chip/2017/9-10-25-3.webp",
         "alt": "Множество невысоких островов в тёмной воде.",
-        "width": 106,
-        "height": 90,
+        "width": 480,
+        "height": 356,
         "detailSrc": "assets/chip/2017/detail/9-10-25-3.webp",
-        "pixelWidth": 132,
-        "pixelHeight": 112
+        "pixelWidth": 480,
+        "pixelHeight": 356
       },
       {
         "src": "assets/chip/2017/9-10-25-4.webp",

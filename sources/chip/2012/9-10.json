@@ -56,11 +56,11 @@
     "adaptation": "Уточнено, что речь о названии судна у Грина.",
     "figure": {
       "src": "assets/chip/2012/9-10-03.webp",
-      "detailSrc": "assets/chip/2012/detail/9-10-03.webp",
-      "width": 218,
-      "height": 177,
-      "pixelWidth": 254,
-      "pixelHeight": 206,
+      "detailSrc": "assets/chip/2012/detail/9-10-03.svg",
+      "width": 480,
+      "height": 375,
+      "pixelWidth": 640,
+      "pixelHeight": 500,
       "alt": "Небольшое судно с тремя мачтами и красными парусами."
     }
   },
@@ -213,11 +213,11 @@
     "figure": {
       "src": "assets/chip/2012/9-10-11.webp",
       "detailSrc": "assets/chip/2012/detail/9-10-11.webp",
-      "width": 290,
-      "height": 207,
-      "pixelWidth": 337,
-      "pixelHeight": 241,
-      "alt": "Однотонный коричневатый пейзаж с деревьями и заболоченной низиной."
+      "width": 480,
+      "height": 312,
+      "pixelWidth": 1200,
+      "pixelHeight": 781,
+      "alt": "Пейзаж в светло-коричневых тонах. На переднем плане заболоченная низина, вдалеке деревья и широкое облачное небо."
     }
   },
   {
@@ -423,11 +423,11 @@
       {
         "src": "assets/chip/2012/9-10-22-1.webp",
         "detailSrc": "assets/chip/2012/detail/9-10-22-1.webp",
-        "width": 172,
-        "height": 106,
-        "pixelWidth": 200,
-        "pixelHeight": 123,
-        "alt": "Крупные рыжие кристаллы в светлой породе."
+        "width": 480,
+        "height": 437,
+        "pixelWidth": 1280,
+        "pixelHeight": 1166,
+        "alt": "Неровный светлый камень с серыми и рыжеватыми зёрнами."
       },
       {
         "src": "assets/chip/2012/9-10-22-2.webp",
@@ -449,20 +449,20 @@
       },
       {
         "src": "assets/chip/2012/9-10-22-4.webp",
-        "detailSrc": "assets/chip/2012/detail/9-10-22-4.webp",
-        "width": 172,
-        "height": 106,
-        "pixelWidth": 200,
-        "pixelHeight": 123,
+        "detailSrc": "assets/chip/2012/detail/9-10-22-4.svg",
+        "width": 480,
+        "height": 292,
+        "pixelWidth": 196,
+        "pixelHeight": 119,
         "alt": "Мелкозернистая порода тёплого бурого тона."
       },
       {
         "src": "assets/chip/2012/9-10-22-5.webp",
-        "detailSrc": "assets/chip/2012/detail/9-10-22-5.webp",
-        "width": 172,
-        "height": 106,
-        "pixelWidth": 200,
-        "pixelHeight": 123,
+        "detailSrc": "assets/chip/2012/detail/9-10-22-5.svg",
+        "width": 480,
+        "height": 292,
+        "pixelWidth": 196,
+        "pixelHeight": 119,
         "alt": "Серо-бежевая порода с крупным чёрным крапом."
       }
     ],

@@ -89,12 +89,12 @@
     ],
     "figure": {
       "src": "assets/chip/2017/5-6-03.webp",
-      "alt": "Парусные суда на воде недалеко от берега.",
-      "width": 182,
-      "height": 115,
+      "alt": "Три парусника с крестами на парусах выходят в море.",
+      "width": 480,
+      "height": 340,
       "detailSrc": "assets/chip/2017/detail/5-6-03.webp",
-      "pixelWidth": 228,
-      "pixelHeight": 144
+      "pixelWidth": 552,
+      "pixelHeight": 391
     }
   },
   {
@@ -178,48 +178,48 @@
     "optionFigures": [
       {
         "src": "assets/chip/2017/5-6-07-1.webp",
-        "alt": "Девочка рядом со львом на жёлтой дороге.",
-        "width": 110,
-        "height": 108,
+        "alt": "Девочка рядом с большим львом.",
+        "width": 367,
+        "height": 480,
         "detailSrc": "assets/chip/2017/detail/5-6-07-1.webp",
-        "pixelWidth": 138,
-        "pixelHeight": 136
+        "pixelWidth": 367,
+        "pixelHeight": 480
       },
       {
         "src": "assets/chip/2017/5-6-07-2.webp",
-        "alt": "Рыжий зверь с большим хвостом и ещё два персонажа на тропе.",
-        "width": 110,
-        "height": 108,
+        "alt": "Две сказочные фигуры, у одной длинный лисий хвост.",
+        "width": 480,
+        "height": 320,
         "detailSrc": "assets/chip/2017/detail/5-6-07-2.webp",
-        "pixelWidth": 138,
-        "pixelHeight": 136
+        "pixelWidth": 480,
+        "pixelHeight": 320
       },
       {
         "src": "assets/chip/2017/5-6-07-3.webp",
-        "alt": "Два бурых зверька у бревна над водой.",
-        "width": 110,
-        "height": 108,
+        "alt": "Рисунок двух зверьков у воды.",
+        "width": 480,
+        "height": 392,
         "detailSrc": "assets/chip/2017/detail/5-6-07-3.webp",
-        "pixelWidth": 138,
-        "pixelHeight": 136
+        "pixelWidth": 480,
+        "pixelHeight": 392
       },
       {
         "src": "assets/chip/2017/5-6-07-4.webp",
-        "alt": "Мелкий рыжий зверёк и крупная змея с широким капюшоном.",
-        "width": 110,
-        "height": 108,
+        "alt": "Мелкий зверёк и крупная змея с широким капюшоном.",
+        "width": 480,
+        "height": 302,
         "detailSrc": "assets/chip/2017/detail/5-6-07-4.webp",
-        "pixelWidth": 138,
-        "pixelHeight": 136
+        "pixelWidth": 480,
+        "pixelHeight": 302
       },
       {
         "src": "assets/chip/2017/5-6-07-5.webp",
-        "alt": "Крупная птица на воде и несколько маленьких птиц вокруг неё.",
-        "width": 110,
-        "height": 108,
+        "alt": "Небольшие птицы рядом со взрослой птицей.",
+        "width": 460,
+        "height": 480,
         "detailSrc": "assets/chip/2017/detail/5-6-07-5.webp",
-        "pixelWidth": 138,
-        "pixelHeight": 136
+        "pixelWidth": 460,
+        "pixelHeight": 480
       }
     ]
   },
@@ -242,11 +242,11 @@
     "figure": {
       "src": "assets/chip/2017/5-6-08.webp",
       "alt": "Большая фигура человека в клетчатой одежде с топором.",
-      "width": 120,
-      "height": 164,
+      "width": 360,
+      "height": 480,
       "detailSrc": "assets/chip/2017/detail/5-6-08.webp",
-      "pixelWidth": 150,
-      "pixelHeight": 205
+      "pixelWidth": 360,
+      "pixelHeight": 480
     }
   },
   {
@@ -463,13 +463,13 @@
         "pixelHeight": 127
       },
       {
-        "src": "assets/chip/2017/5-6-17-2.webp",
-        "alt": "Круглый предмет со спицами.",
-        "width": 107,
-        "height": 101,
-        "detailSrc": "assets/chip/2017/detail/5-6-17-2.webp",
-        "pixelWidth": 134,
-        "pixelHeight": 127
+        "src": "assets/chip/2017/5-6-17-2.svg",
+        "alt": "Деревянное колесо с металлическим ободом и двенадцатью спицами.",
+        "width": 510,
+        "height": 480,
+        "detailSrc": "assets/chip/2017/5-6-17-2.svg",
+        "pixelWidth": 510,
+        "pixelHeight": 480
       },
       {
         "src": "assets/chip/2017/5-6-17-3.webp",
@@ -481,13 +481,13 @@
         "pixelHeight": 127
       },
       {
-        "src": "assets/chip/2017/5-6-17-4.webp",
-        "alt": "Две петли, прикреплённые к ремням.",
-        "width": 107,
-        "height": 101,
-        "detailSrc": "assets/chip/2017/detail/5-6-17-4.webp",
-        "pixelWidth": 134,
-        "pixelHeight": 127
+        "src": "assets/chip/2017/5-6-17-4.svg",
+        "alt": "Металлическая подкова с отверстиями для гвоздей.",
+        "width": 510,
+        "height": 480,
+        "detailSrc": "assets/chip/2017/5-6-17-4.svg",
+        "pixelWidth": 510,
+        "pixelHeight": 480
       },
       {
         "src": "assets/chip/2017/5-6-17-5.webp",
@@ -501,7 +501,7 @@
     ]
   },
   {
-    "title": "Копытное на картине",
+    "title": "Копытное на рисунке",
     "question": "Какое копытное прерий изобразил Эрнест Сетон-Томпсон?",
     "choices": [
       "бизон",
@@ -513,17 +513,17 @@
     "answer": 3,
     "points": 4,
     "steps": [
-      "У животного на картине короткие тёмные рога с отростками, коричневая голова и светлые участки на шее.",
+      "Рассмотрите голову животного. На рисунке видны тёмные рога с отростками и светлая отметина на морде.",
       "Так выглядит вилорог. Сайгак с крупной выпуклой мордой обитает в Евразии, а бизон выглядит гораздо массивнее."
     ],
     "figure": {
       "src": "assets/chip/2017/5-6-18.webp",
-      "alt": "Голова копытного с короткими тёмными рогами и белыми отметинами.",
-      "width": 108,
-      "height": 118,
+      "alt": "Профиль копытного с тёмными рогами и боковыми отростками.",
+      "width": 351,
+      "height": 480,
       "detailSrc": "assets/chip/2017/detail/5-6-18.webp",
-      "pixelWidth": 136,
-      "pixelHeight": 148
+      "pixelWidth": 980,
+      "pixelHeight": 1341
     }
   },
   {
@@ -606,7 +606,7 @@
     "optionFigures": [
       {
         "src": "assets/chip/2017/5-6-22-1.webp",
-        "alt": "У зелёного куста раскрыто несколько красно-оранжевых цветков.",
+        "alt": "Красно-оранжевые цветки с несколькими рядами лепестков.",
         "width": 360,
         "height": 480,
         "detailSrc": "assets/chip/2017/detail/5-6-22-1.webp",
@@ -642,12 +642,12 @@
       },
       {
         "src": "assets/chip/2017/5-6-22-5.webp",
-        "alt": "Крупный жёлтый цветок с тёмной серединкой.",
-        "width": 106,
-        "height": 100,
+        "alt": "Крупная жёлтая корзинка с тёмной серединкой.",
+        "width": 394,
+        "height": 480,
         "detailSrc": "assets/chip/2017/detail/5-6-22-5.webp",
-        "pixelWidth": 132,
-        "pixelHeight": 124
+        "pixelWidth": 394,
+        "pixelHeight": 480
       }
     ]
   },
@@ -724,7 +724,7 @@
       },
       {
         "src": "assets/chip/2017/5-6-25-3.webp",
-        "alt": "Бурый зверёк на земле.",
+        "alt": "Серо-бурый зверь с заострёнными ушами, похожий на собаку.",
         "width": 413,
         "height": 480,
         "detailSrc": "assets/chip/2017/detail/5-6-25-3.webp",

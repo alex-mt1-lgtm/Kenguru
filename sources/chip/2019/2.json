@@ -113,50 +113,51 @@
     "optionFigures": [
       {
         "src": "assets/chip/2019/2-04-1.webp",
-        "alt": "Рыжая собака с острыми ушами.",
-        "width": 114,
-        "height": 104,
+        "alt": "Рыжая собака стоит на четырёх лапах, уши острые.",
+        "width": 384,
+        "height": 384,
         "detailSrc": "assets/chip/2019/detail/2-04-1.webp",
-        "pixelWidth": 142,
-        "pixelHeight": 129
+        "pixelWidth": 1280,
+        "pixelHeight": 1280
       },
       {
         "src": "assets/chip/2019/2-04-2.webp",
-        "alt": "Длинномордый рыжий зверёк со светлыми полосами на спине.",
-        "width": 114,
-        "height": 104,
+        "alt": "Длинномордый зверёк со светлыми полосами на спине.",
+        "width": 384,
+        "height": 384,
         "detailSrc": "assets/chip/2019/detail/2-04-2.webp",
-        "pixelWidth": 142,
-        "pixelHeight": 129
+        "pixelWidth": 1280,
+        "pixelHeight": 1280
       },
       {
         "src": "assets/chip/2019/2-04-3.webp",
-        "alt": "Серый зверёк со светлыми пятнами.",
-        "width": 114,
-        "height": 104,
+        "alt": "Светлые пятна на спине и боках небольшого серого зверька.",
+        "width": 384,
+        "height": 289,
         "detailSrc": "assets/chip/2019/detail/2-04-3.webp",
-        "pixelWidth": 142,
-        "pixelHeight": 129
+        "pixelWidth": 1280,
+        "pixelHeight": 962
       },
       {
         "src": "assets/chip/2019/2-04-4.webp",
-        "alt": "Зверь с большими задними лапами и длинным хвостом.",
-        "width": 114,
-        "height": 104,
+        "alt": "Большие задние лапы, длинный хвост. Рядом с животным стоит его детёныш.",
+        "width": 384,
+        "height": 384,
         "detailSrc": "assets/chip/2019/detail/2-04-4.webp",
-        "pixelWidth": 142,
-        "pixelHeight": 129
+        "pixelWidth": 1280,
+        "pixelHeight": 1280
       },
       {
         "src": "assets/chip/2019/2-04-5.webp",
-        "alt": "Серый зверь с круглыми ушами держится за ветку.",
-        "width": 114,
-        "height": 104,
+        "alt": "Серый зверь с круглыми ушами держится за ствол.",
+        "width": 384,
+        "height": 384,
         "detailSrc": "assets/chip/2019/detail/2-04-5.webp",
-        "pixelWidth": 142,
-        "pixelHeight": 129
+        "pixelWidth": 1113,
+        "pixelHeight": 1113
       }
-    ]
+    ],
+    "adaptation": "В задании использованы крупные фотографии тех же видов или объектов. Порядок вариантов сохранён."
   },
   {
     "title": "Столица Австралии",
@@ -211,50 +212,51 @@
     "optionFigures": [
       {
         "src": "assets/chip/2019/2-07-1.webp",
-        "alt": "Вечнозелёные деревья с густыми коническими кронами.",
-        "width": 105,
-        "height": 143,
+        "alt": "Вечнозелёное дерево с густой конической кроной.",
+        "width": 256,
+        "height": 384,
         "detailSrc": "assets/chip/2019/detail/2-07-1.webp",
-        "pixelWidth": 132,
-        "pixelHeight": 179
+        "pixelWidth": 853,
+        "pixelHeight": 1280
       },
       {
         "src": "assets/chip/2019/2-07-2.webp",
-        "alt": "Стволы наклонены, наверху длинные перистые листья.",
-        "width": 105,
-        "height": 143,
+        "alt": "Стройные стволы, наверху длинные перистые листья.",
+        "width": 384,
+        "height": 384,
         "detailSrc": "assets/chip/2019/detail/2-07-2.webp",
-        "pixelWidth": 132,
-        "pixelHeight": 179
+        "pixelWidth": 768,
+        "pixelHeight": 768
       },
       {
         "src": "assets/chip/2019/2-07-3.webp",
-        "alt": "Белые стволы с тёмными отметинами.",
-        "width": 105,
-        "height": 143,
+        "alt": "Группа деревьев с белыми стволами и тёмными отметинами.",
+        "width": 384,
+        "height": 384,
         "detailSrc": "assets/chip/2019/detail/2-07-3.webp",
-        "pixelWidth": 132,
-        "pixelHeight": 179
+        "pixelWidth": 960,
+        "pixelHeight": 960
       },
       {
         "src": "assets/chip/2019/2-07-4.webp",
-        "alt": "Толстые стволы и развесистые кроны на верхушках.",
-        "width": 105,
-        "height": 143,
+        "alt": "Высокие толстые стволы с развесистыми кронами на верхушках.",
+        "width": 384,
+        "height": 384,
         "detailSrc": "assets/chip/2019/detail/2-07-4.webp",
-        "pixelWidth": 132,
-        "pixelHeight": 179
+        "pixelWidth": 801,
+        "pixelHeight": 801
       },
       {
         "src": "assets/chip/2019/2-07-5.webp",
-        "alt": "Высокие тонкие стволы со светлыми участками и продольными полосами.",
-        "width": 105,
-        "height": 143,
+        "alt": "В густом лесу высокие стволы со светлыми участками и продольными полосами.",
+        "width": 384,
+        "height": 288,
         "detailSrc": "assets/chip/2019/detail/2-07-5.webp",
-        "pixelWidth": 132,
-        "pixelHeight": 179
+        "pixelWidth": 1280,
+        "pixelHeight": 960
       }
-    ]
+    ],
+    "adaptation": "В задании использованы крупные фотографии тех же видов или объектов. Порядок вариантов сохранён."
   },
   {
     "title": "Костюмы жителей Океании",
@@ -323,7 +325,7 @@
   },
   {
     "title": "Материк с сухим климатом",
-    "question": "Какой Австралия считается среди материков, если исключить Антарктиду?",
+    "question": "Какой Австралия считается среди материков, если не учитывать Антарктиду?",
     "choices": [
       "самой большой",
       "самой холодной",
@@ -375,50 +377,51 @@
     "optionFigures": [
       {
         "src": "assets/chip/2019/2-11-1.webp",
-        "alt": "Корнеплоды с большими зелёными листьями.",
-        "width": 122,
-        "height": 116,
+        "alt": "Светлые корнеплоды вытянутой формы.",
+        "width": 254,
+        "height": 384,
         "detailSrc": "assets/chip/2019/detail/2-11-1.webp",
-        "pixelWidth": 152,
-        "pixelHeight": 144
+        "pixelWidth": 847,
+        "pixelHeight": 1280
       },
       {
         "src": "assets/chip/2019/2-11-2.webp",
-        "alt": "Круглый плод с зелёными полосами.",
-        "width": 122,
-        "height": 116,
+        "alt": "Круглый плод с зелёными полосами рядом с широкими листьями.",
+        "width": 384,
+        "height": 384,
         "detailSrc": "assets/chip/2019/detail/2-11-2.webp",
-        "pixelWidth": 152,
-        "pixelHeight": 144
+        "pixelWidth": 1063,
+        "pixelHeight": 1063
       },
       {
         "src": "assets/chip/2019/2-11-3.webp",
-        "alt": "Дерево с густой широкой кроной.",
-        "width": 122,
-        "height": 116,
+        "alt": "Дерево с густой широкой кроной и золотистыми листьями.",
+        "width": 288,
+        "height": 384,
         "detailSrc": "assets/chip/2019/detail/2-11-3.webp",
-        "pixelWidth": 152,
-        "pixelHeight": 144
+        "pixelWidth": 960,
+        "pixelHeight": 1280
       },
       {
         "src": "assets/chip/2019/2-11-4.webp",
         "alt": "Высокие травянистые стебли с длинными листьями.",
         "width": 122,
-        "height": 116,
+        "height": 108,
         "detailSrc": "assets/chip/2019/detail/2-11-4.webp",
-        "pixelWidth": 152,
-        "pixelHeight": 144
+        "pixelWidth": 150,
+        "pixelHeight": 133
       },
       {
         "src": "assets/chip/2019/2-11-5.webp",
         "alt": "Круглые жёлтые плоды среди стелющихся листьев.",
         "width": 122,
-        "height": 116,
+        "height": 108,
         "detailSrc": "assets/chip/2019/detail/2-11-5.webp",
-        "pixelWidth": 152,
-        "pixelHeight": 144
+        "pixelWidth": 150,
+        "pixelHeight": 133
       }
-    ]
+    ],
+    "adaptation": "В задании использованы крупные фотографии тех же видов или объектов. Порядок вариантов сохранён."
   },
   {
     "title": "Летний Новый год",
@@ -465,7 +468,7 @@
   },
   {
     "title": "Театр у воды",
-    "question": "Какой из зданий на фото находится в Австралии и стал одной из её главных достопримечательностей?",
+    "question": "Какое из зданий на фото находится в Австралии и стало одной из её главных достопримечательностей?",
     "choices": [
       "",
       "",
@@ -482,54 +485,55 @@
     "optionFigures": [
       {
         "src": "assets/chip/2019/2-14-1.webp",
-        "alt": "Большое светлое здание с зелёной крышей у широкой улицы.",
-        "width": 122,
-        "height": 97,
+        "alt": "Большое светлое здание с зелёной крышей и арками на фасаде.",
+        "width": 384,
+        "height": 248,
         "detailSrc": "assets/chip/2019/detail/2-14-1.webp",
-        "pixelWidth": 152,
-        "pixelHeight": 121
+        "pixelWidth": 1280,
+        "pixelHeight": 828
       },
       {
         "src": "assets/chip/2019/2-14-2.webp",
         "alt": "Портик с колоннами и треугольным фронтоном.",
-        "width": 122,
-        "height": 97,
+        "width": 384,
+        "height": 320,
         "detailSrc": "assets/chip/2019/detail/2-14-2.webp",
-        "pixelWidth": 152,
-        "pixelHeight": 121
+        "pixelWidth": 1280,
+        "pixelHeight": 1065
       },
       {
         "src": "assets/chip/2019/2-14-3.webp",
-        "alt": "Здание у воды с белой крышей из крупных изогнутых частей.",
-        "width": 122,
-        "height": 97,
+        "alt": "Здание у воды с белой крышей в форме нескольких изогнутых оболочек.",
+        "width": 384,
+        "height": 288,
         "detailSrc": "assets/chip/2019/detail/2-14-3.webp",
-        "pixelWidth": 152,
-        "pixelHeight": 121
+        "pixelWidth": 1280,
+        "pixelHeight": 960
       },
       {
         "src": "assets/chip/2019/2-14-4.webp",
         "alt": "Округлый фасад с арками и декоративными башенками.",
-        "width": 122,
-        "height": 97,
+        "width": 384,
+        "height": 256,
         "detailSrc": "assets/chip/2019/detail/2-14-4.webp",
-        "pixelWidth": 152,
-        "pixelHeight": 121
+        "pixelWidth": 1280,
+        "pixelHeight": 854
       },
       {
         "src": "assets/chip/2019/2-14-5.webp",
         "alt": "Фасад с колоннами и позолоченными фигурами над крышей.",
-        "width": 122,
-        "height": 97,
+        "width": 384,
+        "height": 258,
         "detailSrc": "assets/chip/2019/detail/2-14-5.webp",
-        "pixelWidth": 152,
-        "pixelHeight": 121
+        "pixelWidth": 1280,
+        "pixelHeight": 860
       }
-    ]
+    ],
+    "adaptation": "В задании использованы крупные фотографии тех же видов или объектов. Порядок вариантов сохранён."
   },
   {
     "title": "Овцы и сельское хозяйство",
-    "question": "В производстве какого из этих товаров овцеводства Австралия известна как один из мировых лидеров?",
+    "question": "Какой из этих товаров Австралия производит в больших объёмах благодаря развитому овцеводству?",
     "choices": [
       "шерсти",
       "риса",
@@ -565,48 +569,48 @@
     "optionFigures": [
       {
         "src": "assets/chip/2019/2-16-1.webp",
-        "alt": "Тёмная крупная птица с яркой шеей и выростом на голове.",
-        "width": 122,
-        "height": 92,
+        "alt": "Крупная чёрная птица с яркой шеей и выростом на голове.",
+        "width": 384,
+        "height": 384,
         "detailSrc": "assets/chip/2019/detail/2-16-1.webp",
-        "pixelWidth": 152,
-        "pixelHeight": 115
+        "pixelWidth": 1200,
+        "pixelHeight": 1200
       },
       {
         "src": "assets/chip/2019/2-16-2.webp",
         "alt": "Высокая бурая птица с длинной шеей и ногами.",
-        "width": 122,
-        "height": 92,
+        "width": 384,
+        "height": 384,
         "detailSrc": "assets/chip/2019/detail/2-16-2.webp",
-        "pixelWidth": 152,
-        "pixelHeight": 115
+        "pixelWidth": 1280,
+        "pixelHeight": 1280
       },
       {
         "src": "assets/chip/2019/2-16-3.webp",
-        "alt": "Птица с длинными ногами и рыже-пёстрыми перьями.",
-        "width": 122,
-        "height": 92,
+        "alt": "Длинноногая птица с вытянутой шеей и пёстрыми перьями.",
+        "width": 384,
+        "height": 384,
         "detailSrc": "assets/chip/2019/detail/2-16-3.webp",
-        "pixelWidth": 152,
-        "pixelHeight": 115
+        "pixelWidth": 854,
+        "pixelHeight": 854
       },
       {
         "src": "assets/chip/2019/2-16-4.webp",
-        "alt": "Чёрная птица с яркой красно-жёлтой головой.",
-        "width": 122,
-        "height": 92,
+        "alt": "Тёмная птица с голой красной головой и жёлтым пятном на шее.",
+        "width": 384,
+        "height": 384,
         "detailSrc": "assets/chip/2019/detail/2-16-4.webp",
-        "pixelWidth": 152,
-        "pixelHeight": 115
+        "pixelWidth": 1280,
+        "pixelHeight": 1280
       },
       {
         "src": "assets/chip/2019/2-16-5.webp",
-        "alt": "Коричневая птица с очень длинным хвостом.",
-        "width": 122,
-        "height": 92,
+        "alt": "Коричневая птица показывает раскрытый длинный хвост.",
+        "width": 384,
+        "height": 384,
         "detailSrc": "assets/chip/2019/detail/2-16-5.webp",
-        "pixelWidth": 152,
-        "pixelHeight": 115
+        "pixelWidth": 1000,
+        "pixelHeight": 1000
       }
     ]
   },
@@ -628,17 +632,18 @@
     ],
     "figure": {
       "src": "assets/chip/2019/2-17.webp",
-      "alt": "Коала с округлыми ушами держится за ветку.",
-      "width": 120,
-      "height": 164,
+      "alt": "Коала с округлыми ушами держится за ствол.",
+      "width": 384,
+      "height": 384,
       "detailSrc": "assets/chip/2019/detail/2-17.webp",
-      "pixelWidth": 150,
-      "pixelHeight": 205
-    }
+      "pixelWidth": 1113,
+      "pixelHeight": 1113
+    },
+    "adaptation": "В задании использованы крупные фотографии тех же видов или объектов. Порядок вариантов сохранён."
   },
   {
     "title": "След в традиционном рисунке",
-    "question": "На рисунке условный след лапы. Какое животное обозначает этот знак в примере из Австралии?",
+    "question": "На рисунке один из условных знаков коренных народов Австралии. Какое животное обозначено этим знаком?",
     "choices": [
       "",
       "",
@@ -655,56 +660,56 @@
     "adaptation": "Условный знак рассматривается как конкретный пример, поскольку у разных народов Австралии символы могут различаться.",
     "figure": {
       "src": "assets/chip/2019/2-18.svg",
-      "alt": "Условный отпечаток лапы на оранжево-красном фоне.",
-      "width": 250,
-      "height": 140,
+      "alt": "Условный отпечаток лапы с четырьмя отдельными метками пальцев на цветном фоне.",
+      "width": 200,
+      "height": 113,
       "detailSrc": "assets/chip/2019/2-18.svg"
     },
     "optionFigures": [
       {
         "src": "assets/chip/2019/2-16-2.webp",
         "alt": "Высокая бурая птица с длинной шеей и ногами.",
-        "width": 122,
-        "height": 92,
+        "width": 384,
+        "height": 384,
         "detailSrc": "assets/chip/2019/detail/2-16-2.webp",
-        "pixelWidth": 152,
-        "pixelHeight": 115
+        "pixelWidth": 1280,
+        "pixelHeight": 1280
       },
       {
         "src": "assets/chip/2019/2-18-2.webp",
-        "alt": "Крупное пресмыкающееся на берегу, тело частично в воде.",
-        "width": 122,
-        "height": 111,
+        "alt": "Крупное пресмыкающееся с вытянутой мордой лежит на берегу.",
+        "width": 384,
+        "height": 384,
         "detailSrc": "assets/chip/2019/detail/2-18-2.webp",
-        "pixelWidth": 152,
-        "pixelHeight": 138
+        "pixelWidth": 820,
+        "pixelHeight": 820
       },
       {
         "src": "assets/chip/2019/2-04-1.webp",
-        "alt": "Рыжая собака с острыми ушами.",
-        "width": 114,
-        "height": 104,
+        "alt": "Рыжая собака стоит на четырёх лапах, уши острые.",
+        "width": 384,
+        "height": 384,
         "detailSrc": "assets/chip/2019/detail/2-04-1.webp",
-        "pixelWidth": 142,
-        "pixelHeight": 129
+        "pixelWidth": 1280,
+        "pixelHeight": 1280
       },
       {
         "src": "assets/chip/2019/2-18-4.webp",
         "alt": "Зверь с крупными задними лапами и длинным хвостом.",
-        "width": 122,
-        "height": 111,
+        "width": 384,
+        "height": 384,
         "detailSrc": "assets/chip/2019/detail/2-18-4.webp",
-        "pixelWidth": 152,
-        "pixelHeight": 138
+        "pixelWidth": 1280,
+        "pixelHeight": 1280
       },
       {
         "src": "assets/chip/2019/2-18-5.webp",
-        "alt": "Тёмная ящерица с раздвоенным языком.",
-        "width": 122,
-        "height": 111,
+        "alt": "Крупная тёмная ящерица с крепкими ногами и длинным хвостом.",
+        "width": 384,
+        "height": 128,
         "detailSrc": "assets/chip/2019/detail/2-18-5.webp",
-        "pixelWidth": 152,
-        "pixelHeight": 138
+        "pixelWidth": 1280,
+        "pixelHeight": 426
       }
     ]
   },
@@ -743,12 +748,13 @@
     ],
     "figure": {
       "src": "assets/chip/2019/2-20.webp",
-      "alt": "Длинная узкая лодка на воде. По бокам поперечные балки и дополнительный поплавок.",
-      "width": 160,
-      "height": 83,
+      "alt": "Узкая лодка с человеком. Две поперечные штанги соединяют корпус с изогнутым поплавком справа.",
+      "width": 384,
+      "height": 300,
       "detailSrc": "assets/chip/2019/detail/2-20.webp",
-      "pixelWidth": 200,
-      "pixelHeight": 104
-    }
+      "pixelWidth": 750,
+      "pixelHeight": 585
+    },
+    "adaptation": "Для карточки использованы крупные фотографии тех же видов или объектов. Порядок и ответ сохранены."
   }
 ]

@@ -229,7 +229,7 @@
       },
       {
         "src": "assets/chip/2017/1-2-07-3.webp",
-        "alt": "Зверёк с рыжеватым пушистым хвостом.",
+        "alt": "Серый зверёк с пышным хвостом, загнутым к спине.",
         "width": 480,
         "height": 480,
         "detailSrc": "assets/chip/2017/detail/1-2-07-3.webp",
@@ -293,48 +293,48 @@
     "optionFigures": [
       {
         "src": "assets/chip/2017/1-2-09-1.webp",
-        "alt": "Тёмный головной убор со сложными подвесками.",
-        "width": 114,
-        "height": 103,
+        "alt": "Традиционный головной убор с широкими боковыми деталями и подвесками.",
+        "width": 301,
+        "height": 480,
         "detailSrc": "assets/chip/2017/detail/1-2-09-1.webp",
-        "pixelWidth": 143,
-        "pixelHeight": 129
+        "pixelWidth": 301,
+        "pixelHeight": 480
       },
       {
         "src": "assets/chip/2017/1-2-09-2.webp",
-        "alt": "Ткань яркого цвета намотана вокруг головы.",
-        "width": 114,
-        "height": 103,
+        "alt": "Ткань ярко-оранжевого цвета намотана вокруг головы.",
+        "width": 480,
+        "height": 360,
         "detailSrc": "assets/chip/2017/detail/1-2-09-2.webp",
-        "pixelWidth": 143,
-        "pixelHeight": 129
+        "pixelWidth": 480,
+        "pixelHeight": 360
       },
       {
         "src": "assets/chip/2017/1-2-09-3.webp",
-        "alt": "Низкий головной убор с несколькими цветными полосами.",
-        "width": 114,
-        "height": 104,
+        "alt": "Низкая круглая шапка из свёрнутой ткани.",
+        "width": 377,
+        "height": 480,
         "detailSrc": "assets/chip/2017/detail/1-2-09-3.webp",
-        "pixelWidth": 142,
-        "pixelHeight": 129
+        "pixelWidth": 377,
+        "pixelHeight": 480
       },
       {
         "src": "assets/chip/2017/1-2-09-4.webp",
-        "alt": "Длинные светлые перья расходятся рядами от повязки.",
-        "width": 114,
-        "height": 104,
+        "alt": "От повязки рядами расходятся длинные перья с тёмными концами.",
+        "width": 318,
+        "height": 480,
         "detailSrc": "assets/chip/2017/detail/1-2-09-4.webp",
-        "pixelWidth": 142,
-        "pixelHeight": 129
+        "pixelWidth": 318,
+        "pixelHeight": 480
       },
       {
         "src": "assets/chip/2017/1-2-09-5.webp",
-        "alt": "Тёмный головной убор с широкой формой и украшениями.",
-        "width": 108,
-        "height": 103,
+        "alt": "На голове придворная шапка с навершием.",
+        "width": 330,
+        "height": 480,
         "detailSrc": "assets/chip/2017/detail/1-2-09-5.webp",
-        "pixelWidth": 135,
-        "pixelHeight": 129
+        "pixelWidth": 330,
+        "pixelHeight": 480
       }
     ]
   },
@@ -446,7 +446,7 @@
       },
       {
         "src": "assets/chip/2017/1-2-12-3.webp",
-        "alt": "Овальный тёмный жук без яркого рисунка.",
+        "alt": "Овальный жук с шестью ногами и широкими задними лапками.",
         "width": 480,
         "height": 332,
         "detailSrc": "assets/chip/2017/detail/1-2-12-3.webp",
@@ -455,12 +455,12 @@
       },
       {
         "src": "assets/chip/2017/1-2-12-4.webp",
-        "alt": "Коричневый жук с вытянутыми надкрыльями.",
-        "width": 114,
-        "height": 104,
+        "alt": "Жук с продолговатыми коричневыми надкрыльями и тёмной грудью.",
+        "width": 480,
+        "height": 320,
         "detailSrc": "assets/chip/2017/detail/1-2-12-4.webp",
-        "pixelWidth": 142,
-        "pixelHeight": 129
+        "pixelWidth": 1280,
+        "pixelHeight": 853
       },
       {
         "src": "assets/chip/2017/1-2-12-5.webp",
@@ -596,12 +596,12 @@
     ],
     "figure": {
       "src": "assets/chip/2017/1-2-18.webp",
-      "alt": "Два лесоруба держат очень длинную пилу перед толстым стволом.",
-      "width": 226,
-      "height": 152,
+      "alt": "Архивная чёрно-белая фотография. У среза огромного ствола люди держат длинное полотно пилы.",
+      "width": 361,
+      "height": 480,
       "detailSrc": "assets/chip/2017/detail/1-2-18.webp",
-      "pixelWidth": 283,
-      "pixelHeight": 190
+      "pixelWidth": 361,
+      "pixelHeight": 480
     }
   },
   {

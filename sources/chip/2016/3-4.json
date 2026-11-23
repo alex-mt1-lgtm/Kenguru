@@ -70,21 +70,21 @@
       },
       {
         "src": "assets/chip/2016/1-2-15-2.webp",
-        "alt": "Заросли с длинными пальмовыми листьями.",
-        "width": 98,
-        "height": 88,
+        "alt": "Высокая пальма с длинными перистыми листьями.",
+        "width": 240,
+        "height": 360,
         "detailSrc": "assets/chip/2016/detail/1-2-15-2.webp",
-        "pixelWidth": 123,
-        "pixelHeight": 111
+        "pixelWidth": 933,
+        "pixelHeight": 1400
       },
       {
         "src": "assets/chip/2016/1-2-15-4.webp",
-        "alt": "Густой лес из высоких узких зелёных крон.",
-        "width": 99,
-        "height": 89,
+        "alt": "Хвойный лес с высокими деревьями.",
+        "width": 360,
+        "height": 237,
         "detailSrc": "assets/chip/2016/detail/1-2-15-4.webp",
-        "pixelWidth": 124,
-        "pixelHeight": 111
+        "pixelWidth": 750,
+        "pixelHeight": 494
       },
       {
         "src": "assets/chip/2016/3-4-03-5.webp",
@@ -250,7 +250,7 @@
       },
       {
         "src": "assets/chip/2016/3-4-08-3.webp",
-        "alt": "Рыжевато-бурый зверёк на ветке.",
+        "alt": "Небольшой зверь с удлинённым телом и бурым мехом.",
         "width": 360,
         "height": 240,
         "detailSrc": "assets/chip/2016/detail/3-4-08-3.webp",
@@ -313,7 +313,7 @@
     ],
     "figure": {
       "src": "assets/chip/2016/3-4-10.webp",
-      "alt": "Красная шапочка с плоской верхушкой, орнаментом и чёрной кисточкой.",
+      "alt": "Красная шапка без полей с плоской верхушкой и кисточкой.",
       "width": 360,
       "height": 270,
       "detailSrc": "assets/chip/2016/detail/3-4-10.webp",
@@ -356,12 +356,12 @@
     ],
     "figure": {
       "src": "assets/chip/2016/3-4-12.webp",
-      "alt": "Бумажные куклы в длинных нарядах с запахом и широкими поясами.",
-      "width": 160,
-      "height": 160,
-      "detailSrc": "assets/chip/2016/detail/3-4-12.webp",
-      "pixelWidth": 200,
-      "pixelHeight": 200
+      "alt": "Две фигуры в длинной одежде с запахом, широкими рукавами и поясами.",
+      "width": 360,
+      "height": 338,
+      "detailSrc": "assets/chip/2016/detail/3-4-12.svg",
+      "pixelWidth": 800,
+      "pixelHeight": 750
     }
   },
   {
@@ -416,7 +416,7 @@
     ],
     "figure": {
       "src": "assets/chip/2016/3-4-15.webp",
-      "alt": "Половинка плода с оранжевой мякотью и тёмными круглыми семенами.",
+      "alt": "Ботанический рисунок. Спелый плод разрезан, видны оранжевая мякоть и тёмные семена.",
       "width": 255,
       "height": 360,
       "detailSrc": "assets/chip/2016/detail/3-4-15.webp",
@@ -478,7 +478,7 @@
       },
       {
         "src": "assets/chip/2016/3-4-17-3.webp",
-        "alt": "Мягко-розовые цветки с многочисленными лепестками.",
+        "alt": "Розовый цветок с крупными округлыми лепестками.",
         "width": 270,
         "height": 360,
         "detailSrc": "assets/chip/2016/detail/3-4-17-3.webp",
@@ -487,7 +487,7 @@
       },
       {
         "src": "assets/chip/2016/3-4-17-4.webp",
-        "alt": "Светло-розовый цветок с широкими боковыми долями.",
+        "alt": "Розовый цветок со светлыми широкими боковыми долями.",
         "width": 360,
         "height": 270,
         "detailSrc": "assets/chip/2016/detail/3-4-17-4.webp",
@@ -534,7 +534,7 @@
       },
       {
         "src": "assets/chip/2016/3-4-18-2.webp",
-        "alt": "Зелёное вытянутое животное без ног.",
+        "alt": "Тонкое вытянутое зелёное животное без ног.",
         "width": 360,
         "height": 240,
         "detailSrc": "assets/chip/2016/detail/3-4-18-2.webp",
@@ -543,7 +543,7 @@
       },
       {
         "src": "assets/chip/2016/3-4-18-3.webp",
-        "alt": "Четвероногое животное с пятнами и тонким хвостом.",
+        "alt": "Небольшая зелёная ящерица с узкой головой и тонким хвостом.",
         "width": 360,
         "height": 203,
         "detailSrc": "assets/chip/2016/detail/3-4-18-3.webp",
@@ -693,12 +693,12 @@
     ],
     "figure": {
       "src": "assets/chip/2016/3-4-24.webp",
-      "alt": "Зелёные листья на ветке и продолговатые ягоды.",
-      "width": 160,
-      "height": 98,
+      "alt": "Ботаническая таблица с зубчатыми листьями и удлинёнными тёмными соплодиями.",
+      "width": 241,
+      "height": 360,
       "detailSrc": "assets/chip/2016/detail/3-4-24.webp",
-      "pixelWidth": 200,
-      "pixelHeight": 122
+      "pixelWidth": 938,
+      "pixelHeight": 1400
     }
   },
   {
@@ -738,12 +738,12 @@
     "adaptation": "Уточнены одинаковое погружение и солёность воды.",
     "figure": {
       "src": "assets/chip/2016/3-4-26.webp",
-      "alt": "Отец поддерживает ребёнка в воде.",
-      "width": 136,
-      "height": 90,
-      "detailSrc": "assets/chip/2016/detail/3-4-26.webp",
-      "pixelWidth": 170,
-      "pixelHeight": 112
+      "alt": "Взрослый поддерживает ребёнка руками. Горизонтальная волнистая линия показывает уровень воды.",
+      "width": 360,
+      "height": 240,
+      "detailSrc": "assets/chip/2016/detail/3-4-26.svg",
+      "pixelWidth": 800,
+      "pixelHeight": 533
     }
   },
   {
@@ -792,7 +792,7 @@
       },
       {
         "src": "assets/chip/2016/3-4-27-4.webp",
-        "alt": "Белая птица с оранжевым клювом на траве.",
+        "alt": "Белая домашняя птица с оранжевыми клювом и лапами.",
         "width": 272,
         "height": 360,
         "detailSrc": "assets/chip/2016/detail/3-4-27-4.webp",

@@ -4,8 +4,8 @@
   "counts": {
     "schoolBooklets": 59,
     "withKey": 54,
-    "interactive": 51,
-    "interactiveQuestions": 1421,
+    "interactive": 59,
+    "interactiveQuestions": 1636,
     "preschoolBookletsConfirmed": 8
   },
   "school": [
@@ -808,7 +808,9 @@
       "archive": {
         "tasks": "dist/assets/chip/2019/chip_2019-20_5-6.pdf",
         "answers": "dist/assets/chip/2019/answers.pdf"
-      }
+      },
+      "interactive": "sources/chip/2019/5-6.json",
+      "interactiveQuestions": 30
     },
     {
       "year": 2019,
@@ -821,7 +823,9 @@
       "archive": {
         "tasks": "dist/assets/chip/2019/chip_2019-20_7-8.pdf",
         "answers": "dist/assets/chip/2019/answers.pdf"
-      }
+      },
+      "interactive": "sources/chip/2019/7-8.json",
+      "interactiveQuestions": 30
     },
     {
       "year": 2019,
@@ -834,7 +838,9 @@
       "archive": {
         "tasks": "dist/assets/chip/2019/chip_2019-20_9-10.pdf",
         "answers": "dist/assets/chip/2019/answers.pdf"
-      }
+      },
+      "interactive": "sources/chip/2019/9-11.json",
+      "interactiveQuestions": 30
     },
     {
       "year": 2020,
@@ -847,7 +853,9 @@
       "archive": {
         "tasks": "dist/assets/chip/2020/2020-2021_CHIP_Evrazia_zadanie_1klass.pdf",
         "answers": "dist/assets/chip/2020/answers.pdf"
-      }
+      },
+      "interactive": "sources/chip/2020/1.json",
+      "interactiveQuestions": 15
     },
     {
       "year": 2020,
@@ -860,7 +868,9 @@
       "archive": {
         "tasks": "dist/assets/chip/2020/2020-2021_CHIP_Evrazia_zadanie_2klass.pdf",
         "answers": "dist/assets/chip/2020/answers.pdf"
-      }
+      },
+      "interactive": "sources/chip/2020/2.json",
+      "interactiveQuestions": 20
     },
     {
       "year": 2020,
@@ -888,7 +898,9 @@
       "archive": {
         "tasks": "dist/assets/chip/2020/2020-2021_CHIP_Evrazia_zadanie_5-6-kl.pdf",
         "answers": "dist/assets/chip/2020/answers.pdf"
-      }
+      },
+      "interactive": "sources/chip/2020/5-6.json",
+      "interactiveQuestions": 30
     },
     {
       "year": 2020,
@@ -901,7 +913,9 @@
       "archive": {
         "tasks": "dist/assets/chip/2020/2020-2021_CHIP_Evrazia_zadanie_7-8-kl.pdf",
         "answers": "dist/assets/chip/2020/answers.pdf"
-      }
+      },
+      "interactive": "sources/chip/2020/7-8.json",
+      "interactiveQuestions": 30
     },
     {
       "year": 2020,
@@ -914,7 +928,9 @@
       "archive": {
         "tasks": "dist/assets/chip/2020/2020-2021_CHIP_Evrazia_zadanie_9-11-kl.pdf",
         "answers": "dist/assets/chip/2020/answers.pdf"
-      }
+      },
+      "interactive": "sources/chip/2020/9-11.json",
+      "interactiveQuestions": 30
     },
     {
       "year": 2021,
@@ -1551,6 +1567,10 @@
     {
       "url": "https://eobraz.ru/chip/",
       "result": "Региональные и образовательные ссылки на сезоны. Для ряда новых комплектов переходы ведут в магазин."
+    },
+    {
+      "url": "https://runodog.ru/index/chip/0-62",
+      "result": "Первый конкурс прошёл 15 апреля 2010 года. В тот год было три варианта: 1–2, 3–4 и 5–6 классы."
     }
   ]
 }

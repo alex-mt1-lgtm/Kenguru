@@ -107,7 +107,7 @@
   },
   {
     "title": "Вьючное животное в Андах",
-    "question": "Какое из этих одомашненных животных жители Анд использовали для перевозки грузов и получения шерсти, шкур и мяса?",
+    "question": "Какое из показанных животных жители Анд одомашнили и использовали для перевозки грузов и получения шерсти, шкур и мяса?",
     "choices": [
       "",
       "",
@@ -143,20 +143,20 @@
       {
         "src": "assets/chip/2018/5-6-05-3.webp",
         "alt": "Серый зверь с ветвистыми рогами.",
-        "width": 120,
-        "height": 120,
+        "width": 480,
+        "height": 325,
         "detailSrc": "assets/chip/2018/detail/5-6-05-3.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 150
+        "pixelWidth": 480,
+        "pixelHeight": 325
       },
       {
         "src": "assets/chip/2018/5-6-05-4.webp",
         "alt": "Тёмное лохматое животное с загнутыми рогами.",
-        "width": 120,
-        "height": 120,
+        "width": 480,
+        "height": 370,
         "detailSrc": "assets/chip/2018/detail/5-6-05-4.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 150
+        "pixelWidth": 480,
+        "pixelHeight": 370
       },
       {
         "src": "assets/chip/2018/5-6-05-5.webp",
@@ -278,20 +278,20 @@
       {
         "src": "assets/chip/2018/5-6-09-4.webp",
         "alt": "Крупная пятнистая кошка с мощной головой.",
-        "width": 120,
-        "height": 95,
+        "width": 480,
+        "height": 331,
         "detailSrc": "assets/chip/2018/detail/5-6-09-4.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 119
+        "pixelWidth": 1280,
+        "pixelHeight": 882
       },
       {
         "src": "assets/chip/2018/5-6-09-5.webp",
         "alt": "Округлый зверь с твёрдым панцирем.",
-        "width": 120,
-        "height": 95,
+        "width": 480,
+        "height": 425,
         "detailSrc": "assets/chip/2018/detail/5-6-09-5.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 119
+        "pixelWidth": 480,
+        "pixelHeight": 425
       }
     ]
   },
@@ -391,12 +391,12 @@
     ],
     "figure": {
       "src": "assets/chip/2018/5-6-14.webp",
-      "alt": "Небольшие белые фигурки и предметы на прилавке.",
-      "width": 139,
-      "height": 105,
+      "alt": "Белые фигуры, вырезанные из соли, на солончаке.",
+      "width": 480,
+      "height": 360,
       "detailSrc": "assets/chip/2018/detail/5-6-14.webp",
-      "pixelWidth": 174,
-      "pixelHeight": 131
+      "pixelWidth": 480,
+      "pixelHeight": 360
     }
   },
   {
@@ -461,21 +461,21 @@
     "optionFigures": [
       {
         "src": "assets/chip/2018/5-6-17-1.webp",
-        "alt": "Грозди небольших гладких красных плодов вдоль веток.",
-        "width": 120,
-        "height": 102,
+        "alt": "Грозди красных ягод на ветвях.",
+        "width": 309,
+        "height": 480,
         "detailSrc": "assets/chip/2018/detail/5-6-17-1.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 128
+        "pixelWidth": 309,
+        "pixelHeight": 480
       },
       {
         "src": "assets/chip/2018/5-6-17-2.webp",
-        "alt": "Красные плоды с длинными выступами снизу.",
-        "width": 120,
-        "height": 102,
+        "alt": "Красные плоды с остатками длинных чашелистиков на концах.",
+        "width": 480,
+        "height": 360,
         "detailSrc": "assets/chip/2018/detail/5-6-17-2.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 128
+        "pixelWidth": 480,
+        "pixelHeight": 360
       },
       {
         "src": "assets/chip/2018/5-6-17-3.webp",
@@ -498,11 +498,11 @@
       {
         "src": "assets/chip/2018/5-6-17-5.webp",
         "alt": "Красные плоды с бугорками на кожуре.",
-        "width": 120,
-        "height": 102,
+        "width": 480,
+        "height": 360,
         "detailSrc": "assets/chip/2018/detail/5-6-17-5.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 128
+        "pixelWidth": 480,
+        "pixelHeight": 360
       }
     ]
   },
@@ -575,23 +575,23 @@
       "У колибри на снимке Д длинный клюв и приспособленный для нектара язык. Птица может зависать у кормушки."
     ],
     "figure": {
-      "src": "assets/chip/2018/5-6-21.webp",
-      "alt": "Красная кормушка с резервуаром и небольшими отверстиями внизу.",
-      "width": 55,
-      "height": 79,
-      "detailSrc": "assets/chip/2018/detail/5-6-21.webp",
-      "pixelWidth": 69,
-      "pixelHeight": 99
+      "src": "assets/chip/2018/5-6-21.svg",
+      "alt": "Подвесная красная кормушка с резервуаром. У основания два отверстия в жёлтых деталях, похожих на цветки.",
+      "width": 520,
+      "height": 480,
+      "detailSrc": "assets/chip/2018/5-6-21.svg",
+      "pixelWidth": 520,
+      "pixelHeight": 480
     },
     "optionFigures": [
       {
         "src": "assets/chip/2018/5-6-21-1.webp",
         "alt": "Рыжий зверёк с крупным пушистым хвостом.",
-        "width": 120,
-        "height": 120,
+        "width": 480,
+        "height": 401,
         "detailSrc": "assets/chip/2018/detail/5-6-21-1.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 150
+        "pixelWidth": 480,
+        "pixelHeight": 401
       },
       {
         "src": "assets/chip/2018/5-6-21-2.webp",
@@ -623,11 +623,11 @@
       {
         "src": "assets/chip/2018/5-6-21-5.webp",
         "alt": "Мелкая птица с длинным тонким клювом зависла в воздухе.",
-        "width": 120,
-        "height": 120,
+        "width": 438,
+        "height": 480,
         "detailSrc": "assets/chip/2018/detail/5-6-21-5.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 150
+        "pixelWidth": 438,
+        "pixelHeight": 480
       }
     ]
   },
@@ -705,11 +705,11 @@
       {
         "src": "assets/chip/2018/5-6-25-1.webp",
         "alt": "Коренастый зверь с короткой мордой и маленькими ушами.",
-        "width": 131,
-        "height": 102,
+        "width": 480,
+        "height": 320,
         "detailSrc": "assets/chip/2018/detail/5-6-25-1.webp",
-        "pixelWidth": 164,
-        "pixelHeight": 128
+        "pixelWidth": 1280,
+        "pixelHeight": 854
       },
       {
         "src": "assets/chip/2018/5-6-25-2.webp",
@@ -723,11 +723,11 @@
       {
         "src": "assets/chip/2018/5-6-25-3.webp",
         "alt": "Ящерица с гребнем на камнях около воды.",
-        "width": 131,
-        "height": 102,
+        "width": 480,
+        "height": 320,
         "detailSrc": "assets/chip/2018/detail/5-6-25-3.webp",
-        "pixelWidth": 164,
-        "pixelHeight": 128
+        "pixelWidth": 480,
+        "pixelHeight": 320
       },
       {
         "src": "assets/chip/2018/5-6-25-4.webp",
@@ -759,11 +759,11 @@
     "figure": {
       "src": "assets/chip/2018/5-6-26.webp",
       "alt": "Тёмный треугольный цветок с тремя длинными выростами и маленькой светлой серединой.",
-      "width": 140,
-      "height": 134,
+      "width": 320,
+      "height": 480,
       "detailSrc": "assets/chip/2018/detail/5-6-26.webp",
-      "pixelWidth": 175,
-      "pixelHeight": 167
+      "pixelWidth": 320,
+      "pixelHeight": 480
     }
   },
   {

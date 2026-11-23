@@ -116,11 +116,11 @@
       {
         "src": "assets/chip/2017/7-8-05-3.webp",
         "alt": "Комплекс зданий с высокой часовой башней.",
-        "width": 106,
-        "height": 96,
+        "width": 480,
+        "height": 360,
         "detailSrc": "assets/chip/2017/detail/7-8-05-3.webp",
-        "pixelWidth": 132,
-        "pixelHeight": 120
+        "pixelWidth": 480,
+        "pixelHeight": 360
       },
       {
         "src": "assets/chip/2017/7-8-05-4.webp",
@@ -134,11 +134,11 @@
       {
         "src": "assets/chip/2017/7-8-05-5.webp",
         "alt": "Светлое здание с колоннами и лужайкой.",
-        "width": 106,
-        "height": 96,
+        "width": 480,
+        "height": 360,
         "detailSrc": "assets/chip/2017/detail/7-8-05-5.webp",
-        "pixelWidth": 132,
-        "pixelHeight": 120
+        "pixelWidth": 480,
+        "pixelHeight": 360
       }
     ]
   },
@@ -277,12 +277,12 @@
       },
       {
         "src": "assets/chip/2017/7-8-10-5.webp",
-        "alt": "Крупные корзинки с жёлтым краем.",
-        "width": 106,
-        "height": 95,
+        "alt": "Крупная жёлтая корзинка с тёмной серединкой.",
+        "width": 394,
+        "height": 480,
         "detailSrc": "assets/chip/2017/detail/7-8-10-5.webp",
-        "pixelWidth": 132,
-        "pixelHeight": 118
+        "pixelWidth": 394,
+        "pixelHeight": 480
       }
     ]
   },
@@ -329,7 +329,7 @@
       },
       {
         "src": "assets/chip/2017/7-8-12-2.webp",
-        "alt": "Яркая зелёная птица с красной грудью и длинным хвостом.",
+        "alt": "Ярко-зелёная птица с очень длинным хвостом.",
         "width": 320,
         "height": 480,
         "detailSrc": "assets/chip/2017/detail/7-8-12-2.webp",
@@ -427,12 +427,12 @@
       },
       {
         "src": "assets/chip/2017/7-8-15-5.webp",
-        "alt": "Копытное с длинной гривой и хвостом.",
-        "width": 106,
-        "height": 96,
+        "alt": "Копытное с длинной гривой и хвостом, стоит на открытом месте.",
+        "width": 480,
+        "height": 386,
         "detailSrc": "assets/chip/2017/detail/7-8-15-5.webp",
-        "pixelWidth": 132,
-        "pixelHeight": 120
+        "pixelWidth": 480,
+        "pixelHeight": 386
       }
     ]
   },

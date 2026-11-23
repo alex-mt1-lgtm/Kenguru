@@ -155,21 +155,21 @@
       },
       {
         "src": "assets/chip/2012/3-4-07-3.webp",
-        "detailSrc": "assets/chip/2012/detail/3-4-07-3.webp",
-        "width": 124,
-        "height": 118,
-        "pixelWidth": 144,
-        "pixelHeight": 137,
+        "detailSrc": "assets/chip/2012/detail/3-4-07-3.svg",
+        "width": 480,
+        "height": 418,
+        "pixelWidth": 460,
+        "pixelHeight": 400,
         "alt": "Круглая рыба с длинными торчащими иглами."
       },
       {
         "src": "assets/chip/2012/3-4-07-4.webp",
         "detailSrc": "assets/chip/2012/detail/3-4-07-4.webp",
-        "width": 125,
-        "height": 118,
-        "pixelWidth": 145,
-        "pixelHeight": 137,
-        "alt": "Зеленоватая рыба с широким ртом."
+        "width": 480,
+        "height": 360,
+        "pixelWidth": 500,
+        "pixelHeight": 375,
+        "alt": "Плоская буро-зеленоватая рыба с очень широким ртом лежит на дне."
       },
       {
         "src": "assets/chip/2012/3-4-07-5.webp",
@@ -212,29 +212,29 @@
       {
         "src": "assets/chip/2012/3-4-08-2.webp",
         "detailSrc": "assets/chip/2012/detail/3-4-08-2.webp",
-        "width": 120,
-        "height": 94,
-        "pixelWidth": 140,
-        "pixelHeight": 110,
-        "alt": "Лягушка с длинными задними ногами на листе."
+        "width": 480,
+        "height": 394,
+        "pixelWidth": 1280,
+        "pixelHeight": 1050,
+        "alt": "Лягушка с выпуклым глазом и длинными сложенными задними ногами."
       },
       {
         "src": "assets/chip/2012/3-4-08-3.webp",
         "detailSrc": "assets/chip/2012/detail/3-4-08-3.webp",
-        "width": 122,
-        "height": 95,
-        "pixelWidth": 142,
-        "pixelHeight": 110,
-        "alt": "Морская черепаха плывёт над дном."
+        "width": 480,
+        "height": 341,
+        "pixelWidth": 1600,
+        "pixelHeight": 1137,
+        "alt": "Морская черепаха с широким панцирем и ластами плывёт над морским дном."
       },
       {
         "src": "assets/chip/2012/3-4-08-4.webp",
         "detailSrc": "assets/chip/2012/detail/3-4-08-4.webp",
-        "width": 120,
-        "height": 94,
-        "pixelWidth": 140,
-        "pixelHeight": 110,
-        "alt": "Крупная серебристая рыба."
+        "width": 480,
+        "height": 320,
+        "pixelWidth": 1280,
+        "pixelHeight": 853,
+        "alt": "Крупная серебристая рыба с колючим спинным плавником."
       },
       {
         "src": "assets/chip/2012/3-4-08-5.webp",
@@ -526,11 +526,11 @@
       {
         "src": "assets/chip/2012/3-4-18-1.webp",
         "detailSrc": "assets/chip/2012/detail/3-4-18-1.webp",
-        "width": 95,
-        "height": 86,
-        "pixelWidth": 110,
-        "pixelHeight": 99,
-        "alt": "Крупный бурый зверь с длинными когтями."
+        "width": 480,
+        "height": 384,
+        "pixelWidth": 1280,
+        "pixelHeight": 1024,
+        "alt": "Крупный бурый зверь с мощными лапами бежит по мелководью."
       },
       {
         "src": "assets/chip/2012/3-4-18-2.webp",
@@ -692,11 +692,11 @@
       {
         "src": "assets/chip/2012/3-4-23-4.webp",
         "detailSrc": "assets/chip/2012/detail/3-4-23-4.webp",
-        "width": 126,
-        "height": 99,
-        "pixelWidth": 146,
-        "pixelHeight": 115,
-        "alt": "Серый гладкий зверь с плавником."
+        "width": 480,
+        "height": 320,
+        "pixelWidth": 1280,
+        "pixelHeight": 852,
+        "alt": "Серое гладкое животное с вытянутой мордой и спинным плавником над поверхностью воды."
       },
       {
         "src": "assets/chip/2012/3-4-23-5.webp",
@@ -766,7 +766,7 @@
   },
   {
     "number": 27,
-    "question": "На каком из снимков изображена дельта реки?",
+    "question": "На какой схеме космического снимка изображена дельта реки?",
     "choices": [
       "",
       "",
@@ -778,53 +778,53 @@
     "points": 5,
     "title": "Река у моря",
     "steps": [
-      "В дельте вода разделяется на рукава, а между ними накапливается принесённый рекой осадок. Рисунок похож на разветвлённое дерево.",
-      "Эти рукава видны на снимке Д перед открытой водой. Один воронкообразный залив сам по себе не является дельтой."
+      "В дельте вода разделяется на рукава, а между ними накапливается принесённый рекой осадок. Рукава расходятся к открытому водоёму.",
+      "На схеме Д несколько рукавов разветвляются перед морским берегом. В остальных случаях видны пролив, изгиб русла или выход к морю без такой системы рукавов."
     ],
     "optionFigures": [
       {
         "src": "assets/chip/2012/3-4-27-1.webp",
-        "detailSrc": "assets/chip/2012/detail/3-4-27-1.webp",
-        "width": 100,
-        "height": 75,
-        "pixelWidth": 116,
-        "pixelHeight": 87,
-        "alt": "Снимок суши между крупными водоёмами."
+        "detailSrc": "assets/chip/2012/detail/3-4-27-1.svg",
+        "width": 480,
+        "height": 360,
+        "pixelWidth": 240,
+        "pixelHeight": 180,
+        "alt": "Участки суши и извилистая полоса воды, переходящая в широкий синий водоём."
       },
       {
         "src": "assets/chip/2012/3-4-27-2.webp",
-        "detailSrc": "assets/chip/2012/detail/3-4-27-2.webp",
-        "width": 101,
-        "height": 74,
-        "pixelWidth": 118,
-        "pixelHeight": 87,
+        "detailSrc": "assets/chip/2012/detail/3-4-27-2.svg",
+        "width": 480,
+        "height": 360,
+        "pixelWidth": 240,
+        "pixelHeight": 180,
         "alt": "Тёмная река подходит к открытому берегу."
       },
       {
         "src": "assets/chip/2012/3-4-27-3.webp",
-        "detailSrc": "assets/chip/2012/detail/3-4-27-3.webp",
-        "width": 101,
-        "height": 74,
-        "pixelWidth": 118,
-        "pixelHeight": 87,
+        "detailSrc": "assets/chip/2012/detail/3-4-27-3.svg",
+        "width": 480,
+        "height": 360,
+        "pixelWidth": 240,
+        "pixelHeight": 180,
         "alt": "Извилистый участок воды среди суши."
       },
       {
         "src": "assets/chip/2012/3-4-27-4.webp",
-        "detailSrc": "assets/chip/2012/detail/3-4-27-4.webp",
-        "width": 103,
-        "height": 75,
-        "pixelWidth": 120,
-        "pixelHeight": 87,
+        "detailSrc": "assets/chip/2012/detail/3-4-27-4.svg",
+        "width": 480,
+        "height": 360,
+        "pixelWidth": 240,
+        "pixelHeight": 180,
         "alt": "Один широкий водный проход между участками суши."
       },
       {
         "src": "assets/chip/2012/3-4-27-5.webp",
-        "detailSrc": "assets/chip/2012/detail/3-4-27-5.webp",
-        "width": 99,
-        "height": 75,
-        "pixelWidth": 115,
-        "pixelHeight": 87,
+        "detailSrc": "assets/chip/2012/detail/3-4-27-5.svg",
+        "width": 480,
+        "height": 360,
+        "pixelWidth": 240,
+        "pixelHeight": 180,
         "alt": "Разветвлённые рукава реки у морского берега."
       }
     ]

@@ -131,11 +131,11 @@
       {
         "src": "assets/chip/2017/3-4-05-5.webp",
         "alt": "Старинная двухэтажная машина с открытым верхом.",
-        "width": 110,
-        "height": 106,
+        "width": 480,
+        "height": 360,
         "detailSrc": "assets/chip/2017/detail/3-4-05-5.webp",
-        "pixelWidth": 138,
-        "pixelHeight": 133
+        "pixelWidth": 480,
+        "pixelHeight": 360
       }
     ]
   },
@@ -175,13 +175,13 @@
     ],
     "adaptation": "Спрашивается название явления в тексте сказки.",
     "figure": {
-      "src": "assets/chip/2017/3-4-07.webp",
-      "alt": "Рисунок домика, который подхватил вихрь.",
-      "width": 148,
-      "height": 144,
-      "detailSrc": "assets/chip/2017/detail/3-4-07.webp",
-      "pixelWidth": 185,
-      "pixelHeight": 180
+      "src": "assets/chip/2017/3-4-07.svg",
+      "alt": "Сильный вихрь подхватил деревянный домик, и он накренился в воздухе.",
+      "width": 640,
+      "height": 520,
+      "detailSrc": "assets/chip/2017/3-4-07.svg",
+      "pixelWidth": 640,
+      "pixelHeight": 520
     }
   },
   {
@@ -321,11 +321,11 @@
       {
         "src": "assets/chip/2017/3-4-11-3.webp",
         "alt": "Крупная птица в полёте.",
-        "width": 110,
-        "height": 104,
+        "width": 480,
+        "height": 320,
         "detailSrc": "assets/chip/2017/detail/3-4-11-3.webp",
-        "pixelWidth": 138,
-        "pixelHeight": 131
+        "pixelWidth": 480,
+        "pixelHeight": 320
       },
       {
         "src": "assets/chip/2017/3-4-11-4.webp",
@@ -339,11 +339,11 @@
       {
         "src": "assets/chip/2017/3-4-11-5.webp",
         "alt": "Белое животное с густой шерстью.",
-        "width": 110,
-        "height": 104,
+        "width": 480,
+        "height": 321,
         "detailSrc": "assets/chip/2017/detail/3-4-11-5.webp",
-        "pixelWidth": 138,
-        "pixelHeight": 131
+        "pixelWidth": 480,
+        "pixelHeight": 321
       }
     ]
   },
@@ -384,11 +384,11 @@
       {
         "src": "assets/chip/2017/3-4-13-1.webp",
         "alt": "Небольшой зверёк с короткими иглами и вытянутой мордой.",
-        "width": 110,
-        "height": 105,
+        "width": 480,
+        "height": 320,
         "detailSrc": "assets/chip/2017/detail/3-4-13-1.webp",
-        "pixelWidth": 138,
-        "pixelHeight": 132
+        "pixelWidth": 480,
+        "pixelHeight": 320
       },
       {
         "src": "assets/chip/2017/3-4-13-2.webp",
@@ -481,7 +481,7 @@
     "optionFigures": [
       {
         "src": "assets/chip/2017/3-4-16-1.webp",
-        "alt": "Маленькая птица зависла в воздухе возле цветка.",
+        "alt": "Маленькая птица зависла в воздухе, расправив крылья.",
         "width": 438,
         "height": 480,
         "detailSrc": "assets/chip/2017/detail/3-4-16-1.webp",
@@ -490,7 +490,7 @@
       },
       {
         "src": "assets/chip/2017/3-4-16-2.webp",
-        "alt": "Крупная длинноногая птица в сухой траве.",
+        "alt": "Крупные длинноногие птицы на открытой местности.",
         "width": 480,
         "height": 320,
         "detailSrc": "assets/chip/2017/detail/3-4-16-2.webp",
@@ -499,30 +499,30 @@
       },
       {
         "src": "assets/chip/2017/3-4-16-3.webp",
-        "alt": "Чёрно-белая птица стоит на снегу.",
-        "width": 110,
-        "height": 104,
+        "alt": "Чёрно-белая птица с красно-оранжевым клювом.",
+        "width": 360,
+        "height": 480,
         "detailSrc": "assets/chip/2017/detail/3-4-16-3.webp",
-        "pixelWidth": 138,
-        "pixelHeight": 131
+        "pixelWidth": 360,
+        "pixelHeight": 480
       },
       {
         "src": "assets/chip/2017/3-4-16-4.webp",
         "alt": "Яркая птица с вытянутыми декоративными перьями.",
-        "width": 110,
-        "height": 104,
+        "width": 262,
+        "height": 480,
         "detailSrc": "assets/chip/2017/detail/3-4-16-4.webp",
-        "pixelWidth": 138,
-        "pixelHeight": 131
+        "pixelWidth": 262,
+        "pixelHeight": 480
       },
       {
         "src": "assets/chip/2017/3-4-16-5.webp",
-        "alt": "Светло-бурая птица у гнезда.",
-        "width": 110,
-        "height": 104,
+        "alt": "Светло-бурая птица сидит на округлом глиняном гнезде.",
+        "width": 480,
+        "height": 360,
         "detailSrc": "assets/chip/2017/detail/3-4-16-5.webp",
-        "pixelWidth": 138,
-        "pixelHeight": 131
+        "pixelWidth": 1280,
+        "pixelHeight": 960
       }
     ]
   },
@@ -739,7 +739,7 @@
     ],
     "figure": {
       "src": "assets/chip/2017/3-4-25.webp",
-      "alt": "Из земляной норы выглядывает небольшой бурый грызун.",
+      "alt": "Бурый грызун высунул голову из норы.",
       "width": 480,
       "height": 360,
       "detailSrc": "assets/chip/2017/detail/3-4-25.webp",
@@ -766,7 +766,7 @@
   },
   {
     "title": "Обувь из музея",
-    "question": "На каком снимке показаны мокасины, традиционная обувь ряда коренных народов Северной Америки?",
+    "question": "На каком рисунке показаны мокасины, традиционная обувь ряда коренных народов Северной Америки?",
     "choices": [
       "",
       "",
@@ -787,8 +787,8 @@
         "width": 600,
         "height": 285,
         "detailSrc": "assets/chip/2017/3-4-27-1.svg",
-        "pixelWidth": 138,
-        "pixelHeight": 85
+        "pixelWidth": 600,
+        "pixelHeight": 285
       },
       {
         "src": "assets/chip/2017/3-4-27-2.svg",
@@ -796,8 +796,8 @@
         "width": 600,
         "height": 285,
         "detailSrc": "assets/chip/2017/3-4-27-2.svg",
-        "pixelWidth": 138,
-        "pixelHeight": 85
+        "pixelWidth": 600,
+        "pixelHeight": 285
       },
       {
         "src": "assets/chip/2017/3-4-27-3.svg",
@@ -805,8 +805,8 @@
         "width": 600,
         "height": 285,
         "detailSrc": "assets/chip/2017/3-4-27-3.svg",
-        "pixelWidth": 138,
-        "pixelHeight": 85
+        "pixelWidth": 600,
+        "pixelHeight": 285
       },
       {
         "src": "assets/chip/2017/3-4-27-4.svg",
@@ -814,8 +814,8 @@
         "width": 600,
         "height": 285,
         "detailSrc": "assets/chip/2017/3-4-27-4.svg",
-        "pixelWidth": 138,
-        "pixelHeight": 85
+        "pixelWidth": 600,
+        "pixelHeight": 285
       },
       {
         "src": "assets/chip/2017/3-4-27-5.svg",
@@ -823,8 +823,8 @@
         "width": 600,
         "height": 285,
         "detailSrc": "assets/chip/2017/3-4-27-5.svg",
-        "pixelWidth": 138,
-        "pixelHeight": 85
+        "pixelWidth": 600,
+        "pixelHeight": 285
       }
     ]
   },
