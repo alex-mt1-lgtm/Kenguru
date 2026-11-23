@@ -57,6 +57,24 @@ function loadLessonCatalog() {
       context.MEDVEZHONOK_EDITIONS.push(edition);
     }
   }
+  const russianMaterials = require('./russian-archive.cjs').readMaterials();
+  for (const material of russianMaterials) {
+    const {year, grade} = material;
+    const file = path.join(dist, '../sources/medvezhonok', String(year), 'editions', grade + '.json');
+    if (!fs.existsSync(file)) continue;
+    const rows = JSON.parse(fs.readFileSync(file, 'utf8'));
+    if (!rows.length || rows.some(row => !row.question?.trim() || !Array.isArray(row.choices) ||
+        !/^[АБВГД]$/.test(row.key) || 'АБВГД'.indexOf(row.key) >= row.choices.length ||
+        row.review?.length !== 3 || !row.review.every(step => typeof step === 'string' && step.trim()))) {
+      throw new Error(file + ': incomplete tasks or walkthroughs');
+    }
+    const edition = context.makeMedvezhonokEdition(year, grade, rows, material);
+    if (context.MEDVEZHONOK_EDITIONS.some(previous => previous.id === edition.id)) {
+      throw new Error('Duplicate Russian edition ' + edition.id);
+    }
+    russianRows.set(edition.id, rows);
+    context.MEDVEZHONOK_EDITIONS.push(edition);
+  }
   const subjectRows = new Map();
   context.SUBJECT_EDITIONS = [];
   vm.runInContext(readScript('contests/subject-edition.js'), context);
@@ -97,7 +115,7 @@ function loadLessonCatalog() {
   vm.runInContext(app.slice(0, end), context, {filename: 'app.js'});
   const {lessons, catalog} = vm.runInContext('({lessons: LESSONS, catalog: CATALOG})', context);
   return {
-    lessons, catalog, context, completedMath, russianRows, subjectRows,
+    lessons, catalog, context, completedMath, russianRows, russianMaterials, subjectRows,
     choiceLayouts: context.KENGURU_CHOICE_LAYOUTS ?? {},
     graphicAnswerDescriptions: context.KENGURU_GRAPHIC_ANSWER_DESCRIPTIONS ?? {},
   };

@@ -1,0 +1,65 @@
+{
+  "10-11-10-rebus-1.webp": {
+    "source": "10-11-answers.pdf",
+    "page": 1,
+    "xref": 53,
+    "imageClip": [
+      6,
+      3,
+      100,
+      57
+    ]
+  },
+  "10-11-10-rebus-2.webp": {
+    "source": "10-11-answers.pdf",
+    "page": 1,
+    "xref": 53,
+    "imageClip": [
+      113,
+      3,
+      275,
+      58
+    ]
+  },
+  "10-11-10-rebus-3.webp": {
+    "source": "10-11-answers.pdf",
+    "page": 1,
+    "xref": 53,
+    "imageClip": [
+      281,
+      3,
+      467,
+      76
+    ],
+    "whiteout": [
+      [
+        0,
+        64,
+        23,
+        73
+      ]
+    ]
+  },
+  "10-11-10-rebus-4.webp": {
+    "source": "10-11-answers.pdf",
+    "page": 1,
+    "xref": 53,
+    "imageClip": [
+      34,
+      61,
+      159,
+      126
+    ]
+  },
+  "10-11-10-rebus-5.webp": {
+    "source": "10-11-answers.pdf",
+    "page": 1,
+    "xref": 53,
+    "imageClip": [
+      184,
+      69,
+      363,
+      119
+    ]
+  }
+}

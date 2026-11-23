@@ -42,7 +42,10 @@ function createBundle(entry, model) {
     selection = `globalThis.makeSubjectEdition(${JSON.stringify(meta)}, ${JSON.stringify(rows)})`;
   } else if (model.russianRows.has(id)) {
     content.push(readScript('contests/medvezhonok-archive.js'));
-    selection = `globalThis.makeMedvezhonokEdition(${year}, ${JSON.stringify(entry.grades.join('-'))}, ${JSON.stringify(model.russianRows.get(id))})`;
+    const grade = entry.grades.join('-');
+    const material = model.russianMaterials.find(row => row.year === year && row.grade === grade);
+    const extra = material ? ', ' + JSON.stringify(material) : '';
+    selection = `globalThis.makeMedvezhonokEdition(${year}, ${JSON.stringify(grade)}, ${JSON.stringify(model.russianRows.get(id))}${extra})`;
   } else if (entry.subject === 'ru') {
     content.push(readScript('contests/medvezhonok-2025.js'));
     selection = `globalThis.MEDVEZHONOK_EDITIONS.find(edition => edition.id === ${JSON.stringify(id)})`;
