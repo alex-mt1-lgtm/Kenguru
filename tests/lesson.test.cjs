@@ -441,6 +441,18 @@ function accountBrowser(request, records = new Map(), local = new Map()) {
 
 const syncTurn = () => new Promise(resolve => setImmediate(resolve));
 
+test('the grade menu keeps numeric order when a different class is selected', async () => {
+  const visit = app(false, null, {streamProduction: true, location: {hash: '#zadacha=2024-3-4/1'}});
+  await syncTurn();
+  const labels = ['1–2 классы', '3–4 классы', '5–6 классы', '7–8 классы', '9–11 классы'];
+  for (const edition of ['2024-3-4', '2024-7-8']) {
+    await visit.run(`selectDataset(${JSON.stringify(edition)})`);
+    const options = [...visit.element('gradePicker').innerHTML.matchAll(/<option value="([^"]+)" (selected)?>([^<]+)<\/option>/g)];
+    assert.deepEqual(options.map(option => option[3]), labels);
+    assert.deepEqual(options.filter(option => option[2]).map(option => option[1]), [edition]);
+  }
+});
+
 test('the Russian editions keep their own tasks, years, archive and return position', async () => {
   const visit = app(false, null, {streamProduction: true, location: {hash: '#zadacha=2025-medvezhonok-2-3/20'}});
   await syncTurn();
