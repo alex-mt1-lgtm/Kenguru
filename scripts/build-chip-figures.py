@@ -30,35 +30,37 @@ def credit_lines(path, manifest):
     label = year
     if manifest.get('title'):
         label += ' · ' + manifest['title']
-    for edition in sorted(path.parent.glob('*.json')):
+    for edition in sorted(path.parent.rglob('*.json')):
         grade = edition.stem
         if not re.fullmatch(r'\d+(?:-\d+)?', grade):
             continue
         grade_label = grade.replace('-', '–')
         grade_label += ' классы' if '-' in grade else ' класс'
-        yield f'<h2>{escape(label)} · {grade_label}</h2><ul>'
+        session_label = ' · Африка' if edition.parent.name == 'africa' else ''
+        yield f'<h2>{escape(label + session_label)} · {grade_label}</h2><ul>'
         rows = json.loads(edition.read_text(encoding='utf-8'))
         credits = set()
         for row in rows:
-            images = row.get('optionFigures') or row.get('figures') or ([row['figure']] if 'figure' in row else [])
+            images = ([row['figure']] if row.get('figure') else []) + row.get('figures', []) + row.get('optionFigures', [])
             for image in images:
                 detail = manifest['figures'].get(Path(image['src']).stem, {}).get('detail')
                 if not detail:
                     continue
-                source = detail['source']
-                if source == 'tasks.pdf':
-                    source = year + '/tasks.pdf'
-                license_name = escape(detail['license'])
-                if detail.get('licenseUrl'):
-                    license_name = f'<a href="{escape(detail["licenseUrl"], quote=True)}">{license_name}</a>'
                 master = ASSETS / year / detail['file']
                 size = 'SVG'
                 if master.suffix != '.svg':
                     with Image.open(master) as original:
                         size = f'{original.width} × {original.height} px'
-                credits.add(f'<li><strong>{escape(detail["author"])}</strong>. '
-                            f'<a href="{escape(source, quote=True)}">Источник</a> · {license_name}. '
-                            f'{escape(detail["processing"])} <small>({size})</small></li>')
+                for credit in detail.get('additionalSources') or [detail]:
+                    source = credit['source']
+                    if '/' not in source and source.endswith('.pdf'):
+                        source = year + '/' + source
+                    license_name = escape(credit['license'])
+                    if credit.get('licenseUrl'):
+                        license_name = f'<a href="{escape(credit["licenseUrl"], quote=True)}">{license_name}</a>'
+                    credits.add(f'<li><strong>{escape(credit["author"])}</strong>. '
+                                f'<a href="{escape(source, quote=True)}">Источник</a> · {license_name}. '
+                                f'{escape(detail["processing"])} <small>({size})</small></li>')
         yield from sorted(credits, key=str.casefold)
         yield '</ul>'
 

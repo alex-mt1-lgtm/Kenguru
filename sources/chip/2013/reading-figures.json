@@ -15,12 +15,12 @@
         ],
         "panels": [
           {
-            "file": "reading/5-6-01.webp",
+            "file": "../../../dist/assets/chip/2013/detail/5-6-01.webp",
             "credit": {
-              "source": "https://web.archive.org/web/20171208190107/http://www.konkurs-chip.ru:80/file/files/5-6_2013.doc",
-              "author": "Оргкомитет конкурса «Человек и природа»",
-              "license": "В архивном источнике отдельная лицензия не указана.",
-              "processing": "Растр из архивного DOC · исходное разрешение."
+              "source": "http://world-ocean.ru/collections/grafika",
+              "author": "Е. В. Войшвилло, Музей Мирового океана",
+              "license": "Музейная репродукция; отдельная открытая лицензия не указана",
+              "processing": "Та же работа из музейного каталога, целиком без подписи с названиями кораблей."
             }
           }
         ]
@@ -36,54 +36,59 @@
         ],
         "panels": [
           {
-            "file": "reading/5-6-05-1.webp",
+            "file": "../../../dist/assets/chip/2013/detail/5-6-05-a.webp",
             "credit": {
-              "source": "https://web.archive.org/web/20171208190107/http://www.konkurs-chip.ru:80/file/files/5-6_2013.doc",
-              "author": "Оргкомитет конкурса «Человек и природа»",
-              "license": "В архивном источнике отдельная лицензия не указана.",
-              "processing": "Растр из архивного DOC · исходное разрешение."
+              "source": "https://commons.wikimedia.org/wiki/File:Lutik_flower.JPG",
+              "author": "Игоревич",
+              "license": "Public domain",
+              "licenseUrl": "",
+              "processing": "Фотография того же вида или стадии развития. Сохранены диагностические признаки и порядок вариантов."
             },
-            "printedLabel": true
+            "replacement": true
           },
           {
-            "file": "reading/5-6-05-2.webp",
+            "file": "../../../dist/assets/chip/2013/detail/5-6-05-b.webp",
             "credit": {
-              "source": "https://web.archive.org/web/20171208190107/http://www.konkurs-chip.ru:80/file/files/5-6_2013.doc",
-              "author": "Оргкомитет конкурса «Человек и природа»",
-              "license": "В архивном источнике отдельная лицензия не указана.",
-              "processing": "Растр из архивного DOC · исходное разрешение."
+              "source": "https://commons.wikimedia.org/wiki/File:Grote_Teunisbloem_closeup.jpg",
+              "author": "Rasbak at Dutch Wikipedia",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+              "processing": "Фотография того же вида или стадии развития. Сохранены диагностические признаки и порядок вариантов."
             },
-            "printedLabel": true
+            "replacement": true
           },
           {
-            "file": "reading/5-6-05-3.webp",
+            "file": "../../../dist/assets/chip/2013/detail/5-6-05-c.webp",
             "credit": {
-              "source": "https://web.archive.org/web/20171208190107/http://www.konkurs-chip.ru:80/file/files/5-6_2013.doc",
-              "author": "Оргкомитет конкурса «Человек и природа»",
-              "license": "В архивном источнике отдельная лицензия не указана.",
-              "processing": "Растр из архивного DOC · исходное разрешение."
+              "source": "https://commons.wikimedia.org/wiki/File:ND-05460,_Scharfer_Hahnenfu%C3%9F_Ranunculus_acris_(2).jpg",
+              "author": "Stephan van Helden",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "processing": "Фотография того же вида или стадии развития. Сохранены диагностические признаки и порядок вариантов."
             },
-            "printedLabel": true
+            "replacement": true
           },
           {
-            "file": "reading/5-6-05-4.webp",
+            "file": "../../../dist/assets/chip/2013/detail/5-6-05-d.webp",
             "credit": {
-              "source": "https://web.archive.org/web/20171208190107/http://www.konkurs-chip.ru:80/file/files/5-6_2013.doc",
-              "author": "Оргкомитет конкурса «Человек и природа»",
-              "license": "В архивном источнике отдельная лицензия не указана.",
-              "processing": "Растр из архивного DOC · исходное разрешение."
+              "source": "https://commons.wikimedia.org/wiki/File:Iris_sibirica_in_natural_monument_Novoveska_draha_in_2011_(28).JPG",
+              "author": "Chmee2",
+              "license": "CC BY 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+              "processing": "Фотография того же вида или стадии развития. Сохранены диагностические признаки и порядок вариантов."
             },
-            "printedLabel": true
+            "replacement": true
           },
           {
-            "file": "reading/5-6-05-5.webp",
+            "file": "../../../dist/assets/chip/2013/detail/5-6-05-e.webp",
             "credit": {
-              "source": "https://web.archive.org/web/20171208190107/http://www.konkurs-chip.ru:80/file/files/5-6_2013.doc",
-              "author": "Оргкомитет конкурса «Человек и природа»",
-              "license": "В архивном источнике отдельная лицензия не указана.",
-              "processing": "Растр из архивного DOC · исходное разрешение."
+              "source": "https://commons.wikimedia.org/wiki/File:2020-03-27_18_13_15_Red_Oxford_Tulip_flower_bud_along_Tranquility_Court_in_the_Franklin_Farm_section_of_Oak_Hill,_Fairfax_County,_Virginia.jpg",
+              "author": "Famartin",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "processing": "Фотография того же вида или стадии развития. Сохранены диагностические признаки и порядок вариантов."
             },
-            "printedLabel": true
+            "replacement": true
           }
         ]
       },
@@ -98,7 +103,7 @@
         ],
         "panels": [
           {
-            "file": "reading/figure-291.webp",
+            "file": "../../../dist/assets/chip/2013/detail/5-6-08.webp",
             "credit": {
               "source": "https://orientmuseum.ru/events/2020/rerih-ladi/index.php?lang=en",
               "author": "Николай Рёрих · Музей Востока",
@@ -119,13 +124,15 @@
         ],
         "panels": [
           {
-            "file": "reading/figure-294.webp",
+            "file": "../../../dist/assets/chip/2013/detail/5-6-10.webp",
             "credit": {
-              "source": "https://fsd.multiurok.ru/html/2020/11/04/s_5fa2df415df9c/img24.jpg",
-              "author": "Фотография из учебной презентации · Мультиурок",
-              "license": "Автор фотографии и отдельная лицензия не указаны.",
-              "processing": "Выделен только кадр. Заголовок и второе фото исключены."
-            }
+              "source": "https://commons.wikimedia.org/wiki/File:Fern_prothallium_Archaegonia_100x.jpg",
+              "author": "Tgru001",
+              "license": "CC BY 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+              "processing": "Фотография того же вида или стадии развития. Сохранены диагностические признаки и порядок вариантов."
+            },
+            "replacement": true
           }
         ]
       },
@@ -140,54 +147,59 @@
         ],
         "panels": [
           {
-            "file": "reading/5-6-19-1.webp",
+            "file": "../../../dist/assets/chip/2013/detail/5-6-19-a.webp",
             "credit": {
-              "source": "https://web.archive.org/web/20171208190107/http://www.konkurs-chip.ru:80/file/files/5-6_2013.doc",
-              "author": "Оргкомитет конкурса «Человек и природа»",
-              "license": "В архивном источнике отдельная лицензия не указана.",
-              "processing": "Растр из архивного DOC · исходное разрешение."
+              "source": "https://commons.wikimedia.org/wiki/File:Ponte_de_Bombyx_disparate_(Lymantria_dispar).jpg",
+              "author": "Kyrnos Publication",
+              "license": "CC BY 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+              "processing": "Фотография того же вида или стадии развития. Сохранены диагностические признаки и порядок вариантов."
             },
-            "printedLabel": true
+            "replacement": true
           },
           {
-            "file": "reading/5-6-19-2.webp",
+            "file": "../../../dist/assets/chip/2013/detail/5-6-19-b.webp",
             "credit": {
-              "source": "https://web.archive.org/web/20171208190107/http://www.konkurs-chip.ru:80/file/files/5-6_2013.doc",
-              "author": "Оргкомитет конкурса «Человек и природа»",
-              "license": "В архивном источнике отдельная лицензия не указана.",
-              "processing": "Растр из архивного DOC · исходное разрешение."
+              "source": "https://commons.wikimedia.org/wiki/File:Gypsy_Moth_(Lymantria_dispar)_male,_H%C3%A9rault,_Languedoc-Roussillon,_France_(53142601994).jpg",
+              "author": "Bernard DUPONT from FRANCE",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "processing": "Фотография того же вида или стадии развития. Сохранены диагностические признаки и порядок вариантов."
             },
-            "printedLabel": true
+            "replacement": true
           },
           {
-            "file": "reading/5-6-19-3.webp",
+            "file": "../../../dist/assets/chip/2013/detail/5-6-19-c.webp",
             "credit": {
-              "source": "https://web.archive.org/web/20171208190107/http://www.konkurs-chip.ru:80/file/files/5-6_2013.doc",
-              "author": "Оргкомитет конкурса «Человек и природа»",
-              "license": "В архивном источнике отдельная лицензия не указана.",
-              "processing": "Растр из архивного DOC · исходное разрешение."
+              "source": "https://commons.wikimedia.org/wiki/File:Lymantria_dispar_female_user_vitaman.JPG",
+              "author": "Vitaman",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "processing": "Фотография того же вида или стадии развития. Сохранены диагностические признаки и порядок вариантов."
             },
-            "printedLabel": true
+            "replacement": true
           },
           {
-            "file": "reading/5-6-19-4.webp",
+            "file": "../../../dist/assets/chip/2013/detail/5-6-19-d.webp",
             "credit": {
-              "source": "https://web.archive.org/web/20171208190107/http://www.konkurs-chip.ru:80/file/files/5-6_2013.doc",
-              "author": "Оргкомитет конкурса «Человек и природа»",
-              "license": "В архивном источнике отдельная лицензия не указана.",
-              "processing": "Растр из архивного DOC · исходное разрешение."
+              "source": "https://commons.wikimedia.org/wiki/File:Lymantria_dispar_larva_on_the_leaf.jpg",
+              "author": "KKPCW",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "processing": "Фотография того же вида или стадии развития. Сохранены диагностические признаки и порядок вариантов."
             },
-            "printedLabel": true
+            "replacement": true
           },
           {
-            "file": "reading/5-6-19-5.webp",
+            "file": "../../../dist/assets/chip/2013/detail/5-6-19-e.webp",
             "credit": {
-              "source": "https://web.archive.org/web/20171208190107/http://www.konkurs-chip.ru:80/file/files/5-6_2013.doc",
-              "author": "Оргкомитет конкурса «Человек и природа»",
-              "license": "В архивном источнике отдельная лицензия не указана.",
-              "processing": "Растр из архивного DOC · исходное разрешение."
+              "source": "https://commons.wikimedia.org/wiki/File:Meerrettich_(Armoracia_rusticana)_mir_Pieris_brassicae-10-Josef_Schlaghecken.jpg",
+              "author": "Schlaghecken Josef",
+              "license": "CC BY 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+              "processing": "Фотография того же вида или стадии развития. Сохранены диагностические признаки и порядок вариантов."
             },
-            "printedLabel": true
+            "replacement": true
           }
         ]
       },
@@ -202,7 +214,7 @@
         ],
         "panels": [
           {
-            "file": "reading/figure-308.webp",
+            "file": "../../../dist/assets/chip/2013/detail/5-6-23.webp",
             "credit": {
               "source": "https://commons.wikimedia.org/wiki/File:Tree_rings.jpg",
               "author": "Arnoldius · Wikimedia Commons",
@@ -224,54 +236,59 @@
         ],
         "panels": [
           {
-            "file": "reading/5-6-26-1.webp",
+            "file": "../../../dist/assets/chip/2013/detail/5-6-26-a.webp",
             "credit": {
-              "source": "https://web.archive.org/web/20171208190107/http://www.konkurs-chip.ru:80/file/files/5-6_2013.doc",
-              "author": "Оргкомитет конкурса «Человек и природа»",
-              "license": "В архивном источнике отдельная лицензия не указана.",
-              "processing": "Растр из архивного DOC · исходное разрешение."
+              "source": "https://commons.wikimedia.org/wiki/File:Protopterus_annectens_-_dipneuste_africain_-_Aqua_Porte_Dor%C3%A9e_01.JPG",
+              "author": "Cedricguppy - Loury Cédric",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "processing": "Фотография того же вида или стадии развития. Сохранены диагностические признаки и порядок вариантов."
             },
-            "printedLabel": true
+            "replacement": true
           },
           {
-            "file": "reading/5-6-26-2.webp",
+            "file": "../../../dist/assets/chip/2013/detail/5-6-26-b.webp",
             "credit": {
-              "source": "https://web.archive.org/web/20171208190107/http://www.konkurs-chip.ru:80/file/files/5-6_2013.doc",
-              "author": "Оргкомитет конкурса «Человек и природа»",
-              "license": "В архивном источнике отдельная лицензия не указана.",
-              "processing": "Растр из архивного DOC · исходное разрешение."
+              "source": "https://commons.wikimedia.org/wiki/File:Chrysochloris_asiatica_Cape_golden_mole_adult_IMG_7117.jpg",
+              "author": "JonRichfield",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "processing": "Фотография того же вида или стадии развития. Сохранены диагностические признаки и порядок вариантов."
             },
-            "printedLabel": true
+            "replacement": true
           },
           {
-            "file": "reading/5-6-26-3.webp",
+            "file": "../../../dist/assets/chip/2013/detail/5-6-26-c.webp",
             "credit": {
-              "source": "https://web.archive.org/web/20171208190107/http://www.konkurs-chip.ru:80/file/files/5-6_2013.doc",
-              "author": "Оргкомитет конкурса «Человек и природа»",
-              "license": "В архивном источнике отдельная лицензия не указана.",
-              "processing": "Растр из архивного DOC · исходное разрешение."
+              "source": "https://commons.wikimedia.org/wiki/File:Schneckengeh%C3%A4use_im_ausgetrockneten_Teich-20180809-RM-163611.jpg",
+              "author": "Ermell",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "processing": "Фотография того же вида или стадии развития. Сохранены диагностические признаки и порядок вариантов."
             },
-            "printedLabel": true
+            "replacement": true
           },
           {
-            "file": "reading/5-6-26-4.webp",
+            "file": "../../../dist/assets/chip/2013/detail/5-6-26-d.webp",
             "credit": {
-              "source": "https://web.archive.org/web/20171208190107/http://www.konkurs-chip.ru:80/file/files/5-6_2013.doc",
-              "author": "Оргкомитет конкурса «Человек и природа»",
-              "license": "В архивном источнике отдельная лицензия не указана.",
-              "processing": "Растр из архивного DOC · исходное разрешение."
+              "source": "https://commons.wikimedia.org/wiki/File:Leopard_tortoise_(Stigmochelys_pardalis)_juvenile.jpg",
+              "author": "Charles J. Sharp",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "processing": "Фотография того же вида или стадии развития. Сохранены диагностические признаки и порядок вариантов."
             },
-            "printedLabel": true
+            "replacement": true
           },
           {
-            "file": "reading/5-6-26-5.webp",
+            "file": "../../../dist/assets/chip/2013/detail/5-6-26-e.webp",
             "credit": {
-              "source": "https://web.archive.org/web/20171208190107/http://www.konkurs-chip.ru:80/file/files/5-6_2013.doc",
-              "author": "Оргкомитет конкурса «Человек и природа»",
-              "license": "В архивном источнике отдельная лицензия не указана.",
-              "processing": "Растр из архивного DOC · исходное разрешение."
+              "source": "https://commons.wikimedia.org/wiki/File:Chalcides_ocellatus_002.jpg",
+              "author": "HTO",
+              "license": "Public domain",
+              "licenseUrl": "",
+              "processing": "Фотография того же вида или стадии развития. Сохранены диагностические признаки и порядок вариантов."
             },
-            "printedLabel": true
+            "replacement": true
           }
         ]
       },
@@ -286,7 +303,7 @@
         ],
         "panels": [
           {
-            "file": "reading/figure-311.webp",
+            "file": "../../../dist/assets/chip/2013/detail/5-6-28.webp",
             "credit": {
               "source": "https://commons.wikimedia.org/wiki/File:Corot_-_Trees_in_a_Swamp%2C_Between_1855_and_1860.jpg",
               "author": "Камиль Коро · MoMA / Wikimedia Commons",
@@ -406,7 +423,7 @@
         ],
         "panels": [
           {
-            "file": "reading/figure-321.png",
+            "file": "reading/figure-321.webp",
             "credit": {
               "source": "https://21sci-tech.com/Subscriptions/Archive/1998_F.pdf#page=29",
               "author": "Гравюра 1870 года · репродукция Corbis-Bettmann",
@@ -435,7 +452,7 @@
         ],
         "panels": [
           {
-            "file": "reading/figure-321.png",
+            "file": "reading/figure-321.webp",
             "credit": {
               "source": "https://21sci-tech.com/Subscriptions/Archive/1998_F.pdf#page=29",
               "author": "Гравюра 1870 года · репродукция Corbis-Bettmann",

@@ -1,0 +1,958 @@
+{
+  "source": "../../../dist/assets/chip/2012/1-2_2012.pdf",
+  "title": "Человек и природа",
+  "figures": {
+    "1-2-02": {
+      "detail": {
+        "source": "https://web.archive.org/web/20170921091926/http://www.konkurs-chip.ru:80/file/files/1-2_2012.doc",
+        "author": "Оргкомитет конкурса «Человек и природа» · векторная редакция Olympiads.pro",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Оригинальная векторная иллюстрация Olympiads.pro по сказке П. Ершова. Сохранён сюжет рисунка из буклета: кит среди волн и деревня на его спине.",
+        "file": "detail/1-2-02.svg"
+      }
+    },
+    "1-2-04": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Canaletto_-_Bucentaur%27s_return_to_the_pier_by_the_Palazzo_Ducale_-_Google_Art_Project.jpg",
+        "author": "Джованни Антонио Каналь (Каналетто) · ГМИИ им. А. С. Пушкина · Google Art Project",
+        "license": "Общественное достояние.",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "processing": "Та же картина «Возвращение Бучинторо к молу у Дворца дожей». Полная композиция собрана из 12 частей музейной оцифровки Google Art Project в исходной ориентации.",
+        "file": "detail/1-2-04.webp"
+      }
+    },
+    "1-2-06": {
+      "detail": {
+        "source": "https://www.stozharov.ru/index_st.php?id=110&lang=",
+        "author": "Владимир Фёдорович Стожаров",
+        "license": "На сайте художника отдельная лицензия на репродукцию не указана.",
+        "processing": "Та же работа «Река Ёртом. Ледоход». Мастер 512 × 319 получен с сайта художника.",
+        "file": "detail/1-2-06.webp"
+      }
+    },
+    "1-2-07": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Grand_Coulee_Dam_Panorama.jpg",
+        "author": "Farwestern Photo by Gregg M. Erickson",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "processing": "Редакционная замена архивного гидроузла на Гранд-Кули. На аэрофотографии видны бетонная плотина, река и сооружения у воды, нужные для распознавания.",
+        "file": "detail/1-2-07.webp"
+      }
+    },
+    "1-2-08": {
+      "detail": {
+        "source": "https://web.archive.org/web/20170921091926/http://www.konkurs-chip.ru:80/file/files/1-2_2012.doc",
+        "author": "Оргкомитет конкурса «Человек и природа» · векторная редакция Olympiads.pro",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Векторная перерисовка по иллюстрации исходного буклета. Сохранены исходный объект, ракурс и относящиеся к задаче детали.",
+        "file": "detail/1-2-08.svg"
+      }
+    },
+    "1-2-12": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:RanaTemporariaLarva2.jpg",
+        "author": "Viridiflavus",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "processing": "Крупная фотография того же объекта, выделенного в исходном буклете.",
+        "file": "detail/1-2-12.webp"
+      }
+    },
+    "1-2-15-1": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Elymus_repens_(3849551804).jpg",
+        "author": "Matt Lavin from Bozeman, Montana, USA",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "processing": "Пырей ползучий Elymus repens, указанный в официальном комментарии. На крупном снимке видны колос и короткие ости.",
+        "file": "detail/1-2-15-1.webp"
+      }
+    },
+    "1-2-15-2": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Starr-160517-0263-Typha_latifolia-habit_with_flower_spikes-Kealia_Pond-Maui_(27334941485).jpg",
+        "author": "Forest & Kim Starr · Wikimedia Commons",
+        "license": "CC BY 3.0 US · creativecommons.org/licenses/by/3.0/us/",
+        "processing": "Другой снимок того же вида, кадрирование.",
+        "file": "detail/1-2-15-2.webp"
+      }
+    },
+    "1-2-15-3": {
+      "detail": {
+        "source": "https://www.inaturalist.org/photos/202408759",
+        "author": "Jens Ullenius",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "processing": "Крупный снимок того же растения или животного (Scirpus sylvaticus). Признаки сопоставлены с иллюстрацией буклета.",
+        "file": "detail/1-2-15-3.webp"
+      }
+    },
+    "1-2-15-4": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Reed_panicle_at_Brodalen_1.jpg",
+        "author": "W.carter",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "processing": "Крупная фотография того же объекта, выделенного в исходном буклете.",
+        "file": "detail/1-2-15-4.webp"
+      }
+    },
+    "1-2-15-5": {
+      "detail": {
+        "source": "https://www.inaturalist.org/photos/391491814",
+        "author": "https://www.inaturalist.org/people/agbelliveau",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "processing": "Крупный снимок того же растения или животного (Acorus calamus). Признаки сопоставлены с иллюстрацией буклета.",
+        "file": "detail/1-2-15-5.webp"
+      }
+    },
+    "1-2-17-1": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Portrait_Hippopotamus_in_the_water.jpg",
+        "author": "Muhammad Mahdi Karim",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "processing": "Крупная фотография того же объекта, выделенного в исходном буклете.",
+        "file": "detail/1-2-17-1.webp"
+      }
+    },
+    "1-2-17-2": {
+      "detail": {
+        "source": "https://www.inaturalist.org/photos/540103051",
+        "author": "Golfopolikayak",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "processing": "Крупный снимок того же растения или животного (Octopus vulgaris). Признаки сопоставлены с иллюстрацией буклета.",
+        "file": "detail/1-2-17-2.webp"
+      }
+    },
+    "1-2-17-3": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Alaska_moose.jpg",
+        "author": "Paxson Woelber",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "processing": "Крупная фотография того же объекта, выделенного в исходном буклете.",
+        "file": "detail/1-2-17-3.webp"
+      }
+    },
+    "1-2-17-4": {
+      "detail": {
+        "source": "https://www.inaturalist.org/photos/488312051",
+        "author": "Marie",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "processing": "Крупный снимок того же растения или животного (Gerris lacustris). Признаки сопоставлены с иллюстрацией буклета.",
+        "file": "detail/1-2-17-4.webp"
+      }
+    },
+    "1-2-17-5": {
+      "detail": {
+        "source": "https://www.inaturalist.org/photos/50888296",
+        "author": "Dean Hester",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "processing": "Крупный снимок того же растения или животного (Tursiops truncatus). Признаки сопоставлены с иллюстрацией буклета.",
+        "file": "detail/1-2-17-5.webp"
+      }
+    },
+    "1-2-19-1": {
+      "detail": {
+        "source": "https://www.inaturalist.org/photos/53046059",
+        "author": "https://www.inaturalist.org/people/preinzi",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "processing": "Крупный снимок того же растения или животного (Astacus astacus). Признаки сопоставлены с иллюстрацией буклета.",
+        "file": "detail/1-2-19-1.webp"
+      }
+    },
+    "1-2-19-2": {
+      "detail": {
+        "source": "https://www.inaturalist.org/photos/376838832",
+        "author": "Ella McCausland",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "processing": "Крупный снимок того же растения или животного (Platichthys flesus). Признаки сопоставлены с иллюстрацией буклета.",
+        "file": "detail/1-2-19-2.webp"
+      }
+    },
+    "1-2-19-3": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Loligo_vulgaris.jpg",
+        "author": "Hans Hillewaert",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "processing": "Крупный снимок того же вида или объекта. Изображение сверено с признаками в конкурсном буклете.",
+        "file": "detail/1-2-19-3.webp"
+      }
+    },
+    "1-2-19-4": {
+      "detail": {
+        "source": "https://www.inaturalist.org/photos/540103051",
+        "author": "Golfopolikayak",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "processing": "Крупный снимок того же растения или животного (Octopus vulgaris). Признаки сопоставлены с иллюстрацией буклета.",
+        "file": "detail/1-2-19-4.webp"
+      }
+    },
+    "1-2-19-5": {
+      "detail": {
+        "source": "https://www.inaturalist.org/photos/165596777",
+        "author": "Micha Baum",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "processing": "Крупный снимок того же растения или животного (Urticina felina). Признаки сопоставлены с иллюстрацией буклета.",
+        "file": "detail/1-2-19-5.webp"
+      }
+    },
+    "3-4-03": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Polenov_staraya_melnica.jpg",
+        "author": "Василий Поленов",
+        "license": "Общественное достояние · Public Domain Mark 1.0",
+        "processing": "Кадр приведён к развороту, уменьшен из оригинала.",
+        "file": "detail/3-4-03.webp"
+      }
+    },
+    "3-4-07-1": {
+      "detail": {
+        "source": "https://www.inaturalist.org/photos/465877519",
+        "author": "Chris Spain",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "processing": "Крупный снимок того же растения или животного (Ostracion cubicum). Признаки сопоставлены с иллюстрацией буклета.",
+        "file": "detail/3-4-07-1.webp"
+      }
+    },
+    "3-4-07-2": {
+      "detail": {
+        "source": "https://www.inaturalist.org/photos/400115584",
+        "author": "portioid",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "processing": "Крупный снимок того же растения или животного (Chelmon rostratus). Признаки сопоставлены с иллюстрацией буклета.",
+        "file": "detail/3-4-07-2.webp"
+      }
+    },
+    "3-4-07-3": {
+      "detail": {
+        "source": "https://web.archive.org/web/20160417140245/http://www.konkurs-chip.ru:80/file/files/3-4_2012.doc",
+        "author": "Редакция Olympiads.pro по конкурсному буклету",
+        "license": "Векторная редакционная иллюстрация Olympiads.pro.",
+        "processing": "Векторный рисунок раздувшейся рыбы-ежа по архивному кадру. Исходные шарообразная форма, длинные поднятые иглы и видимые плавники сохранены.",
+        "file": "detail/3-4-07-3.svg"
+      }
+    },
+    "3-4-07-4": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Lophius_piscatorius_in_situ_off_of_northern_Ireland.jpg",
+        "author": "Libby Keatley",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "processing": "Редакционная замена неподписанного отвлекающего снимка. Морской чёрт Lophius piscatorius сохраняет признак широкой пасти и мягкого, не угловатого тела.",
+        "file": "detail/3-4-07-4.webp"
+      }
+    },
+    "3-4-07-5": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Hippocampus_hippocampus_(on_Ascophyllum_nodosum).jpg",
+        "author": "Hans Hillewaert",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "processing": "Крупный снимок того же вида или объекта. Изображение сверено с признаками в конкурсном буклете.",
+        "file": "detail/3-4-07-5.webp"
+      }
+    },
+    "3-4-08-1": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Hippo_and_water.jpg",
+        "author": "Touhid biplob",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "processing": "Крупный снимок того же вида или объекта. Изображение сверено с признаками в конкурсном буклете.",
+        "file": "detail/3-4-08-1.webp"
+      }
+    },
+    "3-4-08-2": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Pelophylax_lessonae.jpg",
+        "author": "Zoran Gavrilović",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "processing": "Редакционная замена неподписанного снимка лягушки. Использована подтверждённая прудовая лягушка Pelophylax lessonae.",
+        "file": "detail/3-4-08-2.webp"
+      }
+    },
+    "3-4-08-3": {
+      "detail": {
+        "source": "https://www.inaturalist.org/photos/58917865",
+        "author": "Don Loarie",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "processing": "Крупный снимок того же растения или животного (Chelonia mydas). Признаки сопоставлены с иллюстрацией буклета.",
+        "file": "detail/3-4-08-3.webp"
+      }
+    },
+    "3-4-08-4": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Dicentrarchus_labrax_LoroParqueTenerife_seabass_IMG_4959.JPG",
+        "author": "Bjoertvedt",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "processing": "Редакционная замена неподписанного снимка серебристой рыбы. Использован подтверждённый обыкновенный лаврак Dicentrarchus labrax.",
+        "file": "detail/3-4-08-4.webp"
+      }
+    },
+    "3-4-08-5": {
+      "detail": {
+        "source": "https://www.inaturalist.org/photos/640921502",
+        "author": "Михаил Голомысов",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "processing": "Крупный снимок того же растения или животного (Botaurus stellaris). Признаки сопоставлены с иллюстрацией буклета.",
+        "file": "detail/3-4-08-5.webp"
+      }
+    },
+    "3-4-11-1": {
+      "detail": {
+        "source": "https://web.archive.org/web/20160417140245/http://www.konkurs-chip.ru:80/file/files/3-4_2012.doc",
+        "author": "Оргкомитет конкурса «Человек и природа» · векторная редакция Olympiads.pro",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Векторная перерисовка по иллюстрации исходного буклета. Сохранены исходный объект, ракурс и относящиеся к задаче детали.",
+        "file": "detail/3-4-11-1.svg"
+      }
+    },
+    "3-4-11-2": {
+      "detail": {
+        "source": "https://web.archive.org/web/20160417140245/http://www.konkurs-chip.ru:80/file/files/3-4_2012.doc",
+        "author": "Оргкомитет конкурса «Человек и природа» · векторная редакция Olympiads.pro",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Векторная перерисовка по иллюстрации исходного буклета. Сохранены исходный объект, ракурс и относящиеся к задаче детали.",
+        "file": "detail/3-4-11-2.svg"
+      }
+    },
+    "3-4-11-3": {
+      "detail": {
+        "source": "https://web.archive.org/web/20160417140245/http://www.konkurs-chip.ru:80/file/files/3-4_2012.doc",
+        "author": "Оргкомитет конкурса «Человек и природа» · векторная редакция Olympiads.pro",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Векторная перерисовка по иллюстрации исходного буклета. Сохранены исходный объект, ракурс и относящиеся к задаче детали.",
+        "file": "detail/3-4-11-3.svg"
+      }
+    },
+    "3-4-11-4": {
+      "detail": {
+        "source": "https://web.archive.org/web/20160417140245/http://www.konkurs-chip.ru:80/file/files/3-4_2012.doc",
+        "author": "Оргкомитет конкурса «Человек и природа» · векторная редакция Olympiads.pro",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Векторная перерисовка по иллюстрации исходного буклета. Сохранены исходный объект, ракурс и относящиеся к задаче детали.",
+        "file": "detail/3-4-11-4.svg"
+      }
+    },
+    "3-4-11-5": {
+      "detail": {
+        "source": "https://web.archive.org/web/20160417140245/http://www.konkurs-chip.ru:80/file/files/3-4_2012.doc",
+        "author": "Оргкомитет конкурса «Человек и природа» · векторная редакция Olympiads.pro",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Векторная перерисовка по иллюстрации исходного буклета. Сохранены исходный объект, ракурс и относящиеся к задаче детали.",
+        "file": "detail/3-4-11-5.svg"
+      }
+    },
+    "3-4-14-1": {
+      "detail": {
+        "source": "https://www.inaturalist.org/photos/671119147",
+        "author": "Gonzalo Bravo",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "processing": "Крупный снимок того же растения или животного (Macrocystis pyrifera). Признаки сопоставлены с иллюстрацией буклета.",
+        "file": "detail/3-4-14-1.webp"
+      }
+    },
+    "3-4-14-2": {
+      "detail": {
+        "source": "https://www.inaturalist.org/photos/669720023",
+        "author": "zebedeugalinha",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "processing": "Крупный снимок того же растения или животного (Nymphaea alba). Признаки сопоставлены с иллюстрацией буклета.",
+        "file": "detail/3-4-14-2.webp"
+      }
+    },
+    "3-4-14-3": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Chlorella_vulgaris_NIES2170.jpg",
+        "author": "ja:User:NEON / User:NEON_ja",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "processing": "Микрофотография хлореллы обыкновенной. Шаровидная форма зелёных клеток соответствует исходной иллюстрации.",
+        "file": "detail/3-4-14-3.webp"
+      }
+    },
+    "3-4-14-4": {
+      "detail": {
+        "source": "https://www.inaturalist.org/photos/119750302",
+        "author": "Lena Struwe",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "processing": "Крупный снимок того же растения или животного (Ulothrix zonata). Признаки сопоставлены с иллюстрацией буклета.",
+        "file": "detail/3-4-14-4.webp"
+      }
+    },
+    "3-4-14-5": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Chara_vulgaris.jpg",
+        "author": "Mnolf",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "processing": "Крупный снимок того же вида или объекта. Изображение сверено с признаками в конкурсном буклете.",
+        "file": "detail/3-4-14-5.webp"
+      }
+    },
+    "3-4-18-1": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Young_grizzly_chases_a_salmon_in_Alaska_(1750400005).jpg",
+        "author": "Jitze Couperus from Los Altos Hills, California, USA",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "processing": "Бурый медведь Ursus arctos на мелководье Аляски. Исходный ракурс заменён боковым снимком, сохранившим массивные лапы, шерсть и характерное движение зверя в воде.",
+        "file": "detail/3-4-18-1.webp"
+      }
+    },
+    "3-4-18-2": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Fischotter,_Lutra_Lutra.JPG",
+        "author": "Bernard Landgraf",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "processing": "Крупный снимок того же вида или объекта. Изображение сверено с признаками в конкурсном буклете.",
+        "file": "detail/3-4-18-2.webp"
+      }
+    },
+    "3-4-18-3": {
+      "detail": {
+        "source": "https://www.inaturalist.org/photos/526232036",
+        "author": "Nicolas Olejnik",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "processing": "Крупный снимок того же растения или животного (Panthera onca). Признаки сопоставлены с иллюстрацией буклета.",
+        "file": "detail/3-4-18-3.webp"
+      }
+    },
+    "3-4-18-4": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_a_red_fox_in_Rautas_fj%C3%A4llurskog_(cropped).jpg",
+        "author": "ClaudiaTen",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "processing": "Крупный снимок того же вида или объекта. Изображение сверено с признаками в конкурсном буклете.",
+        "file": "detail/3-4-18-4.webp"
+      }
+    },
+    "3-4-18-5": {
+      "detail": {
+        "source": "https://www.inaturalist.org/photos/10943972",
+        "author": "Peter Archdale",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "processing": "Крупный снимок того же растения или животного (Suricata suricatta suricatta). Признаки сопоставлены с иллюстрацией буклета.",
+        "file": "detail/3-4-18-5.webp"
+      }
+    },
+    "3-4-23-1": {
+      "detail": {
+        "source": "https://www.inaturalist.org/photos/58917865",
+        "author": "Don Loarie",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "processing": "Крупный снимок того же растения или животного (Chelonia mydas). Признаки сопоставлены с иллюстрацией буклета.",
+        "file": "detail/3-4-23-1.webp"
+      }
+    },
+    "3-4-23-2": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Harp_seal_whitecoat.jpg",
+        "author": "Hotel Kaesong",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "processing": "Крупный снимок того же вида или объекта. Изображение сверено с признаками в конкурсном буклете.",
+        "file": "detail/3-4-23-2.webp"
+      }
+    },
+    "3-4-23-3": {
+      "detail": {
+        "source": "https://www.inaturalist.org/photos/170995034",
+        "author": "Blake Ross",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "processing": "Крупный снимок того же растения или животного (Aix galericulata). Признаки сопоставлены с иллюстрацией буклета.",
+        "file": "detail/3-4-23-3.webp"
+      }
+    },
+    "3-4-23-4": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Tursiops_Truncatus.JPG",
+        "author": "Cloudette-90",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "processing": "Снимок обыкновенной афалины Tursiops truncatus во время выдоха у поверхности. Сохранена различимость морды, спины и места выхода воздуха.",
+        "file": "detail/3-4-23-4.webp"
+      }
+    },
+    "3-4-23-5": {
+      "detail": {
+        "source": "https://www.inaturalist.org/photos/113744549",
+        "author": "Zygy",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "processing": "Крупный снимок того же растения или животного (Alligator mississippiensis). Признаки сопоставлены с иллюстрацией буклета.",
+        "file": "detail/3-4-23-5.webp"
+      }
+    },
+    "3-4-27-1": {
+      "detail": {
+        "source": "https://web.archive.org/web/20160417140245/http://www.konkurs-chip.ru:80/file/files/3-4_2012.doc",
+        "author": "Оргкомитет конкурса «Человек и природа» · векторная редакция Olympiads.pro",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Береговая линия и очертания воды перенесены с соответствующего конкурсного космического снимка. Редакционная схема сохраняет проверяемую форму, исходные снимки доступны в буклете.",
+        "file": "detail/3-4-27-1.svg"
+      }
+    },
+    "3-4-27-2": {
+      "detail": {
+        "source": "https://web.archive.org/web/20160417140245/http://www.konkurs-chip.ru:80/file/files/3-4_2012.doc",
+        "author": "Оргкомитет конкурса «Человек и природа» · векторная редакция Olympiads.pro",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Береговая линия и очертания воды перенесены с соответствующего конкурсного космического снимка. Редакционная схема сохраняет проверяемую форму, исходные снимки доступны в буклете.",
+        "file": "detail/3-4-27-2.svg"
+      }
+    },
+    "3-4-27-3": {
+      "detail": {
+        "source": "https://web.archive.org/web/20160417140245/http://www.konkurs-chip.ru:80/file/files/3-4_2012.doc",
+        "author": "Оргкомитет конкурса «Человек и природа» · векторная редакция Olympiads.pro",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Береговая линия и очертания воды перенесены с соответствующего конкурсного космического снимка. Редакционная схема сохраняет проверяемую форму, исходные снимки доступны в буклете.",
+        "file": "detail/3-4-27-3.svg"
+      }
+    },
+    "3-4-27-4": {
+      "detail": {
+        "source": "https://web.archive.org/web/20160417140245/http://www.konkurs-chip.ru:80/file/files/3-4_2012.doc",
+        "author": "Оргкомитет конкурса «Человек и природа» · векторная редакция Olympiads.pro",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Береговая линия и очертания воды перенесены с соответствующего конкурсного космического снимка. Редакционная схема сохраняет проверяемую форму, исходные снимки доступны в буклете.",
+        "file": "detail/3-4-27-4.svg"
+      }
+    },
+    "3-4-27-5": {
+      "detail": {
+        "source": "https://web.archive.org/web/20160417140245/http://www.konkurs-chip.ru:80/file/files/3-4_2012.doc",
+        "author": "Оргкомитет конкурса «Человек и природа» · векторная редакция Olympiads.pro",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Береговая линия и очертания воды перенесены с соответствующего конкурсного космического снимка. Редакционная схема сохраняет проверяемую форму, исходные снимки доступны в буклете.",
+        "file": "detail/3-4-27-5.svg"
+      }
+    },
+    "5-6-02": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:The_Great_Wave_off_Kanagawa.jpg",
+        "author": "After Katsushika Hokusai",
+        "license": "Public domain",
+        "processing": "То же произведение. Открытая музейная репродукция; композиция сохранена.",
+        "file": "detail/5-6-02.webp"
+      }
+    },
+    "5-6-07-1": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Ceratophyllum_demersum_193786838.jpg",
+        "author": "chiuluan",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "processing": "Редакционная замена похожего подводного растения на определённый роголистник погружённый Ceratophyllum demersum. Сохранены тонкие рассечённые листья.",
+        "file": "detail/5-6-07-1.webp"
+      }
+    },
+    "5-6-07-2": {
+      "detail": {
+        "source": "https://www.inaturalist.org/photos/90957367",
+        "author": "Philipp",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "processing": "Крупный снимок того же растения или животного (Lemna minor). Признаки сопоставлены с иллюстрацией буклета.",
+        "file": "detail/5-6-07-2.webp"
+      }
+    },
+    "5-6-07-3": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Vallisn%C3%A9rie_Vallisneria_spiralis_Brant%C3%B4me-Dronne_2014_5.JPG",
+        "author": "Lamiot",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "processing": "Редакционная замена исходного отвлекающего кадра. Валлиснерия спиральная демонстрирует вид подводного растения с лентовидными листьями.",
+        "file": "detail/5-6-07-3.webp"
+      }
+    },
+    "5-6-07-4": {
+      "detail": {
+        "source": "https://www.inaturalist.org/photos/217076734",
+        "author": "Denis A",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "processing": "Крупный снимок того же растения или животного (Sagittaria sagittifolia). Признаки сопоставлены с иллюстрацией буклета.",
+        "file": "detail/5-6-07-4.webp"
+      }
+    },
+    "5-6-07-5": {
+      "detail": {
+        "source": "https://www.inaturalist.org/photos/651305883",
+        "author": "Nathan",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "processing": "Крупный снимок того же растения или животного (Urtica dioica). Признаки сопоставлены с иллюстрацией буклета.",
+        "file": "detail/5-6-07-5.webp"
+      }
+    },
+    "5-6-09-1": {
+      "detail": {
+        "source": "https://www.inaturalist.org/photos/54181911",
+        "author": "Juli Mallett",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "processing": "Крупный снимок того же растения или животного (Sympetrum vulgatum). Признаки сопоставлены с иллюстрацией буклета.",
+        "file": "detail/5-6-09-1.webp"
+      }
+    },
+    "5-6-09-2": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Hippocampus_hippocampus_(on_Ascophyllum_nodosum).jpg",
+        "author": "Hans Hillewaert",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "processing": "Крупный снимок того же вида или объекта. Изображение сверено с признаками в конкурсном буклете.",
+        "file": "detail/5-6-09-2.webp"
+      }
+    },
+    "5-6-09-3": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Bufo-bufo-erdkroete-maennlich-front.jpg",
+        "author": "Holger Krisp",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "processing": "Крупный снимок того же вида или объекта. Изображение сверено с признаками в конкурсном буклете.",
+        "file": "detail/5-6-09-3.webp"
+      }
+    },
+    "5-6-09-4": {
+      "detail": {
+        "source": "https://www.inaturalist.org/photos/78139268",
+        "author": "José Garrido",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "processing": "Крупный снимок того же растения или животного (Lumbricus terrestris). Признаки сопоставлены с иллюстрацией буклета.",
+        "file": "detail/5-6-09-4.webp"
+      }
+    },
+    "5-6-09-5": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Perch_fish_underwater_perca_fluviatilis.jpg",
+        "author": "Tetzner Tom, U.S. Fish and Wildlife Service",
+        "license": "Public domain",
+        "processing": "Редакционная замена неподписанной рыбы на документированного речного окуня. У окуня красная кровь с гемоглобином.",
+        "file": "detail/5-6-09-5.webp"
+      }
+    },
+    "5-6-13": {
+      "detail": {
+        "source": "https://web.archive.org/web/20171208185100/http://www.konkurs-chip.ru:80/file/files/5-6_2012.doc",
+        "author": "Редакция Olympiads.pro по конкурсному буклету",
+        "license": "Векторная редакционная иллюстрация Olympiads.pro.",
+        "processing": "Схема фигуры глубоководного удильщика по справочному снимку. Сохранены передняя пасть, отдельный луч над ней и небольшое утолщение на его конце.",
+        "file": "detail/5-6-13.svg"
+      }
+    },
+    "5-6-16": {
+      "detail": {
+        "source": "https://web.archive.org/web/20171208185100/http://www.konkurs-chip.ru:80/file/files/5-6_2012.doc",
+        "author": "Оргкомитет конкурса «Человек и природа» · векторная редакция Olympiads.pro",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "По исходному кадру восстановлены элементы схемы: многолапый металлический крюк, трос и борт корабля.",
+        "file": "detail/5-6-16.svg"
+      }
+    },
+    "5-6-21": {
+      "detail": {
+        "source": "2012/5-6_2012.pdf",
+        "author": "Оргкомитет конкурса «Человек и природа»",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Извлечено из оригинального буклета без увеличения. Исходное разрешение ограничено.",
+        "file": "detail/5-6-21.webp"
+      }
+    },
+    "5-6-26-1": {
+      "detail": {
+        "source": "https://www.inaturalist.org/photos/155648869",
+        "author": "Steven Lamonde",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "processing": "Крупный снимок того же растения или животного (Mytilus edulis). Признаки сопоставлены с иллюстрацией буклета.",
+        "file": "detail/5-6-26-1.webp"
+      }
+    },
+    "5-6-26-2": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Octopus_Vulgaris.jpg",
+        "author": "Theasereje",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "processing": "Обыкновенный осьминог Octopus vulgaris. На крупном ракурсе различимы руки с присосками, соответствующие исходному варианту.",
+        "file": "detail/5-6-26-2.webp"
+      }
+    },
+    "5-6-26-3": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Nautilus_pompilius.jpg",
+        "author": "Автор снимка не указан в источнике",
+        "license": "Public domain",
+        "processing": "Наутилус того же вида, Nautilus pompilius. Видны раковина с коричневыми полосами и головная часть.",
+        "file": "detail/5-6-26-3.webp"
+      }
+    },
+    "5-6-26-4": {
+      "detail": {
+        "source": "https://www.inaturalist.org/photos/28954313",
+        "author": "oenobita",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "processing": "Крупный снимок того же растения или животного (Echeneis naucrates). Признаки сопоставлены с иллюстрацией буклета.",
+        "file": "detail/5-6-26-4.webp"
+      }
+    },
+    "5-6-26-5": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Daphnia_magna_microscopy.jpg",
+        "author": "Viktor Husak",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "processing": "Редакционная замена неопределённого планктонного ракообразного на документированную дафнию Daphnia magna. Сохранены прозрачный покров, характерный глаз и планктонный тип.",
+        "file": "detail/5-6-26-5.webp"
+      }
+    },
+    "5-6-28": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Canyon_River_Tree_(165872763).jpeg",
+        "author": "Lennart Sikkema",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "processing": "Крупный снимок того же вида или объекта. Изображение сверено с признаками в конкурсном буклете.",
+        "file": "detail/5-6-28.webp"
+      }
+    },
+    "7-8-04": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Jack_Spurling_-_ARIEL_%26_TAEPING,_China_Tea_Clippers_Race.jpg",
+        "author": "Jack Spurling",
+        "license": "Public domain",
+        "processing": "Та же картина «Ариэль и Тайпин» Джека Спурлинга. Воспроизведена композиция клиперной гонки.",
+        "file": "detail/7-8-04.webp"
+      }
+    },
+    "7-8-10-1": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Atafutrim.jpg",
+        "license": "Public domain",
+        "author": "NASA Johnson Space Center · кадрирование Talkstosocks",
+        "processing": "Тот же орбитальный снимок атолла Атафу с исходным положением берега, лагуны и светлых облаков. Кадрирование сверено с буклетом.",
+        "file": "detail/7-8-10-1.webp"
+      }
+    },
+    "7-8-10-2": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Whitsunday_Island_0508.jpg",
+        "author": "Quickndirty",
+        "license": "Public domain",
+        "processing": "Редакционная замена неопознанного тропического острова на документированный вид Уитсандея. На фотографии видны зелёная суша, светлый берег и отсутствие замкнутой лагуны.",
+        "file": "detail/7-8-10-2.webp"
+      }
+    },
+    "7-8-10-3": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Surtsey_from_air_by_Bruce_McAdam.jpg",
+        "author": "Bruce McAdam from Reykjavik, Iceland",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "processing": "Редакционная замена исходного неопознанного вулканического острова. На документированном снимке острова Сюртсей видны суша в центре и окаймляющий прибой.",
+        "file": "detail/7-8-10-3.webp"
+      }
+    },
+    "7-8-10-4": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Is03104-Tindholmur.jpg",
+        "author": "PanWoyteczek",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "processing": "Редакционная замена архивного кадра на проверенный вид фарерского острова Тиндхёльмур с крутым склоном и вытянутой береговой линией.",
+        "file": "detail/7-8-10-4.webp"
+      }
+    },
+    "7-8-10-5": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Lizard_Island_Reef.jpg",
+        "author": "Emily Cox · Wikimedia Commons",
+        "license": "CC BY-SA 4.0 · creativecommons.org/licenses/by-sa/4.0/",
+        "processing": "Лицензионный аэрофотоснимок. Область обрезана до береговой кромки.",
+        "file": "detail/7-8-10-5.webp"
+      }
+    },
+    "7-8-14": {
+      "detail": {
+        "source": "https://web.archive.org/web/20171208185126/http://www.konkurs-chip.ru:80/file/files/7-8_2012.doc",
+        "author": "Редакция Olympiads.pro по конкурсному буклету",
+        "license": "Векторная редакционная иллюстрация Olympiads.pro.",
+        "processing": "Редакционная иллюстрация эпизода с летящим над поляной медвежонком. Кадр мультфильма Фёдора Хитрука сохранён в официальном буклете.",
+        "file": "detail/7-8-14.svg"
+      }
+    },
+    "7-8-20": {
+      "detail": {
+        "source": "https://www.inaturalist.org/photos/342287991",
+        "author": "Sylvain Montagner",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "processing": "Крупный снимок того же растения или животного (Ceiba pentandra). Признаки сопоставлены с иллюстрацией буклета.",
+        "file": "detail/7-8-20.webp"
+      }
+    },
+    "7-8-28": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Tube_worms_ASHES_hydrothermal_field_(27260324626).jpg",
+        "author": "Oregon State University",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "processing": "Рифтии на дне Тихого океана. На фотографии штаба экспедиции видны светлые трубки и красные жаберные венчики.",
+        "file": "detail/7-8-28.webp"
+      }
+    },
+    "9-10-03": {
+      "detail": {
+        "source": "https://web.archive.org/web/20171208190206/http://www.konkurs-chip.ru:80/file/files/9-10_2012.doc",
+        "author": "Редакция Olympiads.pro по конкурсному буклету",
+        "license": "Векторная редакционная иллюстрация Olympiads.pro.",
+        "processing": "Векторная реконструкция буклетного судна с тремя мачтами и алыми парусами. Сохранены борта, форма парусов, положение мачт и носовой рангоут.",
+        "file": "detail/9-10-03.svg"
+      }
+    },
+    "9-10-11": {
+      "detail": {
+        "source": "https://kmii.ru/collections/fa-vasilev-pasmurnyy-den-boloto",
+        "author": "Фёдор Васильев · Калужский музей изобразительных искусств",
+        "license": "Произведение в общественном достоянии.",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "processing": "Редакционная замена архивного пейзажа на «Пасмурный день. Болото» (1873) того же художника с подтверждённой музеем техникой. Сохранён пример монохромного пейзажа, требуемый в задании.",
+        "file": "detail/9-10-11.webp"
+      }
+    },
+    "9-10-22-1": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Pegmatitic_granite_(alaskite)_(Mt._Morrison_Granite,_late_Paleoproterozoic,_1.7_Ga;_Carpenters_Peak,_Roxborough_State_Park,_Front_Range,_Colorado,_USA)_1_(16559694670).jpg",
+        "author": "James St. John",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "processing": "Музейный пример аляскита из Колорадо. Название соответствует варианту, различимы светлый кварц и розоватый полевой шпат.",
+        "file": "detail/9-10-22-1.webp"
+      }
+    },
+    "9-10-22-2": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Rapakivi_WGR.JPG",
+        "author": "Woudloper · Wikimedia Commons",
+        "license": "CC BY-SA 3.0 · creativecommons.org/licenses/by-sa/3.0/",
+        "processing": "Другой образец той же разновидности породы. Кадрирование.",
+        "file": "detail/9-10-22-2.webp"
+      }
+    },
+    "9-10-22-3": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Charnockite_rock.jpg",
+        "author": "ANBARASU THIRAVIYAM · Wikimedia Commons",
+        "license": "CC BY-SA 4.0 · creativecommons.org/licenses/by-sa/4.0/",
+        "processing": "Другой образец той же разновидности породы. Кадрирование.",
+        "file": "detail/9-10-22-3.webp"
+      }
+    },
+    "9-10-22-4": {
+      "detail": {
+        "source": "https://web.archive.org/web/20171208190206/http://www.konkurs-chip.ru:80/file/files/9-10_2012.doc",
+        "author": "Оргкомитет ЧИП · редакционная прорисовка Olympiads.pro",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Редакционная прорисовка зёрен буклетного образца экерита. Локальные границы зёрен и верхняя светлая полоса трассированы по оригиналу. Дополнительные сведения о составе не нанесены.",
+        "file": "detail/9-10-22-4.svg"
+      }
+    },
+    "9-10-22-5": {
+      "detail": {
+        "source": "https://web.archive.org/web/20171208190206/http://www.konkurs-chip.ru:80/file/files/9-10_2012.doc",
+        "author": "Оргкомитет ЧИП · редакционная прорисовка Olympiads.pro",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Редакционная прорисовка зёрен буклетного образца эндербита. Сохранены положения тёмных и светлых участков исходного образца.",
+        "file": "detail/9-10-22-5.svg"
+      }
+    },
+    "9-10-27-1": {
+      "detail": {
+        "source": "https://web.archive.org/web/20171208190206/http://www.konkurs-chip.ru:80/file/files/9-10_2012.doc",
+        "author": "Оргкомитет конкурса «Человек и природа» · векторная редакция Olympiads.pro",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Три лопасти и втулка пропеллера перерисованы по оригиналу.",
+        "file": "detail/9-10-27-1.svg"
+      }
+    },
+    "9-10-27-2": {
+      "detail": {
+        "source": "https://web.archive.org/web/20171208190206/http://www.konkurs-chip.ru:80/file/files/9-10_2012.doc",
+        "author": "Оргкомитет конкурса «Человек и природа» · векторная редакция Olympiads.pro",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Винтовая лопасть и ось устройства начерчены с сохранением числа оборотов и косого ракурса исходного рисунка.",
+        "file": "detail/9-10-27-2.svg"
+      }
+    },
+    "9-10-27-3": {
+      "detail": {
+        "source": "https://web.archive.org/web/20171208190206/http://www.konkurs-chip.ru:80/file/files/9-10_2012.doc",
+        "author": "Оргкомитет конкурса «Человек и природа» · векторная редакция Olympiads.pro",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Подъёмное устройство у воды перерисовано по исходному фото. Сохранены наклонный подъёмник и ферменные опоры.",
+        "file": "detail/9-10-27-3.svg"
+      }
+    },
+    "9-10-27-4": {
+      "detail": {
+        "source": "https://web.archive.org/web/20171208190206/http://www.konkurs-chip.ru:80/file/files/9-10_2012.doc",
+        "author": "Оргкомитет конкурса «Человек и природа» · векторная редакция Olympiads.pro",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Крепёжный винт со шлицем и мелкой резьбой перерисован в том же наклоне.",
+        "file": "detail/9-10-27-4.svg"
+      }
+    },
+    "9-10-27-5": {
+      "detail": {
+        "source": "https://web.archive.org/web/20171208190206/http://www.konkurs-chip.ru:80/file/files/9-10_2012.doc",
+        "author": "Оргкомитет конкурса «Человек и природа» · векторная редакция Olympiads.pro",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Винтовая лестница с осевой опорой, отдельными ступенями и перилами перерисована по исходному фото.",
+        "file": "detail/9-10-27-5.svg"
+      }
+    },
+    "9-10-30": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:High_Rise_black_smoker.jpg",
+        "author": "NOAA",
+        "license": "Public domain",
+        "processing": "Глубоководная гидротермальная труба того же типа. Отличимы устье и тёмный шлейф в морской воде.",
+        "file": "detail/9-10-30.webp"
+      }
+    }
+  }
+}

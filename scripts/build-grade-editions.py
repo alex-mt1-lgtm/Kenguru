@@ -295,6 +295,8 @@ def compile_editions(datasets, filename, name):
         metadata = read_json(metadata_file)
         cards = list(task_cards(edition, folder, metadata, solution_data(edition, folder)))
         sources = {field: edition[field] for field in ('id', 'year', 'grades', 'label', 'tasksUrl', 'answersUrl', 'solutionUrl')}
+        if edition.get('reviewedKey'):
+            sources['reviewedKey'] = True
         editions.append({**sources, 'answerLetters': metadata.get('answerLetters', LETTERS), 'cards': cards})
     payload = f'globalThis.{name} = ' + json.dumps(editions, ensure_ascii=False, separators=(',', ':')) + ';\n'
     (DIST / 'years' / filename).write_text(payload, encoding='utf-8')

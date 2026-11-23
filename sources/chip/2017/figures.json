@@ -1,0 +1,2752 @@
+{
+  "source": "../../../dist/assets/chip/2017/задания_ЧИП-2017-1_2класс.pdf",
+  "title": "Человек и природа",
+  "renderScale": 3,
+  "figures": {
+    "1-2-01": {
+      "detail": {
+        "author": "Natural Earth, подписи восстановлены редакцией Olympiads.pro",
+        "source": "https://www.naturalearthdata.com/downloads/110m-physical-vectors/110m-land/",
+        "license": "Общественное достояние.",
+        "processing": "Контуры суши взяты из Natural Earth. Цифры сверены с буклетом.",
+        "file": "1-2-01.svg"
+      },
+      "page": 0,
+      "xref": 11
+    },
+    "1-2-04-1": {
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2017/задания_ЧИП-2017-1_2класс.pdf",
+        "license": "По иллюстрации оригинального буклета",
+        "processing": "Форма и порядок вариантов восстановлены по буклету.",
+        "file": "1-2-04-1.svg"
+      },
+      "page": 0,
+      "xref": 12
+    },
+    "1-2-04-2": {
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2017/задания_ЧИП-2017-1_2класс.pdf",
+        "license": "По иллюстрации оригинального буклета",
+        "processing": "Форма и порядок вариантов восстановлены по буклету.",
+        "file": "1-2-04-2.svg"
+      },
+      "page": 0,
+      "xref": 12
+    },
+    "1-2-04-3": {
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2017/задания_ЧИП-2017-1_2класс.pdf",
+        "license": "По иллюстрации оригинального буклета",
+        "processing": "Форма и порядок вариантов восстановлены по буклету.",
+        "file": "1-2-04-3.svg"
+      },
+      "page": 0,
+      "xref": 12
+    },
+    "1-2-04-4": {
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2017/задания_ЧИП-2017-1_2класс.pdf",
+        "license": "По иллюстрации оригинального буклета",
+        "processing": "Форма и порядок вариантов восстановлены по буклету.",
+        "file": "1-2-04-4.svg"
+      },
+      "page": 0,
+      "xref": 12
+    },
+    "1-2-04-5": {
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2017/задания_ЧИП-2017-1_2класс.pdf",
+        "license": "По иллюстрации оригинального буклета",
+        "processing": "Форма и порядок вариантов восстановлены по буклету.",
+        "file": "1-2-04-5.svg"
+      },
+      "page": 0,
+      "xref": 12
+    },
+    "1-2-05": {
+      "page": 0,
+      "xref": 13,
+      "detail": {
+        "author": "Официальный флаг Канады.",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Canada.svg",
+        "license": "Общественное достояние.",
+        "processing": "Векторный флаг без номера задания.",
+        "file": "1-2-05.svg"
+      }
+    },
+    "1-2-06-1": {
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2017/задания_ЧИП-2017-1_2класс.pdf",
+        "license": "По иллюстрации оригинального буклета",
+        "processing": "Форма и порядок вариантов восстановлены по буклету.",
+        "file": "1-2-06-1.svg"
+      },
+      "page": 0,
+      "xref": 14
+    },
+    "1-2-06-2": {
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2017/задания_ЧИП-2017-1_2класс.pdf",
+        "license": "По иллюстрации оригинального буклета",
+        "processing": "Форма и порядок вариантов восстановлены по буклету.",
+        "file": "1-2-06-2.svg"
+      },
+      "page": 0,
+      "xref": 14
+    },
+    "1-2-06-3": {
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2017/задания_ЧИП-2017-1_2класс.pdf",
+        "license": "По иллюстрации оригинального буклета",
+        "processing": "Форма и порядок вариантов восстановлены по буклету.",
+        "file": "1-2-06-3.svg"
+      },
+      "page": 0,
+      "xref": 14
+    },
+    "1-2-06-4": {
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2017/задания_ЧИП-2017-1_2класс.pdf",
+        "license": "По иллюстрации оригинального буклета",
+        "processing": "Форма и порядок вариантов восстановлены по буклету.",
+        "file": "1-2-06-4.svg"
+      },
+      "page": 0,
+      "xref": 14
+    },
+    "1-2-06-5": {
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2017/задания_ЧИП-2017-1_2класс.pdf",
+        "license": "По иллюстрации оригинального буклета",
+        "processing": "Форма и порядок вариантов восстановлены по буклету.",
+        "file": "1-2-06-5.svg"
+      },
+      "page": 0,
+      "xref": 14
+    },
+    "1-2-07-1": {
+      "page": 0,
+      "xref": 15,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-1_2класс.pdf",
+      "imageBox": [
+        1,
+        1,
+        133,
+        122
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:North-American-bullfrog1.jpg",
+        "license": "CC BY-SA 2.5",
+        "author": "Carl D. Howe",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "file": "detail/1-2-07-1.webp"
+      }
+    },
+    "1-2-07-2": {
+      "page": 0,
+      "xref": 15,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-1_2класс.pdf",
+      "imageBox": [
+        152,
+        1,
+        284,
+        122
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:ApodemusSylvaticus.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Christian Fischer",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/1-2-07-2.webp"
+      }
+    },
+    "1-2-07-3": {
+      "page": 0,
+      "xref": 15,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-1_2класс.pdf",
+      "imageBox": [
+        303,
+        1,
+        436,
+        122
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:EasternGraySquirrel_GAm.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "JeffreyGammon",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/1-2-07-3.webp"
+      }
+    },
+    "1-2-07-4": {
+      "page": 0,
+      "xref": 15,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-1_2класс.pdf",
+      "imageBox": [
+        454,
+        1,
+        586,
+        122
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Oryctolagus_cuniculus_-_euqirneto_-_419737670_(cropped).jpeg",
+        "license": "CC BY 4.0",
+        "author": "euqirneto",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "file": "detail/1-2-07-4.webp"
+      }
+    },
+    "1-2-07-5": {
+      "page": 0,
+      "xref": 15,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-1_2класс.pdf",
+      "imageBox": [
+        605,
+        1,
+        749,
+        122
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Bald_Eagle_flying_over_ice_(Southern_Ontario,_Canada).jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Peter K Burian",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/1-2-07-5.webp"
+      }
+    },
+    "1-2-09-1": {
+      "page": 1,
+      "xref": 36,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-1_2класс.pdf",
+      "imageBox": [
+        1,
+        1,
+        144,
+        130
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Mongolian_headdress_(3).jpg",
+        "license": "Public domain",
+        "author": "Unknown authorUnknown author",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "file": "detail/1-2-09-1.webp"
+      }
+    },
+    "1-2-09-2": {
+      "page": 1,
+      "xref": 36,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-1_2класс.pdf",
+      "imageBox": [
+        154,
+        1,
+        297,
+        130
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Sikh_wearing_turban.jpg",
+        "license": "CC BY-SA 2.5",
+        "author": "Photography by Harkanwal Singh.",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "file": "detail/1-2-09-2.webp"
+      }
+    },
+    "1-2-09-3": {
+      "page": 1,
+      "xref": 36,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-1_2класс.pdf",
+      "imageBox": [
+        308,
+        1,
+        450,
+        130
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Pakul.jpg",
+        "license": "Public domain",
+        "author": "Laurieschmid",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "file": "detail/1-2-09-3.webp"
+      }
+    },
+    "1-2-09-4": {
+      "page": 1,
+      "xref": 36,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-1_2класс.pdf",
+      "imageBox": [
+        461,
+        1,
+        603,
+        130
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Chief_Gall_ca1880s.jpg",
+        "license": "Public domain",
+        "author": "George W. Scott",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "file": "detail/1-2-09-4.webp"
+      }
+    },
+    "1-2-09-5": {
+      "page": 1,
+      "xref": 36,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-1_2класс.pdf",
+      "imageBox": [
+        614,
+        1,
+        749,
+        130
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Qing_Dynasty_Mandarin.jpg",
+        "license": "Public domain",
+        "author": "Unknown authorUnknown author",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "file": "detail/1-2-09-5.webp"
+      }
+    },
+    "1-2-10-1": {
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2017/задания_ЧИП-2017-1_2класс.pdf",
+        "license": "По иллюстрации оригинального буклета",
+        "processing": "Форма и порядок вариантов восстановлены по буклету.",
+        "file": "1-2-10-1.svg"
+      },
+      "page": 1,
+      "xref": 37
+    },
+    "1-2-10-2": {
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2017/задания_ЧИП-2017-1_2класс.pdf",
+        "license": "По иллюстрации оригинального буклета",
+        "processing": "Форма и порядок вариантов восстановлены по буклету.",
+        "file": "1-2-10-2.svg"
+      },
+      "page": 1,
+      "xref": 37
+    },
+    "1-2-10-3": {
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2017/задания_ЧИП-2017-1_2класс.pdf",
+        "license": "По иллюстрации оригинального буклета",
+        "processing": "Форма и порядок вариантов восстановлены по буклету.",
+        "file": "1-2-10-3.svg"
+      },
+      "page": 1,
+      "xref": 37
+    },
+    "1-2-10-4": {
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2017/задания_ЧИП-2017-1_2класс.pdf",
+        "license": "По иллюстрации оригинального буклета",
+        "processing": "Форма и порядок вариантов восстановлены по буклету.",
+        "file": "1-2-10-4.svg"
+      },
+      "page": 1,
+      "xref": 37
+    },
+    "1-2-10-5": {
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2017/задания_ЧИП-2017-1_2класс.pdf",
+        "license": "По иллюстрации оригинального буклета",
+        "processing": "Форма и порядок вариантов восстановлены по буклету.",
+        "file": "1-2-10-5.svg"
+      },
+      "page": 1,
+      "xref": 37
+    },
+    "1-2-12-1": {
+      "page": 1,
+      "xref": 38,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-1_2класс.pdf",
+      "imageBox": [
+        1,
+        1,
+        144,
+        130
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:7-Spotted-Ladybug-Coccinella-septempunctata-sq1.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Photographer: Dominik Stodulski Graphic Processing: User:MathKnight",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/1-2-12-1.webp"
+      }
+    },
+    "1-2-12-2": {
+      "page": 1,
+      "xref": 38,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-1_2класс.pdf",
+      "imageBox": [
+        154,
+        1,
+        297,
+        130
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Colorado_potato_beetle.jpg",
+        "license": "Public domain",
+        "author": "Scott Bauer, USDA ARS",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "file": "detail/1-2-12-2.webp"
+      }
+    },
+    "1-2-12-3": {
+      "page": 1,
+      "xref": 38,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-1_2класс.pdf",
+      "imageBox": [
+        308,
+        1,
+        450,
+        130
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Geelgerande02.jpg",
+        "license": "Public domain",
+        "author": "photo by E van Herk (User Evanherk) on en.wikipedia",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "file": "detail/1-2-12-3.webp"
+      }
+    },
+    "1-2-12-4": {
+      "page": 1,
+      "xref": 38,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-1_2класс.pdf",
+      "imageBox": [
+        461,
+        1,
+        603,
+        130
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Garden_chafer_beetle_(Phyllopertha_horticola).jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Charles J. Sharp",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/1-2-12-4.webp"
+      }
+    },
+    "1-2-12-5": {
+      "page": 1,
+      "xref": 38,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-1_2класс.pdf",
+      "imageBox": [
+        614,
+        1,
+        749,
+        130
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Hylobius_abietis_3_bialowieza_forest_beentree.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Автор указан в каталоге изображения",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "file": "detail/1-2-12-5.webp"
+      }
+    },
+    "1-2-14": {
+      "page": 1,
+      "xref": 39,
+      "detail": {
+        "author": "NOAA Photo Library / National Severe Storms Laboratory",
+        "source": "https://commons.wikimedia.org/wiki/File:Tornado_over_the_Kansas_plains_%28Nssl0232_-_Flickr_-_NOAA_Photo_Library%29.jpg",
+        "license": "Общественное достояние.",
+        "licenseUrl": "",
+        "processing": "Заменён снимком того же природного явления из архива NOAA. Оригинал 3888 × 2592 px.",
+        "file": "detail/1-2-14.webp"
+      }
+    },
+    "1-2-16": {
+      "page": 2,
+      "xref": 43,
+      "detail": {
+        "author": "Джордж Кэтлин, 1846–1848. Смитсоновский музей американского искусства.",
+        "source": "https://americanart.si.edu/artwork/indian-encampment-comanche-or-kiowa-dressing-skins-red-river-4117",
+        "license": "Репродукция произведения, перешедшего в общественное достояние.",
+        "licenseUrl": "",
+        "processing": "Та же картина, что в буклете, в более крупной репродукции. Оригинал 3000 × 2400 px.",
+        "file": "detail/1-2-16.webp"
+      }
+    },
+    "1-2-18": {
+      "page": 2,
+      "xref": 44,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-1_2класс.pdf",
+      "imageBox": [
+        1,
+        1,
+        284,
+        191
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:End_of_Mark_Twain_Log,_Diameter_18_Ft_-_C._C._Curtis_c._1892.jpg",
+        "license": "Public domain",
+        "author": "C. C. Curtis",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "file": "detail/1-2-18.webp"
+      }
+    },
+    "1-2-20": {
+      "page": 2,
+      "xref": 45,
+      "detail": {
+        "author": "Автор указан на странице Wikimedia Commons.",
+        "source": "https://commons.wikimedia.org/wiki/File:Horseshoe_Falls_Niagara.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "",
+        "processing": "Заменён снимком того же участка Ниагарского водопада. Оригинал 625 × 944 px.",
+        "file": "detail/1-2-20.webp"
+      }
+    },
+    "3-4-02": {
+      "detail": {
+        "author": "Natural Earth, схема маршрута Olympiads.pro",
+        "source": "https://www.naturalearthdata.com/downloads/110m-physical-vectors/110m-land/",
+        "license": "Общественное достояние основы. Маршрут реконструирован по сюжету буклета.",
+        "processing": "Контуры Natural Earth и векторная схема пути первого плавания.",
+        "file": "3-4-02.svg"
+      },
+      "page": 0,
+      "xref": 12,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-3-4класс.pdf"
+    },
+    "3-4-05-1": {
+      "page": 0,
+      "xref": 13,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-3-4класс.pdf",
+      "imageBox": [
+        6,
+        1,
+        144,
+        134
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Disneyland_locomotive_2_at_Main_Street_Station_1960.JPG",
+        "license": "Public domain",
+        "author": "Santa Fe Railway, who was a sponsor of part of the railroad at the park from 1955 to 1974. Photographer-B. Don Erb",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "file": "detail/3-4-05-1.webp"
+      }
+    },
+    "3-4-05-2": {
+      "page": 0,
+      "xref": 13,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-3-4класс.pdf",
+      "imageBox": [
+        156,
+        1,
+        294,
+        134
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Disneyland_Mark_VII_Monorail_Red.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Hawaiian717",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/3-4-05-2.webp"
+      }
+    },
+    "3-4-05-3": {
+      "page": 0,
+      "xref": 13,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-3-4класс.pdf",
+      "imageBox": [
+        306,
+        1,
+        444,
+        134
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Mark_Twain_Riverboat,_Disneyland.jpg",
+        "license": "CC BY 4.0",
+        "author": "Contributor19",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "file": "detail/3-4-05-3.webp"
+      }
+    },
+    "3-4-05-4": {
+      "page": 0,
+      "xref": 13,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-3-4класс.pdf",
+      "imageBox": [
+        456,
+        1,
+        594,
+        134
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:WYMT_34980_leaving_Wuyang_Community_(20240326134517).jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "N509FZ",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/3-4-05-4.webp"
+      }
+    },
+    "3-4-05-5": {
+      "page": 0,
+      "xref": 13,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-3-4класс.pdf",
+      "imageBox": [
+        606,
+        1,
+        744,
+        134
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Disneyland-Omnibus01.jpg",
+        "license": "Public domain",
+        "author": "User:Jonnyboyca",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "file": "detail/3-4-05-5.webp"
+      }
+    },
+    "3-4-07": {
+      "page": 0,
+      "xref": 14,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-3-4класс.pdf",
+      "imageBox": [
+        0,
+        0,
+        185,
+        180
+      ],
+      "detail": {
+        "source": "2017/задания_ЧИП-2017-3-4класс.pdf",
+        "author": "Olympiads.pro",
+        "license": "Векторная иллюстрация Olympiads.pro.",
+        "processing": "Заново отрисовано с сохранением сюжета и определяющих деталей изображения в буклете.",
+        "file": "3-4-07.svg"
+      }
+    },
+    "3-4-09-1": {
+      "page": 0,
+      "xref": 15,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-3-4класс.pdf",
+      "imageBox": [
+        6,
+        1,
+        144,
+        133
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:San_Gorgonio_Pass_wind_farm_March_2023.jpg",
+        "license": "CC BY 4.0",
+        "author": "Spiglanin",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "file": "detail/3-4-09-1.webp"
+      }
+    },
+    "3-4-09-2": {
+      "page": 0,
+      "xref": 15,
+      "detail": {
+        "author": "Craig Dietrich",
+        "source": "https://commons.wikimedia.org/wiki/File:Ivanpah_Solar_Power_Facility_(1).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "processing": "Показан новый снимок с сохранением признаков вида. Оригинал 1500 × 1124 px.",
+        "file": "detail/3-4-09-2.webp"
+      },
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-3-4класс.pdf",
+      "imageBox": [
+        156,
+        1,
+        294,
+        133
+      ]
+    },
+    "3-4-09-3": {
+      "page": 0,
+      "xref": 15,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-3-4класс.pdf",
+      "imageBox": [
+        306,
+        1,
+        444,
+        133
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Spillway,_Bonneville_Dam-2.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Visitor7",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/3-4-09-3.webp"
+      }
+    },
+    "3-4-09-4": {
+      "page": 0,
+      "xref": 15,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-3-4класс.pdf",
+      "imageBox": [
+        456,
+        1,
+        594,
+        133
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:KewauneeNuclearGeneratingStationAug2009.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Royalbroil",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/3-4-09-4.webp"
+      }
+    },
+    "3-4-09-5": {
+      "page": 0,
+      "xref": 15,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-3-4класс.pdf",
+      "imageBox": [
+        606,
+        1,
+        744,
+        133
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Be%C5%82chat%C3%B3w_Elektrownia.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Morgre",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/3-4-09-5.webp"
+      }
+    },
+    "3-4-11-1": {
+      "page": 1,
+      "xref": 36,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-3-4класс.pdf",
+      "imageBox": [
+        6,
+        1,
+        144,
+        132
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:A_Formica_rufa_sideview.jpg",
+        "license": "CC BY-SA 2.5",
+        "author": "Richard Bartz, Munich Makro Freak",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "file": "detail/3-4-11-1.webp"
+      }
+    },
+    "3-4-11-2": {
+      "page": 1,
+      "xref": 36,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-3-4класс.pdf",
+      "imageBox": [
+        156,
+        1,
+        294,
+        132
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Silurus_glanis_02.jpg",
+        "license": "CC BY-SA 3.0 de",
+        "author": "Dieter Florian (To contact the author, ask the uploader or take a look at tauchshop-florian.de.)",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+        "file": "detail/3-4-11-2.webp"
+      }
+    },
+    "3-4-11-3": {
+      "page": 1,
+      "xref": 36,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-3-4класс.pdf",
+      "imageBox": [
+        306,
+        1,
+        444,
+        132
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Bald_Eagle_flying_over_ice_(Southern_Ontario,_Canada).jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Peter K Burian",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "processing": "Крупная фотография соответствующего объекта. Повторно использован проверенный мастер архива.",
+        "file": "detail/3-4-11-3.webp"
+      }
+    },
+    "3-4-11-4": {
+      "page": 1,
+      "xref": 36,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-3-4класс.pdf",
+      "imageBox": [
+        456,
+        1,
+        594,
+        132
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Oryctolagus_cuniculus_-_euqirneto_-_419737670_(cropped).jpeg",
+        "license": "CC BY 4.0",
+        "author": "euqirneto",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "file": "detail/3-4-11-4.webp"
+      }
+    },
+    "3-4-11-5": {
+      "page": 1,
+      "xref": 36,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-3-4класс.pdf",
+      "imageBox": [
+        606,
+        1,
+        744,
+        132
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:A_curious_Welsh_Mountain_sheep_(Ovis_aries).jpg",
+        "author": "Seraaron",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "processing": "Крупная фотография соответствующего объекта. Повторно использован проверенный мастер архива.",
+        "file": "detail/3-4-11-5.webp"
+      }
+    },
+    "3-4-13-1": {
+      "page": 1,
+      "xref": 37,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-3-4класс.pdf",
+      "imageBox": [
+        6,
+        1,
+        144,
+        133
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Erinaceus_europaeus_in_Altai_krai_02.JPG",
+        "license": "CC BY-SA 3.0",
+        "author": "Игоревич",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/3-4-13-1.webp"
+      }
+    },
+    "3-4-13-2": {
+      "page": 1,
+      "xref": 37,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-3-4класс.pdf",
+      "imageBox": [
+        156,
+        1,
+        294,
+        133
+      ],
+      "detail": {
+        "author": "Allison Gong",
+        "source": "https://www.inaturalist.org/observations/3832889",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "processing": "Крупная фотография Erethizon dorsatum на ветке. Обрезаны свободные поля, осветлены тени, чтобы видны были иглы.",
+        "file": "detail/3-4-13-2.webp"
+      }
+    },
+    "3-4-13-3": {
+      "page": 1,
+      "xref": 37,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-3-4класс.pdf",
+      "imageBox": [
+        306,
+        1,
+        444,
+        133
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:European_badger_(Meles_meles_taxus)_Drenthe.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Charles J. Sharp",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/3-4-13-3.webp"
+      }
+    },
+    "3-4-13-4": {
+      "page": 1,
+      "xref": 37,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-3-4класс.pdf",
+      "imageBox": [
+        456,
+        1,
+        594,
+        133
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:J%C3%A4rv1.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Esquilo",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/3-4-13-4.webp"
+      }
+    },
+    "3-4-13-5": {
+      "page": 1,
+      "xref": 37,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-3-4класс.pdf",
+      "imageBox": [
+        606,
+        1,
+        744,
+        133
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Koala_climbing_tree.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Diliff",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/3-4-13-5.webp"
+      }
+    },
+    "3-4-16-1": {
+      "page": 1,
+      "xref": 38,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-3-4класс.pdf",
+      "imageBox": [
+        6,
+        1,
+        144,
+        132
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Archilochus_colubris_-flying_-male-8.jpg",
+        "license": "CC BY 2.0",
+        "author": "jeffreyw",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "file": "detail/3-4-16-1.webp"
+      }
+    },
+    "3-4-16-2": {
+      "page": 1,
+      "xref": 38,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-3-4класс.pdf",
+      "imageBox": [
+        156,
+        1,
+        294,
+        132
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Struthio_camelus_-_Etosha_2014_(3).jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Yathin S Krishnappa",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/3-4-16-2.webp"
+      }
+    },
+    "3-4-16-3": {
+      "page": 1,
+      "xref": 38,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-3-4класс.pdf",
+      "imageBox": [
+        306,
+        1,
+        444,
+        132
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:2020-11_Kerguelen_Islands_-_Gentoo_penguin_06_(cropped).jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Antoine Lamielle",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/3-4-16-3.webp"
+      }
+    },
+    "3-4-16-4": {
+      "page": 1,
+      "xref": 38,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-3-4класс.pdf",
+      "imageBox": [
+        456,
+        1,
+        594,
+        132
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Raggiana_bird_of_paradise.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "osaingre",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/3-4-16-4.webp"
+      }
+    },
+    "3-4-16-5": {
+      "page": 1,
+      "xref": 38,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-3-4класс.pdf",
+      "imageBox": [
+        606,
+        1,
+        744,
+        132
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Hornero_y_su_casa.jpg",
+        "license": "CC BY 4.0",
+        "author": "Ezequiel Ignacio Vera",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "file": "detail/3-4-16-5.webp"
+      }
+    },
+    "3-4-18": {
+      "page": 1,
+      "xref": 39,
+      "detail": {
+        "author": "Норман Роквелл. Репродукция из материалов Национального музея американской иллюстрации.",
+        "source": "https://americanillustration.org/november-2026-virtual-exhibition/",
+        "license": "Условия воспроизведения указаны на странице музея.",
+        "licenseUrl": "",
+        "processing": "Точная версия картины с кадром по оригинальному архиву. Оригинал 1920 × 770 px.",
+        "file": "detail/3-4-18.webp"
+      },
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-3-4класс.pdf"
+    },
+    "3-4-23": {
+      "page": 2,
+      "xref": 44,
+      "detail": {
+        "author": "Rhododendrites",
+        "source": "https://commons.wikimedia.org/wiki/File:Gray_catbird_(85315).jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "processing": "Показан новый снимок с сохранением признаков вида. Оригинал 4608 × 3456 px.",
+        "file": "detail/3-4-23.webp"
+      },
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-3-4класс.pdf"
+    },
+    "3-4-25": {
+      "page": 2,
+      "xref": 45,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-3-4класс.pdf",
+      "imageBox": [
+        0,
+        0,
+        181,
+        170
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Cynomys_ludovicianus_at_National_Zoo.JPG",
+        "license": "Public domain",
+        "author": "ZeWrestler",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "file": "detail/3-4-25.webp"
+      }
+    },
+    "3-4-27-1": {
+      "page": 2,
+      "xref": 46,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-3-4класс.pdf",
+      "imageBox": [
+        6,
+        1,
+        144,
+        86
+      ],
+      "detail": {
+        "source": "2017/задания_ЧИП-2017-3-4класс.pdf",
+        "author": "Olympiads.pro",
+        "license": "Векторная иллюстрация Olympiads.pro.",
+        "processing": "Векторный рисунок по варианту буклета. Сохранены форма предмета, видимые детали и порядок вариантов.",
+        "file": "3-4-27-1.svg"
+      }
+    },
+    "3-4-27-2": {
+      "page": 2,
+      "xref": 46,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-3-4класс.pdf",
+      "imageBox": [
+        156,
+        1,
+        294,
+        86
+      ],
+      "detail": {
+        "source": "2017/задания_ЧИП-2017-3-4класс.pdf",
+        "author": "Olympiads.pro",
+        "license": "Векторная иллюстрация Olympiads.pro.",
+        "processing": "Векторный рисунок по варианту буклета. Сохранены форма предмета, видимые детали и порядок вариантов.",
+        "file": "3-4-27-2.svg"
+      }
+    },
+    "3-4-27-3": {
+      "page": 2,
+      "xref": 46,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-3-4класс.pdf",
+      "imageBox": [
+        306,
+        1,
+        444,
+        86
+      ],
+      "detail": {
+        "source": "2017/задания_ЧИП-2017-3-4класс.pdf",
+        "author": "Olympiads.pro",
+        "license": "Векторная иллюстрация Olympiads.pro.",
+        "processing": "Векторный рисунок по варианту буклета. Сохранены форма предмета, видимые детали и порядок вариантов.",
+        "file": "3-4-27-3.svg"
+      }
+    },
+    "3-4-27-4": {
+      "page": 2,
+      "xref": 46,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-3-4класс.pdf",
+      "imageBox": [
+        456,
+        1,
+        594,
+        86
+      ],
+      "detail": {
+        "source": "2017/задания_ЧИП-2017-3-4класс.pdf",
+        "author": "Olympiads.pro",
+        "license": "Векторная иллюстрация Olympiads.pro.",
+        "processing": "Векторный рисунок по варианту буклета. Сохранены форма предмета, видимые детали и порядок вариантов.",
+        "file": "3-4-27-4.svg"
+      }
+    },
+    "3-4-27-5": {
+      "page": 2,
+      "xref": 46,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-3-4класс.pdf",
+      "imageBox": [
+        606,
+        1,
+        744,
+        86
+      ],
+      "detail": {
+        "source": "2017/задания_ЧИП-2017-3-4класс.pdf",
+        "author": "Olympiads.pro",
+        "license": "Векторная иллюстрация Olympiads.pro.",
+        "processing": "Векторный рисунок по варианту буклета. Сохранены форма предмета, видимые детали и порядок вариантов.",
+        "file": "3-4-27-5.svg"
+      }
+    },
+    "3-4-30": {
+      "page": 3,
+      "xref": 48,
+      "detail": {
+        "author": "Daniel Schwen",
+        "source": "https://commons.wikimedia.org/wiki/File:Chichen_Itza_3.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "processing": "Показан новый снимок с сохранением признаков вида. Оригинал 9771 × 5197 px.",
+        "file": "detail/3-4-30.webp"
+      }
+    },
+    "5-6-01-1": {
+      "detail": {
+        "author": "Natural Earth, подготовка проекций Olympiads.pro",
+        "source": "https://www.naturalearthdata.com/downloads/110m-physical-vectors/110m-land/",
+        "license": "Общественное достояние.",
+        "processing": "Проекция Natural Earth. Виды подобраны по направлению взгляда в буклете.",
+        "file": "5-6-01-1.svg"
+      },
+      "page": 0,
+      "xref": 11,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf"
+    },
+    "5-6-01-2": {
+      "detail": {
+        "author": "Natural Earth, подготовка проекций Olympiads.pro",
+        "source": "https://www.naturalearthdata.com/downloads/110m-physical-vectors/110m-land/",
+        "license": "Общественное достояние.",
+        "processing": "Проекция Natural Earth. Виды подобраны по направлению взгляда в буклете.",
+        "file": "5-6-01-2.svg"
+      },
+      "page": 0,
+      "xref": 11,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf"
+    },
+    "5-6-01-3": {
+      "detail": {
+        "author": "Natural Earth, подготовка проекций Olympiads.pro",
+        "source": "https://www.naturalearthdata.com/downloads/110m-physical-vectors/110m-land/",
+        "license": "Общественное достояние.",
+        "processing": "Проекция Natural Earth. Виды подобраны по направлению взгляда в буклете.",
+        "file": "5-6-01-3.svg"
+      },
+      "page": 0,
+      "xref": 11,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf"
+    },
+    "5-6-01-4": {
+      "detail": {
+        "author": "Natural Earth, подготовка проекций Olympiads.pro",
+        "source": "https://www.naturalearthdata.com/downloads/110m-physical-vectors/110m-land/",
+        "license": "Общественное достояние.",
+        "processing": "Проекция Natural Earth. Виды подобраны по направлению взгляда в буклете.",
+        "file": "5-6-01-4.svg"
+      },
+      "page": 0,
+      "xref": 11,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf"
+    },
+    "5-6-01-5": {
+      "detail": {
+        "author": "Natural Earth, подготовка проекций Olympiads.pro",
+        "source": "https://www.naturalearthdata.com/downloads/110m-physical-vectors/110m-land/",
+        "license": "Общественное достояние.",
+        "processing": "Проекция Natural Earth. Виды подобраны по направлению взгляда в буклете.",
+        "file": "5-6-01-5.svg"
+      },
+      "page": 0,
+      "xref": 11,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf"
+    },
+    "5-6-03": {
+      "page": 0,
+      "xref": 12,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf",
+      "imageBox": [
+        1,
+        1,
+        229,
+        145
+      ],
+      "detail": {
+        "author": "Гордон Миллер (Gordon Miller)",
+        "source": "https://wvsailingclub.com/wp-content/uploads/2021/01/WVSC-August06-news-Final.pdf#page=4",
+        "processing": "Подлинная акварель из бюллетеня West Vancouver Sailing Club. Исходный файл изображения 552 × 391 без искусственного увеличения.",
+        "license": "В публикации источника отдельная лицензия репродукции не указана.",
+        "file": "detail/5-6-03.webp"
+      }
+    },
+    "5-6-04": {
+      "page": 0,
+      "xref": 13,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf",
+      "imageBox": [
+        15,
+        1,
+        150,
+        156
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Front_view_of_Statue_of_Liberty_(cropped).jpg",
+        "license": "CC0",
+        "author": "AskALotl",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "file": "detail/5-6-04.webp"
+      }
+    },
+    "5-6-07-1": {
+      "page": 0,
+      "xref": 14,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf",
+      "imageBox": [
+        6,
+        1,
+        144,
+        137
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Cowardly_lion2.jpg",
+        "license": "Public domain",
+        "author": "Illustration by W.W. Denslow (d. 1915)",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "file": "detail/5-6-07-1.webp"
+      }
+    },
+    "5-6-07-2": {
+      "page": 0,
+      "xref": 14,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf",
+      "imageBox": [
+        156,
+        1,
+        294,
+        137
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Gatto_e_volpe.jpg",
+        "license": "Public domain",
+        "author": "Enrico Mazzanti (1850–1910)",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "file": "detail/5-6-07-2.webp"
+      }
+    },
+    "5-6-07-3": {
+      "page": 0,
+      "xref": 14,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf",
+      "imageBox": [
+        306,
+        1,
+        444,
+        137
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Bi%C3%A8vre._Beaver._Biber._Castore._Bever_(titel_op_object),_RP-P-OB-201.050.jpg",
+        "license": "CC0",
+        "author": "Rijksmuseum",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "file": "detail/5-6-07-3.webp"
+      }
+    },
+    "5-6-07-4": {
+      "page": 0,
+      "xref": 14,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf",
+      "imageBox": [
+        456,
+        1,
+        594,
+        137
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:MongooseCobraKipling.jpg",
+        "license": "Public domain",
+        "author": "W. H. Drake.",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "file": "detail/5-6-07-4.webp"
+      }
+    },
+    "5-6-07-5": {
+      "page": 0,
+      "xref": 14,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf",
+      "imageBox": [
+        606,
+        1,
+        744,
+        137
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:The_Ugly_Duckling_cropped.jpg",
+        "license": "Public domain",
+        "author": "Milo Winter",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "file": "detail/5-6-07-5.webp"
+      }
+    },
+    "5-6-08": {
+      "page": 0,
+      "xref": 15,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf",
+      "imageBox": [
+        0,
+        0,
+        150,
+        205
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Paul_Bunyan_statue_in_Bangor,_Maine.jpg",
+        "license": "CC BY-SA 2.0",
+        "author": "Dennis G. Jarvis",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "file": "detail/5-6-08.webp"
+      }
+    },
+    "5-6-12-1": {
+      "page": 1,
+      "xref": 37,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf",
+      "imageBox": [
+        4,
+        1,
+        140,
+        131
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:American_Beaver.jpg",
+        "license": "CC BY-SA 2.0",
+        "author": "Steve from Washington, DC, USA",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "file": "detail/5-6-12-1.webp"
+      }
+    },
+    "5-6-12-2": {
+      "page": 1,
+      "xref": 37,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf",
+      "imageBox": [
+        148,
+        1,
+        284,
+        131
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:2010-kodiak-bear-1.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Yathin S Krishnappa",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/5-6-12-2.webp"
+      }
+    },
+    "5-6-12-3": {
+      "page": 1,
+      "xref": 37,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf",
+      "imageBox": [
+        292,
+        1,
+        428,
+        131
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Arctic_Hare_1.jpg",
+        "license": "CC BY-SA 2.0",
+        "author": "Steve Sayles from Rankin Inlet, Nunavut, Canada",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "file": "detail/5-6-12-3.webp"
+      }
+    },
+    "5-6-12-4": {
+      "page": 1,
+      "xref": 37,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf",
+      "imageBox": [
+        436,
+        1,
+        572,
+        131
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Bald_Eagle_Portrait.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Saffron Blaze",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/5-6-12-4.webp"
+      }
+    },
+    "5-6-12-5": {
+      "page": 1,
+      "xref": 37,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf",
+      "imageBox": [
+        580,
+        1,
+        716,
+        131
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Canada_lynx_by_Michael_Zahra_(cropped).jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Michael Zahra",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/5-6-12-5.webp"
+      }
+    },
+    "5-6-17-1": {
+      "page": 1,
+      "xref": 35,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf",
+      "imageBox": [
+        4,
+        1,
+        138,
+        128
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:WestShowSdl.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "BLW",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "file": "detail/5-6-17-1.webp"
+      }
+    },
+    "5-6-17-2": {
+      "page": 1,
+      "xref": 35,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf",
+      "imageBox": [
+        146,
+        1,
+        280,
+        128
+      ],
+      "detail": {
+        "source": "2017/задания_ЧИП-2017-5-6класс.pdf",
+        "author": "Olympiads.pro",
+        "license": "Векторная иллюстрация Olympiads.pro.",
+        "processing": "Заново отрисовано с сохранением сюжета и определяющих деталей изображения в буклете.",
+        "file": "5-6-17-2.svg"
+      }
+    },
+    "5-6-17-3": {
+      "page": 1,
+      "xref": 35,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf",
+      "imageBox": [
+        288,
+        1,
+        422,
+        128
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Schoty_abacus.jpg",
+        "license": "Public domain",
+        "author": "Автор указан в каталоге изображения",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "file": "detail/5-6-17-3.webp"
+      }
+    },
+    "5-6-17-4": {
+      "page": 1,
+      "xref": 35,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf",
+      "imageBox": [
+        430,
+        1,
+        564,
+        128
+      ],
+      "detail": {
+        "source": "2017/задания_ЧИП-2017-5-6класс.pdf",
+        "author": "Olympiads.pro",
+        "license": "Векторная иллюстрация Olympiads.pro.",
+        "processing": "Заново отрисовано с сохранением сюжета и определяющих деталей изображения в буклете.",
+        "file": "5-6-17-4.svg"
+      }
+    },
+    "5-6-17-5": {
+      "page": 1,
+      "xref": 35,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf",
+      "imageBox": [
+        572,
+        1,
+        706,
+        128
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Hammock11.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Wikipediuh",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/5-6-17-5.webp"
+      }
+    },
+    "5-6-18": {
+      "page": 1,
+      "xref": 36,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf",
+      "imageBox": [
+        14,
+        0,
+        150,
+        148
+      ],
+      "detail": {
+        "author": "Эрнест Сетон-Томпсон · Academy for the Love of Learning",
+        "source": "https://ernestthompsonseton.com/pronghorn-profile/",
+        "processing": "Подлинный рисунок того же автора из архива Academy for the Love of Learning. Он показывает то же животное в профиль.",
+        "license": "В каталоге правообладателя указано, что все права на изображение защищены.",
+        "file": "detail/5-6-18.webp"
+      }
+    },
+    "5-6-21": {
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2017/задания_ЧИП-2017-5-6класс.pdf",
+        "license": "По иллюстрации оригинального буклета",
+        "processing": "Перерисованы 13 полос и 50 звёзд на флаге.",
+        "file": "5-6-21.svg"
+      },
+      "page": 2,
+      "xref": 39,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf"
+    },
+    "5-6-22-1": {
+      "page": 2,
+      "xref": 40,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf",
+      "imageBox": [
+        4,
+        1,
+        136,
+        125
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Borboletas_em_Mini-D%C3%A1lias.JPG",
+        "license": "CC BY-SA 3.0",
+        "author": "Denis Conrado",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/5-6-22-1.webp"
+      }
+    },
+    "5-6-22-2": {
+      "page": 2,
+      "xref": 40,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf",
+      "imageBox": [
+        144,
+        1,
+        276,
+        125
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Tropaeolum_majus_2005_G1.jpg",
+        "license": "Public domain",
+        "author": "George Chernilevsky",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "file": "detail/5-6-22-2.webp"
+      }
+    },
+    "5-6-22-3": {
+      "page": 2,
+      "xref": 40,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf",
+      "imageBox": [
+        284,
+        1,
+        416,
+        125
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Chrysanthemum.JPG",
+        "license": "CC BY-SA 3.0",
+        "author": "Aruna at Malayalam Wikipedia",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/5-6-22-3.webp"
+      }
+    },
+    "5-6-22-4": {
+      "page": 2,
+      "xref": 40,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf",
+      "imageBox": [
+        424,
+        1,
+        556,
+        125
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Tagetes_x_erecta1.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Автор указан в каталоге изображения",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "file": "detail/5-6-22-4.webp"
+      }
+    },
+    "5-6-22-5": {
+      "page": 2,
+      "xref": 40,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf",
+      "imageBox": [
+        564,
+        1,
+        696,
+        125
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Common_Sunflower_in_Full_Bloom.jpg",
+        "license": "CC BY 4.0",
+        "author": "Rifat R",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "file": "detail/5-6-22-5.webp"
+      }
+    },
+    "5-6-25-1": {
+      "page": 2,
+      "xref": 41,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf",
+      "imageBox": [
+        4,
+        1,
+        136,
+        106
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Mountain_Lion_in_Glacier_National_Park.jpg",
+        "license": "Public domain",
+        "author": "National Park Service",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "file": "detail/5-6-25-1.webp"
+      }
+    },
+    "5-6-25-2": {
+      "page": 2,
+      "xref": 41,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf",
+      "imageBox": [
+        144,
+        1,
+        276,
+        106
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Dasypus_novemcinctus_en_Zool%C3%B3gico_de_Paraguan%C3%A1.jpg",
+        "license": "CC BY 4.0",
+        "author": "Aramburu Carlos",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "file": "detail/5-6-25-2.webp"
+      }
+    },
+    "5-6-25-3": {
+      "page": 2,
+      "xref": 41,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf",
+      "imageBox": [
+        284,
+        1,
+        416,
+        106
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:2009-Coyote-Yosemite.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Yathin S Krishnappa",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/5-6-25-3.webp"
+      }
+    },
+    "5-6-25-4": {
+      "page": 2,
+      "xref": 41,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf",
+      "imageBox": [
+        424,
+        1,
+        556,
+        106
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:American_bison_k5680-1.jpg",
+        "license": "Public domain",
+        "author": "Jack Dykinga",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "file": "detail/5-6-25-4.webp"
+      }
+    },
+    "5-6-25-5": {
+      "page": 2,
+      "xref": 41,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf",
+      "imageBox": [
+        564,
+        1,
+        696,
+        106
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Tunturisopuli_Lemmus_Lemmus.jpg",
+        "license": "Public domain",
+        "author": "Argus fin",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "file": "detail/5-6-25-5.webp"
+      }
+    },
+    "5-6-30": {
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2017/задания_ЧИП-2017-5-6класс.pdf",
+        "license": "По иллюстрации оригинального буклета",
+        "processing": "Восстановлены нос, корпус и положение красной линии.",
+        "file": "5-6-30.svg"
+      },
+      "page": 2,
+      "xref": 42,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf"
+    },
+    "5-6-30-1": {
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2017/задания_ЧИП-2017-5-6класс.pdf",
+        "license": "По иллюстрации оригинального буклета",
+        "processing": "Форма и порядок вариантов восстановлены по буклету.",
+        "file": "5-6-30-1.svg"
+      },
+      "page": 2,
+      "xref": 43,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf"
+    },
+    "5-6-30-2": {
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2017/задания_ЧИП-2017-5-6класс.pdf",
+        "license": "По иллюстрации оригинального буклета",
+        "processing": "Форма и порядок вариантов восстановлены по буклету.",
+        "file": "5-6-30-2.svg"
+      },
+      "page": 2,
+      "xref": 43,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf"
+    },
+    "5-6-30-3": {
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2017/задания_ЧИП-2017-5-6класс.pdf",
+        "license": "По иллюстрации оригинального буклета",
+        "processing": "Форма и порядок вариантов восстановлены по буклету.",
+        "file": "5-6-30-3.svg"
+      },
+      "page": 2,
+      "xref": 43,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf"
+    },
+    "5-6-30-4": {
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2017/задания_ЧИП-2017-5-6класс.pdf",
+        "license": "По иллюстрации оригинального буклета",
+        "processing": "Форма и порядок вариантов восстановлены по буклету.",
+        "file": "5-6-30-4.svg"
+      },
+      "page": 2,
+      "xref": 43,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf"
+    },
+    "5-6-30-5": {
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2017/задания_ЧИП-2017-5-6класс.pdf",
+        "license": "По иллюстрации оригинального буклета",
+        "processing": "Форма и порядок вариантов восстановлены по буклету.",
+        "file": "5-6-30-5.svg"
+      },
+      "page": 2,
+      "xref": 43,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf"
+    },
+    "7-8-04": {
+      "page": 0,
+      "xref": 11,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-7-8класс.pdf",
+      "imageBox": [
+        18,
+        1,
+        200,
+        158
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Fort_San_Crist%C3%B3bal_(Puerto_Rico)_-_IMG_0207.JPG",
+        "license": "Public domain",
+        "author": "Daderot",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "file": "detail/7-8-04.webp"
+      }
+    },
+    "7-8-05-1": {
+      "page": 0,
+      "xref": 12,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-7-8класс.pdf",
+      "imageBox": [
+        4,
+        1,
+        136,
+        121
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:US_Capitol_east_side.JPG",
+        "license": "CC BY-SA 3.0",
+        "author": "Martin Falbisoner",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/7-8-05-1.webp"
+      }
+    },
+    "7-8-05-2": {
+      "page": 0,
+      "xref": 12,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-7-8класс.pdf",
+      "imageBox": [
+        144,
+        1,
+        276,
+        121
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Front_view_of_Statue_of_Liberty_(cropped).jpg",
+        "license": "CC0",
+        "author": "AskALotl",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "file": "detail/7-8-05-2.webp"
+      }
+    },
+    "7-8-05-3": {
+      "page": 0,
+      "xref": 12,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-7-8класс.pdf",
+      "imageBox": [
+        284,
+        1,
+        416,
+        121
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Parliament_Buildings_Centre_Block_with_Peace_Tower,_Ottawa,_Canada.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Rleir",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/7-8-05-3.webp"
+      }
+    },
+    "7-8-05-4": {
+      "page": 0,
+      "xref": 12,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-7-8класс.pdf",
+      "imageBox": [
+        424,
+        1,
+        556,
+        121
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Golden_Gate_Bridge_as_seen_from_Battery_East.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Frank Schulenburg",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/7-8-05-4.webp"
+      }
+    },
+    "7-8-05-5": {
+      "page": 0,
+      "xref": 12,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-7-8класс.pdf",
+      "imageBox": [
+        564,
+        1,
+        696,
+        121
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:The_White_House_in_Washington,_DC_(2012).jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Oarabile Mudongo",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/7-8-05-5.webp"
+      }
+    },
+    "7-8-08": {
+      "page": 0,
+      "xref": 13,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-7-8класс.pdf",
+      "imageBox": [
+        16,
+        1,
+        199,
+        123
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Tallgrass_Prairie_Nature_Preserve_in_Osage_County.jpg",
+        "license": "Public domain",
+        "author": "User:Reservoirhill",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "file": "detail/7-8-08.webp"
+      }
+    },
+    "7-8-10-1": {
+      "page": 0,
+      "xref": 14,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-7-8класс.pdf",
+      "imageBox": [
+        4,
+        1,
+        136,
+        119
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Usdacompactum.jpg",
+        "license": "Public domain",
+        "author": "Автор указан в каталоге изображения",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "file": "detail/7-8-10-1.webp"
+      }
+    },
+    "7-8-10-2": {
+      "page": 0,
+      "xref": 14,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-7-8класс.pdf",
+      "imageBox": [
+        144,
+        1,
+        276,
+        119
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Radish_3371103037_4ab07db0bf_o.jpg",
+        "license": "Public domain",
+        "author": "Self, en:User:Jengod",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "file": "detail/7-8-10-2.webp"
+      }
+    },
+    "7-8-10-3": {
+      "page": 0,
+      "xref": 14,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-7-8класс.pdf",
+      "imageBox": [
+        284,
+        1,
+        416,
+        119
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Solanum_melongena_24_08_2012_(1).JPG",
+        "license": "CC BY-SA 3.0",
+        "author": "Joydeep",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/7-8-10-3.webp"
+      }
+    },
+    "7-8-10-4": {
+      "page": 0,
+      "xref": 14,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-7-8класс.pdf",
+      "imageBox": [
+        424,
+        1,
+        556,
+        119
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Doperwt_rijserwt_peulen_Pisum_sativum.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Rasbak",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "file": "detail/7-8-10-4.webp"
+      }
+    },
+    "7-8-10-5": {
+      "page": 0,
+      "xref": 14,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-7-8класс.pdf",
+      "imageBox": [
+        564,
+        1,
+        696,
+        119
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Common_Sunflower_in_Full_Bloom.jpg",
+        "license": "CC BY 4.0",
+        "author": "Rifat R",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "file": "detail/7-8-10-5.webp"
+      }
+    },
+    "7-8-12-1": {
+      "page": 1,
+      "xref": 35,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-7-8класс.pdf",
+      "imageBox": [
+        0,
+        0,
+        200,
+        127
+      ],
+      "detail": {
+        "author": "Государственный флаг Гватемалы, векторная версия Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Guatemala.svg",
+        "license": "Государственный символ в общественном достоянии.",
+        "processing": "Заменён перекрытый снимком птицы фрагмент флага. Герб и окраска того же флага показаны целиком.",
+        "file": "7-8-12-1.svg"
+      }
+    },
+    "7-8-12-2": {
+      "page": 1,
+      "xref": 35,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-7-8класс.pdf",
+      "imageBox": [
+        124,
+        74,
+        197,
+        205
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Resplendent_Quetzal_in_Costa_Rica.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Supreet Sahoo",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/7-8-12-2.webp"
+      }
+    },
+    "7-8-15-1": {
+      "page": 1,
+      "xref": 36,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-7-8класс.pdf",
+      "imageBox": [
+        4,
+        1,
+        136,
+        121
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Reinbukken_p%C3%A5_frisk_gr%C3%B8nt_beite._-_panoramio.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Are G Nilsen",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/7-8-15-1.webp"
+      }
+    },
+    "7-8-15-2": {
+      "page": 1,
+      "xref": 36,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-7-8класс.pdf",
+      "imageBox": [
+        144,
+        1,
+        276,
+        121
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:American_bison_k5680-1.jpg",
+        "license": "Public domain",
+        "author": "Jack Dykinga",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "file": "detail/7-8-15-2.webp"
+      }
+    },
+    "7-8-15-3": {
+      "page": 1,
+      "xref": 36,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-7-8класс.pdf",
+      "imageBox": [
+        284,
+        1,
+        416,
+        121
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Antilocapra_americana_male_(Wyoming,_2012).jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Yathin S Krishnappa",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/7-8-15-3.webp"
+      }
+    },
+    "7-8-15-4": {
+      "page": 1,
+      "xref": 36,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-7-8класс.pdf",
+      "imageBox": [
+        424,
+        1,
+        556,
+        121
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Eurasian_wolf_2.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "User:Mas3cf",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/7-8-15-4.webp"
+      }
+    },
+    "7-8-15-5": {
+      "page": 1,
+      "xref": 36,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-7-8класс.pdf",
+      "imageBox": [
+        564,
+        1,
+        696,
+        121
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Horse_posing_in_the_grass.jpg",
+        "author": "Joselodos",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "processing": "Крупная фотография соответствующего объекта. Повторно использован проверенный мастер архива.",
+        "file": "detail/7-8-15-5.webp"
+      }
+    },
+    "7-8-20-1": {
+      "page": 1,
+      "xref": 34,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-7-8класс.pdf",
+      "imageBox": [
+        4,
+        1,
+        136,
+        120
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Anthus_rubescens_-Harney_County,_Oregon,_USA-8.jpg",
+        "license": "CC BY 2.0",
+        "author": "Kathy & Sam from Beaverton OR, USA",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "file": "detail/7-8-20-1.webp"
+      }
+    },
+    "7-8-20-2": {
+      "page": 1,
+      "xref": 34,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-7-8класс.pdf",
+      "imageBox": [
+        144,
+        1,
+        276,
+        120
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Surnia_ulula_-_Northern_Hawk-Owl,_H%C3%B6kuggla.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Dan Frendin",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/7-8-20-2.webp"
+      }
+    },
+    "7-8-20-3": {
+      "page": 1,
+      "xref": 34,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-7-8класс.pdf",
+      "imageBox": [
+        284,
+        1,
+        416,
+        120
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:20250702_adult_male_bobolink_glastonbury_meadows_squre_PD206841.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Paul Danese",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/7-8-20-3.webp"
+      }
+    },
+    "7-8-20-4": {
+      "page": 1,
+      "xref": 34,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-7-8класс.pdf",
+      "imageBox": [
+        424,
+        1,
+        556,
+        120
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:House_sparrow_male_in_Prospect_Park_(53532).jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Rhododendrites",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/7-8-20-4.webp"
+      }
+    },
+    "7-8-20-5": {
+      "page": 1,
+      "xref": 34,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-7-8класс.pdf",
+      "imageBox": [
+        564,
+        1,
+        696,
+        120
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Falco_peregrinus_m_Humber_Bay_Park_Toronto.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Mykola Swarnyk",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/7-8-20-5.webp"
+      }
+    },
+    "7-8-27": {
+      "page": 2,
+      "xref": 38,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-7-8класс.pdf",
+      "imageBox": [
+        16,
+        1,
+        200,
+        114
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Centruroides_sculpturatus_191624836.jpg",
+        "license": "CC BY 4.0",
+        "author": "Andrew Meeds",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "file": "detail/7-8-27.webp"
+      }
+    },
+    "7-8-30": {
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2017/задания_ЧИП-2017-7-8класс.pdf",
+        "license": "По иллюстрации оригинального буклета",
+        "processing": "Восстановлены внешний сосуд, внутренняя колба и уровни воды.",
+        "file": "7-8-30.svg"
+      },
+      "page": 2,
+      "xref": 39,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-7-8класс.pdf"
+    },
+    "9-10-05-1": {
+      "page": 0,
+      "xref": 12,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-9-10класс.pdf",
+      "imageBox": [
+        4,
+        1,
+        136,
+        94
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:318_American_Avocet.jpg",
+        "license": "Public domain",
+        "author": "John James Audubon",
+        "processing": "Подлинная репродукция таблицы 318 «Птицы Америки». Обрезаны поля листа.",
+        "file": "detail/9-10-05-1.webp"
+      }
+    },
+    "9-10-05-2": {
+      "page": 0,
+      "xref": 12,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-9-10класс.pdf",
+      "imageBox": [
+        144,
+        1,
+        276,
+        94
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:White-headed_Eagle_(Falco_Leucocephalus).jpg",
+        "license": "CC BY-SA 2.0",
+        "author": "Джон Джеймс Одюбон · Toronto Public Library",
+        "processing": "Точная репродукция таблицы 31 «Птицы Америки».",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "file": "detail/9-10-05-2.webp"
+      }
+    },
+    "9-10-05-3": {
+      "page": 0,
+      "xref": 12,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-9-10класс.pdf",
+      "imageBox": [
+        284,
+        1,
+        416,
+        94
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:386_White_Heron.jpg",
+        "license": "Public domain",
+        "author": "John James Audubon",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "file": "detail/9-10-05-3.webp"
+      }
+    },
+    "9-10-05-4": {
+      "page": 0,
+      "xref": 12,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-9-10класс.pdf",
+      "imageBox": [
+        424,
+        1,
+        556,
+        94
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:321_Roseate_Spoonbill.jpg",
+        "license": "Public domain",
+        "author": "John James Audubon",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "file": "detail/9-10-05-4.webp"
+      }
+    },
+    "9-10-05-5": {
+      "page": 0,
+      "xref": 12,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-9-10класс.pdf",
+      "imageBox": [
+        564,
+        1,
+        696,
+        94
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:376_Trumpeter_Swan.jpg",
+        "license": "Public domain",
+        "author": "John James Audubon",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "file": "detail/9-10-05-5.webp"
+      }
+    },
+    "9-10-08-1": {
+      "page": 0,
+      "xref": 13,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-9-10класс.pdf",
+      "imageBox": [
+        4,
+        1,
+        136,
+        114
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Acer_tataricum_(fruits).jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Le.Loup.Gris",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/9-10-08-1.webp"
+      }
+    },
+    "9-10-08-2": {
+      "page": 0,
+      "xref": 13,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-9-10класс.pdf",
+      "imageBox": [
+        144,
+        1,
+        276,
+        114
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Acer_negundo_leaf.jpg",
+        "author": "Gmihail",
+        "license": "CC BY-SA 3.0 RS",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/rs/",
+        "processing": "Крупный план листьев того же вида, что в буклете. Мастер 1280 × 1280 px.",
+        "file": "detail/9-10-08-2.webp"
+      }
+    },
+    "9-10-08-3": {
+      "page": 0,
+      "xref": 13,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-9-10класс.pdf",
+      "imageBox": [
+        284,
+        1,
+        416,
+        114
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Acer_ginnala_foliage.jpg",
+        "author": "D. E. Herman и соавторы, North Dakota Tree Handbook (USDA), 1996",
+        "license": "Общественное достояние, USDA",
+        "licenseUrl": "",
+        "processing": "Крупный план листьев того же вида, что в буклете. Мастер 1280 × 853 px.",
+        "file": "detail/9-10-08-3.webp"
+      }
+    },
+    "9-10-08-4": {
+      "page": 0,
+      "xref": 13,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-9-10класс.pdf",
+      "imageBox": [
+        424,
+        1,
+        556,
+        114
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Pinus_strobus_cone.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Автор указан в каталоге изображения",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "file": "detail/9-10-08-4.webp"
+      }
+    },
+    "9-10-08-5": {
+      "page": 0,
+      "xref": 13,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-9-10класс.pdf",
+      "imageBox": [
+        564,
+        1,
+        696,
+        114
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Acer_saccharum_1-jgreenlee_(5098070608).jpg",
+        "license": "CC BY 2.0",
+        "author": "Superior National Forest",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "file": "detail/9-10-08-5.webp"
+      }
+    },
+    "9-10-11": {
+      "page": 1,
+      "xref": 35,
+      "detail": {
+        "author": "Рокуэлл Кент · ГМИИ имени А. С. Пушкина",
+        "source": "https://chtv.ru/rokuell-kent-za-cvetom-polyarnoy-zvezdy",
+        "license": "В музейной копии отдельная лицензия репродукции не указана.",
+        "licenseUrl": "",
+        "processing": "Полная музейная репродукция Ж-3780, уменьшена из оригинала. Оригинал 1920 × 1493 px.",
+        "file": "detail/9-10-11.webp"
+      },
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-9-10класс-reading.pdf"
+    },
+    "9-10-14-1": {
+      "page": 1,
+      "xref": 36,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-9-10класс.pdf",
+      "imageBox": [
+        4,
+        1,
+        136,
+        112
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Ambrosia_artemisiifolia_plant7_(11741895306).jpg",
+        "license": "CC BY 2.0",
+        "author": "Harry Rose from South West Rocks, Australia",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "file": "detail/9-10-14-1.webp"
+      }
+    },
+    "9-10-14-2": {
+      "page": 1,
+      "xref": 36,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-9-10класс.pdf",
+      "imageBox": [
+        144,
+        1,
+        276,
+        112
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Yucca_filamentosa.jpg",
+        "license": "Public domain",
+        "author": "Moriori",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "file": "detail/9-10-14-2.webp"
+      }
+    },
+    "9-10-14-3": {
+      "page": 1,
+      "xref": 36,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-9-10класс.pdf",
+      "imageBox": [
+        284,
+        1,
+        416,
+        112
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:OpuntiaMicrodasys1.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Awinch1001",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "processing": "Крупная фотография соответствующего объекта. Повторно использован проверенный мастер архива.",
+        "file": "detail/9-10-14-3.webp"
+      }
+    },
+    "9-10-14-4": {
+      "page": 1,
+      "xref": 36,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-9-10класс.pdf",
+      "imageBox": [
+        424,
+        1,
+        556,
+        112
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Pecan_hulls_burst_open_revealing_fruit.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "Geo Lightspeed7",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/9-10-14-4.webp"
+      }
+    },
+    "9-10-14-5": {
+      "page": 1,
+      "xref": 36,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-9-10класс.pdf",
+      "imageBox": [
+        564,
+        1,
+        696,
+        112
+      ],
+      "detail": {
+        "source": "https://www.inaturalist.org/photos/672891862",
+        "author": "zebedeugalinha",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "processing": "Крупная фотография соответствующего объекта. Повторно использован проверенный мастер архива.",
+        "file": "detail/9-10-14-5.webp"
+      }
+    },
+    "9-10-18": {
+      "page": 1,
+      "xref": 34,
+      "detail": {
+        "author": "Служба национальных парков США · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Voyageurs_National_Park_VOYA9516.jpg",
+        "license": "Общественное достояние · NPS.",
+        "licenseUrl": "",
+        "processing": "Другой аэрофотоснимок, обрезана рамка слайда. Оригинал 1920 × 1241 px.",
+        "file": "detail/9-10-18.webp"
+      },
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-9-10класс-reading.pdf"
+    },
+    "9-10-21": {
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2017/задания_ЧИП-2017-9-10класс.pdf",
+        "license": "По иллюстрации оригинального буклета",
+        "processing": "Векторно восстановлены композиция, семь звёзд и знак плода.",
+        "file": "9-10-21.svg"
+      },
+      "page": 2,
+      "xref": 39,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-9-10класс-reading.pdf"
+    },
+    "9-10-25-1": {
+      "page": 2,
+      "xref": 40,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-9-10класс.pdf",
+      "imageBox": [
+        4,
+        1,
+        136,
+        113
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_the_Canadian_Falls_(Horseshoe_Falls)_and_the_Hornblower_Niagara_Cruises_boat;_Niagara_Falls.JPG",
+        "license": "CC BY-SA 4.0",
+        "author": "Thomaswm",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/9-10-25-1.webp"
+      }
+    },
+    "9-10-25-2": {
+      "page": 2,
+      "xref": 40,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-9-10класс.pdf",
+      "imageBox": [
+        144,
+        1,
+        276,
+        113
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Canyon_River_Tree_(165872763).jpeg",
+        "license": "CC BY 3.0",
+        "author": "Lennart Sikkema",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "file": "detail/9-10-25-2.webp"
+      }
+    },
+    "9-10-25-3": {
+      "page": 2,
+      "xref": 40,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-9-10класс.pdf",
+      "imageBox": [
+        284,
+        1,
+        416,
+        113
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Thousand_Islands.JPG",
+        "license": "CC BY-SA 3.0",
+        "author": "Ad Meskens",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/9-10-25-3.webp"
+      }
+    },
+    "9-10-25-4": {
+      "page": 2,
+      "xref": 40,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-9-10класс.pdf",
+      "imageBox": [
+        424,
+        1,
+        556,
+        113
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Mexico-Popocatepetl.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "Jakub Hejtmánek",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "file": "detail/9-10-25-4.webp"
+      }
+    },
+    "9-10-25-5": {
+      "page": 2,
+      "xref": 40,
+      "sourceFile": "../../../dist/assets/chip/2017/задания_ЧИП-2017-9-10класс.pdf",
+      "imageBox": [
+        564,
+        1,
+        696,
+        113
+      ],
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Moraine_Lake_2018.jpg",
+        "license": "CC BY-SA 4.0",
+        "author": "WhyDon'tWeZJCDJ",
+        "processing": "Крупное изображение того же объекта, который показан в варианте буклета.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/9-10-25-5.webp"
+      }
+    }
+  }
+}

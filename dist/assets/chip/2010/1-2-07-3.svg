@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="360" viewBox="0 0 360 360">
+<rect width="360" height="360" fill="#fff"/>
+<defs>
+<g id="maple">
+ <path fill="#779a5b" stroke="#476846" stroke-width="1.15" stroke-linejoin="round" d="M0 0 C-11 -8 -30 -14 -54 -13 L-44 -23 -57 -31 -76 -49 -61 -52 -69 -62 -92 -74 -73 -77 -56 -77 -65 -95 -51 -91 -58 -116 -37 -105 -22 -90 -19 -116 -8 -109 0 -153 10 -125 14 -101 29 -109 26 -89 53 -111 61 -121 58 -99 71 -105 60 -81 79 -84 96 -81 74 -68 77 -60 61 -57 75 -48 56 -40 58 -32 39 -28 54 -17 32 -17 Q13 -10 0 0 Z"/>
+ <path fill="none" stroke="#e2edb8" stroke-width="1.5" stroke-linecap="round" opacity=".9" d="M0 0 Q3 -58 1 -143 M0 0 Q-25 -59 -56 -112 M0 0 Q36 -75 60 -116 M-9 -14 Q-35 -38 -81 -72 M8 -12 Q42 -55 83 -76 M-13 -30 -43 -32 M-22 -49 -49 -54 M22 -30 46 -34 M28 -52 52 -58 M-4 -65 -21 -80 M6 -75 25 -89"/>
+ </g>
+ <g id="samara"><path d="M0 0 C-17 -9 -40 -12 -50 -10 Q-58 -7 -51 0 Q-28 18 -8 7 Q-4 7 0 2 M0 0 C15 -13 40 -16 52 -13 Q58 -11 50 -2 Q27 16 9 6 Q3 7 0 2" fill="#b6aa54" stroke="#887e3c" stroke-width="1.4"/><path d="M0 1 Q-21 6 -51 -8 M0 1 Q21 4 50 -11" fill="none" stroke="#8c803f" stroke-width="1.5"/></g>
+</defs>
+<g transform="translate(18 18) scale(.90)">
+<path d="M56 267 Q116 199 187 166 Q254 124 301 87" fill="none" stroke="#776146" stroke-width="6" stroke-linecap="round"/><path d="M115 215 Q110 177 119 148 M166 177 Q190 206 186 221 M221 147 Q230 117 220 100 M259 123 Q264 141 279 150 M137 202 Q132 215 133 230" fill="none" stroke="#856b4e" stroke-width="2.6" stroke-linecap="round"/><use href="#maple" transform="translate(117 150) rotate(-38) scale(0.89)" color="#668e57"/><use href="#maple" transform="translate(187 219) rotate(124) scale(0.8)" color="#548749"/><use href="#maple" transform="translate(219 100) rotate(29) scale(0.65)" color="#759954"/><use href="#maple" transform="translate(277 149) rotate(109) scale(0.54)" color="#577d49"/><use href="#samara" transform="translate(132 226) rotate(-14) scale(0.65)"/><use href="#samara" transform="translate(145 204) rotate(36) scale(0.67)"/>
+</g>
+</svg>

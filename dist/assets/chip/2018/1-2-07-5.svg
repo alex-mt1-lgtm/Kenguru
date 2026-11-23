@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="500" viewBox="0 0 640 500">
+<title>Ребёнок фотографирует куст.</title><defs>
+  <linearGradient id="sky" x2="0" y2="1" gradientUnits="objectBoundingBox"><stop stop-color="#eff7e6"/><stop offset="1" stop-color="#c3dbb0"/></linearGradient>
+  <linearGradient id="floor" x2="0" y2="1" gradientUnits="objectBoundingBox"><stop stop-color="#c2c779"/><stop offset="1" stop-color="#9bad5d"/></linearGradient>
+  <path id="leaf" d="M0 8 Q7 -6 21 -2 Q18 11 5 13 L0 17 Z"/>
+  <g id="birch"><path d="M20 310 Q28 213 23 132 L18 34 L29 18 L43 118 Q46 212 48 310Z" fill="#f5ead4" stroke="#5e5746" stroke-width="3"/><path d="M26 109l14 6m-14 38 15 5m-14 23 12-5m-12 64 18-6m-14 45 11-3m-17-197 11-5" stroke="#796b4f" stroke-width="4" stroke-linecap="round"/><path d="M34 113Q55 72 81 59M29 104Q15 81 0 72" fill="none" stroke="#72644e" stroke-width="8" stroke-linecap="round"/><circle cx="72" cy="48" r="39" fill="#e3a642"/><circle cx="23" cy="27" r="34" fill="#dca754"/><circle cx="97" cy="64" r="27" fill="#e6b44a"/></g>
+  <g id="trunk"><path d="M6 380Q24 292 20 150L13 17 41 0Q64 164 60 246Q57 312 79 381Q61 396 6 380Z" fill="#9b6748" stroke="#644630" stroke-width="4"/><path d="M30 37Q46 158 35 279M47 234Q43 309 53 356" fill="none" stroke="#7c5034" stroke-width="5" stroke-linecap="round"/><path d="M29 122Q8 78-17 67M51 109Q68 80 92 64" fill="none" stroke="#8f6041" stroke-width="13" stroke-linecap="round"/></g>
+  <g id="bough"><circle r="37" fill="#c68433"/><circle cx="30" cy="26" r="37" fill="#d8a146"/><circle cx="-33" cy="16" r="31" fill="#d49336"/><circle cx="6" cy="-25" r="35" fill="#dcac52"/></g>
+  <g id="sprigs" fill="none" stroke="#58793d" stroke-width="3" stroke-linecap="round"><path d="M0 20q5-13 7-17m-7 17q-4-11-10-15m22 14q5-11 13-15m-13 15 2-9"/></g>
+</defs>
+<path fill="#e3efda" d="M0 0h640v500H0z"/><path d="M0 229Q130 204 239 252Q350 212 463 223Q565 180 640 209V500H0Z" fill="#87a36b" opacity=".66"/>
+<path d="M0 300Q107 283 212 311Q371 267 495 298Q573 267 640 270V500H0Z" fill="#b1bb6a"/>
+<use href="#birch" transform="translate(82 34) scale(.88)"/><use href="#birch" transform="translate(181 13) scale(.77)"/><use href="#birch" transform="translate(498 49) scale(.9)"/><use href="#birch" transform="translate(561 17) scale(.86)"/>
+<use href="#bough" transform="translate(35 26) scale(1.5)"/><use href="#bough" transform="translate(609 34) scale(1.5)"/>
+<g fill="#d59036"><use href="#leaf" x="32" y="394"/><use href="#leaf" x="152" y="428"/><use href="#leaf" x="475" y="443"/><use href="#leaf" x="590" y="408"/></g>
+<g fill="#985338"><use href="#leaf" x="88" y="471"/><use href="#leaf" x="339" y="459"/><use href="#leaf" x="428" y="402"/></g>
+<use href="#sprigs" x="67" y="416"/><use href="#sprigs" x="482" y="383"/><use href="#sprigs" x="601" y="471"/>
+<g fill="#b56f37"><use href="#bough" transform="translate(431 361) scale(.9)"/><use href="#bough" transform="translate(505 379) scale(1.02)"/><use href="#bough" transform="translate(545 339) scale(.75)"/></g><g transform="translate(273 434) scale(1.12 1.12)" stroke-linejoin="round" stroke-linecap="round">
+<path d="M-13-63L-20-14 M12-63L17-14" fill="none" stroke="#536780" stroke-width="21"/><path d="M-13-63L-20-14 M12-63L17-14" fill="none" stroke="#273b46" stroke-width="2" opacity=".5"/>
+<path d="M-23-111Q0-129 23-108L26-61Q1-48-25-61Z" fill="#b85b67" stroke="#494f40" stroke-width="2.5"/>
+<path d="M-16-108L0-114L20-134 M13-109L31-127" fill="none" stroke="#b85b67" stroke-width="15"/>
+<path d="M-16-108L0-114L20-134 M13-109L31-127" fill="none" stroke="#495347" stroke-width="1.2" opacity=".65"/>
+<g transform="translate(0 -136)"><circle r="25" fill="#92704f"/><path d="M-17 2Q-17-23 5-24Q22-20 22-5L29 5 20 10Q17 24 1 23Q-16 21-17 2Z" fill="#f0be90" stroke="#775436" stroke-width="2"/><path d="M-28-5Q-30-28-9-32Q17-38 22-21L33-13Q0-13-28-5Z" fill="#4d6f87" stroke="#465947" stroke-width="2"/><circle cx="13" cy="0" r="2.8" fill="#413c37"/><path d="M14 13q3 0 5-2" fill="none" stroke="#815341" stroke-width="2"/></g>
+<path d="M-26-15l18 7M11-13l17 6" fill="none" stroke="#3a443b" stroke-width="10"/>
+</g><g transform="translate(286 278)" stroke="#374343" stroke-width="3"><rect x="0" y="0" width="42" height="25" rx="4" fill="#646e68"/><circle cx="31" cy="12" r="10" fill="#354246"/><circle cx="31" cy="12" r="5" fill="#8fc0b8"/><path d="M7 0v-7h12v7" fill="#57615c"/></g></svg>

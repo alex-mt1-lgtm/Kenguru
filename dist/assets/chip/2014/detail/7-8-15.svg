@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 475"><defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#b7cad9"/><stop offset="1" stop-color="#edf5f9"/></linearGradient></defs><path fill="url(#sky)" d="M0 0h600v475H0Z"/>
+<path fill="#f9fcff" d="M0 266Q150 317 278 379t322 78v18H0Z"/><path fill="none" stroke="#e1eff6" stroke-width="8" d="M0 294q200 42 332 120t268 51M0 338q120 15 213 69"/>
+<!-- Schussing skier, left and right poles shown in their original positions -->
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+ <path stroke="#333c3f" stroke-width="6" d="M37 14Q156 74 267 110q43 10 88 38M526 443q-39-12-64-31l-14-10q-8-4-19-4H367"/>
+ <path stroke="#ae3c31" stroke-width="6" d="M42 16q59 30 148 69M449 403q-8-5-20-5h-63"/><path stroke="#d4d989" stroke-width="6" d="m36 13 6 3m319 382h5"/>
+ <path stroke="#415a69" stroke-width="9" d="M93 304q23 36 101 51l122 30m-62-35q67 59 151 76"/>
+ <path stroke="#95adbb" stroke-width="3" d="M106 319q44 29 112 43m55 9q70 45 132 55"/>
+</g>
+<path d="M432 265q-66 11-113 34l-39 11-118-16-5 38 142 23q16 0 32-11l84-26Z" fill="#f1f1f2" stroke="#7a8792" stroke-width="3"/>
+<path d="M465 285q-12 56-43 84-28 23-56 12l-73-27 14-30 72 14q10 4 22-30l18-28Z" fill="#fff" stroke="#7a8792" stroke-width="3"/>
+<path d="M302 329q-10-8-32-4l-16 23q8 16 45 28l28 17 10-11-15-24Z M171 299q-14-7-41 0l-13 16q17 21 76 33l3-17-22-13Z" fill="#26333f" stroke="#354554" stroke-width="3"/>
+<path d="m199 303-4 31m66-26-6 33m88-1-8 29" stroke="#cc4661" stroke-width="6"/>
+<path d="M470 199q-39-49-106-63l-16 23q61 26 91 75m93 23q26 14 19 42l-14 130-24-2q3-21 6-38l-4-80-21-39Z" fill="#f6f5f4" stroke="#75818e" stroke-width="3"/>
+<path d="M470 199q-40 9-65 71l-5 18q29 38 75 52 52-26 83-91l-26-36Z" fill="#bd2c31" stroke="#691e26" stroke-width="4"/>
+<path d="M459 235q28 26 67 43m-91-1q27 24 56 35m-23-92q28 24 60 32" fill="none" stroke="#fbece7" stroke-width="4"/>
+<path d="M486 210q13-19 42-36 20-5 35 4 24 13 22 41-2 27-23 44-16 9-30-2l-33-31Z" fill="#375d87" stroke="#263c53" stroke-width="4"/><path d="M508 212q30-8 63 13l-10 18q-12 4-24-7l-11 2-20-13Z" fill="#adc65b" stroke="#38472b" stroke-width="3"/>
+<path d="M534 240q16 12 26 8-5 15-17 14-16-4-20-19Z" fill="#dfb9a5"/>
+<path d="M348 129q12 3 22 16l-10 16q-22-2-27-19 2-11 15-13Zm171 282q12-1 25 14l5 16q-4 17-21 18l-13-12q-8-17 4-36Z" fill="#29363e"/><path d="m520 424 16 5m-191-291 9 13" stroke="#9aab83" stroke-width="4"/></svg>

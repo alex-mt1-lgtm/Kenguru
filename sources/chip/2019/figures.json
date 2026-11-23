@@ -805,7 +805,11 @@
         "source": "https://commons.wikimedia.org/wiki/File:An_Australian_Gold_Diggings.jpg",
         "author": "Эдвин Стоккелер",
         "license": "Общественное достояние",
-        "processing": "An Australian Gold Diggings, около 1855 года. Доступная репродукция 584 × 455 пикселей."
+        "processing": "An Australian Gold Diggings, около 1855 года. Доступная репродукция 584 × 455 пикселей.",
+        "nativePixels": [
+          584,
+          455
+        ]
       }
     },
     "3-4-26-1": {
@@ -953,6 +957,4443 @@
         "license": "Natural Earth, public domain",
         "processing": "Векторная учебная карта с Тихим океаном в центре."
       }
+    },
+    "africa-world": {
+      "detail": {
+        "source": "https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/",
+        "author": "Natural Earth; Olympiads.pro",
+        "license": "Natural Earth · общественное достояние",
+        "processing": "Векторная карта в новой отрисовке. Порядок и выделенные территории сверены с буклетом.",
+        "file": "detail/africa-world.svg"
+      }
+    },
+    "africa-1-2-04-1": {
+      "detail": {
+        "source": "2019/africa/chip_2018-19_1-2.pdf",
+        "author": "Оргкомитет конкурса «Человек и природа» · переработка Olympiads.pro",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Черты иллюстрации переведены в векторные контуры по исходнику; соблюдены порядок вариантов и опознаваемые детали.",
+        "file": "detail/africa-1-2-04-1.svg"
+      }
+    },
+    "africa-1-2-04-2": {
+      "detail": {
+        "source": "2019/africa/chip_2018-19_1-2.pdf",
+        "author": "Оргкомитет конкурса «Человек и природа» · переработка Olympiads.pro",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Черты иллюстрации переведены в векторные контуры по исходнику; соблюдены порядок вариантов и опознаваемые детали.",
+        "file": "detail/africa-1-2-04-2.svg"
+      }
+    },
+    "africa-1-2-04-3": {
+      "detail": {
+        "source": "2019/africa/chip_2018-19_1-2.pdf",
+        "author": "Оргкомитет конкурса «Человек и природа» · переработка Olympiads.pro",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Черты иллюстрации переведены в векторные контуры по исходнику; соблюдены порядок вариантов и опознаваемые детали.",
+        "file": "detail/africa-1-2-04-3.svg"
+      }
+    },
+    "africa-1-2-04-4": {
+      "detail": {
+        "source": "2019/africa/chip_2018-19_1-2.pdf",
+        "author": "Оргкомитет конкурса «Человек и природа» · переработка Olympiads.pro",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Черты иллюстрации переведены в векторные контуры по исходнику; соблюдены порядок вариантов и опознаваемые детали.",
+        "file": "detail/africa-1-2-04-4.svg"
+      }
+    },
+    "africa-1-2-04-5": {
+      "detail": {
+        "source": "2019/africa/chip_2018-19_1-2.pdf",
+        "author": "Оргкомитет конкурса «Человек и природа» · переработка Olympiads.pro",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Черты иллюстрации переведены в векторные контуры по исходнику; соблюдены порядок вариантов и опознаваемые детали.",
+        "file": "detail/africa-1-2-04-5.svg"
+      }
+    },
+    "africa-1-2-06": {
+      "detail": {
+        "source": "2019/africa/chip_2018-19_1-2.pdf",
+        "author": "Оргкомитет конкурса «Человек и природа» · переработка Olympiads.pro",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Черты иллюстрации переведены в векторные контуры по исходнику; соблюдены порядок вариантов и опознаваемые детали.",
+        "file": "detail/africa-1-2-06.svg"
+      }
+    },
+    "africa-photo-savanna": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Tarangire-Natpark800600.jpg",
+        "author": "ProfessorX",
+        "license": "Public domain",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "file": "detail/africa-photo-savanna.webp"
+      }
+    },
+    "africa-photo-rainforest": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Rainforest_-_Ituri_(20874628148).jpg",
+        "author": "MONUSCO Photos",
+        "license": "CC BY-SA 2.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "file": "detail/africa-photo-rainforest.webp"
+      }
+    },
+    "africa-photo-scrub": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Macchia01.jpg",
+        "author": "Markus Schweiss",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "file": "detail/africa-photo-scrub.webp"
+      }
+    },
+    "africa-photo-conifer": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Jack_London_Lake_by_bartosh.jpg",
+        "author": "Bartosh Dmytro, Ukraine, Kiev. http://fotostudio.com.ua",
+        "license": "CC BY 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "file": "detail/africa-photo-conifer.webp"
+      }
+    },
+    "africa-photo-pyramids": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Giza_Pyramids_Panorama.jpg",
+        "author": "Benjamin Inbar",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-pyramids.webp"
+      }
+    },
+    "africa-photo-igloo": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Igloo.jpg",
+        "author": "From [1], PD image from National Oceanic and Atmospheric Administration(corp1528)",
+        "license": "Public domain",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "file": "detail/africa-photo-igloo.webp"
+      }
+    },
+    "africa-photo-russianhouse": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Log_hut_in_Serpeevka_village.JPG",
+        "author": "User:Скампецкий",
+        "license": "CC BY 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "file": "detail/africa-photo-russianhouse.webp"
+      }
+    },
+    "africa-photo-rondavel": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Traditional_round_houses_in_Manica_(4419157639).jpg",
+        "author": "Ton Rulkens from Mozambique",
+        "license": "CC BY-SA 2.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "file": "detail/africa-photo-rondavel.webp"
+      }
+    },
+    "africa-photo-asianhouse": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:DSC_6694_Ornately_decorated_Chinese_temple_courtyard_with_colorful_tiled_roofs_carved_pillars_and_a_golden_Buddha_statue_under_a_cloudy_sky.jpg",
+        "author": "PattayaPatrol",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-asianhouse.webp"
+      }
+    },
+    "africa-photo-tipi": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Oglala_girl_in_front_of_a_tipi2.jpg",
+        "author": "John Grabill",
+        "license": "Public domain",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "file": "detail/africa-photo-tipi.webp"
+      }
+    },
+    "africa-photo-mountain": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Plateau_Yagour,_Agdal,_Morocco.jpg",
+        "author": "Mounir Neddi",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-mountain.webp"
+      }
+    },
+    "africa-photo-lake": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Libya_5391_Ubari_Lakes_Luca_Galuzzi_2007.jpg",
+        "author": "Luca Galuzzi (Lucag)",
+        "license": "CC BY-SA 2.5",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "file": "detail/africa-photo-lake.webp"
+      }
+    },
+    "africa-photo-river": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Limpopo.jpg",
+        "author": "Department of Defense. American Forces Information Service. Defense Visual Information Center. 1994",
+        "license": "Public domain",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "file": "detail/africa-photo-river.webp"
+      }
+    },
+    "africa-photo-canyon": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Fish_River_Canyon_from_Main_View_Point.jpg",
+        "author": "RudiBosbouer",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/africa-photo-canyon.webp"
+      }
+    },
+    "africa-photo-buffalo": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:African_buffalo_(Syncerus_caffer_caffer)_male_with_cattle_egret.jpg",
+        "author": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-buffalo.webp"
+      }
+    },
+    "africa-photo-lion": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+        "author": "Giles Laurent",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-lion.webp"
+      }
+    },
+    "africa-photo-giraffe": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Twin_Brother_Giraffes_(2).jpg",
+        "author": "Otukei Moses",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-giraffe.webp"
+      }
+    },
+    "africa-photo-elephant": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:178_Male_African_bush_elephant_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg",
+        "author": "Giles Laurent",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-elephant.webp"
+      }
+    },
+    "africa-photo-cheetah": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Male_cheetah_facing_left_in_South_Africa.jpg",
+        "author": "AfricanConservation",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-cheetah.webp"
+      }
+    },
+    "africa-photo-baobab": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:%22_Avenue_of_the_Baobabs_%22_(Adansonia_grandidieri)_(9576865450).jpg",
+        "author": "Bernard DUPONT from FRANCE",
+        "license": "CC BY-SA 2.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "file": "detail/africa-photo-baobab.webp"
+      }
+    },
+    "africa-photo-birch": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Betula_pendula_Finland.jpg",
+        "author": "Percita at Flickr",
+        "license": "CC BY-SA 2.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "file": "detail/africa-photo-birch.webp"
+      }
+    },
+    "africa-photo-date": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Siwa_Oasis,_sunset_on_Maraqi_(Egypt).jpg",
+        "author": "Vincent Battesti",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-date.webp"
+      }
+    },
+    "africa-photo-pine": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Skuleskogen_pine.jpg",
+        "author": "Mickaël Delcey (Silverkey)",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/africa-photo-pine.webp"
+      }
+    },
+    "africa-photo-acacia": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Vachellia_(ex_Acacia)_tortilis.jpg",
+        "author": "Robur.q",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/africa-photo-acacia.webp"
+      }
+    },
+    "africa-photo-hippo": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Hippopotamus.jpg",
+        "author": "Martin Olsson",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "file": "detail/africa-photo-hippo.webp"
+      }
+    },
+    "africa-photo-ostrich": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Struthio_camelus_-_Etosha_2014_(3).jpg",
+        "author": "Yathin S Krishnappa",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-ostrich.webp"
+      }
+    },
+    "africa-photo-tiger": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Bengal_tiger_(Panthera_tigris_tigris)_female_3_crop.jpg",
+        "author": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-tiger.webp"
+      }
+    },
+    "africa-photo-camel": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Camelus_dromedarius_in_Nuweiba.jpg",
+        "author": "Florian Prischl",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/africa-photo-camel.webp"
+      }
+    },
+    "africa-photo-croc": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:NileCrocodile.jpg",
+        "author": "Dewet",
+        "license": "CC BY-SA 2.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "file": "detail/africa-photo-croc.webp"
+      }
+    },
+    "africa-globe-1": {
+      "detail": {
+        "source": "https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/",
+        "author": "Natural Earth; Olympiads.pro",
+        "license": "Natural Earth · общественное достояние",
+        "processing": "Векторная карта в новой отрисовке. Порядок и выделенные территории сверены с буклетом.",
+        "file": "detail/africa-globe-1.svg"
+      }
+    },
+    "africa-globe-2": {
+      "detail": {
+        "source": "https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/",
+        "author": "Natural Earth; Olympiads.pro",
+        "license": "Natural Earth · общественное достояние",
+        "processing": "Векторная карта в новой отрисовке. Порядок и выделенные территории сверены с буклетом.",
+        "file": "detail/africa-globe-2.svg"
+      }
+    },
+    "africa-globe-3": {
+      "detail": {
+        "source": "https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/",
+        "author": "Natural Earth; Olympiads.pro",
+        "license": "Natural Earth · общественное достояние",
+        "processing": "Векторная карта в новой отрисовке. Порядок и выделенные территории сверены с буклетом.",
+        "file": "detail/africa-globe-3.svg"
+      }
+    },
+    "africa-globe-4": {
+      "detail": {
+        "source": "https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/",
+        "author": "Natural Earth; Olympiads.pro",
+        "license": "Natural Earth · общественное достояние",
+        "processing": "Векторная карта в новой отрисовке. Порядок и выделенные территории сверены с буклетом.",
+        "file": "detail/africa-globe-4.svg"
+      }
+    },
+    "africa-globe-5": {
+      "detail": {
+        "source": "https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/",
+        "author": "Natural Earth; Olympiads.pro",
+        "license": "Natural Earth · общественное достояние",
+        "processing": "Векторная карта в новой отрисовке. Порядок и выделенные территории сверены с буклетом.",
+        "file": "detail/africa-globe-5.svg"
+      }
+    },
+    "africa-photo-dunes": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Merzouga_Dunes_2011.jpg",
+        "author": "Bjørn Christian Tørrissen",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/africa-photo-dunes.webp"
+      }
+    },
+    "africa-photo-palmoasis": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Siwa_Oasis,_sunset_on_Maraqi_(Egypt).jpg",
+        "author": "Vincent Battesti",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-palmoasis.webp"
+      }
+    },
+    "africa-photo-kili": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Kilimanjaro_from_Amboseli.jpg",
+        "author": "Sergey Pesterev",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-kili.webp"
+      }
+    },
+    "africa-photo-zebra": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Equus_quagga_burchellii_-_Etosha,_2014.jpg",
+        "author": "Yathin S Krishnappa",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/africa-photo-zebra.webp"
+      }
+    },
+    "africa-photo-antelope": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Red_hartebeest_(Alcelaphus_buselaphus_caama)_Etosha_National_Park_Namibia.jpg",
+        "author": "25-south.com",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-antelope.webp"
+      }
+    },
+    "africa-photo-horse": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Tiergarten_Worms_Pfalz_Ardenner_2011.JPG",
+        "author": "4028mdk09",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/africa-photo-horse.webp"
+      }
+    },
+    "africa-photo-weaver": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Social_weaver_nest_1.jpg",
+        "author": "Photograph by Mike Peel (www.mikepeel.net).",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-weaver.webp"
+      }
+    },
+    "africa-photo-kigelia": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Starr-091104-0978-Kigelia_africana-hanging_fruit-Kahanu_Gardens_NTBG_Kaeleku_Hana-Maui_(24361088583).jpg",
+        "author": "Forest and Kim Starr",
+        "license": "CC BY 3.0 us",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/us/deed.en",
+        "file": "detail/africa-photo-kigelia.webp"
+      }
+    },
+    "africa-photo-stork": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:White_stork_(Ciconia_ciconia)_standing.jpg",
+        "author": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-stork.webp"
+      }
+    },
+    "africa-photo-flamingo": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:010_Greater_flamingos_male_and_female_in_the_Camargue_during_mating_season_Photo_by_Giles_Laurent.jpg",
+        "author": "Giles Laurent",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-flamingo.webp"
+      }
+    },
+    "africa-photo-crane": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Grey_crowned_crane_(Balearica_regulorum_gibbericeps).jpg",
+        "author": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-crane.webp"
+      }
+    },
+    "africa-photo-pelican": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Great_white_pelican_(Pelecanus_onocrotalus).jpg",
+        "author": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-pelican.webp"
+      }
+    },
+    "africa-photo-pumpkin": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Cucurbita_pepo_2013_G1.jpg",
+        "author": "George Chernilevsky",
+        "license": "Public domain",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "file": "detail/africa-photo-pumpkin.webp"
+      }
+    },
+    "africa-photo-watermelon": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Taiwan_2009_Tainan_City_Organic_Farm_Watermelon_FRD_7962.jpg",
+        "author": "Fred Hsu (Wikipedia:User:Fred Hsu on en.wikipedia)",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/africa-photo-watermelon.webp"
+      }
+    },
+    "africa-photo-peach": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Prunus_persica_-_Peach_Hungary.jpg",
+        "author": "Takkk",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/africa-photo-peach.webp"
+      }
+    },
+    "africa-photo-orange": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Oranges_-_whole-halved-segment.jpg",
+        "author": "Ivar Leidus",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-orange.webp"
+      }
+    },
+    "africa-photo-avocado": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Persea_americana_fruit_2.JPG",
+        "author": "B.navez",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/africa-photo-avocado.webp"
+      }
+    },
+    "africa-photo-talkdrum": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:TalkingDrum.jpg",
+        "author": "Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "file": "detail/africa-photo-talkdrum.webp"
+      }
+    },
+    "africa-photo-whiterhino": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:109_Male_White_rhinoceros_walking_in_the_Kalahari_Desert_of_Namibia_Photo_by_Giles_Laurent.jpg",
+        "author": "Giles Laurent",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-whiterhino.webp"
+      }
+    },
+    "africa-photo-bison": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:American_bison_k5680-1.jpg",
+        "author": "Jack Dykinga",
+        "license": "Public domain",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "file": "detail/africa-photo-bison.webp"
+      }
+    },
+    "africa-photo-gorilla": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Male_gorilla_in_SF_zoo.jpg",
+        "author": "Brocken Inaglory",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/africa-photo-gorilla.webp"
+      }
+    },
+    "africa-photo-rena": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Pierre-Auguste_Renoir_-_In_the_Woods_-_Google_Art_Project.jpg",
+        "author": "Pierre-Auguste Renoir",
+        "license": "Public domain",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "file": "detail/africa-photo-rena.webp"
+      }
+    },
+    "africa-photo-renb": {
+      "detail": {
+        "source": "https://www.wikiart.org/en/pierre-auguste-renoir/landscape-with-fence",
+        "author": "Пьер Огюст Ренуар",
+        "license": "Живопись в общественном достоянии.",
+        "processing": "Сопоставимая репродукция другого пейзажа автора.",
+        "file": "detail/africa-photo-renb.webp"
+      }
+    },
+    "africa-photo-renc": {
+      "detail": {
+        "source": "https://www.wikiart.org/en/pierre-auguste-renoir/algerian-landscape-the-ravine-of-the-wild-women-1881",
+        "author": "Пьер Огюст Ренуар",
+        "license": "Живопись в общественном достоянии.",
+        "processing": "Та же картина, что в буклете.",
+        "file": "detail/africa-photo-renc.webp"
+      }
+    },
+    "africa-photo-rend": {
+      "detail": {
+        "source": "https://www.wikiart.org/en/pierre-auguste-renoir/barges-on-the-seine-1870",
+        "author": "Пьер Огюст Ренуар",
+        "license": "Живопись в общественном достоянии.",
+        "processing": "Та же картина, что в буклете.",
+        "file": "detail/africa-photo-rend.webp"
+      }
+    },
+    "africa-photo-rene": {
+      "detail": {
+        "source": "https://www.wikiart.org/en/pierre-auguste-renoir/landscape-near-essoyes-1892",
+        "author": "Пьер Огюст Ренуар",
+        "license": "Живопись в общественном достоянии.",
+        "processing": "Сопоставимая репродукция другого пейзажа автора, написанного в Эссуа во Франции.",
+        "file": "detail/africa-photo-rene.webp"
+      }
+    },
+    "africa-photo-sailing": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Portuguese_Carracks_off_a_Rocky_Coast.jpg",
+        "author": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "file": "detail/africa-photo-sailing.webp"
+      }
+    },
+    "africa-photo-balloon": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:2006_Ojiya_balloon_festival_011.jpg",
+        "author": "Kropsoq",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "file": "detail/africa-photo-balloon.webp"
+      }
+    },
+    "africa-photo-ra2": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:19-08-28-Ra2-im-Kon-Tiki-Museum-Oslo-RalfR.jpg",
+        "author": "Ralf Roletschek",
+        "license": "FAL",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "http://artlibre.org/licence/lal/en",
+        "file": "detail/africa-photo-ra2.webp"
+      }
+    },
+    "africa-photo-canoe": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Boats_at_the_shore_of_the_malawi_lake.jpg",
+        "author": "i_pinz",
+        "license": "CC BY-SA 2.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "file": "detail/africa-photo-canoe.webp"
+      }
+    },
+    "africa-photo-steamboat": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:SteamboatBenCampbellb.jpg",
+        "author": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "file": "detail/africa-photo-steamboat.webp"
+      }
+    },
+    "africa-photo-aardvark": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Orycteropus_afer_175359469.jpg",
+        "author": "Kelly Abram",
+        "license": "CC BY 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "file": "detail/africa-photo-aardvark.webp"
+      }
+    },
+    "africa-photo-lionhead": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+        "author": "Giles Laurent",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-lionhead.webp"
+      }
+    },
+    "africa-photo-lithops": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Lithops_2.jpg",
+        "author": "yellowcloud",
+        "license": "CC BY 2.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "file": "detail/africa-photo-lithops.webp"
+      }
+    },
+    "africa-photo-dryforest": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Nyika_miombo.jpg",
+        "author": "Dr. Thomas Wagner, Environmental and Agricultural Consulting and Research",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/africa-photo-dryforest.webp"
+      }
+    },
+    "africa-photo-stonydesert": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Libya_5101_Fozzigiaren_Arch_Tadrart_Acacus_Luca_Galuzzi_2007.jpg",
+        "author": "Luca Galuzzi (Lucag)",
+        "license": "CC BY-SA 2.5",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "file": "detail/africa-photo-stonydesert.webp"
+      }
+    },
+    "africa-5-6-21": {
+      "detail": {
+        "source": "2019/africa/chip_2018-19_5-6.pdf",
+        "author": "Оргкомитет конкурса «Человек и природа» · переработка Olympiads.pro",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Черты иллюстрации переведены в векторные контуры по исходнику; соблюдены порядок вариантов и опознаваемые детали.",
+        "file": "detail/africa-5-6-21.svg"
+      }
+    },
+    "africa-5-6-24": {
+      "detail": {
+        "source": "https://www.e-rara.ch/zut/content/pageview/11583684",
+        "author": "Конрад Миллер · ETH-Bibliothek Zürich, e-rara",
+        "license": "Историческая карта · общественное достояние.",
+        "processing": "Mappaemundi VI, 1898, лист 5. Реконструкция утраченного западного листа.",
+        "file": "detail/africa-5-6-24.webp"
+      }
+    },
+    "africa-photo-marabou": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Leptoptilos_crumeniferus_-Masai_Mara_-Kenya-8-3c.jpg",
+        "author": "originally posted to Flickr as IMG_8043 and uploaded to commons as Leptoptilos_crumeniferus_-Masai_Mara_-Kenya-8.jpg: Hugh Lunnon  derivative work: Snowmanradio (talk)",
+        "license": "CC BY-SA 2.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "file": "detail/africa-photo-marabou.webp"
+      }
+    },
+    "africa-photo-lemur": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Ring-tailed_lemur_(Lemur_catta).jpg",
+        "author": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-lemur.webp"
+      }
+    },
+    "africa-photo-bongo": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Tragelaphus_eurycerus_-Marwell_Wildlife,_Hampshire,_England-8a.jpg",
+        "author": "Charles Miller from Basingstoke, United Kingdom",
+        "license": "CC BY 2.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "file": "detail/africa-photo-bongo.webp"
+      }
+    },
+    "africa-africa-map-1": {
+      "detail": {
+        "source": "https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/",
+        "author": "Natural Earth; Olympiads.pro",
+        "license": "Natural Earth · общественное достояние",
+        "processing": "Векторная карта в новой отрисовке. Порядок и выделенные территории сверены с буклетом.",
+        "file": "detail/africa-africa-map-1.svg"
+      }
+    },
+    "africa-africa-map-2": {
+      "detail": {
+        "source": "https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/",
+        "author": "Natural Earth; Olympiads.pro",
+        "license": "Natural Earth · общественное достояние",
+        "processing": "Векторная карта в новой отрисовке. Порядок и выделенные территории сверены с буклетом.",
+        "file": "detail/africa-africa-map-2.svg"
+      }
+    },
+    "africa-africa-map-3": {
+      "detail": {
+        "source": "https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/",
+        "author": "Natural Earth; Olympiads.pro",
+        "license": "Natural Earth · общественное достояние",
+        "processing": "Векторная карта в новой отрисовке. Порядок и выделенные территории сверены с буклетом.",
+        "file": "detail/africa-africa-map-3.svg"
+      }
+    },
+    "africa-africa-map-4": {
+      "detail": {
+        "source": "https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/",
+        "author": "Natural Earth; Olympiads.pro",
+        "license": "Natural Earth · общественное достояние",
+        "processing": "Векторная карта в новой отрисовке. Порядок и выделенные территории сверены с буклетом.",
+        "file": "detail/africa-africa-map-4.svg"
+      }
+    },
+    "africa-africa-map-5": {
+      "detail": {
+        "source": "https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/",
+        "author": "Natural Earth; Olympiads.pro",
+        "license": "Natural Earth · общественное достояние",
+        "processing": "Векторная карта в новой отрисовке. Порядок и выделенные территории сверены с буклетом.",
+        "file": "detail/africa-africa-map-5.svg"
+      }
+    },
+    "africa-7-8-07": {
+      "detail": {
+        "source": "2019/africa/chip_2018-19_7-8.pdf",
+        "author": "Оргкомитет конкурса «Человек и природа» · переработка Olympiads.pro",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Черты иллюстрации переведены в векторные контуры по исходнику; соблюдены порядок вариантов и опознаваемые детали.",
+        "file": "detail/africa-7-8-07.svg"
+      }
+    },
+    "africa-7-8-09": {
+      "detail": {
+        "source": "2019/africa/chip_2018-19_7-8.pdf",
+        "author": "Оргкомитет конкурса «Человек и природа» · переработка Olympiads.pro",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Черты иллюстрации переведены в векторные контуры по исходнику; соблюдены порядок вариантов и опознаваемые детали.",
+        "file": "detail/africa-7-8-09.svg"
+      }
+    },
+    "africa-photo-blackrhino": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Black_Rhino_at_Working_with_Wildlife.jpg",
+        "author": "AfricanConservation",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-blackrhino.webp"
+      }
+    },
+    "africa-photo-sereb1": {
+      "detail": {
+        "source": "https://www.serebriakova.com/collections/all/view/collioure-1930",
+        "author": "Зинаида Серебрякова · цифровой каталог",
+        "license": "В каталоге отдельная лицензия репродукции не указана.",
+        "processing": "Та же картина, что в буклете.",
+        "file": "detail/africa-photo-sereb1.webp"
+      }
+    },
+    "africa-photo-sereb2": {
+      "detail": {
+        "source": "https://www.serebriakova.com/collections/all/view/auvergne-town-esteng-1935",
+        "author": "Зинаида Серебрякова · цифровой каталог",
+        "license": "В каталоге отдельная лицензия репродукции не указана.",
+        "processing": "Та же картина, что в буклете.",
+        "file": "detail/africa-photo-sereb2.webp"
+      }
+    },
+    "africa-photo-sereb3": {
+      "detail": {
+        "source": "https://www.serebriakova.com/collections/all/view/versailles-the-roofs-of-the-city-1924",
+        "author": "Зинаида Серебрякова · цифровой каталог",
+        "license": "В каталоге отдельная лицензия репродукции не указана.",
+        "processing": "Та же картина, что в буклете.",
+        "file": "detail/africa-photo-sereb3.webp"
+      }
+    },
+    "africa-photo-sereb4": {
+      "detail": {
+        "source": "https://www.serebriakova.com/collections/all/view/marrakech-view-from-the-terrace-at-the-atlas-mountains-1928",
+        "author": "Зинаида Серебрякова · цифровой каталог",
+        "license": "В каталоге отдельная лицензия репродукции не указана.",
+        "processing": "Та же картина, что в буклете.",
+        "file": "detail/africa-photo-sereb4.webp"
+      }
+    },
+    "africa-photo-sereb5": {
+      "detail": {
+        "source": "https://www.serebriakova.com/collections/all/view/florence-ponte-vecchio-1932",
+        "author": "Зинаида Серебрякова · цифровой каталог",
+        "license": "В каталоге отдельная лицензия репродукции не указана.",
+        "processing": "Та же картина, что в буклете.",
+        "file": "detail/africa-photo-sereb5.webp"
+      }
+    },
+    "africa-photo-falcon": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Falco_peregrinus_m_Humber_Bay_Park_Toronto.jpg",
+        "author": "Mykola Swarnyk",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/africa-photo-falcon.webp"
+      }
+    },
+    "africa-photo-marmoset": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Dv%C3%A6rgsilkeabe_Callithrix_pygmaea.jpg",
+        "author": "Malene Thyssen (User Malene)",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "file": "detail/africa-photo-marmoset.webp"
+      }
+    },
+    "africa-photo-mandrill": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Mandrill_Albert_September_2015_Zoo_Berlin_(2).jpg",
+        "author": "Katma0601",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-mandrill.webp"
+      }
+    },
+    "africa-photo-monkey": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Red-tailed_monkey_(Cercopithecus_ascanius),_Semliki_Wildlife_Reserve.jpg",
+        "author": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-monkey.webp"
+      }
+    },
+    "africa-photo-chimp": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:015_Chimpanzee_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg",
+        "author": "Giles Laurent",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-chimp.webp"
+      }
+    },
+    "africa-photo-gorillahead": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Susa_group,_mountain_gorilla.jpg",
+        "author": "https://www.flickr.com/photos/deepphoto/ d_proffer",
+        "license": "CC BY 2.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "file": "detail/africa-photo-gorillahead.webp"
+      }
+    },
+    "africa-photo-leafbeetle": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Scarlet_lily_beetle_lilioceris_lilii.jpg",
+        "author": "Charles J. Sharp",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/africa-photo-leafbeetle.webp"
+      }
+    },
+    "africa-photo-mamba": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Dendroaspis_polylepis_(14).jpg",
+        "author": "TimVickers",
+        "license": "Public domain",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "file": "detail/africa-photo-mamba.webp"
+      }
+    },
+    "africa-photo-scorpion": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Deathstalker_ST_07.JPG",
+        "author": "This file is a work by Ester Inbar (user:ST or he:user:ST). More of my work can be found in Category:Files by User:ST.  If you use my work outside Wikimedia I would appreciate being notified and referred to site where used here.",
+        "license": "Свободная лицензия с атрибуцией автора",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "file": "detail/africa-photo-scorpion.webp"
+      }
+    },
+    "africa-photo-frog": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Dendrobates_azureus_qtl1.jpg",
+        "author": "Quartl",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/africa-photo-frog.webp"
+      }
+    },
+    "africa-photo-moth": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Urania_riphaeus_engraving.jpg",
+        "author": "Orbigny, Charles Dessalines d', author; Blanchard, artist ; Lamoureux, printer ; Fournier, engraver",
+        "license": "Public domain",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "file": "detail/africa-photo-moth.webp"
+      }
+    },
+    "africa-photo-bighole": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Open_pit_mine.jpg",
+        "author": "Irene2005",
+        "license": "CC BY 2.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "file": "detail/africa-photo-bighole.webp"
+      }
+    },
+    "africa-photo-sansevieria": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Sansevieria_cylindrica_flowers_7.jpg",
+        "author": "Mokkie",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/africa-photo-sansevieria.webp"
+      }
+    },
+    "africa-photo-aloe": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Aloe_ferox_in_pot_D150326.jpg",
+        "author": "Tangopaso",
+        "license": "Public domain",
+        "processing": "Вариант показывает алоэ, как в архивном буклете. Фотография кадрирована без увеличения.",
+        "file": "detail/africa-photo-aloe.webp"
+      }
+    },
+    "africa-photo-zzplant": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Zamioculcas_zamiifolia_1.jpg",
+        "author": "User:WeFt",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "file": "detail/africa-photo-zzplant.webp"
+      }
+    },
+    "africa-photo-lithopspot": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Lithops_2.jpg",
+        "author": "yellowcloud",
+        "license": "CC BY 2.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "file": "detail/africa-photo-lithopspot.webp"
+      }
+    },
+    "africa-photo-jade": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Crassula_ovata_700.jpg",
+        "author": "author is sannse.",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "file": "detail/africa-photo-jade.webp"
+      }
+    },
+    "africa-photo-mata": {
+      "detail": {
+        "source": "https://www.wikiart.org/en/henri-matisse/view-of-collioure-1",
+        "author": "Анри Матисс",
+        "license": "Историческая живопись; коллекционная репродукция.",
+        "processing": "Сопоставимый пейзаж автора, написанный в Коллиуре во Франции.",
+        "file": "detail/africa-photo-mata.webp"
+      }
+    },
+    "africa-photo-matb": {
+      "detail": {
+        "source": "https://www.wikiart.org/en/henri-matisse/the-artist-s-garden-at-issy-les-moulineaux-1918",
+        "author": "Анри Матисс",
+        "license": "Историческая живопись; коллекционная репродукция.",
+        "processing": "Сопоставимый пейзаж автора, написанный в Исси-ле-Мулино во Франции.",
+        "file": "detail/africa-photo-matb.webp"
+      }
+    },
+    "africa-photo-matc": {
+      "detail": {
+        "source": "https://www.wikiart.org/en/henri-matisse/landscape-3",
+        "author": "Анри Матисс",
+        "license": "Историческая живопись; коллекционная репродукция.",
+        "processing": "Та же картина, что в буклете.",
+        "file": "detail/africa-photo-matc.webp"
+      }
+    },
+    "africa-photo-matd": {
+      "detail": {
+        "source": "https://www.wikiart.org/en/henri-matisse/the-stream-near-nice",
+        "author": "Анри Матисс",
+        "license": "Историческая живопись; коллекционная репродукция.",
+        "processing": "Сопоставимый пейзаж автора, написанный возле Ниццы во Франции.",
+        "file": "detail/africa-photo-matd.webp"
+      }
+    },
+    "africa-photo-mate": {
+      "detail": {
+        "source": "https://www.theartnewspaper.com/2025/06/03/rain-insomnia-and-finding-a-model-how-morocco-challenged-and-changed-matisse",
+        "author": "Анри Матисс · собрание ГМИИ имени А. С. Пушкина",
+        "license": "Репродукция исторической живописи.",
+        "processing": "Репродукция оригинальной работы или снимок музейного предмета.",
+        "file": "detail/africa-photo-mate.webp"
+      }
+    },
+    "africa-photo-fossa": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Cryptoprocta_Ferox.JPG",
+        "author": "Ran Kirlian",
+        "license": "CC BY-SA 4.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "detail/africa-photo-fossa.webp"
+      }
+    },
+    "africa-photo-lynx": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Lynx_Nationalpark_Bayerischer_Wald_01.jpg",
+        "author": "Aconcagua (talk)",
+        "license": "CC BY-SA 3.0",
+        "processing": "Репродукция или фотография, уменьшенная из подлинного файла.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/africa-photo-lynx.webp"
+      }
+    },
+    "africa-photo-headrest": {
+      "detail": {
+        "source": "https://www.metmuseum.org/art/collection/search/314981",
+        "author": "Мастер народа оромо · Музей Метрополитен",
+        "license": "Public Domain",
+        "processing": "Вместо маленького растра показан музейный подголовник из Восточной Африки.",
+        "file": "detail/africa-photo-headrest.webp"
+      }
+    },
+    "africa-coat-eqguinea": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Equatorial_Guinea.svg",
+        "author": "Szczepan dyskusja Mail 08:10, 2 April 2007 (UTC)",
+        "license": "Public domain",
+        "processing": "Герб той же страны из векторного источника.",
+        "file": "detail/africa-coat-eqguinea.svg"
+      }
+    },
+    "africa-coat-sl": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Sierra_Leone.svg",
+        "author": "Lion héraldique.svg - Bluebear2 Heraldique meuble lion passant.svg - Rinaldum, S@m, Zigeuner Coat of arms of Haiti (1964-1986).svg - Thommy9 derivative work: Yuma",
+        "license": "CC BY-SA 3.0",
+        "processing": "Герб той же страны из векторного источника.",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "file": "detail/africa-coat-sl.svg"
+      }
+    },
+    "africa-coat-gabon": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Gabon.svg",
+        "author": "Original by Louis Mühlemann, vectorised by user:Fenn-O-maniC",
+        "license": "Public domain",
+        "processing": "Герб той же страны из векторного источника.",
+        "file": "detail/africa-coat-gabon.svg"
+      }
+    },
+    "africa-coat-senegal": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Senegal.svg",
+        "author": "Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "processing": "Герб той же страны из векторного источника.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/africa-coat-senegal.svg"
+      }
+    },
+    "africa-coat-liberia": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Liberia.svg",
+        "author": "FXXX",
+        "license": "Public domain",
+        "processing": "Герб той же страны из векторного источника.",
+        "file": "detail/africa-coat-liberia.svg"
+      }
+    },
+    "africa-coat-botswana": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Botswana.svg",
+        "author": "Wikimedia Commons",
+        "license": "Public domain",
+        "processing": "Герб той же страны из векторного источника.",
+        "file": "africa-coat-botswana.svg"
+      }
+    },
+    "africa-coat-australia": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_the_Commonwealth_of_Australia.svg",
+        "author": "Sodacan",
+        "license": "Public domain",
+        "processing": "Герб той же страны из векторного источника.",
+        "file": "detail/africa-coat-australia.svg"
+      }
+    },
+    "africa-coat-gambia": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_The_Gambia.svg",
+        "author": "Original design by Nicholas Potin, vectorised by user:Fenn-O-maniC",
+        "license": "CC BY-SA 3.0",
+        "processing": "Герб той же страны из векторного источника.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/africa-coat-gambia.svg"
+      }
+    },
+    "africa-coat-zimbabwe": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Zimbabwe.svg",
+        "author": "FischX, Meul",
+        "license": "Public domain",
+        "processing": "Герб той же страны из векторного источника.",
+        "file": "detail/africa-coat-zimbabwe.svg"
+      }
+    },
+    "africa-coat-uganda": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Uganda.svg",
+        "author": "Sodacan",
+        "license": "CC BY-SA 3.0",
+        "processing": "Герб той же страны из векторного источника.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/africa-coat-uganda.svg"
+      }
+    },
+    "africa-coat-namibia": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Namibia.svg",
+        "author": "Wikimedia Commons",
+        "license": "Public domain",
+        "processing": "Герб той же страны из векторного источника.",
+        "file": "detail/africa-coat-namibia.svg"
+      }
+    },
+    "africa-coat-mozambique": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Emblem_of_Mozambique.svg",
+        "author": "Jam123",
+        "license": "CC0",
+        "processing": "Герб той же страны из векторного источника.",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "file": "detail/africa-coat-mozambique.svg"
+      }
+    },
+    "africa-coat-mauritius": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Mauritius.svg",
+        "author": "User:Escondites",
+        "license": "CC BY-SA 3.0",
+        "processing": "Герб той же страны из векторного источника.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/africa-coat-mauritius.svg"
+      }
+    },
+    "africa-coat-angola": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Emblem_of_Angola.svg",
+        "author": "Wikimedia Commons",
+        "license": "Public domain",
+        "processing": "Герб той же страны из векторного источника.",
+        "file": "detail/africa-coat-angola.svg"
+      }
+    },
+    "africa-equator": {
+      "detail": {
+        "source": "2019/africa/chip_2018-19_7-8.pdf",
+        "author": "Оргкомитет · переработка Olympiads.pro",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Щит заново построен по исходной фотографии и карте Natural Earth.",
+        "file": "detail/africa-equator.svg"
+      }
+    },
+    "africa-coat-eritrea": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Emblem_of_Eritrea_(or_argent_azur).svg",
+        "author": "SanchoPanzaXXI",
+        "license": "Public domain",
+        "processing": "Герб той же страны из векторного источника.",
+        "file": "detail/africa-coat-eritrea.svg"
+      }
+    },
+    "africa-coat-somalia": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Somalia.svg",
+        "author": "Thommy",
+        "license": "Public domain",
+        "processing": "Герб той же страны из векторного источника.",
+        "file": "detail/africa-coat-somalia.svg"
+      }
+    },
+    "africa-coat-eswatini": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Eswatini.svg",
+        "author": "RoyFocker 12",
+        "license": "Public domain",
+        "processing": "Герб той же страны из векторного источника.",
+        "file": "detail/africa-coat-eswatini.svg"
+      }
+    },
+    "africa-coat-malaysia": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Malaysia.svg",
+        "author": "This vector image includes elements that have been taken or adapted from this file:",
+        "license": "Public domain",
+        "processing": "Герб той же страны из векторного источника.",
+        "file": "detail/africa-coat-malaysia.svg"
+      }
+    },
+    "africa-9-10-08": {
+      "detail": {
+        "source": "2019/africa/chip_2018-19_9-10.pdf",
+        "author": "Оргкомитет конкурса «Человек и природа» · переработка Olympiads.pro",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Черты иллюстрации переведены в векторные контуры по исходнику; соблюдены порядок вариантов и опознаваемые детали.",
+        "file": "detail/africa-9-10-08.svg"
+      }
+    },
+    "2-01": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 0,
+      "xref": 19,
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "https://www.naturalearthdata.com/downloads/110m-physical-vectors/110m-land/",
+        "license": "Общественное достояние.",
+        "processing": "Береговые линии Natural Earth. Цифры перенесены из схемы буклета.",
+        "file": "2-01.svg"
+      }
+    },
+    "2-03-1": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 0,
+      "xref": 20,
+      "detail": {
+        "author": "Вильгельм Хаагер · worldflags / CTAN",
+        "source": "https://ctan.org/pkg/worldflags",
+        "license": "Государственные символы. Пакет worldflags под лицензией LPPL.",
+        "processing": "Государственный флаг переведён в масштабируемый SVG.",
+        "file": "2-03-1.svg"
+      }
+    },
+    "2-03-2": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 0,
+      "xref": 20,
+      "detail": {
+        "author": "Вильгельм Хаагер · worldflags / CTAN",
+        "source": "https://ctan.org/pkg/worldflags",
+        "license": "Государственные символы. Пакет worldflags под лицензией LPPL.",
+        "processing": "Государственный флаг переведён в масштабируемый SVG.",
+        "file": "2-03-2.svg"
+      }
+    },
+    "2-03-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 0,
+      "xref": 20,
+      "detail": {
+        "author": "Вильгельм Хаагер · worldflags / CTAN",
+        "source": "https://ctan.org/pkg/worldflags",
+        "license": "Государственные символы. Пакет worldflags под лицензией LPPL.",
+        "processing": "Государственный флаг переведён в масштабируемый SVG.",
+        "file": "2-03-3.svg"
+      }
+    },
+    "2-03-4": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 0,
+      "xref": 20,
+      "detail": {
+        "author": "Вильгельм Хаагер · worldflags / CTAN",
+        "source": "https://ctan.org/pkg/worldflags",
+        "license": "Государственные символы. Пакет worldflags под лицензией LPPL.",
+        "processing": "Государственный флаг переведён в масштабируемый SVG.",
+        "file": "2-03-4.svg"
+      }
+    },
+    "2-03-5": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 0,
+      "xref": 20,
+      "detail": {
+        "author": "Вильгельм Хаагер · worldflags / CTAN",
+        "source": "https://ctan.org/pkg/worldflags",
+        "license": "Государственные символы. Пакет worldflags под лицензией LPPL.",
+        "processing": "Государственный флаг переведён в масштабируемый SVG.",
+        "file": "2-03-5.svg"
+      }
+    },
+    "2-04-1": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 0,
+      "xref": 21,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Dingo_(Canis_lupus_dingo)_Kakadu_2.jpg",
+        "author": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "nativePixels": [
+          3154,
+          2783
+        ],
+        "file": "detail/2-04-1.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        4,
+        1,
+        146,
+        130
+      ]
+    },
+    "2-04-2": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 0,
+      "xref": 21,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Numbat,_Dryandra_Woodland,_Western_Australia.jpg",
+        "author": "JJ Harrison",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "nativePixels": [
+          2225,
+          1381
+        ],
+        "file": "detail/2-04-2.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        154,
+        1,
+        296,
+        130
+      ]
+    },
+    "2-04-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 0,
+      "xref": 21,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Dasyurus_viverrinus.jpg",
+        "author": "Michael Barritt & Karen May",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "nativePixels": [
+          2832,
+          2128
+        ],
+        "file": "detail/2-04-3.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        304,
+        1,
+        446,
+        130
+      ]
+    },
+    "2-04-4": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 0,
+      "xref": 21,
+      "detail": {
+        "file": "detail/2-04-4.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Forester_kangaroo_(Macropus_giganteus_tasmaniensis)_female_with_joey_Esk_Valley.jpg",
+        "author": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "processing": "Новый кадр показывает тот же вид или тот же объект, что и архивная иллюстрация. В карточку выводится уменьшенная копия мастера.",
+        "previewMax": 384
+      },
+      "imageBox": [
+        454,
+        1,
+        596,
+        130
+      ]
+    },
+    "2-04-5": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 0,
+      "xref": 21,
+      "detail": {
+        "file": "detail/2-04-5.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Koala_climbing_tree.jpg",
+        "author": "Diliff",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "processing": "Новый кадр показывает тот же вид или тот же объект, что и архивная иллюстрация. В карточку выводится уменьшенная копия мастера.",
+        "previewMax": 384
+      },
+      "imageBox": [
+        604,
+        1,
+        746,
+        130
+      ]
+    },
+    "2-07-1": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 0,
+      "xref": 22,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Kuusk_Keila-Paldiski_rdt_%C3%A4%C3%A4res.jpg",
+        "author": "Ivar Leidus",
+        "license": "CC BY-SA 3.0 ee",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/ee/deed.en",
+        "nativePixels": [
+          2400,
+          3600
+        ],
+        "file": "detail/2-07-1.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        4,
+        1,
+        136,
+        180
+      ]
+    },
+    "2-07-2": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 0,
+      "xref": 22,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Efate_East_-_Very_old_coconut_plantations_-_panoramio.jpg",
+        "author": "Jean Van Jean",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "nativePixels": [
+          1024,
+          768
+        ],
+        "file": "detail/2-07-2.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        144,
+        1,
+        276,
+        180
+      ]
+    },
+    "2-07-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 0,
+      "xref": 22,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Betula_pendula_Finland.jpg",
+        "author": "Percita at Flickr",
+        "license": "CC BY-SA 2.0",
+        "processing": "Новый кадр показывает тот же вид или тот же объект, что и архивная иллюстрация. В карточку выводится уменьшенная копия мастера.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "file": "detail/2-07-3.webp",
+        "previewMax": 384
+      },
+      "imageBox": [
+        284,
+        1,
+        416,
+        180
+      ]
+    },
+    "2-07-4": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 0,
+      "xref": 22,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:%22_Avenue_of_the_Baobabs_%22_(Adansonia_grandidieri)_(9576865450).jpg",
+        "author": "Bernard DUPONT from FRANCE",
+        "license": "CC BY-SA 2.0",
+        "processing": "Новый кадр показывает тот же вид или тот же объект, что и архивная иллюстрация. В карточку выводится уменьшенная копия мастера.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "file": "detail/2-07-4.webp",
+        "previewMax": 384
+      },
+      "imageBox": [
+        424,
+        1,
+        556,
+        180
+      ]
+    },
+    "2-07-5": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 0,
+      "xref": 22,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Sherbrooke_forest_Victoria_220rs.jpg",
+        "author": "Patche99z",
+        "license": "Public domain",
+        "nativePixels": [
+          2192,
+          1644
+        ],
+        "file": "detail/2-07-5.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        564,
+        1,
+        696,
+        180
+      ]
+    },
+    "2-08-1": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 1,
+      "xref": 28,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_1-2.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Сохранена отдельная иллюстрация из буклета с исходным узором костюма. Доступная архивная детализация ограничена исходным растром.",
+        "file": "detail/2-08-1.webp",
+        "previewMax": 106,
+        "nativePixels": [
+          132,
+          120
+        ]
+      },
+      "imageBox": [
+        4,
+        1,
+        136,
+        121
+      ]
+    },
+    "2-08-2": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 1,
+      "xref": 28,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_1-2.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Сохранена отдельная иллюстрация из буклета с исходным узором костюма. Доступная архивная детализация ограничена исходным растром.",
+        "file": "detail/2-08-2.webp",
+        "previewMax": 106,
+        "nativePixels": [
+          132,
+          120
+        ]
+      },
+      "imageBox": [
+        144,
+        1,
+        276,
+        121
+      ]
+    },
+    "2-08-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 1,
+      "xref": 28,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_1-2.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Сохранена отдельная иллюстрация из буклета с исходным узором костюма. Доступная архивная детализация ограничена исходным растром.",
+        "file": "detail/2-08-3.webp",
+        "previewMax": 106,
+        "nativePixels": [
+          132,
+          120
+        ]
+      },
+      "imageBox": [
+        284,
+        1,
+        416,
+        121
+      ]
+    },
+    "2-08-4": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 1,
+      "xref": 28,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_1-2.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Сохранена отдельная иллюстрация из буклета с исходным узором костюма. Доступная архивная детализация ограничена исходным растром.",
+        "file": "detail/2-08-4.webp",
+        "previewMax": 106,
+        "nativePixels": [
+          132,
+          120
+        ]
+      },
+      "imageBox": [
+        424,
+        1,
+        556,
+        121
+      ]
+    },
+    "2-08-5": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 1,
+      "xref": 28,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_1-2.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Сохранена отдельная иллюстрация из буклета с исходным узором костюма. Доступная архивная детализация ограничена исходным растром.",
+        "file": "detail/2-08-5.webp",
+        "previewMax": 106,
+        "nativePixels": [
+          132,
+          120
+        ]
+      },
+      "imageBox": [
+        564,
+        1,
+        696,
+        121
+      ]
+    },
+    "2-11-1": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 1,
+      "xref": 29,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:SugarBeet.jpg",
+        "author": "USDA",
+        "license": "Public domain",
+        "nativePixels": [
+          1786,
+          2700
+        ],
+        "file": "detail/2-11-1.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        6,
+        1,
+        156,
+        134
+      ]
+    },
+    "2-11-2": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 1,
+      "xref": 29,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Taiwan_2009_Tainan_City_Organic_Farm_Watermelon_FRD_7962.jpg",
+        "author": "Fred Hsu (Wikipedia:User:Fred Hsu on en.wikipedia)",
+        "license": "CC BY-SA 3.0",
+        "processing": "Новый кадр показывает тот же вид или тот же объект, что и архивная иллюстрация. В карточку выводится уменьшенная копия мастера.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "detail/2-11-2.webp",
+        "previewMax": 384
+      },
+      "imageBox": [
+        164,
+        1,
+        316,
+        145
+      ]
+    },
+    "2-11-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 1,
+      "xref": 29,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:2014-11-02_15_25_30_Sugar_Maple_during_autumn_along_Patton_Drive_in_Ewing,_New_Jersey.jpg",
+        "author": "Famartin",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "nativePixels": [
+          2448,
+          3264
+        ],
+        "file": "detail/2-11-3.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        326,
+        1,
+        476,
+        134
+      ]
+    },
+    "2-11-4": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 1,
+      "xref": 29,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Sugarcane_field_in_Queensland,_Australia_1.jpg",
+        "author": "Phil",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "nativePixels": [
+          3888,
+          2592
+        ],
+        "file": "detail/2-11-4.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        486,
+        1,
+        636,
+        134
+      ]
+    },
+    "2-11-5": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 1,
+      "xref": 29,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Fruit_of_Cucumis_melo.jpg",
+        "author": "Krzysztof Golik",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "nativePixels": [
+          3720,
+          2480
+        ],
+        "file": "detail/2-11-5.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        646,
+        1,
+        796,
+        134
+      ]
+    },
+    "2-13": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 1,
+      "xref": 27,
+      "detail": {
+        "file": "detail/2-13.webp",
+        "source": "2019/chip_2019-20_1-2.pdf",
+        "author": "Фотография из буклета ЧИП",
+        "license": "В буклете отдельная лицензия не указана.",
+        "nativePixels": [
+          200,
+          114
+        ],
+        "previewMax": 160,
+        "processing": "Сохранён исходный кадр, где руки и вертикальная палочка видны крупным планом."
+      },
+      "imageBox": [
+        0,
+        0,
+        200,
+        114
+      ]
+    },
+    "2-14-1": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 1,
+      "xref": 30,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Wiener_Staatsoper_Front.jpg",
+        "author": "Wiener Staatsoper GmbH",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "nativePixels": [
+          2362,
+          1527
+        ],
+        "file": "detail/2-14-1.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        4,
+        1,
+        156,
+        122
+      ]
+    },
+    "2-14-2": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 1,
+      "xref": 30,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Moscow-Bolshoi-Theare-1.jpg",
+        "author": "DmitriyGuryanov",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "nativePixels": [
+          6728,
+          5598
+        ],
+        "file": "detail/2-14-2.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        164,
+        1,
+        316,
+        122
+      ]
+    },
+    "2-14-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 1,
+      "xref": 30,
+      "detail": {
+        "file": "detail/2-14-3.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Sydney_Opera_House_2026.jpg",
+        "author": "BAVhah",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "processing": "Новый кадр показывает тот же вид или тот же объект, что и архивная иллюстрация. В карточку выводится уменьшенная копия мастера.",
+        "previewMax": 384
+      },
+      "imageBox": [
+        324,
+        1,
+        476,
+        122
+      ]
+    },
+    "2-14-4": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 1,
+      "xref": 30,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Dresden_-_Semperoper_-_2013.jpg",
+        "author": "Avda",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "nativePixels": [
+          2048,
+          1366
+        ],
+        "file": "detail/2-14-4.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        484,
+        1,
+        636,
+        122
+      ]
+    },
+    "2-14-5": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 1,
+      "xref": 30,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Paris_Opera_full_frontal_architecture,_May_2009.jpg",
+        "author": "Peter Rivera",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "nativePixels": [
+          2079,
+          1397
+        ],
+        "file": "detail/2-14-5.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        644,
+        1,
+        796,
+        122
+      ]
+    },
+    "2-16-1": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 2,
+      "xref": 36,
+      "detail": {
+        "file": "detail/2-16-1.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Southern_Cassowary_7071.jpg",
+        "author": "Summerdrought",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "processing": "Новый кадр показывает тот же вид или тот же объект, что и архивная иллюстрация. В карточку выводится уменьшенная копия мастера.",
+        "previewMax": 384
+      },
+      "imageBox": [
+        4,
+        1,
+        156,
+        116
+      ]
+    },
+    "2-16-2": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 2,
+      "xref": 36,
+      "detail": {
+        "file": "detail/2-16-2.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Emu_1_-_Tidbinbilla.jpg",
+        "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "processing": "Новый кадр показывает тот же вид или тот же объект, что и архивная иллюстрация. В карточку выводится уменьшенная копия мастера.",
+        "previewMax": 384
+      },
+      "imageBox": [
+        164,
+        1,
+        316,
+        116
+      ]
+    },
+    "2-16-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 2,
+      "xref": 36,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Australian_Bustard_2_-_Mt_Carbine.jpg",
+        "author": "JJ Harrison ( https://www.jjharrison.com.au/ )",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "nativePixels": [
+          3492,
+          2329
+        ],
+        "file": "detail/2-16-3.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        324,
+        1,
+        476,
+        116
+      ]
+    },
+    "2-16-4": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 2,
+      "xref": 36,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Australian_Brushturkey_2_-_Newington.jpg",
+        "author": "JJ Harrison ( https://www.jjharrison.com.au/ )",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "nativePixels": [
+          2921,
+          2922
+        ],
+        "file": "detail/2-16-4.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        484,
+        1,
+        636,
+        116
+      ]
+    },
+    "2-16-5": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 2,
+      "xref": 36,
+      "detail": {
+        "file": "detail/2-16-5.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Lyrebird.jpg",
+        "author": "Melburnian",
+        "license": "CC BY-SA 3.0",
+        "processing": "Новый кадр показывает тот же вид или тот же объект, что и архивная иллюстрация. В карточку выводится уменьшенная копия мастера.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "nativePixels": [
+          1088,
+          1000
+        ],
+        "previewMax": 384
+      },
+      "imageBox": [
+        644,
+        1,
+        796,
+        116
+      ]
+    },
+    "2-17": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 2,
+      "xref": 33,
+      "detail": {
+        "file": "detail/2-17.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Koala_climbing_tree.jpg",
+        "author": "Diliff",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "processing": "Новый кадр показывает тот же вид или тот же объект, что и архивная иллюстрация. В карточку выводится уменьшенная копия мастера.",
+        "previewMax": 384
+      },
+      "imageBox": [
+        0,
+        0,
+        150,
+        205
+      ]
+    },
+    "2-18": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 2,
+      "xref": 35,
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2019/chip_2019-20_1-2.pdf",
+        "license": "Векторная реконструкция по архиву",
+        "processing": "Содержание и обозначения перенесены из исходного кадра.",
+        "file": "2-18.svg"
+      }
+    },
+    "2-18-2": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 2,
+      "xref": 37,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Saltwater_Crocodile_on_a_river_bank._in_Australia.jpg",
+        "author": "Djambalawa at en.wikipedia",
+        "license": "Public domain",
+        "nativePixels": [
+          1914,
+          1226
+        ],
+        "file": "detail/2-18-2.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        164,
+        1,
+        316,
+        139
+      ]
+    },
+    "2-18-4": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 2,
+      "xref": 37,
+      "detail": {
+        "file": "detail/2-18-4.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Forester_kangaroo_(Macropus_giganteus_tasmaniensis)_female_with_joey_Esk_Valley.jpg",
+        "author": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "processing": "Новый кадр показывает тот же вид или тот же объект, что и архивная иллюстрация. В карточку выводится уменьшенная копия мастера.",
+        "previewMax": 384
+      },
+      "imageBox": [
+        484,
+        1,
+        636,
+        139
+      ]
+    },
+    "2-18-5": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 2,
+      "xref": 37,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Komodo_Dragon,_Komodo,_2016_(07)_(cropped).jpg",
+        "author": "Bahnfrend",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "nativePixels": [
+          4433,
+          1476
+        ],
+        "file": "detail/2-18-5.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        644,
+        1,
+        796,
+        139
+      ]
+    },
+    "2-20": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+      "page": 2,
+      "xref": 34,
+      "detail": {
+        "file": "2-20.svg",
+        "author": "Редакция Olympiads.pro по изображению из буклета ЧИП",
+        "source": "2019/chip_2019-20_1-2.pdf",
+        "license": "Редакционный векторный рисунок",
+        "processing": "Два гребца, узкий корпус, боковой поплавок и соединяющие их штанги перенесены с исходного фото. Текст и обозначения на схему не добавлялись."
+      },
+      "imageBox": [
+        0,
+        0,
+        200,
+        104
+      ]
+    },
+    "5-6-01": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 0,
+      "xref": 26,
+      "detail": {
+        "author": "Natural Earth, подготовка проекции Olympiads.pro",
+        "source": "https://www.naturalearthdata.com/downloads/110m-physical-vectors/110m-land/",
+        "license": "Общественное достояние.",
+        "processing": "Содержание и обозначения перенесены из исходного кадра.",
+        "file": "5-6-01.svg"
+      }
+    },
+    "5-6-04-1": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 0,
+      "xref": 28,
+      "detail": {
+        "author": "Вильгельм Хаагер · worldflags / CTAN",
+        "source": "https://ctan.org/pkg/worldflags",
+        "license": "Государственные символы. Пакет worldflags под лицензией LPPL.",
+        "processing": "Пять исходных флагов восстановлены в векторе по точным пропорциям.",
+        "file": "5-6-04-1.svg"
+      }
+    },
+    "5-6-04-2": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 0,
+      "xref": 28,
+      "detail": {
+        "author": "Вильгельм Хаагер · worldflags / CTAN",
+        "source": "https://ctan.org/pkg/worldflags",
+        "license": "Государственные символы. Пакет worldflags под лицензией LPPL.",
+        "processing": "Пять исходных флагов восстановлены в векторе по точным пропорциям.",
+        "file": "5-6-04-2.svg"
+      }
+    },
+    "5-6-04-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 0,
+      "xref": 28,
+      "detail": {
+        "author": "Вильгельм Хаагер · worldflags / CTAN",
+        "source": "https://ctan.org/pkg/worldflags",
+        "license": "Государственные символы. Пакет worldflags под лицензией LPPL.",
+        "processing": "Пять исходных флагов восстановлены в векторе по точным пропорциям.",
+        "file": "5-6-04-3.svg"
+      }
+    },
+    "5-6-04-4": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 0,
+      "xref": 28,
+      "detail": {
+        "author": "Вильгельм Хаагер · worldflags / CTAN",
+        "source": "https://ctan.org/pkg/worldflags",
+        "license": "Государственные символы. Пакет worldflags под лицензией LPPL.",
+        "processing": "Пять исходных флагов восстановлены в векторе по точным пропорциям.",
+        "file": "5-6-04-4.svg"
+      }
+    },
+    "5-6-04-5": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 0,
+      "xref": 28,
+      "detail": {
+        "author": "Вильгельм Хаагер · worldflags / CTAN",
+        "source": "https://ctan.org/pkg/worldflags",
+        "license": "Государственные символы. Пакет worldflags под лицензией LPPL.",
+        "processing": "Пять исходных флагов восстановлены в векторе по точным пропорциям.",
+        "file": "5-6-04-5.svg"
+      }
+    },
+    "5-6-06": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 0,
+      "xref": 27,
+      "detail": {
+        "author": "Альберт Наматжира",
+        "source": "2019/chip_2019-20_5-6.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Извлечён исходный кадр буклета в нативном размере. На нём различимы белые стволы эвкалиптов.",
+        "file": "detail/5-6-06.webp",
+        "previewMax": 200,
+        "nativePixels": [
+          250,
+          175
+        ]
+      },
+      "imageBox": [
+        0,
+        0,
+        250,
+        175
+      ]
+    },
+    "5-6-08-1": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 0,
+      "xref": 29,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Petaurus_breviceps_(sugar_glider).jpg",
+        "author": "Inconnu(e)",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "nativePixels": [
+          4928,
+          3264
+        ],
+        "file": "detail/5-6-08-1.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        6,
+        1,
+        156,
+        134
+      ]
+    },
+    "5-6-08-2": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 0,
+      "xref": 29,
+      "detail": {
+        "file": "detail/2-04-4.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Forester_kangaroo_(Macropus_giganteus_tasmaniensis)_female_with_joey_Esk_Valley.jpg",
+        "author": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "processing": "Новый кадр показывает тот же вид или тот же объект, что и архивная иллюстрация. В карточку выводится уменьшенная копия мастера.",
+        "previewMax": 384
+      },
+      "imageBox": [
+        166,
+        1,
+        316,
+        134
+      ]
+    },
+    "5-6-08-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 0,
+      "xref": 29,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Potorous_tridactylus_-_profile.JPG",
+        "author": "Peripitus",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "nativePixels": [
+          1592,
+          2184
+        ],
+        "file": "detail/5-6-08-3.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        326,
+        1,
+        476,
+        134
+      ]
+    },
+    "5-6-08-4": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 0,
+      "xref": 29,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Sarcophilus_harrisii_taranna.jpg",
+        "author": "JJ Harrison ( https://www.jjharrison.com.au/ )",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "nativePixels": [
+          2200,
+          1435
+        ],
+        "file": "detail/5-6-08-4.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        486,
+        1,
+        636,
+        134
+      ]
+    },
+    "5-6-09": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 1,
+      "xref": 32,
+      "detail": {
+        "author": "Natural Earth, подготовка карты Olympiads.pro",
+        "source": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-countries/",
+        "license": "Общественное достояние.",
+        "processing": "Векторные очертания островов по данным Natural Earth в поставке QGIS.",
+        "file": "5-6-09.svg"
+      }
+    },
+    "5-6-10-1": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 1,
+      "xref": 33,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Holstein-Friesian_in_Dundee,_Quebec.jpg",
+        "author": "Hayden Soloviev",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "nativePixels": [
+          2812,
+          2108
+        ],
+        "file": "detail/5-6-10-1.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        6,
+        1,
+        156,
+        132
+      ]
+    },
+    "5-6-10-2": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 1,
+      "xref": 33,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Hausziege_04.jpg",
+        "author": "Kuebi = Armin Kübelbeck",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "nativePixels": [
+          3600,
+          3600
+        ],
+        "file": "detail/5-6-10-2.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        166,
+        1,
+        316,
+        132
+      ]
+    },
+    "5-6-10-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 1,
+      "xref": 33,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Camelus_dromedarius_in_Nuweiba.jpg",
+        "author": "Florian Prischl",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "nativePixels": [
+          3872,
+          2592
+        ],
+        "file": "detail/5-6-10-3.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        326,
+        1,
+        476,
+        132
+      ]
+    },
+    "5-6-10-4": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 1,
+      "xref": 33,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Oryctolagus_cuniculus_-_euqirneto_-_419737670_(cropped).jpeg",
+        "author": "euqirneto",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "nativePixels": [
+          1052,
+          1145
+        ],
+        "file": "detail/5-6-10-4.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        486,
+        1,
+        636,
+        132
+      ]
+    },
+    "5-6-10-5": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 1,
+      "xref": 33,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Flock_of_sheep.jpg",
+        "author": "Keith Weller",
+        "license": "Public domain",
+        "nativePixels": [
+          1776,
+          2700
+        ],
+        "file": "detail/5-6-10-5.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        646,
+        1,
+        796,
+        132
+      ]
+    },
+    "5-6-12-1": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 1,
+      "xref": 34,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Budgerigar-male-strzelecki-qld.jpg",
+        "author": "Benjamint444",
+        "license": "GFDL 1.2",
+        "licenseUrl": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
+        "nativePixels": [
+          1600,
+          1067
+        ],
+        "file": "detail/5-6-12-1.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        6,
+        1,
+        156,
+        110
+      ]
+    },
+    "5-6-12-2": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 1,
+      "xref": 34,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Cat_November_2010-1a.jpg",
+        "author": "Alvesgaspar",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "nativePixels": [
+          1795,
+          2397
+        ],
+        "file": "detail/5-6-12-2.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        166,
+        1,
+        316,
+        110
+      ]
+    },
+    "5-6-12-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 1,
+      "xref": 34,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Cavy_eating_grass.jpg",
+        "author": "Laniik at English Wikipedia",
+        "license": "Public domain",
+        "nativePixels": [
+          600,
+          450
+        ],
+        "file": "detail/5-6-12-3.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        326,
+        1,
+        476,
+        110
+      ]
+    },
+    "5-6-12-4": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 1,
+      "xref": 34,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:GelbA.JPG",
+        "author": "NEWSchr",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "nativePixels": [
+          1867,
+          1245
+        ],
+        "file": "detail/5-6-12-4.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        486,
+        1,
+        636,
+        110
+      ]
+    },
+    "5-6-12-5": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 1,
+      "xref": 34,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Gold_fish1.jpg",
+        "author": "לינה אבוגוש",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "nativePixels": [
+          1717,
+          1121
+        ],
+        "file": "detail/5-6-12-5.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        646,
+        1,
+        796,
+        110
+      ]
+    },
+    "5-6-15-1": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 1,
+      "xref": 35,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Vehn%C3%A4pelto_6.jpg",
+        "author": "kallerna",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "nativePixels": [
+          5100,
+          3400
+        ],
+        "file": "detail/5-6-15-1.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        6,
+        1,
+        156,
+        112
+      ]
+    },
+    "5-6-15-2": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 1,
+      "xref": 35,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Ear_of_rye.jpg",
+        "author": "LSDSL",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "nativePixels": [
+          1296,
+          972
+        ],
+        "file": "detail/5-6-15-2.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        166,
+        1,
+        316,
+        112
+      ]
+    },
+    "5-6-15-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 1,
+      "xref": 35,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:20201102.Hengnan.Hybrid_rice_Sanyou-1.6.jpg",
+        "author": "China News Service",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "nativePixels": [
+          1280,
+          720
+        ],
+        "file": "detail/5-6-15-3.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        326,
+        1,
+        476,
+        112
+      ]
+    },
+    "5-6-15-5": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 1,
+      "xref": 35,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Turnip_2622027.jpg",
+        "author": "thebittenword.com",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "nativePixels": [
+          1279,
+          852
+        ],
+        "file": "detail/5-6-15-5.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        646,
+        1,
+        796,
+        112
+      ]
+    },
+    "5-6-17": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 2,
+      "xref": 44,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:%22Shells%22_-_The_Sydney_Opera_House%27s_iconic_roof_(visitors_digitally_removed)_(16428792447).jpg",
+        "author": "Jorge Láscar from Melbourne, Australia",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "nativePixels": [
+          4288,
+          2848
+        ],
+        "file": "detail/5-6-17.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        0,
+        0,
+        300,
+        139
+      ]
+    },
+    "5-6-20": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 2,
+      "xref": 43,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Mitchell_Falls,_The_Kimberley,_Western_Australia_(7916162022).jpg",
+        "author": "Travel & Shit from Brighton, UK",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "nativePixels": [
+          1728,
+          2304
+        ],
+        "file": "detail/5-6-20.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        0,
+        0,
+        200,
+        290
+      ]
+    },
+    "5-6-21": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 2,
+      "xref": 45,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Waitomo_Cave.jpg",
+        "author": "Манько Марко",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "nativePixels": [
+          1024,
+          683
+        ],
+        "file": "detail/5-6-21.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        0,
+        0,
+        250,
+        230
+      ]
+    },
+    "5-6-24": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 2,
+      "xref": 46,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_5-6.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Сохранена подлинная фотография из буклета. Коническая плетёная конструкция и расположение людей различимы в исходном разрешении.",
+        "file": "detail/5-6-24.webp",
+        "previewMax": 280,
+        "nativePixels": [
+          350,
+          236
+        ]
+      },
+      "imageBox": [
+        0,
+        0,
+        350,
+        236
+      ]
+    },
+    "5-6-27": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 3,
+      "xref": 50,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Honey_Ants_(7344580116).jpg",
+        "author": "avilasal",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "nativePixels": [
+          5184,
+          3456
+        ],
+        "file": "detail/5-6-27.webp",
+        "previewMax": 384,
+        "processing": "Та же фотография из буклета в более высоком разрешении. Из мастера подготовлено превью."
+      },
+      "imageBox": [
+        0,
+        0,
+        425,
+        283
+      ]
+    },
+    "5-6-29-1": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 3,
+      "xref": 51,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Chef_Maori_-_Maori_chief_with_tattooed_face_1998-23098-173.jpg",
+        "author": "Неизвестный фотограф; Musée de l’Homme",
+        "license": "Public domain",
+        "nativePixels": [
+          492,
+          768
+        ],
+        "file": "detail/5-6-29-1.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        4,
+        1,
+        156,
+        135
+      ]
+    },
+    "5-6-29-2": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 3,
+      "xref": 51,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Moai_Rano_raraku.jpg",
+        "author": "Aurbina",
+        "license": "Public domain",
+        "nativePixels": [
+          1944,
+          2592
+        ],
+        "file": "detail/5-6-29-2.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        164,
+        1,
+        316,
+        135
+      ]
+    },
+    "5-6-29-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 3,
+      "xref": 51,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_5-6.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Сохранён отдельный нативный снимок из буклета. На карточке и в увеличении видно целый предмет или участок рисунка.",
+        "file": "detail/5-6-29-3.webp",
+        "previewMax": 122,
+        "nativePixels": [
+          152,
+          134
+        ]
+      },
+      "imageBox": [
+        324,
+        1,
+        476,
+        135
+      ]
+    },
+    "5-6-29-4": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 3,
+      "xref": 51,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:%27Le_toga_(fine_mat)_from_Samoa,_Honolulu_Museum_of_Art_2018-20-01.JPG",
+        "author": "Hiart",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "nativePixels": [
+          3702,
+          2766
+        ],
+        "file": "detail/5-6-29-4.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        484,
+        1,
+        636,
+        135
+      ]
+    },
+    "5-6-29-5": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 3,
+      "xref": 51,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_5-6.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Сохранён отдельный нативный снимок из буклета. На карточке и в увеличении видно целый предмет или участок рисунка.",
+        "file": "detail/5-6-29-5.webp",
+        "previewMax": 122,
+        "nativePixels": [
+          152,
+          134
+        ]
+      },
+      "imageBox": [
+        644,
+        1,
+        796,
+        135
+      ]
+    },
+    "5-6-30": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+      "page": 3,
+      "xref": 49,
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2019/chip_2019-20_5-6.pdf",
+        "license": "Векторная реконструкция по архиву",
+        "processing": "Содержание и обозначения перенесены из исходного кадра.",
+        "file": "5-6-30.svg"
+      }
+    },
+    "africa-photo-shark": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Blacktip_reef_sharks_(Carcharhinus_melanopterus)_Moorea.jpg",
+        "author": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "processing": "Фотография чернопёрых рифовых акул, уменьшенная из подлинного файла. Сохранён вид животного из варианта Д.",
+        "file": "detail/africa-photo-shark.webp"
+      }
+    },
+    "7-8-02": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 0,
+      "xref": 24,
+      "detail": {
+        "author": "Natural Earth, подготовка карты Olympiads.pro",
+        "source": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-countries/",
+        "license": "Общественное достояние.",
+        "processing": "Восстановлены карта Австралии и положение вопросительного знака из буклета.",
+        "file": "7-8-02.svg"
+      }
+    },
+    "7-8-04": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 0,
+      "xref": 25,
+      "detail": {
+        "file": "detail/7-8-04.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Black_Mountain_Telecom_Tower_-_9_(3071722944).jpg",
+        "author": "Pascal Vuylsteker from Paris, France - Australia",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "nativePixels": [
+          1280,
+          1925
+        ],
+        "previewMax": 384,
+        "processing": "Подготовлены мастер и веб-превью документированной фотографии показанного объекта или вида."
+      },
+      "imageBox": [
+        0,
+        0,
+        150,
+        272
+      ]
+    },
+    "7-8-06-1": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 0,
+      "xref": 26,
+      "detail": {
+        "source": "https://guidoborelliprints.com/featured/i-girasoli-nel-campo-guido-borelli.html",
+        "author": "Гвидо Борелли",
+        "license": "© Guido Borelli. Свободная лицензия в каталоге художника не указана.",
+        "processing": "Точная репродукция I girasoli nel campo из каталога художника: совпадают дом с черепичной крышей, деревья и поле подсолнечников.",
+        "previewMax": 360,
+        "file": "detail/7-8-06-1.webp"
+      },
+      "imageBox": [
+        4,
+        1,
+        191,
+        132
+      ]
+    },
+    "7-8-06-2": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 0,
+      "xref": 26,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Caillebotte_Tournesols_au_bord_de_la_Seine1885.jpg",
+        "author": "Gustave Caillebotte",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "nativePixels": [
+          1280,
+          1640
+        ],
+        "file": "detail/7-8-06-2.webp",
+        "previewMax": 384,
+        "processing": "Крупная репродукция той же картины, что в исходном буклете. Из мастера подготовлено превью.",
+        "artwork": "Гюстав Кайботт. Подсолнухи на берегу Сены (ок. 1885–1886)"
+      },
+      "imageBox": [
+        208,
+        1,
+        326,
+        132
+      ]
+    },
+    "7-8-06-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 0,
+      "xref": 26,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Bouquet_of_Sunflowers_MET_DP130800.jpg",
+        "author": "Claude Monet",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "nativePixels": [
+          1280,
+          1581
+        ],
+        "file": "detail/7-8-06-3.webp",
+        "previewMax": 384,
+        "processing": "Крупная репродукция той же картины, что в исходном буклете. Из мастера подготовлено превью.",
+        "artwork": "Клод Моне. Букет подсолнухов (1881)"
+      },
+      "imageBox": [
+        341,
+        1,
+        459,
+        132
+      ]
+    },
+    "7-8-06-4": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 0,
+      "xref": 26,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Van_Gogh_-_Zw%C3%B6lf_Sonnenblumen_in_einer_Vase.jpeg",
+        "author": "Vincent van Gogh",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "nativePixels": [
+          1280,
+          1673
+        ],
+        "file": "detail/7-8-06-4.webp",
+        "previewMax": 384,
+        "processing": "Крупная репродукция той же картины, что в исходном буклете. Из мастера подготовлено превью.",
+        "artwork": "Винсент ван Гог. Подсолнухи (1888), Новая пинакотека, Мюнхен"
+      },
+      "imageBox": [
+        475,
+        1,
+        593,
+        132
+      ]
+    },
+    "7-8-06-5": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 0,
+      "xref": 26,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Gauguin,_Paul_-_Sunflowers.jpg",
+        "author": "Paul Gauguin",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "nativePixels": [
+          1280,
+          1005
+        ],
+        "file": "detail/7-8-06-5.webp",
+        "previewMax": 384,
+        "processing": "Крупная репродукция той же картины, что в исходном буклете. Из мастера подготовлено превью.",
+        "artwork": "Поль Гоген. Подсолнечники (1901), Государственный Эрмитаж"
+      },
+      "imageBox": [
+        608,
+        1,
+        797,
+        132
+      ]
+    },
+    "7-8-09-1": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 0,
+      "xref": 27,
+      "detail": {
+        "file": "detail/7-8-09-1.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Hazelwood_Power_Station_seen_from_the_air.jpg",
+        "author": "Mriya",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "nativePixels": [
+          1280,
+          960
+        ],
+        "previewMax": 384,
+        "processing": "Подготовлены мастер и веб-превью документированной фотографии показанного объекта или вида."
+      },
+      "imageBox": [
+        4,
+        1,
+        156,
+        108
+      ]
+    },
+    "7-8-09-2": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 0,
+      "xref": 27,
+      "detail": {
+        "file": "detail/7-8-09-2.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Gordon_Dam.jpg",
+        "author": "JJ Harrison",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "nativePixels": [
+          1280,
+          1947
+        ],
+        "previewMax": 384,
+        "processing": "Подготовлены мастер и веб-превью документированной фотографии показанного объекта или вида."
+      },
+      "imageBox": [
+        164,
+        1,
+        316,
+        108
+      ]
+    },
+    "7-8-09-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 0,
+      "xref": 27,
+      "detail": {
+        "file": "detail/7-8-09-3.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Albany_Wind_Farm,_Western_Australia.jpg",
+        "author": "Nachoman-au",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "nativePixels": [
+          1280,
+          960
+        ],
+        "previewMax": 384,
+        "processing": "Подготовлены мастер и веб-превью документированной фотографии показанного объекта или вида."
+      },
+      "imageBox": [
+        324,
+        1,
+        476,
+        108
+      ]
+    },
+    "7-8-09-4": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 0,
+      "xref": 27,
+      "detail": {
+        "file": "detail/7-8-09-4.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Nyngan_Solar_Plant_Photo.jpg",
+        "author": "DiamondIIIXX",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "nativePixels": [
+          1280,
+          853
+        ],
+        "previewMax": 384,
+        "processing": "Подготовлены мастер и веб-превью документированной фотографии показанного объекта или вида."
+      },
+      "imageBox": [
+        484,
+        1,
+        636,
+        108
+      ]
+    },
+    "7-8-09-5": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 0,
+      "xref": 27,
+      "detail": {
+        "file": "detail/7-8-09-5.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Rance_tidal_power_station.jpg",
+        "author": "Stephanemartin",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "nativePixels": [
+          1280,
+          960
+        ],
+        "previewMax": 384,
+        "processing": "Подготовлены мастер и веб-превью документированной фотографии показанного объекта или вида."
+      },
+      "imageBox": [
+        644,
+        1,
+        796,
+        108
+      ]
+    },
+    "7-8-11-2": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 1,
+      "xref": 33,
+      "detail": {
+        "author": "Вильгельм Хаагер · worldflags / CTAN",
+        "source": "https://ctan.org/pkg/worldflags",
+        "license": "Государственные символы. Пакет worldflags под лицензией LPPL.",
+        "processing": "Содержание и обозначения перенесены из исходного кадра.",
+        "file": "7-8-11-2.svg"
+      }
+    },
+    "7-8-11-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 1,
+      "xref": 32,
+      "detail": {
+        "author": "Вильгельм Хаагер · worldflags / CTAN",
+        "source": "https://ctan.org/pkg/worldflags",
+        "license": "Государственные символы. Пакет worldflags под лицензией LPPL.",
+        "processing": "Содержание и обозначения перенесены из исходного кадра.",
+        "file": "7-8-11-3.svg"
+      }
+    },
+    "7-8-14-1": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 1,
+      "xref": 34,
+      "detail": {
+        "file": "detail/7-8-14-1.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Palm_Cockatoo_RWD.jpg",
+        "author": "DickDaniels ( http://theworldbirds.org/ )",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "nativePixels": [
+          1280,
+          960
+        ],
+        "previewMax": 384,
+        "processing": "Подготовлены мастер и веб-превью документированной фотографии показанного объекта или вида."
+      },
+      "imageBox": [
+        6,
+        1,
+        156,
+        103
+      ]
+    },
+    "7-8-14-2": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 1,
+      "xref": 34,
+      "detail": {
+        "file": "detail/7-8-14-2.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Laughing_Kookaburra_1.jpg",
+        "author": "Photo by: Paulweberphoto - paulweberphoto.com",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "nativePixels": [
+          1280,
+          1920
+        ],
+        "previewMax": 384,
+        "processing": "Подготовлены мастер и веб-превью документированной фотографии показанного объекта или вида."
+      },
+      "imageBox": [
+        166,
+        1,
+        316,
+        103
+      ]
+    },
+    "7-8-14-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 1,
+      "xref": 34,
+      "detail": {
+        "file": "detail/7-8-14-3.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Melopsittacus_undulatus_-blue_-pet-8.jpg",
+        "author": "Anne Hornyak from USA",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "nativePixels": [
+          1280,
+          1920
+        ],
+        "previewMax": 384,
+        "processing": "Подготовлены мастер и веб-превью документированной фотографии показанного объекта или вида."
+      },
+      "imageBox": [
+        326,
+        1,
+        476,
+        103
+      ]
+    },
+    "7-8-14-4": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 1,
+      "xref": 34,
+      "detail": {
+        "file": "detail/7-8-14-4.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Cracticus_tibicen_hypoleuca_male_domain.jpg",
+        "author": "JJ Harrison ( https://www.jjharrison.com.au/ )",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "nativePixels": [
+          1280,
+          1313
+        ],
+        "previewMax": 384,
+        "processing": "Подготовлены мастер и веб-превью документированной фотографии показанного объекта или вида."
+      },
+      "imageBox": [
+        486,
+        1,
+        636,
+        103
+      ]
+    },
+    "7-8-14-5": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 1,
+      "xref": 34,
+      "detail": {
+        "file": "detail/7-8-14-5.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Goura_victoria_LC0384.jpg",
+        "author": "Jörg Hempel",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+        "nativePixels": [
+          1280,
+          1280
+        ],
+        "previewMax": 384,
+        "processing": "Подготовлены мастер и веб-превью документированной фотографии показанного объекта или вида."
+      },
+      "imageBox": [
+        646,
+        1,
+        796,
+        103
+      ]
+    },
+    "7-8-15": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 1,
+      "xref": 30,
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "https://www.konkurs-chip.ru/files/arhiv/chip_2019-20_7-8.pdf#page=2",
+        "license": "Редакционная реконструкция Olympiads.pro",
+        "processing": "Силуэт, ствол и разветвление сверены с буклетом.",
+        "file": "7-8-15.svg"
+      }
+    },
+    "7-8-17-1": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 2,
+      "xref": 37,
+      "detail": {
+        "file": "detail/7-8-17-1.webp",
+        "source": "https://madeniportal.kz/article/3764",
+        "author": "Стэнли Моррисон (Stanley Morrison) · Gryphon",
+        "license": "Открытая лицензия на иллюстрацию не указана",
+        "nativePixels": [
+          445,
+          500
+        ],
+        "previewMax": 384,
+        "processing": "Цифровая иллюстрация из буклета сверена с авторским каталогом. Использована более крупная публикация в том же зеркальном развороте, что и в буклете.",
+        "additionalSources": [
+          {
+            "source": "https://madeniportal.kz/article/3764",
+            "author": "Стэнли Моррисон (Stanley Morrison) · Gryphon",
+            "license": "Открытая лицензия на иллюстрацию не указана"
+          },
+          {
+            "source": "https://stanley-morrison.pixels.com/featured/gryphon-stanley-morrison.html",
+            "author": "Стэнли Моррисон · авторская карточка Gryphon",
+            "license": "Открытая лицензия на иллюстрацию не указана"
+          }
+        ]
+      },
+      "imageBox": [
+        4,
+        1,
+        156,
+        134
+      ]
+    },
+    "7-8-17-4": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 2,
+      "xref": 37,
+      "detail": {
+        "file": "detail/7-8-17-4.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Sarcophilus_harrisii_taranna.jpg",
+        "author": "JJ Harrison ( https://www.jjharrison.com.au/ )",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "nativePixels": [
+          2200,
+          1435
+        ],
+        "previewMax": 384,
+        "processing": "Подготовлены мастер и веб-превью документированной фотографии показанного объекта или вида."
+      },
+      "imageBox": [
+        484,
+        1,
+        636,
+        134
+      ]
+    },
+    "7-8-17-5": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 2,
+      "xref": 37,
+      "detail": {
+        "file": "detail/7-8-17-5.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Grey_headed_flying_fox_-_in_flight_-_AndrewMercer_IMG41482.jpg",
+        "author": "Andrew Mercer (www.baldwhiteguy.co.nz)",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "nativePixels": [
+          1280,
+          867
+        ],
+        "previewMax": 384,
+        "processing": "Подготовлены мастер и веб-превью документированной фотографии показанного объекта или вида."
+      },
+      "imageBox": [
+        644,
+        1,
+        796,
+        134
+      ]
+    },
+    "7-8-19-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 2,
+      "xref": 38,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_7-8.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/7-8-19-3.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        324,
+        1,
+        476,
+        133
+      ]
+    },
+    "7-8-19-5": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 2,
+      "xref": 38,
+      "detail": {
+        "author": "Изображение из буклета ЧИП",
+        "source": "2019/chip_2019-20_7-8.pdf",
+        "license": "В архивном источнике отдельная лицензия не указана.",
+        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
+        "file": "detail/7-8-19-5.webp",
+        "previewMax": 122
+      },
+      "imageBox": [
+        644,
+        1,
+        796,
+        133
+      ]
+    },
+    "7-8-24-1": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 2,
+      "xref": 39,
+      "detail": {
+        "file": "detail/7-8-24-1.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:New_Zealand_Falcon_07.jpg",
+        "author": "Rosa Stewart",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "nativePixels": [
+          1280,
+          960
+        ],
+        "previewMax": 384,
+        "processing": "Подготовлены мастер и веб-превью документированной фотографии показанного объекта или вида."
+      },
+      "imageBox": [
+        6,
+        1,
+        156,
+        96
+      ]
+    },
+    "7-8-24-2": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 2,
+      "xref": 39,
+      "detail": {
+        "file": "detail/7-8-24-2.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:K%C4%81k%C4%81p%C5%8D_at_Dunedin_Wildlife_Hospital.jpg",
+        "author": "Kimberley Collins",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "nativePixels": [
+          1280,
+          853
+        ],
+        "previewMax": 384,
+        "processing": "Подготовлены мастер и веб-превью документированной фотографии показанного объекта или вида."
+      },
+      "imageBox": [
+        166,
+        1,
+        316,
+        96
+      ]
+    },
+    "7-8-24-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 2,
+      "xref": 39,
+      "detail": {
+        "file": "detail/7-8-24-3.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Nestor_notabilis_-Fiordland,_New_Zealand-8b.jpg",
+        "author": "Mark Whatmough",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "nativePixels": [
+          3888,
+          2592
+        ],
+        "previewMax": 384,
+        "processing": "Подготовлены мастер и веб-превью документированной фотографии показанного объекта или вида."
+      },
+      "imageBox": [
+        326,
+        1,
+        476,
+        96
+      ]
+    },
+    "7-8-24-4": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 2,
+      "xref": 39,
+      "detail": {
+        "file": "detail/7-8-24-4.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Tui_(Prosthemadera_novaeseelandiae)_Tiritiri_Matangi.jpg",
+        "author": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "nativePixels": [
+          1280,
+          1707
+        ],
+        "previewMax": 384,
+        "processing": "Подготовлены мастер и веб-превью документированной фотографии показанного объекта или вида."
+      },
+      "imageBox": [
+        486,
+        1,
+        636,
+        96
+      ]
+    },
+    "7-8-24-5": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 2,
+      "xref": 39,
+      "detail": {
+        "file": "detail/7-8-24-5.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Callaeas_wilsoni,_Tiritiri_Matangi_Island_1.jpg",
+        "author": "Duncan from Wellington, NZ",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "nativePixels": [
+          1280,
+          853
+        ],
+        "previewMax": 384,
+        "processing": "Кадрирование вокруг птицы. Подготовлены мастер и веб-превью документированной фотографии показанного объекта или вида."
+      },
+      "imageBox": [
+        646,
+        1,
+        796,
+        96
+      ]
+    },
+    "7-8-25": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 3,
+      "xref": 44,
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "https://www.konkurs-chip.ru/files/arhiv/chip_2019-20_7-8.pdf",
+        "license": "Редакционная реконструкция Olympiads.pro",
+        "processing": "Дорога, столб и деления шкалы перерисованы по фотографии буклета.",
+        "file": "7-8-25.svg"
+      }
+    },
+    "7-8-27": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 3,
+      "xref": 43,
+      "detail": {
+        "file": "detail/7-8-27.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Woomeras_(spear-throwers)_at_American_Museum_of_Natural_History.jpg",
+        "author": "Vicpeters · экспонат Американского музея естественной истории",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "nativePixels": [
+          4032,
+          3024
+        ],
+        "previewMax": 384,
+        "processing": "Кадрирование фотографии музейной витрины без интерполяции. Снимок показывает один экземпляр с тёмной рукоятью и выступом на противоположном конце."
+      },
+      "imageBox": [
+        0,
+        0,
+        274,
+        184
+      ]
+    },
+    "7-8-29": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+      "page": 3,
+      "xref": 42,
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2019/chip_2019-20_7-8.pdf",
+        "license": "Векторная реконструкция по архиву",
+        "processing": "Вручную перерисованы все три ряда отпечатков и продольные следы хвоста. Положение и направления перенесены из исходного рисунка.",
+        "file": "7-8-29.svg"
+      }
+    },
+    "africa-photo-motorboat": {
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Bateau_semi-rigide.jpg",
+        "author": "Filo gèn'",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "processing": "Фотография моторной лодки, уменьшенная из подлинного файла. Сохранён тип судна из варианта Г.",
+        "file": "detail/africa-photo-motorboat.webp"
+      }
+    },
+    "9-11-03-1": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 0,
+      "xref": 21,
+      "detail": {
+        "file": "detail/9-11-03-1.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Gfp-red-kangaroo-side.jpg",
+        "author": "Yinan Chen",
+        "license": "Public Domain",
+        "licenseUrl": "https://web.archive.org/web/20230926203737/https://creativecommons.org/licenses/publicdomain/",
+        "nativePixels": [
+          1280,
+          853
+        ],
+        "previewMax": 384,
+        "processing": "Подготовлены мастер и веб-превью документированной фотографии показанного объекта или вида."
+      },
+      "imageBox": [
+        4,
+        1,
+        156,
+        111
+      ]
+    },
+    "9-11-03-2": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 0,
+      "xref": 21,
+      "detail": {
+        "file": "detail/9-11-03-2.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Agile_Wallaby_pair_-_East_Point_Reserve.jpg",
+        "author": "JJ Harrison ( https://www.jjharrison.com.au/ )",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "nativePixels": [
+          1280,
+          853
+        ],
+        "previewMax": 384,
+        "processing": "Подготовлены мастер и веб-превью документированной фотографии показанного объекта или вида."
+      },
+      "imageBox": [
+        164,
+        1,
+        316,
+        111
+      ]
+    },
+    "9-11-03-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 0,
+      "xref": 21,
+      "detail": {
+        "file": "detail/9-11-03-3.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:AntilopineWallerooLargeMale.jpg",
+        "author": "Djambalawa",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "nativePixels": [
+          1280,
+          1680
+        ],
+        "previewMax": 384,
+        "processing": "Подготовлены мастер и веб-превью документированной фотографии показанного объекта или вида."
+      },
+      "imageBox": [
+        324,
+        1,
+        476,
+        111
+      ]
+    },
+    "9-11-03-4": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 0,
+      "xref": 21,
+      "detail": {
+        "file": "detail/9-11-03-4.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Parma_Wallaby_Macropus_parma.jpg",
+        "author": "Drew Avery",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "nativePixels": [
+          1280,
+          1017
+        ],
+        "previewMax": 384,
+        "processing": "Подготовлены мастер и веб-превью документированной фотографии показанного объекта или вида."
+      },
+      "imageBox": [
+        484,
+        1,
+        636,
+        111
+      ]
+    },
+    "9-11-03-5": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 0,
+      "xref": 21,
+      "detail": {
+        "file": "detail/9-11-03-5.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Euro_kangaroo.jpg",
+        "author": "Caroline Jones",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "nativePixels": [
+          1280,
+          850
+        ],
+        "previewMax": 384,
+        "processing": "Подготовлены мастер и веб-превью документированной фотографии показанного объекта или вида."
+      },
+      "imageBox": [
+        644,
+        1,
+        796,
+        111
+      ]
+    },
+    "9-11-06-1": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 0,
+      "xref": 22,
+      "detail": {
+        "file": "detail/9-11-06-1.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Pelecanus_conspicillatus_-_Doughboy_Head.jpg",
+        "author": "JJ Harrison ( https://tiny.jjharrison.com.au/t/j7XQOlEZP52BDn8g )",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "nativePixels": [
+          1280,
+          1600
+        ],
+        "previewMax": 384,
+        "processing": "Подготовлены мастер и веб-превью документированной фотографии показанного объекта или вида."
+      },
+      "imageBox": [
+        6,
+        1,
+        156,
+        124
+      ]
+    },
+    "9-11-06-2": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 0,
+      "xref": 22,
+      "detail": {
+        "file": "detail/9-11-06-2.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Apteryx_mantelli_-Rotorua,_North_Island,_New_Zealand-8a.jpg",
+        "author": "The.Rohit",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "nativePixels": [
+          1280,
+          960
+        ],
+        "previewMax": 384,
+        "processing": "Подготовлены мастер и веб-превью документированной фотографии показанного объекта или вида."
+      },
+      "imageBox": [
+        166,
+        1,
+        316,
+        124
+      ]
+    },
+    "9-11-06-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 0,
+      "xref": 22,
+      "detail": {
+        "file": "detail/9-11-06-3.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:New_Zealand_pigeon_(Hemiphaga_novaeseelandiae)_Waitakere.jpg",
+        "author": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "nativePixels": [
+          1280,
+          1707
+        ],
+        "previewMax": 384,
+        "processing": "Подготовлены мастер и веб-превью документированной фотографии показанного объекта или вида."
+      },
+      "imageBox": [
+        326,
+        1,
+        476,
+        124
+      ]
+    },
+    "9-11-06-4": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 0,
+      "xref": 22,
+      "detail": {
+        "file": "detail/9-11-06-4.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Red-crowned_parakeet_(Cyanoramphus_novaezelandiae)_Tiritiri_Matangi.jpg",
+        "author": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "nativePixels": [
+          1280,
+          854
+        ],
+        "previewMax": 384,
+        "processing": "Подготовлены мастер и веб-превью документированной фотографии показанного объекта или вида."
+      },
+      "imageBox": [
+        486,
+        1,
+        636,
+        124
+      ]
+    },
+    "9-11-06-5": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 0,
+      "xref": 22,
+      "detail": {
+        "file": "detail/9-11-06-5.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Kakapo_Trevor_feeding_on_poroporo_fruit.jpg",
+        "author": "Don Merton · Department of Conservation",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "nativePixels": [
+          807,
+          538
+        ],
+        "previewMax": 384,
+        "processing": "Подготовлены мастер и веб-превью документированной фотографии показанного объекта или вида."
+      },
+      "imageBox": [
+        646,
+        1,
+        796,
+        124
+      ]
+    },
+    "9-11-09": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 1,
+      "xref": 25,
+      "detail": {
+        "file": "detail/9-11-09.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Satin_bowerbird_bower,_Lamington_National_Park.jpg",
+        "author": "chujoslaw",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "nativePixels": [
+          1280,
+          853
+        ],
+        "previewMax": 384,
+        "processing": "Подготовлены мастер и веб-превью документированной фотографии показанного объекта или вида."
+      },
+      "imageBox": [
+        0,
+        0,
+        200,
+        161
+      ]
+    },
+    "9-11-10-1": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 1,
+      "xref": 26,
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2019/chip_2019-20_9-10.pdf",
+        "license": "Векторная реконструкция по архиву",
+        "processing": "Содержание и обозначения перенесены из исходного кадра.",
+        "file": "9-11-10-1.svg"
+      }
+    },
+    "9-11-10-2": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 1,
+      "xref": 26,
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2019/chip_2019-20_9-10.pdf",
+        "license": "Векторная реконструкция по архиву",
+        "processing": "Содержание и обозначения перенесены из исходного кадра.",
+        "file": "9-11-10-2.svg"
+      }
+    },
+    "9-11-10-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 1,
+      "xref": 26,
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2019/chip_2019-20_9-10.pdf",
+        "license": "Векторная реконструкция по архиву",
+        "processing": "Содержание и обозначения перенесены из исходного кадра.",
+        "file": "9-11-10-3.svg"
+      }
+    },
+    "9-11-10-4": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 1,
+      "xref": 26,
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2019/chip_2019-20_9-10.pdf",
+        "license": "Векторная реконструкция по архиву",
+        "processing": "Содержание и обозначения перенесены из исходного кадра.",
+        "file": "9-11-10-4.svg"
+      }
+    },
+    "9-11-10-5": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 1,
+      "xref": 26,
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2019/chip_2019-20_9-10.pdf",
+        "license": "Векторная реконструкция по архиву",
+        "processing": "Содержание и обозначения перенесены из исходного кадра.",
+        "file": "9-11-10-5.svg"
+      }
+    },
+    "9-11-11-1": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 1,
+      "xref": 27,
+      "detail": {
+        "author": "Вильгельм Хаагер · worldflags / CTAN",
+        "source": "https://ctan.org/pkg/worldflags",
+        "license": "Государственные символы. Пакет worldflags под лицензией LPPL.",
+        "processing": "Содержание и обозначения перенесены из исходного кадра.",
+        "file": "9-11-11-1.svg"
+      }
+    },
+    "9-11-11-2": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 1,
+      "xref": 27,
+      "detail": {
+        "author": "Вильгельм Хаагер · worldflags / CTAN",
+        "source": "https://ctan.org/pkg/worldflags",
+        "license": "Государственные символы. Пакет worldflags под лицензией LPPL.",
+        "processing": "Содержание и обозначения перенесены из исходного кадра.",
+        "file": "9-11-11-2.svg"
+      }
+    },
+    "9-11-11-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 1,
+      "xref": 27,
+      "detail": {
+        "author": "Гарольд Томас; рисунок Olympiads.pro",
+        "source": "https://www.pmc.gov.au/government/australian-national-symbols/australian-aboriginal-flag",
+        "license": "Государственный символ Австралии. Права переданы Содружеству Австралии.",
+        "processing": "Содержание и обозначения перенесены из исходного кадра.",
+        "file": "9-11-11-3.svg"
+      }
+    },
+    "9-11-11-4": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 1,
+      "xref": 27,
+      "detail": {
+        "author": "Вильгельм Хаагер · worldflags / CTAN",
+        "source": "https://ctan.org/pkg/worldflags",
+        "license": "Государственные символы. Пакет worldflags под лицензией LPPL.",
+        "processing": "Содержание и обозначения перенесены из исходного кадра.",
+        "file": "9-11-11-4.svg"
+      }
+    },
+    "9-11-11-5": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 1,
+      "xref": 27,
+      "detail": {
+        "author": "Вильгельм Хаагер · worldflags / CTAN",
+        "source": "https://ctan.org/pkg/worldflags",
+        "license": "Государственные символы. Пакет worldflags под лицензией LPPL.",
+        "processing": "Содержание и обозначения перенесены из исходного кадра.",
+        "file": "9-11-11-5.svg"
+      }
+    },
+    "9-11-14-1": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 1,
+      "xref": 28,
+      "detail": {
+        "source": "https://buehrle.ch/kunstwerke/die-strasse/",
+        "author": "Paul Gauguin",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "nativePixels": [
+          1533,
+          1800
+        ],
+        "file": "detail/9-11-14-1.webp",
+        "previewMax": 384,
+        "processing": "Крупная репродукция той же картины, что в исходном буклете. Из мастера подготовлено превью.",
+        "artwork": "Поль Гоген. Дорога в гору (1884)"
+      },
+      "imageBox": [
+        4,
+        1,
+        156,
+        142
+      ]
+    },
+    "9-11-14-2": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 1,
+      "xref": 28,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Paul_Gauguin_-_Tahitian_Landscape_-_Google_Art_Project.jpg",
+        "author": "Paul Gauguin",
+        "license": "Public domain",
+        "nativePixels": [
+          5751,
+          4205
+        ],
+        "file": "detail/9-11-14-2.webp",
+        "previewMax": 384,
+        "processing": "Крупная репродукция той же картины, что в исходном буклете. Из мастера подготовлено превью.",
+        "artwork": "Поль Гоген. Таитянский пейзаж (1891)"
+      },
+      "imageBox": [
+        164,
+        1,
+        316,
+        142
+      ]
+    },
+    "9-11-14-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 1,
+      "xref": 28,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Paul_Gauguin_044.jpg",
+        "author": "Paul Gauguin",
+        "license": "Public domain",
+        "nativePixels": [
+          3176,
+          2412
+        ],
+        "file": "detail/9-11-14-3.webp",
+        "previewMax": 384,
+        "processing": "Крупная репродукция той же картины, что в исходном буклете. Из мастера подготовлено превью.",
+        "artwork": "Поль Гоген. Сиеста (ок. 1892–1894)"
+      },
+      "imageBox": [
+        324,
+        1,
+        476,
+        142
+      ]
+    },
+    "9-11-14-4": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 1,
+      "xref": 28,
+      "detail": {
+        "source": "https://www.meisterdrucke.fr/fine-art-prints/Paul-Gauguin/930969/Les-trois-huttes%2C-Tahiti.html",
+        "author": "Paul Gauguin",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "nativePixels": [
+          1260,
+          772
+        ],
+        "file": "detail/9-11-14-4.webp",
+        "previewMax": 384,
+        "processing": "Крупная репродукция той же картины, что в исходном буклете. Из мастера подготовлено превью.",
+        "artwork": "Поль Гоген. Три хижины, Таити (1891–1892)"
+      },
+      "imageBox": [
+        484,
+        1,
+        636,
+        142
+      ]
+    },
+    "9-11-14-5": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 1,
+      "xref": 28,
+      "detail": {
+        "source": "https://www.wikiart.org/en/paul-gauguin/hut-under-the-coconut-palms",
+        "author": "Paul Gauguin",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "nativePixels": [
+          842,
+          1112
+        ],
+        "file": "detail/9-11-14-5.webp",
+        "previewMax": 384,
+        "processing": "Крупная репродукция той же картины, что в исходном буклете. Из мастера подготовлено превью.",
+        "artwork": "Поль Гоген. Хижина под кокосовыми пальмами (1894)"
+      },
+      "imageBox": [
+        644,
+        1,
+        796,
+        142
+      ]
+    },
+    "9-11-17-1": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 2,
+      "xref": 33,
+      "detail": {
+        "file": "detail/9-11-17-1.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Grevillea_robusta_flowers_01.jpg",
+        "author": "RickP",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+        "nativePixels": [
+          1280,
+          960
+        ],
+        "previewMax": 384,
+        "processing": "Подготовлены мастер и веб-превью документированной фотографии показанного объекта или вида."
+      },
+      "imageBox": [
+        4,
+        1,
+        176,
+        138
+      ]
+    },
+    "9-11-17-2": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 2,
+      "xref": 33,
+      "detail": {
+        "file": "detail/9-11-17-2.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Corymbia_ficifolia_Flowers.jpg",
+        "author": "JJ Harrison ( https://www.jjharrison.com.au/ )",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "nativePixels": [
+          1280,
+          1709
+        ],
+        "previewMax": 384,
+        "processing": "Подготовлены мастер и веб-превью документированной фотографии показанного объекта или вида."
+      },
+      "imageBox": [
+        184,
+        1,
+        356,
+        138
+      ]
+    },
+    "9-11-17-3": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 2,
+      "xref": 33,
+      "detail": {
+        "file": "detail/9-11-17-3.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Albizia_julibrissin_flower.jpg",
+        "author": "Taylo33p",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "nativePixels": [
+          1280,
+          853
+        ],
+        "previewMax": 384,
+        "processing": "Подготовлены мастер и веб-превью документированной фотографии показанного объекта или вида."
+      },
+      "imageBox": [
+        364,
+        1,
+        536,
+        138
+      ]
+    },
+    "9-11-17-4": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 2,
+      "xref": 33,
+      "detail": {
+        "file": "detail/9-11-17-4.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Callistemon_citrinus-0878.jpg",
+        "author": "DirkHoffmann",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "nativePixels": [
+          1280,
+          853
+        ],
+        "previewMax": 384,
+        "processing": "Подготовлены мастер и веб-превью документированной фотографии показанного объекта или вида."
+      },
+      "imageBox": [
+        544,
+        1,
+        716,
+        138
+      ]
+    },
+    "9-11-17-5": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 2,
+      "xref": 33,
+      "detail": {
+        "file": "detail/9-11-17-5.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Melaleuca_quinquenervia_flowers.jpg",
+        "author": "Geoff Derrin",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "nativePixels": [
+          1280,
+          960
+        ],
+        "previewMax": 384,
+        "processing": "Подготовлены мастер и веб-превью документированной фотографии показанного объекта или вида."
+      },
+      "imageBox": [
+        724,
+        1,
+        896,
+        138
+      ]
+    },
+    "9-11-19": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 2,
+      "xref": 32,
+      "detail": {
+        "file": "detail/9-11-19.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Brachychiton_rupestris_01.jpg",
+        "author": "Danielle Langlois",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "nativePixels": [
+          1280,
+          1707
+        ],
+        "previewMax": 384,
+        "processing": "Подготовлены мастер и веб-превью документированной фотографии показанного объекта или вида."
+      },
+      "imageBox": [
+        0,
+        0,
+        385,
+        289
+      ]
+    },
+    "9-11-25": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 2,
+      "xref": 31,
+      "detail": {
+        "author": "Векторная перерисовка Olympiads.pro",
+        "source": "2019/chip_2019-20_9-10.pdf",
+        "license": "Векторная реконструкция по архиву",
+        "processing": "Вручную восстановлены центральное кольцо и восемь открытых в его сторону дуг, как в исходном рисунке.",
+        "file": "9-11-25.svg"
+      }
+    },
+    "9-11-29": {
+      "sourceFile": "../../../dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+      "page": 3,
+      "xref": 43,
+      "detail": {
+        "source": "https://commons.wikimedia.org/wiki/File:Rock-Islands-Palau-1-2016-aerial-view-Luka-Peternel.jpg",
+        "author": "Luka Peternel",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "nativePixels": [
+          5472,
+          3648
+        ],
+        "file": "detail/9-11-29.webp",
+        "previewMax": 384,
+        "processing": "Крупная фотография того же вида или объекта. Из мастера подготовлена уменьшенная версия для карточки."
+      },
+      "imageBox": [
+        0,
+        0,
+        250,
+        146
+      ]
     }
   }
 }

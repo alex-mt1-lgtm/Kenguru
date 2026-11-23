@@ -1,0 +1,1598 @@
+{
+  "checkedOn": "2026-11-23",
+  "subject": "Человек и природа",
+  "counts": {
+    "schoolBooklets": 59,
+    "withKey": 54,
+    "interactive": 59,
+    "interactiveQuestions": 1636,
+    "preschoolBookletsConfirmed": 8
+  },
+  "school": [
+    {
+      "year": 2010,
+      "grade": "1-2",
+      "title": "Земля — наш общий дом",
+      "date": "2010-04-15",
+      "problemCount": 20,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "archive": {
+        "tasks": "dist/assets/chip/2010/1-2_2010.pdf",
+        "answers": "dist/assets/chip/2010/answers_2010.pdf",
+        "solutions": "dist/assets/chip/2010/1-2kom2010.pdf"
+      },
+      "interactive": "sources/chip/2010/1-2.json",
+      "interactiveQuestions": 20
+    },
+    {
+      "year": 2010,
+      "grade": "3-4",
+      "title": "Земля — наш общий дом",
+      "date": "2010-04-15",
+      "problemCount": 30,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "archive": {
+        "tasks": "dist/assets/chip/2010/3-4_2010.pdf",
+        "answers": "dist/assets/chip/2010/answers_2010.pdf",
+        "solutions": "dist/assets/chip/2010/3-4kom2010.pdf"
+      },
+      "interactive": "sources/chip/2010/3-4.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2010,
+      "grade": "5-6",
+      "title": "Земля — наш общий дом",
+      "date": "2010-04-15",
+      "problemCount": 30,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "archive": {
+        "tasks": "dist/assets/chip/2010/5-6_2010.pdf",
+        "answers": "dist/assets/chip/2010/answers_2010.pdf"
+      },
+      "interactive": "sources/chip/2010/5-6.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2011,
+      "grade": "1-2",
+      "title": "Человек и природа",
+      "date": "2011-04-21",
+      "problemCount": 20,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "archive": {
+        "tasks": "dist/assets/chip/2011/1-2_2011.pdf",
+        "answers": "dist/assets/chip/2011/answers_2011.pdf",
+        "solutions": "dist/assets/chip/2011/1-2kom2011.pdf"
+      },
+      "interactive": "sources/chip/2011/1-2.json",
+      "interactiveQuestions": 20
+    },
+    {
+      "year": 2011,
+      "grade": "3-4",
+      "title": "Человек и природа",
+      "date": "2011-04-21",
+      "problemCount": 30,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "archive": {
+        "tasks": "dist/assets/chip/2011/3-4_2011.pdf",
+        "answers": "dist/assets/chip/2011/answers_2011.pdf",
+        "solutions": "dist/assets/chip/2011/3-4kom2011.pdf"
+      },
+      "interactive": "sources/chip/2011/3-4.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2011,
+      "grade": "5-6",
+      "title": "Человек и природа",
+      "date": "2011-04-21",
+      "problemCount": 30,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "archive": {
+        "tasks": "dist/assets/chip/2011/5-6_2011.pdf",
+        "answers": "dist/assets/chip/2011/answers_2011.pdf",
+        "solutions": "dist/assets/chip/2011/5-6kom2011.pdf"
+      },
+      "interactive": "sources/chip/2011/5-6.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2011,
+      "grade": "7-8",
+      "title": "Человек и природа",
+      "date": "2011-04-21",
+      "problemCount": 30,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "archive": {
+        "tasks": "dist/assets/chip/2011/7-8_2011.pdf",
+        "answers": "dist/assets/chip/2011/answers_2011.pdf",
+        "solutions": "dist/assets/chip/2011/7-8kom2011.pdf"
+      },
+      "interactive": "sources/chip/2011/7-8.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2011,
+      "grade": "9-10",
+      "title": "Человек и природа",
+      "date": "2011-04-21",
+      "problemCount": 30,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "archive": {
+        "tasks": "dist/assets/chip/2011/9-10_2011.pdf",
+        "answers": "dist/assets/chip/2011/answers_2011.pdf",
+        "solutions": "dist/assets/chip/2011/9-10kom2011.pdf"
+      },
+      "interactive": "sources/chip/2011/9-10.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2012,
+      "grade": "1-2",
+      "title": "Человек и природа",
+      "date": "2012-04-19",
+      "problemCount": 20,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "archive": {
+        "tasks": "dist/assets/chip/2012/1-2_2012.pdf",
+        "answers": "dist/assets/chip/2012/answers_2012.pdf",
+        "solutions": "dist/assets/chip/2012/1-2kom2012.pdf"
+      },
+      "interactive": "sources/chip/2012/1-2.json",
+      "interactiveQuestions": 20
+    },
+    {
+      "year": 2012,
+      "grade": "3-4",
+      "title": "Человек и природа",
+      "date": "2012-04-19",
+      "problemCount": 30,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "archive": {
+        "tasks": "dist/assets/chip/2012/3-4_2012.pdf",
+        "answers": "dist/assets/chip/2012/answers_2012.pdf"
+      },
+      "interactive": "sources/chip/2012/3-4.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2012,
+      "grade": "5-6",
+      "title": "Человек и природа",
+      "date": "2012-04-19",
+      "problemCount": 30,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "archive": {
+        "tasks": "dist/assets/chip/2012/5-6_2012.pdf",
+        "answers": "dist/assets/chip/2012/answers_2012.pdf"
+      },
+      "interactive": "sources/chip/2012/5-6.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2012,
+      "grade": "7-8",
+      "title": "Человек и природа",
+      "date": "2012-04-19",
+      "problemCount": 30,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "archive": {
+        "tasks": "dist/assets/chip/2012/7-8_2012.pdf",
+        "answers": "dist/assets/chip/2012/answers_2012.pdf"
+      },
+      "interactive": "sources/chip/2012/7-8.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2012,
+      "grade": "9-10",
+      "title": "Человек и природа",
+      "date": "2012-04-19",
+      "problemCount": 30,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "archive": {
+        "tasks": "dist/assets/chip/2012/9-10_2012.pdf",
+        "answers": "dist/assets/chip/2012/answers_2012.pdf"
+      },
+      "interactive": "sources/chip/2012/9-10.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2013,
+      "grade": "1-2",
+      "title": "Круговорот",
+      "date": "2013-04-18",
+      "problemCount": 20,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "archive": {
+        "tasks": "dist/assets/chip/2013/1-2_2013.pdf",
+        "answers": "dist/assets/chip/2013/answers_2013.pdf",
+        "solutions": "dist/assets/chip/2013/1-2kom2013.pdf"
+      },
+      "interactive": "sources/chip/2013/1-2.json",
+      "interactiveQuestions": 20
+    },
+    {
+      "year": 2013,
+      "grade": "3-4",
+      "title": "Круговорот",
+      "date": "2013-04-18",
+      "problemCount": 30,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "archive": {
+        "tasks": "dist/assets/chip/2013/3-4_2013.pdf",
+        "answers": "dist/assets/chip/2013/answers_2013.pdf",
+        "solutions": "dist/assets/chip/2013/3-4kom2013.pdf"
+      },
+      "interactive": "sources/chip/2013/3-4.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2013,
+      "grade": "5-6",
+      "title": "Круговорот",
+      "date": "2013-04-18",
+      "problemCount": 30,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "archive": {
+        "tasks": "dist/assets/chip/2013/5-6_2013.pdf",
+        "answers": "dist/assets/chip/2013/answers_2013.pdf",
+        "solutions": "dist/assets/chip/2013/5-6kom2013.pdf"
+      },
+      "interactive": "sources/chip/2013/5-6.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2013,
+      "grade": "7-8",
+      "title": "Круговорот",
+      "date": "2013-04-18",
+      "problemCount": 30,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "archive": {
+        "tasks": "dist/assets/chip/2013/7-8_2013.pdf",
+        "answers": "dist/assets/chip/2013/answers_2013.pdf",
+        "solutions": "dist/assets/chip/2013/7-8kom2013.pdf"
+      },
+      "interactive": "sources/chip/2013/7-8.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2013,
+      "grade": "9-10",
+      "title": "Круговорот",
+      "date": "2013-04-18",
+      "problemCount": 30,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "archive": {
+        "tasks": "dist/assets/chip/2013/9-10_2013.pdf",
+        "answers": "dist/assets/chip/2013/answers_2013.pdf",
+        "solutions": "dist/assets/chip/2013/9-10kom2013.pdf"
+      },
+      "interactive": "sources/chip/2013/9-10.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2014,
+      "grade": "1-2",
+      "title": "Человек и природа",
+      "date": "2014-04-17",
+      "problemCount": 20,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "archive": {
+        "tasks": "dist/assets/chip/2014/1-2_2014.pdf",
+        "answers": "dist/assets/chip/2014/answers_2014.pdf"
+      },
+      "interactive": "sources/chip/2014/1-2.json",
+      "interactiveQuestions": 20
+    },
+    {
+      "year": 2014,
+      "grade": "3-4",
+      "title": "Человек и природа",
+      "date": "2014-04-17",
+      "problemCount": 30,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "archive": {
+        "tasks": "dist/assets/chip/2014/3-4_2014.pdf",
+        "answers": "dist/assets/chip/2014/answers_2014.pdf"
+      },
+      "interactive": "sources/chip/2014/3-4.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2014,
+      "grade": "5-6",
+      "title": "Человек и природа",
+      "date": "2014-04-17",
+      "problemCount": 30,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "archive": {
+        "tasks": "dist/assets/chip/2014/5-6_2014.pdf",
+        "answers": "dist/assets/chip/2014/answers_2014.pdf"
+      },
+      "interactive": "sources/chip/2014/5-6.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2014,
+      "grade": "7-8",
+      "title": "Человек и природа",
+      "date": "2014-04-17",
+      "problemCount": 30,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "archive": {
+        "tasks": "dist/assets/chip/2014/7-8_2014.pdf",
+        "answers": "dist/assets/chip/2014/answers_2014.pdf"
+      },
+      "interactive": "sources/chip/2014/7-8.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2014,
+      "grade": "9-10",
+      "title": "Человек и природа",
+      "date": "2014-04-17",
+      "problemCount": 30,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "archive": {
+        "tasks": "dist/assets/chip/2014/9-10_2014.pdf",
+        "answers": "dist/assets/chip/2014/answers_2014.pdf"
+      },
+      "interactive": "sources/chip/2014/9-10.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2015,
+      "grade": "1-2",
+      "title": "Европа",
+      "date": "2015-04-07",
+      "problemCount": 21,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "archive": {
+        "tasks": "dist/assets/chip/2015/chip_2014-15_1-2.pdf",
+        "answers": "dist/assets/chip/2015/otveti_chip_2014-15.pdf"
+      },
+      "interactive": "sources/chip/2015/1-2.json",
+      "interactiveQuestions": 21
+    },
+    {
+      "year": 2015,
+      "grade": "3-4",
+      "title": "Европа",
+      "date": "2015-04-07",
+      "problemCount": 30,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "archive": {
+        "tasks": "dist/assets/chip/2015/chip_2014-15_3-4.pdf",
+        "answers": "dist/assets/chip/2015/otveti_chip_2014-15.pdf"
+      },
+      "interactive": "sources/chip/2015/3-4.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2015,
+      "grade": "5-6",
+      "title": "Европа",
+      "date": "2015-04-07",
+      "problemCount": 30,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "archive": {
+        "tasks": "dist/assets/chip/2015/chip_2014-15_5-6.pdf",
+        "answers": "dist/assets/chip/2015/otveti_chip_2014-15.pdf"
+      },
+      "interactive": "sources/chip/2015/5-6.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2015,
+      "grade": "7-8",
+      "title": "Европа",
+      "date": "2015-04-07",
+      "problemCount": 30,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "archive": {
+        "tasks": "dist/assets/chip/2015/chip_2014-15_7-8.pdf",
+        "answers": "dist/assets/chip/2015/otveti_chip_2014-15.pdf"
+      },
+      "interactive": "sources/chip/2015/7-8.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2015,
+      "grade": "9-10",
+      "title": "Европа",
+      "date": "2015-04-07",
+      "problemCount": 30,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "archive": {
+        "tasks": "dist/assets/chip/2015/chip_2014-15_9-10.pdf",
+        "answers": "dist/assets/chip/2015/otveti_chip_2014-15.pdf"
+      },
+      "interactive": "sources/chip/2015/9-10.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2016,
+      "grade": "1-2",
+      "title": "Азия",
+      "problemCount": 20,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "archive": {
+        "tasks": "dist/assets/chip/2016/задания_ЧИП-2016-1_2класс.pdf",
+        "answers": "dist/assets/chip/2016/ответы-чип-2016.pdf"
+      },
+      "interactive": "sources/chip/2016/1-2.json",
+      "interactiveQuestions": 20
+    },
+    {
+      "year": 2016,
+      "grade": "3-4",
+      "title": "Азия",
+      "problemCount": 30,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "archive": {
+        "tasks": "dist/assets/chip/2016/задания_ЧИП-2016-3_4класс.pdf",
+        "answers": "dist/assets/chip/2016/ответы-чип-2016.pdf"
+      },
+      "interactive": "sources/chip/2016/3-4.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2016,
+      "grade": "5-6",
+      "title": "Азия",
+      "problemCount": 30,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "archive": {
+        "tasks": "dist/assets/chip/2016/задания_ЧИП-2016-5_6класс.pdf",
+        "answers": "dist/assets/chip/2016/ответы-чип-2016.pdf"
+      },
+      "interactive": "sources/chip/2016/5-6.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2016,
+      "grade": "7-8",
+      "title": "Азия",
+      "problemCount": 30,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "archive": {
+        "tasks": "dist/assets/chip/2016/задания_ЧИП-2016-7_8класс.pdf",
+        "answers": "dist/assets/chip/2016/ответы-чип-2016.pdf"
+      },
+      "interactive": "sources/chip/2016/7-8.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2016,
+      "grade": "9-10",
+      "title": "Азия",
+      "problemCount": 30,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "archive": {
+        "tasks": "dist/assets/chip/2016/задания_ЧИП-2016-9_10класс.pdf",
+        "answers": "dist/assets/chip/2016/ответы-чип-2016.pdf"
+      },
+      "interactive": "sources/chip/2016/9-10.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2017,
+      "grade": "1-2",
+      "title": "Северная Америка",
+      "problemCount": 20,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "archive": {
+        "tasks": "dist/assets/chip/2017/задания_ЧИП-2017-1_2класс.pdf",
+        "answers": "dist/assets/chip/2017/ответы_ЧИП_2017.pdf"
+      },
+      "interactive": "sources/chip/2017/1-2.json",
+      "interactiveQuestions": 20
+    },
+    {
+      "year": 2017,
+      "grade": "3-4",
+      "title": "Северная Америка",
+      "problemCount": 30,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "archive": {
+        "tasks": "dist/assets/chip/2017/задания_ЧИП-2017-3-4класс.pdf",
+        "answers": "dist/assets/chip/2017/ответы_ЧИП_2017.pdf"
+      },
+      "interactive": "sources/chip/2017/3-4.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2017,
+      "grade": "5-6",
+      "title": "Северная Америка",
+      "problemCount": 30,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "archive": {
+        "tasks": "dist/assets/chip/2017/задания_ЧИП-2017-5-6класс.pdf",
+        "answers": "dist/assets/chip/2017/ответы_ЧИП_2017.pdf"
+      },
+      "interactive": "sources/chip/2017/5-6.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2017,
+      "grade": "7-8",
+      "title": "Северная Америка",
+      "problemCount": 30,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "archive": {
+        "tasks": "dist/assets/chip/2017/задания_ЧИП-2017-7-8класс.pdf",
+        "answers": "dist/assets/chip/2017/ответы_ЧИП_2017.pdf"
+      },
+      "interactive": "sources/chip/2017/7-8.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2017,
+      "grade": "9-10",
+      "title": "Северная Америка",
+      "problemCount": 30,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "archive": {
+        "tasks": "dist/assets/chip/2017/задания_ЧИП-2017-9-10класс.pdf",
+        "answers": "dist/assets/chip/2017/ответы_ЧИП_2017.pdf"
+      },
+      "interactive": "sources/chip/2017/9-10.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2018,
+      "grade": "1-2",
+      "title": "Мир леса и Южная Америка",
+      "date": "2018-04-19",
+      "problemCount": 20,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "archive": {
+        "tasks": "dist/assets/chip/2018/чип2018_1_2класс_задания.pdf",
+        "answers": "dist/assets/chip/2018/чип2018_ответы.pdf"
+      },
+      "interactive": "sources/chip/2018/1-2.json",
+      "interactiveQuestions": 20
+    },
+    {
+      "year": 2018,
+      "grade": "3-4",
+      "title": "Южная Америка",
+      "date": "2018-04-19",
+      "problemCount": 30,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "archive": {
+        "tasks": "dist/assets/chip/2018/чип2018_3-4класс_задания.pdf",
+        "answers": "dist/assets/chip/2018/чип2018_ответы.pdf"
+      },
+      "interactive": "sources/chip/2018/3-4.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2018,
+      "grade": "5-6",
+      "title": "Южная Америка",
+      "date": "2018-04-19",
+      "problemCount": 30,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "archive": {
+        "tasks": "dist/assets/chip/2018/чип2018_5-6класс_задания.pdf",
+        "answers": "dist/assets/chip/2018/чип2018_ответы.pdf"
+      },
+      "interactive": "sources/chip/2018/5-6.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2018,
+      "grade": "7-8",
+      "title": "Южная Америка",
+      "date": "2018-04-19",
+      "problemCount": 30,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "archive": {
+        "tasks": "dist/assets/chip/2018/чип2018_7-8класс_задания.pdf",
+        "answers": "dist/assets/chip/2018/чип2018_ответы.pdf"
+      },
+      "interactive": "sources/chip/2018/7-8.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2018,
+      "grade": "9-10",
+      "title": "Южная Америка",
+      "date": "2018-04-19",
+      "problemCount": 30,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "archive": {
+        "tasks": "dist/assets/chip/2018/чип2018_9-11класс_задания.pdf",
+        "answers": "dist/assets/chip/2018/чип2018_ответы.pdf"
+      },
+      "interactive": "sources/chip/2018/9-10.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2019,
+      "grade": "1-2",
+      "session": "africa",
+      "title": "Африка",
+      "date": "2019-04-11",
+      "problemCount": 20,
+      "sourceStatus": "booklet-only",
+      "reference": [
+        "https://konkurs-chip.ru/aboutchip",
+        "https://co8a.ru/chp2019/",
+        "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/"
+      ],
+      "archive": {
+        "tasks": "dist/assets/chip/2019/africa/chip_2018-19_1-2.pdf"
+      },
+      "gap": "Вариант сохранён. Официальная таблица ответов не подтверждена.",
+      "interactive": "sources/chip/2019/africa/1-2.json",
+      "interactiveQuestions": 20
+    },
+    {
+      "year": 2019,
+      "grade": "3-4",
+      "session": "africa",
+      "title": "Африка",
+      "date": "2019-04-11",
+      "problemCount": 30,
+      "sourceStatus": "booklet-only",
+      "reference": [
+        "https://konkurs-chip.ru/aboutchip",
+        "https://co8a.ru/chp2019/",
+        "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/"
+      ],
+      "archive": {
+        "tasks": "dist/assets/chip/2019/africa/chip_2018-19_3-4.pdf"
+      },
+      "gap": "Вариант сохранён. Официальная таблица ответов не подтверждена.",
+      "interactive": "sources/chip/2019/africa/3-4.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2019,
+      "grade": "5-6",
+      "session": "africa",
+      "title": "Африка",
+      "date": "2019-04-11",
+      "problemCount": 30,
+      "sourceStatus": "booklet-only",
+      "reference": [
+        "https://konkurs-chip.ru/aboutchip",
+        "https://co8a.ru/chp2019/",
+        "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/"
+      ],
+      "archive": {
+        "tasks": "dist/assets/chip/2019/africa/chip_2018-19_5-6.pdf"
+      },
+      "gap": "Вариант сохранён. Официальная таблица ответов не подтверждена.",
+      "interactive": "sources/chip/2019/africa/5-6.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2019,
+      "grade": "7-8",
+      "session": "africa",
+      "title": "Африка",
+      "date": "2019-04-11",
+      "problemCount": 30,
+      "sourceStatus": "booklet-only",
+      "reference": [
+        "https://konkurs-chip.ru/aboutchip",
+        "https://co8a.ru/chp2019/",
+        "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/"
+      ],
+      "archive": {
+        "tasks": "dist/assets/chip/2019/africa/chip_2018-19_7-8.pdf"
+      },
+      "gap": "Вариант сохранён. Официальная таблица ответов не подтверждена.",
+      "interactive": "sources/chip/2019/africa/7-8.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2019,
+      "grade": "9-10",
+      "session": "africa",
+      "title": "Африка",
+      "date": "2019-04-11",
+      "problemCount": 30,
+      "sourceStatus": "booklet-only",
+      "reference": [
+        "https://konkurs-chip.ru/aboutchip",
+        "https://co8a.ru/chp2019/",
+        "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/"
+      ],
+      "archive": {
+        "tasks": "dist/assets/chip/2019/africa/chip_2018-19_9-10.pdf"
+      },
+      "gap": "Вариант сохранён. Официальная таблица ответов не подтверждена.",
+      "interactive": "sources/chip/2019/africa/9-10.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2019,
+      "grade": "1",
+      "title": "Австралия и Океания",
+      "date": "2019-10-23",
+      "sourceStatus": "not-verified",
+      "reference": "https://konkurs-chip.ru/aboutchip",
+      "archive": {},
+      "gap": "Отдельный школьный буклет 1-го класса по теме не найден. Вариант chip_2019-20_1-2.pdf помечен «2-е классы»."
+    },
+    {
+      "year": 2019,
+      "grade": "2",
+      "title": "Австралия и Океания",
+      "date": "2019-10-23",
+      "problemCount": 20,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://konkurs-chip.ru/aboutchip",
+      "archive": {
+        "tasks": "dist/assets/chip/2019/chip_2019-20_1-2.pdf",
+        "answers": "dist/assets/chip/2019/answers.pdf"
+      },
+      "interactive": "sources/chip/2019/2.json",
+      "interactiveQuestions": 20
+    },
+    {
+      "year": 2019,
+      "grade": "3-4",
+      "title": "Австралия и Океания",
+      "date": "2019-10-23",
+      "problemCount": 30,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://konkurs-chip.ru/aboutchip",
+      "archive": {
+        "tasks": "dist/assets/chip/2019/tasks.pdf",
+        "answers": "dist/assets/chip/2019/answers.pdf"
+      },
+      "interactive": "sources/chip/2019/3-4.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2019,
+      "grade": "5-6",
+      "title": "Австралия и Океания",
+      "date": "2019-10-23",
+      "problemCount": 30,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://konkurs-chip.ru/aboutchip",
+      "archive": {
+        "tasks": "dist/assets/chip/2019/chip_2019-20_5-6.pdf",
+        "answers": "dist/assets/chip/2019/answers.pdf"
+      },
+      "interactive": "sources/chip/2019/5-6.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2019,
+      "grade": "7-8",
+      "title": "Австралия и Океания",
+      "date": "2019-10-23",
+      "problemCount": 30,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://konkurs-chip.ru/aboutchip",
+      "archive": {
+        "tasks": "dist/assets/chip/2019/chip_2019-20_7-8.pdf",
+        "answers": "dist/assets/chip/2019/answers.pdf"
+      },
+      "interactive": "sources/chip/2019/7-8.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2019,
+      "grade": "9-11",
+      "title": "Австралия и Океания",
+      "date": "2019-10-23",
+      "problemCount": 30,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://konkurs-chip.ru/aboutchip",
+      "archive": {
+        "tasks": "dist/assets/chip/2019/chip_2019-20_9-10.pdf",
+        "answers": "dist/assets/chip/2019/answers.pdf"
+      },
+      "interactive": "sources/chip/2019/9-11.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2020,
+      "grade": "1",
+      "title": "Евразия",
+      "date": "2020-10-22",
+      "problemCount": 15,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "archive": {
+        "tasks": "dist/assets/chip/2020/2020-2021_CHIP_Evrazia_zadanie_1klass.pdf",
+        "answers": "dist/assets/chip/2020/answers.pdf"
+      },
+      "interactive": "sources/chip/2020/1.json",
+      "interactiveQuestions": 15
+    },
+    {
+      "year": 2020,
+      "grade": "2",
+      "title": "Евразия",
+      "date": "2020-10-22",
+      "problemCount": 20,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "archive": {
+        "tasks": "dist/assets/chip/2020/2020-2021_CHIP_Evrazia_zadanie_2klass.pdf",
+        "answers": "dist/assets/chip/2020/answers.pdf"
+      },
+      "interactive": "sources/chip/2020/2.json",
+      "interactiveQuestions": 20
+    },
+    {
+      "year": 2020,
+      "grade": "3-4",
+      "title": "Евразия",
+      "date": "2020-10-22",
+      "problemCount": 30,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "archive": {
+        "tasks": "dist/assets/chip/2020/tasks.pdf",
+        "answers": "dist/assets/chip/2020/answers.pdf"
+      },
+      "interactive": "sources/chip/2020/3-4.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2020,
+      "grade": "5-6",
+      "title": "Евразия",
+      "date": "2020-10-22",
+      "problemCount": 30,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "archive": {
+        "tasks": "dist/assets/chip/2020/2020-2021_CHIP_Evrazia_zadanie_5-6-kl.pdf",
+        "answers": "dist/assets/chip/2020/answers.pdf"
+      },
+      "interactive": "sources/chip/2020/5-6.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2020,
+      "grade": "7-8",
+      "title": "Евразия",
+      "date": "2020-10-22",
+      "problemCount": 30,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "archive": {
+        "tasks": "dist/assets/chip/2020/2020-2021_CHIP_Evrazia_zadanie_7-8-kl.pdf",
+        "answers": "dist/assets/chip/2020/answers.pdf"
+      },
+      "interactive": "sources/chip/2020/7-8.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2020,
+      "grade": "9-11",
+      "title": "Евразия",
+      "date": "2020-10-22",
+      "problemCount": 30,
+      "sourceStatus": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "archive": {
+        "tasks": "dist/assets/chip/2020/2020-2021_CHIP_Evrazia_zadanie_9-11-kl.pdf",
+        "answers": "dist/assets/chip/2020/answers.pdf"
+      },
+      "interactive": "sources/chip/2020/9-11.json",
+      "interactiveQuestions": 30
+    },
+    {
+      "year": 2021,
+      "grade": "1",
+      "title": "Мир воды",
+      "date": "2021-10-21",
+      "sourceStatus": "not-verified",
+      "reference": "https://eobraz.ru/product/waterworld/",
+      "archive": {},
+      "gap": "Оригинальные задания и ключ в открытом доступе не подтверждены."
+    },
+    {
+      "year": 2021,
+      "grade": "2",
+      "title": "Мир воды",
+      "date": "2021-10-21",
+      "sourceStatus": "not-verified",
+      "reference": "https://eobraz.ru/product/waterworld/",
+      "archive": {},
+      "gap": "Оригинальные задания и ключ в открытом доступе не подтверждены."
+    },
+    {
+      "year": 2021,
+      "grade": "3-4",
+      "title": "Мир воды",
+      "date": "2021-10-21",
+      "sourceStatus": "not-verified",
+      "reference": "https://eobraz.ru/product/waterworld/",
+      "archive": {},
+      "gap": "Оригинальные задания и ключ в открытом доступе не подтверждены."
+    },
+    {
+      "year": 2021,
+      "grade": "5-6",
+      "title": "Мир воды",
+      "date": "2021-10-21",
+      "sourceStatus": "not-verified",
+      "reference": "https://eobraz.ru/product/waterworld/",
+      "archive": {},
+      "gap": "Оригинальные задания и ключ в открытом доступе не подтверждены."
+    },
+    {
+      "year": 2021,
+      "grade": "7-8",
+      "title": "Мир воды",
+      "date": "2021-10-21",
+      "sourceStatus": "not-verified",
+      "reference": "https://eobraz.ru/product/waterworld/",
+      "archive": {},
+      "gap": "Оригинальные задания и ключ в открытом доступе не подтверждены."
+    },
+    {
+      "year": 2021,
+      "grade": "9-11",
+      "title": "Мир воды",
+      "date": "2021-10-21",
+      "sourceStatus": "not-verified",
+      "reference": "https://eobraz.ru/product/waterworld/",
+      "archive": {},
+      "gap": "Оригинальные задания и ключ в открытом доступе не подтверждены."
+    },
+    {
+      "year": 2022,
+      "grade": "1",
+      "title": "Дальний Восток",
+      "date": "2022-10-19",
+      "sourceStatus": "not-verified",
+      "reference": "https://co8a.ru/chip/22-23/",
+      "archive": {},
+      "gap": "Оригинальные задания и ключ в открытом доступе не подтверждены."
+    },
+    {
+      "year": 2022,
+      "grade": "2",
+      "title": "Дальний Восток",
+      "date": "2022-10-19",
+      "sourceStatus": "not-verified",
+      "reference": "https://co8a.ru/chip/22-23/",
+      "archive": {},
+      "gap": "Оригинальные задания и ключ в открытом доступе не подтверждены."
+    },
+    {
+      "year": 2022,
+      "grade": "3-4",
+      "title": "Дальний Восток",
+      "date": "2022-10-19",
+      "sourceStatus": "not-verified",
+      "reference": "https://co8a.ru/chip/22-23/",
+      "archive": {},
+      "gap": "Оригинальные задания и ключ в открытом доступе не подтверждены."
+    },
+    {
+      "year": 2022,
+      "grade": "5-6",
+      "title": "Дальний Восток",
+      "date": "2022-10-19",
+      "sourceStatus": "not-verified",
+      "reference": "https://co8a.ru/chip/22-23/",
+      "archive": {},
+      "gap": "Оригинальные задания и ключ в открытом доступе не подтверждены."
+    },
+    {
+      "year": 2022,
+      "grade": "7-8",
+      "title": "Дальний Восток",
+      "date": "2022-10-19",
+      "sourceStatus": "not-verified",
+      "reference": "https://co8a.ru/chip/22-23/",
+      "archive": {},
+      "gap": "Оригинальные задания и ключ в открытом доступе не подтверждены."
+    },
+    {
+      "year": 2022,
+      "grade": "9-11",
+      "title": "Дальний Восток",
+      "date": "2022-10-19",
+      "sourceStatus": "not-verified",
+      "reference": "https://co8a.ru/chip/22-23/",
+      "archive": {},
+      "gap": "Оригинальные задания и ключ в открытом доступе не подтверждены."
+    },
+    {
+      "year": 2023,
+      "grade": "1",
+      "title": "Сибирь и Урал",
+      "date": "2023-10-19",
+      "sourceStatus": "not-verified",
+      "reference": "https://zubrilka.online/konkurs/chelovek-i-priroda/",
+      "archive": {},
+      "gap": "Оригинальные задания и ключ в открытом доступе не подтверждены."
+    },
+    {
+      "year": 2023,
+      "grade": "2",
+      "title": "Сибирь и Урал",
+      "date": "2023-10-19",
+      "sourceStatus": "not-verified",
+      "reference": "https://zubrilka.online/konkurs/chelovek-i-priroda/",
+      "archive": {},
+      "gap": "Оригинальные задания и ключ в открытом доступе не подтверждены."
+    },
+    {
+      "year": 2023,
+      "grade": "3-4",
+      "title": "Сибирь и Урал",
+      "date": "2023-10-19",
+      "sourceStatus": "not-verified",
+      "reference": "https://zubrilka.online/konkurs/chelovek-i-priroda/",
+      "archive": {},
+      "gap": "Оригинальные задания и ключ в открытом доступе не подтверждены."
+    },
+    {
+      "year": 2023,
+      "grade": "5-6",
+      "title": "Сибирь и Урал",
+      "date": "2023-10-19",
+      "sourceStatus": "not-verified",
+      "reference": "https://zubrilka.online/konkurs/chelovek-i-priroda/",
+      "archive": {},
+      "gap": "Оригинальные задания и ключ в открытом доступе не подтверждены."
+    },
+    {
+      "year": 2023,
+      "grade": "7-8",
+      "title": "Сибирь и Урал",
+      "date": "2023-10-19",
+      "sourceStatus": "not-verified",
+      "reference": "https://zubrilka.online/konkurs/chelovek-i-priroda/",
+      "archive": {},
+      "gap": "Оригинальные задания и ключ в открытом доступе не подтверждены."
+    },
+    {
+      "year": 2023,
+      "grade": "9-11",
+      "title": "Сибирь и Урал",
+      "date": "2023-10-19",
+      "sourceStatus": "not-verified",
+      "reference": "https://zubrilka.online/konkurs/chelovek-i-priroda/",
+      "archive": {},
+      "gap": "Оригинальные задания и ключ в открытом доступе не подтверждены."
+    },
+    {
+      "year": 2024,
+      "grade": "1",
+      "title": "Европейская Россия",
+      "date": "2024-11-07",
+      "sourceStatus": "not-verified",
+      "reference": "https://zubrilka.online/konkurs/chelovek-i-priroda/",
+      "archive": {},
+      "gap": "Оригинальные задания и ключ в открытом доступе не подтверждены."
+    },
+    {
+      "year": 2024,
+      "grade": "2",
+      "title": "Европейская Россия",
+      "date": "2024-11-07",
+      "sourceStatus": "not-verified",
+      "reference": "https://zubrilka.online/konkurs/chelovek-i-priroda/",
+      "archive": {},
+      "gap": "Оригинальные задания и ключ в открытом доступе не подтверждены."
+    },
+    {
+      "year": 2024,
+      "grade": "3-4",
+      "title": "Европейская Россия",
+      "date": "2024-11-07",
+      "sourceStatus": "not-verified",
+      "reference": "https://zubrilka.online/konkurs/chelovek-i-priroda/",
+      "archive": {},
+      "gap": "Оригинальные задания и ключ в открытом доступе не подтверждены."
+    },
+    {
+      "year": 2024,
+      "grade": "5-6",
+      "title": "Европейская Россия",
+      "date": "2024-11-07",
+      "sourceStatus": "not-verified",
+      "reference": "https://zubrilka.online/konkurs/chelovek-i-priroda/",
+      "archive": {},
+      "gap": "Оригинальные задания и ключ в открытом доступе не подтверждены."
+    },
+    {
+      "year": 2024,
+      "grade": "7-8",
+      "title": "Европейская Россия",
+      "date": "2024-11-07",
+      "sourceStatus": "not-verified",
+      "reference": "https://zubrilka.online/konkurs/chelovek-i-priroda/",
+      "archive": {},
+      "gap": "Оригинальные задания и ключ в открытом доступе не подтверждены."
+    },
+    {
+      "year": 2024,
+      "grade": "9-11",
+      "title": "Европейская Россия",
+      "date": "2024-11-07",
+      "sourceStatus": "not-verified",
+      "reference": "https://zubrilka.online/konkurs/chelovek-i-priroda/",
+      "archive": {},
+      "gap": "Оригинальные задания и ключ в открытом доступе не подтверждены."
+    },
+    {
+      "year": 2025,
+      "grade": "1",
+      "title": "Наша планета — Земля",
+      "date": "2025-10-23",
+      "sourceStatus": "not-verified",
+      "reference": "https://eobraz.ru/product/chip-231025/",
+      "archive": {},
+      "gap": "Оригинальные задания и ключ в открытом доступе не подтверждены."
+    },
+    {
+      "year": 2025,
+      "grade": "2",
+      "title": "Наша планета — Земля",
+      "date": "2025-10-23",
+      "sourceStatus": "not-verified",
+      "reference": "https://eobraz.ru/product/chip-231025/",
+      "archive": {},
+      "gap": "Оригинальные задания и ключ в открытом доступе не подтверждены."
+    },
+    {
+      "year": 2025,
+      "grade": "3-4",
+      "title": "Наша планета — Земля",
+      "date": "2025-10-23",
+      "sourceStatus": "not-verified",
+      "reference": "https://eobraz.ru/product/chip-231025/",
+      "archive": {},
+      "gap": "Оригинальные задания и ключ в открытом доступе не подтверждены."
+    },
+    {
+      "year": 2025,
+      "grade": "5-6",
+      "title": "Наша планета — Земля",
+      "date": "2025-10-23",
+      "sourceStatus": "not-verified",
+      "reference": "https://eobraz.ru/product/chip-231025/",
+      "archive": {},
+      "gap": "Оригинальные задания и ключ в открытом доступе не подтверждены."
+    },
+    {
+      "year": 2025,
+      "grade": "7-8",
+      "title": "Наша планета — Земля",
+      "date": "2025-10-23",
+      "sourceStatus": "not-verified",
+      "reference": "https://eobraz.ru/product/chip-231025/",
+      "archive": {},
+      "gap": "Оригинальные задания и ключ в открытом доступе не подтверждены."
+    },
+    {
+      "year": 2025,
+      "grade": "9-11",
+      "title": "Наша планета — Земля",
+      "date": "2025-10-23",
+      "sourceStatus": "not-verified",
+      "reference": "https://eobraz.ru/product/chip-231025/",
+      "archive": {},
+      "gap": "Оригинальные задания и ключ в открытом доступе не подтверждены."
+    },
+    {
+      "year": 2026,
+      "grade": "1",
+      "title": "Наша планета — Земля. Флора и фауна",
+      "date": "2026-10-22",
+      "sourceStatus": "not-verified",
+      "reference": "https://eobraz.ru/product/chip-221026/",
+      "archive": {},
+      "gap": "Оригинальные задания и ключ в открытом доступе не подтверждены."
+    },
+    {
+      "year": 2026,
+      "grade": "2",
+      "title": "Наша планета — Земля. Флора и фауна",
+      "date": "2026-10-22",
+      "sourceStatus": "not-verified",
+      "reference": "https://eobraz.ru/product/chip-221026/",
+      "archive": {},
+      "gap": "Оригинальные задания и ключ в открытом доступе не подтверждены."
+    },
+    {
+      "year": 2026,
+      "grade": "3-4",
+      "title": "Наша планета — Земля. Флора и фауна",
+      "date": "2026-10-22",
+      "sourceStatus": "not-verified",
+      "reference": "https://eobraz.ru/product/chip-221026/",
+      "archive": {},
+      "gap": "Оригинальные задания и ключ в открытом доступе не подтверждены."
+    },
+    {
+      "year": 2026,
+      "grade": "5-6",
+      "title": "Наша планета — Земля. Флора и фауна",
+      "date": "2026-10-22",
+      "sourceStatus": "not-verified",
+      "reference": "https://eobraz.ru/product/chip-221026/",
+      "archive": {},
+      "gap": "Оригинальные задания и ключ в открытом доступе не подтверждены."
+    },
+    {
+      "year": 2026,
+      "grade": "7-8",
+      "title": "Наша планета — Земля. Флора и фауна",
+      "date": "2026-10-22",
+      "sourceStatus": "not-verified",
+      "reference": "https://eobraz.ru/product/chip-221026/",
+      "archive": {},
+      "gap": "Оригинальные задания и ключ в открытом доступе не подтверждены."
+    },
+    {
+      "year": 2026,
+      "grade": "9-11",
+      "title": "Наша планета — Земля. Флора и фауна",
+      "date": "2026-10-22",
+      "sourceStatus": "not-verified",
+      "reference": "https://eobraz.ru/product/chip-221026/",
+      "archive": {},
+      "gap": "Оригинальные задания и ключ в открытом доступе не подтверждены."
+    }
+  ],
+  "preschool": [
+    {
+      "year": 2015,
+      "age": "5-7",
+      "title": "Времена года",
+      "season": "2014–2015",
+      "status": "booklet-only",
+      "reference": "https://konkurs-chip.ru/aboutchipd",
+      "tasks": "https://nachalkaplus.ru/wp-content/uploads/2018/11/2014-2015_CHIP_doshool.pdf"
+    },
+    {
+      "year": 2016,
+      "age": "5-7",
+      "title": "Я живу в России",
+      "season": "2015–2016",
+      "status": "booklet-only",
+      "reference": "https://konkurs-chip.ru/aboutchipd",
+      "tasks": "https://nachalkaplus.ru/wp-content/uploads/2018/11/2015-2016_CHIP_baby.pdf"
+    },
+    {
+      "year": 2017,
+      "age": "5-7",
+      "title": "Солнце, воздух и вода",
+      "season": "2016–2017",
+      "status": "not-verified",
+      "reference": "https://konkurs-chip.ru/aboutchipd"
+    },
+    {
+      "year": 2017,
+      "age": "5-7",
+      "title": "Мир сказок",
+      "season": "2017–2018",
+      "status": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "tasks": "https://100ballnik.com/wp-content/uploads/2021/08/чип2017_1класс_задания.pdf",
+      "answers": "https://100ballnik.com/wp-content/uploads/2021/08/чип2017_1класс_ответы.pdf"
+    },
+    {
+      "year": 2018,
+      "age": "5-7",
+      "title": "Мир леса",
+      "season": "2017–2018",
+      "status": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "tasks": "https://100ballnik.com/wp-content/uploads/2021/08/2017-2018_Mir_Lesa_5-7.pdf",
+      "answers": "https://100ballnik.com/wp-content/uploads/2021/08/ответы_чип2018_мир_леса_5_7лет.pdf"
+    },
+    {
+      "year": 2018,
+      "age": "5-7",
+      "title": "Мир сказок А. С. Пушкина",
+      "season": "2018–2019",
+      "status": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "tasks": "https://100ballnik.com/wp-content/uploads/2021/08/2018-2019_MIP_SKAZOK_zadanie.pdf",
+      "answers": "https://100ballnik.com/wp-content/uploads/2021/08/2018-2019_otveti-chip-5-7-let.pdf"
+    },
+    {
+      "year": 2019,
+      "age": "5-7",
+      "title": "Мир воды",
+      "season": "2018–2019",
+      "status": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "tasks": "https://100ballnik.com/wp-content/uploads/2021/08/2018-2019_MV_chip.pdf",
+      "answers": "https://100ballnik.com/wp-content/uploads/2021/08/ответы_мир_воды_ЧИП.pdf"
+    },
+    {
+      "year": 2019,
+      "age": "5-7",
+      "title": "Сказки о дружбе",
+      "season": "2019–2020",
+      "status": "not-verified",
+      "reference": "https://konkurs-chip.ru/aboutchipd"
+    },
+    {
+      "year": 2020,
+      "age": "5-7",
+      "title": "Домашние животные",
+      "season": "2019–2020",
+      "status": "not-verified",
+      "reference": "https://konkurs-chip.ru/aboutchipd"
+    },
+    {
+      "year": 2020,
+      "age": "5-7",
+      "title": "Сказки Х. К. Андерсена",
+      "season": "2020–2021",
+      "status": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "tasks": "https://100ballnik.com/wp-content/uploads/2021/08/2020-2021_Skazki_zadanie.pdf",
+      "answers": "https://100ballnik.com/wp-content/uploads/2021/08/2020-2021_otveti_CHIP_.pdf"
+    },
+    {
+      "year": 2021,
+      "age": "5-7",
+      "title": "Мир птиц",
+      "season": "2020–2021",
+      "status": "booklet-and-key",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/",
+      "tasks": "https://100ballnik.com/wp-content/uploads/2021/08/2020-2021_zadanie_Birds.pdf",
+      "answers": "https://100ballnik.com/wp-content/uploads/2021/08/2020-2021_otveti_CHIP_bird.pdf"
+    },
+    {
+      "year": 2021,
+      "age": "5-7",
+      "title": "Сказки о временах года",
+      "season": "2021–2022",
+      "status": "not-verified",
+      "reference": "https://konkurs-chip.ru/aboutchipd"
+    },
+    {
+      "year": 2022,
+      "age": "5-7",
+      "title": "На воде и под водой",
+      "season": "2021–2022",
+      "status": "not-verified",
+      "reference": "https://konkurs-chip.ru/aboutchipd"
+    },
+    {
+      "year": 2022,
+      "age": "5-7",
+      "title": "Мир сказок С. Я. Маршака",
+      "season": "2022–2023",
+      "status": "not-verified",
+      "reference": "https://konkurs-chip.ru/aboutchipd"
+    },
+    {
+      "year": 2023,
+      "age": "5-7",
+      "title": "Космическое путешествие",
+      "season": "2022–2023",
+      "status": "not-verified",
+      "reference": "https://konkurs-chip.ru/aboutchipd"
+    },
+    {
+      "year": 2023,
+      "age": "5-7",
+      "title": "Незнайка и его друзья",
+      "season": "2023–2024",
+      "status": "not-verified",
+      "reference": "https://konkurs-chip.ru/aboutchipd"
+    },
+    {
+      "year": 2024,
+      "age": "5-7",
+      "title": "Какие бывают животные?",
+      "season": "2023–2024",
+      "status": "not-verified",
+      "reference": "https://konkurs-chip.ru/aboutchipd"
+    },
+    {
+      "year": 2024,
+      "age": "5-7",
+      "title": "Мир сказок В. В. Бианки",
+      "season": "2024–2025",
+      "status": "not-verified",
+      "reference": "https://konkurs-chip.ru/aboutchipd"
+    },
+    {
+      "year": 2025,
+      "age": "5-7",
+      "title": "Все профессии нужны, все профессии важны",
+      "season": "2024–2025",
+      "status": "not-verified",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/"
+    },
+    {
+      "year": 2025,
+      "age": "4-5",
+      "title": "Русские народные сказки",
+      "season": "2024–2025",
+      "status": "not-verified",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/"
+    },
+    {
+      "year": 2025,
+      "age": "5-7",
+      "title": "Сказки Джанни Родари",
+      "season": "2025–2026",
+      "status": "not-verified",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/"
+    },
+    {
+      "year": 2026,
+      "age": "5-7",
+      "title": "Неживая природа",
+      "season": "2025–2026",
+      "status": "not-verified",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/"
+    },
+    {
+      "year": 2026,
+      "age": "5-7",
+      "title": "Сказки народов России",
+      "season": "2026–2027",
+      "status": "not-verified",
+      "reference": "https://100ballnik.com/конкурс-чип-человек-и-природа-ответы-и/"
+    }
+  ],
+  "publicSourceChecks": {
+    "2019": [
+      {
+        "url": "https://www.konkurs-chip.ru/files/arhiv/chip_2019-20_1-2.pdf",
+        "result": "На титуле данного осеннего буклета для младших школьников указаны только 2-е классы. Общая строка ключа «1–2» подходит этому листу из 20 заданий."
+      },
+      {
+        "url": "https://eobraz.ru/product/chip2019-2020/",
+        "result": "Перечень образовательных материалов. На странице нет отдельного общедоступного оригинала для 1 класса."
+      },
+      {
+        "url": "https://100ballnik.com/wp-content/uploads/2021/08/2018-2019_MV_chip.pdf",
+        "result": "Ссылка, которую региональная подборка подписывает для дошкольников и 1 класса, ведёт на дошкольный выпуск «Мир воды» сезона 2018–2019."
+      },
+      {
+        "url": "https://elseverina.blogspot.com/2019/07/blog-post.html",
+        "result": "Региональное объявление подтверждает тему и дату 23 октября 2019 года. Содержит подготовительные материалы."
+      },
+      {
+        "url": "https://vasilyasinitsyna.ru/product/avstraliya/",
+        "result": "Подборка обозначает классы обобщённо как «1–2» и «3–4». Состав скачиваемого пособия доступен после оплаты. Отдельный оригинальный бланк 1 класса на странице отсутствует."
+      }
+    ],
+    "2021": [
+      {
+        "url": "https://100ballnik.com/чип-2021-все-ответы-и-вопросы-для-конкурса/",
+        "result": "Ссылка на полный комплект открывает страницу покупки. В публикации — вопросы и отдельные ответы."
+      },
+      {
+        "url": "https://eobraz.ru/product/waterworld/",
+        "result": "В открытом описании приведены фрагменты от 6 до 14 вопросов по классам. Полный буклет и ключ в открытом описании не представлены."
+      },
+      {
+        "url": "https://shkolnaiapora.ru/olimpiady-dlya-shkolnikov/chelovek-i-priroda",
+        "result": "Условия проведения и отдельные тренировочные задачи."
+      }
+    ],
+    "2022": [
+      {
+        "url": "https://co8a.ru/chip/22-23/",
+        "result": "Для всех классов указаны материалы за оплату. Открыты примеры отдельных вопросов."
+      }
+    ],
+    "2023": [
+      {
+        "url": "https://zubrilka.online/konkurs/chelovek-i-priroda/",
+        "result": "Открыты фрагменты. Ссылка «Ответы» ведёт на покупку."
+      },
+      {
+        "url": "https://100ballnik.com/конкурс-чип-2023-сибирь-и-урал-ответы-и-зад/",
+        "result": "Текстовая публикация с примерами. Оригинальный PDF и полный ключ не подтверждены."
+      }
+    ],
+    "2024": [
+      {
+        "url": "https://zubrilka.online/chip-3-4-klass-2024-2025/",
+        "result": "Открыты отдельные вопросы 3–4 классов. Вопросы 15–30 и ключ предлагаются за оплату."
+      },
+      {
+        "url": "https://kopilkaurokov.ru/prochee/prochee/konkurs_chip_2024_otvety_i_zadaniia_dlia_3_4_klassa_evropeiskaia_rossiia",
+        "result": "Педагогическая публикация с фрагментами. Загрузка предлагается через форму подписки."
+      }
+    ],
+    "2025": [
+      {
+        "url": "https://co8a.ru/chip/25-26/",
+        "result": "Шесть школьных комплектов перечислены как товары, открытого оригинального PDF и ключа нет."
+      },
+      {
+        "url": "https://www.konkurs-chip.ru/files/info_chip_2025.pdf",
+        "result": "Официальное описание состава и даты конкурса. Документ информационный."
+      }
+    ],
+    "2026": [
+      {
+        "url": "https://education.ogps65.ru/wp-content/uploads/2026/10/lt7-67.docx",
+        "result": "Открытая текстовая копия для 3–4 классов содержит 30 номеров. Иллюстраций, вариантов для иллюстрированных задач и таблицы ключей в DOCX нет."
+      },
+      {
+        "url": "https://www.konkurs-chip.ru/grafik",
+        "result": "Официально подтверждена дата проведения. Полные буклеты и ключи на странице отсутствуют."
+      }
+    ]
+  },
+  "organizerChecks": [
+    {
+      "url": "https://web.archive.org/web/20190626150522/http://www.konkurs-chip.ru:80/for-learner/archives",
+      "result": "Снимок прежнего архива оргкомитета с материалами ранних лет."
+    },
+    {
+      "url": "https://konkurs-chip.ru/aboutchip",
+      "result": "История школьного конкурса и тематический перечень. Подтверждает сезоны и темы."
+    },
+    {
+      "url": "https://samara-konkurs.ru/chip",
+      "result": "Региональный оргкомитет описывает выдачу бумажных заданий прошлых лет. Открытые полные буклеты за 2021–2026 не подтверждены."
+    },
+    {
+      "url": "https://eobraz.ru/chip/",
+      "result": "Региональные и образовательные ссылки на сезоны. Для ряда новых комплектов переходы ведут в магазин."
+    }
+  ]
+}

@@ -5,8 +5,8 @@ const path = require('node:path');
 const root = path.join(__dirname, '..');
 const sources = path.join(root, 'sources/chip');
 const json = file => JSON.parse(fs.readFileSync(file, 'utf8'));
-const editions = json(path.join(root, 'sources/subject-editions.json'))
-  .filter(edition => edition.subject === 'chip');
+const editions = require('../scripts/subject-data.cjs').loadSubjects().editions
+  .filter(edition => edition.meta.subject === 'chip');
 
 function webpSize(file) {
   const bytes = fs.readFileSync(file);
@@ -22,9 +22,8 @@ function webpSize(file) {
 }
 
 test('each ЧИП illustration opens a local vector or a more detailed version of its preview', () => {
-  for (const { year, grade, count } of editions) {
+  for (const {meta: {year, count}, rows} of editions) {
     const folder = path.join(sources, String(year));
-    const rows = json(path.join(folder, `${grade}.json`));
     const manifest = json(path.join(folder, 'figures.json')).figures;
     assert.equal(rows.length, count);
     const localPrefix = 'assets/chip/' + year + '/';
@@ -40,7 +39,7 @@ test('each ЧИП illustration opens a local vector or a more detailed version o
         }
         const entry = manifest[path.parse(figure.src).name]?.detail;
         assert.equal(localPrefix + entry.file, figure.detailSrc);
-        assert.ok(entry.source && entry.author && entry.license);
+        assert.ok(entry?.source && entry.author && entry.license, figure.detailSrc);
         const thumb = webpSize(path.join(root, 'dist', figure.src));
         if (detail.endsWith('.svg')) {
           assert.match(fs.readFileSync(detail, 'utf8'), /viewBox=/);

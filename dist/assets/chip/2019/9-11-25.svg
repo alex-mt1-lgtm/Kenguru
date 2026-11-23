@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 96" width="170" height="96">
+  <defs>
+    <linearGradient id="ground">
+      <stop stop-color="#ac190b"/>
+      <stop offset="1" stop-color="#ff650f"/>
+    </linearGradient>
+    <path id="arc" d="M80 24C79 16 80 8 85 8C91 8 92 16 91 24"/>
+  </defs>
+  <rect width="170" height="96" fill="url(#ground)"/>
+  <circle cx="85" cy="48" r="16" fill="none" stroke="#21150f" stroke-width="2"/>
+  <g fill="none" stroke="#21150f" stroke-width="3.4" stroke-linecap="round">
+    <use href="#arc"/>
+    <use href="#arc" transform="rotate(45 85 48)"/>
+    <use href="#arc" transform="rotate(90 85 48)"/>
+    <use href="#arc" transform="rotate(135 85 48)"/>
+    <use href="#arc" transform="rotate(180 85 48)"/>
+    <use href="#arc" transform="rotate(225 85 48)"/>
+    <use href="#arc" transform="rotate(270 85 48)"/>
+    <use href="#arc" transform="rotate(315 85 48)"/>
+  </g>
+</svg>

@@ -5,7 +5,8 @@ const grades = [...document.querySelectorAll('.archive-grade')];
 const gradeLinks = [...gradeNav.querySelectorAll('a')];
 const russianEditions = document.getElementById('russian');
 const russianYear = document.getElementById('russianYear');
-let lastRussianYear = '2025';
+const newestRussianYear = russianYear.options[0].value;
+let lastRussianYear = newestRussianYear;
 russianYear.parentElement.hidden = false;
 const subjectPicker = document.getElementById('archiveSubject');
 const mathIntro = document.querySelector('.archive-heading .intro').textContent;
@@ -15,7 +16,7 @@ function showArchiveGrade() {
   const target = document.getElementById(location.hash.slice(1));
   const russian = Boolean(target?.closest('#russian'));
   if (russian) {
-    lastRussianYear = target === russianEditions ? '2025' : target.id.slice('russian-'.length);
+    lastRussianYear = target === russianEditions ? newestRussianYear : target.id.slice('russian-'.length);
     russianYear.value = lastRussianYear;
     for (const group of russianEditions.querySelectorAll('.archive-editions')) group.hidden = group.id !== 'russian-' + lastRussianYear;
   }
@@ -34,12 +35,13 @@ function showArchiveGrade() {
   subjectPicker.value = subject;
   document.getElementById('currentSubject').textContent = subjectPicker.selectedOptions[0].dataset.short ?? subjectPicker.selectedOptions[0].textContent;
   document.getElementById('editionToggle').dataset.subject = subject;
-  document.getElementById('archivePeriod').textContent = contest?.dataset.period ?? (russian ? '2004–2025' : '1997–2026');
+  document.getElementById('archivePeriod').textContent = contest?.dataset.period ?? (russian ? russianYear.options[russianYear.options.length - 1].value + '–' + newestRussianYear : '1997–2026');
   document.querySelector('.archive-heading .intro').textContent = contest || russian
     ? 'Выбери год конкурса и класс.' : mathIntro;
   for (const link of document.querySelectorAll('footer [data-subject]')) link.hidden = link.dataset.subject !== subject;
   const contestLesson = contest && (document.getElementById(contest.id + '-' + selectedYear)?.querySelector('.archive-open') ?? contest.querySelector('.archive-open'));
-  const lessonUrl = contestLesson ? contestLesson.getAttribute('href').replace('./#', '/#') : russian ? '/#zadacha=' + lastRussianYear + '-medvezhonok-2-3/1' : '/';
+  const russianLesson = russian && (document.getElementById('russian-' + lastRussianYear)?.querySelector('.archive-open') ?? russianEditions.querySelector('.archive-open'));
+  const lessonUrl = (contestLesson || russianLesson)?.getAttribute('href')?.replace('./#', '/#') ?? '/';
   document.querySelector('.archive-back').href = lessonUrl;
   document.querySelector('.archive-header .site-brand').href = lessonUrl;
   russianEditions.hidden = !russian;
@@ -87,7 +89,7 @@ window.addEventListener('hashchange', showArchiveGrade);
 russianYear.addEventListener('change', () => { location.hash = 'russian-' + russianYear.value; });
 const menu = document.getElementById('editionMenu');
 subjectPicker.addEventListener('change', () => {
-  location.hash = subjectPicker.value === 'ru' ? (lastRussianYear === '2025' ? 'russian' : 'russian-' + lastRussianYear) : subjectPicker.value === 'math' ? lastMathGrade : subjectPicker.value;
+  location.hash = subjectPicker.value === 'ru' ? (lastRussianYear === newestRussianYear ? 'russian' : 'russian-' + lastRussianYear) : subjectPicker.value === 'math' ? lastMathGrade : subjectPicker.value;
   menu.open = false;
   document.getElementById('editionToggle').focus();
 });
