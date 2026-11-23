@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="44" height="34" viewBox="0 0 44 34">
+<defs>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,-267,529.22)" d="M267 495.21998H311V529.22H267Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="clip_2">
+<path transform="matrix(.8660278,-.5,-.5,-.8660278,-111.69443,298.47416)" d="M0-100H555.86V0H0Z" />
+</clipPath>
+</defs>
+<g clip-path="url(#clip_1)">
+<g clip-path="url(#clip_2)">
+</g>
+<path transform="matrix(0,1,1,0,-267,-66)" d="M65.764 63.41H100.546009V311.21H65.764Z" fill="#ffffff" />
+<path transform="matrix(0,1,1,0,-267,-66)" stroke-width=".682" stroke-linecap="round" stroke-miterlimit="8" stroke-linejoin="miter" fill="none" stroke="#ffffff" d="M65.764 63.41H100.546009V311.21H65.764Z" />
+<path transform="matrix(0,1,1,0,21.475007,12.266998)" d="M0 0-9.321 10.003H10.003L0 0" fill="#adadad" fill-rule="evenodd" />
+<path transform="matrix(0,1,1,0,21.475007,12.266998)" stroke-width=".682" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#1b1b1b" d="M0 0-9.321 10.003H10.003L0 0" />
+<path transform="matrix(0,1,1,0,11.699982,12.494995)" stroke-width=".682" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#1b1b1b" d="M9.776 0H0V10.003H9.776Z" />
+<path transform="matrix(0,1,1,0,21.703003,12.494995)" stroke-width=".682" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#1b1b1b" d="M9.776 0H0V9.775H9.776Z" />
+<path transform="matrix(0,1,1,0,21.475007,2.9470063)" stroke-width=".682" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#1b1b1b" d="M9.548 0H0V10.003H9.548Z" />
+<path transform="matrix(0,1,1,0,31.477997,2.9470063)" stroke-width=".682" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#1b1b1b" d="M9.548 0H0V10.003H9.548Z" />
+<path transform="matrix(0,1,1,0,2.3789979,22.270997)" stroke-width=".682" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#1b1b1b" d="M10.003 0H0V9.548H10.003Z" />
+<path transform="matrix(0,1,1,0,11.927002,22.270997)" stroke-width=".682" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#1b1b1b" d="M10.003 0H0V9.548H10.003Z" />
+<path transform="matrix(0,1,1,0,11.699982,22.270005)" d="M0 0H-9.776V9.775L0 0" fill="#adadad" fill-rule="evenodd" />
+<path transform="matrix(0,1,1,0,11.699982,22.270005)" stroke-width=".682" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#1b1b1b" d="M0 0H-9.776V9.775L0 0" />
+<path transform="matrix(0,1,1,0,2.3789979,32.046007)" d="M0 0-9.776 9.548V0H0" fill="#adadad" fill-rule="evenodd" />
+<path transform="matrix(0,1,1,0,2.3789979,32.046007)" stroke-width=".682" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#1b1b1b" d="M0 0-9.776 9.548V0H0" />
+</g>
+</svg>

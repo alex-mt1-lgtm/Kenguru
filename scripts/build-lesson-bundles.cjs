@@ -21,7 +21,7 @@ function createBundle(entry, model) {
   const descriptions = byEdition(graphicAnswerDescriptions, id);
   const content = [assign('KENGURU_CHOICE_LAYOUTS', layouts)];
   const broadArchive = id.endsWith('-3-4');
-  const general = [...context.KENGURU_GRADES_7_8, ...context.KENGURU_JUNIOR_SENIOR].find(edition => edition.id === id);
+  const general = [...context.KENGURU_GRADES_7_8, ...context.KENGURU_JUNIOR_SENIOR, ...model.completedMath].find(edition => edition.id === id);
   const middle = context.KENGURU_GRADES_5_6.find(edition => edition.id === id);
   let selection = `(globalThis.KENGURU_ARCHIVE[${JSON.stringify(id)}] ?? [].concat(globalThis.KENGURU_ARCHIVE[${year}] ?? []).find(edition => edition.id === ${JSON.stringify(id)}))`;
   if (id === '2024-3-4') {
@@ -74,6 +74,7 @@ function createBundle(entry, model) {
     const url = readingPdfFor(entry.sources[field]);
     if (url) readers[field] = url;
   }
+  if (general?.reviewedKey) content.push(`${selection}.sources.reviewedKey = true;`);
   let registration = selection;
   if (Object.keys(readers).length) {
     content.push(`const edition = ${selection};\nedition.sources.readers = ${JSON.stringify(readers)};`);

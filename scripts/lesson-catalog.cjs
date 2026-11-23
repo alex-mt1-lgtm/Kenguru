@@ -28,6 +28,15 @@ function loadLessonCatalog() {
   const files = [...defaultScripts, 'lesson-visuals.js', ...yearScripts.map(yearFile), 'contests/medvezhonok-2025.js'];
   if (fs.existsSync(path.join(dist, descriptions))) files.push(descriptions);
   for (const file of files) vm.runInContext(readScript(file), context, {filename: file});
+  const completedMath = require('./math-completion.cjs').loadCompletedMath();
+  vm.runInNewContext(readScript(yearFile('grade-editions')), {
+    KenguruVisual: context.KenguruVisual,
+    KENGURU_ARCHIVE: context.KENGURU_ARCHIVE,
+    KENGURU_GRADES_7_8: completedMath,
+  });
+  for (const {id, reviewedKey} of completedMath) {
+    if (reviewedKey) context.KENGURU_ARCHIVE[id].sources.reviewedKey = true;
+  }
   const russianRows = new Map();
   vm.runInContext(readScript('contests/medvezhonok-archive.js'), context);
   for (let year = 2024; year >= 2004; year--) {
@@ -88,7 +97,7 @@ function loadLessonCatalog() {
   vm.runInContext(app.slice(0, end), context, {filename: 'app.js'});
   const {lessons, catalog} = vm.runInContext('({lessons: LESSONS, catalog: CATALOG})', context);
   return {
-    lessons, catalog, context, russianRows, subjectRows,
+    lessons, catalog, context, completedMath, russianRows, subjectRows,
     choiceLayouts: context.KENGURU_CHOICE_LAYOUTS ?? {},
     graphicAnswerDescriptions: context.KENGURU_GRAPHIC_ANSWER_DESCRIPTIONS ?? {},
   };

@@ -1,0 +1,168 @@
+[
+  {
+    "src": "assets/grades-7-8/2005/task-01.svg",
+    "page": 0,
+    "rect": [
+      1036,
+      192,
+      1191,
+      347
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2005/task-03.svg",
+    "page": 0,
+    "rect": [
+      1071,
+      394,
+      1194,
+      499
+    ],
+    "exclude": [
+      [
+        1071,
+        432,
+        1084,
+        475
+      ]
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2005/task-05.svg",
+    "page": 0,
+    "rect": [
+      1109,
+      562,
+      1196,
+      670
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2005/task-08.svg",
+    "page": 1,
+    "rect": [
+      467,
+      65,
+      562,
+      161
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2005/task-13.svg",
+    "page": 1,
+    "rect": [
+      433,
+      448,
+      560,
+      577
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2005/task-15.svg",
+    "page": 1,
+    "rect": [
+      464,
+      657,
+      560,
+      746
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2005/task-20.svg",
+    "page": 1,
+    "rect": [
+      1004,
+      330,
+      1195,
+      455
+    ],
+    "exclude": [
+      [
+        1004,
+        401,
+        1052,
+        455
+      ]
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2005/task-22.svg",
+    "page": 1,
+    "rect": [
+      1063,
+      551,
+      1192,
+      657
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2005/task-25.svg",
+    "page": 0,
+    "rect": [
+      468,
+      63,
+      566,
+      155
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2005/task-30.svg",
+    "page": 0,
+    "rect": [
+      481,
+      613,
+      562,
+      675
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2005/task-30-answer-1.svg",
+    "page": 0,
+    "rect": [
+      94,
+      696,
+      173,
+      752
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2005/task-30-answer-2.svg",
+    "page": 0,
+    "rect": [
+      186,
+      696,
+      264,
+      752
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2005/task-30-answer-3.svg",
+    "page": 0,
+    "rect": [
+      278,
+      696,
+      357,
+      752
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2005/task-30-answer-4.svg",
+    "page": 0,
+    "rect": [
+      372,
+      696,
+      451,
+      752
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2005/task-30-answer-5.svg",
+    "page": 0,
+    "rect": [
+      464,
+      696,
+      544,
+      752
+    ]
+  }
+]

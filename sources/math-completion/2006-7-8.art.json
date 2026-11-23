@@ -1,0 +1,142 @@
+[
+  {
+    "src": "assets/grades-7-8/2006/task-02.svg",
+    "page": 0,
+    "rect": [
+      1065,
+      272,
+      1164,
+      367
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2006/task-04.svg",
+    "page": 0,
+    "rect": [
+      1081,
+      470,
+      1129,
+      515
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2006/task-04-answer-1.svg",
+    "page": 0,
+    "rect": [
+      725,
+      524,
+      810,
+      631
+    ],
+    "exclude": [
+      [
+        725,
+        612,
+        751,
+        631
+      ]
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2006/task-04-answer-2.svg",
+    "page": 0,
+    "rect": [
+      822,
+      524,
+      906,
+      631
+    ],
+    "exclude": [
+      [
+        822,
+        612,
+        847,
+        631
+      ]
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2006/task-04-answer-3.svg",
+    "page": 0,
+    "rect": [
+      917,
+      524,
+      1002,
+      631
+    ],
+    "exclude": [
+      [
+        917,
+        612,
+        943,
+        631
+      ]
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2006/task-04-answer-4.svg",
+    "page": 0,
+    "rect": [
+      1012,
+      524,
+      1098,
+      631
+    ],
+    "exclude": [
+      [
+        1012,
+        612,
+        1038,
+        631
+      ]
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2006/task-04-answer-5.svg",
+    "page": 0,
+    "rect": [
+      1107,
+      524,
+      1194,
+      631
+    ],
+    "exclude": [
+      [
+        1107,
+        612,
+        1133,
+        631
+      ]
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2006/task-07.svg",
+    "page": 1,
+    "rect": [
+      472,
+      61,
+      562,
+      152
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2006/task-14.svg",
+    "page": 1,
+    "rect": [
+      474,
+      720,
+      562,
+      801
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2006/task-22.svg",
+    "page": 1,
+    "rect": [
+      1035,
+      694,
+      1199,
+      792
+    ]
+  }
+]

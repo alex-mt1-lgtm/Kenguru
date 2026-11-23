@@ -22,7 +22,7 @@ test('the archive lists all official 7–8 editions and links to each interactiv
   for (const edition of datasets) {
     assert.ok(archive.includes(edition.tasksUrl));
     assert.ok(archive.includes(edition.answersUrl));
-    assert.equal(archive.includes('#zadacha=' + edition.id + '/1'), edition.year >= 2020);
+    assert.ok(archive.includes('#zadacha=' + edition.id + '/1'), edition.id);
   }
 });
 

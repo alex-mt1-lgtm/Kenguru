@@ -1,0 +1,192 @@
+[
+  {
+    "src": "assets/grades-7-8/2002/task-02.png",
+    "page": 0,
+    "rect": [
+      518,
+      464,
+      696,
+      583
+    ],
+    "imageScale": 9
+  },
+  {
+    "src": "assets/grades-7-8/2002/task-04.png",
+    "page": 0,
+    "rect": [
+      589,
+      653,
+      686,
+      735
+    ],
+    "imageScale": 4
+  },
+  {
+    "src": "assets/grades-7-8/2002/task-06.svg",
+    "page": 0,
+    "rect": [
+      614,
+      786,
+      690,
+      849
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2002/task-06-answer-1.svg",
+    "page": 0,
+    "rect": [
+      225,
+      846,
+      292,
+      925
+    ],
+    "exclude": [
+      [
+        237,
+        908,
+        265,
+        924
+      ]
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2002/task-06-answer-2.svg",
+    "page": 0,
+    "rect": [
+      312,
+      846,
+      380,
+      925
+    ],
+    "exclude": [
+      [
+        323,
+        908,
+        349,
+        924
+      ]
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2002/task-06-answer-3.svg",
+    "page": 0,
+    "rect": [
+      401,
+      846,
+      464,
+      925
+    ],
+    "exclude": [
+      [
+        412,
+        908,
+        442,
+        924
+      ]
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2002/task-06-answer-4.svg",
+    "page": 0,
+    "rect": [
+      479,
+      846,
+      559,
+      925
+    ],
+    "exclude": [
+      [
+        492,
+        908,
+        520,
+        924
+      ]
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2002/task-06-answer-5.svg",
+    "page": 0,
+    "rect": [
+      577,
+      853,
+      657,
+      925
+    ],
+    "exclude": [
+      [
+        588,
+        908,
+        617,
+        924
+      ]
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2002/task-10.svg",
+    "page": 1,
+    "rect": [
+      500,
+      362,
+      696,
+      521
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2002/task-12.svg",
+    "page": 1,
+    "rect": [
+      550,
+      589,
+      697,
+      678
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2002/task-18.svg",
+    "page": 2,
+    "rect": [
+      560,
+      325,
+      688,
+      453
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2002/task-22.svg",
+    "page": 2,
+    "rect": [
+      509,
+      756,
+      691,
+      882
+    ],
+    "exclude": [
+      [
+        509,
+        756,
+        529,
+        812
+      ]
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2002/task-25.svg",
+    "page": 3,
+    "rect": [
+      530,
+      336,
+      688,
+      473
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2002/task-28.svg",
+    "page": 3,
+    "rect": [
+      579,
+      670,
+      686,
+      758
+    ]
+  }
+]
