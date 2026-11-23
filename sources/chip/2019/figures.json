@@ -4414,15 +4414,27 @@
       "page": 2,
       "xref": 37,
       "detail": {
-        "author": "Изображение из буклета ЧИП",
-        "source": "2019/chip_2019-20_7-8.pdf",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
         "file": "detail/7-8-17-1.webp",
-        "previewMax": 122,
+        "source": "https://madeniportal.kz/article/3764",
+        "author": "Стэнли Моррисон (Stanley Morrison) · Gryphon",
+        "license": "Открытая лицензия на иллюстрацию не указана",
         "nativePixels": [
-          152,
-          133
+          445,
+          500
+        ],
+        "previewMax": 384,
+        "processing": "Цифровая иллюстрация из буклета сверена с авторским каталогом. Использована более крупная публикация в том же зеркальном развороте, что и в буклете.",
+        "additionalSources": [
+          {
+            "source": "https://madeniportal.kz/article/3764",
+            "author": "Стэнли Моррисон (Stanley Morrison) · Gryphon",
+            "license": "Открытая лицензия на иллюстрацию не указана"
+          },
+          {
+            "source": "https://stanley-morrison.pixels.com/featured/gryphon-stanley-morrison.html",
+            "author": "Стэнли Моррисон · авторская карточка Gryphon",
+            "license": "Открытая лицензия на иллюстрацию не указана"
+          }
         ]
       },
       "imageBox": [
@@ -4655,16 +4667,17 @@
       "page": 3,
       "xref": 43,
       "detail": {
-        "author": "Изображение из буклета ЧИП",
-        "source": "2019/chip_2019-20_7-8.pdf",
-        "license": "В архивном источнике отдельная лицензия не указана.",
-        "processing": "Кадр вырезан из встроенного растра без интерполяции. В буклете доступен только этот размер.",
         "file": "detail/7-8-27.webp",
-        "previewMax": 219,
+        "source": "https://commons.wikimedia.org/wiki/File:Woomeras_(spear-throwers)_at_American_Museum_of_Natural_History.jpg",
+        "author": "Vicpeters · экспонат Американского музея естественной истории",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
         "nativePixels": [
-          274,
-          184
-        ]
+          4032,
+          3024
+        ],
+        "previewMax": 384,
+        "processing": "Кадрирование фотографии музейной витрины без интерполяции. Снимок показывает один экземпляр с тёмной рукоятью и выступом на противоположном конце."
       },
       "imageBox": [
         0,

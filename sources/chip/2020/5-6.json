@@ -154,13 +154,13 @@
       "Так получали печатные пряники. Поэтому доски служили формами."
     ],
     "figure": {
-      "src": "assets/chip/2020/5-6-06.webp",
+      "src": "assets/chip/2020/5-6-06.svg",
       "alt": "Две резные деревянные дощечки с углублёнными узорами.",
-      "width": 172,
-      "height": 133,
-      "detailSrc": "assets/chip/2020/detail/5-6-06.webp",
-      "pixelWidth": 215,
-      "pixelHeight": 166
+      "width": 338,
+      "height": 238,
+      "detailSrc": "assets/chip/2020/5-6-06.svg",
+      "pixelWidth": "Д",
+      "pixelHeight": "в"
     }
   },
   {
@@ -208,12 +208,12 @@
       },
       {
         "src": "assets/chip/2020/5-6-08-2.webp",
-        "alt": "Полосатая гусеница на растении.",
-        "width": 119,
-        "height": 119,
+        "alt": "Полосатая зелёная гусеница на растении.",
+        "width": 384,
+        "height": 256,
         "detailSrc": "assets/chip/2020/detail/5-6-08-2.webp",
-        "pixelWidth": 149,
-        "pixelHeight": 149
+        "pixelWidth": 1024,
+        "pixelHeight": 682
       },
       {
         "src": "assets/chip/2020/5-6-08-3.webp",
@@ -692,12 +692,12 @@
     "adaptation": "Вариант В уточнён: на фотографии видны плоские лопасти печёночника, а не листья настоящего мха.",
     "figure": {
       "src": "assets/chip/2020/5-6-22.webp",
-      "alt": "Множество перекрывающихся зелёных плоских лопастей с волнистыми краями.",
-      "width": 150,
-      "height": 101,
+      "alt": "На субстрате лежат зелёные плоские лопасти. На их поверхности небольшие круглые чашечки.",
+      "width": 384,
+      "height": 288,
       "detailSrc": "assets/chip/2020/detail/5-6-22.webp",
-      "pixelWidth": 188,
-      "pixelHeight": 127
+      "pixelWidth": 1024,
+      "pixelHeight": 768
     }
   },
   {

@@ -72,7 +72,7 @@
     "points": 3,
     "steps": [
       "Вдали от морей в часть внутренних районов попадает очень мало влаги. На юго-западе материка также есть большие засушливые области, например Аравийская пустыня.",
-      "На снимке низкая и разреженная растительность. Так выглядят многие пустынные пространства."
+      "На снимке видны песчаные гряды почти без растительности. Это один из типов пустынных ландшафтов."
     ],
     "figure": {
       "src": "assets/chip/2020/7-8-04.webp",
@@ -218,12 +218,12 @@
     ],
     "figure": {
       "src": "assets/chip/2020/7-8-09.webp",
-      "alt": "Площадь с высоким обелиском; за ним видны открытое пространство и пологие горы.",
-      "width": 166,
-      "height": 98,
+      "alt": "Длинный светлый шпиль над шаром на постаменте. За обелиском видны река и пологие горы.",
+      "width": 288,
+      "height": 384,
       "detailSrc": "assets/chip/2020/detail/7-8-09.webp",
-      "pixelWidth": 207,
-      "pixelHeight": 122
+      "pixelWidth": 960,
+      "pixelHeight": 1280
     }
   },
   {
@@ -327,48 +327,48 @@
     "optionFigures": [
       {
         "src": "assets/chip/2020/7-8-12-1.webp",
-        "alt": "Крупный тёмно-бурый грызун с широким плоским хвостом сидит на земле.",
-        "width": 119,
-        "height": 93,
+        "alt": "Крупный бурый грызун с маленькими ушами держит в передних лапах ветку.",
+        "width": 384,
+        "height": 319,
         "detailSrc": "assets/chip/2020/detail/7-8-12-1.webp",
-        "pixelWidth": 149,
-        "pixelHeight": 117
+        "pixelWidth": 1024,
+        "pixelHeight": 851
       },
       {
         "src": "assets/chip/2020/7-8-12-2.webp",
-        "alt": "Маленький грызун с продольными светлыми и тёмными полосами на спине.",
-        "width": 119,
-        "height": 93,
+        "alt": "Небольшой грызун с несколькими продольными полосами на спине.",
+        "width": 360,
+        "height": 384,
         "detailSrc": "assets/chip/2020/detail/7-8-12-2.webp",
-        "pixelWidth": 149,
-        "pixelHeight": 116
+        "pixelWidth": 1309,
+        "pixelHeight": 1397
       },
       {
         "src": "assets/chip/2020/7-8-12-3.webp",
-        "alt": "Серовато-бежевый зверёк с небольшими ушами и короткой мордочкой прижался к земле.",
-        "width": 120,
-        "height": 93,
+        "alt": "Серо-бежевый грызун с короткими округлыми ушами и светлым горлом.",
+        "width": 288,
+        "height": 384,
         "detailSrc": "assets/chip/2020/detail/7-8-12-3.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 116
+        "pixelWidth": 768,
+        "pixelHeight": 1024
       },
       {
         "src": "assets/chip/2020/7-8-12-4.webp",
-        "alt": "Крупный серый грызун с мощным телом и светлой грудью стоит у камней.",
-        "width": 120,
-        "height": 93,
+        "alt": "Крупный бурый грызун с невысокими ушами и крепкими передними лапами.",
+        "width": 384,
+        "height": 184,
         "detailSrc": "assets/chip/2020/detail/7-8-12-4.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 116
+        "pixelWidth": 960,
+        "pixelHeight": 459
       },
       {
         "src": "assets/chip/2020/7-8-12-5.webp",
-        "alt": "Некрупный грызун с жёлто-бурой шерстью и крупными чёрными пятнами.",
-        "width": 119,
-        "height": 93,
+        "alt": "Коренастый грызун с чёрной грудью и светло-жёлтыми отметинами у щёк.",
+        "width": 384,
+        "height": 288,
         "detailSrc": "assets/chip/2020/detail/7-8-12-5.webp",
-        "pixelWidth": 149,
-        "pixelHeight": 116
+        "pixelWidth": 1024,
+        "pixelHeight": 768
       }
     ]
   },
@@ -591,12 +591,12 @@
     ],
     "figure": {
       "src": "assets/chip/2020/7-8-21.webp",
-      "alt": "На зелёных листьях несколько круглых красных и светлых выростов.",
-      "width": 172,
-      "height": 175,
+      "alt": "На зелёном лопастном листе несколько круглых светло-зелёных наростов.",
+      "width": 288,
+      "height": 384,
       "detailSrc": "assets/chip/2020/detail/7-8-21.webp",
-      "pixelWidth": 215,
-      "pixelHeight": 219
+      "pixelWidth": 769,
+      "pixelHeight": 1024
     }
   },
   {
@@ -686,13 +686,13 @@
       "Казбек — центральная снежная вершина на гербе Владикавказа."
     ],
     "figure": {
-      "src": "assets/chip/2020/7-8-25.webp",
+      "src": "assets/chip/2020/7-8-25.svg",
       "alt": "Герб с зелёными и красными полями, наверху снежные горные вершины.",
-      "width": 119,
-      "height": 126,
-      "detailSrc": "assets/chip/2020/detail/7-8-25.webp",
-      "pixelWidth": 149,
-      "pixelHeight": 158
+      "width": 270,
+      "height": 295,
+      "detailSrc": "assets/chip/2020/7-8-25.svg",
+      "pixelWidth": "Щ",
+      "pixelHeight": "и"
     }
   },
   {
@@ -793,12 +793,12 @@
       },
       {
         "src": "assets/chip/2020/7-8-29-3.webp",
-        "alt": "Тёмные домашние копытные на траве.",
-        "width": 120,
-        "height": 93,
+        "alt": "Бурое домашнее копытное с длинной головой и рогами.",
+        "width": 384,
+        "height": 256,
         "detailSrc": "assets/chip/2020/detail/7-8-29-3.webp",
-        "pixelWidth": 150,
-        "pixelHeight": 116
+        "pixelWidth": 1024,
+        "pixelHeight": 683
       },
       {
         "src": "assets/chip/2020/7-8-29-4.webp",
