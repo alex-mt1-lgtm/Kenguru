@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://www.inkscape.org/namespaces/inkscape" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="55.171998" height="55.862" viewBox="0 0 55.171998 55.862">
+<defs>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,-64.138,117.28897)" d="M64.138 61.42697H119.31V117.28897H64.138Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="clip_2">
+<path transform="matrix(.8660278,-.5,-.5,-.8660278,91.16757,-113.45685)" d="M0-100H555.86V0H0Z" />
+</clipPath>
+<clipPath id="clip_3">
+<path transform="matrix(0,1,1,0,-64.138,-477.931)" d="M0 842H595.22V0H0Z" />
+</clipPath>
+<path id="font_4_153" d="M.45999146 .2727661 .5099945 .13290406C.5219879 .09892273 .5319977 .07594299 .5319977 .05696106 .5319977 .0309906 .5130005 .027999878 .49198915 .027999878H.45199586V0H.70799258V.027999878H.6859894C.6359863 .027999878 .6239929 .06895447 .61698916 .08894348L.3919983 .7138672H.3600006L.19699097 .2727661C.114990238 .050964357 .07798767 .027999878 .052993776 .027999878H.033996583V0H.23699951V.027999878H.19699097C.18099976 .027999878 .16799927 .04698181 .16799927 .07394409 .16799927 .10192871 .18099976 .13189698 .20999146 .21083069L.23298645 .2727661H.45999146M.24299622 .30078126 .34700013 .58883669 .45098878 .30078126H.24299622Z" />
+<path id="font_4_10" d="M.05999756 .69400027C.19499207 .59298709 .2579956 .42599488 .2579956 .24499512 .2579956 .06399536 .19499207-.103012088 .05999756-.20401001L.07299805-.22401428C.23399353-.12600708 .36698915 .052993776 .36698915 .24499512 .36698915 .43699647 .23399353 .6159973 .07299805 .71398928L.05999756 .69400027Z" />
+<path id="font_4_1" d="M0 0Z" />
+<clipPath id="clip_5">
+<path transform="matrix(0,1,1,0,-64.138,-477.931)" d="M108.42 128.631H197.7V292.79103H108.42Z" />
+</clipPath>
+<clipPath id="clip_6">
+<path transform="matrix(0,1,1,0,-64.138,-477.931)" d="M0 842H595.22V0H0Z" />
+</clipPath>
+<clipPath id="clip_7">
+<path transform="matrix(0,1,1,0,-64.138,-477.931)" d="M263.059 476.392H302.66V756.23806H263.059Z" />
+</clipPath>
+</defs>
+<g clip-path="url(#clip_1)">
+<g clip-path="url(#clip_2)">
+</g>
+<g ns1:groupmode="layer" ns1:label="Слой 1">
+<g clip-path="url(#clip_3)">
+<use data-text=" " xlink:href="#font_4_1" transform="matrix(9,0,0,-9,7.7029955,3.3127137)" fill="#231f20" />
+<use data-text=" " xlink:href="#font_4_1" transform="matrix(9,0,0,-9,9.799995,3.3127137)" fill="#231f20" />
+</g>
+<g clip-path="url(#clip_5)">
+</g>
+<g clip-path="url(#clip_6)">
+<path transform="matrix(0,1,1,0,14.605194,1.8736878)" stroke-width=".3" stroke-linecap="square" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#231f20" d="M0 0H52.111M0 12.636H52.111M0 26.6H52.111M39.472-13.076V39.233M26.165-13.076V39.233M13.085-13.076V39.233" />
+<path transform="matrix(0,1,1,0,1.8316956,27.775086)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#231f20" d="M0 0V25.397L13.923 39.32V12.814L0 0Z" />
+</g>
+<g clip-path="url(#clip_7)">
+</g>
+</g>
+</g>
+</svg>

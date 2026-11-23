@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="43" height="34" viewBox="0 0 43 34">
+<defs>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,-114,529.22)" d="M114 495.21998H157V529.22H114Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="clip_2">
+<path transform="matrix(.8660278,-.5,-.5,-.8660278,41.305574,298.47416)" d="M0-100H555.86V0H0Z" />
+</clipPath>
+</defs>
+<g clip-path="url(#clip_1)">
+<g clip-path="url(#clip_2)">
+</g>
+<path transform="matrix(0,1,1,0,-114,-66)" d="M65.764 63.41H100.546009V311.21H65.764Z" fill="#ffffff" />
+<path transform="matrix(0,1,1,0,-114,-66)" stroke-width=".682" stroke-linecap="round" stroke-miterlimit="8" stroke-linejoin="miter" fill="none" stroke="#ffffff" d="M65.764 63.41H100.546009V311.21H65.764Z" />
+<path transform="matrix(0,1,1,0,31.707,2.9470063)" d="M0 0 19.324 .227 9.548-9.548 0 0" fill="#adadad" fill-rule="evenodd" />
+<path transform="matrix(0,1,1,0,31.707,2.9470063)" stroke-width=".682" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#1b1b1b" d="M0 0 19.324 .227 9.548-9.548 0 0" />
+<path transform="matrix(0,1,1,0,3.0619965,12.494995)" d="M0 0 9.776 9.548 0 19.097V0" fill="#adadad" fill-rule="evenodd" />
+<path transform="matrix(0,1,1,0,3.0619965,12.494995)" stroke-width=".682" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#1b1b1b" d="M0 0 9.776 9.548 0 19.097V0" />
+<path transform="matrix(0,1,1,0,3.0619965,12.494995)" stroke-width=".682" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#1b1b1b" d="M9.776 0H0V9.548H9.776Z" />
+<path transform="matrix(0,1,1,0,12.610001,12.494995)" stroke-width=".682" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#1b1b1b" d="M9.776 0H0V9.549H9.776Z" />
+<path transform="matrix(0,1,1,0,22.158997,12.494995)" stroke-width=".682" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#1b1b1b" d="M9.776 0H0V9.775H9.776Z" />
+<path transform="matrix(0,1,1,0,31.934006,12.494995)" stroke-width=".682" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#1b1b1b" d="M9.776 0H0V9.548H9.776Z" />
+<path transform="matrix(0,1,1,0,12.610001,22.270997)" stroke-width=".682" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#1b1b1b" d="M0 0H9.548V9.776H0" />
+<path transform="matrix(0,1,1,0,22.158997,12.723007)" stroke-width=".682" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#1b1b1b" d="M0 0H-9.776V9.775H-.227" />
+</g>
+</svg>

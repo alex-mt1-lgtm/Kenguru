@@ -254,6 +254,8 @@ def archive_section(group, summary, datasets, active_editions):
             links = []
             for field, label in [('tasksUrl', 'Задания PDF'), ('answersUrl', 'Ответы PDF'), ('solutionUrl', 'Решения PDF')]:
                 if edition[field]:
+                    if field == 'answersUrl' and edition.get('reviewedKey'):
+                        label = 'Редакционный ключ PDF'
                     links.append(f'<a href="{escape(edition[field])}" target="_blank" rel="noopener">{label}</a>')
             interactive = (f'<a class="archive-open" href="./#zadacha={edition["id"]}/1">Решать вариант</a>'
                            if edition['id'] in active_editions else '')
@@ -310,6 +312,8 @@ def main():
     senior = [edition for edition in extra if min(edition['grades']) >= 9]
     active = compile_editions(middle, 'grades-7-8-data.js', 'KENGURU_GRADES_7_8')
     active |= compile_editions(extra, 'grade-junior-senior-data.js', 'KENGURU_JUNIOR_SENIOR')
+    active.update(edition['id'] for edition in middle
+                  if (SOURCES / 'math-completion' / (edition['id'] + '.json')).is_file())
     update_archive([('1-2', '1–2 классы', junior), ('7-8', '7–8 классы', middle),
                     ('9-11', '9–11 классы', senior)], active)
 

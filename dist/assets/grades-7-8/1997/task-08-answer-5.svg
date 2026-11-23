@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="43" height="42" viewBox="0 0 43 42">
+<defs>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,-321,109)" d="M321 67H364V109H321Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="clip_2">
+<path transform="matrix(.8660278,-.5,-.5,-.8660278,-279.98609,-164.73584)" d="M0-70H389.102V0H0Z" />
+</clipPath>
+<path id="font_3_38" d="M.18299866 .33198548H.5799866V.4139862H.18299866V.6469879H.59498599V.72898867H.08999634V0H.61299136V.08198547H.18299866V.33198548Z" />
+<path id="font_3_10" d="M.09298706-.21200562C.19299317-.08100891 .2559967 .100997928 .2559967 .2579956 .2559967 .41600038 .19299317 .59799197 .09298706 .72898867H.037994386C.12599182 .58599856 .1749878 .41799928 .1749878 .2579956 .1749878 .09899902 .12599182-.070007327 .037994386-.21200562H.09298706Z" />
+<path id="font_3_1" d="M0 0Z" />
+<clipPath id="clip_4">
+<path transform="matrix(1,0,0,-1,-321,109)" d="M387.873 299.46H322.24299V233.82999H387.873Z" />
+</clipPath>
+</defs>
+<g clip-path="url(#clip_1)">
+<g clip-path="url(#clip_2)">
+</g>
+<path transform="matrix(.9978638,0,0,1.0021057,11.721771,5.014084)" stroke-width="1.505" stroke-linecap="butt" stroke-miterlimit="4" stroke-linejoin="miter" fill="none" stroke="#231f20" d="M0 0 26.234 24.723" />
+<path transform="matrix(.9978638,0,0,1.0021057,5.184723,11.9596409)" stroke-width="1.505" stroke-linecap="butt" stroke-miterlimit="4" stroke-linejoin="miter" fill="none" stroke="#231f20" d="M0 0 26.112 24.719" />
+<path transform="matrix(.9978638,0,0,1.0021057,7.799164,7.8891146)" stroke-width="1.505" stroke-linecap="butt" stroke-miterlimit="4" stroke-linejoin="miter" fill="none" stroke="#231f20" d="M0 0 26.939 25.429" />
+<path transform="matrix(.9978638,0,0,1.0021057,2.9934083,20.75708)" stroke-width="1.505" stroke-linecap="butt" stroke-miterlimit="4" stroke-linejoin="miter" fill="none" stroke="#231f20" d="M0 0C0 10.255 8.314 18.569 18.569 18.569 28.824 18.569 37.136 10.255 37.136 0 37.136-10.254 28.824-18.568 18.569-18.568 8.314-18.568 0-10.254 0 0Z" />
+<use data-text=" " xlink:href="#font_3_1" transform="matrix(9.0142,0,0,-9.0142,6.767151,45.82973)" />
+<g clip-path="url(#clip_4)">
+</g>
+</g>
+</svg>

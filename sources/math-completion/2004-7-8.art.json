@@ -1,0 +1,176 @@
+[
+  {
+    "src": "assets/grades-7-8/2004/task-01.svg",
+    "page": 0,
+    "rect": [
+      1095,
+      194,
+      1196,
+      295
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2004/task-01-answer-1.svg",
+    "page": 0,
+    "rect": [
+      721,
+      228,
+      791,
+      298
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2004/task-01-answer-2.svg",
+    "page": 0,
+    "rect": [
+      808,
+      228,
+      864,
+      298
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2004/task-01-answer-3.svg",
+    "page": 0,
+    "rect": [
+      876,
+      228,
+      932,
+      298
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2004/task-01-answer-4.svg",
+    "page": 0,
+    "rect": [
+      959,
+      228,
+      1001,
+      313
+    ],
+    "exclude": [
+      [
+        981,
+        299,
+        1001,
+        313
+      ]
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2004/task-01-answer-5.svg",
+    "page": 0,
+    "rect": [
+      1027,
+      228,
+      1068,
+      313
+    ],
+    "exclude": [
+      [
+        1054,
+        299,
+        1068,
+        313
+      ]
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2004/task-04.svg",
+    "page": 0,
+    "rect": [
+      1061,
+      442,
+      1197,
+      546
+    ],
+    "exclude": [
+      [
+        1061,
+        460,
+        1065,
+        527
+      ],
+      [
+        1061,
+        527,
+        1081,
+        546
+      ],
+      [
+        1090,
+        442,
+        1150,
+        449
+      ]
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2004/task-06.svg",
+    "page": 0,
+    "rect": [
+      1098,
+      608,
+      1194,
+      702
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2004/task-11.svg",
+    "page": 1,
+    "rect": [
+      416,
+      211,
+      560,
+      322
+    ],
+    "exclude": [
+      [
+        416,
+        211,
+        484,
+        244
+      ]
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2004/task-15.svg",
+    "page": 1,
+    "rect": [
+      458,
+      621,
+      571,
+      737
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2004/task-24.svg",
+    "page": 1,
+    "rect": [
+      720,
+      703,
+      1201,
+      784
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2004/task-28.svg",
+    "page": 0,
+    "rect": [
+      294,
+      299,
+      560,
+      404
+    ]
+  },
+  {
+    "src": "assets/grades-7-8/2004/task-30.svg",
+    "page": 0,
+    "rect": [
+      93,
+      612,
+      559,
+      746
+    ]
+  }
+]

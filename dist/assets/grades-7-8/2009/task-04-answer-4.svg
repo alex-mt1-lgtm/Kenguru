@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="44.5" height="22" viewBox="0 0 44.5 22">
+<defs>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,-682.5,245)" d="M682.5 223H727V245H682.5Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_2">
+<path transform="matrix(0,1,1,0,-682.5,-350)" d="M536.627 633.087H546.60507V633.144H536.627Z"/>
+</clipPath>
+<clipPath id="clip_3">
+<path transform="matrix(0,1,1,0,-682.5,-350)" d="M75.628 793.613H86.711V799.05599H75.628Z"/>
+</clipPath>
+<clipPath id="clip_4">
+<path transform="matrix(0,1,1,0,-682.5,-350)" d="M39.94 512.728H86.542V466.07005H39.94Z"/>
+</clipPath>
+<clipPath id="clip_5">
+<path transform="matrix(0,1,1,0,-682.5,-350)" d="M75.883 512.728H87.30701V518.171H75.883Z"/>
+</clipPath>
+<clipPath id="clip_6">
+<path transform="matrix(0,1,1,0,-682.5,-350)" d="M269.291 626.312H280.658V631.584H269.291Z"/>
+</clipPath>
+<path id="font_7_10" d="M.09298706-.21200562C.19299317-.08100891 .2559967 .100997928 .2559967 .2579956 .2559967 .41600038 .19299317 .59799197 .09298706 .72898867H.037994386C.12599182 .58599856 .1749878 .41799928 .1749878 .2579956 .1749878 .09899902 .12599182-.070007327 .037994386-.21200562H.09298706Z"/>
+<path id="font_7_1" d="M0 0Z"/>
+</defs>
+<g clip-path="url(#clip_1)">
+<g clip-path="url(#clip_2)">
+</g>
+<g clip-path="url(#clip_3)">
+</g>
+<g clip-path="url(#clip_4)">
+</g>
+<g clip-path="url(#clip_5)">
+</g>
+<g clip-path="url(#clip_6)">
+</g>
+<use data-text=")" xlink:href="#font_7_10" transform="matrix(9.0184,0,0,-9.0184,-2.6697999,19.269288)"/>
+<path transform="matrix(0,1,1,0,-682.5,-350)" stroke-width="1.199" stroke-linecap="round" stroke-dasharray="1.998" stroke-linejoin="round" fill="none" stroke="#231f20" d="M368.474 683.916V691.847H360.549V683.916H352.624V691.847M352.624 702.816V694.882H368.474V702.816H352.624ZM352.624 713.782V705.85H368.474V713.782H352.624ZM352.624 716.817 360.549 724.75H368.474V716.817H360.549V724.75"/>
+<use data-text=" " xlink:href="#font_7_1" transform="matrix(9.0184,0,0,-9.0184,43.308229,19.269288)"/>
+</g>
+</svg>
