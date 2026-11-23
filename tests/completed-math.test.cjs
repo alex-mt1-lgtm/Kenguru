@@ -29,3 +29,17 @@ test('all historical primary and middle booklets open with scored tasks and work
     }
   }
 });
+
+test('every Kenguru task offers a worked explanation and awards its listed score', () => {
+  const {catalog, lessons} = loadLessonCatalog();
+  const rating = JSON.parse(fs.readFileSync(path.join(dist, 'api/rating-catalog.json')));
+  for (const edition of catalog.filter(entry => !entry.subject)) {
+    for (const index of edition.indices) {
+      const lesson = lessons[index];
+      const key = edition.id + '/' + lesson.number;
+      assert.notEqual(lesson.paperEdition, true, key);
+      assert.ok(lesson.steps.slice(1).some(step => step[2].trim().length > 24), key);
+      assert.deepEqual(rating[key], [lesson.answer, lesson.points], key);
+    }
+  }
+});
