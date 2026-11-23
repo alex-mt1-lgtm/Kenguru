@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="71" height="71" viewBox="0 0 71 71">
+<defs>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,-725,413)" d="M725 342H796V413H725Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_2">
+<path transform="matrix(0,1,1,0,-725,-182)" d="M536.627 633.087H546.60507V633.144H536.627Z"/>
+</clipPath>
+<clipPath id="clip_3">
+<path transform="matrix(0,1,1,0,-725,-182)" d="M75.628 793.613H86.711V799.05599H75.628Z"/>
+</clipPath>
+<clipPath id="clip_4">
+<path transform="matrix(0,1,1,0,-725,-182)" d="M39.94 512.728H86.542V466.07005H39.94Z"/>
+</clipPath>
+<clipPath id="clip_5">
+<path transform="matrix(0,1,1,0,-725,-182)" d="M75.883 512.728H87.30701V518.171H75.883Z"/>
+</clipPath>
+<clipPath id="clip_6">
+<path transform="matrix(0,1,1,0,-725,-182)" d="M269.291 626.312H280.658V631.584H269.291Z"/>
+</clipPath>
+</defs>
+<g clip-path="url(#clip_1)">
+<g clip-path="url(#clip_2)">
+</g>
+<g clip-path="url(#clip_3)">
+</g>
+<g clip-path="url(#clip_4)">
+</g>
+<g clip-path="url(#clip_5)">
+</g>
+<path transform="matrix(0,1,1,0,-725,-182)" d="M209.941 756.324H213.52899V752.677H209.941Z" fill="#231f20"/>
+<path transform="matrix(0,1,1,0,-725,-182)" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="round" fill="none" stroke="#231f20" d="M184.608 792.468H249.646V727.437H184.608Z"/>
+<path transform="matrix(0,1,1,0,-725,-182)" stroke-width=".5" stroke-linecap="butt" stroke-linejoin="round" fill="none" stroke="#231f20" d="M209.931 749.109V759.921M213.506 749.109V759.921"/>
+<path transform="matrix(0,1,1,0,-725,-182)" stroke-width=".7" stroke-linecap="butt" stroke-linejoin="round" fill="none" stroke="#231f20" d="M217.094 749.109V770.622"/>
+<path transform="matrix(0,1,1,0,-725,-182)" stroke-width=".5" stroke-linecap="butt" stroke-linejoin="round" fill="none" stroke="#231f20" d="M206.294 752.706H217.131M206.294 756.303H217.131"/>
+<path transform="matrix(0,1,1,0,-725,-182)" stroke-width=".7" stroke-linecap="butt" stroke-linejoin="round" fill="none" stroke="#231f20" d="M206.294 759.931H227.896"/>
+<path transform="matrix(0,1,1,0,-725,-182)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="4" stroke-linejoin="miter" fill="none" stroke="#231f20" d="M206.296 727.474V792.44M227.966 727.474V792.44M249.585 749.113H184.612M249.585 770.78H184.612"/>
+<g clip-path="url(#clip_6)">
+</g>
+</g>
+</svg>

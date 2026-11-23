@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="44" height="22" viewBox="0 0 44 22">
+<defs>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,-559,245)" d="M559 223H603V245H559Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_2">
+<path transform="matrix(0,1,1,0,-559,-350)" d="M536.627 633.087H546.60507V633.144H536.627Z"/>
+</clipPath>
+<clipPath id="clip_3">
+<path transform="matrix(0,1,1,0,-559,-350)" d="M75.628 793.613H86.711V799.05599H75.628Z"/>
+</clipPath>
+<clipPath id="clip_4">
+<path transform="matrix(0,1,1,0,-559,-350)" d="M39.94 512.728H86.542V466.07005H39.94Z"/>
+</clipPath>
+<clipPath id="clip_5">
+<path transform="matrix(0,1,1,0,-559,-350)" d="M75.883 512.728H87.30701V518.171H75.883Z"/>
+</clipPath>
+<clipPath id="clip_6">
+<path transform="matrix(0,1,1,0,-559,-350)" d="M269.291 626.312H280.658V631.584H269.291Z"/>
+</clipPath>
+<path id="font_7_10" d="M.09298706-.21200562C.19299317-.08100891 .2559967 .100997928 .2559967 .2579956 .2559967 .41600038 .19299317 .59799197 .09298706 .72898867H.037994386C.12599182 .58599856 .1749878 .41799928 .1749878 .2579956 .1749878 .09899902 .12599182-.070007327 .037994386-.21200562H.09298706Z"/>
+<path id="font_7_1" d="M0 0Z"/>
+</defs>
+<g clip-path="url(#clip_1)">
+<g clip-path="url(#clip_2)">
+</g>
+<g clip-path="url(#clip_3)">
+</g>
+<g clip-path="url(#clip_4)">
+</g>
+<g clip-path="url(#clip_5)">
+</g>
+<g clip-path="url(#clip_6)">
+</g>
+<use data-text=")" xlink:href="#font_7_10" transform="matrix(9.0184,0,0,-9.0184,-2.8170167,19.269288)"/>
+<path transform="matrix(0,1,1,0,-559,-350)" stroke-width="1.199" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#231f20" d="M352.609 567.862 360.533 559.93H368.458V567.862H360.533V559.93M352.609 578.83H368.458V570.898H352.609ZM352.609 589.797H368.458V581.865H352.609ZM352.609 592.832V600.765H360.533V592.832H368.458V600.765"/>
+<use data-text=" " xlink:href="#font_7_1" transform="matrix(9.0184,0,0,-9.0184,43.16089,19.269288)"/>
+</g>
+</svg>

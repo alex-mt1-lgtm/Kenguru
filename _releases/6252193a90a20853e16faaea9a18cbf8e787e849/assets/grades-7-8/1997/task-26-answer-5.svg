@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="43" height="39" viewBox="0 0 43 39">
+<defs>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,-178,117)" d="M178 78H221V117H178Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="clip_2">
+<path transform="matrix(.8660278,-.5,-.5,-.8660278,-136.9861,-156.73584)" d="M0-70H389.102V0H0Z" />
+</clipPath>
+<clipPath id="clip_3">
+<path transform="matrix(1,0,0,-1,-178,117)" d="M302.709 166.16H77.38602V78.32101H302.709Z" />
+</clipPath>
+</defs>
+<g clip-path="url(#clip_1)">
+<g clip-path="url(#clip_2)">
+</g>
+<path transform="matrix(1,0,0,-1,6.4299929,34.992006)" stroke-width="1.001" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#231f20" d="M0 0V30.452H30.52V.167" />
+<g clip-path="url(#clip_3)">
+</g>
+<path transform="matrix(1,0,0,-1,10.162994,12.940994)" d="M0 0-3.705 1.575-7.411 0-3.705 8.788 0 0" fill="#231f20" />
+<path transform="matrix(1,0,0,-1,33.240007,27.350998)" d="M0 0 3.705-1.575 7.412 0 3.705-8.788 0 0" fill="#231f20" />
+<path transform="matrix(1,0,0,-1,28.574997,8.281998)" d="M0 0 1.574 3.707 0 7.415 8.784 3.707 0 0" fill="#231f20" />
+</g>
+</svg>

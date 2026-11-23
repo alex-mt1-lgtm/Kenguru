@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://www.inkscape.org/namespaces/inkscape" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="55.171998" height="54.483" viewBox="0 0 55.171998 54.483">
+<defs>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,-314.483,175.21997)" d="M314.483 120.73697H369.655V175.21997H314.483Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="clip_2">
+<path transform="matrix(.8660278,-.5,-.5,-.8660278,-159.17743,-55.52585)" d="M0-100H555.86V0H0Z" />
+</clipPath>
+<clipPath id="clip_3">
+<path transform="matrix(0,1,1,0,-314.483,-420)" d="M0 842H595.22V0H0Z" />
+</clipPath>
+<path id="font_4_157" d="M.16799927 .7001953V.6721802H.20899964C.23899842 .6721802 .2709961 .6661835 .2709961 .6091614 .2709961 .55615237 .23699951 .38110353 .19198609 .24205017 .14698792 .10202026 .10899353 .037994386 .0309906 .027999878L.017990113-.15400696H.049987794L.052993776-.118011478C.05899048-.041000368 .16299439 0 .24699402 0H.40299989C.5169983 0 .6459961-.052001954 .651001-.11500549L.6539917-.15400696H.6859894L.6779938 .027999878H.62098696C.60798647 .027999878 .58299258 .0289917 .58299258 .073013309V.62716677C.58299258 .67118838 .60798647 .6721802 .62098696 .6721802H.6779938V.7001953H.16799927M.20899964 .027999878C.18998719 .027999878 .16499329 .02999878 .16499329 .05999756 .16499329 .08900452 .19400025 .12702942 .23599243 .2720642 .272995 .3991089 .2869873 .50413516 .30299378 .6021576 .30699159 .62716677 .31599427 .6721802 .3639984 .6721802H.45399476C.46499635 .6721802 .4909973 .67118838 .4909973 .62716677V.073013309C.4909973 .0289917 .46598817 .027999878 .45298768 .027999878H.20899964Z" />
+<path id="font_4_10" d="M.05999756 .69400027C.19499207 .59298709 .2579956 .42599488 .2579956 .24499512 .2579956 .06399536 .19499207-.103012088 .05999756-.20401001L.07299805-.22401428C.23399353-.12600708 .36698915 .052993776 .36698915 .24499512 .36698915 .43699647 .23399353 .6159973 .07299805 .71398928L.05999756 .69400027Z" />
+<path id="font_4_1" d="M0 0Z" />
+<clipPath id="clip_5">
+<path transform="matrix(0,1,1,0,-314.483,-420)" d="M108.42 128.631H197.7V292.79103H108.42Z" />
+</clipPath>
+<clipPath id="clip_6">
+<path transform="matrix(0,1,1,0,-314.483,-420)" d="M0 842H595.22V0H0Z" />
+</clipPath>
+<clipPath id="clip_7">
+<path transform="matrix(0,1,1,0,-314.483,-420)" d="M263.059 476.392H302.66V756.23806H263.059Z" />
+</clipPath>
+</defs>
+<g clip-path="url(#clip_1)">
+<g clip-path="url(#clip_2)">
+</g>
+<g ns1:groupmode="layer" ns1:label="Слой 1">
+<g clip-path="url(#clip_3)">
+<use data-text="Д" xlink:href="#font_4_157" transform="matrix(9,0,0,-9,-1.4240112,61.243715)" fill="#231f20" />
+<use data-text=")" xlink:href="#font_4_10" transform="matrix(9,0,0,-9,5.217987,61.243715)" fill="#231f20" />
+<use data-text=" " xlink:href="#font_4_1" transform="matrix(9,0,0,-9,9.060974,61.243715)" fill="#231f20" />
+</g>
+<g clip-path="url(#clip_5)">
+</g>
+<g clip-path="url(#clip_6)">
+<path transform="matrix(0,1,1,0,14.675201,1.7050781)" stroke-width=".3" stroke-linecap="square" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#231f20" d="M0 0H51.878M0 12.547H51.878M0 26.194H51.878M39.294-12.985V38.739M26.05-12.985V38.739M13.024-12.985V38.739" />
+<path transform="matrix(0,1,1,0,14.652679,14.623993)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#231f20" d="M0 0 26.294 26.295V0H0Z" />
+<path transform="matrix(0,1,1,0,14.652679,27.783204)" stroke-width="1.2" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#231f20" d="M0 0V12.664M13.327 12.555H-.054" />
+</g>
+<g clip-path="url(#clip_7)">
+</g>
+</g>
+</g>
+</svg>
