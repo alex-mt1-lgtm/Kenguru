@@ -40,6 +40,26 @@ def photo_assets(document, record, directory):
     composite.save(directory / record['file'], 'WEBP', lossless=True, method=6)
 
 
+def raster_strips(document, record, directory):
+    width, height = record['size']
+    composite = Image.new('RGB', (width, height))
+    top = 0
+    for xref in record['strips']:
+        embedded = document.extract_image(xref)
+        with Image.open(BytesIO(embedded['image'])) as image:
+            if image.width != width:
+                raise ValueError(f'Unexpected strip width in {record["file"]}')
+            composite.paste(image.convert('RGB'), (0, top))
+            top += image.height
+    if top != height:
+        raise ValueError(f'Unexpected total strip height in {record["file"]}')
+    composite.save(directory / record['file'], 'WEBP', lossless=True, method=6)
+    preview_width = record['previewWidth']
+    preview_size = (preview_width, round(height * preview_width / width))
+    preview = composite.resize(preview_size, Image.Resampling.LANCZOS)
+    preview.save(directory / record['preview'], 'WEBP', lossless=True, method=6)
+
+
 def build():
     for registry in sorted((ROOT / 'sources' / 'medvezhonok').glob('*/senior-art.json')):
         source = registry.parent
@@ -49,6 +69,8 @@ def build():
             with fitz.open(source / record['pdf']) as document:
                 if 'panels' in record:
                     photo_assets(document, record, target)
+                elif 'strips' in record:
+                    raster_strips(document, record, target)
                 else:
                     vector_asset(document, record, target / record['file'])
 

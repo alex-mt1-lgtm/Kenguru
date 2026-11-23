@@ -4,8 +4,8 @@
   "counts": {
     "schoolBooklets": 59,
     "withKey": 54,
-    "interactive": 13,
-    "interactiveQuestions": 361,
+    "interactive": 20,
+    "interactiveQuestions": 561,
     "preschoolBookletsConfirmed": 8
   },
   "school": [
@@ -214,7 +214,9 @@
         "tasks": "dist/assets/chip/2013/1-2_2013.pdf",
         "answers": "dist/assets/chip/2013/answers_2013.pdf",
         "solutions": "dist/assets/chip/2013/1-2kom2013.pdf"
-      }
+      },
+      "interactive": "sources/chip/2013/1-2.json",
+      "interactiveQuestions": 20
     },
     {
       "year": 2013,
@@ -228,7 +230,9 @@
         "tasks": "dist/assets/chip/2013/3-4_2013.pdf",
         "answers": "dist/assets/chip/2013/answers_2013.pdf",
         "solutions": "dist/assets/chip/2013/3-4kom2013.pdf"
-      }
+      },
+      "interactive": "sources/chip/2013/3-4.json",
+      "interactiveQuestions": 30
     },
     {
       "year": 2013,
@@ -258,7 +262,9 @@
         "tasks": "dist/assets/chip/2013/7-8_2013.pdf",
         "answers": "dist/assets/chip/2013/answers_2013.pdf",
         "solutions": "dist/assets/chip/2013/7-8kom2013.pdf"
-      }
+      },
+      "interactive": "sources/chip/2013/7-8.json",
+      "interactiveQuestions": 30
     },
     {
       "year": 2013,
@@ -367,7 +373,9 @@
       "archive": {
         "tasks": "dist/assets/chip/2015/chip_2014-15_3-4.pdf",
         "answers": "dist/assets/chip/2015/otveti_chip_2014-15.pdf"
-      }
+      },
+      "interactive": "sources/chip/2015/3-4.json",
+      "interactiveQuestions": 30
     },
     {
       "year": 2015,
@@ -380,7 +388,9 @@
       "archive": {
         "tasks": "dist/assets/chip/2015/chip_2014-15_5-6.pdf",
         "answers": "dist/assets/chip/2015/otveti_chip_2014-15.pdf"
-      }
+      },
+      "interactive": "sources/chip/2015/5-6.json",
+      "interactiveQuestions": 30
     },
     {
       "year": 2015,
@@ -393,7 +403,9 @@
       "archive": {
         "tasks": "dist/assets/chip/2015/chip_2014-15_7-8.pdf",
         "answers": "dist/assets/chip/2015/otveti_chip_2014-15.pdf"
-      }
+      },
+      "interactive": "sources/chip/2015/7-8.json",
+      "interactiveQuestions": 30
     },
     {
       "year": 2015,
@@ -406,7 +418,9 @@
       "archive": {
         "tasks": "dist/assets/chip/2015/chip_2014-15_9-10.pdf",
         "answers": "dist/assets/chip/2015/otveti_chip_2014-15.pdf"
-      }
+      },
+      "interactive": "sources/chip/2015/9-10.json",
+      "interactiveQuestions": 30
     },
     {
       "year": 2016,

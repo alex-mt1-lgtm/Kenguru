@@ -10,7 +10,7 @@ const answerFile = row => 'reviewed-' + [row.grade, row.session, row.editionSuff
 
 function loadSubjects() {
   const subjects = [...read('sources/subject-editions.json'), ...read('sources/chip/interactive-additions.json'),
-    ...read('sources/chip/interactive-2012-2014.json')];
+    ...read('sources/chip/interactive-2012-2014.json'), ...read('sources/chip/interactive-africa.json')];
   const editions = subjects.map(meta => {
     const file = meta.sourceFile ?? ['sources', meta.subject, meta.year, meta.session, meta.grade + '.json'].filter(Boolean).join('/');
     return {meta: {...meta, answersFile: answerFile(meta), reviewedKey: true}, rows: read(file), file};

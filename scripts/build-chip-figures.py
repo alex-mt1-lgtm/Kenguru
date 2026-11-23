@@ -46,8 +46,8 @@ def credit_lines(path, manifest):
                 if not detail:
                     continue
                 source = detail['source']
-                if source == 'tasks.pdf':
-                    source = year + '/tasks.pdf'
+                if '/' not in source and source.endswith('.pdf'):
+                    source = year + '/' + source
                 license_name = escape(detail['license'])
                 if detail.get('licenseUrl'):
                     license_name = f'<a href="{escape(detail["licenseUrl"], quote=True)}">{license_name}</a>'

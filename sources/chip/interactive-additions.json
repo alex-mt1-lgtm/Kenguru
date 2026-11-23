@@ -121,5 +121,83 @@
     "tasksFile": "chip_2014-15_7-8.pdf",
     "answersFile": "otveti_chip_2014-15.pdf",
     "title": "Европа"
+  },
+  {
+    "subject": "chip",
+    "year": 2015,
+    "grade": "9-10",
+    "contest": "Человек и природа",
+    "letters": "АБВГД",
+    "count": 30,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "chip_2014-15_9-10.pdf",
+    "answersFile": "otveti_chip_2014-15.pdf",
+    "title": "Европа"
+  },
+  {
+    "subject": "chip",
+    "year": 2016,
+    "grade": "1-2",
+    "contest": "Человек и природа",
+    "letters": "АБВГД",
+    "count": 20,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "задания_ЧИП-2016-1_2класс.pdf",
+    "answersFile": "ответы-чип-2016.pdf",
+    "title": "Азия"
+  },
+  {
+    "subject": "chip",
+    "year": 2016,
+    "grade": "3-4",
+    "contest": "Человек и природа",
+    "letters": "АБВГД",
+    "count": 30,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "задания_ЧИП-2016-3_4класс.pdf",
+    "answersFile": "ответы-чип-2016.pdf",
+    "title": "Азия"
+  },
+  {
+    "subject": "chip",
+    "year": 2016,
+    "grade": "5-6",
+    "contest": "Человек и природа",
+    "letters": "АБВГД",
+    "count": 30,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "задания_ЧИП-2016-5_6класс.pdf",
+    "answersFile": "ответы-чип-2016.pdf",
+    "title": "Азия"
+  },
+  {
+    "subject": "chip",
+    "year": 2016,
+    "grade": "7-8",
+    "contest": "Человек и природа",
+    "letters": "АБВГД",
+    "count": 30,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "задания_ЧИП-2016-7_8класс.pdf",
+    "answersFile": "ответы-чип-2016.pdf",
+    "title": "Азия"
+  },
+  {
+    "subject": "chip",
+    "year": 2016,
+    "grade": "9-10",
+    "contest": "Человек и природа",
+    "letters": "АБВГД",
+    "count": 30,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "задания_ЧИП-2016-9_10класс.pdf",
+    "answersFile": "ответы-чип-2016.pdf",
+    "title": "Азия"
   }
 ]

@@ -24,6 +24,6 @@ for (const set of model.catalog.filter(s => s.subject === 'ru' && s.sources.revi
   const grade = set.grades.join('-');
   const rows = model.russianRows.get(set.id);
   add({subject:'medvezhonok', contest:'Русский медвежонок', year:set.year, grade, letters:'АБВГД',
-    answersFile:'reviewed-' + grade + '.pdf'}, rows.map((row, i) => ({...row, answer:model.lessons[set.indices[i]].answer, choices:model.lessons[set.indices[i]].choices})), false);
+    answersFile:'reviewed-' + grade + '.pdf'}, rows.map((row, i) => ({...row, figure:row.figure?.condition, optionFigures:row.figure?.options, answer:model.lessons[set.indices[i]].answer, choices:model.lessons[set.indices[i]].choices})), false);
 }
 process.stdout.write(JSON.stringify([...output.values()]));

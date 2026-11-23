@@ -9,8 +9,8 @@ globalThis.makeMedvezhonokEdition = function (year, grade, rows, material = {}) 
     const [title, idea, check] = review;
     const answer = letters.indexOf(key);
     const textChoices = choices.map(plain);
-    const options = figure?.options?.map(({src, description, pixelWidth, pixelHeight}, i) => ({
-      image: src, description, pixelWidth, pixelHeight, text: figure.onlyPictures ? '' : textChoices[i],
+    const options = figure?.options?.map(({src, detailSrc, description, pixelWidth, pixelHeight}, i) => ({
+      image: src, ...(detailSrc ? {detailSrc} : {}), description, pixelWidth, pixelHeight, text: figure.onlyPictures ? '' : textChoices[i],
     })) ?? textChoices.map(text => ({text}));
     return {
       number: index + 1, title, author, question: plain(question), choices: textChoices,
@@ -55,7 +55,7 @@ globalThis.makeMedvezhonokEdition = function (year, grade, rows, material = {}) 
       contest: 'Русский медвежонок',
       tasksUrl: 'assets/medvezhonok/' + year + '/' + (material.tasksFile ?? grade + '.pdf'),
       reviewedKey,
-      answersUrl: 'assets/medvezhonok/' + year + '/' + (material.answersFile ?? (reviewedKey ? 'reviewed-' + grade : grade + '-answers') + '.pdf'),
+      answersUrl: 'assets/medvezhonok/' + year + '/' + (reviewedKey ? 'reviewed-' + grade + '.pdf' : material.answersFile ?? grade + '-answers.pdf'),
       ...(material.solutionsFile ? {solutionUrl: 'assets/medvezhonok/' + year + '/' + material.solutionsFile} : {}),
       ...(year === 2004 && grade === '2-3' ? {solutionUrl: 'assets/medvezhonok/2004/2-3-answers.pdf'} : {}),
     },

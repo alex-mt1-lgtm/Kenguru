@@ -41,9 +41,11 @@ function buildRussianArchive(html) {
     add(Number(match[1]), match[2].replace('–', '-'), match[0]);
   }
   for (const {year, grade, tasksFile, answersFile, solutionsFile} of rows) {
-    const interactive = fs.existsSync(path.join(source, String(year), 'editions', grade + '.json'));
+    const edition = path.join(source, String(year), 'editions', grade + '.json');
+    const interactive = fs.existsSync(edition);
+    const reviewed = interactive && JSON.parse(fs.readFileSync(edition, 'utf8')).some(row => row.reviewedEdition);
     const base = 'assets/medvezhonok/' + year + '/';
-    const links = [[tasksFile, 'Задания'], [answersFile, 'Ответы'], [solutionsFile, 'Решения']].filter(([file]) => file)
+    const links = [[tasksFile, 'Задания'], [reviewed ? 'reviewed-' + grade + '.pdf' : answersFile, 'Ответы'], [solutionsFile, 'Решения']].filter(([file]) => file)
       .map(([file, label]) => '<a href="' + base + file + '" target="_blank" rel="noopener">' + label + ' PDF</a>').join(' ');
     const solve = interactive ? '<a class="archive-open" href="./#zadacha=' + year + '-medvezhonok-' + grade + '/1">Решать вариант</a>' : '';
     const title = grade.replace('-', '–') + (grade.includes('-') ? ' классы' : ' класс');

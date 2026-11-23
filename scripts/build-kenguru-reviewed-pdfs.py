@@ -1,11 +1,12 @@
-"""Rebuild four editorial Kenguru PDFs from the original archive files."""
+"""Rebuild editorial Kenguru PDFs from the original archive files."""
 
 from pathlib import Path
 
 import fitz
 
 
-ARCHIVE = Path(__file__).resolve().parents[1] / 'dist' / 'assets' / 'kenguru'
+ROOT = Path(__file__).resolve().parents[1]
+ARCHIVE = ROOT / 'dist' / 'assets' / 'kenguru'
 FONT_DIRECTORY = Path('/usr/share/fonts/truetype/liberation')
 FONTS = {
     'ReviewRegular': FONT_DIRECTORY / 'LiberationSans-Regular.ttf',
@@ -49,6 +50,17 @@ def reviewed_2017_answers(page):
     write_line(page, 115, 205.4, EDITOR_NOTE, 8.4, color=NOTE_COLOR)
 
 
+def reviewed_2018_answers(page):
+    matches = page.search_for('x3', clip=fitz.Rect(338, 280, 362, 305))
+    if len(matches) != 2:
+        raise ValueError('The 2018 answer to task 11 is outside its expected cell')
+    old_answer = matches[0] | matches[1]
+    erase(page, (old_answer.x0 - 0.2, old_answer.y0 - 0.2,
+                 old_answer.x1 + 0.2, old_answer.y1 + 0.2))
+    write_line(page, 335.2, 300.42, '√(x³)', 12)
+    write_line(page, 387, 300.42, EDITOR_NOTE, 8.4, color=NOTE_COLOR)
+
+
 def reviewed_2021_tasks(page):
     # The original booklet uses outlined text and has a rotated spread.
     erase(page, (458.8, 456, 677, 509.3), (458.8, 510, 789, 531))
@@ -88,9 +100,9 @@ def reviewed_2022_solutions(page):
         write_line(page, 19.85, 46.58 + index * 12, line, 9.2)
 
 
-def build(name, page_index, edit):
-    original = ARCHIVE / f'{name}.pdf'
-    reviewed = original.with_name(f'{original.stem}-reviewed.pdf')
+def build(name, page_index, edit, *, original=None):
+    original = original or ARCHIVE / f'{name}.pdf'
+    reviewed = ARCHIVE / f'{name}-reviewed.pdf'
     with fitz.open(original) as document:
         edit(document[page_index])
         document.save(reviewed, garbage=3, deflate=True, no_new_id=True)
@@ -98,6 +110,8 @@ def build(name, page_index, edit):
 
 if __name__ == '__main__':
     build('kenguru_2017_answers', 0, reviewed_2017_answers)
+    build('kenguru_2018_answers', 1, reviewed_2018_answers,
+          original=ROOT / 'sources' / '2018' / 'answers.pdf')
     build('kenguru_2021_class_7-8', 0, reviewed_2021_tasks)
     build('kenguru_2022_class_7-8', 1, reviewed_2022_tasks)
     build('kenguru_2022_solution', 14, reviewed_2022_solutions)
