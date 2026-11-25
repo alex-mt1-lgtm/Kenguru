@@ -8,12 +8,12 @@ function add(meta, rows, partial, paperKey = false) {
   const data = rows.map((row, i) => {
     const number = row.number ?? i + 1;
     const matching = meta.matchingGroups?.find(group => number >= group.start && number < group.start + group.count);
-    return {number, choices: row.choices, answer: row.answer, acceptedAnswers: row.acceptedAnswers, numericAnswer: row.numericAnswer,
+    return {number, choices: row.choices, answer: row.answer, acceptedAnswers: row.acceptedAnswers, numericAnswer: row.numericAnswer, textAnswer: row.textAnswer, acceptedNumericAnswers: row.acceptedNumericAnswers,
       ...(row.reviewedEdition && row.review ? {solution: row.review.slice(1), keyNote: row.keyNote} : {}),
       ...((paperKey && row.question || row.adaptation || row.reviewedEdition) ? {
         revisedQuestion: [row.context, row.question].filter(Boolean).join('\n\n'), revisedChoices: row.choices,
         figure: row.figure, figures: row.figures, optionFigures: row.optionFigures} : {}),
-      ...(matching ? {matching, label: 'Рисунок ' + (number - matching.start + 1)} : {})};
+      ...(matching ? {matching, label: 'Рисунок ' + (matching.originalNumbers ? number : number - matching.start + 1)} : {})};
   });
   output.set([meta.subject, meta.year, filename].join('/'), {subject:meta.subject, year:meta.year, grade:meta.grade,
     title, filename, letters:meta.letters, partial, rows:data});
