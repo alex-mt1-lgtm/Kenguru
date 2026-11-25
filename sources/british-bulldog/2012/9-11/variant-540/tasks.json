@@ -1,0 +1,959 @@
+[
+  {
+    "title": "The Band",
+    "question": "The young people are going to the … concert.",
+    "choices": [
+      "Beatles",
+      "Led Zeppelin",
+      "Guns N’ Roses"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 2,
+    "steps": [
+      "Том начинает разговор с вопроса о билетах на концерт.",
+      "В его реплике звучит Guns N’ Roses."
+    ]
+  },
+  {
+    "title": "Time of the Concert",
+    "question": "The concert will take place in … .",
+    "choices": [
+      "spring",
+      "winter",
+      "summer"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 1,
+    "steps": [
+      "Том говорит, что концерт состоится «in December».",
+      "Декабрь относится к зиме, winter."
+    ]
+  },
+  {
+    "title": "Counting the Boys",
+    "question": "How many boys does Tom name as possible members of the group, including himself?",
+    "choices": [
+      "Five",
+      "Six",
+      "Seven"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 1,
+    "steps": [
+      "Том называет себя, Билла, Джона и Саймона. Это четыре человека.",
+      "Затем он добавляет «maybe Jim and Alex». С этими двумя возможными участниками получается шесть."
+    ],
+    "adaptation": "Уточнён вопрос по записи. Том говорит о четырёх участниках уверенно и добавляет двух возможных."
+  },
+  {
+    "title": "Why Girls Want to Go Alone",
+    "question": "The girls would like to go alone as they think boys … .",
+    "choices": [
+      "always misbehave",
+      "don’t like trips",
+      "can’t organize transport to the concert"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 0,
+    "steps": [
+      "Джейн говорит «Boys are too noisy and always making trouble».",
+      "Making trouble соответствует плохому поведению, misbehave."
+    ]
+  },
+  {
+    "title": "Comparing Two Trips",
+    "question": "Tom considers this concert to be … than the last-year school trip.",
+    "choices": [
+      "less important",
+      "of greater importance",
+      "more ridiculous"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 1,
+    "steps": [
+      "Том называет прошлогоднюю поездку «only a school trip».",
+      "О концерте он говорит «This is more important», то есть важнее."
+    ]
+  },
+  {
+    "title": "Alex's Father",
+    "question": "Alex’s dad … a transport company.",
+    "choices": [
+      "owns",
+      "is going to buy",
+      "will drive the boys to"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 0,
+    "steps": [
+      "После упоминания микроавтобуса говорящий напоминает о компании отца Алекса.",
+      "«He has a small transport company» означает, что он владеет фирмой."
+    ]
+  },
+  {
+    "title": "Why Jane Agrees",
+    "question": "Jane agreed to go with the boys because Tom’s arguments were … .",
+    "choices": [
+      "violent",
+      "persuasive",
+      "tenuous"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 1,
+    "steps": [
+      "Джейн уступает со словами «You have been very convincing».",
+      "Convincing значит persuasive, убедительный."
+    ]
+  },
+  {
+    "title": "The Girls' Reaction",
+    "question": "The girls will get … if the boys go to the concert.",
+    "choices": [
+      "embarrassed",
+      "excited",
+      "angry"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 2,
+    "steps": [
+      "После согласия Джейн предупреждает «the girls are going to be furious».",
+      "Furious значит «в ярости». Из вариантов подходит angry."
+    ]
+  },
+  {
+    "title": "Extra Tickets",
+    "question": "Jane has … extra tickets.",
+    "choices": [
+      "three",
+      "four",
+      "five"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 2,
+    "steps": [
+      "Джейн говорит «I really only have five extra tickets».",
+      "Лишних билетов five, пять. Это меньше числа возможных участников."
+    ]
+  },
+  {
+    "title": "Tom's Promise",
+    "question": "The young man promises to … .",
+    "choices": [
+      "drive them all to the concert",
+      "behave himself",
+      "kill Jane"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 1,
+    "steps": [
+      "Том говорит «I promise we won’t make trouble» и «I promise we’ll be good».",
+      "Он обещает вести себя хорошо, behave himself."
+    ]
+  },
+  {
+    "title": "Maps and Writing",
+    "question": "Writing was invented a long time after the first map was drawn.",
+    "choices": [
+      "True",
+      "False",
+      "Not known"
+    ],
+    "context": "Read the text and choose the answer.\n\nMaps were made long before reading and writing were invented. The earliest map that we know of is a cave painting in the Lascaux caves in France. The painting shows a part of the summer night’s sky 16,500 years ago. Modern astronomers can still understand the night sky shown in the map. A four thousand year old map made by the Babylonians is still in existence. Many ancient map-makers thought that the world was flat, but explorers like Magellan in the 15th century sailed around the world and helped to make better maps. Besides, measurements taken by satellites show that our planet is slightly pear-shaped. Satellites have also provided more accurate information and have helped to see and map parts of the world that were little known or never seen by humans before. Satellites have photographed the Amazon rainforest and have shown that the area the size of twenty football pitches is being cut down every minute. Pictures taken from space have also shown that one of the world’s largest areas of inland water, the Aral Sea, has been shrinking very quickly. Modern satellite maps show the effects of global warming and pollution and help us to understand the world around us better. More and more drivers nowadays rely on satellite navigation in their cars so the traditional road maps may not be around much longer.",
+    "answer": 0,
+    "steps": [
+      "Первое предложение утверждает, что карты делали задолго до появления письма.",
+      "Письмо появилось позже первой карты. По тексту это True."
+    ]
+  },
+  {
+    "title": "The Earliest Map Described",
+    "question": "The first map was a map of the night sky.",
+    "choices": [
+      "True",
+      "False",
+      "Not known"
+    ],
+    "context": "Read the text and choose the answer.\n\nMaps were made long before reading and writing were invented. The earliest map that we know of is a cave painting in the Lascaux caves in France. The painting shows a part of the summer night’s sky 16,500 years ago. Modern astronomers can still understand the night sky shown in the map. A four thousand year old map made by the Babylonians is still in existence. Many ancient map-makers thought that the world was flat, but explorers like Magellan in the 15th century sailed around the world and helped to make better maps. Besides, measurements taken by satellites show that our planet is slightly pear-shaped. Satellites have also provided more accurate information and have helped to see and map parts of the world that were little known or never seen by humans before. Satellites have photographed the Amazon rainforest and have shown that the area the size of twenty football pitches is being cut down every minute. Pictures taken from space have also shown that one of the world’s largest areas of inland water, the Aral Sea, has been shrinking very quickly. Modern satellite maps show the effects of global warming and pollution and help us to understand the world around us better. More and more drivers nowadays rely on satellite navigation in their cars so the traditional road maps may not be around much longer.",
+    "answer": 0,
+    "steps": [
+      "Текст называет рисунок из пещер Ласко самой ранней из известных автору карт.",
+      "На нём изображена часть ночного неба. По тексту это True."
+    ]
+  },
+  {
+    "title": "The Babylonian Map",
+    "question": "The first map was made by the Babylonians.",
+    "choices": [
+      "True",
+      "False",
+      "Not known"
+    ],
+    "context": "Read the text and choose the answer.\n\nMaps were made long before reading and writing were invented. The earliest map that we know of is a cave painting in the Lascaux caves in France. The painting shows a part of the summer night’s sky 16,500 years ago. Modern astronomers can still understand the night sky shown in the map. A four thousand year old map made by the Babylonians is still in existence. Many ancient map-makers thought that the world was flat, but explorers like Magellan in the 15th century sailed around the world and helped to make better maps. Besides, measurements taken by satellites show that our planet is slightly pear-shaped. Satellites have also provided more accurate information and have helped to see and map parts of the world that were little known or never seen by humans before. Satellites have photographed the Amazon rainforest and have shown that the area the size of twenty football pitches is being cut down every minute. Pictures taken from space have also shown that one of the world’s largest areas of inland water, the Aral Sea, has been shrinking very quickly. Modern satellite maps show the effects of global warming and pollution and help us to understand the world around us better. More and more drivers nowadays rely on satellite navigation in their cars so the traditional road maps may not be around much longer.",
+    "answer": 1,
+    "steps": [
+      "Вавилонская карта упомянута как карта возрастом около четырёх тысяч лет.",
+      "По тексту рисунок из Ласко значительно старше. Утверждение False."
+    ]
+  },
+  {
+    "title": "Babylonian Map-Makers",
+    "question": "Babylonian map-makers were very rich men.",
+    "choices": [
+      "True",
+      "False",
+      "Not known"
+    ],
+    "context": "Read the text and choose the answer.\n\nMaps were made long before reading and writing were invented. The earliest map that we know of is a cave painting in the Lascaux caves in France. The painting shows a part of the summer night’s sky 16,500 years ago. Modern astronomers can still understand the night sky shown in the map. A four thousand year old map made by the Babylonians is still in existence. Many ancient map-makers thought that the world was flat, but explorers like Magellan in the 15th century sailed around the world and helped to make better maps. Besides, measurements taken by satellites show that our planet is slightly pear-shaped. Satellites have also provided more accurate information and have helped to see and map parts of the world that were little known or never seen by humans before. Satellites have photographed the Amazon rainforest and have shown that the area the size of twenty football pitches is being cut down every minute. Pictures taken from space have also shown that one of the world’s largest areas of inland water, the Aral Sea, has been shrinking very quickly. Modern satellite maps show the effects of global warming and pollution and help us to understand the world around us better. More and more drivers nowadays rely on satellite navigation in their cars so the traditional road maps may not be around much longer.",
+    "answer": 2,
+    "steps": [
+      "Дан возраст вавилонской карты, но не описаны её создатели.",
+      "О достатке картографов сведений нет, Not known."
+    ]
+  },
+  {
+    "title": "The Explorers' Contribution",
+    "question": "Magellan’s explorations helped the map-makers to improve their maps.",
+    "choices": [
+      "True",
+      "False",
+      "Not known"
+    ],
+    "context": "Read the text and choose the answer.\n\nMaps were made long before reading and writing were invented. The earliest map that we know of is a cave painting in the Lascaux caves in France. The painting shows a part of the summer night’s sky 16,500 years ago. Modern astronomers can still understand the night sky shown in the map. A four thousand year old map made by the Babylonians is still in existence. Many ancient map-makers thought that the world was flat, but explorers like Magellan in the 15th century sailed around the world and helped to make better maps. Besides, measurements taken by satellites show that our planet is slightly pear-shaped. Satellites have also provided more accurate information and have helped to see and map parts of the world that were little known or never seen by humans before. Satellites have photographed the Amazon rainforest and have shown that the area the size of twenty football pitches is being cut down every minute. Pictures taken from space have also shown that one of the world’s largest areas of inland water, the Aral Sea, has been shrinking very quickly. Modern satellite maps show the effects of global warming and pollution and help us to understand the world around us better. More and more drivers nowadays rely on satellite navigation in their cars so the traditional road maps may not be around much longer.",
+    "answer": 0,
+    "steps": [
+      "В тексте говорится, что кругосветные плавания помогли создавать лучшие карты.",
+      "Магеллан назван как пример такого мореплавателя, поэтому по тексту True."
+    ]
+  },
+  {
+    "title": "The Shape of the Earth",
+    "question": "Our planet is a perfect sphere.",
+    "choices": [
+      "True",
+      "False",
+      "Not known"
+    ],
+    "context": "Read the text and choose the answer.\n\nMaps were made long before reading and writing were invented. The earliest map that we know of is a cave painting in the Lascaux caves in France. The painting shows a part of the summer night’s sky 16,500 years ago. Modern astronomers can still understand the night sky shown in the map. A four thousand year old map made by the Babylonians is still in existence. Many ancient map-makers thought that the world was flat, but explorers like Magellan in the 15th century sailed around the world and helped to make better maps. Besides, measurements taken by satellites show that our planet is slightly pear-shaped. Satellites have also provided more accurate information and have helped to see and map parts of the world that were little known or never seen by humans before. Satellites have photographed the Amazon rainforest and have shown that the area the size of twenty football pitches is being cut down every minute. Pictures taken from space have also shown that one of the world’s largest areas of inland water, the Aral Sea, has been shrinking very quickly. Modern satellite maps show the effects of global warming and pollution and help us to understand the world around us better. More and more drivers nowadays rely on satellite navigation in their cars so the traditional road maps may not be around much longer.",
+    "answer": 1,
+    "steps": [
+      "Автор говорит, что спутниковые данные показали небольшое отклонение от формы сферы.",
+      "Утверждение о совершенной сфере этому противоречит, False."
+    ]
+  },
+  {
+    "title": "What Satellites Add",
+    "question": "Modern maps are more detailed and accurate.",
+    "choices": [
+      "True",
+      "False",
+      "Not known"
+    ],
+    "context": "Read the text and choose the answer.\n\nMaps were made long before reading and writing were invented. The earliest map that we know of is a cave painting in the Lascaux caves in France. The painting shows a part of the summer night’s sky 16,500 years ago. Modern astronomers can still understand the night sky shown in the map. A four thousand year old map made by the Babylonians is still in existence. Many ancient map-makers thought that the world was flat, but explorers like Magellan in the 15th century sailed around the world and helped to make better maps. Besides, measurements taken by satellites show that our planet is slightly pear-shaped. Satellites have also provided more accurate information and have helped to see and map parts of the world that were little known or never seen by humans before. Satellites have photographed the Amazon rainforest and have shown that the area the size of twenty football pitches is being cut down every minute. Pictures taken from space have also shown that one of the world’s largest areas of inland water, the Aral Sea, has been shrinking very quickly. Modern satellite maps show the effects of global warming and pollution and help us to understand the world around us better. More and more drivers nowadays rely on satellite navigation in their cars so the traditional road maps may not be around much longer.",
+    "answer": 0,
+    "steps": [
+      "Спутники дали «more accurate information» и помогли нанести на карту малоизвестные места.",
+      "Современные карты точнее и подробнее по тексту, True."
+    ]
+  },
+  {
+    "title": "The Amazon Rainforest",
+    "question": "The Amazon rainforest is gradually disappearing.",
+    "choices": [
+      "True",
+      "False",
+      "Not known"
+    ],
+    "context": "Read the text and choose the answer.\n\nMaps were made long before reading and writing were invented. The earliest map that we know of is a cave painting in the Lascaux caves in France. The painting shows a part of the summer night’s sky 16,500 years ago. Modern astronomers can still understand the night sky shown in the map. A four thousand year old map made by the Babylonians is still in existence. Many ancient map-makers thought that the world was flat, but explorers like Magellan in the 15th century sailed around the world and helped to make better maps. Besides, measurements taken by satellites show that our planet is slightly pear-shaped. Satellites have also provided more accurate information and have helped to see and map parts of the world that were little known or never seen by humans before. Satellites have photographed the Amazon rainforest and have shown that the area the size of twenty football pitches is being cut down every minute. Pictures taken from space have also shown that one of the world’s largest areas of inland water, the Aral Sea, has been shrinking very quickly. Modern satellite maps show the effects of global warming and pollution and help us to understand the world around us better. More and more drivers nowadays rely on satellite navigation in their cars so the traditional road maps may not be around much longer.",
+    "answer": 0,
+    "steps": [
+      "Спутниковые снимки показывают, что тропический лес вырубают.",
+      "Его площадь постепенно сокращается, True."
+    ]
+  },
+  {
+    "title": "The Aral Sea",
+    "question": "The level of the Aral Sea has been increasing.",
+    "choices": [
+      "True",
+      "False",
+      "Not known"
+    ],
+    "context": "Read the text and choose the answer.\n\nMaps were made long before reading and writing were invented. The earliest map that we know of is a cave painting in the Lascaux caves in France. The painting shows a part of the summer night’s sky 16,500 years ago. Modern astronomers can still understand the night sky shown in the map. A four thousand year old map made by the Babylonians is still in existence. Many ancient map-makers thought that the world was flat, but explorers like Magellan in the 15th century sailed around the world and helped to make better maps. Besides, measurements taken by satellites show that our planet is slightly pear-shaped. Satellites have also provided more accurate information and have helped to see and map parts of the world that were little known or never seen by humans before. Satellites have photographed the Amazon rainforest and have shown that the area the size of twenty football pitches is being cut down every minute. Pictures taken from space have also shown that one of the world’s largest areas of inland water, the Aral Sea, has been shrinking very quickly. Modern satellite maps show the effects of global warming and pollution and help us to understand the world around us better. More and more drivers nowadays rely on satellite navigation in their cars so the traditional road maps may not be around much longer.",
+    "answer": 1,
+    "steps": [
+      "В тексте сказано, что Аральское море «has been shrinking very quickly».",
+      "Оно быстро уменьшается. Утверждение о росте уровня — False."
+    ]
+  },
+  {
+    "title": "The Future of Road Maps",
+    "question": "Soon the traditional printed road maps may be out of use.",
+    "choices": [
+      "True",
+      "False",
+      "Not known"
+    ],
+    "context": "Read the text and choose the answer.\n\nMaps were made long before reading and writing were invented. The earliest map that we know of is a cave painting in the Lascaux caves in France. The painting shows a part of the summer night’s sky 16,500 years ago. Modern astronomers can still understand the night sky shown in the map. A four thousand year old map made by the Babylonians is still in existence. Many ancient map-makers thought that the world was flat, but explorers like Magellan in the 15th century sailed around the world and helped to make better maps. Besides, measurements taken by satellites show that our planet is slightly pear-shaped. Satellites have also provided more accurate information and have helped to see and map parts of the world that were little known or never seen by humans before. Satellites have photographed the Amazon rainforest and have shown that the area the size of twenty football pitches is being cut down every minute. Pictures taken from space have also shown that one of the world’s largest areas of inland water, the Aral Sea, has been shrinking very quickly. Modern satellite maps show the effects of global warming and pollution and help us to understand the world around us better. More and more drivers nowadays rely on satellite navigation in their cars so the traditional road maps may not be around much longer.",
+    "answer": 0,
+    "steps": [
+      "В последней фразе спутниковая навигация противопоставляется печатной карте.",
+      "«May not be around much longer» означает, что старые карты могут выйти из употребления, True."
+    ]
+  },
+  {
+    "title": "The Exam Result",
+    "question": "… failing the exam was not unexpected.",
+    "choices": [
+      "Jim",
+      "Jim is",
+      "Jim’s"
+    ],
+    "answer": 2,
+    "steps": [
+      "В роли подлежащего стоит всё действие «failing the exam».",
+      "В формальном варианте его исполнителя указывают притяжательным Jim’s."
+    ]
+  },
+  {
+    "title": "Looking After a Piano",
+    "question": "I had the piano … .",
+    "choices": [
+      "to tune",
+      "tuned",
+      "tune"
+    ],
+    "answer": 1,
+    "steps": [
+      "Инструмент настраивают для говорящего. Он поручил работу другому.",
+      "Causative have строится «have the piano tuned»."
+    ]
+  },
+  {
+    "title": "Being Grateful",
+    "question": "I’m grateful to him for his … .",
+    "choices": [
+      "advices",
+      "advises",
+      "advice"
+    ],
+    "answer": 2,
+    "steps": [
+      "После his нужно существительное со значением «совет».",
+      "Advice неисчисляемо и не получает окончание -s. Advise — глагол."
+    ]
+  },
+  {
+    "title": "A Wish About Clothes",
+    "question": "I wish I … these fashionable clothes.",
+    "choices": [
+      "would buy",
+      "could buy",
+      "will buy"
+    ],
+    "answer": 1,
+    "steps": [
+      "Человек жалеет, что сейчас не может купить одежду.",
+      "После wish подходит could buy, выражая желаемую возможность."
+    ]
+  },
+  {
+    "title": "A Difficult Text",
+    "question": "The text was … difficult for me to understand.",
+    "choices": [
+      "too",
+      "enough",
+      "which"
+    ],
+    "answer": 0,
+    "steps": [
+      "Конструкция «… difficult for me to understand» говорит, что текст чрезмерно сложен.",
+      "Too ставится до прилагательного, «too difficult»."
+    ]
+  },
+  {
+    "title": "Swimming Weather",
+    "question": "It wasn’t … for them to go swimming.",
+    "choices": [
+      "enough warm",
+      "warm enough",
+      "too much warm"
+    ],
+    "answer": 1,
+    "steps": [
+      "Enough описывает степень тепла, достаточную для купания.",
+      "С прилагательным оно стоит после него, warm enough."
+    ]
+  },
+  {
+    "title": "Dictionaries for Tomorrow",
+    "question": "Please, remember … English dictionaries tomorrow.",
+    "choices": [
+      "to bring",
+      "bringing",
+      "bring"
+    ],
+    "answer": 0,
+    "steps": [
+      "Просьба относится к будущему действию, которое нужно не забыть выполнить.",
+      "Remember to bring означает «не забудь принести». Remember bringing означало бы воспоминание о прошлом."
+    ]
+  },
+  {
+    "title": "A Call from Mike",
+    "question": "I’ll phone you as soon as I … from Mike.",
+    "choices": [
+      "‘ll hear",
+      "‘ve heard",
+      "heard"
+    ],
+    "answer": 1,
+    "steps": [
+      "As soon as вводит придаточное времени. Для будущего события внутри него не ставят will.",
+      "«As soon as I’ve heard from Mike» передаёт завершение события перед звонком."
+    ]
+  },
+  {
+    "title": "The Arriving Bus",
+    "question": "Here … the bus!",
+    "choices": [
+      "is coming",
+      "come",
+      "comes"
+    ],
+    "answer": 2,
+    "steps": [
+      "Here в начале объявляет появление чего-то.",
+      "Устойчивое восклицание «Here comes the bus!»."
+    ]
+  },
+  {
+    "title": "Entering a House",
+    "question": "We saw the man … the house.",
+    "choices": [
+      "enter",
+      "entered",
+      "to enter"
+    ],
+    "answer": 0,
+    "steps": [
+      "После saw и дополнения the man требуется действие, которое наблюдали целиком.",
+      "Употребляется исходная форма enter без to."
+    ]
+  },
+  {
+    "title": "A Daily Record",
+    "question": "a daily record of events",
+    "choices": [
+      "diary",
+      "dairy",
+      "daisy"
+    ],
+    "answer": 0,
+    "steps": [
+      "Нужно слово для записи событий по дням.",
+      "Diary означает «дневник». Dairy относится к молоку и молочным продуктам."
+    ]
+  },
+  {
+    "title": "Moving Along a Street",
+    "question": "movement of people or cars along the street",
+    "choices": [
+      "traffic",
+      "vehicle",
+      "transport"
+    ],
+    "answer": 0,
+    "steps": [
+      "Нужно общее название потока людей или транспорта на дороге.",
+      "Traffic обозначает движение. Vehicle — отдельное транспортное средство."
+    ]
+  },
+  {
+    "title": "Difficulty Walking",
+    "question": "not able to walk normally because of injury or defect",
+    "choices": [
+      "dumb",
+      "humpy",
+      "lame"
+    ],
+    "answer": 2,
+    "steps": [
+      "Определение говорит о нарушении походки после травмы или из-за физического ограничения.",
+      "В словарном значении из вариантов подходит lame."
+    ]
+  },
+  {
+    "title": "Giving Confidence",
+    "question": "to give somebody hope and confidence",
+    "choices": [
+      "to encourage",
+      "to encroach",
+      "to enclose"
+    ],
+    "answer": 0,
+    "steps": [
+      "Определение говорит о поддержке, которая придаёт уверенности.",
+      "To encourage значит «ободрять, поощрять»."
+    ]
+  },
+  {
+    "title": "A Hard Phrase to Say",
+    "question": "a word or phrase that is difficult to say quickly and correctly",
+    "choices": [
+      "mouth twister",
+      "language twister",
+      "tongue twister"
+    ],
+    "answer": 2,
+    "steps": [
+      "Нужно название скороговорки. Сложность связана с движениями языка.",
+      "Устойчивое выражение — tongue twister."
+    ]
+  },
+  {
+    "title": "Stopping an Attempt",
+    "question": "to stop attempting to do something",
+    "choices": [
+      "to give away",
+      "to give up",
+      "to give off"
+    ],
+    "answer": 1,
+    "steps": [
+      "Нужен фразовый глагол, который означает перестать пытаться.",
+      "Give up — «сдаться, бросить попытки»."
+    ]
+  },
+  {
+    "title": "Yellow Flowers",
+    "question": "The flowers in the picture are … .",
+    "choices": [
+      "daffodils",
+      "cornflowers",
+      "dandelions"
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2012/9-11/flowers-and-creature.webp",
+      "alt": "Flower and sea creature illustrations",
+      "width": 307,
+      "height": 371
+    },
+    "answer": 2,
+    "steps": [
+      "На рисунке круглые жёлтые корзинки и длинные зубчатые листья.",
+      "Это dandelions, одуванчики. У нарцисса трубчатая середина и другая форма лепестков."
+    ]
+  },
+  {
+    "title": "A Sea Creature",
+    "question": "This sea creature is an … .",
+    "choices": [
+      "oyster",
+      "octopus",
+      "otter"
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2012/9-11/flowers-and-creature.webp",
+      "alt": "Flower and sea creature illustrations",
+      "width": 307,
+      "height": 371
+    },
+    "answer": 1,
+    "steps": [
+      "Существо имеет округлое тело и несколько гибких щупалец.",
+      "Это octopus, осьминог. Oyster — моллюск в раковине, otter — выдра."
+    ]
+  },
+  {
+    "title": "Walking Beside the Road",
+    "question": "a British word ‘pavement’ in American English",
+    "choices": [
+      "sidewalk",
+      "side line",
+      "side street"
+    ],
+    "answer": 0,
+    "steps": [
+      "Британское pavement обозначает дорожку для пешеходов рядом с проезжей частью.",
+      "В американском английском этому значению соответствует sidewalk."
+    ]
+  },
+  {
+    "title": "A Difficult Situation",
+    "question": "to be in a difficult or dangerous situation",
+    "choices": [
+      "to get into trouble",
+      "to trouble",
+      "to interfere"
+    ],
+    "answer": 0,
+    "steps": [
+      "В английском trouble обозначает неприятность или затруднение.",
+      "«Get into trouble» означает попасть в неприятности."
+    ]
+  },
+  {
+    "title": "Knowing the Subject",
+    "question": "Jane knows the subject … .",
+    "choices": [
+      "from cover to cover",
+      "inside out",
+      "like hell"
+    ],
+    "answer": 1,
+    "steps": [
+      "Фраза говорит о знании предмета во всех деталях.",
+      "Know something inside out означает «знать досконально»."
+    ]
+  },
+  {
+    "title": "Caught in the Act",
+    "question": "To catch somebody … .",
+    "choices": [
+      "red-handed",
+      "blue-eyed",
+      "short-handed"
+    ],
+    "answer": 0,
+    "steps": [
+      "Речь о человеке, которого застали прямо за проступком.",
+      "Catch somebody red-handed означает «поймать с поличным»."
+    ]
+  },
+  {
+    "title": "An Unexpected Event",
+    "question": "It happened ‘out of the blue’ means … .",
+    "choices": [
+      "it was unexpected",
+      "it was painful",
+      "it happened from time to time"
+    ],
+    "answer": 0,
+    "steps": [
+      "Out of the blue описывает событие без предварительного предупреждения.",
+      "It was unexpected — «это было неожиданно»."
+    ]
+  },
+  {
+    "title": "Seeing Things Rosily",
+    "question": "She has a rosy view of things, she … .",
+    "choices": [
+      "is optimistic",
+      "likes pink colour",
+      "has many rosy things"
+    ],
+    "adaptation": "Вариант A уточнён. A rosy view описывает оптимизм, который не обязательно связан с наивностью.",
+    "answer": 0,
+    "steps": [
+      "Rosy здесь переносно значит видеть будущее в благоприятном свете.",
+      "Точное объяснение — is optimistic. Наивность из такого отношения не следует."
+    ]
+  },
+  {
+    "title": "Playing First Fiddle",
+    "question": "He’s playing first fiddle means he’s … .",
+    "choices": [
+      "a good musician",
+      "a conductor",
+      "a leader"
+    ],
+    "answer": 2,
+    "steps": [
+      "Первая скрипка ведёт группу в оркестре.",
+      "Переносно play first fiddle означает занимать главную роль, быть a leader."
+    ]
+  },
+  {
+    "title": "The Last Moment",
+    "question": "If you do something at the last moment it means you do it … .",
+    "choices": [
+      "at the tenth hour",
+      "at the twelfth hour",
+      "at the eleventh hour"
+    ],
+    "answer": 2,
+    "steps": [
+      "В английской идиоме последнее доступное время обозначается одиннадцатым часом.",
+      "Оборот at the eleventh hour значит «в последний момент»."
+    ]
+  },
+  {
+    "title": "Crossing Fingers",
+    "question": "To keep fingers crossed means … .",
+    "choices": [
+      "to wish good luck",
+      "to envy",
+      "to be angry"
+    ],
+    "answer": 0,
+    "steps": [
+      "Скрещённые пальцы обозначают надежду на удачу.",
+      "Keep your fingers crossed — пожелать удачи или надеяться на удачный исход."
+    ]
+  },
+  {
+    "title": "A Bird's Appetite",
+    "question": "To eat like a bird means … .",
+    "choices": [
+      "to eat a lot",
+      "to eat a little",
+      "to eat grain"
+    ],
+    "answer": 1,
+    "steps": [
+      "Like a bird сравнивает аппетит человека с небольшим количеством пищи.",
+      "Идиома означает «есть мало», to eat a little."
+    ]
+  },
+  {
+    "title": "Working Round the Clock",
+    "question": "To work round the clock means to work … .",
+    "choices": [
+      "all day and all night",
+      "near the clock",
+      "from time to time"
+    ],
+    "adaptation": "Вариант A уточнён. Round the clock означает «круглосуточно».",
+    "answer": 0,
+    "steps": [
+      "Часы проходят полный суточный круг. Действие продолжается и днём, и ночью.",
+      "Round the clock значит «круглосуточно»."
+    ]
+  },
+  {
+    "title": "A Blow to the Eye",
+    "question": "The rival hit him in the eye, so now he has a … .",
+    "choices": [
+      "purple eye",
+      "blue eye",
+      "black eye"
+    ],
+    "answer": 2,
+    "steps": [
+      "От удара образовался синяк вокруг глаза.",
+      "Устоявшееся название — a black eye."
+    ]
+  },
+  {
+    "title": "The Path to the Gate",
+    "question": "Complete gap 51 in the text.",
+    "choices": [
+      "along",
+      "ahead",
+      "forward"
+    ],
+    "context": "Read the text and choose the answer.\n\nWelcome to The Tower of London! Let’s go [51] this path to the main entrance. If you look [52] you’ll see the Lion Tower where wild animals were kept during the reign of Henry III. Now we are entering the Tower. [53] you can see the Traitors’ Gate. Many Tudor’s prisoners entered the Tower [54] this Gate. Look at this tower [55] us. This is the Wakefield Tower. This way, please. This is Scaffold Site or the Tower Green, where British nobles were executed by beheading. The Tower Green is located on a space [56] of the Chapel Royal of St. Peter ad Vincula, where Anne Boleyn is buried, but her ghost is said to be walking [57] the White Tower. Let’s go [58] the White Tower. If you want to see the Crown Jewels, you should go [59]. They are on display in this yellow building – Waterloo Barracks. But we go this way and enter [60] White Tower!",
+    "figure": {
+      "src": "assets/british-bulldog/2012/9-11/tower-route.webp",
+      "alt": "Map of the Tower of London with route and compass",
+      "width": 713,
+      "height": 539
+    },
+    "answer": 0,
+    "steps": [
+      "Стрелки внизу карты ведут от группы к входу по дорожке.",
+      "Существительное path после пропуска требует along, «вдоль дорожки»."
+    ]
+  },
+  {
+    "title": "The Lion Tower",
+    "question": "Complete gap 52 in the text.",
+    "choices": [
+      "to your left",
+      "at your left",
+      "on left"
+    ],
+    "context": "Read the text and choose the answer.\n\nWelcome to The Tower of London! Let’s go [51] this path to the main entrance. If you look [52] you’ll see the Lion Tower where wild animals were kept during the reign of Henry III. Now we are entering the Tower. [53] you can see the Traitors’ Gate. Many Tudor’s prisoners entered the Tower [54] this Gate. Look at this tower [55] us. This is the Wakefield Tower. This way, please. This is Scaffold Site or the Tower Green, where British nobles were executed by beheading. The Tower Green is located on a space [56] of the Chapel Royal of St. Peter ad Vincula, where Anne Boleyn is buried, but her ghost is said to be walking [57] the White Tower. Let’s go [58] the White Tower. If you want to see the Crown Jewels, you should go [59]. They are on display in this yellow building – Waterloo Barracks. But we go this way and enter [60] White Tower!",
+    "adaptation": "Вариант C уточнён. Из исходных left и to your left подходят оба.",
+    "figure": {
+      "src": "assets/british-bulldog/2012/9-11/tower-route.webp",
+      "alt": "Map of the Tower of London with route and compass",
+      "width": 713,
+      "height": 539
+    },
+    "answer": 0,
+    "steps": [
+      "Ориентируйся по направлению красной стрелки от группы у входа. Lion Tower отмечена слева от пути.",
+      "«Look to your left» значит «посмотрите налево»."
+    ]
+  },
+  {
+    "title": "The Traitors' Gate",
+    "question": "Complete gap 53 in the text.",
+    "choices": [
+      "At right side",
+      "On your right",
+      "Right"
+    ],
+    "context": "Read the text and choose the answer.\n\nWelcome to The Tower of London! Let’s go [51] this path to the main entrance. If you look [52] you’ll see the Lion Tower where wild animals were kept during the reign of Henry III. Now we are entering the Tower. [53] you can see the Traitors’ Gate. Many Tudor’s prisoners entered the Tower [54] this Gate. Look at this tower [55] us. This is the Wakefield Tower. This way, please. This is Scaffold Site or the Tower Green, where British nobles were executed by beheading. The Tower Green is located on a space [56] of the Chapel Royal of St. Peter ad Vincula, where Anne Boleyn is buried, but her ghost is said to be walking [57] the White Tower. Let’s go [58] the White Tower. If you want to see the Crown Jewels, you should go [59]. They are on display in this yellow building – Waterloo Barracks. But we go this way and enter [60] White Tower!",
+    "adaptation": "Вариант A уточнён. Из исходных To your right и On your right подходят оба.",
+    "figure": {
+      "src": "assets/british-bulldog/2012/9-11/tower-route.webp",
+      "alt": "Map of the Tower of London with route and compass",
+      "width": 713,
+      "height": 539
+    },
+    "answer": 1,
+    "steps": [
+      "Во время входа вдоль стены Traitors’ Gate показаны по правую руку.",
+      "«On your right» естественно вводит объект, который находится справа."
+    ]
+  },
+  {
+    "title": "Entering by the Gate",
+    "question": "Complete gap 54 in the text.",
+    "choices": [
+      "through",
+      "in",
+      "at"
+    ],
+    "context": "Read the text and choose the answer.\n\nWelcome to The Tower of London! Let’s go [51] this path to the main entrance. If you look [52] you’ll see the Lion Tower where wild animals were kept during the reign of Henry III. Now we are entering the Tower. [53] you can see the Traitors’ Gate. Many Tudor’s prisoners entered the Tower [54] this Gate. Look at this tower [55] us. This is the Wakefield Tower. This way, please. This is Scaffold Site or the Tower Green, where British nobles were executed by beheading. The Tower Green is located on a space [56] of the Chapel Royal of St. Peter ad Vincula, where Anne Boleyn is buried, but her ghost is said to be walking [57] the White Tower. Let’s go [58] the White Tower. If you want to see the Crown Jewels, you should go [59]. They are on display in this yellow building – Waterloo Barracks. But we go this way and enter [60] White Tower!",
+    "figure": {
+      "src": "assets/british-bulldog/2012/9-11/tower-route.webp",
+      "alt": "Map of the Tower of London with route and compass",
+      "width": 713,
+      "height": 539
+    },
+    "answer": 0,
+    "steps": [
+      "В отрывке заключённые попадали в крепость, минуя проём этих ворот.",
+      "Движение сквозь проход выражается through."
+    ]
+  },
+  {
+    "title": "The Wakefield Tower",
+    "question": "Complete gap 55 in the text.",
+    "choices": [
+      "beneath",
+      "in front of",
+      "around"
+    ],
+    "context": "Read the text and choose the answer.\n\nWelcome to The Tower of London! Let’s go [51] this path to the main entrance. If you look [52] you’ll see the Lion Tower where wild animals were kept during the reign of Henry III. Now we are entering the Tower. [53] you can see the Traitors’ Gate. Many Tudor’s prisoners entered the Tower [54] this Gate. Look at this tower [55] us. This is the Wakefield Tower. This way, please. This is Scaffold Site or the Tower Green, where British nobles were executed by beheading. The Tower Green is located on a space [56] of the Chapel Royal of St. Peter ad Vincula, where Anne Boleyn is buried, but her ghost is said to be walking [57] the White Tower. Let’s go [58] the White Tower. If you want to see the Crown Jewels, you should go [59]. They are on display in this yellow building – Waterloo Barracks. But we go this way and enter [60] White Tower!",
+    "figure": {
+      "src": "assets/british-bulldog/2012/9-11/tower-route.webp",
+      "alt": "Map of the Tower of London with route and compass",
+      "width": 713,
+      "height": 539
+    },
+    "answer": 1,
+    "steps": [
+      "После поворота у Traitors’ Gate следующая башня стоит перед группой.",
+      "«In front of us» значит «перед нами»."
+    ]
+  },
+  {
+    "title": "Reading the Compass",
+    "question": "Complete gap 56 in the text.",
+    "choices": [
+      "west",
+      "east",
+      "south"
+    ],
+    "context": "Read the text and choose the answer.\n\nWelcome to The Tower of London! Let’s go [51] this path to the main entrance. If you look [52] you’ll see the Lion Tower where wild animals were kept during the reign of Henry III. Now we are entering the Tower. [53] you can see the Traitors’ Gate. Many Tudor’s prisoners entered the Tower [54] this Gate. Look at this tower [55] us. This is the Wakefield Tower. This way, please. This is Scaffold Site or the Tower Green, where British nobles were executed by beheading. The Tower Green is located on a space [56] of the Chapel Royal of St. Peter ad Vincula, where Anne Boleyn is buried, but her ghost is said to be walking [57] the White Tower. Let’s go [58] the White Tower. If you want to see the Crown Jewels, you should go [59]. They are on display in this yellow building – Waterloo Barracks. But we go this way and enter [60] White Tower!",
+    "figure": {
+      "src": "assets/british-bulldog/2012/9-11/tower-route.webp",
+      "alt": "Map of the Tower of London with route and compass",
+      "width": 713,
+      "height": 539
+    },
+    "answer": 2,
+    "steps": [
+      "На рисунке север слева, а S стоит справа. Scaffold Site расположен правее Chapel Royal относительно этой оси.",
+      "Значит, в описании нужен south, «южнее»."
+    ]
+  },
+  {
+    "title": "The Ghost's Route",
+    "question": "Complete gap 57 in the text.",
+    "choices": [
+      "among",
+      "around",
+      "next"
+    ],
+    "context": "Read the text and choose the answer.\n\nWelcome to The Tower of London! Let’s go [51] this path to the main entrance. If you look [52] you’ll see the Lion Tower where wild animals were kept during the reign of Henry III. Now we are entering the Tower. [53] you can see the Traitors’ Gate. Many Tudor’s prisoners entered the Tower [54] this Gate. Look at this tower [55] us. This is the Wakefield Tower. This way, please. This is Scaffold Site or the Tower Green, where British nobles were executed by beheading. The Tower Green is located on a space [56] of the Chapel Royal of St. Peter ad Vincula, where Anne Boleyn is buried, but her ghost is said to be walking [57] the White Tower. Let’s go [58] the White Tower. If you want to see the Crown Jewels, you should go [59]. They are on display in this yellow building – Waterloo Barracks. But we go this way and enter [60] White Tower!",
+    "figure": {
+      "src": "assets/british-bulldog/2012/9-11/tower-route.webp",
+      "alt": "Map of the Tower of London with route and compass",
+      "width": 713,
+      "height": 539
+    },
+    "answer": 1,
+    "steps": [
+      "Легенда описывает призрак, который якобы ходит по окрестностям Белой башни.",
+      "Walk around означает «ходить вокруг»."
+    ]
+  },
+  {
+    "title": "The White Tower",
+    "question": "Complete gap 58 in the text.",
+    "choices": [
+      "towards",
+      "backwards",
+      "forward"
+    ],
+    "context": "Read the text and choose the answer.\n\nWelcome to The Tower of London! Let’s go [51] this path to the main entrance. If you look [52] you’ll see the Lion Tower where wild animals were kept during the reign of Henry III. Now we are entering the Tower. [53] you can see the Traitors’ Gate. Many Tudor’s prisoners entered the Tower [54] this Gate. Look at this tower [55] us. This is the Wakefield Tower. This way, please. This is Scaffold Site or the Tower Green, where British nobles were executed by beheading. The Tower Green is located on a space [56] of the Chapel Royal of St. Peter ad Vincula, where Anne Boleyn is buried, but her ghost is said to be walking [57] the White Tower. Let’s go [58] the White Tower. If you want to see the Crown Jewels, you should go [59]. They are on display in this yellow building – Waterloo Barracks. But we go this way and enter [60] White Tower!",
+    "figure": {
+      "src": "assets/british-bulldog/2012/9-11/tower-route.webp",
+      "alt": "Map of the Tower of London with route and compass",
+      "width": 713,
+      "height": 539
+    },
+    "answer": 0,
+    "steps": [
+      "Гид называет башню как направление движения.",
+      "Towards ставится перед названием цели. Forward обычно употребляется без такого дополнения."
+    ]
+  },
+  {
+    "title": "The Crown Jewels",
+    "question": "Complete gap 59 in the text.",
+    "choices": [
+      "two blocks",
+      "straight ahead",
+      "along"
+    ],
+    "context": "Read the text and choose the answer.\n\nWelcome to The Tower of London! Let’s go [51] this path to the main entrance. If you look [52] you’ll see the Lion Tower where wild animals were kept during the reign of Henry III. Now we are entering the Tower. [53] you can see the Traitors’ Gate. Many Tudor’s prisoners entered the Tower [54] this Gate. Look at this tower [55] us. This is the Wakefield Tower. This way, please. This is Scaffold Site or the Tower Green, where British nobles were executed by beheading. The Tower Green is located on a space [56] of the Chapel Royal of St. Peter ad Vincula, where Anne Boleyn is buried, but her ghost is said to be walking [57] the White Tower. Let’s go [58] the White Tower. If you want to see the Crown Jewels, you should go [59]. They are on display in this yellow building – Waterloo Barracks. But we go this way and enter [60] White Tower!",
+    "figure": {
+      "src": "assets/british-bulldog/2012/9-11/tower-route.webp",
+      "alt": "Map of the Tower of London with route and compass",
+      "width": 713,
+      "height": 539
+    },
+    "answer": 1,
+    "steps": [
+      "По легенде карты драгоценности находятся в Waterloo Barracks, на отдельной ветви маршрута.",
+      "«Go straight ahead» означает идти прямо по обозначенному пути."
+    ]
+  },
+  {
+    "title": "Entering a Building",
+    "question": "Complete gap 60 in the text.",
+    "choices": [
+      "the",
+      "into the",
+      "at the"
+    ],
+    "context": "Read the text and choose the answer.\n\nWelcome to The Tower of London! Let’s go [51] this path to the main entrance. If you look [52] you’ll see the Lion Tower where wild animals were kept during the reign of Henry III. Now we are entering the Tower. [53] you can see the Traitors’ Gate. Many Tudor’s prisoners entered the Tower [54] this Gate. Look at this tower [55] us. This is the Wakefield Tower. This way, please. This is Scaffold Site or the Tower Green, where British nobles were executed by beheading. The Tower Green is located on a space [56] of the Chapel Royal of St. Peter ad Vincula, where Anne Boleyn is buried, but her ghost is said to be walking [57] the White Tower. Let’s go [58] the White Tower. If you want to see the Crown Jewels, you should go [59]. They are on display in this yellow building – Waterloo Barracks. But we go this way and enter [60] White Tower!",
+    "figure": {
+      "src": "assets/british-bulldog/2012/9-11/tower-route.webp",
+      "alt": "Map of the Tower of London with route and compass",
+      "width": 713,
+      "height": 539
+    },
+    "answer": 0,
+    "steps": [
+      "После enter можно сразу поставить здание, в которое входят.",
+      "С определённым названием получается «enter the White Tower»."
+    ]
+  }
+]

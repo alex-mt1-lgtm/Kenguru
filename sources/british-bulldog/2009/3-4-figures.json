@@ -1,0 +1,44 @@
+{
+  "birthday-party": {
+    "sourceFile": "3-4/tasks.pdf",
+    "page": 0,
+    "cropPoints": [
+      305,
+      65,
+      539,
+      264
+    ],
+    "src": "assets/british-bulldog/2009/3-4/birthday-party.webp",
+    "alt": "Birthday party scene",
+    "width": 702,
+    "height": 597
+  },
+  "family": {
+    "sourceFile": "3-4/tasks.pdf",
+    "page": 1,
+    "cropPoints": [
+      74.8,
+      64.7,
+      216,
+      195
+    ],
+    "src": "assets/british-bulldog/2009/3-4/family.webp",
+    "alt": "Family and their pets",
+    "width": 424,
+    "height": 391
+  },
+  "girl": {
+    "sourceFile": "3-4/tasks.pdf",
+    "page": 1,
+    "cropPoints": [
+      380,
+      65,
+      466,
+      172
+    ],
+    "src": "assets/british-bulldog/2009/3-4/girl.webp",
+    "alt": "A girl standing up",
+    "width": 258,
+    "height": 321
+  }
+}

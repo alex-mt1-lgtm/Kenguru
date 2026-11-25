@@ -21,9 +21,10 @@ def extract_fragment(page, bounds, scale):
     return Image.frombytes('RGB', (pixels.width, pixels.height), pixels.samples)
 
 
-def extract_original(document, page, bounds):
+def extract_original(document, page, bounds, xref=None):
     rect = fitz.Rect(bounds)
-    images = [image for image in page.get_image_info(xrefs=True) if rect.contains(fitz.Rect(image['bbox']))]
+    images = [image for image in page.get_image_info(xrefs=True)
+              if rect.contains(fitz.Rect(image['bbox'])) and (xref is None or image['xref'] == xref)]
     if len(images) != 1 or not images[0]['xref'] or images[0]['has-mask']:
         raise ValueError(f'Expected one unmasked image in {document.name}, page {page.number + 1}, {rect}')
     original = document.extract_image(images[0]['xref'])
@@ -65,7 +66,8 @@ def build_figures(manifest_path):
                 if options and options[0].get('original'):
                     # Image inspection can affect subsequent renderings in the same PDF instance.
                     with fitz.open(pdf_path) as original:
-                        fragments = [extract_original(original, original[page_index], rect) for rect in bounds]
+                        fragments = [extract_original(original, original[page_index], rect, options[0].get('xref'))
+                                     for rect in bounds]
                     padding = options[0].get('padding', 0)
                     if padding:
                         fragments = [ImageOps.expand(fragment, padding, fill='white') for fragment in fragments]

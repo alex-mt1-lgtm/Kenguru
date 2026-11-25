@@ -166,7 +166,9 @@ function restoreProgress(changed) {
     const saved = readProgress(lessonKey(lesson));
     if (!saved) return;
     const step = Number.isInteger(saved.step) && saved.step >= 0 && saved.step < lesson.steps.length ? saved.step : 0;
-    const selected = Number.isInteger(saved.selected) && saved.selected >= 0 && saved.selected < (Number.isInteger(lesson.numericAnswer) ? 1000000 : lesson.choices.length) ? saved.selected : null;
+    const selected = lesson.textAnswer !== undefined
+      ? (typeof saved.selected === 'string' && /^[A-Za-z0-9]{1,32}$/.test(saved.selected) ? saved.selected : null)
+      : Number.isInteger(saved.selected) && saved.selected >= 0 && saved.selected < (Number.isInteger(lesson.numericAnswer) ? 1000000000 : lesson.choices.length) ? saved.selected : null;
     Object.assign(states[index], {step, selected, seen: saved.seen === true});
   });
   workVariant = states[0].selected ?? 0;
@@ -467,21 +469,26 @@ function graphicAnswerDescription(lesson, index) {
     ?? globalThis.KENGURU_GRAPHIC_ANSWER_DESCRIPTIONS?.[lessonKey(lesson)]?.[index];
 }
 
+function matchingNumber(part, offset) {
+  return part.matching.originalNumbers ? part.number : offset + 1;
+}
+
 function renderMatching(lesson, step) {
   const parts = matchingParts();
   const rows = parts.map((i, offset) => {
     const part = LESSONS[i];
     const figure = part.choiceLayout.condition.items?.[0] ?? part.choiceLayout.condition;
-    const label = 'Рисунок ' + (offset + 1);
+    const number = matchingNumber(part, offset);
+    const label = 'Рисунок ' + number;
     const options = part.choices.map((choice, n) => '<option value="' + n + '"' +
       (states[i].selected === n ? ' selected' : '') + '>' + answerLetter(n) + ' · ' + escapeAnswerText(choice) + '</option>');
     const control = step === 0
       ? '<select data-match="' + i + '" aria-label="' + label + ', выбери ответ"><option value="">Выбери ответ</option>' + options.join('') + '</select>'
       : '<span>' + (states[i].selected === null ? 'Ответ пропущен' : 'Твой выбор — ' + answerLetter(states[i].selected)) + '</span>';
     const solution = step === lastStep() || step === offset + 1
-      ? '<strong>' + (offset + 1) + ' — ' + answerLetter(part.answer) + ' · ' + escapeAnswerText(part.choices[part.answer]) + '</strong>' : '';
+      ? '<strong>' + number + ' — ' + answerLetter(part.answer) + ' · ' + escapeAnswerText(part.choices[part.answer]) + '</strong>' : '';
     return '<div class="matching-item"><b>' + label + '</b><button class="figure-thumbnail" type="button" aria-haspopup="dialog" data-match-image="' + offset +
-      '" aria-label="Увеличить рисунок ' + (offset + 1) + '"><img src="' + escapeAnswerText(figure.src) + '" alt="' +
+      '" aria-label="Увеличить рисунок ' + number + '"><img src="' + escapeAnswerText(figure.src) + '" alt="' +
       escapeAnswerText(figure.alt) + '"></button>' + control + solution + '</div>';
   });
   $('matchingAnswers').innerHTML = rows.join('');
@@ -494,12 +501,19 @@ function renderAnswers() {
   const illustrated = task === 0 || task === 6 || Boolean(lesson.choiceImages?.some(Boolean)
     || options?.some(option => option.image));
   const numeric = Number.isInteger(lesson.numericAnswer);
-  $('numericEntry').hidden = !numeric || st.step !== 0;
-  if (numeric) $('numericAnswer').value = st.selected ?? '';
+  const written = numeric || lesson.textAnswer !== undefined;
+  $('numericEntry').hidden = !written || st.step !== 0;
+  if (written) {
+    const input = $('numericAnswer');
+    input.value = st.selected ?? '';
+    input.inputMode = numeric ? 'numeric' : 'text';
+    input.maxLength = numeric ? 9 : 32;
+    input.placeholder = numeric ? 'Целое число' : 'Короткий ответ';
+  }
   $('matchingAnswers').hidden = !lesson.matching;
   if (lesson.matching) renderMatching(lesson, st.step);
-  $('answers').hidden = Boolean(lesson.matching) || numeric || st.step !== 0;
-  $('openChoiceZoom').hidden = !illustrated || Boolean(lesson.matching) || numeric;
+  $('answers').hidden = Boolean(lesson.matching) || written || st.step !== 0;
+  $('openChoiceZoom').hidden = !illustrated || Boolean(lesson.matching) || written;
   $('answers').className = 'answer-list' + (illustrated ? ' illustrated-answers' : '')
     + (options && illustrated ? ' separated-answers' : '');
   const markup = lesson.choices.map((value, i) => {
@@ -741,16 +755,19 @@ function render() {
   renderAlternative();
   const feedback = $('feedback');
   const numeric = Number.isInteger(lesson.numericAnswer);
-  const choice = st.selected === null ? '' : numeric ? `Твой ответ — ${st.selected}.` : `Твой выбор — ${answerLetter(st.selected)}.`;
+  const choice = st.selected === null ? '' : numeric || lesson.textAnswer !== undefined ? `Твой ответ — ${st.selected}.` : `Твой выбор — ${answerLetter(st.selected)}.`;
   if (lesson.matching) {
     const parts = matchingParts();
-    feedback.textContent = final ? 'Ответ: ' + parts.map((i, n) => (n + 1) + ' — ' + answerLetter(LESSONS[i].answer)).join(', ') + '.'
+    feedback.textContent = final ? 'Ответ: ' + parts.map((i, n) => matchingNumber(LESSONS[i], n) + ' — ' + answerLetter(LESSONS[i].answer)).join(', ') + '.'
       : st.step === 0 ? 'Подбери ответ к каждому рисунку и нажми «Далее».' : '';
   } else if (st.step === 0) {
     const check = lesson.paperEdition ? ' Сверь его с официальным ключом.' : ' Проверим его в разборе.';
-    feedback.textContent = numeric ? 'Введи целое число и нажми «Далее».' : choice ? choice + check : 'Выбери ответ. Затем нажми «Далее» и проверь своё решение.';
+    feedback.textContent = lesson.textAnswer !== undefined ? 'Введи ответ и нажми «Далее».' : numeric ? 'Введи целое число и нажми «Далее».' : choice ? choice + check : 'Выбери ответ. Затем нажми «Далее» и проверь своё решение.';
+  } else if (final && lesson.textAnswer !== undefined) {
+    feedback.textContent = (st.selected === lesson.textAnswer ? 'Верно! ' : choice + ' ') + 'Ответ: ' + lesson.textAnswer + '.';
   } else if (final && numeric) {
-    feedback.textContent = (st.selected === lesson.numericAnswer ? 'Верно! ' : choice + ' ') + 'Ответ: ' + lesson.numericAnswer + '.';
+    const accepted = lesson.acceptedNumericAnswers ?? [lesson.numericAnswer];
+    feedback.textContent = (accepted.includes(st.selected) ? 'Верно! ' : choice + ' ') + 'Ответ: ' + accepted.join(' или ') + '.';
   } else if (final && lesson.officialValueKey) {
     feedback.textContent = Number.isInteger(lesson.answer) && st.selected === lesson.answer
       ? 'Твой выбор совпал с официальным ответом.' : choice;
@@ -760,8 +777,8 @@ function render() {
     feedback.textContent = [choice, lesson.keyConflict].filter(Boolean).join(' ');
   } else if (final && lesson.acceptedAnswers) {
     const accepted = lesson.acceptedAnswers;
-    const summary = accepted.length === lesson.choices.length ? 'Организатор засчитал любой вариант.'
-      : 'Организатор засчитал варианты ' + accepted.map(answerLetter).join(', ') + '.';
+    const summary = accepted.length === lesson.choices.length ? 'Засчитывается любой вариант.'
+      : 'Засчитываются варианты ' + accepted.map(answerLetter).join(', ') + '.';
     feedback.textContent = [accepted.includes(st.selected) ? 'Твой вариант засчитан.' : choice, summary].filter(Boolean).join(' ');
   } else if (final && lesson.answer === null) {
     feedback.textContent = [choice, 'Для этой задачи в официальном ключе нет ответа.'].filter(Boolean).join(' ');
@@ -1338,15 +1355,22 @@ $('matchingAnswers').addEventListener('click', event => {
   const gallery = matchingParts().map((i, n) => {
     const figure = LESSONS[i].choiceLayout.condition;
     const image = figure.detailItems?.[0] ?? figure.items?.[0] ?? figure;
-    return {...image, title: 'Рисунок ' + (n + 1)};
+    return {...image, title: 'Рисунок ' + matchingNumber(LESSONS[i], n)};
   });
   openDetail(gallery, Number(button.dataset.matchImage), button);
 });
 $('numericAnswer').addEventListener('input', event => {
-  if (!Number.isInteger(LESSONS[task].numericAnswer) || current().step !== 0) return;
+  if (current().step !== 0) return;
   const value = event.target.value.trim();
-  current().selected = /^\d{1,6}$/.test(value) ? Number(value) : null;
-  $('feedback').textContent = value && current().selected === null ? 'Введи целое число от 0 до 999999.' : '';
+  if (LESSONS[task].textAnswer !== undefined) {
+    current().selected = /^[A-Za-z0-9]{1,32}$/.test(value) ? value : null;
+    $('feedback').textContent = value && current().selected === null ? 'Используй латинские буквы и цифры.' : '';
+    saveLessonProgress();
+    return;
+  }
+  if (!Number.isInteger(LESSONS[task].numericAnswer)) return;
+  current().selected = /^\d{1,9}$/.test(value) ? Number(value) : null;
+  $('feedback').textContent = value && current().selected === null ? 'Введи целое число от 0 до 999999999.' : '';
   saveLessonProgress();
 });
 $('answers').addEventListener('click', e => {

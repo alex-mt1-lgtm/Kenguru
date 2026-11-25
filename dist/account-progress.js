@@ -105,7 +105,7 @@ function createAccountProgress(user, onChange) {
       const lesson = match?.slice('rating:'.length);
       const answer = match && Object.hasOwn(firstAnswers, lesson) ? firstAnswers[lesson] : undefined;
       const updates = Object.fromEntries(keys.map(key => [key, pending[key]]));
-      const size = encoder.encode(JSON.stringify(updates)).length + (answer === undefined ? 0 : lesson.length + 8);
+      const size = encoder.encode(JSON.stringify(updates)).length + (answer === undefined ? 0 : lesson.length + JSON.stringify(answer).length + 4);
       // Keep a rating claim and the accompanying lesson state in the same request.
       if (bytes > 100 && bytes + size > 500000) break;
       bytes += size;
@@ -199,7 +199,7 @@ function createAccountProgress(user, onChange) {
     write(key, value, firstAnswer) {
       if (controller.signal.aborted || read(key) === value) return;
       pending[key] = value;
-      if (key.startsWith('rating:') && Number.isInteger(firstAnswer)) firstAnswers[key.slice('rating:'.length)] = firstAnswer;
+      if (key.startsWith('rating:') && (Number.isInteger(firstAnswer) || typeof firstAnswer === 'string')) firstAnswers[key.slice('rating:'.length)] = firstAnswer;
       cache();
       report();
       sync();

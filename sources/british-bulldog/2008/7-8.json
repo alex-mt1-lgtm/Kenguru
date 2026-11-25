@@ -1,0 +1,892 @@
+[
+  {
+    "title": "Council Plans",
+    "question": "They want to build … .",
+    "choices": [
+      "a church",
+      "a new shopping centre and a car park",
+      "a car park"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 1,
+    "steps": [
+      "Первая новость описывает протест против плана местных властей.",
+      "В записи названы «a new shopping centre and multi-storey car park»."
+    ]
+  },
+  {
+    "title": "Streets of Canterbury",
+    "question": "In the historical part of Canterbury … .",
+    "choices": [
+      "the streets are too narrow",
+      "there is a shopping centre",
+      "there is enough out-of-town shopping"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 0,
+    "steps": [
+      "Жители считают, что магазинов уже достаточно и ожидается рост движения.",
+      "Их довод о центре города — «the streets are too narrow»."
+    ]
+  },
+  {
+    "title": "Shop Owners",
+    "question": "The owners of small shops are … .",
+    "choices": [
+      "happy",
+      "poor",
+      "nervous"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 2,
+    "steps": [
+      "Слушай слова «worried about losing business from tourists».",
+      "Worried выражает обеспокоенность, поэтому подходит nervous."
+    ]
+  },
+  {
+    "title": "The Meeting Day",
+    "question": "The meeting will take place … .",
+    "choices": [
+      "on Tuesday",
+      "on Thursday",
+      "on Saturday"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 1,
+    "steps": [
+      "В конце первой новости объявлена встреча жителей с представителями совета.",
+      "В записи указано Thursday, четверг."
+    ]
+  },
+  {
+    "title": "Where Kevin Played",
+    "question": "The boy was playing … .",
+    "choices": [
+      "near the river",
+      "near the lake",
+      "on the grass"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 1,
+    "steps": [
+      "Мальчик был «playing by the side of the lake», когда упал в воду.",
+      "By the side of the lake означает near the lake."
+    ]
+  },
+  {
+    "title": "The Labrador's Age",
+    "question": "Labrador was … .",
+    "choices": [
+      "a 4-year old dog",
+      "a 6-year old dog",
+      "a very old dog"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 1,
+    "steps": [
+      "Kevin было четыре года. После рассказа о падении называют возраст собаки.",
+      "Выражение «the family’s six-year-old Labrador» относится именно к собаке."
+    ]
+  },
+  {
+    "title": "Rescuing Kevin",
+    "question": "The dog pulled the boy … .",
+    "choices": [
+      "by the collar",
+      "by the sleeve",
+      "by the jacket"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 0,
+    "steps": [
+      "Лабрадор вытянул мальчика из воды, схватив его за одежду.",
+      "«By the collar of his jacket» уточняет, что собака взяла за воротник."
+    ]
+  },
+  {
+    "title": "A Reward",
+    "question": "The boy’s parents bought the dog … as a reward.",
+    "choices": [
+      "a new collar",
+      "a special meal",
+      "a new toy"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 1,
+    "steps": [
+      "Родители говорят, что дали собаке «a big steak as a reward».",
+      "Стейк относится к угощению, a special meal."
+    ]
+  },
+  {
+    "title": "Inside the Wallet",
+    "question": "There were … in the wallet.",
+    "choices": [
+      "5 000 pounds",
+      "15 000 pounds",
+      "5 000 dollars"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 0,
+    "steps": [
+      "Последняя новость сообщает о кошельке, оставленном в пабе.",
+      "«Containing £5,000» означает «с пятью тысячами фунтов»."
+    ]
+  },
+  {
+    "title": "The Man's Appearance",
+    "question": "The man who left the wallet was … .",
+    "choices": [
+      "60 and had moustache",
+      "60 and had a beard",
+      "60 and was thin"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 0,
+    "steps": [
+      "Хозяин паба описывает мужчину как примерно шестидесятилетнего и упоминает усы.",
+      "«About 60 years old» и «a small white moustache» соответствуют первому варианту."
+    ]
+  },
+  {
+    "title": "Setting of the Story",
+    "question": "Complete gap 11 in the text.",
+    "choices": [
+      "village",
+      "country",
+      "place"
+    ],
+    "context": "Read the text and choose the answer.\n\nII. Read the text attentively and choose the right form from the variants below It happened during a long hot summer at a small [11] in England. The country [12] needed rain. Kim Frazer, who [13] something about North American Indians and their rain dances, decided to do something. He went into the street, [14] his clothes and started his rain dance. The people in the street [15] surprised, even shocked. He not only danced naked, but sang strange songs and shouted special words. Very soon the police arrived. Kim [16] about the rain dance, but they were not interested. Poor Kim was arrested and taken [17] the police station. The next day he appeared [18]. He told his story about the rain dance. The judge wasn’t interested in the story and fined him [19] pounds. As he left the court, it began [20] and poor Kim got soaking wet. But he felt happy because he thought that, after all, he was right.",
+    "answer": 0,
+    "steps": [
+      "Нужно небольшое населённое место «in England».",
+      "Village может быть small и обозначает деревню."
+    ]
+  },
+  {
+    "title": "The Need for Rain",
+    "question": "Complete gap 12 in the text.",
+    "choices": [
+      "very",
+      "very much",
+      "badly"
+    ],
+    "context": "Read the text and choose the answer.\n\nII. Read the text attentively and choose the right form from the variants below It happened during a long hot summer at a small [11] in England. The country [12] needed rain. Kim Frazer, who [13] something about North American Indians and their rain dances, decided to do something. He went into the street, [14] his clothes and started his rain dance. The people in the street [15] surprised, even shocked. He not only danced naked, but sang strange songs and shouted special words. Very soon the police arrived. Kim [16] about the rain dance, but they were not interested. Poor Kim was arrested and taken [17] the police station. The next day he appeared [18]. He told his story about the rain dance. The judge wasn’t interested in the story and fined him [19] pounds. As he left the court, it began [20] and poor Kim got soaking wet. But he felt happy because he thought that, after all, he was right.",
+    "answer": 2,
+    "steps": [
+      "В жару дождь был очень нужен. Пропуск относится к глаголу needed.",
+      "«Badly needed» значит «крайне нуждался»."
+    ]
+  },
+  {
+    "title": "Kim’s Idea",
+    "question": "Complete gap 13 in the text.",
+    "choices": [
+      "heard",
+      "has heard",
+      "had heard"
+    ],
+    "context": "Read the text and choose the answer.\n\nII. Read the text attentively and choose the right form from the variants below It happened during a long hot summer at a small [11] in England. The country [12] needed rain. Kim Frazer, who [13] something about North American Indians and their rain dances, decided to do something. He went into the street, [14] his clothes and started his rain dance. The people in the street [15] surprised, even shocked. He not only danced naked, but sang strange songs and shouted special words. Very soon the police arrived. Kim [16] about the rain dance, but they were not interested. Poor Kim was arrested and taken [17] the police station. The next day he appeared [18]. He told his story about the rain dance. The judge wasn’t interested in the story and fined him [19] pounds. As he left the court, it began [20] and poor Kim got soaking wet. But he felt happy because he thought that, after all, he was right.",
+    "answer": 2,
+    "steps": [
+      "Ким раньше услышал о танцах дождя, а потом решил попробовать сам.",
+      "Более раннее событие выражено Past Perfect, had heard."
+    ]
+  },
+  {
+    "title": "Before the Dance",
+    "question": "Complete gap 14 in the text.",
+    "choices": [
+      "put on",
+      "took off",
+      "tried on"
+    ],
+    "context": "Read the text and choose the answer.\n\nII. Read the text attentively and choose the right form from the variants below It happened during a long hot summer at a small [11] in England. The country [12] needed rain. Kim Frazer, who [13] something about North American Indians and their rain dances, decided to do something. He went into the street, [14] his clothes and started his rain dance. The people in the street [15] surprised, even shocked. He not only danced naked, but sang strange songs and shouted special words. Very soon the police arrived. Kim [16] about the rain dance, but they were not interested. Poor Kim was arrested and taken [17] the police station. The next day he appeared [18]. He told his story about the rain dance. The judge wasn’t interested in the story and fined him [19] pounds. As he left the court, it began [20] and poor Kim got soaking wet. But he felt happy because he thought that, after all, he was right.",
+    "answer": 1,
+    "steps": [
+      "Рассказ дальше говорит, что Ким танцевал naked.",
+      "Следовательно, он снял одежду. Take off в прошлом — took off."
+    ]
+  },
+  {
+    "title": "The Crowd's Reaction",
+    "question": "Complete gap 15 in the text.",
+    "choices": [
+      "are",
+      "was",
+      "were"
+    ],
+    "context": "Read the text and choose the answer.\n\nII. Read the text attentively and choose the right form from the variants below It happened during a long hot summer at a small [11] in England. The country [12] needed rain. Kim Frazer, who [13] something about North American Indians and their rain dances, decided to do something. He went into the street, [14] his clothes and started his rain dance. The people in the street [15] surprised, even shocked. He not only danced naked, but sang strange songs and shouted special words. Very soon the police arrived. Kim [16] about the rain dance, but they were not interested. Poor Kim was arrested and taken [17] the police station. The next day he appeared [18]. He told his story about the rain dance. The judge wasn’t interested in the story and fined him [19] pounds. As he left the court, it began [20] and poor Kim got soaking wet. But he felt happy because he thought that, after all, he was right.",
+    "answer": 2,
+    "steps": [
+      "Подлежащее «the people in the street» множественного числа. Рассказ идёт в прошедшем времени.",
+      "Нужна форма were."
+    ]
+  },
+  {
+    "title": "Speaking to the Police",
+    "question": "Complete gap 16 in the text.",
+    "choices": [
+      "told",
+      "told them",
+      "said to them"
+    ],
+    "context": "Read the text and choose the answer.\n\nII. Read the text attentively and choose the right form from the variants below It happened during a long hot summer at a small [11] in England. The country [12] needed rain. Kim Frazer, who [13] something about North American Indians and their rain dances, decided to do something. He went into the street, [14] his clothes and started his rain dance. The people in the street [15] surprised, even shocked. He not only danced naked, but sang strange songs and shouted special words. Very soon the police arrived. Kim [16] about the rain dance, but they were not interested. Poor Kim was arrested and taken [17] the police station. The next day he appeared [18]. He told his story about the rain dance. The judge wasn’t interested in the story and fined him [19] pounds. As he left the court, it began [20] and poor Kim got soaking wet. But he felt happy because he thought that, after all, he was right.",
+    "answer": 1,
+    "steps": [
+      "После tell указывают человека, которому рассказывают, затем о чём идёт речь.",
+      "«Told them about» включает и получателя, и нужный предлог."
+    ]
+  },
+  {
+    "title": "At the Police Station",
+    "question": "Complete gap 17 in the text.",
+    "choices": [
+      "in",
+      "into",
+      "to"
+    ],
+    "context": "Read the text and choose the answer.\n\nII. Read the text attentively and choose the right form from the variants below It happened during a long hot summer at a small [11] in England. The country [12] needed rain. Kim Frazer, who [13] something about North American Indians and their rain dances, decided to do something. He went into the street, [14] his clothes and started his rain dance. The people in the street [15] surprised, even shocked. He not only danced naked, but sang strange songs and shouted special words. Very soon the police arrived. Kim [16] about the rain dance, but they were not interested. Poor Kim was arrested and taken [17] the police station. The next day he appeared [18]. He told his story about the rain dance. The judge wasn’t interested in the story and fined him [19] pounds. As he left the court, it began [20] and poor Kim got soaking wet. But he felt happy because he thought that, after all, he was right.",
+    "answer": 2,
+    "steps": [
+      "The police station — место назначения после «was taken».",
+      "Направление к месту выражается предлогом to."
+    ]
+  },
+  {
+    "title": "Before a Judge",
+    "question": "Complete gap 18 in the text.",
+    "choices": [
+      "in court",
+      "in the court",
+      "to the court"
+    ],
+    "context": "Read the text and choose the answer.\n\nII. Read the text attentively and choose the right form from the variants below It happened during a long hot summer at a small [11] in England. The country [12] needed rain. Kim Frazer, who [13] something about North American Indians and their rain dances, decided to do something. He went into the street, [14] his clothes and started his rain dance. The people in the street [15] surprised, even shocked. He not only danced naked, but sang strange songs and shouted special words. Very soon the police arrived. Kim [16] about the rain dance, but they were not interested. Poor Kim was arrested and taken [17] the police station. The next day he appeared [18]. He told his story about the rain dance. The judge wasn’t interested in the story and fined him [19] pounds. As he left the court, it began [20] and poor Kim got soaking wet. But he felt happy because he thought that, after all, he was right.",
+    "answer": 0,
+    "steps": [
+      "Речь о появлении на судебном заседании.",
+      "Формула «appear in court» употребляется без артикля."
+    ]
+  },
+  {
+    "title": "The Fine",
+    "question": "Complete gap 19 in the text.",
+    "choices": [
+      "for 25",
+      "25",
+      "about 25"
+    ],
+    "context": "Read the text and choose the answer.\n\nII. Read the text attentively and choose the right form from the variants below It happened during a long hot summer at a small [11] in England. The country [12] needed rain. Kim Frazer, who [13] something about North American Indians and their rain dances, decided to do something. He went into the street, [14] his clothes and started his rain dance. The people in the street [15] surprised, even shocked. He not only danced naked, but sang strange songs and shouted special words. Very soon the police arrived. Kim [16] about the rain dance, but they were not interested. Poor Kim was arrested and taken [17] the police station. The next day he appeared [18]. He told his story about the rain dance. The judge wasn’t interested in the story and fined him [19] pounds. As he left the court, it began [20] and poor Kim got soaking wet. But he felt happy because he thought that, after all, he was right.",
+    "answer": 1,
+    "steps": [
+      "Fined him означает «оштрафовал его». Сумма ставится после объекта.",
+      "«Fined him 25 pounds» указывает размер штрафа."
+    ]
+  },
+  {
+    "title": "Leaving the Court",
+    "question": "Complete gap 20 in the text.",
+    "choices": [
+      "poured",
+      "pouring",
+      "pours"
+    ],
+    "context": "Read the text and choose the answer.\n\nII. Read the text attentively and choose the right form from the variants below It happened during a long hot summer at a small [11] in England. The country [12] needed rain. Kim Frazer, who [13] something about North American Indians and their rain dances, decided to do something. He went into the street, [14] his clothes and started his rain dance. The people in the street [15] surprised, even shocked. He not only danced naked, but sang strange songs and shouted special words. Very soon the police arrived. Kim [16] about the rain dance, but they were not interested. Poor Kim was arrested and taken [17] the police station. The next day he appeared [18]. He told his story about the rain dance. The judge wasn’t interested in the story and fined him [19] pounds. As he left the court, it began [20] and poor Kim got soaking wet. But he felt happy because he thought that, after all, he was right.",
+    "answer": 1,
+    "steps": [
+      "Ким промок сразу после выхода из суда.",
+      "Pouring описывает сильный дождь. Begin допускает форму на -ing."
+    ]
+  },
+  {
+    "title": "Where It Happened",
+    "question": "It happened … .",
+    "choices": [
+      "in a small town",
+      "in the country",
+      "at a small village"
+    ],
+    "context": "Read the text and choose the answer.\n\nII. Read the text attentively and choose the right form from the variants below It happened during a long hot summer at a small village in England. The country badly needed rain. Kim Frazer, who had heard something about North American Indians and their rain dances, decided to do something. He went into the street, took off his clothes and started his rain dance. The people in the street were surprised, even shocked. He not only danced naked, but sang strange songs and shouted special words. Very soon the police arrived. Kim told them about the rain dance, but they were not interested. Poor Kim was arrested and taken to the police station. The next day he appeared in court. He told his story about the rain dance. The judge wasn’t interested in the story and fined him 25 pounds. As he left the court, it began pouring and poor Kim got soaking wet. But he felt happy because he thought that, after all, he was right.",
+    "answer": 2,
+    "steps": [
+      "Первое предложение помещает действие в небольшой населённый пункт Англии.",
+      "В тексте стоит «at a small village»."
+    ]
+  },
+  {
+    "title": "Why Rain Was Needed",
+    "question": "“The country badly needed rain” means there was … .",
+    "choices": [
+      "no rain for a long time",
+      "rain in another place",
+      "a lot of rain"
+    ],
+    "context": "Read the text and choose the answer.\n\nII. Read the text attentively and choose the right form from the variants below It happened during a long hot summer at a small village in England. The country badly needed rain. Kim Frazer, who had heard something about North American Indians and their rain dances, decided to do something. He went into the street, took off his clothes and started his rain dance. The people in the street were surprised, even shocked. He not only danced naked, but sang strange songs and shouted special words. Very soon the police arrived. Kim told them about the rain dance, but they were not interested. Poor Kim was arrested and taken to the police station. The next day he appeared in court. He told his story about the rain dance. The judge wasn’t interested in the story and fined him 25 pounds. As he left the court, it began pouring and poor Kim got soaking wet. But he felt happy because he thought that, after all, he was right.",
+    "answer": 0,
+    "steps": [
+      "Было долгое жаркое лето, и стране отчаянно понадобился дождь.",
+      "Фраза badly needed rain подразумевает, что дождя долго не было."
+    ]
+  },
+  {
+    "title": "The Purpose of the Dance",
+    "question": "Rain dances are performed by the Indians when … .",
+    "choices": [
+      "it is raining",
+      "they want it to stop",
+      "they want to have some rain"
+    ],
+    "context": "Read the text and choose the answer.\n\nII. Read the text attentively and choose the right form from the variants below It happened during a long hot summer at a small village in England. The country badly needed rain. Kim Frazer, who had heard something about North American Indians and their rain dances, decided to do something. He went into the street, took off his clothes and started his rain dance. The people in the street were surprised, even shocked. He not only danced naked, but sang strange songs and shouted special words. Very soon the police arrived. Kim told them about the rain dance, but they were not interested. Poor Kim was arrested and taken to the police station. The next day he appeared in court. He told his story about the rain dance. The judge wasn’t interested in the story and fined him 25 pounds. As he left the court, it began pouring and poor Kim got soaking wet. But he felt happy because he thought that, after all, he was right.",
+    "answer": 2,
+    "steps": [
+      "Ким услышал о танцах дождя и решил сделать что-то из-за засухи.",
+      "Цель такого танца в рассказе — вызвать дождь."
+    ]
+  },
+  {
+    "title": "Kim's Decision",
+    "question": "Kim decided to dance … .",
+    "choices": [
+      "because he was bored",
+      "because he thought this way it might rain",
+      "to collect money"
+    ],
+    "context": "Read the text and choose the answer.\n\nII. Read the text attentively and choose the right form from the variants below It happened during a long hot summer at a small village in England. The country badly needed rain. Kim Frazer, who had heard something about North American Indians and their rain dances, decided to do something. He went into the street, took off his clothes and started his rain dance. The people in the street were surprised, even shocked. He not only danced naked, but sang strange songs and shouted special words. Very soon the police arrived. Kim told them about the rain dance, but they were not interested. Poor Kim was arrested and taken to the police station. The next day he appeared in court. He told his story about the rain dance. The judge wasn’t interested in the story and fined him 25 pounds. As he left the court, it began pouring and poor Kim got soaking wet. But he felt happy because he thought that, after all, he was right.",
+    "answer": 1,
+    "steps": [
+      "Из-за долгой жары Ким вспомнил о танце дождя и вышел на улицу.",
+      "Он надеялся, что после танца пойдёт дождь."
+    ]
+  },
+  {
+    "title": "A Shock in the Street",
+    "question": "People were shocked because … .",
+    "choices": [
+      "Kim was singing",
+      "they knew Kim",
+      "Kim had no clothes on"
+    ],
+    "context": "Read the text and choose the answer.\n\nII. Read the text attentively and choose the right form from the variants below It happened during a long hot summer at a small village in England. The country badly needed rain. Kim Frazer, who had heard something about North American Indians and their rain dances, decided to do something. He went into the street, took off his clothes and started his rain dance. The people in the street were surprised, even shocked. He not only danced naked, but sang strange songs and shouted special words. Very soon the police arrived. Kim told them about the rain dance, but they were not interested. Poor Kim was arrested and taken to the police station. The next day he appeared in court. He told his story about the rain dance. The judge wasn’t interested in the story and fined him 25 pounds. As he left the court, it began pouring and poor Kim got soaking wet. But he felt happy because he thought that, after all, he was right.",
+    "answer": 2,
+    "steps": [
+      "«Took off his clothes» и «danced naked» называют причину реакции прохожих.",
+      "Нагота, had no clothes on, выделяет правильный вариант."
+    ]
+  },
+  {
+    "title": "The Police Reaction",
+    "question": "”The police were not interested about the rain dance” means that … .",
+    "choices": [
+      "they didn’t like dancing",
+      "they didn’t believe Kim",
+      "they liked Kim’s song"
+    ],
+    "context": "Read the text and choose the answer.\n\nII. Read the text attentively and choose the right form from the variants below It happened during a long hot summer at a small village in England. The country badly needed rain. Kim Frazer, who had heard something about North American Indians and their rain dances, decided to do something. He went into the street, took off his clothes and started his rain dance. The people in the street were surprised, even shocked. He not only danced naked, but sang strange songs and shouted special words. Very soon the police arrived. Kim told them about the rain dance, but they were not interested. Poor Kim was arrested and taken to the police station. The next day he appeared in court. He told his story about the rain dance. The judge wasn’t interested in the story and fined him 25 pounds. As he left the court, it began pouring and poor Kim got soaking wet. But he felt happy because he thought that, after all, he was right.",
+    "answer": 1,
+    "steps": [
+      "Полицейские выслушали объяснение, но сразу задержали Кима.",
+      "Из вариантов ближе «they didn’t believe Kim». Текст сообщает об отсутствии интереса к его объяснению."
+    ]
+  },
+  {
+    "title": "The Next Day",
+    "question": "“The next day he appeared in court” means that … .",
+    "choices": [
+      "he appeared before a judge",
+      "he was taken for a walk",
+      "he was set free"
+    ],
+    "context": "Read the text and choose the answer.\n\nII. Read the text attentively and choose the right form from the variants below It happened during a long hot summer at a small village in England. The country badly needed rain. Kim Frazer, who had heard something about North American Indians and their rain dances, decided to do something. He went into the street, took off his clothes and started his rain dance. The people in the street were surprised, even shocked. He not only danced naked, but sang strange songs and shouted special words. Very soon the police arrived. Kim told them about the rain dance, but they were not interested. Poor Kim was arrested and taken to the police station. The next day he appeared in court. He told his story about the rain dance. The judge wasn’t interested in the story and fined him 25 pounds. As he left the court, it began pouring and poor Kim got soaking wet. But he felt happy because he thought that, after all, he was right.",
+    "answer": 0,
+    "steps": [
+      "Следом за «appeared in court» в тексте появляется judge.",
+      "Значение фразы — «предстал перед судьёй»."
+    ]
+  },
+  {
+    "title": "Paying a Fine",
+    "question": "“He was fined 25 pounds” means that Kim … .",
+    "choices": [
+      "had to pay 25 pounds",
+      "found 25 pounds",
+      "was paid 25 pounds"
+    ],
+    "context": "Read the text and choose the answer.\n\nII. Read the text attentively and choose the right form from the variants below It happened during a long hot summer at a small village in England. The country badly needed rain. Kim Frazer, who had heard something about North American Indians and their rain dances, decided to do something. He went into the street, took off his clothes and started his rain dance. The people in the street were surprised, even shocked. He not only danced naked, but sang strange songs and shouted special words. Very soon the police arrived. Kim told them about the rain dance, but they were not interested. Poor Kim was arrested and taken to the police station. The next day he appeared in court. He told his story about the rain dance. The judge wasn’t interested in the story and fined him 25 pounds. As he left the court, it began pouring and poor Kim got soaking wet. But he felt happy because he thought that, after all, he was right.",
+    "answer": 0,
+    "steps": [
+      "Пассивное «was fined» означает, что наказание назначили Киму.",
+      "Он должен был заплатить 25 фунтов."
+    ]
+  },
+  {
+    "title": "On the Way Home",
+    "question": "What happened while Kim was going home? … .",
+    "choices": [
+      "The court began pouring",
+      "It began to rain",
+      "It began getting dark"
+    ],
+    "context": "Read the text and choose the answer.\n\nII. Read the text attentively and choose the right form from the variants below It happened during a long hot summer at a small village in England. The country badly needed rain. Kim Frazer, who had heard something about North American Indians and their rain dances, decided to do something. He went into the street, took off his clothes and started his rain dance. The people in the street were surprised, even shocked. He not only danced naked, but sang strange songs and shouted special words. Very soon the police arrived. Kim told them about the rain dance, but they were not interested. Poor Kim was arrested and taken to the police station. The next day he appeared in court. He told his story about the rain dance. The judge wasn’t interested in the story and fined him 25 pounds. As he left the court, it began pouring and poor Kim got soaking wet. But he felt happy because he thought that, after all, he was right.",
+    "answer": 1,
+    "steps": [
+      "В тексте после ухода из суда «it began pouring».",
+      "Pouring здесь означает сильный дождь."
+    ]
+  },
+  {
+    "title": "Why Kim Was Happy",
+    "question": "Why did Kim feel happy? Because … .",
+    "choices": [
+      "it was nice to be wet",
+      "it was raining as a result of his dance",
+      "he was fined"
+    ],
+    "context": "Read the text and choose the answer.\n\nII. Read the text attentively and choose the right form from the variants below It happened during a long hot summer at a small village in England. The country badly needed rain. Kim Frazer, who had heard something about North American Indians and their rain dances, decided to do something. He went into the street, took off his clothes and started his rain dance. The people in the street were surprised, even shocked. He not only danced naked, but sang strange songs and shouted special words. Very soon the police arrived. Kim told them about the rain dance, but they were not interested. Poor Kim was arrested and taken to the police station. The next day he appeared in court. He told his story about the rain dance. The judge wasn’t interested in the story and fined him 25 pounds. As he left the court, it began pouring and poor Kim got soaking wet. But he felt happy because he thought that, after all, he was right.",
+    "answer": 1,
+    "steps": [
+      "Финал говорит «he thought that, after all, he was right».",
+      "Хотя Ким промок, он считает дождь результатом танца."
+    ]
+  },
+  {
+    "title": "A School Away from Home",
+    "question": "When I went to … I only saw my parents during the holidays.",
+    "choices": [
+      "day school",
+      "boarding school",
+      "state school"
+    ],
+    "answer": 1,
+    "steps": [
+      "Only during the holidays подсказывает, что ребёнок жил отдельно от родителей во время занятий.",
+      "Boarding school — школа с проживанием."
+    ]
+  },
+  {
+    "title": "Working at a University",
+    "question": "I want to continue study to become a university … .",
+    "choices": [
+      "teacher",
+      "student",
+      "lecturer"
+    ],
+    "answer": 2,
+    "steps": [
+      "Речь о будущей работе в университете.",
+      "Lecturer — преподаватель университета. Это наиболее конкретное из предложенных слов."
+    ]
+  },
+  {
+    "title": "Learning the Guitar",
+    "question": "Who … you to play the guitar?",
+    "choices": [
+      "taught",
+      "learnt",
+      "made"
+    ],
+    "answer": 0,
+    "steps": [
+      "Вопрос о человеке, который передал навык игры.",
+      "Teach somebody to play в прошедшем времени даёт taught."
+    ]
+  },
+  {
+    "title": "The Telephone",
+    "question": "Was it Alexander Bell who … the telephone?",
+    "choices": [
+      "discovered",
+      "invented",
+      "make"
+    ],
+    "answer": 1,
+    "steps": [
+      "Телефон был создан как техническое устройство.",
+      "Invent означает «изобретать». Discover — «открывать то, что уже существует»."
+    ]
+  },
+  {
+    "title": "A Party for You",
+    "question": "Did you know that Peter had arranged the party … for you?",
+    "choices": [
+      "specially",
+      "especially",
+      "particularly"
+    ],
+    "answer": 0,
+    "steps": [
+      "Организаторы устроили вечеринку с конкретной целью, для одного человека.",
+      "Specially for you подчёркивает эту цель."
+    ]
+  },
+  {
+    "title": "Living Near Work",
+    "question": "My flat is just near my office, which is … for me.",
+    "choices": [
+      "comfortable",
+      "cosy",
+      "convenient"
+    ],
+    "answer": 2,
+    "steps": [
+      "Близость квартиры к офису облегчает повседневные поездки.",
+      "Convenient описывает практическое удобство."
+    ]
+  },
+  {
+    "title": "Playing Well",
+    "question": "If you want to play the piano well you must … a lot.",
+    "choices": [
+      "practice",
+      "practise",
+      "train"
+    ],
+    "answer": 1,
+    "steps": [
+      "После must нужен глагол. Речь о регулярных упражнениях.",
+      "В британском английском глагол пишется practise, а существительное — practice."
+    ]
+  },
+  {
+    "title": "In the Newspaper",
+    "question": "I saw a very good … advertised in the paper.",
+    "choices": [
+      "office",
+      "work",
+      "job"
+    ],
+    "answer": 2,
+    "steps": [
+      "В газете рекламируют отдельное рабочее место. Перед пропуском уже стоит a.",
+      "Job исчисляемо и означает вакансию, work обычно неисчисляемо."
+    ]
+  },
+  {
+    "title": "People's Rights",
+    "question": "There is a lot of talk nowadays about … rights.",
+    "choices": [
+      "human",
+      "humane",
+      "humanitarian"
+    ],
+    "answer": 0,
+    "steps": [
+      "Речь об общих правах, которыми обладает человек.",
+      "Устоявшееся выражение — human rights."
+    ]
+  },
+  {
+    "title": "Tomorrow's Weather",
+    "question": "According to the weather … there will be rain tomorrow.",
+    "choices": [
+      "information",
+      "forecast",
+      "data"
+    ],
+    "answer": 1,
+    "steps": [
+      "После пропуска говорится о том, что произойдёт завтра.",
+      "Weather forecast — прогноз погоды."
+    ]
+  },
+  {
+    "title": "Passing the Exam",
+    "question": "You won’t pass the exam unless you … harder.",
+    "choices": [
+      "work",
+      "will work",
+      "don’t work"
+    ],
+    "answer": 0,
+    "steps": [
+      "Unless значит «если не». В придаточном условия с будущим результатом берут Present Simple.",
+      "Получается «unless you work harder»."
+    ]
+  },
+  {
+    "title": "Working on Saturday",
+    "question": "Why … work last Saturday?",
+    "choices": [
+      "had he to",
+      "must he",
+      "did he have to"
+    ],
+    "answer": 2,
+    "steps": [
+      "Last Saturday требует прошедшего времени. Необходимость передаётся через have to.",
+      "Вопрос строится «Why did he have to work?»."
+    ]
+  },
+  {
+    "title": "A Missing Watch",
+    "question": "My watch … in the station last Saturday.",
+    "choices": [
+      "was robbed",
+      "was stolen",
+      "has been stolen"
+    ],
+    "answer": 1,
+    "steps": [
+      "Украли сам предмет, поэтому глагол — steal. Rob относится к человеку или месту, которое ограбили.",
+      "Last Saturday закрепляет событие в прошлом. Нужна форма was stolen."
+    ]
+  },
+  {
+    "title": "Away on Holiday",
+    "question": "I’m sorry, she’s not here. She … on holiday this week.",
+    "choices": [
+      "had been gone",
+      "has gone",
+      "has been"
+    ],
+    "answer": 1,
+    "steps": [
+      "«She’s not here» показывает, что женщина всё ещё в отъезде.",
+      "«Has gone on holiday» означает, что она уехала и ещё не вернулась."
+    ]
+  },
+  {
+    "title": "Starting in 2001",
+    "question": "He … in this company since 2001.",
+    "choices": [
+      "is working",
+      "works",
+      "has been working"
+    ],
+    "answer": 2,
+    "steps": [
+      "Since задаёт начало работы, которая продолжается до настоящего.",
+      "Has been working выражает длительность этого занятия."
+    ]
+  },
+  {
+    "title": "Telling the Truth",
+    "question": "“You … lies!” his father said.",
+    "choices": [
+      "mustn’t say",
+      "mustn’t tell",
+      "don’t have to say"
+    ],
+    "answer": 1,
+    "steps": [
+      "Отец запрещает лгать. Для запрета подходит mustn’t.",
+      "С lies употребляют tell, «mustn’t tell lies»."
+    ]
+  },
+  {
+    "title": "Calling from Paris",
+    "question": "… in Paris, I intend to call my parents.",
+    "choices": [
+      "When I will arrive",
+      "As long as I arrive",
+      "As soon as I arrive"
+    ],
+    "answer": 2,
+    "steps": [
+      "Говорящий хочет позвонить сразу после прибытия.",
+      "As soon as вводит момент. В придаточном употребляется «I arrive»."
+    ]
+  },
+  {
+    "title": "Comparing Two People",
+    "question": "She’s … her brother.",
+    "choices": [
+      "much more tall than",
+      "much taller than",
+      "much more tall that"
+    ],
+    "answer": 1,
+    "steps": [
+      "Than требует сравнительной степени прилагательного tall.",
+      "Сравнение — taller than. Much усиливает разницу."
+    ]
+  },
+  {
+    "title": "Getting to School",
+    "question": "… does it take to get to school?",
+    "choices": [
+      "How",
+      "How many time",
+      "How long"
+    ],
+    "answer": 2,
+    "steps": [
+      "«Does it take» относится ко времени в пути.",
+      "How long задаёт вопрос о длительности."
+    ]
+  },
+  {
+    "title": "At the Baker's",
+    "question": "She’s gone to the baker’s … some bread.",
+    "choices": [
+      "for buying",
+      "to buy",
+      "for to buy"
+    ],
+    "answer": 1,
+    "steps": [
+      "Покупка хлеба — цель визита к пекарю.",
+      "Цель выражается инфинитивом «to buy some bread»."
+    ]
+  },
+  {
+    "title": "Dan's Lunch",
+    "question": "Dan ate … .",
+    "choices": [
+      "egg and chips",
+      "hamburger and chips",
+      "sausage and chips"
+    ],
+    "context": "Read the menu and use the clues.\n\nJack’s cafe Hamburger and chips £1.40 Fish and chips £1.20 Chicken and chips £1.80 Sausage and chips £1.00 Egg and chips 99 p Ham sandwich 75 p Cheese sandwich 65 p Glass of lemonade 38 p Glass of milk 15 p Cup of tea 20 p Cup of coffee 35 p Glass of coke 45 p Dan’s food cost less than a pound. Jenny doesn’t eat meat or fish. Kate’s food cost more than Jenny’s. Tim doesn’t like fish. Jenny didn’t have chips with her food. Kate and Dan had the same thing to eat. Tim’s food was the most expensive on the menu. Dan didn’t have a sandwich. The total bill for food was £4.43. Jenny and Tim had the same drink. Only Kate had a hot drink. Dan had the least expensive drink. Jenny’s drink cost 25 p more than Kate’s drink.",
+    "answer": 0,
+    "steps": [
+      "Блюдо Дэна стоит меньше £1, и он не заказывал бутерброд.",
+      "Из меню остаётся egg and chips за 99 пенсов."
+    ]
+  },
+  {
+    "title": "Dan's Drink",
+    "question": "Dan drank … .",
+    "choices": [
+      "cup of tea",
+      "glass of coke",
+      "glass of milk"
+    ],
+    "context": "Read the menu and use the clues.\n\nJack’s cafe Hamburger and chips £1.40 Fish and chips £1.20 Chicken and chips £1.80 Sausage and chips £1.00 Egg and chips 99 p Ham sandwich 75 p Cheese sandwich 65 p Glass of lemonade 38 p Glass of milk 15 p Cup of tea 20 p Cup of coffee 35 p Glass of coke 45 p Dan’s food cost less than a pound. Jenny doesn’t eat meat or fish. Kate’s food cost more than Jenny’s. Tim doesn’t like fish. Jenny didn’t have chips with her food. Kate and Dan had the same thing to eat. Tim’s food was the most expensive on the menu. Dan didn’t have a sandwich. The total bill for food was £4.43. Jenny and Tim had the same drink. Only Kate had a hot drink. Dan had the least expensive drink. Jenny’s drink cost 25 p more than Kate’s drink.",
+    "answer": 2,
+    "steps": [
+      "Дэн заказал самый дешёвый напиток.",
+      "Сравни цены. Молоко за 15 пенсов дешевле чая за 20 и остальных напитков."
+    ]
+  },
+  {
+    "title": "Jenny's Lunch",
+    "question": "Jenny ate … .",
+    "choices": [
+      "cheese sandwich",
+      "ham sandwich",
+      "fish and chips"
+    ],
+    "context": "Read the menu and use the clues.\n\nJack’s cafe Hamburger and chips £1.40 Fish and chips £1.20 Chicken and chips £1.80 Sausage and chips £1.00 Egg and chips 99 p Ham sandwich 75 p Cheese sandwich 65 p Glass of lemonade 38 p Glass of milk 15 p Cup of tea 20 p Cup of coffee 35 p Glass of coke 45 p Dan’s food cost less than a pound. Jenny doesn’t eat meat or fish. Kate’s food cost more than Jenny’s. Tim doesn’t like fish. Jenny didn’t have chips with her food. Kate and Dan had the same thing to eat. Tim’s food was the most expensive on the menu. Dan didn’t have a sandwich. The total bill for food was £4.43. Jenny and Tim had the same drink. Only Kate had a hot drink. Dan had the least expensive drink. Jenny’s drink cost 25 p more than Kate’s drink.",
+    "answer": 0,
+    "steps": [
+      "Дженни не ест мяса и рыбы и заказала блюдо без картошки.",
+      "Сырный бутерброд, cheese sandwich, отвечает обоим условиям."
+    ]
+  },
+  {
+    "title": "Jenny's Drink",
+    "question": "Jenny drank … .",
+    "choices": [
+      "glass of lemonade",
+      "glass of milk",
+      "glass of coke"
+    ],
+    "context": "Read the menu and use the clues.\n\nJack’s cafe Hamburger and chips £1.40 Fish and chips £1.20 Chicken and chips £1.80 Sausage and chips £1.00 Egg and chips 99 p Ham sandwich 75 p Cheese sandwich 65 p Glass of lemonade 38 p Glass of milk 15 p Cup of tea 20 p Cup of coffee 35 p Glass of coke 45 p Dan’s food cost less than a pound. Jenny doesn’t eat meat or fish. Kate’s food cost more than Jenny’s. Tim doesn’t like fish. Jenny didn’t have chips with her food. Kate and Dan had the same thing to eat. Tim’s food was the most expensive on the menu. Dan didn’t have a sandwich. The total bill for food was £4.43. Jenny and Tim had the same drink. Only Kate had a hot drink. Dan had the least expensive drink. Jenny’s drink cost 25 p more than Kate’s drink.",
+    "answer": 2,
+    "steps": [
+      "Только Кейт взяла горячий напиток. Напиток Дженни дороже напитка Кейт на 25 пенсов.",
+      "Из двух цен горячих напитков только 20 пенсов за чай дают цену существующего напитка, 45 пенсов за coke."
+    ]
+  },
+  {
+    "title": "Kate's Lunch",
+    "question": "Kate ate … .",
+    "choices": [
+      "chicken and chips",
+      "egg and chips",
+      "ham sandwich"
+    ],
+    "context": "Read the menu and use the clues.\n\nJack’s cafe Hamburger and chips £1.40 Fish and chips £1.20 Chicken and chips £1.80 Sausage and chips £1.00 Egg and chips 99 p Ham sandwich 75 p Cheese sandwich 65 p Glass of lemonade 38 p Glass of milk 15 p Cup of tea 20 p Cup of coffee 35 p Glass of coke 45 p Dan’s food cost less than a pound. Jenny doesn’t eat meat or fish. Kate’s food cost more than Jenny’s. Tim doesn’t like fish. Jenny didn’t have chips with her food. Kate and Dan had the same thing to eat. Tim’s food was the most expensive on the menu. Dan didn’t have a sandwich. The total bill for food was £4.43. Jenny and Tim had the same drink. Only Kate had a hot drink. Dan had the least expensive drink. Jenny’s drink cost 25 p more than Kate’s drink.",
+    "answer": 1,
+    "steps": [
+      "Кейт и Дэн ели одно и то же. Дэн заказал блюдо дешевле £1 и без бутерброда.",
+      "Под условия Дэна подходят egg and chips за 99 пенсов. Это и блюдо Кейт."
+    ]
+  },
+  {
+    "title": "Kate's Drink",
+    "question": "Kate drank … .",
+    "choices": [
+      "glass of coke",
+      "cup of tea",
+      "glass of milk"
+    ],
+    "context": "Read the menu and use the clues.\n\nJack’s cafe Hamburger and chips £1.40 Fish and chips £1.20 Chicken and chips £1.80 Sausage and chips £1.00 Egg and chips 99 p Ham sandwich 75 p Cheese sandwich 65 p Glass of lemonade 38 p Glass of milk 15 p Cup of tea 20 p Cup of coffee 35 p Glass of coke 45 p Dan’s food cost less than a pound. Jenny doesn’t eat meat or fish. Kate’s food cost more than Jenny’s. Tim doesn’t like fish. Jenny didn’t have chips with her food. Kate and Dan had the same thing to eat. Tim’s food was the most expensive on the menu. Dan didn’t have a sandwich. The total bill for food was £4.43. Jenny and Tim had the same drink. Only Kate had a hot drink. Dan had the least expensive drink. Jenny’s drink cost 25 p more than Kate’s drink.",
+    "answer": 1,
+    "steps": [
+      "Кейт одна взяла горячий напиток. В меню есть чай за 20 и кофе за 35 пенсов.",
+      "Если прибавить 25 к 20, получаем цену напитка Дженни, 45 пенсов. Выбираем tea."
+    ]
+  },
+  {
+    "title": "Tim's Lunch",
+    "question": "Tim ate … .",
+    "choices": [
+      "ham sandwich",
+      "sausage and chips",
+      "chicken and chips"
+    ],
+    "context": "Read the menu and use the clues.\n\nJack’s cafe Hamburger and chips £1.40 Fish and chips £1.20 Chicken and chips £1.80 Sausage and chips £1.00 Egg and chips 99 p Ham sandwich 75 p Cheese sandwich 65 p Glass of lemonade 38 p Glass of milk 15 p Cup of tea 20 p Cup of coffee 35 p Glass of coke 45 p Dan’s food cost less than a pound. Jenny doesn’t eat meat or fish. Kate’s food cost more than Jenny’s. Tim doesn’t like fish. Jenny didn’t have chips with her food. Kate and Dan had the same thing to eat. Tim’s food was the most expensive on the menu. Dan didn’t have a sandwich. The total bill for food was £4.43. Jenny and Tim had the same drink. Only Kate had a hot drink. Dan had the least expensive drink. Jenny’s drink cost 25 p more than Kate’s drink.",
+    "answer": 2,
+    "steps": [
+      "Блюдо Тима дороже всех в меню.",
+      "Сравнение цен даёт chicken and chips за £1.80."
+    ]
+  },
+  {
+    "title": "Tim's Drink",
+    "question": "Tim drank … .",
+    "choices": [
+      "glass of coke",
+      "glass of milk",
+      "cup of coffee"
+    ],
+    "context": "Read the menu and use the clues.\n\nJack’s cafe Hamburger and chips £1.40 Fish and chips £1.20 Chicken and chips £1.80 Sausage and chips £1.00 Egg and chips 99 p Ham sandwich 75 p Cheese sandwich 65 p Glass of lemonade 38 p Glass of milk 15 p Cup of tea 20 p Cup of coffee 35 p Glass of coke 45 p Dan’s food cost less than a pound. Jenny doesn’t eat meat or fish. Kate’s food cost more than Jenny’s. Tim doesn’t like fish. Jenny didn’t have chips with her food. Kate and Dan had the same thing to eat. Tim’s food was the most expensive on the menu. Dan didn’t have a sandwich. The total bill for food was £4.43. Jenny and Tim had the same drink. Only Kate had a hot drink. Dan had the least expensive drink. Jenny’s drink cost 25 p more than Kate’s drink.",
+    "answer": 0,
+    "steps": [
+      "Тим и Дженни заказали одинаковый напиток. Напиток Дженни дороже чая Кейт на 25 пенсов.",
+      "20 + 25 = 45 пенсов, цена стакана coke."
+    ]
+  },
+  {
+    "title": "The Most Expensive Lunch",
+    "question": "… paid more than others for food.",
+    "choices": [
+      "Dan",
+      "Kate",
+      "Tim"
+    ],
+    "context": "Read the menu and use the clues.\n\nJack’s cafe Hamburger and chips £1.40 Fish and chips £1.20 Chicken and chips £1.80 Sausage and chips £1.00 Egg and chips 99 p Ham sandwich 75 p Cheese sandwich 65 p Glass of lemonade 38 p Glass of milk 15 p Cup of tea 20 p Cup of coffee 35 p Glass of coke 45 p Dan’s food cost less than a pound. Jenny doesn’t eat meat or fish. Kate’s food cost more than Jenny’s. Tim doesn’t like fish. Jenny didn’t have chips with her food. Kate and Dan had the same thing to eat. Tim’s food was the most expensive on the menu. Dan didn’t have a sandwich. The total bill for food was £4.43. Jenny and Tim had the same drink. Only Kate had a hot drink. Dan had the least expensive drink. Jenny’s drink cost 25 p more than Kate’s drink.",
+    "answer": 2,
+    "steps": [
+      "Условие прямо говорит «Tim’s food was the most expensive on the menu».",
+      "Его блюдо chicken and chips стоит £1.80, дороже остальных."
+    ]
+  },
+  {
+    "title": "The Least Expensive Drink",
+    "question": "… paid less than others for a drink.",
+    "choices": [
+      "Dan",
+      "Jenny",
+      "Tim"
+    ],
+    "context": "Read the menu and use the clues.\n\nJack’s cafe Hamburger and chips £1.40 Fish and chips £1.20 Chicken and chips £1.80 Sausage and chips £1.00 Egg and chips 99 p Ham sandwich 75 p Cheese sandwich 65 p Glass of lemonade 38 p Glass of milk 15 p Cup of tea 20 p Cup of coffee 35 p Glass of coke 45 p Dan’s food cost less than a pound. Jenny doesn’t eat meat or fish. Kate’s food cost more than Jenny’s. Tim doesn’t like fish. Jenny didn’t have chips with her food. Kate and Dan had the same thing to eat. Tim’s food was the most expensive on the menu. Dan didn’t have a sandwich. The total bill for food was £4.43. Jenny and Tim had the same drink. Only Kate had a hot drink. Dan had the least expensive drink. Jenny’s drink cost 25 p more than Kate’s drink.",
+    "answer": 0,
+    "steps": [
+      "В условии «Dan had the least expensive drink».",
+      "Его молоко стоило 15 пенсов, минимум в меню."
+    ]
+  }
+]

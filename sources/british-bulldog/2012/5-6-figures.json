@@ -1,0 +1,44 @@
+{
+  "recipe-a": {
+    "sourceFile": "5-6/variant-780/tasks-reading.pdf",
+    "page": 1,
+    "cropPoints": [
+      315.7,
+      169.8,
+      395.3,
+      312.8
+    ],
+    "src": "assets/british-bulldog/2012/5-6/recipe-a.webp",
+    "alt": "Recipe card A",
+    "width": 239,
+    "height": 430
+  },
+  "recipe-b": {
+    "sourceFile": "5-6/variant-780/tasks-reading.pdf",
+    "page": 1,
+    "cropPoints": [
+      394.8,
+      169.8,
+      475,
+      312.8
+    ],
+    "src": "assets/british-bulldog/2012/5-6/recipe-b.webp",
+    "alt": "Recipe card B",
+    "width": 241,
+    "height": 430
+  },
+  "recipe-c": {
+    "sourceFile": "5-6/variant-780/tasks-reading.pdf",
+    "page": 1,
+    "cropPoints": [
+      474.6,
+      169.8,
+      555.5,
+      312.8
+    ],
+    "src": "assets/british-bulldog/2012/5-6/recipe-c.webp",
+    "alt": "Recipe card C",
+    "width": 244,
+    "height": 430
+  }
+}

@@ -1,0 +1,1273 @@
+[
+  {
+    "title": "Exam Results",
+    "question": "How does the woman feel about the exam results?",
+    "choices": [
+      "Happy",
+      "Anxious",
+      "Bored",
+      "Pleased"
+    ],
+    "answer": 1,
+    "steps": [
+      "Слушай, как девушка говорит о результатах.",
+      "Anxious означает «тревожится» и передаёт её состояние перед тем, как результаты стали известны."
+    ],
+    "context": "Listen to the text and answer the questions",
+    "audio": true
+  },
+  {
+    "title": "How He Feels About Study",
+    "question": "How does the man feel about studying?",
+    "choices": [
+      "Pleased",
+      "Tired",
+      "Delighted",
+      "Excited"
+    ],
+    "answer": 1,
+    "steps": [
+      "Вопрос об учёбе.",
+      "Tired здесь означает, что ему надоело учиться, что он устал от этого."
+    ],
+    "context": "Listen to the text and answer the questions",
+    "audio": true
+  },
+  {
+    "title": "His Priority",
+    "question": "What is more important for the man?",
+    "choices": [
+      "Diploma",
+      "Fame",
+      "Knowledge",
+      "Money"
+    ],
+    "answer": 3,
+    "steps": [
+      "Для молодого человека заработок важнее, чем дальнейшая учёба.",
+      "Money — деньги."
+    ],
+    "context": "Listen to the text and answer the questions",
+    "audio": true
+  },
+  {
+    "title": "What He Asks",
+    "question": "What does he ask his friend to do? To be … .",
+    "choices": [
+      "calm",
+      "uneasy",
+      "polite",
+      "challenging"
+    ],
+    "answer": 0,
+    "steps": [
+      "Молодой человек просит подругу не волноваться.",
+      "Calm означает «спокойный»."
+    ],
+    "context": "Listen to the text and answer the questions",
+    "audio": true
+  },
+  {
+    "title": "Her Future Profession",
+    "question": "What would the woman like to be in future? A/an … .",
+    "choices": [
+      "engineer",
+      "teacher",
+      "pilot",
+      "lawyer"
+    ],
+    "answer": 2,
+    "steps": [
+      "Слушай, какую профессию девушка выбирает для будущего.",
+      "She would like to be a pilot, стать пилотом."
+    ],
+    "context": "Listen to the text and answer the questions",
+    "audio": true
+  },
+  {
+    "title": "Good Marks",
+    "question": "Who always got good marks?",
+    "choices": [
+      "The man",
+      "His uncle",
+      "Her uncle",
+      "The woman"
+    ],
+    "answer": 3,
+    "steps": [
+      "Слушай часть разговора об оценках и дальнейших планах.",
+      "Хорошие оценки получала девушка. Она ещё ждёт поступления."
+    ],
+    "context": "Listen to the text and answer the questions",
+    "audio": true,
+    "adaptation": "Убрано указание на университет, поскольку девушка ещё туда не поступила."
+  },
+  {
+    "title": "Time in Africa",
+    "question": "For how long is the woman going to stay in Africa?",
+    "choices": [
+      "A week",
+      "A month",
+      "A year",
+      "Three weeks"
+    ],
+    "answer": 1,
+    "steps": [
+      "Вопрос о продолжительности пребывания, а не о дате отъезда.",
+      "A month означает «месяц»."
+    ],
+    "context": "Listen to the text and answer the questions",
+    "audio": true
+  },
+  {
+    "title": "Plans in Africa",
+    "question": "What are they planning to do there? To … .",
+    "choices": [
+      "relax",
+      "build a school",
+      "study",
+      "help her uncle"
+    ],
+    "answer": 1,
+    "steps": [
+      "Вопрос о цели поездки в Африку. Ищи глагол с предметом действия.",
+      "В записи назван конкретный проект: «build a school», построить школу."
+    ],
+    "context": "Listen to the text and answer the questions",
+    "audio": true
+  },
+  {
+    "title": "The Uncle’s Work",
+    "question": "What does the man’s uncle do? He is a … .",
+    "choices": [
+      "businessman",
+      "worker",
+      "lawyer",
+      "farmer"
+    ],
+    "answer": 0,
+    "steps": [
+      "Дядя молодого человека работает в бизнесе.",
+      "Businessman — предприниматель."
+    ],
+    "context": "Listen to the text and answer the questions",
+    "audio": true
+  },
+  {
+    "title": "Staying in Singapore",
+    "question": "On what condition will the man stay in Singapore? If he … .",
+    "choices": [
+      "is free",
+      "owns the firm",
+      "likes the work",
+      "gets married"
+    ],
+    "answer": 2,
+    "steps": [
+      "If вводит условие.",
+      "Молодой человек останется, если ему понравится работа: «if he likes the work»."
+    ],
+    "context": "Listen to the text and answer the questions",
+    "audio": true
+  },
+  {
+    "title": "Mr Smart’s Call",
+    "question": "Why is Mr Smart ringing the school?",
+    "choices": [
+      "To complain",
+      "To learn the details",
+      "To talk",
+      "To explain his son’s absence"
+    ],
+    "answer": 1,
+    "steps": [
+      "Он говорит «I’m ringing to find out some more information about the trip».",
+      "То есть он хочет узнать подробности."
+    ],
+    "context": "Read the conversation and then answer the questions\n\n– Hello. My name’s Fred Smart, father of Jason Smart in Year 7. Am I speaking to the school secretary?\n\n– Yes, that’s right. How can I help you?\n\n– My son was reading the school magazine when he noticed that the Art Club is going to Spain this year. I’m ringing to find out some more information about the trip.\n\n– Is Jason a member of the Art Club, Mr Smart?\n\n– Yes, he joined last week.\n\n– Good, he must be a member of the club before he can go on the trip. Now, the trip is in the half-term holiday of the Spring Term. There are only twenty places available so it’s best to book early.\n\n– How long is the trip and how will they get there?\n\n– It’s a five day trip and they’ll sail from Portsmouth to Santander in northern Spain. He’ll need a passport.\n\n– That’s OK. He got a new passport last year. Where will they stay and how much will it cost?\n\n– They’ll stay at a youth hostel in Bilbao and the cost is £250 per pupil.\n\n– Does that cover everything?\n\n– Yes, it covers travel, food, accommodation and entrance fees. You can pay a deposit of £50 now, but you must pay the full amount by the end of January.\n\n– Well, I’ll pop into the school office at four o’clock and pay the deposit. Thanks for your help.\n\n– You’re welcome."
+  },
+  {
+    "title": "How Jason Found Out",
+    "question": "Who told Jason about the trip?",
+    "choices": [
+      "His friend",
+      "School secretary",
+      "Art teacher",
+      "He read about it"
+    ],
+    "answer": 3,
+    "steps": [
+      "В разговоре сказано, что Джейсон читал школьный журнал и заметил сообщение.",
+      "Ему никто не рассказывал о поездке лично."
+    ],
+    "context": "Read the conversation and then answer the questions\n\n– Hello. My name’s Fred Smart, father of Jason Smart in Year 7. Am I speaking to the school secretary?\n\n– Yes, that’s right. How can I help you?\n\n– My son was reading the school magazine when he noticed that the Art Club is going to Spain this year. I’m ringing to find out some more information about the trip.\n\n– Is Jason a member of the Art Club, Mr Smart?\n\n– Yes, he joined last week.\n\n– Good, he must be a member of the club before he can go on the trip. Now, the trip is in the half-term holiday of the Spring Term. There are only twenty places available so it’s best to book early.\n\n– How long is the trip and how will they get there?\n\n– It’s a five day trip and they’ll sail from Portsmouth to Santander in northern Spain. He’ll need a passport.\n\n– That’s OK. He got a new passport last year. Where will they stay and how much will it cost?\n\n– They’ll stay at a youth hostel in Bilbao and the cost is £250 per pupil.\n\n– Does that cover everything?\n\n– Yes, it covers travel, food, accommodation and entrance fees. You can pay a deposit of £50 now, but you must pay the full amount by the end of January.\n\n– Well, I’ll pop into the school office at four o’clock and pay the deposit. Thanks for your help.\n\n– You’re welcome."
+  },
+  {
+    "title": "Joining the Club",
+    "question": "When did Jason join the Art Club?",
+    "choices": [
+      "Last year",
+      "Last term",
+      "Yesterday",
+      "A week before"
+    ],
+    "answer": 3,
+    "steps": [
+      "Отец говорит «he joined last week».",
+      "В таком пересказе a week before значит «неделей раньше»."
+    ],
+    "context": "Read the conversation and then answer the questions\n\n– Hello. My name’s Fred Smart, father of Jason Smart in Year 7. Am I speaking to the school secretary?\n\n– Yes, that’s right. How can I help you?\n\n– My son was reading the school magazine when he noticed that the Art Club is going to Spain this year. I’m ringing to find out some more information about the trip.\n\n– Is Jason a member of the Art Club, Mr Smart?\n\n– Yes, he joined last week.\n\n– Good, he must be a member of the club before he can go on the trip. Now, the trip is in the half-term holiday of the Spring Term. There are only twenty places available so it’s best to book early.\n\n– How long is the trip and how will they get there?\n\n– It’s a five day trip and they’ll sail from Portsmouth to Santander in northern Spain. He’ll need a passport.\n\n– That’s OK. He got a new passport last year. Where will they stay and how much will it cost?\n\n– They’ll stay at a youth hostel in Bilbao and the cost is £250 per pupil.\n\n– Does that cover everything?\n\n– Yes, it covers travel, food, accommodation and entrance fees. You can pay a deposit of £50 now, but you must pay the full amount by the end of January.\n\n– Well, I’ll pop into the school office at four o’clock and pay the deposit. Thanks for your help.\n\n– You’re welcome."
+  },
+  {
+    "title": "Number of Places",
+    "question": "How many pupils can go on a trip?",
+    "choices": [
+      "10",
+      "20",
+      "15",
+      "It depends"
+    ],
+    "answer": 1,
+    "steps": [
+      "«There are only twenty places available» устанавливает предел в 20 мест.",
+      "Поэтому секретарь советует записаться заранее."
+    ],
+    "context": "Read the conversation and then answer the questions\n\n– Hello. My name’s Fred Smart, father of Jason Smart in Year 7. Am I speaking to the school secretary?\n\n– Yes, that’s right. How can I help you?\n\n– My son was reading the school magazine when he noticed that the Art Club is going to Spain this year. I’m ringing to find out some more information about the trip.\n\n– Is Jason a member of the Art Club, Mr Smart?\n\n– Yes, he joined last week.\n\n– Good, he must be a member of the club before he can go on the trip. Now, the trip is in the half-term holiday of the Spring Term. There are only twenty places available so it’s best to book early.\n\n– How long is the trip and how will they get there?\n\n– It’s a five day trip and they’ll sail from Portsmouth to Santander in northern Spain. He’ll need a passport.\n\n– That’s OK. He got a new passport last year. Where will they stay and how much will it cost?\n\n– They’ll stay at a youth hostel in Bilbao and the cost is £250 per pupil.\n\n– Does that cover everything?\n\n– Yes, it covers travel, food, accommodation and entrance fees. You can pay a deposit of £50 now, but you must pay the full amount by the end of January.\n\n– Well, I’ll pop into the school office at four o’clock and pay the deposit. Thanks for your help.\n\n– You’re welcome."
+  },
+  {
+    "title": "Length of the Trip",
+    "question": "How long is the trip?",
+    "choices": [
+      "5 days",
+      "2 weeks",
+      "A week",
+      "A month"
+    ],
+    "answer": 0,
+    "steps": [
+      "Вопрос о длительности всей поездки. Найди ответ секретаря на «How long is the trip?».",
+      "«It’s a five day trip» означает, что поездка продлится пять дней."
+    ],
+    "context": "Read the conversation and then answer the questions\n\n– Hello. My name’s Fred Smart, father of Jason Smart in Year 7. Am I speaking to the school secretary?\n\n– Yes, that’s right. How can I help you?\n\n– My son was reading the school magazine when he noticed that the Art Club is going to Spain this year. I’m ringing to find out some more information about the trip.\n\n– Is Jason a member of the Art Club, Mr Smart?\n\n– Yes, he joined last week.\n\n– Good, he must be a member of the club before he can go on the trip. Now, the trip is in the half-term holiday of the Spring Term. There are only twenty places available so it’s best to book early.\n\n– How long is the trip and how will they get there?\n\n– It’s a five day trip and they’ll sail from Portsmouth to Santander in northern Spain. He’ll need a passport.\n\n– That’s OK. He got a new passport last year. Where will they stay and how much will it cost?\n\n– They’ll stay at a youth hostel in Bilbao and the cost is £250 per pupil.\n\n– Does that cover everything?\n\n– Yes, it covers travel, food, accommodation and entrance fees. You can pay a deposit of £50 now, but you must pay the full amount by the end of January.\n\n– Well, I’ll pop into the school office at four o’clock and pay the deposit. Thanks for your help.\n\n– You’re welcome."
+  },
+  {
+    "title": "The School Term",
+    "question": "When are they going to Spain? In … .",
+    "choices": [
+      "spring",
+      "winter",
+      "summer",
+      "autumn"
+    ],
+    "answer": 0,
+    "steps": [
+      "Поездка будет на каникулах в середине Spring Term.",
+      "Spring — весна."
+    ],
+    "context": "Read the conversation and then answer the questions\n\n– Hello. My name’s Fred Smart, father of Jason Smart in Year 7. Am I speaking to the school secretary?\n\n– Yes, that’s right. How can I help you?\n\n– My son was reading the school magazine when he noticed that the Art Club is going to Spain this year. I’m ringing to find out some more information about the trip.\n\n– Is Jason a member of the Art Club, Mr Smart?\n\n– Yes, he joined last week.\n\n– Good, he must be a member of the club before he can go on the trip. Now, the trip is in the half-term holiday of the Spring Term. There are only twenty places available so it’s best to book early.\n\n– How long is the trip and how will they get there?\n\n– It’s a five day trip and they’ll sail from Portsmouth to Santander in northern Spain. He’ll need a passport.\n\n– That’s OK. He got a new passport last year. Where will they stay and how much will it cost?\n\n– They’ll stay at a youth hostel in Bilbao and the cost is £250 per pupil.\n\n– Does that cover everything?\n\n– Yes, it covers travel, food, accommodation and entrance fees. You can pay a deposit of £50 now, but you must pay the full amount by the end of January.\n\n– Well, I’ll pop into the school office at four o’clock and pay the deposit. Thanks for your help.\n\n– You’re welcome."
+  },
+  {
+    "title": "Getting to Spain",
+    "question": "How will they travel to Spain? By … .",
+    "choices": [
+      "ship",
+      "train",
+      "road",
+      "bus"
+    ],
+    "answer": 0,
+    "steps": [
+      "Глагол sail говорит о морском путешествии.",
+      "Они поплывут из Портсмута в Сантандер на судне."
+    ],
+    "context": "Read the conversation and then answer the questions\n\n– Hello. My name’s Fred Smart, father of Jason Smart in Year 7. Am I speaking to the school secretary?\n\n– Yes, that’s right. How can I help you?\n\n– My son was reading the school magazine when he noticed that the Art Club is going to Spain this year. I’m ringing to find out some more information about the trip.\n\n– Is Jason a member of the Art Club, Mr Smart?\n\n– Yes, he joined last week.\n\n– Good, he must be a member of the club before he can go on the trip. Now, the trip is in the half-term holiday of the Spring Term. There are only twenty places available so it’s best to book early.\n\n– How long is the trip and how will they get there?\n\n– It’s a five day trip and they’ll sail from Portsmouth to Santander in northern Spain. He’ll need a passport.\n\n– That’s OK. He got a new passport last year. Where will they stay and how much will it cost?\n\n– They’ll stay at a youth hostel in Bilbao and the cost is £250 per pupil.\n\n– Does that cover everything?\n\n– Yes, it covers travel, food, accommodation and entrance fees. You can pay a deposit of £50 now, but you must pay the full amount by the end of January.\n\n– Well, I’ll pop into the school office at four o’clock and pay the deposit. Thanks for your help.\n\n– You’re welcome."
+  },
+  {
+    "title": "Santander",
+    "question": "Where is Santander? In the … of Spain.",
+    "choices": [
+      "north",
+      "south",
+      "east",
+      "west"
+    ],
+    "answer": 0,
+    "steps": [
+      "Секретарь уточняет «in northern Spain».",
+      "Это северная часть Испании."
+    ],
+    "context": "Read the conversation and then answer the questions\n\n– Hello. My name’s Fred Smart, father of Jason Smart in Year 7. Am I speaking to the school secretary?\n\n– Yes, that’s right. How can I help you?\n\n– My son was reading the school magazine when he noticed that the Art Club is going to Spain this year. I’m ringing to find out some more information about the trip.\n\n– Is Jason a member of the Art Club, Mr Smart?\n\n– Yes, he joined last week.\n\n– Good, he must be a member of the club before he can go on the trip. Now, the trip is in the half-term holiday of the Spring Term. There are only twenty places available so it’s best to book early.\n\n– How long is the trip and how will they get there?\n\n– It’s a five day trip and they’ll sail from Portsmouth to Santander in northern Spain. He’ll need a passport.\n\n– That’s OK. He got a new passport last year. Where will they stay and how much will it cost?\n\n– They’ll stay at a youth hostel in Bilbao and the cost is £250 per pupil.\n\n– Does that cover everything?\n\n– Yes, it covers travel, food, accommodation and entrance fees. You can pay a deposit of £50 now, but you must pay the full amount by the end of January.\n\n– Well, I’ll pop into the school office at four o’clock and pay the deposit. Thanks for your help.\n\n– You’re welcome."
+  },
+  {
+    "title": "Accommodation",
+    "question": "Where will Jason stay? At … .",
+    "choices": [
+      "the hotel",
+      "the hostel",
+      "the camp",
+      "his granny’s"
+    ],
+    "answer": 1,
+    "steps": [
+      "В разговоре стоит «at a youth hostel in Bilbao».",
+      "Hostel — недорогое жильё для путешественников."
+    ],
+    "context": "Read the conversation and then answer the questions\n\n– Hello. My name’s Fred Smart, father of Jason Smart in Year 7. Am I speaking to the school secretary?\n\n– Yes, that’s right. How can I help you?\n\n– My son was reading the school magazine when he noticed that the Art Club is going to Spain this year. I’m ringing to find out some more information about the trip.\n\n– Is Jason a member of the Art Club, Mr Smart?\n\n– Yes, he joined last week.\n\n– Good, he must be a member of the club before he can go on the trip. Now, the trip is in the half-term holiday of the Spring Term. There are only twenty places available so it’s best to book early.\n\n– How long is the trip and how will they get there?\n\n– It’s a five day trip and they’ll sail from Portsmouth to Santander in northern Spain. He’ll need a passport.\n\n– That’s OK. He got a new passport last year. Where will they stay and how much will it cost?\n\n– They’ll stay at a youth hostel in Bilbao and the cost is £250 per pupil.\n\n– Does that cover everything?\n\n– Yes, it covers travel, food, accommodation and entrance fees. You can pay a deposit of £50 now, but you must pay the full amount by the end of January.\n\n– Well, I’ll pop into the school office at four o’clock and pay the deposit. Thanks for your help.\n\n– You’re welcome."
+  },
+  {
+    "title": "Paying the Deposit",
+    "question": "When is father going to come to school?",
+    "choices": [
+      "At 2 p.m.",
+      "At night",
+      "At 4 o’clock",
+      "In January"
+    ],
+    "answer": 2,
+    "steps": [
+      "Отец говорит «I’ll pop into the school office at four o’clock».",
+      "В четыре часа он зайдёт внести задаток."
+    ],
+    "context": "Read the conversation and then answer the questions\n\n– Hello. My name’s Fred Smart, father of Jason Smart in Year 7. Am I speaking to the school secretary?\n\n– Yes, that’s right. How can I help you?\n\n– My son was reading the school magazine when he noticed that the Art Club is going to Spain this year. I’m ringing to find out some more information about the trip.\n\n– Is Jason a member of the Art Club, Mr Smart?\n\n– Yes, he joined last week.\n\n– Good, he must be a member of the club before he can go on the trip. Now, the trip is in the half-term holiday of the Spring Term. There are only twenty places available so it’s best to book early.\n\n– How long is the trip and how will they get there?\n\n– It’s a five day trip and they’ll sail from Portsmouth to Santander in northern Spain. He’ll need a passport.\n\n– That’s OK. He got a new passport last year. Where will they stay and how much will it cost?\n\n– They’ll stay at a youth hostel in Bilbao and the cost is £250 per pupil.\n\n– Does that cover everything?\n\n– Yes, it covers travel, food, accommodation and entrance fees. You can pay a deposit of £50 now, but you must pay the full amount by the end of January.\n\n– Well, I’ll pop into the school office at four o’clock and pay the deposit. Thanks for your help.\n\n– You’re welcome."
+  },
+  {
+    "title": "A New House",
+    "question": "George isn’t looking forward … a new house.",
+    "choices": [
+      "moving",
+      "moving to",
+      "to move to",
+      "to moving to"
+    ],
+    "answer": 3,
+    "steps": [
+      "«Look forward to» требует существительного или формы с -ing.",
+      "После moving второй to вводит место назначения: «moving to a new house»."
+    ],
+    "context": "Choose the correct alternatives to complete the sentences"
+  },
+  {
+    "title": "Managing Everything",
+    "question": "How do you manage … so many things?",
+    "choices": [
+      "to do",
+      "done",
+      "did",
+      "to be done"
+    ],
+    "answer": 0,
+    "steps": [
+      "Конструкция «manage to do» значит «справиться, суметь сделать».",
+      "После manage нужен инфинитив с to."
+    ],
+    "context": "Choose the correct alternatives to complete the sentences"
+  },
+  {
+    "title": "Dishes in the Sink",
+    "question": "Mum says we must … the dirty dishes in the sink.",
+    "choices": [
+      "putting",
+      "be put",
+      "put",
+      "to put"
+    ],
+    "answer": 2,
+    "steps": [
+      "Must — модальный глагол.",
+      "После него употребляют базовую форму put без to."
+    ],
+    "context": "Choose the correct alternatives to complete the sentences"
+  },
+  {
+    "title": "Reacting to a Haircut",
+    "question": "I’m sorry, but I can’t help … at your haircut!",
+    "choices": [
+      "laughing",
+      "laughed",
+      "to laugh",
+      "will laugh"
+    ],
+    "answer": 0,
+    "steps": [
+      "«Can’t help laughing» значит «не могу удержаться от смеха».",
+      "После help тут стоит форма с -ing."
+    ],
+    "context": "Choose the correct alternatives to complete the sentences"
+  },
+  {
+    "title": "The Broken Window",
+    "question": "Don’t deny … the window. Tom saw you.",
+    "choices": [
+      "break",
+      "to break",
+      "having broken",
+      "have broken"
+    ],
+    "answer": 2,
+    "steps": [
+      "Deny сочетается с формой на -ing.",
+      "«Having broken» дополнительно указывает, что окно разбили раньше, чем это начали отрицать."
+    ],
+    "context": "Choose the correct alternatives to complete the sentences"
+  },
+  {
+    "title": "A House in the Country",
+    "question": "I would love … a house in the countryside.",
+    "choices": [
+      "to have",
+      "had have",
+      "had",
+      "have had"
+    ],
+    "answer": 0,
+    "steps": [
+      "«Would love to have» означает «очень хотелось бы иметь».",
+      "После would love ставим инфинитив с to."
+    ],
+    "context": "Choose the correct alternatives to complete the sentences"
+  },
+  {
+    "title": "An Offer of Help",
+    "question": "Has anyone offered … you?",
+    "choices": [
+      "helping",
+      "help",
+      "to help",
+      "helped"
+    ],
+    "answer": 2,
+    "steps": [
+      "«Offer to do something» означает предложить самому что-то сделать.",
+      "Подходит «offered to help you»."
+    ],
+    "context": "Choose the correct alternatives to complete the sentences"
+  },
+  {
+    "title": "A Used Car",
+    "question": "It’s not worth … so much for a used car.",
+    "choices": [
+      "pay",
+      "to pay",
+      "paying",
+      "to have paid"
+    ],
+    "answer": 2,
+    "steps": [
+      "«It’s not worth» сочетается с формой на -ing.",
+      "«Not worth paying so much» означает «не стоит платить столько»."
+    ],
+    "context": "Choose the correct alternatives to complete the sentences"
+  },
+  {
+    "title": "Two Jobs",
+    "question": "She has … money that she has to have two jobs.",
+    "choices": [
+      "so little",
+      "so few",
+      "such a little",
+      "such a few"
+    ],
+    "answer": 0,
+    "steps": [
+      "Money — неисчисляемое.",
+      "«So little money that …» означает «так мало денег, что …» и вводит последствие."
+    ],
+    "context": "Choose the correct alternatives to complete the sentences"
+  },
+  {
+    "title": "A Missed Call",
+    "question": "He can’t be blamed … to phone.",
+    "choices": [
+      "forget",
+      "to forget",
+      "of forgetting",
+      "for forgetting"
+    ],
+    "answer": 3,
+    "steps": [
+      "Конструкция «blame someone for doing something» сохраняет for и в пассиве.",
+      "Подходит «be blamed for forgetting»."
+    ],
+    "context": "Choose the correct alternatives to complete the sentences"
+  },
+  {
+    "title": "People in a Play",
+    "question": "The actors in a play, film, or television show.",
+    "choices": [
+      "Audience",
+      "Cast",
+      "Council",
+      "Team"
+    ],
+    "answer": 1,
+    "steps": [
+      "Cast — актёрский состав фильма, пьесы или передачи.",
+      "Audience — те, кто смотрит."
+    ],
+    "context": "Find the correct words for groups of people"
+  },
+  {
+    "title": "On a Ship or a Plane",
+    "question": "The group of people who operate a ship or an airplane.",
+    "choices": [
+      "Team",
+      "Group",
+      "Staff",
+      "Crew"
+    ],
+    "answer": 3,
+    "steps": [
+      "Команда, обеспечивающая работу судна или самолёта, — crew.",
+      "Пассажиры в неё не входят."
+    ],
+    "context": "Find the correct words for groups of people"
+  },
+  {
+    "title": "Watching a Performance",
+    "question": "The people who attend a performance.",
+    "choices": [
+      "Troupe",
+      "Gang",
+      "Group",
+      "Audience"
+    ],
+    "answer": 3,
+    "steps": [
+      "Отдели людей, которые смотрят выступление, от тех, кто выходит на сцену.",
+      "Audience — собравшаяся публика, которая смотрит или слушает выступление."
+    ],
+    "context": "Find the correct words for groups of people"
+  },
+  {
+    "title": "People at Work",
+    "question": "A group of people who work for an organisation or business.",
+    "choices": [
+      "Staff",
+      "Band",
+      "Cast",
+      "Gang"
+    ],
+    "answer": 0,
+    "steps": [
+      "В определении важен глагол work. Совет, публика и персонал обозначают разные группы.",
+      "Staff — персонал учреждения или компании, люди, которые там работают."
+    ],
+    "context": "Find the correct words for groups of people"
+  },
+  {
+    "title": "Stage Performers",
+    "question": "A group of theatrical performers.",
+    "choices": [
+      "Council",
+      "Team",
+      "Onlookers",
+      "Troupe"
+    ],
+    "answer": 3,
+    "steps": [
+      "Theatrical performers — выступающие артисты. Нужно слово о коллективе, к которому они относятся.",
+      "Troupe — труппа, группа артистов, вместе выступающих на сцене."
+    ],
+    "context": "Find the correct words for groups of people"
+  },
+  {
+    "title": "Playing Music Together",
+    "question": "A group of instrumentalists playing music.",
+    "choices": [
+      "Staff",
+      "Team",
+      "Cast",
+      "Band"
+    ],
+    "answer": 3,
+    "steps": [
+      "Instrumentalists играют на музыкальных инструментах. Ищи слово для их коллектива.",
+      "Band — музыкальный коллектив, особенно группа музыкантов, играющих на инструментах."
+    ],
+    "context": "Find the correct words for groups of people"
+  },
+  {
+    "title": "Studying Together",
+    "question": "A group of students who meet to be taught a subject.",
+    "choices": [
+      "Crew",
+      "Classroom",
+      "Class",
+      "Staff"
+    ],
+    "answer": 2,
+    "steps": [
+      "Class — группа учеников, которые посещают уроки вместе.",
+      "Classroom — помещение, в котором проходят уроки."
+    ],
+    "context": "Find the correct words for groups of people"
+  },
+  {
+    "title": "Soldiers Together",
+    "question": "A group of soldiers.",
+    "choices": [
+      "Class",
+      "Troop",
+      "Troupe",
+      "Team"
+    ],
+    "answer": 1,
+    "steps": [
+      "Troop — отряд солдат.",
+      "Troupe с другим написанием — труппа артистов."
+    ],
+    "context": "Find the correct words for groups of people"
+  },
+  {
+    "title": "Making Rules",
+    "question": "A group of people who are to make rules and laws.",
+    "choices": [
+      "Spectators",
+      "Onlookers",
+      "Council",
+      "Band"
+    ],
+    "answer": 2,
+    "steps": [
+      "Council — совет.",
+      "Группа людей в совете обсуждает и принимает решения или правила."
+    ],
+    "context": "Find the correct words for groups of people"
+  },
+  {
+    "title": "Criminals Together",
+    "question": "A group of criminals.",
+    "choices": [
+      "Gang",
+      "Class",
+      "Onlookers",
+      "Crew"
+    ],
+    "answer": 0,
+    "steps": [
+      "Gang в контексте преступности значит «банда».",
+      "Это группа людей, действующих сообща."
+    ],
+    "context": "Find the correct words for groups of people"
+  },
+  {
+    "title": "Castles in the Air",
+    "question": "He likes to build castles in the air.",
+    "choices": [
+      "Hardworking",
+      "Adventurous",
+      "Bold",
+      "Unrealistic"
+    ],
+    "answer": 3,
+    "steps": [
+      "«Build castles in the air» значит строить воздушные замки, строить планы без опоры на реальность.",
+      "Подходит unrealistic."
+    ],
+    "context": "What do these expressions mean?"
+  },
+  {
+    "title": "Crying for the Moon",
+    "question": "She is always crying for the Moon.",
+    "choices": [
+      "Dreamy",
+      "Crybaby",
+      "Impractical",
+      "Smart"
+    ],
+    "answer": 2,
+    "steps": [
+      "«Cry for the moon» значит требовать недостижимого.",
+      "Такое желание непрактично, impractical."
+    ],
+    "context": "What do these expressions mean?"
+  },
+  {
+    "title": "Dirty Linen in Public",
+    "question": "I don’t like that she washes her dirty linen in public.",
+    "choices": [
+      "Too talkative",
+      "Moody",
+      "An introvert",
+      "Hard working"
+    ],
+    "answer": 0,
+    "steps": [
+      "«Wash one’s dirty linen in public» означает обсуждать личные неприятности при посторонних.",
+      "Из вариантов ближе всего too talkative."
+    ],
+    "context": "What do these expressions mean?"
+  },
+  {
+    "title": "Calling It by Its Name",
+    "question": "He always calls a spade a spade.",
+    "choices": [
+      "A trickster",
+      "Industrious",
+      "Trustworthy",
+      "Truthful"
+    ],
+    "answer": 3,
+    "steps": [
+      "«Call a spade a spade» значит говорить прямо и называть вещи своими именами.",
+      "Подходит truthful."
+    ],
+    "context": "What do these expressions mean?"
+  },
+  {
+    "title": "Keeping One’s Head",
+    "question": "He never loses his head.",
+    "choices": [
+      "Brave",
+      "Accurate",
+      "Tolerant",
+      "Calm"
+    ],
+    "answer": 3,
+    "steps": [
+      "«Lose one’s head» — потерять самообладание.",
+      "Раз он этого никогда не делает, он спокоен, calm."
+    ],
+    "context": "What do these expressions mean?"
+  },
+  {
+    "title": "Dropping Bricks",
+    "question": "He often drops bricks in a company.",
+    "choices": [
+      "Tactless",
+      "Good mannered",
+      "Tactful",
+      "Well-behaved"
+    ],
+    "answer": 0,
+    "steps": [
+      "«Drop a brick» в британском английском значит допустить неловкую бестактность.",
+      "Tactless описывает такого человека."
+    ],
+    "context": "What do these expressions mean?"
+  },
+  {
+    "title": "A Cocky Person",
+    "question": "I think he is a cocky person.",
+    "choices": [
+      "Modest",
+      "Timid",
+      "Boastful",
+      "Shy"
+    ],
+    "answer": 2,
+    "steps": [
+      "Cocky — самоуверенный и склонный этим выставлять себя напоказ.",
+      "Подходит boastful, «хвастливый»."
+    ],
+    "context": "What do these expressions mean?"
+  },
+  {
+    "title": "On Cloud Nine",
+    "question": "He was on cloud nine after the exams.",
+    "choices": [
+      "Sad",
+      "Happy",
+      "Indifferent",
+      "Gloomy"
+    ],
+    "answer": 1,
+    "steps": [
+      "«On cloud nine» значит быть очень счастливым.",
+      "Русское «на седьмом небе» передаёт тот же смысл."
+    ],
+    "context": "What do these expressions mean?"
+  },
+  {
+    "title": "Below the Belt",
+    "question": "I don’t like that he often hits people below the belt. He does something … .",
+    "choices": [
+      "good",
+      "pleasant",
+      "unfair",
+      "unbelievable"
+    ],
+    "answer": 2,
+    "steps": [
+      "Удар ниже пояса запрещён в боксе.",
+      "В переносном смысле так называют несправедливый или нечестный поступок."
+    ],
+    "context": "What do these expressions mean?"
+  },
+  {
+    "title": "The White Feather",
+    "question": "When in trouble, he showed the white feather.",
+    "choices": [
+      "A liar",
+      "A handsome man",
+      "A coward",
+      "A brave heart"
+    ],
+    "answer": 2,
+    "steps": [
+      "«Show the white feather» — проявить трусость в затруднительной ситуации.",
+      "Coward — трус."
+    ],
+    "context": "What do these expressions mean?"
+  },
+  {
+    "title": "Closer to School",
+    "question": "Mum is sick of driving us to school and wants to live closer to it.",
+    "choices": [
+      "Flat 3, Bleak House",
+      "27 Milton Road",
+      "Riverside Cottage",
+      "Fern Villa"
+    ],
+    "answer": 3,
+    "steps": [
+      "В объявлении Fern Villa сказано «close to shops and schools».",
+      "Переезд туда сократит дорогу в школу."
+    ],
+    "context": "Read the posters and help to choose the right property.",
+    "optionFigures": [
+      {
+        "src": "assets/british-bulldog/2017/9-11/variant-1/property-a.svg",
+        "alt": "Flat 3, Bleak House. Third floor (no lift), not suitable for pets, overlooking town square, garage at rear, 3 bedrooms, £150,000.",
+        "caption": "Flat 3, Bleak House. Third floor (no lift), not suitable for pets, overlooking town square, garage at rear, 3 bedrooms, £150,000.",
+        "width": 508,
+        "height": 512
+      },
+      {
+        "src": "assets/british-bulldog/2017/9-11/variant-1/property-b.svg",
+        "alt": "27 Milton Road. 2 bedrooms, terraced, on-street parking, close to shops, digital TV and Wi-Fi, £125,000.",
+        "caption": "27 Milton Road. 2 bedrooms, terraced, on-street parking, close to shops, digital TV and Wi-Fi, £125,000.",
+        "width": 508,
+        "height": 512
+      },
+      {
+        "src": "assets/british-bulldog/2017/9-11/variant-1/property-c.svg",
+        "alt": "Riverside Cottage. 2 bedrooms, detached, set in beautiful countryside, traditional log fires, large garden and field, suitable for horses, river fishing, £310,000.",
+        "caption": "Riverside Cottage. 2 bedrooms, detached, set in beautiful countryside, traditional log fires, large garden and field, suitable for horses, river fishing, £310,000.",
+        "width": 508,
+        "height": 516
+      },
+      {
+        "src": "assets/british-bulldog/2017/9-11/variant-1/property-d.svg",
+        "alt": "Fern Villa. Close to shops and schools, large garden, 3 bedrooms, new kitchen, garage, £215,000.",
+        "caption": "Fern Villa. Close to shops and schools, large garden, 3 bedrooms, new kitchen, garage, £215,000.",
+        "width": 508,
+        "height": 516
+      }
+    ]
+  },
+  {
+    "title": "Space for a Pony",
+    "question": "If we move to the country I can have my own pony.",
+    "choices": [
+      "Flat 3, Bleak House",
+      "27 Milton Road",
+      "Riverside Cottage",
+      "Fern Villa"
+    ],
+    "answer": 2,
+    "steps": [
+      "В описании Riverside Cottage есть «large garden & field» и «suitable for horses».",
+      "Пони можно держать именно там."
+    ],
+    "context": "Read the posters and help to choose the right property.",
+    "optionFigures": [
+      {
+        "src": "assets/british-bulldog/2017/9-11/variant-1/property-a.svg",
+        "alt": "Flat 3, Bleak House. Third floor (no lift), not suitable for pets, overlooking town square, garage at rear, 3 bedrooms, £150,000.",
+        "caption": "Flat 3, Bleak House. Third floor (no lift), not suitable for pets, overlooking town square, garage at rear, 3 bedrooms, £150,000.",
+        "width": 508,
+        "height": 512
+      },
+      {
+        "src": "assets/british-bulldog/2017/9-11/variant-1/property-b.svg",
+        "alt": "27 Milton Road. 2 bedrooms, terraced, on-street parking, close to shops, digital TV and Wi-Fi, £125,000.",
+        "caption": "27 Milton Road. 2 bedrooms, terraced, on-street parking, close to shops, digital TV and Wi-Fi, £125,000.",
+        "width": 508,
+        "height": 512
+      },
+      {
+        "src": "assets/british-bulldog/2017/9-11/variant-1/property-c.svg",
+        "alt": "Riverside Cottage. 2 bedrooms, detached, set in beautiful countryside, traditional log fires, large garden and field, suitable for horses, river fishing, £310,000.",
+        "caption": "Riverside Cottage. 2 bedrooms, detached, set in beautiful countryside, traditional log fires, large garden and field, suitable for horses, river fishing, £310,000.",
+        "width": 508,
+        "height": 516
+      },
+      {
+        "src": "assets/british-bulldog/2017/9-11/variant-1/property-d.svg",
+        "alt": "Fern Villa. Close to shops and schools, large garden, 3 bedrooms, new kitchen, garage, £215,000.",
+        "caption": "Fern Villa. Close to shops and schools, large garden, 3 bedrooms, new kitchen, garage, £215,000.",
+        "width": 508,
+        "height": 516
+      }
+    ]
+  },
+  {
+    "title": "Near the Town Square",
+    "question": "Dad needs to be close to his office which is not far from the town square.",
+    "choices": [
+      "Flat 3, Bleak House",
+      "27 Milton Road",
+      "Riverside Cottage",
+      "Fern Villa"
+    ],
+    "answer": 0,
+    "steps": [
+      "Flat 3, Bleak House выходит на городскую площадь: «overlooking town square».",
+      "Папин офис расположен рядом с ней."
+    ],
+    "context": "Read the posters and help to choose the right property.",
+    "optionFigures": [
+      {
+        "src": "assets/british-bulldog/2017/9-11/variant-1/property-a.svg",
+        "alt": "Flat 3, Bleak House. Third floor (no lift), not suitable for pets, overlooking town square, garage at rear, 3 bedrooms, £150,000.",
+        "caption": "Flat 3, Bleak House. Third floor (no lift), not suitable for pets, overlooking town square, garage at rear, 3 bedrooms, £150,000.",
+        "width": 508,
+        "height": 512
+      },
+      {
+        "src": "assets/british-bulldog/2017/9-11/variant-1/property-b.svg",
+        "alt": "27 Milton Road. 2 bedrooms, terraced, on-street parking, close to shops, digital TV and Wi-Fi, £125,000.",
+        "caption": "27 Milton Road. 2 bedrooms, terraced, on-street parking, close to shops, digital TV and Wi-Fi, £125,000.",
+        "width": 508,
+        "height": 512
+      },
+      {
+        "src": "assets/british-bulldog/2017/9-11/variant-1/property-c.svg",
+        "alt": "Riverside Cottage. 2 bedrooms, detached, set in beautiful countryside, traditional log fires, large garden and field, suitable for horses, river fishing, £310,000.",
+        "caption": "Riverside Cottage. 2 bedrooms, detached, set in beautiful countryside, traditional log fires, large garden and field, suitable for horses, river fishing, £310,000.",
+        "width": 508,
+        "height": 516
+      },
+      {
+        "src": "assets/british-bulldog/2017/9-11/variant-1/property-d.svg",
+        "alt": "Fern Villa. Close to shops and schools, large garden, 3 bedrooms, new kitchen, garage, £215,000.",
+        "caption": "Fern Villa. Close to shops and schools, large garden, 3 bedrooms, new kitchen, garage, £215,000.",
+        "width": 508,
+        "height": 516
+      }
+    ]
+  },
+  {
+    "title": "Modern Conveniences",
+    "question": "The price is quite reasonable and the house has modern conveniences.",
+    "choices": [
+      "Flat 3, Bleak House",
+      "27 Milton Road",
+      "Riverside Cottage",
+      "Fern Villa"
+    ],
+    "answer": 1,
+    "steps": [
+      "В объявлении нужно найти сразу два признака: подходящую цену и современные удобства.",
+      "В объявлении 27 Milton Road названы цифровое телевидение и Wi‑Fi, а его цена 125 000 фунтов — самая низкая из четырёх."
+    ],
+    "context": "Read the posters and help to choose the right property.",
+    "optionFigures": [
+      {
+        "src": "assets/british-bulldog/2017/9-11/variant-1/property-a.svg",
+        "alt": "Flat 3, Bleak House. Third floor (no lift), not suitable for pets, overlooking town square, garage at rear, 3 bedrooms, £150,000.",
+        "caption": "Flat 3, Bleak House. Third floor (no lift), not suitable for pets, overlooking town square, garage at rear, 3 bedrooms, £150,000.",
+        "width": 508,
+        "height": 512
+      },
+      {
+        "src": "assets/british-bulldog/2017/9-11/variant-1/property-b.svg",
+        "alt": "27 Milton Road. 2 bedrooms, terraced, on-street parking, close to shops, digital TV and Wi-Fi, £125,000.",
+        "caption": "27 Milton Road. 2 bedrooms, terraced, on-street parking, close to shops, digital TV and Wi-Fi, £125,000.",
+        "width": 508,
+        "height": 512
+      },
+      {
+        "src": "assets/british-bulldog/2017/9-11/variant-1/property-c.svg",
+        "alt": "Riverside Cottage. 2 bedrooms, detached, set in beautiful countryside, traditional log fires, large garden and field, suitable for horses, river fishing, £310,000.",
+        "caption": "Riverside Cottage. 2 bedrooms, detached, set in beautiful countryside, traditional log fires, large garden and field, suitable for horses, river fishing, £310,000.",
+        "width": 508,
+        "height": 516
+      },
+      {
+        "src": "assets/british-bulldog/2017/9-11/variant-1/property-d.svg",
+        "alt": "Fern Villa. Close to shops and schools, large garden, 3 bedrooms, new kitchen, garage, £215,000.",
+        "caption": "Fern Villa. Close to shops and schools, large garden, 3 bedrooms, new kitchen, garage, £215,000.",
+        "width": 508,
+        "height": 516
+      }
+    ]
+  },
+  {
+    "title": "A Dream of Country Living",
+    "question": "It’s expensive but it has been our dream to live in the country.",
+    "choices": [
+      "Flat 3, Bleak House",
+      "27 Milton Road",
+      "Riverside Cottage",
+      "Fern Villa"
+    ],
+    "answer": 2,
+    "steps": [
+      "Riverside Cottage — отдельный дом «set in beautiful countryside».",
+      "Это и самый дорогой вариант, за 310 000 фунтов."
+    ],
+    "context": "Read the posters and help to choose the right property.",
+    "optionFigures": [
+      {
+        "src": "assets/british-bulldog/2017/9-11/variant-1/property-a.svg",
+        "alt": "Flat 3, Bleak House. Third floor (no lift), not suitable for pets, overlooking town square, garage at rear, 3 bedrooms, £150,000.",
+        "caption": "Flat 3, Bleak House. Third floor (no lift), not suitable for pets, overlooking town square, garage at rear, 3 bedrooms, £150,000.",
+        "width": 508,
+        "height": 512
+      },
+      {
+        "src": "assets/british-bulldog/2017/9-11/variant-1/property-b.svg",
+        "alt": "27 Milton Road. 2 bedrooms, terraced, on-street parking, close to shops, digital TV and Wi-Fi, £125,000.",
+        "caption": "27 Milton Road. 2 bedrooms, terraced, on-street parking, close to shops, digital TV and Wi-Fi, £125,000.",
+        "width": 508,
+        "height": 512
+      },
+      {
+        "src": "assets/british-bulldog/2017/9-11/variant-1/property-c.svg",
+        "alt": "Riverside Cottage. 2 bedrooms, detached, set in beautiful countryside, traditional log fires, large garden and field, suitable for horses, river fishing, £310,000.",
+        "caption": "Riverside Cottage. 2 bedrooms, detached, set in beautiful countryside, traditional log fires, large garden and field, suitable for horses, river fishing, £310,000.",
+        "width": 508,
+        "height": 516
+      },
+      {
+        "src": "assets/british-bulldog/2017/9-11/variant-1/property-d.svg",
+        "alt": "Fern Villa. Close to shops and schools, large garden, 3 bedrooms, new kitchen, garage, £215,000.",
+        "caption": "Fern Villa. Close to shops and schools, large garden, 3 bedrooms, new kitchen, garage, £215,000.",
+        "width": 508,
+        "height": 516
+      }
+    ]
+  },
+  {
+    "title": "Wood and Vegetables",
+    "question": "If we buy it, Dad can chop wood for the fire and Mum can grow vegetables.",
+    "choices": [
+      "Flat 3, Bleak House",
+      "27 Milton Road",
+      "Riverside Cottage",
+      "Fern Villa"
+    ],
+    "answer": 2,
+    "steps": [
+      "Riverside Cottage предлагает «traditional log fires» и большой сад.",
+      "Значит, можно топить дровами и выращивать овощи."
+    ],
+    "context": "Read the posters and help to choose the right property.",
+    "optionFigures": [
+      {
+        "src": "assets/british-bulldog/2017/9-11/variant-1/property-a.svg",
+        "alt": "Flat 3, Bleak House. Third floor (no lift), not suitable for pets, overlooking town square, garage at rear, 3 bedrooms, £150,000.",
+        "caption": "Flat 3, Bleak House. Third floor (no lift), not suitable for pets, overlooking town square, garage at rear, 3 bedrooms, £150,000.",
+        "width": 508,
+        "height": 512
+      },
+      {
+        "src": "assets/british-bulldog/2017/9-11/variant-1/property-b.svg",
+        "alt": "27 Milton Road. 2 bedrooms, terraced, on-street parking, close to shops, digital TV and Wi-Fi, £125,000.",
+        "caption": "27 Milton Road. 2 bedrooms, terraced, on-street parking, close to shops, digital TV and Wi-Fi, £125,000.",
+        "width": 508,
+        "height": 512
+      },
+      {
+        "src": "assets/british-bulldog/2017/9-11/variant-1/property-c.svg",
+        "alt": "Riverside Cottage. 2 bedrooms, detached, set in beautiful countryside, traditional log fires, large garden and field, suitable for horses, river fishing, £310,000.",
+        "caption": "Riverside Cottage. 2 bedrooms, detached, set in beautiful countryside, traditional log fires, large garden and field, suitable for horses, river fishing, £310,000.",
+        "width": 508,
+        "height": 516
+      },
+      {
+        "src": "assets/british-bulldog/2017/9-11/variant-1/property-d.svg",
+        "alt": "Fern Villa. Close to shops and schools, large garden, 3 bedrooms, new kitchen, garage, £215,000.",
+        "caption": "Fern Villa. Close to shops and schools, large garden, 3 bedrooms, new kitchen, garage, £215,000.",
+        "width": 508,
+        "height": 516
+      }
+    ]
+  },
+  {
+    "title": "A Garden and Garage",
+    "question": "Best of all my parents like that there is a garden and a garage.",
+    "choices": [
+      "Flat 3, Bleak House",
+      "27 Milton Road",
+      "Riverside Cottage",
+      "Fern Villa"
+    ],
+    "answer": 3,
+    "steps": [
+      "В объявлении Fern Villa одновременно указаны «large garden» и «garage».",
+      "У других вариантов эти два признака не совпадают."
+    ],
+    "context": "Read the posters and help to choose the right property.",
+    "optionFigures": [
+      {
+        "src": "assets/british-bulldog/2017/9-11/variant-1/property-a.svg",
+        "alt": "Flat 3, Bleak House. Third floor (no lift), not suitable for pets, overlooking town square, garage at rear, 3 bedrooms, £150,000.",
+        "caption": "Flat 3, Bleak House. Third floor (no lift), not suitable for pets, overlooking town square, garage at rear, 3 bedrooms, £150,000.",
+        "width": 508,
+        "height": 512
+      },
+      {
+        "src": "assets/british-bulldog/2017/9-11/variant-1/property-b.svg",
+        "alt": "27 Milton Road. 2 bedrooms, terraced, on-street parking, close to shops, digital TV and Wi-Fi, £125,000.",
+        "caption": "27 Milton Road. 2 bedrooms, terraced, on-street parking, close to shops, digital TV and Wi-Fi, £125,000.",
+        "width": 508,
+        "height": 512
+      },
+      {
+        "src": "assets/british-bulldog/2017/9-11/variant-1/property-c.svg",
+        "alt": "Riverside Cottage. 2 bedrooms, detached, set in beautiful countryside, traditional log fires, large garden and field, suitable for horses, river fishing, £310,000.",
+        "caption": "Riverside Cottage. 2 bedrooms, detached, set in beautiful countryside, traditional log fires, large garden and field, suitable for horses, river fishing, £310,000.",
+        "width": 508,
+        "height": 516
+      },
+      {
+        "src": "assets/british-bulldog/2017/9-11/variant-1/property-d.svg",
+        "alt": "Fern Villa. Close to shops and schools, large garden, 3 bedrooms, new kitchen, garage, £215,000.",
+        "caption": "Fern Villa. Close to shops and schools, large garden, 3 bedrooms, new kitchen, garage, £215,000.",
+        "width": 508,
+        "height": 516
+      }
+    ]
+  },
+  {
+    "title": "Bedrooms and Budget",
+    "question": "We need three bedrooms and our top price is £200,000.",
+    "choices": [
+      "Flat 3, Bleak House",
+      "27 Milton Road",
+      "Riverside Cottage",
+      "Fern Villa"
+    ],
+    "answer": 0,
+    "steps": [
+      "Flat 3, Bleak House стоит 150 000 фунтов и имеет три спальни.",
+      "У Fern Villa тоже три спальни, но цена выше 200 000."
+    ],
+    "context": "Read the posters and help to choose the right property.",
+    "optionFigures": [
+      {
+        "src": "assets/british-bulldog/2017/9-11/variant-1/property-a.svg",
+        "alt": "Flat 3, Bleak House. Third floor (no lift), not suitable for pets, overlooking town square, garage at rear, 3 bedrooms, £150,000.",
+        "caption": "Flat 3, Bleak House. Third floor (no lift), not suitable for pets, overlooking town square, garage at rear, 3 bedrooms, £150,000.",
+        "width": 508,
+        "height": 512
+      },
+      {
+        "src": "assets/british-bulldog/2017/9-11/variant-1/property-b.svg",
+        "alt": "27 Milton Road. 2 bedrooms, terraced, on-street parking, close to shops, digital TV and Wi-Fi, £125,000.",
+        "caption": "27 Milton Road. 2 bedrooms, terraced, on-street parking, close to shops, digital TV and Wi-Fi, £125,000.",
+        "width": 508,
+        "height": 512
+      },
+      {
+        "src": "assets/british-bulldog/2017/9-11/variant-1/property-c.svg",
+        "alt": "Riverside Cottage. 2 bedrooms, detached, set in beautiful countryside, traditional log fires, large garden and field, suitable for horses, river fishing, £310,000.",
+        "caption": "Riverside Cottage. 2 bedrooms, detached, set in beautiful countryside, traditional log fires, large garden and field, suitable for horses, river fishing, £310,000.",
+        "width": 508,
+        "height": 516
+      },
+      {
+        "src": "assets/british-bulldog/2017/9-11/variant-1/property-d.svg",
+        "alt": "Fern Villa. Close to shops and schools, large garden, 3 bedrooms, new kitchen, garage, £215,000.",
+        "caption": "Fern Villa. Close to shops and schools, large garden, 3 bedrooms, new kitchen, garage, £215,000.",
+        "width": 508,
+        "height": 516
+      }
+    ]
+  },
+  {
+    "title": "A Place to Fish",
+    "question": "My father is fond of fishing and is looking for a house near the river.",
+    "choices": [
+      "Flat 3, Bleak House",
+      "27 Milton Road",
+      "Riverside Cottage",
+      "Fern Villa"
+    ],
+    "answer": 2,
+    "steps": [
+      "В объявлении Riverside Cottage есть «river fishing».",
+      "Оно единственное прямо указывает на рыбалку у реки."
+    ],
+    "context": "Read the posters and help to choose the right property.",
+    "optionFigures": [
+      {
+        "src": "assets/british-bulldog/2017/9-11/variant-1/property-a.svg",
+        "alt": "Flat 3, Bleak House. Third floor (no lift), not suitable for pets, overlooking town square, garage at rear, 3 bedrooms, £150,000.",
+        "caption": "Flat 3, Bleak House. Third floor (no lift), not suitable for pets, overlooking town square, garage at rear, 3 bedrooms, £150,000.",
+        "width": 508,
+        "height": 512
+      },
+      {
+        "src": "assets/british-bulldog/2017/9-11/variant-1/property-b.svg",
+        "alt": "27 Milton Road. 2 bedrooms, terraced, on-street parking, close to shops, digital TV and Wi-Fi, £125,000.",
+        "caption": "27 Milton Road. 2 bedrooms, terraced, on-street parking, close to shops, digital TV and Wi-Fi, £125,000.",
+        "width": 508,
+        "height": 512
+      },
+      {
+        "src": "assets/british-bulldog/2017/9-11/variant-1/property-c.svg",
+        "alt": "Riverside Cottage. 2 bedrooms, detached, set in beautiful countryside, traditional log fires, large garden and field, suitable for horses, river fishing, £310,000.",
+        "caption": "Riverside Cottage. 2 bedrooms, detached, set in beautiful countryside, traditional log fires, large garden and field, suitable for horses, river fishing, £310,000.",
+        "width": 508,
+        "height": 516
+      },
+      {
+        "src": "assets/british-bulldog/2017/9-11/variant-1/property-d.svg",
+        "alt": "Fern Villa. Close to shops and schools, large garden, 3 bedrooms, new kitchen, garage, £215,000.",
+        "caption": "Fern Villa. Close to shops and schools, large garden, 3 bedrooms, new kitchen, garage, £215,000.",
+        "width": 508,
+        "height": 516
+      }
+    ]
+  },
+  {
+    "title": "A Flat in Town",
+    "question": "I like this flat because I prefer living in the centre of the city and having guests.",
+    "choices": [
+      "Flat 3, Bleak House",
+      "27 Milton Road",
+      "Riverside Cottage",
+      "Fern Villa"
+    ],
+    "answer": 0,
+    "steps": [
+      "Flat 3, Bleak House находится у городской площади.",
+      "Это квартира в центре, в которой есть три спальни."
+    ],
+    "context": "Read the posters and help to choose the right property.",
+    "optionFigures": [
+      {
+        "src": "assets/british-bulldog/2017/9-11/variant-1/property-a.svg",
+        "alt": "Flat 3, Bleak House. Third floor (no lift), not suitable for pets, overlooking town square, garage at rear, 3 bedrooms, £150,000.",
+        "caption": "Flat 3, Bleak House. Third floor (no lift), not suitable for pets, overlooking town square, garage at rear, 3 bedrooms, £150,000.",
+        "width": 508,
+        "height": 512
+      },
+      {
+        "src": "assets/british-bulldog/2017/9-11/variant-1/property-b.svg",
+        "alt": "27 Milton Road. 2 bedrooms, terraced, on-street parking, close to shops, digital TV and Wi-Fi, £125,000.",
+        "caption": "27 Milton Road. 2 bedrooms, terraced, on-street parking, close to shops, digital TV and Wi-Fi, £125,000.",
+        "width": 508,
+        "height": 512
+      },
+      {
+        "src": "assets/british-bulldog/2017/9-11/variant-1/property-c.svg",
+        "alt": "Riverside Cottage. 2 bedrooms, detached, set in beautiful countryside, traditional log fires, large garden and field, suitable for horses, river fishing, £310,000.",
+        "caption": "Riverside Cottage. 2 bedrooms, detached, set in beautiful countryside, traditional log fires, large garden and field, suitable for horses, river fishing, £310,000.",
+        "width": 508,
+        "height": 516
+      },
+      {
+        "src": "assets/british-bulldog/2017/9-11/variant-1/property-d.svg",
+        "alt": "Fern Villa. Close to shops and schools, large garden, 3 bedrooms, new kitchen, garage, £215,000.",
+        "caption": "Fern Villa. Close to shops and schools, large garden, 3 bedrooms, new kitchen, garage, £215,000.",
+        "width": 508,
+        "height": 516
+      }
+    ]
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "flowers-and-creature": {
+    "sourceFile": "9-11/variant-780/tasks.pdf",
+    "page": 1,
+    "cropPoints": [
+      174.8,
+      46.6,
+      277,
+      169.7
+    ],
+    "src": "assets/british-bulldog/2012/9-11/flowers-and-creature.webp",
+    "alt": "Flower and sea creature illustrations",
+    "width": 307,
+    "height": 371,
+    "omitText": [
+      [
+        174.8,
+        50.73,
+        177.8,
+        60.73
+      ],
+      [
+        174.8,
+        160.4,
+        206.2,
+        169.7
+      ]
+    ]
+  },
+  "tower-route": {
+    "sourceFile": "9-11/variant-780/tasks.pdf",
+    "page": 1,
+    "cropPoints": [
+      317.35,
+      84.9,
+      554.85,
+      264.3
+    ],
+    "src": "assets/british-bulldog/2012/9-11/tower-route.webp",
+    "alt": "Map of the Tower of London with route and compass",
+    "width": 713,
+    "height": 539
+  }
+}

@@ -1,0 +1,84 @@
+[
+  {
+    "subject": "kit",
+    "year": 2015,
+    "grade": "1",
+    "contest": "КИТ",
+    "letters": "АБВГ",
+    "count": 18,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "1.pdf",
+    "answersFile": "answers.pdf",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Задания на 3 балла"
+      },
+      {
+        "start": 11,
+        "title": "Задания на 4 балла"
+      },
+      {
+        "start": 16,
+        "title": "Задания на 5 баллов"
+      }
+    ]
+  },
+  {
+    "subject": "kit",
+    "year": 2015,
+    "grade": "2-3",
+    "contest": "КИТ",
+    "letters": "АБВГ",
+    "count": 20,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "2-3.pdf",
+    "answersFile": "answers.pdf",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Задания на 3 балла"
+      },
+      {
+        "start": 11,
+        "title": "Задания на 4 балла"
+      },
+      {
+        "start": 16,
+        "title": "Задания на 5 баллов"
+      }
+    ]
+  },
+  {
+    "subject": "kit",
+    "year": 2015,
+    "grade": "10-11",
+    "contest": "КИТ",
+    "letters": "АБВГ",
+    "count": 26,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "10-11.pdf",
+    "answersFile": "answers.pdf",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Задания на 3 балла"
+      },
+      {
+        "start": 11,
+        "title": "Задания на 4 балла"
+      },
+      {
+        "start": 21,
+        "title": "Задания на 5 баллов"
+      },
+      {
+        "start": 24,
+        "title": "Числовой ответ"
+      }
+    ]
+  }
+]

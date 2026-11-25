@@ -1,0 +1,1572 @@
+[
+  {
+    "title": "Where Is Tony?",
+    "question": "Where is Tony?",
+    "choices": [
+      "At home",
+      "At the swimming pool",
+      "At the shops",
+      "At the sports ground"
+    ],
+    "answer": 3,
+    "steps": [
+      "Слушай, где Тони находится в начале разговора.",
+      "«At the sports ground» — на спортивной площадке."
+    ],
+    "context": "Listen to the recording and answer the questions",
+    "audio": true
+  },
+  {
+    "title": "What Tony Is Doing",
+    "question": "What is Tony doing now?",
+    "choices": [
+      "Swimming",
+      "Playing football",
+      "Shopping",
+      "Talking on the phone"
+    ],
+    "answer": 1,
+    "steps": [
+      "В ответе говорится, чем Тони занят сейчас.",
+      "«Playing football» — играет в футбол."
+    ],
+    "context": "Listen to the recording and answer the questions",
+    "audio": true
+  },
+  {
+    "title": "His Usual Football Day",
+    "question": "On what day of the week does he usually play football?",
+    "choices": [
+      "Sunday",
+      "Saturday",
+      "Friday",
+      "Thursday"
+    ],
+    "answer": 1,
+    "steps": [
+      "Usually относится к привычному дню игры.",
+      "В разговоре это суббота, Saturday."
+    ],
+    "context": "Listen to the recording and answer the questions",
+    "audio": true
+  },
+  {
+    "title": "Where Is His Mother?",
+    "question": "Where is Tony’s mother?",
+    "choices": [
+      "At home",
+      "At the swimming pool",
+      "At the shops",
+      "In the park"
+    ],
+    "answer": 2,
+    "steps": [
+      "Вопрос о месте, куда ушла мама Тони.",
+      "«At the shops» — в магазинах, за покупками."
+    ],
+    "context": "Listen to the recording and answer the questions",
+    "audio": true
+  },
+  {
+    "title": "A Shopping Companion",
+    "question": "Who did Tony’s mother go to the shop with?",
+    "choices": [
+      "Tony",
+      "Her daughter",
+      "Her friends",
+      "Her husband"
+    ],
+    "answer": 2,
+    "steps": [
+      "После with ищи, с кем она пошла за покупками.",
+      "«Her friends» указывает на её друзей."
+    ],
+    "context": "Listen to the recording and answer the questions",
+    "audio": true
+  },
+  {
+    "title": "How Often They Shop",
+    "question": "How often do they usually do the shopping?",
+    "choices": [
+      "Twice a week",
+      "Once a week",
+      "Every day",
+      "At weekends"
+    ],
+    "answer": 1,
+    "steps": [
+      "Вопрос о частоте, а не о дне недели.",
+      "«Once a week» — один раз в неделю."
+    ],
+    "context": "Listen to the recording and answer the questions",
+    "audio": true
+  },
+  {
+    "title": "What Mary Is Doing",
+    "question": "What is Mary doing at the moment?",
+    "choices": [
+      "Doing shopping",
+      "Chatting with friends",
+      "Swimming",
+      "Lying on the beach"
+    ],
+    "answer": 2,
+    "steps": [
+      "At the moment указывает на действие сейчас.",
+      "Мэри плавает, swimming."
+    ],
+    "context": "Listen to the recording and answer the questions",
+    "audio": true
+  },
+  {
+    "title": "How the Caller Feels",
+    "question": "How does the woman who is calling Tony feel?",
+    "choices": [
+      "Happy",
+      "Pleased",
+      "Fine",
+      "Disappointed"
+    ],
+    "answer": 3,
+    "steps": [
+      "Женщина звонит и не может поговорить с теми, кого спрашивает.",
+      "Disappointed означает «разочарована»."
+    ],
+    "context": "Listen to the recording and answer the questions",
+    "audio": true
+  },
+  {
+    "title": "A Message for Tony",
+    "question": "What does the woman want Tony to do when he returns home?",
+    "choices": [
+      "To go to the shop",
+      "To swim in the pool",
+      "To call her back",
+      "To send her a message"
+    ],
+    "answer": 2,
+    "steps": [
+      "Она просит Тони сделать кое-что после возвращения домой.",
+      "«Call her back» — перезвонить ей."
+    ],
+    "context": "Listen to the recording and answer the questions",
+    "audio": true
+  },
+  {
+    "title": "The Order of the Names",
+    "question": "Who does the woman want to speak to? Select the option where the names are in the right order.",
+    "choices": [
+      "Tony, Mary, mother",
+      "Mary, Tony, mother",
+      "Tony, mother, Mary",
+      "Mother, Tony, Mary"
+    ],
+    "answer": 2,
+    "steps": [
+      "Прослушай три просьбы по очереди.",
+      "Женщина сначала спрашивает Тони, затем его маму, потом Мэри."
+    ],
+    "context": "Listen to the recording and answer the questions",
+    "audio": true
+  },
+  {
+    "title": "A Family in Britain",
+    "question": "Whose family lives in the UK?",
+    "choices": [
+      "Sylvia",
+      "Parents",
+      "Sylvia’s",
+      "Her parent"
+    ],
+    "answer": 2,
+    "steps": [
+      "В первом абзаце сказано, что Сильвия живёт в Англии с родителями, братом и сестрой.",
+      "Sylvia’s означает «семья Сильвии»."
+    ],
+    "context": "Read the text. For each question choose the correct answer\n\nSylvia Venner is a 12-year-old dancer. She’s from Australia but lives in Whitstable, England, with her parents, her older sister Gloria and younger brother Charlie. She dances in competitions. Her dream is to dance on stage in a London theatre. When Sylvia was four, her mother started dancing with her for fun. A year later, Sylvia joined a dance school in the town where she lives. She works hard at dancing. “I practise for two hours every day after school and for three hours every Saturday morning. My feet are still growing. It’s important to make sure you have the right size shoes when you dance in competitions so last month I went to London to buy some new ones.”"
+  },
+  {
+    "title": "The Oldest Child",
+    "question": "Which child is the oldest in their family?",
+    "choices": [
+      "Gloria",
+      "Charlie",
+      "Sylvia",
+      "Their mother"
+    ],
+    "answer": 0,
+    "steps": [
+      "Gloria названа older sister, старшей сестрой.",
+      "Charlie младше Сильвии, поэтому самый старший ребёнок — Глория."
+    ],
+    "context": "Read the text. For each question choose the correct answer\n\nSylvia Venner is a 12-year-old dancer. She’s from Australia but lives in Whitstable, England, with her parents, her older sister Gloria and younger brother Charlie. She dances in competitions. Her dream is to dance on stage in a London theatre. When Sylvia was four, her mother started dancing with her for fun. A year later, Sylvia joined a dance school in the town where she lives. She works hard at dancing. “I practise for two hours every day after school and for three hours every Saturday morning. My feet are still growing. It’s important to make sure you have the right size shoes when you dance in competitions so last month I went to London to buy some new ones.”"
+  },
+  {
+    "title": "Sylvia’s Dream",
+    "question": "What’s Sylvia’s greatest wish?",
+    "choices": [
+      "To go to Australia",
+      "To go to the theatre",
+      "To buy new shoes",
+      "To dance in a London theatre"
+    ],
+    "answer": 3,
+    "steps": [
+      "В тексте «Her dream is to dance on stage in a London theatre».",
+      "Она мечтает танцевать на сцене лондонского театра."
+    ],
+    "context": "Read the text. For each question choose the correct answer\n\nSylvia Venner is a 12-year-old dancer. She’s from Australia but lives in Whitstable, England, with her parents, her older sister Gloria and younger brother Charlie. She dances in competitions. Her dream is to dance on stage in a London theatre. When Sylvia was four, her mother started dancing with her for fun. A year later, Sylvia joined a dance school in the town where she lives. She works hard at dancing. “I practise for two hours every day after school and for three hours every Saturday morning. My feet are still growing. It’s important to make sure you have the right size shoes when you dance in competitions so last month I went to London to buy some new ones.”"
+  },
+  {
+    "title": "Starting to Dance",
+    "question": "How old was Sylvia when she started dancing?",
+    "choices": [
+      "Three",
+      "Four",
+      "Six",
+      "Seven"
+    ],
+    "answer": 1,
+    "steps": [
+      "Вопрос о самом начале занятий дома.",
+      "«When Sylvia was four, her mother started dancing with her»."
+    ],
+    "context": "Read the text. For each question choose the correct answer\n\nSylvia Venner is a 12-year-old dancer. She’s from Australia but lives in Whitstable, England, with her parents, her older sister Gloria and younger brother Charlie. She dances in competitions. Her dream is to dance on stage in a London theatre. When Sylvia was four, her mother started dancing with her for fun. A year later, Sylvia joined a dance school in the town where she lives. She works hard at dancing. “I practise for two hours every day after school and for three hours every Saturday morning. My feet are still growing. It’s important to make sure you have the right size shoes when you dance in competitions so last month I went to London to buy some new ones.”"
+  },
+  {
+    "title": "Dance School",
+    "question": "How old was Sylvia when she began to study at a dance school?",
+    "choices": [
+      "Four",
+      "Five",
+      "Six",
+      "Seven"
+    ],
+    "answer": 1,
+    "steps": [
+      "Школа упоминается после «A year later».",
+      "Она начала танцевать в четыре года, а через год ей было пять."
+    ],
+    "context": "Read the text. For each question choose the correct answer\n\nSylvia Venner is a 12-year-old dancer. She’s from Australia but lives in Whitstable, England, with her parents, her older sister Gloria and younger brother Charlie. She dances in competitions. Her dream is to dance on stage in a London theatre. When Sylvia was four, her mother started dancing with her for fun. A year later, Sylvia joined a dance school in the town where she lives. She works hard at dancing. “I practise for two hours every day after school and for three hours every Saturday morning. My feet are still growing. It’s important to make sure you have the right size shoes when you dance in competitions so last month I went to London to buy some new ones.”"
+  },
+  {
+    "title": "Morning Practice",
+    "question": "On what days does Sylvia study dancing in the morning?",
+    "choices": [
+      "At weekends",
+      "On Saturdays",
+      "On Sundays",
+      "On all week days"
+    ],
+    "answer": 1,
+    "steps": [
+      "После школы она занимается каждый день, а по утрам по три часа — в субботу.",
+      "Ищи «every Saturday morning»."
+    ],
+    "context": "Read the text. For each question choose the correct answer\n\nSylvia Venner is a 12-year-old dancer. She’s from Australia but lives in Whitstable, England, with her parents, her older sister Gloria and younger brother Charlie. She dances in competitions. Her dream is to dance on stage in a London theatre. When Sylvia was four, her mother started dancing with her for fun. A year later, Sylvia joined a dance school in the town where she lives. She works hard at dancing. “I practise for two hours every day after school and for three hours every Saturday morning. My feet are still growing. It’s important to make sure you have the right size shoes when you dance in competitions so last month I went to London to buy some new ones.”"
+  },
+  {
+    "title": "Sylvia’s Growing Feet",
+    "question": "What is Sylvia’s problem?",
+    "choices": [
+      "She is tired",
+      "Her feet are growing",
+      "She feels bad",
+      "She often falls down"
+    ],
+    "answer": 1,
+    "steps": [
+      "Она говорит «My feet are still growing».",
+      "Поэтому ей нужно проверять, подходят ли туфли."
+    ],
+    "context": "Read the text. For each question choose the correct answer\n\nSylvia Venner is a 12-year-old dancer. She’s from Australia but lives in Whitstable, England, with her parents, her older sister Gloria and younger brother Charlie. She dances in competitions. Her dream is to dance on stage in a London theatre. When Sylvia was four, her mother started dancing with her for fun. A year later, Sylvia joined a dance school in the town where she lives. She works hard at dancing. “I practise for two hours every day after school and for three hours every Saturday morning. My feet are still growing. It’s important to make sure you have the right size shoes when you dance in competitions so last month I went to London to buy some new ones.”"
+  },
+  {
+    "title": "Competing in Dance",
+    "question": "In Sylvia’s opinion, what is important when dancing in competitions?",
+    "choices": [
+      "To be tall",
+      "To have nice shoes",
+      "To be thin",
+      "To have the right size shoes"
+    ],
+    "answer": 3,
+    "steps": [
+      "Ищи слова «it’s important».",
+      "Сильвия подчёркивает, что для конкурса нужна обувь подходящего размера."
+    ],
+    "context": "Read the text. For each question choose the correct answer\n\nSylvia Venner is a 12-year-old dancer. She’s from Australia but lives in Whitstable, England, with her parents, her older sister Gloria and younger brother Charlie. She dances in competitions. Her dream is to dance on stage in a London theatre. When Sylvia was four, her mother started dancing with her for fun. A year later, Sylvia joined a dance school in the town where she lives. She works hard at dancing. “I practise for two hours every day after school and for three hours every Saturday morning. My feet are still growing. It’s important to make sure you have the right size shoes when you dance in competitions so last month I went to London to buy some new ones.”"
+  },
+  {
+    "title": "The London Visit",
+    "question": "When did Sylvia go to London?",
+    "choices": [
+      "Next month",
+      "Last month",
+      "This month",
+      "Last year"
+    ],
+    "answer": 1,
+    "steps": [
+      "В последней реплике указано «last month I went to London».",
+      "Last month — в прошлом месяце."
+    ],
+    "context": "Read the text. For each question choose the correct answer\n\nSylvia Venner is a 12-year-old dancer. She’s from Australia but lives in Whitstable, England, with her parents, her older sister Gloria and younger brother Charlie. She dances in competitions. Her dream is to dance on stage in a London theatre. When Sylvia was four, her mother started dancing with her for fun. A year later, Sylvia joined a dance school in the town where she lives. She works hard at dancing. “I practise for two hours every day after school and for three hours every Saturday morning. My feet are still growing. It’s important to make sure you have the right size shoes when you dance in competitions so last month I went to London to buy some new ones.”"
+  },
+  {
+    "title": "Why She Went to London",
+    "question": "Why did Sylvia go to London?",
+    "choices": [
+      "To buy new shoes",
+      "To take part in a dance competition",
+      "To consult the doctor",
+      "To enjoy her free time"
+    ],
+    "answer": 0,
+    "steps": [
+      "«To buy some new ones» объясняет цель поездки.",
+      "Ones относится к туфлям, о которых она говорила перед этим."
+    ],
+    "context": "Read the text. For each question choose the correct answer\n\nSylvia Venner is a 12-year-old dancer. She’s from Australia but lives in Whitstable, England, with her parents, her older sister Gloria and younger brother Charlie. She dances in competitions. Her dream is to dance on stage in a London theatre. When Sylvia was four, her mother started dancing with her for fun. A year later, Sylvia joined a dance school in the town where she lives. She works hard at dancing. “I practise for two hours every day after school and for three hours every Saturday morning. My feet are still growing. It’s important to make sure you have the right size shoes when you dance in competitions so last month I went to London to buy some new ones.”"
+  },
+  {
+    "title": "The Ball",
+    "question": "He/She cannot go to the ball because he/she doesn’t have beautiful clothes.",
+    "choices": [
+      "Mowgli",
+      "Robin Hood",
+      "Cinderella",
+      "Snow White"
+    ],
+    "answer": 2,
+    "steps": [
+      "Найди героя, которому мешает простая повседневная одежда.",
+      "Это Золушка, на рисунке она в платке и фартуке."
+    ],
+    "context": "Do you know who they are? Choose the picture.",
+    "optionFigures": [
+      {
+        "src": "assets/british-bulldog/2015/3-4/character-a.webp",
+        "alt": "A boy with dark hair holding a small tool",
+        "caption": "A boy with dark hair holding a small tool",
+        "width": 436,
+        "height": 352
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/character-b.webp",
+        "alt": "A person in green holding a bow",
+        "caption": "A person in green holding a bow",
+        "width": 440,
+        "height": 352
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/character-c.webp",
+        "alt": "A person in a white bonnet and apron with a shoe nearby",
+        "caption": "A person in a white bonnet and apron with a shoe nearby",
+        "width": 436,
+        "height": 356
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/character-d.webp",
+        "alt": "A person in a blue top and yellow skirt",
+        "caption": "A person in a blue top and yellow skirt",
+        "width": 440,
+        "height": 356
+      }
+    ]
+  },
+  {
+    "title": "The Forest",
+    "question": "He/She lived in Sherwood Forest.",
+    "choices": [
+      "Mowgli",
+      "Robin Hood",
+      "Cinderella",
+      "Snow White"
+    ],
+    "answer": 1,
+    "steps": [
+      "Sherwood Forest связан с преданиями о Робине Гуде.",
+      "На рисунке он в зелёном и с луком."
+    ],
+    "context": "Do you know who they are? Choose the picture.",
+    "optionFigures": [
+      {
+        "src": "assets/british-bulldog/2015/3-4/character-a.webp",
+        "alt": "A boy with dark hair holding a small tool",
+        "caption": "A boy with dark hair holding a small tool",
+        "width": 436,
+        "height": 352
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/character-b.webp",
+        "alt": "A person in green holding a bow",
+        "caption": "A person in green holding a bow",
+        "width": 440,
+        "height": 352
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/character-c.webp",
+        "alt": "A person in a white bonnet and apron with a shoe nearby",
+        "caption": "A person in a white bonnet and apron with a shoe nearby",
+        "width": 436,
+        "height": 356
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/character-d.webp",
+        "alt": "A person in a blue top and yellow skirt",
+        "caption": "A person in a blue top and yellow skirt",
+        "width": 440,
+        "height": 356
+      }
+    ]
+  },
+  {
+    "title": "The Apple",
+    "question": "He/She ate a piece of an apple and died.",
+    "choices": [
+      "Mowgli",
+      "Robin Hood",
+      "Cinderella",
+      "Snow White"
+    ],
+    "answer": 3,
+    "steps": [
+      "В сказке завистливая королева дала девушке отравленное яблоко.",
+      "Это Белоснежка, героиня в жёлтой юбке."
+    ],
+    "context": "Do you know who they are? Choose the picture.",
+    "optionFigures": [
+      {
+        "src": "assets/british-bulldog/2015/3-4/character-a.webp",
+        "alt": "A boy with dark hair holding a small tool",
+        "caption": "A boy with dark hair holding a small tool",
+        "width": 436,
+        "height": 352
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/character-b.webp",
+        "alt": "A person in green holding a bow",
+        "caption": "A person in green holding a bow",
+        "width": 440,
+        "height": 352
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/character-c.webp",
+        "alt": "A person in a white bonnet and apron with a shoe nearby",
+        "caption": "A person in a white bonnet and apron with a shoe nearby",
+        "width": 436,
+        "height": 356
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/character-d.webp",
+        "alt": "A person in a blue top and yellow skirt",
+        "caption": "A person in a blue top and yellow skirt",
+        "width": 440,
+        "height": 356
+      }
+    ]
+  },
+  {
+    "title": "Glass Shoes",
+    "question": "His/Her Fairy Godmother gave him/her a pair of glass shoes.",
+    "choices": [
+      "Mowgli",
+      "Robin Hood",
+      "Cinderella",
+      "Snow White"
+    ],
+    "answer": 2,
+    "steps": [
+      "Волшебница подарила хрустальные туфельки девушке, которая собиралась на бал.",
+      "На рисунке туфельки рядом с Золушкой."
+    ],
+    "context": "Do you know who they are? Choose the picture.",
+    "optionFigures": [
+      {
+        "src": "assets/british-bulldog/2015/3-4/character-a.webp",
+        "alt": "A boy with dark hair holding a small tool",
+        "caption": "A boy with dark hair holding a small tool",
+        "width": 436,
+        "height": 352
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/character-b.webp",
+        "alt": "A person in green holding a bow",
+        "caption": "A person in green holding a bow",
+        "width": 440,
+        "height": 352
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/character-c.webp",
+        "alt": "A person in a white bonnet and apron with a shoe nearby",
+        "caption": "A person in a white bonnet and apron with a shoe nearby",
+        "width": 436,
+        "height": 356
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/character-d.webp",
+        "alt": "A person in a blue top and yellow skirt",
+        "caption": "A person in a blue top and yellow skirt",
+        "width": 440,
+        "height": 356
+      }
+    ]
+  },
+  {
+    "title": "Helping Poor People",
+    "question": "He/She helped the poor.",
+    "choices": [
+      "Mowgli",
+      "Robin Hood",
+      "Cinderella",
+      "Snow White"
+    ],
+    "answer": 1,
+    "steps": [
+      "Это поступок лесного героя, который забирает богатство у богачей и отдаёт бедным.",
+      "На картинке Робин Гуд с луком."
+    ],
+    "context": "Do you know who they are? Choose the picture.",
+    "optionFigures": [
+      {
+        "src": "assets/british-bulldog/2015/3-4/character-a.webp",
+        "alt": "A boy with dark hair holding a small tool",
+        "caption": "A boy with dark hair holding a small tool",
+        "width": 436,
+        "height": 352
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/character-b.webp",
+        "alt": "A person in green holding a bow",
+        "caption": "A person in green holding a bow",
+        "width": 440,
+        "height": 352
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/character-c.webp",
+        "alt": "A person in a white bonnet and apron with a shoe nearby",
+        "caption": "A person in a white bonnet and apron with a shoe nearby",
+        "width": 436,
+        "height": 356
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/character-d.webp",
+        "alt": "A person in a blue top and yellow skirt",
+        "caption": "A person in a blue top and yellow skirt",
+        "width": 440,
+        "height": 356
+      }
+    ]
+  },
+  {
+    "title": "A Wolf Pack",
+    "question": "He/She was raised by a pack of wolves.",
+    "choices": [
+      "Mowgli",
+      "Robin Hood",
+      "Cinderella",
+      "Snow White"
+    ],
+    "answer": 0,
+    "steps": [
+      "Raised by a pack of wolves означает «выращен волчьей стаей».",
+      "Из героев так вырос Маугли."
+    ],
+    "context": "Do you know who they are? Choose the picture.",
+    "optionFigures": [
+      {
+        "src": "assets/british-bulldog/2015/3-4/character-a.webp",
+        "alt": "A boy with dark hair holding a small tool",
+        "caption": "A boy with dark hair holding a small tool",
+        "width": 436,
+        "height": 352
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/character-b.webp",
+        "alt": "A person in green holding a bow",
+        "caption": "A person in green holding a bow",
+        "width": 440,
+        "height": 352
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/character-c.webp",
+        "alt": "A person in a white bonnet and apron with a shoe nearby",
+        "caption": "A person in a white bonnet and apron with a shoe nearby",
+        "width": 436,
+        "height": 356
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/character-d.webp",
+        "alt": "A person in a blue top and yellow skirt",
+        "caption": "A person in a blue top and yellow skirt",
+        "width": 440,
+        "height": 356
+      }
+    ]
+  },
+  {
+    "title": "The Dwarfs",
+    "question": "He/She lived in a wood with the dwarfs.",
+    "choices": [
+      "Mowgli",
+      "Robin Hood",
+      "Cinderella",
+      "Snow White"
+    ],
+    "answer": 3,
+    "steps": [
+      "У Белоснежки в лесу было семь маленьких друзей.",
+      "Она жила с гномами, dwarfs."
+    ],
+    "context": "Do you know who they are? Choose the picture.",
+    "optionFigures": [
+      {
+        "src": "assets/british-bulldog/2015/3-4/character-a.webp",
+        "alt": "A boy with dark hair holding a small tool",
+        "caption": "A boy with dark hair holding a small tool",
+        "width": 436,
+        "height": 352
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/character-b.webp",
+        "alt": "A person in green holding a bow",
+        "caption": "A person in green holding a bow",
+        "width": 440,
+        "height": 352
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/character-c.webp",
+        "alt": "A person in a white bonnet and apron with a shoe nearby",
+        "caption": "A person in a white bonnet and apron with a shoe nearby",
+        "width": 436,
+        "height": 356
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/character-d.webp",
+        "alt": "A person in a blue top and yellow skirt",
+        "caption": "A person in a blue top and yellow skirt",
+        "width": 440,
+        "height": 356
+      }
+    ]
+  },
+  {
+    "title": "The Jungle Book",
+    "question": "He/She is a character in The Jungle Book .",
+    "choices": [
+      "Mowgli",
+      "Robin Hood",
+      "Cinderella",
+      "Snow White"
+    ],
+    "answer": 0,
+    "steps": [
+      "The Jungle Book — «Книга джунглей» Редьярда Киплинга.",
+      "Из изображённых персонажей в ней действует Маугли."
+    ],
+    "context": "Do you know who they are? Choose the picture.",
+    "optionFigures": [
+      {
+        "src": "assets/british-bulldog/2015/3-4/character-a.webp",
+        "alt": "A boy with dark hair holding a small tool",
+        "caption": "A boy with dark hair holding a small tool",
+        "width": 436,
+        "height": 352
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/character-b.webp",
+        "alt": "A person in green holding a bow",
+        "caption": "A person in green holding a bow",
+        "width": 440,
+        "height": 352
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/character-c.webp",
+        "alt": "A person in a white bonnet and apron with a shoe nearby",
+        "caption": "A person in a white bonnet and apron with a shoe nearby",
+        "width": 436,
+        "height": 356
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/character-d.webp",
+        "alt": "A person in a blue top and yellow skirt",
+        "caption": "A person in a blue top and yellow skirt",
+        "width": 440,
+        "height": 356
+      }
+    ]
+  },
+  {
+    "title": "The Panther and the Bear",
+    "question": "The black panther and the bear were his/her friends.",
+    "choices": [
+      "Mowgli",
+      "Robin Hood",
+      "Cinderella",
+      "Snow White"
+    ],
+    "answer": 0,
+    "steps": [
+      "Пантера — Багира, а медведь — Балу.",
+      "Это друзья Маугли."
+    ],
+    "context": "Do you know who they are? Choose the picture.",
+    "optionFigures": [
+      {
+        "src": "assets/british-bulldog/2015/3-4/character-a.webp",
+        "alt": "A boy with dark hair holding a small tool",
+        "caption": "A boy with dark hair holding a small tool",
+        "width": 436,
+        "height": 352
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/character-b.webp",
+        "alt": "A person in green holding a bow",
+        "caption": "A person in green holding a bow",
+        "width": 440,
+        "height": 352
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/character-c.webp",
+        "alt": "A person in a white bonnet and apron with a shoe nearby",
+        "caption": "A person in a white bonnet and apron with a shoe nearby",
+        "width": 436,
+        "height": 356
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/character-d.webp",
+        "alt": "A person in a blue top and yellow skirt",
+        "caption": "A person in a blue top and yellow skirt",
+        "width": 440,
+        "height": 356
+      }
+    ]
+  },
+  {
+    "title": "Midnight",
+    "question": "His/Her beautiful dress disappeared at midnight.",
+    "choices": [
+      "Mowgli",
+      "Robin Hood",
+      "Cinderella",
+      "Snow White"
+    ],
+    "answer": 2,
+    "steps": [
+      "В полночь кончилось действие волшебства, в том числе исчезло бальное платье.",
+      "Это история Золушки."
+    ],
+    "context": "Do you know who they are? Choose the picture.",
+    "optionFigures": [
+      {
+        "src": "assets/british-bulldog/2015/3-4/character-a.webp",
+        "alt": "A boy with dark hair holding a small tool",
+        "caption": "A boy with dark hair holding a small tool",
+        "width": 436,
+        "height": 352
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/character-b.webp",
+        "alt": "A person in green holding a bow",
+        "caption": "A person in green holding a bow",
+        "width": 440,
+        "height": 352
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/character-c.webp",
+        "alt": "A person in a white bonnet and apron with a shoe nearby",
+        "caption": "A person in a white bonnet and apron with a shoe nearby",
+        "width": 436,
+        "height": 356
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/character-d.webp",
+        "alt": "A person in a blue top and yellow skirt",
+        "caption": "A person in a blue top and yellow skirt",
+        "width": 440,
+        "height": 356
+      }
+    ]
+  },
+  {
+    "title": "Cupboard",
+    "question": "Cupboard",
+    "choices": [
+      "Fruit",
+      "Furniture",
+      "Stationery",
+      "Clothes"
+    ],
+    "answer": 1,
+    "steps": [
+      "Cupboard — шкаф для хранения вещей и посуды.",
+      "Шкаф относится к мебели, furniture."
+    ],
+    "context": "Put the words in the right categories.",
+    "optionFigures": [
+      {
+        "src": "assets/british-bulldog/2015/3-4/category-a.webp",
+        "alt": "Fruit: apples, a pear, cherries and grapes",
+        "caption": "Fruit: apples, a pear, cherries and grapes",
+        "width": 280,
+        "height": 276
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/category-b.webp",
+        "alt": "Furniture: cupboard, table, lamp and armchair",
+        "caption": "Furniture: cupboard, table, lamp and armchair",
+        "width": 284,
+        "height": 276
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/category-c.webp",
+        "alt": "Stationery: scissors, ruler, pencils, paper clips and drawing pins",
+        "caption": "Stationery: scissors, ruler, pencils, paper clips and drawing pins",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/category-d.webp",
+        "alt": "Clothes: dress, hat, shoes and boots",
+        "caption": "Clothes: dress, hat, shoes and boots",
+        "width": 284,
+        "height": 280
+      }
+    ]
+  },
+  {
+    "title": "Felt-Tip Pens",
+    "question": "Felt-tip pens",
+    "choices": [
+      "Fruit",
+      "Furniture",
+      "Stationery",
+      "Clothes"
+    ],
+    "answer": 2,
+    "steps": [
+      "Felt-tip pens — фломастеры.",
+      "Их держат вместе с письменными принадлежностями, stationery."
+    ],
+    "context": "Put the words in the right categories.",
+    "optionFigures": [
+      {
+        "src": "assets/british-bulldog/2015/3-4/category-a.webp",
+        "alt": "Fruit: apples, a pear, cherries and grapes",
+        "caption": "Fruit: apples, a pear, cherries and grapes",
+        "width": 280,
+        "height": 276
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/category-b.webp",
+        "alt": "Furniture: cupboard, table, lamp and armchair",
+        "caption": "Furniture: cupboard, table, lamp and armchair",
+        "width": 284,
+        "height": 276
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/category-c.webp",
+        "alt": "Stationery: scissors, ruler, pencils, paper clips and drawing pins",
+        "caption": "Stationery: scissors, ruler, pencils, paper clips and drawing pins",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/category-d.webp",
+        "alt": "Clothes: dress, hat, shoes and boots",
+        "caption": "Clothes: dress, hat, shoes and boots",
+        "width": 284,
+        "height": 280
+      }
+    ]
+  },
+  {
+    "title": "Tangerine",
+    "question": "Tangerine",
+    "choices": [
+      "Fruit",
+      "Furniture",
+      "Stationery",
+      "Clothes"
+    ],
+    "answer": 0,
+    "steps": [
+      "Tangerine — мандарин, разновидность цитрусовых.",
+      "Он относится к фруктам, fruit."
+    ],
+    "context": "Put the words in the right categories.",
+    "optionFigures": [
+      {
+        "src": "assets/british-bulldog/2015/3-4/category-a.webp",
+        "alt": "Fruit: apples, a pear, cherries and grapes",
+        "caption": "Fruit: apples, a pear, cherries and grapes",
+        "width": 280,
+        "height": 276
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/category-b.webp",
+        "alt": "Furniture: cupboard, table, lamp and armchair",
+        "caption": "Furniture: cupboard, table, lamp and armchair",
+        "width": 284,
+        "height": 276
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/category-c.webp",
+        "alt": "Stationery: scissors, ruler, pencils, paper clips and drawing pins",
+        "caption": "Stationery: scissors, ruler, pencils, paper clips and drawing pins",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/category-d.webp",
+        "alt": "Clothes: dress, hat, shoes and boots",
+        "caption": "Clothes: dress, hat, shoes and boots",
+        "width": 284,
+        "height": 280
+      }
+    ]
+  },
+  {
+    "title": "Apron",
+    "question": "Apron",
+    "choices": [
+      "Fruit",
+      "Furniture",
+      "Stationery",
+      "Clothes"
+    ],
+    "answer": 3,
+    "steps": [
+      "Apron — фартук.",
+      "Его надевают поверх одежды, поэтому он относится к категории clothes."
+    ],
+    "context": "Put the words in the right categories.",
+    "optionFigures": [
+      {
+        "src": "assets/british-bulldog/2015/3-4/category-a.webp",
+        "alt": "Fruit: apples, a pear, cherries and grapes",
+        "caption": "Fruit: apples, a pear, cherries and grapes",
+        "width": 280,
+        "height": 276
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/category-b.webp",
+        "alt": "Furniture: cupboard, table, lamp and armchair",
+        "caption": "Furniture: cupboard, table, lamp and armchair",
+        "width": 284,
+        "height": 276
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/category-c.webp",
+        "alt": "Stationery: scissors, ruler, pencils, paper clips and drawing pins",
+        "caption": "Stationery: scissors, ruler, pencils, paper clips and drawing pins",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/category-d.webp",
+        "alt": "Clothes: dress, hat, shoes and boots",
+        "caption": "Clothes: dress, hat, shoes and boots",
+        "width": 284,
+        "height": 280
+      }
+    ]
+  },
+  {
+    "title": "Apricot",
+    "question": "Apricot",
+    "choices": [
+      "Fruit",
+      "Furniture",
+      "Stationery",
+      "Clothes"
+    ],
+    "answer": 0,
+    "steps": [
+      "Apricot — абрикос.",
+      "Это фрукт, fruit, как и персик или слива."
+    ],
+    "context": "Put the words in the right categories.",
+    "optionFigures": [
+      {
+        "src": "assets/british-bulldog/2015/3-4/category-a.webp",
+        "alt": "Fruit: apples, a pear, cherries and grapes",
+        "caption": "Fruit: apples, a pear, cherries and grapes",
+        "width": 280,
+        "height": 276
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/category-b.webp",
+        "alt": "Furniture: cupboard, table, lamp and armchair",
+        "caption": "Furniture: cupboard, table, lamp and armchair",
+        "width": 284,
+        "height": 276
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/category-c.webp",
+        "alt": "Stationery: scissors, ruler, pencils, paper clips and drawing pins",
+        "caption": "Stationery: scissors, ruler, pencils, paper clips and drawing pins",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/category-d.webp",
+        "alt": "Clothes: dress, hat, shoes and boots",
+        "caption": "Clothes: dress, hat, shoes and boots",
+        "width": 284,
+        "height": 280
+      }
+    ]
+  },
+  {
+    "title": "Eraser",
+    "question": "Eraser",
+    "choices": [
+      "Fruit",
+      "Furniture",
+      "Stationery",
+      "Clothes"
+    ],
+    "answer": 2,
+    "steps": [
+      "Eraser — ластик, которым стирают карандашные линии.",
+      "Это предмет из группы stationery."
+    ],
+    "context": "Put the words in the right categories.",
+    "optionFigures": [
+      {
+        "src": "assets/british-bulldog/2015/3-4/category-a.webp",
+        "alt": "Fruit: apples, a pear, cherries and grapes",
+        "caption": "Fruit: apples, a pear, cherries and grapes",
+        "width": 280,
+        "height": 276
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/category-b.webp",
+        "alt": "Furniture: cupboard, table, lamp and armchair",
+        "caption": "Furniture: cupboard, table, lamp and armchair",
+        "width": 284,
+        "height": 276
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/category-c.webp",
+        "alt": "Stationery: scissors, ruler, pencils, paper clips and drawing pins",
+        "caption": "Stationery: scissors, ruler, pencils, paper clips and drawing pins",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/category-d.webp",
+        "alt": "Clothes: dress, hat, shoes and boots",
+        "caption": "Clothes: dress, hat, shoes and boots",
+        "width": 284,
+        "height": 280
+      }
+    ]
+  },
+  {
+    "title": "Armchair",
+    "question": "Armchair",
+    "choices": [
+      "Fruit",
+      "Furniture",
+      "Stationery",
+      "Clothes"
+    ],
+    "answer": 1,
+    "steps": [
+      "Armchair — кресло с подлокотниками.",
+      "Как и стул или диван, оно относится к мебели."
+    ],
+    "context": "Put the words in the right categories.",
+    "optionFigures": [
+      {
+        "src": "assets/british-bulldog/2015/3-4/category-a.webp",
+        "alt": "Fruit: apples, a pear, cherries and grapes",
+        "caption": "Fruit: apples, a pear, cherries and grapes",
+        "width": 280,
+        "height": 276
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/category-b.webp",
+        "alt": "Furniture: cupboard, table, lamp and armchair",
+        "caption": "Furniture: cupboard, table, lamp and armchair",
+        "width": 284,
+        "height": 276
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/category-c.webp",
+        "alt": "Stationery: scissors, ruler, pencils, paper clips and drawing pins",
+        "caption": "Stationery: scissors, ruler, pencils, paper clips and drawing pins",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/category-d.webp",
+        "alt": "Clothes: dress, hat, shoes and boots",
+        "caption": "Clothes: dress, hat, shoes and boots",
+        "width": 284,
+        "height": 280
+      }
+    ]
+  },
+  {
+    "title": "Trousers",
+    "question": "Trousers",
+    "choices": [
+      "Fruit",
+      "Furniture",
+      "Stationery",
+      "Clothes"
+    ],
+    "answer": 3,
+    "steps": [
+      "Trousers — брюки.",
+      "Это предмет одежды, clothes."
+    ],
+    "context": "Put the words in the right categories.",
+    "optionFigures": [
+      {
+        "src": "assets/british-bulldog/2015/3-4/category-a.webp",
+        "alt": "Fruit: apples, a pear, cherries and grapes",
+        "caption": "Fruit: apples, a pear, cherries and grapes",
+        "width": 280,
+        "height": 276
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/category-b.webp",
+        "alt": "Furniture: cupboard, table, lamp and armchair",
+        "caption": "Furniture: cupboard, table, lamp and armchair",
+        "width": 284,
+        "height": 276
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/category-c.webp",
+        "alt": "Stationery: scissors, ruler, pencils, paper clips and drawing pins",
+        "caption": "Stationery: scissors, ruler, pencils, paper clips and drawing pins",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/category-d.webp",
+        "alt": "Clothes: dress, hat, shoes and boots",
+        "caption": "Clothes: dress, hat, shoes and boots",
+        "width": 284,
+        "height": 280
+      }
+    ]
+  },
+  {
+    "title": "Pencil Sharpener",
+    "question": "Pencil sharpener",
+    "choices": [
+      "Fruit",
+      "Furniture",
+      "Stationery",
+      "Clothes"
+    ],
+    "answer": 2,
+    "steps": [
+      "Слово pencil указывает, для чего нужен предмет.",
+      "Pencil sharpener — точилка для карандашей, канцелярская принадлежность."
+    ],
+    "context": "Put the words in the right categories.",
+    "optionFigures": [
+      {
+        "src": "assets/british-bulldog/2015/3-4/category-a.webp",
+        "alt": "Fruit: apples, a pear, cherries and grapes",
+        "caption": "Fruit: apples, a pear, cherries and grapes",
+        "width": 280,
+        "height": 276
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/category-b.webp",
+        "alt": "Furniture: cupboard, table, lamp and armchair",
+        "caption": "Furniture: cupboard, table, lamp and armchair",
+        "width": 284,
+        "height": 276
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/category-c.webp",
+        "alt": "Stationery: scissors, ruler, pencils, paper clips and drawing pins",
+        "caption": "Stationery: scissors, ruler, pencils, paper clips and drawing pins",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/category-d.webp",
+        "alt": "Clothes: dress, hat, shoes and boots",
+        "caption": "Clothes: dress, hat, shoes and boots",
+        "width": 284,
+        "height": 280
+      }
+    ]
+  },
+  {
+    "title": "Shirt",
+    "question": "Shirt",
+    "choices": [
+      "Fruit",
+      "Furniture",
+      "Stationery",
+      "Clothes"
+    ],
+    "answer": 3,
+    "steps": [
+      "Shirt — рубашка.",
+      "Её относят к одежде, clothes."
+    ],
+    "context": "Put the words in the right categories.",
+    "optionFigures": [
+      {
+        "src": "assets/british-bulldog/2015/3-4/category-a.webp",
+        "alt": "Fruit: apples, a pear, cherries and grapes",
+        "caption": "Fruit: apples, a pear, cherries and grapes",
+        "width": 280,
+        "height": 276
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/category-b.webp",
+        "alt": "Furniture: cupboard, table, lamp and armchair",
+        "caption": "Furniture: cupboard, table, lamp and armchair",
+        "width": 284,
+        "height": 276
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/category-c.webp",
+        "alt": "Stationery: scissors, ruler, pencils, paper clips and drawing pins",
+        "caption": "Stationery: scissors, ruler, pencils, paper clips and drawing pins",
+        "width": 280,
+        "height": 280
+      },
+      {
+        "src": "assets/british-bulldog/2015/3-4/category-d.webp",
+        "alt": "Clothes: dress, hat, shoes and boots",
+        "caption": "Clothes: dress, hat, shoes and boots",
+        "width": 284,
+        "height": 280
+      }
+    ]
+  },
+  {
+    "title": "Lory’s Age",
+    "question": "Lory is … girl in my class.",
+    "choices": [
+      "younger",
+      "the most young",
+      "the youngest",
+      "young"
+    ],
+    "answer": 2,
+    "steps": [
+      "Лори сравнивают со всеми девочками класса.",
+      "Нужна превосходная степень с the и -est: the youngest."
+    ],
+    "context": "Choose the correct answers"
+  },
+  {
+    "title": "Whose Cat?",
+    "question": "Whose cat is this? It’s … .",
+    "choices": [
+      "my",
+      "me",
+      "mine",
+      "our"
+    ],
+    "answer": 2,
+    "steps": [
+      "Здесь после пропуска нет существительного.",
+      "Mine заменяет «my cat»."
+    ],
+    "context": "Choose the correct answers"
+  },
+  {
+    "title": "Cups in the Cupboard",
+    "question": "There aren’t … cups in the cupboard.",
+    "choices": [
+      "some",
+      "much",
+      "a",
+      "any"
+    ],
+    "answer": 3,
+    "steps": [
+      "There aren’t уже выражает отрицание.",
+      "Перед существительным во множественном числе употребляем any."
+    ],
+    "context": "Choose the correct answers"
+  },
+  {
+    "title": "Three Languages",
+    "question": "Tony … three foreign languages.",
+    "choices": [
+      "speaks",
+      "cans speak",
+      "spoken",
+      "is speaking"
+    ],
+    "answer": 0,
+    "steps": [
+      "Tony — третье лицо единственного числа.",
+      "Для привычного умения в Present Simple подходит speaks."
+    ],
+    "context": "Choose the correct answers"
+  },
+  {
+    "title": "Look Outside",
+    "question": "Look! It … .",
+    "choices": [
+      "snow",
+      "snows",
+      "snowing",
+      "is snowing"
+    ],
+    "answer": 3,
+    "steps": [
+      "Look! привлекает внимание к тому, что происходит прямо сейчас.",
+      "Поэтому «it is snowing», Present Continuous."
+    ],
+    "context": "Choose the correct answers"
+  },
+  {
+    "title": "Fantasy Books",
+    "question": "Billy is … in fantasy books.",
+    "choices": [
+      "interest",
+      "interested",
+      "of interest",
+      "interesting"
+    ],
+    "answer": 1,
+    "steps": [
+      "Чтобы описать интерес человека, говорят «interested in».",
+      "Interesting означает «интересный» и описывает то, что вызывает интерес."
+    ],
+    "context": "Choose the correct answers"
+  },
+  {
+    "title": "Tom This Morning",
+    "question": "Tom wasn’t … school this morning.",
+    "choices": [
+      "at",
+      "to",
+      "of",
+      "out"
+    ],
+    "answer": 0,
+    "steps": [
+      "Речь о том, где находился Том.",
+      "В английском для пребывания в школе используют выражение at school."
+    ],
+    "context": "Choose the correct answers"
+  },
+  {
+    "title": "Speaking English",
+    "question": "My sister … speak English very well.",
+    "choices": [
+      "can to",
+      "cans",
+      "can",
+      "will can"
+    ],
+    "answer": 2,
+    "steps": [
+      "Can — модальный глагол возможности.",
+      "После него speak ставится без to, а can не принимает -s."
+    ],
+    "context": "Choose the correct answers"
+  },
+  {
+    "title": "Mary Right Now",
+    "question": "Mary … her homework at the moment.",
+    "choices": [
+      "does",
+      "doing",
+      "is doing",
+      "do"
+    ],
+    "answer": 2,
+    "steps": [
+      "«At the moment» указывает на происходящее сейчас.",
+      "С Mary выбираем форму «is doing»."
+    ],
+    "context": "Choose the correct answers"
+  },
+  {
+    "title": "Number of Friends",
+    "question": "… friends do you have?",
+    "choices": [
+      "How many",
+      "How much",
+      "How long",
+      "How often"
+    ],
+    "answer": 0,
+    "steps": [
+      "Friends — счётное существительное во множественном числе.",
+      "Для вопроса о количестве подходит how many."
+    ],
+    "context": "Choose the correct answers"
+  },
+  {
+    "title": "The Thames",
+    "question": "The Thames is a river flowing through … .",
+    "choices": [
+      "London",
+      "Paris",
+      "Budapest",
+      "New York"
+    ],
+    "answer": 0,
+    "steps": [
+      "Темза течёт через столицу Великобритании.",
+      "Из вариантов это London."
+    ],
+    "context": "Find the correct answers"
+  },
+  {
+    "title": "The Scottish Lake",
+    "question": "The most famous lake monster in Scotland is said to live in … .",
+    "choices": [
+      "Loch Shin",
+      "Loch Awe",
+      "Loch Ness",
+      "Loch Lomond"
+    ],
+    "answer": 2,
+    "steps": [
+      "Несси связывают с озером Лох-Несс в Шотландии.",
+      "Его название пишется Loch Ness."
+    ],
+    "context": "Find the correct answers"
+  },
+  {
+    "title": "Europe’s Largest Island",
+    "question": "This is the largest island in Europe.",
+    "choices": [
+      "Rhodes",
+      "Crete",
+      "Sardinia",
+      "Great Britain"
+    ],
+    "answer": 3,
+    "steps": [
+      "Великобритания занимает остров у северо-западного побережья Европы.",
+      "Из вариантов Great Britain — самый большой остров."
+    ],
+    "context": "Find the correct answers"
+  },
+  {
+    "title": "The British Flag",
+    "question": "The colours on the British flag are … .",
+    "choices": [
+      "white, red, blue",
+      "white, orange, green",
+      "white, blue, black",
+      "red, blue, gold"
+    ],
+    "answer": 0,
+    "steps": [
+      "На Union Flag есть красные и белые кресты и диагонали на синем фоне.",
+      "Нужен вариант с белым, красным и синим."
+    ],
+    "context": "Find the correct answers"
+  },
+  {
+    "title": "Halloween at the Door",
+    "question": "When children knock on the door on Halloween they say: “…!”",
+    "choices": [
+      "Trick or life",
+      "Trick or money",
+      "Trick or sweets",
+      "Trick or treat"
+    ],
+    "answer": 3,
+    "steps": [
+      "Дети просят угощение в обмен на то, что не будут проказничать.",
+      "Традиционная формула — «Trick or treat!»."
+    ],
+    "context": "Find the correct answers"
+  },
+  {
+    "title": "Shakespeare’s Centuries",
+    "question": "Shakespeare lived in the … centuries.",
+    "choices": [
+      "14th and 15th",
+      "15th and 16th",
+      "16th and 17th",
+      "17th and 18th"
+    ],
+    "answer": 2,
+    "steps": [
+      "Шекспир родился в 1564 году и умер в 1616-м.",
+      "Это XVI и XVII века соответственно."
+    ],
+    "context": "Find the correct answers"
+  },
+  {
+    "title": "Guy Fawkes Night",
+    "question": "Originally Guy Fawkes Night is a/an … celebration.",
+    "choices": [
+      "German",
+      "British",
+      "Indian",
+      "American"
+    ],
+    "answer": 1,
+    "steps": [
+      "Этот праздник связан с Пороховым заговором 1605 года в Англии.",
+      "Поэтому он британский, British."
+    ],
+    "context": "Find the correct answers"
+  },
+  {
+    "title": "Modern Football",
+    "question": "Which country was contemporary football first played in?",
+    "choices": [
+      "the USA",
+      "Spain",
+      "Brazil",
+      "Great Britain"
+    ],
+    "answer": 3,
+    "steps": [
+      "Речь о современном футболе с общими правилами.",
+      "Эти правила начали оформляться в Великобритании в XIX веке."
+    ],
+    "context": "Find the correct answers"
+  },
+  {
+    "title": "The Beatles",
+    "question": "The Beatles are from this city.",
+    "choices": [
+      "Glasgow",
+      "London",
+      "Liverpool",
+      "Manchester"
+    ],
+    "answer": 2,
+    "steps": [
+      "Группа образовалась в Ливерпуле.",
+      "Название Liverpool отличается от других предложенных британских городов."
+    ],
+    "context": "Find the correct answers"
+  },
+  {
+    "title": "The Oldest Underground",
+    "question": "The oldest underground in the world is in … .",
+    "choices": [
+      "London",
+      "Beijing",
+      "Moscow",
+      "New York"
+    ],
+    "answer": 0,
+    "steps": [
+      "Первая линия подземной железной дороги открылась в Лондоне в 1863 году.",
+      "Поэтому подходит London."
+    ],
+    "context": "Find the correct answers"
+  }
+]

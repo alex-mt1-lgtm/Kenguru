@@ -1,0 +1,874 @@
+[
+  {
+    "title": "How Many Languages?",
+    "question": "The woman is already studying … languages.",
+    "choices": [
+      "two",
+      "three",
+      "four"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 0,
+    "steps": [
+      "Женщина уже учит немецкий и идёт на первое занятие французским.",
+      "Вместе это два языка, two."
+    ]
+  },
+  {
+    "title": "The First Lesson",
+    "question": "She … for the first lesson.",
+    "choices": [
+      "is late",
+      "doesn’t want to be late",
+      "is in time"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 1,
+    "steps": [
+      "После слов «It’s the first lesson tonight» женщина прямо говорит «I don’t want to be late».",
+      "Она не хочет опоздать."
+    ]
+  },
+  {
+    "title": "German Class Days",
+    "question": "Her German classes are on … .",
+    "choices": [
+      "Mondays and Wednesdays",
+      "Tuesdays and Thursdays",
+      "Thursdays"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 0,
+    "steps": [
+      "Собеседник спрашивает, продолжает ли она учить немецкий.",
+      "В ответе слышно «on Mondays and Wednesdays»."
+    ]
+  },
+  {
+    "title": "A Full Class",
+    "question": "She would have preferred to study … .",
+    "choices": [
+      "French",
+      "Italian",
+      "Spanish"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 1,
+    "steps": [
+      "Она говорит «The Italian class was full, so I decided on French».",
+      "Французский стал вторым выбором, а предпочтение было у Italian."
+    ]
+  },
+  {
+    "title": "What She Remembers",
+    "question": "She … French.",
+    "choices": [
+      "knows",
+      "can understand",
+      "remembers some grammar and words in"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 2,
+    "steps": [
+      "Во французском она помнит «some of the grammar and vocabulary vaguely».",
+      "То есть кое-что из грамматики и лексики."
+    ]
+  },
+  {
+    "title": "Speaking in France",
+    "question": "Being in France she … .",
+    "choices": [
+      "had no problems",
+      "had a lot of problems",
+      "spoke fluent French"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 1,
+    "steps": [
+      "Она «could hardly understand a thing», а её тоже не понимали.",
+      "Это описание затруднений, had a lot of problems."
+    ]
+  },
+  {
+    "title": "French Class Days",
+    "question": "Her French classes are on … .",
+    "choices": [
+      "Mondays and Wednesdays",
+      "Tuesdays and Thursdays",
+      "Thursdays"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 1,
+    "steps": [
+      "Первое занятие проходит во вторник. Затем она добавляет «The French class is on Thursdays too».",
+      "Французский по вторникам и четвергам."
+    ]
+  },
+  {
+    "title": "Evenings Away",
+    "question": "She will be out … evenings a week.",
+    "choices": [
+      "two",
+      "three",
+      "four"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 2,
+    "steps": [
+      "Мужчина предполагает меньшее число, но женщина поправляет его «No, four».",
+      "Два вечера немецкого и два французского дают четыре."
+    ]
+  },
+  {
+    "title": "Bowling Night",
+    "question": "They usually went bowling on … .",
+    "choices": [
+      "Mondays and Wednesdays",
+      "Tuesdays and Thursdays",
+      "Thursdays"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 2,
+    "steps": [
+      "Мужчина напоминает «we always go bowling on Thursdays».",
+      "Речь о четвергах."
+    ]
+  },
+  {
+    "title": "A Suggestion for Bob",
+    "question": "She suggested the man and Bob study … .",
+    "choices": [
+      "Italian",
+      "German",
+      "Spanish"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 2,
+    "steps": [
+      "В завершение разговора она говорит «If you and Bob learn Spanish …».",
+      "Она предлагает им изучать Spanish."
+    ]
+  },
+  {
+    "title": "Jack's Story",
+    "question": "This story is about a dolphin that helped ships many years ago.",
+    "choices": [
+      "True",
+      "False",
+      "Doesn’t say"
+    ],
+    "context": "Read the text and choose the answer.\n\nThe most famous lifesaver in history saved thousands of lives and many ships. He first appeared at the end of the nineteenth century. For more than twenty years he guided ships through dangerous waters. He could not read or write and he had no training. The sailors called him Jack and he was a dolphin. Near the coast of New Zealand there is a dangerous passage called French Pass. It had a bad reputation until Jack arrived. For over twenty years Jack met passing ships. He swam near the ship but when it reached the passage he swam in front of the ship until it was on the other side of French Pass. In 1903 a passenger on board the “Penguin” drank too much and fired a gun at Jack. The sailors were angry and wanted to throw him into the sea, but the captain stopped them. Everybody thought Jack was dead, but he was not. True, he never met the “Penguin” again. One day the ship hit the rocks in the Pass and was lost. Jack probably died of old age in 1912 but he wasn’t forgotten. There is a statue erected to his memory on the beach of Wellington.",
+    "answer": 0,
+    "steps": [
+      "В начале герой описан как спасатель, который проводил суда. Затем сказано «he was a dolphin».",
+      "Это рассказ о дельфине, который помогал кораблям, True."
+    ]
+  },
+  {
+    "title": "Jack's Training",
+    "question": "Jack was trained to guide ships through French Pass.",
+    "choices": [
+      "True",
+      "False",
+      "Doesn’t say"
+    ],
+    "context": "Read the text and choose the answer.\n\nThe most famous lifesaver in history saved thousands of lives and many ships. He first appeared at the end of the nineteenth century. For more than twenty years he guided ships through dangerous waters. He could not read or write and he had no training. The sailors called him Jack and he was a dolphin. Near the coast of New Zealand there is a dangerous passage called French Pass. It had a bad reputation until Jack arrived. For over twenty years Jack met passing ships. He swam near the ship but when it reached the passage he swam in front of the ship until it was on the other side of French Pass. In 1903 a passenger on board the “Penguin” drank too much and fired a gun at Jack. The sailors were angry and wanted to throw him into the sea, but the captain stopped them. Everybody thought Jack was dead, but he was not. True, he never met the “Penguin” again. One day the ship hit the rocks in the Pass and was lost. Jack probably died of old age in 1912 but he wasn’t forgotten. There is a statue erected to his memory on the beach of Wellington.",
+    "answer": 1,
+    "steps": [
+      "В тексте прямо стоит «he had no training».",
+      "Утверждение «was trained» ему противоречит, False."
+    ]
+  },
+  {
+    "title": "French Pass Before Jack",
+    "question": "Before Jack’s arrival many ships were lost when they went through French Pass.",
+    "choices": [
+      "True",
+      "False",
+      "Doesn’t say"
+    ],
+    "context": "Read the text and choose the answer.\n\nThe most famous lifesaver in history saved thousands of lives and many ships. He first appeared at the end of the nineteenth century. For more than twenty years he guided ships through dangerous waters. He could not read or write and he had no training. The sailors called him Jack and he was a dolphin. Near the coast of New Zealand there is a dangerous passage called French Pass. It had a bad reputation until Jack arrived. For over twenty years Jack met passing ships. He swam near the ship but when it reached the passage he swam in front of the ship until it was on the other side of French Pass. In 1903 a passenger on board the “Penguin” drank too much and fired a gun at Jack. The sailors were angry and wanted to throw him into the sea, but the captain stopped them. Everybody thought Jack was dead, but he was not. True, he never met the “Penguin” again. One day the ship hit the rocks in the Pass and was lost. Jack probably died of old age in 1912 but he wasn’t forgotten. There is a statue erected to his memory on the beach of Wellington.",
+    "adaptation": "В ключе организатора True. Сколько судов погибло до появления Джека, в тексте не сказано.",
+    "answer": 2,
+    "steps": [
+      "Пролив назван dangerous. Ещё до появления Джека у него была bad reputation.",
+      "Текст подразумевает опасность, но не сообщает, что до Джека погибло много кораблей. Из напечатанного следует Doesn’t say."
+    ]
+  },
+  {
+    "title": "The Sailors' Reaction",
+    "question": "The sailors on the “Penguin” wanted to punish the passenger who shot at Jack.",
+    "choices": [
+      "True",
+      "False",
+      "Doesn’t say"
+    ],
+    "context": "Read the text and choose the answer.\n\nThe most famous lifesaver in history saved thousands of lives and many ships. He first appeared at the end of the nineteenth century. For more than twenty years he guided ships through dangerous waters. He could not read or write and he had no training. The sailors called him Jack and he was a dolphin. Near the coast of New Zealand there is a dangerous passage called French Pass. It had a bad reputation until Jack arrived. For over twenty years Jack met passing ships. He swam near the ship but when it reached the passage he swam in front of the ship until it was on the other side of French Pass. In 1903 a passenger on board the “Penguin” drank too much and fired a gun at Jack. The sailors were angry and wanted to throw him into the sea, but the captain stopped them. Everybody thought Jack was dead, but he was not. True, he never met the “Penguin” again. One day the ship hit the rocks in the Pass and was lost. Jack probably died of old age in 1912 but he wasn’t forgotten. There is a statue erected to his memory on the beach of Wellington.",
+    "answer": 0,
+    "steps": [
+      "Моряки рассердились и хотели бросить стрелявшего пассажира за борт.",
+      "Это явно наказание, поэтому True."
+    ]
+  },
+  {
+    "title": "Remembering Jack",
+    "question": "People forgot about Jack when he died.",
+    "choices": [
+      "True",
+      "False",
+      "Doesn’t say"
+    ],
+    "context": "Read the text and choose the answer.\n\nThe most famous lifesaver in history saved thousands of lives and many ships. He first appeared at the end of the nineteenth century. For more than twenty years he guided ships through dangerous waters. He could not read or write and he had no training. The sailors called him Jack and he was a dolphin. Near the coast of New Zealand there is a dangerous passage called French Pass. It had a bad reputation until Jack arrived. For over twenty years Jack met passing ships. He swam near the ship but when it reached the passage he swam in front of the ship until it was on the other side of French Pass. In 1903 a passenger on board the “Penguin” drank too much and fired a gun at Jack. The sailors were angry and wanted to throw him into the sea, but the captain stopped them. Everybody thought Jack was dead, but he was not. True, he never met the “Penguin” again. One day the ship hit the rocks in the Pass and was lost. Jack probably died of old age in 1912 but he wasn’t forgotten. There is a statue erected to his memory on the beach of Wellington.",
+    "answer": 1,
+    "steps": [
+      "Последние предложения говорят «he wasn’t forgotten» и упоминают статую.",
+      "Утверждение, что его забыли, — False."
+    ]
+  },
+  {
+    "title": "Why Jack Is Famous",
+    "question": "Jack is famous because … .",
+    "choices": [
+      "he was unpaid",
+      "he saved many ships",
+      "he didn’t have any training"
+    ],
+    "context": "Read the text and choose the answer.\n\nThe most famous lifesaver in history saved thousands of lives and many ships. He first appeared at the end of the nineteenth century. For more than twenty years he guided ships through dangerous waters. He could not read or write and he had no training. The sailors called him Jack and he was a dolphin. Near the coast of New Zealand there is a dangerous passage called French Pass. It had a bad reputation until Jack arrived. For over twenty years Jack met passing ships. He swam near the ship but when it reached the passage he swam in front of the ship until it was on the other side of French Pass. In 1903 a passenger on board the “Penguin” drank too much and fired a gun at Jack. The sailors were angry and wanted to throw him into the sea, but the captain stopped them. Everybody thought Jack was dead, but he was not. True, he never met the “Penguin” again. One day the ship hit the rocks in the Pass and was lost. Jack probably died of old age in 1912 but he wasn’t forgotten. There is a statue erected to his memory on the beach of Wellington.",
+    "answer": 1,
+    "steps": [
+      "Первая фраза называет его известным спасателем и упоминает много спасённых судов.",
+      "Причина известности — he saved many ships."
+    ]
+  },
+  {
+    "title": "A Safer Passage",
+    "question": "Which is correct?",
+    "choices": [
+      "New Zealand is dangerous",
+      "The passengers shot at Jack",
+      "With Jack, French Pass was safer"
+    ],
+    "context": "Read the text and choose the answer.\n\nThe most famous lifesaver in history saved thousands of lives and many ships. He first appeared at the end of the nineteenth century. For more than twenty years he guided ships through dangerous waters. He could not read or write and he had no training. The sailors called him Jack and he was a dolphin. Near the coast of New Zealand there is a dangerous passage called French Pass. It had a bad reputation until Jack arrived. For over twenty years Jack met passing ships. He swam near the ship but when it reached the passage he swam in front of the ship until it was on the other side of French Pass. In 1903 a passenger on board the “Penguin” drank too much and fired a gun at Jack. The sailors were angry and wanted to throw him into the sea, but the captain stopped them. Everybody thought Jack was dead, but he was not. True, he never met the “Penguin” again. One day the ship hit the rocks in the Pass and was lost. Jack probably died of old age in 1912 but he wasn’t forgotten. There is a statue erected to his memory on the beach of Wellington.",
+    "answer": 2,
+    "steps": [
+      "Джек плыл перед судами, когда они проходили опасное место.",
+      "С его помощью проход становился безопаснее, «With Jack, French Pass was safer»."
+    ]
+  },
+  {
+    "title": "The Passenger on Board",
+    "question": "The sailors on board the“Penguin”wanted to … .",
+    "choices": [
+      "shoot the passenger",
+      "throw him overboard",
+      "put him ashore"
+    ],
+    "context": "Read the text and choose the answer.\n\nThe most famous lifesaver in history saved thousands of lives and many ships. He first appeared at the end of the nineteenth century. For more than twenty years he guided ships through dangerous waters. He could not read or write and he had no training. The sailors called him Jack and he was a dolphin. Near the coast of New Zealand there is a dangerous passage called French Pass. It had a bad reputation until Jack arrived. For over twenty years Jack met passing ships. He swam near the ship but when it reached the passage he swam in front of the ship until it was on the other side of French Pass. In 1903 a passenger on board the “Penguin” drank too much and fired a gun at Jack. The sailors were angry and wanted to throw him into the sea, but the captain stopped them. Everybody thought Jack was dead, but he was not. True, he never met the “Penguin” again. One day the ship hit the rocks in the Pass and was lost. Jack probably died of old age in 1912 but he wasn’t forgotten. There is a statue erected to his memory on the beach of Wellington.",
+    "answer": 1,
+    "steps": [
+      "Моряки «wanted to throw him into the sea».",
+      "С борта корабля это означает «throw him overboard»."
+    ]
+  },
+  {
+    "title": "After the Incident",
+    "question": "Which is correct?",
+    "choices": [
+      "Jack never guided the“Penguin”again",
+      "The“Penguin”sank because there wasn’t a pilot",
+      "The“Penguin”never went to Pass again"
+    ],
+    "context": "Read the text and choose the answer.\n\nThe most famous lifesaver in history saved thousands of lives and many ships. He first appeared at the end of the nineteenth century. For more than twenty years he guided ships through dangerous waters. He could not read or write and he had no training. The sailors called him Jack and he was a dolphin. Near the coast of New Zealand there is a dangerous passage called French Pass. It had a bad reputation until Jack arrived. For over twenty years Jack met passing ships. He swam near the ship but when it reached the passage he swam in front of the ship until it was on the other side of French Pass. In 1903 a passenger on board the “Penguin” drank too much and fired a gun at Jack. The sailors were angry and wanted to throw him into the sea, but the captain stopped them. Everybody thought Jack was dead, but he was not. True, he never met the “Penguin” again. One day the ship hit the rocks in the Pass and was lost. Jack probably died of old age in 1912 but he wasn’t forgotten. There is a statue erected to his memory on the beach of Wellington.",
+    "answer": 0,
+    "steps": [
+      "После выстрела дельфин выжил, но «never met the Penguin again».",
+      "Поэтому он больше не проводил Penguin."
+    ]
+  },
+  {
+    "title": "The End of Jack's Life",
+    "question": "Jack … .",
+    "choices": [
+      "remembered a statue in Wellington",
+      "probably died because he was old",
+      "was shot because he was too old"
+    ],
+    "context": "Read the text and choose the answer.\n\nThe most famous lifesaver in history saved thousands of lives and many ships. He first appeared at the end of the nineteenth century. For more than twenty years he guided ships through dangerous waters. He could not read or write and he had no training. The sailors called him Jack and he was a dolphin. Near the coast of New Zealand there is a dangerous passage called French Pass. It had a bad reputation until Jack arrived. For over twenty years Jack met passing ships. He swam near the ship but when it reached the passage he swam in front of the ship until it was on the other side of French Pass. In 1903 a passenger on board the “Penguin” drank too much and fired a gun at Jack. The sailors were angry and wanted to throw him into the sea, but the captain stopped them. Everybody thought Jack was dead, but he was not. True, he never met the “Penguin” again. One day the ship hit the rocks in the Pass and was lost. Jack probably died of old age in 1912 but he wasn’t forgotten. There is a statue erected to his memory on the beach of Wellington.",
+    "answer": 1,
+    "steps": [
+      "Текст говорит «Jack probably died of old age in 1912».",
+      "Probably сохраняет степень уверенности. Подходит probably died because he was old."
+    ]
+  },
+  {
+    "title": "Leaving Early",
+    "question": "The director dislikes … work early.",
+    "choices": [
+      "if I’m leaving",
+      "it I leave",
+      "my leaving"
+    ],
+    "answer": 2,
+    "steps": [
+      "Dislike допускает герундий, обозначающий действие, которое не нравится.",
+      "My leaving work early — «мой ранний уход с работы»."
+    ]
+  },
+  {
+    "title": "Comparing Salaries",
+    "question": "Your salary is the same … .",
+    "choices": [
+      "as her",
+      "as hers",
+      "like hers"
+    ],
+    "answer": 1,
+    "steps": [
+      "В паре «the same …» употребляется as.",
+      "Hers заменяет her salary целиком, «the same as hers»."
+    ]
+  },
+  {
+    "title": "Watching the Child",
+    "question": "They stood and watched the child … both sandwiches.",
+    "choices": [
+      "eat",
+      "ate",
+      "had eaten"
+    ],
+    "answer": 0,
+    "steps": [
+      "После watch и дополнения the child возможна исходная форма глагола для наблюдаемого действия целиком.",
+      "«Watched the child eat» указывает, что наблюдали, как ребёнок съел бутерброды."
+    ]
+  },
+  {
+    "title": "Leaving Because of the Heat",
+    "question": "The heat … us all leave early.",
+    "choices": [
+      "caused",
+      "made",
+      "forced"
+    ],
+    "answer": 1,
+    "steps": [
+      "Жара заставила всех уйти. После дополнения сразу стоит leave.",
+      "Make somebody do требует инфинитив без to. Cause и force обычно требуют to."
+    ]
+  },
+  {
+    "title": "Length of a Session",
+    "question": "They are planning a … .",
+    "choices": [
+      "two-hour session",
+      "two-hours session",
+      "session of two hour"
+    ],
+    "adaptation": "Вариант C уточнён. В исходнике a session of two hours тоже был грамматически возможен.",
+    "answer": 0,
+    "steps": [
+      "Перед существительным длительность может стать составным прилагательным.",
+      "В «two-hour session» hour в единственном числе и соединяется с two дефисом."
+    ]
+  },
+  {
+    "title": "A Request at a Meeting",
+    "question": "Would you please … during the meeting?",
+    "choices": [
+      "no smoking",
+      "not smoke",
+      "don’t smoke"
+    ],
+    "answer": 1,
+    "steps": [
+      "Would you please вводит просьбу. Для запрета после please нужна отрицательная форма.",
+      "«Would you please not smoke …?» — вежливая просьба не курить."
+    ]
+  },
+  {
+    "title": "Repairing Machines",
+    "question": "He said that this machine required far … repairs than the others.",
+    "choices": [
+      "less",
+      "lesser",
+      "fewer"
+    ],
+    "answer": 2,
+    "steps": [
+      "Repairs — исчисляемое множественное число. Than требует сравнения.",
+      "Fewer употребляется для меньшего числа ремонтов."
+    ]
+  },
+  {
+    "title": "Reacting to an Article",
+    "question": "Did you like the article? Yes, rarely … anything so well written.",
+    "choices": [
+      "I have read",
+      "did I read",
+      "have I read"
+    ],
+    "answer": 2,
+    "steps": [
+      "Rarely поставлено в начале для усиления. После него нужен обратный порядок.",
+      "В «rarely have I read …» have встаёт перед I."
+    ]
+  },
+  {
+    "title": "The Lights Are Off",
+    "question": "They … at home. The lights are off.",
+    "choices": [
+      "can’t be",
+      "must be",
+      "mustn’t be"
+    ],
+    "answer": 0,
+    "steps": [
+      "Говорящий по отсутствию света судит, что дома никого нет.",
+      "Can’t be выражает сильный вывод о невозможности."
+    ]
+  },
+  {
+    "title": "A Suggested Transfer",
+    "question": "Mary is sick of her job. Well, I suggest that she … for a transfer.",
+    "choices": [
+      "would ask",
+      "asks",
+      "ask"
+    ],
+    "answer": 2,
+    "steps": [
+      "Suggest that вводит предложение о переводе на другую работу.",
+      "В сослагательной конструкции после she остаётся исходное ask."
+    ]
+  },
+  {
+    "title": "A Formal Request",
+    "question": "Your … to this matter will be greatly appreciated.",
+    "choices": [
+      "attention",
+      "approval",
+      "support"
+    ],
+    "answer": 0,
+    "steps": [
+      "В официальном письме нужно выразить просьбу уделить вопросу внимание.",
+      "Сочетание attention to this matter подходит по значению и предлогу."
+    ]
+  },
+  {
+    "title": "Considering an Opinion",
+    "question": "I hope my opinion will be taken into … .",
+    "choices": [
+      "attention",
+      "advantage",
+      "consideration"
+    ],
+    "answer": 2,
+    "steps": [
+      "Мнение просят учесть при принятии решения.",
+      "Устойчиво «take into consideration»."
+    ]
+  },
+  {
+    "title": "A Monthly Meeting",
+    "question": "I am writing in … with our next monthly meeting.",
+    "choices": [
+      "response",
+      "reply",
+      "connection"
+    ],
+    "answer": 2,
+    "steps": [
+      "Автор указывает тему письма, следующее собрание.",
+      "«In connection with» значит «в связи с». Response и reply сочетаются с to."
+    ]
+  },
+  {
+    "title": "An Insurance Policy",
+    "question": "I am writing to you … my health insurance policy.",
+    "choices": [
+      "connecting",
+      "referring",
+      "concerning"
+    ],
+    "answer": 2,
+    "steps": [
+      "После пропуска прямо назван предмет письма, страховой полис.",
+      "Concerning употребляется как предлог со значением «касательно»."
+    ]
+  },
+  {
+    "title": "Requesting Information",
+    "question": "I would be grateful … further information.",
+    "choices": [
+      "receiving",
+      "to receive",
+      "receive"
+    ],
+    "answer": 1,
+    "steps": [
+      "После «I would be grateful» автор говорит, за какое действие был бы благодарен.",
+      "Конструкция «be grateful to receive» соединяет прилагательное и инфинитив."
+    ]
+  },
+  {
+    "title": "A Thank-You in Advance",
+    "question": "Any help you can provide will be … .",
+    "choices": [
+      "gratifying",
+      "grateful",
+      "appreciated"
+    ],
+    "answer": 2,
+    "steps": [
+      "Help — то, что автор ценит. В пассиве выбираем причастие после will be.",
+      "«Will be appreciated» значит «будет высоко оценена»."
+    ]
+  },
+  {
+    "title": "Unable to Attend",
+    "question": "I regret to … you that I cannot attend the meeting.",
+    "choices": [
+      "say",
+      "inform",
+      "reply"
+    ],
+    "answer": 1,
+    "steps": [
+      "Автор вежливо сообщает неприятную новость.",
+      "«I regret to inform you that …» — стандартная формула официального письма."
+    ]
+  },
+  {
+    "title": "Further Questions",
+    "question": "Do not … to contact me if you have further questions.",
+    "choices": [
+      "avoid",
+      "bother",
+      "hesitate"
+    ],
+    "answer": 2,
+    "steps": [
+      "Автор предлагает обращаться при новых вопросах.",
+      "«Do not hesitate to contact me» означает «не стесняйтесь обращаться ко мне»."
+    ]
+  },
+  {
+    "title": "Approving a Proposal",
+    "question": "I give your proposal my wholehearted … .",
+    "choices": [
+      "approval",
+      "sustenance",
+      "approbation"
+    ],
+    "answer": 0,
+    "steps": [
+      "Wholehearted означает «искренний, полный». Нужна положительная оценка предложения.",
+      "Деловое сочетание «give my wholehearted approval» означает «полностью одобряю»."
+    ]
+  },
+  {
+    "title": "A Quick Response",
+    "question": "I would appreciate your … attention to this matter.",
+    "choices": [
+      "prompt",
+      "soon",
+      "fast"
+    ],
+    "answer": 0,
+    "steps": [
+      "Просьба требует внимания без задержки.",
+      "Prompt — «оперативный» и естественно сочетается с attention."
+    ]
+  },
+  {
+    "title": "Editors of a Publication",
+    "question": "The … must be intelligent and well-educated people.",
+    "choices": [
+      "editors-in-chief",
+      "editor-in-chiefs",
+      "editor-in-chief"
+    ],
+    "answer": 0,
+    "steps": [
+      "В составном editors-in-chief основное слово — editor. Остальное описывает его должность.",
+      "Множественное число ставится у первого слова, editors-in-chief."
+    ]
+  },
+  {
+    "title": "Favourite Flowers",
+    "question": "Her favourite flowers were … .",
+    "choices": [
+      "forgets-me-not",
+      "forget-me-not",
+      "forget-me-nots"
+    ],
+    "answer": 2,
+    "steps": [
+      "Her favourite flowers — множественное число. Название одного цветка — forget-me-not.",
+      "Стандартная форма множественного числа — forget-me-nots."
+    ]
+  },
+  {
+    "title": "Information in a Report",
+    "question": "I’ve used many new and important … in my report.",
+    "choices": [
+      "datum",
+      "data",
+      "datas"
+    ],
+    "answer": 1,
+    "steps": [
+      "Datum — форма единственного числа в традиционной паре datum/data.",
+      "Many требует множественного, поэтому подходит data."
+    ]
+  },
+  {
+    "title": "Workers on Strike",
+    "question": "About two … workers took part in the strike.",
+    "choices": [
+      "thousandes",
+      "thousands",
+      "thousand"
+    ],
+    "answer": 2,
+    "steps": [
+      "Перед thousand стоит конкретное число two.",
+      "В сочетании «two thousand workers» thousand не получает -s."
+    ]
+  },
+  {
+    "title": "A Topic of Study",
+    "question": "This … is poorly studied.",
+    "choices": [
+      "phenomenon",
+      "phenomenons",
+      "phenomena"
+    ],
+    "answer": 0,
+    "steps": [
+      "This указывает на один объект или случай.",
+      "Phenomenon — единственное число. Phenomena — множественное."
+    ]
+  },
+  {
+    "title": "One Gate",
+    "question": "Look! The gate … open!",
+    "choices": [
+      "is",
+      "are",
+      "was"
+    ],
+    "answer": 0,
+    "steps": [
+      "The gate — единственное число. «Look!» обращает внимание на текущее состояние.",
+      "Нужна форма is."
+    ]
+  },
+  {
+    "title": "Several Gates",
+    "question": "I’m sure that the gates … been locked.",
+    "choices": [
+      "has",
+      "have",
+      "had"
+    ],
+    "answer": 1,
+    "steps": [
+      "The gates — множественное число. После пропуска been locked.",
+      "Present Perfect Passive строится «the gates have been locked»."
+    ]
+  },
+  {
+    "title": "The Game of Billiards",
+    "question": "Billiards … an interesting game.",
+    "choices": [
+      "are",
+      "is",
+      "were"
+    ],
+    "answer": 1,
+    "steps": [
+      "Billiards — имя одного вида игры. Конечное -s входит в название.",
+      "Поэтому «Billiards is an interesting game»."
+    ]
+  },
+  {
+    "title": "A Short Holiday",
+    "question": "Three days … long enough for a good holiday.",
+    "choices": [
+      "isn’t",
+      "aren’t",
+      "weren’t"
+    ],
+    "answer": 0,
+    "steps": [
+      "Three days рассматривается как единый отрезок времени.",
+      "С ним «isn’t long enough» выражает, что всего периода недостаточно."
+    ]
+  },
+  {
+    "title": "A Holiday in July",
+    "question": "She had a wonderful three-… holiday in July.",
+    "choices": [
+      "week",
+      "weekes",
+      "weeks"
+    ],
+    "answer": 0,
+    "steps": [
+      "Three-… стоит перед holiday и описывает длительность.",
+      "Во фразе three-week holiday составное прилагательное содержит week без -s."
+    ]
+  },
+  {
+    "title": "Lost in the Forest",
+    "question": "We lost our … in the forest.",
+    "choices": [
+      "way",
+      "wait",
+      "weigh"
+    ],
+    "answer": 0,
+    "steps": [
+      "Put «lost our» перед существительным со значением пути.",
+      "«Lose one’s way» значит «заблудиться»."
+    ]
+  },
+  {
+    "title": "A Police Description",
+    "question": "Police described her attacker as a white … aged 25.",
+    "choices": [
+      "male",
+      "mail",
+      "nail"
+    ],
+    "answer": 0,
+    "steps": [
+      "Возраст и внешность описывают мужчину, разыскиваемого полицией.",
+      "Male здесь существительное «мужчина»."
+    ]
+  },
+  {
+    "title": "The Wide World",
+    "question": "You are my best friend in the … wide world.",
+    "choices": [
+      "whole",
+      "hole",
+      "broad"
+    ],
+    "answer": 0,
+    "steps": [
+      "Речь об огромном мире целиком. Слово должно обозначать полноту.",
+      "Устойчивый оборот — «the whole wide world»."
+    ]
+  },
+  {
+    "title": "A Product's Sales",
+    "question": "Anti-age creams always … well.",
+    "choices": [
+      "cell",
+      "sell",
+      "make"
+    ],
+    "answer": 1,
+    "steps": [
+      "Creams — товар. «… well» описывает, хорошо ли товар покупают.",
+      "«Sell well» значит «хорошо продаются»."
+    ]
+  },
+  {
+    "title": "Sitting on a Step",
+    "question": "Lucy sat down on the bottom … .",
+    "choices": [
+      "stare",
+      "stair",
+      "stairs"
+    ],
+    "answer": 1,
+    "steps": [
+      "The bottom обозначает нижний край лестницы. Сидят на одной нижней ступеньке.",
+      "Stair в единственном числе означает отдельную ступеньку."
+    ]
+  },
+  {
+    "title": "A Ticket Price",
+    "question": "Children under four travel half-… .",
+    "choices": [
+      "fair",
+      "spare",
+      "fare"
+    ],
+    "answer": 2,
+    "steps": [
+      "Речь о стоимости поездки для ребёнка.",
+      "Fare — плата за проезд. Half-fare значит «за половину стоимости»."
+    ]
+  },
+  {
+    "title": "A Political Successor",
+    "question": "Johnson was the political … as the leader of the party.",
+    "choices": [
+      "heir",
+      "air",
+      "fair"
+    ],
+    "answer": 0,
+    "steps": [
+      "Здесь речь о человеке, который займёт место политического лидера.",
+      "Heir означает «наследник» и может описывать преемника."
+    ]
+  },
+  {
+    "title": "Queen Victoria",
+    "question": "Queen Victoria … from 1837 to 1901.",
+    "choices": [
+      "rain",
+      "rained",
+      "reigned"
+    ],
+    "answer": 2,
+    "steps": [
+      "Даты задают период правления Виктории в прошлом.",
+      "Глагол reign означает «царствовать». Прошедшая форма — reigned."
+    ]
+  },
+  {
+    "title": "Hair Colour",
+    "question": "Her hair was … jet black.",
+    "choices": [
+      "die",
+      "died",
+      "dyed"
+    ],
+    "answer": 2,
+    "steps": [
+      "Jet black — угольно-чёрный цвет, полученный окрашиванием.",
+      "Пассивное «was dyed» содержит причастие от dye, «красить»."
+    ]
+  },
+  {
+    "title": "A Symptom",
+    "question": "He woke up with a temperature and a … throat.",
+    "choices": [
+      "saw",
+      "sour",
+      "sore"
+    ],
+    "answer": 2,
+    "steps": [
+      "A temperature означает повышенную температуру тела. Второй симптом касается горла.",
+      "A sore throat — «боль в горле»."
+    ]
+  }
+]

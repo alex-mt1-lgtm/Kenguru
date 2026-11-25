@@ -102,10 +102,14 @@ def answer_parts(row, letters):
     if type(number) is not int or number < 1:
         raise ValueError(f'Invalid question number {number!r}')
 
+    if row.get('textAnswer') is not None:
+        return '—', row['textAnswer']
+
     if row.get('numericAnswer') is not None:
         if type(row['numericAnswer']) is not int:
             raise ValueError(f'Question {number}: numericAnswer must be an integer')
-        return '—', str(row['numericAnswer'])
+        answers = row.get('acceptedNumericAnswers') or [row['numericAnswer']]
+        return '—', ' или '.join(str(value) for value in answers)
 
     answer = row['answer']
     choices = row.get('revisedChoices', row['choices'])
@@ -315,7 +319,7 @@ def draw_appendix(pdf, title, revisions, letters, regular, bold):
         choices = row.get('revisedChoices', row['choices'])
         if not isinstance(question, str) or not question.strip():
             raise ValueError(f'Question {number}: missing revised wording')
-        if not isinstance(choices, list) or len(choices) > len(letters) or (not choices and row.get('numericAnswer') is None):
+        if not isinstance(choices, list) or len(choices) > len(letters) or (not choices and row.get('numericAnswer') is None and row.get('textAnswer') is None):
             raise ValueError(f'Question {number}: invalid revised choices')
 
         question_lines = [line for paragraph in question.splitlines() for line in wrap(paragraph, regular, BODY_SIZE, width)]

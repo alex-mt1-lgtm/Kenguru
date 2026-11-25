@@ -1,0 +1,1043 @@
+[
+  {
+    "title": "Where the Exhibition Is",
+    "question": "Where is the food exhibition?",
+    "choices": [
+      "At the university",
+      "At the museum",
+      "At school",
+      "In the library"
+    ],
+    "answer": 3,
+    "steps": [
+      "В записи спрашивают о выставке еды.",
+      "Она проходит в библиотеке: «in the library»."
+    ],
+    "context": "Listen to the text and choose the correct answer",
+    "audio": true
+  },
+  {
+    "title": "Tennis Partner",
+    "question": "Who does the boy usually play tennis with?",
+    "choices": [
+      "Father",
+      "Rachel",
+      "His teacher",
+      "Mother"
+    ],
+    "answer": 0,
+    "steps": [
+      "Слово usually относится к тому, с кем мальчик играет регулярно.",
+      "В обычное время Пол играет в теннис с отцом, father."
+    ],
+    "context": "Listen to the text and choose the correct answer",
+    "audio": true
+  },
+  {
+    "title": "The Usual Tennis Day",
+    "question": "When do they play tennis as a rule? On … .",
+    "choices": [
+      "Sunday",
+      "Friday",
+      "Saturday",
+      "Monday"
+    ],
+    "answer": 2,
+    "steps": [
+      "As a rule означает «как правило».",
+      "Обычно они играют в субботу, Saturday."
+    ],
+    "context": "Listen to the text and choose the correct answer",
+    "audio": true
+  },
+  {
+    "title": "The Exhibition Day",
+    "question": "When did the boy go to the exhibition? On … .",
+    "choices": [
+      "Monday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "answer": 3,
+    "steps": [
+      "Обрати внимание, что это день посещения выставки, а не обычной игры в теннис.",
+      "Пол пошёл в воскресенье, Sunday."
+    ],
+    "context": "Listen to the text and choose the correct answer",
+    "audio": true
+  },
+  {
+    "title": "End of the Exhibition",
+    "question": "When does the exhibition end? On the … of May.",
+    "choices": [
+      "18th",
+      "30th",
+      "10th",
+      "12th"
+    ],
+    "answer": 1,
+    "steps": [
+      "Когда спрашивают «when does it end», нужна конечная дата.",
+      "В записи названо 30 мая."
+    ],
+    "context": "Listen to the text and choose the correct answer",
+    "audio": true
+  },
+  {
+    "title": "What Paul Received",
+    "question": "What was the boy given at the exhibition?",
+    "choices": [
+      "Posters",
+      "A toy",
+      "A pen",
+      "Pencils"
+    ],
+    "answer": 2,
+    "steps": [
+      "В записи речь о том, что ему дали.",
+      "Это ручка, a pen."
+    ],
+    "context": "Listen to the text and choose the correct answer",
+    "audio": true
+  },
+  {
+    "title": "Paul’s Favourite Part",
+    "question": "What did the boy like most about the exhibition?",
+    "choices": [
+      "Food",
+      "Nothing",
+      "Computer games",
+      "Pens"
+    ],
+    "answer": 2,
+    "steps": [
+      "Вопрос о том, что ему понравилось больше всего.",
+      "Пол выделяет компьютерные игры, computer games."
+    ],
+    "context": "Listen to the text and choose the correct answer",
+    "audio": true
+  },
+  {
+    "title": "Why the Class Should Go",
+    "question": "Why should the boy’s class visit the exhibition? They … .",
+    "choices": [
+      "are interested in books",
+      "win a prize",
+      "can make their project better",
+      "like museums"
+    ],
+    "answer": 2,
+    "steps": [
+      "В записи выставка связана со школьным проектом.",
+      "Идеи с выставки помогут ребятам его улучшить."
+    ],
+    "context": "Listen to the text and choose the correct answer",
+    "audio": true
+  },
+  {
+    "title": "A Competition",
+    "question": "What competitions can the visitors take part in?",
+    "choices": [
+      "Drawing",
+      "Sport",
+      "Geographical",
+      "IT"
+    ],
+    "answer": 0,
+    "steps": [
+      "На выставке можно участвовать в конкурсе рисунков.",
+      "Drawing — рисование."
+    ],
+    "context": "Listen to the text and choose the correct answer",
+    "audio": true
+  },
+  {
+    "title": "A Prize for Winners",
+    "question": "Will the winners get a prize?",
+    "choices": [
+      "No, they will.",
+      "Yes, they will.",
+      "Of course.",
+      "Paul is not sure."
+    ],
+    "answer": 3,
+    "steps": [
+      "Пол не знает наверняка, будет ли приз.",
+      "«Paul is not sure» передаёт его сомнение."
+    ],
+    "context": "Listen to the text and choose the correct answer",
+    "audio": true
+  },
+  {
+    "title": "Where Stevenson Was Born",
+    "question": "Where was Robert Louis Stevenson born?",
+    "choices": [
+      "The USA",
+      "Ireland",
+      "Scotland",
+      "Wales"
+    ],
+    "answer": 2,
+    "steps": [
+      "В первом предложении прямо указано «was born in Scotland».",
+      "Это место рождения писателя."
+    ],
+    "context": "Read the text and choose the correct answer\n\nRobert Louis Stevenson was born in Scotland in 1850. As a child his health was poor, and he spent a lot of time ill in bed. His nurse filled the long days by narrating stories packed with drama and action. Stevenson always remembered the stories, and admitted that they had an impact on his writing style. Stevenson’s illness continued throughout his life, and he travelled widely looking for a place with a climate warm enough to benefit his health. He even moved to Samoa, which is an island in the Pacific Ocean. But Stevenson’s best known island comes from his imagination, when he drew a map of an island to keep his son happy. The stories he wrote to accompany it became one of literature’s most exciting adventure novels: Treasure Island ."
+  },
+  {
+    "title": "His Birth Century",
+    "question": "What century was he born in? In the … century.",
+    "choices": [
+      "18th",
+      "17th",
+      "20th",
+      "19th"
+    ],
+    "answer": 3,
+    "steps": [
+      "Стивенсон родился в 1850 году.",
+      "Это XIX век, 19th century."
+    ],
+    "context": "Read the text and choose the correct answer\n\nRobert Louis Stevenson was born in Scotland in 1850. As a child his health was poor, and he spent a lot of time ill in bed. His nurse filled the long days by narrating stories packed with drama and action. Stevenson always remembered the stories, and admitted that they had an impact on his writing style. Stevenson’s illness continued throughout his life, and he travelled widely looking for a place with a climate warm enough to benefit his health. He even moved to Samoa, which is an island in the Pacific Ocean. But Stevenson’s best known island comes from his imagination, when he drew a map of an island to keep his son happy. The stories he wrote to accompany it became one of literature’s most exciting adventure novels: Treasure Island ."
+  },
+  {
+    "title": "His Nurse’s Stories",
+    "question": "What did his nurse do? She … the stories.",
+    "choices": [
+      "spoke",
+      "said",
+      "narrated",
+      "wrote"
+    ],
+    "answer": 2,
+    "steps": [
+      "В тексте о няне сказано «by narrating stories», рассказывая истории.",
+      "В предложении нужна форма narrated."
+    ],
+    "context": "Read the text and choose the correct answer\n\nRobert Louis Stevenson was born in Scotland in 1850. As a child his health was poor, and he spent a lot of time ill in bed. His nurse filled the long days by narrating stories packed with drama and action. Stevenson always remembered the stories, and admitted that they had an impact on his writing style. Stevenson’s illness continued throughout his life, and he travelled widely looking for a place with a climate warm enough to benefit his health. He even moved to Samoa, which is an island in the Pacific Ocean. But Stevenson’s best known island comes from his imagination, when he drew a map of an island to keep his son happy. The stories he wrote to accompany it became one of literature’s most exciting adventure novels: Treasure Island ."
+  },
+  {
+    "title": "What the Stories Were Like",
+    "question": "What kind of stories were they?",
+    "choices": [
+      "Funny",
+      "Dull",
+      "Dramatic",
+      "Romantic"
+    ],
+    "answer": 2,
+    "steps": [
+      "Истории были «packed with drama and action», наполнены драматичными событиями.",
+      "Из вариантов подходит dramatic."
+    ],
+    "context": "Read the text and choose the correct answer\n\nRobert Louis Stevenson was born in Scotland in 1850. As a child his health was poor, and he spent a lot of time ill in bed. His nurse filled the long days by narrating stories packed with drama and action. Stevenson always remembered the stories, and admitted that they had an impact on his writing style. Stevenson’s illness continued throughout his life, and he travelled widely looking for a place with a climate warm enough to benefit his health. He even moved to Samoa, which is an island in the Pacific Ocean. But Stevenson’s best known island comes from his imagination, when he drew a map of an island to keep his son happy. The stories he wrote to accompany it became one of literature’s most exciting adventure novels: Treasure Island ."
+  },
+  {
+    "title": "His Writing Style",
+    "question": "Did the stories influence the writer? … .",
+    "choices": [
+      "Yes, they did",
+      "Yes, they do",
+      "No, they didn’t",
+      "Not at all"
+    ],
+    "answer": 0,
+    "steps": [
+      "Фраза «they had an impact on his writing style» означает, что рассказы повлияли на его стиль.",
+      "Поэтому «Yes, they did»."
+    ],
+    "context": "Read the text and choose the correct answer\n\nRobert Louis Stevenson was born in Scotland in 1850. As a child his health was poor, and he spent a lot of time ill in bed. His nurse filled the long days by narrating stories packed with drama and action. Stevenson always remembered the stories, and admitted that they had an impact on his writing style. Stevenson’s illness continued throughout his life, and he travelled widely looking for a place with a climate warm enough to benefit his health. He even moved to Samoa, which is an island in the Pacific Ocean. But Stevenson’s best known island comes from his imagination, when he drew a map of an island to keep his son happy. The stories he wrote to accompany it became one of literature’s most exciting adventure novels: Treasure Island ."
+  },
+  {
+    "title": "The Best Kind of Climate",
+    "question": "What kind of weather was good for his health?",
+    "choices": [
+      "Damp",
+      "Frosty",
+      "Windy",
+      "Warm"
+    ],
+    "answer": 3,
+    "steps": [
+      "Стивенсон искал «a climate warm enough to benefit his health».",
+      "Значит, здоровью помогала тёплая погода."
+    ],
+    "context": "Read the text and choose the correct answer\n\nRobert Louis Stevenson was born in Scotland in 1850. As a child his health was poor, and he spent a lot of time ill in bed. His nurse filled the long days by narrating stories packed with drama and action. Stevenson always remembered the stories, and admitted that they had an impact on his writing style. Stevenson’s illness continued throughout his life, and he travelled widely looking for a place with a climate warm enough to benefit his health. He even moved to Samoa, which is an island in the Pacific Ocean. But Stevenson’s best known island comes from his imagination, when he drew a map of an island to keep his son happy. The stories he wrote to accompany it became one of literature’s most exciting adventure novels: Treasure Island ."
+  },
+  {
+    "title": "A Reason to Travel",
+    "question": "Why did Robert Louis Stevenson travel? To … .",
+    "choices": [
+      "study languages",
+      "see the world",
+      "improve his health",
+      "enjoy nature"
+    ],
+    "answer": 2,
+    "steps": [
+      "Стивенсон искал климат, полезный для здоровья.",
+      "Improve his health — поправить здоровье."
+    ],
+    "context": "Read the text and choose the correct answer\n\nRobert Louis Stevenson was born in Scotland in 1850. As a child his health was poor, and he spent a lot of time ill in bed. His nurse filled the long days by narrating stories packed with drama and action. Stevenson always remembered the stories, and admitted that they had an impact on his writing style. Stevenson’s illness continued throughout his life, and he travelled widely looking for a place with a climate warm enough to benefit his health. He even moved to Samoa, which is an island in the Pacific Ocean. But Stevenson’s best known island comes from his imagination, when he drew a map of an island to keep his son happy. The stories he wrote to accompany it became one of literature’s most exciting adventure novels: Treasure Island ."
+  },
+  {
+    "title": "Samoa",
+    "question": "What is Samoa? It’s a/an … .",
+    "choices": [
+      "port",
+      "town",
+      "peak",
+      "island"
+    ],
+    "answer": 3,
+    "steps": [
+      "В тексте сказано, что Самоа — остров в Тихом океане.",
+      "После an подходит island."
+    ],
+    "context": "Read the text and choose the correct answer\n\nRobert Louis Stevenson was born in Scotland in 1850. As a child his health was poor, and he spent a lot of time ill in bed. His nurse filled the long days by narrating stories packed with drama and action. Stevenson always remembered the stories, and admitted that they had an impact on his writing style. Stevenson’s illness continued throughout his life, and he travelled widely looking for a place with a climate warm enough to benefit his health. He even moved to Samoa, which is an island in the Pacific Ocean. But Stevenson’s best known island comes from his imagination, when he drew a map of an island to keep his son happy. The stories he wrote to accompany it became one of literature’s most exciting adventure novels: Treasure Island ."
+  },
+  {
+    "title": "Something for His Son",
+    "question": "What did the writer do for his son? He … .",
+    "choices": [
+      "drew a map",
+      "built a ship",
+      "sang",
+      "made a toy"
+    ],
+    "answer": 0,
+    "steps": [
+      "Чтобы занять сына, Стивенсон нарисовал карту острова.",
+      "Drew — прошедшая форма draw."
+    ],
+    "context": "Read the text and choose the correct answer\n\nRobert Louis Stevenson was born in Scotland in 1850. As a child his health was poor, and he spent a lot of time ill in bed. His nurse filled the long days by narrating stories packed with drama and action. Stevenson always remembered the stories, and admitted that they had an impact on his writing style. Stevenson’s illness continued throughout his life, and he travelled widely looking for a place with a climate warm enough to benefit his health. He even moved to Samoa, which is an island in the Pacific Ocean. But Stevenson’s best known island comes from his imagination, when he drew a map of an island to keep his son happy. The stories he wrote to accompany it became one of literature’s most exciting adventure novels: Treasure Island ."
+  },
+  {
+    "title": "Treasure Island",
+    "question": "Did Treasure Island exist in reality? … .",
+    "choices": [
+      "Yes, it is",
+      "No, it did",
+      "No, it didn’t",
+      "Yes, it was"
+    ],
+    "answer": 2,
+    "steps": [
+      "Самый известный остров Стивенсона «comes from his imagination», то есть выдуман.",
+      "Ответ «No, it didn’t»."
+    ],
+    "context": "Read the text and choose the correct answer\n\nRobert Louis Stevenson was born in Scotland in 1850. As a child his health was poor, and he spent a lot of time ill in bed. His nurse filled the long days by narrating stories packed with drama and action. Stevenson always remembered the stories, and admitted that they had an impact on his writing style. Stevenson’s illness continued throughout his life, and he travelled widely looking for a place with a climate warm enough to benefit his health. He even moved to Samoa, which is an island in the Pacific Ocean. But Stevenson’s best known island comes from his imagination, when he drew a map of an island to keep his son happy. The stories he wrote to accompany it became one of literature’s most exciting adventure novels: Treasure Island ."
+  },
+  {
+    "title": "A Dog by the Fire",
+    "question": "The dog … near the fire.",
+    "choices": [
+      "is sleeping",
+      "sleep",
+      "sleeps",
+      "doesn’t sleep"
+    ],
+    "answer": 1,
+    "steps": [
+      "В этом разделе нужно найти ошибочную форму.",
+      "The dog — третье лицо единственного числа, поэтому без вспомогательного глагола требуется sleeps, а не sleep."
+    ],
+    "context": "Find the variant which is NOT correct"
+  },
+  {
+    "title": "A Game of Chess",
+    "question": "The boy … play chess.",
+    "choices": [
+      "could",
+      "can",
+      "was able to",
+      "cans"
+    ],
+    "answer": 3,
+    "steps": [
+      "Ищем ошибку.",
+      "Модальное can не меняется по лицам и не принимает -s: «the boy can play»."
+    ],
+    "context": "Find the variant which is NOT correct"
+  },
+  {
+    "title": "Getting Up Early",
+    "question": "He … gets up early in the morning.",
+    "choices": [
+      "often",
+      "usually",
+      "as usually",
+      "seldom"
+    ],
+    "answer": 2,
+    "steps": [
+      "Можно сказать «he usually gets up» или «as usual».",
+      "Форма «as usually» смешивает эти конструкции."
+    ],
+    "context": "Find the variant which is NOT correct"
+  },
+  {
+    "title": "Making Meals",
+    "question": "My mother … in our family.",
+    "choices": [
+      "cooks meals",
+      "cooks",
+      "is the cook",
+      "do meals"
+    ],
+    "answer": 3,
+    "steps": [
+      "«Do meals» означает, что речь о приготовлении еды, но в форме «my mother do meals» нет согласования с третьим лицом.",
+      "Стандартное сочетание здесь — «makes meals»."
+    ],
+    "context": "Find the variant which is NOT correct"
+  },
+  {
+    "title": "Working in the Garden",
+    "question": "I’m fond of gardening so I like … flowers.",
+    "choices": [
+      "weeding",
+      "planting",
+      "watering",
+      "sledding"
+    ],
+    "answer": 3,
+    "steps": [
+      "Sledding — катание на санках.",
+      "Оно не обозначает никакого действия с цветами. Здесь подходят выращивание и уход за растениями."
+    ],
+    "context": "Find the variant which is NOT correct"
+  },
+  {
+    "title": "Apples on the Ground",
+    "question": "There are … apples on the ground.",
+    "choices": [
+      "many",
+      "much",
+      "few",
+      "a lot of"
+    ],
+    "answer": 1,
+    "steps": [
+      "Apples — счётное существительное во множественном числе.",
+      "Much употребляется с неисчисляемыми, поэтому здесь ошибочно."
+    ],
+    "context": "Find the variant which is NOT correct"
+  },
+  {
+    "title": "Speaking Two Languages",
+    "question": "The boy … English and French.",
+    "choices": [
+      "knows",
+      "know",
+      "can speak",
+      "speaks"
+    ],
+    "answer": 1,
+    "steps": [
+      "The boy — третье лицо единственного числа.",
+      "В Present Simple правильно «knows», а форма «know» здесь ошибочна."
+    ],
+    "context": "Find the variant which is NOT correct"
+  },
+  {
+    "title": "Where Is the Book?",
+    "question": "Where is my book? Oh, it’s … the table.",
+    "choices": [
+      "during",
+      "on",
+      "on top of",
+      "under"
+    ],
+    "answer": 0,
+    "steps": [
+      "On, on top of и under показывают положение относительно стола.",
+      "During обозначает время, например «during the lesson», поэтому не подходит для описания места."
+    ],
+    "context": "Find the variant which is NOT correct",
+    "adaptation": "В буклете все четыре варианта могли описывать положение книги. В интерактивной версии in заменено на during, чтобы можно было найти грамматическую ошибку."
+  },
+  {
+    "title": "Whose Pen?",
+    "question": "Whose pen is it? It’s … .",
+    "choices": [
+      "my",
+      "mine",
+      "Ann’s",
+      "hers"
+    ],
+    "answer": 0,
+    "steps": [
+      "После «it’s» без существительного можно использовать mine, hers или Ann’s.",
+      "My требует, чтобы далее было существительное, например my pen."
+    ],
+    "context": "Find the variant which is NOT correct"
+  },
+  {
+    "title": "A Sweet Tooth",
+    "question": "My friend has a sweet tooth. She eats a lot of … .",
+    "choices": [
+      "candies",
+      "biscuits",
+      "ham",
+      "honey"
+    ],
+    "answer": 2,
+    "steps": [
+      "«Have a sweet tooth» значит любить сладкое.",
+      "Ham — ветчина, это слово не подходит по смыслу."
+    ],
+    "context": "Find the variant which is NOT correct"
+  },
+  {
+    "title": "Weekend Plans",
+    "question": "What are you going to do at the weekend?",
+    "choices": [
+      "I’m going to a concert.",
+      "I go to a concert.",
+      "I was at home.",
+      "I went to a concert."
+    ],
+    "answer": 0,
+    "steps": [
+      "«What are you going to do?» спрашивает о планах.",
+      "«I’m going to a concert» отвечает, чем человек займётся."
+    ],
+    "context": "Match the question to the answers"
+  },
+  {
+    "title": "An Offer of Coffee",
+    "question": "Would you like a cup of coffee?",
+    "choices": [
+      "I can make coffee.",
+      "No, thanks.",
+      "I’m thirsty.",
+      "I’m hungry."
+    ],
+    "answer": 1,
+    "steps": [
+      "«Would you like …?» — предложение напитка.",
+      "«No, thanks» — вежливый отказ."
+    ],
+    "context": "Match the question to the answers"
+  },
+  {
+    "title": "Length of the Coach Trip",
+    "question": "How long does the coach trip take?",
+    "choices": [
+      "At 7 a.m.",
+      "In May.",
+      "On Friday.",
+      "One hour."
+    ],
+    "answer": 3,
+    "steps": [
+      "How long спрашивает о продолжительности.",
+      "One hour обозначает длительность поездки."
+    ],
+    "context": "Match the question to the answers"
+  },
+  {
+    "title": "Is Lunch Ready?",
+    "question": "Isn’t lunch ready yet?",
+    "choices": [
+      "Fish and chips.",
+      "Yes, it isn’t.",
+      "I don’t have lunch.",
+      "It will be soon."
+    ],
+    "answer": 3,
+    "steps": [
+      "Реплика «It will be soon» означает «скоро будет готов».",
+      "Она подходит к вопросу, готов ли уже обед."
+    ],
+    "context": "Match the question to the answers"
+  },
+  {
+    "title": "The Phone Call",
+    "question": "Who phoned me?",
+    "choices": [
+      "I forgot to ask.",
+      "It’s Anne.",
+      "I didn’t know.",
+      "I do."
+    ],
+    "answer": 0,
+    "steps": [
+      "«Who phoned me?» спрашивает, кто звонил.",
+      "«I forgot to ask» объясняет, почему собеседник не может назвать имя."
+    ],
+    "context": "Match the question to the answers"
+  },
+  {
+    "title": "Everybody Knows You",
+    "question": "Everybody knows you already, …?",
+    "choices": [
+      "do they",
+      "don’t they",
+      "aren’t they",
+      "isn’t it"
+    ],
+    "answer": 1,
+    "steps": [
+      "Everybody грамматически единственного числа в первой части, но в коротком вопросе заменяется they.",
+      "Утвердительное «knows» даёт отрицательное «don’t they?»."
+    ],
+    "context": "Match the question to the answers"
+  },
+  {
+    "title": "Asking to Use the Phone",
+    "question": "Can I use your phone, please?",
+    "choices": [
+      "Sure, no problem.",
+      "They’re all right.",
+      "I have a phone.",
+      "It doesn’t matter."
+    ],
+    "answer": 0,
+    "steps": [
+      "Вопрос просит разрешения.",
+      "«Sure, no problem» означает «конечно, без проблем»."
+    ],
+    "context": "Match the question to the answers"
+  },
+  {
+    "title": "Talking About Holidays",
+    "question": "Did you have a good holiday?",
+    "choices": [
+      "Yes, I’m going on holiday.",
+      "I like holidays.",
+      "Yes, but it was short.",
+      "Yes, it is wonderful."
+    ],
+    "answer": 2,
+    "steps": [
+      "«Did you have a good holiday?» спрашивает о прошедших каникулах.",
+      "В ответе «Yes, but it was short» человек говорит, что отдых был хорошим, но коротким."
+    ],
+    "context": "Match the question to the answers"
+  },
+  {
+    "title": "What Is That?",
+    "question": "What have you got there?",
+    "choices": [
+      "It’s a present.",
+      "It’s a blue one.",
+      "They are nice.",
+      "This is Ann."
+    ],
+    "answer": 0,
+    "steps": [
+      "Вопрос «What have you got there?» просит назвать вещь.",
+      "«It’s a present» означает «это подарок»."
+    ],
+    "context": "Match the question to the answers"
+  },
+  {
+    "title": "What Is He Doing?",
+    "question": "What is he doing?",
+    "choices": [
+      "He sleeps.",
+      "He reads.",
+      "He doesn’t eat.",
+      "He is sleeping."
+    ],
+    "answer": 3,
+    "steps": [
+      "Вопрос в Present Continuous относится к тому, что он делает сейчас.",
+      "«He is sleeping» построено в том же времени."
+    ],
+    "context": "Match the question to the answers"
+  },
+  {
+    "title": "Deer",
+    "question": "Deer",
+    "choices": [
+      "Fawn",
+      "Lamb",
+      "Chick",
+      "Puppy"
+    ],
+    "answer": 0,
+    "steps": [
+      "Сравни названия детёнышей в вариантах. Puppy относится к собаке, chick — к птице.",
+      "Детёныша оленя называют fawn, оленёнок."
+    ],
+    "context": "Match an animal with its baby"
+  },
+  {
+    "title": "Horse",
+    "question": "Horse",
+    "choices": [
+      "Foal",
+      "Lamb",
+      "Fawn",
+      "Kitten"
+    ],
+    "answer": 0,
+    "steps": [
+      "Foal — жеребёнок.",
+      "Это детёныш лошади."
+    ],
+    "context": "Match an animal with its baby"
+  },
+  {
+    "title": "Pig",
+    "question": "Pig",
+    "choices": [
+      "Bunny",
+      "Piglet",
+      "Chick",
+      "Lamb"
+    ],
+    "answer": 1,
+    "steps": [
+      "Piglet — поросёнок.",
+      "Суффикс -let здесь обозначает детёныша."
+    ],
+    "context": "Match an animal with its baby"
+  },
+  {
+    "title": "Dog",
+    "question": "Dog",
+    "choices": [
+      "Kitten",
+      "Gosling",
+      "Puppy",
+      "Bunny"
+    ],
+    "answer": 2,
+    "steps": [
+      "Puppy — щенок.",
+      "Kitten относится к кошке, а gosling — к гусю."
+    ],
+    "context": "Match an animal with its baby"
+  },
+  {
+    "title": "Sheep",
+    "question": "Sheep",
+    "choices": [
+      "Cygnet",
+      "Piglet",
+      "Cub",
+      "Lamb"
+    ],
+    "answer": 3,
+    "steps": [
+      "Ищи специальное слово для детёныша овцы. Piglet — детёныш свиньи.",
+      "Lamb — ягнёнок, детёныш овцы."
+    ],
+    "context": "Match an animal with its baby"
+  },
+  {
+    "title": "Cat",
+    "question": "Cat",
+    "choices": [
+      "Puppy",
+      "Kitten",
+      "Cub",
+      "Bunny"
+    ],
+    "answer": 1,
+    "steps": [
+      "Kitten — котёнок.",
+      "Puppy — щенок, это детёныш другого животного."
+    ],
+    "context": "Match an animal with its baby"
+  },
+  {
+    "title": "Duck",
+    "question": "Duck",
+    "choices": [
+      "Lamb",
+      "Gosling",
+      "Duckling",
+      "Cygnet"
+    ],
+    "answer": 2,
+    "steps": [
+      "Duckling — утёнок.",
+      "Слово образовано от duck."
+    ],
+    "context": "Match an animal with its baby"
+  },
+  {
+    "title": "Swan",
+    "question": "Swan",
+    "choices": [
+      "Cygnet",
+      "Gosling",
+      "Duckling",
+      "Fawn"
+    ],
+    "answer": 0,
+    "steps": [
+      "Cygnet — лебедёнок.",
+      "Duckling и gosling относятся к уткам и гусям соответственно."
+    ],
+    "context": "Match an animal with its baby"
+  },
+  {
+    "title": "Goose",
+    "question": "Goose",
+    "choices": [
+      "Kitten",
+      "Fawn",
+      "Duckling",
+      "Gosling"
+    ],
+    "answer": 3,
+    "steps": [
+      "Gosling — гусёнок.",
+      "Обрати внимание, что его название образовано от goose, но пишется с одной o."
+    ],
+    "context": "Match an animal with its baby"
+  },
+  {
+    "title": "Bear",
+    "question": "Bear",
+    "choices": [
+      "Bunny",
+      "Cub",
+      "Fawn",
+      "Chick"
+    ],
+    "answer": 1,
+    "steps": [
+      "Cub — медвежонок.",
+      "Слово также употребляют о детёнышах некоторых других диких зверей."
+    ],
+    "context": "Match an animal with its baby"
+  },
+  {
+    "title": "In a Girl’s Hands",
+    "question": "One of the girls is holding a/an … in her hands.",
+    "choices": [
+      "toy duck",
+      "shovel",
+      "butterfly net",
+      "ice cream"
+    ],
+    "answer": 2,
+    "steps": [
+      "Справа девочка держит предмет с длинной ручкой и ободом.",
+      "Это сачок для бабочек, butterfly net."
+    ],
+    "context": "Look at the picture and choose the right words",
+    "figures": [
+      {
+        "src": "assets/british-bulldog/2016/5-6/variant-2/beach.webp",
+        "alt": "Children on a beach",
+        "caption": "Children on a beach"
+      }
+    ]
+  },
+  {
+    "title": "Waving Hands",
+    "question": "… of the children are waving their hands.",
+    "choices": [
+      "Three",
+      "Two",
+      "Five",
+      "Four"
+    ],
+    "answer": 3,
+    "steps": [
+      "Посмотри на детей в лодке и у воды.",
+      "Четверо поднимают руки, чтобы помахать."
+    ],
+    "context": "Look at the picture and choose the right words",
+    "figures": [
+      {
+        "src": "assets/british-bulldog/2016/5-6/variant-2/beach.webp",
+        "alt": "Children on a beach",
+        "caption": "Children on a beach"
+      }
+    ]
+  },
+  {
+    "title": "On Top of the Sandcastle",
+    "question": "The girl with a pony tail is putting … on the sandcastle.",
+    "choices": [
+      "a shell",
+      "a flag",
+      "a poster",
+      "a flower"
+    ],
+    "answer": 1,
+    "steps": [
+      "Девочка с хвостиком держит маленькое полотнище на палочке.",
+      "Она ставит на замок флажок, flag."
+    ],
+    "context": "Look at the picture and choose the right words",
+    "figures": [
+      {
+        "src": "assets/british-bulldog/2016/5-6/variant-2/beach.webp",
+        "alt": "Children on a beach",
+        "caption": "Children on a beach"
+      }
+    ]
+  },
+  {
+    "title": "On the Horizon",
+    "question": "There is/are … island(s) in the distance.",
+    "choices": [
+      "two",
+      "one",
+      "no",
+      "three"
+    ],
+    "answer": 1,
+    "steps": [
+      "Вдали за водой виден один участок суши.",
+      "В предложении выбираем one island."
+    ],
+    "context": "Look at the picture and choose the right words",
+    "figures": [
+      {
+        "src": "assets/british-bulldog/2016/5-6/variant-2/beach.webp",
+        "alt": "Children on a beach",
+        "caption": "Children on a beach"
+      }
+    ]
+  },
+  {
+    "title": "On the Sun Lounger",
+    "question": "The person on the sun lounger has … hair.",
+    "choices": [
+      "wavy",
+      "curly",
+      "no",
+      "straight"
+    ],
+    "answer": 1,
+    "steps": [
+      "У девочки на лежаке волосы образуют много завитков.",
+      "Curly означает «кудрявые»."
+    ],
+    "context": "Look at the picture and choose the right words",
+    "figures": [
+      {
+        "src": "assets/british-bulldog/2016/5-6/variant-2/beach.webp",
+        "alt": "Children on a beach",
+        "caption": "Children on a beach"
+      }
+    ]
+  },
+  {
+    "title": "A Boy in the Water",
+    "question": "Only one boy in the picture is … .",
+    "choices": [
+      "fishing",
+      "flying",
+      "taking photos",
+      "swimming"
+    ],
+    "answer": 3,
+    "steps": [
+      "Мальчик виден в воде, а остальные находятся на берегу или в лодке.",
+      "Swimming значит «плавает»."
+    ],
+    "context": "Look at the picture and choose the right words",
+    "figures": [
+      {
+        "src": "assets/british-bulldog/2016/5-6/variant-2/beach.webp",
+        "alt": "Children on a beach",
+        "caption": "Children on a beach"
+      }
+    ]
+  },
+  {
+    "title": "Weather on the Beach",
+    "question": "The weather is … .",
+    "choices": [
+      "terrible",
+      "warm",
+      "gloomy",
+      "frosty"
+    ],
+    "answer": 1,
+    "steps": [
+      "На картинке яркое солнце, дети в лёгкой одежде и купаются.",
+      "Из вариантов подходит warm."
+    ],
+    "context": "Look at the picture and choose the right words",
+    "figures": [
+      {
+        "src": "assets/british-bulldog/2016/5-6/variant-2/beach.webp",
+        "alt": "Children on a beach",
+        "caption": "Children on a beach"
+      }
+    ]
+  },
+  {
+    "title": "The Snack",
+    "question": "The boy, standing near the girl, is eating a/an … .",
+    "choices": [
+      "c hotdog",
+      "ake",
+      "sandwich",
+      "ice cream"
+    ],
+    "answer": 3,
+    "steps": [
+      "Мальчик рядом с девочкой держит мороженое.",
+      "Это ice cream."
+    ],
+    "context": "Look at the picture and choose the right words",
+    "figures": [
+      {
+        "src": "assets/british-bulldog/2016/5-6/variant-2/beach.webp",
+        "alt": "Children on a beach",
+        "caption": "Children on a beach"
+      }
+    ]
+  },
+  {
+    "title": "Where the Towel Is",
+    "question": "The towel is on the … .",
+    "choices": [
+      "grass",
+      "boat",
+      "sun lounger",
+      "bag"
+    ],
+    "answer": 3,
+    "steps": [
+      "Посмотри внизу у песочного замка.",
+      "Полотенце лежит на сумке, bag."
+    ],
+    "context": "Look at the picture and choose the right words",
+    "figures": [
+      {
+        "src": "assets/british-bulldog/2016/5-6/variant-2/beach.webp",
+        "alt": "Children on a beach",
+        "caption": "Children on a beach"
+      }
+    ]
+  },
+  {
+    "title": "Things on the Sand",
+    "question": "We can see … on the sand.",
+    "choices": [
+      "paper",
+      "litter",
+      "a crab and shells",
+      "rubbish"
+    ],
+    "answer": 2,
+    "steps": [
+      "На переднем плане виден краб и несколько ракушек.",
+      "Вариант называет оба предмета: «a crab and shells»."
+    ],
+    "context": "Look at the picture and choose the right words",
+    "figures": [
+      {
+        "src": "assets/british-bulldog/2016/5-6/variant-2/beach.webp",
+        "alt": "Children on a beach",
+        "caption": "Children on a beach"
+      }
+    ]
+  }
+]

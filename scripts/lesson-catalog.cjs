@@ -95,11 +95,18 @@ function loadLessonCatalog() {
     for (const [index, row] of rows.entries()) {
       const numeric = Number.isInteger(row.numericAnswer);
       const choiceCounts = meta.choiceCounts ?? [meta.letters.length];
-      const validAnswer = numeric ? row.choices.length === 0 && row.numericAnswer >= 0 && row.numericAnswer <= 999999
+      const shortText = row.textAnswer !== undefined;
+      const validAnswer = shortText ? typeof row.textAnswer === 'string' && /^[A-Za-z0-9]{1,32}$/.test(row.textAnswer)
+          && row.choices.length === 0 && row.numericAnswer === undefined && row.answer == null && row.acceptedAnswers === undefined
+        : numeric ? row.choices.length === 0 && row.numericAnswer >= 0 && row.numericAnswer <= 999999999
         : row.choices.length >= 2 && choiceCounts.includes(row.choices.length) && row.choices.length <= meta.letters.length
           && Number.isInteger(row.answer) && row.answer >= 0 && row.answer < row.choices.length;
       const points = row.points ?? meta.points;
-      if (!row.question || !validAnswer || row.acceptedAnswers || row.keyConflict ||
+      const accepted = numeric ? row.acceptedNumericAnswers : row.acceptedAnswers;
+      const validAlternatives = accepted === undefined || (Array.isArray(accepted) &&
+        accepted.includes(numeric ? row.numericAnswer : row.answer) && new Set(accepted).size === accepted.length &&
+        accepted.every(i => Number.isInteger(i) && i >= 0 && i < (numeric ? 1000000000 : row.choices.length)));
+      if (!row.question || row.keyOnly || !validAnswer || !validAlternatives || (numeric ? row.acceptedAnswers : row.acceptedNumericAnswers) !== undefined || row.keyConflict ||
           !Number.isInteger(points) || points <= 0 || row.steps.length < 2 || row.steps.some(step => !step.trim())) {
         throw new Error(file + ': incomplete question, score or walkthrough at ' + (row.number ?? index + 1));
       }

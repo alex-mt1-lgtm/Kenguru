@@ -1,0 +1,30 @@
+{
+  "bathroom": {
+    "sourceFile": "5-6/tasks-reading.pdf",
+    "page": 1,
+    "cropPoints": [
+      325.8,
+      61.8,
+      502.4,
+      173.55
+    ],
+    "src": "assets/british-bulldog/2008/5-6/bathroom.webp",
+    "alt": "Bathroom scene for questions 51–55",
+    "width": 531,
+    "height": 336
+  },
+  "five-people": {
+    "sourceFile": "5-6/tasks-reading.pdf",
+    "page": 1,
+    "cropPoints": [
+      320,
+      374,
+      511.2,
+      498
+    ],
+    "src": "assets/british-bulldog/2008/5-6/five-people.webp",
+    "alt": "Five people with labels 56–60",
+    "width": 574,
+    "height": 372
+  }
+}

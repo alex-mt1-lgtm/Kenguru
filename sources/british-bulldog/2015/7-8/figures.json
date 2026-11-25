@@ -1,0 +1,137 @@
+{
+  "source": "tasks.pdf",
+  "coordinateUnit": "rendered-pixel",
+  "renderScale": 4,
+  "crops": [
+    {
+      "page": 1,
+      "box": [
+        1200,
+        276,
+        1608,
+        560
+      ],
+      "file": "sound-51.webp",
+      "tasks": [
+        51
+      ]
+    },
+    {
+      "page": 1,
+      "box": [
+        1636,
+        276,
+        2044,
+        560
+      ],
+      "file": "sound-52.webp",
+      "tasks": [
+        52
+      ]
+    },
+    {
+      "page": 1,
+      "box": [
+        1200,
+        555,
+        1608,
+        839
+      ],
+      "file": "sound-53.webp",
+      "tasks": [
+        53
+      ]
+    },
+    {
+      "page": 1,
+      "box": [
+        1636,
+        555,
+        2044,
+        839
+      ],
+      "file": "sound-54.webp",
+      "tasks": [
+        54
+      ]
+    },
+    {
+      "page": 1,
+      "box": [
+        1200,
+        834,
+        1608,
+        1118
+      ],
+      "file": "sound-55.webp",
+      "tasks": [
+        55
+      ]
+    },
+    {
+      "page": 1,
+      "box": [
+        1636,
+        834,
+        2044,
+        1118
+      ],
+      "file": "sound-56.webp",
+      "tasks": [
+        56
+      ]
+    },
+    {
+      "page": 1,
+      "box": [
+        1200,
+        1114,
+        1608,
+        1398
+      ],
+      "file": "sound-57.webp",
+      "tasks": [
+        57
+      ]
+    },
+    {
+      "page": 1,
+      "box": [
+        1636,
+        1114,
+        2044,
+        1398
+      ],
+      "file": "sound-58.webp",
+      "tasks": [
+        58
+      ]
+    },
+    {
+      "page": 1,
+      "box": [
+        1200,
+        1393,
+        1608,
+        1677
+      ],
+      "file": "sound-59.webp",
+      "tasks": [
+        59
+      ]
+    },
+    {
+      "page": 1,
+      "box": [
+        1636,
+        1393,
+        2044,
+        1677
+      ],
+      "file": "sound-60.webp",
+      "tasks": [
+        60
+      ]
+    }
+  ]
+}

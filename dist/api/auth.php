@@ -11,7 +11,7 @@ const PROGRESS_TOTAL_LIMIT = 4194304;
 const PROGRESS_TASK_LIMIT = 8192;
 const PROGRESS_ARTIFACT_LIMIT = 24576;
 const LESSON_KEY_PATTERN = '[0-9]{4}(?:-[a-z0-9]{1,12}){1,7}/[1-9][0-9]{0,2}';
-const MAX_NUMERIC_ANSWER = 999999;
+const MAX_NUMERIC_ANSWER = 999999999;
 
 final class AccountError extends RuntimeException
 {
@@ -598,17 +598,22 @@ function numericRating(string $lesson): bool
 
 function validRatingAnswer(mixed $answer, string $lesson): bool
 {
+    if ((ratingCatalog()[$lesson][2] ?? null) === 'text') {
+        return is_string($answer) && preg_match('/\A[A-Za-z0-9]{1,32}\z/', $answer);
+    }
     return is_int($answer) && $answer >= 0 && $answer <= (numericRating($lesson) ? MAX_NUMERIC_ANSWER : 4);
 }
 
 function validLessonProgress(mixed $progress, string $lesson): bool
 {
+    $isText = (ratingCatalog()[$lesson][2] ?? null) === 'text';
     $maxChoice = numericRating($lesson) ? MAX_NUMERIC_ANSWER : 50;
     return $progress instanceof stdClass
         && !array_diff(array_keys(get_object_vars($progress)), ['step', 'selected', 'seen', 'reviewOpened'])
         && is_int($progress->step ?? null) && $progress->step >= 0 && $progress->step <= 500
         && property_exists($progress, 'selected')
-        && ($progress->selected === null || (is_int($progress->selected) && $progress->selected >= 0 && $progress->selected <= $maxChoice))
+        && ($progress->selected === null || ($isText ? validRatingAnswer($progress->selected, $lesson)
+            : is_int($progress->selected) && $progress->selected >= 0 && $progress->selected <= $maxChoice))
         && is_bool($progress->seen ?? null)
         && (!property_exists($progress, 'reviewOpened') || is_bool($progress->reviewOpened));
 }
@@ -727,7 +732,7 @@ function refreshLeaderboardScores(PDO $db): void
     }
 }
 
-function independentRatingAnswer(string $lesson, stdClass $next, stdClass $saved, stdClass $claims): ?int
+function independentRatingAnswer(string $lesson, stdClass $next, stdClass $saved, stdClass $claims): int|string|null
 {
     $before = json_decode($saved->$lesson ?? 'null', false, 12, JSON_THROW_ON_ERROR);
     $submitted = json_decode($next->$lesson ?? 'null', false, 12, JSON_THROW_ON_ERROR);
@@ -863,7 +868,8 @@ function progressForAccount(PDO $db, array $account, ?stdClass $data = null): ar
                     $task->firstAnswer = $firstAnswer;
                 }
                 $rule = ratingCatalog()[$lesson] ?? [];
-                $accepted = is_array($rule[2] ?? null) ? $rule[2] : [$rule[0] ?? null];
+                $alternatives = ($rule[2] ?? null) === 'number' ? ($rule[3] ?? null) : ($rule[2] ?? null);
+                $accepted = is_array($alternatives) ? $alternatives : [$rule[0] ?? null];
                 $correct = $firstAnswer !== null && in_array($firstAnswer, $accepted, true);
                 $value = $value === 'solved' && $correct ? 'solved' : 'reviewed';
                 $task->rating = $value;

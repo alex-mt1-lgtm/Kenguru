@@ -1,0 +1,802 @@
+[
+  {
+    "title": "Jimmy’s Home",
+    "question": "Where is Jimmy from?",
+    "choices": [
+      "Canada",
+      "The USA",
+      "Great Britain"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 1,
+    "steps": [
+      "Джимми представляется и говорит «I’m from New York».",
+      "Нью-Йорк находится в Соединённых Штатах, the USA."
+    ]
+  },
+  {
+    "title": "Jimmy's Age",
+    "question": "How old is he?",
+    "choices": [
+      "Nine",
+      "Ten",
+      "Eleven"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 1,
+    "steps": [
+      "После представления Джимми говорит «I’m ten years old».",
+      "Ten означает «десять»."
+    ]
+  },
+  {
+    "title": "Best Friends",
+    "question": "How many best friends does he have?",
+    "choices": [
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 1,
+    "steps": [
+      "В записи названы Jane, Maria и Billy.",
+      "Три имени дают three."
+    ]
+  },
+  {
+    "title": "American Friends",
+    "question": "Who are American?",
+    "choices": [
+      "Jane and Maria",
+      "Billy and Maria",
+      "Jane and Billy"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 2,
+    "steps": [
+      "Джимми перечисляет национальности друзей.",
+      "«Jane and Billy are American» прямо отвечает на вопрос."
+    ]
+  },
+  {
+    "title": "An Italian Friend",
+    "question": "Who is Italian?",
+    "choices": [
+      "Billy",
+      "Jane",
+      "Maria"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 2,
+    "steps": [
+      "В записи после слов о Джейн и Билли звучит «but Maria is Italian».",
+      "Итальянка — Maria."
+    ]
+  },
+  {
+    "title": "Type of School",
+    "question": "What school do they go to?",
+    "choices": [
+      "Primary",
+      "High",
+      "Secondary"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 0,
+    "steps": [
+      "Друзья ходят в «Lincoln Primary School».",
+      "Primary означает «начальная»."
+    ]
+  },
+  {
+    "title": "Name of the School",
+    "question": "What is the name of the school?",
+    "choices": [
+      "New York",
+      "Lincoln",
+      "American"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 1,
+    "steps": [
+      "В названии «Lincoln Primary School» слово Primary обозначает тип школы.",
+      "Собственное имя школы — Lincoln."
+    ]
+  },
+  {
+    "title": "The Class Number",
+    "question": "What class are they in?",
+    "choices": [
+      "5C",
+      "5A",
+      "5B"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 1,
+    "steps": [
+      "В записи Джимми говорит «We are in class 5A».",
+      "Искомая буква класса — A."
+    ]
+  },
+  {
+    "title": "New York",
+    "question": "New York is … .",
+    "choices": [
+      "an old town",
+      "a small town",
+      "a modern city"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 2,
+    "steps": [
+      "О городе сказано «New York is a big and modern city».",
+      "Подходит a modern city, современный город."
+    ]
+  },
+  {
+    "title": "Who Likes New York?",
+    "question": "Who likes New York very much?",
+    "choices": [
+      "Jane",
+      "Jimmy",
+      "Billy"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 1,
+    "steps": [
+      "Слова «I like it very much» произносит тот же человек, который представился в начале.",
+      "Это Jimmy."
+    ]
+  },
+  {
+    "title": "A Bear's Eyes",
+    "question": "A bear has small eyes.",
+    "choices": [
+      "True",
+      "False",
+      "Doesn’t say"
+    ],
+    "context": "Read the text and choose the answer.\n\nA bear is a large, heavy, strong animal with thick fur and a very short tail. There are several kinds of bears, black bears, polar bears, and grizzly bears. The brown bear lives in the forests and mountains of Northern America, Europe and Asia. Bears live alone; they never live in groups. Mother bear usually has from one to four baby bears. They are born in the winter and drink their mother’s milk. They live with their mother for one or two years. Bears often spend much of their winter sleeping. Before winter they eat a lot of food. Bears can be dangerous to people.",
+    "answer": 2,
+    "steps": [
+      "В начале текста описаны шерсть и хвост медведя.",
+      "О размере глаз ничего не говорится, Doesn’t say."
+    ]
+  },
+  {
+    "title": "Bear Colours",
+    "question": "Bears can be black.",
+    "choices": [
+      "True",
+      "False",
+      "Doesn’t say"
+    ],
+    "context": "Read the text and choose the answer.\n\nA bear is a large, heavy, strong animal with thick fur and a very short tail. There are several kinds of bears, black bears, polar bears, and grizzly bears. The brown bear lives in the forests and mountains of Northern America, Europe and Asia. Bears live alone; they never live in groups. Mother bear usually has from one to four baby bears. They are born in the winter and drink their mother’s milk. They live with their mother for one or two years. Bears often spend much of their winter sleeping. Before winter they eat a lot of food. Bears can be dangerous to people.",
+    "answer": 0,
+    "steps": [
+      "В перечне прямо названы black bears.",
+      "Медведи могут быть чёрными, True."
+    ]
+  },
+  {
+    "title": "Where Bears Live",
+    "question": "Bears don’t live in Europe.",
+    "choices": [
+      "True",
+      "False",
+      "Doesn’t say"
+    ],
+    "context": "Read the text and choose the answer.\n\nA bear is a large, heavy, strong animal with thick fur and a very short tail. There are several kinds of bears, black bears, polar bears, and grizzly bears. The brown bear lives in the forests and mountains of Northern America, Europe and Asia. Bears live alone; they never live in groups. Mother bear usually has from one to four baby bears. They are born in the winter and drink their mother’s milk. They live with their mother for one or two years. Bears often spend much of their winter sleeping. Before winter they eat a lot of food. Bears can be dangerous to people.",
+    "answer": 1,
+    "steps": [
+      "Текст указывает Северную Америку, Европу и Азию.",
+      "Европа прямо названа, поэтому утверждение об обратном — False."
+    ]
+  },
+  {
+    "title": "Groups or Alone?",
+    "question": "They live in groups.",
+    "choices": [
+      "True",
+      "False",
+      "Doesn’t say"
+    ],
+    "context": "Read the text and choose the answer.\n\nA bear is a large, heavy, strong animal with thick fur and a very short tail. There are several kinds of bears, black bears, polar bears, and grizzly bears. The brown bear lives in the forests and mountains of Northern America, Europe and Asia. Bears live alone; they never live in groups. Mother bear usually has from one to four baby bears. They are born in the winter and drink their mother’s milk. They live with their mother for one or two years. Bears often spend much of their winter sleeping. Before winter they eat a lot of food. Bears can be dangerous to people.",
+    "answer": 1,
+    "steps": [
+      "Автор пишет «Bears live alone» и «they never live in groups».",
+      "Утверждение про жизнь группами — False."
+    ]
+  },
+  {
+    "title": "Number of Cubs",
+    "question": "Mother bear has more than five babies.",
+    "choices": [
+      "True",
+      "False",
+      "Doesn’t say"
+    ],
+    "context": "Read the text and choose the answer.\n\nA bear is a large, heavy, strong animal with thick fur and a very short tail. There are several kinds of bears, black bears, polar bears, and grizzly bears. The brown bear lives in the forests and mountains of Northern America, Europe and Asia. Bears live alone; they never live in groups. Mother bear usually has from one to four baby bears. They are born in the winter and drink their mother’s milk. They live with their mother for one or two years. Bears often spend much of their winter sleeping. Before winter they eat a lot of food. Bears can be dangerous to people.",
+    "answer": 1,
+    "steps": [
+      "Mother bear обычно имеет от одного до четырёх детёнышей.",
+      "Больше пяти — за пределами диапазона из текста, False."
+    ]
+  },
+  {
+    "title": "When Cubs Are Born",
+    "question": "Baby bears are born in the winter.",
+    "choices": [
+      "True",
+      "False",
+      "Doesn’t say"
+    ],
+    "context": "Read the text and choose the answer.\n\nA bear is a large, heavy, strong animal with thick fur and a very short tail. There are several kinds of bears, black bears, polar bears, and grizzly bears. The brown bear lives in the forests and mountains of Northern America, Europe and Asia. Bears live alone; they never live in groups. Mother bear usually has from one to four baby bears. They are born in the winter and drink their mother’s milk. They live with their mother for one or two years. Bears often spend much of their winter sleeping. Before winter they eat a lot of food. Bears can be dangerous to people.",
+    "answer": 0,
+    "steps": [
+      "В тексте сказано, что детёныши рождаются зимой.",
+      "Верный вариант — True."
+    ]
+  },
+  {
+    "title": "Where Cubs Stay",
+    "question": "Baby bears live with their father.",
+    "choices": [
+      "True",
+      "False",
+      "Doesn’t say"
+    ],
+    "context": "Read the text and choose the answer.\n\nA bear is a large, heavy, strong animal with thick fur and a very short tail. There are several kinds of bears, black bears, polar bears, and grizzly bears. The brown bear lives in the forests and mountains of Northern America, Europe and Asia. Bears live alone; they never live in groups. Mother bear usually has from one to four baby bears. They are born in the winter and drink their mother’s milk. They live with their mother for one or two years. Bears often spend much of their winter sleeping. Before winter they eat a lot of food. Bears can be dangerous to people.",
+    "answer": 1,
+    "steps": [
+      "Рассказ называет взрослого медведя, с которым остаются детёныши.",
+      "Они остаются с матерью. Утверждение про отца — False."
+    ]
+  },
+  {
+    "title": "Hunting with Mother",
+    "question": "Baby bears hunt with their mother.",
+    "choices": [
+      "True",
+      "False",
+      "Doesn’t say"
+    ],
+    "context": "Read the text and choose the answer.\n\nA bear is a large, heavy, strong animal with thick fur and a very short tail. There are several kinds of bears, black bears, polar bears, and grizzly bears. The brown bear lives in the forests and mountains of Northern America, Europe and Asia. Bears live alone; they never live in groups. Mother bear usually has from one to four baby bears. They are born in the winter and drink their mother’s milk. They live with their mother for one or two years. Bears often spend much of their winter sleeping. Before winter they eat a lot of food. Bears can be dangerous to people.",
+    "answer": 2,
+    "steps": [
+      "В тексте сообщается, что детёныши живут с матерью.",
+      "О совместной охоте сведений нет, Doesn’t say."
+    ]
+  },
+  {
+    "title": "Before Winter",
+    "question": "Bears eat a lot before winter.",
+    "choices": [
+      "True",
+      "False",
+      "Doesn’t say"
+    ],
+    "context": "Read the text and choose the answer.\n\nA bear is a large, heavy, strong animal with thick fur and a very short tail. There are several kinds of bears, black bears, polar bears, and grizzly bears. The brown bear lives in the forests and mountains of Northern America, Europe and Asia. Bears live alone; they never live in groups. Mother bear usually has from one to four baby bears. They are born in the winter and drink their mother’s milk. They live with their mother for one or two years. Bears often spend much of their winter sleeping. Before winter they eat a lot of food. Bears can be dangerous to people.",
+    "answer": 0,
+    "steps": [
+      "В медвежьем рассказе найди, что происходит перед зимним сном.",
+      "Медведи много едят до зимы. Утверждение True."
+    ]
+  },
+  {
+    "title": "When Bears Are Dangerous",
+    "question": "Bears are never dangerous.",
+    "choices": [
+      "True",
+      "False",
+      "Doesn’t say"
+    ],
+    "context": "Read the text and choose the answer.\n\nA bear is a large, heavy, strong animal with thick fur and a very short tail. There are several kinds of bears, black bears, polar bears, and grizzly bears. The brown bear lives in the forests and mountains of Northern America, Europe and Asia. Bears live alone; they never live in groups. Mother bear usually has from one to four baby bears. They are born in the winter and drink their mother’s milk. They live with their mother for one or two years. Bears often spend much of their winter sleeping. Before winter they eat a lot of food. Bears can be dangerous to people.",
+    "answer": 1,
+    "steps": [
+      "В заключении сказано, что медведи can be dangerous.",
+      "Это опровергает never dangerous, значит, False."
+    ]
+  },
+  {
+    "title": "On the Table",
+    "question": "There are many … on the table.",
+    "choices": [
+      "boxes",
+      "boxs",
+      "box"
+    ],
+    "answer": 0,
+    "steps": [
+      "Many показывает, что предметов несколько.",
+      "После x во множественном числе добавляется -es, boxes."
+    ]
+  },
+  {
+    "title": "The Dog’s Offspring",
+    "question": "Our dog has three nice … .",
+    "choices": [
+      "puppy",
+      "puppys",
+      "puppies"
+    ],
+    "answer": 2,
+    "steps": [
+      "Three требует множественного числа.",
+      "В puppy перед y стоит согласная. Заменяем y на i и добавляем -es, puppies."
+    ]
+  },
+  {
+    "title": "Going to School",
+    "question": "All … should go to school.",
+    "choices": [
+      "childs",
+      "childrens",
+      "children"
+    ],
+    "answer": 2,
+    "steps": [
+      "All относится ко всем детям.",
+      "Child имеет неправильную форму множественного числа children."
+    ]
+  },
+  {
+    "title": "Factory Workers",
+    "question": "Many … work at the factory.",
+    "choices": [
+      "man",
+      "men",
+      "mens"
+    ],
+    "answer": 1,
+    "steps": [
+      "Many требует множественного числа от man.",
+      "Меняется гласная, получаем men."
+    ]
+  },
+  {
+    "title": "Teachers",
+    "question": "The majority of teachers are … .",
+    "choices": [
+      "women",
+      "womans",
+      "woman"
+    ],
+    "answer": 0,
+    "steps": [
+      "Сказуемое are относится к нескольким людям.",
+      "Множественное число woman — women."
+    ]
+  },
+  {
+    "title": "A Daily Habit",
+    "question": "You should clean your … twice a day.",
+    "choices": [
+      "teeth",
+      "teethes",
+      "tooth"
+    ],
+    "answer": 0,
+    "steps": [
+      "Речь об обычной чистке всех зубов.",
+      "Tooth имеет неправильную форму множественного числа teeth."
+    ]
+  },
+  {
+    "title": "Birds in a Village",
+    "question": "I saw many … in the village.",
+    "choices": [
+      "goose",
+      "gooses",
+      "geese"
+    ],
+    "answer": 2,
+    "steps": [
+      "Many показывает, что гусей несколько.",
+      "Множественное число goose — geese."
+    ]
+  },
+  {
+    "title": "Setting the Table",
+    "question": "There are many forks and … on the table.",
+    "choices": [
+      "knife",
+      "knifes",
+      "knives"
+    ],
+    "answer": 2,
+    "steps": [
+      "Рядом с forks нужны несколько ножей.",
+      "В слове knife конечное f меняется на v. Получается knives."
+    ]
+  },
+  {
+    "title": "Woollen Clothes",
+    "question": "Our … are made of wool.",
+    "choices": [
+      "scarfes",
+      "scarves",
+      "scarf"
+    ],
+    "answer": 1,
+    "steps": [
+      "Are made требует подлежащего во множественном числе.",
+      "От scarf в буклете дана правильная форма scarves."
+    ]
+  },
+  {
+    "title": "Small Animals",
+    "question": "Girls are usually afraid of … .",
+    "choices": [
+      "mice",
+      "mouse",
+      "mouses"
+    ],
+    "answer": 0,
+    "steps": [
+      "В общем высказывании о страхе имеется в виду вид животных, без артикля перед единичным зверьком.",
+      "Множественное число mouse — mice."
+    ]
+  },
+  {
+    "title": "Inside the Picture",
+    "question": "There are many animals … the picture.",
+    "choices": [
+      "in",
+      "on",
+      "at"
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2010/3-4/forest.webp",
+      "alt": "Illustration of a forest clearing",
+      "width": 1754,
+      "height": 1235
+    },
+    "context": "Look at the picture and choose the correct option.",
+    "answer": 0,
+    "steps": [
+      "Предлог показывает, что животные изображены на рисунке.",
+      "В английском для содержания изображения говорят «in the picture»."
+    ]
+  },
+  {
+    "title": "Counting Squirrels",
+    "question": "How many squirrels are there?",
+    "choices": [
+      "One",
+      "Two",
+      "Three"
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2010/3-4/forest.webp",
+      "alt": "Illustration of a forest clearing",
+      "width": 1754,
+      "height": 1235
+    },
+    "context": "Look at the picture and choose the correct option.",
+    "answer": 2,
+    "steps": [
+      "Одна белка держится за ствол слева. Ещё две видны внизу рядом с ёжиком.",
+      "Одна плюс две — three."
+    ]
+  },
+  {
+    "title": "The Two Birds",
+    "question": "The two birds are … branch of the tree.",
+    "choices": [
+      "near one",
+      "in one",
+      "on one"
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2010/3-4/forest.webp",
+      "alt": "Illustration of a forest clearing",
+      "width": 1754,
+      "height": 1235
+    },
+    "context": "Look at the picture and choose the correct option.",
+    "answer": 2,
+    "steps": [
+      "Вверху обе птицы опираются лапами на одну ветку.",
+      "На поверхности обозначается on. Получается on one branch."
+    ]
+  },
+  {
+    "title": "The Rabbit in the Forest",
+    "question": "The rabbit has a small white … .",
+    "choices": [
+      "ear",
+      "tail",
+      "nose"
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2010/3-4/forest.webp",
+      "alt": "Illustration of a forest clearing",
+      "width": 1754,
+      "height": 1235
+    },
+    "context": "Look at the picture and choose the correct option.",
+    "answer": 1,
+    "steps": [
+      "Посмотри позади сидящего кролика. Там небольшой светлый пушистый выступ.",
+      "Это tail, хвост."
+    ]
+  },
+  {
+    "title": "What Grows in the Forest",
+    "question": "There are many … in the forest.",
+    "choices": [
+      "flowers",
+      "berries",
+      "mushrooms"
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2010/3-4/forest.webp",
+      "alt": "Illustration of a forest clearing",
+      "width": 1754,
+      "height": 1235
+    },
+    "context": "Look at the picture and choose the correct option.",
+    "answer": 2,
+    "steps": [
+      "Найди под деревьями предметы с ножками и шляпками.",
+      "Это mushrooms, грибы."
+    ]
+  },
+  {
+    "title": "Snow White's Dress",
+    "question": "Snow … dress is nice.",
+    "choices": [
+      "White",
+      "White’s",
+      "Whites"
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2010/3-4/forest.webp",
+      "alt": "Illustration of a forest clearing",
+      "width": 1754,
+      "height": 1235
+    },
+    "context": "Look at the picture and choose the correct option.",
+    "answer": 1,
+    "steps": [
+      "Dress принадлежит персонажу с именем Snow White.",
+      "Для принадлежности добавляют ’s, «Snow White’s dress»."
+    ]
+  },
+  {
+    "title": "Snow White's Character",
+    "question": "What is Snow White like? She … .",
+    "choices": [
+      "is blond",
+      "is kind",
+      "like animals"
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2010/3-4/forest.webp",
+      "alt": "Illustration of a forest clearing",
+      "width": 1754,
+      "height": 1235
+    },
+    "context": "Look at the picture and choose the correct option.",
+    "answer": 1,
+    "steps": [
+      "Вопрос «What is she like?» обычно просит описать характер. На рисунке она спокойно тянется к животным.",
+      "She is kind описывает характер. Blond описывало бы внешность, а like потребовало бы likes."
+    ]
+  },
+  {
+    "title": "Time of Day",
+    "question": "Which sentence is wrong? It is … .",
+    "choices": [
+      "night",
+      "summer",
+      "warm"
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2010/3-4/forest.webp",
+      "alt": "Illustration of a forest clearing",
+      "width": 1754,
+      "height": 1235
+    },
+    "context": "Look at the picture and choose the correct option.",
+    "answer": 0,
+    "steps": [
+      "Сцена светлая, у деревьев видны листья и грибы.",
+      "Из предложенного изображению противоречит night."
+    ]
+  },
+  {
+    "title": "An Animal Out of Place",
+    "question": "Which animal mustn’t be in this picture?",
+    "choices": [
+      "A hedgehog",
+      "A hare",
+      "A crocodile"
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2010/3-4/forest.webp",
+      "alt": "Illustration of a forest clearing",
+      "width": 1754,
+      "height": 1235
+    },
+    "context": "Look at the picture and choose the correct option.",
+    "answer": 2,
+    "steps": [
+      "Ёж и заяц подходят для лесной сцены, и их можно узнать на рисунке.",
+      "Крокодил в правом углу здесь лишний."
+    ]
+  },
+  {
+    "title": "What No One Is Doing",
+    "question": "What is not happening? They are … .",
+    "choices": [
+      "walking",
+      "standing",
+      "sleeping"
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2010/3-4/forest.webp",
+      "alt": "Illustration of a forest clearing",
+      "width": 1754,
+      "height": 1235
+    },
+    "context": "Look at the picture and choose the correct option.",
+    "answer": 2,
+    "steps": [
+      "Белоснежка и звери нарисованы на ногах или в движении.",
+      "На рисунке никто не спит. Подходит sleeping."
+    ]
+  },
+  {
+    "title": "A Sweet Red Fruit",
+    "question": "It is very red and sweet, and it is so good to eat.",
+    "choices": [
+      "An orange",
+      "An apple",
+      "A carrot"
+    ],
+    "answer": 1,
+    "steps": [
+      "Загадка просит назвать съедобное, сладкое и красное.",
+      "Красное яблоко подходит. Обычные orange и carrot оранжевые."
+    ]
+  },
+  {
+    "title": "The Longest Neck",
+    "question": "What animal has the longest neck?",
+    "choices": [
+      "A horse",
+      "A giraffe",
+      "A crocodile"
+    ],
+    "answer": 1,
+    "steps": [
+      "Сравни лошадь, жирафа и крокодила.",
+      "Особенно длинная шея у giraffe."
+    ]
+  },
+  {
+    "title": "Who Gives Milk?",
+    "question": "It has four legs, a long tail and it can give milk.",
+    "choices": [
+      "A sheep",
+      "A pig",
+      "A cow"
+    ],
+    "answer": 2,
+    "steps": [
+      "Животное должно иметь четыре ноги, длинный хвост и давать молоко.",
+      "Из названных в школьной загадке этим признакам соответствует cow."
+    ]
+  },
+  {
+    "title": "White and Cold",
+    "question": "It is white, it is cold, you can ski on it.",
+    "choices": [
+      "Sugar",
+      "Chalk",
+      "Snow"
+    ],
+    "answer": 2,
+    "steps": [
+      "По загадке на этом можно кататься на лыжах.",
+      "Подходит snow. Sugar и chalk белые, но на них не катаются."
+    ]
+  },
+  {
+    "title": "A Face and Hands",
+    "question": "It has one face and two hands, it goes and yet it stands.",
+    "choices": [
+      "A clock",
+      "A baby",
+      "A doll"
+    ],
+    "answer": 0,
+    "steps": [
+      "В английском face означает и циферблат, hands — и стрелки.",
+      "Часы идут, оставаясь на месте. Это a clock."
+    ]
+  },
+  {
+    "title": "Yesterday and Tomorrow",
+    "question": "What is it that was tomorrow and will be yesterday?",
+    "choices": [
+      "Yesterday",
+      "Today",
+      "Tomorrow"
+    ],
+    "answer": 1,
+    "steps": [
+      "День, который вчера называли tomorrow, уже наступил.",
+      "Завтра этот же день будет yesterday. Сейчас это today."
+    ]
+  },
+  {
+    "title": "Four Legs and a Back",
+    "question": "What has four legs and a back?",
+    "choices": [
+      "A table",
+      "A chair",
+      "A shelf"
+    ],
+    "answer": 1,
+    "steps": [
+      "Ножки есть у стола и стула. Back может означать спинку мебели.",
+      "Спинка есть у chair, стула."
+    ]
+  },
+  {
+    "title": "Flying Without Wings",
+    "question": "It has no wings but it can fly away.",
+    "choices": [
+      "A balloon",
+      "A bird",
+      "A grasshopper"
+    ],
+    "answer": 0,
+    "steps": [
+      "Bird имеет крылья, а у многих кузнечиков тоже есть крылья.",
+      "Воздушный шар поднимается без крыльев, a balloon."
+    ]
+  },
+  {
+    "title": "Collecting Nectar",
+    "question": "I’m an insect. I gather nectar from flowers.",
+    "choices": [
+      "A bee",
+      "A bird",
+      "A fly"
+    ],
+    "answer": 0,
+    "steps": [
+      "Нужно насекомое, регулярно собирающее цветочный нектар.",
+      "Bee — пчела, которая собирает нектар."
+    ]
+  },
+  {
+    "title": "When It Rains",
+    "question": "What goes up when the rain comes down?",
+    "choices": [
+      "A cloud",
+      "The sky",
+      "An umbrella"
+    ],
+    "answer": 2,
+    "steps": [
+      "Rain comes down — капли падают сверху.",
+      "В этот момент человек поднимает umbrella, зонтик."
+    ]
+  }
+]

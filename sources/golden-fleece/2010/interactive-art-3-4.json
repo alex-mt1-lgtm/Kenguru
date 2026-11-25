@@ -1,0 +1,156 @@
+{
+  "source": "Buklet_ZR_0910_3-4.pdf",
+  "figures": {
+    "8": {
+      "page": 0,
+      "rect": [
+        25.836,
+        433.751,
+        98.097,
+        535.095
+      ],
+      "nativeSize": [
+        102,
+        142
+      ]
+    },
+    "9": {
+      "page": 0,
+      "rect": [
+        102.756,
+        454.961,
+        176.828,
+        554.523
+      ],
+      "master": "interactive-masters/3-4-9.jpg",
+      "source": "https://runodog.ru/runo2010/3-4/2010_34_9_1.jpg",
+      "nativeSize": [
+        247,
+        332
+      ]
+    },
+    "10": {
+      "page": 0,
+      "rect": [
+        181.772,
+        468.072,
+        254.084,
+        568.218
+      ],
+      "nativeSize": [
+        102,
+        141
+      ]
+    },
+    "18": {
+      "page": 0,
+      "rect": [
+        304.401,
+        433.725,
+        377.899,
+        537.822
+      ],
+      "nativeSize": [
+        103,
+        146
+      ]
+    },
+    "19": {
+      "page": 0,
+      "rect": [
+        384.342,
+        453.941,
+        458.152,
+        553.855
+      ],
+      "restoration": "fleece-0198",
+      "source": "https://commons.wikimedia.org/wiki/File:Hercules_discovering_Telephus,_from_Herculaneum_%27Basilica%27._Naples,_Archaeological_Museum_9008_-_01.jpg",
+      "nativeSize": [
+        2005,
+        2400
+      ]
+    },
+    "20": {
+      "page": 0,
+      "rect": [
+        464.882,
+        469.21,
+        535.508,
+        568.988
+      ],
+      "nativeSize": [
+        100,
+        140
+      ]
+    },
+    "25": {
+      "page": 0,
+      "rect": [
+        708.016,
+        266.234,
+        815.782,
+        349.894
+      ],
+      "master": "interactive-masters/3-4-25.jpg",
+      "source": "https://runodog.ru/runo2010/3-4/2010_34_25_1.jpg",
+      "nativeSize": [
+        385,
+        210
+      ]
+    },
+    "38": {
+      "page": 1,
+      "rect": [
+        25.915,
+        464.758,
+        99.972,
+        564.9
+      ],
+      "nativeSize": [
+        104,
+        140
+      ]
+    },
+    "39": {
+      "page": 1,
+      "rect": [
+        104.882,
+        464.775,
+        176.898,
+        564.997
+      ],
+      "nativeSize": [
+        102,
+        141
+      ]
+    },
+    "40": {
+      "page": 1,
+      "rect": [
+        181.195,
+        464.76,
+        254.13,
+        565.009
+      ],
+      "nativeSize": [
+        102,
+        141
+      ]
+    },
+    "50": {
+      "page": 1,
+      "rect": [
+        449.646,
+        448.775,
+        534.803,
+        562.317
+      ],
+      "master": "interactive-masters/3-4-50.jpg",
+      "source": "https://runodog.ru/runo2010/3-4/2010_34_50_1.jpg",
+      "nativeSize": [
+        309,
+        412
+      ]
+    }
+  }
+}

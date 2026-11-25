@@ -137,7 +137,7 @@
   },
   {
     "title": "An Exception in the Week",
-    "question": "What day was Miss Willis busy on? On … .",
+    "question": "On which day does Miss Willis say not to call? On … .",
     "context": "Listen to the message and answer the questions",
     "choices": [
       "Thursday",
@@ -150,7 +150,8 @@
       "В записи названы будние вечера для звонка. Слово except вводит день, когда звонить нельзя.",
       "Барбара говорит «except Thursday». Исключение — четверг, Thursday."
     ],
-    "audio": true
+    "audio": true,
+    "adaptation": "В записи указан день, когда звонить нельзя."
   },
   {
     "title": "Time to Call",

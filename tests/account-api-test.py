@@ -382,7 +382,7 @@ class TestAccountApi(unittest.TestCase):
             db.execute("PRAGMA user_version = 1")
         self.assertEqual(self.client.action("leaderboard")[1], board)
 
-    def test_numeric_rating_accepts_six_digit_integers_once(self):
+    def test_numeric_rating_accepts_nine_digit_integers_once(self):
         catalog_file = self.home / "www" / "olympiads.pro" / "api" / "rating-catalog.json"
         catalog = json.loads(catalog_file.read_text())
         large = "2024-kit-10-11/21"
@@ -393,7 +393,7 @@ class TestAccountApi(unittest.TestCase):
         choice = "2099-chip-eurasia-3-4-moscow-v2/1"
         self.assertEqual(catalog[large], [171700, 4, "number"])
         catalog.update({
-            zero: [0, 3, "number"], upper_bound: [999999, 5, "number"],
+            zero: [0, 3, "number"], upper_bound: [0, 5, "number", [0, 999999999]],
             wrong: [132, 4, "number"], after_review: [6, 4, "number"],
             choice: [4, 3],
         })
@@ -408,7 +408,7 @@ class TestAccountApi(unittest.TestCase):
         def state(selected, step=1):
             return json.dumps({"selected": selected, "step": step, "seen": False, "reviewOpened": True})
 
-        for invalid in (-1, 1000000, 1.5, "0", True):
+        for invalid in (-1, 1000000000, 1.5, "0", True):
             with self.subTest(invalid=invalid):
                 for progress, claims in (
                     ({zero: state(invalid)}, {}),
@@ -426,7 +426,7 @@ class TestAccountApi(unittest.TestCase):
             "revision": 0, "progress": {after_review: state(None)}
         })[0], 200)
         progress = {
-            large: state(None, step=0), zero: state(0), upper_bound: state(999999),
+            large: state(None, step=0), zero: state(0), upper_bound: state(999999999),
             wrong: state(131), after_review: state(6), choice: state(4),
         }
         progress.update({"rating:" + lesson: "solved" for lesson in tuple(progress)})
@@ -446,11 +446,32 @@ class TestAccountApi(unittest.TestCase):
         })[1]["progress"]["rating:" + wrong], "reviewed")
         records = self.task_records(account_id)
         self.assertEqual({k: records[k]["firstAnswer"] for k in (large, zero, upper_bound, wrong, choice)}, {
-            large: 171700, zero: 0, upper_bound: 999999, wrong: 131, choice: 4,
+            large: 171700, zero: 0, upper_bound: 999999999, wrong: 131, choice: 4,
         })
         self.assertNotIn("firstAnswer", records[after_review])
         standing = self.client.action("leaderboard")[1]["current"]
         self.assertEqual((standing["points"], standing["solved"]), (15, 4))
+
+    def test_text_rating_preserves_case_and_first_answer(self):
+        catalog_path = self.home / "www" / "olympiads.pro" / "api" / "rating-catalog.json"
+        catalog = json.loads(catalog_path.read_text())
+        good, wrong = "2099-kit-10-11/25", "2099-kit-10-11/26"
+        catalog.update({good: ["cde", 4, "text"], wrong: ["cde", 4, "text"]})
+        catalog_path.write_text(json.dumps(catalog))
+        status, account, _ = self.client.action("register", {
+            "username": "text_reader", "email": "txt@example.test", "password": "text-reader-password"
+        })
+        self.assertEqual(status, 201)
+        def state(value):
+            return json.dumps({"selected": value, "step": 1, "seen": False, "reviewOpened": True})
+        for bad in (3, "a" * 33, "<>"):
+            self.assertEqual(self.client.action("progress", {"revision": 0, "progress": {good: state(bad)}})[0], 422)
+        entries = {good: state("cde"), wrong: state("cde"), "rating:" + good: "solved", "rating:" + wrong: "solved"}
+        status, saved, _ = self.client.action("progress", {"revision": 0, "progress": entries, "ratingAnswers": {wrong: "CDE"}})
+        self.assertEqual(status, 200)
+        self.assertEqual(saved["progress"]["rating:" + good], "solved")
+        self.assertEqual(saved["progress"]["rating:" + wrong], "reviewed")
+        self.assertEqual(self.task_records(account["user"]["id"])[wrong]["firstAnswer"], "CDE")
 
     def test_russian_authorized_alternative_receives_full_points(self):
         lesson = "2003-medvezhonok-8-9/18"

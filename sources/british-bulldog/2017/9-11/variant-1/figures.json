@@ -1,0 +1,99 @@
+{
+  "source": "tasks.pdf",
+  "coordinateUnit": "rendered-pixel",
+  "renderScale": 4,
+  "crops": [
+    {
+      "page": 1,
+      "box": [
+        1260,
+        336,
+        1768,
+        848
+      ],
+      "file": "property-a.svg",
+      "tasks": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "option": "A"
+    },
+    {
+      "page": 1,
+      "box": [
+        1768,
+        336,
+        2276,
+        848
+      ],
+      "file": "property-b.svg",
+      "tasks": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "option": "B"
+    },
+    {
+      "page": 1,
+      "box": [
+        1260,
+        848,
+        1768,
+        1364
+      ],
+      "file": "property-c.svg",
+      "tasks": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "option": "C"
+    },
+    {
+      "page": 1,
+      "box": [
+        1768,
+        848,
+        2276,
+        1364
+      ],
+      "file": "property-d.svg",
+      "tasks": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "option": "D"
+    }
+  ]
+}

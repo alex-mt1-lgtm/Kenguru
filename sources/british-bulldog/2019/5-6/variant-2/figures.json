@@ -1,0 +1,29 @@
+{
+  "source": "tasks.pdf",
+  "coordinateUnit": "rendered-pixel",
+  "renderScale": 4,
+  "crops": [
+    {
+      "page": 1,
+      "box": [
+        96,
+        512,
+        1064,
+        1424
+      ],
+      "file": "three-people.svg",
+      "tasks": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ]
+    }
+  ]
+}

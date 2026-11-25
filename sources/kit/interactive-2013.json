@@ -1,0 +1,132 @@
+[
+  {
+    "subject": "kit",
+    "contest": "КИТ",
+    "language": "ru",
+    "letters": "АБВГ",
+    "count": 20,
+    "year": 2013,
+    "grade": "2-3",
+    "tasksFile": "2-3.pdf",
+    "answersFile": "answers.pdf",
+    "points": 3,
+    "sections": [
+      {
+        "start": 1,
+        "title": "3 балла"
+      },
+      {
+        "start": 11,
+        "title": "4 балла"
+      },
+      {
+        "start": 16,
+        "title": "5 баллов"
+      }
+    ]
+  },
+  {
+    "subject": "kit",
+    "contest": "КИТ",
+    "language": "ru",
+    "letters": "АБВГ",
+    "count": 26,
+    "year": 2013,
+    "grade": "4-5",
+    "tasksFile": "4-5.pdf",
+    "answersFile": "answers.pdf",
+    "points": 3,
+    "sections": [
+      {
+        "start": 1,
+        "title": "3 балла"
+      },
+      {
+        "start": 11,
+        "title": "4 балла"
+      },
+      {
+        "start": 21,
+        "title": "5 баллов"
+      }
+    ]
+  },
+  {
+    "subject": "kit",
+    "contest": "КИТ",
+    "language": "ru",
+    "letters": "АБВГ",
+    "count": 26,
+    "year": 2013,
+    "grade": "6-7",
+    "tasksFile": "6-7.pdf",
+    "answersFile": "answers.pdf",
+    "points": 3,
+    "sections": [
+      {
+        "start": 1,
+        "title": "3 балла"
+      },
+      {
+        "start": 11,
+        "title": "4 балла"
+      },
+      {
+        "start": 21,
+        "title": "5 баллов"
+      }
+    ]
+  },
+  {
+    "subject": "kit",
+    "contest": "КИТ",
+    "language": "ru",
+    "letters": "АБВГ",
+    "count": 26,
+    "year": 2013,
+    "grade": "8-9",
+    "tasksFile": "8-9.pdf",
+    "answersFile": "answers.pdf",
+    "points": 3,
+    "sections": [
+      {
+        "start": 1,
+        "title": "3 балла"
+      },
+      {
+        "start": 11,
+        "title": "4 балла"
+      },
+      {
+        "start": 21,
+        "title": "5 баллов"
+      }
+    ]
+  },
+  {
+    "subject": "kit",
+    "contest": "КИТ",
+    "language": "ru",
+    "letters": "АБВГ",
+    "count": 26,
+    "year": 2013,
+    "grade": "10-11",
+    "tasksFile": "10-11.pdf",
+    "answersFile": "answers.pdf",
+    "points": 3,
+    "sections": [
+      {
+        "start": 1,
+        "title": "3 балла"
+      },
+      {
+        "start": 11,
+        "title": "4 балла"
+      },
+      {
+        "start": 21,
+        "title": "5 баллов"
+      }
+    ]
+  }
+]

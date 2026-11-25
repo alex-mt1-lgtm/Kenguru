@@ -1,0 +1,2404 @@
+[
+  {
+    "subject": "golden-fleece",
+    "year": 2009,
+    "grade": "5-6",
+    "contest": "Золотое руно",
+    "letters": "АБВГ",
+    "count": 45,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "2009_5-6.pdf",
+    "answersFile": "answers.pdf",
+    "title": "Культурные столицы Европы",
+    "sourceFile": "sources/golden-fleece/2009/interactive-5-6.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Горизонты Европы"
+      },
+      {
+        "start": 4,
+        "title": "Достопримечательности"
+      },
+      {
+        "start": 7,
+        "title": "Интересные факты"
+      },
+      {
+        "start": 10,
+        "title": "История"
+      },
+      {
+        "start": 13,
+        "title": "Символы городов"
+      },
+      {
+        "start": 16,
+        "title": "Горизонты Европы"
+      },
+      {
+        "start": 19,
+        "title": "Интересные факты"
+      },
+      {
+        "start": 22,
+        "title": "Символы городов"
+      },
+      {
+        "start": 25,
+        "title": "История"
+      },
+      {
+        "start": 28,
+        "title": "Городская скульптура"
+      },
+      {
+        "start": 31,
+        "title": "Горизонты Европы"
+      },
+      {
+        "start": 34,
+        "title": "Храмы и соборы"
+      },
+      {
+        "start": 37,
+        "title": "Имена городов"
+      },
+      {
+        "start": 40,
+        "title": "Символы городов"
+      },
+      {
+        "start": 43,
+        "title": "Городские арки"
+      }
+    ],
+    "matchingGroups": [
+      {
+        "start": 1,
+        "count": 3,
+        "title": "Горизонты Европы",
+        "question": "Какие города изображены на фотографиях?",
+        "originalNumbers": true
+      },
+      {
+        "start": 13,
+        "count": 3,
+        "title": "Символы городов",
+        "question": "Каким городам принадлежат изображённые гербы?",
+        "originalNumbers": true
+      },
+      {
+        "start": 16,
+        "count": 3,
+        "title": "Горизонты Европы",
+        "question": "Какие города изображены на фотографиях?",
+        "originalNumbers": true
+      },
+      {
+        "start": 22,
+        "count": 3,
+        "title": "Символы городов",
+        "question": "Каким городам принадлежат изображённые гербы?",
+        "originalNumbers": true
+      },
+      {
+        "start": 28,
+        "count": 3,
+        "title": "Городская скульптура",
+        "question": "В каких городах находятся эти скульптуры?",
+        "originalNumbers": true
+      },
+      {
+        "start": 31,
+        "count": 3,
+        "title": "Горизонты Европы",
+        "question": "Какие города изображены на фотографиях?",
+        "originalNumbers": true
+      },
+      {
+        "start": 34,
+        "count": 3,
+        "title": "Храмы и соборы",
+        "question": "В каких городах находятся эти соборы?",
+        "originalNumbers": true
+      },
+      {
+        "start": 40,
+        "count": 3,
+        "title": "Символы городов",
+        "question": "Каким городам принадлежат изображённые гербы?",
+        "originalNumbers": true
+      },
+      {
+        "start": 43,
+        "count": 3,
+        "title": "Городские арки",
+        "question": "В каких городах находятся эти арки?",
+        "originalNumbers": true
+      }
+    ]
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2009,
+    "grade": "7-8",
+    "contest": "Золотое руно",
+    "letters": "АБВГ",
+    "count": 45,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "2009_7-8.pdf",
+    "answersFile": "answers.pdf",
+    "title": "Культурные столицы Европы",
+    "sourceFile": "sources/golden-fleece/2009/interactive-7-8.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Горизонты Европы"
+      },
+      {
+        "start": 4,
+        "title": "Городская скульптура"
+      },
+      {
+        "start": 7,
+        "title": "История"
+      },
+      {
+        "start": 10,
+        "title": "Интересные факты"
+      },
+      {
+        "start": 13,
+        "title": "Достопримечательности"
+      },
+      {
+        "start": 16,
+        "title": "Горизонты Европы"
+      },
+      {
+        "start": 19,
+        "title": "Музеи европы"
+      },
+      {
+        "start": 22,
+        "title": "Символы городов"
+      },
+      {
+        "start": 25,
+        "title": "История"
+      },
+      {
+        "start": 28,
+        "title": "Городская скульптура"
+      },
+      {
+        "start": 31,
+        "title": "Горизонты Европы"
+      },
+      {
+        "start": 34,
+        "title": "Знаменитые жители"
+      },
+      {
+        "start": 37,
+        "title": "Храмы и соборы"
+      },
+      {
+        "start": 40,
+        "title": "Интересные факты"
+      },
+      {
+        "start": 43,
+        "title": "Достопримечательности"
+      }
+    ],
+    "matchingGroups": [
+      {
+        "start": 1,
+        "count": 3,
+        "title": "Горизонты Европы",
+        "question": "Какие города изображены на фотографиях?",
+        "originalNumbers": true
+      },
+      {
+        "start": 4,
+        "count": 3,
+        "title": "Городская скульптура",
+        "question": "В каких городах находятся эти скульптуры?",
+        "originalNumbers": true
+      },
+      {
+        "start": 16,
+        "count": 3,
+        "title": "Горизонты Европы",
+        "question": "Какие города изображены на фотографиях?",
+        "originalNumbers": true
+      },
+      {
+        "start": 22,
+        "count": 3,
+        "title": "Символы городов",
+        "question": "Каким городам принадлежат изображённые гербы?",
+        "originalNumbers": true
+      },
+      {
+        "start": 28,
+        "count": 3,
+        "title": "Городская скульптура",
+        "question": "В каких городах находятся эти скульптуры?",
+        "originalNumbers": true
+      },
+      {
+        "start": 31,
+        "count": 3,
+        "title": "Горизонты Европы",
+        "question": "Какие города изображены на фотографиях?",
+        "originalNumbers": true
+      },
+      {
+        "start": 43,
+        "count": 3,
+        "title": "Достопримечательности",
+        "question": "С какими городами связаны эти изображения?",
+        "originalNumbers": true
+      }
+    ]
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2009,
+    "grade": "9-11",
+    "contest": "Золотое руно",
+    "letters": "АБВГ",
+    "count": 45,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "2009_9-11.pdf",
+    "answersFile": "answers.pdf",
+    "title": "Культурные столицы Европы",
+    "sourceFile": "sources/golden-fleece/2009/interactive-9-11.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Горизонты Европы"
+      },
+      {
+        "start": 4,
+        "title": "Искусство"
+      },
+      {
+        "start": 7,
+        "title": "История"
+      },
+      {
+        "start": 10,
+        "title": "Литература"
+      },
+      {
+        "start": 13,
+        "title": "Городская скульптура"
+      },
+      {
+        "start": 16,
+        "title": "Горизонты Европы"
+      },
+      {
+        "start": 19,
+        "title": "Знаменитые жители"
+      },
+      {
+        "start": 22,
+        "title": "Интересные факты"
+      },
+      {
+        "start": 25,
+        "title": "Городская скульптура"
+      },
+      {
+        "start": 28,
+        "title": "Символы городов"
+      },
+      {
+        "start": 31,
+        "title": "Горизонты Европы"
+      },
+      {
+        "start": 34,
+        "title": "Штаб-квартиры"
+      },
+      {
+        "start": 37,
+        "title": "Знаменитые жители"
+      },
+      {
+        "start": 40,
+        "title": "Интересные факты"
+      },
+      {
+        "start": 43,
+        "title": "Достопримечательности"
+      }
+    ],
+    "matchingGroups": [
+      {
+        "start": 1,
+        "count": 3,
+        "title": "Горизонты Европы",
+        "question": "Какие города изображены на фотографиях?",
+        "originalNumbers": true
+      },
+      {
+        "start": 13,
+        "count": 3,
+        "title": "Городская скульптура",
+        "question": "В каких городах находятся эти скульптуры?",
+        "originalNumbers": true
+      },
+      {
+        "start": 16,
+        "count": 3,
+        "title": "Горизонты Европы",
+        "question": "Какие города изображены на фотографиях?",
+        "originalNumbers": true
+      },
+      {
+        "start": 25,
+        "count": 3,
+        "title": "Городская скульптура",
+        "question": "В каких городах находятся эти скульптуры?",
+        "originalNumbers": true
+      },
+      {
+        "start": 28,
+        "count": 3,
+        "title": "Символы городов",
+        "question": "Каким городам принадлежат изображённые гербы?",
+        "originalNumbers": true
+      },
+      {
+        "start": 31,
+        "count": 3,
+        "title": "Горизонты Европы",
+        "question": "Какие города изображены на фотографиях?",
+        "originalNumbers": true
+      },
+      {
+        "start": 34,
+        "count": 3,
+        "title": "Штаб-квартиры",
+        "question": "В каких городах находятся штаб-квартиры этих международных организаций?",
+        "originalNumbers": true
+      }
+    ]
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2010,
+    "grade": "3-4",
+    "contest": "Золотое руно",
+    "letters": "АБВ",
+    "count": 50,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "Buklet_ZR_0910_3-4.pdf",
+    "answersFile": "answers.pdf",
+    "title": "Литературные герои",
+    "sourceFile": "sources/golden-fleece/2010/interactive-3-4.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Героини сказок"
+      },
+      {
+        "start": 11,
+        "title": "Богатыри и силачи"
+      },
+      {
+        "start": 21,
+        "title": "Путешественницы"
+      },
+      {
+        "start": 31,
+        "title": "Герои детских книг"
+      },
+      {
+        "start": 41,
+        "title": "Помощники героев"
+      }
+    ]
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2010,
+    "grade": "5-6",
+    "contest": "Золотое руно",
+    "letters": "АБВ",
+    "count": 60,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "Buklet_ZR_0910_5-6.pdf",
+    "answersFile": "answers.pdf",
+    "title": "Литературные герои",
+    "sourceFile": "sources/golden-fleece/2010/interactive-5-6.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Былинные герои"
+      },
+      {
+        "start": 11,
+        "title": "Меткие стрелки"
+      },
+      {
+        "start": 21,
+        "title": "Морские путешественники"
+      },
+      {
+        "start": 31,
+        "title": "Сказочные героини"
+      },
+      {
+        "start": 41,
+        "title": "Герои приключений"
+      },
+      {
+        "start": 51,
+        "title": "Волшебники"
+      }
+    ],
+    "matchingGroups": [
+      {
+        "start": 8,
+        "count": 3,
+        "title": "Герои на иллюстрациях",
+        "question": "Кто изображён на иллюстрациях?",
+        "originalNumbers": true
+      },
+      {
+        "start": 28,
+        "count": 3,
+        "title": "Герои на иллюстрациях",
+        "question": "Кто изображён на иллюстрациях?",
+        "originalNumbers": true
+      },
+      {
+        "start": 38,
+        "count": 3,
+        "title": "Герои на иллюстрациях",
+        "question": "Кто изображён на иллюстрациях?",
+        "originalNumbers": true
+      },
+      {
+        "start": 48,
+        "count": 3,
+        "title": "Герои на иллюстрациях",
+        "question": "Кто изображён на иллюстрациях?",
+        "originalNumbers": true
+      }
+    ]
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2010,
+    "grade": "7-8",
+    "contest": "Золотое руно",
+    "letters": "АБВ",
+    "count": 60,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "Buklet_ZR_0910_7-8.pdf",
+    "answersFile": "answers.pdf",
+    "title": "Литературные герои",
+    "sourceFile": "sources/golden-fleece/2010/interactive-7-8.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Влюблённые"
+      },
+      {
+        "start": 11,
+        "title": "Благородные разбойники"
+      },
+      {
+        "start": 21,
+        "title": "Литературные авантюристы"
+      },
+      {
+        "start": 31,
+        "title": "Герои русских романов"
+      },
+      {
+        "start": 41,
+        "title": "Сыщики"
+      },
+      {
+        "start": 51,
+        "title": "Рыцари"
+      }
+    ],
+    "matchingGroups": [
+      {
+        "start": 8,
+        "count": 3,
+        "title": "Герои на иллюстрациях",
+        "question": "Кто изображён на иллюстрациях?",
+        "originalNumbers": true
+      }
+    ]
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2010,
+    "grade": "9-11",
+    "contest": "Золотое руно",
+    "letters": "АБВ",
+    "count": 60,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "Buklet_ZR_0910_9-11.pdf",
+    "answersFile": "answers.pdf",
+    "title": "Литературные герои",
+    "sourceFile": "sources/golden-fleece/2010/interactive-9-11.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Судьбы влюблённых"
+      },
+      {
+        "start": 11,
+        "title": "Герои русской классики"
+      },
+      {
+        "start": 21,
+        "title": "Мечты и стремления"
+      },
+      {
+        "start": 31,
+        "title": "Демонические персонажи"
+      },
+      {
+        "start": 41,
+        "title": "Героини русской классики"
+      },
+      {
+        "start": 51,
+        "title": "Рыцари и мечтатели"
+      }
+    ],
+    "matchingGroups": [
+      {
+        "start": 38,
+        "count": 3,
+        "title": "Герои на иллюстрациях",
+        "question": "Кто изображён на иллюстрациях?",
+        "originalNumbers": true
+      },
+      {
+        "start": 48,
+        "count": 3,
+        "title": "Герои на иллюстрациях",
+        "question": "Кто изображён на иллюстрациях?",
+        "originalNumbers": true
+      }
+    ]
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2011,
+    "grade": "3-4",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 50,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "ZR-3-4.pdf",
+    "answersFile": "answers.pdf",
+    "title": "Солнце светит всем",
+    "sourceFile": "sources/golden-fleece/2011/interactive-3-4.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Мифология"
+      },
+      {
+        "start": 11,
+        "title": "Литература"
+      },
+      {
+        "start": 21,
+        "title": "Интересные факты"
+      },
+      {
+        "start": 31,
+        "title": "Наука"
+      },
+      {
+        "start": 41,
+        "title": "Архитектура"
+      },
+      {
+        "start": 46,
+        "title": "Живопись"
+      }
+    ]
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2011,
+    "grade": "5-6",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "ZR-5-6.pdf",
+    "answersFile": "answers.pdf",
+    "title": "Солнце светит всем",
+    "sourceFile": "sources/golden-fleece/2011/interactive-5-6.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Мифология"
+      },
+      {
+        "start": 11,
+        "title": "Литература"
+      },
+      {
+        "start": 21,
+        "title": "Интересные факты"
+      },
+      {
+        "start": 31,
+        "title": "Наука"
+      },
+      {
+        "start": 41,
+        "title": "Архитектура"
+      },
+      {
+        "start": 51,
+        "title": "Живопись"
+      }
+    ]
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2011,
+    "grade": "7-8",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "ZR-7-8.pdf",
+    "answersFile": "answers.pdf",
+    "title": "Солнце светит всем",
+    "sourceFile": "sources/golden-fleece/2011/interactive-7-8.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Мифология"
+      },
+      {
+        "start": 11,
+        "title": "Литература"
+      },
+      {
+        "start": 21,
+        "title": "Интересные факты"
+      },
+      {
+        "start": 31,
+        "title": "Наука"
+      },
+      {
+        "start": 41,
+        "title": "Архитектура"
+      },
+      {
+        "start": 51,
+        "title": "Живопись"
+      }
+    ]
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2011,
+    "grade": "9-11",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "ZR-9-11.pdf",
+    "answersFile": "answers.pdf",
+    "title": "Солнце светит всем",
+    "sourceFile": "sources/golden-fleece/2011/interactive-9-11.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Мифология"
+      },
+      {
+        "start": 11,
+        "title": "Литература"
+      },
+      {
+        "start": 21,
+        "title": "Интересные факты"
+      },
+      {
+        "start": 31,
+        "title": "Наука"
+      },
+      {
+        "start": 41,
+        "title": "Архитектура"
+      },
+      {
+        "start": 51,
+        "title": "Живопись"
+      }
+    ]
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2012,
+    "grade": "3-4",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 50,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "3-4_1112_540.pdf",
+    "answersFile": "ZR_answers_540.pdf",
+    "title": "Великобритания",
+    "sourceFile": "sources/golden-fleece/2012/interactive-3-4-v540.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Общие сведения"
+      },
+      {
+        "start": 11,
+        "title": "Литература"
+      },
+      {
+        "start": 21,
+        "title": "Интересные факты"
+      },
+      {
+        "start": 31,
+        "title": "Достопримечательности"
+      },
+      {
+        "start": 41,
+        "title": "Памятники"
+      },
+      {
+        "start": 46,
+        "title": "Живопись"
+      }
+    ],
+    "variant": "540",
+    "editionSuffix": "v540",
+    "editionLabel": "Сибирь и Дальний Восток"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2012,
+    "grade": "5-6",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "5-6_1112_540.pdf",
+    "answersFile": "ZR_answers_540.pdf",
+    "title": "Великобритания",
+    "sourceFile": "sources/golden-fleece/2012/interactive-5-6-v540.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Общие сведения"
+      },
+      {
+        "start": 11,
+        "title": "Литература"
+      },
+      {
+        "start": 21,
+        "title": "Интересные факты"
+      },
+      {
+        "start": 31,
+        "title": "Лондон"
+      },
+      {
+        "start": 41,
+        "title": "Архитектура"
+      },
+      {
+        "start": 51,
+        "title": "Выдающиеся личности"
+      }
+    ],
+    "variant": "540",
+    "editionSuffix": "v540",
+    "editionLabel": "Сибирь и Дальний Восток"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2012,
+    "grade": "7-8",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "7-8_1112_540.pdf",
+    "answersFile": "ZR_answers_540.pdf",
+    "title": "Великобритания",
+    "sourceFile": "sources/golden-fleece/2012/interactive-7-8-v540.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Общие сведения"
+      },
+      {
+        "start": 11,
+        "title": "Литература"
+      },
+      {
+        "start": 21,
+        "title": "Интересные факты"
+      },
+      {
+        "start": 31,
+        "title": "История науки"
+      },
+      {
+        "start": 41,
+        "title": "Архитектура"
+      },
+      {
+        "start": 51,
+        "title": "Живопись"
+      }
+    ],
+    "variant": "540",
+    "editionSuffix": "v540",
+    "editionLabel": "Сибирь и Дальний Восток"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2012,
+    "grade": "9-11",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "9-11_1112_540.pdf",
+    "answersFile": "ZR_answers_540.pdf",
+    "title": "Великобритания",
+    "sourceFile": "sources/golden-fleece/2012/interactive-9-11-v540.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Общие сведения"
+      },
+      {
+        "start": 11,
+        "title": "Литература"
+      },
+      {
+        "start": 21,
+        "title": "Интересные факты"
+      },
+      {
+        "start": 31,
+        "title": "Наука"
+      },
+      {
+        "start": 41,
+        "title": "Архитектура"
+      },
+      {
+        "start": 51,
+        "title": "Живопись"
+      }
+    ],
+    "variant": "540",
+    "editionSuffix": "v540",
+    "editionLabel": "Сибирь и Дальний Восток"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2012,
+    "grade": "3-4",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 50,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "3-4_1112_780.pdf",
+    "answersFile": "ZR_answers_780.pdf",
+    "title": "Великобритания",
+    "sourceFile": "sources/golden-fleece/2012/interactive-3-4-v780.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Общие сведения"
+      },
+      {
+        "start": 11,
+        "title": "Литература"
+      },
+      {
+        "start": 21,
+        "title": "Интересные факты"
+      },
+      {
+        "start": 31,
+        "title": "Достопримечательности"
+      },
+      {
+        "start": 41,
+        "title": "Памятники"
+      },
+      {
+        "start": 46,
+        "title": "Живопись"
+      }
+    ],
+    "variant": "780",
+    "editionSuffix": "v780",
+    "editionLabel": "Другие регионы"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2012,
+    "grade": "5-6",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "5-6_1112_780.pdf",
+    "answersFile": "ZR_answers_780.pdf",
+    "title": "Великобритания",
+    "sourceFile": "sources/golden-fleece/2012/interactive-5-6-v780.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Общие сведения"
+      },
+      {
+        "start": 11,
+        "title": "Литература"
+      },
+      {
+        "start": 21,
+        "title": "Интересные факты"
+      },
+      {
+        "start": 31,
+        "title": "Лондон"
+      },
+      {
+        "start": 41,
+        "title": "Архитектура"
+      },
+      {
+        "start": 51,
+        "title": "Выдающиеся личности"
+      }
+    ],
+    "variant": "780",
+    "editionSuffix": "v780",
+    "editionLabel": "Другие регионы"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2012,
+    "grade": "7-8",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "7-8_1112_780.pdf",
+    "answersFile": "ZR_answers_780.pdf",
+    "title": "Великобритания",
+    "sourceFile": "sources/golden-fleece/2012/interactive-7-8-v780.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Общие сведения"
+      },
+      {
+        "start": 11,
+        "title": "Литература"
+      },
+      {
+        "start": 21,
+        "title": "Интересные факты"
+      },
+      {
+        "start": 31,
+        "title": "История науки"
+      },
+      {
+        "start": 41,
+        "title": "Архитектура"
+      },
+      {
+        "start": 51,
+        "title": "Живопись"
+      }
+    ],
+    "variant": "780",
+    "editionSuffix": "v780",
+    "editionLabel": "Другие регионы"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2012,
+    "grade": "9-11",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "9-11_1112_780.pdf",
+    "answersFile": "ZR_answers_780.pdf",
+    "title": "Великобритания",
+    "sourceFile": "sources/golden-fleece/2012/interactive-9-11-v780.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Общие сведения"
+      },
+      {
+        "start": 11,
+        "title": "Литература"
+      },
+      {
+        "start": 21,
+        "title": "Интересные факты"
+      },
+      {
+        "start": 31,
+        "title": "Наука"
+      },
+      {
+        "start": 41,
+        "title": "Архитектура"
+      },
+      {
+        "start": 51,
+        "title": "Живопись"
+      }
+    ],
+    "variant": "780",
+    "editionSuffix": "v780",
+    "editionLabel": "Другие регионы"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2012,
+    "grade": "3-4",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 50,
+    "language": "kk",
+    "points": 3,
+    "tasksFile": "3-4_ZR_1112_980.pdf",
+    "answersFile": "ZR_answers_980.pdf",
+    "title": "Великобритания",
+    "sourceFile": "sources/golden-fleece/2012/interactive-3-4-v980.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Жалпы мәліметтер"
+      },
+      {
+        "start": 11,
+        "title": "Әдебиет"
+      },
+      {
+        "start": 21,
+        "title": "Қызықты фактілер"
+      },
+      {
+        "start": 31,
+        "title": "Назар аударарлық орындар"
+      },
+      {
+        "start": 41,
+        "title": "Кескіндеме"
+      },
+      {
+        "start": 46,
+        "title": "Ескерткіштер"
+      }
+    ],
+    "variant": "980",
+    "editionSuffix": "v980",
+    "editionLabel": "Казахстан"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2012,
+    "grade": "5-6",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "kk",
+    "points": 3,
+    "tasksFile": "5-6_ZR_1112_980.pdf",
+    "answersFile": "ZR_answers_980.pdf",
+    "title": "Великобритания",
+    "sourceFile": "sources/golden-fleece/2012/interactive-5-6-v980.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Жалпы мәліметтер"
+      },
+      {
+        "start": 11,
+        "title": "Әдебиет"
+      },
+      {
+        "start": 21,
+        "title": "Қызықты фактілер"
+      },
+      {
+        "start": 31,
+        "title": "Лондон"
+      },
+      {
+        "start": 41,
+        "title": "Архитектура"
+      },
+      {
+        "start": 51,
+        "title": "Көрнекті тұлғалар"
+      }
+    ],
+    "variant": "980",
+    "editionSuffix": "v980",
+    "editionLabel": "Казахстан"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2012,
+    "grade": "7-8",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "kk",
+    "points": 3,
+    "tasksFile": "7-8_ZR_1112_980.pdf",
+    "answersFile": "ZR_answers_980.pdf",
+    "title": "Великобритания",
+    "sourceFile": "sources/golden-fleece/2012/interactive-7-8-v980.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Жалпы мәліметтер"
+      },
+      {
+        "start": 11,
+        "title": "Әдебиет"
+      },
+      {
+        "start": 21,
+        "title": "Қызықты фактілер"
+      },
+      {
+        "start": 31,
+        "title": "Ғылым тарихы"
+      },
+      {
+        "start": 41,
+        "title": "Архитектура"
+      },
+      {
+        "start": 51,
+        "title": "Кескіндеме"
+      }
+    ],
+    "variant": "980",
+    "editionSuffix": "v980",
+    "editionLabel": "Казахстан"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2012,
+    "grade": "9-11",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "kk",
+    "points": 3,
+    "tasksFile": "9-11_ZR_1112_980.pdf",
+    "answersFile": "ZR_answers_980.pdf",
+    "title": "Великобритания",
+    "sourceFile": "sources/golden-fleece/2012/interactive-9-11-v980.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Жалпы мәліметтер"
+      },
+      {
+        "start": 11,
+        "title": "Әдебиет"
+      },
+      {
+        "start": 21,
+        "title": "Қызықты фактілер"
+      },
+      {
+        "start": 31,
+        "title": "Ғылым"
+      },
+      {
+        "start": 41,
+        "title": "Архитектура"
+      },
+      {
+        "start": 51,
+        "title": "Кескіндеме"
+      }
+    ],
+    "variant": "980",
+    "editionSuffix": "v980",
+    "editionLabel": "Казахстан"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2013,
+    "grade": "3-4",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "ZR_1213_540_3-4.pdf",
+    "answersFile": "ZR_1213_answers_540.pdf",
+    "title": "Pax Germanica. Единство немецкой стихии",
+    "sourceFile": "sources/golden-fleece/2013/interactive-3-4-v540.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "История"
+      },
+      {
+        "start": 16,
+        "title": "Литература"
+      },
+      {
+        "start": 31,
+        "title": "Культура повседневности"
+      },
+      {
+        "start": 46,
+        "title": "Города и замки"
+      }
+    ],
+    "variant": "540",
+    "editionSuffix": "v540",
+    "editionLabel": "Сибирь и Дальний Восток"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2013,
+    "grade": "5-6",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "ZR_1213_540_5-6.pdf",
+    "answersFile": "ZR_1213_answers_540.pdf",
+    "title": "Pax Germanica. Единство немецкой стихии",
+    "sourceFile": "sources/golden-fleece/2013/interactive-5-6-v540.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "История"
+      },
+      {
+        "start": 16,
+        "title": "Литература"
+      },
+      {
+        "start": 31,
+        "title": "Культура повседневности"
+      },
+      {
+        "start": 46,
+        "title": "Художественная культура"
+      }
+    ],
+    "variant": "540",
+    "editionSuffix": "v540",
+    "editionLabel": "Сибирь и Дальний Восток"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2013,
+    "grade": "7-8",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "ZR_1213_540_7-8.pdf",
+    "answersFile": "ZR_1213_answers_540.pdf",
+    "title": "Pax Germanica. Единство немецкой стихии",
+    "sourceFile": "sources/golden-fleece/2013/interactive-7-8-v540.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "История"
+      },
+      {
+        "start": 16,
+        "title": "Литература"
+      },
+      {
+        "start": 31,
+        "title": "Культура повседневности"
+      },
+      {
+        "start": 46,
+        "title": "Художественная культура"
+      }
+    ],
+    "variant": "540",
+    "editionSuffix": "v540",
+    "editionLabel": "Сибирь и Дальний Восток"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2013,
+    "grade": "9-11",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "ZR_1213_540_9-11.pdf",
+    "answersFile": "ZR_1213_answers_540.pdf",
+    "title": "Pax Germanica. Единство немецкой стихии",
+    "sourceFile": "sources/golden-fleece/2013/interactive-9-11-v540.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "История"
+      },
+      {
+        "start": 16,
+        "title": "Литература"
+      },
+      {
+        "start": 31,
+        "title": "Культура повседневности"
+      },
+      {
+        "start": 46,
+        "title": "Художественная культура"
+      }
+    ],
+    "variant": "540",
+    "editionSuffix": "v540",
+    "editionLabel": "Сибирь и Дальний Восток"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2013,
+    "grade": "3-4",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "ZR_1213_780_3-4.pdf",
+    "answersFile": "ZR_1213_answers_780.pdf",
+    "title": "Pax Germanica. Единство немецкой стихии",
+    "sourceFile": "sources/golden-fleece/2013/interactive-3-4-v780.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "История"
+      },
+      {
+        "start": 16,
+        "title": "Литература"
+      },
+      {
+        "start": 31,
+        "title": "Культура повседневности"
+      },
+      {
+        "start": 46,
+        "title": "Города и замки"
+      }
+    ],
+    "variant": "780",
+    "editionSuffix": "v780",
+    "editionLabel": "Другие регионы"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2013,
+    "grade": "5-6",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "ZR_1213_780_5-6.pdf",
+    "answersFile": "ZR_1213_answers_780.pdf",
+    "title": "Pax Germanica. Единство немецкой стихии",
+    "sourceFile": "sources/golden-fleece/2013/interactive-5-6-v780.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "История"
+      },
+      {
+        "start": 16,
+        "title": "Литература"
+      },
+      {
+        "start": 31,
+        "title": "Культура повседневности"
+      },
+      {
+        "start": 46,
+        "title": "Художественная культура"
+      }
+    ],
+    "variant": "780",
+    "editionSuffix": "v780",
+    "editionLabel": "Другие регионы"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2013,
+    "grade": "7-8",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "ZR_1213_780_7-8.pdf",
+    "answersFile": "ZR_1213_answers_780.pdf",
+    "title": "Pax Germanica. Единство немецкой стихии",
+    "sourceFile": "sources/golden-fleece/2013/interactive-7-8-v780.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "История"
+      },
+      {
+        "start": 16,
+        "title": "Литература"
+      },
+      {
+        "start": 31,
+        "title": "Культура повседневности"
+      },
+      {
+        "start": 46,
+        "title": "Художественная культура"
+      }
+    ],
+    "variant": "780",
+    "editionSuffix": "v780",
+    "editionLabel": "Другие регионы"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2013,
+    "grade": "9-11",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "ZR_1213_780_9-11.pdf",
+    "answersFile": "ZR_1213_answers_780.pdf",
+    "title": "Pax Germanica. Единство немецкой стихии",
+    "sourceFile": "sources/golden-fleece/2013/interactive-9-11-v780.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "История"
+      },
+      {
+        "start": 16,
+        "title": "Литература"
+      },
+      {
+        "start": 31,
+        "title": "Культура повседневности"
+      },
+      {
+        "start": 46,
+        "title": "Художественная культура"
+      }
+    ],
+    "variant": "780",
+    "editionSuffix": "v780",
+    "editionLabel": "Другие регионы"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2013,
+    "grade": "3-4",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "ZR_1213_forOU_3-4.pdf",
+    "answersFile": "ZR_1213_answers_forOU.pdf",
+    "title": "Pax Germanica. Единство немецкой стихии",
+    "sourceFile": "sources/golden-fleece/2013/interactive-3-4-vforou.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "История"
+      },
+      {
+        "start": 16,
+        "title": "Литература"
+      },
+      {
+        "start": 31,
+        "title": "Культура повседневности"
+      },
+      {
+        "start": 46,
+        "title": "Города и замки"
+      }
+    ],
+    "variant": "for-ou",
+    "editionSuffix": "vforou",
+    "editionLabel": "Школы за пределами России"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2013,
+    "grade": "5-6",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "ZR_1213_forOU_5-6.pdf",
+    "answersFile": "ZR_1213_answers_forOU.pdf",
+    "title": "Pax Germanica. Единство немецкой стихии",
+    "sourceFile": "sources/golden-fleece/2013/interactive-5-6-vforou.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "История"
+      },
+      {
+        "start": 16,
+        "title": "Литература"
+      },
+      {
+        "start": 31,
+        "title": "Культура повседневности"
+      },
+      {
+        "start": 46,
+        "title": "Художественная культура"
+      }
+    ],
+    "variant": "for-ou",
+    "editionSuffix": "vforou",
+    "editionLabel": "Школы за пределами России"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2013,
+    "grade": "7-8",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "ZR_1213_forOU_7-8.pdf",
+    "answersFile": "ZR_1213_answers_forOU.pdf",
+    "title": "Pax Germanica. Единство немецкой стихии",
+    "sourceFile": "sources/golden-fleece/2013/interactive-7-8-vforou.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "История"
+      },
+      {
+        "start": 16,
+        "title": "Литература"
+      },
+      {
+        "start": 31,
+        "title": "Культура повседневности"
+      },
+      {
+        "start": 46,
+        "title": "Художественная культура"
+      }
+    ],
+    "variant": "for-ou",
+    "editionSuffix": "vforou",
+    "editionLabel": "Школы за пределами России"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2013,
+    "grade": "9-11",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "ZR_1213_forOU_9-11.pdf",
+    "answersFile": "ZR_1213_answers_forOU.pdf",
+    "title": "Pax Germanica. Единство немецкой стихии",
+    "sourceFile": "sources/golden-fleece/2013/interactive-9-11-vforou.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "История"
+      },
+      {
+        "start": 16,
+        "title": "Литература"
+      },
+      {
+        "start": 31,
+        "title": "Культура повседневности"
+      },
+      {
+        "start": 46,
+        "title": "Художественная культура"
+      }
+    ],
+    "variant": "for-ou",
+    "editionSuffix": "vforou",
+    "editionLabel": "Школы за пределами России"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2013,
+    "grade": "3-4",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "kk",
+    "points": 3,
+    "tasksFile": "ZR_1213_KZ_3-4.pdf",
+    "answersFile": "ZR_1213_answers_forOU.pdf",
+    "title": "Pax Germanica. Единство немецкой стихии",
+    "sourceFile": "sources/golden-fleece/2013/interactive-3-4-vkz.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Тарих"
+      },
+      {
+        "start": 16,
+        "title": "Әдебиет"
+      },
+      {
+        "start": 31,
+        "title": "Күнделікті мәдениет"
+      },
+      {
+        "start": 46,
+        "title": "Қалалар мен қамалдар"
+      }
+    ],
+    "variant": "kz",
+    "editionSuffix": "vkz",
+    "editionLabel": "На казахском языке"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2013,
+    "grade": "5-6",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "kk",
+    "points": 3,
+    "tasksFile": "ZR_1213_KZ_5-6.pdf",
+    "answersFile": "ZR_1213_answers_forOU.pdf",
+    "title": "Pax Germanica. Единство немецкой стихии",
+    "sourceFile": "sources/golden-fleece/2013/interactive-5-6-vkz.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Тарих"
+      },
+      {
+        "start": 16,
+        "title": "Әдебиет"
+      },
+      {
+        "start": 31,
+        "title": "Күнделікті мәдениет"
+      },
+      {
+        "start": 46,
+        "title": "Көркем мәдениет"
+      }
+    ],
+    "variant": "kz",
+    "editionSuffix": "vkz",
+    "editionLabel": "На казахском языке"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2013,
+    "grade": "7-8",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "kk",
+    "points": 3,
+    "tasksFile": "ZR_1213_KZ_7-8.pdf",
+    "answersFile": "ZR_1213_answers_forOU.pdf",
+    "title": "Pax Germanica. Единство немецкой стихии",
+    "sourceFile": "sources/golden-fleece/2013/interactive-7-8-vkz.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Тарих"
+      },
+      {
+        "start": 16,
+        "title": "Әдебиет"
+      },
+      {
+        "start": 31,
+        "title": "Күнделікті мәдениет"
+      },
+      {
+        "start": 46,
+        "title": "Көркем мәдениет"
+      }
+    ],
+    "variant": "kz",
+    "editionSuffix": "vkz",
+    "editionLabel": "На казахском языке"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2013,
+    "grade": "9-11",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "kk",
+    "points": 3,
+    "tasksFile": "ZR_1213_KZ_9-11.pdf",
+    "answersFile": "ZR_1213_answers_forOU.pdf",
+    "title": "Pax Germanica. Единство немецкой стихии",
+    "sourceFile": "sources/golden-fleece/2013/interactive-9-11-vkz.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Тарих"
+      },
+      {
+        "start": 16,
+        "title": "Әдебиет"
+      },
+      {
+        "start": 31,
+        "title": "Күнделікті мәдениет"
+      },
+      {
+        "start": 46,
+        "title": "Көркем мәдениет"
+      }
+    ],
+    "variant": "kz",
+    "editionSuffix": "vkz",
+    "editionLabel": "На казахском языке"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2014,
+    "grade": "3-4",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "ZR_1314_540_3-4.pdf",
+    "answersFile": "ZR_1314_answers_540.pdf",
+    "title": "Iberia Paeninsula. От зелёных долин до бескрайнего моря",
+    "sourceFile": "sources/golden-fleece/2014/interactive-3-4-v540.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Города и регионы"
+      },
+      {
+        "start": 16,
+        "title": "Искусство"
+      },
+      {
+        "start": 31,
+        "title": "История"
+      },
+      {
+        "start": 46,
+        "title": "Культура повседневности"
+      }
+    ],
+    "variant": "540",
+    "editionSuffix": "v540",
+    "editionLabel": "Сибирь и Дальний Восток"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2014,
+    "grade": "5-6",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "ZR_1314_540_5-6.pdf",
+    "answersFile": "ZR_1314_answers_540.pdf",
+    "title": "Iberia Paeninsula. От зелёных долин до бескрайнего моря",
+    "sourceFile": "sources/golden-fleece/2014/interactive-5-6-v540.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Города и регионы"
+      },
+      {
+        "start": 16,
+        "title": "Искусство"
+      },
+      {
+        "start": 31,
+        "title": "История"
+      },
+      {
+        "start": 46,
+        "title": "Культура повседневности"
+      }
+    ],
+    "variant": "540",
+    "editionSuffix": "v540",
+    "editionLabel": "Сибирь и Дальний Восток"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2014,
+    "grade": "7-8",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "ZR_1314_540_7-8.pdf",
+    "answersFile": "ZR_1314_answers_540.pdf",
+    "title": "Iberia Paeninsula. От зелёных долин до бескрайнего моря",
+    "sourceFile": "sources/golden-fleece/2014/interactive-7-8-v540.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Географические открытия"
+      },
+      {
+        "start": 16,
+        "title": "Искусство"
+      },
+      {
+        "start": 31,
+        "title": "История"
+      },
+      {
+        "start": 46,
+        "title": "Культура повседневности"
+      }
+    ],
+    "variant": "540",
+    "editionSuffix": "v540",
+    "editionLabel": "Сибирь и Дальний Восток"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2014,
+    "grade": "9-11",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "ZR_1314_540_9-11.pdf",
+    "answersFile": "ZR_1314_answers_540.pdf",
+    "title": "Iberia Paeninsula. От зелёных долин до бескрайнего моря",
+    "sourceFile": "sources/golden-fleece/2014/interactive-9-11-v540.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Иберия в мировой культуре"
+      },
+      {
+        "start": 16,
+        "title": "Искусство"
+      },
+      {
+        "start": 31,
+        "title": "История"
+      },
+      {
+        "start": 46,
+        "title": "Литература"
+      }
+    ],
+    "variant": "540",
+    "editionSuffix": "v540",
+    "editionLabel": "Сибирь и Дальний Восток"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2014,
+    "grade": "3-4",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "ZR_1314_780_3-4.pdf",
+    "answersFile": "ZR_1314_answers_780.pdf",
+    "title": "Iberia Paeninsula. От зелёных долин до бескрайнего моря",
+    "sourceFile": "sources/golden-fleece/2014/interactive-3-4-v780.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Города и регионы"
+      },
+      {
+        "start": 16,
+        "title": "Искусство"
+      },
+      {
+        "start": 31,
+        "title": "История"
+      },
+      {
+        "start": 46,
+        "title": "Культура повседневности"
+      }
+    ],
+    "variant": "780",
+    "editionSuffix": "v780",
+    "editionLabel": "Другие регионы"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2014,
+    "grade": "5-6",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "ZR_1314_780_5-6.pdf",
+    "answersFile": "ZR_1314_answers_780.pdf",
+    "title": "Iberia Paeninsula. От зелёных долин до бескрайнего моря",
+    "sourceFile": "sources/golden-fleece/2014/interactive-5-6-v780.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Города и регионы"
+      },
+      {
+        "start": 16,
+        "title": "Искусство"
+      },
+      {
+        "start": 31,
+        "title": "История"
+      },
+      {
+        "start": 46,
+        "title": "Культура повседневности"
+      }
+    ],
+    "variant": "780",
+    "editionSuffix": "v780",
+    "editionLabel": "Другие регионы"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2014,
+    "grade": "7-8",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "ZR_1314_780_7-8.pdf",
+    "answersFile": "ZR_1314_answers_780.pdf",
+    "title": "Iberia Paeninsula. От зелёных долин до бескрайнего моря",
+    "sourceFile": "sources/golden-fleece/2014/interactive-7-8-v780.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Географические открытия"
+      },
+      {
+        "start": 16,
+        "title": "Искусство"
+      },
+      {
+        "start": 31,
+        "title": "История"
+      },
+      {
+        "start": 46,
+        "title": "Культура повседневности"
+      }
+    ],
+    "variant": "780",
+    "editionSuffix": "v780",
+    "editionLabel": "Другие регионы"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2014,
+    "grade": "9-11",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "ZR_1314_780_9-11.pdf",
+    "answersFile": "ZR_1314_answers_780.pdf",
+    "title": "Iberia Paeninsula. От зелёных долин до бескрайнего моря",
+    "sourceFile": "sources/golden-fleece/2014/interactive-9-11-v780.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Иберия в мировой культуре"
+      },
+      {
+        "start": 16,
+        "title": "Искусство"
+      },
+      {
+        "start": 31,
+        "title": "История"
+      },
+      {
+        "start": 46,
+        "title": "Литература"
+      }
+    ],
+    "variant": "780",
+    "editionSuffix": "v780",
+    "editionLabel": "Другие регионы"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2014,
+    "grade": "3-4",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "ZR_1314_forOU_3-4.pdf",
+    "answersFile": "ZR_1314_answers_forOU.pdf",
+    "title": "Iberia Paeninsula. От зелёных долин до бескрайнего моря",
+    "sourceFile": "sources/golden-fleece/2014/interactive-3-4-vforou.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Города и регионы"
+      },
+      {
+        "start": 16,
+        "title": "Искусство"
+      },
+      {
+        "start": 31,
+        "title": "История"
+      },
+      {
+        "start": 46,
+        "title": "Культура повседневности"
+      }
+    ],
+    "variant": "for-ou",
+    "editionSuffix": "vforou",
+    "editionLabel": "Школы за пределами России"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2014,
+    "grade": "5-6",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "ZR_1314_forOU_5-6.pdf",
+    "answersFile": "ZR_1314_answers_forOU.pdf",
+    "title": "Iberia Paeninsula. От зелёных долин до бескрайнего моря",
+    "sourceFile": "sources/golden-fleece/2014/interactive-5-6-vforou.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Города и регионы"
+      },
+      {
+        "start": 16,
+        "title": "Искусство"
+      },
+      {
+        "start": 31,
+        "title": "История"
+      },
+      {
+        "start": 46,
+        "title": "Культура повседневности"
+      }
+    ],
+    "variant": "for-ou",
+    "editionSuffix": "vforou",
+    "editionLabel": "Школы за пределами России"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2014,
+    "grade": "7-8",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "ZR_1314_forOU_7-8.pdf",
+    "answersFile": "ZR_1314_answers_forOU.pdf",
+    "title": "Iberia Paeninsula. От зелёных долин до бескрайнего моря",
+    "sourceFile": "sources/golden-fleece/2014/interactive-7-8-vforou.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Географические открытия"
+      },
+      {
+        "start": 16,
+        "title": "Искусство"
+      },
+      {
+        "start": 31,
+        "title": "История"
+      },
+      {
+        "start": 46,
+        "title": "Культура повседневности"
+      }
+    ],
+    "variant": "for-ou",
+    "editionSuffix": "vforou",
+    "editionLabel": "Школы за пределами России"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2014,
+    "grade": "9-11",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "ZR_1314_forOU_9-11.pdf",
+    "answersFile": "ZR_1314_answers_forOU.pdf",
+    "title": "Iberia Paeninsula. От зелёных долин до бескрайнего моря",
+    "sourceFile": "sources/golden-fleece/2014/interactive-9-11-vforou.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Иберия в мировой культуре"
+      },
+      {
+        "start": 16,
+        "title": "Искусство"
+      },
+      {
+        "start": 31,
+        "title": "История"
+      },
+      {
+        "start": 46,
+        "title": "Литература"
+      }
+    ],
+    "variant": "for-ou",
+    "editionSuffix": "vforou",
+    "editionLabel": "Школы за пределами России"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2014,
+    "grade": "3-4",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "kk",
+    "points": 3,
+    "tasksFile": "ZR_1314_KZ_3-4.pdf",
+    "answersFile": "ZR_1314_answers_forOU.pdf",
+    "title": "Iberia Paeninsula. От зелёных долин до бескрайнего моря",
+    "sourceFile": "sources/golden-fleece/2014/interactive-3-4-vkz.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Қалалар мен өңірлер"
+      },
+      {
+        "start": 16,
+        "title": "Өнер"
+      },
+      {
+        "start": 31,
+        "title": "Тарих"
+      },
+      {
+        "start": 46,
+        "title": "Күнделікті мәдениет"
+      }
+    ],
+    "variant": "kz",
+    "editionSuffix": "vkz",
+    "editionLabel": "На казахском языке"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2014,
+    "grade": "5-6",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "kk",
+    "points": 3,
+    "tasksFile": "ZR_1314_KZ_5-6.pdf",
+    "answersFile": "ZR_1314_answers_forOU.pdf",
+    "title": "Iberia Paeninsula. От зелёных долин до бескрайнего моря",
+    "sourceFile": "sources/golden-fleece/2014/interactive-5-6-vkz.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Қалалар мен өңірлер"
+      },
+      {
+        "start": 16,
+        "title": "Өнер"
+      },
+      {
+        "start": 31,
+        "title": "Тарих"
+      },
+      {
+        "start": 46,
+        "title": "Күнделікті мәдениет"
+      }
+    ],
+    "variant": "kz",
+    "editionSuffix": "vkz",
+    "editionLabel": "На казахском языке"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2014,
+    "grade": "7-8",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "kk",
+    "points": 3,
+    "tasksFile": "ZR_1314_KZ_7-8.pdf",
+    "answersFile": "ZR_1314_answers_forOU.pdf",
+    "title": "Iberia Paeninsula. От зелёных долин до бескрайнего моря",
+    "sourceFile": "sources/golden-fleece/2014/interactive-7-8-vkz.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Географиялық ашулар"
+      },
+      {
+        "start": 16,
+        "title": "Өнер"
+      },
+      {
+        "start": 31,
+        "title": "Тарих"
+      },
+      {
+        "start": 46,
+        "title": "Күнделікті мәдениет"
+      }
+    ],
+    "variant": "kz",
+    "editionSuffix": "vkz",
+    "editionLabel": "На казахском языке"
+  },
+  {
+    "subject": "golden-fleece",
+    "year": 2014,
+    "grade": "9-11",
+    "contest": "Золотое руно",
+    "letters": "ABC",
+    "count": 60,
+    "language": "kk",
+    "points": 3,
+    "tasksFile": "ZR_1314_KZ_9-11.pdf",
+    "answersFile": "ZR_1314_answers_forOU.pdf",
+    "title": "Iberia Paeninsula. От зелёных долин до бескрайнего моря",
+    "sourceFile": "sources/golden-fleece/2014/interactive-9-11-vkz.json",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Әлемдік көркем мәдениеттегі иберия"
+      },
+      {
+        "start": 16,
+        "title": "Өнер"
+      },
+      {
+        "start": 31,
+        "title": "Тарих"
+      },
+      {
+        "start": 46,
+        "title": "Әдебиет"
+      }
+    ],
+    "variant": "kz",
+    "editionSuffix": "vkz",
+    "editionLabel": "На казахском языке"
+  }
+]

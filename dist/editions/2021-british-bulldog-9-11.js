@@ -23,9 +23,12 @@ globalThis.makeSubjectEdition = function (meta, rows) {
       title, question, choices, language, context, guided: true, hideIntroText: true,
       skill: contest, answer: row.answer ?? null,
       points: row.points ?? meta.points,
+      ...(row.acceptedAnswers ? {acceptedAnswers: row.acceptedAnswers} : {}),
       ...(row.adaptation ? {questionNote: row.adaptation} : {}),
       ...(row.number ? {number: row.number} : {}),
+      ...(row.textAnswer !== undefined ? {textAnswer: row.textAnswer} : {}),
       ...(Number.isInteger(numericAnswer) ? {numericAnswer} : {}),
+      ...(row.acceptedNumericAnswers ? {acceptedNumericAnswers: row.acceptedNumericAnswers} : {}),
       ...(audio ? {audio: folder + (meta.listeningFile ?? 'listening.mp3')} : {}),
       ...(condition || optionFigures ? {choiceLayout: {condition, options},
         choiceImages: options.map(option => option.image),
@@ -45,7 +48,7 @@ globalThis.makeSubjectEdition = function (meta, rows) {
         JSON.stringify(part.choices) !== JSON.stringify(parts[0].choices))) throw new Error('Incomplete matching group ' + group.title);
     const steps = [
       ['Выбор', 'Условие задачи', ''],
-      ...parts.map((part, index) => ['Рисунок ' + (index + 1), part.title,
+      ...parts.map((part, index) => ['Рисунок ' + (index + (group.originalNumbers ? group.start : 1)), part.title,
         part.steps.slice(1, -1).map(step => step[2]).join(' ')]),
       ['Ответ', 'Все пары', ''],
     ];
@@ -58,6 +61,7 @@ globalThis.makeSubjectEdition = function (meta, rows) {
     ...(meta.titleLanguage ? {titleLanguage: meta.titleLanguage} : {}),
     subject, answerLetters: [...letters], sources: {
       contest, tasksUrl: folder + tasksFile, answersUrl: folder + answersFile,
+      ...(meta.solutionsFile ? {solutionUrl: folder + meta.solutionsFile} : {}),
       ...(meta.reviewedKey ? {reviewedKey: true} : {}),
     },
     lessons, scenes: lessons.map(() => () => ''),

@@ -1,0 +1,20 @@
+{
+  "street-plan": {
+    "sourceFile": "7-8/tasks.pdf",
+    "page": 1,
+    "cropPoints": [
+      311.5,
+      97,
+      554.8,
+      251
+    ],
+    "src": "assets/british-bulldog/2010/7-8/street-plan.webp",
+    "alt": "Street plan showing the routes taken by Tom and Ann",
+    "masterSize": [
+      1009,
+      642
+    ],
+    "width": 1009,
+    "height": 642
+  }
+}

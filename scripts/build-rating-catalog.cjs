@@ -6,9 +6,19 @@ const {dist, loadLessonCatalog} = require('./lesson-catalog.cjs');
 
 function buildRatingCatalog() {
   const {lessons} = loadLessonCatalog();
-  const catalog = Object.fromEntries(lessons.filter(lesson => Number.isInteger(lesson.numericAnswer ?? lesson.answer))
-    .map(lesson => [lesson.datasetId + '/' + lesson.number, Number.isInteger(lesson.numericAnswer)
-      ? [lesson.numericAnswer, lesson.points, 'number'] : [lesson.answer, lesson.points, ...(lesson.acceptedAnswers ? [lesson.acceptedAnswers] : [])]]));
+  const catalog = {};
+  for (const lesson of lessons) {
+    const id = lesson.datasetId + '/' + lesson.number;
+    if (lesson.textAnswer !== undefined) {
+      catalog[id] = [lesson.textAnswer, lesson.points, 'text'];
+    } else if (Number.isInteger(lesson.numericAnswer)) {
+      catalog[id] = [lesson.numericAnswer, lesson.points, 'number'];
+      if (lesson.acceptedNumericAnswers) catalog[id].push(lesson.acceptedNumericAnswers);
+    } else if (Number.isInteger(lesson.answer)) {
+      catalog[id] = [lesson.answer, lesson.points];
+      if (lesson.acceptedAnswers) catalog[id].push(lesson.acceptedAnswers);
+    }
+  }
   return JSON.stringify(catalog) + '\n';
 }
 

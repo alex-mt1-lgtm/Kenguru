@@ -1,0 +1,1005 @@
+[
+  {
+    "title": "When the Office Was Closed",
+    "question": "Victoria Station Lost Property Department was closed … .",
+    "choices": [
+      "on Thursday",
+      "when Alan called",
+      "in the evening",
+      "at a quarter to seven"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 1,
+    "steps": [
+      "Автоответчик говорит «Our offices are closed at the moment».",
+      "At the moment относится ко времени звонка Алана."
+    ]
+  },
+  {
+    "title": "Why Alan Called",
+    "question": "Alan Davis called to … .",
+    "choices": [
+      "see his bag",
+      "introduce himself",
+      "say he had a training",
+      "ask if someone had found his bag"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 3,
+    "steps": [
+      "Алан говорит «I’m ringing to see if anyone handed in a sports bag».",
+      "Он спрашивает, не нашёл ли кто-нибудь его спортивную сумку."
+    ]
+  },
+  {
+    "title": "Where the Bag Was Left",
+    "question": "Where does Alan Davis think he left his sports bag?",
+    "choices": [
+      "on the platform",
+      "in Richmond",
+      "on the train",
+      "at the stadium"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 2,
+    "steps": [
+      "Алан говорит «I think I left it on the train». Слова I think передают его предположение.",
+      "Дальше он уточняет, что речь о поезде из Ричмонда. Выбирай on the train."
+    ],
+    "adaptation": "Формулировка передаёт предположение Алана из записи."
+  },
+  {
+    "title": "Leaving in a Hurry",
+    "question": "Alan Davis left his sports bag because he … .",
+    "choices": [
+      "was in a hurry",
+      "was sleepy",
+      "was hungry",
+      "had dirty clothes in it"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 0,
+    "steps": [
+      "В сообщении «I got off in a hurry … and just forgot to pick it up».",
+      "Он спешил, поэтому забыл взять сумку."
+    ]
+  },
+  {
+    "title": "Stripes on the Bag",
+    "question": "How does Alan describe the position of the white stripes on the sports bag?",
+    "choices": [
+      "down one side",
+      "up one side",
+      "on both sides",
+      "near the handles"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 0,
+    "steps": [
+      "Алан говорит «four white stripes down one side».",
+      "Полосы идут по одной стороне, down one side."
+    ],
+    "adaptation": "Вопрос уточнён. Нужно выбрать выражение, использованное в записи."
+  },
+  {
+    "title": "The Colour of the Zip",
+    "question": "There was … on the bag.",
+    "choices": [
+      "no zip",
+      "a red zip",
+      "a dark blue zip",
+      "a zip with white stripes"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 1,
+    "steps": [
+      "Сначала Алан называет цвет сумки, тёмно-синий. Дальше отдельно описывает молнию.",
+      "«The zip is red» указывает на a red zip."
+    ]
+  },
+  {
+    "title": "The Key Ring",
+    "question": "Alan was … that there was the key ring on the bag.",
+    "choices": [
+      "happy",
+      "astonished",
+      "surprised",
+      "not sure"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 3,
+    "steps": [
+      "Алан говорит «It should have a key ring».",
+      "Should здесь выражает предположение. Он не уверен наверняка, not sure."
+    ]
+  },
+  {
+    "title": "Where the Key Ring Is",
+    "question": "The key ring was attached to … .",
+    "choices": [
+      "the zip",
+      "the handles",
+      "both handles",
+      "one of the handles"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 3,
+    "steps": [
+      "После attached звучит «to one of the handles».",
+      "Брелок прикреплён к одной из ручек."
+    ]
+  },
+  {
+    "title": "What the Office Should Do",
+    "question": "Alan Davis asked to … .",
+    "choices": [
+      "give him his bag",
+      "call him",
+      "wash his clothes",
+      "send an email"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 1,
+    "steps": [
+      "Если сумку найдут, Алан просит «please contact me at home».",
+      "Дальше он оставляет телефон, значит, просит позвонить ему."
+    ]
+  },
+  {
+    "title": "Alan's Phone Number",
+    "question": "His telephone number was … .",
+    "choices": [
+      "0345129787",
+      "0341527987",
+      "0341529787",
+      "0341527897"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 2,
+    "steps": [
+      "Алан дважды диктует цифры: 0 3 4 1 5 2 9 7 8 7.",
+      "Собери их без пробелов, 0341529787."
+    ]
+  },
+  {
+    "title": "A Habit in the Past",
+    "question": "Complete gap 11 in the text.",
+    "choices": [
+      "used to",
+      "used",
+      "use to",
+      "were used to"
+    ],
+    "context": "Read the text and choose the answer.\n\nThe first amusement parks appeared near busy beaches in the USA. People [11] visit them from as early as the 1800’s. When Walt Disney created the first “theme” park in the world he [12] that it would be popular. It certainly was. He [13] it in 1955 in California and it still [14] many tourists to the USA today. In fact the park was so successful that similar parks soon [15] in other cities of the USA as well as in Tokyo (1983) and in Paris (1992). They are not only the places [16] people have fun, there is also a lot they can [17] as well. A day out at an amusement park on a sunny day [18] always a good idea. People of all ages visit these parks [19] relax and enjoy their free time. One day there [20] a Disney theme park in every country of the world!",
+    "answer": 0,
+    "steps": [
+      "В тексте описывается, куда люди ходили в прошлом.",
+      "Для старой привычки используется used to + начальная форма visit."
+    ]
+  },
+  {
+    "title": "Disney's Prediction",
+    "question": "Complete gap 12 in the text.",
+    "choices": [
+      "hoped",
+      "is hoping",
+      "has hoped",
+      "were hoping"
+    ],
+    "context": "Read the text and choose the answer.\n\nThe first amusement parks appeared near busy beaches in the USA. People [11] visit them from as early as the 1800’s. When Walt Disney created the first “theme” park in the world he [12] that it would be popular. It certainly was. He [13] it in 1955 in California and it still [14] many tourists to the USA today. In fact the park was so successful that similar parks soon [15] in other cities of the USA as well as in Tokyo (1983) and in Paris (1992). They are not only the places [16] people have fun, there is also a lot they can [17] as well. A day out at an amusement park on a sunny day [18] always a good idea. People of all ages visit these parks [19] relax and enjoy their free time. One day there [20] a Disney theme park in every country of the world!",
+    "answer": 0,
+    "steps": [
+      "Надежда Диснея относится к моменту, когда он создал парк.",
+      "Простое прошедшее от hope — hoped."
+    ]
+  },
+  {
+    "title": "Opening the Park",
+    "question": "Complete gap 13 in the text.",
+    "choices": [
+      "build",
+      "built",
+      "has built",
+      "had built"
+    ],
+    "context": "Read the text and choose the answer.\n\nThe first amusement parks appeared near busy beaches in the USA. People [11] visit them from as early as the 1800’s. When Walt Disney created the first “theme” park in the world he [12] that it would be popular. It certainly was. He [13] it in 1955 in California and it still [14] many tourists to the USA today. In fact the park was so successful that similar parks soon [15] in other cities of the USA as well as in Tokyo (1983) and in Paris (1992). They are not only the places [16] people have fun, there is also a lot they can [17] as well. A day out at an amusement park on a sunny day [18] always a good idea. People of all ages visit these parks [19] relax and enjoy their free time. One day there [20] a Disney theme park in every country of the world!",
+    "answer": 1,
+    "steps": [
+      "In 1955 обозначает законченный период в прошлом.",
+      "Прошедшая форма build — built."
+    ]
+  },
+  {
+    "title": "Visitors Today",
+    "question": "Complete gap 14 in the text.",
+    "choices": [
+      "bring",
+      "brought",
+      "brings",
+      "has brought"
+    ],
+    "context": "Read the text and choose the answer.\n\nThe first amusement parks appeared near busy beaches in the USA. People [11] visit them from as early as the 1800’s. When Walt Disney created the first “theme” park in the world he [12] that it would be popular. It certainly was. He [13] it in 1955 in California and it still [14] many tourists to the USA today. In fact the park was so successful that similar parks soon [15] in other cities of the USA as well as in Tokyo (1983) and in Paris (1992). They are not only the places [16] people have fun, there is also a lot they can [17] as well. A day out at an amusement park on a sunny day [18] always a good idea. People of all ages visit these parks [19] relax and enjoy their free time. One day there [20] a Disney theme park in every country of the world!",
+    "answer": 2,
+    "steps": [
+      "Still и today показывают связь с настоящим, а it — подлежащее в единственном числе.",
+      "Подходит «it still brings many tourists»."
+    ]
+  },
+  {
+    "title": "More Theme Parks",
+    "question": "Complete gap 15 in the text.",
+    "choices": [
+      "opened",
+      "will open",
+      "would open",
+      "have opened"
+    ],
+    "context": "Read the text and choose the answer.\n\nThe first amusement parks appeared near busy beaches in the USA. People [11] visit them from as early as the 1800’s. When Walt Disney created the first “theme” park in the world he [12] that it would be popular. It certainly was. He [13] it in 1955 in California and it still [14] many tourists to the USA today. In fact the park was so successful that similar parks soon [15] in other cities of the USA as well as in Tokyo (1983) and in Paris (1992). They are not only the places [16] people have fun, there is also a lot they can [17] as well. A day out at an amusement park on a sunny day [18] always a good idea. People of all ages visit these parks [19] relax and enjoy their free time. One day there [20] a Disney theme park in every country of the world!",
+    "answer": 0,
+    "steps": [
+      "После успеха первого парка такие же парки появились в других городах.",
+      "Действия описаны в прошедшем времени. «Similar parks opened»."
+    ]
+  },
+  {
+    "title": "Places for Fun",
+    "question": "Complete gap 16 in the text.",
+    "choices": [
+      "that",
+      "where",
+      "when",
+      "who"
+    ],
+    "context": "Read the text and choose the answer.\n\nThe first amusement parks appeared near busy beaches in the USA. People [11] visit them from as early as the 1800’s. When Walt Disney created the first “theme” park in the world he [12] that it would be popular. It certainly was. He [13] it in 1955 in California and it still [14] many tourists to the USA today. In fact the park was so successful that similar parks soon [15] in other cities of the USA as well as in Tokyo (1983) and in Paris (1992). They are not only the places [16] people have fun, there is also a lot they can [17] as well. A day out at an amusement park on a sunny day [18] always a good idea. People of all ages visit these parks [19] relax and enjoy their free time. One day there [20] a Disney theme park in every country of the world!",
+    "answer": 1,
+    "steps": [
+      "Пропуск вводит придаточное о местах, в которых люди развлекаются.",
+      "Where относится к places и обозначает место действия."
+    ]
+  },
+  {
+    "title": "Learning Something New",
+    "question": "Complete gap 17 in the text.",
+    "choices": [
+      "learn",
+      "to learn",
+      "learning",
+      "learned"
+    ],
+    "context": "Read the text and choose the answer.\n\nThe first amusement parks appeared near busy beaches in the USA. People [11] visit them from as early as the 1800’s. When Walt Disney created the first “theme” park in the world he [12] that it would be popular. It certainly was. He [13] it in 1955 in California and it still [14] many tourists to the USA today. In fact the park was so successful that similar parks soon [15] in other cities of the USA as well as in Tokyo (1983) and in Paris (1992). They are not only the places [16] people have fun, there is also a lot they can [17] as well. A day out at an amusement park on a sunny day [18] always a good idea. People of all ages visit these parks [19] relax and enjoy their free time. One day there [20] a Disney theme park in every country of the world!",
+    "answer": 0,
+    "steps": [
+      "Перед пропуском стоит can.",
+      "После модального can ставится исходная форма learn без to."
+    ]
+  },
+  {
+    "title": "A Day at the Park",
+    "question": "Complete gap 18 in the text.",
+    "choices": [
+      "was",
+      "are",
+      "is",
+      "will"
+    ],
+    "context": "Read the text and choose the answer.\n\nThe first amusement parks appeared near busy beaches in the USA. People [11] visit them from as early as the 1800’s. When Walt Disney created the first “theme” park in the world he [12] that it would be popular. It certainly was. He [13] it in 1955 in California and it still [14] many tourists to the USA today. In fact the park was so successful that similar parks soon [15] in other cities of the USA as well as in Tokyo (1983) and in Paris (1992). They are not only the places [16] people have fun, there is also a lot they can [17] as well. A day out at an amusement park on a sunny day [18] always a good idea. People of all ages visit these parks [19] relax and enjoy their free time. One day there [20] a Disney theme park in every country of the world!",
+    "answer": 2,
+    "steps": [
+      "Always указывает на общее суждение. Подлежащее — a day, единственное число.",
+      "В настоящем времени нужно is, «is always a good idea»."
+    ]
+  },
+  {
+    "title": "The Purpose of the Visit",
+    "question": "Complete gap 19 in the text.",
+    "choices": [
+      "so that",
+      "in case",
+      "in order",
+      "to"
+    ],
+    "context": "Read the text and choose the answer.\n\nThe first amusement parks appeared near busy beaches in the USA. People [11] visit them from as early as the 1800’s. When Walt Disney created the first “theme” park in the world he [12] that it would be popular. It certainly was. He [13] it in 1955 in California and it still [14] many tourists to the USA today. In fact the park was so successful that similar parks soon [15] in other cities of the USA as well as in Tokyo (1983) and in Paris (1992). They are not only the places [16] people have fun, there is also a lot they can [17] as well. A day out at an amusement park on a sunny day [18] always a good idea. People of all ages visit these parks [19] relax and enjoy their free time. One day there [20] a Disney theme park in every country of the world!",
+    "answer": 3,
+    "steps": [
+      "Нужно объяснить, зачем люди посещают парки.",
+      "Инфинитив цели строится «to relax and enjoy their free time»."
+    ]
+  },
+  {
+    "title": "Parks in the Future",
+    "question": "Complete gap 20 in the text.",
+    "choices": [
+      "is",
+      "be",
+      "will be",
+      "going to be"
+    ],
+    "context": "Read the text and choose the answer.\n\nThe first amusement parks appeared near busy beaches in the USA. People [11] visit them from as early as the 1800’s. When Walt Disney created the first “theme” park in the world he [12] that it would be popular. It certainly was. He [13] it in 1955 in California and it still [14] many tourists to the USA today. In fact the park was so successful that similar parks soon [15] in other cities of the USA as well as in Tokyo (1983) and in Paris (1992). They are not only the places [16] people have fun, there is also a lot they can [17] as well. A day out at an amusement park on a sunny day [18] always a good idea. People of all ages visit these parks [19] relax and enjoy their free time. One day there [20] a Disney theme park in every country of the world!",
+    "answer": 2,
+    "steps": [
+      "One day there указывает на предположение о будущем.",
+      "Употребляется «there will be»."
+    ]
+  },
+  {
+    "title": "When the Bell Rang",
+    "question": "What were you doing when the doorbell rang?",
+    "choices": [
+      "I was feeding the dog.",
+      "I fed the dog.",
+      "I feeded the dog.",
+      "I am feeding the dog."
+    ],
+    "answer": 0,
+    "steps": [
+      "Вопрос «What were you doing?» просит назвать действие, которое шло в тот момент.",
+      "Подходит «I was feeding the dog»."
+    ]
+  },
+  {
+    "title": "Past Piano Lessons",
+    "question": "Did you use to have piano lessons?",
+    "choices": [
+      "Yes, I do.",
+      "Yes, I did.",
+      "Yes, I have.",
+      "Yes, I had."
+    ],
+    "answer": 1,
+    "steps": [
+      "Вопрос начинается с did и касается прежней привычки.",
+      "Краткий положительный ответ повторяет вспомогательный глагол, «Yes, I did»."
+    ]
+  },
+  {
+    "title": "A Broken Skateboard",
+    "question": "Do you know who broke my skateboard?",
+    "choices": [
+      "It isn’t me.",
+      "It isn’t I.",
+      "No, thanks.",
+      "It wasn’t me."
+    ],
+    "answer": 3,
+    "steps": [
+      "Broke уже сообщает о событии в прошлом.",
+      "Отрицание причастности в том же времени — «It wasn’t me»."
+    ]
+  },
+  {
+    "title": "When He Went Home",
+    "question": "When did he go home?",
+    "choices": [
+      "Two hours ago.",
+      "In two hour’s.",
+      "In two hours’ time.",
+      "For two hours."
+    ],
+    "answer": 0,
+    "steps": [
+      "Вопрос «When did …?» относится к прошлому моменту.",
+      "«Two hours ago» значит «два часа назад». For two hours указывало бы продолжительность."
+    ]
+  },
+  {
+    "title": "Playing the Violin",
+    "question": "Can he play the violin?",
+    "choices": [
+      "Yes, he can play on it.",
+      "No, he can’t play on it.",
+      "Yes, but not very well.",
+      "No, he can play on the piano."
+    ],
+    "answer": 2,
+    "steps": [
+      "Вопрос с can спрашивает об умении. В ответе можно оценить степень умения.",
+      "«Yes, but not very well» уместно отвечает. Обычно говорят play the violin без on."
+    ]
+  },
+  {
+    "title": "Tomorrow at the Park",
+    "question": "Shall we go to the park tomorrow?",
+    "choices": [
+      "Yes, we should to.",
+      "Yes, we are going.",
+      "The park is beautiful.",
+      "It depends on the weather."
+    ],
+    "answer": 3,
+    "steps": [
+      "«Shall we …?» предлагает пойти вместе. Можно ответить, от чего зависит решение.",
+      "«It depends on the weather» означает «зависит от погоды»."
+    ]
+  },
+  {
+    "title": "Opening the Window",
+    "question": "Do you mind my opening the window?",
+    "choices": [
+      "Yes, here you are.",
+      "Yes, I don’t.",
+      "No, I don’t.",
+      "With pleasure."
+    ],
+    "answer": 2,
+    "steps": [
+      "Do you mind буквально спрашивает, будет ли человек возражать.",
+      "Разрешение выражается «No, I don’t», то есть «нет, не возражаю»."
+    ]
+  },
+  {
+    "title": "The Airport Journey",
+    "question": "How long does it take to get to the airport?",
+    "choices": [
+      "He takes a taxi.",
+      "He gets there by taxi.",
+      "Less than an hour.",
+      "It’s a long way."
+    ],
+    "answer": 2,
+    "steps": [
+      "How long требует длительность, а не способ поездки или расстояние.",
+      "«Less than an hour» значит «меньше часа»."
+    ]
+  },
+  {
+    "title": "Length of the Exam",
+    "question": "How long did your exam last?",
+    "choices": [
+      "Yes, it’s my last exam.",
+      "It lasted three hours.",
+      "It lasts three hours.",
+      "It will last three hours."
+    ],
+    "answer": 1,
+    "steps": [
+      "How long спрашивает о продолжительности. Did last указывает на завершённый экзамен.",
+      "Соответствующий ответ «It lasted three hours»."
+    ]
+  },
+  {
+    "title": "Advice After an Accident",
+    "question": "He broke his leg yesterday.",
+    "choices": [
+      "He should be more attentive.",
+      "He should have been more attentive.",
+      "He was attentive.",
+      "He was disattentive."
+    ],
+    "answer": 1,
+    "steps": [
+      "Yesterday помещает перелом в прошлое.",
+      "Совет, которому стоило последовать тогда, выражается «should have been more attentive»."
+    ]
+  },
+  {
+    "title": "A Language in Italy",
+    "question": "She wants to go to Italy to improve her … of the language.",
+    "choices": [
+      "knowing",
+      "known",
+      "unknown",
+      "knowledge"
+    ],
+    "answer": 3,
+    "steps": [
+      "После her нужно существительное со значением знания языка.",
+      "«Knowledge of the language» — правильное сочетание."
+    ]
+  },
+  {
+    "title": "Early Life",
+    "question": "He has lived in this house since his … .",
+    "choices": [
+      "children",
+      "childish",
+      "childhood",
+      "child"
+    ],
+    "answer": 2,
+    "steps": [
+      "После his нужно существительное о периоде жизни.",
+      "Childhood значит «детство»."
+    ]
+  },
+  {
+    "title": "Other People's Problems",
+    "question": "I don’t like that he is … to other people and their problems.",
+    "choices": [
+      "different",
+      "indifferent",
+      "difference",
+      "indifference"
+    ],
+    "answer": 1,
+    "steps": [
+      "Человек безразличен к окружающим и их проблемам.",
+      "Indifferent to означает «равнодушный к»."
+    ]
+  },
+  {
+    "title": "A Mickey Mouse Film",
+    "question": "The first … of the film about Mickey Mouse was in 1928.",
+    "choices": [
+      "appearance",
+      "disappearance",
+      "appeared",
+      "appearing"
+    ],
+    "answer": 0,
+    "steps": [
+      "После first нужно существительное, обозначающее первое появление.",
+      "Appearance — «появление». Disappearance значит «исчезновение»."
+    ]
+  },
+  {
+    "title": "A View from the Hill",
+    "question": "The view of the city from the hill is … .",
+    "choices": [
+      "astonishment",
+      "astonishing",
+      "astonished",
+      "astonishingly"
+    ],
+    "answer": 1,
+    "steps": [
+      "Вид вызывает удивление у того, кто смотрит.",
+      "Astonishing описывает то, что удивляет. Astonished описывает удивлённого человека."
+    ]
+  },
+  {
+    "title": "Evidence about Stonehenge",
+    "question": "There are no … records about when Stonehenge was built.",
+    "choices": [
+      "wrote",
+      "writer",
+      "writing",
+      "written"
+    ],
+    "answer": 3,
+    "steps": [
+      "Records нужны в форме записей, сделанных письменно.",
+      "Written records означает «письменные свидетельства»."
+    ]
+  },
+  {
+    "title": "Terry's First Plan",
+    "question": "Terry has … planned to be an engineer.",
+    "choices": [
+      "origin",
+      "original",
+      "originally",
+      "originate"
+    ],
+    "answer": 2,
+    "steps": [
+      "Пропуск характеризует, когда или как он планировал, поэтому нужно наречие.",
+      "Originally значит «первоначально»."
+    ]
+  },
+  {
+    "title": "Speaking About an Offer",
+    "question": "I have to tell my … that I can’t accept his offer.",
+    "choices": [
+      "employment",
+      "employee",
+      "employer",
+      "unemployment"
+    ],
+    "answer": 2,
+    "steps": [
+      "Говорящий должен ответить на предложение человека, у которого работает.",
+      "Employer — работодатель. Employee — сотрудник."
+    ]
+  },
+  {
+    "title": "Unexpected Places",
+    "question": "Some creatures live in the most … places.",
+    "choices": [
+      "like",
+      "likable",
+      "likely",
+      "unlikely"
+    ],
+    "answer": 3,
+    "steps": [
+      "The most усиливает прилагательное о местах. Смысл в том, что места необычны.",
+      "Unlikely places — «маловероятные, неожиданные места»."
+    ]
+  },
+  {
+    "title": "An Exhibition",
+    "question": "The … hope the exhibition will be a success.",
+    "choices": [
+      "organization",
+      "organizer",
+      "organizers",
+      "organizing"
+    ],
+    "answer": 2,
+    "steps": [
+      "Глагол hope без -s требует множественного подлежащего.",
+      "Organizers — люди, которые проводят выставку."
+    ]
+  },
+  {
+    "title": "A Theft in a Shop",
+    "question": "Shoplifting = … .",
+    "choices": [
+      "robbing in the street",
+      "killing",
+      "stealing from a shop",
+      "playing a trick"
+    ],
+    "answer": 2,
+    "steps": [
+      "В слове shoplifting часть shop указывает на магазин.",
+      "Это кража товара в магазине, stealing from a shop."
+    ]
+  },
+  {
+    "title": "Dirty Air",
+    "question": "To pollute the air = … .",
+    "choices": [
+      "to fly in the sky",
+      "to throw in the air",
+      "to contaminate the air",
+      "to clean the air"
+    ],
+    "answer": 2,
+    "steps": [
+      "Pollute означает вносить в воздух вредные вещества.",
+      "Contaminate передаёт загрязнение."
+    ]
+  },
+  {
+    "title": "Writing on Walls",
+    "question": "Graffiti = … .",
+    "choices": [
+      "damaging property",
+      "littering",
+      "writing on walls in public places",
+      "robbing"
+    ],
+    "answer": 2,
+    "steps": [
+      "Graffiti — рисунки или надписи на поверхностях в общественных местах.",
+      "Подходит writing on walls in public places."
+    ]
+  },
+  {
+    "title": "Stealing from a Pocket",
+    "question": "Pickpocketing = … .",
+    "choices": [
+      "poisoning",
+      "stealing money from pockets",
+      "picking something up",
+      "keeping hands in pockets"
+    ],
+    "answer": 1,
+    "steps": [
+      "Pocket в слове pickpocketing указывает на карман.",
+      "Речь об украденных из карманов деньгах или вещах."
+    ]
+  },
+  {
+    "title": "Family by Marriage",
+    "question": "The in-laws = … .",
+    "choices": [
+      "people who break laws",
+      "prisoners",
+      "relatives of one of the spouses",
+      "lawyers"
+    ],
+    "answer": 2,
+    "steps": [
+      "In-laws называют родственников, которые появляются через брак.",
+      "Вариант с relatives of one of the spouses относится к такой семье."
+    ]
+  },
+  {
+    "title": "Acting without Attention",
+    "question": "Absent-mindedly = … .",
+    "choices": [
+      "decisively",
+      "intentionally",
+      "purposely",
+      "inattentively"
+    ],
+    "answer": 3,
+    "steps": [
+      "Absent-minded описывает человека, который отвлёкся и не замечает, что делает.",
+      "Absent-mindedly близко к inattentively, «невнимательно»."
+    ]
+  },
+  {
+    "title": "A Rare Event",
+    "question": "Hardly ever = … .",
+    "choices": [
+      "usually",
+      "very rarely",
+      "frequently",
+      "sometimes"
+    ],
+    "answer": 1,
+    "steps": [
+      "Hardly значит «едва, почти не».",
+      "Hardly ever означает «почти никогда», то есть very rarely."
+    ]
+  },
+  {
+    "title": "After a Tiring Activity",
+    "question": "To be exhausted = … .",
+    "choices": [
+      "to run out of money",
+      "to be very tired",
+      "to change one’s mind",
+      "to be sad"
+    ],
+    "answer": 1,
+    "steps": [
+      "Exhausted обозначает сильную усталость, израсходованные силы.",
+      "Подходит to be very tired."
+    ]
+  },
+  {
+    "title": "Knowing Something Well",
+    "question": "To be familiar with something = … .",
+    "choices": [
+      "to be on friendly terms",
+      "to misbehave",
+      "to copy style",
+      "to know something well"
+    ],
+    "answer": 3,
+    "steps": [
+      "У выражения be familiar with есть значение «хорошо знать что-либо».",
+      "Выбираем to know something well."
+    ]
+  },
+  {
+    "title": "Dropping Waste",
+    "question": "To litter = … .",
+    "choices": [
+      "to steal from a shop",
+      "to drop waste",
+      "to attack people",
+      "to rob"
+    ],
+    "answer": 1,
+    "steps": [
+      "To litter означает оставлять мусор в общественном месте.",
+      "To drop waste передаёт смысл."
+    ]
+  },
+  {
+    "title": "Cardiff",
+    "question": "Its capital is Cardiff.",
+    "choices": [
+      "Scotland",
+      "Northern Ireland",
+      "England",
+      "Wales"
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2013/7-8/uk-map.webp",
+      "alt": "Map of the United Kingdom with four labels",
+      "width": 729,
+      "height": 919
+    },
+    "context": "Which part of the United Kingdom does this clue describe?",
+    "answer": 3,
+    "steps": [
+      "Cardiff — столица одного из четырёх регионов, подписанных на карте.",
+      "Кардифф находится на южном побережье Уэльса. Выбирай Wales."
+    ]
+  },
+  {
+    "title": "A Legendary Monster",
+    "question": "The legendary monster is believed to live there.",
+    "choices": [
+      "Scotland",
+      "Northern Ireland",
+      "England",
+      "Wales"
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2013/7-8/uk-map.webp",
+      "alt": "Map of the United Kingdom with four labels",
+      "width": 729,
+      "height": 919
+    },
+    "context": "Which part of the United Kingdom does this clue describe?",
+    "answer": 0,
+    "steps": [
+      "Нужна страна, где находится озеро Лох-Несс, связанное с легендой о чудовище.",
+      "Озеро расположено в Шотландии."
+    ]
+  },
+  {
+    "title": "Ben Nevis",
+    "question": "The highest mountain Ben Nevis is situated there.",
+    "choices": [
+      "Scotland",
+      "Northern Ireland",
+      "England",
+      "Wales"
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2013/7-8/uk-map.webp",
+      "alt": "Map of the United Kingdom with four labels",
+      "width": 729,
+      "height": 919
+    },
+    "context": "Which part of the United Kingdom does this clue describe?",
+    "answer": 0,
+    "steps": [
+      "Бен-Невис находится в западной части Шотландского нагорья.",
+      "Поэтому подходит Scotland."
+    ]
+  },
+  {
+    "title": "The Lake District",
+    "question": "The district is called Lake District because of the numerous lakes there.",
+    "choices": [
+      "Scotland",
+      "Northern Ireland",
+      "England",
+      "Wales"
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2013/7-8/uk-map.webp",
+      "alt": "Map of the United Kingdom with four labels",
+      "width": 729,
+      "height": 919
+    },
+    "context": "Which part of the United Kingdom does this clue describe?",
+    "answer": 2,
+    "steps": [
+      "Lake District — регион на северо-западе острова Великобритания, в Камбрии.",
+      "Камбрия относится к England."
+    ]
+  },
+  {
+    "title": "A Land of Castles",
+    "question": "It is often described as the land of castles because so many castles are found in a small area.",
+    "choices": [
+      "Scotland",
+      "Northern Ireland",
+      "England",
+      "Wales"
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2013/7-8/uk-map.webp",
+      "alt": "Map of the United Kingdom with four labels",
+      "width": 729,
+      "height": 919
+    },
+    "context": "Which part of the United Kingdom does this clue describe?",
+    "adaptation": "Уточнено историческое описание без сравнения с плотностью замков во всех странах мира.",
+    "answer": 3,
+    "steps": [
+      "Уэльс часто называют страной замков из-за большой плотности средневековых крепостей.",
+      "Это Wales."
+    ]
+  },
+  {
+    "title": "Palace of Westminster",
+    "question": "The Palace of Westminster is there.",
+    "choices": [
+      "Scotland",
+      "Northern Ireland",
+      "England",
+      "Wales"
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2013/7-8/uk-map.webp",
+      "alt": "Map of the United Kingdom with four labels",
+      "width": 729,
+      "height": 919
+    },
+    "context": "Which part of the United Kingdom does this clue describe?",
+    "answer": 2,
+    "steps": [
+      "В Вестминстерском дворце заседает британский парламент. Здание стоит на Темзе в Лондоне.",
+      "Лондон находится в Англии, England."
+    ]
+  },
+  {
+    "title": "The Smallest by Area",
+    "question": "It is the smallest of the four countries of the United Kingdom by area.",
+    "choices": [
+      "Scotland",
+      "Northern Ireland",
+      "England",
+      "Wales"
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2013/7-8/uk-map.webp",
+      "alt": "Map of the United Kingdom with four labels",
+      "width": 729,
+      "height": 919
+    },
+    "context": "Which part of the United Kingdom does this clue describe?",
+    "answer": 1,
+    "steps": [
+      "Нужно сравнить площади четырёх частей UK.",
+      "Северная Ирландия меньше Уэльса, Шотландии и Англии."
+    ]
+  },
+  {
+    "title": "The Union Flag",
+    "question": "It is the only part of the UK not to be represented separately on the Union Flag (Union Jack).",
+    "choices": [
+      "Scotland",
+      "Northern Ireland",
+      "England",
+      "Wales"
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2013/7-8/uk-map.webp",
+      "alt": "Map of the United Kingdom with four labels",
+      "width": 729,
+      "height": 919
+    },
+    "context": "Which part of the United Kingdom does this clue describe?",
+    "answer": 3,
+    "steps": [
+      "Флаг объединяет кресты, связанные с Англией, Шотландией и Ирландией.",
+      "Отдельного обозначения Уэльса на флаге нет."
+    ]
+  },
+  {
+    "title": "The Shipyard of the Titanic",
+    "question": "The unfortunate ship ‘Titanic’ was built and launched from there.",
+    "choices": [
+      "Scotland",
+      "Northern Ireland",
+      "England",
+      "Wales"
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2013/7-8/uk-map.webp",
+      "alt": "Map of the United Kingdom with four labels",
+      "width": 729,
+      "height": 919
+    },
+    "context": "Which part of the United Kingdom does this clue describe?",
+    "answer": 1,
+    "steps": [
+      "Титаник построили на верфи в Belfast и там же спустили на воду.",
+      "Белфаст находится в Northern Ireland."
+    ]
+  },
+  {
+    "title": "Robert Burns",
+    "question": "Robert Burns wrote about its beauty in his poems.",
+    "choices": [
+      "Scotland",
+      "Northern Ireland",
+      "England",
+      "Wales"
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2013/7-8/uk-map.webp",
+      "alt": "Map of the United Kingdom with four labels",
+      "width": 729,
+      "height": 919
+    },
+    "context": "Which part of the United Kingdom does this clue describe?",
+    "answer": 0,
+    "steps": [
+      "Роберт Бёрнс писал о родной земле и считается одним из её национальных поэтов.",
+      "Он родился в Шотландии, Scotland."
+    ]
+  }
+]

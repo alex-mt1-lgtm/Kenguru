@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="42" height="40" viewBox="0 0 42 40">
+<defs>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,-358,402)" d="M358 362H400V402H358Z" clip-rule="evenodd"/>
+</clipPath>
+<mask id="mask_2">
+<image id="image_3" width="147" height="138" xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAJMAAACKCAAAAACLVyeaAAAACXBIWXMAAA7EAAAO
+xAGVKw4bAAABDklEQVR4nO3WSxKCQAxFUfa/6TjQKgVUXpMfXdw7Nzk2tOWyEBGF
+ZWbdhE32rJvxkb3rpryydd2cHegCrBXkEqodol31FdCq+rm8TfV3cYvqeGm1SjuG
+ysPSV1WpxtYUqE6sSFadHJ+ocoxOUnnHxqsivmisKuro4x5h5MsQMyv69fTPy7gv
+PlXODXaooh+af3iqaLvhIqLRLTWikU11InVbrUjaaO1hwlRgOrgoaWHSwqSFSQuT
+FiYtTFqTm1x/NDBhmsV0diAmTJgwYcI0k0kLE6Z5TQefa/0twIQJEyZMmDBhwoQJ
+EyZMmO5g0sKEaUpTWZi0MGlh0sKkhUkLkxYmrdlMrWHClGsiolv3AICnaGupz7hU
+AAAAAElFTkSuQmCC"/>
+</mask>
+<clipPath id="clip_4">
+<path transform="matrix(0,1,1,0,-358,-193)" d="M595.138 420.565V841.377H-.14337V420.565"/>
+</clipPath>
+<clipPath id="clip_5">
+<path transform="matrix(0,1,1,0,-358,-193)" d="M.029999 841.445H595.05007V0H.029999Z"/>
+</clipPath>
+<clipPath id="clip_6">
+<path transform="matrix(0,1,1,0,-358,-193)" d="M-.14114 420.566V841.372H595.138V420.566"/>
+</clipPath>
+<clipPath id="clip_7">
+<path transform="matrix(0,1,1,0,-358,-193)" d="M450.132 554.636H382.218V621.914H450.132ZM382.218 554.636" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_8">
+<path transform="matrix(0,1,1,0,-358,-193)" d="M595.138 420.565V841.377H-.14337V420.565"/>
+</clipPath>
+<clipPath id="clip_9">
+<path transform="matrix(0,1,1,0,-358,-193)" d="M.029999 841.445H595.05007V0H.029999Z"/>
+</clipPath>
+</defs>
+<g clip-path="url(#clip_1)">
+<path transform="matrix(0,1,1,0,-358,-193)" d="M232.242 358.01H192.07V400.43H232.242Z" fill="#ffffff"/>
+<rect x="0" y="0" width="147" height="138" transform="matrix(.28885819,0,0,.29140539,-.012786865,-.948761)" mask="url(#mask_2)"/>
+<g clip-path="url(#clip_4)">
+<g clip-path="url(#clip_5)">
+</g>
+</g>
+<g clip-path="url(#clip_6)">
+<g clip-path="url(#clip_7)">
+</g>
+</g>
+<g clip-path="url(#clip_8)">
+<g clip-path="url(#clip_9)">
+</g>
+</g>
+</g>
+</svg>

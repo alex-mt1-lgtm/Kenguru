@@ -1,0 +1,42 @@
+{
+  "3-4-v540": {
+    "9": {
+      "question": "К какой династии принадлежала Елизавета II, правившая Великобританией во время конкурса 2012 года?",
+      "adaptation": "Указан год, к которому относится вопрос."
+    },
+    "10": {
+      "question": "Кто в 2012 году являлся верховным главнокомандующим вооружёнными силами Великобритании?",
+      "adaptation": "Указан год, к которому относится вопрос."
+    }
+  },
+  "5-6-v540": {
+    "7": {
+      "question": "К западу от какого пролива произошла Трафальгарская битва?",
+      "adaptation": "Уточнено место сражения у мыса Трафальгар.",
+      "references": [
+        "https://www.britannica.com/event/Battle-of-Trafalgar"
+      ]
+    },
+    "24": {
+      "answer": 1,
+      "references": [
+        "https://www.hrp.org.uk/tower-of-london/whats-on/ceremony-of-the-keys/"
+      ]
+    }
+  },
+  "9-11-v540": {
+    "34": {
+      "question": "Кто из этих врачей в XVIII веке провёл Екатерине II прививку методом вариоляции против оспы?",
+      "adaptation": "Уточнён способ прививки.",
+      "references": [
+        "https://www.royalcollegeofphysicians.co.uk/blog/thomas-dimsdale-and-catherine-great/"
+      ]
+    },
+    "35": {
+      "answer": 1,
+      "references": [
+        "https://plato.stanford.edu/entries/reid/"
+      ]
+    }
+  }
+}
