@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="170" height="81" viewBox="0 0 170 81">
+<defs>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,-232,227)" d="M232 146H402V227H232Z" clip-rule="evenodd"/>
+</clipPath>
+<mask id="mask_2">
+<image id="image_3" width="347" height="164" xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAVsAAACkCAAAAAAcF9JJAAAACXBIWXMAAA7EAAAO
+xAGVKw4bAAACkUlEQVR4nO2QQW4cQQzE/P9Pb3L2xIHao5I4u+Sx0EBT/PoSERER
+EREREfkYXixY0m+VtnYOSgagWQUlbdtdGYBmFZR0Q1vwhpI+hNTRtrMbSvoQUkfb
+zm4o6UNIHW07u6GkDyF1tO3shpI+hNTRtrMbSvoQUkfbzm4o6UNIHW07u6GkD3nR
+QEm/WdvKPSQXgmYZkrRtV10ImlVQ0g1tq+oT71DSFRmApm1zmrbNado2p2nbnKZt
+c5q2zWnaNqdp25ymbXOats1p2janaducpm1zmp/algRK+s3aVu4huRA0y5Ckbbvq
+QtCsgpJuaFvdCt8fvStsc9K/lRnWtG1O07Y5TdvmNG2b07RtTtO2OU3b5jRtm9O0
+bU7TtjlN2+Y0bZvTtG1O07b//34LlLRtd2UAmlVQ0rbdlQFoVkFJN7Stqk+8Q0lX
+ZACats1p2janaducpm1zmrbNado2p2nbnKZtc5q2zWnaNqdp25ymbXOats1pfmpb
+Eihp2+7KADSroKRtuysD0KyCkm5oW90K3x+9K2z3pRu3Q2x7V6ZJ07ZH2PauTJOm
+bY+w7V2ZJk3bHmHbuzJNmrY9wrZ3ZZo0bXuEbe/KNGna9gjb3pVp0rTtET+22AIl
+bdtdGYBmFZS0bXdlAJpVUNINbavqE+/unYPCtjlsm8O2OWybw7Y5bJvDtjlsm8O2
+OWybw7Y5bJvDtjlsm+PHu7fYDtLIdsoL20Ea2U55YTtII9spL2wHaWQ75YXtII38
+6x7S9mRIHW07uz0ZUkfbzm5PhtTRtrPbkyF1tO3s9mRIHW07uz0ZUkfbzm5PhtTR
+trPbk3nR2A7SyHbKK9tF+tgueWW7SB/bJa9sF2lkO+V3tnuIiIiIyF/+AL28t2cG
+/kpiAAAAAElFTkSuQmCC"/>
+</mask>
+<clipPath id="clip_4">
+<path transform="matrix(0,1,1,0,-232,-368)" d="M498.915 401.794H546.128V340.285H498.915Z"/>
+</clipPath>
+<clipPath id="clip_5">
+<path transform="matrix(0,1,1,0,-232,-368)" d="M595.138 420.565V841.377H-.14337V420.565"/>
+</clipPath>
+<clipPath id="clip_6">
+<path transform="matrix(0,1,1,0,-232,-368)" d="M.029999 841.445H595.05007V0H.029999Z"/>
+</clipPath>
+</defs>
+<g clip-path="url(#clip_1)">
+<path transform="matrix(0,1,1,0,-232,-368)" d="M450.408 225.009H363.49V408.984H450.408Z" fill="#ffffff"/>
+<rect x="0" y="0" width="347" height="164" transform="matrix(.530308,0,0,.5302474,-7.013626,-4.530426)" mask="url(#mask_2)"/>
+<g clip-path="url(#clip_4)">
+</g>
+<g clip-path="url(#clip_5)">
+<g clip-path="url(#clip_6)">
+</g>
+</g>
+</g>
+</svg>

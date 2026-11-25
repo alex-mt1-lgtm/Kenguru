@@ -1,0 +1,255 @@
+<!doctype html><html lang="ru"><head><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'"><base href="/_releases/d6ce36306c29e7034fd60208ea656d5a628f700a/"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Школьные олимпиады по предметам. Выбирай конкурс, класс и год, решай задачи и проверяй ответы."><title>Olympiads.pro</title><link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="favicon.svg"><script src="account.js?v=profile-layout"></script><script src="edition-loader.js" defer></script><link rel="stylesheet" href="style.css?v=compact-figure-viewer"><link rel="stylesheet" href="account.css?v=profile-layout"><link rel="stylesheet" href="leaderboard.css?v=profile-layout"></head><body>
+<div class="page-art" aria-hidden="true"><span></span></div>
+<header class="lesson-header"><a class="site-brand" href="/" aria-label="olympiads.pro — к урокам"><span class="site-brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span>olympiads.pro</a>
+<div class="header-menus">
+  <details id="editionMenu" class="compact-menu edition-menu">
+    <summary id="editionToggle"><span class="edition-caption"><strong id="currentSubject">Математика</strong><span id="archiveLabel">2024 · 3–4 классы</span><span id="archiveShortLabel" aria-hidden="true">2024 · 3–4</span></span></summary>
+    <div class="compact-menu-panel">
+      <label class="edition-field">Предмет<select id="subjectPicker"><option value="math">Математика</option><option value="ru">Русский язык</option><option value="british-bulldog" data-short="Английский">Английский язык</option><option value="golden-fleece" data-short="История">История и культура</option><option value="kit">Информатика</option><option value="chip" data-short="Окруж. мир">Окружающий мир</option></select></label>
+      <label class="edition-field">Год конкурса<select id="yearPicker" aria-label="Год конкурса"></select></label>
+      <label id="gradeField" class="edition-field">Класс<select id="gradePicker" aria-label="Вариант по классу"></select></label>
+      <a id="editionArchive" href="/archive.html#grades-3-4">Все выпуски</a>
+    </div>
+  </details>
+  <button id="accountOpen" class="header-sign-in" type="button" aria-haspopup="dialog">Войти</button>
+  <details id="profileMenu" class="compact-menu learner-profiles" hidden>
+    <summary id="profileToggle"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="7" r="3.5"/><path d="M4 21c.4-4.1 3.4-6.5 8-6.5s7.6 2.4 8 6.5"/></svg><span id="profileSummary">Профиль</span></summary>
+    <div class="compact-menu-panel profile-panel">
+      <div class="profile-identity poster-heading"><span>Профиль</span><strong id="accountMenuName"></strong></div>
+      <div class="profile-actions">
+        <button id="openProfileRating" class="profile-action" type="button" aria-haspopup="dialog" aria-controls="profileRatingDialog" hidden>
+          <svg class="profile-icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="8.5" r="5.5"/><path d="m8 13-1 8 5-3 5 3-1-8"/></svg>
+          <span>Рейтинг и достижения</span><strong id="profileRatingPoints"></strong>
+        </button>
+        <button id="openLeaderboard" class="profile-action" type="button" aria-haspopup="dialog">
+          <svg class="profile-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M3 20v-9h6v9m0 0V4h6v16m0 0v-6h6v6M2 20h20"/></svg>
+          <span>Общий рейтинг</span>
+        </button>
+      </div>
+      <section id="accountMenu" class="profile-settings" aria-label="Аккаунт" hidden>
+        <button id="accountSettings" class="profile-action" type="button" aria-haspopup="dialog" hidden>
+          <svg class="profile-icon" aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="1.8"/><path d="M6 15c.5-2.5 5.5-2.5 6 0m2-5h3m-3 4h3"/></svg>
+          <span>Данные аккаунта<small id="accountEmailHint"></small></span>
+        </button>
+        <button id="accountLogout" class="profile-action" type="button" hidden>
+          <svg class="profile-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M10 4H5v16h5m-1-8h12m-4-4 4 4-4 4"/></svg>
+          <span>Выйти из аккаунта</span>
+        </button>
+        <p id="accountMenuStatus" role="status"></p>
+      </section>
+    </div>
+  </details>
+</div>
+</header>
+<main id="lessonPage" class="lesson-page lesson-initializing"><p id="lessonLoadStatus" role="status">Загружаем задачу…</p><noscript><p>Для интерактивного урока нужен JavaScript. <a href="/archive.html">Открыть архив</a>.</p></noscript>
+<div class="task-navigation">
+  <button id="previousTaskShortcut" class="task-shortcut" type="button" aria-label="Предыдущая задача" aria-disabled="true">←</button>
+  <details id="taskNavigation" class="lesson-disclosure">
+    <summary id="taskNavigationToggle"><span class="task-position"><span class="task-position-word">Задача </span><span class="task-position-symbol" aria-hidden="true">№ </span><span id="taskNumber">01</span></span><span id="taskSummaryTitle" class="task-summary-title">Квадрат с секретом</span><span id="taskPoints">3 балла</span></summary>
+    <div class="lesson-context">
+      <label class="task-section-field">Раздел<select id="taskSectionPicker" aria-controls="taskPicker"></select></label>
+      <div class="collection-progress" id="collectionProgress" aria-live="polite"></div>
+    </div>
+    <nav id="taskPicker" class="task-picker" aria-label="Выбор задачи"></nav>
+  </details>
+  <button id="nextTaskShortcut" class="task-shortcut" type="button" aria-label="Следующая задача">→</button>
+</div>
+<div class="lesson" id="lesson"><aside id="lessonAside"><h1 id="taskTitle" tabindex="-1">Квадрат с секретом</h1><p id="taskSkill">Сравниваем площади</p></aside>
+<section id="lessonPlayer" class="player" aria-label="Интерактивный урок"><details id="taskCondition" class="condition" open>
+  <summary>Условие задачи</summary>
+  <p id="sectionInstruction" hidden></p>
+  <p id="question"></p>
+  <details id="readingPassage" class="reading-passage" hidden open><summary>Текст для чтения</summary><div id="readingText"></div></details>
+  <div id="listeningBlock" hidden><label for="listeningAudio">Аудирование</label><audio id="listeningAudio" controls preload="none" aria-label="Запись к заданию"></audio></div>
+  <p id="questionNote" class="question-note" hidden></p>
+  <img id="conditionImage" class="condition-image" loading="lazy" alt="" hidden>
+  <div id="conditionPictures" role="region" aria-label="Рисунки условия" tabindex="0" hidden></div>
+</details>
+<h2 id="sceneTitle"></h2><p id="sceneText"></p>
+<div id="lessonScene"><div id="sceneWorkbench"><div id="draftControls" class="draft-controls">
+  <details id="drawingWorkspace" class="workspace">
+    <summary>Черновик</summary>
+    <div class="draft-actions" role="group" aria-label="Инструменты черновика">
+      <details id="draftNotesMenu" class="draft-menu">
+        <summary class="draft-icon"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h9l4 4v14H6zM14 3v5h5M9 12h7m-7 4h7"/></svg>Записи</summary>
+        <div class="draft-menu-panel">
+          <p id="draftStorageHint">Записи хранятся до обновления или закрытия страницы.</p>
+          <label class="draft-notes">Твои записи<textarea id="draftNotes" rows="4" aria-describedby="draftStorageHint" placeholder="Запиши вычисления или ход решения"></textarea></label>
+        </div>
+      </details>
+      <details id="draftSurfaceMenu" class="draft-menu">
+        <summary id="draftSurfaceToggle" class="draft-icon" data-tip="Где рисовать"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M4 10h16M10 10v10m5-10v10M4 15h16"/></svg>Лист</summary>
+        <div class="draft-menu-panel draft-surface-panel">
+          <label class="edition-field" for="drawingSurface">Где рисовать
+            <select id="drawingSurface"><option value="scene">На рисунке задачи</option><option value="plain">На чистом листе</option><option value="grid">На листе в клетку</option></select>
+          </label>
+        </div>
+      </details>
+      <div id="drawingTools" class="draft-tools">
+        <button class="draft-icon" type="button" data-tool="pointer" aria-pressed="true" aria-label="Просмотр" data-tip="Просмотр"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3l13 10-6 1-3 6z"/></svg></button>
+        <button class="draft-icon" type="button" data-tool="pen" aria-pressed="false" aria-label="Карандаш" data-tip="Карандаш"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l4.5-1L20 7.5 16.5 4 5 15.5zM14 6.5l3.5 3.5M5 15.5l3.5 3.5"/></svg></button>
+        <button class="draft-icon" type="button" data-tool="line" aria-pressed="false" aria-label="Линия" data-tip="Линия"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20 20 4"/></svg></button>
+        <button class="draft-icon" type="button" data-tool="arrow" aria-pressed="false" aria-label="Стрелка" data-tip="Стрелка"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20 20 4m-8 0h8v8"/></svg></button>
+        <button class="draft-icon" type="button" data-tool="fill" aria-pressed="false" aria-label="Закрасить клетку" data-tip="Закрасить клетку" hidden><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="1.5"/><path d="M4 12h16M12 4v16"/><path d="M5 5h6v6H5z" fill="currentColor" stroke="none"/></svg></button>
+        <button class="draft-icon" type="button" data-tool="ladder" aria-pressed="false" aria-label="Лестница" data-tip="Лестница" hidden><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3v18M17 3v18M7 6h10M7 10h10M7 14h10M7 18h10"/></svg></button>
+        <button class="draft-icon" type="button" data-tool="eraser" aria-pressed="false" aria-label="Ластик" data-tip="Ластик"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14l9-10a2 2 0 0 1 3 0l4 4a2 2 0 0 1 0 3l-8 9H9zm5-6l7 7M12 20h9"/></svg></button>
+        <label class="draft-icon draft-color" data-tip="Цвет"><input id="drawingColor" type="color" value="#e9693e" aria-label="Цвет рисования"></label>
+        <button class="draft-icon" id="undoDrawing" type="button" aria-label="Отменить штрих" data-tip="Отменить штрих" disabled><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m9 5-5 5 5 5m-5-5h10a5 5 0 0 1 0 10h-3"/></svg></button>
+        <button class="draft-icon" id="clearDrawing" type="button" aria-label="Очистить рисунок" data-tip="Очистить рисунок" disabled><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16m-13 0 1 14h8l1-14M9 7V4h6v3m-4 4v6m2-6v6"/></svg></button>
+      </div>
+    </div>
+    <p id="drawingHint" class="draft-hint" role="status"></p>
+  </details>
+  <div class="diagram-controls">
+    <button id="openLegacyZoom" class="figure-viewer-trigger" type="button" aria-haspopup="dialog" hidden>Увеличить рисунок</button>
+    <button id="openSceneZoom" class="figure-viewer-trigger" type="button" aria-haspopup="dialog" hidden>Увеличить схему разбора</button>
+    <label id="variantLabel" class="variant-picker" hidden>Рисунок <select id="workVariant" aria-label="Рисунок для своей схемы"><option>А</option><option>Б</option><option>В</option><option>Г</option><option>Д</option></select></label>
+  </div>
+</div><div id="stage"><div id="scene"></div><svg id="drawingLayer" viewBox="0 0 640 300" data-visible="false" aria-label="Твои пометки" role="img">
+  <rect id="drawingHitArea" x="0" y="0" width="640" height="300" fill="transparent"/>
+  <g id="drawingMarks"></g>
+</svg></div>
+<div id="draftBoard" class="draft-board" hidden>
+  <svg id="draftPaper" viewBox="0 0 640 300" aria-hidden="true"></svg>
+</div></div></div><button id="openChoiceZoom" class="figure-viewer-trigger choice-zoom-trigger" type="button" aria-haspopup="dialog" hidden>Увеличить варианты</button><label id="numericEntry" hidden>Твой ответ<input id="numericAnswer" type="text" spellcheck="false" autocapitalize="off" inputmode="numeric" maxlength="9" autocomplete="off" placeholder="Целое число"></label><div id="matchingAnswers" class="matching-answers" hidden></div><div id="answers" class="answer-list" aria-label="Варианты ответа"></div>
+<div id="lessonSupplement"><div id="openingDraftControls" class="draft-controls"></div></div>
+<div id="chapterSlot"><details id="chapterNavigation" class="lesson-disclosure" aria-label="Навигация по шагам">
+  <summary id="chapterNavigationToggle"><span class="step-count">Шаг <span id="counter"></span></span><span id="chapterTag"></span></summary>
+  <nav id="chapters" aria-label="Шаги урока"></nav>
+</details></div><div id="feedback" role="status" aria-live="polite"></div><p id="ratingNotice" role="status"></p><p id="progressStatus" class="progress-status" role="status"></p><button id="retryProgress" class="progress-retry" type="button" hidden>Повторить сохранение</button><details id="alternative" class="alternative-method" hidden><summary id="alternativeTitle"></summary><p id="alternativeText"></p><div class="alternative-table-wrap"><table id="alternativeTable"></table></div><p id="alternativeConclusion"></p></details><div class="timeline" aria-hidden="true"><span id="progress"></span></div><div class="controls"><button id="back" aria-label="Предыдущий шаг">← Назад</button><button id="play" aria-label="Включить автоматический показ">▶ Смотреть</button><button id="repeat" aria-label="Повторить текущую задачу сначала">↺ Повтор</button><button id="next" class="primary">Далее →</button><button id="nextTask" class="primary" hidden>Следующая задача →</button></div><p id="keyboardHint" class="keyboard">← → шаги <span>·</span> пробел — показ / пауза</p></section></div>
+<details id="sources">
+  <summary>Материалы конкурса</summary>
+  <p id="sourceNote">Кенгуру 2024 · 3–4 классы · задача №1</p>
+  <p id="sourceAdaptation" hidden>Условия адаптированы для интерактивного урока. Пошаговые пояснения подготовлены для Olympiads.pro.</p>
+  <div class="source-links">
+    <a id="tasksReader" target="_blank" rel="noopener" hidden>Задания для чтения в PDF</a>
+    <a id="tasksSource" href="assets/kenguru/kenguru_2024_class_3-4.pdf" target="_blank" rel="noopener">Вариант в PDF</a>
+    <a id="answersReader" target="_blank" rel="noopener" hidden>Ответы для чтения в PDF</a>
+    <a id="answersSource" href="assets/kenguru/kenguru_2024_answers.pdf" target="_blank" rel="noopener">Ответы в PDF</a>
+    <a id="solutionsReader" target="_blank" rel="noopener" hidden>Решения для чтения в PDF</a>
+    <a id="solutionsSource" href="assets/kenguru/kenguru_2024_solution.pdf" target="_blank" rel="noopener">Решения в PDF</a>
+  </div>
+</details>
+<nav class="previous-editions" aria-label="Выпуски олимпиад"><a href="/archive.html" id="allEditions">Все выпуски предмета</a></nav>
+</main>
+<dialog id="accountDialog" class="account-dialog" aria-labelledby="accountTitle">
+  <div class="account-heading">
+    <h2 id="accountTitle">Вход в аккаунт</h2>
+    <form method="dialog"><button type="submit">Закрыть</button></form>
+  </div>
+  <p id="accountNotice" role="status"></p>
+  <p id="accountError" role="alert"></p>
+  <form class="account-form" method="post" data-account-form="login" hidden>
+    <label>Имя пользователя или электронная почта
+      <input type="text" name="login" autocomplete="username" maxlength="254" autocapitalize="none" spellcheck="false" required>
+    </label>
+    <label>Пароль <input type="password" name="password" autocomplete="current-password" required></label>
+    <button class="account-primary" type="submit">Войти</button>
+    <div class="account-links">
+      <button type="button" data-account-mode="register">Создать аккаунт</button>
+      <button type="button" data-account-mode="request-reset">Забыли пароль?</button>
+    </div>
+  </form>
+  <form class="account-form" method="post" data-account-form="register" hidden>
+    <label>Имя пользователя
+      <input type="text" name="username" autocomplete="username" minlength="3" maxlength="24" autocapitalize="none"
+        spellcheck="false" aria-describedby="accountUsernameHint" required>
+    </label>
+    <p class="account-hint" id="accountUsernameHint">От 3 до 24 символов. Подойдут русские и латинские буквы, цифры, дефис и подчёркивание.</p>
+    <label>Электронная почта <input type="email" name="email" autocomplete="email" maxlength="254" required></label>
+    <label>Пароль
+      <input type="password" name="password" autocomplete="new-password" maxlength="72" aria-describedby="accountPasswordHint" required>
+    </label>
+    <p class="account-hint" id="accountPasswordHint">Не менее 10 символов.</p>
+    <p class="account-hint">Другие участники рейтинга увидят имя, баллы и число решённых задач. Электронная почта нужна для входа и восстановления пароля. Исправить данные или удалить аккаунт можно в профиле в разделе «Данные аккаунта».</p>
+    <button class="account-primary" type="submit">Создать аккаунт</button>
+    <div class="account-links">
+      <button type="button" data-account-mode="login">Ко входу</button>
+      <button type="button" data-account-mode="login" data-settings-after-login>Войти для управления данными</button>
+    </div>
+  </form>
+  <form class="account-form" method="post" data-account-form="request-reset" hidden>
+    <label>Электронная почта <input type="email" name="email" autocomplete="email" maxlength="254" required></label>
+    <button class="account-primary" type="submit">Получить ссылку</button>
+    <div class="account-links"><button type="button" data-account-mode="login">Ко входу</button></div>
+  </form>
+  <form class="account-form" method="post" data-account-form="reset" hidden>
+    <label>Новый пароль
+      <input type="password" name="password" autocomplete="new-password" maxlength="72" aria-describedby="accountResetHint" required>
+    </label>
+    <p class="account-hint" id="accountResetHint">Не менее 10 символов.</p>
+    <button class="account-primary" type="submit">Сохранить пароль</button>
+    <div class="account-links"><button type="button" data-account-mode="request-reset">Запросить новую ссылку</button></div>
+  </form>
+  <form class="account-form" method="post" data-account-form="edit-account" hidden>
+    <label>Имя в рейтинге<input name="username" autocomplete="username" minlength="3" maxlength="24" spellcheck="false" required></label>
+    <label>Электронная почта<input name="email" type="email" autocomplete="email" maxlength="254" required aria-describedby="accountEmailStatus"></label>
+    <p class="account-hint" id="accountEmailStatus"></p>
+    <button id="resendVerification" type="button">Отправить письмо для подтверждения</button>
+    <label>Текущий пароль<input name="password" type="password" autocomplete="current-password" maxlength="72" required></label>
+    <button class="account-primary" type="submit">Сохранить данные</button>
+    <p class="account-hint">Участники общего рейтинга видят твоё имя, баллы и число решённых задач. Электронная почта нужна для входа и восстановления пароля.</p>
+    <div class="account-links"><button type="button" data-account-mode="delete-account">Удалить аккаунт и данные</button></div>
+  </form>
+  <form class="account-form" method="post" data-account-form="delete-account" hidden>
+    <p>После удаления пропадут прогресс, черновики, баллы и место в рейтинге.</p>
+    <label>Текущий пароль<input name="password" type="password" autocomplete="current-password" maxlength="72" required></label>
+    <label class="account-confirm"><input name="confirm" type="checkbox" required> Я хочу удалить аккаунт и данные</label>
+    <button class="account-primary" type="submit">Удалить аккаунт</button>
+    <div class="account-links"><button type="button" data-account-mode="edit-account">К данным аккаунта</button></div>
+  </form>
+  <form class="account-form" data-account-form="confirm-email" hidden>
+    <div class="account-links"><button type="button" id="afterConfirmEmail" data-account-mode="login">Ко входу</button></div>
+  </form>
+</dialog>
+<dialog id="profileRatingDialog" class="leaderboard personal-rating" aria-labelledby="ratingTitle">
+  <div class="leaderboard-hero poster-heading">
+    <div><h2 id="ratingTitle">Рейтинг и достижения</h2><p id="ratingProfileName"></p></div>
+    <form method="dialog"><button class="leaderboard-close" type="submit" aria-label="Закрыть рейтинг и достижения" autofocus>
+      <svg aria-hidden="true" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m5 5 10 10M15 5 5 15"/></svg>
+    </button></form>
+  </div>
+  <div class="personal-rating-content">
+    <dl class="rating-stats">
+      <div><dt>Баллы</dt><dd id="ratingPoints"></dd></div>
+      <div><dt>Решено самостоятельно</dt><dd id="ratingSolved"></dd></div>
+    </dl>
+    <section aria-labelledby="ratingAchievementsTitle">
+      <h3 id="ratingAchievementsTitle">Достижения <span id="ratingBadgeCount"></span></h3>
+      <ul class="rating-badges" id="ratingBadges"></ul>
+    </section>
+    <details class="personal-rating-rules">
+      <summary>Как начисляются баллы</summary>
+      <p>При первом открытии разбора засчитывается выбранный ответ. За верное самостоятельное решение баллы начисляются один раз, после сохранения на сервере.</p>
+      <p>Без сети ответ остаётся на устройстве и отправится при подключении. Если на другом устройстве уже открыт разбор или сохранён результат, учитывается сохранённая на сервере история.</p>
+    </details>
+  </div>
+</dialog>
+<dialog id="detailZoom" class="detail-zoom" aria-labelledby="detailTitle">
+  <div class="detail-heading">
+    <div class="detail-heading-copy">
+      <h2 id="detailTitle" aria-live="polite"></h2>
+      <span id="detailHint" class="detail-hint"></span>
+      <div id="detailCaption" class="detail-caption"></div>
+    </div>
+    <form method="dialog"><button id="detailClose" autofocus>Закрыть</button></form>
+  </div>
+  <div id="detailViewport" class="detail-viewport" tabindex="0" role="region" aria-label="Область просмотра" aria-describedby="detailHint">
+    <div class="detail-canvas">
+      <div id="detailMedia" class="detail-media"></div>
+      <div id="detailError" class="detail-error" role="status" hidden>Не удалось загрузить рисунок. <button id="detailRetry" type="button">Повторить</button></div>
+    </div>
+  </div>
+  <div class="detail-footer">
+    <div class="detail-controls">
+      <div id="detailNavigation" class="detail-navigation" role="group" aria-label="Листание иллюстраций" hidden>
+        <button id="detailPrev" type="button" aria-label="Предыдущий рисунок">←</button>
+        <span id="detailCount" aria-live="polite"></span>
+        <button id="detailNext" type="button" aria-label="Следующий рисунок">→</button>
+      </div>
+      <button id="detailScale" type="button">Крупнее</button>
+    </div>
+    <a id="detailCredit" class="detail-credit" href="assets/chip/illustrations.html" target="_blank" rel="noopener" hidden>Источники иллюстраций</a>
+  </div>
+</dialog>
+<footer>Olympiads.pro <span>Учимся замечать, рассуждать и проверять.</span><a id="lessonIllustrationSources" href="assets/chip/illustrations.html" hidden>Источники иллюстраций</a><a href="https://github.com/alex-mt1-lgtm/Kenguru">Исходный код ↗</a></footer><script src="editions/index.js" defer></script><script src="lesson-visuals.js?v=compact-figure-viewer" defer></script><script src="workspace.js" defer></script><script src="fruit-workspace.js" defer></script><script src="profile-rating.js?v=profile-layout" defer></script><script src="account-progress.js?v=confirmed-progress" defer></script><script src="app.js?v=compact-figure-viewer" defer></script><script src="leaderboard.js?v=service-audit" defer></script></body></html>
