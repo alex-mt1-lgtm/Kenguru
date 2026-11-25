@@ -16,9 +16,16 @@ SOURCES = ROOT / 'sources' / 'kit'
 ASSETS = ROOT / 'dist' / 'assets' / 'kit'
 
 
-def extract_fragment(page, bounds, scale):
-    pixels = page.get_pixmap(matrix=scale, clip=fitz.Rect(bounds), alpha=False)
-    return Image.frombytes('RGB', (pixels.width, pixels.height), pixels.samples)
+def extract_fragment(page, bounds, scale, clear=()):
+    clip = fitz.Rect(bounds)
+    pixels = page.get_pixmap(matrix=scale, clip=clip, alpha=False)
+    image = Image.frombytes('RGB', (pixels.width, pixels.height), pixels.samples)
+    for region in clear:
+        rect = clip & fitz.Rect(region)
+        if not rect.is_empty:
+            x0, y0, x1, y1 = (rect * scale).irect
+            image.paste('white', (x0 - pixels.x, y0 - pixels.y, x1 - pixels.x, y1 - pixels.y))
+    return image
 
 
 def extract_original(document, page, bounds, xref=None):
@@ -27,7 +34,13 @@ def extract_original(document, page, bounds, xref=None):
               if rect.contains(fitz.Rect(image['bbox'])) and (xref is None or image['xref'] == xref)]
     if len(images) != 1 or not images[0]['xref'] or images[0]['has-mask']:
         raise ValueError(f'Expected one unmasked image in {document.name}, page {page.number + 1}, {rect}')
-    original = document.extract_image(images[0]['xref'])
+    image_xref = images[0]['xref']
+    pixmap = fitz.Pixmap(document, image_xref)
+    if pixmap.colorspace and pixmap.colorspace.name.startswith('Separation('):
+        # The source's ink values need the PDF colour space to render correctly.
+        rgb = fitz.Pixmap(fitz.csRGB, pixmap)
+        return Image.frombytes('RGB', (rgb.width, rgb.height), rgb.samples)
+    original = document.extract_image(image_xref)
     return Image.open(io.BytesIO(original['image'])).convert('RGB')
 
 
@@ -71,8 +84,9 @@ def build_figures(manifest_path):
                     padding = options[0].get('padding', 0)
                     if padding:
                         fragments = [ImageOps.expand(fragment, padding, fill='white') for fragment in fragments]
-                elif not options:
-                    fragments = [extract_fragment(page, rect, scale) for rect in bounds]
+                elif not options or options[0].get('clear'):
+                    clear = options[0]['clear'] if options else ()
+                    fragments = [extract_fragment(page, rect, scale, clear) for rect in bounds]
                 else:
                     raise ValueError(f'Unknown figure extraction options: {options}')
                 combine_fragments(fragments, gap).save(output / f'{name}.webp', lossless=True, method=webp_method)
