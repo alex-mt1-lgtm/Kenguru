@@ -1,6 +1,8 @@
 # Local PDF renders used for visual verification; original PDFs and served crops are tracked.
 sources/**/*.png
 sources/**/*.txt
+# Authored explanations used to regenerate the regional Golden Fleece editions.
+!sources/golden-fleece/*/walkthroughs-early*.txt
 
 # Locally regenerated task-layout metadata.
 /sources/legacy-renders/
