@@ -13,6 +13,14 @@ def cropped_svg(document, page_number, rect):
         page = figure[0]
         if page.rotation:
             page.remove_rotation()
+        if page.mediabox.top_left != fitz.Point(0, 0) or page.cropbox.top_left != fitz.Point(0, 0):
+            # Some archived spreads place the page outside the default PDF origin.
+            with fitz.open() as normalized:
+                target = normalized.new_page(width=page.rect.width, height=page.rect.height)
+                target.show_pdf_page(target.rect, figure, 0)
+                target.clip_to_rect(rect)
+                target.set_cropbox(rect)
+                return target.get_svg_image(text_as_path=True)
         page.clip_to_rect(rect)
         page.set_cropbox(rect)
         return page.get_svg_image(text_as_path=True)
