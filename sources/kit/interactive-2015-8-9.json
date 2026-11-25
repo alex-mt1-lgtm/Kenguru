@@ -1,0 +1,32 @@
+[
+  {
+    "subject": "kit",
+    "year": 2015,
+    "grade": "8-9",
+    "contest": "КИТ",
+    "letters": "АБВГ",
+    "count": 26,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "8-9.pdf",
+    "answersFile": "answers.pdf",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Задания на 3 балла"
+      },
+      {
+        "start": 11,
+        "title": "Задания на 4 балла"
+      },
+      {
+        "start": 21,
+        "title": "Задания на 5 баллов"
+      },
+      {
+        "start": 24,
+        "title": "Числовой ответ"
+      }
+    ]
+  }
+]

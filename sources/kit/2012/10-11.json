@@ -430,7 +430,7 @@
       "После выхода K = 11. Последний цикл просит идти от 11 до 9 через to. В Pascal to перебирает числа по возрастанию, поэтому этот цикл не запускается. SUM остаётся 25."
     ],
     "numericAnswer": 25,
-    "context": "SUM := 0; K := M−1;\nwhile K < N do\nbegin\n  for I := K−M+2 to K do SUM := SUM+I;\n  K := K+M;\nend;\nfor I := K−M+2 to N−1 do SUM := SUM+I;"
+    "context": "SUM := 0; K := M-1;\nwhile K < N do\nbegin\n  for I := K-M+2 to K do SUM := SUM+I;\n  K := K+M;\nend;\nfor I := K-M+2 to N-1 do SUM := SUM+I;"
   },
   {
     "title": "Числа без делителей 13 и 17",

@@ -777,8 +777,8 @@ function render() {
     feedback.textContent = [choice, lesson.keyConflict].filter(Boolean).join(' ');
   } else if (final && lesson.acceptedAnswers) {
     const accepted = lesson.acceptedAnswers;
-    const summary = accepted.length === lesson.choices.length ? 'Организатор засчитал любой вариант.'
-      : 'Организатор засчитал варианты ' + accepted.map(answerLetter).join(', ') + '.';
+    const summary = accepted.length === lesson.choices.length ? 'Засчитывается любой вариант.'
+      : 'Засчитываются варианты ' + accepted.map(answerLetter).join(', ') + '.';
     feedback.textContent = [accepted.includes(st.selected) ? 'Твой вариант засчитан.' : choice, summary].filter(Boolean).join(' ');
   } else if (final && lesson.answer === null) {
     feedback.textContent = [choice, 'Для этой задачи в официальном ключе нет ответа.'].filter(Boolean).join(' ');

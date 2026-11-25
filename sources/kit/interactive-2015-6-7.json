@@ -1,0 +1,40 @@
+[
+  {
+    "subject": "kit",
+    "year": 2015,
+    "grade": "6-7",
+    "contest": "КИТ",
+    "letters": "АБВГ",
+    "count": 26,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "6-7.pdf",
+    "answersFile": "answers.pdf",
+    "sections": [
+      {
+        "start": 1,
+        "title": "3 балла · № 1–5"
+      },
+      {
+        "start": 6,
+        "title": "3 балла · № 6–10"
+      },
+      {
+        "start": 11,
+        "title": "4 балла · № 11–15"
+      },
+      {
+        "start": 16,
+        "title": "4 балла · № 16–20"
+      },
+      {
+        "start": 21,
+        "title": "5 баллов · № 21–23"
+      },
+      {
+        "start": 24,
+        "title": "Числовой ответ · № 24–26"
+      }
+    ]
+  }
+]
