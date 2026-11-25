@@ -1,0 +1,1042 @@
+[
+  {
+    "title": "The Story Topic",
+    "question": "The girl wants to tell us about … .",
+    "choices": [
+      "her family",
+      "herself and her friend",
+      "her mother’s birthday",
+      "the best sunset"
+    ],
+    "answer": 0,
+    "steps": [
+      "Вопрос о главной теме рассказа.",
+      "Девочка описывает совместную поездку семьи на пляж, поэтому подходит her family."
+    ],
+    "context": "Listen to the text and choose the correct answer",
+    "audio": true
+  },
+  {
+    "title": "The Picnic Day",
+    "question": "… they went for a picnic at the beach.",
+    "choices": [
+      "Last Saturday",
+      "On Saturday",
+      "Last Friday",
+      "Last Sunday"
+    ],
+    "answer": 3,
+    "steps": [
+      "Запоминай день, когда семья отправилась на пляж.",
+      "Last Sunday — в прошлое воскресенье."
+    ],
+    "context": "Listen to the text and choose the correct answer",
+    "audio": true
+  },
+  {
+    "title": "Who Was Driving?",
+    "question": "Her father … .",
+    "choices": [
+      "went alone",
+      "drove the bus",
+      "was the driver",
+      "took the train"
+    ],
+    "answer": 2,
+    "steps": [
+      "В записи различай, кто ехал и кто сидел за рулём.",
+      "Отец был водителем, was the driver."
+    ],
+    "context": "Listen to the text and choose the correct answer",
+    "audio": true
+  },
+  {
+    "title": "Music on the Way",
+    "question": "… she listened to music.",
+    "choices": [
+      "When they were riding",
+      "When they arrived",
+      "Her brother and",
+      "Her father and"
+    ],
+    "answer": 0,
+    "steps": [
+      "Слушай, когда рассказчица упоминает музыку.",
+      "Она слушала её по дороге, «when they were riding»."
+    ],
+    "context": "Listen to the text and choose the correct answer",
+    "audio": true
+  },
+  {
+    "title": "Arrival at the Beach",
+    "question": "They arrived at the beach … .",
+    "choices": [
+      "in the morning",
+      "at noon",
+      "at 12 a.m.",
+      "in the evening"
+    ],
+    "answer": 1,
+    "steps": [
+      "Варианты различают утро, полдень и вечер. Прислушайся к моменту, когда семья добралась до места.",
+      "Noon означает полдень, 12:00 дня. 12 a.m. в вариантах, напротив, означает полночь."
+    ],
+    "context": "Listen to the text and choose the correct answer",
+    "audio": true
+  },
+  {
+    "title": "Picnic Sandwiches",
+    "question": "They ate the sandwiches their mother had made … .",
+    "choices": [
+      "before leading them to the castle",
+      "before they left home",
+      "after leaving the house",
+      "when she was reading"
+    ],
+    "answer": 1,
+    "steps": [
+      "В вопросе «their mother had made» относится к действию, совершённому заранее.",
+      "Мама сделала бутерброды дома до отъезда."
+    ],
+    "context": "Listen to the text and choose the correct answer",
+    "audio": true
+  },
+  {
+    "title": "Where They Played",
+    "question": "Then she and her brother were amusing themselves with a game on the … .",
+    "choices": [
+      "floor",
+      "tree",
+      "grass",
+      "shore"
+    ],
+    "answer": 3,
+    "steps": [
+      "Shore — берег.",
+      "Игра рассказчицы с братом происходила у воды на берегу."
+    ],
+    "context": "Listen to the text and choose the correct answer",
+    "audio": true
+  },
+  {
+    "title": "What They Built",
+    "question": "They built up a … .",
+    "choices": [
+      "little house",
+      "large tower",
+      "tiny castle",
+      "huge sandcastle"
+    ],
+    "answer": 3,
+    "steps": [
+      "Sandcastle — замок из песка.",
+      "Слово huge указывает, что они построили очень большой замок."
+    ],
+    "context": "Listen to the text and choose the correct answer",
+    "audio": true
+  },
+  {
+    "title": "The Next Game",
+    "question": "And then they played … .",
+    "choices": [
+      "badminton",
+      "football",
+      "volley",
+      "hide-and-seek"
+    ],
+    "answer": 2,
+    "steps": [
+      "После постройки замка в записи назван волейбол.",
+      "Volley в вариантах буклета передаёт этот вид игры."
+    ],
+    "context": "Listen to the text and choose the correct answer",
+    "audio": true
+  },
+  {
+    "title": "New Playmates",
+    "question": "They played with … they met there.",
+    "choices": [
+      "the children",
+      "the puppies",
+      "the kites",
+      "the pets"
+    ],
+    "answer": 0,
+    "steps": [
+      "Слушай, с кем дети познакомились на пляже.",
+      "Они играли с другими детьми, the children."
+    ],
+    "context": "Listen to the text and choose the correct answer",
+    "audio": true
+  },
+  {
+    "title": "Phil’s Age",
+    "question": "How old is Phil?",
+    "choices": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "answer": 1,
+    "steps": [
+      "В тексте о Франко прямо сказано «fourteen years old».",
+      "У Фила тот же возраст: «they are of the same age»."
+    ],
+    "context": "Read the text and answer the questions\n\nFranco is fourteen years old and he comes from South America. He was born in Bolivia. Now he lives in East London with his Mum who’s a writer. At weekends he always goes cycling with his friends Phil and Tony. Phil was born in London. He always gets up early because he has a paper-round and has to be at the newsagents at six o’clock. He goes to Primrose Hill High School. When he finishes school he wants to be a builder like his dad. He and Franco are good friends – they are of the same age and went to the same primary school. Tony comes from Dublin. He moved to London five years ago and soon met Phil and Franco at the cycling club. He goes to a different school north of the river where his parents work as teachers. He lives near the park and goes running every evening. Sometimes his younger sister goes with him. They always take some bread to feed ducks."
+  },
+  {
+    "title": "Tony’s New Friends",
+    "question": "Where did Tony meet Phil and Franco? In … .",
+    "choices": [
+      "Dublin",
+      "London",
+      "Bolivia",
+      "South America"
+    ],
+    "answer": 1,
+    "steps": [
+      "В последнем абзаце речь о Тони. Место его рождения и место знакомства не совпадают.",
+      "В тексте о Тони сказано, что он переехал в Лондон, а затем познакомился с Филом и Франко в велосипедном клубе."
+    ],
+    "context": "Read the text and answer the questions\n\nFranco is fourteen years old and he comes from South America. He was born in Bolivia. Now he lives in East London with his Mum who’s a writer. At weekends he always goes cycling with his friends Phil and Tony. Phil was born in London. He always gets up early because he has a paper-round and has to be at the newsagents at six o’clock. He goes to Primrose Hill High School. When he finishes school he wants to be a builder like his dad. He and Franco are good friends – they are of the same age and went to the same primary school. Tony comes from Dublin. He moved to London five years ago and soon met Phil and Franco at the cycling club. He goes to a different school north of the river where his parents work as teachers. He lives near the park and goes running every evening. Sometimes his younger sister goes with him. They always take some bread to feed ducks."
+  },
+  {
+    "title": "Primary School",
+    "question": "Who went to the same primary school?",
+    "choices": [
+      "Franco and Tony.",
+      "Phil and Tony.",
+      "Phil and Franco.",
+      "Franco, Phil and Tony."
+    ],
+    "answer": 2,
+    "steps": [
+      "«They … went to the same primary school» стоит в абзаце о Филе и Франко.",
+      "В этом предложении they относится к ним двоим."
+    ],
+    "context": "Read the text and answer the questions\n\nFranco is fourteen years old and he comes from South America. He was born in Bolivia. Now he lives in East London with his Mum who’s a writer. At weekends he always goes cycling with his friends Phil and Tony. Phil was born in London. He always gets up early because he has a paper-round and has to be at the newsagents at six o’clock. He goes to Primrose Hill High School. When he finishes school he wants to be a builder like his dad. He and Franco are good friends – they are of the same age and went to the same primary school. Tony comes from Dublin. He moved to London five years ago and soon met Phil and Franco at the cycling club. He goes to a different school north of the river where his parents work as teachers. He lives near the park and goes running every evening. Sometimes his younger sister goes with him. They always take some bread to feed ducks."
+  },
+  {
+    "title": "An Early Job",
+    "question": "Who has a job?",
+    "choices": [
+      "Tony.",
+      "Franco.",
+      "Phil.",
+      "Tony’s sister."
+    ],
+    "answer": 2,
+    "steps": [
+      "Фил встаёт рано из-за paper-round, подработки по доставке газет.",
+      "О работе других ребят не говорится."
+    ],
+    "context": "Read the text and answer the questions\n\nFranco is fourteen years old and he comes from South America. He was born in Bolivia. Now he lives in East London with his Mum who’s a writer. At weekends he always goes cycling with his friends Phil and Tony. Phil was born in London. He always gets up early because he has a paper-round and has to be at the newsagents at six o’clock. He goes to Primrose Hill High School. When he finishes school he wants to be a builder like his dad. He and Franco are good friends – they are of the same age and went to the same primary school. Tony comes from Dublin. He moved to London five years ago and soon met Phil and Franco at the cycling club. He goes to a different school north of the river where his parents work as teachers. He lives near the park and goes running every evening. Sometimes his younger sister goes with him. They always take some bread to feed ducks."
+  },
+  {
+    "title": "What They Do Together",
+    "question": "What do Tony and his sister always do? They … .",
+    "choices": [
+      "feed ducks.",
+      "run in the park.",
+      "go cycling.",
+      "help their Mum."
+    ],
+    "answer": 0,
+    "steps": [
+      "В последних предложениях речь о Тони и сестре.",
+      "Они всегда берут хлеб, чтобы кормить уток: «to feed ducks»."
+    ],
+    "context": "Read the text and answer the questions\n\nFranco is fourteen years old and he comes from South America. He was born in Bolivia. Now he lives in East London with his Mum who’s a writer. At weekends he always goes cycling with his friends Phil and Tony. Phil was born in London. He always gets up early because he has a paper-round and has to be at the newsagents at six o’clock. He goes to Primrose Hill High School. When he finishes school he wants to be a builder like his dad. He and Franco are good friends – they are of the same age and went to the same primary school. Tony comes from Dublin. He moved to London five years ago and soon met Phil and Franco at the cycling club. He goes to a different school north of the river where his parents work as teachers. He lives near the park and goes running every evening. Sometimes his younger sister goes with him. They always take some bread to feed ducks."
+  },
+  {
+    "title": "Following Footsteps",
+    "question": "Whose footsteps does Phil want to follow?",
+    "choices": [
+      "His father’s.",
+      "His sister’s.",
+      "His mother’s.",
+      "His brother’s."
+    ],
+    "answer": 0,
+    "steps": [
+      "Вопрос «whose footsteps» означает, чей пример Фил хочет взять за образец.",
+      "«A builder like his dad» указывает на отца."
+    ],
+    "context": "Read the text and answer the questions\n\nFranco is fourteen years old and he comes from South America. He was born in Bolivia. Now he lives in East London with his Mum who’s a writer. At weekends he always goes cycling with his friends Phil and Tony. Phil was born in London. He always gets up early because he has a paper-round and has to be at the newsagents at six o’clock. He goes to Primrose Hill High School. When he finishes school he wants to be a builder like his dad. He and Franco are good friends – they are of the same age and went to the same primary school. Tony comes from Dublin. He moved to London five years ago and soon met Phil and Franco at the cycling club. He goes to a different school north of the river where his parents work as teachers. He lives near the park and goes running every evening. Sometimes his younger sister goes with him. They always take some bread to feed ducks."
+  },
+  {
+    "title": "Missing Profession",
+    "question": "Whose profession is not mentioned?",
+    "choices": [
+      "Of Tony’s father.",
+      "Of Franco’s mother.",
+      "Of Phil’s father.",
+      "Of Phil’s mother."
+    ],
+    "answer": 3,
+    "steps": [
+      "Франко живёт с мамой-писательницей, отец Фила строитель, а родители Тони — учителя.",
+      "Профессию мамы Фила не назвали."
+    ],
+    "context": "Read the text and answer the questions\n\nFranco is fourteen years old and he comes from South America. He was born in Bolivia. Now he lives in East London with his Mum who’s a writer. At weekends he always goes cycling with his friends Phil and Tony. Phil was born in London. He always gets up early because he has a paper-round and has to be at the newsagents at six o’clock. He goes to Primrose Hill High School. When he finishes school he wants to be a builder like his dad. He and Franco are good friends – they are of the same age and went to the same primary school. Tony comes from Dublin. He moved to London five years ago and soon met Phil and Franco at the cycling club. He goes to a different school north of the river where his parents work as teachers. He lives near the park and goes running every evening. Sometimes his younger sister goes with him. They always take some bread to feed ducks."
+  },
+  {
+    "title": "The Cycling Club",
+    "question": "Who doesn’t go to the cycling club?",
+    "choices": [
+      "Franco.",
+      "Phil.",
+      "Tony.",
+      "Tony’s sister."
+    ],
+    "answer": 3,
+    "steps": [
+      "Франко, Фил и Тони связаны с велосипедным клубом.",
+      "О сестре Тони сказано лишь, что она иногда выходит с ним на пробежку."
+    ],
+    "context": "Read the text and answer the questions\n\nFranco is fourteen years old and he comes from South America. He was born in Bolivia. Now he lives in East London with his Mum who’s a writer. At weekends he always goes cycling with his friends Phil and Tony. Phil was born in London. He always gets up early because he has a paper-round and has to be at the newsagents at six o’clock. He goes to Primrose Hill High School. When he finishes school he wants to be a builder like his dad. He and Franco are good friends – they are of the same age and went to the same primary school. Tony comes from Dublin. He moved to London five years ago and soon met Phil and Franco at the cycling club. He goes to a different school north of the river where his parents work as teachers. He lives near the park and goes running every evening. Sometimes his younger sister goes with him. They always take some bread to feed ducks."
+  },
+  {
+    "title": "Directions in the Text",
+    "question": "What cardinal direction is not mentioned in the text?",
+    "choices": [
+      "West.",
+      "East.",
+      "North.",
+      "South."
+    ],
+    "answer": 0,
+    "steps": [
+      "По тексту Franco живёт в East London, Тони учится north of the river, а Франко родом из South America.",
+      "West нигде не указан."
+    ],
+    "context": "Read the text and answer the questions\n\nFranco is fourteen years old and he comes from South America. He was born in Bolivia. Now he lives in East London with his Mum who’s a writer. At weekends he always goes cycling with his friends Phil and Tony. Phil was born in London. He always gets up early because he has a paper-round and has to be at the newsagents at six o’clock. He goes to Primrose Hill High School. When he finishes school he wants to be a builder like his dad. He and Franco are good friends – they are of the same age and went to the same primary school. Tony comes from Dublin. He moved to London five years ago and soon met Phil and Franco at the cycling club. He goes to a different school north of the river where his parents work as teachers. He lives near the park and goes running every evening. Sometimes his younger sister goes with him. They always take some bread to feed ducks."
+  },
+  {
+    "title": "Numbers in the Text",
+    "question": "What numeral is not mentioned in the text?",
+    "choices": [
+      "6",
+      "5",
+      "4",
+      "14"
+    ],
+    "answer": 2,
+    "steps": [
+      "В тексте есть «fourteen years old», «six o’clock» и «five years ago».",
+      "Остаётся число 4."
+    ],
+    "context": "Read the text and answer the questions\n\nFranco is fourteen years old and he comes from South America. He was born in Bolivia. Now he lives in East London with his Mum who’s a writer. At weekends he always goes cycling with his friends Phil and Tony. Phil was born in London. He always gets up early because he has a paper-round and has to be at the newsagents at six o’clock. He goes to Primrose Hill High School. When he finishes school he wants to be a builder like his dad. He and Franco are good friends – they are of the same age and went to the same primary school. Tony comes from Dublin. He moved to London five years ago and soon met Phil and Franco at the cycling club. He goes to a different school north of the river where his parents work as teachers. He lives near the park and goes running every evening. Sometimes his younger sister goes with him. They always take some bread to feed ducks."
+  },
+  {
+    "title": "Whose Ball?",
+    "question": "– It’s my ball! – No, it’s …!",
+    "choices": [
+      "my",
+      "mine",
+      "her",
+      "she"
+    ],
+    "answer": 1,
+    "steps": [
+      "После «it’s» нужно самостоятельное притяжательное местоимение.",
+      "Mine заменяет «my ball»."
+    ],
+    "context": "Choose the correct answer"
+  },
+  {
+    "title": "A Meeting Yesterday",
+    "question": "Sue … her friend at the bus stop yesterday.",
+    "choices": [
+      "has met",
+      "met",
+      "meet",
+      "was met"
+    ],
+    "answer": 1,
+    "steps": [
+      "Yesterday указывает на завершённое действие в прошлом.",
+      "У meet форма Past Simple — met."
+    ],
+    "context": "Choose the correct answer"
+  },
+  {
+    "title": "Mark Is Sleeping",
+    "question": "Mark is sleeping. Please, wake him … . He has to go to school today.",
+    "choices": [
+      "off",
+      "on",
+      "up",
+      "in"
+    ],
+    "answer": 2,
+    "steps": [
+      "Фразовый глагол wake up значит «будить».",
+      "Если дополнение — местоимение, ставим его между частями: «wake him up»."
+    ],
+    "context": "Choose the correct answer"
+  },
+  {
+    "title": "Tomorrow at Seven",
+    "question": "I … tomorrow at 7 o’clock.",
+    "choices": [
+      "will be studying",
+      "will studying",
+      "studied",
+      "was studying"
+    ],
+    "answer": 0,
+    "steps": [
+      "Действие будет происходить в конкретный момент в будущем.",
+      "Future Continuous строится как «will be» плюс глагол с -ing."
+    ],
+    "context": "Choose the correct answer"
+  },
+  {
+    "title": "A Cheeseburger for Lunch",
+    "question": "Helen had … cheeseburger for lunch. … cheeseburger was tasty.",
+    "choices": [
+      "a … The",
+      "– … The",
+      "a … A",
+      "– … –"
+    ],
+    "answer": 0,
+    "steps": [
+      "При первом упоминании одного чизбургера нужен a.",
+      "Во второй фразе уже понятно, о каком чизбургере речь, поэтому the."
+    ],
+    "context": "Choose the correct answer"
+  },
+  {
+    "title": "Permission to Enter",
+    "question": "– … I … come in? – Yes, you may.",
+    "choices": [
+      "May … –",
+      "– … may",
+      "Do … may",
+      "May … to"
+    ],
+    "answer": 0,
+    "steps": [
+      "May начинает вежливый вопрос о разрешении.",
+      "После модального глагола ставим come без to: «May I come in?»."
+    ],
+    "context": "Choose the correct answer"
+  },
+  {
+    "title": "Yesterday in the Garden",
+    "question": "Who … football in the garden yesterday?",
+    "choices": [
+      "did play",
+      "played",
+      "was played",
+      "play"
+    ],
+    "answer": 1,
+    "steps": [
+      "Who здесь само подлежащее.",
+      "В обычном вопросе к подлежащему используй Past Simple без did: «Who played …?»."
+    ],
+    "context": "Choose the correct answer"
+  },
+  {
+    "title": "Food Left",
+    "question": "David had very … food left, so he went to the shop.",
+    "choices": [
+      "much",
+      "few",
+      "many",
+      "little"
+    ],
+    "answer": 3,
+    "steps": [
+      "Food здесь неисчисляемое.",
+      "Very little означает «совсем мало», что объясняет поход в магазин."
+    ],
+    "context": "Choose the correct answer"
+  },
+  {
+    "title": "Getting to School",
+    "question": "James always goes to school … foot.",
+    "choices": [
+      "at",
+      "by",
+      "on",
+      "in"
+    ],
+    "answer": 2,
+    "steps": [
+      "Речь о привычном способе ходить в школу. Сравни сочетания предлогов со словом foot.",
+      "«On foot» — устойчивая фраза со значением «пешком»."
+    ],
+    "context": "Choose the correct answer"
+  },
+  {
+    "title": "Speaking English",
+    "question": "Do you speak English …?",
+    "choices": [
+      "good",
+      "well",
+      "few",
+      "little"
+    ],
+    "answer": 1,
+    "steps": [
+      "Нужно описать, как человек говорит.",
+      "Well — наречие «хорошо», а good — прилагательное «хороший»."
+    ],
+    "context": "Choose the correct answer"
+  },
+  {
+    "title": "Level of Difficulty",
+    "question": "Easy",
+    "choices": [
+      "Simple",
+      "Clear",
+      "Interesting",
+      "Difficult"
+    ],
+    "answer": 3,
+    "steps": [
+      "Easy значит «лёгкий по сложности».",
+      "Противоположность — difficult, «трудный»."
+    ],
+    "context": "Find words opposite in meaning to the following"
+  },
+  {
+    "title": "When Things Break",
+    "question": "Break",
+    "choices": [
+      "Watch",
+      "Come",
+      "Fix",
+      "Swim"
+    ],
+    "answer": 2,
+    "steps": [
+      "Break означает «сломать».",
+      "Обратное действие — fix, «починить»."
+    ],
+    "context": "Find words opposite in meaning to the following"
+  },
+  {
+    "title": "How Clean?",
+    "question": "Clean",
+    "choices": [
+      "Clever",
+      "Dark",
+      "Funny",
+      "Dirty"
+    ],
+    "answer": 3,
+    "steps": [
+      "Clean означает «чистый».",
+      "Dirty означает «грязный»."
+    ],
+    "context": "Find words opposite in meaning to the following"
+  },
+  {
+    "title": "How Dry?",
+    "question": "Dry",
+    "choices": [
+      "Windy",
+      "Sunny",
+      "Wet",
+      "Merry"
+    ],
+    "answer": 2,
+    "steps": [
+      "Dry описывает состояние без влаги. Ищи состояние с противоположным признаком.",
+      "Dry значит «сухой», а wet — «мокрый»."
+    ],
+    "context": "Find words opposite in meaning to the following"
+  },
+  {
+    "title": "Moving a Door",
+    "question": "Push",
+    "choices": [
+      "Pull",
+      "Call",
+      "Drive",
+      "Sleep"
+    ],
+    "answer": 0,
+    "steps": [
+      "Push — толкать от себя.",
+      "Pull — тянуть к себе."
+    ],
+    "context": "Find words opposite in meaning to the following"
+  },
+  {
+    "title": "Body Shape",
+    "question": "Slim",
+    "choices": [
+      "Beautiful",
+      "Tall",
+      "Muscular",
+      "Fat"
+    ],
+    "answer": 3,
+    "steps": [
+      "Slim описывает стройное телосложение.",
+      "В задании ему противопоставлено fat."
+    ],
+    "context": "Find words opposite in meaning to the following"
+  },
+  {
+    "title": "About Appearance",
+    "question": "Ugly",
+    "choices": [
+      "Good-looking",
+      "Awful",
+      "Sad",
+      "Clever"
+    ],
+    "answer": 0,
+    "steps": [
+      "Ugly значит «некрасивый».",
+      "Good-looking — «симпатичный, привлекательный»."
+    ],
+    "context": "Find words opposite in meaning to the following"
+  },
+  {
+    "title": "How Hungry?",
+    "question": "Hungry",
+    "choices": [
+      "Ill",
+      "Full",
+      "Angry",
+      "Smart"
+    ],
+    "answer": 1,
+    "steps": [
+      "Hungry — голодный.",
+      "Когда человек наелся, он full, сытый."
+    ],
+    "context": "Find words opposite in meaning to the following"
+  },
+  {
+    "title": "Noise Level",
+    "question": "Loud",
+    "choices": [
+      "Fast",
+      "Friendly",
+      "Quiet",
+      "Cloudy"
+    ],
+    "answer": 2,
+    "steps": [
+      "Loud — громкий.",
+      "Quiet — тихий."
+    ],
+    "context": "Find words opposite in meaning to the following"
+  },
+  {
+    "title": "Direction of Movement",
+    "question": "Back",
+    "choices": [
+      "Round",
+      "Forward",
+      "Along",
+      "Between"
+    ],
+    "answer": 1,
+    "steps": [
+      "Здесь back значит «назад».",
+      "Противоположное направление — forward, «вперёд»."
+    ],
+    "context": "Find words opposite in meaning to the following"
+  },
+  {
+    "title": "Mary’s Hair",
+    "question": "Mary has got … hair.",
+    "choices": [
+      "curly",
+      "wavy",
+      "straight",
+      "angel"
+    ],
+    "answer": 1,
+    "steps": [
+      "Волосы Мэри идут мягкими волнами.",
+      "Wavy означает «волнистый»."
+    ],
+    "context": "Look at the picture and choose the correct answer",
+    "figures": [
+      {
+        "src": "assets/british-bulldog/2019/5-6/variant-2/three-people.svg",
+        "alt": "Jane, Mary and Paul",
+        "caption": "Jane, Mary and Paul"
+      }
+    ]
+  },
+  {
+    "title": "Jane’s Figure",
+    "question": "Jane is … .",
+    "choices": [
+      "tall and slim",
+      "short and thin",
+      "tall and stout",
+      "short and fat"
+    ],
+    "answer": 0,
+    "steps": [
+      "Джейн заметно выше Мэри, у неё стройная фигура.",
+      "Tall and slim — «высокая и стройная»."
+    ],
+    "context": "Look at the picture and choose the correct answer",
+    "figures": [
+      {
+        "src": "assets/british-bulldog/2019/5-6/variant-2/three-people.svg",
+        "alt": "Jane, Mary and Paul",
+        "caption": "Jane, Mary and Paul"
+      }
+    ]
+  },
+  {
+    "title": "Paul’s Figure",
+    "question": "Paul is … .",
+    "choices": [
+      "tall and thin",
+      "short and fat",
+      "stocky",
+      "tall and muscular"
+    ],
+    "answer": 3,
+    "steps": [
+      "Павел выше остальных, у него широкие плечи и крепкие руки.",
+      "Tall and muscular — «высокий и мускулистый»."
+    ],
+    "context": "Look at the picture and choose the correct answer",
+    "figures": [
+      {
+        "src": "assets/british-bulldog/2019/5-6/variant-2/three-people.svg",
+        "alt": "Jane, Mary and Paul",
+        "caption": "Jane, Mary and Paul"
+      }
+    ]
+  },
+  {
+    "title": "Mary’s Chin",
+    "question": "Mary has a … .",
+    "choices": [
+      "pointed chin",
+      "double chin",
+      "protruding chin",
+      "beard"
+    ],
+    "answer": 1,
+    "steps": [
+      "Под основным контуром подбородка Мэри видна складка.",
+      "Double chin — двойной подбородок."
+    ],
+    "context": "Look at the picture and choose the correct answer",
+    "figures": [
+      {
+        "src": "assets/british-bulldog/2019/5-6/variant-2/three-people.svg",
+        "alt": "Jane, Mary and Paul",
+        "caption": "Jane, Mary and Paul"
+      }
+    ]
+  },
+  {
+    "title": "Jane’s Hair",
+    "question": "Jane has … hair.",
+    "choices": [
+      "long, curly",
+      "long, straight",
+      "long, wavy",
+      "short, wavy"
+    ],
+    "answer": 0,
+    "steps": [
+      "Волосы Джейн ниже плеч и образуют мелкие завитки.",
+      "Long, curly означает «длинные, кудрявые»."
+    ],
+    "context": "Look at the picture and choose the correct answer",
+    "figures": [
+      {
+        "src": "assets/british-bulldog/2019/5-6/variant-2/three-people.svg",
+        "alt": "Jane, Mary and Paul",
+        "caption": "Jane, Mary and Paul"
+      }
+    ]
+  },
+  {
+    "title": "Paul’s Face",
+    "question": "Paul has … face.",
+    "choices": [
+      "a square",
+      "an oval",
+      "a round",
+      "a wrinkled"
+    ],
+    "answer": 0,
+    "steps": [
+      "Сравни очертания висков и нижней челюсти.",
+      "У Пола широкая угловатая челюсть, поэтому лицо square."
+    ],
+    "context": "Look at the picture and choose the correct answer",
+    "figures": [
+      {
+        "src": "assets/british-bulldog/2019/5-6/variant-2/three-people.svg",
+        "alt": "Jane, Mary and Paul",
+        "caption": "Jane, Mary and Paul"
+      }
+    ]
+  },
+  {
+    "title": "Jane’s Shoes",
+    "question": "Jane is wearing … .",
+    "choices": [
+      "boots",
+      "knee-high boots",
+      "gym-shoes",
+      "high-heeled shoes"
+    ],
+    "answer": 3,
+    "steps": [
+      "У обуви Джейн видны высокие каблуки.",
+      "Такие туфли называются high-heeled shoes."
+    ],
+    "context": "Look at the picture and choose the correct answer",
+    "figures": [
+      {
+        "src": "assets/british-bulldog/2019/5-6/variant-2/three-people.svg",
+        "alt": "Jane, Mary and Paul",
+        "caption": "Jane, Mary and Paul"
+      }
+    ]
+  },
+  {
+    "title": "Mary’s Dress",
+    "question": "Mary is wearing … .",
+    "choices": [
+      "a wedding dress",
+      "a spotted dress",
+      "a dressy dress",
+      "a floor-length dress"
+    ],
+    "answer": 1,
+    "steps": [
+      "На платье Мэри крупные круглые пятнышки.",
+      "Spotted dress — платье в горошек."
+    ],
+    "context": "Look at the picture and choose the correct answer",
+    "figures": [
+      {
+        "src": "assets/british-bulldog/2019/5-6/variant-2/three-people.svg",
+        "alt": "Jane, Mary and Paul",
+        "caption": "Jane, Mary and Paul"
+      }
+    ]
+  },
+  {
+    "title": "Paul’s Clothes",
+    "question": "Paul is wearing … .",
+    "choices": [
+      "a shirt and trousers",
+      "a T-shirt and track pants",
+      "a suit",
+      "a sweatshirt and shorts"
+    ],
+    "answer": 0,
+    "steps": [
+      "Видны воротник рубашки и длинные брюки.",
+      "Подходит a shirt and trousers."
+    ],
+    "context": "Look at the picture and choose the correct answer",
+    "figures": [
+      {
+        "src": "assets/british-bulldog/2019/5-6/variant-2/three-people.svg",
+        "alt": "Jane, Mary and Paul",
+        "caption": "Jane, Mary and Paul"
+      }
+    ]
+  },
+  {
+    "title": "Jane’s Outfit",
+    "question": "Jane is wearing a … .",
+    "choices": [
+      "business suit",
+      "spacesuit",
+      "bodysuit",
+      "monkey-suit"
+    ],
+    "answer": 0,
+    "steps": [
+      "Посмотри на сочетание пиджака и брюк Джейн. Как обычно называют такой комплект?",
+      "Серый пиджак и брюки Джейн составляют деловой костюм, a business suit."
+    ],
+    "context": "Look at the picture and choose the correct answer",
+    "figures": [
+      {
+        "src": "assets/british-bulldog/2019/5-6/variant-2/three-people.svg",
+        "alt": "Jane, Mary and Paul",
+        "caption": "Jane, Mary and Paul"
+      }
+    ]
+  },
+  {
+    "title": "A Warm September",
+    "question": "– The weather was lovely in September. – Yes, it was a real … .",
+    "choices": [
+      "Egyptian spring",
+      "Indian summer",
+      "Turkish season",
+      "Chinese gift"
+    ],
+    "answer": 1,
+    "steps": [
+      "Фраза «lovely in September» указывает на удачную осеннюю погоду. Нужно устойчивое выражение.",
+      "Indian summer — период тёплой ясной погоды осенью, «бабье лето»."
+    ],
+    "context": "Complete the idioms"
+  },
+  {
+    "title": "Tonight’s Plans",
+    "question": "– Are we going to the cinema tonight? – No, I’ve changed my … .",
+    "choices": [
+      "diary",
+      "thought",
+      "brain",
+      "mind"
+    ],
+    "answer": 3,
+    "steps": [
+      "«Change one’s mind» означает «передумать».",
+      "Говорящий больше не хочет идти в кино."
+    ],
+    "context": "Complete the idioms"
+  },
+  {
+    "title": "An Expression About Size",
+    "question": "– Susan is very thin. – True! She is a … of bones.",
+    "choices": [
+      "pocket",
+      "sack",
+      "rucksack",
+      "bag"
+    ],
+    "answer": 3,
+    "steps": [
+      "В диалоге описывают очень худого человека. Пропуск входит в образное выражение о костях.",
+      "«A bag of bones» — образное описание очень худого человека, по-русски «кожа да кости»."
+    ],
+    "context": "Complete the idioms"
+  },
+  {
+    "title": "William’s Promise",
+    "question": "– William told you he’d help you, didn’t he? – Yes, but it looks like he … his words.",
+    "choices": [
+      "ate",
+      "drank",
+      "burnt",
+      "lost"
+    ],
+    "answer": 0,
+    "steps": [
+      "«Eat one’s words» означает взять свои слова обратно.",
+      "В прошедшем времени eat становится ate."
+    ],
+    "context": "Complete the idioms"
+  },
+  {
+    "title": "Having It Both Ways",
+    "question": "You can’t have your … and eat it.",
+    "choices": [
+      "bread",
+      "cake",
+      "bun",
+      "croissant"
+    ],
+    "answer": 1,
+    "steps": [
+      "В пословице обсуждают предмет, который можно съесть или оставить себе.",
+      "«You can’t have your cake and eat it» значит, что нельзя одновременно сохранить что-то и использовать это без потерь."
+    ],
+    "context": "Complete the idioms"
+  },
+  {
+    "title": "Inviting Questions",
+    "question": "Feel … to ask me questions at any time. I’ll help you.",
+    "choices": [
+      "rich",
+      "good",
+      "positive",
+      "free"
+    ],
+    "answer": 3,
+    "steps": [
+      "«Feel free to ask» означает «не стесняйся спрашивать».",
+      "Фразой дают разрешение или поощряют действие."
+    ],
+    "context": "Complete the idioms"
+  },
+  {
+    "title": "After a Collision",
+    "question": "Two hockey-players saw … when they clashed.",
+    "choices": [
+      "angels",
+      "diamonds",
+      "sparks",
+      "stars"
+    ],
+    "answer": 3,
+    "steps": [
+      "«See stars» — видеть искры или звёздочки перед глазами после удара.",
+      "В идиоме используется stars."
+    ],
+    "context": "Complete the idioms"
+  },
+  {
+    "title": "Adam’s Kindness",
+    "question": "– Adam is a very kind person. – Yes, he looks like he will not … .",
+    "choices": [
+      "hurt a fly",
+      "kill a bird",
+      "push a child",
+      "kick a ball"
+    ],
+    "answer": 0,
+    "steps": [
+      "«Wouldn’t hurt a fly» означает «и мухи не обидит».",
+      "Так говорят о совершенно безобидном человеке."
+    ],
+    "context": "Complete the idioms"
+  },
+  {
+    "title": "Living in Hard Times",
+    "question": "We live in hard times, so we all have to … our belts.",
+    "choices": [
+      "fasten",
+      "tighten",
+      "loosen",
+      "sell"
+    ],
+    "answer": 1,
+    "steps": [
+      "«Tighten one’s belt» означает урезать расходы.",
+      "По-русски тоже говорят «затянуть пояс»."
+    ],
+    "context": "Complete the idioms"
+  },
+  {
+    "title": "Rude Words",
+    "question": "You shouldn’t take his rude words to … .",
+    "choices": [
+      "heart",
+      "soul",
+      "head",
+      "ears"
+    ],
+    "answer": 0,
+    "steps": [
+      "Грубо сказанные слова могут сильно задеть. Нужно дополнить идиому об этой реакции.",
+      "«Take something to heart» — принять что-то близко к сердцу, сильно из-за этого переживать."
+    ],
+    "context": "Complete the idioms"
+  }
+]

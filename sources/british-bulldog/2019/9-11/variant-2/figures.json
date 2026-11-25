@@ -1,0 +1,51 @@
+{
+  "source": "tasks.pdf",
+  "coordinateUnit": "rendered-pixel",
+  "renderScale": 4,
+  "crops": [
+    {
+      "page": 1,
+      "box": [
+        1212,
+        948,
+        1712,
+        1600
+      ],
+      "file": "dick.svg",
+      "tasks": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ]
+    },
+    {
+      "page": 1,
+      "box": [
+        1720,
+        948,
+        2192,
+        1600
+      ],
+      "file": "sue.svg",
+      "tasks": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ]
+    }
+  ]
+}

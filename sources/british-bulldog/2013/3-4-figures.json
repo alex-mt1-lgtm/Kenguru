@@ -1,0 +1,87 @@
+{
+  "shopping-list": {
+    "sourceFile": "3-4/variant-780/tasks.pdf",
+    "page": 0,
+    "cropPoints": [
+      297.6,
+      88.1,
+      545.1,
+      264.7
+    ],
+    "src": "assets/british-bulldog/2013/3-4/shopping-list.webp",
+    "alt": "Ten numbered pictures on the shopping list",
+    "width": 744,
+    "height": 531
+  },
+  "body-parts": {
+    "sourceFile": "3-4/variant-780/tasks.pdf",
+    "page": 1,
+    "cropPoints": [
+      38,
+      71.5,
+      261,
+      353.5
+    ],
+    "src": "assets/british-bulldog/2013/3-4/body-parts.svg",
+    "alt": "Girl with numbered arrows",
+    "svg": "vector",
+    "width": 223.0,
+    "height": 282.0
+  },
+  "travel-a": {
+    "sourceFile": "3-4/variant-780/tasks.pdf",
+    "page": 1,
+    "cropPoints": [
+      302,
+      202,
+      420.5,
+      282.7
+    ],
+    "src": "assets/british-bulldog/2013/3-4/travel-a.webp",
+    "alt": "Travel picture A",
+    "width": 356,
+    "height": 243
+  },
+  "travel-b": {
+    "sourceFile": "3-4/variant-780/tasks.pdf",
+    "page": 1,
+    "cropPoints": [
+      422,
+      202,
+      540,
+      282.7
+    ],
+    "src": "assets/british-bulldog/2013/3-4/travel-b.webp",
+    "alt": "Travel picture B",
+    "width": 354,
+    "height": 243
+  },
+  "travel-c": {
+    "sourceFile": "3-4/variant-780/tasks.pdf",
+    "page": 1,
+    "cropPoints": [
+      302,
+      283.5,
+      420.5,
+      363
+    ],
+    "src": "assets/british-bulldog/2013/3-4/travel-c.webp",
+    "alt": "Travel picture C",
+    "width": 356,
+    "height": 239
+  },
+  "travel-d": {
+    "sourceFile": "3-4/variant-780/tasks.pdf",
+    "page": 1,
+    "cropPoints": [
+      422,
+      283.5,
+      540,
+      363
+    ],
+    "src": "assets/british-bulldog/2013/3-4/travel-d.webp",
+    "alt": "Travel picture D",
+    "width": 354,
+    "height": 239
+  }
+}

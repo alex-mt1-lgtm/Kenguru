@@ -1,0 +1,965 @@
+[
+  {
+    "title": "Subjects at School",
+    "question": "Jamie … study Math, English and Science at school.",
+    "choices": [
+      "can",
+      "must",
+      "likes to",
+      "should not"
+    ],
+    "answer": 1,
+    "steps": [
+      "В записи перечислены математика, английский и естественные науки.",
+      "Это обязательные предметы, поэтому подходит must."
+    ],
+    "context": "Listen to the conversation and choose the correct variants",
+    "audio": true
+  },
+  {
+    "title": "Choosing Other Subjects",
+    "question": "Jamie … what other subjects to take.",
+    "choices": [
+      "knows",
+      "is uncertain",
+      "is sure",
+      "made up his mind"
+    ],
+    "answer": 1,
+    "steps": [
+      "В разговоре Джейми ещё не решил, какие дополнительные предметы выбрать.",
+      "«Is uncertain» значит «не уверен»."
+    ],
+    "context": "Listen to the conversation and choose the correct variants",
+    "audio": true
+  },
+  {
+    "title": "French Marks",
+    "question": "Jamie’s marks in French are … .",
+    "choices": [
+      "bad",
+      "excellent",
+      "good",
+      "rather good"
+    ],
+    "answer": 0,
+    "steps": [
+      "Слушай, как Джейми оценивает свои результаты по французскому.",
+      "Bad — плохие отметки."
+    ],
+    "context": "Listen to the conversation and choose the correct variants",
+    "audio": true
+  },
+  {
+    "title": "Studying Spanish",
+    "question": "Jamie can study Spanish if Mrs. Sanchez … .",
+    "choices": [
+      "doesn’t mind",
+      "is in the staff room",
+      "has lunch",
+      "is against"
+    ],
+    "answer": 0,
+    "steps": [
+      "If вводит условие, при котором он может заниматься испанским.",
+      "«Mrs Sanchez doesn’t mind» значит, что она не возражает."
+    ],
+    "context": "Listen to the conversation and choose the correct variants",
+    "audio": true
+  },
+  {
+    "title": "Plans for University",
+    "question": "Jamie wants to study … at University.",
+    "choices": [
+      "Spanish",
+      "History",
+      "Art",
+      "Business Studies"
+    ],
+    "answer": 1,
+    "steps": [
+      "Вопрос о будущем предмете в университете.",
+      "Джейми называет историю, History."
+    ],
+    "context": "Listen to the conversation and choose the correct variants",
+    "audio": true
+  },
+  {
+    "title": "The Subjects Next Year",
+    "question": "Next year Jamie would like to take … .",
+    "choices": [
+      "French, History and Art",
+      "Spanish, Business Studies and Art",
+      "Spanish, Business Studies and History",
+      "Spanish, History and Art"
+    ],
+    "answer": 3,
+    "steps": [
+      "Собери названия трёх выбранных предметов.",
+      "Джейми хочет взять Spanish, History and Art."
+    ],
+    "context": "Listen to the conversation and choose the correct variants",
+    "audio": true
+  },
+  {
+    "title": "Jamie’s Mother",
+    "question": "Jamie’s mother used to be … .",
+    "choices": [
+      "a dean",
+      "a lecturer",
+      "a teacher",
+      "an artist"
+    ],
+    "answer": 2,
+    "steps": [
+      "Used to be указывает на прежнюю профессию.",
+      "У Джейми мама раньше была учительницей, a teacher."
+    ],
+    "context": "Listen to the conversation and choose the correct variants",
+    "audio": true
+  },
+  {
+    "title": "At the Top of the School",
+    "question": "Jamie is at the top of his school at … .",
+    "choices": [
+      "History",
+      "French",
+      "Art",
+      "Business Studies"
+    ],
+    "answer": 2,
+    "steps": [
+      "Фраза «at the top» относится к предмету, в котором у Джейми лучшие результаты.",
+      "В разговоре это Art."
+    ],
+    "context": "Listen to the conversation and choose the correct variants",
+    "audio": true
+  },
+  {
+    "title": "Why Jamie Is in a Hurry",
+    "question": "Jamie is in a hurry because he wants to … .",
+    "choices": [
+      "have dinner",
+      "see his friend",
+      "change money",
+      "change his clothes"
+    ],
+    "answer": 3,
+    "steps": [
+      "В записи Джейми объясняет, почему спешит.",
+      "«Change his clothes» означает «переодеться»."
+    ],
+    "context": "Listen to the conversation and choose the correct variants",
+    "audio": true
+  },
+  {
+    "title": "The Conversation Partner",
+    "question": "Jamie is talking with … .",
+    "choices": [
+      "his dad",
+      "Mrs. Sanchez",
+      "Mr. Jones",
+      "French master"
+    ],
+    "answer": 2,
+    "steps": [
+      "Слушай, как Джейми обращается к собеседнику.",
+      "Он разговаривает с Mr Jones."
+    ],
+    "context": "Listen to the conversation and choose the correct variants",
+    "audio": true
+  },
+  {
+    "title": "The Purpose of a Label",
+    "question": "The aim of the food label is to … .",
+    "choices": [
+      "tease customers",
+      "amuse people",
+      "be read",
+      "make customers buy the product"
+    ],
+    "answer": 3,
+    "steps": [
+      "В начале текста «an advert to tempt you to buy the product».",
+      "По мысли автора, этикетка призвана побудить клиента к покупке."
+    ],
+    "context": "Read the text and choose the correct answers\n\nAs a food label is often nothing more than an advert to tempt you to buy the product, you should pay particular attention to the choice of words used. Always watch out for the word flavour, as this may mean that the product contains synthetic ingredients. Many manufacturers also use a range of meaningless descriptions. Feel-good words like wholesome, farmhouse, original and traditional do not mean anything. Other words, such as farm fresh and country fresh, also intentionally blur the true nature of a product’s source. Words that you can trust are organic, whole meal, natural mineral water, Fair Trade, free-range and the V, vegetarian symbol. Consumer pressure over GM foods has led to better labeling but loopholes still exist. GM product derivatives, such as starches, sugars, fats and oils where no genetically modified protein or DNA material still remains, go unlabeled in many products such as cereal bars, fish fingers, jellies and vegetable burgers."
+  },
+  {
+    "title": "The Word Flavour",
+    "question": "You should … the word flavour .",
+    "choices": [
+      "mind",
+      "ignore",
+      "read",
+      "look through"
+    ],
+    "answer": 0,
+    "steps": [
+      "«Watch out for» означает «обращать внимание, остерегаться».",
+      "В этом контексте mind the word flavour передаёт то же предостережение."
+    ],
+    "context": "Read the text and choose the correct answers\n\nAs a food label is often nothing more than an advert to tempt you to buy the product, you should pay particular attention to the choice of words used. Always watch out for the word flavour, as this may mean that the product contains synthetic ingredients. Many manufacturers also use a range of meaningless descriptions. Feel-good words like wholesome, farmhouse, original and traditional do not mean anything. Other words, such as farm fresh and country fresh, also intentionally blur the true nature of a product’s source. Words that you can trust are organic, whole meal, natural mineral water, Fair Trade, free-range and the V, vegetarian symbol. Consumer pressure over GM foods has led to better labeling but loopholes still exist. GM product derivatives, such as starches, sugars, fats and oils where no genetically modified protein or DNA material still remains, go unlabeled in many products such as cereal bars, fish fingers, jellies and vegetable burgers."
+  },
+  {
+    "title": "Synthetic Ingredients",
+    "question": "Synthetic ingredients means … .",
+    "choices": [
+      "useful",
+      "genuine",
+      "natural",
+      "artificial"
+    ],
+    "answer": 3,
+    "steps": [
+      "Synthetic значит «полученный искусственно».",
+      "Из вариантов подходит artificial."
+    ],
+    "context": "Read the text and choose the correct answers\n\nAs a food label is often nothing more than an advert to tempt you to buy the product, you should pay particular attention to the choice of words used. Always watch out for the word flavour, as this may mean that the product contains synthetic ingredients. Many manufacturers also use a range of meaningless descriptions. Feel-good words like wholesome, farmhouse, original and traditional do not mean anything. Other words, such as farm fresh and country fresh, also intentionally blur the true nature of a product’s source. Words that you can trust are organic, whole meal, natural mineral water, Fair Trade, free-range and the V, vegetarian symbol. Consumer pressure over GM foods has led to better labeling but loopholes still exist. GM product derivatives, such as starches, sugars, fats and oils where no genetically modified protein or DNA material still remains, go unlabeled in many products such as cereal bars, fish fingers, jellies and vegetable burgers."
+  },
+  {
+    "title": "Words in Advertising",
+    "question": "Manufacturers use many words in an advert which are … .",
+    "choices": [
+      "useful",
+      "useless",
+      "necessary",
+      "important"
+    ],
+    "answer": 1,
+    "steps": [
+      "Автор называет часть рекламных выражений meaningless descriptions.",
+      "Слова без существенной информации для покупателя здесь useless."
+    ],
+    "context": "Read the text and choose the correct answers\n\nAs a food label is often nothing more than an advert to tempt you to buy the product, you should pay particular attention to the choice of words used. Always watch out for the word flavour, as this may mean that the product contains synthetic ingredients. Many manufacturers also use a range of meaningless descriptions. Feel-good words like wholesome, farmhouse, original and traditional do not mean anything. Other words, such as farm fresh and country fresh, also intentionally blur the true nature of a product’s source. Words that you can trust are organic, whole meal, natural mineral water, Fair Trade, free-range and the V, vegetarian symbol. Consumer pressure over GM foods has led to better labeling but loopholes still exist. GM product derivatives, such as starches, sugars, fats and oils where no genetically modified protein or DNA material still remains, go unlabeled in many products such as cereal bars, fish fingers, jellies and vegetable burgers."
+  },
+  {
+    "title": "Blurring the Source",
+    "question": "The word to blur means … .",
+    "choices": [
+      "to misinform",
+      "to tell the truth",
+      "to tell a lie",
+      "to obscure"
+    ],
+    "answer": 3,
+    "steps": [
+      "To blur значит делать очертания или смысл нечёткими.",
+      "В описании источника продукта близко to obscure, «скрывать, затемнять»."
+    ],
+    "context": "Read the text and choose the correct answers\n\nAs a food label is often nothing more than an advert to tempt you to buy the product, you should pay particular attention to the choice of words used. Always watch out for the word flavour, as this may mean that the product contains synthetic ingredients. Many manufacturers also use a range of meaningless descriptions. Feel-good words like wholesome, farmhouse, original and traditional do not mean anything. Other words, such as farm fresh and country fresh, also intentionally blur the true nature of a product’s source. Words that you can trust are organic, whole meal, natural mineral water, Fair Trade, free-range and the V, vegetarian symbol. Consumer pressure over GM foods has led to better labeling but loopholes still exist. GM product derivatives, such as starches, sugars, fats and oils where no genetically modified protein or DNA material still remains, go unlabeled in many products such as cereal bars, fish fingers, jellies and vegetable burgers."
+  },
+  {
+    "title": "Who Made Labels Better",
+    "question": "Manufacturers began to label their products better due to the efforts of … .",
+    "choices": [
+      "shop assistants",
+      "farmers",
+      "customers",
+      "workers"
+    ],
+    "answer": 2,
+    "steps": [
+      "В тексте «consumer pressure … has led to better labeling».",
+      "Давление исходило от покупателей, customers."
+    ],
+    "context": "Read the text and choose the correct answers\n\nAs a food label is often nothing more than an advert to tempt you to buy the product, you should pay particular attention to the choice of words used. Always watch out for the word flavour, as this may mean that the product contains synthetic ingredients. Many manufacturers also use a range of meaningless descriptions. Feel-good words like wholesome, farmhouse, original and traditional do not mean anything. Other words, such as farm fresh and country fresh, also intentionally blur the true nature of a product’s source. Words that you can trust are organic, whole meal, natural mineral water, Fair Trade, free-range and the V, vegetarian symbol. Consumer pressure over GM foods has led to better labeling but loopholes still exist. GM product derivatives, such as starches, sugars, fats and oils where no genetically modified protein or DNA material still remains, go unlabeled in many products such as cereal bars, fish fingers, jellies and vegetable burgers."
+  },
+  {
+    "title": "Loopholes",
+    "question": "Loopholes still exist means … .",
+    "choices": [
+      "getting round laws",
+      "finding laws",
+      "improving laws",
+      "adopting laws"
+    ],
+    "answer": 0,
+    "steps": [
+      "Loophole — лазейка в правиле, позволяющая обойти его.",
+      "Getting round laws передаёт использование таких лазеек."
+    ],
+    "context": "Read the text and choose the correct answers\n\nAs a food label is often nothing more than an advert to tempt you to buy the product, you should pay particular attention to the choice of words used. Always watch out for the word flavour, as this may mean that the product contains synthetic ingredients. Many manufacturers also use a range of meaningless descriptions. Feel-good words like wholesome, farmhouse, original and traditional do not mean anything. Other words, such as farm fresh and country fresh, also intentionally blur the true nature of a product’s source. Words that you can trust are organic, whole meal, natural mineral water, Fair Trade, free-range and the V, vegetarian symbol. Consumer pressure over GM foods has led to better labeling but loopholes still exist. GM product derivatives, such as starches, sugars, fats and oils where no genetically modified protein or DNA material still remains, go unlabeled in many products such as cereal bars, fish fingers, jellies and vegetable burgers."
+  },
+  {
+    "title": "What Goes Unlabelled",
+    "question": "Customers … if some products contain starches, fats and oils derived from genetically modified foods.",
+    "choices": [
+      "know",
+      "believe",
+      "don’t know",
+      "understand"
+    ],
+    "answer": 2,
+    "steps": [
+      "Отрывок обсуждает ингредиенты, полученные из ГМ-продуктов, которые могут оставаться без маркировки.",
+      "Покупатели не всегда знают об их происхождении."
+    ],
+    "context": "Read the text and choose the correct answers\n\nAs a food label is often nothing more than an advert to tempt you to buy the product, you should pay particular attention to the choice of words used. Always watch out for the word flavour, as this may mean that the product contains synthetic ingredients. Many manufacturers also use a range of meaningless descriptions. Feel-good words like wholesome, farmhouse, original and traditional do not mean anything. Other words, such as farm fresh and country fresh, also intentionally blur the true nature of a product’s source. Words that you can trust are organic, whole meal, natural mineral water, Fair Trade, free-range and the V, vegetarian symbol. Consumer pressure over GM foods has led to better labeling but loopholes still exist. GM product derivatives, such as starches, sugars, fats and oils where no genetically modified protein or DNA material still remains, go unlabeled in many products such as cereal bars, fish fingers, jellies and vegetable burgers.",
+    "adaptation": "Уточнено, что вопрос о происхождении перечисленных производных, как в тексте."
+  },
+  {
+    "title": "What Customers Can Tell",
+    "question": "When customers buy jellies they are … that the latter contain GM derivatives.",
+    "choices": [
+      "pleased",
+      "sure",
+      "uncertain",
+      "suspect"
+    ],
+    "answer": 2,
+    "steps": [
+      "Текст называет jellies среди товаров, для которых производное может быть не указано.",
+      "Когда на этикетке нет сведения, покупатель остаётся uncertain."
+    ],
+    "context": "Read the text and choose the correct answers\n\nAs a food label is often nothing more than an advert to tempt you to buy the product, you should pay particular attention to the choice of words used. Always watch out for the word flavour, as this may mean that the product contains synthetic ingredients. Many manufacturers also use a range of meaningless descriptions. Feel-good words like wholesome, farmhouse, original and traditional do not mean anything. Other words, such as farm fresh and country fresh, also intentionally blur the true nature of a product’s source. Words that you can trust are organic, whole meal, natural mineral water, Fair Trade, free-range and the V, vegetarian symbol. Consumer pressure over GM foods has led to better labeling but loopholes still exist. GM product derivatives, such as starches, sugars, fats and oils where no genetically modified protein or DNA material still remains, go unlabeled in many products such as cereal bars, fish fingers, jellies and vegetable burgers."
+  },
+  {
+    "title": "Before Buying",
+    "question": "According to the text, before buying something customers should … .",
+    "choices": [
+      "go to many shops",
+      "compare prices",
+      "read ads attentively",
+      "consult their friends"
+    ],
+    "answer": 2,
+    "steps": [
+      "В первом предложении автор советует обращать особое внимание на формулировки.",
+      "«Read ads attentively» передаёт совет читать рекламный текст внимательно."
+    ],
+    "context": "Read the text and choose the correct answers\n\nAs a food label is often nothing more than an advert to tempt you to buy the product, you should pay particular attention to the choice of words used. Always watch out for the word flavour, as this may mean that the product contains synthetic ingredients. Many manufacturers also use a range of meaningless descriptions. Feel-good words like wholesome, farmhouse, original and traditional do not mean anything. Other words, such as farm fresh and country fresh, also intentionally blur the true nature of a product’s source. Words that you can trust are organic, whole meal, natural mineral water, Fair Trade, free-range and the V, vegetarian symbol. Consumer pressure over GM foods has led to better labeling but loopholes still exist. GM product derivatives, such as starches, sugars, fats and oils where no genetically modified protein or DNA material still remains, go unlabeled in many products such as cereal bars, fish fingers, jellies and vegetable burgers."
+  },
+  {
+    "title": "Top, Bottom and Side",
+    "question": "Which word is different?",
+    "choices": [
+      "Top",
+      "Bottom",
+      "Half",
+      "Side"
+    ],
+    "answer": 2,
+    "steps": [
+      "Top, bottom и side обозначают положение или стороны предмета.",
+      "Half называет долю — половину."
+    ]
+  },
+  {
+    "title": "Shapes",
+    "question": "Which word is different?",
+    "choices": [
+      "Circle",
+      "Triangle",
+      "Picture",
+      "Square"
+    ],
+    "answer": 2,
+    "steps": [
+      "Circle, triangle и square — геометрические фигуры.",
+      "Picture — изображение, которое может иметь любую форму."
+    ]
+  },
+  {
+    "title": "Sports",
+    "question": "Which word is different?",
+    "choices": [
+      "Soccer",
+      "Ping pong",
+      "Wrestling",
+      "Baseball"
+    ],
+    "answer": 2,
+    "steps": [
+      "В футболе, настольном теннисе и бейсболе играют мячом.",
+      "Wrestling — борьба, где мяча нет."
+    ]
+  },
+  {
+    "title": "A Type of Text",
+    "question": "Which word is different?",
+    "choices": [
+      "Story",
+      "Fairy tale",
+      "Novel",
+      "Saying"
+    ],
+    "answer": 3,
+    "steps": [
+      "Story, fairy tale и novel рассказывают историю.",
+      "Saying — краткое устойчивое изречение."
+    ]
+  },
+  {
+    "title": "Animals and Something Else",
+    "question": "Which word is different?",
+    "choices": [
+      "Horse",
+      "Lightning",
+      "Squirrel",
+      "Cheetah"
+    ],
+    "answer": 1,
+    "steps": [
+      "Horse, squirrel и cheetah — животные.",
+      "Lightning означает молнию, природное явление."
+    ]
+  },
+  {
+    "title": "Describing a Degree",
+    "question": "Which word is different?",
+    "choices": [
+      "Best",
+      "Fastest",
+      "Very old",
+      "Worst"
+    ],
+    "answer": 2,
+    "steps": [
+      "Best, fastest и worst — превосходные степени прилагательных.",
+      "Very old усиливает обычное old, не образуя превосходную степень."
+    ]
+  },
+  {
+    "title": "Things That Fly",
+    "question": "Which word is different?",
+    "choices": [
+      "Bird",
+      "Cat",
+      "Rocket",
+      "Airplane"
+    ],
+    "answer": 1,
+    "steps": [
+      "Птица, ракета и самолёт способны лететь.",
+      "Cat — кошка, которая сама не летает."
+    ]
+  },
+  {
+    "title": "Position and Movement",
+    "question": "Which word is different?",
+    "choices": [
+      "Behind",
+      "Though",
+      "Across",
+      "Through"
+    ],
+    "answer": 1,
+    "steps": [
+      "Behind, across и through могут быть предлогами места или направления.",
+      "Though — союз «хотя»."
+    ]
+  },
+  {
+    "title": "Countries and Languages",
+    "question": "Which word is different?",
+    "choices": [
+      "Dutch",
+      "Norwegian",
+      "Danish",
+      "Holland"
+    ],
+    "answer": 3,
+    "steps": [
+      "Dutch, Norwegian и Danish — названия языков или прилагательные.",
+      "Holland — географическое название."
+    ]
+  },
+  {
+    "title": "Names for People",
+    "question": "Which word is different?",
+    "choices": [
+      "Pole",
+      "Spaniard",
+      "Dane",
+      "Spanish"
+    ],
+    "answer": 3,
+    "steps": [
+      "A Pole, a Spaniard и a Dane называют отдельных людей по национальности.",
+      "Spanish — прилагательное или название языка."
+    ]
+  },
+  {
+    "title": "Aunt Annie",
+    "question": "Her aunt Annie can be very haughty.",
+    "choices": [
+      "Friendly",
+      "Tolerant",
+      "Respectful",
+      "Unfriendly"
+    ],
+    "answer": 3,
+    "steps": [
+      "Haughty — высокомерный, смотрящий на других свысока.",
+      "Среди нейтральных и доброжелательных вариантов ближе всего unfriendly."
+    ],
+    "context": "Find the most suitable feature"
+  },
+  {
+    "title": "Nancy’s Self-Image",
+    "question": "Nancy is so conceited. She … .",
+    "choices": [
+      "is awkward",
+      "is approachable",
+      "is obedient",
+      "has a favourable opinion of herself"
+    ],
+    "answer": 3,
+    "steps": [
+      "Conceited описывает чрезмерно высокое мнение о себе.",
+      "«Has a favourable opinion of herself» ближе всего к этому смыслу среди вариантов."
+    ],
+    "context": "Find the most suitable feature"
+  },
+  {
+    "title": "Telephone Sales",
+    "question": "Telephone salespeople often take advantage of gullible people.",
+    "choices": [
+      "Trustworthy",
+      "Truthful",
+      "Easily deceived",
+      "Honest"
+    ],
+    "answer": 2,
+    "steps": [
+      "«Take advantage of» здесь значит воспользоваться доверчивостью.",
+      "Gullible people легко обмануть, поэтому «easily deceived»."
+    ],
+    "context": "Find the most suitable feature"
+  },
+  {
+    "title": "His Father’s Approach",
+    "question": "His father was a very conscientious man.",
+    "choices": [
+      "Shy",
+      "Dropping work half way",
+      "Irresponsible",
+      "Taking duties seriously"
+    ],
+    "answer": 3,
+    "steps": [
+      "Conscientious означает «добросовестный».",
+      "Такие люди серьёзно относятся к обязанностям: «taking duties seriously»."
+    ],
+    "context": "Find the most suitable feature"
+  },
+  {
+    "title": "Refusing to Change One’s Mind",
+    "question": "I don’t like that he is so obstinate.",
+    "choices": [
+      "Pig-headed",
+      "Red handed",
+      "Coach potato",
+      "Lazybones"
+    ],
+    "answer": 0,
+    "steps": [
+      "Obstinate означает «упрямый».",
+      "Pig-headed — более разговорное слово с таким же смыслом."
+    ],
+    "context": "Find the most suitable feature"
+  },
+  {
+    "title": "Moral Principles",
+    "question": "He’s quite an unscrupulous character.",
+    "choices": [
+      "Moral",
+      "Mortal",
+      "Honest",
+      "Lacking moral principles"
+    ],
+    "answer": 3,
+    "steps": [
+      "Scruples — нравственные сомнения или принципы.",
+      "Unscrupulous означает, что человек ими пренебрегает."
+    ],
+    "context": "Find the most suitable feature"
+  },
+  {
+    "title": "A Sudden Idea",
+    "question": "My friend is so impetuous.",
+    "choices": [
+      "Patient",
+      "Acts on a sudden idea",
+      "Tolerant",
+      "Considers things first"
+    ],
+    "answer": 1,
+    "steps": [
+      "Impetuous описывает порывистого человека, который действует сразу, без долгого обдумывания.",
+      "Подходит «acts on a sudden idea»."
+    ],
+    "context": "Find the most suitable feature"
+  },
+  {
+    "title": "A Child’s Reactions",
+    "question": "He is a very excitable child.",
+    "choices": [
+      "Cheerful",
+      "Calm",
+      "Laughs a lot",
+      "Easily excited"
+    ],
+    "answer": 3,
+    "steps": [
+      "Excitable означает, что человек легко приходит в возбуждение или взволнованное состояние.",
+      "Это передаёт «easily excited»."
+    ],
+    "context": "Find the most suitable feature"
+  },
+  {
+    "title": "Freddie’s Speech",
+    "question": "Freddie’s so garrulous. It’s impossible to get any work done.",
+    "choices": [
+      "Calm",
+      "Quiet",
+      "Talkative",
+      "Hardworking"
+    ],
+    "answer": 2,
+    "steps": [
+      "Garrulous означает «чрезмерно разговорчивый».",
+      "То, что бесконечные разговоры мешают работе, поддерживает вариант talkative."
+    ],
+    "context": "Find the most suitable feature"
+  },
+  {
+    "title": "A First Impression",
+    "question": "I thought he was rather taciturn when I first met him.",
+    "choices": [
+      "Emotional",
+      "Reserved",
+      "Impulsive",
+      "Never counts to ten"
+    ],
+    "answer": 1,
+    "steps": [
+      "Taciturn — немногословный и сдержанный.",
+      "Среди вариантов подходит reserved."
+    ],
+    "context": "Find the most suitable feature"
+  },
+  {
+    "title": "An Important Church",
+    "question": "A very large and important church.",
+    "choices": [
+      "Caterer",
+      "Cathedral",
+      "Catkins",
+      "Catalogue"
+    ],
+    "answer": 1,
+    "steps": [
+      "Собор обычно служит главным храмом епархии.",
+      "Английское название — cathedral."
+    ],
+    "context": "All the words begin with cat. Find the one that matches the definition."
+  },
+  {
+    "title": "A Terrible Event",
+    "question": "A sudden and terrible event causing great suffering.",
+    "choices": [
+      "Catch",
+      "Catapult",
+      "Catacomb",
+      "Catastrophe"
+    ],
+    "answer": 3,
+    "steps": [
+      "Catastrophe — катастрофа, событие с тяжёлыми последствиями.",
+      "Только это слово подходит к определению «causing great suffering»."
+    ],
+    "context": "All the words begin with cat. Find the one that matches the definition."
+  },
+  {
+    "title": "An Ordered List",
+    "question": "A list of goods, places, names in a special order.",
+    "choices": [
+      "Caterer",
+      "Catnap",
+      "Catalogue",
+      "Catherine wheel"
+    ],
+    "answer": 2,
+    "steps": [
+      "Catalogue — список или сборник сведений в определённом порядке.",
+      "Например, в каталоге товаров можно искать по категориям."
+    ],
+    "context": "All the words begin with cat. Find the one that matches the definition."
+  },
+  {
+    "title": "An Object in the Air",
+    "question": "To grasp something which is thrown.",
+    "choices": [
+      "Catapult",
+      "Catch",
+      "Cattle",
+      "Catwalk"
+    ],
+    "answer": 1,
+    "steps": [
+      "«To grasp» значит схватить.",
+      "Предмет, который тебе бросили, можно поймать — catch."
+    ],
+    "context": "All the words begin with cat. Find the one that matches the definition."
+  },
+  {
+    "title": "Cows and Bulls",
+    "question": "Domestic animals like cows and bulls.",
+    "choices": [
+      "Cattle",
+      "Catfish",
+      "Caterpillar",
+      "Cattle grid"
+    ],
+    "answer": 0,
+    "steps": [
+      "Cattle — собирательное существительное для крупного рогатого скота.",
+      "К нему относятся коровы и быки."
+    ],
+    "context": "All the words begin with cat. Find the one that matches the definition."
+  },
+  {
+    "title": "An Insect and a Track",
+    "question": "It is an insect and can form part of the name of a heavy vehicle’s tracks.",
+    "choices": [
+      "Catfish",
+      "Caterer",
+      "Caterpillar",
+      "Cattle grid"
+    ],
+    "answer": 2,
+    "steps": [
+      "Caterpillar означает гусеницу.",
+      "Слово также встречается в сочетании «caterpillar track», гусеничный ход тяжёлой машины."
+    ],
+    "context": "All the words begin with cat. Find the one that matches the definition.",
+    "adaptation": "Уточнено, что имеется в виду слово в названии гусеничного хода."
+  },
+  {
+    "title": "A Fashion Show",
+    "question": "A long raised path that models walk on in a fashion show.",
+    "choices": [
+      "Catnap",
+      "Catwalk",
+      "Catfish",
+      "Caterer"
+    ],
+    "answer": 1,
+    "steps": [
+      "Модели идут по помосту, чтобы показать одежду зрителям.",
+      "По-английски помост называют catwalk."
+    ],
+    "context": "All the words begin with cat. Find the one that matches the definition."
+  },
+  {
+    "title": "A Short Sleep",
+    "question": "A very short light sleep.",
+    "choices": [
+      "Catwalk",
+      "Catkins",
+      "Catnap",
+      "Catfish"
+    ],
+    "answer": 2,
+    "steps": [
+      "Nap — короткий сон.",
+      "Catnap также означает очень непродолжительный сон."
+    ],
+    "context": "All the words begin with cat. Find the one that matches the definition."
+  },
+  {
+    "title": "Sending Small Stones",
+    "question": "A small Y-shaped device with an elastic band used to launch small stones.",
+    "choices": [
+      "Caterer",
+      "Cat’s eye",
+      "Catch",
+      "Catapult"
+    ],
+    "answer": 3,
+    "steps": [
+      "В британском английском catapult может означать рогатку.",
+      "Она выпускает небольшой камень с помощью натянутой резинки."
+    ],
+    "context": "All the words begin with cat. Find the one that matches the definition.",
+    "adaptation": "Уточнено описание рогатки."
+  },
+  {
+    "title": "A Boat’s Two Hulls",
+    "question": "A sailing boat with two separate hulls.",
+    "choices": [
+      "Caterer",
+      "Caterpillar",
+      "Cathedral",
+      "Catamaran"
+    ],
+    "answer": 3,
+    "steps": [
+      "Hull — корпус лодки или корабля.",
+      "Catamaran — судно с двумя отдельными корпусами."
+    ],
+    "context": "All the words begin with cat. Find the one that matches the definition."
+  },
+  {
+    "title": "A Holiday Memory",
+    "question": "It was definitely the best holiday I’ve ever had.",
+    "choices": [
+      "A letter of complaint",
+      "A letter of application",
+      "A personal letter",
+      "A letter of advice"
+    ],
+    "answer": 2,
+    "steps": [
+      "Автор делится собственным впечатлением о каникулах.",
+      "Такая реплика подходит для personal letter."
+    ],
+    "context": "Which letters are the following sentences taken from?"
+  },
+  {
+    "title": "A Junior Manager Post",
+    "question": "I am writing to apply for the post of junior manager.",
+    "choices": [
+      "A letter of complaint",
+      "A letter of application",
+      "A personal letter",
+      "A letter of advice"
+    ],
+    "answer": 1,
+    "steps": [
+      "«I am writing to apply for the post» прямо называет цель обращения.",
+      "Это letter of application."
+    ],
+    "context": "Which letters are the following sentences taken from?"
+  },
+  {
+    "title": "Inviting People to Visit",
+    "question": "We are very happy and we hope you and Martin will visit us soon.",
+    "choices": [
+      "A letter of complaint",
+      "A letter of application",
+      "A personal letter",
+      "A letter of advice"
+    ],
+    "answer": 2,
+    "steps": [
+      "Автор радуется и приглашает знакомых в гости.",
+      "Тон и содержание характерны для личного письма."
+    ],
+    "context": "Which letters are the following sentences taken from?"
+  },
+  {
+    "title": "Asking for a Reply",
+    "question": "Well, that’s all my news for now. Write back soon.",
+    "choices": [
+      "A letter of complaint",
+      "A letter of application",
+      "A personal letter",
+      "A letter of advice"
+    ],
+    "answer": 2,
+    "steps": [
+      "«That’s all my news for now» подводит итог рассказу о себе.",
+      "«Write back soon» — обычное завершение личного письма."
+    ],
+    "context": "Which letters are the following sentences taken from?"
+  },
+  {
+    "title": "Qualities of a Candidate",
+    "question": "I am patient, cheerful and organized.",
+    "choices": [
+      "A letter of complaint",
+      "A letter of application",
+      "A personal letter",
+      "A letter of advice"
+    ],
+    "answer": 1,
+    "steps": [
+      "«Patient, cheerful and organized» перечисляет качества человека.",
+      "В заявлении о приёме на работу так описывают себя потенциальному работодателю."
+    ],
+    "context": "Which letters are the following sentences taken from?"
+  },
+  {
+    "title": "Useful Suggestions",
+    "question": "I hope these suggestions will be of help to you.",
+    "choices": [
+      "A letter of complaint",
+      "A letter of application",
+      "A personal letter",
+      "A letter of advice"
+    ],
+    "answer": 3,
+    "steps": [
+      "«These suggestions will be of help» означает, что предложенные рекомендации могут пригодиться.",
+      "Такое завершение характерно для letter of advice."
+    ],
+    "context": "Which letters are the following sentences taken from?"
+  },
+  {
+    "title": "An Unacceptable Service",
+    "question": "I find this kind of service unacceptable.",
+    "choices": [
+      "A letter of complaint",
+      "A letter of application",
+      "A personal letter",
+      "A letter of advice"
+    ],
+    "answer": 0,
+    "steps": [
+      "Автор прямо выражает недовольство обслуживанием.",
+      "Цель письма — пожаловаться: letter of complaint."
+    ],
+    "context": "Which letters are the following sentences taken from?"
+  },
+  {
+    "title": "Documents Enclosed",
+    "question": "I have enclosed a detailed CV as well as a reference letter from my previous employer.",
+    "choices": [
+      "A letter of complaint",
+      "A letter of application",
+      "A personal letter",
+      "A letter of advice"
+    ],
+    "answer": 1,
+    "steps": [
+      "К письму приложены CV и рекомендация прежнего работодателя.",
+      "Такие документы сопровождают letter of application."
+    ],
+    "context": "Which letters are the following sentences taken from?"
+  },
+  {
+    "title": "Six Years of English",
+    "question": "I have studied English for six years.",
+    "choices": [
+      "A letter of complaint",
+      "A letter of application",
+      "A personal letter",
+      "A letter of advice"
+    ],
+    "answer": 1,
+    "steps": [
+      "Из предложенных жанров ближе письмо-заявление.",
+      "В нём можно указать, сколько времени изучали английский, как подтверждение подготовки."
+    ],
+    "context": "Which letters are the following sentences taken from?"
+  },
+  {
+    "title": "Asking for a Refund",
+    "question": "I would like a refund or another game, otherwise there will be trouble.",
+    "choices": [
+      "A letter of complaint",
+      "A letter of application",
+      "A personal letter",
+      "A letter of advice"
+    ],
+    "answer": 0,
+    "steps": [
+      "Refund — возврат денег.",
+      "Автор требует возместить покупку или заменить товар, что характерно для письма-жалобы."
+    ],
+    "context": "Which letters are the following sentences taken from?"
+  }
+]

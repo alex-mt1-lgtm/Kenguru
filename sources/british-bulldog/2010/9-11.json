@@ -1,0 +1,895 @@
+[
+  {
+    "title": "An Ancient Building",
+    "question": "The city can boast the ancient … .",
+    "choices": [
+      "theatre",
+      "cinema",
+      "library"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 0,
+    "steps": [
+      "В начале экскурсии гид говорит «you can see the amphitheatre».",
+      "Amphitheatre — древний театр с рядами сидений."
+    ]
+  },
+  {
+    "title": "Rows in the Amphitheatre",
+    "question": "The amphitheatre has … rows of seats on both levels altogether.",
+    "choices": [
+      "nineteen",
+      "forty two",
+      "twenty three"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "adaptation": "В записи говорится о рядах сидений. Формулировка уточнена.",
+    "answer": 1,
+    "steps": [
+      "Гид называет девятнадцать рядов внизу и двадцать три вверху.",
+      "19 + 23 = 42 ряда, forty-two."
+    ]
+  },
+  {
+    "title": "The High Parapet",
+    "question": "The high parapet proves that … .",
+    "choices": [
+      "there are five entrances onto the stage",
+      "fights were held there",
+      "spectators used to walk there"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 1,
+    "steps": [
+      "После числа рядов гид объясняет назначение высокого ограждения.",
+      "Оно указывает на то, что здесь проводили бои гладиаторов и животных."
+    ]
+  },
+  {
+    "title": "Stadium Shape",
+    "question": "The form of the stadium resembles the letter … .",
+    "choices": [
+      "T",
+      "U",
+      "V"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 1,
+    "steps": [
+      "Сравнение в записи звучит «It’s U-shaped».",
+      "Значит, план похож на букву U."
+    ]
+  },
+  {
+    "title": "Stadium Capacity",
+    "question": "The stadium used to hold … twenty thousand people.",
+    "choices": [
+      "much than",
+      "more than",
+      "less than"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 2,
+    "steps": [
+      "Гид говорит «about twelve thousand people».",
+      "12 000 меньше 20 000, less than."
+    ]
+  },
+  {
+    "title": "Statues of Athletes",
+    "question": "… was decorated with statues of athletes.",
+    "choices": [
+      "The stadium",
+      "The stage",
+      "A huge building"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 2,
+    "steps": [
+      "Гид описывает огромное здание, стоявшее на открытой площадке.",
+      "Именно это здание украшали статуи атлетов."
+    ]
+  },
+  {
+    "title": "Under the Seating",
+    "question": "Two in every three of the spaces were … .",
+    "choices": [
+      "the stadium",
+      "the theatre",
+      "shops"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 2,
+    "steps": [
+      "В записи каждое третье помещение служило входом на стадион.",
+      "Два остальных из каждых трёх занимали магазины, shops."
+    ]
+  },
+  {
+    "title": "Connections Between Shops",
+    "question": "… shops are connected to each other.",
+    "choices": [
+      "All the",
+      "Some of the",
+      "Modern"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 1,
+    "steps": [
+      "В рассказе дважды звучит some: у части лавок сохранились имена, часть помещений соединена.",
+      "Some of the shops — «некоторые лавки»."
+    ]
+  },
+  {
+    "title": "A Wall in the Stadium",
+    "question": "The wall to separate a part of the stadium was built … .",
+    "choices": [
+      "not long ago",
+      "in the third century",
+      "recently"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 1,
+    "steps": [
+      "Гид говорит, что северный конец стадиона отделили стеной.",
+      "В записи указано «in the third century»."
+    ]
+  },
+  {
+    "title": "The Next Stop",
+    "question": "The guide wants to show the … .",
+    "choices": [
+      "suburbs",
+      "castle",
+      "main street"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 2,
+    "steps": [
+      "В конце экскурсовод просит следовать за ним.",
+      "Он собирается показать main street и термы. Из вариантов названо main street."
+    ]
+  },
+  {
+    "title": "A Condition for Dancing",
+    "question": "Complete gap 11 in the text.",
+    "choices": [
+      "brings",
+      "would bring",
+      "brought"
+    ],
+    "context": "Read the text and choose the answer.\n\nThere was once a young student who was in love with the daughter of a Professor, but she had said that she would only dance with him at the Prince’s ball if he [11] her red roses. Unfortunately, the student had no roses in his garden. While he [12] in his garden [13] nightingale heard him and felt sorry for him because she believed that he was a true lover. She decided to help him, and flew to a rose tree to get him the rose he needed. But the rose tree had only white roses. Another rose tree had only yellow roses. At last she found a rose tree which grew red roses but this year, [14] the severe winter, it didn’t have any roses. The nightingale begged the rose tree [15] her how to get a red rose. Reluctantly the tree explained that she [16] to kill herself by pressing against a thorn while singing. After a moment’s thought the nightingale decided to do this. [17] night came and the nightingale sang all night pressing against a thorn, as she [18] promised, until she died. The next day the student found the red rose and rushed to the Professor’s house to give the rose to the girl and [19] her of her promise. The girl, [20], was more impressed by the jewels than by the poor student’s flower. Disillusioned, the student went home and returned to his books.",
+    "answer": 2,
+    "steps": [
+      "Девушка обещала танцевать на балу при условии, что студент принесёт розы.",
+      "В пересказе прошлого после if подходит brought."
+    ]
+  },
+  {
+    "title": "In the Garden",
+    "question": "Complete gap 12 in the text.",
+    "choices": [
+      "cried",
+      "was crying",
+      "had cried"
+    ],
+    "context": "Read the text and choose the answer.\n\nThere was once a young student who was in love with the daughter of a Professor, but she had said that she would only dance with him at the Prince’s ball if he [11] her red roses. Unfortunately, the student had no roses in his garden. While he [12] in his garden [13] nightingale heard him and felt sorry for him because she believed that he was a true lover. She decided to help him, and flew to a rose tree to get him the rose he needed. But the rose tree had only white roses. Another rose tree had only yellow roses. At last she found a rose tree which grew red roses but this year, [14] the severe winter, it didn’t have any roses. The nightingale begged the rose tree [15] her how to get a red rose. Reluctantly the tree explained that she [16] to kill herself by pressing against a thorn while singing. After a moment’s thought the nightingale decided to do this. [17] night came and the nightingale sang all night pressing against a thorn, as she [18] promised, until she died. The next day the student found the red rose and rushed to the Professor’s house to give the rose to the girl and [19] her of her promise. The girl, [20], was more impressed by the jewels than by the poor student’s flower. Disillusioned, the student went home and returned to his books.",
+    "answer": 1,
+    "steps": [
+      "While отмечает действие, которое длилось, когда соловей услышал студента.",
+      "Past Continuous описывает этот фон, was crying."
+    ]
+  },
+  {
+    "title": "A New Character",
+    "question": "Complete gap 13 in the text.",
+    "choices": [
+      "a",
+      "the",
+      "no article"
+    ],
+    "context": "Read the text and choose the answer.\n\nThere was once a young student who was in love with the daughter of a Professor, but she had said that she would only dance with him at the Prince’s ball if he [11] her red roses. Unfortunately, the student had no roses in his garden. While he [12] in his garden [13] nightingale heard him and felt sorry for him because she believed that he was a true lover. She decided to help him, and flew to a rose tree to get him the rose he needed. But the rose tree had only white roses. Another rose tree had only yellow roses. At last she found a rose tree which grew red roses but this year, [14] the severe winter, it didn’t have any roses. The nightingale begged the rose tree [15] her how to get a red rose. Reluctantly the tree explained that she [16] to kill herself by pressing against a thorn while singing. After a moment’s thought the nightingale decided to do this. [17] night came and the nightingale sang all night pressing against a thorn, as she [18] promised, until she died. The next day the student found the red rose and rushed to the Professor’s house to give the rose to the girl and [19] her of her promise. The girl, [20], was more impressed by the jewels than by the poor student’s flower. Disillusioned, the student went home and returned to his books.",
+    "answer": 0,
+    "steps": [
+      "Соловей впервые появляется в рассказе и назван одним исчисляемым существительным.",
+      "Перед nightingale нужен артикль a."
+    ]
+  },
+  {
+    "title": "Why There Were No Roses",
+    "question": "Complete gap 14 in the text.",
+    "choices": [
+      "because",
+      "because of",
+      "as"
+    ],
+    "context": "Read the text and choose the answer.\n\nThere was once a young student who was in love with the daughter of a Professor, but she had said that she would only dance with him at the Prince’s ball if he [11] her red roses. Unfortunately, the student had no roses in his garden. While he [12] in his garden [13] nightingale heard him and felt sorry for him because she believed that he was a true lover. She decided to help him, and flew to a rose tree to get him the rose he needed. But the rose tree had only white roses. Another rose tree had only yellow roses. At last she found a rose tree which grew red roses but this year, [14] the severe winter, it didn’t have any roses. The nightingale begged the rose tree [15] her how to get a red rose. Reluctantly the tree explained that she [16] to kill herself by pressing against a thorn while singing. After a moment’s thought the nightingale decided to do this. [17] night came and the nightingale sang all night pressing against a thorn, as she [18] promised, until she died. The next day the student found the red rose and rushed to the Professor’s house to give the rose to the girl and [19] her of her promise. The girl, [20], was more impressed by the jewels than by the poor student’s flower. Disillusioned, the student went home and returned to his books.",
+    "answer": 1,
+    "steps": [
+      "После пропуска следует существительное с определением, «the severe winter».",
+      "Because of вводит причину в виде именной группы."
+    ]
+  },
+  {
+    "title": "Asking the Rose Tree",
+    "question": "Complete gap 15 in the text.",
+    "choices": [
+      "to say",
+      "to tell",
+      "to tell to"
+    ],
+    "context": "Read the text and choose the answer.\n\nThere was once a young student who was in love with the daughter of a Professor, but she had said that she would only dance with him at the Prince’s ball if he [11] her red roses. Unfortunately, the student had no roses in his garden. While he [12] in his garden [13] nightingale heard him and felt sorry for him because she believed that he was a true lover. She decided to help him, and flew to a rose tree to get him the rose he needed. But the rose tree had only white roses. Another rose tree had only yellow roses. At last she found a rose tree which grew red roses but this year, [14] the severe winter, it didn’t have any roses. The nightingale begged the rose tree [15] her how to get a red rose. Reluctantly the tree explained that she [16] to kill herself by pressing against a thorn while singing. After a moment’s thought the nightingale decided to do this. [17] night came and the nightingale sang all night pressing against a thorn, as she [18] promised, until she died. The next day the student found the red rose and rushed to the Professor’s house to give the rose to the girl and [19] her of her promise. The girl, [20], was more impressed by the jewels than by the poor student’s flower. Disillusioned, the student went home and returned to his books.",
+    "answer": 1,
+    "steps": [
+      "После beg нужен инфинитив, a her отмечает, кому говорят.",
+      "Tell her how to get a rose грамматически подходит, поэтому to tell."
+    ]
+  },
+  {
+    "title": "A Future Sacrifice",
+    "question": "Complete gap 16 in the text.",
+    "choices": [
+      "must",
+      "have",
+      "would have"
+    ],
+    "context": "Read the text and choose the answer.\n\nThere was once a young student who was in love with the daughter of a Professor, but she had said that she would only dance with him at the Prince’s ball if he [11] her red roses. Unfortunately, the student had no roses in his garden. While he [12] in his garden [13] nightingale heard him and felt sorry for him because she believed that he was a true lover. She decided to help him, and flew to a rose tree to get him the rose he needed. But the rose tree had only white roses. Another rose tree had only yellow roses. At last she found a rose tree which grew red roses but this year, [14] the severe winter, it didn’t have any roses. The nightingale begged the rose tree [15] her how to get a red rose. Reluctantly the tree explained that she [16] to kill herself by pressing against a thorn while singing. After a moment’s thought the nightingale decided to do this. [17] night came and the nightingale sang all night pressing against a thorn, as she [18] promised, until she died. The next day the student found the red rose and rushed to the Professor’s house to give the rose to the girl and [19] her of her promise. The girl, [20], was more impressed by the jewels than by the poor student’s flower. Disillusioned, the student went home and returned to his books.",
+    "answer": 2,
+    "steps": [
+      "Соловью объяснили, что ей придётся погибнуть. Объяснение дано в прошедшем времени.",
+      "Would have to передаёт будущую необходимость относительно этого разговора."
+    ]
+  },
+  {
+    "title": "Night Comes",
+    "question": "Complete gap 17 in the text.",
+    "choices": [
+      "Eventually",
+      "However",
+      "Although"
+    ],
+    "context": "Read the text and choose the answer.\n\nThere was once a young student who was in love with the daughter of a Professor, but she had said that she would only dance with him at the Prince’s ball if he [11] her red roses. Unfortunately, the student had no roses in his garden. While he [12] in his garden [13] nightingale heard him and felt sorry for him because she believed that he was a true lover. She decided to help him, and flew to a rose tree to get him the rose he needed. But the rose tree had only white roses. Another rose tree had only yellow roses. At last she found a rose tree which grew red roses but this year, [14] the severe winter, it didn’t have any roses. The nightingale begged the rose tree [15] her how to get a red rose. Reluctantly the tree explained that she [16] to kill herself by pressing against a thorn while singing. After a moment’s thought the nightingale decided to do this. [17] night came and the nightingale sang all night pressing against a thorn, as she [18] promised, until she died. The next day the student found the red rose and rushed to the Professor’s house to give the rose to the girl and [19] her of her promise. The girl, [20], was more impressed by the jewels than by the poor student’s flower. Disillusioned, the student went home and returned to his books.",
+    "answer": 0,
+    "steps": [
+      "Соловей принимает решение, и спустя некоторое время наступает ночь.",
+      "Eventually означает «в конце концов»."
+    ]
+  },
+  {
+    "title": "A Promise Kept",
+    "question": "Complete gap 18 in the text.",
+    "choices": [
+      "has",
+      "had",
+      "would"
+    ],
+    "context": "Read the text and choose the answer.\n\nThere was once a young student who was in love with the daughter of a Professor, but she had said that she would only dance with him at the Prince’s ball if he [11] her red roses. Unfortunately, the student had no roses in his garden. While he [12] in his garden [13] nightingale heard him and felt sorry for him because she believed that he was a true lover. She decided to help him, and flew to a rose tree to get him the rose he needed. But the rose tree had only white roses. Another rose tree had only yellow roses. At last she found a rose tree which grew red roses but this year, [14] the severe winter, it didn’t have any roses. The nightingale begged the rose tree [15] her how to get a red rose. Reluctantly the tree explained that she [16] to kill herself by pressing against a thorn while singing. After a moment’s thought the nightingale decided to do this. [17] night came and the nightingale sang all night pressing against a thorn, as she [18] promised, until she died. The next day the student found the red rose and rushed to the Professor’s house to give the rose to the girl and [19] her of her promise. The girl, [20], was more impressed by the jewels than by the poor student’s flower. Disillusioned, the student went home and returned to his books.",
+    "answer": 1,
+    "steps": [
+      "Обещание было дано раньше, чем соловей начал петь.",
+      "Более раннее прошлое выражается в «had promised»."
+    ]
+  },
+  {
+    "title": "Going Back to the Girl",
+    "question": "Complete gap 19 in the text.",
+    "choices": [
+      "to remember",
+      "to remind",
+      "to mind"
+    ],
+    "context": "Read the text and choose the answer.\n\nThere was once a young student who was in love with the daughter of a Professor, but she had said that she would only dance with him at the Prince’s ball if he [11] her red roses. Unfortunately, the student had no roses in his garden. While he [12] in his garden [13] nightingale heard him and felt sorry for him because she believed that he was a true lover. She decided to help him, and flew to a rose tree to get him the rose he needed. But the rose tree had only white roses. Another rose tree had only yellow roses. At last she found a rose tree which grew red roses but this year, [14] the severe winter, it didn’t have any roses. The nightingale begged the rose tree [15] her how to get a red rose. Reluctantly the tree explained that she [16] to kill herself by pressing against a thorn while singing. After a moment’s thought the nightingale decided to do this. [17] night came and the nightingale sang all night pressing against a thorn, as she [18] promised, until she died. The next day the student found the red rose and rushed to the Professor’s house to give the rose to the girl and [19] her of her promise. The girl, [20], was more impressed by the jewels than by the poor student’s flower. Disillusioned, the student went home and returned to his books.",
+    "answer": 1,
+    "steps": [
+      "Студент хотел напомнить девушке о её обещании.",
+      "«Remind her of her promise» означает «напомнить ей о её обещании»."
+    ]
+  },
+  {
+    "title": "The Girl's Reaction",
+    "question": "Complete gap 20 in the text.",
+    "choices": [
+      "however",
+      "although",
+      "moreover"
+    ],
+    "context": "Read the text and choose the answer.\n\nThere was once a young student who was in love with the daughter of a Professor, but she had said that she would only dance with him at the Prince’s ball if he [11] her red roses. Unfortunately, the student had no roses in his garden. While he [12] in his garden [13] nightingale heard him and felt sorry for him because she believed that he was a true lover. She decided to help him, and flew to a rose tree to get him the rose he needed. But the rose tree had only white roses. Another rose tree had only yellow roses. At last she found a rose tree which grew red roses but this year, [14] the severe winter, it didn’t have any roses. The nightingale begged the rose tree [15] her how to get a red rose. Reluctantly the tree explained that she [16] to kill herself by pressing against a thorn while singing. After a moment’s thought the nightingale decided to do this. [17] night came and the nightingale sang all night pressing against a thorn, as she [18] promised, until she died. The next day the student found the red rose and rushed to the Professor’s house to give the rose to the girl and [19] her of her promise. The girl, [20], was more impressed by the jewels than by the poor student’s flower. Disillusioned, the student went home and returned to his books.",
+    "answer": 0,
+    "steps": [
+      "Жест студента противопоставлен её интересу к драгоценностям.",
+      "However вводит противопоставление и выделяется запятыми."
+    ]
+  },
+  {
+    "title": "A Jacket Indoors",
+    "question": "Take your jacket … . It’s warm here.",
+    "choices": [
+      "on",
+      "out",
+      "off"
+    ],
+    "answer": 2,
+    "steps": [
+      "Здесь тепло, поэтому собеседнику предлагают снять куртку.",
+      "Take off означает «снимать» одежду."
+    ]
+  },
+  {
+    "title": "Before the Flight",
+    "question": "You should fasten your seat belts when the plane takes … .",
+    "choices": [
+      "off",
+      "away",
+      "down"
+    ],
+    "answer": 0,
+    "steps": [
+      "Речь о моменте, когда самолёт отрывается от земли.",
+      "Take off также означает «взлетать»."
+    ]
+  },
+  {
+    "title": "Like Her Mother",
+    "question": "She really takes … her mother.",
+    "choices": [
+      "at",
+      "after",
+      "about"
+    ],
+    "answer": 1,
+    "steps": [
+      "Она похожа на свою мать внешностью или характером.",
+      "Take after somebody значит «походить на кого-либо»."
+    ]
+  },
+  {
+    "title": "A Large Table",
+    "question": "Most of the space in the room was taken … by a large table.",
+    "choices": [
+      "out",
+      "up",
+      "into"
+    ],
+    "answer": 1,
+    "steps": [
+      "Стол занимает большую часть помещения.",
+      "Take up значит «занимать» место или время."
+    ]
+  },
+  {
+    "title": "Unexpected News",
+    "question": "He seemed quite taken … by the news.",
+    "choices": [
+      "aback",
+      "along",
+      "about"
+    ],
+    "answer": 0,
+    "steps": [
+      "Новость застала человека врасплох.",
+      "«Be taken aback» значит «быть ошеломлённым»."
+    ]
+  },
+  {
+    "title": "Half the Population",
+    "question": "Children under 16 … up half the population of the city.",
+    "choices": [
+      "make",
+      "fix",
+      "take"
+    ],
+    "answer": 0,
+    "steps": [
+      "Дети составляют определённую долю населения.",
+      "Make up значит «составлять» часть целого."
+    ]
+  },
+  {
+    "title": "Growing Up with Grandmother",
+    "question": "Her parents died and she was … up by her grandmother.",
+    "choices": [
+      "taken",
+      "brought",
+      "kept"
+    ],
+    "answer": 1,
+    "steps": [
+      "После гибели родителей девочку воспитала бабушка.",
+      "Bring up означает «воспитывать», пассивная форма — was brought up."
+    ]
+  },
+  {
+    "title": "A New Hobby",
+    "question": "He has … up photography.",
+    "choices": [
+      "taken",
+      "kept",
+      "made"
+    ],
+    "answer": 0,
+    "steps": [
+      "Герой начал заниматься фотографией.",
+      "Take up an activity — «начать заниматься чем-либо»."
+    ]
+  },
+  {
+    "title": "Walking Too Fast",
+    "question": "You’re walking too fast. I can’t … up with you.",
+    "choices": [
+      "go",
+      "turn",
+      "keep"
+    ],
+    "answer": 2,
+    "steps": [
+      "Говорящий не успевает идти с той же скоростью.",
+      "Keep up with someone — «поспевать за кем-то»."
+    ]
+  },
+  {
+    "title": "A Missed Meeting",
+    "question": "We arranged to meet Dave last night, but he didn’t … up.",
+    "choices": [
+      "take",
+      "turn",
+      "catch"
+    ],
+    "answer": 1,
+    "steps": [
+      "Компания договорилась о встрече. Дейв так и не появился.",
+      "Turn up значит «прийти, появиться»."
+    ]
+  },
+  {
+    "title": "Reacting to the News",
+    "question": "Everyone was astonished to hear of the latest news.",
+    "choices": [
+      "surprised",
+      "unhappy",
+      "worried"
+    ],
+    "context": "Choose the closest meaning of “astonished”.",
+    "answer": 0,
+    "steps": [
+      "Astonished описывает сильную неожиданную реакцию.",
+      "Surprised передаёт удивление, пусть и менее сильное."
+    ]
+  },
+  {
+    "title": "The Committee's Result",
+    "question": "The committee failed to make any headway.",
+    "choices": [
+      "profit",
+      "progress",
+      "agreement"
+    ],
+    "context": "Choose the closest meaning of “headway”.",
+    "answer": 1,
+    "steps": [
+      "Make headway — устойчивое выражение о продвижении в деле.",
+      "Из вариантов подходит progress, прогресс."
+    ]
+  },
+  {
+    "title": "An Increase in Output",
+    "question": "The chairman reported a slight increase in the production.",
+    "choices": [
+      "great",
+      "disappointed",
+      "small"
+    ],
+    "context": "Choose the closest meaning of “slight”.",
+    "answer": 2,
+    "steps": [
+      "Slight показывает, что рост производства невелик.",
+      "Ближайший вариант — small."
+    ]
+  },
+  {
+    "title": "The Other Party",
+    "question": "Our position was undermined by the opposite party.",
+    "choices": [
+      "conspired",
+      "splintered",
+      "weakened"
+    ],
+    "context": "Choose the closest meaning of “undermined”.",
+    "answer": 2,
+    "steps": [
+      "Undermine someone’s position значит подорвать или ослабить её.",
+      "Weakened передаёт, что позиция стала слабее."
+    ]
+  },
+  {
+    "title": "A Misrepresentation",
+    "question": "She utterly misrepresented their position.",
+    "choices": [
+      "completely",
+      "purposely",
+      "surprisingly"
+    ],
+    "context": "Choose the closest meaning of “utterly”.",
+    "answer": 0,
+    "steps": [
+      "Utterly усиливает глагол misrepresented и обозначает полноту искажения.",
+      "Подходит completely, «полностью»."
+    ]
+  },
+  {
+    "title": "Consequences",
+    "question": "He doesn’t perceive all the consequences of his actions.",
+    "choices": [
+      "accept",
+      "understand",
+      "admit"
+    ],
+    "context": "Choose the closest meaning of “perceive”.",
+    "answer": 1,
+    "steps": [
+      "Речь об осознании последствий своих поступков.",
+      "Perceive в этом смысле близко к understand."
+    ]
+  },
+  {
+    "title": "A Discussion's Duration",
+    "question": "There has been a protracted discussion over the issue.",
+    "choices": [
+      "explosive",
+      "heated",
+      "lengthy"
+    ],
+    "context": "Choose the closest meaning of “protracted”.",
+    "answer": 2,
+    "steps": [
+      "Protracted описывает обсуждение, которое длилось долго.",
+      "Lengthy означает «продолжительный»."
+    ]
+  },
+  {
+    "title": "Paying Reluctantly",
+    "question": "She paid the delivery man grudgingly.",
+    "choices": [
+      "generously",
+      "unwillingly",
+      "quickly"
+    ],
+    "context": "Choose the closest meaning of “grudgingly”.",
+    "answer": 1,
+    "steps": [
+      "Grudgingly описывает действие, которое человек совершил с неохотой.",
+      "Unwillingly означает «нежелательно для него, неохотно»."
+    ]
+  },
+  {
+    "title": "An Uncertain Future",
+    "question": "One thing was sure; the future looked bleak.",
+    "choices": [
+      "discouraging",
+      "spoiled",
+      "promising"
+    ],
+    "context": "Choose the closest meaning of “bleak”.",
+    "answer": 0,
+    "steps": [
+      "Bleak о будущем означает «мрачный, безрадостный».",
+      "Discouraging передаёт отсутствие обнадёживающих перспектив."
+    ]
+  },
+  {
+    "title": "A Reaction to the Plans",
+    "question": "The plans for reorganization were acclaimed by the employees.",
+    "choices": [
+      "criticized",
+      "praised",
+      "accepted"
+    ],
+    "context": "Choose the closest meaning of “acclaimed”.",
+    "answer": 1,
+    "steps": [
+      "Acclaim используется, когда что-то активно приветствуют и хвалят.",
+      "В пассиве «were acclaimed» ближе всего к «were praised»."
+    ]
+  },
+  {
+    "title": "What She Is Like",
+    "question": "He doesn’t know what she’s like.",
+    "choices": [
+      "He cannot decide what gift to buy.",
+      "She is really a bad person.",
+      "He does not know her very well."
+    ],
+    "context": "Choose the sentence with the closest meaning.",
+    "answer": 2,
+    "steps": [
+      "What she’s like касается её характера или общих качеств.",
+      "Если он этого не знает, то знает её недостаточно хорошо."
+    ]
+  },
+  {
+    "title": "A Surprise Discovery",
+    "question": "I came across his report while clearing out my office.",
+    "choices": [
+      "I expected to find his report.",
+      "I replaced his report.",
+      "I found his report by chance."
+    ],
+    "context": "Choose the sentence with the closest meaning.",
+    "answer": 2,
+    "steps": [
+      "Come across something — «случайно наткнуться на что-либо».",
+      "Он нашёл отчёт при уборке, by chance."
+    ]
+  },
+  {
+    "title": "A Regret About Staying",
+    "question": "I wish I hadn’t asked her to stay.",
+    "choices": [
+      "I hoped she would stay but I didn’t ask.",
+      "I’m sorry that I asked her to stay.",
+      "I’m sorry that I didn’t ask her to stay."
+    ],
+    "context": "Choose the sentence with the closest meaning.",
+    "answer": 1,
+    "steps": [
+      "После wish стоит Past Perfect «hadn’t asked». Это сожаление о прошлом.",
+      "На самом деле он попросил её остаться и теперь жалеет об этом."
+    ]
+  },
+  {
+    "title": "Reading a Report",
+    "question": "You weren’t meant to read that report.",
+    "choices": [
+      "You should not have read that report.",
+      "That report has no meaning for you.",
+      "You will not be permitted to read that report."
+    ],
+    "context": "Choose the sentence with the closest meaning.",
+    "answer": 0,
+    "steps": [
+      "«Weren’t meant to» описывает действие, которого не предполагалось.",
+      "«You should not have read that report» передаёт, что читать его не следовало."
+    ]
+  },
+  {
+    "title": "Prospects for the Economy",
+    "question": "Chances are slim that the economy will improve.",
+    "choices": [
+      "The economy is having a slow recovery.",
+      "The economy should be better quite soon.",
+      "The economy will probably not get better."
+    ],
+    "context": "Choose the sentence with the closest meaning.",
+    "answer": 2,
+    "steps": [
+      "Slim здесь означает, что шансы малы.",
+      "Поэтому улучшение маловероятно. Подходит «will probably not get better»."
+    ]
+  },
+  {
+    "title": "Her Decision",
+    "question": "Were it up to her, we’d all be dismissed.",
+    "choices": [
+      "She will make the final decision.",
+      "She would like to fire everyone.",
+      "Some people will be separated."
+    ],
+    "context": "Choose the sentence with the closest meaning.",
+    "answer": 1,
+    "steps": [
+      "«Were it up to her» можно развернуть как «If it were up to her».",
+      "Если бы решала она, то уволила бы всех."
+    ]
+  },
+  {
+    "title": "Seeing Her in London",
+    "question": "Should you see her in London, give her my regards.",
+    "choices": [
+      "You might see her.",
+      "You have to see her.",
+      "You must see her."
+    ],
+    "context": "Choose the sentence with the closest meaning.",
+    "answer": 0,
+    "steps": [
+      "«Should you see her» — условие, равное «If you should see her».",
+      "Встреча возможна, но не обязательна. «You might see her»."
+    ]
+  },
+  {
+    "title": "Waiting to Hear",
+    "question": "Only when I hear from you will I relax.",
+    "choices": [
+      "I relax before I hear from you.",
+      "I won’t relax if I hear from you.",
+      "Unless I hear from you I won’t relax."
+    ],
+    "adaptation": "Вариант A изменён, поскольку в исходнике он передавал тот же смысл, что и C.",
+    "context": "Choose the sentence with the closest meaning.",
+    "answer": 2,
+    "steps": [
+      "Only when ставит успокоение в зависимость от сообщения собеседника.",
+      "Unless переформулирует это условие: «Unless I hear from you I won’t relax»."
+    ]
+  },
+  {
+    "title": "Making a Call",
+    "question": "Since you are in town, you’d be crazy not to give her a call.",
+    "choices": [
+      "If you call, she will think you are crazy.",
+      "She thought your call was rather silly.",
+      "It would be a good idea to call her."
+    ],
+    "context": "Choose the sentence with the closest meaning.",
+    "answer": 2,
+    "steps": [
+      "«You’d be crazy not to» — разговорный способ настойчиво посоветовать действие.",
+      "Позвонить было бы хорошей идеей."
+    ]
+  },
+  {
+    "title": "The Butler",
+    "question": "The butler could hardly have been the one who did it.",
+    "choices": [
+      "The butler tried hard to do it.",
+      "It was not likely that the butler had done it.",
+      "The butler almost did it."
+    ],
+    "context": "Choose the sentence with the closest meaning.",
+    "answer": 1,
+    "steps": [
+      "Could hardly have been выражает малую вероятность прошлого события.",
+      "«It was not likely» соответствует этой оценке."
+    ]
+  },
+  {
+    "title": "Agatha Christie's Genre",
+    "question": "A. Christie has written lots of … stories.",
+    "choices": [
+      "adventure",
+      "fantastic",
+      "detective"
+    ],
+    "answer": 2,
+    "steps": [
+      "В известных книгах Кристи сыщики расследуют преступления.",
+      "Их жанр — detective stories."
+    ]
+  },
+  {
+    "title": "Miss Marple",
+    "question": "Miss Marple is the character of the books written by … .",
+    "choices": [
+      "A. Christie",
+      "A. Conan Doyle",
+      "G. Chesterton"
+    ],
+    "answer": 0,
+    "steps": [
+      "Miss Marple — сыщик-любительница из английской деревни.",
+      "Её создала Agatha Christie."
+    ]
+  },
+  {
+    "title": "Sherlock Holmes",
+    "question": "Sherlock Holmes is the character of the books written by … .",
+    "choices": [
+      "A. Christie",
+      "A. Conan Doyle",
+      "G. Chesterton"
+    ],
+    "answer": 1,
+    "steps": [
+      "Шерлок Холмс расследует дела вместе с доктором Ватсоном.",
+      "Автор рассказов о нём — Arthur Conan Doyle."
+    ]
+  },
+  {
+    "title": "Tales of the Supernatural",
+    "question": "One of the greatest authors of “ghost” stories is … .",
+    "choices": [
+      "M. Twain",
+      "J.D. Salinger",
+      "E. Poe"
+    ],
+    "answer": 2,
+    "steps": [
+      "В вопросе речь об авторе мрачных рассказов с элементами сверхъестественного.",
+      "Из названных писателей подходит Edgar Allan Poe."
+    ]
+  },
+  {
+    "title": "William Sydney Porter",
+    "question": "His real name was William Sydney Porter.",
+    "choices": [
+      "O’Henry",
+      "M. Twain",
+      "Ch. Dickens"
+    ],
+    "answer": 0,
+    "steps": [
+      "Имя William Sydney Porter дано как настоящее имя американского автора коротких рассказов.",
+      "Он печатался под именем O. Henry."
+    ]
+  },
+  {
+    "title": "Samuel Clemens",
+    "question": "His real name was Samuel Clemens.",
+    "choices": [
+      "J. London",
+      "O’Henry",
+      "M. Twain"
+    ],
+    "answer": 2,
+    "steps": [
+      "Samuel Clemens — настоящее имя автора «Приключений Тома Сойера».",
+      "Его литературный псевдоним — Mark Twain."
+    ]
+  },
+  {
+    "title": "The Author of Jane Eyre",
+    "question": "The novel “Jane Eyre” was written by … Bronte.",
+    "choices": [
+      "Charlotte",
+      "Emily",
+      "Anne"
+    ],
+    "answer": 0,
+    "steps": [
+      "Три сестры Бронте писали романы, но книги у них разные.",
+      "«Джейн Эйр» написала Charlotte Brontë."
+    ]
+  },
+  {
+    "title": "A Line from a Play",
+    "question": "Which play contains the line “Something is rotten in the state of Denmark”?",
+    "choices": [
+      "Hamlet",
+      "King Lear",
+      "Othello"
+    ],
+    "adaptation": "Уточнено, что нужно название пьесы. Реплику произнёс Марцелл.",
+    "answer": 0,
+    "steps": [
+      "Реплика о государстве датском звучит в первом акте пьесы, сразу после появления призрака.",
+      "Её произносит Марцелл. Название пьесы — Hamlet."
+    ]
+  },
+  {
+    "title": "Place of Birth",
+    "question": "He was not born in Ireland.",
+    "choices": [
+      "O. Wilde",
+      "B. Shaw",
+      "Ch. Dickens"
+    ],
+    "answer": 2,
+    "steps": [
+      "Оскар Уайльд и Бернард Шоу родились в Дублине.",
+      "Чарльз Диккенс родился в Портсмуте, в Англии."
+    ]
+  },
+  {
+    "title": "The American Civil War",
+    "question": "The novel shows the events of the Civil War in the USA.",
+    "choices": [
+      "“Gone with the Wind”",
+      "“American Tragedy”",
+      "“Farewell to Arms”"
+    ],
+    "answer": 0,
+    "steps": [
+      "В романе действие разворачивается в южных штатах во время Гражданской войны и после неё.",
+      "Из перечисленных книг это Gone with the Wind."
+    ]
+  }
+]

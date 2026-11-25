@@ -1,0 +1,99 @@
+{
+  "source": "tasks.pdf",
+  "coordinateUnit": "rendered-pixel",
+  "renderScale": 4,
+  "crops": [
+    {
+      "page": 1,
+      "box": [
+        1200,
+        216,
+        1672,
+        680
+      ],
+      "file": "holiday-a.webp",
+      "tasks": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "option": "A"
+    },
+    {
+      "page": 1,
+      "box": [
+        1692,
+        216,
+        2160,
+        680
+      ],
+      "file": "holiday-b.webp",
+      "tasks": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "option": "B"
+    },
+    {
+      "page": 1,
+      "box": [
+        1200,
+        680,
+        1672,
+        1172
+      ],
+      "file": "holiday-c.webp",
+      "tasks": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "option": "C"
+    },
+    {
+      "page": 1,
+      "box": [
+        1692,
+        680,
+        2160,
+        1172
+      ],
+      "file": "holiday-d.webp",
+      "tasks": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "option": "D"
+    }
+  ]
+}

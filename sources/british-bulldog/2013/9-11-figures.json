@@ -1,0 +1,74 @@
+{
+  "face-a": {
+    "sourceFile": "9-11/variant-780/tasks.pdf",
+    "page": 1,
+    "cropPoints": [
+      26,
+      448.8,
+      82,
+      491.4
+    ],
+    "src": "assets/british-bulldog/2013/9-11/face-a.webp",
+    "alt": "Face A",
+    "width": 179,
+    "height": 179,
+    "masterSize": [
+      179,
+      179
+    ]
+  },
+  "face-b": {
+    "sourceFile": "9-11/variant-780/tasks.pdf",
+    "page": 1,
+    "cropPoints": [
+      86.5,
+      448.8,
+      142.2,
+      491.4
+    ],
+    "src": "assets/british-bulldog/2013/9-11/face-b.webp",
+    "alt": "Face B",
+    "width": 179,
+    "height": 179,
+    "masterSize": [
+      179,
+      179
+    ]
+  },
+  "face-c": {
+    "sourceFile": "9-11/variant-780/tasks.pdf",
+    "page": 1,
+    "cropPoints": [
+      146.3,
+      448.8,
+      202.4,
+      491.4
+    ],
+    "src": "assets/british-bulldog/2013/9-11/face-c.webp",
+    "alt": "Face C",
+    "width": 179,
+    "height": 179,
+    "masterSize": [
+      179,
+      179
+    ]
+  },
+  "face-d": {
+    "sourceFile": "9-11/variant-780/tasks.pdf",
+    "page": 1,
+    "cropPoints": [
+      206,
+      448.8,
+      262,
+      491.4
+    ],
+    "src": "assets/british-bulldog/2013/9-11/face-d.webp",
+    "alt": "Face D",
+    "width": 179,
+    "height": 179,
+    "masterSize": [
+      179,
+      179
+    ]
+  }
+}

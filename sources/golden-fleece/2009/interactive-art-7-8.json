@@ -1,0 +1,308 @@
+{
+  "source": "2009_7-8.pdf",
+  "figures": {
+    "1": {
+      "page": 0,
+      "rect": [
+        171.024,
+        79.895,
+        262.335,
+        151.082
+      ],
+      "nativeSize": [
+        128,
+        100
+      ]
+    },
+    "2": {
+      "page": 0,
+      "rect": [
+        36.0,
+        141.401,
+        161.575,
+        235.508
+      ],
+      "master": "interactive-masters/7-8-2.jpg",
+      "source": "https://runodog.ru/runo2009/2009_78_2.jpg",
+      "nativeSize": [
+        500,
+        375
+      ]
+    },
+    "3": {
+      "page": 0,
+      "rect": [
+        170.377,
+        165.499,
+        261.574,
+        236.296
+      ],
+      "nativeSize": [
+        128,
+        100
+      ]
+    },
+    "4": {
+      "page": 0,
+      "rect": [
+        36.0,
+        277.796,
+        107.811,
+        377.851
+      ],
+      "master": "interactive-masters/7-8-4.jpg",
+      "source": "https://runodog.ru/runo2009/2009_78_4.jpg",
+      "nativeSize": [
+        300,
+        450
+      ]
+    },
+    "5": {
+      "page": 0,
+      "rect": [
+        113.919,
+        277.323,
+        179.637,
+        377.85
+      ],
+      "nativeSize": [
+        93,
+        141
+      ]
+    },
+    "6": {
+      "page": 0,
+      "rect": [
+        185.888,
+        277.323,
+        260.86,
+        377.786
+      ],
+      "nativeSize": [
+        105,
+        141
+      ]
+    },
+    "16": {
+      "page": 0,
+      "rect": [
+        428.031,
+        316.586,
+        540.472,
+        400.841
+      ],
+      "master": "interactive-masters/7-8-16.jpg",
+      "source": "https://runodog.ru/runo2009/2009_78_16.jpg",
+      "nativeSize": [
+        500,
+        375
+      ]
+    },
+    "17": {
+      "page": 0,
+      "rect": [
+        302.176,
+        363.121,
+        418.819,
+        487.86
+      ],
+      "master": "interactive-masters/7-8-17.jpg",
+      "source": "https://runodog.ru/runo2009/2009_78_17.jpg",
+      "nativeSize": [
+        350,
+        500
+      ]
+    },
+    "18": {
+      "page": 0,
+      "rect": [
+        425.971,
+        416.505,
+        542.741,
+        488.35
+      ],
+      "master": "interactive-masters/7-8-18.jpg",
+      "source": "https://runodog.ru/runo2009/2009_78_18.jpg",
+      "nativeSize": [
+        1024,
+        768
+      ]
+    },
+    "22": {
+      "page": 0,
+      "rect": [
+        580.866,
+        86.835,
+        633.827,
+        169.119
+      ],
+      "master": "interactive-masters/7-8-22.jpg",
+      "source": "https://runodog.ru/runo2009/2009_78_22.jpg",
+      "nativeSize": [
+        351,
+        546
+      ]
+    },
+    "23": {
+      "page": 0,
+      "rect": [
+        649.305,
+        88.583,
+        721.942,
+        169.625
+      ],
+      "master": "interactive-masters/7-8-23.jpg",
+      "source": "https://runodog.ru/runo2009/2009_78_23.jpg",
+      "nativeSize": [
+        537,
+        599
+      ]
+    },
+    "24": {
+      "page": 0,
+      "rect": [
+        743.537,
+        87.308,
+        805.89,
+        169.445
+      ],
+      "master": "interactive-masters/7-8-24.jpg",
+      "source": "https://runodog.ru/runo2009/2009_78_24.jpg",
+      "nativeSize": [
+        456,
+        600
+      ]
+    },
+    "28": {
+      "page": 0,
+      "rect": [
+        579.788,
+        421.315,
+        656.801,
+        550.17
+      ],
+      "restoration": "fleece-0161",
+      "source": "https://commons.wikimedia.org/wiki/File:Dresden,_Goldener_Reiter.jpg",
+      "nativeSize": [
+        980,
+        1559
+      ]
+    },
+    "29": {
+      "page": 0,
+      "rect": [
+        668.106,
+        421.094,
+        735.809,
+        550.208
+      ],
+      "master": "interactive-masters/7-8-29.jpg",
+      "source": "https://runodog.ru/runo2009/2009_78_29.jpg",
+      "nativeSize": [
+        1200,
+        1600
+      ]
+    },
+    "30": {
+      "page": 0,
+      "rect": [
+        747.349,
+        420.651,
+        811.522,
+        550.197
+      ],
+      "nativeSize": [
+        90,
+        181
+      ]
+    },
+    "31": {
+      "page": 1,
+      "rect": [
+        150.519,
+        98.868,
+        262.024,
+        191.189
+      ],
+      "master": "interactive-masters/7-8-31.jpg",
+      "source": "https://runodog.ru/runo2009/2009_78_31.jpg",
+      "nativeSize": [
+        500,
+        375
+      ]
+    },
+    "32": {
+      "page": 1,
+      "rect": [
+        34.924,
+        168.827,
+        142.848,
+        280.278
+      ],
+      "master": "interactive-masters/7-8-32.jpg",
+      "source": "https://runodog.ru/runo2009/2009_78_32.jpg",
+      "nativeSize": [
+        500,
+        375
+      ]
+    },
+    "33": {
+      "page": 1,
+      "rect": [
+        150.946,
+        199.434,
+        261.909,
+        294.203
+      ],
+      "nativeSize": [
+        155,
+        133
+      ]
+    },
+    "43": {
+      "page": 1,
+      "rect": [
+        440.992,
+        257.045,
+        542.126,
+        408.896
+      ],
+      "master": "interactive-masters/7-8-43.jpg",
+      "source": "https://runodog.ru/runo2009/2009_78_43.jpg",
+      "nativeSize": [
+        333,
+        500
+      ]
+    },
+    "44": {
+      "page": 1,
+      "rect": [
+        299.973,
+        316.615,
+        425.938,
+        540.352
+      ],
+      "master": "interactive-masters/7-8-44.jpg",
+      "source": "https://runodog.ru/runo2009/2009_78_44.jpg",
+      "nativeSize": [
+        2304,
+        3072
+      ]
+    },
+    "45": {
+      "page": 1,
+      "rect": [
+        441.26,
+        420.237,
+        542.126,
+        554.725
+      ],
+      "restoration": "fleece-0172",
+      "source": "https://commons.wikimedia.org/wiki/File:Prague_Astronomical_Clock.jpg",
+      "nativeSize": [
+        1602,
+        1962
+      ]
+    }
+  }
+}

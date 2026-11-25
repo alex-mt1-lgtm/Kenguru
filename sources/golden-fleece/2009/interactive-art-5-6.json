@@ -1,0 +1,400 @@
+{
+  "source": "2009_5-6.pdf",
+  "figures": {
+    "1": {
+      "page": 0,
+      "rect": [
+        169.748,
+        73.864,
+        262.377,
+        136.816
+      ],
+      "restoration": "fleece-0126",
+      "source": "https://commons.wikimedia.org/wiki/File:Palace_of_Westminster_and_Elizabeth_Tower_20250522.jpg",
+      "nativeSize": [
+        1710,
+        1022
+      ]
+    },
+    "2": {
+      "page": 0,
+      "rect": [
+        36.0,
+        136.063,
+        157.622,
+        222.55
+      ],
+      "master": "interactive-masters/5-6-2.jpg",
+      "source": "https://runodog.ru/runo2009/2009_56_2.jpg",
+      "nativeSize": [
+        460,
+        297
+      ]
+    },
+    "3": {
+      "page": 0,
+      "rect": [
+        169.831,
+        151.12,
+        262.506,
+        223.401
+      ],
+      "master": "interactive-masters/5-6-3.jpg",
+      "source": "https://runodog.ru/runo2009/2009_56_3.jpg",
+      "nativeSize": [
+        500,
+        333
+      ]
+    },
+    "13": {
+      "page": 0,
+      "rect": [
+        301.181,
+        166.252,
+        378.337,
+        245.81
+      ],
+      "master": "interactive-masters/5-6-13.jpg",
+      "source": "https://runodog.ru/runo2009/2009_56_13.jpg",
+      "nativeSize": [
+        1080,
+        1111
+      ]
+    },
+    "14": {
+      "page": 0,
+      "rect": [
+        394.607,
+        166.536,
+        466.036,
+        245.768
+      ],
+      "master": "interactive-masters/5-6-14.jpg",
+      "source": "https://runodog.ru/runo2009/2009_56_14.jpg",
+      "nativeSize": [
+        541,
+        599
+      ]
+    },
+    "15": {
+      "page": 0,
+      "rect": [
+        487.457,
+        155.906,
+        542.126,
+        245.549
+      ],
+      "master": "interactive-masters/5-6-15.jpg",
+      "source": "https://runodog.ru/runo2009/2009_56_15.jpg",
+      "nativeSize": [
+        365,
+        599
+      ]
+    },
+    "16": {
+      "page": 0,
+      "rect": [
+        436.162,
+        296.555,
+        542.126,
+        370.1
+      ],
+      "nativeSize": [
+        149,
+        103
+      ]
+    },
+    "17": {
+      "page": 0,
+      "rect": [
+        300.129,
+        361.633,
+        420.331,
+        463.55
+      ],
+      "nativeSize": [
+        168,
+        143
+      ]
+    },
+    "18": {
+      "page": 0,
+      "rect": [
+        435.996,
+        375.291,
+        542.126,
+        463.433
+      ],
+      "master": "interactive-masters/5-6-18.jpg",
+      "source": "https://runodog.ru/runo2009/2009_56_18.jpg",
+      "nativeSize": [
+        800,
+        537
+      ]
+    },
+    "22": {
+      "page": 0,
+      "rect": [
+        580.497,
+        130.111,
+        647.412,
+        209.628
+      ],
+      "master": "interactive-masters/5-6-22.jpg",
+      "source": "https://runodog.ru/runo2009/2009_56_22.jpg",
+      "nativeSize": [
+        379,
+        450
+      ]
+    },
+    "23": {
+      "page": 0,
+      "rect": [
+        657.83,
+        129.544,
+        716.028,
+        209.641
+      ],
+      "master": "interactive-masters/5-6-23.jpg",
+      "source": "https://runodog.ru/runo2009/2009_56_23.jpg",
+      "nativeSize": [
+        400,
+        558
+      ]
+    },
+    "24": {
+      "page": 0,
+      "rect": [
+        733.758,
+        130.111,
+        798.596,
+        209.657
+      ],
+      "master": "interactive-masters/5-6-24.jpg",
+      "source": "https://runodog.ru/runo2009/2009_56_24.jpg",
+      "nativeSize": [
+        174,
+        212
+      ]
+    },
+    "28": {
+      "page": 0,
+      "rect": [
+        689.953,
+        354.373,
+        805.89,
+        468.809
+      ],
+      "master": "interactive-masters/5-6-28.jpg",
+      "source": "https://runodog.ru/runo2009/2009_56_28.jpg",
+      "nativeSize": [
+        306,
+        428
+      ]
+    },
+    "29": {
+      "page": 0,
+      "rect": [
+        579.808,
+        420.648,
+        680.004,
+        563.541
+      ],
+      "master": "interactive-masters/5-6-29.jpg",
+      "source": "https://runodog.ru/runo2009/2009_56_29.jpg",
+      "nativeSize": [
+        375,
+        500
+      ]
+    },
+    "30": {
+      "page": 0,
+      "rect": [
+        688.704,
+        476.597,
+        806.826,
+        563.656
+      ],
+      "nativeSize": [
+        165,
+        122
+      ]
+    },
+    "31": {
+      "page": 1,
+      "rect": [
+        151.422,
+        104.882,
+        262.512,
+        200.96
+      ],
+      "master": "interactive-masters/5-6-31.jpg",
+      "source": "https://runodog.ru/runo2009/2009_56_31.jpg",
+      "nativeSize": [
+        400,
+        300
+      ]
+    },
+    "32": {
+      "page": 1,
+      "rect": [
+        34.96,
+        180.867,
+        141.974,
+        280.987
+      ],
+      "nativeSize": [
+        150,
+        141
+      ]
+    },
+    "33": {
+      "page": 1,
+      "rect": [
+        151.275,
+        209.705,
+        262.517,
+        312.252
+      ],
+      "master": "interactive-masters/5-6-33.jpg",
+      "source": "https://runodog.ru/runo2009/2009_56_33.jpg",
+      "nativeSize": [
+        800,
+        503
+      ]
+    },
+    "34": {
+      "page": 1,
+      "rect": [
+        151.359,
+        339.621,
+        262.368,
+        443.13
+      ],
+      "nativeSize": [
+        156,
+        145
+      ]
+    },
+    "35": {
+      "page": 1,
+      "rect": [
+        34.937,
+        424.986,
+        141.973,
+        532.022
+      ],
+      "master": "interactive-masters/5-6-35.jpg",
+      "source": "https://runodog.ru/runo2009/2009_56_35.jpg",
+      "nativeSize": [
+        500,
+        375
+      ]
+    },
+    "36": {
+      "page": 1,
+      "rect": [
+        151.211,
+        454.961,
+        263.052,
+        558.706
+      ],
+      "master": "interactive-masters/5-6-36.jpg",
+      "source": "https://runodog.ru/runo2009/2009_56_36.jpg",
+      "nativeSize": [
+        500,
+        375
+      ]
+    },
+    "40": {
+      "page": 1,
+      "rect": [
+        301.181,
+        189.213,
+        376.818,
+        287.661
+      ],
+      "master": "interactive-masters/5-6-40.jpg",
+      "source": "https://runodog.ru/runo2009/2009_56_40.jpg",
+      "nativeSize": [
+        344,
+        448
+      ]
+    },
+    "41": {
+      "page": 1,
+      "rect": [
+        380.551,
+        189.213,
+        449.665,
+        287.776
+      ],
+      "master": "interactive-masters/5-6-41.jpg",
+      "source": "https://runodog.ru/runo2009/2009_56_41.jpg",
+      "nativeSize": [
+        214,
+        305
+      ]
+    },
+    "42": {
+      "page": 1,
+      "rect": [
+        456.311,
+        187.687,
+        542.126,
+        287.605
+      ],
+      "restoration": "fleece-0151",
+      "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_athens.svg",
+      "nativeSize": [
+        2134,
+        2190
+      ]
+    },
+    "43": {
+      "page": 1,
+      "rect": [
+        412.656,
+        332.894,
+        542.126,
+        434.792
+      ],
+      "master": "interactive-masters/5-6-43.jpg",
+      "source": "https://runodog.ru/runo2009/2009_56_43.jpg",
+      "nativeSize": [
+        640,
+        480
+      ]
+    },
+    "44": {
+      "page": 1,
+      "rect": [
+        301.181,
+        406.409,
+        402.52,
+        531.134
+      ],
+      "master": "interactive-masters/5-6-44.jpg",
+      "source": "https://runodog.ru/runo2009/2009_56_44.jpg",
+      "nativeSize": [
+        454,
+        599
+      ]
+    },
+    "45": {
+      "page": 1,
+      "rect": [
+        412.794,
+        444.095,
+        542.991,
+        557.792
+      ],
+      "master": "interactive-masters/5-6-45.jpg",
+      "source": "https://runodog.ru/runo2009/2009_56_45.jpg",
+      "nativeSize": [
+        800,
+        600
+      ]
+    }
+  }
+}

@@ -1,0 +1,884 @@
+[
+  {
+    "title": "A Change of Plans",
+    "question": "The children didn’t go to the Theme Park because it was raining.",
+    "choices": [
+      "True",
+      "False",
+      "Not said"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 0,
+    "steps": [
+      "Учитель говорит, что из-за дождя нельзя пойти в парк аттракционов.",
+      "Вместо него дети идут в музей природы. Утверждение True."
+    ]
+  },
+  {
+    "title": "What the Museum Has",
+    "question": "There are only snakes and spiders in the museum.",
+    "choices": [
+      "True",
+      "False",
+      "Not said"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 1,
+    "steps": [
+      "Помимо выставки змей и пауков учитель называет редкие растения и цветы.",
+      "Слово only в утверждении неверно, значит, False."
+    ]
+  },
+  {
+    "title": "Rules at the Museum",
+    "question": "The children are allowed to do whatever they want.",
+    "choices": [
+      "True",
+      "False",
+      "Not said"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 1,
+    "steps": [
+      "В записи звучит «You mustn’t touch the glass cases».",
+      "Раз действуют запреты, делать всё что угодно нельзя. False."
+    ]
+  },
+  {
+    "title": "Dinosaurs",
+    "question": "There are no dinosaurs in the museum.",
+    "choices": [
+      "True",
+      "False",
+      "Not said"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 0,
+    "steps": [
+      "После вопроса Софи учитель отвечает «No, there aren’t any dinosaurs».",
+      "Динозавров нет, True."
+    ]
+  },
+  {
+    "title": "Feeding the Snakes",
+    "question": "Kevin can feed the snakes hotdogs with ketchup.",
+    "choices": [
+      "True",
+      "False",
+      "Not said"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 1,
+    "steps": [
+      "Кевину говорят «You can’t feed the snakes hot dogs, with or without ketchup».",
+      "Кормить сосисками запрещено, False."
+    ]
+  },
+  {
+    "title": "What Snakes Like",
+    "question": "Snakes don’t like hotdogs with or without ketchup.",
+    "choices": [
+      "True",
+      "False",
+      "Not said"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 2,
+    "steps": [
+      "Запись сообщает, что кормить змей сосисками запрещено.",
+      "Вкусы змей не описаны, Not said."
+    ]
+  },
+  {
+    "title": "The Day of the Visit",
+    "question": "The children came to the museum on Sunday.",
+    "choices": [
+      "True",
+      "False",
+      "Not said"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 2,
+    "steps": [
+      "В записи указано время возвращения к автобусу, но не день недели.",
+      "Утверждение о воскресенье — Not said."
+    ]
+  },
+  {
+    "title": "Back at the Bus",
+    "question": "The children are expected to be back at the bus at 4.30.",
+    "choices": [
+      "True",
+      "False",
+      "Not said"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 1,
+    "steps": [
+      "Учитель говорит «At four o’clock, not half past four like last year».",
+      "На этот раз возвращаются в 4:00. Утверждение о 4:30 — False."
+    ]
+  },
+  {
+    "title": "Time in the Museum",
+    "question": "The children have two hours to see everything that they want to see in the Nature Museum.",
+    "choices": [
+      "True",
+      "False",
+      "Not said"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 0,
+    "steps": [
+      "Учитель прямо сообщает «You have two hours».",
+      "Для посещения музея дали два часа, True."
+    ]
+  },
+  {
+    "title": "Another Museum",
+    "question": "The children have been to the Archaeological museum recently.",
+    "choices": [
+      "True",
+      "False",
+      "Not said"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 2,
+    "steps": [
+      "Учитель говорит о парке и музее природы. Он вспоминает время возвращения в прошлом году.",
+      "Недавнее посещение археологического музея не упомянуто, Not said."
+    ]
+  },
+  {
+    "title": "Days with the Dogs",
+    "question": "Susan takes care of the dogs … a week.",
+    "choices": [
+      "two days",
+      "five days",
+      "seven days"
+    ],
+    "context": "Read the text and choose the answer.\n\nSusan Kente is a “dog-sitter”. She looks after people’s dogs from Monday to Friday. She wakes up at 5.15 a.m. and 15 minutes later she gets up. She has a shower, she drinks a glass of orange juice and she sometimes has toast and butter. Then she goes outside to the garden and gives the dogs their breakfast. The slowest eats first. Then they all get into Susan’s car. It’s very dirty! Susan takes the dogs to the park and they run about. She always takes some water and biscuits for them. They go back to the car at 11:00 a.m. and then they go back home. At about 5:00 p.m. the dogs’ owners come to collect their dogs. Some people say it’s boring to look after the dogs, but Susan doesn’t agree.",
+    "answer": 1,
+    "steps": [
+      "Susan работает с понедельника по пятницу, «from Monday to Friday».",
+      "Считая оба крайних дня, получаем пять дней."
+    ]
+  },
+  {
+    "title": "Susan Gets Up",
+    "question": "She gets up at … five.",
+    "choices": [
+      "a quarter to",
+      "half past",
+      "a quarter past"
+    ],
+    "context": "Read the text and choose the answer.\n\nSusan Kente is a “dog-sitter”. She looks after people’s dogs from Monday to Friday. She wakes up at 5.15 a.m. and 15 minutes later she gets up. She has a shower, she drinks a glass of orange juice and she sometimes has toast and butter. Then she goes outside to the garden and gives the dogs their breakfast. The slowest eats first. Then they all get into Susan’s car. It’s very dirty! Susan takes the dogs to the park and they run about. She always takes some water and biscuits for them. They go back to the car at 11:00 a.m. and then they go back home. At about 5:00 p.m. the dogs’ owners come to collect their dogs. Some people say it’s boring to look after the dogs, but Susan doesn’t agree.",
+    "answer": 1,
+    "steps": [
+      "Она просыпается в 5:15 и встаёт через 15 минут.",
+      "5:15 + 15 минут = 5:30, half past five."
+    ]
+  },
+  {
+    "title": "An Early Routine",
+    "question": "She has a … in the morning.",
+    "choices": [
+      "bath",
+      "bathroom",
+      "shower"
+    ],
+    "context": "Read the text and choose the answer.\n\nSusan Kente is a “dog-sitter”. She looks after people’s dogs from Monday to Friday. She wakes up at 5.15 a.m. and 15 minutes later she gets up. She has a shower, she drinks a glass of orange juice and she sometimes has toast and butter. Then she goes outside to the garden and gives the dogs their breakfast. The slowest eats first. Then they all get into Susan’s car. It’s very dirty! Susan takes the dogs to the park and they run about. She always takes some water and biscuits for them. They go back to the car at 11:00 a.m. and then they go back home. At about 5:00 p.m. the dogs’ owners come to collect their dogs. Some people say it’s boring to look after the dogs, but Susan doesn’t agree.",
+    "answer": 2,
+    "steps": [
+      "Действие после подъёма названо словами «She has a shower».",
+      "Shower — душ. Bathroom обозначает саму комнату."
+    ]
+  },
+  {
+    "title": "Toast for Breakfast",
+    "question": "She always has toasts for breakfast.",
+    "choices": [
+      "True",
+      "False",
+      "Doesn’t say"
+    ],
+    "context": "Read the text and choose the answer.\n\nSusan Kente is a “dog-sitter”. She looks after people’s dogs from Monday to Friday. She wakes up at 5.15 a.m. and 15 minutes later she gets up. She has a shower, she drinks a glass of orange juice and she sometimes has toast and butter. Then she goes outside to the garden and gives the dogs their breakfast. The slowest eats first. Then they all get into Susan’s car. It’s very dirty! Susan takes the dogs to the park and they run about. She always takes some water and biscuits for them. They go back to the car at 11:00 a.m. and then they go back home. At about 5:00 p.m. the dogs’ owners come to collect their dogs. Some people say it’s boring to look after the dogs, but Susan doesn’t agree.",
+    "answer": 1,
+    "steps": [
+      "Susan sometimes has toast and butter говорит о некоторых днях.",
+      "Иногда — не всегда. Утверждение False."
+    ]
+  },
+  {
+    "title": "Getting to the Park",
+    "question": "Susan and the dogs go to the park … .",
+    "choices": [
+      "on foot",
+      "on car",
+      "by car"
+    ],
+    "context": "Read the text and choose the answer.\n\nSusan Kente is a “dog-sitter”. She looks after people’s dogs from Monday to Friday. She wakes up at 5.15 a.m. and 15 minutes later she gets up. She has a shower, she drinks a glass of orange juice and she sometimes has toast and butter. Then she goes outside to the garden and gives the dogs their breakfast. The slowest eats first. Then they all get into Susan’s car. It’s very dirty! Susan takes the dogs to the park and they run about. She always takes some water and biscuits for them. They go back to the car at 11:00 a.m. and then they go back home. At about 5:00 p.m. the dogs’ owners come to collect their dogs. Some people say it’s boring to look after the dogs, but Susan doesn’t agree.",
+    "answer": 2,
+    "steps": [
+      "Все садятся в машину Сьюзан, затем она отвозит собак в парк.",
+      "«By car» обозначает поездку на машине."
+    ]
+  },
+  {
+    "title": "Something Dirty",
+    "question": "… is very dirty.",
+    "choices": [
+      "Susan",
+      "The dogs",
+      "The car"
+    ],
+    "context": "Read the text and choose the answer.\n\nSusan Kente is a “dog-sitter”. She looks after people’s dogs from Monday to Friday. She wakes up at 5.15 a.m. and 15 minutes later she gets up. She has a shower, she drinks a glass of orange juice and she sometimes has toast and butter. Then she goes outside to the garden and gives the dogs their breakfast. The slowest eats first. Then they all get into Susan’s car. It’s very dirty! Susan takes the dogs to the park and they run about. She always takes some water and biscuits for them. They go back to the car at 11:00 a.m. and then they go back home. At about 5:00 p.m. the dogs’ owners come to collect their dogs. Some people say it’s boring to look after the dogs, but Susan doesn’t agree.",
+    "answer": 2,
+    "steps": [
+      "Фраза «It’s very dirty» идёт сразу после «they all get into Susan’s car».",
+      "It относится к машине, the car."
+    ]
+  },
+  {
+    "title": "Running Around",
+    "question": "The dogs run and play in the … .",
+    "choices": [
+      "park",
+      "garden",
+      "forest"
+    ],
+    "context": "Read the text and choose the answer.\n\nSusan Kente is a “dog-sitter”. She looks after people’s dogs from Monday to Friday. She wakes up at 5.15 a.m. and 15 minutes later she gets up. She has a shower, she drinks a glass of orange juice and she sometimes has toast and butter. Then she goes outside to the garden and gives the dogs their breakfast. The slowest eats first. Then they all get into Susan’s car. It’s very dirty! Susan takes the dogs to the park and they run about. She always takes some water and biscuits for them. They go back to the car at 11:00 a.m. and then they go back home. At about 5:00 p.m. the dogs’ owners come to collect their dogs. Some people say it’s boring to look after the dogs, but Susan doesn’t agree.",
+    "answer": 0,
+    "steps": [
+      "Susan takes the dogs to the park, и затем они бегают.",
+      "Место игры — park."
+    ]
+  },
+  {
+    "title": "Biscuits on the Walk",
+    "question": "Susan always takes biscuits for … .",
+    "choices": [
+      "herself",
+      "the dogs",
+      "the birds"
+    ],
+    "context": "Read the text and choose the answer.\n\nSusan Kente is a “dog-sitter”. She looks after people’s dogs from Monday to Friday. She wakes up at 5.15 a.m. and 15 minutes later she gets up. She has a shower, she drinks a glass of orange juice and she sometimes has toast and butter. Then she goes outside to the garden and gives the dogs their breakfast. The slowest eats first. Then they all get into Susan’s car. It’s very dirty! Susan takes the dogs to the park and they run about. She always takes some water and biscuits for them. They go back to the car at 11:00 a.m. and then they go back home. At about 5:00 p.m. the dogs’ owners come to collect their dogs. Some people say it’s boring to look after the dogs, but Susan doesn’t agree.",
+    "answer": 1,
+    "steps": [
+      "She takes some water and biscuits for them. Them относится к собакам.",
+      "Печенье предназначено for the dogs."
+    ]
+  },
+  {
+    "title": "Heading Home",
+    "question": "At eleven o’clock they … home.",
+    "choices": [
+      "come back",
+      "are at",
+      "go back to the"
+    ],
+    "context": "Read the text and choose the answer.\n\nSusan Kente is a “dog-sitter”. She looks after people’s dogs from Monday to Friday. She wakes up at 5.15 a.m. and 15 minutes later she gets up. She has a shower, she drinks a glass of orange juice and she sometimes has toast and butter. Then she goes outside to the garden and gives the dogs their breakfast. The slowest eats first. Then they all get into Susan’s car. It’s very dirty! Susan takes the dogs to the park and they run about. She always takes some water and biscuits for them. They go back to the car at 11:00 a.m. and then they go back home. At about 5:00 p.m. the dogs’ owners come to collect their dogs. Some people say it’s boring to look after the dogs, but Susan doesn’t agree.",
+    "answer": 0,
+    "steps": [
+      "В 11:00 собаки и Сьюзан возвращаются к машине. Сразу после этого едут домой.",
+      "Из вариантов подходит come back home. Точное время прибытия домой текст не называет."
+    ]
+  },
+  {
+    "title": "Susan's Opinion",
+    "question": "Susan finds her job … .",
+    "choices": [
+      "boring",
+      "dull",
+      "interesting"
+    ],
+    "context": "Read the text and choose the answer.\n\nSusan Kente is a “dog-sitter”. She looks after people’s dogs from Monday to Friday. She wakes up at 5.15 a.m. and 15 minutes later she gets up. She has a shower, she drinks a glass of orange juice and she sometimes has toast and butter. Then she goes outside to the garden and gives the dogs their breakfast. The slowest eats first. Then they all get into Susan’s car. It’s very dirty! Susan takes the dogs to the park and they run about. She always takes some water and biscuits for them. They go back to the car at 11:00 a.m. and then they go back home. At about 5:00 p.m. the dogs’ owners come to collect their dogs. Some people say it’s boring to look after the dogs, but Susan doesn’t agree.",
+    "answer": 2,
+    "steps": [
+      "Некоторые считают её работу скучной, но Сьюзан «doesn’t agree».",
+      "Значит, для неё работа интересная, interesting."
+    ]
+  },
+  {
+    "title": "Two Books",
+    "question": "My book is dull, … is very interesting.",
+    "choices": [
+      "you",
+      "your",
+      "yours"
+    ],
+    "answer": 2,
+    "steps": [
+      "Во второй части сравнивается книга собеседника. Повторять book необязательно.",
+      "Yours заменяет your book целиком."
+    ]
+  },
+  {
+    "title": "A Sport After School",
+    "question": "The pupils played … after school.",
+    "choices": [
+      "hockey",
+      "the hockey",
+      "in hockey"
+    ],
+    "answer": 0,
+    "steps": [
+      "После play обычно употребляют название спорта без артикля.",
+      "«Played hockey» — «играли в хоккей»."
+    ]
+  },
+  {
+    "title": "A Favourite Activity",
+    "question": "She is fond of listening … .",
+    "choices": [
+      "music",
+      "to music",
+      "by music"
+    ],
+    "answer": 1,
+    "steps": [
+      "После глагола listen при наличии объекта ставится to.",
+      "Фраза «listening to music» означает «слушать музыку»."
+    ]
+  },
+  {
+    "title": "The School Bus",
+    "question": "Many pupils go … by a school bus.",
+    "choices": [
+      "home",
+      "to home",
+      "to the home"
+    ],
+    "answer": 0,
+    "steps": [
+      "Home здесь — направление «домой».",
+      "После go оно стоит без предлога, «go home»."
+    ]
+  },
+  {
+    "title": "A Book at Home",
+    "question": "He … the book at home.",
+    "choices": [
+      "forget",
+      "stayed",
+      "left"
+    ],
+    "answer": 2,
+    "steps": [
+      "Книга осталась дома, тогда как говорящий ушёл.",
+      "Leave something at home в прошлом получает форму left."
+    ]
+  },
+  {
+    "title": "Snow Right Now",
+    "question": "Look! It … .",
+    "choices": [
+      "snows",
+      "snowed",
+      "is snowing"
+    ],
+    "answer": 2,
+    "steps": [
+      "«Look!» обращает внимание на то, что происходит сейчас.",
+      "Для продолжающегося действия используем is snowing."
+    ]
+  },
+  {
+    "title": "A Film Seen Before",
+    "question": "… you … the film before?",
+    "choices": [
+      "Do…see",
+      "Did…saw",
+      "Have…seen"
+    ],
+    "answer": 2,
+    "steps": [
+      "Before указывает на опыт к настоящему моменту.",
+      "Present Perfect строится «Have you seen …?»."
+    ]
+  },
+  {
+    "title": "Three Weeks",
+    "question": "I have been ill … three weeks.",
+    "choices": [
+      "for",
+      "since",
+      "from"
+    ],
+    "answer": 0,
+    "steps": [
+      "Three weeks называет длительность, а не календарную точку начала.",
+      "Длительность с Present Perfect вводит for."
+    ]
+  },
+  {
+    "title": "A Quiet Park",
+    "question": "There were only … people in the park.",
+    "choices": [
+      "a few",
+      "little",
+      "many"
+    ],
+    "answer": 0,
+    "steps": [
+      "People — исчисляемое множественное число. Only указывает на небольшое количество.",
+      "A few означает «несколько»."
+    ]
+  },
+  {
+    "title": "Holidays in Egypt",
+    "question": "Would you like … your holidays in Egypt?",
+    "choices": [
+      "spending",
+      "to spend",
+      "to spending"
+    ],
+    "answer": 1,
+    "steps": [
+      "Would you like спрашивает о желании провести отпуск.",
+      "После него ставится инфинитив to spend."
+    ]
+  },
+  {
+    "title": "How Often?",
+    "question": "Seldom",
+    "choices": [
+      "often",
+      "always",
+      "rarely"
+    ],
+    "context": "Choose the closest meaning.",
+    "answer": 2,
+    "steps": [
+      "Seldom описывает действие, которое происходит нечасто.",
+      "Близкое по смыслу наречие — rarely."
+    ]
+  },
+  {
+    "title": "Mental Ability",
+    "question": "Clever",
+    "choices": [
+      "intelligent",
+      "stupid",
+      "dull"
+    ],
+    "context": "Choose the closest meaning.",
+    "answer": 0,
+    "steps": [
+      "Clever означает, что человек быстро понимает и хорошо соображает.",
+      "Из вариантов подходит intelligent."
+    ]
+  },
+  {
+    "title": "Something Modern",
+    "question": "Modern",
+    "choices": [
+      "nice",
+      "up-to-date",
+      "beautiful"
+    ],
+    "context": "Choose the closest meaning.",
+    "answer": 1,
+    "steps": [
+      "Modern относится к современности.",
+      "Up-to-date означает «современный, соответствующий новейшему состоянию»."
+    ]
+  },
+  {
+    "title": "Speed",
+    "question": "Fast",
+    "choices": [
+      "quick",
+      "slow",
+      "sad"
+    ],
+    "context": "Choose the closest meaning.",
+    "answer": 0,
+    "steps": [
+      "Fast означает высокую скорость.",
+      "Quick передаёт тот же признак."
+    ]
+  },
+  {
+    "title": "Raising Your Voice",
+    "question": "To cry",
+    "choices": [
+      "to ask",
+      "to order",
+      "to shout"
+    ],
+    "context": "Choose the closest meaning.",
+    "answer": 2,
+    "steps": [
+      "Глагол cry может означать «громко выкрикивать».",
+      "В этом значении он близок к shout."
+    ]
+  },
+  {
+    "title": "Giving Help",
+    "question": "To help",
+    "choices": [
+      "to give",
+      "to assist",
+      "to do"
+    ],
+    "context": "Choose the closest meaning.",
+    "answer": 1,
+    "steps": [
+      "Help — оказывать помощь в действии.",
+      "Assist — более формальный глагол с тем же значением."
+    ]
+  },
+  {
+    "title": "An Event Occurs",
+    "question": "To happen",
+    "choices": [
+      "to give",
+      "to lie",
+      "to take place"
+    ],
+    "context": "Choose the closest meaning.",
+    "answer": 2,
+    "steps": [
+      "Happen говорят о том, что произошло событие.",
+      "Take place означает «происходить»."
+    ]
+  },
+  {
+    "title": "Making a Picture",
+    "question": "To draw",
+    "choices": [
+      "to drive",
+      "to describe",
+      "to paint"
+    ],
+    "context": "Choose the closest meaning.",
+    "answer": 2,
+    "steps": [
+      "Draw означает создавать изображение линиями.",
+      "Paint тоже относится к изображению, но красками. Это ближайший вариант из трёх."
+    ]
+  },
+  {
+    "title": "Joining In",
+    "question": "To take part",
+    "choices": [
+      "to take",
+      "to part",
+      "to participate"
+    ],
+    "context": "Choose the closest meaning.",
+    "answer": 2,
+    "steps": [
+      "Take part означает участие в мероприятии.",
+      "Participate — «участвовать»."
+    ]
+  },
+  {
+    "title": "The Beginning",
+    "question": "To start",
+    "choices": [
+      "to finish",
+      "to begin",
+      "to race"
+    ],
+    "context": "Choose the closest meaning.",
+    "answer": 1,
+    "steps": [
+      "Start означает, что действие начинается.",
+      "Его близкий синоним — begin."
+    ]
+  },
+  {
+    "title": "A Greeting",
+    "question": "Hello! How are you?",
+    "choices": [
+      "I’m an engineer.",
+      "Pleased to meet you.",
+      "Fine, thanks. And you?"
+    ],
+    "answer": 2,
+    "steps": [
+      "How are you? — приветствие с вопросом о самочувствии.",
+      "«Fine, thanks. And you?» отвечает и задаёт встречный вопрос."
+    ]
+  },
+  {
+    "title": "Turning Down a Snack",
+    "question": "Would you like some crisps?",
+    "choices": [
+      "No, please.",
+      "No, thanks.",
+      "No, okay."
+    ],
+    "answer": 1,
+    "steps": [
+      "Собеседник предлагает чипсы словами «Would you like …?».",
+      "«No, thanks» вежливо отклоняет предложение."
+    ]
+  },
+  {
+    "title": "Her Occupation",
+    "question": "What does she do? She … .",
+    "choices": [
+      "does secretary",
+      "is a secretary",
+      "is cooking"
+    ],
+    "answer": 1,
+    "steps": [
+      "What does she do? обычно спрашивает о профессии.",
+      "«She is a secretary» называет её работу."
+    ]
+  },
+  {
+    "title": "Late for a Match",
+    "question": "We are late for the football match.",
+    "choices": [
+      "Hurry up!",
+      "Yes, I’m playing football.",
+      "What date is it?"
+    ],
+    "answer": 0,
+    "steps": [
+      "Если люди уже опаздывают, им нужно поторопиться.",
+      "Hurry up! значит «Поспешим!» или «Торопись!»."
+    ]
+  },
+  {
+    "title": "Asking the Time",
+    "question": "Excuse me, what’s the time, please?",
+    "choices": [
+      "I’m late.",
+      "I don’t have time.",
+      "Sorry, I don’t have a watch."
+    ],
+    "answer": 2,
+    "steps": [
+      "Прохожий спрашивает, который час. Ответ должен назвать время или объяснить, почему это невозможно.",
+      "«Sorry, I don’t have a watch» объясняет, что часов нет."
+    ]
+  },
+  {
+    "title": "At a Shop",
+    "question": "Good morning, madam! Can I help you?",
+    "choices": [
+      "Yes, please!",
+      "Yes, I like it!",
+      "No, I don’t."
+    ],
+    "answer": 0,
+    "steps": [
+      "«Can I help you?» предлагает помощь.",
+      "«Yes, please!» — вежливое согласие принять её."
+    ]
+  },
+  {
+    "title": "Television Tonight",
+    "question": "Let’s stay at home and watch TV tonight.",
+    "choices": [
+      "OK! What’s on?",
+      "Let’s go!",
+      "Do it!"
+    ],
+    "answer": 0,
+    "steps": [
+      "Предложение — остаться дома и посмотреть телевизор.",
+      "«OK! What’s on?» принимает предложение и спрашивает о программе."
+    ]
+  },
+  {
+    "title": "An Exam Result",
+    "question": "I didn’t pass my English exam.",
+    "choices": [
+      "Do you?",
+      "Well, I do.",
+      "I’m sorry!"
+    ],
+    "answer": 2,
+    "steps": [
+      "Собеседник сообщает, что не сдал экзамен.",
+      "«I’m sorry!» здесь выражает сочувствие."
+    ]
+  },
+  {
+    "title": "Saying Goodbye",
+    "question": "Good-bye!",
+    "choices": [
+      "Fine, thank you!",
+      "Bye!",
+      "Hello!"
+    ],
+    "answer": 1,
+    "steps": [
+      "Good-bye — прощание.",
+      "Bye — краткий ответ для той же ситуации."
+    ]
+  },
+  {
+    "title": "The Weather Today",
+    "question": "What is the weather like today?",
+    "choices": [
+      "Yes, I like it.",
+      "Yes, it is.",
+      "It is fine."
+    ],
+    "answer": 2,
+    "steps": [
+      "Вопрос «What is the weather like?» просит описать погоду.",
+      "«It is fine» сообщает, что погода хорошая."
+    ]
+  },
+  {
+    "title": "London's River",
+    "question": "London stands on the river … .",
+    "choices": [
+      "Thames",
+      "Clyde",
+      "Avon"
+    ],
+    "answer": 0,
+    "steps": [
+      "Река, проходящая через Лондон, видна рядом с Вестминстером и Тауэром.",
+      "Это Thames, Темза."
+    ]
+  },
+  {
+    "title": "A Royal Residence",
+    "question": "Where was Queen Elizabeth II’s official London residence?",
+    "choices": [
+      "Buckingham Palace",
+      "The Tower",
+      "Westminster Abbey"
+    ],
+    "adaptation": "Вопрос переведён в прошедшее время. Оригинальный конкурс состоялся в 2011 году.",
+    "answer": 0,
+    "steps": [
+      "В 2011 году монархом была Елизавета II. Вопрос касается её официальной лондонской резиденции.",
+      "Это Buckingham Palace."
+    ]
+  },
+  {
+    "title": "An Old London Building",
+    "question": "It is one of the oldest buildings in London.",
+    "choices": [
+      "Whitehall",
+      "The Tower",
+      "Big Ben"
+    ],
+    "answer": 1,
+    "steps": [
+      "Большой древний комплекс у Темзы основали после нормандского завоевания.",
+      "Из вариантов подходит The Tower, Лондонский Тауэр."
+    ]
+  },
+  {
+    "title": "London's Famous Clock",
+    "question": "It is the most famous clock in the UK.",
+    "choices": [
+      "Westminster",
+      "Buckingham",
+      "Big Ben"
+    ],
+    "answer": 2,
+    "steps": [
+      "Ответ связан с часовой башней у здания парламента.",
+      "Big Ben — название большого колокола, часто так называют часы и башню целиком."
+    ]
+  },
+  {
+    "title": "A Bridge over the Thames",
+    "question": "Which bridge over the Thames in London has two towers and can open for ships?",
+    "choices": [
+      "Millennium",
+      "Tower",
+      "Buckingham"
+    ],
+    "adaptation": "Описание уточнено, поскольку Millennium Bridge тоже известный мост через Темзу.",
+    "answer": 1,
+    "steps": [
+      "На мосту у Тауэра две высокие башни. Посередине он раскрывается для судов.",
+      "Этот мост называется Tower Bridge."
+    ]
+  },
+  {
+    "title": "Where to See Animals",
+    "question": "You can see many wild animals there.",
+    "choices": [
+      "Hyde Park",
+      "The City",
+      "London Zoo"
+    ],
+    "answer": 2,
+    "steps": [
+      "Нужно место для наблюдения за дикими животными в городе.",
+      "London Zoo — зоопарк Лондона."
+    ]
+  },
+  {
+    "title": "A Famous Museum",
+    "question": "It is one of the most famous museums in the world.",
+    "choices": [
+      "Whitehall",
+      "Big Ben",
+      "The British Museum"
+    ],
+    "answer": 2,
+    "steps": [
+      "Из вариантов музей с древностями и историческими коллекциями — British Museum.",
+      "Whitehall — улица, а Big Ben связывают с часами у парламента."
+    ]
+  },
+  {
+    "title": "Banks and Offices",
+    "question": "There are many banks and offices there.",
+    "choices": [
+      "Hyde Park",
+      "The Tower",
+      "The City"
+    ],
+    "answer": 2,
+    "steps": [
+      "Речь о лондонском районе, известном финансовыми учреждениями.",
+      "Это The City, Сити."
+    ]
+  },
+  {
+    "title": "A Monument to Nelson",
+    "question": "There is a monument to Admiral Nelson there.",
+    "choices": [
+      "Trafalgar Square",
+      "Hyde Park",
+      "London Zoo"
+    ],
+    "answer": 0,
+    "steps": [
+      "Колонна Нельсона установлена в память о победе британского флота при Трафальгаре.",
+      "Она стоит на Trafalgar Square."
+    ]
+  },
+  {
+    "title": "Christopher Wren",
+    "question": "It was built by architect Christopher Wren.",
+    "choices": [
+      "Whitehall",
+      "The Tower",
+      "St. Paul’s Cathedral"
+    ],
+    "answer": 2,
+    "steps": [
+      "Кристофер Рен спроектировал собор после Великого лондонского пожара.",
+      "Собор, о котором говорится в вопросе, — St. Paul’s Cathedral."
+    ]
+  }
+]

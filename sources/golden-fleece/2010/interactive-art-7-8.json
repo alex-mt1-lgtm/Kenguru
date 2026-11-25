@@ -1,0 +1,117 @@
+{
+  "source": "Buklet_ZR_0910_7-8.pdf",
+  "figures": {
+    "8": {
+      "page": 0,
+      "rect": [
+        26.929,
+        469.235,
+        103.509,
+        573.443
+      ],
+      "nativeSize": [
+        108,
+        146
+      ]
+    },
+    "9": {
+      "page": 0,
+      "rect": [
+        107.465,
+        470.489,
+        180.648,
+        572.466
+      ],
+      "master": "interactive-masters/7-8-9.jpg",
+      "source": "https://runodog.ru/runo2010/7-8/2010_9_1.jpg",
+      "nativeSize": [
+        297,
+        340
+      ]
+    },
+    "10": {
+      "page": 0,
+      "rect": [
+        184.347,
+        469.544,
+        254.646,
+        571.988
+      ],
+      "restoration": "fleece-0220",
+      "source": "https://commons.wikimedia.org/wiki/File:Romeo_and_juliet_brown.jpg",
+      "nativeSize": [
+        768,
+        1119
+      ]
+    },
+    "20": {
+      "page": 0,
+      "rect": [
+        464.389,
+        342.048,
+        534.803,
+        435.833
+      ],
+      "master": "interactive-masters/7-8-20.jpg",
+      "source": "https://runodog.ru/runo2010/7-8/2010_20_1.jpg",
+      "nativeSize": [
+        235,
+        313
+      ]
+    },
+    "48": {
+      "page": 1,
+      "rect": [
+        166.625,
+        482.123,
+        253.996,
+        569.794
+      ],
+      "nativeSize": [
+        123,
+        123
+      ]
+    },
+    "58": {
+      "page": 1,
+      "rect": [
+        305.882,
+        475.672,
+        389.827,
+        573.408
+      ],
+      "nativeSize": [
+        118,
+        137
+      ]
+    },
+    "59": {
+      "page": 1,
+      "rect": [
+        393.963,
+        475.705,
+        463.359,
+        573.341
+      ],
+      "master": "interactive-masters/7-8-59.jpg",
+      "source": "https://runodog.ru/runo2010/7-8/2010_59_1.jpg",
+      "nativeSize": [
+        231,
+        349
+      ]
+    },
+    "60": {
+      "page": 1,
+      "rect": [
+        467.649,
+        475.773,
+        535.768,
+        573.3
+      ],
+      "nativeSize": [
+        96,
+        137
+      ]
+    }
+  }
+}

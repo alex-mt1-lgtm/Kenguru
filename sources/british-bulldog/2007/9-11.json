@@ -1,0 +1,899 @@
+[
+  {
+    "title": "Plans for a Trip",
+    "question": "The woman is going on … .",
+    "choices": [
+      "a package tour",
+      "holiday",
+      "a voyage"
+    ],
+    "context": "Listen to the recording and choose the answer.",
+    "audio": true,
+    "answer": 1,
+    "steps": [
+      "Начальный вопрос касается поездки супругов на Крит.",
+      "Они едут отдыхать. Оборот «going on holiday» означает «отправляться в отпуск»."
+    ]
+  },
+  {
+    "title": "Length of Their Stay",
+    "question": "They are going on holiday for … .",
+    "choices": [
+      "two weeks",
+      "a month",
+      "one week"
+    ],
+    "context": "Listen to the recording and choose the answer.",
+    "audio": true,
+    "answer": 0,
+    "steps": [
+      "Женщина говорит «We’ve booked a bungalow for a fortnight».",
+      "Fortnight означает two weeks."
+    ]
+  },
+  {
+    "title": "A Change of Plans",
+    "question": "They are going to … .",
+    "choices": [
+      "a different country",
+      "same resort",
+      "different resort"
+    ],
+    "context": "Listen to the recording and choose the answer.",
+    "audio": true,
+    "answer": 2,
+    "steps": [
+      "Мужчина спрашивает, едут ли они опять на Крит.",
+      "«A different resort from last year» означает другой курорт на том же острове."
+    ]
+  },
+  {
+    "title": "Where They Are Staying",
+    "question": "They are staying in … .",
+    "choices": [
+      "a small village by the sea",
+      "a town by the ocean",
+      "a village in the forest"
+    ],
+    "context": "Listen to the recording and choose the answer.",
+    "audio": true,
+    "answer": 0,
+    "steps": [
+      "Женщина уточняет место после слов «about 20 kilometres from Heraklion».",
+      "В записи звучит «in a small village by the sea»."
+    ]
+  },
+  {
+    "title": "Eating on Holiday",
+    "question": "The woman is going to … most of the time on holiday.",
+    "choices": [
+      "cook",
+      "eat out",
+      "do the cleaning"
+    ],
+    "context": "Listen to the recording and choose the answer.",
+    "audio": true,
+    "adaptation": "В исходнике every day, но в записи сказано most of the time.",
+    "answer": 1,
+    "steps": [
+      "Мужчина предполагает, что в бунгало придётся готовить. Женщина отвечает «We’ll eat out most of the time».",
+      "Eat out значит «есть вне дома». Every day в вопросе сильнее, чем most of the time в записи."
+    ]
+  },
+  {
+    "title": "The Husband as a Cook",
+    "question": "Her husband can cook … .",
+    "choices": [
+      "different dishes",
+      "nothing",
+      "Italian food"
+    ],
+    "context": "Listen to the recording and choose the answer.",
+    "audio": true,
+    "answer": 0,
+    "steps": [
+      "Женщина называет breakfast и pasta.",
+      "Два примера лучше всего охватывает different dishes."
+    ]
+  },
+  {
+    "title": "The Local Food",
+    "question": "Food in local restaurants is said to be … .",
+    "choices": [
+      "exquisite",
+      "dreadful",
+      "loathsome"
+    ],
+    "context": "Listen to the recording and choose the answer.",
+    "audio": true,
+    "answer": 0,
+    "steps": [
+      "О местных ресторанах в записи сказано «very good».",
+      "Из вариантов положительную оценку выражает exquisite."
+    ]
+  },
+  {
+    "title": "A Hope About Malta",
+    "question": "Which exact comparison does the man use to describe his hopes for Malta?",
+    "choices": [
+      "their life becomes better",
+      "Malta isn’t worse than Crete",
+      "Malta is as good as Crete"
+    ],
+    "context": "Listen to the recording and choose the answer.",
+    "audio": true,
+    "adaptation": "Уточнено, что нужен прямой пересказ сравнения из записи.",
+    "answer": 2,
+    "steps": [
+      "Слушай конец диалога после «We’ve decided to try Malta this year».",
+      "«I hope it’ll be as good as Crete» — точное сравнение, которое повторяет вариант Malta is as good as Crete."
+    ]
+  },
+  {
+    "title": "Choosing a Destination",
+    "question": "The man has already … his trip.",
+    "choices": [
+      "booked",
+      "thought about",
+      "had"
+    ],
+    "context": "Listen to the recording and choose the answer.",
+    "audio": true,
+    "answer": 1,
+    "steps": [
+      "Мужчина решил попробовать поехать на Мальту и планирует зайти в турагентство.",
+      "Поездка обдумана, но не забронирована. Подходит thought about."
+    ]
+  },
+  {
+    "title": "Topic of the Dialogue",
+    "question": "They are talking about … .",
+    "choices": [
+      "their rest",
+      "their leave",
+      "their recess"
+    ],
+    "context": "Listen to the recording and choose the answer.",
+    "audio": true,
+    "answer": 0,
+    "steps": [
+      "Оба собеседника говорят о месте и способе провести отпуск.",
+      "Rest из вариантов ближе всего к теме отдыха. Leave обычно называют разрешённое отсутствие, recess — перерыв."
+    ]
+  },
+  {
+    "title": "On the Bank",
+    "question": "Complete gap 11 in the text.",
+    "choices": [
+      "of sitting",
+      "to sitting",
+      "of sit"
+    ],
+    "context": "Read the text and choose the answer.\n\nAlice was beginning to get very tired [11] by her sister on the bank, and [12] nothing to [13]: once or twice she had peeped into the book her sister was reading, but it [14] pictures or conversations in it, “and what is the [15] a book,” thought Alice “without pictures or conversation?” So she was considering in her [16] mind (as well as she could, for the hot day made her feel very [17] and stupid), whether the pleasure of making a daisy-chain [18] be worth the trouble [19] getting up and picking the daisies, when suddenly a White Rabbit with pink eyes [20] close by her.",
+    "answer": 0,
+    "steps": [
+      "После get tired для занятия нужен предлог of.",
+      "Оборот «get tired of sitting» значит «устать сидеть»."
+    ]
+  },
+  {
+    "title": "Nothing to Do",
+    "question": "Complete gap 12 in the text.",
+    "choices": [
+      "to have",
+      "of having",
+      "having"
+    ],
+    "context": "Read the text and choose the answer.\n\nAlice was beginning to get very tired [11] by her sister on the bank, and [12] nothing to [13]: once or twice she had peeped into the book her sister was reading, but it [14] pictures or conversations in it, “and what is the [15] a book,” thought Alice “without pictures or conversation?” So she was considering in her [16] mind (as well as she could, for the hot day made her feel very [17] and stupid), whether the pleasure of making a daisy-chain [18] be worth the trouble [19] getting up and picking the daisies, when suddenly a White Rabbit with pink eyes [20] close by her.",
+    "answer": 1,
+    "steps": [
+      "And связывает две конструкции после tired.",
+      "Предлог повторяется для симметрии «of sitting … and of having nothing to do»."
+    ]
+  },
+  {
+    "title": "A Free Moment",
+    "question": "Complete gap 13 in the text.",
+    "choices": [
+      "do",
+      "make",
+      "behave"
+    ],
+    "context": "Read the text and choose the answer.\n\nAlice was beginning to get very tired [11] by her sister on the bank, and [12] nothing to [13]: once or twice she had peeped into the book her sister was reading, but it [14] pictures or conversations in it, “and what is the [15] a book,” thought Alice “without pictures or conversation?” So she was considering in her [16] mind (as well as she could, for the hot day made her feel very [17] and stupid), whether the pleasure of making a daisy-chain [18] be worth the trouble [19] getting up and picking the daisies, when suddenly a White Rabbit with pink eyes [20] close by her.",
+    "answer": 0,
+    "steps": [
+      "После nothing to нужен глагол, обозначающий занятие вообще.",
+      "«Nothing to do» — «нечем заняться»."
+    ]
+  },
+  {
+    "title": "The Contents of the Book",
+    "question": "Complete gap 14 in the text.",
+    "choices": [
+      "had no",
+      "hadn’t",
+      "was no"
+    ],
+    "context": "Read the text and choose the answer.\n\nAlice was beginning to get very tired [11] by her sister on the bank, and [12] nothing to [13]: once or twice she had peeped into the book her sister was reading, but it [14] pictures or conversations in it, “and what is the [15] a book,” thought Alice “without pictures or conversation?” So she was considering in her [16] mind (as well as she could, for the hot day made her feel very [17] and stupid), whether the pleasure of making a daisy-chain [18] be worth the trouble [19] getting up and picking the daisies, when suddenly a White Rabbit with pink eyes [20] close by her.",
+    "answer": 0,
+    "steps": [
+      "Алиса заглянула в книгу, но не нашла рисунков или диалогов.",
+      "«It had no pictures or conversations» выражает отсутствие обоих."
+    ]
+  },
+  {
+    "title": "The Point of the Book",
+    "question": "Complete gap 15 in the text.",
+    "choices": [
+      "sense of",
+      "use in",
+      "use of"
+    ],
+    "context": "Read the text and choose the answer.\n\nAlice was beginning to get very tired [11] by her sister on the bank, and [12] nothing to [13]: once or twice she had peeped into the book her sister was reading, but it [14] pictures or conversations in it, “and what is the [15] a book,” thought Alice “without pictures or conversation?” So she was considering in her [16] mind (as well as she could, for the hot day made her feel very [17] and stupid), whether the pleasure of making a daisy-chain [18] be worth the trouble [19] getting up and picking the daisies, when suddenly a White Rabbit with pink eyes [20] close by her.",
+    "answer": 2,
+    "steps": [
+      "Алиса спрашивает о пользе книги без картинок и разговоров.",
+      "Устойчивый вопрос строится как «what is the use of a book?»."
+    ]
+  },
+  {
+    "title": "Alice's Thoughts",
+    "question": "Complete gap 16 in the text.",
+    "choices": [
+      "self",
+      "own",
+      "private"
+    ],
+    "context": "Read the text and choose the answer.\n\nAlice was beginning to get very tired [11] by her sister on the bank, and [12] nothing to [13]: once or twice she had peeped into the book her sister was reading, but it [14] pictures or conversations in it, “and what is the [15] a book,” thought Alice “without pictures or conversation?” So she was considering in her [16] mind (as well as she could, for the hot day made her feel very [17] and stupid), whether the pleasure of making a daisy-chain [18] be worth the trouble [19] getting up and picking the daisies, when suddenly a White Rabbit with pink eyes [20] close by her.",
+    "answer": 1,
+    "steps": [
+      "Перед mind уже стоит her.",
+      "Own усиливает притяжательное местоимение. «In her own mind» значит «про себя»."
+    ]
+  },
+  {
+    "title": "How Alice Felt",
+    "question": "Complete gap 17 in the text.",
+    "choices": [
+      "sleeping",
+      "sleepy",
+      "sleep"
+    ],
+    "context": "Read the text and choose the answer.\n\nAlice was beginning to get very tired [11] by her sister on the bank, and [12] nothing to [13]: once or twice she had peeped into the book her sister was reading, but it [14] pictures or conversations in it, “and what is the [15] a book,” thought Alice “without pictures or conversation?” So she was considering in her [16] mind (as well as she could, for the hot day made her feel very [17] and stupid), whether the pleasure of making a daisy-chain [18] be worth the trouble [19] getting up and picking the daisies, when suddenly a White Rabbit with pink eyes [20] close by her.",
+    "answer": 1,
+    "steps": [
+      "После feel требуется слово, которое наряду со stupid описывает состояние.",
+      "Sleepy — прилагательное «сонная»."
+    ]
+  },
+  {
+    "title": "Thinking About the Daisies",
+    "question": "Complete gap 18 in the text.",
+    "choices": [
+      "must",
+      "should",
+      "would"
+    ],
+    "context": "Read the text and choose the answer.\n\nAlice was beginning to get very tired [11] by her sister on the bank, and [12] nothing to [13]: once or twice she had peeped into the book her sister was reading, but it [14] pictures or conversations in it, “and what is the [15] a book,” thought Alice “without pictures or conversation?” So she was considering in her [16] mind (as well as she could, for the hot day made her feel very [17] and stupid), whether the pleasure of making a daisy-chain [18] be worth the trouble [19] getting up and picking the daisies, when suddenly a White Rabbit with pink eyes [20] close by her.",
+    "answer": 2,
+    "steps": [
+      "Рассказ ведётся в прошлом, а результат плетения Алиса только представляет.",
+      "В косвенном вопросе подходит «whether the pleasure … would be worth …»."
+    ]
+  },
+  {
+    "title": "The Effort Involved",
+    "question": "Complete gap 19 in the text.",
+    "choices": [
+      "of",
+      "at",
+      "for"
+    ],
+    "context": "Read the text and choose the answer.\n\nAlice was beginning to get very tired [11] by her sister on the bank, and [12] nothing to [13]: once or twice she had peeped into the book her sister was reading, but it [14] pictures or conversations in it, “and what is the [15] a book,” thought Alice “without pictures or conversation?” So she was considering in her [16] mind (as well as she could, for the hot day made her feel very [17] and stupid), whether the pleasure of making a daisy-chain [18] be worth the trouble [19] getting up and picking the daisies, when suddenly a White Rabbit with pink eyes [20] close by her.",
+    "answer": 0,
+    "steps": [
+      "Trouble здесь означает усилие, которое придётся приложить.",
+      "Связь выражается предлогом of, «the trouble of getting up»."
+    ]
+  },
+  {
+    "title": "The Passing Rabbit",
+    "question": "Complete gap 20 in the text.",
+    "choices": [
+      "was running",
+      "ran",
+      "run"
+    ],
+    "context": "Read the text and choose the answer.\n\nAlice was beginning to get very tired [11] by her sister on the bank, and [12] nothing to [13]: once or twice she had peeped into the book her sister was reading, but it [14] pictures or conversations in it, “and what is the [15] a book,” thought Alice “without pictures or conversation?” So she was considering in her [16] mind (as well as she could, for the hot day made her feel very [17] and stupid), whether the pleasure of making a daisy-chain [18] be worth the trouble [19] getting up and picking the daisies, when suddenly a White Rabbit with pink eyes [20] close by her.",
+    "answer": 1,
+    "steps": [
+      "Suddenly вводит внезапное событие в повествовании о прошлом.",
+      "Ran — простая прошедшая форма run."
+    ]
+  },
+  {
+    "title": "Alice's Mood",
+    "question": "Alice was … .",
+    "choices": [
+      "busy",
+      "curious",
+      "bored"
+    ],
+    "context": "Read the text and choose the answer.\n\nAlice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, “and what is the use of a book,” thought Alice “without pictures or conversation?” So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.",
+    "answer": 2,
+    "steps": [
+      "Алиса устала сидеть рядом с сестрой и не знала, чем себя занять.",
+      "Эти признаки описывают скуку. Подходит bored."
+    ]
+  },
+  {
+    "title": "Looking at the Book",
+    "question": "She … the book.",
+    "choices": [
+      "looked into",
+      "didn’t look into",
+      "looked at"
+    ],
+    "context": "Read the text and choose the answer.\n\nAlice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, “and what is the use of a book,” thought Alice “without pictures or conversation?” So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.",
+    "answer": 0,
+    "steps": [
+      "В оригинальном тексте стоит «she had peeped into the book».",
+      "Peep into означает «заглянуть внутрь». Ближе всего looked into."
+    ]
+  },
+  {
+    "title": "What the Book Lacked",
+    "question": "There were no … in the book.",
+    "choices": [
+      "colloquies",
+      "letters",
+      "conversants"
+    ],
+    "context": "Read the text and choose the answer.\n\nAlice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, “and what is the use of a book,” thought Alice “without pictures or conversation?” So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.",
+    "answer": 0,
+    "steps": [
+      "В книге не было «pictures or conversations».",
+      "Colloquies означает беседы, что соответствует conversations."
+    ]
+  },
+  {
+    "title": "Why She Felt Sleepy",
+    "question": "She felt stupid because of the … .",
+    "choices": [
+      "hot day",
+      "lots of insects",
+      "rain"
+    ],
+    "context": "Read the text and choose the answer.\n\nAlice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, “and what is the use of a book,” thought Alice “without pictures or conversation?” So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.",
+    "answer": 0,
+    "steps": [
+      "В рассказе явно сказано «the hot day made her feel very sleepy and stupid».",
+      "Причина — the hot day, жаркий день."
+    ]
+  },
+  {
+    "title": "What Alice Was Doing",
+    "question": "Alice was … different things.",
+    "choices": [
+      "writing a book about",
+      "musing on",
+      "declaiming"
+    ],
+    "context": "Read the text and choose the answer.\n\nAlice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, “and what is the use of a book,” thought Alice “without pictures or conversation?” So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.",
+    "answer": 1,
+    "steps": [
+      "So she was considering вводит мысленное рассуждение о венке.",
+      "Musing on означает «размышлять о»."
+    ]
+  },
+  {
+    "title": "A Daisy Chain",
+    "question": "She was thinking about … a daisy-chain.",
+    "choices": [
+      "making",
+      "buying",
+      "netting"
+    ],
+    "context": "Read the text and choose the answer.\n\nAlice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, “and what is the use of a book,” thought Alice “without pictures or conversation?” So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.",
+    "answer": 0,
+    "steps": [
+      "Алиса решает, стоит ли вставать и собирать маргаритки.",
+      "Она думает о making a daisy-chain, то есть о плетении венка."
+    ]
+  },
+  {
+    "title": "The Weather",
+    "question": "The day was … .",
+    "choices": [
+      "a broiler",
+      "heated",
+      "tropical"
+    ],
+    "context": "Read the text and choose the answer.\n\nAlice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, “and what is the use of a book,” thought Alice “without pictures or conversation?” So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.",
+    "answer": 1,
+    "steps": [
+      "День назван hot, из-за жары Алиса чувствует сонливость.",
+      "Из предложенного ключ выбирает heated. Английское естественное описание погоды здесь — hot."
+    ]
+  },
+  {
+    "title": "Where the Rabbit Ran",
+    "question": "Alice saw a White Rabbit … .",
+    "choices": [
+      "in the bushes",
+      "run very close",
+      "near the tree"
+    ],
+    "context": "Read the text and choose the answer.\n\nAlice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, “and what is the use of a book,” thought Alice “without pictures or conversation?” So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.",
+    "answer": 1,
+    "steps": [
+      "В отрывке сказано «ran close by her».",
+      "Close by значит «совсем рядом». Подходит run very close."
+    ]
+  },
+  {
+    "title": "The Rabbit's Action",
+    "question": "The White Rabbit was … .",
+    "choices": [
+      "picking daisies",
+      "very tired",
+      "running"
+    ],
+    "context": "Read the text and choose the answer.\n\nAlice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, “and what is the use of a book,” thought Alice “without pictures or conversation?” So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.",
+    "answer": 2,
+    "steps": [
+      "В конце текста появляется белый кролик с розовыми глазами.",
+      "Глагол ran указывает, что в этот момент кролик running."
+    ]
+  },
+  {
+    "title": "Alice in the Heat",
+    "question": "Alice felt … .",
+    "choices": [
+      "stupid",
+      "nice",
+      "common"
+    ],
+    "context": "Read the text and choose the answer.\n\nAlice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, “and what is the use of a book,” thought Alice “without pictures or conversation?” So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.",
+    "answer": 0,
+    "steps": [
+      "Перечитай «very sleepy and stupid».",
+      "Из данных вариантов в тексте прямо названо stupid."
+    ]
+  },
+  {
+    "title": "Off the Rails",
+    "question": "Sister: I don’t see any rabbit! Did he run off the rails?\nAlice: No, he didn’t tell he was … .",
+    "choices": [
+      "out of control",
+      "on a train",
+      "fast"
+    ],
+    "adaptation": "Вариант A уточнён. В исходнике lost.",
+    "answer": 0,
+    "steps": [
+      "Run off the rails буквально означает «сойти с рельсов». Здесь сестра употребляет выражение о поведении Кролика.",
+      "Переносное значение — «выйти из-под контроля», out of control."
+    ]
+  },
+  {
+    "title": "Running Around",
+    "question": "Sister: Did he run around?\nAlice: No, he didn’t tell he … .",
+    "choices": [
+      "had any hardships",
+      "got in a circle",
+      "was rushing from place to place"
+    ],
+    "adaptation": "Вариант C уточнён. В исходнике was tired.",
+    "answer": 2,
+    "steps": [
+      "Run around может означать «бегать туда-сюда» или «суетиться по делам».",
+      "Rushing from place to place передаёт это движение. Усталость может быть его следствием."
+    ]
+  },
+  {
+    "title": "Running Aground",
+    "question": "Sister: Did he run aground?\nAlice: No, he didn’t tell he wanted … .",
+    "choices": [
+      "to stop flying",
+      "to set himself afloat",
+      "to stop running"
+    ],
+    "answer": 2,
+    "steps": [
+      "Run aground употребляется о судне, севшем на мель и остановившемся.",
+      "Из предложенных действий остановку передаёт to stop running. Обычный перевод идиомы — «сесть на мель»."
+    ]
+  },
+  {
+    "title": "Running Foul",
+    "question": "Sister: Did he run foul of you?\nAlice: No, he didn’t … .",
+    "choices": [
+      "conflict with me",
+      "hit me",
+      "see me"
+    ],
+    "answer": 0,
+    "steps": [
+      "Run foul of somebody описывает столкновение с кем-то или конфликт.",
+      "Подходит conflict with me."
+    ]
+  },
+  {
+    "title": "Running with Someone",
+    "question": "Sister: Did he run with somebody?\nAlice: No, he … .",
+    "choices": [
+      "didn’t have a companion",
+      "didn’t have any friends",
+      "didn’t carry anything"
+    ],
+    "answer": 0,
+    "steps": [
+      "With somebody обозначает, что рядом был спутник.",
+      "Didn’t have a companion означает, что Кролик не бежал с кем-то."
+    ]
+  },
+  {
+    "title": "A Question of Luck",
+    "question": "Sister: Did he run for luck?\nAlice: I think he didn’t want to … .",
+    "choices": [
+      "be too lucky",
+      "be caught",
+      "risk anything"
+    ],
+    "answer": 2,
+    "steps": [
+      "В диалоге речь о том, пытался ли Кролик испытать удачу.",
+      "По ключу ожидается risk anything, «чем-нибудь рисковать». Обычный для такого значения оборот — try one's luck."
+    ]
+  },
+  {
+    "title": "Cut and Run",
+    "question": "Sister: Did he cut and run?\nAlice: I’m not sure if he was … .",
+    "choices": [
+      "bolting",
+      "a gardener",
+      "bowing"
+    ],
+    "answer": 0,
+    "steps": [
+      "Cut and run значит поспешно скрыться, особенно из неприятного положения.",
+      "Bolting — «убегать, удирать» и близко по смыслу."
+    ]
+  },
+  {
+    "title": "Running Messages",
+    "question": "Sister: Did he run messages?\nAlice: I don’t know if he was … .",
+    "choices": [
+      "a commissionaire",
+      "a tailor",
+      "a postman"
+    ],
+    "answer": 0,
+    "steps": [
+      "Run messages значит ходить с поручениями, передавая сообщения.",
+      "Из вариантов ключ выбирает commissionaire в старом значении посыльного. Это не обязательно почтальон."
+    ]
+  },
+  {
+    "title": "Running Rings Around",
+    "question": "Sister: Did he run rings around you?\nAlice: No, he didn’t … .",
+    "choices": [
+      "circulate",
+      "frighten me",
+      "surpass"
+    ],
+    "answer": 2,
+    "steps": [
+      "Run rings around somebody значит заметно превосходить другого в умении.",
+      "Surpass означает «превосходить»."
+    ]
+  },
+  {
+    "title": "Into the Ground",
+    "question": "Sister: Did he run into the ground?\nAlice: I am not sure if he … .",
+    "choices": [
+      "tried too hard",
+      "disappeared",
+      "hurt his leg"
+    ],
+    "answer": 0,
+    "steps": [
+      "Run something into the ground значит довести до износа использованием. Run oneself into the ground значит изнурить себя.",
+      "Ключ подразумевает второе значение и выбирает tried too hard."
+    ]
+  },
+  {
+    "title": "A Brief Look",
+    "question": "Choose the closest meaning of “peep”.",
+    "choices": [
+      "glance",
+      "peenge",
+      "glare"
+    ],
+    "context": "Find the word’s meaning in the text.\n\nAlice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, “and what is the use of a book,” thought Alice “without pictures or conversation?” So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.",
+    "answer": 0,
+    "steps": [
+      "Алиса peeped into книгу, то есть быстро заглянула в неё.",
+      "Glance — «мельком взглянуть»."
+    ]
+  },
+  {
+    "title": "The Book's Speech",
+    "question": "Choose the closest meaning of “conversations”.",
+    "choices": [
+      "oral",
+      "speaks",
+      "dialogues"
+    ],
+    "context": "Find the word’s meaning in the text.\n\nAlice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, “and what is the use of a book,” thought Alice “without pictures or conversation?” So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.",
+    "answer": 2,
+    "steps": [
+      "Conversations — реплики или разговоры между людьми.",
+      "Dialogues передаёт это значение."
+    ]
+  },
+  {
+    "title": "Considering the Plan",
+    "question": "Choose the closest meaning of “considering”.",
+    "choices": [
+      "thought",
+      "thinking over",
+      "thinking away"
+    ],
+    "context": "Find the word’s meaning in the text.\n\nAlice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, “and what is the use of a book,” thought Alice “without pictures or conversation?” So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.",
+    "answer": 1,
+    "steps": [
+      "Considering описывает, как Алиса решает, стоит ли плести венок.",
+      "Thinking over — «обдумывать»."
+    ]
+  },
+  {
+    "title": "Flowers Woven Together",
+    "question": "Choose the closest meaning of “daisy-chain”.",
+    "choices": [
+      "wreath",
+      "fetter",
+      "shackle"
+    ],
+    "context": "Find the word’s meaning in the text.\n\nAlice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, “and what is the use of a book,” thought Alice “without pictures or conversation?” So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.",
+    "answer": 0,
+    "steps": [
+      "Daisy-chain — цепочка из соединённых маргариток.",
+      "Wreath, «венок», — ближайший из вариантов."
+    ]
+  },
+  {
+    "title": "The Trouble of Getting Up",
+    "question": "Choose the closest meaning of “trouble”.",
+    "choices": [
+      "labour",
+      "calamity",
+      "beshrew"
+    ],
+    "context": "Find the word’s meaning in the text.\n\nAlice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, “and what is the use of a book,” thought Alice “without pictures or conversation?” So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.",
+    "adaptation": "Ответ проверен по отрывку. В ключе организатора указан B.",
+    "answer": 0,
+    "steps": [
+      "Здесь Алиса соотносит удовольствие от венка с усилием, которое уйдёт на сбор цветов.",
+      "В этом контексте подходит labour, «труд». Calamity значит «бедствие»."
+    ]
+  },
+  {
+    "title": "Where Alice Sat",
+    "question": "Choose the closest meaning of “bank”.",
+    "choices": [
+      "bar",
+      "footstool",
+      "riverbank"
+    ],
+    "context": "Find the word’s meaning in the text.\n\nAlice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, “and what is the use of a book,” thought Alice “without pictures or conversation?” So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.",
+    "adaptation": "Вариант C исправлен. В исходнике bench.",
+    "answer": 2,
+    "steps": [
+      "В первой строке on the bank описывает место, где Алиса сидела рядом с сестрой.",
+      "В отрывке Льюиса Кэрролла действие происходит на берегу реки. Подходит riverbank."
+    ]
+  },
+  {
+    "title": "A Picture in a Book",
+    "question": "Choose the closest meaning of “picture”.",
+    "choices": [
+      "scene",
+      "canvas",
+      "illustration"
+    ],
+    "context": "Find the word’s meaning in the text.\n\nAlice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, “and what is the use of a book,” thought Alice “without pictures or conversation?” So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.",
+    "answer": 2,
+    "steps": [
+      "Pictures здесь — изображения, которых не хватает в книге.",
+      "Illustration — рисунок, который сопровождает текст."
+    ]
+  },
+  {
+    "title": "Making a Daisy Chain",
+    "question": "Choose the closest meaning of “pleasure”.",
+    "choices": [
+      "dislike",
+      "vile",
+      "delectation"
+    ],
+    "context": "Find the word’s meaning in the text.\n\nAlice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, “and what is the use of a book,” thought Alice “without pictures or conversation?” So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.",
+    "answer": 2,
+    "steps": [
+      "Pleasure — удовольствие, которое Алиса может получить от плетения.",
+      "Delectation — книжное слово со значением «наслаждение»."
+    ]
+  },
+  {
+    "title": "Weighing the Effort",
+    "question": "Choose the closest meaning of “worth”.",
+    "choices": [
+      "a bit",
+      "worth while",
+      "worth little"
+    ],
+    "context": "Find the word’s meaning in the text.\n\nAlice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, “and what is the use of a book,” thought Alice “without pictures or conversation?” So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.",
+    "answer": 1,
+    "steps": [
+      "«Be worth the trouble» значит «стоить затраченных усилий».",
+      "Worthwhile также означает «стоящий усилий». Современное написание обычно слитное."
+    ]
+  },
+  {
+    "title": "Picking Daisies",
+    "question": "Choose the closest meaning of “pick”.",
+    "choices": [
+      "gather",
+      "pet",
+      "pickle"
+    ],
+    "context": "Find the word’s meaning in the text.\n\nAlice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, “and what is the use of a book,” thought Alice “without pictures or conversation?” So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.",
+    "adaptation": "Вариант A исправлен. В исходнике peck.",
+    "answer": 0,
+    "steps": [
+      "Алиса собирается встать и сорвать маргаритки для венка.",
+      "Pick здесь означает собирать цветы, gather."
+    ]
+  },
+  {
+    "title": "Saturday Plans",
+    "question": "I think I … on Saturday, but I’m not sure.",
+    "choices": [
+      "am getting my hair cut",
+      "may get my hair cut",
+      "will have cut my hair"
+    ],
+    "answer": 1,
+    "steps": [
+      "But I’m not sure показывает, что план пока не определён.",
+      "May выражает возможность. «Get my hair cut» означает, что волосы подстрижёт кто-то другой."
+    ]
+  },
+  {
+    "title": "Painting the House",
+    "question": "He … when he can afford it.",
+    "choices": [
+      "will have painted his house",
+      "is going to have his house painted",
+      "would paint his house"
+    ],
+    "answer": 1,
+    "steps": [
+      "When he can afford it связывает намерение с будущей возможностью оплатить работу.",
+      "«Is going to have his house painted» означает «собирается заказать покраску дома»."
+    ]
+  },
+  {
+    "title": "A Precaution",
+    "question": "You should take malaria tablets before going to India … you get bitten by a mosquito.",
+    "choices": [
+      "if",
+      "by chance",
+      "in case"
+    ],
+    "answer": 2,
+    "steps": [
+      "Таблетки принимают заранее, на случай возможного укуса.",
+      "In case вводит обстоятельство, ради которого принимается мера предосторожности."
+    ]
+  },
+  {
+    "title": "Meals for the Puppies",
+    "question": "The dog only has one meal, but the puppies … three times a day.",
+    "choices": [
+      "have to be feed",
+      "must be feeding",
+      "need feeding"
+    ],
+    "answer": 2,
+    "steps": [
+      "Щенков необходимо кормить, то есть действие направлено на них.",
+      "Need + форма на -ing передаёт пассивный смысл, «need feeding»."
+    ]
+  },
+  {
+    "title": "A Difficult Exam",
+    "question": "The exam was too difficult … .",
+    "choices": [
+      "for finishing for him",
+      "to him for completing",
+      "for him to complete"
+    ],
+    "answer": 2,
+    "steps": [
+      "Too difficult требует дополнения, кому и что слишком трудно делать.",
+      "Конструкция «for him to complete» означает «чтобы он его выполнил»."
+    ]
+  },
+  {
+    "title": "Sales and Marketing",
+    "question": "I have a good job. I’m … sales and marketing.",
+    "choices": [
+      "the responsible for",
+      "in charge of",
+      "in charge for"
+    ],
+    "answer": 1,
+    "steps": [
+      "Говорящий отвечает за продажи и маркетинг.",
+      "Устойчивый оборот «in charge of» выражает эту обязанность."
+    ]
+  },
+  {
+    "title": "An Old Friendship",
+    "question": "I … a friend called Bob, but we’ve stopped writing to each other.",
+    "choices": [
+      "used to have",
+      "was having",
+      "would have"
+    ],
+    "answer": 0,
+    "steps": [
+      "Дружба относится к прошлому. Now they have stopped writing.",
+      "Used to have подходит для состояния, которое было раньше."
+    ]
+  },
+  {
+    "title": "Returning a Favour",
+    "question": "If someone does you a favor, you … a favor in return.",
+    "choices": [
+      "will do them",
+      "should do them",
+      "could do for them"
+    ],
+    "answer": 1,
+    "steps": [
+      "In return означает «в ответ». Здесь речь о совете отвечать добром на помощь.",
+      "Should выражает совет. Do them a favor — «оказать им услугу»."
+    ]
+  },
+  {
+    "title": "Outside with Journalists",
+    "question": "There are a lot of journalists outside. What’s …?",
+    "choices": [
+      "carrying on",
+      "coming across",
+      "going on"
+    ],
+    "answer": 2,
+    "steps": [
+      "Говорящий хочет узнать, что сейчас происходит.",
+      "«What’s going on?» — обычный вопрос «Что происходит?»."
+    ]
+  },
+  {
+    "title": "Commuting in Town",
+    "question": "… people in my town go to work by car.",
+    "choices": [
+      "Most of",
+      "The most of",
+      "Most of the"
+    ],
+    "answer": 2,
+    "steps": [
+      "People определены оборотом in my town. Речь о группе жителей конкретного города.",
+      "Most of the people означает «большинство этих людей». Most of people без the в такой конструкции не употребляется."
+    ]
+  }
+]

@@ -1,0 +1,1032 @@
+[
+  {
+    "title": "The Day of the Visit",
+    "question": "David will go to the sports club on … .",
+    "choices": [
+      "Sunday",
+      "Friday",
+      "Saturday",
+      "Monday"
+    ],
+    "answer": 2,
+    "steps": [
+      "В разговоре Дэвида и Клэр нужно услышать день посещения клуба.",
+      "David сообщает, что пойдёт в субботу, Saturday."
+    ],
+    "context": "Listen and fill in the gaps with the correct answers",
+    "audio": true
+  },
+  {
+    "title": "Claire’s Question",
+    "question": "Claire wants to get … from David.",
+    "choices": [
+      "money",
+      "clothes",
+      "information",
+      "new towels"
+    ],
+    "answer": 2,
+    "steps": [
+      "Claire просит Дэвида рассказать подробнее о клубе.",
+      "Information означает «сведения, информация»."
+    ],
+    "context": "Listen and fill in the gaps with the correct answers",
+    "audio": true
+  },
+  {
+    "title": "David’s Sport",
+    "question": "David is going to do … .",
+    "choices": [
+      "tennis",
+      "golf",
+      "swimming",
+      "nothing"
+    ],
+    "answer": 0,
+    "steps": [
+      "Прислушайся, какой вид спорта собирается выбрать Дэвид.",
+      "Он говорит о теннисе, tennis."
+    ],
+    "context": "Listen and fill in the gaps with the correct answers",
+    "audio": true
+  },
+  {
+    "title": "Opening Time",
+    "question": "The sports club opens at … o’clock.",
+    "choices": [
+      "9",
+      "8",
+      "12",
+      "10"
+    ],
+    "answer": 1,
+    "steps": [
+      "Ищи время, относящееся к слову opens.",
+      "Клуб открывается в восемь часов."
+    ],
+    "context": "Listen and fill in the gaps with the correct answers",
+    "audio": true
+  },
+  {
+    "title": "Meeting Place",
+    "question": "Claire and David will meet near … .",
+    "choices": [
+      "Claire’s house",
+      "the club",
+      "David’s house",
+      "the bus stop"
+    ],
+    "answer": 2,
+    "steps": [
+      "Вопрос о точке встречи, а не о месте занятий.",
+      "Они встречаются возле дома Дэвида."
+    ],
+    "context": "Listen and fill in the gaps with the correct answers",
+    "audio": true
+  },
+  {
+    "title": "Meeting Time",
+    "question": "Claire and David will meet at … .",
+    "choices": [
+      "9 o’clock",
+      "8 o’clock",
+      "10 p.m.",
+      "half past 9"
+    ],
+    "answer": 3,
+    "steps": [
+      "Half past nine — половина десятого, 9:30.",
+      "Это время встречи, а клуб открывается раньше."
+    ],
+    "context": "Listen and fill in the gaps with the correct answers",
+    "audio": true
+  },
+  {
+    "title": "Getting to the Club",
+    "question": "Claire and David will go to the club … .",
+    "choices": [
+      "by bicycle",
+      "by bus",
+      "on foot",
+      "by taxi"
+    ],
+    "answer": 0,
+    "steps": [
+      "By bicycle означает «на велосипеде».",
+      "Дэвид и Клэр поедут туда на велосипедах."
+    ],
+    "context": "Listen and fill in the gaps with the correct answers",
+    "audio": true
+  },
+  {
+    "title": "What to Bring",
+    "question": "Claire and David have to bring … to the club.",
+    "choices": [
+      "new towels",
+      "food",
+      "sports clothes",
+      "shoes"
+    ],
+    "answer": 2,
+    "steps": [
+      "Глагол bring подсказывает, что нужно взять с собой.",
+      "В записи называется то, что участникам нужно принести с собой: sports clothes, спортивную одежду."
+    ],
+    "context": "Listen and fill in the gaps with the correct answers",
+    "audio": true
+  },
+  {
+    "title": "What the Club Provides",
+    "question": "The club gives the people … .",
+    "choices": [
+      "sports clothes",
+      "towels",
+      "coffee",
+      "food"
+    ],
+    "answer": 1,
+    "steps": [
+      "Клуб выдаёт полотенца.",
+      "Towels — множественное число от towel, полотенце."
+    ],
+    "context": "Listen and fill in the gaps with the correct answers",
+    "audio": true
+  },
+  {
+    "title": "Paying Less",
+    "question": "Claire and David will pay less because they … .",
+    "choices": [
+      "study",
+      "work",
+      "are receiving a pension",
+      "are eighteen"
+    ],
+    "answer": 0,
+    "steps": [
+      "Они учатся, то есть имеют право на льготу для учащихся.",
+      "Поэтому в предложении подходит study."
+    ],
+    "context": "Listen and fill in the gaps with the correct answers",
+    "audio": true
+  },
+  {
+    "title": "Opening of the Zoo",
+    "question": "London Zoo was opened in the … century.",
+    "choices": [
+      "17th",
+      "16th",
+      "19th",
+      "18th"
+    ],
+    "answer": 2,
+    "steps": [
+      "В тексте указан 1847 год.",
+      "Годы с 1801 по 1900 относятся к XIX веку."
+    ],
+    "context": "Read the text and choose the correct answer\n\nLondon Zoo is situated in Regent’s Park. It was opened to the public in 1847. Today there are more than 700 species of animals in the Zoo. Some are very rare, such as the giant panda. Many of the animals were born in the Zoo, or in other zoos around the world. The elephants and rhinos have the biggest appetites in the Zoo. An elephant’s daily diet consists of hay, grass, cabbage, carrots, apples, potatoes, dates, bread, salt, vitamins and minerals, and so on. In the summer you can see a baby elephant walking around the Zoo with its keeper, or you can have a ride on a pony, donkey or camel. In the Children’s Zoo there are all kinds of pets and farm animals. At 3 o’clock each afternoon you can see the cows being milked. The milk is used to feed some of the other Zoo animals."
+  },
+  {
+    "title": "Species at the Zoo",
+    "question": "You can see more than … species of animals there.",
+    "choices": [
+      "7,000",
+      "7",
+      "700",
+      "70"
+    ],
+    "answer": 2,
+    "steps": [
+      "«More than 700 species» означает «более 700 видов».",
+      "Species — вид, форма во множественном числе такая же."
+    ],
+    "context": "Read the text and choose the correct answer\n\nLondon Zoo is situated in Regent’s Park. It was opened to the public in 1847. Today there are more than 700 species of animals in the Zoo. Some are very rare, such as the giant panda. Many of the animals were born in the Zoo, or in other zoos around the world. The elephants and rhinos have the biggest appetites in the Zoo. An elephant’s daily diet consists of hay, grass, cabbage, carrots, apples, potatoes, dates, bread, salt, vitamins and minerals, and so on. In the summer you can see a baby elephant walking around the Zoo with its keeper, or you can have a ride on a pony, donkey or camel. In the Children’s Zoo there are all kinds of pets and farm animals. At 3 o’clock each afternoon you can see the cows being milked. The milk is used to feed some of the other Zoo animals."
+  },
+  {
+    "title": "Giant Pandas",
+    "question": "Giant pandas are very … animals.",
+    "choices": [
+      "rare",
+      "active",
+      "aggressive",
+      "tiny"
+    ],
+    "answer": 0,
+    "steps": [
+      "Автор пишет «Some are very rare, such as the giant panda».",
+      "Rare значит «редкий»."
+    ],
+    "context": "Read the text and choose the correct answer\n\nLondon Zoo is situated in Regent’s Park. It was opened to the public in 1847. Today there are more than 700 species of animals in the Zoo. Some are very rare, such as the giant panda. Many of the animals were born in the Zoo, or in other zoos around the world. The elephants and rhinos have the biggest appetites in the Zoo. An elephant’s daily diet consists of hay, grass, cabbage, carrots, apples, potatoes, dates, bread, salt, vitamins and minerals, and so on. In the summer you can see a baby elephant walking around the Zoo with its keeper, or you can have a ride on a pony, donkey or camel. In the Children’s Zoo there are all kinds of pets and farm animals. At 3 o’clock each afternoon you can see the cows being milked. The milk is used to feed some of the other Zoo animals."
+  },
+  {
+    "title": "The Biggest Eaters",
+    "question": "… are the best eaters in London Zoo.",
+    "choices": [
+      "Rhinoceroses",
+      "Crocodiles",
+      "Cows",
+      "Camels"
+    ],
+    "answer": 0,
+    "steps": [
+      "В тексте слоны и носороги названы животными с самым большим аппетитом.",
+      "Из вариантов есть rhinoceroses, носороги."
+    ],
+    "context": "Read the text and choose the correct answer\n\nLondon Zoo is situated in Regent’s Park. It was opened to the public in 1847. Today there are more than 700 species of animals in the Zoo. Some are very rare, such as the giant panda. Many of the animals were born in the Zoo, or in other zoos around the world. The elephants and rhinos have the biggest appetites in the Zoo. An elephant’s daily diet consists of hay, grass, cabbage, carrots, apples, potatoes, dates, bread, salt, vitamins and minerals, and so on. In the summer you can see a baby elephant walking around the Zoo with its keeper, or you can have a ride on a pony, donkey or camel. In the Children’s Zoo there are all kinds of pets and farm animals. At 3 o’clock each afternoon you can see the cows being milked. The milk is used to feed some of the other Zoo animals."
+  },
+  {
+    "title": "The Elephants’ Diet",
+    "question": "The elephants don’t eat … every day.",
+    "choices": [
+      "dates",
+      "hay",
+      "grass",
+      "sugar"
+    ],
+    "answer": 3,
+    "steps": [
+      "В списке ежедневной еды есть сено, овощи, фрукты, хлеб и соль.",
+      "Сахар, sugar, там не упоминается."
+    ],
+    "context": "Read the text and choose the correct answer\n\nLondon Zoo is situated in Regent’s Park. It was opened to the public in 1847. Today there are more than 700 species of animals in the Zoo. Some are very rare, such as the giant panda. Many of the animals were born in the Zoo, or in other zoos around the world. The elephants and rhinos have the biggest appetites in the Zoo. An elephant’s daily diet consists of hay, grass, cabbage, carrots, apples, potatoes, dates, bread, salt, vitamins and minerals, and so on. In the summer you can see a baby elephant walking around the Zoo with its keeper, or you can have a ride on a pony, donkey or camel. In the Children’s Zoo there are all kinds of pets and farm animals. At 3 o’clock each afternoon you can see the cows being milked. The milk is used to feed some of the other Zoo animals."
+  },
+  {
+    "title": "The Baby Elephant",
+    "question": "The baby elephant walks around the Zoo with a … .",
+    "choices": [
+      "director",
+      "keeper",
+      "passer-by",
+      "doctor"
+    ],
+    "answer": 1,
+    "steps": [
+      "Слонёнок гуляет «with its keeper».",
+      "Keeper — человек, который ухаживает за животным."
+    ],
+    "context": "Read the text and choose the correct answer\n\nLondon Zoo is situated in Regent’s Park. It was opened to the public in 1847. Today there are more than 700 species of animals in the Zoo. Some are very rare, such as the giant panda. Many of the animals were born in the Zoo, or in other zoos around the world. The elephants and rhinos have the biggest appetites in the Zoo. An elephant’s daily diet consists of hay, grass, cabbage, carrots, apples, potatoes, dates, bread, salt, vitamins and minerals, and so on. In the summer you can see a baby elephant walking around the Zoo with its keeper, or you can have a ride on a pony, donkey or camel. In the Children’s Zoo there are all kinds of pets and farm animals. At 3 o’clock each afternoon you can see the cows being milked. The milk is used to feed some of the other Zoo animals."
+  },
+  {
+    "title": "Animals to Ride",
+    "question": "Visitors can’t ride on a … .",
+    "choices": [
+      "pony",
+      "camel",
+      "rhino",
+      "donkey"
+    ],
+    "answer": 2,
+    "steps": [
+      "Посетителям предлагают прокатиться на пони, осле или верблюде.",
+      "Носорог, rhino, в этот список не входит."
+    ],
+    "context": "Read the text and choose the correct answer\n\nLondon Zoo is situated in Regent’s Park. It was opened to the public in 1847. Today there are more than 700 species of animals in the Zoo. Some are very rare, such as the giant panda. Many of the animals were born in the Zoo, or in other zoos around the world. The elephants and rhinos have the biggest appetites in the Zoo. An elephant’s daily diet consists of hay, grass, cabbage, carrots, apples, potatoes, dates, bread, salt, vitamins and minerals, and so on. In the summer you can see a baby elephant walking around the Zoo with its keeper, or you can have a ride on a pony, donkey or camel. In the Children’s Zoo there are all kinds of pets and farm animals. At 3 o’clock each afternoon you can see the cows being milked. The milk is used to feed some of the other Zoo animals."
+  },
+  {
+    "title": "The Children’s Zoo",
+    "question": "You can see these animals in the Children’s Zoo.",
+    "choices": [
+      "Amphibians",
+      "Wild animals",
+      "Pets and farm animals",
+      "Sea animals"
+    ],
+    "answer": 2,
+    "steps": [
+      "«Pets and farm animals» — домашние питомцы и сельскохозяйственные животные.",
+      "Это прямо сказано про детский зоопарк."
+    ],
+    "context": "Read the text and choose the correct answer\n\nLondon Zoo is situated in Regent’s Park. It was opened to the public in 1847. Today there are more than 700 species of animals in the Zoo. Some are very rare, such as the giant panda. Many of the animals were born in the Zoo, or in other zoos around the world. The elephants and rhinos have the biggest appetites in the Zoo. An elephant’s daily diet consists of hay, grass, cabbage, carrots, apples, potatoes, dates, bread, salt, vitamins and minerals, and so on. In the summer you can see a baby elephant walking around the Zoo with its keeper, or you can have a ride on a pony, donkey or camel. In the Children’s Zoo there are all kinds of pets and farm animals. At 3 o’clock each afternoon you can see the cows being milked. The milk is used to feed some of the other Zoo animals."
+  },
+  {
+    "title": "Three in the Afternoon",
+    "question": "Each afternoon at three o’clock they … .",
+    "choices": [
+      "walk the baby elephant",
+      "feed pandas",
+      "milk the cows",
+      "ride in a cart"
+    ],
+    "answer": 2,
+    "steps": [
+      "В тексте сказано «you can see the cows being milked».",
+      "Milk the cows означает «доить коров»."
+    ],
+    "context": "Read the text and choose the correct answer\n\nLondon Zoo is situated in Regent’s Park. It was opened to the public in 1847. Today there are more than 700 species of animals in the Zoo. Some are very rare, such as the giant panda. Many of the animals were born in the Zoo, or in other zoos around the world. The elephants and rhinos have the biggest appetites in the Zoo. An elephant’s daily diet consists of hay, grass, cabbage, carrots, apples, potatoes, dates, bread, salt, vitamins and minerals, and so on. In the summer you can see a baby elephant walking around the Zoo with its keeper, or you can have a ride on a pony, donkey or camel. In the Children’s Zoo there are all kinds of pets and farm animals. At 3 o’clock each afternoon you can see the cows being milked. The milk is used to feed some of the other Zoo animals."
+  },
+  {
+    "title": "How the Milk Is Used",
+    "question": "At the Zoo they use milk to … .",
+    "choices": [
+      "feed the animals",
+      "make cheese",
+      "feed the visitors",
+      "make butter"
+    ],
+    "answer": 0,
+    "steps": [
+      "Найди последнее предложение текста. Вопрос о том, что делают с полученным молоком.",
+      "«The milk is used to feed some of the other Zoo animals» указывает, что молоком кормят животных."
+    ],
+    "context": "Read the text and choose the correct answer\n\nLondon Zoo is situated in Regent’s Park. It was opened to the public in 1847. Today there are more than 700 species of animals in the Zoo. Some are very rare, such as the giant panda. Many of the animals were born in the Zoo, or in other zoos around the world. The elephants and rhinos have the biggest appetites in the Zoo. An elephant’s daily diet consists of hay, grass, cabbage, carrots, apples, potatoes, dates, bread, salt, vitamins and minerals, and so on. In the summer you can see a baby elephant walking around the Zoo with its keeper, or you can have a ride on a pony, donkey or camel. In the Children’s Zoo there are all kinds of pets and farm animals. At 3 o’clock each afternoon you can see the cows being milked. The milk is used to feed some of the other Zoo animals."
+  },
+  {
+    "title": "New Trainers",
+    "question": "… are my new trainers.",
+    "choices": [
+      "These",
+      "This",
+      "Their",
+      "That"
+    ],
+    "answer": 0,
+    "steps": [
+      "Trainers — кроссовки, множественное число.",
+      "Указательное these тоже относится к предметам во множественном числе."
+    ],
+    "context": "Choose the correct variant"
+  },
+  {
+    "title": "A Girl in the Picture",
+    "question": "… a little girl in the picture.",
+    "choices": [
+      "There is",
+      "They is",
+      "There are",
+      "There"
+    ],
+    "answer": 0,
+    "steps": [
+      "Чтобы сказать, что на картинке есть девочка, подходит «there is».",
+      "A little girl — единственное число."
+    ],
+    "context": "Choose the correct variant"
+  },
+  {
+    "title": "Sally’s Home",
+    "question": "… is Sally from?",
+    "choices": [
+      "When",
+      "What",
+      "Who",
+      "Where"
+    ],
+    "answer": 3,
+    "steps": [
+      "«Where is Sally from?» спрашивает, откуда Салли родом.",
+      "Where указывает на место."
+    ],
+    "context": "Choose the correct variant"
+  },
+  {
+    "title": "The First Lesson",
+    "question": "What time … the first lesson start?",
+    "choices": [
+      "do",
+      "is",
+      "has",
+      "does"
+    ],
+    "answer": 3,
+    "steps": [
+      "The first lesson — третье лицо единственного числа.",
+      "В вопросе Present Simple используем does и базовую форму start."
+    ],
+    "context": "Choose the correct variant"
+  },
+  {
+    "title": "Money They Have",
+    "question": "They haven’t got … money.",
+    "choices": [
+      "many",
+      "much",
+      "some",
+      "few"
+    ],
+    "answer": 1,
+    "steps": [
+      "Money — неисчисляемое существительное.",
+      "В отрицательном предложении «haven’t got much money» значит «денег немного»."
+    ],
+    "context": "Choose the correct variant"
+  },
+  {
+    "title": "Tennis Right Now",
+    "question": "Mary and Tom … tennis now.",
+    "choices": [
+      "they are playing",
+      "play",
+      "are playing",
+      "plays"
+    ],
+    "answer": 2,
+    "steps": [
+      "Now указывает на действие в этот момент.",
+      "Mary and Tom во множественном числе, поэтому «are playing»."
+    ],
+    "context": "Choose the correct variant"
+  },
+  {
+    "title": "Getting Up",
+    "question": "Maria … early in the morning.",
+    "choices": [
+      "do get up",
+      "get up",
+      "doesn’t get up",
+      "get ups"
+    ],
+    "answer": 2,
+    "steps": [
+      "Maria — третье лицо единственного числа.",
+      "В отрицании используем doesn’t, а get остаётся в базовой форме."
+    ],
+    "context": "Choose the correct variant"
+  },
+  {
+    "title": "Chocolate in the Cupboard",
+    "question": "There isn’t … chocolate in the cupboard.",
+    "choices": [
+      "no",
+      "some",
+      "many",
+      "any"
+    ],
+    "answer": 3,
+    "steps": [
+      "В конструкции «there isn’t» отрицание уже выражено.",
+      "Перед неисчисляемым chocolate ставим any."
+    ],
+    "context": "Choose the correct variant"
+  },
+  {
+    "title": "Going to School",
+    "question": "How do you go to school?",
+    "choices": [
+      "By walk",
+      "On bus",
+      "On foot",
+      "In bike"
+    ],
+    "answer": 2,
+    "steps": [
+      "Как добираешься, спрашивает how.",
+      "«On foot» — устойчивое сочетание «пешком»."
+    ],
+    "context": "Choose the correct variant"
+  },
+  {
+    "title": "Shutting the Door",
+    "question": "Tom shut the door … him.",
+    "choices": [
+      "among",
+      "between",
+      "far",
+      "behind"
+    ],
+    "answer": 3,
+    "steps": [
+      "«Behind him» — «за ним».",
+      "Том вышел и закрыл дверь за собой."
+    ],
+    "context": "Choose the correct variant"
+  },
+  {
+    "title": "Baby",
+    "question": "Find the correct plural forms",
+    "choices": [
+      "Babyes",
+      "Babys",
+      "Babies",
+      "Babis"
+    ],
+    "answer": 2,
+    "steps": [
+      "Посмотри на последнюю букву baby и на букву перед ней.",
+      "После согласной перед y при образовании множественного числа y меняется на i и добавляется -es: baby → babies."
+    ]
+  },
+  {
+    "title": "Man",
+    "question": "Find the correct plural forms",
+    "choices": [
+      "Men",
+      "Man",
+      "Mens",
+      "Mans"
+    ],
+    "answer": 0,
+    "steps": [
+      "В вариантах для man есть формы с -s и форма с другой гласной.",
+      "У этого слова особая форма множественного числа: man → men."
+    ]
+  },
+  {
+    "title": "Child",
+    "question": "Find the correct plural forms",
+    "choices": [
+      "Childs",
+      "Child",
+      "Childrens",
+      "Children"
+    ],
+    "answer": 3,
+    "steps": [
+      "Множественное число child — children.",
+      "Дополнительное окончание -s не нужно."
+    ]
+  },
+  {
+    "title": "Photo",
+    "question": "Find the correct plural forms",
+    "choices": [
+      "Photos",
+      "Photo",
+      "Photoies",
+      "Photoes"
+    ],
+    "answer": 0,
+    "steps": [
+      "Для photo добавляем только -s: photos.",
+      "Слова на -o образуют множественное число по разным правилам."
+    ]
+  },
+  {
+    "title": "Leaf",
+    "question": "Find the correct plural forms",
+    "choices": [
+      "Leavs",
+      "Leafs",
+      "Leavies",
+      "Leaves"
+    ],
+    "answer": 3,
+    "steps": [
+      "В слове leaf нужно проверить, что произойдёт с конечной f.",
+      "У leaf во множественном числе f меняется на v и прибавляется -es: leaves."
+    ]
+  },
+  {
+    "title": "Foot",
+    "question": "Find the correct plural forms",
+    "choices": [
+      "Foots",
+      "Foot",
+      "Feets",
+      "Feet"
+    ],
+    "answer": 3,
+    "steps": [
+      "У foot во множественном числе меняется гласная: feet.",
+      "Сюда не нужно добавлять -s."
+    ]
+  },
+  {
+    "title": "Toy",
+    "question": "Find the correct plural forms",
+    "choices": [
+      "Toies",
+      "Toy",
+      "Toys",
+      "Toyes"
+    ],
+    "answer": 2,
+    "steps": [
+      "Перед y в toy стоит гласная o.",
+      "Поэтому y сохраняется и добавляется только -s: toys."
+    ]
+  },
+  {
+    "title": "Singular and Plural",
+    "question": "What is the plural form of “deer”?",
+    "choices": [
+      "Deers",
+      "Deer",
+      "Deeries",
+      "Deeres"
+    ],
+    "answer": 1,
+    "steps": [
+      "Сравни написание слова после one и после two.",
+      "Deer имеет одну форму в обоих числах: one deer, two deer."
+    ]
+  },
+  {
+    "title": "Woman",
+    "question": "Find the correct plural forms",
+    "choices": [
+      "Woman",
+      "Women",
+      "Womans",
+      "Womens"
+    ],
+    "answer": 1,
+    "steps": [
+      "У woman неправильная форма множественного числа: women.",
+      "Меняются написание и произношение."
+    ]
+  },
+  {
+    "title": "Potato",
+    "question": "Find the correct plural forms",
+    "choices": [
+      "Potatos",
+      "Potato",
+      "Potatoies",
+      "Potatoes"
+    ],
+    "answer": 3,
+    "steps": [
+      "Potato оканчивается на -o. Сравни варианты с -s и с -es.",
+      "У potato множественное число заканчивается на -es: potatoes."
+    ]
+  },
+  {
+    "title": "Something to Drink",
+    "question": "I don’t like lemonade, is there anything else?",
+    "choices": [
+      "Let’s have juice.",
+      "I’ll get you some.",
+      "I like lemonade.",
+      "Not at all."
+    ],
+    "answer": 0,
+    "steps": [
+      "Первый человек не любит лимонад и спрашивает, что есть ещё.",
+      "Предложение «Let’s have juice» называет другую подходящую возможность."
+    ],
+    "context": "Match the question to the answers"
+  },
+  {
+    "title": "Using a Phone",
+    "question": "Can I use your phone, please?",
+    "choices": [
+      "Sure, no problem.",
+      "They’re all right.",
+      "I have a telephone.",
+      "It doesn’t matter."
+    ],
+    "answer": 0,
+    "steps": [
+      "«Can I use …?» — вежливый запрос разрешения.",
+      "«Sure, no problem» даёт такое разрешение."
+    ],
+    "context": "Match the question to the answers"
+  },
+  {
+    "title": "Something to Do",
+    "question": "I’m feeling bored; what can we do?",
+    "choices": [
+      "No, I’m fine, thanks.",
+      "I like bikes.",
+      "Let’s go for a bike ride.",
+      "That’s a good idea."
+    ],
+    "answer": 2,
+    "steps": [
+      "Собеседник спрашивает, чем заняться от скуки.",
+      "«Let’s go for a bike ride» предлагает покататься на велосипеде."
+    ],
+    "context": "Match the question to the answers"
+  },
+  {
+    "title": "Length of the Trip",
+    "question": "How long does the trip take?",
+    "choices": [
+      "At 3 p.m.",
+      "In May.",
+      "On Friday.",
+      "One hour."
+    ],
+    "answer": 3,
+    "steps": [
+      "How long спрашивает о длительности, а не о дне или времени начала.",
+      "One hour — один час."
+    ],
+    "context": "Match the question to the answers"
+  },
+  {
+    "title": "A Cup of Coffee",
+    "question": "Would you like a cup of coffee?",
+    "choices": [
+      "Not at the moment, thanks.",
+      "I’m thirsty.",
+      "Yes, I can make coffee.",
+      "I’m not hungry."
+    ],
+    "answer": 0,
+    "steps": [
+      "«Would you like …?» — предложение.",
+      "«Not at the moment, thanks» вежливо отказывается: «не сейчас, спасибо»."
+    ],
+    "context": "Match the question to the answers"
+  },
+  {
+    "title": "Her Job",
+    "question": "What is she?",
+    "choices": [
+      "She has grey eyes.",
+      "She is a teacher.",
+      "She is Ann Brown.",
+      "She likes pizza."
+    ],
+    "answer": 1,
+    "steps": [
+      "В этом контексте «What is she?» спрашивает о профессии.",
+      "«She is a teacher» сообщает, что она учительница."
+    ],
+    "context": "Match the question to the answers"
+  },
+  {
+    "title": "How Are You Doing?",
+    "question": "How are you doing?",
+    "choices": [
+      "I’m doing homework.",
+      "I am doing nothing.",
+      "I do it well.",
+      "I’m fine, thanks."
+    ],
+    "answer": 3,
+    "steps": [
+      "Это приветственный вопрос о самочувствии или делах.",
+      "«I’m fine, thanks» отвечает на него."
+    ],
+    "context": "Match the question to the answers"
+  },
+  {
+    "title": "Where to Shop",
+    "question": "Where do you want to go shopping?",
+    "choices": [
+      "At the zoo.",
+      "At the market.",
+      "At the library.",
+      "At the circus."
+    ],
+    "answer": 1,
+    "steps": [
+      "«Where … go shopping?» спрашивает о месте для покупок.",
+      "At the market — на рынке."
+    ],
+    "context": "Match the question to the answers"
+  },
+  {
+    "title": "Whose Book?",
+    "question": "Whose book is it?",
+    "choices": [
+      "It’s my.",
+      "It’s Ann.",
+      "Its mine.",
+      "It’s Ann’s."
+    ],
+    "answer": 3,
+    "steps": [
+      "Whose спрашивает о владельце.",
+      "«Ann’s» с апострофом означает, что книга принадлежит Энн."
+    ],
+    "context": "Match the question to the answers"
+  },
+  {
+    "title": "Yesterday’s Destination",
+    "question": "Where did you go yesterday?",
+    "choices": [
+      "I went at school.",
+      "Yes, I was at home.",
+      "I went yesterday.",
+      "I went to the library."
+    ],
+    "answer": 3,
+    "steps": [
+      "Глагол went в ответе относится к вчера.",
+      "«To the library» называет место, куда человек ходил."
+    ],
+    "context": "Match the question to the answers"
+  },
+  {
+    "title": "What Room?",
+    "question": "Which room is it? It’s a … .",
+    "choices": [
+      "kitchen",
+      "hall",
+      "living room",
+      "study"
+    ],
+    "answer": 2,
+    "steps": [
+      "В комнате есть диван, телевизор и журнальный столик.",
+      "По такой обстановке определяем living room, гостиную."
+    ],
+    "context": "Look at the picture and answer the questions",
+    "figures": [
+      {
+        "src": "assets/british-bulldog/2016/3-4/variant-2/living-room.webp",
+        "alt": "A boy and a woman cleaning a room",
+        "caption": "A boy and a woman cleaning a room"
+      }
+    ]
+  },
+  {
+    "title": "On the Sofa",
+    "question": "What animal is sitting on the sofa? A … .",
+    "choices": [
+      "cat",
+      "dog",
+      "rabbit",
+      "hamster"
+    ],
+    "answer": 0,
+    "steps": [
+      "На диване видно оранжевое животное с кошачьими ушами и хвостом.",
+      "Это cat."
+    ],
+    "context": "Look at the picture and answer the questions",
+    "figures": [
+      {
+        "src": "assets/british-bulldog/2016/3-4/variant-2/living-room.webp",
+        "alt": "A boy and a woman cleaning a room",
+        "caption": "A boy and a woman cleaning a room"
+      }
+    ]
+  },
+  {
+    "title": "An Item on the Sofa",
+    "question": "What is there on the sofa? A … .",
+    "choices": [
+      "blanket",
+      "cushion",
+      "sheet",
+      "carpet"
+    ],
+    "answer": 1,
+    "steps": [
+      "На зелёном диване лежит декоративная подушка.",
+      "Это cushion, небольшая диванная подушка."
+    ],
+    "context": "Look at the picture and answer the questions",
+    "figures": [
+      {
+        "src": "assets/british-bulldog/2016/3-4/variant-2/living-room.webp",
+        "alt": "A boy and a woman cleaning a room",
+        "caption": "A boy and a woman cleaning a room"
+      }
+    ]
+  },
+  {
+    "title": "Near the Window",
+    "question": "What can you see hanging near the window? A … .",
+    "choices": [
+      "tablecloth",
+      "carpet",
+      "blanket",
+      "curtain"
+    ],
+    "answer": 3,
+    "steps": [
+      "У окна висит ткань, которая закрывает часть стекла.",
+      "Curtain — штора."
+    ],
+    "context": "Look at the picture and answer the questions",
+    "figures": [
+      {
+        "src": "assets/british-bulldog/2016/3-4/variant-2/living-room.webp",
+        "alt": "A boy and a woman cleaning a room",
+        "caption": "A boy and a woman cleaning a room"
+      }
+    ]
+  },
+  {
+    "title": "On the Floor",
+    "question": "What can you see on the floor? A … .",
+    "choices": [
+      "tablecloth",
+      "carpet",
+      "blanket",
+      "curtain"
+    ],
+    "answer": 1,
+    "steps": [
+      "На полу виден большой зелёный ковёр.",
+      "Carpet — ковёр."
+    ],
+    "context": "Look at the picture and answer the questions",
+    "figures": [
+      {
+        "src": "assets/british-bulldog/2016/3-4/variant-2/living-room.webp",
+        "alt": "A boy and a woman cleaning a room",
+        "caption": "A boy and a woman cleaning a room"
+      }
+    ]
+  },
+  {
+    "title": "On Her Feet",
+    "question": "What is the mother wearing on her feet?",
+    "choices": [
+      "Slippers",
+      "Trainers",
+      "Shoes",
+      "Boots"
+    ],
+    "answer": 0,
+    "steps": [
+      "У женщины жёлтая домашняя обувь.",
+      "Slippers — тапочки."
+    ],
+    "context": "Look at the picture and answer the questions",
+    "figures": [
+      {
+        "src": "assets/british-bulldog/2016/3-4/variant-2/living-room.webp",
+        "alt": "A boy and a woman cleaning a room",
+        "caption": "A boy and a woman cleaning a room"
+      }
+    ]
+  },
+  {
+    "title": "Flowers in the Vase",
+    "question": "How many flowers are there in the vase?",
+    "choices": [
+      "Two",
+      "One",
+      "Four",
+      "Three"
+    ],
+    "answer": 3,
+    "steps": [
+      "На столике стоит синяя ваза.",
+      "Если считать отдельные цветки, их три."
+    ],
+    "context": "Look at the picture and answer the questions",
+    "figures": [
+      {
+        "src": "assets/british-bulldog/2016/3-4/variant-2/living-room.webp",
+        "alt": "A boy and a woman cleaning a room",
+        "caption": "A boy and a woman cleaning a room"
+      }
+    ]
+  },
+  {
+    "title": "Where the Lamp Is",
+    "question": "Where is the floor lamp? It’s next to the … .",
+    "choices": [
+      "window",
+      "TV set",
+      "sofa",
+      "plant"
+    ],
+    "answer": 2,
+    "steps": [
+      "Торшер стоит в правом углу рядом с зелёным диваном.",
+      "Sofa — диван."
+    ],
+    "context": "Look at the picture and answer the questions",
+    "figures": [
+      {
+        "src": "assets/british-bulldog/2016/3-4/variant-2/living-room.webp",
+        "alt": "A boy and a woman cleaning a room",
+        "caption": "A boy and a woman cleaning a room"
+      }
+    ]
+  },
+  {
+    "title": "What the Mother Is Doing",
+    "question": "What is the mother doing?",
+    "choices": [
+      "Vacuuming the carpet",
+      "Dusting furniture",
+      "Mopping the floor",
+      "Washing the dishes"
+    ],
+    "answer": 0,
+    "steps": [
+      "У мамы в руках трубка, соединённая с пылесосом.",
+      "Она пылесосит ковёр: «vacuuming the carpet»."
+    ],
+    "context": "Look at the picture and answer the questions",
+    "figures": [
+      {
+        "src": "assets/british-bulldog/2016/3-4/variant-2/living-room.webp",
+        "alt": "A boy and a woman cleaning a room",
+        "caption": "A boy and a woman cleaning a room"
+      }
+    ]
+  },
+  {
+    "title": "The Boy’s Task",
+    "question": "What is the boy doing?",
+    "choices": [
+      "Shopping",
+      "Cleaning the window",
+      "Resting",
+      "Cooking"
+    ],
+    "answer": 1,
+    "steps": [
+      "Мальчик поднял руки к оконному стеклу.",
+      "Он протирает окно, «cleaning the window»."
+    ],
+    "context": "Look at the picture and answer the questions",
+    "figures": [
+      {
+        "src": "assets/british-bulldog/2016/3-4/variant-2/living-room.webp",
+        "alt": "A boy and a woman cleaning a room",
+        "caption": "A boy and a woman cleaning a room"
+      }
+    ]
+  }
+]

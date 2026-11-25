@@ -1,0 +1,895 @@
+[
+  {
+    "title": "Last Year's Holiday",
+    "question": "Which island did the woman visit last year?",
+    "choices": [
+      "Crete",
+      "Greece",
+      "Cyprus"
+    ],
+    "context": "Listen to the recording and choose the answer.",
+    "audio": true,
+    "adaptation": "Уточнено, что нужен остров. В записи назван Крит, который находится в Греции.",
+    "answer": 0,
+    "steps": [
+      "В начале мужчина спрашивает, поедут ли супруги на Крит опять, «going to Crete again».",
+      "Слово again указывает, что на Крите они уже были в прошлом году."
+    ]
+  },
+  {
+    "title": "This Year's Destination",
+    "question": "Which island is the woman going to this year?",
+    "choices": [
+      "Crete",
+      "Croatia",
+      "Greece"
+    ],
+    "context": "Listen to the recording and choose the answer.",
+    "audio": true,
+    "adaptation": "Уточнено, что нужен остров. В записи супруги едут на другой курорт всё того же Крита.",
+    "answer": 0,
+    "steps": [
+      "Женщина утвердительно отвечает на вопрос о поездке на Крит.",
+      "Слова «a different resort» означают другой курорт на том же острове."
+    ]
+  },
+  {
+    "title": "Holiday Accommodation",
+    "question": "She and her husband are staying in … .",
+    "choices": [
+      "a town",
+      "a hotel",
+      "a small village"
+    ],
+    "context": "Listen to the recording and choose the answer.",
+    "audio": true,
+    "answer": 2,
+    "steps": [
+      "Женщина объясняет, где они будут жить. Ищи фразу после упоминания Ираклиона.",
+      "Она говорит «in a small village» — в маленькой деревне."
+    ]
+  },
+  {
+    "title": "Near the Bungalow",
+    "question": "They are staying by the … .",
+    "choices": [
+      "forest",
+      "sea",
+      "ocean"
+    ],
+    "context": "Listen to the recording and choose the answer.",
+    "audio": true,
+    "answer": 1,
+    "steps": [
+      "Место описано словами «in a small village by the sea».",
+      "By the sea означает «у моря»."
+    ]
+  },
+  {
+    "title": "Length of the Booking",
+    "question": "The bungalow is booked for … .",
+    "choices": [
+      "forty nights",
+      "a fortnight",
+      "thirty nights"
+    ],
+    "context": "Listen to the recording and choose the answer.",
+    "audio": true,
+    "answer": 1,
+    "steps": [
+      "После «We’ve booked a bungalow» звучит «for a fortnight».",
+      "Fortnight — две недели, то есть четырнадцать ночей."
+    ]
+  },
+  {
+    "title": "Staying in a Bungalow",
+    "question": "Bungalow means … .",
+    "choices": [
+      "cooking and cleaning",
+      "eating out",
+      "no swimming"
+    ],
+    "context": "Listen to the recording and choose the answer.",
+    "audio": true,
+    "answer": 0,
+    "steps": [
+      "Мужчина слышит о бунгало и спрашивает «Won’t that mean cooking and cleaning?».",
+      "Он предполагает, что придётся самим готовить и убирать."
+    ]
+  },
+  {
+    "title": "The Husband on Holiday",
+    "question": "The woman’s husband enjoys … on holiday.",
+    "choices": [
+      "cooking",
+      "sing",
+      "to eating out"
+    ],
+    "context": "Listen to the recording and choose the answer.",
+    "audio": true,
+    "answer": 0,
+    "steps": [
+      "После рассказа о ресторанах женщина говорит о своём муже.",
+      "«My husband enjoys cooking» означает, что ему нравится готовить."
+    ]
+  },
+  {
+    "title": "The Husband's Cooking",
+    "question": "He can cook … .",
+    "choices": [
+      "breakfast",
+      "cookies",
+      "fast food"
+    ],
+    "context": "Listen to the recording and choose the answer.",
+    "audio": true,
+    "answer": 0,
+    "steps": [
+      "В ответ на вопрос о навыках мужа женщина называет breakfast и pasta.",
+      "Из предложенного в записи прямо назван breakfast."
+    ]
+  },
+  {
+    "title": "Local Restaurants",
+    "question": "Local restaurants are … .",
+    "choices": [
+      "awful",
+      "dirty",
+      "very good"
+    ],
+    "context": "Listen to the recording and choose the answer.",
+    "audio": true,
+    "answer": 2,
+    "steps": [
+      "Женщина оценивает приготовленную мужем пасту и отдельно говорит о ресторанах.",
+      "«The local restaurants are very good» — местные рестораны очень хорошие."
+    ]
+  },
+  {
+    "title": "The Man's Plans",
+    "question": "The man decided to try … .",
+    "choices": [
+      "Malta this year",
+      "Malta next year",
+      "Turkey this year"
+    ],
+    "context": "Listen to the recording and choose the answer.",
+    "audio": true,
+    "answer": 0,
+    "steps": [
+      "В конце разговора мужчина говорит, что выбрал Мальту.",
+      "«We’ve decided to try Malta this year» значит, что он собирается туда в этом году."
+    ]
+  },
+  {
+    "title": "Describing Frankie",
+    "question": "Complete gap 11 in the text.",
+    "choices": [
+      "is",
+      "are",
+      "am"
+    ],
+    "context": "Read the text and choose the answer.\n\nFrankie [11] green and very tall. He has yellow eyes, black hair and a small nose. He also has enormous hands and [12]. He isn’t pretty. In fact, he’s very ugly and people [13] him a monster. They are afraid of him and always run away [14] they see him. But Frankie isn’t bad! He is an intelligent man and he loves reading. He has [15] of books in his little house. He likes writing stories. He sells his stories [16] make money. He also likes [17] his computer and the Internet to write to people. They don’t know that he is ugly and they enjoy his letters. They sometimes ask him for his photograph, but Frankie never sends it. Frankie enjoys gardening. There are a lot of vegetables, fruit trees and roses in [18] big garden. He loves roses! He puts bread out in the garden for the birds so there are a lot of birds too. They [19] afraid of him! Frankie never eats meat. He doesn’t like it. He eats vegetables, fruit and bread. Because he doesn’t like it when people run away from him, he orders all his shopping by the Internet. The shop delivers his shopping to his house. In this way, people don’t see him and he feels [20]. And when it is raining he doesn’t have to go out of the house. He doesn’t like the rain and he is afraid of thunder and lightning.",
+    "answer": 0,
+    "steps": [
+      "Frankie — имя одного человека, поэтому подходит форма для he.",
+      "Во фразе «Frankie is green and very tall» is связывает подлежащее с признаками."
+    ]
+  },
+  {
+    "title": "Frankie’s Limbs",
+    "question": "Complete gap 12 in the text.",
+    "choices": [
+      "foot",
+      "feet",
+      "foots"
+    ],
+    "context": "Read the text and choose the answer.\n\nFrankie [11] green and very tall. He has yellow eyes, black hair and a small nose. He also has enormous hands and [12]. He isn’t pretty. In fact, he’s very ugly and people [13] him a monster. They are afraid of him and always run away [14] they see him. But Frankie isn’t bad! He is an intelligent man and he loves reading. He has [15] of books in his little house. He likes writing stories. He sells his stories [16] make money. He also likes [17] his computer and the Internet to write to people. They don’t know that he is ugly and they enjoy his letters. They sometimes ask him for his photograph, but Frankie never sends it. Frankie enjoys gardening. There are a lot of vegetables, fruit trees and roses in [18] big garden. He loves roses! He puts bread out in the garden for the birds so there are a lot of birds too. They [19] afraid of him! Frankie never eats meat. He doesn’t like it. He eats vegetables, fruit and bread. Because he doesn’t like it when people run away from him, he orders all his shopping by the Internet. The shop delivers his shopping to his house. In this way, people don’t see him and he feels [20]. And when it is raining he doesn’t have to go out of the house. He doesn’t like the rain and he is afraid of thunder and lightning.",
+    "answer": 1,
+    "steps": [
+      "Перед пропуском стоит hands, и речь идёт о двух ступнях.",
+      "Foot имеет неправильную форму множественного числа feet."
+    ]
+  },
+  {
+    "title": "A Name for Frankie",
+    "question": "Complete gap 13 in the text.",
+    "choices": [
+      "calls",
+      "write",
+      "call"
+    ],
+    "context": "Read the text and choose the answer.\n\nFrankie [11] green and very tall. He has yellow eyes, black hair and a small nose. He also has enormous hands and [12]. He isn’t pretty. In fact, he’s very ugly and people [13] him a monster. They are afraid of him and always run away [14] they see him. But Frankie isn’t bad! He is an intelligent man and he loves reading. He has [15] of books in his little house. He likes writing stories. He sells his stories [16] make money. He also likes [17] his computer and the Internet to write to people. They don’t know that he is ugly and they enjoy his letters. They sometimes ask him for his photograph, but Frankie never sends it. Frankie enjoys gardening. There are a lot of vegetables, fruit trees and roses in [18] big garden. He loves roses! He puts bread out in the garden for the birds so there are a lot of birds too. They [19] afraid of him! Frankie never eats meat. He doesn’t like it. He eats vegetables, fruit and bread. Because he doesn’t like it when people run away from him, he orders all his shopping by the Internet. The shop delivers his shopping to his house. In this way, people don’t see him and he feels [20]. And when it is raining he doesn’t have to go out of the house. He doesn’t like the rain and he is afraid of thunder and lightning.",
+    "answer": 2,
+    "steps": [
+      "Подлежащее people требует формы множественного числа.",
+      "«People call him a monster» значит «люди называют его чудовищем»."
+    ]
+  },
+  {
+    "title": "People Run Away",
+    "question": "Complete gap 14 in the text.",
+    "choices": [
+      "when",
+      "how",
+      "by"
+    ],
+    "context": "Read the text and choose the answer.\n\nFrankie [11] green and very tall. He has yellow eyes, black hair and a small nose. He also has enormous hands and [12]. He isn’t pretty. In fact, he’s very ugly and people [13] him a monster. They are afraid of him and always run away [14] they see him. But Frankie isn’t bad! He is an intelligent man and he loves reading. He has [15] of books in his little house. He likes writing stories. He sells his stories [16] make money. He also likes [17] his computer and the Internet to write to people. They don’t know that he is ugly and they enjoy his letters. They sometimes ask him for his photograph, but Frankie never sends it. Frankie enjoys gardening. There are a lot of vegetables, fruit trees and roses in [18] big garden. He loves roses! He puts bread out in the garden for the birds so there are a lot of birds too. They [19] afraid of him! Frankie never eats meat. He doesn’t like it. He eats vegetables, fruit and bread. Because he doesn’t like it when people run away from him, he orders all his shopping by the Internet. The shop delivers his shopping to his house. In this way, people don’t see him and he feels [20]. And when it is raining he doesn’t have to go out of the house. He doesn’t like the rain and he is afraid of thunder and lightning.",
+    "answer": 0,
+    "steps": [
+      "Второе действие объясняет, в какой момент люди убегают.",
+      "«When they see him» значит «когда они его видят»."
+    ]
+  },
+  {
+    "title": "Books in the House",
+    "question": "Complete gap 15 in the text.",
+    "choices": [
+      "much",
+      "lot",
+      "a lot"
+    ],
+    "context": "Read the text and choose the answer.\n\nFrankie [11] green and very tall. He has yellow eyes, black hair and a small nose. He also has enormous hands and [12]. He isn’t pretty. In fact, he’s very ugly and people [13] him a monster. They are afraid of him and always run away [14] they see him. But Frankie isn’t bad! He is an intelligent man and he loves reading. He has [15] of books in his little house. He likes writing stories. He sells his stories [16] make money. He also likes [17] his computer and the Internet to write to people. They don’t know that he is ugly and they enjoy his letters. They sometimes ask him for his photograph, but Frankie never sends it. Frankie enjoys gardening. There are a lot of vegetables, fruit trees and roses in [18] big garden. He loves roses! He puts bread out in the garden for the birds so there are a lot of birds too. They [19] afraid of him! Frankie never eats meat. He doesn’t like it. He eats vegetables, fruit and bread. Because he doesn’t like it when people run away from him, he orders all his shopping by the Internet. The shop delivers his shopping to his house. In this way, people don’t see him and he feels [20]. And when it is raining he doesn’t have to go out of the house. He doesn’t like the rain and he is afraid of thunder and lightning.",
+    "answer": 2,
+    "steps": [
+      "Books — исчисляемое существительное во множественном числе.",
+      "С уже напечатанным of получается «a lot of books» — много книг."
+    ]
+  },
+  {
+    "title": "Selling Stories",
+    "question": "Complete gap 16 in the text.",
+    "choices": [
+      "by",
+      "for",
+      "to"
+    ],
+    "context": "Read the text and choose the answer.\n\nFrankie [11] green and very tall. He has yellow eyes, black hair and a small nose. He also has enormous hands and [12]. He isn’t pretty. In fact, he’s very ugly and people [13] him a monster. They are afraid of him and always run away [14] they see him. But Frankie isn’t bad! He is an intelligent man and he loves reading. He has [15] of books in his little house. He likes writing stories. He sells his stories [16] make money. He also likes [17] his computer and the Internet to write to people. They don’t know that he is ugly and they enjoy his letters. They sometimes ask him for his photograph, but Frankie never sends it. Frankie enjoys gardening. There are a lot of vegetables, fruit trees and roses in [18] big garden. He loves roses! He puts bread out in the garden for the birds so there are a lot of birds too. They [19] afraid of him! Frankie never eats meat. He doesn’t like it. He eats vegetables, fruit and bread. Because he doesn’t like it when people run away from him, he orders all his shopping by the Internet. The shop delivers his shopping to his house. In this way, people don’t see him and he feels [20]. And when it is raining he doesn’t have to go out of the house. He doesn’t like the rain and he is afraid of thunder and lightning.",
+    "answer": 2,
+    "steps": [
+      "Вторая часть предложения отвечает на вопрос «зачем?».",
+      "Цель выражается инфинитивом «to make money»."
+    ]
+  },
+  {
+    "title": "Writing Online",
+    "question": "Complete gap 17 in the text.",
+    "choices": [
+      "gaming",
+      "using",
+      "eating"
+    ],
+    "context": "Read the text and choose the answer.\n\nFrankie [11] green and very tall. He has yellow eyes, black hair and a small nose. He also has enormous hands and [12]. He isn’t pretty. In fact, he’s very ugly and people [13] him a monster. They are afraid of him and always run away [14] they see him. But Frankie isn’t bad! He is an intelligent man and he loves reading. He has [15] of books in his little house. He likes writing stories. He sells his stories [16] make money. He also likes [17] his computer and the Internet to write to people. They don’t know that he is ugly and they enjoy his letters. They sometimes ask him for his photograph, but Frankie never sends it. Frankie enjoys gardening. There are a lot of vegetables, fruit trees and roses in [18] big garden. He loves roses! He puts bread out in the garden for the birds so there are a lot of birds too. They [19] afraid of him! Frankie never eats meat. He doesn’t like it. He eats vegetables, fruit and bread. Because he doesn’t like it when people run away from him, he orders all his shopping by the Internet. The shop delivers his shopping to his house. In this way, people don’t see him and he feels [20]. And when it is raining he doesn’t have to go out of the house. He doesn’t like the rain and he is afraid of thunder and lightning.",
+    "answer": 1,
+    "steps": [
+      "После likes возможна форма на -ing. По смыслу Фрэнки пользуется компьютером и интернетом.",
+      "Получается «likes using his computer»."
+    ]
+  },
+  {
+    "title": "A Big Garden",
+    "question": "Complete gap 18 in the text.",
+    "choices": [
+      "his",
+      "him",
+      "at"
+    ],
+    "context": "Read the text and choose the answer.\n\nFrankie [11] green and very tall. He has yellow eyes, black hair and a small nose. He also has enormous hands and [12]. He isn’t pretty. In fact, he’s very ugly and people [13] him a monster. They are afraid of him and always run away [14] they see him. But Frankie isn’t bad! He is an intelligent man and he loves reading. He has [15] of books in his little house. He likes writing stories. He sells his stories [16] make money. He also likes [17] his computer and the Internet to write to people. They don’t know that he is ugly and they enjoy his letters. They sometimes ask him for his photograph, but Frankie never sends it. Frankie enjoys gardening. There are a lot of vegetables, fruit trees and roses in [18] big garden. He loves roses! He puts bread out in the garden for the birds so there are a lot of birds too. They [19] afraid of him! Frankie never eats meat. He doesn’t like it. He eats vegetables, fruit and bread. Because he doesn’t like it when people run away from him, he orders all his shopping by the Internet. The shop delivers his shopping to his house. In this way, people don’t see him and he feels [20]. And when it is raining he doesn’t have to go out of the house. He doesn’t like the rain and he is afraid of thunder and lightning.",
+    "answer": 0,
+    "steps": [
+      "Перед big garden нужно указать владельца сада.",
+      "His ставится перед существительным и означает «его»."
+    ]
+  },
+  {
+    "title": "The Birds' Reaction",
+    "question": "Complete gap 19 in the text.",
+    "choices": [
+      "not be",
+      "are not",
+      "is not"
+    ],
+    "context": "Read the text and choose the answer.\n\nFrankie [11] green and very tall. He has yellow eyes, black hair and a small nose. He also has enormous hands and [12]. He isn’t pretty. In fact, he’s very ugly and people [13] him a monster. They are afraid of him and always run away [14] they see him. But Frankie isn’t bad! He is an intelligent man and he loves reading. He has [15] of books in his little house. He likes writing stories. He sells his stories [16] make money. He also likes [17] his computer and the Internet to write to people. They don’t know that he is ugly and they enjoy his letters. They sometimes ask him for his photograph, but Frankie never sends it. Frankie enjoys gardening. There are a lot of vegetables, fruit trees and roses in [18] big garden. He loves roses! He puts bread out in the garden for the birds so there are a lot of birds too. They [19] afraid of him! Frankie never eats meat. He doesn’t like it. He eats vegetables, fruit and bread. Because he doesn’t like it when people run away from him, he orders all his shopping by the Internet. The shop delivers his shopping to his house. In this way, people don’t see him and he feels [20]. And when it is raining he doesn’t have to go out of the house. He doesn’t like the rain and he is afraid of thunder and lightning.",
+    "answer": 1,
+    "steps": [
+      "They относится к птицам, поэтому нужна форма are.",
+      "Фраза «They are not afraid of him» означает, что птицы его не боятся."
+    ]
+  },
+  {
+    "title": "Shopping from Home",
+    "question": "Complete gap 20 in the text.",
+    "choices": [
+      "happiest",
+      "happier",
+      "the happier"
+    ],
+    "context": "Read the text and choose the answer.\n\nFrankie [11] green and very tall. He has yellow eyes, black hair and a small nose. He also has enormous hands and [12]. He isn’t pretty. In fact, he’s very ugly and people [13] him a monster. They are afraid of him and always run away [14] they see him. But Frankie isn’t bad! He is an intelligent man and he loves reading. He has [15] of books in his little house. He likes writing stories. He sells his stories [16] make money. He also likes [17] his computer and the Internet to write to people. They don’t know that he is ugly and they enjoy his letters. They sometimes ask him for his photograph, but Frankie never sends it. Frankie enjoys gardening. There are a lot of vegetables, fruit trees and roses in [18] big garden. He loves roses! He puts bread out in the garden for the birds so there are a lot of birds too. They [19] afraid of him! Frankie never eats meat. He doesn’t like it. He eats vegetables, fruit and bread. Because he doesn’t like it when people run away from him, he orders all his shopping by the Internet. The shop delivers his shopping to his house. In this way, people don’t see him and he feels [20]. And when it is raining he doesn’t have to go out of the house. He doesn’t like the rain and he is afraid of thunder and lightning.",
+    "answer": 1,
+    "steps": [
+      "Доставка избавляет Фрэнки от неприятных встреч, и ему становится радостнее.",
+      "Сравнительная степень happier передаёт изменение самочувствия."
+    ]
+  },
+  {
+    "title": "Frankie's Appearance",
+    "question": "Frankie has … .",
+    "choices": [
+      "black hair and big hands and feet",
+      "green eyes and a small nose",
+      "small hands and feet"
+    ],
+    "context": "Read the text and choose the answer.\n\nFrankie is green and very tall. He has yellow eyes, black hair and a small nose. He also has enormous hands and feet. He isn’t pretty. In fact, he’s very ugly and people call him a monster. They are afraid of him and always run away when they see him. But Frankie isn’t bad! He is an intelligent man and he loves reading. He has a lot of books in his little house. He likes writing stories. He sells his stories to make money. He also likes using his computer and the Internet to write to people. They don’t know that he is ugly and they enjoy his letters. They sometimes ask him for his photograph, but Frankie never sends it. Frankie enjoys gardening. There are a lot of vegetables, fruit trees and roses in his big garden. He loves roses! He puts bread out in the garden for the birds so there are a lot of birds too. They are not afraid of him! Frankie never eats meat. He doesn’t like it. He eats vegetables, fruit and bread. Because he doesn’t like it when people run away from him, he orders all his shopping by the Internet. The shop delivers his shopping to his house. In this way, people don’t see him and he feels happier. And when it is raining he doesn’t have to go out of the house. He doesn’t like the rain and he is afraid of thunder and lightning.",
+    "answer": 0,
+    "steps": [
+      "В начале текста перечислены цвет глаз и волос, а также размеры рук и ног.",
+      "В тексте black hair и enormous hands and feet. Enormous означает «очень большие»."
+    ]
+  },
+  {
+    "title": "Internet Friends",
+    "question": "People like writing to Frankie because … .",
+    "choices": [
+      "they don’t know that he is ugly",
+      "they meet him in the supermarket",
+      "they like to eat meat too"
+    ],
+    "context": "Read the text and choose the answer.\n\nFrankie is green and very tall. He has yellow eyes, black hair and a small nose. He also has enormous hands and feet. He isn’t pretty. In fact, he’s very ugly and people call him a monster. They are afraid of him and always run away when they see him. But Frankie isn’t bad! He is an intelligent man and he loves reading. He has a lot of books in his little house. He likes writing stories. He sells his stories to make money. He also likes using his computer and the Internet to write to people. They don’t know that he is ugly and they enjoy his letters. They sometimes ask him for his photograph, but Frankie never sends it. Frankie enjoys gardening. There are a lot of vegetables, fruit trees and roses in his big garden. He loves roses! He puts bread out in the garden for the birds so there are a lot of birds too. They are not afraid of him! Frankie never eats meat. He doesn’t like it. He eats vegetables, fruit and bread. Because he doesn’t like it when people run away from him, he orders all his shopping by the Internet. The shop delivers his shopping to his house. In this way, people don’t see him and he feels happier. And when it is raining he doesn’t have to go out of the house. He doesn’t like the rain and he is afraid of thunder and lightning.",
+    "answer": 0,
+    "steps": [
+      "В рассказе сказано «They don’t know that he is ugly».",
+      "Письма нравятся собеседникам, которые не видят внешности Фрэнки."
+    ]
+  },
+  {
+    "title": "What Frankie Is Like",
+    "question": "Frankie is … .",
+    "choices": [
+      "a good person",
+      "an evil person",
+      "a beautiful person"
+    ],
+    "context": "Read the text and choose the answer.\n\nFrankie is green and very tall. He has yellow eyes, black hair and a small nose. He also has enormous hands and feet. He isn’t pretty. In fact, he’s very ugly and people call him a monster. They are afraid of him and always run away when they see him. But Frankie isn’t bad! He is an intelligent man and he loves reading. He has a lot of books in his little house. He likes writing stories. He sells his stories to make money. He also likes using his computer and the Internet to write to people. They don’t know that he is ugly and they enjoy his letters. They sometimes ask him for his photograph, but Frankie never sends it. Frankie enjoys gardening. There are a lot of vegetables, fruit trees and roses in his big garden. He loves roses! He puts bread out in the garden for the birds so there are a lot of birds too. They are not afraid of him! Frankie never eats meat. He doesn’t like it. He eats vegetables, fruit and bread. Because he doesn’t like it when people run away from him, he orders all his shopping by the Internet. The shop delivers his shopping to his house. In this way, people don’t see him and he feels happier. And when it is raining he doesn’t have to go out of the house. He doesn’t like the rain and he is afraid of thunder and lightning.",
+    "answer": 0,
+    "steps": [
+      "Текст описывает пугающий внешний вид, а затем говорит «Frankie isn’t bad!».",
+      "По характеру Фрэнки хороший человек — a good person."
+    ]
+  },
+  {
+    "title": "His House and Garden",
+    "question": "He lives in … .",
+    "choices": [
+      "a big house without a garden",
+      "a small house with a big garden",
+      "a small garden"
+    ],
+    "context": "Read the text and choose the answer.\n\nFrankie is green and very tall. He has yellow eyes, black hair and a small nose. He also has enormous hands and feet. He isn’t pretty. In fact, he’s very ugly and people call him a monster. They are afraid of him and always run away when they see him. But Frankie isn’t bad! He is an intelligent man and he loves reading. He has a lot of books in his little house. He likes writing stories. He sells his stories to make money. He also likes using his computer and the Internet to write to people. They don’t know that he is ugly and they enjoy his letters. They sometimes ask him for his photograph, but Frankie never sends it. Frankie enjoys gardening. There are a lot of vegetables, fruit trees and roses in his big garden. He loves roses! He puts bread out in the garden for the birds so there are a lot of birds too. They are not afraid of him! Frankie never eats meat. He doesn’t like it. He eats vegetables, fruit and bread. Because he doesn’t like it when people run away from him, he orders all his shopping by the Internet. The shop delivers his shopping to his house. In this way, people don’t see him and he feels happier. And when it is raining he doesn’t have to go out of the house. He doesn’t like the rain and he is afraid of thunder and lightning.",
+    "answer": 1,
+    "steps": [
+      "Найди два описания, «his little house» и «his big garden».",
+      "Вместе они дают a small house with a big garden."
+    ]
+  },
+  {
+    "title": "Frankie's Books",
+    "question": "He … a lot of books.",
+    "choices": [
+      "reads",
+      "speaks",
+      "does"
+    ],
+    "context": "Read the text and choose the answer.\n\nFrankie is green and very tall. He has yellow eyes, black hair and a small nose. He also has enormous hands and feet. He isn’t pretty. In fact, he’s very ugly and people call him a monster. They are afraid of him and always run away when they see him. But Frankie isn’t bad! He is an intelligent man and he loves reading. He has a lot of books in his little house. He likes writing stories. He sells his stories to make money. He also likes using his computer and the Internet to write to people. They don’t know that he is ugly and they enjoy his letters. They sometimes ask him for his photograph, but Frankie never sends it. Frankie enjoys gardening. There are a lot of vegetables, fruit trees and roses in his big garden. He loves roses! He puts bread out in the garden for the birds so there are a lot of birds too. They are not afraid of him! Frankie never eats meat. He doesn’t like it. He eats vegetables, fruit and bread. Because he doesn’t like it when people run away from him, he orders all his shopping by the Internet. The shop delivers his shopping to his house. In this way, people don’t see him and he feels happier. And when it is raining he doesn’t have to go out of the house. He doesn’t like the rain and he is afraid of thunder and lightning.",
+    "answer": 0,
+    "steps": [
+      "Найди рядом с books слова «he loves reading».",
+      "Read a book означает «читать книгу». С he нужна форма reads."
+    ]
+  },
+  {
+    "title": "The Photograph",
+    "question": "Frankie sends his photo to … .",
+    "choices": [
+      "his Internet friends",
+      "nobody",
+      "the shop"
+    ],
+    "context": "Read the text and choose the answer.\n\nFrankie is green and very tall. He has yellow eyes, black hair and a small nose. He also has enormous hands and feet. He isn’t pretty. In fact, he’s very ugly and people call him a monster. They are afraid of him and always run away when they see him. But Frankie isn’t bad! He is an intelligent man and he loves reading. He has a lot of books in his little house. He likes writing stories. He sells his stories to make money. He also likes using his computer and the Internet to write to people. They don’t know that he is ugly and they enjoy his letters. They sometimes ask him for his photograph, but Frankie never sends it. Frankie enjoys gardening. There are a lot of vegetables, fruit trees and roses in his big garden. He loves roses! He puts bread out in the garden for the birds so there are a lot of birds too. They are not afraid of him! Frankie never eats meat. He doesn’t like it. He eats vegetables, fruit and bread. Because he doesn’t like it when people run away from him, he orders all his shopping by the Internet. The shop delivers his shopping to his house. In this way, people don’t see him and he feels happier. And when it is raining he doesn’t have to go out of the house. He doesn’t like the rain and he is afraid of thunder and lightning.",
+    "answer": 1,
+    "steps": [
+      "Интернет-друзья иногда просят снимок, но «Frankie never sends it».",
+      "Never исключает всех получателей, поэтому подходит nobody."
+    ]
+  },
+  {
+    "title": "Birds in the Story",
+    "question": "Birds … .",
+    "choices": [
+      "don’t come into the garden",
+      "come into the garden",
+      "are afraid of Frankie"
+    ],
+    "context": "Read the text and choose the answer.\n\nFrankie is green and very tall. He has yellow eyes, black hair and a small nose. He also has enormous hands and feet. He isn’t pretty. In fact, he’s very ugly and people call him a monster. They are afraid of him and always run away when they see him. But Frankie isn’t bad! He is an intelligent man and he loves reading. He has a lot of books in his little house. He likes writing stories. He sells his stories to make money. He also likes using his computer and the Internet to write to people. They don’t know that he is ugly and they enjoy his letters. They sometimes ask him for his photograph, but Frankie never sends it. Frankie enjoys gardening. There are a lot of vegetables, fruit trees and roses in his big garden. He loves roses! He puts bread out in the garden for the birds so there are a lot of birds too. They are not afraid of him! Frankie never eats meat. He doesn’t like it. He eats vegetables, fruit and bread. Because he doesn’t like it when people run away from him, he orders all his shopping by the Internet. The shop delivers his shopping to his house. In this way, people don’t see him and he feels happier. And when it is raining he doesn’t have to go out of the house. He doesn’t like the rain and he is afraid of thunder and lightning.",
+    "answer": 1,
+    "steps": [
+      "Фрэнки оставляет хлеб в саду специально для птиц.",
+      "В тексте сказано, что птиц там много. Они come into the garden."
+    ]
+  },
+  {
+    "title": "What Frankie Enjoys",
+    "question": "Frankie likes … .",
+    "choices": [
+      "gardening",
+      "eating meat",
+      "shopping in malls"
+    ],
+    "context": "Read the text and choose the answer.\n\nFrankie is green and very tall. He has yellow eyes, black hair and a small nose. He also has enormous hands and feet. He isn’t pretty. In fact, he’s very ugly and people call him a monster. They are afraid of him and always run away when they see him. But Frankie isn’t bad! He is an intelligent man and he loves reading. He has a lot of books in his little house. He likes writing stories. He sells his stories to make money. He also likes using his computer and the Internet to write to people. They don’t know that he is ugly and they enjoy his letters. They sometimes ask him for his photograph, but Frankie never sends it. Frankie enjoys gardening. There are a lot of vegetables, fruit trees and roses in his big garden. He loves roses! He puts bread out in the garden for the birds so there are a lot of birds too. They are not afraid of him! Frankie never eats meat. He doesn’t like it. He eats vegetables, fruit and bread. Because he doesn’t like it when people run away from him, he orders all his shopping by the Internet. The shop delivers his shopping to his house. In this way, people don’t see him and he feels happier. And when it is raining he doesn’t have to go out of the house. He doesn’t like the rain and he is afraid of thunder and lightning.",
+    "answer": 0,
+    "steps": [
+      "В тексте прямо сказано «Frankie enjoys gardening».",
+      "Gardening — уход за садом, его любимое занятие."
+    ]
+  },
+  {
+    "title": "Leaving Bread",
+    "question": "Frankie goes to … .",
+    "choices": [
+      "the supermarket",
+      "the theatre",
+      "the garden to put the bread for the birds"
+    ],
+    "context": "Read the text and choose the answer.\n\nFrankie is green and very tall. He has yellow eyes, black hair and a small nose. He also has enormous hands and feet. He isn’t pretty. In fact, he’s very ugly and people call him a monster. They are afraid of him and always run away when they see him. But Frankie isn’t bad! He is an intelligent man and he loves reading. He has a lot of books in his little house. He likes writing stories. He sells his stories to make money. He also likes using his computer and the Internet to write to people. They don’t know that he is ugly and they enjoy his letters. They sometimes ask him for his photograph, but Frankie never sends it. Frankie enjoys gardening. There are a lot of vegetables, fruit trees and roses in his big garden. He loves roses! He puts bread out in the garden for the birds so there are a lot of birds too. They are not afraid of him! Frankie never eats meat. He doesn’t like it. He eats vegetables, fruit and bread. Because he doesn’t like it when people run away from him, he orders all his shopping by the Internet. The shop delivers his shopping to his house. In this way, people don’t see him and he feels happier. And when it is raining he doesn’t have to go out of the house. He doesn’t like the rain and he is afraid of thunder and lightning.",
+    "answer": 2,
+    "steps": [
+      "Покупки Фрэнки заказывает онлайн. Сам он выходит в сад.",
+      "Цель названа в предложении «He puts bread out in the garden for the birds»."
+    ]
+  },
+  {
+    "title": "Frankie's Feelings",
+    "question": "Frankie is happy when … .",
+    "choices": [
+      "people don’t see him",
+      "he doesn’t see birds",
+      "he is in the supermarket"
+    ],
+    "context": "Read the text and choose the answer.\n\nFrankie is green and very tall. He has yellow eyes, black hair and a small nose. He also has enormous hands and feet. He isn’t pretty. In fact, he’s very ugly and people call him a monster. They are afraid of him and always run away when they see him. But Frankie isn’t bad! He is an intelligent man and he loves reading. He has a lot of books in his little house. He likes writing stories. He sells his stories to make money. He also likes using his computer and the Internet to write to people. They don’t know that he is ugly and they enjoy his letters. They sometimes ask him for his photograph, but Frankie never sends it. Frankie enjoys gardening. There are a lot of vegetables, fruit trees and roses in his big garden. He loves roses! He puts bread out in the garden for the birds so there are a lot of birds too. They are not afraid of him! Frankie never eats meat. He doesn’t like it. He eats vegetables, fruit and bread. Because he doesn’t like it when people run away from him, he orders all his shopping by the Internet. The shop delivers his shopping to his house. In this way, people don’t see him and he feels happier. And when it is raining he doesn’t have to go out of the house. He doesn’t like the rain and he is afraid of thunder and lightning.",
+    "answer": 0,
+    "steps": [
+      "Найди связь между доставкой и словами «people don’t see him».",
+      "Когда люди его не видят, никто не убегает от него, и он чувствует себя счастливее."
+    ]
+  },
+  {
+    "title": "Betty's First Question",
+    "question": "B: Where are you from?\nF: I … (31) England.",
+    "choices": [
+      "am from",
+      "born in",
+      "is from"
+    ],
+    "answer": 0,
+    "steps": [
+      "Where are you from? спрашивает, откуда собеседник.",
+      "С I употребляем am. Получается «I am from England»."
+    ]
+  },
+  {
+    "title": "Frankie's Age",
+    "question": "B: How old are you?\nF: I am … (32).",
+    "choices": [
+      "fifteen old",
+      "fifteen years old",
+      "fifth"
+    ],
+    "answer": 1,
+    "steps": [
+      "How old are you? спрашивает о возрасте.",
+      "Английская формула «I am fifteen years old» содержит число и years old."
+    ]
+  },
+  {
+    "title": "A Question About School",
+    "question": "B: Do you go to school?\nF: No, I … (33).",
+    "choices": [
+      "am not",
+      "is not",
+      "do not"
+    ],
+    "answer": 2,
+    "steps": [
+      "Вопрос начинается с do. В кратком отрицательном ответе повторяется do.",
+      "Подлежащее I даёт «No, I do not»."
+    ]
+  },
+  {
+    "title": "Pets",
+    "question": "B: Have you got any pets?\nF: Yes, I have … (34).",
+    "choices": [
+      "a birds",
+      "birds",
+      "birdes"
+    ],
+    "answer": 1,
+    "steps": [
+      "Birds — обычное множественное число от bird.",
+      "Неопределённый артикль a с множественным числом не ставится."
+    ]
+  },
+  {
+    "title": "Frankie's Hobby",
+    "question": "B: What is your hobby?\nF: I like … (35).",
+    "choices": [
+      "garden",
+      "gardening",
+      "people"
+    ],
+    "answer": 1,
+    "steps": [
+      "Betty спрашивает, чем Фрэнки любит заниматься.",
+      "Gardening — название занятия. В тексте оно стоит после enjoys."
+    ]
+  },
+  {
+    "title": "Vegetables",
+    "question": "B: Do you like to eat meat?\nF: No, I don’t, but I … (36) vegetables.",
+    "choices": [
+      "like",
+      "likes",
+      "loves"
+    ],
+    "answer": 0,
+    "steps": [
+      "Из рассказа известно, что Фрэнки не ест мяса, но любит овощи.",
+      "В Present Simple после I употребляется like без -s."
+    ]
+  },
+  {
+    "title": "Selling Stories Online",
+    "question": "B: Do you write stories?\nF: Yes, I do and I sell … (37).",
+    "choices": [
+      "they",
+      "them",
+      "him"
+    ],
+    "answer": 1,
+    "steps": [
+      "Пропуск заменяет stories, а это множественное число.",
+      "После sell нужен объект. Форма them означает «их»."
+    ]
+  },
+  {
+    "title": "Story Characters",
+    "question": "B: What do you write about?\nF: I write about different … (38).",
+    "choices": [
+      "animal",
+      "animals",
+      "animalz"
+    ],
+    "answer": 1,
+    "steps": [
+      "Different здесь относится к нескольким животным.",
+      "Множественное число animal образуется добавлением -s, animals."
+    ]
+  },
+  {
+    "title": "A Short Reply",
+    "question": "B: Are they nice?\nF: Yes, they … (39).",
+    "choices": [
+      "nice",
+      "is nice",
+      "are"
+    ],
+    "answer": 2,
+    "steps": [
+      "На вопрос «Are they nice?» можно кратко ответить, повторив вспомогательный глагол.",
+      "После they нужна форма are. Получается «Yes, they are»."
+    ]
+  },
+  {
+    "title": "Sending Stories",
+    "question": "B: I want to read them!\nF: I can send them … (40).",
+    "choices": [
+      "by you",
+      "from you",
+      "to you"
+    ],
+    "answer": 2,
+    "steps": [
+      "Betty хочет получить рассказы. Пропуск указывает получателя.",
+      "Send them to you — «послать их тебе»."
+    ]
+  },
+  {
+    "title": "Size",
+    "question": "Choose the closest meaning of “enormous”.",
+    "choices": [
+      "very big",
+      "hungry",
+      "stupid"
+    ],
+    "context": "Find the word’s meaning in the text.\n\nFrankie is green and very tall. He has yellow eyes, black hair and a small nose. He also has enormous hands and feet. He isn’t pretty. In fact, he’s very ugly and people call him a monster. They are afraid of him and always run away when they see him. But Frankie isn’t bad! He is an intelligent man and he loves reading. He has a lot of books in his little house. He likes writing stories. He sells his stories to make money. He also likes using his computer and the Internet to write to people. They don’t know that he is ugly and they enjoy his letters. They sometimes ask him for his photograph, but Frankie never sends it. Frankie enjoys gardening. There are a lot of vegetables, fruit trees and roses in his big garden. He loves roses! He puts bread out in the garden for the birds so there are a lot of birds too. They are not afraid of him! Frankie never eats meat. He doesn’t like it. He eats vegetables, fruit and bread. Because he doesn’t like it when people run away from him, he orders all his shopping by the Internet. The shop delivers his shopping to his house. In this way, people don’t see him and he feels happier. And when it is raining he doesn’t have to go out of the house. He doesn’t like the rain and he is afraid of thunder and lightning.",
+    "answer": 0,
+    "steps": [
+      "Hands and feet описаны как enormous, то есть огромные.",
+      "Very big передаёт размер. Hungry и stupid описывают другие свойства."
+    ]
+  },
+  {
+    "title": "Appearance",
+    "question": "Choose the closest meaning of “ugly”.",
+    "choices": [
+      "beautiful",
+      "pretty",
+      "not beautiful"
+    ],
+    "context": "Find the word’s meaning in the text.\n\nFrankie is green and very tall. He has yellow eyes, black hair and a small nose. He also has enormous hands and feet. He isn’t pretty. In fact, he’s very ugly and people call him a monster. They are afraid of him and always run away when they see him. But Frankie isn’t bad! He is an intelligent man and he loves reading. He has a lot of books in his little house. He likes writing stories. He sells his stories to make money. He also likes using his computer and the Internet to write to people. They don’t know that he is ugly and they enjoy his letters. They sometimes ask him for his photograph, but Frankie never sends it. Frankie enjoys gardening. There are a lot of vegetables, fruit trees and roses in his big garden. He loves roses! He puts bread out in the garden for the birds so there are a lot of birds too. They are not afraid of him! Frankie never eats meat. He doesn’t like it. He eats vegetables, fruit and bread. Because he doesn’t like it when people run away from him, he orders all his shopping by the Internet. The shop delivers his shopping to his house. In this way, people don’t see him and he feels happier. And when it is raining he doesn’t have to go out of the house. He doesn’t like the rain and he is afraid of thunder and lightning.",
+    "answer": 2,
+    "steps": [
+      "В тексте «He isn’t pretty. In fact, he’s very ugly» второе предложение усиливает первое.",
+      "Из вариантов подходит not beautiful — некрасивый."
+    ]
+  },
+  {
+    "title": "Fear",
+    "question": "Choose the closest meaning of “afraid”.",
+    "choices": [
+      "scared",
+      "sad",
+      "nice"
+    ],
+    "context": "Find the word’s meaning in the text.\n\nFrankie is green and very tall. He has yellow eyes, black hair and a small nose. He also has enormous hands and feet. He isn’t pretty. In fact, he’s very ugly and people call him a monster. They are afraid of him and always run away when they see him. But Frankie isn’t bad! He is an intelligent man and he loves reading. He has a lot of books in his little house. He likes writing stories. He sells his stories to make money. He also likes using his computer and the Internet to write to people. They don’t know that he is ugly and they enjoy his letters. They sometimes ask him for his photograph, but Frankie never sends it. Frankie enjoys gardening. There are a lot of vegetables, fruit trees and roses in his big garden. He loves roses! He puts bread out in the garden for the birds so there are a lot of birds too. They are not afraid of him! Frankie never eats meat. He doesn’t like it. He eats vegetables, fruit and bread. Because he doesn’t like it when people run away from him, he orders all his shopping by the Internet. The shop delivers his shopping to his house. In this way, people don’t see him and he feels happier. And when it is raining he doesn’t have to go out of the house. He doesn’t like the rain and he is afraid of thunder and lightning.",
+    "answer": 0,
+    "steps": [
+      "Люди убегают от Фрэнки, потому что «are afraid of him».",
+      "Scared тоже означает «испуганный»."
+    ]
+  },
+  {
+    "title": "Intelligence",
+    "question": "Choose the closest meaning of “intelligent”.",
+    "choices": [
+      "stupid",
+      "kind",
+      "smart"
+    ],
+    "context": "Find the word’s meaning in the text.\n\nFrankie is green and very tall. He has yellow eyes, black hair and a small nose. He also has enormous hands and feet. He isn’t pretty. In fact, he’s very ugly and people call him a monster. They are afraid of him and always run away when they see him. But Frankie isn’t bad! He is an intelligent man and he loves reading. He has a lot of books in his little house. He likes writing stories. He sells his stories to make money. He also likes using his computer and the Internet to write to people. They don’t know that he is ugly and they enjoy his letters. They sometimes ask him for his photograph, but Frankie never sends it. Frankie enjoys gardening. There are a lot of vegetables, fruit trees and roses in his big garden. He loves roses! He puts bread out in the garden for the birds so there are a lot of birds too. They are not afraid of him! Frankie never eats meat. He doesn’t like it. He eats vegetables, fruit and bread. Because he doesn’t like it when people run away from him, he orders all his shopping by the Internet. The shop delivers his shopping to his house. In this way, people don’t see him and he feels happier. And when it is raining he doesn’t have to go out of the house. He doesn’t like the rain and he is afraid of thunder and lightning.",
+    "answer": 2,
+    "steps": [
+      "Фрэнки описан как intelligent man и любит читать.",
+      "Smart передаёт значение «умный»."
+    ]
+  },
+  {
+    "title": "An Outdoor Place",
+    "question": "Choose the closest meaning of “garden”.",
+    "choices": [
+      "house",
+      "roof",
+      "flower yard"
+    ],
+    "context": "Find the word’s meaning in the text.\n\nFrankie is green and very tall. He has yellow eyes, black hair and a small nose. He also has enormous hands and feet. He isn’t pretty. In fact, he’s very ugly and people call him a monster. They are afraid of him and always run away when they see him. But Frankie isn’t bad! He is an intelligent man and he loves reading. He has a lot of books in his little house. He likes writing stories. He sells his stories to make money. He also likes using his computer and the Internet to write to people. They don’t know that he is ugly and they enjoy his letters. They sometimes ask him for his photograph, but Frankie never sends it. Frankie enjoys gardening. There are a lot of vegetables, fruit trees and roses in his big garden. He loves roses! He puts bread out in the garden for the birds so there are a lot of birds too. They are not afraid of him! Frankie never eats meat. He doesn’t like it. He eats vegetables, fruit and bread. Because he doesn’t like it when people run away from him, he orders all his shopping by the Internet. The shop delivers his shopping to his house. In this way, people don’t see him and he feels happier. And when it is raining he doesn’t have to go out of the house. He doesn’t like the rain and he is afraid of thunder and lightning.",
+    "answer": 2,
+    "steps": [
+      "В garden растут овощи, плодовые деревья и розы.",
+      "Из вариантов flower yard ближе всего к этому открытому участку с растениями."
+    ]
+  },
+  {
+    "title": "Where Shopping Happens",
+    "question": "Choose the closest meaning of “shop”.",
+    "choices": [
+      "flat",
+      "house",
+      "store"
+    ],
+    "context": "Find the word’s meaning in the text.\n\nFrankie is green and very tall. He has yellow eyes, black hair and a small nose. He also has enormous hands and feet. He isn’t pretty. In fact, he’s very ugly and people call him a monster. They are afraid of him and always run away when they see him. But Frankie isn’t bad! He is an intelligent man and he loves reading. He has a lot of books in his little house. He likes writing stories. He sells his stories to make money. He also likes using his computer and the Internet to write to people. They don’t know that he is ugly and they enjoy his letters. They sometimes ask him for his photograph, but Frankie never sends it. Frankie enjoys gardening. There are a lot of vegetables, fruit trees and roses in his big garden. He loves roses! He puts bread out in the garden for the birds so there are a lot of birds too. They are not afraid of him! Frankie never eats meat. He doesn’t like it. He eats vegetables, fruit and bread. Because he doesn’t like it when people run away from him, he orders all his shopping by the Internet. The shop delivers his shopping to his house. In this way, people don’t see him and he feels happier. And when it is raining he doesn’t have to go out of the house. He doesn’t like the rain and he is afraid of thunder and lightning.",
+    "answer": 2,
+    "steps": [
+      "В тексте shop доставляет купленные продукты на дом.",
+      "Store — другой английский вариант слова «магазин»."
+    ]
+  },
+  {
+    "title": "Linking a Result",
+    "question": "Choose the closest meaning of “in this way”.",
+    "choices": [
+      "so",
+      "why",
+      "there"
+    ],
+    "context": "Find the word’s meaning in the text.\n\nFrankie is green and very tall. He has yellow eyes, black hair and a small nose. He also has enormous hands and feet. He isn’t pretty. In fact, he’s very ugly and people call him a monster. They are afraid of him and always run away when they see him. But Frankie isn’t bad! He is an intelligent man and he loves reading. He has a lot of books in his little house. He likes writing stories. He sells his stories to make money. He also likes using his computer and the Internet to write to people. They don’t know that he is ugly and they enjoy his letters. They sometimes ask him for his photograph, but Frankie never sends it. Frankie enjoys gardening. There are a lot of vegetables, fruit trees and roses in his big garden. He loves roses! He puts bread out in the garden for the birds so there are a lot of birds too. They are not afraid of him! Frankie never eats meat. He doesn’t like it. He eats vegetables, fruit and bread. Because he doesn’t like it when people run away from him, he orders all his shopping by the Internet. The shop delivers his shopping to his house. In this way, people don’t see him and he feels happier. And when it is raining he doesn’t have to go out of the house. He doesn’t like the rain and he is afraid of thunder and lightning.",
+    "answer": 0,
+    "steps": [
+      "«In this way» связывает заказ с результатом, Фрэнки не встречает людей.",
+      "So подходит в значении «так» или «таким образом»."
+    ]
+  },
+  {
+    "title": "Character",
+    "question": "Choose the closest meaning of “bad”.",
+    "choices": [
+      "not good",
+      "good",
+      "not pretty"
+    ],
+    "context": "Find the word’s meaning in the text.\n\nFrankie is green and very tall. He has yellow eyes, black hair and a small nose. He also has enormous hands and feet. He isn’t pretty. In fact, he’s very ugly and people call him a monster. They are afraid of him and always run away when they see him. But Frankie isn’t bad! He is an intelligent man and he loves reading. He has a lot of books in his little house. He likes writing stories. He sells his stories to make money. He also likes using his computer and the Internet to write to people. They don’t know that he is ugly and they enjoy his letters. They sometimes ask him for his photograph, but Frankie never sends it. Frankie enjoys gardening. There are a lot of vegetables, fruit trees and roses in his big garden. He loves roses! He puts bread out in the garden for the birds so there are a lot of birds too. They are not afraid of him! Frankie never eats meat. He doesn’t like it. He eats vegetables, fruit and bread. Because he doesn’t like it when people run away from him, he orders all his shopping by the Internet. The shop delivers his shopping to his house. In this way, people don’t see him and he feels happier. And when it is raining he doesn’t have to go out of the house. He doesn’t like the rain and he is afraid of thunder and lightning.",
+    "answer": 0,
+    "steps": [
+      "Фраза «Frankie isn’t bad» говорит о характере.",
+      "Bad означает «плохой», то есть not good."
+    ]
+  },
+  {
+    "title": "A Plant",
+    "question": "Choose the closest meaning of “rose”.",
+    "choices": [
+      "bread",
+      "shop",
+      "flower"
+    ],
+    "context": "Find the word’s meaning in the text.\n\nFrankie is green and very tall. He has yellow eyes, black hair and a small nose. He also has enormous hands and feet. He isn’t pretty. In fact, he’s very ugly and people call him a monster. They are afraid of him and always run away when they see him. But Frankie isn’t bad! He is an intelligent man and he loves reading. He has a lot of books in his little house. He likes writing stories. He sells his stories to make money. He also likes using his computer and the Internet to write to people. They don’t know that he is ugly and they enjoy his letters. They sometimes ask him for his photograph, but Frankie never sends it. Frankie enjoys gardening. There are a lot of vegetables, fruit trees and roses in his big garden. He loves roses! He puts bread out in the garden for the birds so there are a lot of birds too. They are not afraid of him! Frankie never eats meat. He doesn’t like it. He eats vegetables, fruit and bread. Because he doesn’t like it when people run away from him, he orders all his shopping by the Internet. The shop delivers his shopping to his house. In this way, people don’t see him and he feels happier. And when it is raining he doesn’t have to go out of the house. He doesn’t like the rain and he is afraid of thunder and lightning.",
+    "answer": 2,
+    "steps": [
+      "Розы перечислены вместе с растениями в саду.",
+      "Rose — название цветка, flower."
+    ]
+  },
+  {
+    "title": "A Kind of Weather",
+    "question": "Choose the closest meaning of “rain”.",
+    "choices": [
+      "ice",
+      "water",
+      "fire"
+    ],
+    "context": "Find the word’s meaning in the text.\n\nFrankie is green and very tall. He has yellow eyes, black hair and a small nose. He also has enormous hands and feet. He isn’t pretty. In fact, he’s very ugly and people call him a monster. They are afraid of him and always run away when they see him. But Frankie isn’t bad! He is an intelligent man and he loves reading. He has a lot of books in his little house. He likes writing stories. He sells his stories to make money. He also likes using his computer and the Internet to write to people. They don’t know that he is ugly and they enjoy his letters. They sometimes ask him for his photograph, but Frankie never sends it. Frankie enjoys gardening. There are a lot of vegetables, fruit trees and roses in his big garden. He loves roses! He puts bread out in the garden for the birds so there are a lot of birds too. They are not afraid of him! Frankie never eats meat. He doesn’t like it. He eats vegetables, fruit and bread. Because he doesn’t like it when people run away from him, he orders all his shopping by the Internet. The shop delivers his shopping to his house. In this way, people don’t see him and he feels happier. And when it is raining he doesn’t have to go out of the house. He doesn’t like the rain and he is afraid of thunder and lightning.",
+    "answer": 1,
+    "steps": [
+      "Rain — осадки, которые Фрэнки не любит.",
+      "Дождевые капли состоят из воды. Из вариантов подходит water."
+    ]
+  },
+  {
+    "title": "Sisters' Hair",
+    "question": "Is your sister’s … than yours?",
+    "choices": [
+      "hair more long",
+      "more long hair",
+      "hair longer"
+    ],
+    "answer": 2,
+    "steps": [
+      "Than показывает, что сравниваются волосы двух сестёр.",
+      "Long образует степень longer. После подлежащего hair получается «Is your sister’s hair longer than yours?»."
+    ]
+  },
+  {
+    "title": "A Tag Question",
+    "question": "Tony looks nice, … ?",
+    "choices": [
+      "doesn’t Tony",
+      "does he",
+      "doesn’t he"
+    ],
+    "answer": 2,
+    "steps": [
+      "В «Tony looks nice» глагол стоит в утвердительном Present Simple.",
+      "В хвостике нужно отрицательное doesn’t и местоимение he, то есть «doesn’t he?»."
+    ]
+  },
+  {
+    "title": "Milk at Home",
+    "question": "There’s only … milk. Can you buy some more at the shop, please?",
+    "choices": [
+      "a",
+      "a little",
+      "a few"
+    ],
+    "answer": 1,
+    "steps": [
+      "Milk — неисчисляемое существительное. Просьба купить ещё показывает, что молока мало.",
+      "A little значит «немного» и подходит к milk."
+    ]
+  },
+  {
+    "title": "A Request for Help",
+    "question": "Can you help me? I’ve got … in my eye.",
+    "choices": [
+      "anyone",
+      "something",
+      "anything"
+    ],
+    "answer": 1,
+    "steps": [
+      "Речь о неизвестном предмете, который уже попал в глаз.",
+      "В утвердительном «I’ve got …» подходит something."
+    ]
+  },
+  {
+    "title": "A Serving of Cake",
+    "question": "Can I have a … of cake, please?",
+    "choices": [
+      "bar",
+      "glass",
+      "piece"
+    ],
+    "answer": 2,
+    "steps": [
+      "Фраза «a … of cake» описывает порцию.",
+      "Для куска торта употребляют «a piece of cake»."
+    ]
+  },
+  {
+    "title": "Tony's Languages",
+    "question": "Tony … three languages.",
+    "choices": [
+      "is speaking",
+      "was speaking",
+      "speaks"
+    ],
+    "answer": 2,
+    "steps": [
+      "Знание языков — обычное умение, а не действие, происходящее сейчас.",
+      "В Present Simple с Tony используется speaks."
+    ]
+  },
+  {
+    "title": "Billy's Films",
+    "question": "Billy is … in old films.",
+    "choices": [
+      "interesting",
+      "interested",
+      "interest"
+    ],
+    "answer": 1,
+    "steps": [
+      "Нужно выразить интерес человека к фильмам.",
+      "Устойчивое сочетание — «be interested in»."
+    ]
+  },
+  {
+    "title": "At the Table",
+    "question": "Don’t talk while you … .",
+    "choices": [
+      "ate",
+      "are eating",
+      "eats"
+    ],
+    "answer": 1,
+    "steps": [
+      "While связывает запрет с действием, которое длится в этот момент.",
+      "С you в Present Continuous нужно «are eating»."
+    ]
+  },
+  {
+    "title": "When Mary Left",
+    "question": "Mary went home three hours … .",
+    "choices": [
+      "now",
+      "ago",
+      "then"
+    ],
+    "answer": 1,
+    "steps": [
+      "Three hours обозначает интервал между уходом и настоящим моментом.",
+      "«Three hours ago» значит «три часа назад»."
+    ]
+  },
+  {
+    "title": "A Christmas Visit",
+    "question": "I am going to Dublin … Christmas Day.",
+    "choices": [
+      "at",
+      "on",
+      "in"
+    ],
+    "adaptation": "Добавлено Day. В исходнике с Christmas подходят on для конкретного дня и at для праздничного периода.",
+    "answer": 1,
+    "steps": [
+      "Уточнённое Christmas Day обозначает конкретный календарный день.",
+      "Перед названием конкретного дня нужно on, «on Christmas Day». At Christmas употребляют о праздничном периоде."
+    ]
+  }
+]

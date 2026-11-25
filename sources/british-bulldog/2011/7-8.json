@@ -1,0 +1,893 @@
+[
+  {
+    "title": "An Unusual Circus",
+    "question": "An unusual circus will open in … .",
+    "choices": [
+      "England",
+      "Scotland",
+      "Wales"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 1,
+    "steps": [
+      "В записи цирк открывается в Edinburgh на время фестиваля.",
+      "Эдинбург — столица Scotland."
+    ]
+  },
+  {
+    "title": "The Performing Mice",
+    "question": "There are … performing mice in the circus.",
+    "choices": [
+      "eight",
+      "twenty seven",
+      "seventeen"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 1,
+    "steps": [
+      "Диктор называет Бродского единственным дрессировщиком «the twenty-seven performing mice».",
+      "Число выступающих мышей — 27."
+    ]
+  },
+  {
+    "title": "Show Length",
+    "question": "The performance lasts … .",
+    "choices": [
+      "fifteen minutes",
+      "thirty minutes",
+      "an hour"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 1,
+    "steps": [
+      "В записи «the whole performance … lasts half an hour».",
+      "Половина часа — 30 минут."
+    ]
+  },
+  {
+    "title": "The Audience Size",
+    "question": "… people can watch the show at a time.",
+    "choices": [
+      "Eight",
+      "Seven",
+      "Twenty seven"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 0,
+    "steps": [
+      "В той же фразе говорится «only eight people at a time».",
+      "Одновременно смотреть представление может восемь человек."
+    ]
+  },
+  {
+    "title": "When the Mice Won't Perform",
+    "question": "The mice won’t perform if they are … .",
+    "choices": [
+      "hungry",
+      "angry",
+      "frightened"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 2,
+    "steps": [
+      "Если зрителей слишком много, мыши «get frightened and won’t perform».",
+      "Frightened означает «испуганные»."
+    ]
+  },
+  {
+    "title": "A Language Survey",
+    "question": "The National Centre for Languages is worried because young people don’t study … .",
+    "choices": [
+      "at school",
+      "at university",
+      "foreign languages"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 2,
+    "steps": [
+      "Диктор сообщает, что центр обеспокоен малым количеством молодых людей, которые учат «foreign languages».",
+      "Foreign languages — иностранные языки."
+    ]
+  },
+  {
+    "title": "Last Year's Percentage",
+    "question": "Last year … percent of secondary school students took a foreign language.",
+    "choices": [
+      "forty four",
+      "seventy one",
+      "four point five"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 0,
+    "steps": [
+      "Для прошлого года названо «only forty-four per cent».",
+      "71% относится к 1997 году, а 4,5% — к росту числа студентов вузов."
+    ]
+  },
+  {
+    "title": "The Earlier Percentage",
+    "question": "In 1997 … pupils out of every hundred took a foreign language than last year.",
+    "choices": [
+      "fewer",
+      "less",
+      "more"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "adaptation": "В записи сравниваются доли школьников. Добавлено «из каждых ста».",
+    "answer": 2,
+    "steps": [
+      "В записи сравниваются 71% в 1997-м и 44% в последнем году.",
+      "Раньше доля была больше. Вариант more соответствует сравнению."
+    ]
+  },
+  {
+    "title": "University Languages",
+    "question": "The number of UK students taking modern languages has … since 2002.",
+    "choices": [
+      "decreased",
+      "increased",
+      "not changed"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 0,
+    "steps": [
+      "Диктор говорит, что число изучающих современные языки «has fallen by four per cent since 2002».",
+      "Has fallen означает decreased, «уменьшилось»."
+    ]
+  },
+  {
+    "title": "What the Centre Wants",
+    "question": "The National Centre for Languages wants young people to … .",
+    "choices": [
+      "study English",
+      "travel more",
+      "speak foreign languages"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 2,
+    "steps": [
+      "Центр обеспокоен тем, что молодёжь мало изучает иностранные языки.",
+      "Из предложенных целей этому соответствует «speak foreign languages»."
+    ]
+  },
+  {
+    "title": "Robin Hood's Background",
+    "question": "Complete gap 11 in the text.",
+    "choices": [
+      "by",
+      "on",
+      "in"
+    ],
+    "context": "Read the text and choose the answer.\n\nThere are many legends about Robin Hood. He was a Saxon [11] birth. He was an outlaw and a robber, but he robbed only [12] rich and helped [13] poor. He was a popular legendary character and many English writers mentioned his name in their works, for example William Shakespeare and Walter Scott. Together with his friends they lived in Sherwood Forest. But today Sherwood Forest is famous not only as home of Robin Hood, but also as a natural [14] for rare and unique birds, beetles and bats. Sherwood Forest is one of the best [15] sites in England, it is a National Nature Reserve. It is most famous [16] its massive and ancient oak trees which have inspired visitors and writers for centuries. There are more than one thousand oaks, some more than five hundred years old. More than one thousand [17] of beetle and spider have been found there as well as more than two hundred species of fungi. There you can also meet [18] unique animals and birds, such as the great spotted woodpecker, tawny owl, redstart and a number of bat species. For over six hundred years the forest [19] the property of the Crown and was used as a [20] of timber and grazing and as a hunting ground for the kings and queens of England. Today’s 200-hectare Sherwood Forest is the first National Nature Reserve for Nottinghamshire.",
+    "answer": 0,
+    "steps": [
+      "Фраза сообщает, кем Робин был по происхождению.",
+      "«By birth» значит «по рождению»."
+    ]
+  },
+  {
+    "title": "Those Robin Robbed",
+    "question": "Complete gap 12 in the text.",
+    "choices": [
+      "a",
+      "the",
+      "no article"
+    ],
+    "context": "Read the text and choose the answer.\n\nThere are many legends about Robin Hood. He was a Saxon [11] birth. He was an outlaw and a robber, but he robbed only [12] rich and helped [13] poor. He was a popular legendary character and many English writers mentioned his name in their works, for example William Shakespeare and Walter Scott. Together with his friends they lived in Sherwood Forest. But today Sherwood Forest is famous not only as home of Robin Hood, but also as a natural [14] for rare and unique birds, beetles and bats. Sherwood Forest is one of the best [15] sites in England, it is a National Nature Reserve. It is most famous [16] its massive and ancient oak trees which have inspired visitors and writers for centuries. There are more than one thousand oaks, some more than five hundred years old. More than one thousand [17] of beetle and spider have been found there as well as more than two hundred species of fungi. There you can also meet [18] unique animals and birds, such as the great spotted woodpecker, tawny owl, redstart and a number of bat species. For over six hundred years the forest [19] the property of the Crown and was used as a [20] of timber and grazing and as a hunting ground for the kings and queens of England. Today’s 200-hectare Sherwood Forest is the first National Nature Reserve for Nottinghamshire.",
+    "answer": 1,
+    "steps": [
+      "Rich здесь обозначает группу богатых людей.",
+      "Прилагательное с определённым артиклем образует «the rich», богатые."
+    ]
+  },
+  {
+    "title": "Those Robin Helped",
+    "question": "Complete gap 13 in the text.",
+    "choices": [
+      "a",
+      "the",
+      "no article"
+    ],
+    "context": "Read the text and choose the answer.\n\nThere are many legends about Robin Hood. He was a Saxon [11] birth. He was an outlaw and a robber, but he robbed only [12] rich and helped [13] poor. He was a popular legendary character and many English writers mentioned his name in their works, for example William Shakespeare and Walter Scott. Together with his friends they lived in Sherwood Forest. But today Sherwood Forest is famous not only as home of Robin Hood, but also as a natural [14] for rare and unique birds, beetles and bats. Sherwood Forest is one of the best [15] sites in England, it is a National Nature Reserve. It is most famous [16] its massive and ancient oak trees which have inspired visitors and writers for centuries. There are more than one thousand oaks, some more than five hundred years old. More than one thousand [17] of beetle and spider have been found there as well as more than two hundred species of fungi. There you can also meet [18] unique animals and birds, such as the great spotted woodpecker, tawny owl, redstart and a number of bat species. For over six hundred years the forest [19] the property of the Crown and was used as a [20] of timber and grazing and as a hunting ground for the kings and queens of England. Today’s 200-hectare Sherwood Forest is the first National Nature Reserve for Nottinghamshire.",
+    "answer": 1,
+    "steps": [
+      "Poor обозначает бедных людей как группу.",
+      "Выражение «the poor» строится с the так же, как «the rich»."
+    ]
+  },
+  {
+    "title": "Homes for Wildlife",
+    "question": "Complete gap 14 in the text.",
+    "choices": [
+      "seat",
+      "habitat",
+      "house"
+    ],
+    "context": "Read the text and choose the answer.\n\nThere are many legends about Robin Hood. He was a Saxon [11] birth. He was an outlaw and a robber, but he robbed only [12] rich and helped [13] poor. He was a popular legendary character and many English writers mentioned his name in their works, for example William Shakespeare and Walter Scott. Together with his friends they lived in Sherwood Forest. But today Sherwood Forest is famous not only as home of Robin Hood, but also as a natural [14] for rare and unique birds, beetles and bats. Sherwood Forest is one of the best [15] sites in England, it is a National Nature Reserve. It is most famous [16] its massive and ancient oak trees which have inspired visitors and writers for centuries. There are more than one thousand oaks, some more than five hundred years old. More than one thousand [17] of beetle and spider have been found there as well as more than two hundred species of fungi. There you can also meet [18] unique animals and birds, such as the great spotted woodpecker, tawny owl, redstart and a number of bat species. For over six hundred years the forest [19] the property of the Crown and was used as a [20] of timber and grazing and as a hunting ground for the kings and queens of England. Today’s 200-hectare Sherwood Forest is the first National Nature Reserve for Nottinghamshire.",
+    "answer": 1,
+    "steps": [
+      "Birds, beetles and bats живут в лесу в естественных условиях.",
+      "Habitat означает «среда обитания»."
+    ]
+  },
+  {
+    "title": "A Nature Reserve",
+    "question": "Complete gap 15 in the text.",
+    "choices": [
+      "wild",
+      "wildlife",
+      "naturalistic"
+    ],
+    "context": "Read the text and choose the answer.\n\nThere are many legends about Robin Hood. He was a Saxon [11] birth. He was an outlaw and a robber, but he robbed only [12] rich and helped [13] poor. He was a popular legendary character and many English writers mentioned his name in their works, for example William Shakespeare and Walter Scott. Together with his friends they lived in Sherwood Forest. But today Sherwood Forest is famous not only as home of Robin Hood, but also as a natural [14] for rare and unique birds, beetles and bats. Sherwood Forest is one of the best [15] sites in England, it is a National Nature Reserve. It is most famous [16] its massive and ancient oak trees which have inspired visitors and writers for centuries. There are more than one thousand oaks, some more than five hundred years old. More than one thousand [17] of beetle and spider have been found there as well as more than two hundred species of fungi. There you can also meet [18] unique animals and birds, such as the great spotted woodpecker, tawny owl, redstart and a number of bat species. For over six hundred years the forest [19] the property of the Crown and was used as a [20] of timber and grazing and as a hunting ground for the kings and queens of England. Today’s 200-hectare Sherwood Forest is the first National Nature Reserve for Nottinghamshire.",
+    "answer": 1,
+    "steps": [
+      "Нужное слово относится к диким животным и растениям.",
+      "Wildlife sites — места, где сохраняют дикую природу."
+    ]
+  },
+  {
+    "title": "Ancient Oaks",
+    "question": "Complete gap 16 in the text.",
+    "choices": [
+      "for",
+      "as",
+      "with"
+    ],
+    "context": "Read the text and choose the answer.\n\nThere are many legends about Robin Hood. He was a Saxon [11] birth. He was an outlaw and a robber, but he robbed only [12] rich and helped [13] poor. He was a popular legendary character and many English writers mentioned his name in their works, for example William Shakespeare and Walter Scott. Together with his friends they lived in Sherwood Forest. But today Sherwood Forest is famous not only as home of Robin Hood, but also as a natural [14] for rare and unique birds, beetles and bats. Sherwood Forest is one of the best [15] sites in England, it is a National Nature Reserve. It is most famous [16] its massive and ancient oak trees which have inspired visitors and writers for centuries. There are more than one thousand oaks, some more than five hundred years old. More than one thousand [17] of beetle and spider have been found there as well as more than two hundred species of fungi. There you can also meet [18] unique animals and birds, such as the great spotted woodpecker, tawny owl, redstart and a number of bat species. For over six hundred years the forest [19] the property of the Crown and was used as a [20] of timber and grazing and as a hunting ground for the kings and queens of England. Today’s 200-hectare Sherwood Forest is the first National Nature Reserve for Nottinghamshire.",
+    "answer": 0,
+    "steps": [
+      "Дубы объясняют, чем известен лес.",
+      "Устойчивое сочетание «famous for» указывает причину известности."
+    ]
+  },
+  {
+    "title": "Numbers of Kinds",
+    "question": "Complete gap 17 in the text.",
+    "choices": [
+      "sorts",
+      "numbers",
+      "species"
+    ],
+    "context": "Read the text and choose the answer.\n\nThere are many legends about Robin Hood. He was a Saxon [11] birth. He was an outlaw and a robber, but he robbed only [12] rich and helped [13] poor. He was a popular legendary character and many English writers mentioned his name in their works, for example William Shakespeare and Walter Scott. Together with his friends they lived in Sherwood Forest. But today Sherwood Forest is famous not only as home of Robin Hood, but also as a natural [14] for rare and unique birds, beetles and bats. Sherwood Forest is one of the best [15] sites in England, it is a National Nature Reserve. It is most famous [16] its massive and ancient oak trees which have inspired visitors and writers for centuries. There are more than one thousand oaks, some more than five hundred years old. More than one thousand [17] of beetle and spider have been found there as well as more than two hundred species of fungi. There you can also meet [18] unique animals and birds, such as the great spotted woodpecker, tawny owl, redstart and a number of bat species. For over six hundred years the forest [19] the property of the Crown and was used as a [20] of timber and grazing and as a hunting ground for the kings and queens of England. Today’s 200-hectare Sherwood Forest is the first National Nature Reserve for Nottinghamshire.",
+    "answer": 2,
+    "steps": [
+      "Текст считает разные виды жуков и пауков.",
+      "Species — «вид». У слова одинаковая форма единственного и множественного числа."
+    ]
+  },
+  {
+    "title": "Animals You Can Meet",
+    "question": "Complete gap 18 in the text.",
+    "choices": [
+      "any",
+      "some",
+      "no"
+    ],
+    "context": "Read the text and choose the answer.\n\nThere are many legends about Robin Hood. He was a Saxon [11] birth. He was an outlaw and a robber, but he robbed only [12] rich and helped [13] poor. He was a popular legendary character and many English writers mentioned his name in their works, for example William Shakespeare and Walter Scott. Together with his friends they lived in Sherwood Forest. But today Sherwood Forest is famous not only as home of Robin Hood, but also as a natural [14] for rare and unique birds, beetles and bats. Sherwood Forest is one of the best [15] sites in England, it is a National Nature Reserve. It is most famous [16] its massive and ancient oak trees which have inspired visitors and writers for centuries. There are more than one thousand oaks, some more than five hundred years old. More than one thousand [17] of beetle and spider have been found there as well as more than two hundred species of fungi. There you can also meet [18] unique animals and birds, such as the great spotted woodpecker, tawny owl, redstart and a number of bat species. For over six hundred years the forest [19] the property of the Crown and was used as a [20] of timber and grazing and as a hunting ground for the kings and queens of England. Today’s 200-hectare Sherwood Forest is the first National Nature Reserve for Nottinghamshire.",
+    "answer": 1,
+    "steps": [
+      "Утвердительное предложение сообщает о нескольких примерах животных.",
+      "Some вводит часть группы, «некоторые»."
+    ]
+  },
+  {
+    "title": "Land of the Crown",
+    "question": "Complete gap 19 in the text.",
+    "choices": [
+      "remained",
+      "stayed",
+      "left"
+    ],
+    "context": "Read the text and choose the answer.\n\nThere are many legends about Robin Hood. He was a Saxon [11] birth. He was an outlaw and a robber, but he robbed only [12] rich and helped [13] poor. He was a popular legendary character and many English writers mentioned his name in their works, for example William Shakespeare and Walter Scott. Together with his friends they lived in Sherwood Forest. But today Sherwood Forest is famous not only as home of Robin Hood, but also as a natural [14] for rare and unique birds, beetles and bats. Sherwood Forest is one of the best [15] sites in England, it is a National Nature Reserve. It is most famous [16] its massive and ancient oak trees which have inspired visitors and writers for centuries. There are more than one thousand oaks, some more than five hundred years old. More than one thousand [17] of beetle and spider have been found there as well as more than two hundred species of fungi. There you can also meet [18] unique animals and birds, such as the great spotted woodpecker, tawny owl, redstart and a number of bat species. For over six hundred years the forest [19] the property of the Crown and was used as a [20] of timber and grazing and as a hunting ground for the kings and queens of England. Today’s 200-hectare Sherwood Forest is the first National Nature Reserve for Nottinghamshire.",
+    "answer": 0,
+    "steps": [
+      "На протяжении многих веков лес сохранял один статус.",
+      "Remained the property значит «оставался собственностью»."
+    ]
+  },
+  {
+    "title": "Timber and Grazing",
+    "question": "Complete gap 20 in the text.",
+    "choices": [
+      "kind",
+      "sauce",
+      "source"
+    ],
+    "context": "Read the text and choose the answer.\n\nThere are many legends about Robin Hood. He was a Saxon [11] birth. He was an outlaw and a robber, but he robbed only [12] rich and helped [13] poor. He was a popular legendary character and many English writers mentioned his name in their works, for example William Shakespeare and Walter Scott. Together with his friends they lived in Sherwood Forest. But today Sherwood Forest is famous not only as home of Robin Hood, but also as a natural [14] for rare and unique birds, beetles and bats. Sherwood Forest is one of the best [15] sites in England, it is a National Nature Reserve. It is most famous [16] its massive and ancient oak trees which have inspired visitors and writers for centuries. There are more than one thousand oaks, some more than five hundred years old. More than one thousand [17] of beetle and spider have been found there as well as more than two hundred species of fungi. There you can also meet [18] unique animals and birds, such as the great spotted woodpecker, tawny owl, redstart and a number of bat species. For over six hundred years the forest [19] the property of the Crown and was used as a [20] of timber and grazing and as a hunting ground for the kings and queens of England. Today’s 200-hectare Sherwood Forest is the first National Nature Reserve for Nottinghamshire.",
+    "answer": 2,
+    "steps": [
+      "Лес давал людям древесину и место для выпаса.",
+      "Source of означает «источник чего-либо». Здесь «source of timber»."
+    ]
+  },
+  {
+    "title": "Looking at the Sky",
+    "question": "Look at the sky, I think it … soon.",
+    "choices": [
+      "will rains",
+      "rains",
+      "is going to rain"
+    ],
+    "answer": 2,
+    "steps": [
+      "Look at the sky указывает на видимые признаки дождя.",
+      "Be going to подходит для предсказания по наблюдению, is going to rain."
+    ]
+  },
+  {
+    "title": "A Photo of Us",
+    "question": "Why don’t you … a picture of us?",
+    "choices": [
+      "take",
+      "have",
+      "do"
+    ],
+    "answer": 0,
+    "steps": [
+      "Речь о том, чтобы сделать фотографию.",
+      "Стандартное английское сочетание — take a picture."
+    ]
+  },
+  {
+    "title": "An Unexpected Speech",
+    "question": "I was suddenly asked to … a speech.",
+    "choices": [
+      "take",
+      "make",
+      "do"
+    ],
+    "answer": 1,
+    "steps": [
+      "После asked to требуется глагол, который употребляется со speech.",
+      "Make a speech значит «произнести речь»."
+    ]
+  },
+  {
+    "title": "A Tag After Never",
+    "question": "She is never satisfied with her work, … ?",
+    "choices": [
+      "isn’t she",
+      "is she",
+      "doesn’t she"
+    ],
+    "answer": 1,
+    "steps": [
+      "Never делает смысл главной части отрицательным, хотя is формально утвердительно.",
+      "В хвостике берём утвердительное «is she?»."
+    ]
+  },
+  {
+    "title": "A Closed Shop",
+    "question": "The shop will be closed … two weeks.",
+    "choices": [
+      "since",
+      "about",
+      "for"
+    ],
+    "answer": 2,
+    "steps": [
+      "Two weeks — длительность закрытия магазина.",
+      "Отрезок времени вводится for."
+    ]
+  },
+  {
+    "title": "A Man I Saw",
+    "question": "The man … I saw was very angry.",
+    "choices": [
+      "that",
+      "which",
+      "whose"
+    ],
+    "answer": 0,
+    "steps": [
+      "Пропуск вводит придаточное о человеке.",
+      "Из данных относительных местоимений подходит that."
+    ]
+  },
+  {
+    "title": "Building a Station",
+    "question": "When I came back a new metro station … .",
+    "choices": [
+      "is built",
+      "had built",
+      "was being built"
+    ],
+    "answer": 2,
+    "steps": [
+      "Когда говорящий вернулся, строительство шло. Станцию строили другие.",
+      "Past Continuous Passive — «was being built»."
+    ]
+  },
+  {
+    "title": "An Unexpected Lie",
+    "question": "I didn’t … that he would tell me a lie.",
+    "choices": [
+      "await",
+      "wait",
+      "expect"
+    ],
+    "answer": 2,
+    "steps": [
+      "Говорящий не предполагал, что собеседник солжёт.",
+      "Expect может вводить придаточное с that. Wait описывает ожидание во времени."
+    ]
+  },
+  {
+    "title": "Making Someone Change",
+    "question": "Can you make your son … more agreeable?",
+    "choices": [
+      "be",
+      "to be",
+      "being"
+    ],
+    "answer": 0,
+    "steps": [
+      "После make и дополнения в активной конструкции ставится исходная форма глагола.",
+      "«Make your son be more agreeable» содержит be без to."
+    ]
+  },
+  {
+    "title": "A Final Agreement",
+    "question": "… the end, he agreed with his mother.",
+    "choices": [
+      "At",
+      "In",
+      "On"
+    ],
+    "answer": 1,
+    "steps": [
+      "Фраза сообщает, каким оказался итог обсуждения.",
+      "«In the end» значит «в конце концов». «At the end of» обозначает конец конкретной вещи."
+    ]
+  },
+  {
+    "title": "An Exam Result",
+    "question": "I want to get by a good result in my exam.",
+    "choices": [
+      "to",
+      "by",
+      "a"
+    ],
+    "context": "Choose the word to remove.",
+    "answer": 1,
+    "steps": [
+      "С get можно прямо поставить полученный объект, «get a good result».",
+      "By между глаголом и дополнением здесь лишнее."
+    ]
+  },
+  {
+    "title": "Across from the Market",
+    "question": "You can’t miss my house; it’s opposite of the market.",
+    "choices": [
+      "my",
+      "it’s",
+      "of"
+    ],
+    "context": "Choose the word to remove.",
+    "answer": 2,
+    "steps": [
+      "Предлог opposite сразу вводит место, расположенное напротив.",
+      "Нужно «opposite the market». Of убираем."
+    ]
+  },
+  {
+    "title": "A Teacher's Help",
+    "question": "My teacher who has been helping me to prepare for my exam.",
+    "choices": [
+      "who",
+      "been",
+      "for"
+    ],
+    "context": "Choose the word to remove.",
+    "answer": 0,
+    "steps": [
+      "Предложению нужно сказуемое «has been helping». My teacher — подлежащее.",
+      "Who превращает его в придаточное без главного предложения. Убираем who."
+    ]
+  },
+  {
+    "title": "A Friend Who Loves Golf",
+    "question": "I like golf, but my friend he is mad about it.",
+    "choices": [
+      "but",
+      "he",
+      "about"
+    ],
+    "context": "Choose the word to remove.",
+    "answer": 1,
+    "steps": [
+      "Во второй части «my friend» уже является подлежащим.",
+      "Местоимение he повторяет его и поэтому лишнее."
+    ]
+  },
+  {
+    "title": "A Pronunciation Problem",
+    "question": "It’s hard to understand him because of his pronunciation is bad.",
+    "choices": [
+      "to",
+      "him",
+      "of"
+    ],
+    "context": "Choose the word to remove.",
+    "answer": 2,
+    "steps": [
+      "За because идёт полное предложение «his pronunciation is bad».",
+      "Of нужно перед существительным, поэтому здесь убираем of."
+    ]
+  },
+  {
+    "title": "Doing Homework",
+    "question": "At the end of the day I was been made to do my homework.",
+    "choices": [
+      "of",
+      "been",
+      "to"
+    ],
+    "context": "Choose the word to remove.",
+    "answer": 1,
+    "steps": [
+      "Для пассива в простом прошедшем достаточно «I was made».",
+      "Been после was в такой конструкции лишнее."
+    ]
+  },
+  {
+    "title": "Unable to Stop Shaking",
+    "question": "I was so nervous that I could not stop a shaking.",
+    "choices": [
+      "so",
+      "that",
+      "a"
+    ],
+    "context": "Choose the word to remove.",
+    "answer": 2,
+    "steps": [
+      "Stop doing something значит «перестать что-либо делать».",
+      "Shaking здесь форма глагола и употребляется без a."
+    ]
+  },
+  {
+    "title": "Working for Pocket Money",
+    "question": "When she was young she used to be work for pocket money.",
+    "choices": [
+      "she",
+      "to",
+      "be"
+    ],
+    "context": "Choose the word to remove.",
+    "answer": 2,
+    "steps": [
+      "Бывшее привычное действие строится как used to + глагол.",
+      "Правильно «used to work». Be перед work здесь лишнее."
+    ]
+  },
+  {
+    "title": "After Finishing School",
+    "question": "When she finished the school she decided to study law.",
+    "choices": [
+      "When",
+      "the",
+      "to"
+    ],
+    "context": "Choose the word to remove.",
+    "answer": 1,
+    "steps": [
+      "Речь об окончании школы как этапа образования.",
+      "В «finish school» артикль the можно убрать."
+    ]
+  },
+  {
+    "title": "Too Tired to Go Out",
+    "question": "She was too much tired to go out with us.",
+    "choices": [
+      "too",
+      "much",
+      "out"
+    ],
+    "context": "Choose the word to remove.",
+    "answer": 1,
+    "steps": [
+      "С «tired» подходит «too tired to go».",
+      "Much в «too much tired» не требуется."
+    ]
+  },
+  {
+    "title": "A London Square",
+    "question": "Trafalgar Square",
+    "choices": [
+      "a",
+      "the",
+      "no article"
+    ],
+    "context": "Choose the article to use with this name.",
+    "answer": 2,
+    "steps": [
+      "Trafalgar Square — имя отдельной площади.",
+      "Названия с Square обычно употребляются без артикля."
+    ]
+  },
+  {
+    "title": "The London Tower",
+    "question": "Tower of London",
+    "choices": [
+      "a",
+      "the",
+      "no article"
+    ],
+    "context": "Choose the article to use with this name.",
+    "answer": 1,
+    "steps": [
+      "Название содержит главное слово Tower и уточнение of London.",
+      "Устоявшаяся форма — the Tower of London."
+    ]
+  },
+  {
+    "title": "The Parliament Buildings",
+    "question": "Houses of Parliament",
+    "choices": [
+      "a",
+      "the",
+      "no article"
+    ],
+    "context": "Choose the article to use with this name.",
+    "answer": 1,
+    "steps": [
+      "Вопрос касается лондонского комплекса нескольких зданий парламента.",
+      "Устоявшееся название — the Houses of Parliament."
+    ]
+  },
+  {
+    "title": "A River Name",
+    "question": "Thames",
+    "choices": [
+      "a",
+      "the",
+      "no article"
+    ],
+    "context": "Choose the article to use with this name.",
+    "answer": 1,
+    "steps": [
+      "Thames — название реки. Английские названия рек обычно имеют артикль.",
+      "Говорят the Thames."
+    ]
+  },
+  {
+    "title": "The Abbey's Name",
+    "question": "Westminster Abbey",
+    "choices": [
+      "a",
+      "the",
+      "no article"
+    ],
+    "context": "Choose the article to use with this name.",
+    "answer": 2,
+    "steps": [
+      "Westminster Abbey — собственное название аббатства.",
+      "Оно употребляется без артикля."
+    ]
+  },
+  {
+    "title": "A Railway Station",
+    "question": "Victoria Station",
+    "choices": [
+      "a",
+      "the",
+      "no article"
+    ],
+    "context": "Choose the article to use with this name.",
+    "answer": 2,
+    "steps": [
+      "Victoria Station — имя отдельного вокзала.",
+      "В стандартном употреблении артикля перед ним нет."
+    ]
+  },
+  {
+    "title": "The River in London",
+    "question": "River Thames",
+    "choices": [
+      "a",
+      "the",
+      "no article"
+    ],
+    "context": "Choose the article to use with this name.",
+    "answer": 1,
+    "steps": [
+      "River как часть названия не меняет правило для рек.",
+      "Полное название — the River Thames."
+    ]
+  },
+  {
+    "title": "The Central Bank",
+    "question": "Bank of England",
+    "choices": [
+      "a",
+      "the",
+      "no article"
+    ],
+    "context": "Choose the article to use with this name.",
+    "answer": 1,
+    "steps": [
+      "Слово Bank уточнено выражением of England.",
+      "Официальное название употребляется с the, the Bank of England."
+    ]
+  },
+  {
+    "title": "A Royal Palace",
+    "question": "Buckingham Palace",
+    "choices": [
+      "a",
+      "the",
+      "no article"
+    ],
+    "context": "Choose the article to use with this name.",
+    "answer": 2,
+    "steps": [
+      "Buckingham Palace — собственное название дворца.",
+      "Как имя дворца оно употребляется без артикля."
+    ]
+  },
+  {
+    "title": "A London Museum",
+    "question": "British Museum",
+    "choices": [
+      "a",
+      "the",
+      "no article"
+    ],
+    "context": "Choose the article to use with this name.",
+    "answer": 1,
+    "steps": [
+      "Название с British относится к одному конкретному музею.",
+      "Устоявшаяся форма — the British Museum."
+    ]
+  },
+  {
+    "title": "Countries of the UK",
+    "question": "Which country is not a part of the UK?",
+    "choices": [
+      "Scotland",
+      "Wales",
+      "Iceland"
+    ],
+    "answer": 2,
+    "steps": [
+      "В Великобританию входят и Шотландия, и Уэльс.",
+      "Исландия, Iceland, отдельная страна и в состав UK не входит."
+    ]
+  },
+  {
+    "title": "The Norman Conquest",
+    "question": "William the Conqueror invaded the British Isles in the … century.",
+    "choices": [
+      "eighth",
+      "eleventh",
+      "fifteenth"
+    ],
+    "answer": 1,
+    "steps": [
+      "Вильгельм Завоеватель вторгся в Англию в 1066 году.",
+      "Годы 1001–1100 относятся к XI веку, eleventh."
+    ]
+  },
+  {
+    "title": "The Battle of Trafalgar",
+    "question": "The Battle of Trafalgar took place during … .",
+    "choices": [
+      "WWII",
+      "the Civil War",
+      "the war against Napoleon"
+    ],
+    "answer": 2,
+    "steps": [
+      "Битва 1805 года была частью Наполеоновских войн.",
+      "Из вариантов подходит «the war against Napoleon»."
+    ]
+  },
+  {
+    "title": "Where the Zoo Is",
+    "question": "London Zoo is situated in … Park.",
+    "choices": [
+      "Hyde",
+      "Regent’s",
+      "St. James’s"
+    ],
+    "answer": 1,
+    "steps": [
+      "Лондонский зоопарк расположен у северной части одного из больших парков.",
+      "Этот парк — Regent’s Park."
+    ]
+  },
+  {
+    "title": "A Place of Burial",
+    "question": "Many famous people are buried there.",
+    "choices": [
+      "Buckingham Palace",
+      "Westminster Palace",
+      "Westminster Abbey"
+    ],
+    "answer": 2,
+    "steps": [
+      "В Лондоне есть аббатство, в котором похоронены монархи и многие известные деятели.",
+      "Это Westminster Abbey."
+    ]
+  },
+  {
+    "title": "A Building with Many Roles",
+    "question": "It has been a fortress, a palace, a zoo, a treasury.",
+    "choices": [
+      "Big Ben",
+      "Buckingham Palace",
+      "The Tower"
+    ],
+    "answer": 2,
+    "steps": [
+      "Нужен комплекс у Темзы, который использовался как крепость, дворец, зверинец и хранилище.",
+      "Эти роли выполнял The Tower."
+    ]
+  },
+  {
+    "title": "Parliament's Home",
+    "question": "The building is the seat of the Parliament.",
+    "choices": [
+      "Buckingham Palace",
+      "Westminster Palace",
+      "Westminster Abbey"
+    ],
+    "answer": 1,
+    "steps": [
+      "Палаты британского парламента заседают в здании возле Часовой башни.",
+      "Его название — Palace of Westminster, в вариантах Westminster Palace."
+    ]
+  },
+  {
+    "title": "A Work by Wren",
+    "question": "It is the work of the architect Christopher Wren.",
+    "choices": [
+      "Buckingham Palace",
+      "Westminster Abbey",
+      "St. Paul’s Cathedral"
+    ],
+    "answer": 2,
+    "steps": [
+      "Рен спроектировал лондонский собор после Великого пожара.",
+      "Из вариантов это St. Paul’s Cathedral."
+    ]
+  },
+  {
+    "title": "An Author of a Children's Book",
+    "question": "“Alice in Wonderland” was written by … .",
+    "choices": [
+      "Lewis Carroll",
+      "Alexander Milne",
+      "Walter Scott"
+    ],
+    "answer": 0,
+    "steps": [
+      "История о девочке, которая попадает в Страну чудес, начинается с Белого Кролика.",
+      "Автор книги — Lewis Carroll."
+    ]
+  },
+  {
+    "title": "Prince Hamlet",
+    "question": "Hamlet was the Prince of … .",
+    "choices": [
+      "England",
+      "Denmark",
+      "Great Britain"
+    ],
+    "answer": 1,
+    "steps": [
+      "Шекспир помещает действие трагедии при дворе в Эльсиноре.",
+      "Гамлет — принц Дании, Denmark."
+    ]
+  }
+]

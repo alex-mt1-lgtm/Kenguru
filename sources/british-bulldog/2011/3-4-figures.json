@@ -1,0 +1,78 @@
+{
+  "three-friends": {
+    "sourceFile": "3-4/tasks-reading.pdf",
+    "page": 1,
+    "cropPoints": [
+      56.5,
+      80.25,
+      225.5,
+      211.5
+    ],
+    "src": "assets/british-bulldog/2011/3-4/three-friends.webp",
+    "alt": "Three people labelled Zoe, Mia and Billy",
+    "width": 508,
+    "height": 395
+  },
+  "classroom": {
+    "sourceFile": "3-4/tasks-reading.pdf",
+    "page": 2,
+    "cropPoints": [
+      129.9,
+      126.9,
+      390.1,
+      294.5
+    ],
+    "src": "assets/british-bulldog/2011/3-4/classroom.webp",
+    "alt": "People and furniture in an indoor scene",
+    "masterSize": [
+      205,
+      132
+    ],
+    "width": 205,
+    "height": 132
+  },
+  "board-left": {
+    "sourceFile": "3-4/tasks-reading.pdf",
+    "page": 2,
+    "cropPoints": [
+      58,
+      393,
+      238,
+      641
+    ],
+    "src": "assets/british-bulldog/2011/3-4/board-left.webp",
+    "alt": "Closer view for the left picture",
+    "source": "https://commons.wikimedia.org/wiki/Special:PermanentLink/1224806790",
+    "creator": "David Iliff",
+    "license": "CC BY-SA 3.0",
+    "note": "Reference photograph in the reading copy.",
+    "masterSize": [
+      900,
+      1240
+    ],
+    "width": 900,
+    "height": 1240
+  },
+  "board-right": {
+    "sourceFile": "3-4/tasks-reading.pdf",
+    "page": 2,
+    "cropPoints": [
+      282,
+      393,
+      462,
+      641
+    ],
+    "src": "assets/british-bulldog/2011/3-4/board-right.webp",
+    "alt": "Closer view for the right picture",
+    "source": "https://commons.wikimedia.org/wiki/Special:PermanentLink/1232690719",
+    "creator": "NASA / Bill Ingalls",
+    "license": "US public domain",
+    "note": "Reference photograph in the reading copy, mirrored to match the original orientation.",
+    "masterSize": [
+      900,
+      1240
+    ],
+    "width": 900,
+    "height": 1240
+  }
+}

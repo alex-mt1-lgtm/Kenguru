@@ -1,0 +1,922 @@
+[
+  {
+    "title": "Who Is Writing?",
+    "question": "She is … .",
+    "choices": [
+      "a teacher",
+      "a student",
+      "a worker"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 1,
+    "steps": [
+      "Автор письма сразу говорит «I’m a student».",
+      "Она ученица. Teacher — учитель, worker — работник."
+    ]
+  },
+  {
+    "title": "The Writer's Name",
+    "question": "Her name is … .",
+    "choices": [
+      "Jane",
+      "Sue",
+      "Penny"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 1,
+    "steps": [
+      "Письмо начинается обращением «Dear Jane», а заканчивается подписью «Love, Sue».",
+      "Jane получает письмо. Автор — Sue."
+    ]
+  },
+  {
+    "title": "Where She Studies",
+    "question": "She goes to school … .",
+    "choices": [
+      "in London",
+      "in a little town",
+      "near London"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 0,
+    "steps": [
+      "В записи «I go to school in London, but I live in a little town».",
+      "Про школу сказано in London. Городок относится к месту жительства."
+    ]
+  },
+  {
+    "title": "Where She Lives",
+    "question": "She lives … London.",
+    "choices": [
+      "in",
+      "near",
+      "far from"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 1,
+    "steps": [
+      "После упоминания школы звучит «I live in a little town near London».",
+      "Near London значит «недалеко от Лондона»."
+    ]
+  },
+  {
+    "title": "People at Home",
+    "question": "She lives with her parents and … .",
+    "choices": [
+      "a sister",
+      "two brothers",
+      "a brother"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 2,
+    "steps": [
+      "Она живёт «with my parents and one brother».",
+      "One brother означает, что у неё один брат."
+    ]
+  },
+  {
+    "title": "Her Brother's Age",
+    "question": "Her brother is … .",
+    "choices": [
+      "four",
+      "forty",
+      "fourteen"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 2,
+    "steps": [
+      "После слов one brother слушай возраст.",
+      "«He is fourteen years old» — ему четырнадцать, не четыре и не сорок."
+    ]
+  },
+  {
+    "title": "Her Pet",
+    "question": "She has a … .",
+    "choices": [
+      "dog",
+      "dog and a cat",
+      "cat"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 2,
+    "steps": [
+      "Сью говорит «I also have a cat».",
+      "Penny — имя кошки, a cat."
+    ]
+  },
+  {
+    "title": "A Football Outing",
+    "question": "She likes … .",
+    "choices": [
+      "playing football",
+      "watching football on TV",
+      "going to a football match"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 2,
+    "steps": [
+      "Сью говорит, что ей нравится ходить на футбольные матчи.",
+      "В записи есть watching TV, но футбольный матч назван именно как место, куда она ходит."
+    ]
+  },
+  {
+    "title": "How Often She Goes",
+    "question": "… she goes to a football match.",
+    "choices": [
+      "Sometimes",
+      "Usually",
+      "Once a week"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 0,
+    "steps": [
+      "Перед «I like going to a football match» в записи стоит слово sometimes.",
+      "Это означает «иногда»."
+    ]
+  },
+  {
+    "title": "Her Feelings About Sport",
+    "question": "She … .",
+    "choices": [
+      "likes sports very much",
+      "doesn’t like sports",
+      "hates sports"
+    ],
+    "audio": true,
+    "context": "Listen to the recording and choose the answer.",
+    "answer": 0,
+    "steps": [
+      "Сью говорит «I like sports a lot».",
+      "A lot здесь означает «очень». Значит, она очень любит спорт."
+    ]
+  },
+  {
+    "title": "The Day of the Party",
+    "question": "It’s … afternoon.",
+    "choices": [
+      "Sunday",
+      "Saturday",
+      "Monday"
+    ],
+    "context": "Read the text and choose the answer.\n\nIt’s Sunday afternoon and Kate and Sue are at Mary’s birthday party. She’s eight years old now. Some kids are dancing in the sitting room. Mary is opening a present at the moment. Patrick and Simon are in the kitchen. They are eating chocolate cake. Peter is playing a video game in Mary’s bedroom. Kate and Sue like parties very much. Children have a lot of fun at parties.",
+    "figure": {
+      "src": "assets/british-bulldog/2009/3-4/birthday-party.webp",
+      "alt": "Birthday party scene",
+      "width": 702,
+      "height": 597
+    },
+    "answer": 0,
+    "steps": [
+      "Текст начинается словами «It’s Sunday afternoon».",
+      "Действие происходит в воскресенье после полудня."
+    ]
+  },
+  {
+    "title": "Whose Birthday?",
+    "question": "The girls are at … birthday party.",
+    "choices": [
+      "Sue’s",
+      "Mary’s",
+      "Kate’s"
+    ],
+    "context": "Read the text and choose the answer.\n\nIt’s Sunday afternoon and Kate and Sue are at Mary’s birthday party. She’s eight years old now. Some kids are dancing in the sitting room. Mary is opening a present at the moment. Patrick and Simon are in the kitchen. They are eating chocolate cake. Peter is playing a video game in Mary’s bedroom. Kate and Sue like parties very much. Children have a lot of fun at parties.",
+    "figure": {
+      "src": "assets/british-bulldog/2009/3-4/birthday-party.webp",
+      "alt": "Birthday party scene",
+      "width": 702,
+      "height": 597
+    },
+    "answer": 1,
+    "steps": [
+      "Кейт и Сью пришли на день рождения.",
+      "Фраза «Mary’s birthday party» указывает на именинницу Мэри."
+    ]
+  },
+  {
+    "title": "Mary's Age",
+    "question": "How old is Mary? … .",
+    "choices": [
+      "Eight",
+      "Eighty",
+      "Seven"
+    ],
+    "context": "Read the text and choose the answer.\n\nIt’s Sunday afternoon and Kate and Sue are at Mary’s birthday party. She’s eight years old now. Some kids are dancing in the sitting room. Mary is opening a present at the moment. Patrick and Simon are in the kitchen. They are eating chocolate cake. Peter is playing a video game in Mary’s bedroom. Kate and Sue like parties very much. Children have a lot of fun at parties.",
+    "figure": {
+      "src": "assets/british-bulldog/2009/3-4/birthday-party.webp",
+      "alt": "Birthday party scene",
+      "width": 702,
+      "height": 597
+    },
+    "answer": 0,
+    "steps": [
+      "Местоимение she в «She’s eight years old now» относится к Мэри.",
+      "Eight — восемь. Eighty — восемьдесят."
+    ]
+  },
+  {
+    "title": "The Dancing Children",
+    "question": "… children are dancing.",
+    "choices": [
+      "All",
+      "Some",
+      "Three"
+    ],
+    "context": "Read the text and choose the answer.\n\nIt’s Sunday afternoon and Kate and Sue are at Mary’s birthday party. She’s eight years old now. Some kids are dancing in the sitting room. Mary is opening a present at the moment. Patrick and Simon are in the kitchen. They are eating chocolate cake. Peter is playing a video game in Mary’s bedroom. Kate and Sue like parties very much. Children have a lot of fun at parties.",
+    "figure": {
+      "src": "assets/british-bulldog/2009/3-4/birthday-party.webp",
+      "alt": "Birthday party scene",
+      "width": 702,
+      "height": 597
+    },
+    "answer": 1,
+    "steps": [
+      "Перечитай «Some kids are dancing in the sitting room».",
+      "Some означает «некоторые». Их точное количество не названо."
+    ]
+  },
+  {
+    "title": "What Mary Opens",
+    "question": "What is Mary opening? … .",
+    "choices": [
+      "The door",
+      "The present",
+      "The box"
+    ],
+    "context": "Read the text and choose the answer.\n\nIt’s Sunday afternoon and Kate and Sue are at Mary’s birthday party. She’s eight years old now. Some kids are dancing in the sitting room. Mary is opening a present at the moment. Patrick and Simon are in the kitchen. They are eating chocolate cake. Peter is playing a video game in Mary’s bedroom. Kate and Sue like parties very much. Children have a lot of fun at parties.",
+    "figure": {
+      "src": "assets/british-bulldog/2009/3-4/birthday-party.webp",
+      "alt": "Birthday party scene",
+      "width": 702,
+      "height": 597
+    },
+    "answer": 1,
+    "steps": [
+      "Найди действие «Mary is opening a present».",
+      "Present означает «подарок»."
+    ]
+  },
+  {
+    "title": "Patrick and Simon",
+    "question": "Patrick and Simon are eating … .",
+    "choices": [
+      "cake",
+      "sweets",
+      "biscuits"
+    ],
+    "context": "Read the text and choose the answer.\n\nIt’s Sunday afternoon and Kate and Sue are at Mary’s birthday party. She’s eight years old now. Some kids are dancing in the sitting room. Mary is opening a present at the moment. Patrick and Simon are in the kitchen. They are eating chocolate cake. Peter is playing a video game in Mary’s bedroom. Kate and Sue like parties very much. Children have a lot of fun at parties.",
+    "figure": {
+      "src": "assets/british-bulldog/2009/3-4/birthday-party.webp",
+      "alt": "Birthday party scene",
+      "width": 702,
+      "height": 597
+    },
+    "answer": 0,
+    "steps": [
+      "После имён мальчиков сказано «They are eating chocolate cake».",
+      "Из вариантов это cake, торт."
+    ]
+  },
+  {
+    "title": "Where the Boys Are",
+    "question": "They are in the … .",
+    "choices": [
+      "kitchen",
+      "living room",
+      "bedroom"
+    ],
+    "context": "Read the text and choose the answer.\n\nIt’s Sunday afternoon and Kate and Sue are at Mary’s birthday party. She’s eight years old now. Some kids are dancing in the sitting room. Mary is opening a present at the moment. Patrick and Simon are in the kitchen. They are eating chocolate cake. Peter is playing a video game in Mary’s bedroom. Kate and Sue like parties very much. Children have a lot of fun at parties.",
+    "figure": {
+      "src": "assets/british-bulldog/2009/3-4/birthday-party.webp",
+      "alt": "Birthday party scene",
+      "width": 702,
+      "height": 597
+    },
+    "answer": 0,
+    "steps": [
+      "Предложение «Patrick and Simon are in the kitchen» отвечает на вопрос прямо.",
+      "Kitchen — кухня."
+    ]
+  },
+  {
+    "title": "Peter's Game",
+    "question": "Peter is playing … .",
+    "choices": [
+      "a game",
+      "the guitar",
+      "a video game"
+    ],
+    "context": "Read the text and choose the answer.\n\nIt’s Sunday afternoon and Kate and Sue are at Mary’s birthday party. She’s eight years old now. Some kids are dancing in the sitting room. Mary is opening a present at the moment. Patrick and Simon are in the kitchen. They are eating chocolate cake. Peter is playing a video game in Mary’s bedroom. Kate and Sue like parties very much. Children have a lot of fun at parties.",
+    "figure": {
+      "src": "assets/british-bulldog/2009/3-4/birthday-party.webp",
+      "alt": "Birthday party scene",
+      "width": 702,
+      "height": 597
+    },
+    "answer": 2,
+    "steps": [
+      "В тексте Peter is playing сопровождается названием игры.",
+      "Сказано «a video game»."
+    ]
+  },
+  {
+    "title": "Where Peter Is",
+    "question": "Where is Peter? He is in the … .",
+    "choices": [
+      "kitchen",
+      "bedroom",
+      "living room"
+    ],
+    "context": "Read the text and choose the answer.\n\nIt’s Sunday afternoon and Kate and Sue are at Mary’s birthday party. She’s eight years old now. Some kids are dancing in the sitting room. Mary is opening a present at the moment. Patrick and Simon are in the kitchen. They are eating chocolate cake. Peter is playing a video game in Mary’s bedroom. Kate and Sue like parties very much. Children have a lot of fun at parties.",
+    "figure": {
+      "src": "assets/british-bulldog/2009/3-4/birthday-party.webp",
+      "alt": "Birthday party scene",
+      "width": 702,
+      "height": 597
+    },
+    "answer": 1,
+    "steps": [
+      "Место названо после слов «Peter is playing a video game».",
+      "«In Mary’s bedroom» означает «в спальне Мэри»."
+    ]
+  },
+  {
+    "title": "Who Likes Parties",
+    "question": "Who likes the parties very much? … .",
+    "choices": [
+      "Sue and Mary",
+      "The boys",
+      "Sue and Kate"
+    ],
+    "context": "Read the text and choose the answer.\n\nIt’s Sunday afternoon and Kate and Sue are at Mary’s birthday party. She’s eight years old now. Some kids are dancing in the sitting room. Mary is opening a present at the moment. Patrick and Simon are in the kitchen. They are eating chocolate cake. Peter is playing a video game in Mary’s bedroom. Kate and Sue like parties very much. Children have a lot of fun at parties.",
+    "figure": {
+      "src": "assets/british-bulldog/2009/3-4/birthday-party.webp",
+      "alt": "Birthday party scene",
+      "width": 702,
+      "height": 597
+    },
+    "answer": 2,
+    "steps": [
+      "В тексте имена названы рядом со словами «like parties very much».",
+      "Это Kate and Sue. Порядок имён в варианте обратный."
+    ]
+  },
+  {
+    "title": "A New Teacher",
+    "question": "She likes … new teacher.",
+    "choices": [
+      "her",
+      "he",
+      "you"
+    ],
+    "answer": 0,
+    "steps": [
+      "Нужно показать, чей это учитель. Подлежащее — she.",
+      "Перед существительным ставится притяжательное her, «её»."
+    ]
+  },
+  {
+    "title": "Animals at the Zoo",
+    "question": "There … many animals at the zoo.",
+    "choices": [
+      "is",
+      "are",
+      "was"
+    ],
+    "answer": 1,
+    "steps": [
+      "После конструкции there следует множественное many animals.",
+      "Глагол согласуется с animals. Нужна форма are."
+    ]
+  },
+  {
+    "title": "Friends at School",
+    "question": "I have got … friends at school.",
+    "choices": [
+      "many",
+      "much",
+      "a"
+    ],
+    "answer": 0,
+    "steps": [
+      "Friends — исчисляемое слово во множественном числе.",
+      "Many можно употреблять с friends. Much подходит для неисчисляемого."
+    ]
+  },
+  {
+    "title": "A New Bicycle",
+    "question": "Look at my new bike. Do you like … ?",
+    "choices": [
+      "her",
+      "she",
+      "it"
+    ],
+    "answer": 2,
+    "steps": [
+      "Местоимение заменяет предмет, my new bike, и стоит после like.",
+      "Для предмета в единственном числе подходит it."
+    ]
+  },
+  {
+    "title": "Where Is He?",
+    "question": "Sorry, he is not … home.",
+    "choices": [
+      "in",
+      "at",
+      "to"
+    ],
+    "answer": 1,
+    "steps": [
+      "Фраза сообщает, что человека сейчас нет дома.",
+      "Состояние «дома» выражается «at home»."
+    ]
+  },
+  {
+    "title": "Finding Sally",
+    "question": "… is Sally? She’s in the park.",
+    "choices": [
+      "Where",
+      "What",
+      "Who"
+    ],
+    "answer": 0,
+    "steps": [
+      "Ответ «She’s in the park» сообщает место.",
+      "Вопросительное слово о месте — where."
+    ]
+  },
+  {
+    "title": "Speaking English",
+    "question": "Ann … speak English very well.",
+    "choices": [
+      "cans",
+      "can",
+      "can to"
+    ],
+    "answer": 1,
+    "steps": [
+      "Can — модальный глагол, который не меняется с Ann.",
+      "После can ставится speak без to."
+    ]
+  },
+  {
+    "title": "Watching TV",
+    "question": "… she watch TV in the morning?",
+    "choices": [
+      "Do",
+      "Is",
+      "Does"
+    ],
+    "answer": 2,
+    "steps": [
+      "Watch — смысловой глагол в общем вопросе в Present Simple.",
+      "С she используем does, затем watch без -es."
+    ]
+  },
+  {
+    "title": "Milk with Coffee",
+    "question": "My mother … milk with coffee.",
+    "choices": [
+      "not drinks",
+      "not drinking",
+      "doesn’t drink"
+    ],
+    "answer": 2,
+    "steps": [
+      "Для отрицания с подлежащим my mother нужен вспомогательный глагол третьего лица.",
+      "Правильно «doesn’t drink». Окончание несёт does, а drink остаётся неизменным."
+    ]
+  },
+  {
+    "title": "Homework Right Now",
+    "question": "Mary … her homework now.",
+    "choices": [
+      "do",
+      "does",
+      "is doing"
+    ],
+    "answer": 2,
+    "steps": [
+      "Now показывает, что Мэри занята заданием прямо сейчас.",
+      "Present Continuous с Mary даёт «is doing»."
+    ]
+  },
+  {
+    "title": "The Wall Clock",
+    "question": "It’s … o’clock.",
+    "choices": [
+      "seven",
+      "eight",
+      "nine"
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2009/3-4/family.webp",
+      "alt": "Family and their pets",
+      "width": 424,
+      "height": 391
+    },
+    "answer": 1,
+    "steps": [
+      "Найди короткую часовую стрелку. Она показывает на восемь, а длинная минутная — на двенадцать.",
+      "Поэтому на часах восемь ровно, eight o’clock."
+    ]
+  },
+  {
+    "title": "Where the Clock Is",
+    "question": "The clock is on the … .",
+    "choices": [
+      "wall",
+      "table",
+      "floor"
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2009/3-4/family.webp",
+      "alt": "Family and their pets",
+      "width": 424,
+      "height": 391
+    },
+    "answer": 0,
+    "steps": [
+      "Часы нарисованы высоко за семьёй, выше всех голов.",
+      "Часы висят на стене, on the wall."
+    ]
+  },
+  {
+    "title": "How Many People?",
+    "question": "There are … people in the family.",
+    "choices": [
+      "four",
+      "five",
+      "seven"
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2009/3-4/family.webp",
+      "alt": "Family and their pets",
+      "width": 424,
+      "height": 391
+    },
+    "answer": 1,
+    "steps": [
+      "Посчитай двоих взрослых и троих детей. Собаку и кошку считаем отдельно.",
+      "В семье пять человек."
+    ]
+  },
+  {
+    "title": "The Cat's Position",
+    "question": "The cat is … .",
+    "choices": [
+      "sleeping",
+      "running",
+      "sitting on the floor"
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2009/3-4/family.webp",
+      "alt": "Family and their pets",
+      "width": 424,
+      "height": 391
+    },
+    "answer": 2,
+    "steps": [
+      "Кошка находится внизу рядом с собакой. Её туловище поднято над полом.",
+      "Из описаний подходит «sitting on the floor»."
+    ]
+  },
+  {
+    "title": "Two Pets",
+    "question": "The dog is … than the cat.",
+    "choices": [
+      "smaller",
+      "bigger",
+      "biggest"
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2009/3-4/family.webp",
+      "alt": "Family and their pets",
+      "width": 424,
+      "height": 391
+    },
+    "answer": 1,
+    "steps": [
+      "На рисунке собака занимает больше места, чем кошка.",
+      "Than требует сравнительной степени. Bigger значит «больше»."
+    ]
+  },
+  {
+    "title": "The Girl's Clothes",
+    "question": "The girl is wearing … .",
+    "choices": [
+      "a jacket",
+      "jeans",
+      "a dress"
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2009/3-4/family.webp",
+      "alt": "Family and their pets",
+      "width": 424,
+      "height": 391
+    },
+    "answer": 2,
+    "steps": [
+      "Девочка стоит справа от взрослых. Видны верх и юбка одной вещи.",
+      "Подходит a dress, платье."
+    ]
+  },
+  {
+    "title": "Where the Baby Sits",
+    "question": "The baby is sitting on the … .",
+    "choices": [
+      "floor",
+      "chair",
+      "sofa"
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2009/3-4/family.webp",
+      "alt": "Family and their pets",
+      "width": 424,
+      "height": 391
+    },
+    "answer": 0,
+    "steps": [
+      "Малыш изображён внизу справа, на одном уровне с домашними животными.",
+      "Он сидит на полу, on the floor."
+    ]
+  },
+  {
+    "title": "The Children",
+    "question": "There are … in the family.",
+    "choices": [
+      "three girls",
+      "two boys and a girl",
+      "three boys"
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2009/3-4/family.webp",
+      "alt": "Family and their pets",
+      "width": 424,
+      "height": 391
+    },
+    "answer": 1,
+    "steps": [
+      "У взрослых стоят два ребёнка, ещё один сидит на полу.",
+      "Одежда и изображение детей соответствуют двум мальчикам и девочке."
+    ]
+  },
+  {
+    "title": "The Family's Pets",
+    "question": "They … their pets.",
+    "choices": [
+      "don’t love",
+      "doesn’t love",
+      "love"
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2009/3-4/family.webp",
+      "alt": "Family and their pets",
+      "width": 424,
+      "height": 391
+    },
+    "answer": 2,
+    "steps": [
+      "По общей сцене семья проводит время вместе с кошкой и собакой.",
+      "Утвердительная фраза «They love their pets» подходит к сюжету. С they отрицание строилось бы через don’t."
+    ]
+  },
+  {
+    "title": "What the Family Is Like",
+    "question": "This is a … family.",
+    "choices": [
+      "friendly",
+      "bad",
+      "unhappy"
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2009/3-4/family.webp",
+      "alt": "Family and their pets",
+      "width": 424,
+      "height": 391
+    },
+    "answer": 0,
+    "steps": [
+      "Люди и питомцы нарисованы рядом, сцена выглядит спокойной и дружной.",
+      "Friendly означает «дружный»."
+    ]
+  },
+  {
+    "title": "The Story's Name",
+    "question": "Her name is … .",
+    "choices": [
+      "Tom",
+      "Rose",
+      "Nick"
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2009/3-4/girl.webp",
+      "alt": "A girl standing up",
+      "width": 258,
+      "height": 321
+    },
+    "context": "Write a story about the girl. Choose the correct option.",
+    "answer": 1,
+    "steps": [
+      "Условие предлагает составить историю о девочке. На рисунке имя не написано.",
+      "Rose — обычное женское имя. Tom и Nick обычно мужские имена."
+    ]
+  },
+  {
+    "title": "Age in the Story",
+    "question": "She is … .",
+    "choices": [
+      "two",
+      "eight",
+      "eighteen"
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2009/3-4/girl.webp",
+      "alt": "A girl standing up",
+      "width": 258,
+      "height": 321
+    },
+    "context": "Write a story about the girl. Choose the correct option.",
+    "answer": 1,
+    "steps": [
+      "На рисунке нет числа, а в следующих предложениях говорится о школе.",
+      "Восемь лет согласуется с возрастом школьницы, которую предлагает описать буклет."
+    ]
+  },
+  {
+    "title": "Her Hair",
+    "question": "She has … .",
+    "choices": [
+      "short hair",
+      "long hair",
+      "a plait"
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2009/3-4/girl.webp",
+      "alt": "A girl standing up",
+      "width": 258,
+      "height": 321
+    },
+    "context": "Write a story about the girl. Choose the correct option.",
+    "answer": 0,
+    "steps": [
+      "Рассмотри силуэт волос вокруг головы. Они заканчиваются у подбородка.",
+      "Это short hair, короткие волосы."
+    ]
+  },
+  {
+    "title": "Brothers in the Story",
+    "question": "She has a family. She has … .",
+    "choices": [
+      "no brothers",
+      "one brothers",
+      "two brother"
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2009/3-4/girl.webp",
+      "alt": "A girl standing up",
+      "width": 258,
+      "height": 321
+    },
+    "context": "Write a story about the girl. Choose the correct option.",
+    "answer": 0,
+    "steps": [
+      "Семью девочки нужно описать грамматически правильно.",
+      "«No brothers» подходит. Для одного брата нужно one brother, для двух — two brothers."
+    ]
+  },
+  {
+    "title": "Sisters in the Story",
+    "question": "But she has … .",
+    "choices": [
+      "two sister",
+      "a sister",
+      "no sisters"
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2009/3-4/girl.webp",
+      "alt": "A girl standing up",
+      "width": 258,
+      "height": 321
+    },
+    "context": "Write a story about the girl. Choose the correct option.",
+    "answer": 1,
+    "steps": [
+      "После «she has …» нужен грамматически подходящий вариант. But связывает фразу с отсутствием братьев.",
+      "A sister означает «одна сестра». Two sister требует множественного sisters."
+    ]
+  },
+  {
+    "title": "Where She Goes",
+    "question": "She goes to … .",
+    "choices": [
+      "school",
+      "the institute",
+      "work"
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2009/3-4/girl.webp",
+      "alt": "A girl standing up",
+      "width": 258,
+      "height": 321
+    },
+    "context": "Write a story about the girl. Choose the correct option.",
+    "answer": 0,
+    "steps": [
+      "Girl — ребёнок, а рассказ дальше спрашивает про любимый предмет.",
+      "Наиболее уместное место — school."
+    ]
+  },
+  {
+    "title": "A School Subject",
+    "question": "Her favourite subject is … .",
+    "choices": [
+      "England",
+      "English",
+      "London"
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2009/3-4/girl.webp",
+      "alt": "A girl standing up",
+      "width": 258,
+      "height": 321
+    },
+    "context": "Write a story about the girl. Choose the correct option.",
+    "answer": 1,
+    "steps": [
+      "Вариант должен называть учебный предмет.",
+      "English — английский язык. England — страна, London — город."
+    ]
+  },
+  {
+    "title": "A Favourite Sport",
+    "question": "Her favourite sport is … .",
+    "choices": [
+      "ski",
+      "skate",
+      "tennis"
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2009/3-4/girl.webp",
+      "alt": "A girl standing up",
+      "width": 258,
+      "height": 321
+    },
+    "context": "Write a story about the girl. Choose the correct option.",
+    "answer": 2,
+    "steps": [
+      "Предложение требует названия вида спорта.",
+      "Tennis называет спорт. Для других занятий обычно говорят skiing или skating."
+    ]
+  },
+  {
+    "title": "What She Is Wearing",
+    "question": "She is wearing … .",
+    "choices": [
+      "a dress",
+      "a skirt and a blouse",
+      "jeans and a T-shirt"
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2009/3-4/girl.webp",
+      "alt": "A girl standing up",
+      "width": 258,
+      "height": 321
+    },
+    "context": "Write a story about the girl. Choose the correct option.",
+    "answer": 2,
+    "steps": [
+      "У девочки видны две штанины и верх с короткими рукавами.",
+      "Описание «jeans and a T-shirt» соответствует рисунку."
+    ]
+  },
+  {
+    "title": "In Her Hand",
+    "question": "She has a … in her hand.",
+    "choices": [
+      "flower",
+      "book",
+      "schoolbag"
+    ],
+    "figure": {
+      "src": "assets/british-bulldog/2009/3-4/girl.webp",
+      "alt": "A girl standing up",
+      "width": 258,
+      "height": 321
+    },
+    "context": "Write a story about the girl. Choose the correct option.",
+    "answer": 0,
+    "steps": [
+      "Слева от фигуры на конце стебля видны лепестки.",
+      "Она держит flower, цветок."
+    ]
+  }
+]

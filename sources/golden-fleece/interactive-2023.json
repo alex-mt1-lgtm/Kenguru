@@ -1,0 +1,118 @@
+[
+  {
+    "subject": "golden-fleece",
+    "contest": "Золотое руно",
+    "year": 2023,
+    "grade": "1-2",
+    "title": "Поднебесная",
+    "letters": "ABCD",
+    "count": 30,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "zr_2223_quest_lq_1-2.pdf",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Китай и его природа"
+      },
+      {
+        "start": 9,
+        "title": "Традиции и предания"
+      },
+      {
+        "start": 17,
+        "title": "Китай в истории"
+      },
+      {
+        "start": 25,
+        "title": "Сказки и искусство"
+      }
+    ]
+  },
+  {
+    "subject": "golden-fleece",
+    "contest": "Золотое руно",
+    "year": 2023,
+    "grade": "3-4",
+    "title": "Поднебесная",
+    "letters": "ABCD",
+    "count": 45,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "zr_2223_quest_lq_3-4.pdf",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Общие сведения"
+      },
+      {
+        "start": 16,
+        "title": "История"
+      },
+      {
+        "start": 26,
+        "title": "Мифы и сказки"
+      },
+      {
+        "start": 36,
+        "title": "Архитектура"
+      }
+    ]
+  },
+  {
+    "subject": "golden-fleece",
+    "contest": "Золотое руно",
+    "year": 2023,
+    "grade": "5-7",
+    "title": "Поднебесная",
+    "letters": "ABCD",
+    "count": 45,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "zr_2223_quest_lq_5-7.pdf",
+    "sections": [
+      {
+        "start": 1,
+        "title": "Общие сведения"
+      },
+      {
+        "start": 16,
+        "title": "История"
+      },
+      {
+        "start": 26,
+        "title": "Литература"
+      },
+      {
+        "start": 36,
+        "title": "Архитектура и изобразительное искусство"
+      }
+    ]
+  },
+  {
+    "subject": "golden-fleece",
+    "contest": "Золотое руно",
+    "year": 2023,
+    "grade": "8-11",
+    "title": "Поднебесная",
+    "letters": "ABCD",
+    "count": 45,
+    "language": "ru",
+    "points": 3,
+    "tasksFile": "zr_2223_quest_lq_8-11.pdf",
+    "sections": [
+      {
+        "start": 1,
+        "title": "История и общие сведения"
+      },
+      {
+        "start": 16,
+        "title": "Духовные аспекты культуры"
+      },
+      {
+        "start": 31,
+        "title": "Международные культурные связи"
+      }
+    ]
+  }
+]
